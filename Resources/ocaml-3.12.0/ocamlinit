@@ -1,0 +1,49 @@
+let pi_rational_approx = 355./.113.;;
+
+#load "nums.cma";;
+#load "unix.cma";;
+#load "graphics.cma";;
+
+open Num;;
+let rec fact n =
+      if n =/ Int 0 then Int 1 else n */ fact(n -/ Int 1);;
+
+let f x = string_of_num (fact (Int x));;
+
+
+open Graphics;;
+
+let welcome dly=
+open_graph "";
+set_color red;
+draw_rect 10 10 100 100;
+set_color green;
+moveto 10 745;
+set_font "Arial";
+set_text_size 20;
+draw_string "see http://code.google.com/p/ocaml-for-ios/wiki/Welcome for instructions";
+draw_rect 100 100 200 200;
+set_color blue;
+draw_rect 200 200 100 400;
+(*set_font "frabk";*)
+moveto 10 400;
+set_text_size 32;
+draw_string "Hello";
+set_color white;
+moveto 100 300;
+draw_string "Welcome";
+set_color green;
+(*set_font "verdana";*)
+moveto 200 200;
+draw_string "TO";
+set_color white;
+set_text_size 48;
+moveto 300 100;
+draw_string "OCAML";
+set_text_size 12;
+Unix.sleep dly;
+close_graph();;
+
+welcome 15;;
+
+(* #use "graph_test.ml";; *)

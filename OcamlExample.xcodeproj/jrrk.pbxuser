@@ -1,0 +1,2747 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* OcamlExample */ = {
+		activeExec = 0;
+		executables = (
+			6A537F07126D606400FD4E4B /* OcamlExample */,
+		);
+	};
+	1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1158, 4836}}";
+			sepNavSelRange = "{1627, 0}";
+			sepNavVisRange = "{0, 1837}";
+			sepNavWindowFrame = "{{648, 105}, {1217, 1044}}";
+		};
+	};
+	1F3B9A2C0EF2145700286867 /* ocaml_cocosAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 363}}";
+			sepNavSelRange = "{347, 0}";
+			sepNavVisRange = "{0, 510}";
+			sepNavWindowFrame = "{{82, 225}, {931, 514}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv6;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 6A537F07126D606400FD4E4B /* OcamlExample */;
+		activeSDKPreference = iphoneos3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* OcamlExample */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* OcamlExample */,
+		);
+		breakpoints = (
+			6A537F26126D616A00FD4E4B /* RootViewController.m:40 */,
+			6A5380CF126D765800FD4E4B /* ofxiPhoneKeyboard.mm:156 */,
+			6A5380E0126D7C0500FD4E4B /* ofxiPhoneKeyboard.mm:159 */,
+			6A032B55126F7C1000A4162F /* HelloWorldScene.m:39 */,
+			6A032B57126F7C2B00A4162F /* HelloWorldScene.m:36 */,
+			6A032BBA126F863300A4162F /* RootViewController.m:36 */,
+			6A032BD1126F88C400A4162F /* RootViewController.m:108 */,
+			6A032BDB126F8A0700A4162F /* ocaml_cocosAppDelegate.m:316 */,
+			6A032BF7126F8E4C00A4162F /* ocaml_cocosAppDelegate.m:172 */,
+			6A032BFB126F938600A4162F /* ocaml_cocosAppDelegate.m:196 */,
+			6AE090C61270123B00474E60 /* drawPrimitivesNew.m:175 */,
+			6AEBD7111271842A000789D9 /* drawPrimitivesNew.m:225 */,
+			6ADA33541272AB1900C6D9C2 /* open */,
+			6ADA38021272C2BD00C6D9C2 /* sys_file_exists */,
+			6ADA38031272C2C900C6D9C2 /* ocaml_file_exists */,
+			6ADA38041272C2D500C6D9C2 /* stat */,
+			6ADA38101272C5F600C6D9C2 /* sys.c:137 */,
+			6ADA38121272C61600C6D9C2 /* sys.c:175 */,
+			6ADDDE941272EFA800E4739B /* drawPrimitivesNew.m:706 */,
+			6ADDDE961272EFB700E4739B /* drawPrimitivesNew.m:715 */,
+			6ADDDECD1272FC1D00E4739B /* drawPrimitivesNew.m:496 */,
+			6A35E1E512731F14004AF565 /* drawPrimitivesNew.m:371 */,
+			6A35E39112734CDB004AF565 /* sys.c:221 */,
+			6A35E39B12734E42004AF565 /* main.m:86 */,
+			6ADF39A112741F7800FB43C6 /* drawPrimitivesNew.m:384 */,
+			6ADC77FA12756E320033785D /* CCMenuItem.m:303 */,
+			6AEB472D12762E7F00B346AC /* drawPrimitivesNew.m:371 */,
+			6A051FCD1277602800EBF377 /* drawPrimitivesNew.m:439 */,
+			6A051FDB127761BD00EBF377 /* drawPrimitivesNew.m:434 */,
+			6AE538A11278B69400840524 /* ocaml_cocosAppDelegate.m:207 */,
+			6A76B34F1279516F007E4666 /* main.m:84 */,
+			6A76B35F12795579007E4666 /* sys.c:147 */,
+			6A76B37812795FA3007E4666 /* main.m:62 */,
+			6A76B38A12796186007E4666 /* main.m:22 */,
+			6AF10ADF127ADC82006E97C0 /* startup.c:351 */,
+			6AF10AE2127ADCE8006E97C0 /* caml_sys_stat */,
+			6AF10AE3127ADCEF006E97C0 /* caml_sys_file_exsists */,
+			6AF10AE4127ADCF2006E97C0 /* sys.c:172 */,
+			6AF10AE7127ADD0B006E97C0 /* sys.c:132 */,
+			6AF10AEA127ADD1C006E97C0 /* sys.c:136 */,
+			6AF10B02127AE213006E97C0 /* sys.c:173 */,
+			6AF10B05127AE278006E97C0 /* sys.c:157 */,
+			6AF10B70127AF3D8006E97C0 /* drawPrimitivesNew.m:576 */,
+			6AE945D4127B139C00555492 /* CCDirectorIOS.m:79 */,
+			6AE945E0127B13FA00555492 /* ocaml_cocosAppDelegate.m:83 */,
+			6AE945EC127B157900555492 /* drawPrimitivesNew.m:371 */,
+			6AE945EE127B15C200555492 /* drawPrimitivesNew.m:371 */,
+			6AE9472D127B39C500555492 /* draw.c:223 */,
+			6AE9472F127B39C700555492 /* draw.c:215 */,
+			6AE947A3127B548700555492 /* drawPrimitivesNew.m:433 */,
+			6AE5F1DA1289C803003F0372 /* graphstubs.c:160 */,
+			6AE5F2121289D1DD003F0372 /* events.c:159 */,
+			6AE5F2141289D1E6003F0372 /* events.c:183 */,
+			6A5A9979128C89C90069EF40 /* CCLayer.m:219 */,
+			6A037081128D933C002D299E /* EAGLView.m:256 */,
+			6A037085128D9340002D299E /* EAGLView.m:271 */,
+			6A037094128D95A5002D299E /* CCTouchDispatcher.m:117 */,
+			6A037097128D9664002D299E /* CCTouchDispatcher.m:305 */,
+			6A037099128D9667002D299E /* CCTouchDispatcher.m:310 */,
+			6A03709B128D966A002D299E /* CCTouchDispatcher.m:316 */,
+			6A03709D128D9675002D299E /* CCTouchHandler.m:79 */,
+			6A0370A7128D9720002D299E /* ocaml_cocosAppDelegate.m:44 */,
+			6A0370A9128D9722002D299E /* ocaml_cocosAppDelegate.m:39 */,
+			6A037141128D9C05002D299E /* events.c:66 */,
+			6A037155128D9DC4002D299E /* drawPrimitivesNew.m:500 */,
+			6A037162128DA123002D299E /* events.c:148 */,
+			6A03718B128DA5DC002D299E /* events.c:158 */,
+			6A0371EB128DBAA6002D299E /* draw.c:140 */,
+			6A0371ED128DBB35002D299E /* draw.c:139 */,
+			6A0371F3128DBB9C002D299E /* interp.c:871 */,
+			6A0371F5128DBB9E002D299E /* interp.c:877 */,
+			6A0371F7128DBB9F002D299E /* interp.c:884 */,
+			6A0371F9128DBBA1002D299E /* interp.c:891 */,
+			6A0371FB128DBBA3002D299E /* interp.c:898 */,
+			6A0371FD128DBBE4002D299E /* interp.c:907 */,
+			6A037216128DBFCA002D299E /* drawPrimitivesNew.m:401 */,
+		);
+		codeSenseManager = 6A537F18126D608300FD4E4B /* Code sense */;
+		executables = (
+			6A537F07126D606400FD4E4B /* OcamlExample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					597,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					557,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 311280605;
+			PBXWorkspaceStateSaveDate = 311280605;
+		};
+		perUserProjectItems = {
+			6A037145128D9C28002D299E /* PBXTextBookmark */ = 6A037145128D9C28002D299E /* PBXTextBookmark */;
+			6A037190128DA6DD002D299E /* PBXTextBookmark */ = 6A037190128DA6DD002D299E /* PBXTextBookmark */;
+			6A03721A128DC014002D299E /* PBXTextBookmark */ = 6A03721A128DC014002D299E /* PBXTextBookmark */;
+			6A03721B128DC014002D299E /* PBXTextBookmark */ = 6A03721B128DC014002D299E /* PBXTextBookmark */;
+			6A037232128DC17B002D299E /* PBXTextBookmark */ = 6A037232128DC17B002D299E /* PBXTextBookmark */;
+			6A037234128DC17B002D299E /* PBXTextBookmark */ = 6A037234128DC17B002D299E /* PBXTextBookmark */;
+			6A037235128DC17B002D299E /* PBXTextBookmark */ = 6A037235128DC17B002D299E /* PBXTextBookmark */;
+			6A037236128DC17B002D299E /* PBXTextBookmark */ = 6A037236128DC17B002D299E /* PBXTextBookmark */;
+			6A037237128DC17B002D299E /* PBXTextBookmark */ = 6A037237128DC17B002D299E /* PBXTextBookmark */;
+			6A037239128DC17B002D299E /* PBXTextBookmark */ = 6A037239128DC17B002D299E /* PBXTextBookmark */;
+			6A35E19A127316FE004AF565 /* PBXTextBookmark */ = 6A35E19A127316FE004AF565 /* PBXTextBookmark */;
+			6A35E3CC1273951F004AF565 /* PBXTextBookmark */ = 6A35E3CC1273951F004AF565 /* PBXTextBookmark */;
+			6A5381A2126D82C900FD4E4B /* PBXTextBookmark */ = 6A5381A2126D82C900FD4E4B /* PBXTextBookmark */;
+			6A76B3C2127966DC007E4666 /* PBXTextBookmark */ = 6A76B3C2127966DC007E4666 /* PBXTextBookmark */;
+			6AD5266C128DC791001BCC40 /* PBXTextBookmark */ = 6AD5266C128DC791001BCC40 /* PBXTextBookmark */;
+			6AD5268D128DCB39001BCC40 /* PBXTextBookmark */ = 6AD5268D128DCB39001BCC40 /* PBXTextBookmark */;
+			6AD52698128DCC91001BCC40 /* XCBuildMessageTextBookmark */ = 6AD52698128DCC91001BCC40 /* XCBuildMessageTextBookmark */;
+			6AD526A3128DCD90001BCC40 /* PBXTextBookmark */ = 6AD526A3128DCD90001BCC40 /* PBXTextBookmark */;
+			6AD526A4128DCD90001BCC40 /* PBXTextBookmark */ = 6AD526A4128DCD90001BCC40 /* PBXTextBookmark */;
+			6AD526A5128DCD90001BCC40 /* XCBuildMessageTextBookmark */ = 6AD526A5128DCD90001BCC40 /* XCBuildMessageTextBookmark */;
+			6AD526FE128DFE5D001BCC40 /* PBXTextBookmark */ = 6AD526FE128DFE5D001BCC40 /* PBXTextBookmark */;
+			6AD52703128DFE91001BCC40 /* PBXTextBookmark */ = 6AD52703128DFE91001BCC40 /* PBXTextBookmark */;
+			6AD52710128DFEF1001BCC40 /* PBXTextBookmark */ = 6AD52710128DFEF1001BCC40 /* PBXTextBookmark */;
+			6AD5271B128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD5271B128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD5271C128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD5271C128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD5271D128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD5271D128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD5271E128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD5271E128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD5271F128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD5271F128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD52720128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD52720128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD52721128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD52721128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD52722128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD52722128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD52723128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD52723128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD52724128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD52724128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD52725128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD52725128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD52726128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD52726128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD52727128DFEF4001BCC40 /* PBXTextBookmark */ = 6AD52727128DFEF4001BCC40 /* PBXTextBookmark */;
+			6AD6E91A1276BDDE00E49319 /* PBXTextBookmark */ = 6AD6E91A1276BDDE00E49319 /* PBXTextBookmark */;
+			6ADA33721272AFA700C6D9C2 /* PBXTextBookmark */ = 6ADA33721272AFA700C6D9C2 /* PBXTextBookmark */;
+			6ADA33731272AFA700C6D9C2 /* PBXTextBookmark */ = 6ADA33731272AFA700C6D9C2 /* PBXTextBookmark */;
+			6ADA33741272AFA700C6D9C2 /* PBXTextBookmark */ = 6ADA33741272AFA700C6D9C2 /* PBXTextBookmark */;
+			6ADA33751272AFA700C6D9C2 /* PBXTextBookmark */ = 6ADA33751272AFA700C6D9C2 /* PBXTextBookmark */;
+			6ADA33771272AFA700C6D9C2 /* PBXTextBookmark */ = 6ADA33771272AFA700C6D9C2 /* PBXTextBookmark */;
+			6ADA33781272AFA700C6D9C2 /* PBXTextBookmark */ = 6ADA33781272AFA700C6D9C2 /* PBXTextBookmark */;
+			6ADA381C1272CC9400C6D9C2 /* PBXTextBookmark */ = 6ADA381C1272CC9400C6D9C2 /* PBXTextBookmark */;
+			6AE5F1E51289CCAA003F0372 /* PBXTextBookmark */ = 6AE5F1E51289CCAA003F0372 /* PBXTextBookmark */;
+			6AE94607127B1EF300555492 /* PBXTextBookmark */ = 6AE94607127B1EF300555492 /* PBXTextBookmark */;
+			6AE94775127B50BF00555492 /* PBXTextBookmark */ = 6AE94775127B50BF00555492 /* PBXTextBookmark */;
+			6AE94776127B50BF00555492 /* PBXTextBookmark */ = 6AE94776127B50BF00555492 /* PBXTextBookmark */;
+			6AEBD76A1271F260000789D9 /* PBXTextBookmark */ = 6AEBD76A1271F260000789D9 /* PBXTextBookmark */;
+			6AEBDB4B127204E0000789D9 /* PBXTextBookmark */ = 6AEBDB4B127204E0000789D9 /* PBXTextBookmark */;
+			6AF10B1A127AE527006E97C0 /* PBXTextBookmark */ = 6AF10B1A127AE527006E97C0 /* PBXTextBookmark */;
+			6AF4D959127B031500FD3578 /* PBXTextBookmark */ = 6AF4D959127B031500FD3578 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6A537F17126D608300FD4E4B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 1313}}";
+			sepNavSelRange = "{1775, 0}";
+			sepNavVisRange = "{1381, 913}";
+			sepNavWindowFrame = "{{813, 177}, {989, 944}}";
+		};
+	};
+	506EDC30102F528A00A389B3 /* HelloWorldScene.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HelloWorldScene.m;
+		path = "/Users/jrrk/ocaml-cocos/Classes/HelloWorldScene.m";
+		sourceTree = "<absolute>";
+	};
+	506EE05D10304ED200A389B3 /* cocos2d libraries */ = {
+		activeExec = 0;
+	};
+	507ED63811C638C6002ED3FC /* CocosDenshion.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 5486}}";
+			sepNavSelRange = "{7546, 5}";
+			sepNavVisRange = "{6445, 2875}";
+			sepNavWindowFrame = "{{15, 151}, {694, 1022}}";
+		};
+	};
+	50F41307106926B2002A0D5E /* FontLabel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 585}}";
+			sepNavSelRange = "{801, 7}";
+			sepNavVisRange = "{0, 1788}";
+		};
+	};
+	50F41323106926B2002A0D5E /* CJSONSerializer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 2457}}";
+			sepNavSelRange = "{2077, 4}";
+			sepNavVisRange = "{1432, 1048}";
+		};
+	};
+	50F414EF1069373D002A0D5E /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{986, 97}, {694, 1022}}";
+		};
+	};
+	6A032B55126F7C1000A4162F /* HelloWorldScene.m:39 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 506EDC30102F528A00A389B3 /* HelloWorldScene.m */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 39;
+		modificationTime = 311295705.034077;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A032B57126F7C2B00A4162F /* HelloWorldScene.m:36 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 506EDC30102F528A00A389B3 /* HelloWorldScene.m */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 36;
+		location = "ocaml-cocos";
+		modificationTime = 311295705.034118;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A032BBA126F863300A4162F /* RootViewController.m:36 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0F80F5F120A0182005866B8 /* RootViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 36;
+		location = OcamlExample;
+		modificationTime = 311295705.034158;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A032BD1126F88C400A4162F /* RootViewController.m:108 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0F80F5F120A0182005866B8 /* RootViewController.m */;
+		functionName = "-willRotateToInterfaceOrientation:duration:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 108;
+		location = "ocaml-cocos";
+		modificationTime = 311295705.034194;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A032BDB126F8A0700A4162F /* ocaml_cocosAppDelegate.m:316 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */;
+		functionName = "-willRotateToInterfaceOrientation:duration:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 316;
+		location = OcamlExample;
+		modificationTime = 311295705.034231;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A032BF7126F8E4C00A4162F /* ocaml_cocosAppDelegate.m:172 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */;
+		functionName = "-textFieldDidBeginEditing:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 172;
+		location = "ocaml-cocos";
+		modificationTime = 311295705.034384;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A032BFB126F938600A4162F /* ocaml_cocosAppDelegate.m:196 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */;
+		functionName = "-textFieldShouldReturn:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 196;
+		location = OcamlExample;
+		modificationTime = 311295705.034463;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A037081128D933C002D299E /* EAGLView.m:256 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0504EEF122D44A3005B74CB /* EAGLView.m */;
+		functionName = "-touchesMoved:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 256;
+		location = OcamlExample;
+		modificationTime = 311295705.038475;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A037085128D9340002D299E /* EAGLView.m:271 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0504EEF122D44A3005B74CB /* EAGLView.m */;
+		functionName = "-touchesCancelled:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 271;
+		location = OcamlExample;
+		modificationTime = 311295705.038514;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A037094128D95A5002D299E /* CCTouchDispatcher.m:117 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0504EEB122D44A3005B74CB /* CCTouchDispatcher.m */;
+		functionName = "-addStandardDelegate:priority:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 117;
+		location = OcamlExample;
+		modificationTime = 311295705.03855;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A037097128D9664002D299E /* CCTouchDispatcher.m:305 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0504EEB122D44A3005B74CB /* CCTouchDispatcher.m */;
+		functionName = "-touchesBegan:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 305;
+		location = OcamlExample;
+		modificationTime = 311295705.038593;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A037099128D9667002D299E /* CCTouchDispatcher.m:310 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0504EEB122D44A3005B74CB /* CCTouchDispatcher.m */;
+		functionName = "-touchesMoved:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 310;
+		location = OcamlExample;
+		modificationTime = 311295705.038637;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A03709B128D966A002D299E /* CCTouchDispatcher.m:316 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0504EEB122D44A3005B74CB /* CCTouchDispatcher.m */;
+		functionName = "-touchesEnded:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 316;
+		location = OcamlExample;
+		modificationTime = 311295705.038677;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A03709D128D9675002D299E /* CCTouchHandler.m:79 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0504EED122D44A3005B74CB /* CCTouchHandler.m */;
+		functionName = "-initWithDelegate:priority:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 79;
+		location = OcamlExample;
+		modificationTime = 311295705.038715;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A0370A7128D9720002D299E /* ocaml_cocosAppDelegate.m:44 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */;
+		functionName = "-ccTouchesMoved:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 44;
+		location = OcamlExample;
+		modificationTime = 311295705.038765;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A0370A9128D9722002D299E /* ocaml_cocosAppDelegate.m:39 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */;
+		functionName = "-ccTouchesBegan:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 39;
+		location = OcamlExample;
+		modificationTime = 311295705.038858;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A037141128D9C05002D299E /* events.c:66 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A35DC21127309D2004AF565 /* events.c */;
+		functionName = "caml_gr_enqueue_event()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 66;
+		location = OcamlExample;
+		modificationTime = 311295705.038953;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A037145128D9C28002D299E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504EEA122D44A3005B74CB /* CCTouchDispatcher.h */;
+		name = "CCTouchDispatcher.h: 61";
+		rLen = 12;
+		rLoc = 2034;
+		rType = 0;
+		vrLen = 311;
+		vrLoc = 1909;
+	};
+	6A037155128D9DC4002D299E /* drawPrimitivesNew.m:500 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 500;
+		location = OcamlExample;
+		modificationTime = 311295705.039073;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A037162128DA123002D299E /* events.c:148 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A35DC21127309D2004AF565 /* events.c */;
+		functionName = "caml_gr_wait_event_blocking()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 148;
+		location = OcamlExample;
+		modificationTime = 311295705.039246;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A03718B128DA5DC002D299E /* events.c:158 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A35DC21127309D2004AF565 /* events.c */;
+		functionName = "caml_gr_wait_event_blocking()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 158;
+		location = OcamlExample;
+		modificationTime = 311295705.039335;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A037190128DA6DD002D299E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504E9F122D44A2005B74CB /* CCLayer.m */;
+		name = "CCLayer.m: 73";
+		rLen = 27;
+		rLoc = 2161;
+		rType = 0;
+		vrLen = 229;
+		vrLoc = 2041;
+	};
+	6A0371EB128DBAA6002D299E /* draw.c:140 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A35DC20127309D2004AF565 /* draw.c */;
+		functionName = "caml_gr_circle()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 140;
+		location = OcamlExample;
+		modificationTime = 311295705.03943;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A0371ED128DBB35002D299E /* draw.c:139 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A35DC20127309D2004AF565 /* draw.c */;
+		functionName = "caml_gr_circle()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 139;
+		location = OcamlExample;
+		modificationTime = 311295705.734807;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	6A0371F3128DBB9C002D299E /* interp.c:871 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD87C1271FD83000789D9 /* interp.c */;
+		functionName = "caml_interprete()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 871;
+		location = OcamlExample;
+		modificationTime = 311295705.039694;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A0371F5128DBB9E002D299E /* interp.c:877 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD87C1271FD83000789D9 /* interp.c */;
+		functionName = "caml_interprete()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 877;
+		location = OcamlExample;
+		modificationTime = 311295705.039844;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A0371F7128DBB9F002D299E /* interp.c:884 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD87C1271FD83000789D9 /* interp.c */;
+		functionName = "caml_interprete()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 884;
+		location = OcamlExample;
+		modificationTime = 311295705.039959;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A0371F9128DBBA1002D299E /* interp.c:891 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD87C1271FD83000789D9 /* interp.c */;
+		functionName = "caml_interprete()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 891;
+		location = OcamlExample;
+		modificationTime = 311295705.040068;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A0371FB128DBBA3002D299E /* interp.c:898 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD87C1271FD83000789D9 /* interp.c */;
+		functionName = "caml_interprete()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 898;
+		location = OcamlExample;
+		modificationTime = 311295705.04019;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A0371FD128DBBE4002D299E /* interp.c:907 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD87C1271FD83000789D9 /* interp.c */;
+		functionName = "caml_interprete()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 907;
+		location = OcamlExample;
+		modificationTime = 311295705.040306;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A037216128DBFCA002D299E /* drawPrimitivesNew.m:401 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "draw_exec()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 401;
+		location = OcamlExample;
+		modificationTime = 311295705.040415;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A03721A128DC014002D299E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC21127309D2004AF565 /* events.c */;
+		name = "events.c: 51";
+		rLen = 0;
+		rLoc = 2021;
+		rType = 0;
+		vrLen = 281;
+		vrLoc = 1672;
+	};
+	6A03721B128DC014002D299E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEBD87C1271FD83000789D9 /* interp.c */;
+		name = "interp.c: 694";
+		rLen = 0;
+		rLoc = 18040;
+		rType = 0;
+		vrLen = 215;
+		vrLoc = 17860;
+	};
+	6A037232128DC17B002D299E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEBD87C1271FD83000789D9 /* interp.c */;
+		name = "interp.c: 871";
+		rLen = 0;
+		rLoc = 22667;
+		rType = 0;
+		vrLen = 1255;
+		vrLoc = 22619;
+	};
+	6A037234128DC17B002D299E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */;
+		name = "ocaml_cocosAppDelegate.m: 59";
+		rLen = 0;
+		rLoc = 1627;
+		rType = 0;
+		vrLen = 1837;
+		vrLoc = 0;
+	};
+	6A037235128DC17B002D299E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AD6E93A1276C30900E49319 /* glue.h */;
+		name = "glue.h: 87";
+		rLen = 0;
+		rLoc = 2968;
+		rType = 0;
+		vrLen = 2336;
+		vrLoc = 1765;
+	};
+	6A037236128DC17B002D299E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		name = "drawPrimitivesNew.m: 513";
+		rLen = 39;
+		rLoc = 12431;
+		rType = 0;
+		vrLen = 1532;
+		vrLoc = 9878;
+	};
+	6A037237128DC17B002D299E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A037238128DC17B002D299E /* CGGeometry.h */;
+		name = "CGGeometry.h: 14";
+		rLen = 26;
+		rLoc = 249;
+		rType = 0;
+		vrLen = 1527;
+		vrLoc = 0;
+	};
+	6A037238128DC17B002D299E /* CGGeometry.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGGeometry.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 4095}}";
+			sepNavSelRange = "{249, 26}";
+			sepNavVisRange = "{0, 1527}";
+			sepNavWindowFrame = "{{15, 151}, {694, 1022}}";
+		};
+	};
+	6A037239128DC17B002D299E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC25127309D2004AF565 /* open.c */;
+		name = "open.c: 43";
+		rLen = 0;
+		rLoc = 1551;
+		rType = 0;
+		vrLen = 1915;
+		vrLoc = 296;
+	};
+	6A051FCD1277602800EBF377 /* drawPrimitivesNew.m:439 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "-draw";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 439;
+		location = OcamlExample;
+		modificationTime = 311295705.036146;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A051FDB127761BD00EBF377 /* drawPrimitivesNew.m:434 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "-draw";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 434;
+		location = OcamlExample;
+		modificationTime = 311295705.036314;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A35DBE1127309D2004AF565 /* bigarray_stubs.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {842, 14482}}";
+			sepNavSelRange = "{1150, 14}";
+			sepNavVisRange = "{0, 1846}";
+		};
+	};
+	6A35DBED127309D2004AF565 /* cldbm.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {842, 2184}}";
+			sepNavSelRange = "{1110, 0}";
+			sepNavVisRange = "{0, 1704}";
+		};
+	};
+	6A35DC20127309D2004AF565 /* draw.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 4914}}";
+			sepNavSelRange = "{9680, 0}";
+			sepNavVisRange = "{3241, 353}";
+			sepNavWindowFrame = "{{669, 163}, {1140, 877}}";
+		};
+	};
+	6A35DC21127309D2004AF565 /* events.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 2366}}";
+			sepNavSelRange = "{2715, 0}";
+			sepNavVisRange = "{1372, 1686}";
+			sepNavWindowFrame = "{{38, 130}, {694, 1022}}";
+		};
+	};
+	6A35DC22127309D2004AF565 /* graphstubs.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1081, 2067}}";
+			sepNavSelRange = "{2978, 0}";
+			sepNavVisRange = "{1998, 1298}";
+			sepNavWindowFrame = "{{107, 212}, {1140, 877}}";
+		};
+	};
+	6A35DC23127309D2004AF565 /* graphstubs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {705, 869}}";
+			sepNavSelRange = "{2739, 0}";
+			sepNavVisRange = "{0, 3131}";
+			sepNavWindowFrame = "{{38, 131}, {694, 1022}}";
+		};
+	};
+	6A35DC25127309D2004AF565 /* open.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {537, 2548}}";
+			sepNavSelRange = "{2554, 8}";
+			sepNavVisRange = "{2074, 1280}";
+			sepNavWindowFrame = "{{772, 126}, {562, 1023}}";
+		};
+	};
+	6A35DD95127309D2004AF565 /* bng.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1081, 2015}}";
+			sepNavSelRange = "{983, 0}";
+			sepNavVisRange = "{0, 2250}";
+			sepNavWindowFrame = "{{337, 250}, {1140, 877}}";
+		};
+	};
+	6A35DD9E127309D2004AF565 /* nat_stubs.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {842, 5512}}";
+			sepNavSelRange = "{1196, 0}";
+			sepNavVisRange = "{0, 1645}";
+		};
+	};
+	6A35DDD0127309D3004AF565 /* strstubs.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {842, 7046}}";
+			sepNavSelRange = "{1146, 0}";
+			sepNavVisRange = "{0, 1799}";
+		};
+	};
+	6A35DDE3127309D3004AF565 /* st_posix.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 5486}}";
+			sepNavSelRange = "{3580, 20}";
+			sepNavVisRange = "{3423, 550}";
+		};
+	};
+	6A35DDE4127309D3004AF565 /* st_stubs.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {842, 11518}}";
+			sepNavSelRange = "{1332, 0}";
+			sepNavVisRange = "{0, 1640}";
+		};
+	};
+	6A35DE0A127309D3004AF565 /* scheduler.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {842, 11635}}";
+			sepNavSelRange = "{1163, 0}";
+			sepNavVisRange = "{0, 1730}";
+		};
+	};
+	6A35DE3C127309D3004AF565 /* getcwd.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 728}}";
+			sepNavSelRange = "{1418, 5}";
+			sepNavVisRange = "{1074, 524}";
+		};
+	};
+	6A35DE71127309D3004AF565 /* socketpair.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 572}}";
+			sepNavSelRange = "{1329, 6}";
+			sepNavVisRange = "{996, 480}";
+		};
+	};
+	6A35DE80127309D3004AF565 /* unixsupport.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 6058}}";
+			sepNavSelRange = "{5699, 16}";
+			sepNavVisRange = "{5249, 760}";
+		};
+	};
+	6A35DE81127309D3004AF565 /* unixsupport.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {842, 3081}}";
+			sepNavSelRange = "{1344, 0}";
+			sepNavVisRange = "{0, 2060}";
+		};
+	};
+	6A35E19A127316FE004AF565 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50F41323106926B2002A0D5E /* CJSONSerializer.m */;
+		name = "CJSONSerializer.m: 65";
+		rLen = 4;
+		rLoc = 2077;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 1432;
+	};
+	6A35E1E512731F14004AF565 /* drawPrimitivesNew.m:371 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "-draw";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 371;
+		location = OcamlExample;
+		modificationTime = 311295705.035526;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A35E3371273375F004AF565 /* drawPrimitivesNew.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {503, 872}}";
+			sepNavSelRange = "{33, 20}";
+			sepNavVisRange = "{0, 834}";
+			sepNavWindowFrame = "{{417, 154}, {562, 1023}}";
+		};
+	};
+	6A35E39112734CDB004AF565 /* sys.c:221 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD8AA1271FD83000789D9 /* sys.c */;
+		functionName = "caml_sys_getcwd()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 221;
+		location = OcamlExample;
+		modificationTime = 311295705.035686;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A35E39B12734E42004AF565 /* main.m:86 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 29B97316FDCFA39411CA2CEA /* main.m */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 86;
+		location = OcamlExample;
+		modificationTime = 311295705.035728;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A35E3CC1273951F004AF565 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504EBF122D44A3005B74CB /* CCSprite.m */;
+		name = "CCSprite.m: 619";
+		rLen = 8;
+		rLoc = 17952;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 17489;
+	};
+	6A537F07126D606400FD4E4B /* OcamlExample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = OcamlExample;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	6A537F17126D608300FD4E4B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	6A537F18126D608300FD4E4B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6A537F26126D616A00FD4E4B /* RootViewController.m:40 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0F80F5F120A0182005866B8 /* RootViewController.m */;
+		functionName = "-shouldAutorotateToInterfaceOrientation:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 40;
+		location = "ocaml-cocos";
+		modificationTime = 311295705.033913;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A537F43126D66FD00FD4E4B /* ofxiPhoneKeyboard.mm */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = ofxiPhoneKeyboard.mm;
+		path = "/Users/jrrk/ocaml-cocos/Classes/src/ofxiPhoneKeyboard.mm";
+		sourceTree = "<absolute>";
+	};
+	6A5380CF126D765800FD4E4B /* ofxiPhoneKeyboard.mm:156 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A537F43126D66FD00FD4E4B /* ofxiPhoneKeyboard.mm */;
+		functionName = "+scene";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 156;
+		modificationTime = 311295705.034003;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A5380E0126D7C0500FD4E4B /* ofxiPhoneKeyboard.mm:159 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A537F43126D66FD00FD4E4B /* ofxiPhoneKeyboard.mm */;
+		functionName = "+scene";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 159;
+		modificationTime = 311295705.034042;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A5381A2126D82C900FD4E4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504EE0122D44A3005B74CB /* ccTypes.h */;
+		name = "ccTypes.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 4490;
+	};
+	6A5A9979128C89C90069EF40 /* CCLayer.m:219 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0504E9F122D44A2005B74CB /* CCLayer.m */;
+		functionName = "-ccTouchBegan:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 219;
+		location = OcamlExample;
+		modificationTime = 311295705.038403;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A76B34F1279516F007E4666 /* main.m:84 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 29B97316FDCFA39411CA2CEA /* main.m */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 84;
+		location = OcamlExample;
+		modificationTime = 311295705.036565;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A76B35F12795579007E4666 /* sys.c:147 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD8AA1271FD83000789D9 /* sys.c */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 147;
+		location = OcamlExample;
+		modificationTime = 311295705.03661;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A76B37812795FA3007E4666 /* main.m:62 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 29B97316FDCFA39411CA2CEA /* main.m */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 62;
+		location = OcamlExample;
+		modificationTime = 311295705.036647;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A76B38A12796186007E4666 /* main.m:22 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 29B97316FDCFA39411CA2CEA /* main.m */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 22;
+		location = OcamlExample;
+		modificationTime = 311295705.036693;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6A76B38B12796186007E4666 /* main.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		path = main.m;
+		sourceTree = SOURCE_ROOT;
+	};
+	6A76B3C2127966DC007E4666 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEBD8AA1271FD83000789D9 /* sys.c */;
+		name = "sys.c: 146";
+		rLen = 0;
+		rLoc = 3440;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 3172;
+	};
+	6AD5266C128DC791001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 507ED63811C638C6002ED3FC /* CocosDenshion.h */;
+		rLen = 5;
+		rLoc = 7546;
+		rType = 0;
+	};
+	6AD5268D128DCB39001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC22127309D2004AF565 /* graphstubs.c */;
+		rLen = 0;
+		rLoc = 2874;
+		rType = 0;
+	};
+	6AD52698128DCC91001BCC40 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'image_ops' undeclared (first use in this function)";
+		fRef = 6A35DC20127309D2004AF565 /* draw.c */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 326;
+		rType = 1;
+	};
+	6AD526A3128DCD90001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		name = "drawPrimitivesNew.m: 432";
+		rLen = 0;
+		rLoc = 11278;
+		rType = 0;
+		vrLen = 174;
+		vrLoc = 10914;
+	};
+	6AD526A4128DCD90001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC22127309D2004AF565 /* graphstubs.c */;
+		name = "graphstubs.c: 68";
+		rLen = 0;
+		rLoc = 2332;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 2361;
+	};
+	6AD526A5128DCD90001BCC40 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Unused variable 'y'";
+		fRef = 6A35DC20127309D2004AF565 /* draw.c */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 124;
+		rType = 1;
+	};
+	6AD526FE128DFE5D001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC21127309D2004AF565 /* events.c */;
+		rLen = 0;
+		rLoc = 2714;
+		rType = 0;
+	};
+	6AD52703128DFE91001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC23127309D2004AF565 /* graphstubs.h */;
+		rLen = 0;
+		rLoc = 2739;
+		rType = 0;
+	};
+	6AD52710128DFEF1001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEBD8941271FD83000789D9 /* mlvalues.h */;
+		rLen = 1;
+		rLoc = 283;
+		rType = 1;
+	};
+	6AD5271B128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC20127309D2004AF565 /* draw.c */;
+		name = "draw.c: 380";
+		rLen = 0;
+		rLoc = 9680;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 3241;
+	};
+	6AD5271C128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC23127309D2004AF565 /* graphstubs.h */;
+		name = "graphstubs.h: 49";
+		rLen = 0;
+		rLoc = 2739;
+		rType = 0;
+		vrLen = 3131;
+		vrLoc = 0;
+	};
+	6AD5271D128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC21127309D2004AF565 /* events.c */;
+		name = "events.c: 88";
+		rLen = 0;
+		rLoc = 2715;
+		rType = 0;
+		vrLen = 1686;
+		vrLoc = 1372;
+	};
+	6AD5271E128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		name = "drawPrimitivesNew.m: 219";
+		rLen = 0;
+		rLoc = 5586;
+		rType = 0;
+		vrLen = 2001;
+		vrLoc = 4188;
+	};
+	6AD5271F128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEBD8941271FD83000789D9 /* mlvalues.h */;
+		name = "mlvalues.h: 69";
+		rLen = 49;
+		rLoc = 2824;
+		rType = 0;
+		vrLen = 2278;
+		vrLoc = 1991;
+	};
+	6AD52720128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC25127309D2004AF565 /* open.c */;
+		name = "open.c: 89";
+		rLen = 8;
+		rLoc = 2554;
+		rType = 0;
+		vrLen = 1280;
+		vrLoc = 2074;
+	};
+	6AD52721128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC20127309D2004AF565 /* draw.c */;
+		name = "draw.c: 380";
+		rLen = 0;
+		rLoc = 9680;
+		rType = 0;
+		vrLen = 1358;
+		vrLoc = 7959;
+	};
+	6AD52722128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DC22127309D2004AF565 /* graphstubs.c */;
+		name = "graphstubs.c: 94";
+		rLen = 0;
+		rLoc = 2978;
+		rType = 0;
+		vrLen = 1298;
+		vrLoc = 1998;
+	};
+	6AD52723128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 507ED63811C638C6002ED3FC /* CocosDenshion.h */;
+		name = "CocosDenshion.h: 230";
+		rLen = 5;
+		rLoc = 7546;
+		rType = 0;
+		vrLen = 2875;
+		vrLoc = 6445;
+	};
+	6AD52724128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AD6E93A1276C30900E49319 /* glue.h */;
+		name = "glue.h: 82";
+		rLen = 0;
+		rLoc = 2865;
+		rType = 0;
+		vrLen = 2286;
+		vrLoc = 1800;
+	};
+	6AD52725128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEBD87C1271FD83000789D9 /* interp.c */;
+		name = "interp.c: 871";
+		rLen = 0;
+		rLoc = 22667;
+		rType = 0;
+		vrLen = 1281;
+		vrLoc = 22593;
+	};
+	6AD52726128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */;
+		name = "ocaml_cocosAppDelegate.m: 59";
+		rLen = 0;
+		rLoc = 1627;
+		rType = 0;
+		vrLen = 1837;
+		vrLoc = 0;
+	};
+	6AD52727128DFEF4001BCC40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AD52728128DFEF4001BCC40 /* CGGeometry.h */;
+		name = "CGGeometry.h: 14";
+		rLen = 26;
+		rLoc = 249;
+		rType = 0;
+		vrLen = 1527;
+		vrLoc = 0;
+	};
+	6AD52728128DFEF4001BCC40 /* CGGeometry.h */ = {
+		isa = PBXFileReference;
+		name = CGGeometry.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h;
+		sourceTree = "<absolute>";
+	};
+	6AD6E91A1276BDDE00E49319 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504E9D122D44A2005B74CB /* CCLabelTTF.m */;
+		name = "CCLabelTTF.m: 114";
+		rLen = 8;
+		rLoc = 3422;
+		rType = 0;
+		vrLen = 720;
+		vrLoc = 2786;
+	};
+	6AD6E93A1276C30900E49319 /* glue.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 1768}}";
+			sepNavSelRange = "{2865, 0}";
+			sepNavVisRange = "{1800, 2286}";
+			sepNavWindowFrame = "{{910, 151}, {694, 1022}}";
+		};
+	};
+	6ADA33541272AB1900C6D9C2 /* open */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libSystem.B.dylib;
+		modificationTime = 311295705.041441;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+		symbolName = open;
+	};
+	6ADA33721272AFA700C6D9C2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504F03122D44A3005B74CB /* CCFileUtils.m */;
+		name = "CCFileUtils.m: 89";
+		rLen = 0;
+		rLoc = 3097;
+		rType = 0;
+		vrLen = 891;
+		vrLoc = 2416;
+	};
+	6ADA33731272AFA700C6D9C2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504E8F122D44A2005B74CB /* CCConfiguration.m */;
+		name = "CCConfiguration.m: 58";
+		rLen = 0;
+		rLoc = 1989;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 1459;
+	};
+	6ADA33741272AFA700C6D9C2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504EC9122D44A3005B74CB /* CCTexture2D.m */;
+		name = "CCTexture2D.m: 182";
+		rLen = 0;
+		rLoc = 6441;
+		rType = 0;
+		vrLen = 837;
+		vrLoc = 6312;
+	};
+	6ADA33751272AFA700C6D9C2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504ECD122D44A3005B74CB /* CCTextureCache.m */;
+		name = "CCTextureCache.m: 294";
+		rLen = 0;
+		rLoc = 7982;
+		rType = 0;
+		vrLen = 810;
+		vrLoc = 8233;
+	};
+	6ADA33771272AFA700C6D9C2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504EA8122D44A2005B74CB /* CCNode.m */;
+		name = "CCNode.m: 230";
+		rLen = 0;
+		rLoc = 6271;
+		rType = 0;
+		vrLen = 487;
+		vrLoc = 6656;
+	};
+	6ADA33781272AFA700C6D9C2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504EA4122D44A2005B74CB /* CCMenuItem.m */;
+		name = "CCMenuItem.m: 69";
+		rLen = 0;
+		rLoc = 1943;
+		rType = 0;
+		vrLen = 1391;
+		vrLoc = 13335;
+	};
+	6ADA38021272C2BD00C6D9C2 /* sys_file_exists */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		modificationTime = 311295705.041489;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+		symbolName = sys_file_exists;
+	};
+	6ADA38031272C2C900C6D9C2 /* ocaml_file_exists */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		modificationTime = 311295705.041532;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+		symbolName = ocaml_file_exists;
+	};
+	6ADA38041272C2D500C6D9C2 /* stat */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libSystem.B.dylib;
+		modificationTime = 311295705.041582;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+		symbolName = stat;
+	};
+	6ADA38101272C5F600C6D9C2 /* sys.c:137 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD8AA1271FD83000789D9 /* sys.c */;
+		functionName = "nodotfile()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 137;
+		location = OcamlExample;
+		modificationTime = 311295705.034964;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6ADA38121272C61600C6D9C2 /* sys.c:175 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD8AA1271FD83000789D9 /* sys.c */;
+		functionName = "caml_sys_file_exists()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 175;
+		location = OcamlExample;
+		modificationTime = 311295705.035008;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6ADA381C1272CC9400C6D9C2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEBD8851271FD83000789D9 /* main.c */;
+		name = "main.c: 37";
+		rLen = 0;
+		rLoc = 1332;
+		rType = 0;
+		vrLen = 926;
+		vrLoc = 1152;
+	};
+	6ADC77FA12756E320033785D /* CCMenuItem.m:303 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0504EA4122D44A2005B74CB /* CCMenuItem.m */;
+		functionName = "-initFromString:charMapFile:itemWidth:itemHeight:startCharMap:target:selector:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 303;
+		location = OcamlExample;
+		modificationTime = 311295705.035937;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6ADDDE941272EFA800E4739B /* drawPrimitivesNew.m:706 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "bas_read()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 706;
+		location = OcamlExample;
+		modificationTime = 311295705.035046;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6ADDDE961272EFB700E4739B /* drawPrimitivesNew.m:715 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "bas_write()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 715;
+		location = OcamlExample;
+		modificationTime = 311295705.035207;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6ADDDECD1272FC1D00E4739B /* drawPrimitivesNew.m:496 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "stdin_read()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 496;
+		location = OcamlExample;
+		modificationTime = 311295705.035368;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6ADF39A112741F7800FB43C6 /* drawPrimitivesNew.m:384 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "-draw";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 384;
+		location = OcamlExample;
+		modificationTime = 311295705.035771;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AE090B21270100B00474E60 /* drawPrimitivesNew.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 10127}}";
+			sepNavSelRange = "{5586, 0}";
+			sepNavVisRange = "{4188, 2001}";
+			sepNavWindowFrame = "{{15, 117}, {1165, 1056}}";
+		};
+	};
+	6AE090C61270123B00474E60 /* drawPrimitivesNew.m:175 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "-init";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 175;
+		location = "ocaml-cocos";
+		modificationTime = 311295705.034543;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AE538A11278B69400840524 /* ocaml_cocosAppDelegate.m:207 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */;
+		functionName = "-textFieldShouldEndEditing:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 207;
+		location = OcamlExample;
+		modificationTime = 311295705.036486;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AE5F1DA1289C803003F0372 /* graphstubs.c:160 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A35DC22127309D2004AF565 /* graphstubs.c */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 160;
+		location = OcamlExample;
+		modificationTime = 311295731.202977;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	6AE5F1E51289CCAA003F0372 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */;
+		name = "ocaml_cocosAppDelegate.m: 210";
+		rLen = 0;
+		rLoc = 8010;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 6263;
+	};
+	6AE5F2121289D1DD003F0372 /* events.c:159 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A35DC21127309D2004AF565 /* events.c */;
+		functionName = "caml_gr_wait_event_blocking()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 159;
+		location = OcamlExample;
+		modificationTime = 311295705.038191;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AE5F2141289D1E6003F0372 /* events.c:183 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A35DC21127309D2004AF565 /* events.c */;
+		functionName = "caml_gr_wait_event()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 183;
+		location = OcamlExample;
+		modificationTime = 311295705.038307;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AE945D4127B139C00555492 /* CCDirectorIOS.m:79 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = E0504EE8122D44A3005B74CB /* CCDirectorIOS.m */;
+		functionName = "+setDirectorType:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 79;
+		location = OcamlExample;
+		modificationTime = 311295705.037154;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AE945E0127B13FA00555492 /* ocaml_cocosAppDelegate.m:83 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 83;
+		location = OcamlExample;
+		modificationTime = 311295705.037207;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AE945EC127B157900555492 /* drawPrimitivesNew.m:371 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "-draw";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 371;
+		location = OcamlExample;
+		modificationTime = 311295705.037286;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AE945EE127B15C200555492 /* drawPrimitivesNew.m:371 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "-draw";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 371;
+		location = OcamlExample;
+		modificationTime = 311295705.037453;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AE94607127B1EF300555492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504EE8122D44A3005B74CB /* CCDirectorIOS.m */;
+		name = "CCDirectorIOS.m: 80";
+		rLen = 0;
+		rLoc = 2379;
+		rType = 0;
+		vrLen = 543;
+		vrLoc = 2218;
+	};
+	6AE9472D127B39C500555492 /* draw.c:223 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A35DC20127309D2004AF565 /* draw.c */;
+		functionName = "caml_gr_set_text_size()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 223;
+		location = OcamlExample;
+		modificationTime = 311295705.037617;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AE9472F127B39C700555492 /* draw.c:215 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6A35DC20127309D2004AF565 /* draw.c */;
+		functionName = "caml_gr_set_font()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 215;
+		location = OcamlExample;
+		modificationTime = 311295705.037776;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AE94775127B50BF00555492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEBD8621271FD83000789D9 /* dynlink.c */;
+		name = "dynlink.c: 89";
+		rLen = 0;
+		rLoc = 2879;
+		rType = 0;
+		vrLen = 768;
+		vrLoc = 2553;
+	};
+	6AE94776127B50BF00555492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A35DE71127309D3004AF565 /* socketpair.c */;
+		name = "socketpair.c: 31";
+		rLen = 6;
+		rLoc = 1329;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 996;
+	};
+	6AE947A3127B548700555492 /* drawPrimitivesNew.m:433 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "draw_exec()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 433;
+		location = OcamlExample;
+		modificationTime = 311295705.037901;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AEB472D12762E7F00B346AC /* drawPrimitivesNew.m:371 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "-draw";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 371;
+		location = OcamlExample;
+		modificationTime = 311295705.035981;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AEBD7111271842A000789D9 /* drawPrimitivesNew.m:225 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		functionName = "-newOrientation";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 225;
+		location = OcamlExample;
+		modificationTime = 311295705.034785;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AEBD76A1271F260000789D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0504EB4122D44A3005B74CB /* CCProgressTimer.m */;
+		name = "CCProgressTimer.m: 48";
+		rLen = 5;
+		rLoc = 1659;
+		rType = 0;
+		vrLen = 574;
+		vrLoc = 1292;
+	};
+	6AEBD8511271FD83000789D9 /* alloc.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 2431}}";
+			sepNavSelRange = "{5021, 8}";
+			sepNavVisRange = "{3422, 1611}";
+			sepNavWindowFrame = "{{710, 130}, {694, 1022}}";
+		};
+	};
+	6AEBD85C1271FD83000789D9 /* compatibility.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 4719}}";
+			sepNavSelRange = "{3879, 21}";
+			sepNavVisRange = "{3335, 1116}";
+		};
+	};
+	6AEBD85D1271FD83000789D9 /* config.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1081, 2119}}";
+			sepNavSelRange = "{1404, 21}";
+			sepNavVisRange = "{0, 1988}";
+			sepNavWindowFrame = "{{61, 254}, {1140, 877}}";
+		};
+	};
+	6AEBD8621271FD83000789D9 /* dynlink.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1175, 3640}}";
+			sepNavSelRange = "{2622, 0}";
+			sepNavVisRange = "{2409, 1317}";
+			sepNavWindowFrame = "{{61, 260}, {1071, 871}}";
+		};
+	};
+	6AEBD8661271FD83000789D9 /* fail.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 2041}}";
+			sepNavSelRange = "{2581, 21}";
+			sepNavVisRange = "{2228, 638}";
+		};
+	};
+	6AEBD87C1271FD83000789D9 /* interp.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 15236}}";
+			sepNavSelRange = "{22667, 0}";
+			sepNavVisRange = "{22593, 1281}";
+			sepNavWindowFrame = "{{806, 171}, {1071, 871}}";
+		};
+	};
+	6AEBD8801271FD83000789D9 /* io.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 10361}}";
+			sepNavSelRange = "{7991, 0}";
+			sepNavVisRange = "{8366, 731}";
+		};
+	};
+	6AEBD8851271FD83000789D9 /* main.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 780}}";
+			sepNavSelRange = "{1332, 0}";
+			sepNavVisRange = "{1152, 926}";
+			sepNavWindowFrame = "{{107, 218}, {1071, 871}}";
+		};
+	};
+	6AEBD8931271FD83000789D9 /* misc.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {842, 1794}}";
+			sepNavSelRange = "{1548, 17}";
+			sepNavVisRange = "{1155, 1021}";
+		};
+	};
+	6AEBD8941271FD83000789D9 /* mlvalues.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 3848}}";
+			sepNavSelRange = "{2824, 49}";
+			sepNavVisRange = "{1991, 2278}";
+			sepNavWindowFrame = "{{1198, 121}, {694, 1022}}";
+		};
+	};
+	6AEBD8A71271FD83000789D9 /* startup.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 6669}}";
+			sepNavSelRange = "{9918, 0}";
+			sepNavVisRange = "{9567, 620}";
+			sepNavWindowFrame = "{{84, 239}, {1071, 871}}";
+		};
+	};
+	6AEBD8AA1271FD83000789D9 /* sys.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {930, 4823}}";
+			sepNavSelRange = "{1652, 0}";
+			sepNavVisRange = "{2610, 1247}";
+			sepNavWindowFrame = "{{15, 229}, {989, 944}}";
+		};
+	};
+	6AEBD8AE1271FD83000789D9 /* unix.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 3601}}";
+			sepNavSelRange = "{2093, 0}";
+			sepNavVisRange = "{1860, 783}";
+		};
+	};
+	6AEBD9CA1272006A000789D9 /* instrtrace.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 3224}}";
+			sepNavSelRange = "{1002, 0}";
+			sepNavVisRange = "{0, 2190}";
+			sepNavWindowFrame = "{{15, 302}, {1071, 871}}";
+		};
+	};
+	6AEBDB4B127204E0000789D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEBD9CA1272006A000789D9 /* instrtrace.c */;
+		name = "instrtrace.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1067;
+		vrLoc = 0;
+	};
+	6AF10ADF127ADC82006E97C0 /* startup.c:351 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD8A71271FD83000789D9 /* startup.c */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 351;
+		location = OcamlExample;
+		modificationTime = 311295705.036733;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AF10AE2127ADCE8006E97C0 /* caml_sys_stat */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		modificationTime = 311295705.041618;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+		symbolName = caml_sys_stat;
+	};
+	6AF10AE3127ADCEF006E97C0 /* caml_sys_file_exsists */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		modificationTime = 311295705.041663;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+		symbolName = caml_sys_file_exsists;
+	};
+	6AF10AE4127ADCF2006E97C0 /* sys.c:172 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD8AA1271FD83000789D9 /* sys.c */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 172;
+		location = OcamlExample;
+		modificationTime = 311295705.036776;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AF10AE7127ADD0B006E97C0 /* sys.c:132 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD8AA1271FD83000789D9 /* sys.c */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 132;
+		modificationTime = 311295705.036814;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	6AF10AEA127ADD1C006E97C0 /* sys.c:136 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD8AA1271FD83000789D9 /* sys.c */;
+		functionName = "nodotfile()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 136;
+		location = OcamlExample;
+		modificationTime = 311295705.03685;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AF10B02127AE213006E97C0 /* sys.c:173 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD8AA1271FD83000789D9 /* sys.c */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 173;
+		location = OcamlExample;
+		modificationTime = 311295705.036885;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AF10B05127AE278006E97C0 /* sys.c:157 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AEBD8AA1271FD83000789D9 /* sys.c */;
+		functionName = "caml_sys_open()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 157;
+		location = OcamlExample;
+		modificationTime = 311295705.036922;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AF10B1A127AE527006E97C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6A76B38B12796186007E4666 /* main.m */;
+		name = "main.m: 72";
+		rLen = 0;
+		rLoc = 2032;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 1541;
+	};
+	6AF10B70127AF3D8006E97C0 /* drawPrimitivesNew.m:576 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6AE090B21270100B00474E60 /* drawPrimitivesNew.m */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 576;
+		location = OcamlExample;
+		modificationTime = 311295705.036978;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	6AF4D959127B031500FD3578 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AEBD8A71271FD83000789D9 /* startup.c */;
+		name = "startup.c: 351";
+		rLen = 0;
+		rLoc = 9918;
+		rType = 0;
+		vrLen = 620;
+		vrLoc = 9567;
+	};
+	E0504E7C122D44A2005B74CB /* CCActionManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 4693}}";
+			sepNavSelRange = "{2124, 85}";
+			sepNavVisRange = "{0, 1606}";
+		};
+	};
+	E0504E8C122D44A2005B74CB /* CCCompatibility.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 7150}}";
+			sepNavSelRange = "{7278, 5}";
+			sepNavVisRange = "{6976, 514}";
+		};
+	};
+	E0504E8E122D44A2005B74CB /* CCConfiguration.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 1430}}";
+			sepNavSelRange = "{2215, 13}";
+			sepNavVisRange = "{1848, 853}";
+		};
+	};
+	E0504E8F122D44A2005B74CB /* CCConfiguration.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 2327}}";
+			sepNavSelRange = "{2747, 14}";
+			sepNavVisRange = "{2322, 905}";
+		};
+	};
+	E0504E91122D44A2005B74CB /* CCDirector.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 7241}}";
+			sepNavSelRange = "{12131, 718}";
+			sepNavVisRange = "{12062, 983}";
+		};
+	};
+	E0504E93122D44A2005B74CB /* CCDrawingPrimitives.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1175, 3458}}";
+			sepNavSelRange = "{5611, 0}";
+			sepNavVisRange = "{5191, 962}";
+			sepNavWindowFrame = "{{38, 277}, {975, 875}}";
+		};
+	};
+	E0504E97122D44A2005B74CB /* CCGrid.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 7696}}";
+			sepNavSelRange = "{4841, 11}";
+			sepNavVisRange = "{4491, 769}";
+			sepNavWindowFrame = "{{38, 638}, {931, 514}}";
+		};
+	};
+	E0504E98122D44A2005B74CB /* CCLabelAtlas.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 897}}";
+			sepNavSelRange = "{1357, 12}";
+			sepNavVisRange = "{931, 934}";
+		};
+	};
+	E0504E99122D44A2005B74CB /* CCLabelAtlas.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 2314}}";
+			sepNavSelRange = "{5622, 8}";
+			sepNavVisRange = "{4482, 1211}";
+		};
+	};
+	E0504E9A122D44A2005B74CB /* CCLabelBMFont.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 2431}}";
+			sepNavSelRange = "{3842, 12}";
+			sepNavVisRange = "{3240, 997}";
+		};
+	};
+	E0504E9B122D44A2005B74CB /* CCLabelBMFont.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 8450}}";
+			sepNavSelRange = "{1890, 21}";
+			sepNavVisRange = "{1800, 674}";
+			sepNavWindowFrame = "{{61, 256}, {975, 875}}";
+		};
+	};
+	E0504E9C122D44A2005B74CB /* CCLabelTTF.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 806}}";
+			sepNavSelRange = "{1550, 21}";
+			sepNavVisRange = "{1262, 1407}";
+		};
+	};
+	E0504E9D122D44A2005B74CB /* CCLabelTTF.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 1521}}";
+			sepNavSelRange = "{3422, 8}";
+			sepNavVisRange = "{2786, 720}";
+			sepNavWindowFrame = "{{577, 109}, {1217, 1044}}";
+		};
+	};
+	E0504E9E122D44A2005B74CB /* CCLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 2470}}";
+			sepNavSelRange = "{1886, 50}";
+			sepNavVisRange = "{1651, 1070}";
+		};
+	};
+	E0504E9F122D44A2005B74CB /* CCLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 5330}}";
+			sepNavSelRange = "{2161, 27}";
+			sepNavVisRange = "{2041, 229}";
+		};
+	};
+	E0504EA0122D44A2005B74CB /* ccMacros.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1158, 2873}}";
+			sepNavSelRange = "{5640, 10}";
+			sepNavVisRange = "{4458, 2751}";
+			sepNavWindowFrame = "{{15, 129}, {1217, 1044}}";
+		};
+	};
+	E0504EA2122D44A2005B74CB /* CCMenu.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 6435}}";
+			sepNavSelRange = "{3755, 27}";
+			sepNavVisRange = "{3356, 791}";
+		};
+	};
+	E0504EA4122D44A2005B74CB /* CCMenuItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1363, 8515}}";
+			sepNavSelRange = "{7260, 12}";
+			sepNavVisRange = "{6811, 1581}";
+		};
+	};
+	E0504EA8122D44A2005B74CB /* CCNode.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1175, 11414}}";
+			sepNavSelRange = "{12089, 0}";
+			sepNavVisRange = "{11705, 586}";
+			sepNavWindowFrame = "{{15, 129}, {1217, 1044}}";
+		};
+	};
+	E0504EAE122D44A2005B74CB /* CCParticleSystem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {916, 10296}}";
+			sepNavSelRange = "{10360, 72}";
+			sepNavVisRange = "{9456, 1194}";
+			sepNavWindowFrame = "{{785, 110}, {975, 875}}";
+		};
+	};
+	E0504EB4122D44A3005B74CB /* CCProgressTimer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {649, 6552}}";
+			sepNavSelRange = "{1659, 5}";
+			sepNavVisRange = "{1292, 574}";
+		};
+	};
+	E0504EB5122D44A3005B74CB /* CCProtocols.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 1404}}";
+			sepNavSelRange = "{2530, 11}";
+			sepNavVisRange = "{2062, 809}";
+		};
+	};
+	E0504EBB122D44A3005B74CB /* CCScene.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 585}}";
+			sepNavSelRange = "{1458, 0}";
+			sepNavVisRange = "{557, 934}";
+		};
+	};
+	E0504EBC122D44A3005B74CB /* CCScheduler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 2860}}";
+			sepNavSelRange = "{2239, 5}";
+			sepNavVisRange = "{1736, 1103}";
+		};
+	};
+	E0504EBF122D44A3005B74CB /* CCSprite.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1175, 12818}}";
+			sepNavSelRange = "{22819, 40}";
+			sepNavVisRange = "{22555, 544}";
+		};
+	};
+	E0504EC9122D44A3005B74CB /* CCTexture2D.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1230, 8931}}";
+			sepNavSelRange = "{5721, 0}";
+			sepNavVisRange = "{5086, 717}";
+		};
+	};
+	E0504ECD122D44A3005B74CB /* CCTextureCache.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 5473}}";
+			sepNavSelRange = "{6745, 0}";
+			sepNavVisRange = "{6451, 1005}";
+		};
+	};
+	E0504EE0122D44A3005B74CB /* ccTypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {590, 3302}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{4490, 350}";
+			sepNavWindowFrame = "{{15, 129}, {1217, 1044}}";
+		};
+	};
+	E0504EE5122D44A3005B74CB /* CCNS.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {930, 819}}";
+			sepNavSelRange = "{1698, 19}";
+			sepNavVisRange = "{0, 2405}";
+			sepNavWindowFrame = "{{163, 126}, {989, 944}}";
+		};
+	};
+	E0504EE8122D44A3005B74CB /* CCDirectorIOS.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 10634}}";
+			sepNavSelRange = "{2449, 0}";
+			sepNavVisRange = "{2104, 703}";
+			sepNavWindowFrame = "{{145, 110}, {1217, 1044}}";
+		};
+	};
+	E0504EE9122D44A3005B74CB /* CCTouchDelegateProtocol.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 988}}";
+			sepNavSelRange = "{2695, 14}";
+			sepNavVisRange = "{2058, 953}";
+		};
+	};
+	E0504EEA122D44A3005B74CB /* CCTouchDispatcher.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 1716}}";
+			sepNavSelRange = "{2034, 12}";
+			sepNavVisRange = "{1909, 311}";
+		};
+	};
+	E0504EEB122D44A3005B74CB /* CCTouchDispatcher.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1356, 4004}}";
+			sepNavSelRange = "{2505, 14}";
+			sepNavVisRange = "{2026, 1169}";
+		};
+	};
+	E0504EED122D44A3005B74CB /* CCTouchHandler.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 1781}}";
+			sepNavSelRange = "{2583, 14}";
+			sepNavVisRange = "{2235, 870}";
+		};
+	};
+	E0504EEF122D44A3005B74CB /* EAGLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1881, 3601}}";
+			sepNavSelRange = "{8253, 0}";
+			sepNavVisRange = "{7294, 979}";
+			sepNavWindowFrame = "{{15, 151}, {694, 1022}}";
+		};
+	};
+	E0504F00122D44A3005B74CB /* CCArray.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1175, 2873}}";
+			sepNavSelRange = "{1821, 0}";
+			sepNavVisRange = "{1462, 631}";
+		};
+	};
+	E0504F02122D44A3005B74CB /* CCFileUtils.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {877, 682}}";
+			sepNavSelRange = "{1189, 461}";
+			sepNavVisRange = "{0, 1650}";
+			sepNavWindowFrame = "{{38, 342}, {936, 810}}";
+		};
+	};
+	E0504F03122D44A3005B74CB /* CCFileUtils.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 1300}}";
+			sepNavSelRange = "{2656, 0}";
+			sepNavVisRange = "{2176, 921}";
+		};
+	};
+	E0504F08122D44A3005B74CB /* CGPointExtension.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 4056}}";
+			sepNavSelRange = "{1873, 36}";
+			sepNavVisRange = "{954, 1574}";
+			sepNavWindowFrame = "{{61, 109}, {694, 1022}}";
+		};
+	};
+	E0F80F5E120A0182005866B8 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {872, 386}}";
+			sepNavSelRange = "{230, 0}";
+			sepNavVisRange = "{0, 260}";
+			sepNavWindowFrame = "{{275, 600}, {931, 514}}";
+		};
+	};
+	E0F80F5F120A0182005866B8 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1158, 1768}}";
+			sepNavSelRange = "{2445, 128}";
+			sepNavVisRange = "{0, 1995}";
+			sepNavWindowFrame = "{{15, 129}, {1217, 1044}}";
+		};
+	};
+}
