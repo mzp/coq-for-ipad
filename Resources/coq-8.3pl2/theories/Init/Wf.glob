@@ -1,0 +1,215 @@
+FCoq.Init.Wf
+R807 Coq.Init.Notations <> <> lib
+R833 Coq.Init.Logic <> <> lib
+R855 Coq.Init.Datatypes <> <> lib
+sec 926 <> Well_founded
+var 951 Well_founded A
+var 971 Well_founded R
+R980 Coq.Init.Wf <> Well_founded.A var
+R975 Coq.Init.Wf <> Well_founded.A var
+ind 1149 <> Acc
+constr 1175 <> Acc_intro
+R1157 Coq.Init.Wf <> Well_founded.A var
+R1219 Coq.Init.Wf <> Acc ind
+R1209 Coq.Init.Wf <> Acc ind
+R1200 Coq.Init.Wf <> Well_founded.R var
+R1197 Coq.Init.Wf <> Well_founded.A var
+prf 1234 <> Acc_inv
+R1286 Coq.Init.Wf <> Acc ind
+R1277 Coq.Init.Wf <> Well_founded.R var
+R1274 Coq.Init.Wf <> Well_founded.A var
+R1256 Coq.Init.Wf <> Acc ind
+R1253 Coq.Init.Wf <> Well_founded.A var
+R1354 Coq.Init.Wf <> Acc_inv thm
+def 1453 <> well_founded
+R1481 Coq.Init.Wf <> Acc ind
+R1478 Coq.Init.Wf <> Well_founded.A var
+var 1553 Well_founded Rwf
+R1559 Coq.Init.Wf <> well_founded def
+prf 1583 <> well_founded_induction_type
+R1699 Coq.Init.Wf <> Well_founded.A var
+R1665 Coq.Init.Wf <> Well_founded.R var
+R1662 Coq.Init.Wf <> Well_founded.A var
+R1649 Coq.Init.Wf <> Well_founded.A var
+R1624 Coq.Init.Wf <> Well_founded.A var
+R1731 Coq.Init.Wf <> Acc_rect scheme
+R1731 Coq.Init.Wf <> Acc_rect scheme
+prf 1767 <> well_founded_induction
+R1877 Coq.Init.Wf <> Well_founded.A var
+R1843 Coq.Init.Wf <> Well_founded.R var
+R1840 Coq.Init.Wf <> Well_founded.A var
+R1827 Coq.Init.Wf <> Well_founded.A var
+R1803 Coq.Init.Wf <> Well_founded.A var
+R1920 Coq.Init.Wf <> well_founded_induction_type thm
+R1908 Coq.Init.Wf <> Well_founded.A var
+R1920 Coq.Init.Wf <> well_founded_induction_type thm
+R1908 Coq.Init.Wf <> Well_founded.A var
+prf 1972 <> well_founded_ind
+R2077 Coq.Init.Wf <> Well_founded.A var
+R2043 Coq.Init.Wf <> Well_founded.R var
+R2040 Coq.Init.Wf <> Well_founded.A var
+R2027 Coq.Init.Wf <> Well_founded.A var
+R2002 Coq.Init.Wf <> Well_founded.A var
+R2121 Coq.Init.Wf <> well_founded_induction_type thm
+R2108 Coq.Init.Wf <> Well_founded.A var
+R2121 Coq.Init.Wf <> well_founded_induction_type thm
+R2108 Coq.Init.Wf <> Well_founded.A var
+sec 2204 Well_founded FixPoint
+var 2226 Well_founded.FixPoint P
+R2230 Coq.Init.Wf <> Well_founded.A var
+var 2252 Well_founded.FixPoint F
+R2298 Coq.Init.Wf <> Well_founded.FixPoint.P var
+R2290 Coq.Init.Wf <> Well_founded.FixPoint.P var
+R2281 Coq.Init.Wf <> Well_founded.R var
+R2278 Coq.Init.Wf <> Well_founded.A var
+R2265 Coq.Init.Wf <> Well_founded.A var
+def 2315 <> Fix_F
+R2324 Coq.Init.Wf <> Well_founded.A var
+R2330 Coq.Init.Wf <> Acc ind
+R2339 Coq.Init.Wf <> Well_founded.FixPoint.P var
+R2350 Coq.Init.Wf <> Well_founded.FixPoint.F var
+R2376 Coq.Init.Wf <> Fix_F def
+R2383 Coq.Init.Wf <> Acc_inv thm
+R2366 Coq.Init.Wf <> Well_founded.R var
+R2360 Coq.Init.Wf <> Well_founded.A var
+prf 2461 <> Fix_F_eq
+R2557:2559 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2504 Coq.Init.Wf <> Well_founded.FixPoint.F var
+R2530 Coq.Init.Wf <> Fix_F def
+R2544 Coq.Init.Wf <> Acc_inv thm
+R2520 Coq.Init.Wf <> Well_founded.R var
+R2514 Coq.Init.Wf <> Well_founded.A var
+R2560 Coq.Init.Wf <> Fix_F def
+R2491 Coq.Init.Wf <> Acc ind
+R2485 Coq.Init.Wf <> Well_founded.A var
+R2605 Coq.Init.Wf <> Acc_inv_dep scheme
+R2605 Coq.Init.Wf <> Acc_inv_dep scheme
+def 2645 <> Fix
+R2652 Coq.Init.Wf <> Well_founded.A var
+R2658 Coq.Init.Wf <> Fix_F def
+R2665 Coq.Init.Wf <> Well_founded.Rwf var
+var 2824 Well_founded.FixPoint F_ext
+R2937:2939 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2934 Coq.Init.Wf <> Well_founded.FixPoint.F var
+R2940 Coq.Init.Wf <> Well_founded.FixPoint.F var
+R2921:2923 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2908 Coq.Init.Wf <> Well_founded.R var
+R2902 Coq.Init.Wf <> Well_founded.A var
+R2877 Coq.Init.Wf <> Well_founded.FixPoint.P var
+R2868 Coq.Init.Wf <> Well_founded.R var
+R2865 Coq.Init.Wf <> Well_founded.A var
+R2877 Coq.Init.Wf <> Well_founded.FixPoint.P var
+R2868 Coq.Init.Wf <> Well_founded.R var
+R2865 Coq.Init.Wf <> Well_founded.A var
+R2848 Coq.Init.Wf <> Well_founded.A var
+prf 2954 <> Fix_F_inv
+R2999:3001 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2992 Coq.Init.Wf <> Fix_F def
+R3002 Coq.Init.Wf <> Fix_F def
+R2984 Coq.Init.Wf <> Acc ind
+R2984 Coq.Init.Wf <> Acc ind
+R2976 Coq.Init.Wf <> Well_founded.A var
+R3043 Coq.Init.Wf <> Well_founded.Rwf var
+R3043 Coq.Init.Wf <> Well_founded.Rwf var
+R3074 Coq.Init.Wf <> Fix_F_eq thm
+R3099 Coq.Init.Wf <> Fix_F_eq thm
+R3074 Coq.Init.Wf <> Fix_F_eq thm
+R3099 Coq.Init.Wf <> Fix_F_eq thm
+R3129 Coq.Init.Wf <> Well_founded.FixPoint.F_ext var
+R3129 Coq.Init.Wf <> Well_founded.FixPoint.F_ext var
+prf 3158 <> Fix_eq
+R3184:3186 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3179 Coq.Init.Wf <> Fix def
+R3187 Coq.Init.Wf <> Well_founded.FixPoint.F var
+R3213 Coq.Init.Wf <> Fix def
+R3203 Coq.Init.Wf <> Well_founded.R var
+R3197 Coq.Init.Wf <> Well_founded.A var
+R3176 Coq.Init.Wf <> Well_founded.A var
+R3276 Coq.Init.Wf <> Fix_F_eq thm
+R3276 Coq.Init.Wf <> Fix_F_eq thm
+R3295 Coq.Init.Wf <> Well_founded.FixPoint.F_ext var
+R3295 Coq.Init.Wf <> Well_founded.FixPoint.F_ext var
+R3319 Coq.Init.Wf <> Fix_F_inv thm
+R3319 Coq.Init.Wf <> Fix_F_inv thm
+R3343 Coq.Init.Wf Well_founded.FixPoint <> sec
+R3358 Coq.Init.Wf Well_founded <> sec
+sec 3423 <> Well_founded_2
+var 3452 Well_founded_2 A
+var 3454 Well_founded_2 B
+var 3475 Well_founded_2 R
+R3489:3491 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3488 Coq.Init.Wf <> Well_founded_2.A var
+R3492 Coq.Init.Wf <> Well_founded_2.B var
+R3480:3482 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3479 Coq.Init.Wf <> Well_founded_2.A var
+R3483 Coq.Init.Wf <> Well_founded_2.B var
+var 3515 Well_founded_2 P
+R3524 Coq.Init.Wf <> Well_founded_2.B var
+R3519 Coq.Init.Wf <> Well_founded_2.A var
+sec 3546 Well_founded_2 FixPoint_2
+var 3574 Well_founded_2.FixPoint_2 F
+R3667 Coq.Init.Wf <> Well_founded_2.P var
+R3656 Coq.Init.Wf <> Well_founded_2.P var
+R3635 Coq.Init.Wf <> Well_founded_2.R var
+R3645:3645 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3647:3648 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3651:3651 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3637:3637 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3639:3640 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3643:3643 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3631 Coq.Init.Wf <> Well_founded_2.B var
+R3624 Coq.Init.Wf <> Well_founded_2.A var
+R3601 Coq.Init.Wf <> Well_founded_2.B var
+R3594 Coq.Init.Wf <> Well_founded_2.A var
+def 3687 <> Fix_F_2
+R3698 Coq.Init.Wf <> Well_founded_2.A var
+R3705 Coq.Init.Wf <> Well_founded_2.B var
+R3711 Coq.Init.Wf <> Acc ind
+R3717:3717 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3719:3720 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3723:3723 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3715 Coq.Init.Wf <> Well_founded_2.R var
+R3728 Coq.Init.Wf <> Well_founded_2.P var
+R3742 Coq.Init.Wf <> Well_founded_2.FixPoint_2.F var
+R3802 Coq.Init.Wf <> Fix_F_2 def
+R3827 Coq.Init.Wf <> Acc_inv thm
+R3837:3837 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3839:3839 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3842:3842 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3771 Coq.Init.Wf <> Well_founded_2.R var
+R3781:3781 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3783:3784 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3787:3787 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3773:3773 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3775:3776 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3779:3779 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3765 Coq.Init.Wf <> Well_founded_2.B var
+R3758 Coq.Init.Wf <> Well_founded_2.A var
+R3856 Coq.Init.Wf Well_founded_2.FixPoint_2 <> sec
+var 3882 Well_founded_2 Rwf
+R3888 Coq.Init.Wf <> well_founded def
+R3901 Coq.Init.Wf <> Well_founded_2.R var
+prf 3915 <> well_founded_induction_type_2
+R4066 Coq.Init.Wf <> Well_founded_2.P var
+R4062 Coq.Init.Wf <> Well_founded_2.B var
+R4056 Coq.Init.Wf <> Well_founded_2.A var
+R4032 Coq.Init.Wf <> Well_founded_2.P var
+R4021 Coq.Init.Wf <> Well_founded_2.P var
+R4000 Coq.Init.Wf <> Well_founded_2.R var
+R4010:4010 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4012:4013 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4016:4016 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4002:4002 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4004:4005 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4008:4008 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3996 Coq.Init.Wf <> Well_founded_2.B var
+R3989 Coq.Init.Wf <> Well_founded_2.A var
+R3968 Coq.Init.Wf <> Well_founded_2.B var
+R3961 Coq.Init.Wf <> Well_founded_2.A var
+R4099 Coq.Init.Wf <> Fix_F_2 def
+R4099 Coq.Init.Wf <> Fix_F_2 def
+R4130 Coq.Init.Wf Well_founded_2 <> sec
+syndef 4156 <> Acc_iter
+R4170 Coq.Init.Wf <> Fix_F def
+syndef 4223 <> Acc_iter_2
+R4237 Coq.Init.Wf <> Fix_F_2 def

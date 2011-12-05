@@ -1,0 +1,72 @@
+"plugins/ring/ring_plugin_mod.ml" 1 0 6 "plugins/ring/ring_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/ring/ring_plugin_mod.ml" 1 0 28 "plugins/ring/ring_plugin_mod.ml" 1 0 34
+type(
+  string
+)
+"plugins/ring/ring_plugin_mod.ml" 1 0 6 "plugins/ring/ring_plugin_mod.ml" 1 0 34
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/ring/ring_plugin_mod.ml" 2 36 42 "plugins/ring/ring_plugin_mod.ml" 2 36 64
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/ring/ring_plugin_mod.ml" 2 36 64 "plugins/ring/ring_plugin_mod.ml" 2 36 72
+type(
+  string
+)
+"plugins/ring/ring_plugin_mod.ml" 2 36 42 "plugins/ring/ring_plugin_mod.ml" 2 36 72
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/ring/ring_plugin_mod.ml" 3 74 80 "plugins/ring/ring_plugin_mod.ml" 3 74 102
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/ring/ring_plugin_mod.ml" 3 74 102 "plugins/ring/ring_plugin_mod.ml" 3 74 119
+type(
+  string
+)
+"plugins/ring/ring_plugin_mod.ml" 3 74 80 "plugins/ring/ring_plugin_mod.ml" 3 74 119
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/ring/ring_plugin_mod.ml" 4 121 127 "plugins/ring/ring_plugin_mod.ml" 4 121 149
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/ring/ring_plugin_mod.ml" 4 121 149 "plugins/ring/ring_plugin_mod.ml" 4 121 162
+type(
+  string
+)
+"plugins/ring/ring_plugin_mod.ml" 4 121 127 "plugins/ring/ring_plugin_mod.ml" 4 121 162
+call(
+  stack
+)
+type(
+  unit
+)

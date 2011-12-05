@@ -1,0 +1,3303 @@
+"plugins/xml/proofTree2Xml.ml4" 15 976 980 "plugins/xml/proofTree2Xml.ml4" 15 976 996
+type(
+  string
+)
+ident(
+  def prooftreedtdname "plugins/xml/proofTree2Xml.ml4" 17 1048 1048 --
+)
+"plugins/xml/proofTree2Xml.ml4" 15 976 999 "plugins/xml/proofTree2Xml.ml4" 15 976 1044
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 17 1048 1052 "plugins/xml/proofTree2Xml.ml4" 17 1048 1072
+type(
+  Pp.std_ppcmds -> string
+)
+ident(
+  def std_ppcmds_to_string "plugins/xml/proofTree2Xml.ml4" 22 1153 1153 --
+)
+"plugins/xml/proofTree2Xml.ml4" 17 1048 1073 "plugins/xml/proofTree2Xml.ml4" 17 1048 1074
+type(
+  Pp.std_ppcmds
+)
+ident(
+  def s "plugins/xml/proofTree2Xml.ml4" 18 1077 1080 "plugins/xml/proofTree2Xml.ml4" 18 1077 1148
+)
+"plugins/xml/proofTree2Xml.ml4" 18 1077 1080 "plugins/xml/proofTree2Xml.ml4" 18 1077 1091
+type(
+  Format.formatter -> Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msg_with
+)
+"plugins/xml/proofTree2Xml.ml4" 18 1077 1092 "plugins/xml/proofTree2Xml.ml4" 18 1077 1112
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.str_formatter
+)
+"plugins/xml/proofTree2Xml.ml4" 18 1077 1113 "plugins/xml/proofTree2Xml.ml4" 18 1077 1114
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref s "plugins/xml/proofTree2Xml.ml4" 17 1048 1073 "plugins/xml/proofTree2Xml.ml4" 17 1048 1074
+)
+"plugins/xml/proofTree2Xml.ml4" 18 1077 1080 "plugins/xml/proofTree2Xml.ml4" 18 1077 1114
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/proofTree2Xml.ml4" 19 1116 1119 "plugins/xml/proofTree2Xml.ml4" 19 1116 1145
+type(
+  unit -> string
+)
+ident(
+  ext_ref Format.flush_str_formatter
+)
+"plugins/xml/proofTree2Xml.ml4" 19 1116 1146 "plugins/xml/proofTree2Xml.ml4" 19 1116 1148
+type(
+  unit
+)
+"plugins/xml/proofTree2Xml.ml4" 19 1116 1119 "plugins/xml/proofTree2Xml.ml4" 19 1116 1148
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 18 1077 1080 "plugins/xml/proofTree2Xml.ml4" 18 1077 1148
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 17 1048 1073 "plugins/xml/proofTree2Xml.ml4" 17 1048 1148
+type(
+  Pp.std_ppcmds -> string
+)
+"plugins/xml/proofTree2Xml.ml4" 22 1153 1157 "plugins/xml/proofTree2Xml.ml4" 22 1153 1168
+type(
+  string -> string
+)
+ident(
+  def idref_of_id "plugins/xml/proofTree2Xml.ml4" 27 1365 1365 --
+)
+"plugins/xml/proofTree2Xml.ml4" 22 1153 1169 "plugins/xml/proofTree2Xml.ml4" 22 1153 1171
+type(
+  string
+)
+ident(
+  def id "plugins/xml/proofTree2Xml.ml4" 22 1153 1174 "plugins/xml/proofTree2Xml.ml4" 22 1153 1182
+)
+"plugins/xml/proofTree2Xml.ml4" 22 1153 1174 "plugins/xml/proofTree2Xml.ml4" 22 1153 1177
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 22 1153 1180 "plugins/xml/proofTree2Xml.ml4" 22 1153 1182
+type(
+  string
+)
+ident(
+  int_ref id "plugins/xml/proofTree2Xml.ml4" 22 1153 1169 "plugins/xml/proofTree2Xml.ml4" 22 1153 1171
+)
+"plugins/xml/proofTree2Xml.ml4" 22 1153 1174 "plugins/xml/proofTree2Xml.ml4" 22 1153 1182
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/proofTree2Xml.ml4" 22 1153 1169 "plugins/xml/proofTree2Xml.ml4" 22 1153 1182
+type(
+  string -> string
+)
+"plugins/xml/proofTree2Xml.ml4" 27 1365 1369 "plugins/xml/proofTree2Xml.ml4" 27 1365 1382
+type(
+  Term.constr -> Evd.evar_map -> Environ.env -> Xml.token Stream.t
+)
+ident(
+  def constr_to_xml "plugins/xml/proofTree2Xml.ml4" 76 3243 3243 --
+)
+"plugins/xml/proofTree2Xml.ml4" 27 1365 1383 "plugins/xml/proofTree2Xml.ml4" 27 1365 1386
+type(
+  Term.constr
+)
+ident(
+  def obj "plugins/xml/proofTree2Xml.ml4" 27 1365 1387 "plugins/xml/proofTree2Xml.ml4" 27 1365 2877
+)
+"plugins/xml/proofTree2Xml.ml4" 27 1365 1387 "plugins/xml/proofTree2Xml.ml4" 27 1365 1392
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/proofTree2Xml.ml4" 27 1365 1393 "plugins/xml/proofTree2Xml.ml4" 27 1365 2877
+)
+"plugins/xml/proofTree2Xml.ml4" 27 1365 1393 "plugins/xml/proofTree2Xml.ml4" 27 1365 1396
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/proofTree2Xml.ml4" 28 1399 1401 "plugins/xml/proofTree2Xml.ml4" 28 1399 2877
+)
+"plugins/xml/proofTree2Xml.ml4" 28 1399 1405 "plugins/xml/proofTree2Xml.ml4" 28 1399 1417
+type(
+  (string, Acic.CicHash.key) Hashtbl.t
+)
+"plugins/xml/proofTree2Xml.ml4" 28 1399 1420 "plugins/xml/proofTree2Xml.ml4" 28 1399 1434
+type(
+  int -> (string, Acic.CicHash.key) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"plugins/xml/proofTree2Xml.ml4" 28 1399 1435 "plugins/xml/proofTree2Xml.ml4" 28 1399 1438
+type(
+  int
+)
+"plugins/xml/proofTree2Xml.ml4" 28 1399 1420 "plugins/xml/proofTree2Xml.ml4" 28 1399 1438
+call(
+  stack
+)
+type(
+  (string, Acic.CicHash.key) Hashtbl.t
+)
+"plugins/xml/proofTree2Xml.ml4" 29 1442 1448 "plugins/xml/proofTree2Xml.ml4" 29 1442 1461
+type(
+  string Acic.CicHash.t
+)
+"plugins/xml/proofTree2Xml.ml4" 29 1442 1464 "plugins/xml/proofTree2Xml.ml4" 29 1442 1483
+type(
+  int -> string Acic.CicHash.t
+)
+ident(
+  ext_ref Acic.CicHash.create
+)
+"plugins/xml/proofTree2Xml.ml4" 29 1442 1484 "plugins/xml/proofTree2Xml.ml4" 29 1442 1487
+type(
+  int
+)
+"plugins/xml/proofTree2Xml.ml4" 29 1442 1464 "plugins/xml/proofTree2Xml.ml4" 29 1442 1487
+call(
+  stack
+)
+type(
+  string Acic.CicHash.t
+)
+"plugins/xml/proofTree2Xml.ml4" 30 1491 1497 "plugins/xml/proofTree2Xml.ml4" 30 1491 1514
+type(
+  (string, string option) Hashtbl.t
+)
+"plugins/xml/proofTree2Xml.ml4" 30 1491 1517 "plugins/xml/proofTree2Xml.ml4" 30 1491 1531
+type(
+  int -> (string, string option) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"plugins/xml/proofTree2Xml.ml4" 30 1491 1532 "plugins/xml/proofTree2Xml.ml4" 30 1491 1535
+type(
+  int
+)
+"plugins/xml/proofTree2Xml.ml4" 30 1491 1517 "plugins/xml/proofTree2Xml.ml4" 30 1491 1535
+call(
+  stack
+)
+type(
+  (string, string option) Hashtbl.t
+)
+"plugins/xml/proofTree2Xml.ml4" 31 1539 1545 "plugins/xml/proofTree2Xml.ml4" 31 1539 1563
+type(
+  (string, string) Hashtbl.t
+)
+"plugins/xml/proofTree2Xml.ml4" 31 1539 1566 "plugins/xml/proofTree2Xml.ml4" 31 1539 1580
+type(
+  int -> (string, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"plugins/xml/proofTree2Xml.ml4" 31 1539 1581 "plugins/xml/proofTree2Xml.ml4" 31 1539 1584
+type(
+  int
+)
+"plugins/xml/proofTree2Xml.ml4" 31 1539 1566 "plugins/xml/proofTree2Xml.ml4" 31 1539 1584
+call(
+  stack
+)
+type(
+  (string, string) Hashtbl.t
+)
+"plugins/xml/proofTree2Xml.ml4" 32 1588 1594 "plugins/xml/proofTree2Xml.ml4" 32 1588 1612
+type(
+  (string, Cic2acic.anntypes) Hashtbl.t
+)
+"plugins/xml/proofTree2Xml.ml4" 32 1588 1615 "plugins/xml/proofTree2Xml.ml4" 32 1588 1629
+type(
+  int -> (string, Cic2acic.anntypes) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"plugins/xml/proofTree2Xml.ml4" 32 1588 1630 "plugins/xml/proofTree2Xml.ml4" 32 1588 1633
+type(
+  int
+)
+"plugins/xml/proofTree2Xml.ml4" 32 1588 1615 "plugins/xml/proofTree2Xml.ml4" 32 1588 1633
+call(
+  stack
+)
+type(
+  (string, Cic2acic.anntypes) Hashtbl.t
+)
+"plugins/xml/proofTree2Xml.ml4" 35 1704 1710 "plugins/xml/proofTree2Xml.ml4" 35 1704 1723
+type(
+  Sign.named_context
+)
+"plugins/xml/proofTree2Xml.ml4" 35 1704 1726 "plugins/xml/proofTree2Xml.ml4" 35 1704 1747
+type(
+  Environ.env -> Sign.named_context
+)
+ident(
+  ext_ref Environ.named_context
+)
+"plugins/xml/proofTree2Xml.ml4" 35 1704 1748 "plugins/xml/proofTree2Xml.ml4" 35 1704 1751
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/proofTree2Xml.ml4" 27 1365 1393 "plugins/xml/proofTree2Xml.ml4" 27 1365 1396
+)
+"plugins/xml/proofTree2Xml.ml4" 35 1704 1726 "plugins/xml/proofTree2Xml.ml4" 35 1704 1751
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/xml/proofTree2Xml.ml4" 37 1816 1822 "plugins/xml/proofTree2Xml.ml4" 37 1816 1840
+type(
+  Sign.named_context
+)
+"plugins/xml/proofTree2Xml.ml4" 37 1816 1843 "plugins/xml/proofTree2Xml.ml4" 37 1816 1864
+type(
+  Environ.env -> Sign.named_context
+)
+ident(
+  ext_ref Environ.named_context
+)
+"plugins/xml/proofTree2Xml.ml4" 37 1816 1866 "plugins/xml/proofTree2Xml.ml4" 37 1816 1876
+type(
+  unit -> Environ.env
+)
+ident(
+  ext_ref Global.env
+)
+"plugins/xml/proofTree2Xml.ml4" 37 1816 1877 "plugins/xml/proofTree2Xml.ml4" 37 1816 1879
+type(
+  unit
+)
+"plugins/xml/proofTree2Xml.ml4" 37 1816 1866 "plugins/xml/proofTree2Xml.ml4" 37 1816 1879
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/xml/proofTree2Xml.ml4" 37 1816 1843 "plugins/xml/proofTree2Xml.ml4" 37 1816 1880
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/xml/proofTree2Xml.ml4" 39 1938 1944 "plugins/xml/proofTree2Xml.ml4" 39 1938 1958
+type(
+  Term.named_declaration list
+)
+"plugins/xml/proofTree2Xml.ml4" 40 1961 1964 "plugins/xml/proofTree2Xml.ml4" 40 1961 1975
+type(
+  (Term.named_declaration -> bool) ->
+  Sign.named_context -> Term.named_declaration list
+)
+ident(
+  ext_ref List.filter
+)
+"plugins/xml/proofTree2Xml.ml4" 40 1961 1986 "plugins/xml/proofTree2Xml.ml4" 40 1961 1987
+type(
+  Term.named_declaration
+)
+ident(
+  def n "plugins/xml/proofTree2Xml.ml4" 40 1961 1991 "plugins/xml/proofTree2Xml.ml4" 40 1961 2026
+)
+"plugins/xml/proofTree2Xml.ml4" 40 1961 1991 "plugins/xml/proofTree2Xml.ml4" 40 1961 1994
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/xml/proofTree2Xml.ml4" 40 1961 1996 "plugins/xml/proofTree2Xml.ml4" 40 1961 2004
+type(
+  Term.named_declaration -> Sign.named_context -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"plugins/xml/proofTree2Xml.ml4" 40 1961 2005 "plugins/xml/proofTree2Xml.ml4" 40 1961 2006
+type(
+  Term.named_declaration
+)
+ident(
+  int_ref n "plugins/xml/proofTree2Xml.ml4" 40 1961 1986 "plugins/xml/proofTree2Xml.ml4" 40 1961 1987
+)
+"plugins/xml/proofTree2Xml.ml4" 40 1961 2007 "plugins/xml/proofTree2Xml.ml4" 40 1961 2025
+type(
+  Sign.named_context
+)
+ident(
+  int_ref real_named_context "plugins/xml/proofTree2Xml.ml4" 37 1816 1822 "plugins/xml/proofTree2Xml.ml4" 37 1816 1840
+)
+"plugins/xml/proofTree2Xml.ml4" 40 1961 1996 "plugins/xml/proofTree2Xml.ml4" 40 1961 2025
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/xml/proofTree2Xml.ml4" 40 1961 1991 "plugins/xml/proofTree2Xml.ml4" 40 1961 2026
+type(
+  bool
+)
+"plugins/xml/proofTree2Xml.ml4" 40 1961 1977 "plugins/xml/proofTree2Xml.ml4" 40 1961 2026
+type(
+  Term.named_declaration -> bool
+)
+"plugins/xml/proofTree2Xml.ml4" 40 1961 2028 "plugins/xml/proofTree2Xml.ml4" 40 1961 2041
+type(
+  Sign.named_context
+)
+ident(
+  int_ref named_context "plugins/xml/proofTree2Xml.ml4" 35 1704 1710 "plugins/xml/proofTree2Xml.ml4" 35 1704 1723
+)
+"plugins/xml/proofTree2Xml.ml4" 40 1961 1964 "plugins/xml/proofTree2Xml.ml4" 40 1961 2041
+call(
+  stack
+)
+type(
+  Term.named_declaration list
+)
+"plugins/xml/proofTree2Xml.ml4" 42 2047 2053 "plugins/xml/proofTree2Xml.ml4" 42 2047 2059
+type(
+  string list
+)
+"plugins/xml/proofTree2Xml.ml4" 43 2062 2065 "plugins/xml/proofTree2Xml.ml4" 43 2062 2073
+type(
+  (Term.named_declaration -> string) ->
+  Term.named_declaration list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/xml/proofTree2Xml.ml4" 44 2074 2088 "plugins/xml/proofTree2Xml.ml4" 44 2074 2089
+type(
+  Names.identifier
+)
+ident(
+  def x "plugins/xml/proofTree2Xml.ml4" 44 2074 2097 "plugins/xml/proofTree2Xml.ml4" 44 2074 2131
+)
+"plugins/xml/proofTree2Xml.ml4" 44 2074 2090 "plugins/xml/proofTree2Xml.ml4" 44 2074 2091
+type(
+  Term.constr option
+)
+"plugins/xml/proofTree2Xml.ml4" 44 2074 2092 "plugins/xml/proofTree2Xml.ml4" 44 2074 2093
+type(
+  Term.types
+)
+"plugins/xml/proofTree2Xml.ml4" 44 2074 2088 "plugins/xml/proofTree2Xml.ml4" 44 2074 2093
+type(
+  Term.named_declaration
+)
+"plugins/xml/proofTree2Xml.ml4" 44 2074 2097 "plugins/xml/proofTree2Xml.ml4" 44 2074 2108
+type(
+  string -> string
+)
+ident(
+  int_ref idref_of_id "plugins/xml/proofTree2Xml.ml4" 22 1153 1157 "plugins/xml/proofTree2Xml.ml4" 22 1153 1168
+)
+"plugins/xml/proofTree2Xml.ml4" 44 2074 2110 "plugins/xml/proofTree2Xml.ml4" 44 2074 2128
+type(
+  Names.identifier -> string
+)
+ident(
+  ext_ref Names.string_of_id
+)
+"plugins/xml/proofTree2Xml.ml4" 44 2074 2129 "plugins/xml/proofTree2Xml.ml4" 44 2074 2130
+type(
+  Names.identifier
+)
+ident(
+  int_ref x "plugins/xml/proofTree2Xml.ml4" 44 2074 2088 "plugins/xml/proofTree2Xml.ml4" 44 2074 2089
+)
+"plugins/xml/proofTree2Xml.ml4" 44 2074 2110 "plugins/xml/proofTree2Xml.ml4" 44 2074 2130
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 44 2074 2097 "plugins/xml/proofTree2Xml.ml4" 44 2074 2131
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 44 2074 2079 "plugins/xml/proofTree2Xml.ml4" 44 2074 2131
+type(
+  Term.named_declaration -> string
+)
+"plugins/xml/proofTree2Xml.ml4" 44 2074 2133 "plugins/xml/proofTree2Xml.ml4" 44 2074 2147
+type(
+  Term.named_declaration list
+)
+ident(
+  int_ref named_context' "plugins/xml/proofTree2Xml.ml4" 39 1938 1944 "plugins/xml/proofTree2Xml.ml4" 39 1938 1958
+)
+"plugins/xml/proofTree2Xml.ml4" 43 2062 2065 "plugins/xml/proofTree2Xml.ml4" 43 2062 2147
+call(
+  stack
+)
+type(
+  string list
+)
+"plugins/xml/proofTree2Xml.ml4" 45 2151 2157 "plugins/xml/proofTree2Xml.ml4" 45 2151 2168
+type(
+  Term.rel_context
+)
+"plugins/xml/proofTree2Xml.ml4" 45 2151 2171 "plugins/xml/proofTree2Xml.ml4" 45 2151 2201
+type(
+  Sign.named_context -> Term.rel_context -> Term.rel_context
+)
+ident(
+  ext_ref Sign.push_named_to_rel_context
+)
+"plugins/xml/proofTree2Xml.ml4" 45 2151 2202 "plugins/xml/proofTree2Xml.ml4" 45 2151 2216
+type(
+  Sign.named_context
+)
+ident(
+  int_ref named_context' "plugins/xml/proofTree2Xml.ml4" 39 1938 1944 "plugins/xml/proofTree2Xml.ml4" 39 1938 1958
+)
+"plugins/xml/proofTree2Xml.ml4" 45 2151 2217 "plugins/xml/proofTree2Xml.ml4" 45 2151 2219
+type(
+  Term.rel_context
+)
+"plugins/xml/proofTree2Xml.ml4" 45 2151 2171 "plugins/xml/proofTree2Xml.ml4" 45 2151 2219
+call(
+  stack
+)
+type(
+  Term.rel_context
+)
+"plugins/xml/proofTree2Xml.ml4" 46 2223 2229 "plugins/xml/proofTree2Xml.ml4" 46 2223 2236
+type(
+  Environ.env
+)
+"plugins/xml/proofTree2Xml.ml4" 47 2239 2242 "plugins/xml/proofTree2Xml.ml4" 47 2239 2266
+type(
+  Term.rel_context -> Environ.env -> Environ.env
+)
+ident(
+  ext_ref Environ.push_rel_context
+)
+"plugins/xml/proofTree2Xml.ml4" 47 2239 2267 "plugins/xml/proofTree2Xml.ml4" 47 2239 2278
+type(
+  Term.rel_context
+)
+ident(
+  int_ref rel_context "plugins/xml/proofTree2Xml.ml4" 45 2151 2157 "plugins/xml/proofTree2Xml.ml4" 45 2151 2168
+)
+"plugins/xml/proofTree2Xml.ml4" 48 2279 2284 "plugins/xml/proofTree2Xml.ml4" 48 2279 2316
+type(
+  Environ.named_context_val -> Environ.env -> Environ.env
+)
+ident(
+  ext_ref Environ.reset_with_named_context
+)
+"plugins/xml/proofTree2Xml.ml4" 49 2317 2319 "plugins/xml/proofTree2Xml.ml4" 49 2317 2347
+type(
+  Sign.named_context -> Environ.named_context_val
+)
+ident(
+  ext_ref Environ.val_of_named_context
+)
+"plugins/xml/proofTree2Xml.ml4" 49 2317 2348 "plugins/xml/proofTree2Xml.ml4" 49 2317 2366
+type(
+  Sign.named_context
+)
+ident(
+  int_ref real_named_context "plugins/xml/proofTree2Xml.ml4" 37 1816 1822 "plugins/xml/proofTree2Xml.ml4" 37 1816 1840
+)
+"plugins/xml/proofTree2Xml.ml4" 49 2317 2319 "plugins/xml/proofTree2Xml.ml4" 49 2317 2366
+call(
+  stack
+)
+type(
+  Environ.named_context_val
+)
+"plugins/xml/proofTree2Xml.ml4" 49 2317 2368 "plugins/xml/proofTree2Xml.ml4" 49 2317 2371
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/proofTree2Xml.ml4" 27 1365 1393 "plugins/xml/proofTree2Xml.ml4" 27 1365 1396
+)
+"plugins/xml/proofTree2Xml.ml4" 48 2279 2284 "plugins/xml/proofTree2Xml.ml4" 48 2279 2371
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/xml/proofTree2Xml.ml4" 47 2239 2242 "plugins/xml/proofTree2Xml.ml4" 47 2239 2372
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/xml/proofTree2Xml.ml4" 50 2376 2382 "plugins/xml/proofTree2Xml.ml4" 50 2376 2386
+type(
+  Term.constr
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2392 "plugins/xml/proofTree2Xml.ml4" 51 2389 2407
+type(
+  Names.identifier list -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.subst_vars
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2409 "plugins/xml/proofTree2Xml.ml4" 51 2389 2417
+type(
+  (Term.named_declaration -> Names.identifier) ->
+  Term.named_declaration list -> Names.identifier list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2429 "plugins/xml/proofTree2Xml.ml4" 51 2389 2430
+type(
+  Names.identifier
+)
+ident(
+  def i "plugins/xml/proofTree2Xml.ml4" 51 2389 2439 "plugins/xml/proofTree2Xml.ml4" 51 2389 2440
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2431 "plugins/xml/proofTree2Xml.ml4" 51 2389 2432
+type(
+  Term.constr option
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2433 "plugins/xml/proofTree2Xml.ml4" 51 2389 2434
+type(
+  Term.types
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2429 "plugins/xml/proofTree2Xml.ml4" 51 2389 2434
+type(
+  Term.named_declaration
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2439 "plugins/xml/proofTree2Xml.ml4" 51 2389 2440
+type(
+  Names.identifier
+)
+ident(
+  int_ref i "plugins/xml/proofTree2Xml.ml4" 51 2389 2429 "plugins/xml/proofTree2Xml.ml4" 51 2389 2430
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2419 "plugins/xml/proofTree2Xml.ml4" 51 2389 2440
+type(
+  Term.named_declaration -> Names.identifier
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2442 "plugins/xml/proofTree2Xml.ml4" 51 2389 2456
+type(
+  Term.named_declaration list
+)
+ident(
+  int_ref named_context' "plugins/xml/proofTree2Xml.ml4" 39 1938 1944 "plugins/xml/proofTree2Xml.ml4" 39 1938 1958
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2409 "plugins/xml/proofTree2Xml.ml4" 51 2389 2456
+call(
+  stack
+)
+type(
+  Names.identifier list
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2458 "plugins/xml/proofTree2Xml.ml4" 51 2389 2461
+type(
+  Term.constr
+)
+ident(
+  int_ref obj "plugins/xml/proofTree2Xml.ml4" 27 1365 1383 "plugins/xml/proofTree2Xml.ml4" 27 1365 1386
+)
+"plugins/xml/proofTree2Xml.ml4" 51 2389 2392 "plugins/xml/proofTree2Xml.ml4" 51 2389 2461
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proofTree2Xml.ml4" 52 2465 2471 "plugins/xml/proofTree2Xml.ml4" 52 2465 2475
+type(
+  int ref
+)
+"plugins/xml/proofTree2Xml.ml4" 52 2465 2478 "plugins/xml/proofTree2Xml.ml4" 52 2465 2481
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/xml/proofTree2Xml.ml4" 52 2465 2482 "plugins/xml/proofTree2Xml.ml4" 52 2465 2483
+type(
+  int
+)
+"plugins/xml/proofTree2Xml.ml4" 52 2465 2478 "plugins/xml/proofTree2Xml.ml4" 52 2465 2483
+type(
+  int ref
+)
+"plugins/xml/proofTree2Xml.ml4" 54 2494 2502 "plugins/xml/proofTree2Xml.ml4" 54 2494 2508
+type(
+  Acic.aconstr
+)
+ident(
+  def annobj "plugins/xml/proofTree2Xml.ml4" 59 2708 2713 "plugins/xml/proofTree2Xml.ml4" 59 2708 2758
+)
+"plugins/xml/proofTree2Xml.ml4" 55 2511 2516 "plugins/xml/proofTree2Xml.ml4" 55 2511 2545
+type(
+  bool ->
+  int ref ->
+  (string, Acic.CicHash.key) Hashtbl.t ->
+  string Acic.CicHash.t ->
+  (string, string option) Hashtbl.t ->
+  (string, string) Hashtbl.t ->
+  (string, Cic2acic.anntypes) Hashtbl.t ->
+  ?fake_dependent_products:bool ->
+  Environ.env ->
+  string list ->
+  Evd.evar_map -> Acic.CicHash.key -> Term.constr option -> Acic.aconstr
+)
+ident(
+  ext_ref Cic2acic.acic_of_cic_context'
+)
+"plugins/xml/proofTree2Xml.ml4" 55 2511 2546 "plugins/xml/proofTree2Xml.ml4" 55 2511 2551
+type(
+  bool
+)
+"plugins/xml/proofTree2Xml.ml4" 55 2511 2552 "plugins/xml/proofTree2Xml.ml4" 55 2511 2556
+type(
+  int ref
+)
+ident(
+  int_ref seed "plugins/xml/proofTree2Xml.ml4" 52 2465 2471 "plugins/xml/proofTree2Xml.ml4" 52 2465 2475
+)
+"plugins/xml/proofTree2Xml.ml4" 55 2511 2557 "plugins/xml/proofTree2Xml.ml4" 55 2511 2569
+type(
+  (string, Acic.CicHash.key) Hashtbl.t
+)
+ident(
+  int_ref ids_to_terms "plugins/xml/proofTree2Xml.ml4" 28 1399 1405 "plugins/xml/proofTree2Xml.ml4" 28 1399 1417
+)
+"plugins/xml/proofTree2Xml.ml4" 55 2511 2570 "plugins/xml/proofTree2Xml.ml4" 55 2511 2583
+type(
+  string Acic.CicHash.t
+)
+ident(
+  int_ref constr_to_ids "plugins/xml/proofTree2Xml.ml4" 29 1442 1448 "plugins/xml/proofTree2Xml.ml4" 29 1442 1461
+)
+"plugins/xml/proofTree2Xml.ml4" 56 2584 2590 "plugins/xml/proofTree2Xml.ml4" 56 2584 2607
+type(
+  (string, string option) Hashtbl.t
+)
+ident(
+  int_ref ids_to_father_ids "plugins/xml/proofTree2Xml.ml4" 30 1491 1497 "plugins/xml/proofTree2Xml.ml4" 30 1491 1514
+)
+"plugins/xml/proofTree2Xml.ml4" 56 2584 2608 "plugins/xml/proofTree2Xml.ml4" 56 2584 2626
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref ids_to_inner_sorts "plugins/xml/proofTree2Xml.ml4" 31 1539 1545 "plugins/xml/proofTree2Xml.ml4" 31 1539 1563
+)
+"plugins/xml/proofTree2Xml.ml4" 56 2584 2627 "plugins/xml/proofTree2Xml.ml4" 56 2584 2645
+type(
+  (string, Cic2acic.anntypes) Hashtbl.t
+)
+ident(
+  int_ref ids_to_inner_types "plugins/xml/proofTree2Xml.ml4" 32 1588 1594 "plugins/xml/proofTree2Xml.ml4" 32 1588 1612
+)
+"plugins/xml/proofTree2Xml.ml4" 56 2584 2646 "plugins/xml/proofTree2Xml.ml4" 56 2584 2653
+type(
+  Environ.env
+)
+ident(
+  int_ref rel_env "plugins/xml/proofTree2Xml.ml4" 46 2223 2229 "plugins/xml/proofTree2Xml.ml4" 46 2223 2236
+)
+"plugins/xml/proofTree2Xml.ml4" 57 2654 2660 "plugins/xml/proofTree2Xml.ml4" 57 2654 2666
+type(
+  string list
+)
+ident(
+  int_ref idrefs "plugins/xml/proofTree2Xml.ml4" 42 2047 2053 "plugins/xml/proofTree2Xml.ml4" 42 2047 2059
+)
+"plugins/xml/proofTree2Xml.ml4" 57 2654 2667 "plugins/xml/proofTree2Xml.ml4" 57 2654 2672
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/proofTree2Xml.ml4" 27 1365 1387 "plugins/xml/proofTree2Xml.ml4" 27 1365 1392
+)
+"plugins/xml/proofTree2Xml.ml4" 57 2654 2674 "plugins/xml/proofTree2Xml.ml4" 57 2654 2689
+type(
+  ?already_unshared:(Acic.CicHash.key -> bool) ->
+  Acic.CicHash.key -> Acic.CicHash.key
+)
+ident(
+  ext_ref Unshare.unshare
+)
+"plugins/xml/proofTree2Xml.ml4" 57 2654 2690 "plugins/xml/proofTree2Xml.ml4" 57 2654 2694
+type(
+  Acic.CicHash.key
+)
+ident(
+  int_ref obj' "plugins/xml/proofTree2Xml.ml4" 50 2376 2382 "plugins/xml/proofTree2Xml.ml4" 50 2376 2386
+)
+"plugins/xml/proofTree2Xml.ml4" 57 2654 2674 "plugins/xml/proofTree2Xml.ml4" 57 2654 2694
+call(
+  stack
+)
+type(
+  Acic.CicHash.key
+)
+"plugins/xml/proofTree2Xml.ml4" 57 2654 2696 "plugins/xml/proofTree2Xml.ml4" 57 2654 2700
+type(
+  Term.constr option
+)
+"plugins/xml/proofTree2Xml.ml4" 55 2511 2516 "plugins/xml/proofTree2Xml.ml4" 55 2511 2700
+call(
+  stack
+)
+type(
+  Acic.aconstr
+)
+"plugins/xml/proofTree2Xml.ml4" 59 2708 2713 "plugins/xml/proofTree2Xml.ml4" 59 2708 2732
+type(
+  (string, string) Hashtbl.t -> Acic.aconstr -> Xml.token Stream.t
+)
+ident(
+  ext_ref Acic2Xml.print_term
+)
+"plugins/xml/proofTree2Xml.ml4" 59 2708 2733 "plugins/xml/proofTree2Xml.ml4" 59 2708 2751
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref ids_to_inner_sorts "plugins/xml/proofTree2Xml.ml4" 31 1539 1545 "plugins/xml/proofTree2Xml.ml4" 31 1539 1563
+)
+"plugins/xml/proofTree2Xml.ml4" 59 2708 2752 "plugins/xml/proofTree2Xml.ml4" 59 2708 2758
+type(
+  Acic.aconstr
+)
+ident(
+  int_ref annobj "plugins/xml/proofTree2Xml.ml4" 54 2494 2502 "plugins/xml/proofTree2Xml.ml4" 54 2494 2508
+)
+"plugins/xml/proofTree2Xml.ml4" 59 2708 2713 "plugins/xml/proofTree2Xml.ml4" 59 2708 2758
+call(
+  stack
+)
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 54 2494 2498 "plugins/xml/proofTree2Xml.ml4" 54 2494 2758
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 60 2759 2767 "plugins/xml/proofTree2Xml.ml4" 60 2759 2768
+type(
+  exn
+)
+ident(
+  def e "plugins/xml/proofTree2Xml.ml4" 61 2772 2776 "plugins/xml/proofTree2Xml.ml4" 61 2772 2877
+)
+"plugins/xml/proofTree2Xml.ml4" 61 2772 2776 "plugins/xml/proofTree2Xml.ml4" 61 2772 2788
+type(
+  string -> Xml.token Stream.t
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/xml/proofTree2Xml.ml4" 62 2789 2795 "plugins/xml/proofTree2Xml.ml4" 62 2789 2847
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 63 2850 2856 "plugins/xml/proofTree2Xml.ml4" 63 2850 2874
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"plugins/xml/proofTree2Xml.ml4" 63 2850 2875 "plugins/xml/proofTree2Xml.ml4" 63 2850 2876
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/xml/proofTree2Xml.ml4" 60 2759 2767 "plugins/xml/proofTree2Xml.ml4" 60 2759 2768
+)
+"plugins/xml/proofTree2Xml.ml4" 63 2850 2856 "plugins/xml/proofTree2Xml.ml4" 63 2850 2876
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 62 2789 2795 "plugins/xml/proofTree2Xml.ml4" 62 2789 2876
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/proofTree2Xml.ml4" 61 2772 2776 "plugins/xml/proofTree2Xml.ml4" 61 2772 2877
+call(
+  tail
+)
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 53 2487 2490 "plugins/xml/proofTree2Xml.ml4" 53 2487 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 52 2465 2467 "plugins/xml/proofTree2Xml.ml4" 52 2465 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 50 2376 2378 "plugins/xml/proofTree2Xml.ml4" 50 2376 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 46 2223 2225 "plugins/xml/proofTree2Xml.ml4" 46 2223 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 45 2151 2153 "plugins/xml/proofTree2Xml.ml4" 45 2151 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 42 2047 2049 "plugins/xml/proofTree2Xml.ml4" 42 2047 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 39 1938 1940 "plugins/xml/proofTree2Xml.ml4" 39 1938 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 37 1816 1818 "plugins/xml/proofTree2Xml.ml4" 37 1816 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 35 1704 1706 "plugins/xml/proofTree2Xml.ml4" 35 1704 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 32 1588 1590 "plugins/xml/proofTree2Xml.ml4" 32 1588 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 31 1539 1541 "plugins/xml/proofTree2Xml.ml4" 31 1539 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 30 1491 1493 "plugins/xml/proofTree2Xml.ml4" 30 1491 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 29 1442 1444 "plugins/xml/proofTree2Xml.ml4" 29 1442 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 28 1399 1401 "plugins/xml/proofTree2Xml.ml4" 28 1399 2877
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 27 1365 1393 "plugins/xml/proofTree2Xml.ml4" 27 1365 2877
+type(
+  Environ.env -> Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 27 1365 1387 "plugins/xml/proofTree2Xml.ml4" 27 1365 2877
+type(
+  Evd.evar_map -> Environ.env -> Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 27 1365 1383 "plugins/xml/proofTree2Xml.ml4" 27 1365 2877
+type(
+  Term.constr -> Evd.evar_map -> Environ.env -> Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 76 3243 3247 "plugins/xml/proofTree2Xml.ml4" 76 3243 3257
+type(
+  string -> string
+)
+ident(
+  def first_word "plugins/xml/proofTree2Xml.ml4" 82 3342 3342 --
+)
+"plugins/xml/proofTree2Xml.ml4" 76 3243 3258 "plugins/xml/proofTree2Xml.ml4" 76 3243 3259
+type(
+  string
+)
+ident(
+  def s "plugins/xml/proofTree2Xml.ml4" 77 3262 3265 "plugins/xml/proofTree2Xml.ml4" 77 3262 3337
+)
+"plugins/xml/proofTree2Xml.ml4" 77 3262 3273 "plugins/xml/proofTree2Xml.ml4" 77 3262 3274
+type(
+  int
+)
+ident(
+  def i "plugins/xml/proofTree2Xml.ml4" 78 3299 3306 "plugins/xml/proofTree2Xml.ml4" 78 3299 3322
+)
+"plugins/xml/proofTree2Xml.ml4" 77 3262 3277 "plugins/xml/proofTree2Xml.ml4" 77 3262 3289
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"plugins/xml/proofTree2Xml.ml4" 77 3262 3290 "plugins/xml/proofTree2Xml.ml4" 77 3262 3291
+type(
+  string
+)
+ident(
+  int_ref s "plugins/xml/proofTree2Xml.ml4" 76 3243 3258 "plugins/xml/proofTree2Xml.ml4" 76 3243 3259
+)
+"plugins/xml/proofTree2Xml.ml4" 77 3262 3292 "plugins/xml/proofTree2Xml.ml4" 77 3262 3295
+type(
+  char
+)
+"plugins/xml/proofTree2Xml.ml4" 77 3262 3277 "plugins/xml/proofTree2Xml.ml4" 77 3262 3295
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/xml/proofTree2Xml.ml4" 78 3299 3306 "plugins/xml/proofTree2Xml.ml4" 78 3299 3316
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"plugins/xml/proofTree2Xml.ml4" 78 3299 3317 "plugins/xml/proofTree2Xml.ml4" 78 3299 3318
+type(
+  string
+)
+ident(
+  int_ref s "plugins/xml/proofTree2Xml.ml4" 76 3243 3258 "plugins/xml/proofTree2Xml.ml4" 76 3243 3259
+)
+"plugins/xml/proofTree2Xml.ml4" 78 3299 3319 "plugins/xml/proofTree2Xml.ml4" 78 3299 3320
+type(
+  int
+)
+"plugins/xml/proofTree2Xml.ml4" 78 3299 3321 "plugins/xml/proofTree2Xml.ml4" 78 3299 3322
+type(
+  int
+)
+ident(
+  int_ref i "plugins/xml/proofTree2Xml.ml4" 77 3262 3273 "plugins/xml/proofTree2Xml.ml4" 77 3262 3274
+)
+"plugins/xml/proofTree2Xml.ml4" 78 3299 3306 "plugins/xml/proofTree2Xml.ml4" 78 3299 3322
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 77 3262 3269 "plugins/xml/proofTree2Xml.ml4" 77 3262 3322
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 79 3323 3331 "plugins/xml/proofTree2Xml.ml4" 79 3323 3332
+type(
+  exn
+)
+"plugins/xml/proofTree2Xml.ml4" 79 3323 3336 "plugins/xml/proofTree2Xml.ml4" 79 3323 3337
+type(
+  string
+)
+ident(
+  int_ref s "plugins/xml/proofTree2Xml.ml4" 76 3243 3258 "plugins/xml/proofTree2Xml.ml4" 76 3243 3259
+)
+"plugins/xml/proofTree2Xml.ml4" 77 3262 3265 "plugins/xml/proofTree2Xml.ml4" 77 3262 3337
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 76 3243 3258 "plugins/xml/proofTree2Xml.ml4" 76 3243 3337
+type(
+  string -> string
+)
+"plugins/xml/proofTree2Xml.ml4" 82 3342 3346 "plugins/xml/proofTree2Xml.ml4" 82 3342 3365
+type(
+  Proof_type.prim_rule -> string
+)
+ident(
+  def string_of_prim_rule "plugins/xml/proofTree2Xml.ml4" 97 3878 3878 --
+)
+"plugins/xml/proofTree2Xml.ml4" 82 3342 3366 "plugins/xml/proofTree2Xml.ml4" 82 3342 3367
+type(
+  Proof_type.prim_rule
+)
+ident(
+  def x "plugins/xml/proofTree2Xml.ml4" 82 3342 3370 "plugins/xml/proofTree2Xml.ml4" 82 3342 3876
+)
+"plugins/xml/proofTree2Xml.ml4" 82 3342 3376 "plugins/xml/proofTree2Xml.ml4" 82 3342 3377
+type(
+  Proof_type.prim_rule
+)
+ident(
+  int_ref x "plugins/xml/proofTree2Xml.ml4" 82 3342 3366 "plugins/xml/proofTree2Xml.ml4" 82 3342 3367
+)
+"plugins/xml/proofTree2Xml.ml4" 83 3383 3404 "plugins/xml/proofTree2Xml.ml4" 83 3383 3405
+type(
+  Names.identifier
+)
+"plugins/xml/proofTree2Xml.ml4" 83 3383 3387 "plugins/xml/proofTree2Xml.ml4" 83 3383 3405
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 83 3383 3408 "plugins/xml/proofTree2Xml.ml4" 83 3383 3415
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 84 3416 3435 "plugins/xml/proofTree2Xml.ml4" 84 3416 3436
+type(
+  Term.types
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/xml/proofTree2Xml.ml4" 84 3416 3420 "plugins/xml/proofTree2Xml.ml4" 84 3416 3436
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 84 3416 3440 "plugins/xml/proofTree2Xml.ml4" 84 3416 3445
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 85 3446 3469 "plugins/xml/proofTree2Xml.ml4" 85 3446 3470
+type(
+  int
+)
+type(
+  (Names.identifier * int * Term.constr) list
+)
+type(
+  int
+)
+type(
+  Names.identifier
+)
+"plugins/xml/proofTree2Xml.ml4" 85 3446 3450 "plugins/xml/proofTree2Xml.ml4" 85 3446 3470
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 85 3446 3474 "plugins/xml/proofTree2Xml.ml4" 85 3446 3483
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 86 3484 3505 "plugins/xml/proofTree2Xml.ml4" 86 3484 3506
+type(
+  int
+)
+type(
+  (Names.identifier * Term.constr) list
+)
+type(
+  Names.identifier
+)
+"plugins/xml/proofTree2Xml.ml4" 86 3484 3488 "plugins/xml/proofTree2Xml.ml4" 86 3484 3506
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 86 3484 3510 "plugins/xml/proofTree2Xml.ml4" 86 3484 3517
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 87 3518 3540 "plugins/xml/proofTree2Xml.ml4" 87 3518 3541
+type(
+  Term.constr
+)
+"plugins/xml/proofTree2Xml.ml4" 87 3518 3522 "plugins/xml/proofTree2Xml.ml4" 87 3518 3541
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 87 3518 3545 "plugins/xml/proofTree2Xml.ml4" 87 3518 3553
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 88 3554 3583 "plugins/xml/proofTree2Xml.ml4" 88 3554 3584
+type(
+  Term.cast_kind
+)
+type(
+  Term.types
+)
+"plugins/xml/proofTree2Xml.ml4" 88 3554 3558 "plugins/xml/proofTree2Xml.ml4" 88 3554 3584
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 88 3554 3588 "plugins/xml/proofTree2Xml.ml4" 88 3554 3603
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 89 3604 3631 "plugins/xml/proofTree2Xml.ml4" 89 3604 3632
+type(
+  Term.named_declaration
+)
+"plugins/xml/proofTree2Xml.ml4" 89 3604 3608 "plugins/xml/proofTree2Xml.ml4" 89 3604 3632
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 89 3604 3634 "plugins/xml/proofTree2Xml.ml4" 89 3604 3647
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 90 3648 3668 "plugins/xml/proofTree2Xml.ml4" 90 3648 3669
+type(
+  Names.identifier list
+)
+"plugins/xml/proofTree2Xml.ml4" 90 3648 3652 "plugins/xml/proofTree2Xml.ml4" 90 3648 3669
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 90 3648 3673 "plugins/xml/proofTree2Xml.ml4" 90 3648 3679
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 91 3680 3704 "plugins/xml/proofTree2Xml.ml4" 91 3680 3705
+type(
+  Names.identifier list
+)
+"plugins/xml/proofTree2Xml.ml4" 91 3680 3684 "plugins/xml/proofTree2Xml.ml4" 91 3680 3705
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 91 3680 3708 "plugins/xml/proofTree2Xml.ml4" 91 3680 3718
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 92 3719 3740 "plugins/xml/proofTree2Xml.ml4" 92 3719 3741
+type(
+  bool
+)
+"plugins/xml/proofTree2Xml.ml4" 92 3719 3742 "plugins/xml/proofTree2Xml.ml4" 92 3719 3743
+type(
+  Names.identifier
+)
+"plugins/xml/proofTree2Xml.ml4" 92 3719 3744 "plugins/xml/proofTree2Xml.ml4" 92 3719 3745
+type(
+  Names.identifier Tacexpr.move_location
+)
+"plugins/xml/proofTree2Xml.ml4" 92 3719 3723 "plugins/xml/proofTree2Xml.ml4" 92 3719 3746
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 92 3719 3750 "plugins/xml/proofTree2Xml.ml4" 92 3719 3756
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 93 3757 3778 "plugins/xml/proofTree2Xml.ml4" 93 3757 3779
+type(
+  Names.identifier list
+)
+"plugins/xml/proofTree2Xml.ml4" 93 3757 3761 "plugins/xml/proofTree2Xml.ml4" 93 3757 3779
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 93 3757 3783 "plugins/xml/proofTree2Xml.ml4" 93 3757 3790
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 94 3791 3814 "plugins/xml/proofTree2Xml.ml4" 94 3791 3815
+type(
+  Names.identifier
+)
+"plugins/xml/proofTree2Xml.ml4" 94 3791 3816 "plugins/xml/proofTree2Xml.ml4" 94 3791 3817
+type(
+  Names.identifier
+)
+"plugins/xml/proofTree2Xml.ml4" 94 3791 3795 "plugins/xml/proofTree2Xml.ml4" 94 3791 3818
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 94 3791 3822 "plugins/xml/proofTree2Xml.ml4" 94 3791 3830
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 95 3831 3835 "plugins/xml/proofTree2Xml.ml4" 95 3831 3858
+type(
+  Proof_type.prim_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 95 3831 3862 "plugins/xml/proofTree2Xml.ml4" 95 3831 3876
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 82 3342 3370 "plugins/xml/proofTree2Xml.ml4" 82 3342 3876
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 82 3342 3366 "plugins/xml/proofTree2Xml.ml4" 82 3342 3876
+type(
+  Proof_type.prim_rule -> string
+)
+"plugins/xml/proofTree2Xml.ml4" 98 3882 3883 "plugins/xml/proofTree2Xml.ml4" 98 3882 3899
+type(
+  string ->
+  Evd.evar_map ->
+  Proof2aproof.ProofTreeHash.key ->
+  Acic.CicHash.key Proof2aproof.ProofTreeHash.t ->
+  Proof2aproof.ProofTreeHash.key Proof2aproof.ProofTreeHash.t ->
+  string Acic.CicHash.t -> Xml.token Stream.t
+)
+ident(
+  def print_proof_tree "plugins/xml/proofTree2Xml.ml4" 97 3878 7815 --
+)
+"plugins/xml/proofTree2Xml.ml4" 98 3882 3900 "plugins/xml/proofTree2Xml.ml4" 98 3882 3904
+type(
+  string
+)
+ident(
+  def curi "plugins/xml/proofTree2Xml.ml4" 98 3882 3905 "plugins/xml/proofTree2Xml.ml4" 98 3882 7815
+)
+"plugins/xml/proofTree2Xml.ml4" 98 3882 3905 "plugins/xml/proofTree2Xml.ml4" 98 3882 3910
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/proofTree2Xml.ml4" 98 3882 3911 "plugins/xml/proofTree2Xml.ml4" 98 3882 7815
+)
+"plugins/xml/proofTree2Xml.ml4" 98 3882 3911 "plugins/xml/proofTree2Xml.ml4" 98 3882 3913
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  def pf "plugins/xml/proofTree2Xml.ml4" 98 3882 3914 "plugins/xml/proofTree2Xml.ml4" 98 3882 7815
+)
+"plugins/xml/proofTree2Xml.ml4" 98 3882 3914 "plugins/xml/proofTree2Xml.ml4" 98 3882 3934
+type(
+  Acic.CicHash.key Proof2aproof.ProofTreeHash.t
+)
+ident(
+  def proof_tree_to_constr "plugins/xml/proofTree2Xml.ml4" 99 3935 3937 "plugins/xml/proofTree2Xml.ml4" 99 3935 7815
+)
+"plugins/xml/proofTree2Xml.ml4" 99 3935 3937 "plugins/xml/proofTree2Xml.ml4" 99 3935 3971
+type(
+  Proof2aproof.ProofTreeHash.key Proof2aproof.ProofTreeHash.t
+)
+ident(
+  def proof_tree_to_flattened_proof_tree "plugins/xml/proofTree2Xml.ml4" 99 3935 3972 "plugins/xml/proofTree2Xml.ml4" 99 3935 7815
+)
+"plugins/xml/proofTree2Xml.ml4" 99 3935 3972 "plugins/xml/proofTree2Xml.ml4" 99 3935 3985
+type(
+  string Acic.CicHash.t
+)
+ident(
+  def constr_to_ids "plugins/xml/proofTree2Xml.ml4" 101 3988 3989 "plugins/xml/proofTree2Xml.ml4" 101 3988 7815
+)
+"plugins/xml/proofTree2Xml.ml4" 105 4094 4100 "plugins/xml/proofTree2Xml.ml4" 105 4094 4111
+type(
+  Proof2aproof.ProofTreeHash.key -> string option
+)
+ident(
+  def ids_of_node "plugins/xml/proofTree2Xml.ml4" 125 4715 4717 "plugins/xml/proofTree2Xml.ml4" 125 4715 7815
+)
+"plugins/xml/proofTree2Xml.ml4" 105 4094 4112 "plugins/xml/proofTree2Xml.ml4" 105 4094 4116
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  def node "plugins/xml/proofTree2Xml.ml4" 106 4119 4122 "plugins/xml/proofTree2Xml.ml4" 106 4119 4709
+)
+"plugins/xml/proofTree2Xml.ml4" 106 4119 4126 "plugins/xml/proofTree2Xml.ml4" 106 4119 4132
+type(
+  Acic.CicHash.key
+)
+"plugins/xml/proofTree2Xml.ml4" 106 4119 4135 "plugins/xml/proofTree2Xml.ml4" 106 4119 4166
+type(
+  Acic.CicHash.key Proof2aproof.ProofTreeHash.t ->
+  Proof2aproof.ProofTreeHash.key -> Acic.CicHash.key
+)
+ident(
+  ext_ref Proof2aproof.ProofTreeHash.find
+)
+"plugins/xml/proofTree2Xml.ml4" 106 4119 4167 "plugins/xml/proofTree2Xml.ml4" 106 4119 4187
+type(
+  Acic.CicHash.key Proof2aproof.ProofTreeHash.t
+)
+ident(
+  int_ref proof_tree_to_constr "plugins/xml/proofTree2Xml.ml4" 98 3882 3914 "plugins/xml/proofTree2Xml.ml4" 98 3882 3934
+)
+"plugins/xml/proofTree2Xml.ml4" 106 4119 4188 "plugins/xml/proofTree2Xml.ml4" 106 4119 4192
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  int_ref node "plugins/xml/proofTree2Xml.ml4" 105 4094 4112 "plugins/xml/proofTree2Xml.ml4" 105 4094 4116
+)
+"plugins/xml/proofTree2Xml.ml4" 106 4119 4135 "plugins/xml/proofTree2Xml.ml4" 106 4119 4192
+call(
+  stack
+)
+type(
+  Acic.CicHash.key
+)
+"plugins/xml/proofTree2Xml.ml4" 118 4518 4528 "plugins/xml/proofTree2Xml.ml4" 118 4518 4545
+type(
+  string Acic.CicHash.t -> Acic.CicHash.key -> string
+)
+ident(
+  ext_ref Acic.CicHash.find
+)
+"plugins/xml/proofTree2Xml.ml4" 118 4518 4546 "plugins/xml/proofTree2Xml.ml4" 118 4518 4559
+type(
+  string Acic.CicHash.t
+)
+ident(
+  int_ref constr_to_ids "plugins/xml/proofTree2Xml.ml4" 99 3935 3972 "plugins/xml/proofTree2Xml.ml4" 99 3935 3985
+)
+"plugins/xml/proofTree2Xml.ml4" 118 4518 4560 "plugins/xml/proofTree2Xml.ml4" 118 4518 4566
+type(
+  Acic.CicHash.key
+)
+ident(
+  int_ref constr "plugins/xml/proofTree2Xml.ml4" 106 4119 4126 "plugins/xml/proofTree2Xml.ml4" 106 4119 4132
+)
+"plugins/xml/proofTree2Xml.ml4" 118 4518 4528 "plugins/xml/proofTree2Xml.ml4" 118 4518 4566
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 118 4518 4522 "plugins/xml/proofTree2Xml.ml4" 118 4518 4567
+type(
+  string option
+)
+"plugins/xml/proofTree2Xml.ml4" 119 4568 4576 "plugins/xml/proofTree2Xml.ml4" 119 4568 4577
+type(
+  exn
+)
+"plugins/xml/proofTree2Xml.ml4" 120 4581 4581 "plugins/xml/proofTree2Xml.ml4" 120 4581 4588
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.ppnl
+)
+"plugins/xml/proofTree2Xml.ml4" 120 4581 4590 "plugins/xml/proofTree2Xml.ml4" 120 4581 4597
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/proofTree2Xml.ml4" 120 4581 4599 "plugins/xml/proofTree2Xml.ml4" 120 4581 4605
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/proofTree2Xml.ml4" 121 4606 4606 "plugins/xml/proofTree2Xml.ml4" 121 4606 4668
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 120 4581 4599 "plugins/xml/proofTree2Xml.ml4" 120 4581 4668
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/proofTree2Xml.ml4" 122 4670 4671 "plugins/xml/proofTree2Xml.ml4" 122 4670 4689
+type(
+  Acic.CicHash.key -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Printer.pr_lconstr
+)
+"plugins/xml/proofTree2Xml.ml4" 122 4670 4690 "plugins/xml/proofTree2Xml.ml4" 122 4670 4696
+type(
+  Acic.CicHash.key
+)
+ident(
+  int_ref constr "plugins/xml/proofTree2Xml.ml4" 106 4119 4126 "plugins/xml/proofTree2Xml.ml4" 106 4119 4132
+)
+"plugins/xml/proofTree2Xml.ml4" 122 4670 4671 "plugins/xml/proofTree2Xml.ml4" 122 4670 4696
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/proofTree2Xml.ml4" 120 4581 4590 "plugins/xml/proofTree2Xml.ml4" 120 4581 4697
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/proofTree2Xml.ml4" 120 4581 4581 "plugins/xml/proofTree2Xml.ml4" 120 4581 4698
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/proofTree2Xml.ml4" 123 4701 4705 "plugins/xml/proofTree2Xml.ml4" 123 4701 4709
+type(
+  string option
+)
+"plugins/xml/proofTree2Xml.ml4" 120 4581 4581 "plugins/xml/proofTree2Xml.ml4" 120 4581 4709
+type(
+  string option
+)
+"plugins/xml/proofTree2Xml.ml4" 117 4511 4514 "plugins/xml/proofTree2Xml.ml4" 117 4511 4709
+type(
+  string option
+)
+"plugins/xml/proofTree2Xml.ml4" 106 4119 4122 "plugins/xml/proofTree2Xml.ml4" 106 4119 4709
+type(
+  string option
+)
+"plugins/xml/proofTree2Xml.ml4" 105 4094 4112 "plugins/xml/proofTree2Xml.ml4" 105 4094 4709
+type(
+  Proof2aproof.ProofTreeHash.key -> string option
+)
+"plugins/xml/proofTree2Xml.ml4" 125 4715 4725 "plugins/xml/proofTree2Xml.ml4" 125 4715 4728
+type(
+  Proof2aproof.ProofTreeHash.key -> Sign.named_context -> X.token Stream.t
+)
+ident(
+  def aux "plugins/xml/proofTree2Xml.ml4" 125 4715 4717 "plugins/xml/proofTree2Xml.ml4" 125 4715 7815
+)
+"plugins/xml/proofTree2Xml.ml4" 125 4715 4729 "plugins/xml/proofTree2Xml.ml4" 125 4715 4733
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  def node "plugins/xml/proofTree2Xml.ml4" 125 4715 4734 "plugins/xml/proofTree2Xml.ml4" 125 4715 7596
+)
+"plugins/xml/proofTree2Xml.ml4" 125 4715 4734 "plugins/xml/proofTree2Xml.ml4" 125 4715 4742
+type(
+  Sign.named_context
+)
+ident(
+  def old_hyps "plugins/xml/proofTree2Xml.ml4" 126 4745 4748 "plugins/xml/proofTree2Xml.ml4" 126 4745 7596
+)
+"plugins/xml/proofTree2Xml.ml4" 126 4745 4752 "plugins/xml/proofTree2Xml.ml4" 126 4745 4764
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 127 4767 4777 "plugins/xml/proofTree2Xml.ml4" 127 4767 4788
+type(
+  Proof2aproof.ProofTreeHash.key -> string option
+)
+ident(
+  int_ref ids_of_node "plugins/xml/proofTree2Xml.ml4" 105 4094 4100 "plugins/xml/proofTree2Xml.ml4" 105 4094 4111
+)
+"plugins/xml/proofTree2Xml.ml4" 127 4767 4789 "plugins/xml/proofTree2Xml.ml4" 127 4767 4793
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  int_ref node "plugins/xml/proofTree2Xml.ml4" 125 4715 4729 "plugins/xml/proofTree2Xml.ml4" 125 4715 4733
+)
+"plugins/xml/proofTree2Xml.ml4" 127 4767 4777 "plugins/xml/proofTree2Xml.ml4" 127 4767 4793
+call(
+  stack
+)
+type(
+  string option
+)
+"plugins/xml/proofTree2Xml.ml4" 128 4799 4806 "plugins/xml/proofTree2Xml.ml4" 128 4799 4810
+type(
+  string option
+)
+"plugins/xml/proofTree2Xml.ml4" 128 4799 4814 "plugins/xml/proofTree2Xml.ml4" 128 4799 4816
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 129 4817 4829 "plugins/xml/proofTree2Xml.ml4" 129 4817 4831
+type(
+  string
+)
+ident(
+  def id "plugins/xml/proofTree2Xml.ml4" 129 4817 4835 "plugins/xml/proofTree2Xml.ml4" 129 4817 4844
+)
+"plugins/xml/proofTree2Xml.ml4" 129 4817 4824 "plugins/xml/proofTree2Xml.ml4" 129 4817 4831
+type(
+  string option
+)
+"plugins/xml/proofTree2Xml.ml4" 129 4817 4836 "plugins/xml/proofTree2Xml.ml4" 129 4817 4840
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 129 4817 4841 "plugins/xml/proofTree2Xml.ml4" 129 4817 4843
+type(
+  string
+)
+ident(
+  int_ref id "plugins/xml/proofTree2Xml.ml4" 129 4817 4829 "plugins/xml/proofTree2Xml.ml4" 129 4817 4831
+)
+"plugins/xml/proofTree2Xml.ml4" 129 4817 4836 "plugins/xml/proofTree2Xml.ml4" 129 4817 4843
+type(
+  string * string
+)
+"plugins/xml/proofTree2Xml.ml4" 129 4817 4835 "plugins/xml/proofTree2Xml.ml4" 129 4817 4844
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 127 4767 4771 "plugins/xml/proofTree2Xml.ml4" 127 4767 4844
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 131 4851 4861 "plugins/xml/proofTree2Xml.ml4" 131 4851 4865
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  int_ref node "plugins/xml/proofTree2Xml.ml4" 125 4715 4729 "plugins/xml/proofTree2Xml.ml4" 125 4715 4733
+)
+"plugins/xml/proofTree2Xml.ml4" 132 4871 4899 "plugins/xml/proofTree2Xml.ml4" 132 4871 4910
+type(
+  PT.prim_rule
+)
+ident(
+  def tactic_expr "plugins/xml/proofTree2Xml.ml4" 133 4922 4931 "plugins/xml/proofTree2Xml.ml4" 133 4922 5258
+)
+"plugins/xml/proofTree2Xml.ml4" 132 4871 4891 "plugins/xml/proofTree2Xml.ml4" 132 4871 4910
+type(
+  PT.rule
+)
+"plugins/xml/proofTree2Xml.ml4" 132 4871 4911 "plugins/xml/proofTree2Xml.ml4" 132 4871 4916
+type(
+  Proof2aproof.ProofTreeHash.key list
+)
+ident(
+  def nodes "plugins/xml/proofTree2Xml.ml4" 133 4922 4931 "plugins/xml/proofTree2Xml.ml4" 133 4922 5258
+)
+"plugins/xml/proofTree2Xml.ml4" 132 4871 4891 "plugins/xml/proofTree2Xml.ml4" 132 4871 4916
+type(
+  PT.rule * Proof2aproof.ProofTreeHash.key list
+)
+"plugins/xml/proofTree2Xml.ml4" 132 4871 4886 "plugins/xml/proofTree2Xml.ml4" 132 4871 4917
+type(
+  (PT.rule * Proof2aproof.ProofTreeHash.key list) option
+)
+"plugins/xml/proofTree2Xml.ml4" 132 4871 4878 "plugins/xml/proofTree2Xml.ml4" 132 4871 4918
+type(
+  PT.proof_tree
+)
+"plugins/xml/proofTree2Xml.ml4" 133 4922 4935 "plugins/xml/proofTree2Xml.ml4" 133 4922 4938
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 133 4922 4941 "plugins/xml/proofTree2Xml.ml4" 133 4922 4960
+type(
+  PT.prim_rule -> string
+)
+ident(
+  int_ref string_of_prim_rule "plugins/xml/proofTree2Xml.ml4" 82 3342 3346 "plugins/xml/proofTree2Xml.ml4" 82 3342 3365
+)
+"plugins/xml/proofTree2Xml.ml4" 133 4922 4961 "plugins/xml/proofTree2Xml.ml4" 133 4922 4972
+type(
+  PT.prim_rule
+)
+ident(
+  int_ref tactic_expr "plugins/xml/proofTree2Xml.ml4" 132 4871 4899 "plugins/xml/proofTree2Xml.ml4" 132 4871 4910
+)
+"plugins/xml/proofTree2Xml.ml4" 133 4922 4941 "plugins/xml/proofTree2Xml.ml4" 133 4922 4972
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 134 4976 4989 "plugins/xml/proofTree2Xml.ml4" 134 4976 5001
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 134 4976 5005 "plugins/xml/proofTree2Xml.ml4" 134 4976 5011
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 134 4976 5012 "plugins/xml/proofTree2Xml.ml4" 134 4976 5015
+type(
+  string
+)
+ident(
+  int_ref tac "plugins/xml/proofTree2Xml.ml4" 133 4922 4935 "plugins/xml/proofTree2Xml.ml4" 133 4922 4938
+)
+"plugins/xml/proofTree2Xml.ml4" 134 4976 5005 "plugins/xml/proofTree2Xml.ml4" 134 4976 5015
+type(
+  string * string
+)
+"plugins/xml/proofTree2Xml.ml4" 134 4976 5018 "plugins/xml/proofTree2Xml.ml4" 134 4976 5030
+type(
+  (string * string) list
+)
+ident(
+  int_ref of_attribute "plugins/xml/proofTree2Xml.ml4" 126 4745 4752 "plugins/xml/proofTree2Xml.ml4" 126 4745 4764
+)
+"plugins/xml/proofTree2Xml.ml4" 134 4976 5004 "plugins/xml/proofTree2Xml.ml4" 134 4976 5030
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 135 5034 5047 "plugins/xml/proofTree2Xml.ml4" 135 5034 5052
+type(
+  Proof2aproof.ProofTreeHash.key list
+)
+ident(
+  int_ref nodes "plugins/xml/proofTree2Xml.ml4" 132 4871 4911 "plugins/xml/proofTree2Xml.ml4" 132 4871 4916
+)
+"plugins/xml/proofTree2Xml.ml4" 135 5034 5055 "plugins/xml/proofTree2Xml.ml4" 135 5034 5057
+type(
+  Proof2aproof.ProofTreeHash.key list
+)
+"plugins/xml/proofTree2Xml.ml4" 135 5034 5047 "plugins/xml/proofTree2Xml.ml4" 135 5034 5057
+type(
+  bool
+)
+type(
+  Proof2aproof.ProofTreeHash.key list ->
+  Proof2aproof.ProofTreeHash.key list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/xml/proofTree2Xml.ml4" 136 5063 5074 "plugins/xml/proofTree2Xml.ml4" 136 5063 5085
+type(
+  string -> (string * string) list -> X.token Stream.t
+)
+ident(
+  ext_ref X.xml_empty
+)
+"plugins/xml/proofTree2Xml.ml4" 136 5063 5086 "plugins/xml/proofTree2Xml.ml4" 136 5063 5092
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 136 5063 5093 "plugins/xml/proofTree2Xml.ml4" 136 5063 5105
+type(
+  (string * string) list
+)
+ident(
+  int_ref of_attribute "plugins/xml/proofTree2Xml.ml4" 134 4976 4989 "plugins/xml/proofTree2Xml.ml4" 134 4976 5001
+)
+"plugins/xml/proofTree2Xml.ml4" 136 5063 5074 "plugins/xml/proofTree2Xml.ml4" 136 5063 5105
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 138 5121 5132 "plugins/xml/proofTree2Xml.ml4" 138 5121 5144
+type(
+  string -> (string * string) list -> X.token Stream.t -> X.token Stream.t
+)
+ident(
+  ext_ref X.xml_nempty
+)
+"plugins/xml/proofTree2Xml.ml4" 138 5121 5145 "plugins/xml/proofTree2Xml.ml4" 138 5121 5151
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 138 5121 5152 "plugins/xml/proofTree2Xml.ml4" 138 5121 5164
+type(
+  (string * string) list
+)
+ident(
+  int_ref of_attribute "plugins/xml/proofTree2Xml.ml4" 134 4976 4989 "plugins/xml/proofTree2Xml.ml4" 134 4976 5001
+)
+"plugins/xml/proofTree2Xml.ml4" 139 5165 5178 "plugins/xml/proofTree2Xml.ml4" 139 5165 5192
+type(
+  (X.token Stream.t -> Proof2aproof.ProofTreeHash.key -> X.token Stream.t) ->
+  X.token Stream.t -> Proof2aproof.ProofTreeHash.key list -> X.token Stream.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5212 "plugins/xml/proofTree2Xml.ml4" 140 5193 5213
+type(
+  X.token Stream.t
+)
+ident(
+  def i "plugins/xml/proofTree2Xml.ml4" 140 5193 5214 "plugins/xml/proofTree2Xml.ml4" 140 5193 5245
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5214 "plugins/xml/proofTree2Xml.ml4" 140 5193 5215
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  def n "plugins/xml/proofTree2Xml.ml4" 140 5193 5222 "plugins/xml/proofTree2Xml.ml4" 140 5193 5223
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5222 "plugins/xml/proofTree2Xml.ml4" 140 5193 5223
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+type(
+  X.token Stream.t
+)
+ident(
+  int_ref i "plugins/xml/proofTree2Xml.ml4" 140 5193 5212 "plugins/xml/proofTree2Xml.ml4" 140 5193 5213
+)
+type(
+  X.token Stream.t -> X.token Stream.t -> X.token Stream.t
+)
+ident(
+  ext_ref Stream.iapp
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5227 "plugins/xml/proofTree2Xml.ml4" 140 5193 5230
+type(
+  Proof2aproof.ProofTreeHash.key -> Sign.named_context -> X.token Stream.t
+)
+ident(
+  int_ref aux "plugins/xml/proofTree2Xml.ml4" 125 4715 4725 "plugins/xml/proofTree2Xml.ml4" 125 4715 4728
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5231 "plugins/xml/proofTree2Xml.ml4" 140 5193 5232
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  int_ref n "plugins/xml/proofTree2Xml.ml4" 140 5193 5214 "plugins/xml/proofTree2Xml.ml4" 140 5193 5215
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5233 "plugins/xml/proofTree2Xml.ml4" 140 5193 5241
+type(
+  Sign.named_context
+)
+ident(
+  int_ref old_hyps "plugins/xml/proofTree2Xml.ml4" 125 4715 4734 "plugins/xml/proofTree2Xml.ml4" 125 4715 4742
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5227 "plugins/xml/proofTree2Xml.ml4" 140 5193 5241
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5226 "plugins/xml/proofTree2Xml.ml4" 140 5193 5242
+call(
+  stack
+)
+type(
+  X.token Stream.t
+)
+type(
+  unit -> X.token Stream.t
+)
+type(
+  unit
+)
+type(
+  (unit -> X.token Stream.t) -> X.token Stream.t
+)
+ident(
+  ext_ref Stream.slazy
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5214 "plugins/xml/proofTree2Xml.ml4" 140 5193 5245
+type(
+  Proof2aproof.ProofTreeHash.key -> X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5208 "plugins/xml/proofTree2Xml.ml4" 140 5193 5245
+type(
+  X.token Stream.t -> Proof2aproof.ProofTreeHash.key -> X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5247 "plugins/xml/proofTree2Xml.ml4" 140 5193 5251
+type(
+  X.token Stream.t
+)
+ident(
+  ext_ref Stream.sempty
+)
+"plugins/xml/proofTree2Xml.ml4" 140 5193 5252 "plugins/xml/proofTree2Xml.ml4" 140 5193 5257
+type(
+  Proof2aproof.ProofTreeHash.key list
+)
+ident(
+  int_ref nodes "plugins/xml/proofTree2Xml.ml4" 132 4871 4911 "plugins/xml/proofTree2Xml.ml4" 132 4871 4916
+)
+"plugins/xml/proofTree2Xml.ml4" 139 5165 5178 "plugins/xml/proofTree2Xml.ml4" 139 5165 5257
+call(
+  stack
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 138 5121 5132 "plugins/xml/proofTree2Xml.ml4" 138 5121 5258
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 135 5034 5044 "plugins/xml/proofTree2Xml.ml4" 135 5034 5258
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 134 4976 4985 "plugins/xml/proofTree2Xml.ml4" 134 4976 5258
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 133 4922 4931 "plugins/xml/proofTree2Xml.ml4" 133 4922 5258
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 142 5260 5276 "plugins/xml/proofTree2Xml.ml4" 142 5260 5280
+type(
+  PT.goal
+)
+ident(
+  def goal "plugins/xml/proofTree2Xml.ml4" 148 5675 5683 "plugins/xml/proofTree2Xml.ml4" 148 5675 7297
+)
+"plugins/xml/proofTree2Xml.ml4" 143 5282 5323 "plugins/xml/proofTree2Xml.ml4" 143 5282 5334
+type(
+  PT.tactic_expr
+)
+ident(
+  def tactic_expr "plugins/xml/proofTree2Xml.ml4" 148 5675 5683 "plugins/xml/proofTree2Xml.ml4" 148 5675 7297
+)
+"plugins/xml/proofTree2Xml.ml4" 143 5282 5335 "plugins/xml/proofTree2Xml.ml4" 143 5282 5336
+type(
+  bool
+)
+"plugins/xml/proofTree2Xml.ml4" 143 5282 5313 "plugins/xml/proofTree2Xml.ml4" 143 5282 5337
+type(
+  PT.compound_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 143 5282 5338 "plugins/xml/proofTree2Xml.ml4" 143 5282 5350
+type(
+  PT.proof_tree
+)
+ident(
+  def hidden_proof "plugins/xml/proofTree2Xml.ml4" 148 5675 5683 "plugins/xml/proofTree2Xml.ml4" 148 5675 7297
+)
+"plugins/xml/proofTree2Xml.ml4" 143 5282 5302 "plugins/xml/proofTree2Xml.ml4" 143 5282 5351
+type(
+  PT.rule
+)
+"plugins/xml/proofTree2Xml.ml4" 143 5282 5352 "plugins/xml/proofTree2Xml.ml4" 143 5282 5357
+type(
+  PT.proof_tree list
+)
+ident(
+  def nodes "plugins/xml/proofTree2Xml.ml4" 148 5675 5683 "plugins/xml/proofTree2Xml.ml4" 148 5675 7297
+)
+"plugins/xml/proofTree2Xml.ml4" 143 5282 5302 "plugins/xml/proofTree2Xml.ml4" 143 5282 5357
+type(
+  PT.rule * PT.proof_tree list
+)
+"plugins/xml/proofTree2Xml.ml4" 143 5282 5297 "plugins/xml/proofTree2Xml.ml4" 143 5282 5358
+type(
+  (PT.rule * PT.proof_tree list) option
+)
+"plugins/xml/proofTree2Xml.ml4" 142 5260 5267 "plugins/xml/proofTree2Xml.ml4" 142 5260 5359
+type(
+  PT.proof_tree
+)
+"plugins/xml/proofTree2Xml.ml4" 148 5675 5687 "plugins/xml/proofTree2Xml.ml4" 148 5675 5697
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+"plugins/xml/proofTree2Xml.ml4" 149 5700 5709 "plugins/xml/proofTree2Xml.ml4" 149 5700 5740
+type(
+  Proof2aproof.ProofTreeHash.key Proof2aproof.ProofTreeHash.t ->
+  Proof2aproof.ProofTreeHash.key -> Proof2aproof.ProofTreeHash.key
+)
+ident(
+  ext_ref Proof2aproof.ProofTreeHash.find
+)
+"plugins/xml/proofTree2Xml.ml4" 149 5700 5741 "plugins/xml/proofTree2Xml.ml4" 149 5700 5775
+type(
+  Proof2aproof.ProofTreeHash.key Proof2aproof.ProofTreeHash.t
+)
+ident(
+  int_ref proof_tree_to_flattened_proof_tree "plugins/xml/proofTree2Xml.ml4" 99 3935 3937 "plugins/xml/proofTree2Xml.ml4" 99 3935 3971
+)
+"plugins/xml/proofTree2Xml.ml4" 149 5700 5776 "plugins/xml/proofTree2Xml.ml4" 149 5700 5780
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  int_ref node "plugins/xml/proofTree2Xml.ml4" 125 4715 4729 "plugins/xml/proofTree2Xml.ml4" 125 4715 4733
+)
+"plugins/xml/proofTree2Xml.ml4" 149 5700 5709 "plugins/xml/proofTree2Xml.ml4" 149 5700 5780
+call(
+  stack
+)
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+"plugins/xml/proofTree2Xml.ml4" 151 5798 5812 "plugins/xml/proofTree2Xml.ml4" 151 5798 5823
+type(
+  PT.tactic_expr
+)
+ident(
+  int_ref tactic_expr "plugins/xml/proofTree2Xml.ml4" 143 5282 5323 "plugins/xml/proofTree2Xml.ml4" 143 5282 5334
+)
+"plugins/xml/proofTree2Xml.ml4" 152 5829 5858 "plugins/xml/proofTree2Xml.ml4" 152 5829 5859
+type(
+  Tacexpr.glob_tactic_expr
+)
+"plugins/xml/proofTree2Xml.ml4" 152 5829 5849 "plugins/xml/proofTree2Xml.ml4" 152 5829 5859
+type(
+  (Term.constr, Pattern.constr_pattern, Names.evaluable_global_reference,
+   Names.inductive, Nametab.ltac_constant, Names.identifier,
+   Tacexpr.glob_tactic_expr, Genarg.tlevel)
+  T.gen_tactic_arg
+)
+"plugins/xml/proofTree2Xml.ml4" 152 5829 5839 "plugins/xml/proofTree2Xml.ml4" 152 5829 5860
+type(
+  (Term.constr, Pattern.constr_pattern, Names.evaluable_global_reference,
+   Names.inductive, Nametab.ltac_constant, Names.identifier,
+   Tacexpr.glob_tactic_expr, Genarg.tlevel)
+  T.gen_tactic_expr
+)
+"plugins/xml/proofTree2Xml.ml4" 155 6023 6035 "plugins/xml/proofTree2Xml.ml4" 155 6023 6038
+type(
+  Proof2aproof.ProofTreeHash.key -> Sign.named_context -> X.token Stream.t
+)
+ident(
+  int_ref aux "plugins/xml/proofTree2Xml.ml4" 125 4715 4725 "plugins/xml/proofTree2Xml.ml4" 125 4715 4728
+)
+"plugins/xml/proofTree2Xml.ml4" 155 6023 6039 "plugins/xml/proofTree2Xml.ml4" 155 6023 6049
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  int_ref flat_proof "plugins/xml/proofTree2Xml.ml4" 148 5675 5687 "plugins/xml/proofTree2Xml.ml4" 148 5675 5697
+)
+"plugins/xml/proofTree2Xml.ml4" 155 6023 6050 "plugins/xml/proofTree2Xml.ml4" 155 6023 6058
+type(
+  Sign.named_context
+)
+ident(
+  int_ref old_hyps "plugins/xml/proofTree2Xml.ml4" 125 4715 4734 "plugins/xml/proofTree2Xml.ml4" 125 4715 4742
+)
+"plugins/xml/proofTree2Xml.ml4" 155 6023 6035 "plugins/xml/proofTree2Xml.ml4" 155 6023 6058
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 156 6059 6069 "plugins/xml/proofTree2Xml.ml4" 156 6059 6070
+type(
+  (Term.constr, Pattern.constr_pattern, Names.evaluable_global_reference,
+   Names.inductive, Nametab.ltac_constant, Names.identifier,
+   Tacexpr.glob_tactic_expr, Genarg.tlevel)
+  T.gen_tactic_expr
+)
+"plugins/xml/proofTree2Xml.ml4" 158 6115 6121 "plugins/xml/proofTree2Xml.ml4" 158 6115 6126
+type(
+  Proof_type.tactic_expr -> Pp.std_ppcmds
+)
+"plugins/xml/proofTree2Xml.ml4" 158 6115 6129 "plugins/xml/proofTree2Xml.ml4" 158 6115 6147
+type(
+  Environ.env -> Proof_type.tactic_expr -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pptactic.pr_tactic
+)
+"plugins/xml/proofTree2Xml.ml4" 158 6115 6149 "plugins/xml/proofTree2Xml.ml4" 158 6115 6159
+type(
+  unit -> Environ.env
+)
+ident(
+  ext_ref Global.env
+)
+"plugins/xml/proofTree2Xml.ml4" 158 6115 6159 "plugins/xml/proofTree2Xml.ml4" 158 6115 6161
+type(
+  unit
+)
+"plugins/xml/proofTree2Xml.ml4" 158 6115 6149 "plugins/xml/proofTree2Xml.ml4" 158 6115 6161
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/xml/proofTree2Xml.ml4" 158 6115 6129 "plugins/xml/proofTree2Xml.ml4" 158 6115 6162
+call(
+  stack
+)
+type(
+  Proof_type.tactic_expr -> Pp.std_ppcmds
+)
+"plugins/xml/proofTree2Xml.ml4" 159 6166 6179 "plugins/xml/proofTree2Xml.ml4" 159 6166 6182
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 159 6166 6185 "plugins/xml/proofTree2Xml.ml4" 159 6166 6205
+type(
+  Pp.std_ppcmds -> string
+)
+ident(
+  int_ref std_ppcmds_to_string "plugins/xml/proofTree2Xml.ml4" 17 1048 1052 "plugins/xml/proofTree2Xml.ml4" 17 1048 1072
+)
+"plugins/xml/proofTree2Xml.ml4" 159 6166 6207 "plugins/xml/proofTree2Xml.ml4" 159 6166 6212
+type(
+  Proof_type.tactic_expr -> Pp.std_ppcmds
+)
+ident(
+  int_ref prtac "plugins/xml/proofTree2Xml.ml4" 158 6115 6121 "plugins/xml/proofTree2Xml.ml4" 158 6115 6126
+)
+"plugins/xml/proofTree2Xml.ml4" 159 6166 6213 "plugins/xml/proofTree2Xml.ml4" 159 6166 6224
+type(
+  PT.tactic_expr
+)
+ident(
+  int_ref tactic_expr "plugins/xml/proofTree2Xml.ml4" 143 5282 5323 "plugins/xml/proofTree2Xml.ml4" 143 5282 5334
+)
+"plugins/xml/proofTree2Xml.ml4" 159 6166 6207 "plugins/xml/proofTree2Xml.ml4" 159 6166 6224
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/proofTree2Xml.ml4" 159 6166 6185 "plugins/xml/proofTree2Xml.ml4" 159 6166 6225
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 160 6229 6242 "plugins/xml/proofTree2Xml.ml4" 160 6229 6249
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 160 6229 6251 "plugins/xml/proofTree2Xml.ml4" 160 6229 6261
+type(
+  string -> string
+)
+ident(
+  int_ref first_word "plugins/xml/proofTree2Xml.ml4" 76 3243 3247 "plugins/xml/proofTree2Xml.ml4" 76 3243 3257
+)
+"plugins/xml/proofTree2Xml.ml4" 160 6229 6262 "plugins/xml/proofTree2Xml.ml4" 160 6229 6265
+type(
+  string
+)
+ident(
+  int_ref tac "plugins/xml/proofTree2Xml.ml4" 159 6166 6179 "plugins/xml/proofTree2Xml.ml4" 159 6166 6182
+)
+"plugins/xml/proofTree2Xml.ml4" 160 6229 6251 "plugins/xml/proofTree2Xml.ml4" 160 6229 6265
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 161 6269 6282 "plugins/xml/proofTree2Xml.ml4" 161 6269 6294
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 161 6269 6298 "plugins/xml/proofTree2Xml.ml4" 161 6269 6304
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 161 6269 6305 "plugins/xml/proofTree2Xml.ml4" 161 6269 6312
+type(
+  string
+)
+ident(
+  int_ref tacname "plugins/xml/proofTree2Xml.ml4" 160 6229 6242 "plugins/xml/proofTree2Xml.ml4" 160 6229 6249
+)
+"plugins/xml/proofTree2Xml.ml4" 161 6269 6298 "plugins/xml/proofTree2Xml.ml4" 161 6269 6312
+type(
+  string * string
+)
+"plugins/xml/proofTree2Xml.ml4" 161 6269 6316 "plugins/xml/proofTree2Xml.ml4" 161 6269 6324
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 161 6269 6325 "plugins/xml/proofTree2Xml.ml4" 161 6269 6328
+type(
+  string
+)
+ident(
+  int_ref tac "plugins/xml/proofTree2Xml.ml4" 159 6166 6179 "plugins/xml/proofTree2Xml.ml4" 159 6166 6182
+)
+"plugins/xml/proofTree2Xml.ml4" 161 6269 6316 "plugins/xml/proofTree2Xml.ml4" 161 6269 6328
+type(
+  string * string
+)
+"plugins/xml/proofTree2Xml.ml4" 161 6269 6331 "plugins/xml/proofTree2Xml.ml4" 161 6269 6343
+type(
+  (string * string) list
+)
+ident(
+  int_ref of_attribute "plugins/xml/proofTree2Xml.ml4" 126 4745 4752 "plugins/xml/proofTree2Xml.ml4" 126 4745 4764
+)
+"plugins/xml/proofTree2Xml.ml4" 161 6269 6315 "plugins/xml/proofTree2Xml.ml4" 161 6269 6343
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 161 6269 6297 "plugins/xml/proofTree2Xml.ml4" 161 6269 6343
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 164 6375 6404 "plugins/xml/proofTree2Xml.ml4" 164 6375 6409
+type(
+  Term.constr
+)
+"plugins/xml/proofTree2Xml.ml4" 165 6411 6439 "plugins/xml/proofTree2Xml.ml4" 165 6411 6443
+type(
+  Environ.named_context_val
+)
+"plugins/xml/proofTree2Xml.ml4" 164 6375 6388 "plugins/xml/proofTree2Xml.ml4" 164 6375 6444
+type(
+  PT.goal
+)
+"plugins/xml/proofTree2Xml.ml4" 165 6411 6445 "plugins/xml/proofTree2Xml.ml4" 165 6411 6449
+type(
+  PT.goal
+)
+ident(
+  int_ref goal "plugins/xml/proofTree2Xml.ml4" 142 5260 5276 "plugins/xml/proofTree2Xml.ml4" 142 5260 5280
+)
+"plugins/xml/proofTree2Xml.ml4" 167 6454 6467 "plugins/xml/proofTree2Xml.ml4" 167 6454 6470
+type(
+  Environ.env
+)
+"plugins/xml/proofTree2Xml.ml4" 167 6454 6473 "plugins/xml/proofTree2Xml.ml4" 167 6454 6494
+type(
+  Environ.named_context_val -> Environ.env
+)
+ident(
+  ext_ref Global.env_of_context
+)
+"plugins/xml/proofTree2Xml.ml4" 167 6454 6495 "plugins/xml/proofTree2Xml.ml4" 167 6454 6499
+type(
+  Environ.named_context_val
+)
+ident(
+  int_ref hyps "plugins/xml/proofTree2Xml.ml4" 165 6411 6439 "plugins/xml/proofTree2Xml.ml4" 165 6411 6443
+)
+"plugins/xml/proofTree2Xml.ml4" 167 6454 6473 "plugins/xml/proofTree2Xml.ml4" 167 6454 6499
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/xml/proofTree2Xml.ml4" 169 6504 6517 "plugins/xml/proofTree2Xml.ml4" 169 6504 6522
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 170 6525 6535 "plugins/xml/proofTree2Xml.ml4" 170 6525 6547
+type(
+  string -> (string * string) list -> X.token Stream.t -> X.token Stream.t
+)
+ident(
+  ext_ref X.xml_nempty
+)
+"plugins/xml/proofTree2Xml.ml4" 170 6525 6548 "plugins/xml/proofTree2Xml.ml4" 170 6525 6554
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 170 6525 6555 "plugins/xml/proofTree2Xml.ml4" 170 6525 6557
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 170 6525 6559 "plugins/xml/proofTree2Xml.ml4" 170 6525 6572
+type(
+  Term.constr -> Evd.evar_map -> Environ.env -> X.token Stream.t
+)
+ident(
+  int_ref constr_to_xml "plugins/xml/proofTree2Xml.ml4" 27 1365 1369 "plugins/xml/proofTree2Xml.ml4" 27 1365 1382
+)
+"plugins/xml/proofTree2Xml.ml4" 170 6525 6573 "plugins/xml/proofTree2Xml.ml4" 170 6525 6578
+type(
+  Term.constr
+)
+ident(
+  int_ref concl "plugins/xml/proofTree2Xml.ml4" 164 6375 6404 "plugins/xml/proofTree2Xml.ml4" 164 6375 6409
+)
+"plugins/xml/proofTree2Xml.ml4" 170 6525 6579 "plugins/xml/proofTree2Xml.ml4" 170 6525 6584
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/proofTree2Xml.ml4" 98 3882 3905 "plugins/xml/proofTree2Xml.ml4" 98 3882 3910
+)
+"plugins/xml/proofTree2Xml.ml4" 170 6525 6585 "plugins/xml/proofTree2Xml.ml4" 170 6525 6588
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/proofTree2Xml.ml4" 167 6454 6467 "plugins/xml/proofTree2Xml.ml4" 167 6454 6470
+)
+"plugins/xml/proofTree2Xml.ml4" 170 6525 6559 "plugins/xml/proofTree2Xml.ml4" 170 6525 6588
+call(
+  stack
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 170 6525 6535 "plugins/xml/proofTree2Xml.ml4" 170 6525 6589
+call(
+  stack
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 172 6594 6611 "plugins/xml/proofTree2Xml.ml4" 172 6594 6621
+type(
+  (Names.identifier * 'a * Term.constr) list -> X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 174 6643 6656 "plugins/xml/proofTree2Xml.ml4" 174 6643 6658
+type(
+  (Names.identifier * 'a * Term.constr) list
+)
+"plugins/xml/proofTree2Xml.ml4" 174 6643 6662 "plugins/xml/proofTree2Xml.ml4" 174 6643 6667
+type(
+  X.token Stream.t
+)
+ident(
+  int_ref xgoal "plugins/xml/proofTree2Xml.ml4" 169 6504 6517 "plugins/xml/proofTree2Xml.ml4" 169 6504 6522
+)
+"plugins/xml/proofTree2Xml.ml4" 175 6668 6682 "plugins/xml/proofTree2Xml.ml4" 175 6668 6684
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/xml/proofTree2Xml.ml4" 176 6702 6716 "plugins/xml/proofTree2Xml.ml4" 176 6702 6956
+)
+"plugins/xml/proofTree2Xml.ml4" 175 6668 6685 "plugins/xml/proofTree2Xml.ml4" 175 6668 6686
+type(
+  'a
+)
+ident(
+  def c "plugins/xml/proofTree2Xml.ml4" 176 6702 6716 "plugins/xml/proofTree2Xml.ml4" 176 6702 6956
+)
+"plugins/xml/proofTree2Xml.ml4" 175 6668 6687 "plugins/xml/proofTree2Xml.ml4" 175 6668 6690
+type(
+  Term.constr
+)
+ident(
+  def tid "plugins/xml/proofTree2Xml.ml4" 176 6702 6716 "plugins/xml/proofTree2Xml.ml4" 176 6702 6956
+)
+"plugins/xml/proofTree2Xml.ml4" 175 6668 6682 "plugins/xml/proofTree2Xml.ml4" 175 6668 6690
+type(
+  Names.identifier * 'a * Term.constr
+)
+"plugins/xml/proofTree2Xml.ml4" 175 6668 6693 "plugins/xml/proofTree2Xml.ml4" 175 6668 6698
+type(
+  (Names.identifier * 'a * Term.constr) list
+)
+ident(
+  def hyps1 "plugins/xml/proofTree2Xml.ml4" 176 6702 6716 "plugins/xml/proofTree2Xml.ml4" 176 6702 6956
+)
+"plugins/xml/proofTree2Xml.ml4" 175 6668 6681 "plugins/xml/proofTree2Xml.ml4" 175 6668 6698
+type(
+  (Names.identifier * 'a * Term.constr) list
+)
+"plugins/xml/proofTree2Xml.ml4" 176 6702 6720 "plugins/xml/proofTree2Xml.ml4" 176 6702 6723
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 176 6702 6726 "plugins/xml/proofTree2Xml.ml4" 176 6702 6744
+type(
+  Names.identifier -> string
+)
+ident(
+  ext_ref Names.string_of_id
+)
+"plugins/xml/proofTree2Xml.ml4" 176 6702 6745 "plugins/xml/proofTree2Xml.ml4" 176 6702 6747
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/xml/proofTree2Xml.ml4" 175 6668 6682 "plugins/xml/proofTree2Xml.ml4" 175 6668 6684
+)
+"plugins/xml/proofTree2Xml.ml4" 176 6702 6726 "plugins/xml/proofTree2Xml.ml4" 176 6702 6747
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 177 6751 6769 "plugins/xml/proofTree2Xml.ml4" 177 6751 6779
+type(
+  (Names.identifier * 'a * Term.constr) list -> X.token Stream.t
+)
+ident(
+  int_ref build_hyps "plugins/xml/proofTree2Xml.ml4" 172 6594 6611 "plugins/xml/proofTree2Xml.ml4" 172 6594 6621
+)
+"plugins/xml/proofTree2Xml.ml4" 177 6751 6780 "plugins/xml/proofTree2Xml.ml4" 177 6751 6785
+type(
+  (Names.identifier * 'a * Term.constr) list
+)
+ident(
+  int_ref hyps1 "plugins/xml/proofTree2Xml.ml4" 175 6668 6693 "plugins/xml/proofTree2Xml.ml4" 175 6668 6698
+)
+"plugins/xml/proofTree2Xml.ml4" 177 6751 6769 "plugins/xml/proofTree2Xml.ml4" 177 6751 6785
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+type(
+  unit -> X.token Stream.t
+)
+type(
+  X.token Stream.t
+)
+type(
+  unit
+)
+type(
+  (unit -> X.token Stream.t) -> X.token Stream.t -> X.token Stream.t
+)
+ident(
+  ext_ref Stream.lapp
+)
+"plugins/xml/proofTree2Xml.ml4" 178 6787 6806 "plugins/xml/proofTree2Xml.ml4" 178 6787 6818
+type(
+  string -> (string * string) list -> X.token Stream.t -> X.token Stream.t
+)
+ident(
+  ext_ref X.xml_nempty
+)
+"plugins/xml/proofTree2Xml.ml4" 178 6787 6819 "plugins/xml/proofTree2Xml.ml4" 178 6787 6831
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 179 6832 6853 "plugins/xml/proofTree2Xml.ml4" 179 6832 6857
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 179 6832 6858 "plugins/xml/proofTree2Xml.ml4" 179 6832 6869
+type(
+  string -> string
+)
+ident(
+  int_ref idref_of_id "plugins/xml/proofTree2Xml.ml4" 22 1153 1157 "plugins/xml/proofTree2Xml.ml4" 22 1153 1168
+)
+"plugins/xml/proofTree2Xml.ml4" 179 6832 6870 "plugins/xml/proofTree2Xml.ml4" 179 6832 6873
+type(
+  string
+)
+ident(
+  int_ref id' "plugins/xml/proofTree2Xml.ml4" 176 6702 6720 "plugins/xml/proofTree2Xml.ml4" 176 6702 6723
+)
+"plugins/xml/proofTree2Xml.ml4" 179 6832 6858 "plugins/xml/proofTree2Xml.ml4" 179 6832 6873
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 179 6832 6853 "plugins/xml/proofTree2Xml.ml4" 179 6832 6873
+type(
+  string * string
+)
+"plugins/xml/proofTree2Xml.ml4" 179 6832 6876 "plugins/xml/proofTree2Xml.ml4" 179 6832 6882
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 179 6832 6883 "plugins/xml/proofTree2Xml.ml4" 179 6832 6886
+type(
+  string
+)
+ident(
+  int_ref id' "plugins/xml/proofTree2Xml.ml4" 176 6702 6720 "plugins/xml/proofTree2Xml.ml4" 176 6702 6723
+)
+"plugins/xml/proofTree2Xml.ml4" 179 6832 6876 "plugins/xml/proofTree2Xml.ml4" 179 6832 6886
+type(
+  string * string
+)
+"plugins/xml/proofTree2Xml.ml4" 179 6832 6852 "plugins/xml/proofTree2Xml.ml4" 179 6832 6887
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 180 6888 6909 "plugins/xml/proofTree2Xml.ml4" 180 6888 6922
+type(
+  Term.constr -> Evd.evar_map -> Environ.env -> X.token Stream.t
+)
+ident(
+  int_ref constr_to_xml "plugins/xml/proofTree2Xml.ml4" 27 1365 1369 "plugins/xml/proofTree2Xml.ml4" 27 1365 1382
+)
+"plugins/xml/proofTree2Xml.ml4" 180 6888 6923 "plugins/xml/proofTree2Xml.ml4" 180 6888 6926
+type(
+  Term.constr
+)
+ident(
+  int_ref tid "plugins/xml/proofTree2Xml.ml4" 175 6668 6687 "plugins/xml/proofTree2Xml.ml4" 175 6668 6690
+)
+"plugins/xml/proofTree2Xml.ml4" 180 6888 6927 "plugins/xml/proofTree2Xml.ml4" 180 6888 6932
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/proofTree2Xml.ml4" 98 3882 3905 "plugins/xml/proofTree2Xml.ml4" 98 3882 3910
+)
+"plugins/xml/proofTree2Xml.ml4" 180 6888 6933 "plugins/xml/proofTree2Xml.ml4" 180 6888 6936
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/proofTree2Xml.ml4" 167 6454 6467 "plugins/xml/proofTree2Xml.ml4" 167 6454 6470
+)
+"plugins/xml/proofTree2Xml.ml4" 180 6888 6909 "plugins/xml/proofTree2Xml.ml4" 180 6888 6936
+call(
+  stack
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 178 6787 6806 "plugins/xml/proofTree2Xml.ml4" 178 6787 6937
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 178 6787 6805 "plugins/xml/proofTree2Xml.ml4" 178 6787 6938
+call(
+  stack
+)
+type(
+  X.token Stream.t
+)
+type(
+  unit -> X.token Stream.t
+)
+type(
+  unit
+)
+type(
+  (unit -> X.token Stream.t) -> X.token Stream.t
+)
+ident(
+  ext_ref Stream.slazy
+)
+"plugins/xml/proofTree2Xml.ml4" 176 6702 6716 "plugins/xml/proofTree2Xml.ml4" 176 6702 6956
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 173 6624 6634 "plugins/xml/proofTree2Xml.ml4" 173 6624 6956
+type(
+  (Names.identifier * 'a * Term.constr) list -> X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 182 6960 6973 "plugins/xml/proofTree2Xml.ml4" 182 6960 6982
+type(
+  Names.identifier list
+)
+"plugins/xml/proofTree2Xml.ml4" 182 6960 6985 "plugins/xml/proofTree2Xml.ml4" 182 6960 6993
+type(
+  (Term.named_declaration -> Names.identifier) ->
+  Sign.named_context -> Names.identifier list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/xml/proofTree2Xml.ml4" 182 6960 7000 "plugins/xml/proofTree2Xml.ml4" 182 6960 7002
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/xml/proofTree2Xml.ml4" 182 6960 7011 "plugins/xml/proofTree2Xml.ml4" 182 6960 7013
+)
+"plugins/xml/proofTree2Xml.ml4" 182 6960 7003 "plugins/xml/proofTree2Xml.ml4" 182 6960 7004
+type(
+  Term.constr option
+)
+ident(
+  def c "plugins/xml/proofTree2Xml.ml4" 182 6960 7011 "plugins/xml/proofTree2Xml.ml4" 182 6960 7013
+)
+"plugins/xml/proofTree2Xml.ml4" 182 6960 7005 "plugins/xml/proofTree2Xml.ml4" 182 6960 7008
+type(
+  Term.types
+)
+ident(
+  def tid "plugins/xml/proofTree2Xml.ml4" 182 6960 7011 "plugins/xml/proofTree2Xml.ml4" 182 6960 7013
+)
+"plugins/xml/proofTree2Xml.ml4" 182 6960 7000 "plugins/xml/proofTree2Xml.ml4" 182 6960 7008
+type(
+  Term.named_declaration
+)
+"plugins/xml/proofTree2Xml.ml4" 182 6960 7011 "plugins/xml/proofTree2Xml.ml4" 182 6960 7013
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/xml/proofTree2Xml.ml4" 182 6960 7000 "plugins/xml/proofTree2Xml.ml4" 182 6960 7002
+)
+"plugins/xml/proofTree2Xml.ml4" 182 6960 6995 "plugins/xml/proofTree2Xml.ml4" 182 6960 7013
+type(
+  Term.named_declaration -> Names.identifier
+)
+"plugins/xml/proofTree2Xml.ml4" 182 6960 7015 "plugins/xml/proofTree2Xml.ml4" 182 6960 7023
+type(
+  Sign.named_context
+)
+ident(
+  int_ref old_hyps "plugins/xml/proofTree2Xml.ml4" 125 4715 4734 "plugins/xml/proofTree2Xml.ml4" 125 4715 4742
+)
+"plugins/xml/proofTree2Xml.ml4" 182 6960 6985 "plugins/xml/proofTree2Xml.ml4" 182 6960 7023
+call(
+  stack
+)
+type(
+  Names.identifier list
+)
+"plugins/xml/proofTree2Xml.ml4" 183 7027 7033 "plugins/xml/proofTree2Xml.ml4" 183 7027 7038
+type(
+  Sign.named_context
+)
+"plugins/xml/proofTree2Xml.ml4" 183 7027 7041 "plugins/xml/proofTree2Xml.ml4" 183 7027 7069
+type(
+  Environ.named_context_val -> Sign.named_context
+)
+ident(
+  ext_ref Environ.named_context_of_val
+)
+"plugins/xml/proofTree2Xml.ml4" 183 7027 7070 "plugins/xml/proofTree2Xml.ml4" 183 7027 7074
+type(
+  Environ.named_context_val
+)
+ident(
+  int_ref hyps "plugins/xml/proofTree2Xml.ml4" 165 6411 6439 "plugins/xml/proofTree2Xml.ml4" 165 6411 6443
+)
+"plugins/xml/proofTree2Xml.ml4" 183 7027 7041 "plugins/xml/proofTree2Xml.ml4" 183 7027 7074
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/xml/proofTree2Xml.ml4" 184 7078 7091 "plugins/xml/proofTree2Xml.ml4" 184 7078 7099
+type(
+  Term.named_declaration list
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7112 "plugins/xml/proofTree2Xml.ml4" 185 7102 7123
+type(
+  (Term.named_declaration -> bool) ->
+  Sign.named_context -> Term.named_declaration list
+)
+ident(
+  ext_ref List.filter
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7130 "plugins/xml/proofTree2Xml.ml4" 185 7102 7132
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/xml/proofTree2Xml.ml4" 185 7102 7142 "plugins/xml/proofTree2Xml.ml4" 185 7102 7169
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7133 "plugins/xml/proofTree2Xml.ml4" 185 7102 7134
+type(
+  Term.constr option
+)
+ident(
+  def c "plugins/xml/proofTree2Xml.ml4" 185 7102 7142 "plugins/xml/proofTree2Xml.ml4" 185 7102 7169
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7135 "plugins/xml/proofTree2Xml.ml4" 185 7102 7138
+type(
+  Term.types
+)
+ident(
+  def tid "plugins/xml/proofTree2Xml.ml4" 185 7102 7142 "plugins/xml/proofTree2Xml.ml4" 185 7102 7169
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7130 "plugins/xml/proofTree2Xml.ml4" 185 7102 7138
+type(
+  Term.named_declaration
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7142 "plugins/xml/proofTree2Xml.ml4" 185 7102 7145
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7147 "plugins/xml/proofTree2Xml.ml4" 185 7102 7155
+type(
+  Names.identifier -> Names.identifier list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7156 "plugins/xml/proofTree2Xml.ml4" 185 7102 7158
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/xml/proofTree2Xml.ml4" 185 7102 7130 "plugins/xml/proofTree2Xml.ml4" 185 7102 7132
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7159 "plugins/xml/proofTree2Xml.ml4" 185 7102 7168
+type(
+  Names.identifier list
+)
+ident(
+  int_ref old_names "plugins/xml/proofTree2Xml.ml4" 182 6960 6973 "plugins/xml/proofTree2Xml.ml4" 182 6960 6982
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7147 "plugins/xml/proofTree2Xml.ml4" 185 7102 7168
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7142 "plugins/xml/proofTree2Xml.ml4" 185 7102 7169
+type(
+  bool
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7125 "plugins/xml/proofTree2Xml.ml4" 185 7102 7169
+type(
+  Term.named_declaration -> bool
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7171 "plugins/xml/proofTree2Xml.ml4" 185 7102 7176
+type(
+  Sign.named_context
+)
+ident(
+  int_ref nhyps "plugins/xml/proofTree2Xml.ml4" 183 7027 7033 "plugins/xml/proofTree2Xml.ml4" 183 7027 7038
+)
+"plugins/xml/proofTree2Xml.ml4" 185 7102 7112 "plugins/xml/proofTree2Xml.ml4" 185 7102 7176
+call(
+  stack
+)
+type(
+  Term.named_declaration list
+)
+"plugins/xml/proofTree2Xml.ml4" 187 7181 7190 "plugins/xml/proofTree2Xml.ml4" 187 7181 7202
+type(
+  string -> (string * string) list -> X.token Stream.t -> X.token Stream.t
+)
+ident(
+  ext_ref X.xml_nempty
+)
+"plugins/xml/proofTree2Xml.ml4" 187 7181 7203 "plugins/xml/proofTree2Xml.ml4" 187 7181 7211
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 187 7181 7212 "plugins/xml/proofTree2Xml.ml4" 187 7181 7224
+type(
+  (string * string) list
+)
+ident(
+  int_ref of_attribute "plugins/xml/proofTree2Xml.ml4" 161 6269 6282 "plugins/xml/proofTree2Xml.ml4" 161 6269 6294
+)
+"plugins/xml/proofTree2Xml.ml4" 188 7225 7238 "plugins/xml/proofTree2Xml.ml4" 188 7225 7248
+type(
+  Term.named_declaration list -> X.token Stream.t
+)
+ident(
+  int_ref build_hyps "plugins/xml/proofTree2Xml.ml4" 172 6594 6611 "plugins/xml/proofTree2Xml.ml4" 172 6594 6621
+)
+"plugins/xml/proofTree2Xml.ml4" 188 7225 7249 "plugins/xml/proofTree2Xml.ml4" 188 7225 7257
+type(
+  Term.named_declaration list
+)
+ident(
+  int_ref new_hyps "plugins/xml/proofTree2Xml.ml4" 184 7078 7091 "plugins/xml/proofTree2Xml.ml4" 184 7078 7099
+)
+"plugins/xml/proofTree2Xml.ml4" 188 7225 7238 "plugins/xml/proofTree2Xml.ml4" 188 7225 7257
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 188 7225 7237 "plugins/xml/proofTree2Xml.ml4" 188 7225 7258
+call(
+  stack
+)
+type(
+  X.token Stream.t
+)
+type(
+  unit -> X.token Stream.t
+)
+type(
+  unit
+)
+type(
+  (unit -> X.token Stream.t) -> X.token Stream.t -> X.token Stream.t
+)
+ident(
+  ext_ref Stream.lapp
+)
+"plugins/xml/proofTree2Xml.ml4" 188 7225 7262 "plugins/xml/proofTree2Xml.ml4" 188 7225 7265
+type(
+  Proof2aproof.ProofTreeHash.key -> Sign.named_context -> X.token Stream.t
+)
+ident(
+  int_ref aux "plugins/xml/proofTree2Xml.ml4" 125 4715 4725 "plugins/xml/proofTree2Xml.ml4" 125 4715 4728
+)
+"plugins/xml/proofTree2Xml.ml4" 188 7225 7266 "plugins/xml/proofTree2Xml.ml4" 188 7225 7276
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  int_ref flat_proof "plugins/xml/proofTree2Xml.ml4" 148 5675 5687 "plugins/xml/proofTree2Xml.ml4" 148 5675 5697
+)
+"plugins/xml/proofTree2Xml.ml4" 188 7225 7277 "plugins/xml/proofTree2Xml.ml4" 188 7225 7282
+type(
+  Sign.named_context
+)
+ident(
+  int_ref nhyps "plugins/xml/proofTree2Xml.ml4" 183 7027 7033 "plugins/xml/proofTree2Xml.ml4" 183 7027 7038
+)
+"plugins/xml/proofTree2Xml.ml4" 188 7225 7262 "plugins/xml/proofTree2Xml.ml4" 188 7225 7282
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 188 7225 7261 "plugins/xml/proofTree2Xml.ml4" 188 7225 7283
+call(
+  stack
+)
+type(
+  X.token Stream.t
+)
+type(
+  unit -> X.token Stream.t
+)
+type(
+  unit
+)
+type(
+  (unit -> X.token Stream.t) -> X.token Stream.t
+)
+ident(
+  ext_ref Stream.slazy
+)
+"plugins/xml/proofTree2Xml.ml4" 187 7181 7190 "plugins/xml/proofTree2Xml.ml4" 187 7181 7285
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 184 7078 7087 "plugins/xml/proofTree2Xml.ml4" 184 7078 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 183 7027 7029 "plugins/xml/proofTree2Xml.ml4" 183 7027 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 182 6960 6969 "plugins/xml/proofTree2Xml.ml4" 182 6960 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 172 6594 6603 "plugins/xml/proofTree2Xml.ml4" 172 6594 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 169 6504 6513 "plugins/xml/proofTree2Xml.ml4" 169 6504 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 167 6454 6463 "plugins/xml/proofTree2Xml.ml4" 167 6454 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 164 6375 6384 "plugins/xml/proofTree2Xml.ml4" 164 6375 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 161 6269 6278 "plugins/xml/proofTree2Xml.ml4" 161 6269 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 160 6229 6238 "plugins/xml/proofTree2Xml.ml4" 160 6229 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 159 6166 6175 "plugins/xml/proofTree2Xml.ml4" 159 6166 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 158 6115 6117 "plugins/xml/proofTree2Xml.ml4" 158 6115 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 151 5798 5806 "plugins/xml/proofTree2Xml.ml4" 151 5798 7285
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 148 5675 5683 "plugins/xml/proofTree2Xml.ml4" 148 5675 7297
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7346 "plugins/xml/proofTree2Xml.ml4" 191 7299 7347
+type(
+  bool
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7348 "plugins/xml/proofTree2Xml.ml4" 191 7299 7349
+type(
+  Decl_expr.proof_instr
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7330 "plugins/xml/proofTree2Xml.ml4" 191 7299 7350
+type(
+  PT.compound_rule
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7351 "plugins/xml/proofTree2Xml.ml4" 191 7299 7352
+type(
+  PT.proof_tree
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7320 "plugins/xml/proofTree2Xml.ml4" 191 7299 7353
+type(
+  PT.rule
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7368 "plugins/xml/proofTree2Xml.ml4" 191 7299 7369
+type(
+  bool
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7354 "plugins/xml/proofTree2Xml.ml4" 191 7299 7369
+type(
+  PT.rule
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7320 "plugins/xml/proofTree2Xml.ml4" 191 7299 7369
+type(
+  PT.rule
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7371 "plugins/xml/proofTree2Xml.ml4" 191 7299 7376
+type(
+  PT.proof_tree list
+)
+ident(
+  def nodes "plugins/xml/proofTree2Xml.ml4" 192 7382 7391 "plugins/xml/proofTree2Xml.ml4" 192 7382 7421
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7319 "plugins/xml/proofTree2Xml.ml4" 191 7299 7376
+type(
+  PT.rule * PT.proof_tree list
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7314 "plugins/xml/proofTree2Xml.ml4" 191 7299 7377
+type(
+  (PT.rule * PT.proof_tree list) option
+)
+"plugins/xml/proofTree2Xml.ml4" 191 7299 7306 "plugins/xml/proofTree2Xml.ml4" 191 7299 7378
+type(
+  PT.proof_tree
+)
+"plugins/xml/proofTree2Xml.ml4" 192 7382 7391 "plugins/xml/proofTree2Xml.ml4" 192 7382 7403
+type(
+  string -> X.token Stream.t
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/xml/proofTree2Xml.ml4" 192 7382 7404 "plugins/xml/proofTree2Xml.ml4" 192 7382 7421
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 192 7382 7391 "plugins/xml/proofTree2Xml.ml4" 192 7382 7421
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 194 7423 7443 "plugins/xml/proofTree2Xml.ml4" 194 7423 7452
+type(
+  PT.rule
+)
+"plugins/xml/proofTree2Xml.ml4" 194 7423 7453 "plugins/xml/proofTree2Xml.ml4" 194 7423 7454
+type(
+  PT.proof_tree list
+)
+"plugins/xml/proofTree2Xml.ml4" 194 7423 7443 "plugins/xml/proofTree2Xml.ml4" 194 7423 7454
+type(
+  PT.rule * PT.proof_tree list
+)
+"plugins/xml/proofTree2Xml.ml4" 194 7423 7438 "plugins/xml/proofTree2Xml.ml4" 194 7423 7455
+type(
+  (PT.rule * PT.proof_tree list) option
+)
+"plugins/xml/proofTree2Xml.ml4" 194 7423 7430 "plugins/xml/proofTree2Xml.ml4" 194 7423 7456
+type(
+  PT.proof_tree
+)
+"plugins/xml/proofTree2Xml.ml4" 195 7460 7469 "plugins/xml/proofTree2Xml.ml4" 195 7460 7480
+type(
+  string -> (string * string) list -> X.token Stream.t
+)
+ident(
+  ext_ref X.xml_empty
+)
+"plugins/xml/proofTree2Xml.ml4" 195 7460 7481 "plugins/xml/proofTree2Xml.ml4" 195 7460 7499
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 195 7460 7500 "plugins/xml/proofTree2Xml.ml4" 195 7460 7512
+type(
+  (string * string) list
+)
+ident(
+  int_ref of_attribute "plugins/xml/proofTree2Xml.ml4" 126 4745 4752 "plugins/xml/proofTree2Xml.ml4" 126 4745 4764
+)
+"plugins/xml/proofTree2Xml.ml4" 195 7460 7469 "plugins/xml/proofTree2Xml.ml4" 195 7460 7512
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 197 7514 7529 "plugins/xml/proofTree2Xml.ml4" 197 7514 7533
+type(
+  (PT.rule * PT.proof_tree list) option
+)
+"plugins/xml/proofTree2Xml.ml4" 197 7514 7542 "plugins/xml/proofTree2Xml.ml4" 197 7514 7546
+type(
+  PT.goal
+)
+ident(
+  def goal "plugins/xml/proofTree2Xml.ml4" 198 7551 7560 "plugins/xml/proofTree2Xml.ml4" 198 7551 7596
+)
+"plugins/xml/proofTree2Xml.ml4" 197 7514 7521 "plugins/xml/proofTree2Xml.ml4" 197 7514 7547
+type(
+  PT.proof_tree
+)
+"plugins/xml/proofTree2Xml.ml4" 198 7551 7560 "plugins/xml/proofTree2Xml.ml4" 198 7551 7571
+type(
+  string -> (string * string) list -> X.token Stream.t
+)
+ident(
+  ext_ref X.xml_empty
+)
+"plugins/xml/proofTree2Xml.ml4" 198 7551 7572 "plugins/xml/proofTree2Xml.ml4" 198 7551 7583
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 198 7551 7584 "plugins/xml/proofTree2Xml.ml4" 198 7551 7596
+type(
+  (string * string) list
+)
+ident(
+  int_ref of_attribute "plugins/xml/proofTree2Xml.ml4" 126 4745 4752 "plugins/xml/proofTree2Xml.ml4" 126 4745 4764
+)
+"plugins/xml/proofTree2Xml.ml4" 198 7551 7560 "plugins/xml/proofTree2Xml.ml4" 198 7551 7596
+call(
+  tail
+)
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 131 4851 4855 "plugins/xml/proofTree2Xml.ml4" 131 4851 7596
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 126 4745 4748 "plugins/xml/proofTree2Xml.ml4" 126 4745 7596
+type(
+  X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 125 4715 4734 "plugins/xml/proofTree2Xml.ml4" 125 4715 7596
+type(
+  Sign.named_context -> X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 125 4715 4729 "plugins/xml/proofTree2Xml.ml4" 125 4715 7596
+type(
+  Proof2aproof.ProofTreeHash.key -> Sign.named_context -> X.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 200 7602 7608 "plugins/xml/proofTree2Xml.ml4" 200 7602 7619
+type(
+  string -> Xml.token Stream.t
+)
+ident(
+  ext_ref X.xml_cdata
+)
+"plugins/xml/proofTree2Xml.ml4" 200 7602 7620 "plugins/xml/proofTree2Xml.ml4" 200 7602 7671
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 200 7602 7608 "plugins/xml/proofTree2Xml.ml4" 200 7602 7671
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  Xml.token Stream.t
+)
+type(
+  unit -> Xml.token Stream.t
+)
+type(
+  Xml.token Stream.t
+)
+type(
+  unit
+)
+type(
+  (unit -> Xml.token Stream.t) -> Xml.token Stream.t -> Xml.token Stream.t
+)
+ident(
+  ext_ref Stream.lapp
+)
+"plugins/xml/proofTree2Xml.ml4" 201 7674 7680 "plugins/xml/proofTree2Xml.ml4" 201 7674 7691
+type(
+  string -> Xml.token Stream.t
+)
+ident(
+  ext_ref X.xml_cdata
+)
+"plugins/xml/proofTree2Xml.ml4" 201 7674 7693 "plugins/xml/proofTree2Xml.ml4" 201 7674 7724
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 201 7674 7725 "plugins/xml/proofTree2Xml.ml4" 201 7674 7741
+type(
+  string
+)
+ident(
+  int_ref prooftreedtdname "plugins/xml/proofTree2Xml.ml4" 15 976 980 "plugins/xml/proofTree2Xml.ml4" 15 976 996
+)
+"plugins/xml/proofTree2Xml.ml4" 201 7674 7743 "plugins/xml/proofTree2Xml.ml4" 201 7674 7752
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 201 7674 7725 "plugins/xml/proofTree2Xml.ml4" 201 7674 7752
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/proofTree2Xml.ml4" 201 7674 7693 "plugins/xml/proofTree2Xml.ml4" 201 7674 7752
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/proofTree2Xml.ml4" 201 7674 7680 "plugins/xml/proofTree2Xml.ml4" 201 7674 7753
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  Xml.token Stream.t
+)
+type(
+  unit -> Xml.token Stream.t
+)
+type(
+  Xml.token Stream.t
+)
+type(
+  unit
+)
+type(
+  (unit -> Xml.token Stream.t) -> Xml.token Stream.t -> Xml.token Stream.t
+)
+ident(
+  ext_ref Stream.lapp
+)
+"plugins/xml/proofTree2Xml.ml4" 202 7755 7761 "plugins/xml/proofTree2Xml.ml4" 202 7755 7773
+type(
+  string ->
+  (string * string) list -> Xml.token Stream.t -> Xml.token Stream.t
+)
+ident(
+  ext_ref X.xml_nempty
+)
+"plugins/xml/proofTree2Xml.ml4" 202 7755 7774 "plugins/xml/proofTree2Xml.ml4" 202 7755 7785
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 202 7755 7787 "plugins/xml/proofTree2Xml.ml4" 202 7755 7791
+type(
+  string
+)
+"plugins/xml/proofTree2Xml.ml4" 202 7755 7792 "plugins/xml/proofTree2Xml.ml4" 202 7755 7796
+type(
+  string
+)
+ident(
+  int_ref curi "plugins/xml/proofTree2Xml.ml4" 98 3882 3900 "plugins/xml/proofTree2Xml.ml4" 98 3882 3904
+)
+"plugins/xml/proofTree2Xml.ml4" 202 7755 7787 "plugins/xml/proofTree2Xml.ml4" 202 7755 7796
+type(
+  string * string
+)
+"plugins/xml/proofTree2Xml.ml4" 202 7755 7786 "plugins/xml/proofTree2Xml.ml4" 202 7755 7797
+type(
+  (string * string) list
+)
+type(
+  (string * string) list
+)
+"plugins/xml/proofTree2Xml.ml4" 202 7755 7799 "plugins/xml/proofTree2Xml.ml4" 202 7755 7802
+type(
+  Proof2aproof.ProofTreeHash.key -> Sign.named_context -> Xml.token Stream.t
+)
+ident(
+  int_ref aux "plugins/xml/proofTree2Xml.ml4" 125 4715 4725 "plugins/xml/proofTree2Xml.ml4" 125 4715 4728
+)
+"plugins/xml/proofTree2Xml.ml4" 202 7755 7803 "plugins/xml/proofTree2Xml.ml4" 202 7755 7805
+type(
+  Proof2aproof.ProofTreeHash.key
+)
+ident(
+  int_ref pf "plugins/xml/proofTree2Xml.ml4" 98 3882 3911 "plugins/xml/proofTree2Xml.ml4" 98 3882 3913
+)
+"plugins/xml/proofTree2Xml.ml4" 202 7755 7806 "plugins/xml/proofTree2Xml.ml4" 202 7755 7808
+type(
+  Sign.named_context
+)
+"plugins/xml/proofTree2Xml.ml4" 202 7755 7799 "plugins/xml/proofTree2Xml.ml4" 202 7755 7808
+call(
+  stack
+)
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 202 7755 7761 "plugins/xml/proofTree2Xml.ml4" 202 7755 7809
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  Xml.token Stream.t
+)
+type(
+  unit -> Xml.token Stream.t
+)
+type(
+  Xml.token Stream.t
+)
+type(
+  unit
+)
+type(
+  (unit -> Xml.token Stream.t) -> Xml.token Stream.t
+)
+ident(
+  ext_ref Stream.slazy
+)
+"plugins/xml/proofTree2Xml.ml4" 125 4715 4717 "plugins/xml/proofTree2Xml.ml4" 125 4715 7815
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 105 4094 4096 "plugins/xml/proofTree2Xml.ml4" 105 4094 7815
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 104 4067 4068 "plugins/xml/proofTree2Xml.ml4" 104 4067 7815
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 103 4044 4045 "plugins/xml/proofTree2Xml.ml4" 103 4044 7815
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 102 4019 4020 "plugins/xml/proofTree2Xml.ml4" 102 4019 7815
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 101 3988 3989 "plugins/xml/proofTree2Xml.ml4" 101 3988 7815
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 99 3935 3972 "plugins/xml/proofTree2Xml.ml4" 99 3935 7815
+type(
+  string Acic.CicHash.t -> Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 99 3935 3937 "plugins/xml/proofTree2Xml.ml4" 99 3935 7815
+type(
+  Proof2aproof.ProofTreeHash.key Proof2aproof.ProofTreeHash.t ->
+  string Acic.CicHash.t -> Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 98 3882 3914 "plugins/xml/proofTree2Xml.ml4" 98 3882 7815
+type(
+  Acic.CicHash.key Proof2aproof.ProofTreeHash.t ->
+  Proof2aproof.ProofTreeHash.key Proof2aproof.ProofTreeHash.t ->
+  string Acic.CicHash.t -> Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 98 3882 3911 "plugins/xml/proofTree2Xml.ml4" 98 3882 7815
+type(
+  Proof2aproof.ProofTreeHash.key ->
+  Acic.CicHash.key Proof2aproof.ProofTreeHash.t ->
+  Proof2aproof.ProofTreeHash.key Proof2aproof.ProofTreeHash.t ->
+  string Acic.CicHash.t -> Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 98 3882 3905 "plugins/xml/proofTree2Xml.ml4" 98 3882 7815
+type(
+  Evd.evar_map ->
+  Proof2aproof.ProofTreeHash.key ->
+  Acic.CicHash.key Proof2aproof.ProofTreeHash.t ->
+  Proof2aproof.ProofTreeHash.key Proof2aproof.ProofTreeHash.t ->
+  string Acic.CicHash.t -> Xml.token Stream.t
+)
+"plugins/xml/proofTree2Xml.ml4" 98 3882 3900 "plugins/xml/proofTree2Xml.ml4" 98 3882 7815
+type(
+  string ->
+  Evd.evar_map ->
+  Proof2aproof.ProofTreeHash.key ->
+  Acic.CicHash.key Proof2aproof.ProofTreeHash.t ->
+  Proof2aproof.ProofTreeHash.key Proof2aproof.ProofTreeHash.t ->
+  string Acic.CicHash.t -> Xml.token Stream.t
+)

@@ -1,0 +1,72 @@
+"plugins/subtac/subtac_errors.ml" 23 556 560 "plugins/subtac/subtac_errors.ml" 23 556 572
+type(
+  typing_error -> 'a
+)
+ident(
+  def typing_error "plugins/subtac/subtac_errors.ml" 24 600 600 --
+)
+"plugins/subtac/subtac_errors.ml" 23 556 573 "plugins/subtac/subtac_errors.ml" 23 556 574
+type(
+  typing_error
+)
+ident(
+  def e "plugins/subtac/subtac_errors.ml" 23 556 577 "plugins/subtac/subtac_errors.ml" 23 556 599
+)
+"plugins/subtac/subtac_errors.ml" 23 556 577 "plugins/subtac/subtac_errors.ml" 23 556 582
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/subtac/subtac_errors.ml" 23 556 597 "plugins/subtac/subtac_errors.ml" 23 556 598
+type(
+  typing_error
+)
+ident(
+  int_ref e "plugins/subtac/subtac_errors.ml" 23 556 573 "plugins/subtac/subtac_errors.ml" 23 556 574
+)
+"plugins/subtac/subtac_errors.ml" 23 556 583 "plugins/subtac/subtac_errors.ml" 23 556 599
+type(
+  exn
+)
+"plugins/subtac/subtac_errors.ml" 23 556 577 "plugins/subtac/subtac_errors.ml" 23 556 599
+type(
+  'a
+)
+"plugins/subtac/subtac_errors.ml" 24 600 604 "plugins/subtac/subtac_errors.ml" 24 600 619
+type(
+  subtyping_error -> 'a
+)
+ident(
+  def subtyping_error "plugins/subtac/subtac_errors.ml" 24 600 649 --
+)
+"plugins/subtac/subtac_errors.ml" 24 600 620 "plugins/subtac/subtac_errors.ml" 24 600 621
+type(
+  subtyping_error
+)
+ident(
+  def e "plugins/subtac/subtac_errors.ml" 24 600 624 "plugins/subtac/subtac_errors.ml" 24 600 649
+)
+"plugins/subtac/subtac_errors.ml" 24 600 624 "plugins/subtac/subtac_errors.ml" 24 600 629
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/subtac/subtac_errors.ml" 24 600 647 "plugins/subtac/subtac_errors.ml" 24 600 648
+type(
+  subtyping_error
+)
+ident(
+  int_ref e "plugins/subtac/subtac_errors.ml" 24 600 620 "plugins/subtac/subtac_errors.ml" 24 600 621
+)
+"plugins/subtac/subtac_errors.ml" 24 600 630 "plugins/subtac/subtac_errors.ml" 24 600 649
+type(
+  exn
+)
+"plugins/subtac/subtac_errors.ml" 24 600 624 "plugins/subtac/subtac_errors.ml" 24 600 649
+type(
+  'a
+)

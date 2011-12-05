@@ -1,0 +1,6 @@
+let _=Mltop.add_known_module"Utile" 
+let _=Mltop.add_known_module"Polynom" 
+let _=Mltop.add_known_module"Ideal" 
+let _=Mltop.add_known_module"Nsatz" 
+let _=Mltop.add_known_module"Nsatz_plugin_mod" 
+let _=Mltop.add_known_module"nsatz_plugin"

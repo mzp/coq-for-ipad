@@ -1,0 +1,6313 @@
+"plugins/subtac/eterm.ml" 19 421 425 "plugins/subtac/eterm.ml" 19 421 430
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  def trace "plugins/subtac/eterm.ml" 23 489 489 --
+)
+"plugins/subtac/eterm.ml" 19 421 431 "plugins/subtac/eterm.ml" 19 421 432
+type(
+  Pp.std_ppcmds
+)
+ident(
+  def s "plugins/subtac/eterm.ml" 20 435 437 "plugins/subtac/eterm.ml" 21 478 487
+)
+"plugins/subtac/eterm.ml" 20 435 440 "plugins/subtac/eterm.ml" 20 435 441
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/eterm.ml" 20 435 441 "plugins/subtac/eterm.ml" 20 435 452
+type(
+  bool ref
+)
+ident(
+  ext_ref Flags.debug
+)
+"plugins/subtac/eterm.ml" 20 435 440 "plugins/subtac/eterm.ml" 20 435 452
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 20 435 459 "plugins/subtac/eterm.ml" 20 435 464
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msgnl
+)
+"plugins/subtac/eterm.ml" 20 435 465 "plugins/subtac/eterm.ml" 20 435 466
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref s "plugins/subtac/eterm.ml" 19 421 431 "plugins/subtac/eterm.ml" 19 421 432
+)
+"plugins/subtac/eterm.ml" 20 435 459 "plugins/subtac/eterm.ml" 20 435 466
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/eterm.ml" 20 435 468 "plugins/subtac/eterm.ml" 20 435 474
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msgerr
+)
+"plugins/subtac/eterm.ml" 20 435 475 "plugins/subtac/eterm.ml" 20 435 476
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref s "plugins/subtac/eterm.ml" 19 421 431 "plugins/subtac/eterm.ml" 19 421 432
+)
+"plugins/subtac/eterm.ml" 20 435 468 "plugins/subtac/eterm.ml" 20 435 476
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/eterm.ml" 20 435 458 "plugins/subtac/eterm.ml" 20 435 477
+type(
+  unit
+)
+"plugins/subtac/eterm.ml" 21 478 485 "plugins/subtac/eterm.ml" 21 478 487
+type(
+  unit
+)
+"plugins/subtac/eterm.ml" 20 435 437 "plugins/subtac/eterm.ml" 21 478 487
+type(
+  unit
+)
+"plugins/subtac/eterm.ml" 23 489 493 "plugins/subtac/eterm.ml" 23 489 500
+type(
+  int * int list -> int * int list
+)
+ident(
+  def succfix "plugins/subtac/eterm.ml" 26 559 559 --
+)
+"plugins/subtac/eterm.ml" 23 489 502 "plugins/subtac/eterm.ml" 23 489 507
+type(
+  int
+)
+ident(
+  def depth "plugins/subtac/eterm.ml" 24 520 522 "plugins/subtac/eterm.ml" 24 520 557
+)
+"plugins/subtac/eterm.ml" 23 489 509 "plugins/subtac/eterm.ml" 23 489 516
+type(
+  int list
+)
+ident(
+  def fixrels "plugins/subtac/eterm.ml" 24 520 522 "plugins/subtac/eterm.ml" 24 520 557
+)
+"plugins/subtac/eterm.ml" 23 489 501 "plugins/subtac/eterm.ml" 23 489 517
+type(
+  int * int list
+)
+"plugins/subtac/eterm.ml" 24 520 523 "plugins/subtac/eterm.ml" 24 520 527
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"plugins/subtac/eterm.ml" 24 520 528 "plugins/subtac/eterm.ml" 24 520 533
+type(
+  int
+)
+ident(
+  int_ref depth "plugins/subtac/eterm.ml" 23 489 502 "plugins/subtac/eterm.ml" 23 489 507
+)
+"plugins/subtac/eterm.ml" 24 520 523 "plugins/subtac/eterm.ml" 24 520 533
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 24 520 535 "plugins/subtac/eterm.ml" 24 520 543
+type(
+  (int -> int) -> int list -> int list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/subtac/eterm.ml" 24 520 544 "plugins/subtac/eterm.ml" 24 520 548
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"plugins/subtac/eterm.ml" 24 520 549 "plugins/subtac/eterm.ml" 24 520 556
+type(
+  int list
+)
+ident(
+  int_ref fixrels "plugins/subtac/eterm.ml" 23 489 509 "plugins/subtac/eterm.ml" 23 489 516
+)
+"plugins/subtac/eterm.ml" 24 520 535 "plugins/subtac/eterm.ml" 24 520 556
+call(
+  stack
+)
+type(
+  int list
+)
+"plugins/subtac/eterm.ml" 24 520 522 "plugins/subtac/eterm.ml" 24 520 557
+type(
+  int * int list
+)
+"plugins/subtac/eterm.ml" 39 912 916 "plugins/subtac/eterm.ml" 39 912 933
+type(
+  (Term.existential_key * oblinfo) list ->
+  'a ->
+  (Names.identifier -> Term.constr) ->
+  Term.constr -> Term.constr * Util.Intset.t * Names.Idset.t
+)
+ident(
+  def subst_evar_constr "plugins/subtac/eterm.ml" 84 2531 2531 --
+)
+"plugins/subtac/eterm.ml" 39 912 934 "plugins/subtac/eterm.ml" 39 912 937
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  def evs "plugins/subtac/eterm.ml" 39 912 938 "plugins/subtac/eterm.ml" 79 2394 2421
+)
+"plugins/subtac/eterm.ml" 39 912 938 "plugins/subtac/eterm.ml" 39 912 939
+type(
+  'a
+)
+ident(
+  def n "plugins/subtac/eterm.ml" 39 912 940 "plugins/subtac/eterm.ml" 79 2394 2421
+)
+"plugins/subtac/eterm.ml" 39 912 940 "plugins/subtac/eterm.ml" 39 912 943
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  def idf "plugins/subtac/eterm.ml" 39 912 944 "plugins/subtac/eterm.ml" 79 2394 2421
+)
+"plugins/subtac/eterm.ml" 39 912 944 "plugins/subtac/eterm.ml" 39 912 945
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/subtac/eterm.ml" 40 949 951 "plugins/subtac/eterm.ml" 79 2394 2421
+)
+"plugins/subtac/eterm.ml" 40 949 955 "plugins/subtac/eterm.ml" 40 949 959
+type(
+  Util.Intset.t ref
+)
+"plugins/subtac/eterm.ml" 40 949 962 "plugins/subtac/eterm.ml" 40 949 965
+type(
+  Util.Intset.t -> Util.Intset.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/subtac/eterm.ml" 40 949 966 "plugins/subtac/eterm.ml" 40 949 978
+type(
+  Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.empty
+)
+"plugins/subtac/eterm.ml" 40 949 962 "plugins/subtac/eterm.ml" 40 949 978
+type(
+  Util.Intset.t ref
+)
+"plugins/subtac/eterm.ml" 41 982 988 "plugins/subtac/eterm.ml" 41 982 999
+type(
+  Names.Idset.t ref
+)
+"plugins/subtac/eterm.ml" 41 982 1002 "plugins/subtac/eterm.ml" 41 982 1005
+type(
+  Names.Idset.t -> Names.Idset.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/subtac/eterm.ml" 41 982 1006 "plugins/subtac/eterm.ml" 41 982 1017
+type(
+  Names.Idset.t
+)
+ident(
+  ext_ref Names.Idset.empty
+)
+"plugins/subtac/eterm.ml" 41 982 1002 "plugins/subtac/eterm.ml" 41 982 1017
+type(
+  Names.Idset.t ref
+)
+"plugins/subtac/eterm.ml" 42 1021 1027 "plugins/subtac/eterm.ml" 42 1021 1036
+type(
+  Term.existential_key -> oblinfo
+)
+"plugins/subtac/eterm.ml" 42 1021 1037 "plugins/subtac/eterm.ml" 42 1021 1039
+type(
+  Term.existential_key
+)
+ident(
+  def id "plugins/subtac/eterm.ml" 42 1021 1042 "plugins/subtac/eterm.ml" 42 1021 1059
+)
+"plugins/subtac/eterm.ml" 42 1021 1042 "plugins/subtac/eterm.ml" 42 1021 1052
+type(
+  Term.existential_key -> (Term.existential_key * oblinfo) list -> oblinfo
+)
+ident(
+  ext_ref List.assoc
+)
+"plugins/subtac/eterm.ml" 42 1021 1053 "plugins/subtac/eterm.ml" 42 1021 1055
+type(
+  Term.existential_key
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 42 1021 1037 "plugins/subtac/eterm.ml" 42 1021 1039
+)
+"plugins/subtac/eterm.ml" 42 1021 1056 "plugins/subtac/eterm.ml" 42 1021 1059
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  int_ref evs "plugins/subtac/eterm.ml" 39 912 934 "plugins/subtac/eterm.ml" 39 912 937
+)
+"plugins/subtac/eterm.ml" 42 1021 1042 "plugins/subtac/eterm.ml" 42 1021 1059
+call(
+  tail
+)
+type(
+  oblinfo
+)
+"plugins/subtac/eterm.ml" 43 1063 1073 "plugins/subtac/eterm.ml" 43 1063 1081
+type(
+  int * int list -> Term.constr -> Term.constr
+)
+"plugins/subtac/eterm.ml" 43 1063 1083 "plugins/subtac/eterm.ml" 43 1063 1088
+type(
+  int
+)
+ident(
+  def depth "plugins/subtac/eterm.ml" 43 1063 1099 "plugins/subtac/eterm.ml" 76 2285 2355
+)
+"plugins/subtac/eterm.ml" 43 1063 1090 "plugins/subtac/eterm.ml" 43 1063 1097
+type(
+  int list
+)
+ident(
+  def fixrels "plugins/subtac/eterm.ml" 43 1063 1099 "plugins/subtac/eterm.ml" 76 2285 2355
+)
+"plugins/subtac/eterm.ml" 43 1063 1082 "plugins/subtac/eterm.ml" 43 1063 1098
+type(
+  int * int list
+)
+"plugins/subtac/eterm.ml" 43 1063 1099 "plugins/subtac/eterm.ml" 43 1063 1100
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/subtac/eterm.ml" 43 1063 1103 "plugins/subtac/eterm.ml" 76 2285 2355
+)
+"plugins/subtac/eterm.ml" 43 1063 1109 "plugins/subtac/eterm.ml" 43 1063 1121
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 43 1063 1122 "plugins/subtac/eterm.ml" 43 1063 1123
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/subtac/eterm.ml" 43 1063 1099 "plugins/subtac/eterm.ml" 43 1063 1100
+)
+"plugins/subtac/eterm.ml" 43 1063 1109 "plugins/subtac/eterm.ml" 43 1063 1123
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 44 1129 1141 "plugins/subtac/eterm.ml" 44 1129 1142
+type(
+  Term.existential_key
+)
+ident(
+  def k "plugins/subtac/eterm.ml" 45 1153 1154 "plugins/subtac/eterm.ml" 73 2163 2203
+)
+"plugins/subtac/eterm.ml" 44 1129 1144 "plugins/subtac/eterm.ml" 44 1129 1148
+type(
+  Term.constr array
+)
+ident(
+  def args "plugins/subtac/eterm.ml" 45 1153 1154 "plugins/subtac/eterm.ml" 73 2163 2203
+)
+"plugins/subtac/eterm.ml" 44 1129 1140 "plugins/subtac/eterm.ml" 44 1129 1149
+type(
+  Term.constr Term.pexistential
+)
+"plugins/subtac/eterm.ml" 44 1129 1135 "plugins/subtac/eterm.ml" 44 1129 1149
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 45 1153 1171 "plugins/subtac/eterm.ml" 45 1153 1173
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 45 1153 1175 "plugins/subtac/eterm.ml" 45 1153 1180
+type(
+  Names.identifier
+)
+"plugins/subtac/eterm.ml" 45 1153 1170 "plugins/subtac/eterm.ml" 45 1153 1181
+type(
+  int * Names.identifier
+)
+"plugins/subtac/eterm.ml" 46 1184 1201 "plugins/subtac/eterm.ml" 46 1184 1205
+type(
+  Sign.named_context
+)
+"plugins/subtac/eterm.ml" 46 1184 1218 "plugins/subtac/eterm.ml" 46 1184 1222
+type(
+  int option
+)
+"plugins/subtac/eterm.ml" 45 1153 1158 "plugins/subtac/eterm.ml" 46 1184 1224
+type(
+  oblinfo
+)
+"plugins/subtac/eterm.ml" 47 1227 1234 "plugins/subtac/eterm.ml" 47 1227 1243
+type(
+  Term.existential_key -> oblinfo
+)
+ident(
+  int_ref evar_info "plugins/subtac/eterm.ml" 42 1021 1027 "plugins/subtac/eterm.ml" 42 1021 1036
+)
+"plugins/subtac/eterm.ml" 47 1227 1244 "plugins/subtac/eterm.ml" 47 1227 1245
+type(
+  Term.existential_key
+)
+ident(
+  int_ref k "plugins/subtac/eterm.ml" 44 1129 1141 "plugins/subtac/eterm.ml" 44 1129 1142
+)
+"plugins/subtac/eterm.ml" 47 1227 1234 "plugins/subtac/eterm.ml" 47 1227 1245
+call(
+  stack
+)
+type(
+  oblinfo
+)
+"plugins/subtac/eterm.ml" 48 1246 1254 "plugins/subtac/eterm.ml" 48 1246 1263
+type(
+  exn
+)
+"plugins/subtac/eterm.ml" 49 1267 1272 "plugins/subtac/eterm.ml" 49 1267 1279
+type(
+  string -> oblinfo
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/subtac/eterm.ml" 49 1267 1281 "plugins/subtac/eterm.ml" 49 1267 1311
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 49 1267 1312 "plugins/subtac/eterm.ml" 49 1267 1313
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/subtac/eterm.ml" 49 1267 1314 "plugins/subtac/eterm.ml" 49 1267 1327
+type(
+  Term.existential_key -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"plugins/subtac/eterm.ml" 49 1267 1328 "plugins/subtac/eterm.ml" 49 1267 1329
+type(
+  Term.existential_key
+)
+ident(
+  int_ref k "plugins/subtac/eterm.ml" 44 1129 1141 "plugins/subtac/eterm.ml" 44 1129 1142
+)
+"plugins/subtac/eterm.ml" 49 1267 1314 "plugins/subtac/eterm.ml" 49 1267 1329
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 49 1267 1330 "plugins/subtac/eterm.ml" 49 1267 1331
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/subtac/eterm.ml" 49 1267 1332 "plugins/subtac/eterm.ml" 49 1267 1344
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 49 1267 1314 "plugins/subtac/eterm.ml" 49 1267 1344
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 49 1267 1280 "plugins/subtac/eterm.ml" 49 1267 1345
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 49 1267 1272 "plugins/subtac/eterm.ml" 49 1267 1345
+call(
+  stack
+)
+type(
+  oblinfo
+)
+"plugins/subtac/eterm.ml" 47 1227 1230 "plugins/subtac/eterm.ml" 49 1267 1345
+type(
+  oblinfo
+)
+"plugins/subtac/eterm.ml" 51 1350 1358 "plugins/subtac/eterm.ml" 51 1350 1362
+type(
+  Util.Intset.t ref
+)
+ident(
+  int_ref seen "plugins/subtac/eterm.ml" 40 949 955 "plugins/subtac/eterm.ml" 40 949 959
+)
+"plugins/subtac/eterm.ml" 51 1350 1363 "plugins/subtac/eterm.ml" 51 1350 1365
+type(
+  Util.Intset.t ref -> Util.Intset.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/subtac/eterm.ml" 51 1350 1366 "plugins/subtac/eterm.ml" 51 1350 1376
+type(
+  Util.Intset.elt -> Util.Intset.t -> Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.add
+)
+"plugins/subtac/eterm.ml" 51 1350 1377 "plugins/subtac/eterm.ml" 51 1350 1379
+type(
+  Util.Intset.elt
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 45 1153 1171 "plugins/subtac/eterm.ml" 45 1153 1173
+)
+"plugins/subtac/eterm.ml" 51 1350 1380 "plugins/subtac/eterm.ml" 51 1350 1381
+type(
+  Util.Intset.t ref -> Util.Intset.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/eterm.ml" 51 1350 1381 "plugins/subtac/eterm.ml" 51 1350 1385
+type(
+  Util.Intset.t ref
+)
+ident(
+  int_ref seen "plugins/subtac/eterm.ml" 40 949 955 "plugins/subtac/eterm.ml" 40 949 959
+)
+"plugins/subtac/eterm.ml" 51 1350 1380 "plugins/subtac/eterm.ml" 51 1350 1385
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 51 1350 1366 "plugins/subtac/eterm.ml" 51 1350 1385
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 51 1350 1358 "plugins/subtac/eterm.ml" 51 1350 1385
+type(
+  unit
+)
+"plugins/subtac/eterm.ml" 55 1503 1508 "plugins/subtac/eterm.ml" 55 1503 1512
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 56 1515 1522 "plugins/subtac/eterm.ml" 56 1515 1523
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 56 1515 1532 "plugins/subtac/eterm.ml" 56 1515 1536
+type(
+  int option
+)
+ident(
+  int_ref chop "plugins/subtac/eterm.ml" 46 1184 1218 "plugins/subtac/eterm.ml" 46 1184 1222
+)
+"plugins/subtac/eterm.ml" 56 1515 1542 "plugins/subtac/eterm.ml" 56 1515 1546
+type(
+  int option
+)
+"plugins/subtac/eterm.ml" 56 1515 1550 "plugins/subtac/eterm.ml" 56 1515 1551
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 56 1515 1559 "plugins/subtac/eterm.ml" 56 1515 1560
+type(
+  int
+)
+ident(
+  def c "plugins/subtac/eterm.ml" 56 1515 1564 "plugins/subtac/eterm.ml" 56 1515 1565
+)
+"plugins/subtac/eterm.ml" 56 1515 1554 "plugins/subtac/eterm.ml" 56 1515 1560
+type(
+  int option
+)
+"plugins/subtac/eterm.ml" 56 1515 1564 "plugins/subtac/eterm.ml" 56 1515 1565
+type(
+  int
+)
+ident(
+  int_ref c "plugins/subtac/eterm.ml" 56 1515 1559 "plugins/subtac/eterm.ml" 56 1515 1560
+)
+"plugins/subtac/eterm.ml" 56 1515 1526 "plugins/subtac/eterm.ml" 56 1515 1565
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 57 1569 1577 "plugins/subtac/eterm.ml" 57 1569 1578
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 57 1569 1580 "plugins/subtac/eterm.ml" 57 1569 1581
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 57 1569 1576 "plugins/subtac/eterm.ml" 57 1569 1582
+type(
+  Term.constr list * Term.constr list
+)
+"plugins/subtac/eterm.ml" 57 1569 1585 "plugins/subtac/eterm.ml" 57 1569 1594
+type(
+  int -> Term.constr list -> Term.constr list * Term.constr list
+)
+ident(
+  ext_ref Util.list_chop
+)
+"plugins/subtac/eterm.ml" 57 1569 1595 "plugins/subtac/eterm.ml" 57 1569 1596
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/eterm.ml" 56 1515 1522 "plugins/subtac/eterm.ml" 56 1515 1523
+)
+"plugins/subtac/eterm.ml" 57 1569 1598 "plugins/subtac/eterm.ml" 57 1569 1606
+type(
+  Term.constr list -> Term.constr list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/subtac/eterm.ml" 57 1569 1608 "plugins/subtac/eterm.ml" 57 1569 1621
+type(
+  Term.constr array -> Term.constr list
+)
+ident(
+  ext_ref Array.to_list
+)
+"plugins/subtac/eterm.ml" 57 1569 1622 "plugins/subtac/eterm.ml" 57 1569 1626
+type(
+  Term.constr array
+)
+ident(
+  int_ref args "plugins/subtac/eterm.ml" 44 1129 1144 "plugins/subtac/eterm.ml" 44 1129 1148
+)
+"plugins/subtac/eterm.ml" 57 1569 1607 "plugins/subtac/eterm.ml" 57 1569 1627
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 57 1569 1597 "plugins/subtac/eterm.ml" 57 1569 1628
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 57 1569 1585 "plugins/subtac/eterm.ml" 57 1569 1628
+call(
+  stack
+)
+type(
+  Term.constr list * Term.constr list
+)
+"plugins/subtac/eterm.ml" 58 1632 1637 "plugins/subtac/eterm.ml" 58 1632 1645
+type(
+  Term.constr list -> Term.constr list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/subtac/eterm.ml" 58 1632 1646 "plugins/subtac/eterm.ml" 58 1632 1647
+type(
+  Term.constr list
+)
+ident(
+  int_ref r "plugins/subtac/eterm.ml" 57 1569 1580 "plugins/subtac/eterm.ml" 57 1569 1581
+)
+"plugins/subtac/eterm.ml" 58 1632 1637 "plugins/subtac/eterm.ml" 58 1632 1647
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 57 1569 1572 "plugins/subtac/eterm.ml" 58 1632 1647
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 56 1515 1518 "plugins/subtac/eterm.ml" 58 1632 1647
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 60 1652 1657 "plugins/subtac/eterm.ml" 60 1652 1661
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 61 1664 1675 "plugins/subtac/eterm.ml" 61 1664 1678
+type(
+  ('b * 'c option * 'd) list ->
+  Term.constr list -> Term.constr list -> Term.constr list
+)
+"plugins/subtac/eterm.ml" 61 1664 1679 "plugins/subtac/eterm.ml" 61 1664 1683
+type(
+  ('b * 'c option * 'd) list
+)
+ident(
+  def hyps "plugins/subtac/eterm.ml" 61 1664 1684 "plugins/subtac/eterm.ml" 68 1913 1934
+)
+"plugins/subtac/eterm.ml" 61 1664 1684 "plugins/subtac/eterm.ml" 61 1664 1688
+type(
+  Term.constr list
+)
+ident(
+  def args "plugins/subtac/eterm.ml" 61 1664 1689 "plugins/subtac/eterm.ml" 68 1913 1934
+)
+"plugins/subtac/eterm.ml" 61 1664 1689 "plugins/subtac/eterm.ml" 61 1664 1692
+type(
+  Term.constr list
+)
+ident(
+  def acc "plugins/subtac/eterm.ml" 62 1695 1701 "plugins/subtac/eterm.ml" 68 1913 1934
+)
+"plugins/subtac/eterm.ml" 62 1695 1707 "plugins/subtac/eterm.ml" 62 1695 1711
+type(
+  ('b * 'c option * 'd) list
+)
+ident(
+  int_ref hyps "plugins/subtac/eterm.ml" 61 1664 1679 "plugins/subtac/eterm.ml" 61 1664 1683
+)
+"plugins/subtac/eterm.ml" 62 1695 1713 "plugins/subtac/eterm.ml" 62 1695 1717
+type(
+  Term.constr list
+)
+ident(
+  int_ref args "plugins/subtac/eterm.ml" 61 1664 1684 "plugins/subtac/eterm.ml" 61 1664 1688
+)
+"plugins/subtac/eterm.ml" 62 1695 1707 "plugins/subtac/eterm.ml" 62 1695 1717
+type(
+  ('b * 'c option * 'd) list * Term.constr list
+)
+"plugins/subtac/eterm.ml" 63 1723 1728 "plugins/subtac/eterm.ml" 63 1723 1729
+type(
+  'b
+)
+"plugins/subtac/eterm.ml" 63 1723 1731 "plugins/subtac/eterm.ml" 63 1723 1735
+type(
+  'c option
+)
+"plugins/subtac/eterm.ml" 63 1723 1737 "plugins/subtac/eterm.ml" 63 1723 1738
+type(
+  'd
+)
+"plugins/subtac/eterm.ml" 63 1723 1727 "plugins/subtac/eterm.ml" 63 1723 1739
+type(
+  'b * 'c option * 'd
+)
+"plugins/subtac/eterm.ml" 63 1723 1743 "plugins/subtac/eterm.ml" 63 1723 1746
+type(
+  ('b * 'c option * 'd) list
+)
+ident(
+  def tlh "plugins/subtac/eterm.ml" 64 1763 1768 "plugins/subtac/eterm.ml" 64 1763 1818
+)
+"plugins/subtac/eterm.ml" 63 1723 1726 "plugins/subtac/eterm.ml" 63 1723 1747
+type(
+  ('b * 'c option * 'd) list
+)
+"plugins/subtac/eterm.ml" 63 1723 1750 "plugins/subtac/eterm.ml" 63 1723 1751
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/subtac/eterm.ml" 64 1763 1768 "plugins/subtac/eterm.ml" 64 1763 1818
+)
+"plugins/subtac/eterm.ml" 63 1723 1755 "plugins/subtac/eterm.ml" 63 1723 1758
+type(
+  Term.constr list
+)
+ident(
+  def tla "plugins/subtac/eterm.ml" 64 1763 1768 "plugins/subtac/eterm.ml" 64 1763 1818
+)
+"plugins/subtac/eterm.ml" 63 1723 1749 "plugins/subtac/eterm.ml" 63 1723 1759
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 63 1723 1726 "plugins/subtac/eterm.ml" 63 1723 1759
+type(
+  ('b * 'c option * 'd) list * Term.constr list
+)
+"plugins/subtac/eterm.ml" 64 1763 1768 "plugins/subtac/eterm.ml" 64 1763 1771
+type(
+  ('b * 'c option * 'd) list ->
+  Term.constr list -> Term.constr list -> Term.constr list
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 61 1664 1675 "plugins/subtac/eterm.ml" 61 1664 1678
+)
+"plugins/subtac/eterm.ml" 64 1763 1772 "plugins/subtac/eterm.ml" 64 1763 1775
+type(
+  ('b * 'c option * 'd) list
+)
+ident(
+  int_ref tlh "plugins/subtac/eterm.ml" 63 1723 1743 "plugins/subtac/eterm.ml" 63 1723 1746
+)
+"plugins/subtac/eterm.ml" 64 1763 1776 "plugins/subtac/eterm.ml" 64 1763 1779
+type(
+  Term.constr list
+)
+ident(
+  int_ref tla "plugins/subtac/eterm.ml" 63 1723 1755 "plugins/subtac/eterm.ml" 63 1723 1758
+)
+"plugins/subtac/eterm.ml" 64 1763 1782 "plugins/subtac/eterm.ml" 64 1763 1790
+type(
+  int * int list -> Term.constr -> Term.constr
+)
+ident(
+  int_ref substrec "plugins/subtac/eterm.ml" 43 1063 1073 "plugins/subtac/eterm.ml" 43 1063 1081
+)
+"plugins/subtac/eterm.ml" 64 1763 1792 "plugins/subtac/eterm.ml" 64 1763 1797
+type(
+  int
+)
+ident(
+  int_ref depth "plugins/subtac/eterm.ml" 43 1063 1083 "plugins/subtac/eterm.ml" 43 1063 1088
+)
+"plugins/subtac/eterm.ml" 64 1763 1799 "plugins/subtac/eterm.ml" 64 1763 1806
+type(
+  int list
+)
+ident(
+  int_ref fixrels "plugins/subtac/eterm.ml" 43 1063 1090 "plugins/subtac/eterm.ml" 43 1063 1097
+)
+"plugins/subtac/eterm.ml" 64 1763 1791 "plugins/subtac/eterm.ml" 64 1763 1807
+type(
+  int * int list
+)
+"plugins/subtac/eterm.ml" 64 1763 1808 "plugins/subtac/eterm.ml" 64 1763 1809
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/subtac/eterm.ml" 63 1723 1750 "plugins/subtac/eterm.ml" 63 1723 1751
+)
+"plugins/subtac/eterm.ml" 64 1763 1781 "plugins/subtac/eterm.ml" 64 1763 1810
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 64 1763 1814 "plugins/subtac/eterm.ml" 64 1763 1817
+type(
+  Term.constr list
+)
+ident(
+  int_ref acc "plugins/subtac/eterm.ml" 61 1664 1689 "plugins/subtac/eterm.ml" 61 1664 1692
+)
+"plugins/subtac/eterm.ml" 64 1763 1780 "plugins/subtac/eterm.ml" 64 1763 1818
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 64 1763 1768 "plugins/subtac/eterm.ml" 64 1763 1818
+call(
+  tail
+)
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 65 1819 1831 "plugins/subtac/eterm.ml" 65 1819 1832
+type(
+  'b
+)
+"plugins/subtac/eterm.ml" 65 1819 1839 "plugins/subtac/eterm.ml" 65 1819 1840
+type(
+  'c
+)
+"plugins/subtac/eterm.ml" 65 1819 1834 "plugins/subtac/eterm.ml" 65 1819 1840
+type(
+  'c option
+)
+"plugins/subtac/eterm.ml" 65 1819 1842 "plugins/subtac/eterm.ml" 65 1819 1843
+type(
+  'd
+)
+"plugins/subtac/eterm.ml" 65 1819 1830 "plugins/subtac/eterm.ml" 65 1819 1844
+type(
+  'b * 'c option * 'd
+)
+"plugins/subtac/eterm.ml" 65 1819 1848 "plugins/subtac/eterm.ml" 65 1819 1851
+type(
+  ('b * 'c option * 'd) list
+)
+ident(
+  def tlh "plugins/subtac/eterm.ml" 66 1868 1873 "plugins/subtac/eterm.ml" 66 1868 1888
+)
+"plugins/subtac/eterm.ml" 65 1819 1829 "plugins/subtac/eterm.ml" 65 1819 1852
+type(
+  ('b * 'c option * 'd) list
+)
+"plugins/subtac/eterm.ml" 65 1819 1855 "plugins/subtac/eterm.ml" 65 1819 1856
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 65 1819 1860 "plugins/subtac/eterm.ml" 65 1819 1863
+type(
+  Term.constr list
+)
+ident(
+  def tla "plugins/subtac/eterm.ml" 66 1868 1873 "plugins/subtac/eterm.ml" 66 1868 1888
+)
+"plugins/subtac/eterm.ml" 65 1819 1854 "plugins/subtac/eterm.ml" 65 1819 1864
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 65 1819 1829 "plugins/subtac/eterm.ml" 65 1819 1864
+type(
+  ('b * 'c option * 'd) list * Term.constr list
+)
+"plugins/subtac/eterm.ml" 66 1868 1873 "plugins/subtac/eterm.ml" 66 1868 1876
+type(
+  ('b * 'c option * 'd) list ->
+  Term.constr list -> Term.constr list -> Term.constr list
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 61 1664 1675 "plugins/subtac/eterm.ml" 61 1664 1678
+)
+"plugins/subtac/eterm.ml" 66 1868 1877 "plugins/subtac/eterm.ml" 66 1868 1880
+type(
+  ('b * 'c option * 'd) list
+)
+ident(
+  int_ref tlh "plugins/subtac/eterm.ml" 65 1819 1848 "plugins/subtac/eterm.ml" 65 1819 1851
+)
+"plugins/subtac/eterm.ml" 66 1868 1881 "plugins/subtac/eterm.ml" 66 1868 1884
+type(
+  Term.constr list
+)
+ident(
+  int_ref tla "plugins/subtac/eterm.ml" 65 1819 1860 "plugins/subtac/eterm.ml" 65 1819 1863
+)
+"plugins/subtac/eterm.ml" 66 1868 1885 "plugins/subtac/eterm.ml" 66 1868 1888
+type(
+  Term.constr list
+)
+ident(
+  int_ref acc "plugins/subtac/eterm.ml" 61 1664 1689 "plugins/subtac/eterm.ml" 61 1664 1692
+)
+"plugins/subtac/eterm.ml" 66 1868 1873 "plugins/subtac/eterm.ml" 66 1868 1888
+call(
+  tail
+)
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 67 1889 1899 "plugins/subtac/eterm.ml" 67 1889 1901
+type(
+  ('b * 'c option * 'd) list
+)
+"plugins/subtac/eterm.ml" 67 1889 1903 "plugins/subtac/eterm.ml" 67 1889 1905
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 67 1889 1899 "plugins/subtac/eterm.ml" 67 1889 1905
+type(
+  ('b * 'c option * 'd) list * Term.constr list
+)
+"plugins/subtac/eterm.ml" 67 1889 1909 "plugins/subtac/eterm.ml" 67 1889 1912
+type(
+  Term.constr list
+)
+ident(
+  int_ref acc "plugins/subtac/eterm.ml" 61 1664 1689 "plugins/subtac/eterm.ml" 61 1664 1692
+)
+"plugins/subtac/eterm.ml" 68 1913 1923 "plugins/subtac/eterm.ml" 68 1913 1924
+type(
+  ('b * 'c option * 'd) list
+)
+"plugins/subtac/eterm.ml" 68 1913 1926 "plugins/subtac/eterm.ml" 68 1913 1927
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 68 1913 1923 "plugins/subtac/eterm.ml" 68 1913 1927
+type(
+  ('b * 'c option * 'd) list * Term.constr list
+)
+"plugins/subtac/eterm.ml" 68 1913 1931 "plugins/subtac/eterm.ml" 68 1913 1934
+type(
+  Term.constr list
+)
+ident(
+  int_ref acc "plugins/subtac/eterm.ml" 61 1664 1689 "plugins/subtac/eterm.ml" 61 1664 1692
+)
+"plugins/subtac/eterm.ml" 62 1695 1701 "plugins/subtac/eterm.ml" 68 1913 1934
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 69 1980 1986 "plugins/subtac/eterm.ml" 69 1980 1989
+type(
+  Sign.named_context ->
+  Term.constr list -> Term.constr list -> Term.constr list
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 61 1664 1675 "plugins/subtac/eterm.ml" 61 1664 1678
+)
+"plugins/subtac/eterm.ml" 69 1980 1990 "plugins/subtac/eterm.ml" 69 1980 1994
+type(
+  Sign.named_context
+)
+ident(
+  int_ref hyps "plugins/subtac/eterm.ml" 46 1184 1201 "plugins/subtac/eterm.ml" 46 1184 1205
+)
+"plugins/subtac/eterm.ml" 69 1980 1995 "plugins/subtac/eterm.ml" 69 1980 1999
+type(
+  Term.constr list
+)
+ident(
+  int_ref args "plugins/subtac/eterm.ml" 55 1503 1508 "plugins/subtac/eterm.ml" 55 1503 1512
+)
+"plugins/subtac/eterm.ml" 69 1980 2000 "plugins/subtac/eterm.ml" 69 1980 2002
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 69 1980 1986 "plugins/subtac/eterm.ml" 69 1980 2002
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 61 1664 1667 "plugins/subtac/eterm.ml" 69 1980 2002
+type(
+  Term.constr list
+)
+"plugins/subtac/eterm.ml" 71 2007 2013 "plugins/subtac/eterm.ml" 71 2007 2024
+type(
+  (Term.constr -> bool) -> Term.constr list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"plugins/subtac/eterm.ml" 71 2007 2030 "plugins/subtac/eterm.ml" 71 2007 2031
+type(
+  Term.constr
+)
+ident(
+  def x "plugins/subtac/eterm.ml" 71 2007 2035 "plugins/subtac/eterm.ml" 71 2007 2101
+)
+"plugins/subtac/eterm.ml" 71 2007 2041 "plugins/subtac/eterm.ml" 71 2007 2053
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 71 2007 2054 "plugins/subtac/eterm.ml" 71 2007 2055
+type(
+  Term.constr
+)
+ident(
+  int_ref x "plugins/subtac/eterm.ml" 71 2007 2030 "plugins/subtac/eterm.ml" 71 2007 2031
+)
+"plugins/subtac/eterm.ml" 71 2007 2041 "plugins/subtac/eterm.ml" 71 2007 2055
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 71 2007 2065 "plugins/subtac/eterm.ml" 71 2007 2066
+type(
+  int
+)
+ident(
+  def n "plugins/subtac/eterm.ml" 71 2007 2070 "plugins/subtac/eterm.ml" 71 2007 2088
+)
+"plugins/subtac/eterm.ml" 71 2007 2061 "plugins/subtac/eterm.ml" 71 2007 2066
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 71 2007 2070 "plugins/subtac/eterm.ml" 71 2007 2078
+type(
+  int -> int list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"plugins/subtac/eterm.ml" 71 2007 2079 "plugins/subtac/eterm.ml" 71 2007 2080
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/eterm.ml" 71 2007 2065 "plugins/subtac/eterm.ml" 71 2007 2066
+)
+"plugins/subtac/eterm.ml" 71 2007 2081 "plugins/subtac/eterm.ml" 71 2007 2088
+type(
+  int list
+)
+ident(
+  int_ref fixrels "plugins/subtac/eterm.ml" 43 1063 1090 "plugins/subtac/eterm.ml" 43 1063 1097
+)
+"plugins/subtac/eterm.ml" 71 2007 2070 "plugins/subtac/eterm.ml" 71 2007 2088
+call(
+  tail
+)
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 71 2007 2091 "plugins/subtac/eterm.ml" 71 2007 2092
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 71 2007 2096 "plugins/subtac/eterm.ml" 71 2007 2101
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 71 2007 2035 "plugins/subtac/eterm.ml" 71 2007 2101
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 71 2007 2025 "plugins/subtac/eterm.ml" 71 2007 2102
+type(
+  Term.constr -> bool
+)
+"plugins/subtac/eterm.ml" 71 2007 2103 "plugins/subtac/eterm.ml" 71 2007 2107
+type(
+  Term.constr list
+)
+ident(
+  int_ref args "plugins/subtac/eterm.ml" 60 1652 1657 "plugins/subtac/eterm.ml" 60 1652 1661
+)
+"plugins/subtac/eterm.ml" 71 2007 2013 "plugins/subtac/eterm.ml" 71 2007 2107
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 72 2113 2118 "plugins/subtac/eterm.ml" 72 2113 2129
+type(
+  Names.Idset.t ref
+)
+ident(
+  int_ref transparent "plugins/subtac/eterm.ml" 41 982 988 "plugins/subtac/eterm.ml" 41 982 999
+)
+"plugins/subtac/eterm.ml" 72 2113 2130 "plugins/subtac/eterm.ml" 72 2113 2132
+type(
+  Names.Idset.t ref -> Names.Idset.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/subtac/eterm.ml" 72 2113 2133 "plugins/subtac/eterm.ml" 72 2113 2142
+type(
+  Names.Idset.elt -> Names.Idset.t -> Names.Idset.t
+)
+ident(
+  ext_ref Names.Idset.add
+)
+"plugins/subtac/eterm.ml" 72 2113 2143 "plugins/subtac/eterm.ml" 72 2113 2148
+type(
+  Names.Idset.elt
+)
+ident(
+  int_ref idstr "plugins/subtac/eterm.ml" 45 1153 1175 "plugins/subtac/eterm.ml" 45 1153 1180
+)
+"plugins/subtac/eterm.ml" 72 2113 2149 "plugins/subtac/eterm.ml" 72 2113 2150
+type(
+  Names.Idset.t ref -> Names.Idset.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/eterm.ml" 72 2113 2150 "plugins/subtac/eterm.ml" 72 2113 2161
+type(
+  Names.Idset.t ref
+)
+ident(
+  int_ref transparent "plugins/subtac/eterm.ml" 41 982 988 "plugins/subtac/eterm.ml" 41 982 999
+)
+"plugins/subtac/eterm.ml" 72 2113 2149 "plugins/subtac/eterm.ml" 72 2113 2161
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 72 2113 2133 "plugins/subtac/eterm.ml" 72 2113 2161
+call(
+  stack
+)
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 72 2113 2118 "plugins/subtac/eterm.ml" 72 2113 2161
+type(
+  unit
+)
+"plugins/subtac/eterm.ml" 71 2007 2010 "plugins/subtac/eterm.ml" 72 2113 2161
+type(
+  unit
+)
+"plugins/subtac/eterm.ml" 73 2163 2166 "plugins/subtac/eterm.ml" 73 2163 2171
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/subtac/eterm.ml" 73 2163 2173 "plugins/subtac/eterm.ml" 73 2163 2176
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  int_ref idf "plugins/subtac/eterm.ml" 39 912 940 "plugins/subtac/eterm.ml" 39 912 943
+)
+"plugins/subtac/eterm.ml" 73 2163 2177 "plugins/subtac/eterm.ml" 73 2163 2182
+type(
+  Names.identifier
+)
+ident(
+  int_ref idstr "plugins/subtac/eterm.ml" 45 1153 1175 "plugins/subtac/eterm.ml" 45 1153 1180
+)
+"plugins/subtac/eterm.ml" 73 2163 2173 "plugins/subtac/eterm.ml" 73 2163 2182
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 73 2163 2184 "plugins/subtac/eterm.ml" 73 2163 2197
+type(
+  Term.constr list -> Term.constr array
+)
+ident(
+  ext_ref Array.of_list
+)
+"plugins/subtac/eterm.ml" 73 2163 2198 "plugins/subtac/eterm.ml" 73 2163 2202
+type(
+  Term.constr list
+)
+ident(
+  int_ref args "plugins/subtac/eterm.ml" 60 1652 1657 "plugins/subtac/eterm.ml" 60 1652 1661
+)
+"plugins/subtac/eterm.ml" 73 2163 2184 "plugins/subtac/eterm.ml" 73 2163 2202
+call(
+  stack
+)
+type(
+  Term.constr array
+)
+"plugins/subtac/eterm.ml" 73 2163 2172 "plugins/subtac/eterm.ml" 73 2163 2203
+type(
+  Term.constr * Term.constr array
+)
+"plugins/subtac/eterm.ml" 73 2163 2166 "plugins/subtac/eterm.ml" 73 2163 2203
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 71 2007 2010 "plugins/subtac/eterm.ml" 73 2163 2203
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 60 1652 1653 "plugins/subtac/eterm.ml" 73 2163 2203
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 55 1503 1504 "plugins/subtac/eterm.ml" 73 2163 2203
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 51 1350 1358 "plugins/subtac/eterm.ml" 73 2163 2203
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 45 1153 1154 "plugins/subtac/eterm.ml" 73 2163 2203
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 74 2204 2214 "plugins/subtac/eterm.ml" 74 2204 2215
+type(
+  (Term.constr, Term.types) Term.pfixpoint
+)
+"plugins/subtac/eterm.ml" 74 2204 2210 "plugins/subtac/eterm.ml" 74 2204 2215
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 75 2219 2220 "plugins/subtac/eterm.ml" 75 2219 2243
+type(
+  (int * int list -> int * int list) ->
+  (int * int list -> Term.constr -> Term.constr) ->
+  int * int list -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.map_constr_with_binders
+)
+"plugins/subtac/eterm.ml" 75 2219 2244 "plugins/subtac/eterm.ml" 75 2219 2251
+type(
+  int * int list -> int * int list
+)
+ident(
+  int_ref succfix "plugins/subtac/eterm.ml" 23 489 493 "plugins/subtac/eterm.ml" 23 489 500
+)
+"plugins/subtac/eterm.ml" 75 2219 2252 "plugins/subtac/eterm.ml" 75 2219 2260
+type(
+  int * int list -> Term.constr -> Term.constr
+)
+ident(
+  int_ref substrec "plugins/subtac/eterm.ml" 43 1063 1073 "plugins/subtac/eterm.ml" 43 1063 1081
+)
+"plugins/subtac/eterm.ml" 75 2219 2262 "plugins/subtac/eterm.ml" 75 2219 2267
+type(
+  int
+)
+ident(
+  int_ref depth "plugins/subtac/eterm.ml" 43 1063 1083 "plugins/subtac/eterm.ml" 43 1063 1088
+)
+"plugins/subtac/eterm.ml" 75 2219 2269 "plugins/subtac/eterm.ml" 75 2219 2270
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 75 2219 2274 "plugins/subtac/eterm.ml" 75 2219 2281
+type(
+  int list
+)
+ident(
+  int_ref fixrels "plugins/subtac/eterm.ml" 43 1063 1090 "plugins/subtac/eterm.ml" 43 1063 1097
+)
+"plugins/subtac/eterm.ml" 75 2219 2269 "plugins/subtac/eterm.ml" 75 2219 2281
+type(
+  int list
+)
+"plugins/subtac/eterm.ml" 75 2219 2261 "plugins/subtac/eterm.ml" 75 2219 2282
+type(
+  int * int list
+)
+"plugins/subtac/eterm.ml" 75 2219 2283 "plugins/subtac/eterm.ml" 75 2219 2284
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/subtac/eterm.ml" 43 1063 1099 "plugins/subtac/eterm.ml" 43 1063 1100
+)
+"plugins/subtac/eterm.ml" 75 2219 2220 "plugins/subtac/eterm.ml" 75 2219 2284
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 76 2285 2291 "plugins/subtac/eterm.ml" 76 2285 2292
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 76 2285 2296 "plugins/subtac/eterm.ml" 76 2285 2319
+type(
+  (int * int list -> int * int list) ->
+  (int * int list -> Term.constr -> Term.constr) ->
+  int * int list -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.map_constr_with_binders
+)
+"plugins/subtac/eterm.ml" 76 2285 2320 "plugins/subtac/eterm.ml" 76 2285 2327
+type(
+  int * int list -> int * int list
+)
+ident(
+  int_ref succfix "plugins/subtac/eterm.ml" 23 489 493 "plugins/subtac/eterm.ml" 23 489 500
+)
+"plugins/subtac/eterm.ml" 76 2285 2328 "plugins/subtac/eterm.ml" 76 2285 2336
+type(
+  int * int list -> Term.constr -> Term.constr
+)
+ident(
+  int_ref substrec "plugins/subtac/eterm.ml" 43 1063 1073 "plugins/subtac/eterm.ml" 43 1063 1081
+)
+"plugins/subtac/eterm.ml" 76 2285 2338 "plugins/subtac/eterm.ml" 76 2285 2343
+type(
+  int
+)
+ident(
+  int_ref depth "plugins/subtac/eterm.ml" 43 1063 1083 "plugins/subtac/eterm.ml" 43 1063 1088
+)
+"plugins/subtac/eterm.ml" 76 2285 2345 "plugins/subtac/eterm.ml" 76 2285 2352
+type(
+  int list
+)
+ident(
+  int_ref fixrels "plugins/subtac/eterm.ml" 43 1063 1090 "plugins/subtac/eterm.ml" 43 1063 1097
+)
+"plugins/subtac/eterm.ml" 76 2285 2337 "plugins/subtac/eterm.ml" 76 2285 2353
+type(
+  int * int list
+)
+"plugins/subtac/eterm.ml" 76 2285 2354 "plugins/subtac/eterm.ml" 76 2285 2355
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/subtac/eterm.ml" 43 1063 1099 "plugins/subtac/eterm.ml" 43 1063 1100
+)
+"plugins/subtac/eterm.ml" 76 2285 2296 "plugins/subtac/eterm.ml" 76 2285 2355
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 43 1063 1103 "plugins/subtac/eterm.ml" 76 2285 2355
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 78 2361 2367 "plugins/subtac/eterm.ml" 78 2361 2369
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 78 2361 2372 "plugins/subtac/eterm.ml" 78 2361 2380
+type(
+  int * int list -> Term.constr -> Term.constr
+)
+ident(
+  int_ref substrec "plugins/subtac/eterm.ml" 43 1063 1073 "plugins/subtac/eterm.ml" 43 1063 1081
+)
+"plugins/subtac/eterm.ml" 78 2361 2382 "plugins/subtac/eterm.ml" 78 2361 2383
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 78 2361 2385 "plugins/subtac/eterm.ml" 78 2361 2387
+type(
+  int list
+)
+"plugins/subtac/eterm.ml" 78 2361 2381 "plugins/subtac/eterm.ml" 78 2361 2388
+type(
+  int * int list
+)
+"plugins/subtac/eterm.ml" 78 2361 2389 "plugins/subtac/eterm.ml" 78 2361 2390
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/subtac/eterm.ml" 39 912 944 "plugins/subtac/eterm.ml" 39 912 945
+)
+"plugins/subtac/eterm.ml" 78 2361 2372 "plugins/subtac/eterm.ml" 78 2361 2390
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 79 2394 2398 "plugins/subtac/eterm.ml" 79 2394 2400
+type(
+  Term.constr
+)
+ident(
+  int_ref t' "plugins/subtac/eterm.ml" 78 2361 2367 "plugins/subtac/eterm.ml" 78 2361 2369
+)
+"plugins/subtac/eterm.ml" 79 2394 2402 "plugins/subtac/eterm.ml" 79 2394 2403
+type(
+  Util.Intset.t ref -> Util.Intset.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/eterm.ml" 79 2394 2403 "plugins/subtac/eterm.ml" 79 2394 2407
+type(
+  Util.Intset.t ref
+)
+ident(
+  int_ref seen "plugins/subtac/eterm.ml" 40 949 955 "plugins/subtac/eterm.ml" 40 949 959
+)
+"plugins/subtac/eterm.ml" 79 2394 2402 "plugins/subtac/eterm.ml" 79 2394 2407
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 79 2394 2409 "plugins/subtac/eterm.ml" 79 2394 2410
+type(
+  Names.Idset.t ref -> Names.Idset.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/eterm.ml" 79 2394 2410 "plugins/subtac/eterm.ml" 79 2394 2421
+type(
+  Names.Idset.t ref
+)
+ident(
+  int_ref transparent "plugins/subtac/eterm.ml" 41 982 988 "plugins/subtac/eterm.ml" 41 982 999
+)
+"plugins/subtac/eterm.ml" 79 2394 2409 "plugins/subtac/eterm.ml" 79 2394 2421
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 79 2394 2398 "plugins/subtac/eterm.ml" 79 2394 2421
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 78 2361 2363 "plugins/subtac/eterm.ml" 79 2394 2421
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 43 1063 1065 "plugins/subtac/eterm.ml" 79 2394 2421
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 42 1021 1023 "plugins/subtac/eterm.ml" 79 2394 2421
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 41 982 984 "plugins/subtac/eterm.ml" 79 2394 2421
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 40 949 951 "plugins/subtac/eterm.ml" 79 2394 2421
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 84 2531 2535 "plugins/subtac/eterm.ml" 84 2531 2545
+type(
+  Names.identifier list -> 'a -> Term.constr -> Term.constr
+)
+ident(
+  def subst_vars "plugins/subtac/eterm.ml" 96 3007 3007 --
+)
+"plugins/subtac/eterm.ml" 84 2531 2546 "plugins/subtac/eterm.ml" 84 2531 2549
+type(
+  Names.identifier list
+)
+ident(
+  def acc "plugins/subtac/eterm.ml" 84 2531 2550 "plugins/subtac/eterm.ml" 90 2791 2807
+)
+"plugins/subtac/eterm.ml" 84 2531 2550 "plugins/subtac/eterm.ml" 84 2531 2551
+type(
+  'a
+)
+ident(
+  def n "plugins/subtac/eterm.ml" 84 2531 2552 "plugins/subtac/eterm.ml" 90 2791 2807
+)
+"plugins/subtac/eterm.ml" 84 2531 2552 "plugins/subtac/eterm.ml" 84 2531 2553
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/subtac/eterm.ml" 85 2556 2558 "plugins/subtac/eterm.ml" 90 2791 2807
+)
+"plugins/subtac/eterm.ml" 85 2556 2562 "plugins/subtac/eterm.ml" 85 2556 2571
+type(
+  Names.identifier -> int
+)
+"plugins/subtac/eterm.ml" 85 2556 2572 "plugins/subtac/eterm.ml" 85 2556 2574
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/subtac/eterm.ml" 85 2556 2577 "plugins/subtac/eterm.ml" 85 2556 2599
+)
+"plugins/subtac/eterm.ml" 85 2556 2577 "plugins/subtac/eterm.ml" 85 2556 2592
+type(
+  Names.identifier -> Names.identifier list -> int
+)
+ident(
+  ext_ref Util.list_index
+)
+"plugins/subtac/eterm.ml" 85 2556 2593 "plugins/subtac/eterm.ml" 85 2556 2595
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 85 2556 2572 "plugins/subtac/eterm.ml" 85 2556 2574
+)
+"plugins/subtac/eterm.ml" 85 2556 2596 "plugins/subtac/eterm.ml" 85 2556 2599
+type(
+  Names.identifier list
+)
+ident(
+  int_ref acc "plugins/subtac/eterm.ml" 84 2531 2546 "plugins/subtac/eterm.ml" 84 2531 2549
+)
+"plugins/subtac/eterm.ml" 85 2556 2577 "plugins/subtac/eterm.ml" 85 2556 2599
+call(
+  tail
+)
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 86 2603 2613 "plugins/subtac/eterm.ml" 86 2603 2621
+type(
+  int -> Term.constr -> Term.constr
+)
+"plugins/subtac/eterm.ml" 86 2603 2622 "plugins/subtac/eterm.ml" 86 2603 2627
+type(
+  int
+)
+ident(
+  def depth "plugins/subtac/eterm.ml" 86 2603 2628 "plugins/subtac/eterm.ml" 88 2729 2785
+)
+"plugins/subtac/eterm.ml" 86 2603 2628 "plugins/subtac/eterm.ml" 86 2603 2629
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/subtac/eterm.ml" 86 2603 2632 "plugins/subtac/eterm.ml" 88 2729 2785
+)
+"plugins/subtac/eterm.ml" 86 2603 2638 "plugins/subtac/eterm.ml" 86 2603 2650
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 86 2603 2651 "plugins/subtac/eterm.ml" 86 2603 2652
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/subtac/eterm.ml" 86 2603 2628 "plugins/subtac/eterm.ml" 86 2603 2629
+)
+"plugins/subtac/eterm.ml" 86 2603 2638 "plugins/subtac/eterm.ml" 86 2603 2652
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 87 2658 2668 "plugins/subtac/eterm.ml" 87 2658 2669
+type(
+  Names.identifier
+)
+ident(
+  def v "plugins/subtac/eterm.ml" 87 2658 2673 "plugins/subtac/eterm.ml" 87 2658 2728
+)
+"plugins/subtac/eterm.ml" 87 2658 2664 "plugins/subtac/eterm.ml" 87 2658 2669
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 87 2658 2678 "plugins/subtac/eterm.ml" 87 2658 2683
+type(
+  int -> Term.constr
+)
+ident(
+  ext_ref Term.mkRel
+)
+"plugins/subtac/eterm.ml" 87 2658 2685 "plugins/subtac/eterm.ml" 87 2658 2690
+type(
+  int
+)
+ident(
+  int_ref depth "plugins/subtac/eterm.ml" 86 2603 2622 "plugins/subtac/eterm.ml" 86 2603 2627
+)
+"plugins/subtac/eterm.ml" 87 2658 2691 "plugins/subtac/eterm.ml" 87 2658 2692
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/subtac/eterm.ml" 87 2658 2694 "plugins/subtac/eterm.ml" 87 2658 2703
+type(
+  Names.identifier -> int
+)
+ident(
+  int_ref var_index "plugins/subtac/eterm.ml" 85 2556 2562 "plugins/subtac/eterm.ml" 85 2556 2571
+)
+"plugins/subtac/eterm.ml" 87 2658 2704 "plugins/subtac/eterm.ml" 87 2658 2705
+type(
+  Names.identifier
+)
+ident(
+  int_ref v "plugins/subtac/eterm.ml" 87 2658 2668 "plugins/subtac/eterm.ml" 87 2658 2669
+)
+"plugins/subtac/eterm.ml" 87 2658 2693 "plugins/subtac/eterm.ml" 87 2658 2706
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 87 2658 2684 "plugins/subtac/eterm.ml" 87 2658 2707
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 87 2658 2678 "plugins/subtac/eterm.ml" 87 2658 2707
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 87 2658 2713 "plugins/subtac/eterm.ml" 87 2658 2722
+type(
+  exn
+)
+"plugins/subtac/eterm.ml" 87 2658 2726 "plugins/subtac/eterm.ml" 87 2658 2727
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/subtac/eterm.ml" 86 2603 2628 "plugins/subtac/eterm.ml" 86 2603 2629
+)
+"plugins/subtac/eterm.ml" 87 2658 2673 "plugins/subtac/eterm.ml" 87 2658 2728
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 88 2729 2735 "plugins/subtac/eterm.ml" 88 2729 2736
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 88 2729 2740 "plugins/subtac/eterm.ml" 88 2729 2763
+type(
+  (int -> int) ->
+  (int -> Term.constr -> Term.constr) -> int -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.map_constr_with_binders
+)
+"plugins/subtac/eterm.ml" 88 2729 2764 "plugins/subtac/eterm.ml" 88 2729 2768
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"plugins/subtac/eterm.ml" 88 2729 2769 "plugins/subtac/eterm.ml" 88 2729 2777
+type(
+  int -> Term.constr -> Term.constr
+)
+ident(
+  int_ref substrec "plugins/subtac/eterm.ml" 86 2603 2613 "plugins/subtac/eterm.ml" 86 2603 2621
+)
+"plugins/subtac/eterm.ml" 88 2729 2778 "plugins/subtac/eterm.ml" 88 2729 2783
+type(
+  int
+)
+ident(
+  int_ref depth "plugins/subtac/eterm.ml" 86 2603 2622 "plugins/subtac/eterm.ml" 86 2603 2627
+)
+"plugins/subtac/eterm.ml" 88 2729 2784 "plugins/subtac/eterm.ml" 88 2729 2785
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/subtac/eterm.ml" 86 2603 2628 "plugins/subtac/eterm.ml" 86 2603 2629
+)
+"plugins/subtac/eterm.ml" 88 2729 2740 "plugins/subtac/eterm.ml" 88 2729 2785
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 86 2603 2632 "plugins/subtac/eterm.ml" 88 2729 2785
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 90 2791 2795 "plugins/subtac/eterm.ml" 90 2791 2803
+type(
+  int -> Term.constr -> Term.constr
+)
+ident(
+  int_ref substrec "plugins/subtac/eterm.ml" 86 2603 2613 "plugins/subtac/eterm.ml" 86 2603 2621
+)
+"plugins/subtac/eterm.ml" 90 2791 2804 "plugins/subtac/eterm.ml" 90 2791 2805
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 90 2791 2806 "plugins/subtac/eterm.ml" 90 2791 2807
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/subtac/eterm.ml" 84 2531 2552 "plugins/subtac/eterm.ml" 84 2531 2553
+)
+"plugins/subtac/eterm.ml" 90 2791 2795 "plugins/subtac/eterm.ml" 90 2791 2807
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 86 2603 2605 "plugins/subtac/eterm.ml" 90 2791 2807
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 85 2556 2558 "plugins/subtac/eterm.ml" 90 2791 2807
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 96 3007 3011 "plugins/subtac/eterm.ml" 96 3007 3024
+type(
+  (Term.existential_key * oblinfo) list ->
+  (Names.identifier * Term.constr option * Term.constr) list ->
+  Term.constr -> Term.types * Util.Intset.t * Names.Idset.t
+)
+ident(
+  def etype_of_evar "plugins/subtac/eterm.ml" 119 3756 3756 --
+)
+"plugins/subtac/eterm.ml" 96 3007 3025 "plugins/subtac/eterm.ml" 96 3007 3028
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  def evs "plugins/subtac/eterm.ml" 96 3007 3029 "plugins/subtac/eterm.ml" 116 3729 3753
+)
+"plugins/subtac/eterm.ml" 96 3007 3029 "plugins/subtac/eterm.ml" 96 3007 3033
+type(
+  (Names.identifier * Term.constr option * Term.constr) list
+)
+ident(
+  def hyps "plugins/subtac/eterm.ml" 96 3007 3034 "plugins/subtac/eterm.ml" 116 3729 3753
+)
+"plugins/subtac/eterm.ml" 96 3007 3034 "plugins/subtac/eterm.ml" 96 3007 3039
+type(
+  Term.constr
+)
+ident(
+  def concl "plugins/subtac/eterm.ml" 97 3042 3044 "plugins/subtac/eterm.ml" 116 3729 3753
+)
+"plugins/subtac/eterm.ml" 97 3042 3052 "plugins/subtac/eterm.ml" 97 3042 3055
+type(
+  Names.identifier list ->
+  int ->
+  (Names.identifier * Term.constr option * Term.constr) list ->
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 97 3042 3056 "plugins/subtac/eterm.ml" 97 3042 3059
+type(
+  Names.identifier list
+)
+ident(
+  def acc "plugins/subtac/eterm.ml" 97 3042 3060 "plugins/subtac/eterm.ml" 115 3696 3728
+)
+"plugins/subtac/eterm.ml" 97 3042 3060 "plugins/subtac/eterm.ml" 97 3042 3061
+type(
+  int
+)
+ident(
+  def n "plugins/subtac/eterm.ml" 97 3042 3064 "plugins/subtac/eterm.ml" 115 3696 3728
+)
+"plugins/subtac/eterm.ml" 98 3073 3080 "plugins/subtac/eterm.ml" 98 3073 3082
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/subtac/eterm.ml" 99 3102 3103 "plugins/subtac/eterm.ml" 112 3568 3624
+)
+"plugins/subtac/eterm.ml" 98 3073 3084 "plugins/subtac/eterm.ml" 98 3073 3088
+type(
+  Term.constr option
+)
+ident(
+  def copt "plugins/subtac/eterm.ml" 99 3102 3103 "plugins/subtac/eterm.ml" 112 3568 3624
+)
+"plugins/subtac/eterm.ml" 98 3073 3090 "plugins/subtac/eterm.ml" 98 3073 3091
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/subtac/eterm.ml" 99 3102 3103 "plugins/subtac/eterm.ml" 112 3568 3624
+)
+"plugins/subtac/eterm.ml" 98 3073 3079 "plugins/subtac/eterm.ml" 98 3073 3092
+type(
+  Names.identifier * Term.constr option * Term.constr
+)
+"plugins/subtac/eterm.ml" 98 3073 3096 "plugins/subtac/eterm.ml" 98 3073 3098
+type(
+  (Names.identifier * Term.constr option * Term.constr) list
+)
+ident(
+  def tl "plugins/subtac/eterm.ml" 99 3102 3103 "plugins/subtac/eterm.ml" 112 3568 3624
+)
+"plugins/subtac/eterm.ml" 98 3073 3079 "plugins/subtac/eterm.ml" 98 3073 3098
+type(
+  (Names.identifier * Term.constr option * Term.constr) list
+)
+"plugins/subtac/eterm.ml" 99 3102 3107 "plugins/subtac/eterm.ml" 99 3102 3109
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 99 3102 3111 "plugins/subtac/eterm.ml" 99 3102 3112
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 99 3102 3114 "plugins/subtac/eterm.ml" 99 3102 3119
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 99 3102 3107 "plugins/subtac/eterm.ml" 99 3102 3119
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 99 3102 3122 "plugins/subtac/eterm.ml" 99 3102 3139
+type(
+  (Term.existential_key * oblinfo) list ->
+  int ->
+  (Names.identifier -> Term.constr) ->
+  Term.constr -> Term.constr * Util.Intset.t * Names.Idset.t
+)
+ident(
+  int_ref subst_evar_constr "plugins/subtac/eterm.ml" 39 912 916 "plugins/subtac/eterm.ml" 39 912 933
+)
+"plugins/subtac/eterm.ml" 99 3102 3140 "plugins/subtac/eterm.ml" 99 3102 3143
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  int_ref evs "plugins/subtac/eterm.ml" 96 3007 3025 "plugins/subtac/eterm.ml" 96 3007 3028
+)
+"plugins/subtac/eterm.ml" 99 3102 3144 "plugins/subtac/eterm.ml" 99 3102 3145
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/eterm.ml" 97 3042 3060 "plugins/subtac/eterm.ml" 97 3042 3061
+)
+"plugins/subtac/eterm.ml" 99 3102 3146 "plugins/subtac/eterm.ml" 99 3102 3151
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Term.mkVar
+)
+"plugins/subtac/eterm.ml" 99 3102 3152 "plugins/subtac/eterm.ml" 99 3102 3153
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/subtac/eterm.ml" 98 3073 3090 "plugins/subtac/eterm.ml" 98 3073 3091
+)
+"plugins/subtac/eterm.ml" 99 3102 3122 "plugins/subtac/eterm.ml" 99 3102 3153
+call(
+  stack
+)
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 100 3157 3162 "plugins/subtac/eterm.ml" 100 3157 3165
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 100 3157 3168 "plugins/subtac/eterm.ml" 100 3157 3178
+type(
+  Names.identifier list -> int -> Term.constr -> Term.constr
+)
+ident(
+  int_ref subst_vars "plugins/subtac/eterm.ml" 84 2531 2535 "plugins/subtac/eterm.ml" 84 2531 2545
+)
+"plugins/subtac/eterm.ml" 100 3157 3179 "plugins/subtac/eterm.ml" 100 3157 3182
+type(
+  Names.identifier list
+)
+ident(
+  int_ref acc "plugins/subtac/eterm.ml" 97 3042 3056 "plugins/subtac/eterm.ml" 97 3042 3059
+)
+"plugins/subtac/eterm.ml" 100 3157 3183 "plugins/subtac/eterm.ml" 100 3157 3184
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 100 3157 3185 "plugins/subtac/eterm.ml" 100 3157 3187
+type(
+  Term.constr
+)
+ident(
+  int_ref t' "plugins/subtac/eterm.ml" 99 3102 3107 "plugins/subtac/eterm.ml" 99 3102 3109
+)
+"plugins/subtac/eterm.ml" 100 3157 3168 "plugins/subtac/eterm.ml" 100 3157 3187
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 101 3191 3196 "plugins/subtac/eterm.ml" 101 3191 3200
+type(
+  Term.types
+)
+"plugins/subtac/eterm.ml" 101 3191 3202 "plugins/subtac/eterm.ml" 101 3191 3204
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 101 3191 3206 "plugins/subtac/eterm.ml" 101 3191 3212
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 101 3191 3196 "plugins/subtac/eterm.ml" 101 3191 3212
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 101 3191 3215 "plugins/subtac/eterm.ml" 101 3191 3218
+type(
+  Names.identifier list ->
+  int ->
+  (Names.identifier * Term.constr option * Term.constr) list ->
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 97 3042 3052 "plugins/subtac/eterm.ml" 97 3042 3055
+)
+"plugins/subtac/eterm.ml" 101 3191 3220 "plugins/subtac/eterm.ml" 101 3191 3222
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 98 3073 3080 "plugins/subtac/eterm.ml" 98 3073 3082
+)
+"plugins/subtac/eterm.ml" 101 3191 3226 "plugins/subtac/eterm.ml" 101 3191 3229
+type(
+  Names.identifier list
+)
+ident(
+  int_ref acc "plugins/subtac/eterm.ml" 97 3042 3056 "plugins/subtac/eterm.ml" 97 3042 3059
+)
+"plugins/subtac/eterm.ml" 101 3191 3219 "plugins/subtac/eterm.ml" 101 3191 3230
+type(
+  Names.identifier list
+)
+"plugins/subtac/eterm.ml" 101 3191 3232 "plugins/subtac/eterm.ml" 101 3191 3236
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"plugins/subtac/eterm.ml" 101 3191 3237 "plugins/subtac/eterm.ml" 101 3191 3238
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/eterm.ml" 97 3042 3060 "plugins/subtac/eterm.ml" 97 3042 3061
+)
+"plugins/subtac/eterm.ml" 101 3191 3231 "plugins/subtac/eterm.ml" 101 3191 3239
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 101 3191 3240 "plugins/subtac/eterm.ml" 101 3191 3242
+type(
+  (Names.identifier * Term.constr option * Term.constr) list
+)
+ident(
+  int_ref tl "plugins/subtac/eterm.ml" 98 3073 3096 "plugins/subtac/eterm.ml" 98 3073 3098
+)
+"plugins/subtac/eterm.ml" 101 3191 3215 "plugins/subtac/eterm.ml" 101 3191 3242
+call(
+  stack
+)
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 102 3246 3251 "plugins/subtac/eterm.ml" 102 3246 3253
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 102 3246 3256 "plugins/subtac/eterm.ml" 102 3246 3268
+type(
+  Util.Intset.t -> Util.Intset.t -> Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.union
+)
+"plugins/subtac/eterm.ml" 102 3246 3269 "plugins/subtac/eterm.ml" 102 3246 3270
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref s "plugins/subtac/eterm.ml" 99 3102 3111 "plugins/subtac/eterm.ml" 99 3102 3112
+)
+"plugins/subtac/eterm.ml" 102 3246 3271 "plugins/subtac/eterm.ml" 102 3246 3273
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref s' "plugins/subtac/eterm.ml" 101 3191 3202 "plugins/subtac/eterm.ml" 101 3191 3204
+)
+"plugins/subtac/eterm.ml" 102 3246 3256 "plugins/subtac/eterm.ml" 102 3246 3273
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 103 3277 3282 "plugins/subtac/eterm.ml" 103 3277 3288
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 103 3277 3291 "plugins/subtac/eterm.ml" 103 3277 3302
+type(
+  Names.Idset.t -> Names.Idset.t -> Names.Idset.t
+)
+ident(
+  ext_ref Names.Idset.union
+)
+"plugins/subtac/eterm.ml" 103 3277 3303 "plugins/subtac/eterm.ml" 103 3277 3308
+type(
+  Names.Idset.t
+)
+ident(
+  int_ref trans "plugins/subtac/eterm.ml" 99 3102 3114 "plugins/subtac/eterm.ml" 99 3102 3119
+)
+"plugins/subtac/eterm.ml" 103 3277 3309 "plugins/subtac/eterm.ml" 103 3277 3315
+type(
+  Names.Idset.t
+)
+ident(
+  int_ref trans' "plugins/subtac/eterm.ml" 101 3191 3206 "plugins/subtac/eterm.ml" 101 3191 3212
+)
+"plugins/subtac/eterm.ml" 103 3277 3291 "plugins/subtac/eterm.ml" 103 3277 3315
+call(
+  stack
+)
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 104 3319 3329 "plugins/subtac/eterm.ml" 104 3319 3333
+type(
+  Term.constr option
+)
+ident(
+  int_ref copt "plugins/subtac/eterm.ml" 98 3073 3084 "plugins/subtac/eterm.ml" 98 3073 3088
+)
+"plugins/subtac/eterm.ml" 105 3339 3351 "plugins/subtac/eterm.ml" 105 3339 3352
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/subtac/eterm.ml" 106 3357 3359 "plugins/subtac/eterm.ml" 110 3524 3552
+)
+"plugins/subtac/eterm.ml" 105 3339 3346 "plugins/subtac/eterm.ml" 105 3339 3352
+type(
+  Term.constr option
+)
+"plugins/subtac/eterm.ml" 106 3357 3363 "plugins/subtac/eterm.ml" 106 3357 3365
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 106 3357 3367 "plugins/subtac/eterm.ml" 106 3357 3370
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 106 3357 3372 "plugins/subtac/eterm.ml" 106 3357 3379
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 106 3357 3363 "plugins/subtac/eterm.ml" 106 3357 3379
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 106 3357 3382 "plugins/subtac/eterm.ml" 106 3357 3399
+type(
+  (Term.existential_key * oblinfo) list ->
+  int ->
+  (Names.identifier -> Term.constr) ->
+  Term.constr -> Term.constr * Util.Intset.t * Names.Idset.t
+)
+ident(
+  int_ref subst_evar_constr "plugins/subtac/eterm.ml" 39 912 916 "plugins/subtac/eterm.ml" 39 912 933
+)
+"plugins/subtac/eterm.ml" 106 3357 3400 "plugins/subtac/eterm.ml" 106 3357 3403
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  int_ref evs "plugins/subtac/eterm.ml" 96 3007 3025 "plugins/subtac/eterm.ml" 96 3007 3028
+)
+"plugins/subtac/eterm.ml" 106 3357 3404 "plugins/subtac/eterm.ml" 106 3357 3405
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/eterm.ml" 97 3042 3060 "plugins/subtac/eterm.ml" 97 3042 3061
+)
+"plugins/subtac/eterm.ml" 106 3357 3406 "plugins/subtac/eterm.ml" 106 3357 3411
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Term.mkVar
+)
+"plugins/subtac/eterm.ml" 106 3357 3412 "plugins/subtac/eterm.ml" 106 3357 3413
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/subtac/eterm.ml" 105 3339 3351 "plugins/subtac/eterm.ml" 105 3339 3352
+)
+"plugins/subtac/eterm.ml" 106 3357 3382 "plugins/subtac/eterm.ml" 106 3357 3413
+call(
+  stack
+)
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 107 3417 3423 "plugins/subtac/eterm.ml" 107 3417 3425
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 107 3417 3428 "plugins/subtac/eterm.ml" 107 3417 3438
+type(
+  Names.identifier list -> int -> Term.constr -> Term.constr
+)
+ident(
+  int_ref subst_vars "plugins/subtac/eterm.ml" 84 2531 2535 "plugins/subtac/eterm.ml" 84 2531 2545
+)
+"plugins/subtac/eterm.ml" 107 3417 3439 "plugins/subtac/eterm.ml" 107 3417 3442
+type(
+  Names.identifier list
+)
+ident(
+  int_ref acc "plugins/subtac/eterm.ml" 97 3042 3056 "plugins/subtac/eterm.ml" 97 3042 3059
+)
+"plugins/subtac/eterm.ml" 107 3417 3443 "plugins/subtac/eterm.ml" 107 3417 3444
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 107 3417 3445 "plugins/subtac/eterm.ml" 107 3417 3447
+type(
+  Term.constr
+)
+ident(
+  int_ref c' "plugins/subtac/eterm.ml" 106 3357 3363 "plugins/subtac/eterm.ml" 106 3357 3365
+)
+"plugins/subtac/eterm.ml" 107 3417 3428 "plugins/subtac/eterm.ml" 107 3417 3447
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 108 3451 3455 "plugins/subtac/eterm.ml" 108 3451 3475
+type(
+  Term.named_declaration -> Term.types -> Term.types
+)
+ident(
+  ext_ref Term.mkNamedProd_or_LetIn
+)
+"plugins/subtac/eterm.ml" 108 3451 3477 "plugins/subtac/eterm.ml" 108 3451 3479
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 98 3073 3080 "plugins/subtac/eterm.ml" 98 3073 3082
+)
+"plugins/subtac/eterm.ml" 108 3451 3486 "plugins/subtac/eterm.ml" 108 3451 3488
+type(
+  Term.constr
+)
+ident(
+  int_ref c' "plugins/subtac/eterm.ml" 107 3417 3423 "plugins/subtac/eterm.ml" 107 3417 3425
+)
+"plugins/subtac/eterm.ml" 108 3451 3481 "plugins/subtac/eterm.ml" 108 3451 3488
+type(
+  Term.constr option
+)
+"plugins/subtac/eterm.ml" 108 3451 3490 "plugins/subtac/eterm.ml" 108 3451 3493
+type(
+  Term.types
+)
+ident(
+  int_ref t'' "plugins/subtac/eterm.ml" 100 3157 3162 "plugins/subtac/eterm.ml" 100 3157 3165
+)
+"plugins/subtac/eterm.ml" 108 3451 3476 "plugins/subtac/eterm.ml" 108 3451 3494
+type(
+  Term.named_declaration
+)
+"plugins/subtac/eterm.ml" 108 3451 3495 "plugins/subtac/eterm.ml" 108 3451 3499
+type(
+  Term.types
+)
+ident(
+  int_ref rest "plugins/subtac/eterm.ml" 101 3191 3196 "plugins/subtac/eterm.ml" 101 3191 3200
+)
+"plugins/subtac/eterm.ml" 108 3451 3455 "plugins/subtac/eterm.ml" 108 3451 3499
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/subtac/eterm.ml" 109 3501 3503 "plugins/subtac/eterm.ml" 109 3501 3515
+type(
+  Util.Intset.t -> Util.Intset.t -> Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.union
+)
+"plugins/subtac/eterm.ml" 109 3501 3516 "plugins/subtac/eterm.ml" 109 3501 3519
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref s'' "plugins/subtac/eterm.ml" 106 3357 3367 "plugins/subtac/eterm.ml" 106 3357 3370
+)
+"plugins/subtac/eterm.ml" 109 3501 3520 "plugins/subtac/eterm.ml" 109 3501 3522
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref s' "plugins/subtac/eterm.ml" 102 3246 3251 "plugins/subtac/eterm.ml" 102 3246 3253
+)
+"plugins/subtac/eterm.ml" 109 3501 3503 "plugins/subtac/eterm.ml" 109 3501 3522
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 110 3524 3526 "plugins/subtac/eterm.ml" 110 3524 3537
+type(
+  Names.Idset.t -> Names.Idset.t -> Names.Idset.t
+)
+ident(
+  ext_ref Names.Idset.union
+)
+"plugins/subtac/eterm.ml" 110 3524 3538 "plugins/subtac/eterm.ml" 110 3524 3545
+type(
+  Names.Idset.t
+)
+ident(
+  int_ref trans'' "plugins/subtac/eterm.ml" 106 3357 3372 "plugins/subtac/eterm.ml" 106 3357 3379
+)
+"plugins/subtac/eterm.ml" 110 3524 3546 "plugins/subtac/eterm.ml" 110 3524 3552
+type(
+  Names.Idset.t
+)
+ident(
+  int_ref trans' "plugins/subtac/eterm.ml" 103 3277 3282 "plugins/subtac/eterm.ml" 103 3277 3288
+)
+"plugins/subtac/eterm.ml" 110 3524 3526 "plugins/subtac/eterm.ml" 110 3524 3552
+call(
+  stack
+)
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 108 3451 3455 "plugins/subtac/eterm.ml" 110 3524 3552
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 107 3417 3419 "plugins/subtac/eterm.ml" 110 3524 3552
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 106 3357 3359 "plugins/subtac/eterm.ml" 110 3524 3552
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 111 3553 3560 "plugins/subtac/eterm.ml" 111 3553 3564
+type(
+  Term.constr option
+)
+"plugins/subtac/eterm.ml" 112 3568 3570 "plugins/subtac/eterm.ml" 112 3568 3590
+type(
+  Term.named_declaration -> Term.types -> Term.types
+)
+ident(
+  ext_ref Term.mkNamedProd_or_LetIn
+)
+"plugins/subtac/eterm.ml" 112 3568 3592 "plugins/subtac/eterm.ml" 112 3568 3594
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 98 3073 3080 "plugins/subtac/eterm.ml" 98 3073 3082
+)
+"plugins/subtac/eterm.ml" 112 3568 3596 "plugins/subtac/eterm.ml" 112 3568 3600
+type(
+  Term.constr option
+)
+"plugins/subtac/eterm.ml" 112 3568 3602 "plugins/subtac/eterm.ml" 112 3568 3605
+type(
+  Term.types
+)
+ident(
+  int_ref t'' "plugins/subtac/eterm.ml" 100 3157 3162 "plugins/subtac/eterm.ml" 100 3157 3165
+)
+"plugins/subtac/eterm.ml" 112 3568 3591 "plugins/subtac/eterm.ml" 112 3568 3606
+type(
+  Term.named_declaration
+)
+"plugins/subtac/eterm.ml" 112 3568 3607 "plugins/subtac/eterm.ml" 112 3568 3611
+type(
+  Term.types
+)
+ident(
+  int_ref rest "plugins/subtac/eterm.ml" 101 3191 3196 "plugins/subtac/eterm.ml" 101 3191 3200
+)
+"plugins/subtac/eterm.ml" 112 3568 3570 "plugins/subtac/eterm.ml" 112 3568 3611
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/subtac/eterm.ml" 112 3568 3613 "plugins/subtac/eterm.ml" 112 3568 3615
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref s' "plugins/subtac/eterm.ml" 102 3246 3251 "plugins/subtac/eterm.ml" 102 3246 3253
+)
+"plugins/subtac/eterm.ml" 112 3568 3617 "plugins/subtac/eterm.ml" 112 3568 3623
+type(
+  Names.Idset.t
+)
+ident(
+  int_ref trans' "plugins/subtac/eterm.ml" 103 3277 3282 "plugins/subtac/eterm.ml" 103 3277 3288
+)
+"plugins/subtac/eterm.ml" 112 3568 3570 "plugins/subtac/eterm.ml" 112 3568 3623
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 104 3319 3322 "plugins/subtac/eterm.ml" 112 3568 3624
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 103 3277 3278 "plugins/subtac/eterm.ml" 112 3568 3624
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 102 3246 3247 "plugins/subtac/eterm.ml" 112 3568 3624
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 101 3191 3192 "plugins/subtac/eterm.ml" 112 3568 3624
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 100 3157 3158 "plugins/subtac/eterm.ml" 112 3568 3624
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 99 3102 3103 "plugins/subtac/eterm.ml" 112 3568 3624
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 113 3625 3631 "plugins/subtac/eterm.ml" 113 3625 3633
+type(
+  (Names.identifier * Term.constr option * Term.constr) list
+)
+"plugins/subtac/eterm.ml" 114 3637 3642 "plugins/subtac/eterm.ml" 114 3637 3644
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 114 3637 3646 "plugins/subtac/eterm.ml" 114 3637 3647
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 114 3637 3649 "plugins/subtac/eterm.ml" 114 3637 3654
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 114 3637 3642 "plugins/subtac/eterm.ml" 114 3637 3654
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 114 3637 3657 "plugins/subtac/eterm.ml" 114 3637 3674
+type(
+  (Term.existential_key * oblinfo) list ->
+  int ->
+  (Names.identifier -> Term.constr) ->
+  Term.constr -> Term.constr * Util.Intset.t * Names.Idset.t
+)
+ident(
+  int_ref subst_evar_constr "plugins/subtac/eterm.ml" 39 912 916 "plugins/subtac/eterm.ml" 39 912 933
+)
+"plugins/subtac/eterm.ml" 114 3637 3675 "plugins/subtac/eterm.ml" 114 3637 3678
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  int_ref evs "plugins/subtac/eterm.ml" 96 3007 3025 "plugins/subtac/eterm.ml" 96 3007 3028
+)
+"plugins/subtac/eterm.ml" 114 3637 3679 "plugins/subtac/eterm.ml" 114 3637 3680
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/eterm.ml" 97 3042 3060 "plugins/subtac/eterm.ml" 97 3042 3061
+)
+"plugins/subtac/eterm.ml" 114 3637 3681 "plugins/subtac/eterm.ml" 114 3637 3686
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Term.mkVar
+)
+"plugins/subtac/eterm.ml" 114 3637 3687 "plugins/subtac/eterm.ml" 114 3637 3692
+type(
+  Term.constr
+)
+ident(
+  int_ref concl "plugins/subtac/eterm.ml" 96 3007 3034 "plugins/subtac/eterm.ml" 96 3007 3039
+)
+"plugins/subtac/eterm.ml" 114 3637 3657 "plugins/subtac/eterm.ml" 114 3637 3692
+call(
+  stack
+)
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 115 3696 3699 "plugins/subtac/eterm.ml" 115 3696 3709
+type(
+  Names.identifier list -> int -> Term.types -> Term.types
+)
+ident(
+  int_ref subst_vars "plugins/subtac/eterm.ml" 84 2531 2535 "plugins/subtac/eterm.ml" 84 2531 2545
+)
+"plugins/subtac/eterm.ml" 115 3696 3710 "plugins/subtac/eterm.ml" 115 3696 3713
+type(
+  Names.identifier list
+)
+ident(
+  int_ref acc "plugins/subtac/eterm.ml" 97 3042 3056 "plugins/subtac/eterm.ml" 97 3042 3059
+)
+"plugins/subtac/eterm.ml" 115 3696 3714 "plugins/subtac/eterm.ml" 115 3696 3715
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 115 3696 3716 "plugins/subtac/eterm.ml" 115 3696 3718
+type(
+  Term.types
+)
+ident(
+  int_ref t' "plugins/subtac/eterm.ml" 114 3637 3642 "plugins/subtac/eterm.ml" 114 3637 3644
+)
+"plugins/subtac/eterm.ml" 115 3696 3699 "plugins/subtac/eterm.ml" 115 3696 3718
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/subtac/eterm.ml" 115 3696 3720 "plugins/subtac/eterm.ml" 115 3696 3721
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref s "plugins/subtac/eterm.ml" 114 3637 3646 "plugins/subtac/eterm.ml" 114 3637 3647
+)
+"plugins/subtac/eterm.ml" 115 3696 3723 "plugins/subtac/eterm.ml" 115 3696 3728
+type(
+  Names.Idset.t
+)
+ident(
+  int_ref trans "plugins/subtac/eterm.ml" 114 3637 3649 "plugins/subtac/eterm.ml" 114 3637 3654
+)
+"plugins/subtac/eterm.ml" 115 3696 3699 "plugins/subtac/eterm.ml" 115 3696 3728
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 114 3637 3638 "plugins/subtac/eterm.ml" 115 3696 3728
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 97 3042 3064 "plugins/subtac/eterm.ml" 115 3696 3728
+type(
+  (Names.identifier * Term.constr option * Term.constr) list ->
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 116 3729 3734 "plugins/subtac/eterm.ml" 116 3729 3737
+type(
+  Names.identifier list ->
+  int ->
+  (Names.identifier * Term.constr option * Term.constr) list ->
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 97 3042 3052 "plugins/subtac/eterm.ml" 97 3042 3055
+)
+"plugins/subtac/eterm.ml" 116 3729 3738 "plugins/subtac/eterm.ml" 116 3729 3740
+type(
+  Names.identifier list
+)
+"plugins/subtac/eterm.ml" 116 3729 3741 "plugins/subtac/eterm.ml" 116 3729 3742
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 116 3729 3744 "plugins/subtac/eterm.ml" 116 3729 3747
+type(
+  (Names.identifier * Term.constr option * Term.constr) list ->
+  (Names.identifier * Term.constr option * Term.constr) list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/subtac/eterm.ml" 116 3729 3748 "plugins/subtac/eterm.ml" 116 3729 3752
+type(
+  (Names.identifier * Term.constr option * Term.constr) list
+)
+ident(
+  int_ref hyps "plugins/subtac/eterm.ml" 96 3007 3029 "plugins/subtac/eterm.ml" 96 3007 3033
+)
+"plugins/subtac/eterm.ml" 116 3729 3743 "plugins/subtac/eterm.ml" 116 3729 3753
+call(
+  stack
+)
+type(
+  (Names.identifier * Term.constr option * Term.constr) list
+)
+"plugins/subtac/eterm.ml" 116 3729 3734 "plugins/subtac/eterm.ml" 116 3729 3753
+call(
+  tail
+)
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 97 3042 3044 "plugins/subtac/eterm.ml" 116 3729 3753
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 121 3772 3776 "plugins/subtac/eterm.ml" 121 3772 3795
+type(
+  int -> 'a list -> 'a list
+)
+ident(
+  def trunc_named_context "plugins/subtac/eterm.ml" 125 3866 3866 --
+)
+"plugins/subtac/eterm.ml" 121 3772 3796 "plugins/subtac/eterm.ml" 121 3772 3797
+type(
+  int
+)
+ident(
+  def n "plugins/subtac/eterm.ml" 121 3772 3798 "plugins/subtac/eterm.ml" 123 3835 3864
+)
+"plugins/subtac/eterm.ml" 121 3772 3798 "plugins/subtac/eterm.ml" 121 3772 3801
+type(
+  'a list
+)
+ident(
+  def ctx "plugins/subtac/eterm.ml" 122 3804 3806 "plugins/subtac/eterm.ml" 123 3835 3864
+)
+"plugins/subtac/eterm.ml" 122 3804 3810 "plugins/subtac/eterm.ml" 122 3804 3813
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 122 3804 3816 "plugins/subtac/eterm.ml" 122 3804 3827
+type(
+  'a list -> int
+)
+ident(
+  ext_ref List.length
+)
+"plugins/subtac/eterm.ml" 122 3804 3828 "plugins/subtac/eterm.ml" 122 3804 3831
+type(
+  'a list
+)
+ident(
+  int_ref ctx "plugins/subtac/eterm.ml" 121 3772 3798 "plugins/subtac/eterm.ml" 121 3772 3801
+)
+"plugins/subtac/eterm.ml" 122 3804 3816 "plugins/subtac/eterm.ml" 122 3804 3831
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 123 3835 3839 "plugins/subtac/eterm.ml" 123 3835 3850
+type(
+  int -> 'a list -> 'a list
+)
+ident(
+  ext_ref Util.list_firstn
+)
+"plugins/subtac/eterm.ml" 123 3835 3852 "plugins/subtac/eterm.ml" 123 3835 3855
+type(
+  int
+)
+ident(
+  int_ref len "plugins/subtac/eterm.ml" 122 3804 3810 "plugins/subtac/eterm.ml" 122 3804 3813
+)
+"plugins/subtac/eterm.ml" 123 3835 3856 "plugins/subtac/eterm.ml" 123 3835 3857
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/subtac/eterm.ml" 123 3835 3858 "plugins/subtac/eterm.ml" 123 3835 3859
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/eterm.ml" 121 3772 3796 "plugins/subtac/eterm.ml" 121 3772 3797
+)
+"plugins/subtac/eterm.ml" 123 3835 3851 "plugins/subtac/eterm.ml" 123 3835 3860
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 123 3835 3861 "plugins/subtac/eterm.ml" 123 3835 3864
+type(
+  'a list
+)
+ident(
+  int_ref ctx "plugins/subtac/eterm.ml" 121 3772 3798 "plugins/subtac/eterm.ml" 121 3772 3801
+)
+"plugins/subtac/eterm.ml" 123 3835 3839 "plugins/subtac/eterm.ml" 123 3835 3864
+call(
+  tail
+)
+type(
+  'a list
+)
+"plugins/subtac/eterm.ml" 122 3804 3806 "plugins/subtac/eterm.ml" 123 3835 3864
+type(
+  'a list
+)
+"plugins/subtac/eterm.ml" 125 3866 3874 "plugins/subtac/eterm.ml" 125 3866 3886
+type(
+  int -> Term.constr -> Term.constr option
+)
+ident(
+  def chop_product "plugins/subtac/eterm.ml" 125 3866 3866 --
+)
+"plugins/subtac/eterm.ml" 125 3866 3887 "plugins/subtac/eterm.ml" 125 3866 3888
+type(
+  int
+)
+ident(
+  def n "plugins/subtac/eterm.ml" 125 3866 3889 "plugins/subtac/eterm.ml" 130 4048 4065
+)
+"plugins/subtac/eterm.ml" 125 3866 3889 "plugins/subtac/eterm.ml" 125 3866 3890
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/subtac/eterm.ml" 126 3893 3895 "plugins/subtac/eterm.ml" 130 4048 4065
+)
+"plugins/subtac/eterm.ml" 126 3893 3898 "plugins/subtac/eterm.ml" 126 3893 3899
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/eterm.ml" 125 3866 3887 "plugins/subtac/eterm.ml" 125 3866 3888
+)
+"plugins/subtac/eterm.ml" 126 3893 3900 "plugins/subtac/eterm.ml" 126 3893 3901
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/subtac/eterm.ml" 126 3893 3902 "plugins/subtac/eterm.ml" 126 3893 3903
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 126 3893 3898 "plugins/subtac/eterm.ml" 126 3893 3903
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 126 3893 3914 "plugins/subtac/eterm.ml" 126 3893 3915
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/subtac/eterm.ml" 125 3866 3889 "plugins/subtac/eterm.ml" 125 3866 3890
+)
+"plugins/subtac/eterm.ml" 126 3893 3909 "plugins/subtac/eterm.ml" 126 3893 3915
+type(
+  Term.constr option
+)
+"plugins/subtac/eterm.ml" 128 3923 3933 "plugins/subtac/eterm.ml" 128 3923 3945
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 128 3923 3946 "plugins/subtac/eterm.ml" 128 3923 3947
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/subtac/eterm.ml" 125 3866 3889 "plugins/subtac/eterm.ml" 125 3866 3890
+)
+"plugins/subtac/eterm.ml" 128 3923 3933 "plugins/subtac/eterm.ml" 128 3923 3947
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 129 3953 3967 "plugins/subtac/eterm.ml" 129 3953 3968
+type(
+  Names.name
+)
+"plugins/subtac/eterm.ml" 129 3953 3970 "plugins/subtac/eterm.ml" 129 3953 3971
+type(
+  Term.types
+)
+"plugins/subtac/eterm.ml" 129 3953 3973 "plugins/subtac/eterm.ml" 129 3953 3974
+type(
+  Term.types
+)
+ident(
+  def b "plugins/subtac/eterm.ml" 129 3953 3980 "plugins/subtac/eterm.ml" 129 3953 4047
+)
+"plugins/subtac/eterm.ml" 129 3953 3961 "plugins/subtac/eterm.ml" 129 3953 3975
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 129 3953 3983 "plugins/subtac/eterm.ml" 129 3953 3990
+type(
+  int -> Term.types -> bool
+)
+ident(
+  ext_ref Term.noccurn
+)
+"plugins/subtac/eterm.ml" 129 3953 3991 "plugins/subtac/eterm.ml" 129 3953 3992
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 129 3953 3993 "plugins/subtac/eterm.ml" 129 3953 3994
+type(
+  Term.types
+)
+ident(
+  int_ref b "plugins/subtac/eterm.ml" 129 3953 3973 "plugins/subtac/eterm.ml" 129 3953 3974
+)
+"plugins/subtac/eterm.ml" 129 3953 3983 "plugins/subtac/eterm.ml" 129 3953 3994
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 129 3953 4000 "plugins/subtac/eterm.ml" 129 3953 4012
+type(
+  int -> Term.constr -> Term.constr option
+)
+ident(
+  int_ref chop_product "plugins/subtac/eterm.ml" 125 3866 3874 "plugins/subtac/eterm.ml" 125 3866 3886
+)
+"plugins/subtac/eterm.ml" 129 3953 4014 "plugins/subtac/eterm.ml" 129 3953 4018
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"plugins/subtac/eterm.ml" 129 3953 4019 "plugins/subtac/eterm.ml" 129 3953 4020
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/eterm.ml" 125 3866 3887 "plugins/subtac/eterm.ml" 125 3866 3888
+)
+"plugins/subtac/eterm.ml" 129 3953 4013 "plugins/subtac/eterm.ml" 129 3953 4021
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 129 3953 4023 "plugins/subtac/eterm.ml" 129 3953 4034
+type(
+  Term.types -> Term.constr
+)
+ident(
+  ext_ref Termops.pop
+)
+"plugins/subtac/eterm.ml" 129 3953 4035 "plugins/subtac/eterm.ml" 129 3953 4036
+type(
+  Term.types
+)
+ident(
+  int_ref b "plugins/subtac/eterm.ml" 129 3953 3973 "plugins/subtac/eterm.ml" 129 3953 3974
+)
+"plugins/subtac/eterm.ml" 129 3953 4022 "plugins/subtac/eterm.ml" 129 3953 4037
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 129 3953 4000 "plugins/subtac/eterm.ml" 129 3953 4037
+call(
+  tail
+)
+type(
+  Term.constr option
+)
+"plugins/subtac/eterm.ml" 129 3953 4043 "plugins/subtac/eterm.ml" 129 3953 4047
+type(
+  Term.constr option
+)
+"plugins/subtac/eterm.ml" 129 3953 3980 "plugins/subtac/eterm.ml" 129 3953 4047
+type(
+  Term.constr option
+)
+"plugins/subtac/eterm.ml" 130 4048 4056 "plugins/subtac/eterm.ml" 130 4048 4057
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/subtac/eterm.ml" 130 4048 4061 "plugins/subtac/eterm.ml" 130 4048 4065
+type(
+  Term.constr option
+)
+"plugins/subtac/eterm.ml" 128 3923 3927 "plugins/subtac/eterm.ml" 130 4048 4065
+type(
+  Term.constr option
+)
+"plugins/subtac/eterm.ml" 126 3893 3895 "plugins/subtac/eterm.ml" 130 4048 4065
+type(
+  Term.constr option
+)
+"plugins/subtac/eterm.ml" 132 4067 4071 "plugins/subtac/eterm.ml" 132 4067 4088
+type(
+  Evd.evar_map -> Util.Intset.elt -> Util.Intset.t
+)
+ident(
+  def evar_dependencies "plugins/subtac/eterm.ml" 145 4412 4412 --
+)
+"plugins/subtac/eterm.ml" 132 4067 4089 "plugins/subtac/eterm.ml" 132 4067 4092
+type(
+  Evd.evar_map
+)
+ident(
+  def evm "plugins/subtac/eterm.ml" 132 4067 4093 "plugins/subtac/eterm.ml" 143 4374 4404
+)
+"plugins/subtac/eterm.ml" 132 4067 4093 "plugins/subtac/eterm.ml" 132 4067 4095
+type(
+  Util.Intset.elt
+)
+ident(
+  def ev "plugins/subtac/eterm.ml" 133 4098 4100 "plugins/subtac/eterm.ml" 143 4374 4404
+)
+"plugins/subtac/eterm.ml" 133 4098 4104 "plugins/subtac/eterm.ml" 133 4098 4112
+type(
+  Util.Intset.t -> Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 133 4098 4113 "plugins/subtac/eterm.ml" 133 4098 4117
+type(
+  Util.Intset.t
+)
+ident(
+  def deps "plugins/subtac/eterm.ml" 134 4120 4124 "plugins/subtac/eterm.ml" 137 4235 4250
+)
+"plugins/subtac/eterm.ml" 134 4120 4124 "plugins/subtac/eterm.ml" 134 4120 4135
+type(
+  (Util.Intset.elt -> Util.Intset.t -> Util.Intset.t) ->
+  Util.Intset.t -> Util.Intset.t -> Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.fold
+)
+"plugins/subtac/eterm.ml" 134 4120 4141 "plugins/subtac/eterm.ml" 134 4120 4143
+type(
+  Util.Intset.elt
+)
+ident(
+  def ev "plugins/subtac/eterm.ml" 134 4120 4144 "plugins/subtac/eterm.ml" 136 4184 4233
+)
+"plugins/subtac/eterm.ml" 134 4120 4144 "plugins/subtac/eterm.ml" 134 4120 4145
+type(
+  Util.Intset.t
+)
+ident(
+  def s "plugins/subtac/eterm.ml" 135 4149 4155 "plugins/subtac/eterm.ml" 136 4184 4233
+)
+"plugins/subtac/eterm.ml" 135 4149 4159 "plugins/subtac/eterm.ml" 135 4149 4162
+type(
+  Evd.evar_info
+)
+"plugins/subtac/eterm.ml" 135 4149 4165 "plugins/subtac/eterm.ml" 135 4149 4173
+type(
+  Evd.evar_map -> Evd.evar -> Evd.evar_info
+)
+ident(
+  ext_ref Evd.find
+)
+"plugins/subtac/eterm.ml" 135 4149 4174 "plugins/subtac/eterm.ml" 135 4149 4177
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/eterm.ml" 132 4067 4089 "plugins/subtac/eterm.ml" 132 4067 4092
+)
+"plugins/subtac/eterm.ml" 135 4149 4178 "plugins/subtac/eterm.ml" 135 4149 4180
+type(
+  Util.Intset.elt
+)
+ident(
+  int_ref ev "plugins/subtac/eterm.ml" 134 4120 4141 "plugins/subtac/eterm.ml" 134 4120 4143
+)
+"plugins/subtac/eterm.ml" 135 4149 4165 "plugins/subtac/eterm.ml" 135 4149 4180
+call(
+  stack
+)
+type(
+  Evd.evar_info
+)
+"plugins/subtac/eterm.ml" 136 4184 4185 "plugins/subtac/eterm.ml" 136 4184 4197
+type(
+  Util.Intset.t -> Util.Intset.t -> Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.union
+)
+"plugins/subtac/eterm.ml" 136 4184 4199 "plugins/subtac/eterm.ml" 136 4184 4226
+type(
+  Evd.evar_info -> Util.Intset.t
+)
+ident(
+  ext_ref Evarutil.evars_of_evar_info
+)
+"plugins/subtac/eterm.ml" 136 4184 4227 "plugins/subtac/eterm.ml" 136 4184 4230
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref evi "plugins/subtac/eterm.ml" 135 4149 4159 "plugins/subtac/eterm.ml" 135 4149 4162
+)
+"plugins/subtac/eterm.ml" 136 4184 4198 "plugins/subtac/eterm.ml" 136 4184 4231
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 136 4184 4232 "plugins/subtac/eterm.ml" 136 4184 4233
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref s "plugins/subtac/eterm.ml" 134 4120 4144 "plugins/subtac/eterm.ml" 134 4120 4145
+)
+"plugins/subtac/eterm.ml" 136 4184 4185 "plugins/subtac/eterm.ml" 136 4184 4233
+call(
+  tail
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 135 4149 4155 "plugins/subtac/eterm.ml" 136 4184 4233
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 134 4120 4136 "plugins/subtac/eterm.ml" 136 4184 4234
+type(
+  Util.Intset.elt -> Util.Intset.t -> Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 137 4235 4241 "plugins/subtac/eterm.ml" 137 4235 4245
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref deps "plugins/subtac/eterm.ml" 133 4098 4113 "plugins/subtac/eterm.ml" 133 4098 4117
+)
+"plugins/subtac/eterm.ml" 137 4235 4246 "plugins/subtac/eterm.ml" 137 4235 4250
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref deps "plugins/subtac/eterm.ml" 133 4098 4113 "plugins/subtac/eterm.ml" 133 4098 4117
+)
+"plugins/subtac/eterm.ml" 134 4120 4124 "plugins/subtac/eterm.ml" 137 4235 4250
+call(
+  tail
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 139 4256 4266 "plugins/subtac/eterm.ml" 139 4256 4269
+type(
+  Util.Intset.t -> Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 139 4256 4270 "plugins/subtac/eterm.ml" 139 4256 4274
+type(
+  Util.Intset.t
+)
+ident(
+  def deps "plugins/subtac/eterm.ml" 140 4277 4281 "plugins/subtac/eterm.ml" 142 4353 4373
+)
+"plugins/subtac/eterm.ml" 140 4277 4285 "plugins/subtac/eterm.ml" 140 4277 4290
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 140 4277 4293 "plugins/subtac/eterm.ml" 140 4277 4301
+type(
+  Util.Intset.t -> Util.Intset.t
+)
+ident(
+  int_ref one_step "plugins/subtac/eterm.ml" 133 4098 4104 "plugins/subtac/eterm.ml" 133 4098 4112
+)
+"plugins/subtac/eterm.ml" 140 4277 4302 "plugins/subtac/eterm.ml" 140 4277 4306
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref deps "plugins/subtac/eterm.ml" 139 4256 4270 "plugins/subtac/eterm.ml" 139 4256 4274
+)
+"plugins/subtac/eterm.ml" 140 4277 4293 "plugins/subtac/eterm.ml" 140 4277 4306
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 141 4310 4319 "plugins/subtac/eterm.ml" 141 4310 4331
+type(
+  Util.Intset.t -> Util.Intset.t -> bool
+)
+ident(
+  ext_ref Util.Intset.equal
+)
+"plugins/subtac/eterm.ml" 141 4310 4332 "plugins/subtac/eterm.ml" 141 4310 4336
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref deps "plugins/subtac/eterm.ml" 139 4256 4270 "plugins/subtac/eterm.ml" 139 4256 4274
+)
+"plugins/subtac/eterm.ml" 141 4310 4337 "plugins/subtac/eterm.ml" 141 4310 4342
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref deps' "plugins/subtac/eterm.ml" 140 4277 4285 "plugins/subtac/eterm.ml" 140 4277 4290
+)
+"plugins/subtac/eterm.ml" 141 4310 4319 "plugins/subtac/eterm.ml" 141 4310 4342
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 141 4310 4348 "plugins/subtac/eterm.ml" 141 4310 4352
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref deps "plugins/subtac/eterm.ml" 139 4256 4270 "plugins/subtac/eterm.ml" 139 4256 4274
+)
+"plugins/subtac/eterm.ml" 142 4353 4364 "plugins/subtac/eterm.ml" 142 4353 4367
+type(
+  Util.Intset.t -> Util.Intset.t
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 139 4256 4266 "plugins/subtac/eterm.ml" 139 4256 4269
+)
+"plugins/subtac/eterm.ml" 142 4353 4368 "plugins/subtac/eterm.ml" 142 4353 4373
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref deps' "plugins/subtac/eterm.ml" 140 4277 4285 "plugins/subtac/eterm.ml" 140 4277 4290
+)
+"plugins/subtac/eterm.ml" 142 4353 4364 "plugins/subtac/eterm.ml" 142 4353 4373
+call(
+  tail
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 141 4310 4316 "plugins/subtac/eterm.ml" 142 4353 4373
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 140 4277 4281 "plugins/subtac/eterm.ml" 142 4353 4373
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 143 4374 4379 "plugins/subtac/eterm.ml" 143 4374 4382
+type(
+  Util.Intset.t -> Util.Intset.t
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 139 4256 4266 "plugins/subtac/eterm.ml" 139 4256 4269
+)
+"plugins/subtac/eterm.ml" 143 4374 4384 "plugins/subtac/eterm.ml" 143 4374 4400
+type(
+  Util.Intset.elt -> Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.singleton
+)
+"plugins/subtac/eterm.ml" 143 4374 4401 "plugins/subtac/eterm.ml" 143 4374 4403
+type(
+  Util.Intset.elt
+)
+ident(
+  int_ref ev "plugins/subtac/eterm.ml" 132 4067 4093 "plugins/subtac/eterm.ml" 132 4067 4095
+)
+"plugins/subtac/eterm.ml" 143 4374 4383 "plugins/subtac/eterm.ml" 143 4374 4404
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 143 4374 4379 "plugins/subtac/eterm.ml" 143 4374 4404
+call(
+  tail
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 139 4256 4258 "plugins/subtac/eterm.ml" 143 4374 4404
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 133 4098 4100 "plugins/subtac/eterm.ml" 143 4374 4404
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 145 4412 4416 "plugins/subtac/eterm.ml" 145 4412 4426
+type(
+  Util.Intset.elt * 'a * Util.Intset.t ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  def move_after "plugins/subtac/eterm.ml" 155 4722 4722 --
+)
+"plugins/subtac/eterm.ml" 145 4412 4428 "plugins/subtac/eterm.ml" 145 4412 4430
+type(
+  Util.Intset.elt
+)
+ident(
+  def id "plugins/subtac/eterm.ml" 145 4412 4449 "plugins/subtac/eterm.ml" 153 4682 4716
+)
+"plugins/subtac/eterm.ml" 145 4412 4432 "plugins/subtac/eterm.ml" 145 4412 4434
+type(
+  'a
+)
+ident(
+  def ev "plugins/subtac/eterm.ml" 145 4412 4449 "plugins/subtac/eterm.ml" 153 4682 4716
+)
+"plugins/subtac/eterm.ml" 145 4412 4436 "plugins/subtac/eterm.ml" 145 4412 4440
+type(
+  Util.Intset.t
+)
+ident(
+  def deps "plugins/subtac/eterm.ml" 145 4412 4449 "plugins/subtac/eterm.ml" 153 4682 4716
+)
+"plugins/subtac/eterm.ml" 145 4412 4428 "plugins/subtac/eterm.ml" 145 4412 4440
+type(
+  Util.Intset.elt * 'a * Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 145 4412 4427 "plugins/subtac/eterm.ml" 145 4412 4448
+type(
+  Util.Intset.elt * 'a * Util.Intset.t
+)
+ident(
+  def obl "plugins/subtac/eterm.ml" 145 4412 4449 "plugins/subtac/eterm.ml" 153 4682 4716
+)
+"plugins/subtac/eterm.ml" 145 4412 4449 "plugins/subtac/eterm.ml" 145 4412 4450
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  def l "plugins/subtac/eterm.ml" 146 4454 4456 "plugins/subtac/eterm.ml" 153 4682 4716
+)
+"plugins/subtac/eterm.ml" 146 4454 4464 "plugins/subtac/eterm.ml" 146 4454 4467
+type(
+  Util.Intset.t ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 146 4454 4468 "plugins/subtac/eterm.ml" 146 4454 4476
+type(
+  Util.Intset.t
+)
+ident(
+  def restdeps "plugins/subtac/eterm.ml" 146 4454 4479 "plugins/subtac/eterm.ml" 152 4664 4681
+)
+"plugins/subtac/eterm.ml" 147 4488 4495 "plugins/subtac/eterm.ml" 147 4488 4498
+type(
+  Util.Intset.elt
+)
+ident(
+  def id' "plugins/subtac/eterm.ml" 148 4524 4525 "plugins/subtac/eterm.ml" 151 4631 4663
+)
+"plugins/subtac/eterm.ml" 147 4488 4500 "plugins/subtac/eterm.ml" 147 4488 4501
+type(
+  'a
+)
+"plugins/subtac/eterm.ml" 147 4488 4503 "plugins/subtac/eterm.ml" 147 4488 4504
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 147 4488 4494 "plugins/subtac/eterm.ml" 147 4488 4505
+type(
+  Util.Intset.elt * 'a * Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 147 4488 4494 "plugins/subtac/eterm.ml" 147 4488 4513
+type(
+  Util.Intset.elt * 'a * Util.Intset.t
+)
+ident(
+  def obl' "plugins/subtac/eterm.ml" 148 4524 4525 "plugins/subtac/eterm.ml" 151 4631 4663
+)
+"plugins/subtac/eterm.ml" 147 4488 4517 "plugins/subtac/eterm.ml" 147 4488 4519
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  def tl "plugins/subtac/eterm.ml" 148 4524 4525 "plugins/subtac/eterm.ml" 151 4631 4663
+)
+"plugins/subtac/eterm.ml" 147 4488 4494 "plugins/subtac/eterm.ml" 147 4488 4519
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 148 4524 4529 "plugins/subtac/eterm.ml" 148 4524 4538
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 148 4524 4541 "plugins/subtac/eterm.ml" 148 4524 4554
+type(
+  Util.Intset.elt -> Util.Intset.t -> Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.remove
+)
+"plugins/subtac/eterm.ml" 148 4524 4555 "plugins/subtac/eterm.ml" 148 4524 4558
+type(
+  Util.Intset.elt
+)
+ident(
+  int_ref id' "plugins/subtac/eterm.ml" 147 4488 4495 "plugins/subtac/eterm.ml" 147 4488 4498
+)
+"plugins/subtac/eterm.ml" 148 4524 4559 "plugins/subtac/eterm.ml" 148 4524 4567
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref restdeps "plugins/subtac/eterm.ml" 146 4454 4468 "plugins/subtac/eterm.ml" 146 4454 4476
+)
+"plugins/subtac/eterm.ml" 148 4524 4541 "plugins/subtac/eterm.ml" 148 4524 4567
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 149 4571 4577 "plugins/subtac/eterm.ml" 149 4571 4592
+type(
+  Util.Intset.t -> bool
+)
+ident(
+  ext_ref Util.Intset.is_empty
+)
+"plugins/subtac/eterm.ml" 149 4571 4593 "plugins/subtac/eterm.ml" 149 4571 4602
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref restdeps' "plugins/subtac/eterm.ml" 148 4524 4529 "plugins/subtac/eterm.ml" 148 4524 4538
+)
+"plugins/subtac/eterm.ml" 149 4571 4577 "plugins/subtac/eterm.ml" 149 4571 4602
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 150 4608 4613 "plugins/subtac/eterm.ml" 150 4608 4617
+type(
+  Util.Intset.elt * 'a * Util.Intset.t
+)
+ident(
+  int_ref obl' "plugins/subtac/eterm.ml" 147 4488 4494 "plugins/subtac/eterm.ml" 147 4488 4513
+)
+"plugins/subtac/eterm.ml" 150 4608 4621 "plugins/subtac/eterm.ml" 150 4608 4624
+type(
+  Util.Intset.elt * 'a * Util.Intset.t
+)
+ident(
+  int_ref obl "plugins/subtac/eterm.ml" 145 4412 4427 "plugins/subtac/eterm.ml" 145 4412 4448
+)
+"plugins/subtac/eterm.ml" 150 4608 4628 "plugins/subtac/eterm.ml" 150 4608 4630
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  int_ref tl "plugins/subtac/eterm.ml" 147 4488 4517 "plugins/subtac/eterm.ml" 147 4488 4519
+)
+"plugins/subtac/eterm.ml" 150 4608 4621 "plugins/subtac/eterm.ml" 150 4608 4630
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 150 4608 4613 "plugins/subtac/eterm.ml" 150 4608 4630
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 151 4631 4639 "plugins/subtac/eterm.ml" 151 4631 4643
+type(
+  Util.Intset.elt * 'a * Util.Intset.t
+)
+ident(
+  int_ref obl' "plugins/subtac/eterm.ml" 147 4488 4494 "plugins/subtac/eterm.ml" 147 4488 4513
+)
+"plugins/subtac/eterm.ml" 151 4631 4647 "plugins/subtac/eterm.ml" 151 4631 4650
+type(
+  Util.Intset.t ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 146 4454 4464 "plugins/subtac/eterm.ml" 146 4454 4467
+)
+"plugins/subtac/eterm.ml" 151 4631 4651 "plugins/subtac/eterm.ml" 151 4631 4660
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref restdeps' "plugins/subtac/eterm.ml" 148 4524 4529 "plugins/subtac/eterm.ml" 148 4524 4538
+)
+"plugins/subtac/eterm.ml" 151 4631 4661 "plugins/subtac/eterm.ml" 151 4631 4663
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  int_ref tl "plugins/subtac/eterm.ml" 147 4488 4517 "plugins/subtac/eterm.ml" 147 4488 4519
+)
+"plugins/subtac/eterm.ml" 151 4631 4647 "plugins/subtac/eterm.ml" 151 4631 4663
+call(
+  stack
+)
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 151 4631 4639 "plugins/subtac/eterm.ml" 151 4631 4663
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 149 4571 4574 "plugins/subtac/eterm.ml" 151 4631 4663
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 148 4524 4525 "plugins/subtac/eterm.ml" 151 4631 4663
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 152 4664 4670 "plugins/subtac/eterm.ml" 152 4664 4672
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 152 4664 4677 "plugins/subtac/eterm.ml" 152 4664 4680
+type(
+  Util.Intset.elt * 'a * Util.Intset.t
+)
+ident(
+  int_ref obl "plugins/subtac/eterm.ml" 145 4412 4427 "plugins/subtac/eterm.ml" 145 4412 4448
+)
+"plugins/subtac/eterm.ml" 152 4664 4676 "plugins/subtac/eterm.ml" 152 4664 4681
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 146 4454 4479 "plugins/subtac/eterm.ml" 152 4664 4681
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 153 4682 4687 "plugins/subtac/eterm.ml" 153 4682 4690
+type(
+  Util.Intset.t ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 146 4454 4464 "plugins/subtac/eterm.ml" 146 4454 4467
+)
+"plugins/subtac/eterm.ml" 153 4682 4692 "plugins/subtac/eterm.ml" 153 4682 4705
+type(
+  Util.Intset.elt -> Util.Intset.t -> Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.remove
+)
+"plugins/subtac/eterm.ml" 153 4682 4706 "plugins/subtac/eterm.ml" 153 4682 4708
+type(
+  Util.Intset.elt
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 145 4412 4428 "plugins/subtac/eterm.ml" 145 4412 4430
+)
+"plugins/subtac/eterm.ml" 153 4682 4709 "plugins/subtac/eterm.ml" 153 4682 4713
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref deps "plugins/subtac/eterm.ml" 145 4412 4436 "plugins/subtac/eterm.ml" 145 4412 4440
+)
+"plugins/subtac/eterm.ml" 153 4682 4691 "plugins/subtac/eterm.ml" 153 4682 4714
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 153 4682 4715 "plugins/subtac/eterm.ml" 153 4682 4716
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  int_ref l "plugins/subtac/eterm.ml" 145 4412 4449 "plugins/subtac/eterm.ml" 145 4412 4450
+)
+"plugins/subtac/eterm.ml" 153 4682 4687 "plugins/subtac/eterm.ml" 153 4682 4716
+call(
+  tail
+)
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 146 4454 4456 "plugins/subtac/eterm.ml" 153 4682 4716
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 155 4722 4726 "plugins/subtac/eterm.ml" 155 4722 4743
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  def sort_dependencies "plugins/subtac/eterm.ml" 166 5060 5060 --
+)
+"plugins/subtac/eterm.ml" 155 4722 4744 "plugins/subtac/eterm.ml" 155 4722 4747
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  def evl "plugins/subtac/eterm.ml" 156 4750 4752 "plugins/subtac/eterm.ml" 164 5030 5058
+)
+"plugins/subtac/eterm.ml" 156 4750 4760 "plugins/subtac/eterm.ml" 156 4750 4763
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list ->
+  Util.Intset.t ->
+  (Util.Intset.elt * 'b * Util.Intset.t) list ->
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 156 4750 4764 "plugins/subtac/eterm.ml" 156 4750 4765
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  def l "plugins/subtac/eterm.ml" 156 4750 4766 "plugins/subtac/eterm.ml" 163 5004 5029
+)
+"plugins/subtac/eterm.ml" 156 4750 4766 "plugins/subtac/eterm.ml" 156 4750 4771
+type(
+  Util.Intset.t
+)
+ident(
+  def found "plugins/subtac/eterm.ml" 156 4750 4772 "plugins/subtac/eterm.ml" 163 5004 5029
+)
+"plugins/subtac/eterm.ml" 156 4750 4772 "plugins/subtac/eterm.ml" 156 4750 4776
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  def list "plugins/subtac/eterm.ml" 157 4779 4783 "plugins/subtac/eterm.ml" 163 5004 5029
+)
+"plugins/subtac/eterm.ml" 157 4779 4789 "plugins/subtac/eterm.ml" 157 4779 4790
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  int_ref l "plugins/subtac/eterm.ml" 156 4750 4764 "plugins/subtac/eterm.ml" 156 4750 4765
+)
+"plugins/subtac/eterm.ml" 158 4796 4803 "plugins/subtac/eterm.ml" 158 4796 4805
+type(
+  Util.Intset.elt
+)
+ident(
+  def id "plugins/subtac/eterm.ml" 159 4833 4834 "plugins/subtac/eterm.ml" 162 4961 5003
+)
+"plugins/subtac/eterm.ml" 158 4796 4807 "plugins/subtac/eterm.ml" 158 4796 4809
+type(
+  'b
+)
+ident(
+  def ev "plugins/subtac/eterm.ml" 159 4833 4834 "plugins/subtac/eterm.ml" 162 4961 5003
+)
+"plugins/subtac/eterm.ml" 158 4796 4811 "plugins/subtac/eterm.ml" 158 4796 4815
+type(
+  Util.Intset.t
+)
+ident(
+  def deps "plugins/subtac/eterm.ml" 159 4833 4834 "plugins/subtac/eterm.ml" 162 4961 5003
+)
+"plugins/subtac/eterm.ml" 158 4796 4802 "plugins/subtac/eterm.ml" 158 4796 4816
+type(
+  Util.Intset.elt * 'b * Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 158 4796 4802 "plugins/subtac/eterm.ml" 158 4796 4823
+type(
+  Util.Intset.elt * 'b * Util.Intset.t
+)
+ident(
+  def obl "plugins/subtac/eterm.ml" 159 4833 4834 "plugins/subtac/eterm.ml" 162 4961 5003
+)
+"plugins/subtac/eterm.ml" 158 4796 4827 "plugins/subtac/eterm.ml" 158 4796 4829
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  def tl "plugins/subtac/eterm.ml" 159 4833 4834 "plugins/subtac/eterm.ml" 162 4961 5003
+)
+"plugins/subtac/eterm.ml" 158 4796 4802 "plugins/subtac/eterm.ml" 158 4796 4829
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 159 4833 4838 "plugins/subtac/eterm.ml" 159 4833 4844
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 159 4833 4847 "plugins/subtac/eterm.ml" 159 4833 4859
+type(
+  Util.Intset.t -> Util.Intset.t -> Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.union
+)
+"plugins/subtac/eterm.ml" 159 4833 4860 "plugins/subtac/eterm.ml" 159 4833 4865
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref found "plugins/subtac/eterm.ml" 156 4750 4766 "plugins/subtac/eterm.ml" 156 4750 4771
+)
+"plugins/subtac/eterm.ml" 159 4833 4867 "plugins/subtac/eterm.ml" 159 4833 4883
+type(
+  Util.Intset.elt -> Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.singleton
+)
+"plugins/subtac/eterm.ml" 159 4833 4884 "plugins/subtac/eterm.ml" 159 4833 4886
+type(
+  Util.Intset.elt
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 158 4796 4803 "plugins/subtac/eterm.ml" 158 4796 4805
+)
+"plugins/subtac/eterm.ml" 159 4833 4866 "plugins/subtac/eterm.ml" 159 4833 4887
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 159 4833 4847 "plugins/subtac/eterm.ml" 159 4833 4887
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 160 4891 4897 "plugins/subtac/eterm.ml" 160 4891 4910
+type(
+  Util.Intset.t -> Util.Intset.t -> bool
+)
+ident(
+  ext_ref Util.Intset.subset
+)
+"plugins/subtac/eterm.ml" 160 4891 4911 "plugins/subtac/eterm.ml" 160 4891 4915
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref deps "plugins/subtac/eterm.ml" 158 4796 4811 "plugins/subtac/eterm.ml" 158 4796 4815
+)
+"plugins/subtac/eterm.ml" 160 4891 4916 "plugins/subtac/eterm.ml" 160 4891 4922
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref found' "plugins/subtac/eterm.ml" 159 4833 4838 "plugins/subtac/eterm.ml" 159 4833 4844
+)
+"plugins/subtac/eterm.ml" 160 4891 4897 "plugins/subtac/eterm.ml" 160 4891 4922
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 161 4928 4933 "plugins/subtac/eterm.ml" 161 4928 4936
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list ->
+  Util.Intset.t ->
+  (Util.Intset.elt * 'b * Util.Intset.t) list ->
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 156 4750 4760 "plugins/subtac/eterm.ml" 156 4750 4763
+)
+"plugins/subtac/eterm.ml" 161 4928 4937 "plugins/subtac/eterm.ml" 161 4928 4939
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  int_ref tl "plugins/subtac/eterm.ml" 158 4796 4827 "plugins/subtac/eterm.ml" 158 4796 4829
+)
+"plugins/subtac/eterm.ml" 161 4928 4940 "plugins/subtac/eterm.ml" 161 4928 4946
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref found' "plugins/subtac/eterm.ml" 159 4833 4838 "plugins/subtac/eterm.ml" 159 4833 4844
+)
+"plugins/subtac/eterm.ml" 161 4928 4948 "plugins/subtac/eterm.ml" 161 4928 4951
+type(
+  Util.Intset.elt * 'b * Util.Intset.t
+)
+ident(
+  int_ref obl "plugins/subtac/eterm.ml" 158 4796 4802 "plugins/subtac/eterm.ml" 158 4796 4823
+)
+"plugins/subtac/eterm.ml" 161 4928 4955 "plugins/subtac/eterm.ml" 161 4928 4959
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  int_ref list "plugins/subtac/eterm.ml" 156 4750 4772 "plugins/subtac/eterm.ml" 156 4750 4776
+)
+"plugins/subtac/eterm.ml" 161 4928 4947 "plugins/subtac/eterm.ml" 161 4928 4960
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 161 4928 4933 "plugins/subtac/eterm.ml" 161 4928 4960
+call(
+  tail
+)
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 162 4961 4969 "plugins/subtac/eterm.ml" 162 4961 4972
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list ->
+  Util.Intset.t ->
+  (Util.Intset.elt * 'b * Util.Intset.t) list ->
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 156 4750 4760 "plugins/subtac/eterm.ml" 156 4750 4763
+)
+"plugins/subtac/eterm.ml" 162 4961 4974 "plugins/subtac/eterm.ml" 162 4961 4984
+type(
+  Util.Intset.elt * 'b * Util.Intset.t ->
+  (Util.Intset.elt * 'b * Util.Intset.t) list ->
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  int_ref move_after "plugins/subtac/eterm.ml" 145 4412 4416 "plugins/subtac/eterm.ml" 145 4412 4426
+)
+"plugins/subtac/eterm.ml" 162 4961 4985 "plugins/subtac/eterm.ml" 162 4961 4988
+type(
+  Util.Intset.elt * 'b * Util.Intset.t
+)
+ident(
+  int_ref obl "plugins/subtac/eterm.ml" 158 4796 4802 "plugins/subtac/eterm.ml" 158 4796 4823
+)
+"plugins/subtac/eterm.ml" 162 4961 4989 "plugins/subtac/eterm.ml" 162 4961 4991
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  int_ref tl "plugins/subtac/eterm.ml" 158 4796 4827 "plugins/subtac/eterm.ml" 158 4796 4829
+)
+"plugins/subtac/eterm.ml" 162 4961 4973 "plugins/subtac/eterm.ml" 162 4961 4992
+call(
+  stack
+)
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 162 4961 4993 "plugins/subtac/eterm.ml" 162 4961 4998
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref found "plugins/subtac/eterm.ml" 156 4750 4766 "plugins/subtac/eterm.ml" 156 4750 4771
+)
+"plugins/subtac/eterm.ml" 162 4961 4999 "plugins/subtac/eterm.ml" 162 4961 5003
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  int_ref list "plugins/subtac/eterm.ml" 156 4750 4772 "plugins/subtac/eterm.ml" 156 4750 4776
+)
+"plugins/subtac/eterm.ml" 162 4961 4969 "plugins/subtac/eterm.ml" 162 4961 5003
+call(
+  tail
+)
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 160 4891 4894 "plugins/subtac/eterm.ml" 162 4961 5003
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 159 4833 4834 "plugins/subtac/eterm.ml" 162 4961 5003
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 163 5004 5010 "plugins/subtac/eterm.ml" 163 5004 5012
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 163 5004 5016 "plugins/subtac/eterm.ml" 163 5004 5024
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list ->
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/subtac/eterm.ml" 163 5004 5025 "plugins/subtac/eterm.ml" 163 5004 5029
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+ident(
+  int_ref list "plugins/subtac/eterm.ml" 156 4750 4772 "plugins/subtac/eterm.ml" 156 4750 4776
+)
+"plugins/subtac/eterm.ml" 163 5004 5016 "plugins/subtac/eterm.ml" 163 5004 5029
+call(
+  tail
+)
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 157 4779 4783 "plugins/subtac/eterm.ml" 163 5004 5029
+type(
+  (Util.Intset.elt * 'b * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 164 5030 5035 "plugins/subtac/eterm.ml" 164 5030 5038
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list ->
+  Util.Intset.t ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list ->
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  int_ref aux "plugins/subtac/eterm.ml" 156 4750 4760 "plugins/subtac/eterm.ml" 156 4750 4763
+)
+"plugins/subtac/eterm.ml" 164 5030 5039 "plugins/subtac/eterm.ml" 164 5030 5042
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+ident(
+  int_ref evl "plugins/subtac/eterm.ml" 155 4722 4744 "plugins/subtac/eterm.ml" 155 4722 4747
+)
+"plugins/subtac/eterm.ml" 164 5030 5043 "plugins/subtac/eterm.ml" 164 5030 5055
+type(
+  Util.Intset.t
+)
+ident(
+  ext_ref Util.Intset.empty
+)
+"plugins/subtac/eterm.ml" 164 5030 5056 "plugins/subtac/eterm.ml" 164 5030 5058
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 164 5030 5035 "plugins/subtac/eterm.ml" 164 5030 5058
+call(
+  tail
+)
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 156 4750 4752 "plugins/subtac/eterm.ml" 164 5030 5058
+type(
+  (Util.Intset.elt * 'a * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 166 5060 5064 "plugins/subtac/eterm.ml" 166 5060 5077
+type(
+  (Term.constr -> Term.constr) -> Evd.evar_body -> Evd.evar_body
+)
+ident(
+  def map_evar_body "plugins/subtac/eterm.ml" 170 5162 5162 --
+)
+"plugins/subtac/eterm.ml" 166 5060 5078 "plugins/subtac/eterm.ml" 166 5060 5079
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  def f "plugins/subtac/eterm.ml" 166 5060 5082 "plugins/subtac/eterm.ml" 168 5120 5160
+)
+"plugins/subtac/eterm.ml" 167 5091 5095 "plugins/subtac/eterm.ml" 167 5091 5105
+type(
+  Evd.evar_body
+)
+"plugins/subtac/eterm.ml" 167 5091 5109 "plugins/subtac/eterm.ml" 167 5091 5119
+type(
+  Evd.evar_body
+)
+"plugins/subtac/eterm.ml" 168 5120 5137 "plugins/subtac/eterm.ml" 168 5120 5138
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/subtac/eterm.ml" 168 5120 5142 "plugins/subtac/eterm.ml" 168 5120 5160
+)
+"plugins/subtac/eterm.ml" 168 5120 5124 "plugins/subtac/eterm.ml" 168 5120 5138
+type(
+  Evd.evar_body
+)
+"plugins/subtac/eterm.ml" 168 5120 5156 "plugins/subtac/eterm.ml" 168 5120 5157
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref f "plugins/subtac/eterm.ml" 166 5060 5078 "plugins/subtac/eterm.ml" 166 5060 5079
+)
+"plugins/subtac/eterm.ml" 168 5120 5158 "plugins/subtac/eterm.ml" 168 5120 5159
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/subtac/eterm.ml" 168 5120 5137 "plugins/subtac/eterm.ml" 168 5120 5138
+)
+"plugins/subtac/eterm.ml" 168 5120 5155 "plugins/subtac/eterm.ml" 168 5120 5160
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 168 5120 5142 "plugins/subtac/eterm.ml" 168 5120 5160
+type(
+  Evd.evar_body
+)
+"plugins/subtac/eterm.ml" 166 5060 5082 "plugins/subtac/eterm.ml" 168 5120 5160
+type(
+  Evd.evar_body -> Evd.evar_body
+)
+"plugins/subtac/eterm.ml" 172 5182 5186 "plugins/subtac/eterm.ml" 172 5182 5199
+type(
+  (Term.constr -> Term.constr) -> Evd.evar_info -> Evd.evar_info
+)
+ident(
+  def map_evar_info "plugins/subtac/eterm.ml" 177 5402 5402 --
+)
+"plugins/subtac/eterm.ml" 172 5182 5200 "plugins/subtac/eterm.ml" 172 5182 5201
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  def f "plugins/subtac/eterm.ml" 172 5182 5202 "plugins/subtac/eterm.ml" 175 5349 5396
+)
+"plugins/subtac/eterm.ml" 172 5182 5202 "plugins/subtac/eterm.ml" 172 5182 5205
+type(
+  Evd.evar_info
+)
+ident(
+  def evi "plugins/subtac/eterm.ml" 173 5208 5210 "plugins/subtac/eterm.ml" 175 5349 5396
+)
+"plugins/subtac/eterm.ml" 173 5208 5212 "plugins/subtac/eterm.ml" 173 5208 5215
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref evi "plugins/subtac/eterm.ml" 172 5182 5202 "plugins/subtac/eterm.ml" 172 5182 5205
+)
+"plugins/subtac/eterm.ml" 173 5208 5233 "plugins/subtac/eterm.ml" 173 5208 5253
+type(
+  Sign.named_context -> Environ.named_context_val
+)
+ident(
+  ext_ref Environ.val_of_named_context
+)
+"plugins/subtac/eterm.ml" 173 5208 5255 "plugins/subtac/eterm.ml" 173 5208 5272
+type(
+  (Term.constr -> Term.constr) -> Sign.named_context -> Sign.named_context
+)
+ident(
+  ext_ref Sign.map_named_context
+)
+"plugins/subtac/eterm.ml" 173 5208 5273 "plugins/subtac/eterm.ml" 173 5208 5274
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref f "plugins/subtac/eterm.ml" 172 5182 5200 "plugins/subtac/eterm.ml" 172 5182 5201
+)
+"plugins/subtac/eterm.ml" 173 5208 5276 "plugins/subtac/eterm.ml" 173 5208 5296
+type(
+  Environ.named_context_val -> Sign.named_context
+)
+ident(
+  ext_ref Environ.named_context_of_val
+)
+"plugins/subtac/eterm.ml" 173 5208 5297 "plugins/subtac/eterm.ml" 173 5208 5300
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref evi "plugins/subtac/eterm.ml" 172 5182 5202 "plugins/subtac/eterm.ml" 172 5182 5205
+)
+"plugins/subtac/eterm.ml" 173 5208 5297 "plugins/subtac/eterm.ml" 173 5208 5310
+type(
+  Environ.named_context_val
+)
+"plugins/subtac/eterm.ml" 173 5208 5275 "plugins/subtac/eterm.ml" 173 5208 5311
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/subtac/eterm.ml" 173 5208 5254 "plugins/subtac/eterm.ml" 173 5208 5312
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/subtac/eterm.ml" 173 5208 5233 "plugins/subtac/eterm.ml" 173 5208 5312
+call(
+  stack
+)
+type(
+  Environ.named_context_val
+)
+"plugins/subtac/eterm.ml" 174 5314 5331 "plugins/subtac/eterm.ml" 174 5314 5332
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref f "plugins/subtac/eterm.ml" 172 5182 5200 "plugins/subtac/eterm.ml" 172 5182 5201
+)
+"plugins/subtac/eterm.ml" 174 5314 5333 "plugins/subtac/eterm.ml" 174 5314 5336
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref evi "plugins/subtac/eterm.ml" 172 5182 5202 "plugins/subtac/eterm.ml" 172 5182 5205
+)
+"plugins/subtac/eterm.ml" 174 5314 5333 "plugins/subtac/eterm.ml" 174 5314 5347
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 174 5314 5331 "plugins/subtac/eterm.ml" 174 5314 5347
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 175 5349 5365 "plugins/subtac/eterm.ml" 175 5349 5378
+type(
+  (Term.constr -> Term.constr) -> Evd.evar_body -> Evd.evar_body
+)
+ident(
+  int_ref map_evar_body "plugins/subtac/eterm.ml" 166 5060 5064 "plugins/subtac/eterm.ml" 166 5060 5077
+)
+"plugins/subtac/eterm.ml" 175 5349 5379 "plugins/subtac/eterm.ml" 175 5349 5380
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref f "plugins/subtac/eterm.ml" 172 5182 5200 "plugins/subtac/eterm.ml" 172 5182 5201
+)
+"plugins/subtac/eterm.ml" 175 5349 5381 "plugins/subtac/eterm.ml" 175 5349 5384
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref evi "plugins/subtac/eterm.ml" 172 5182 5202 "plugins/subtac/eterm.ml" 172 5182 5205
+)
+"plugins/subtac/eterm.ml" 175 5349 5381 "plugins/subtac/eterm.ml" 175 5349 5394
+type(
+  Evd.evar_body
+)
+"plugins/subtac/eterm.ml" 175 5349 5365 "plugins/subtac/eterm.ml" 175 5349 5394
+call(
+  stack
+)
+type(
+  Evd.evar_body
+)
+"plugins/subtac/eterm.ml" 173 5208 5210 "plugins/subtac/eterm.ml" 175 5349 5396
+type(
+  Evd.evar_info
+)
+"plugins/subtac/eterm.ml" 177 5402 5406 "plugins/subtac/eterm.ml" 177 5402 5423
+type(
+  Environ.env ->
+  Names.identifier ->
+  Evd.evar_map ->
+  Evd.evar_map ->
+  int ->
+  ?status:Evd.obligation_definition_status ->
+  Term.constr ->
+  Term.constr ->
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+ident(
+  def eterm_obligations "plugins/subtac/eterm.ml" 245 7937 7937 --
+)
+"plugins/subtac/eterm.ml" 177 5402 5424 "plugins/subtac/eterm.ml" 177 5402 5427
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/eterm.ml" 177 5402 5428 "plugins/subtac/eterm.ml" 243 7875 7935
+)
+"plugins/subtac/eterm.ml" 177 5402 5428 "plugins/subtac/eterm.ml" 177 5402 5432
+type(
+  Names.identifier
+)
+ident(
+  def name "plugins/subtac/eterm.ml" 177 5402 5433 "plugins/subtac/eterm.ml" 243 7875 7935
+)
+"plugins/subtac/eterm.ml" 177 5402 5433 "plugins/subtac/eterm.ml" 177 5402 5440
+type(
+  Evd.evar_map
+)
+ident(
+  def isevars "plugins/subtac/eterm.ml" 177 5402 5441 "plugins/subtac/eterm.ml" 243 7875 7935
+)
+"plugins/subtac/eterm.ml" 177 5402 5441 "plugins/subtac/eterm.ml" 177 5402 5444
+type(
+  Evd.evar_map
+)
+ident(
+  def evm "plugins/subtac/eterm.ml" 177 5402 5445 "plugins/subtac/eterm.ml" 243 7875 7935
+)
+"plugins/subtac/eterm.ml" 177 5402 5445 "plugins/subtac/eterm.ml" 177 5402 5447
+type(
+  int
+)
+ident(
+  def fs "plugins/subtac/eterm.ml" 177 5402 5448 "plugins/subtac/eterm.ml" 243 7875 7935
+)
+"plugins/subtac/eterm.ml" 177 5402 5449 "plugins/subtac/eterm.ml" 177 5402 5455
+type(
+  Evd.obligation_definition_status option
+)
+ident(
+  def status "plugins/subtac/eterm.ml" 177 5402 5456 "plugins/subtac/eterm.ml" 243 7875 7935
+)
+"plugins/subtac/eterm.ml" 177 5402 5456 "plugins/subtac/eterm.ml" 177 5402 5457
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/subtac/eterm.ml" 177 5402 5458 "plugins/subtac/eterm.ml" 243 7875 7935
+)
+"plugins/subtac/eterm.ml" 177 5402 5458 "plugins/subtac/eterm.ml" 177 5402 5460
+type(
+  Term.constr
+)
+ident(
+  def ty "plugins/subtac/eterm.ml" 179 5494 5496 "plugins/subtac/eterm.ml" 243 7875 7935
+)
+"plugins/subtac/eterm.ml" 179 5494 5500 "plugins/subtac/eterm.ml" 179 5494 5502
+type(
+  Sign.named_context
+)
+"plugins/subtac/eterm.ml" 179 5494 5505 "plugins/subtac/eterm.ml" 179 5494 5526
+type(
+  Environ.env -> Sign.named_context
+)
+ident(
+  ext_ref Environ.named_context
+)
+"plugins/subtac/eterm.ml" 179 5494 5527 "plugins/subtac/eterm.ml" 179 5494 5530
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/eterm.ml" 177 5402 5424 "plugins/subtac/eterm.ml" 177 5402 5427
+)
+"plugins/subtac/eterm.ml" 179 5494 5505 "plugins/subtac/eterm.ml" 179 5494 5530
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/subtac/eterm.ml" 180 5534 5540 "plugins/subtac/eterm.ml" 180 5534 5546
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 180 5534 5549 "plugins/subtac/eterm.ml" 180 5534 5574
+type(
+  Sign.named_context -> int
+)
+ident(
+  ext_ref Sign.named_context_length
+)
+"plugins/subtac/eterm.ml" 180 5534 5575 "plugins/subtac/eterm.ml" 180 5534 5577
+type(
+  Sign.named_context
+)
+ident(
+  int_ref nc "plugins/subtac/eterm.ml" 179 5494 5500 "plugins/subtac/eterm.ml" 179 5494 5502
+)
+"plugins/subtac/eterm.ml" 180 5534 5549 "plugins/subtac/eterm.ml" 180 5534 5577
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 181 5581 5587 "plugins/subtac/eterm.ml" 181 5581 5590
+type(
+  (Evd.evar * Evd.evar_info) list
+)
+"plugins/subtac/eterm.ml" 181 5581 5593 "plugins/subtac/eterm.ml" 181 5581 5601
+type(
+  (Evd.evar * Evd.evar_info) list -> (Evd.evar * Evd.evar_info) list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/subtac/eterm.ml" 181 5581 5603 "plugins/subtac/eterm.ml" 181 5581 5610
+type(
+  Evd.evar_map -> (Evd.evar * Evd.evar_info) list
+)
+ident(
+  ext_ref Evd.to_list
+)
+"plugins/subtac/eterm.ml" 181 5581 5611 "plugins/subtac/eterm.ml" 181 5581 5614
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/eterm.ml" 177 5402 5441 "plugins/subtac/eterm.ml" 177 5402 5444
+)
+"plugins/subtac/eterm.ml" 181 5581 5602 "plugins/subtac/eterm.ml" 181 5581 5615
+call(
+  stack
+)
+type(
+  (Evd.evar * Evd.evar_info) list
+)
+"plugins/subtac/eterm.ml" 181 5581 5593 "plugins/subtac/eterm.ml" 181 5581 5615
+call(
+  stack
+)
+type(
+  (Evd.evar * Evd.evar_info) list
+)
+"plugins/subtac/eterm.ml" 182 5619 5625 "plugins/subtac/eterm.ml" 182 5619 5628
+type(
+  (Util.Intset.elt * Evd.evar_info * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 182 5619 5631 "plugins/subtac/eterm.ml" 182 5619 5639
+type(
+  (Util.Intset.elt * Evd.evar_info ->
+   Util.Intset.elt * Evd.evar_info * Util.Intset.t) ->
+  (Util.Intset.elt * Evd.evar_info) list ->
+  (Util.Intset.elt * Evd.evar_info * Util.Intset.t) list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/subtac/eterm.ml" 182 5619 5646 "plugins/subtac/eterm.ml" 182 5619 5648
+type(
+  Util.Intset.elt
+)
+ident(
+  def id "plugins/subtac/eterm.ml" 182 5619 5657 "plugins/subtac/eterm.ml" 182 5619 5691
+)
+"plugins/subtac/eterm.ml" 182 5619 5650 "plugins/subtac/eterm.ml" 182 5619 5652
+type(
+  Evd.evar_info
+)
+ident(
+  def ev "plugins/subtac/eterm.ml" 182 5619 5657 "plugins/subtac/eterm.ml" 182 5619 5691
+)
+"plugins/subtac/eterm.ml" 182 5619 5645 "plugins/subtac/eterm.ml" 182 5619 5653
+type(
+  Util.Intset.elt * Evd.evar_info
+)
+"plugins/subtac/eterm.ml" 182 5619 5658 "plugins/subtac/eterm.ml" 182 5619 5660
+type(
+  Util.Intset.elt
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 182 5619 5646 "plugins/subtac/eterm.ml" 182 5619 5648
+)
+"plugins/subtac/eterm.ml" 182 5619 5662 "plugins/subtac/eterm.ml" 182 5619 5664
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref ev "plugins/subtac/eterm.ml" 182 5619 5650 "plugins/subtac/eterm.ml" 182 5619 5652
+)
+"plugins/subtac/eterm.ml" 182 5619 5666 "plugins/subtac/eterm.ml" 182 5619 5683
+type(
+  Evd.evar_map -> Util.Intset.elt -> Util.Intset.t
+)
+ident(
+  int_ref evar_dependencies "plugins/subtac/eterm.ml" 132 4067 4071 "plugins/subtac/eterm.ml" 132 4067 4088
+)
+"plugins/subtac/eterm.ml" 182 5619 5684 "plugins/subtac/eterm.ml" 182 5619 5687
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/eterm.ml" 177 5402 5441 "plugins/subtac/eterm.ml" 177 5402 5444
+)
+"plugins/subtac/eterm.ml" 182 5619 5688 "plugins/subtac/eterm.ml" 182 5619 5690
+type(
+  Util.Intset.elt
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 182 5619 5646 "plugins/subtac/eterm.ml" 182 5619 5648
+)
+"plugins/subtac/eterm.ml" 182 5619 5666 "plugins/subtac/eterm.ml" 182 5619 5690
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 182 5619 5657 "plugins/subtac/eterm.ml" 182 5619 5691
+type(
+  Util.Intset.elt * Evd.evar_info * Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 182 5619 5640 "plugins/subtac/eterm.ml" 182 5619 5692
+type(
+  Util.Intset.elt * Evd.evar_info ->
+  Util.Intset.elt * Evd.evar_info * Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 182 5619 5693 "plugins/subtac/eterm.ml" 182 5619 5696
+type(
+  (Util.Intset.elt * Evd.evar_info) list
+)
+ident(
+  int_ref evl "plugins/subtac/eterm.ml" 181 5581 5587 "plugins/subtac/eterm.ml" 181 5581 5590
+)
+"plugins/subtac/eterm.ml" 182 5619 5631 "plugins/subtac/eterm.ml" 182 5619 5696
+call(
+  stack
+)
+type(
+  (Util.Intset.elt * Evd.evar_info * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 183 5700 5706 "plugins/subtac/eterm.ml" 183 5700 5710
+type(
+  (Util.Intset.elt * Evd.evar_info * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 183 5700 5713 "plugins/subtac/eterm.ml" 183 5700 5730
+type(
+  (Util.Intset.elt * Evd.evar_info * Util.Intset.t) list ->
+  (Util.Intset.elt * Evd.evar_info * Util.Intset.t) list
+)
+ident(
+  int_ref sort_dependencies "plugins/subtac/eterm.ml" 155 4722 4726 "plugins/subtac/eterm.ml" 155 4722 4743
+)
+"plugins/subtac/eterm.ml" 183 5700 5731 "plugins/subtac/eterm.ml" 183 5700 5734
+type(
+  (Util.Intset.elt * Evd.evar_info * Util.Intset.t) list
+)
+ident(
+  int_ref evl "plugins/subtac/eterm.ml" 182 5619 5625 "plugins/subtac/eterm.ml" 182 5619 5628
+)
+"plugins/subtac/eterm.ml" 183 5700 5713 "plugins/subtac/eterm.ml" 183 5700 5734
+call(
+  stack
+)
+type(
+  (Util.Intset.elt * Evd.evar_info * Util.Intset.t) list
+)
+"plugins/subtac/eterm.ml" 184 5738 5744 "plugins/subtac/eterm.ml" 184 5738 5747
+type(
+  (Util.Intset.elt * Evd.evar_info) list
+)
+"plugins/subtac/eterm.ml" 184 5738 5750 "plugins/subtac/eterm.ml" 184 5738 5758
+type(
+  (Util.Intset.elt * Evd.evar_info * Util.Intset.t ->
+   Util.Intset.elt * Evd.evar_info) ->
+  (Util.Intset.elt * Evd.evar_info * Util.Intset.t) list ->
+  (Util.Intset.elt * Evd.evar_info) list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/subtac/eterm.ml" 184 5738 5765 "plugins/subtac/eterm.ml" 184 5738 5767
+type(
+  Util.Intset.elt
+)
+ident(
+  def id "plugins/subtac/eterm.ml" 184 5738 5779 "plugins/subtac/eterm.ml" 184 5738 5785
+)
+"plugins/subtac/eterm.ml" 184 5738 5769 "plugins/subtac/eterm.ml" 184 5738 5771
+type(
+  Evd.evar_info
+)
+ident(
+  def ev "plugins/subtac/eterm.ml" 184 5738 5779 "plugins/subtac/eterm.ml" 184 5738 5785
+)
+"plugins/subtac/eterm.ml" 184 5738 5773 "plugins/subtac/eterm.ml" 184 5738 5774
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 184 5738 5764 "plugins/subtac/eterm.ml" 184 5738 5775
+type(
+  Util.Intset.elt * Evd.evar_info * Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 184 5738 5779 "plugins/subtac/eterm.ml" 184 5738 5781
+type(
+  Util.Intset.elt
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 184 5738 5765 "plugins/subtac/eterm.ml" 184 5738 5767
+)
+"plugins/subtac/eterm.ml" 184 5738 5783 "plugins/subtac/eterm.ml" 184 5738 5785
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref ev "plugins/subtac/eterm.ml" 184 5738 5769 "plugins/subtac/eterm.ml" 184 5738 5771
+)
+"plugins/subtac/eterm.ml" 184 5738 5779 "plugins/subtac/eterm.ml" 184 5738 5785
+type(
+  Util.Intset.elt * Evd.evar_info
+)
+"plugins/subtac/eterm.ml" 184 5738 5759 "plugins/subtac/eterm.ml" 184 5738 5786
+type(
+  Util.Intset.elt * Evd.evar_info * Util.Intset.t ->
+  Util.Intset.elt * Evd.evar_info
+)
+"plugins/subtac/eterm.ml" 184 5738 5787 "plugins/subtac/eterm.ml" 184 5738 5791
+type(
+  (Util.Intset.elt * Evd.evar_info * Util.Intset.t) list
+)
+ident(
+  int_ref sevl "plugins/subtac/eterm.ml" 183 5700 5706 "plugins/subtac/eterm.ml" 183 5700 5710
+)
+"plugins/subtac/eterm.ml" 184 5738 5750 "plugins/subtac/eterm.ml" 184 5738 5791
+call(
+  stack
+)
+type(
+  (Util.Intset.elt * Evd.evar_info) list
+)
+"plugins/subtac/eterm.ml" 185 5795 5801 "plugins/subtac/eterm.ml" 185 5795 5804
+type(
+  (Util.Intset.elt * (int * Names.identifier) * Evd.evar_info) list
+)
+"plugins/subtac/eterm.ml" 186 5807 5815 "plugins/subtac/eterm.ml" 186 5807 5816
+type(
+  int ref
+)
+"plugins/subtac/eterm.ml" 186 5807 5819 "plugins/subtac/eterm.ml" 186 5807 5822
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/subtac/eterm.ml" 186 5807 5823 "plugins/subtac/eterm.ml" 186 5807 5827
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 186 5807 5819 "plugins/subtac/eterm.ml" 186 5807 5827
+type(
+  int ref
+)
+"plugins/subtac/eterm.ml" 187 5831 5837 "plugins/subtac/eterm.ml" 187 5831 5849
+type(
+  (Util.Intset.elt * Evd.evar_info ->
+   Util.Intset.elt * (int * Names.identifier) * Evd.evar_info) ->
+  (Util.Intset.elt * Evd.evar_info) list ->
+  (Util.Intset.elt * (int * Names.identifier) * Evd.evar_info) list
+)
+ident(
+  ext_ref List.rev_map
+)
+"plugins/subtac/eterm.ml" 187 5831 5856 "plugins/subtac/eterm.ml" 187 5831 5858
+type(
+  Util.Intset.elt
+)
+ident(
+  def id "plugins/subtac/eterm.ml" 187 5831 5867 "plugins/subtac/eterm.ml" 190 5980 5992
+)
+"plugins/subtac/eterm.ml" 187 5831 5860 "plugins/subtac/eterm.ml" 187 5831 5862
+type(
+  Evd.evar_info
+)
+ident(
+  def ev "plugins/subtac/eterm.ml" 187 5831 5867 "plugins/subtac/eterm.ml" 190 5980 5992
+)
+"plugins/subtac/eterm.ml" 187 5831 5855 "plugins/subtac/eterm.ml" 187 5831 5863
+type(
+  Util.Intset.elt * Evd.evar_info
+)
+"plugins/subtac/eterm.ml" 187 5831 5867 "plugins/subtac/eterm.ml" 187 5831 5871
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"plugins/subtac/eterm.ml" 187 5831 5872 "plugins/subtac/eterm.ml" 187 5831 5873
+type(
+  int ref
+)
+ident(
+  int_ref i "plugins/subtac/eterm.ml" 186 5807 5815 "plugins/subtac/eterm.ml" 186 5807 5816
+)
+"plugins/subtac/eterm.ml" 187 5831 5867 "plugins/subtac/eterm.ml" 187 5831 5873
+type(
+  unit
+)
+"plugins/subtac/eterm.ml" 188 5875 5884 "plugins/subtac/eterm.ml" 188 5875 5886
+type(
+  Util.Intset.elt
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 187 5831 5856 "plugins/subtac/eterm.ml" 187 5831 5858
+)
+"plugins/subtac/eterm.ml" 188 5875 5889 "plugins/subtac/eterm.ml" 188 5875 5890
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/eterm.ml" 188 5875 5890 "plugins/subtac/eterm.ml" 188 5875 5891
+type(
+  int ref
+)
+ident(
+  int_ref i "plugins/subtac/eterm.ml" 186 5807 5815 "plugins/subtac/eterm.ml" 186 5807 5816
+)
+"plugins/subtac/eterm.ml" 188 5875 5889 "plugins/subtac/eterm.ml" 188 5875 5891
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 188 5875 5893 "plugins/subtac/eterm.ml" 188 5875 5905
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+"plugins/subtac/eterm.ml" 189 5906 5916 "plugins/subtac/eterm.ml" 189 5906 5928
+type(
+  Names.identifier -> string
+)
+ident(
+  ext_ref Names.string_of_id
+)
+"plugins/subtac/eterm.ml" 189 5906 5929 "plugins/subtac/eterm.ml" 189 5906 5933
+type(
+  Names.identifier
+)
+ident(
+  int_ref name "plugins/subtac/eterm.ml" 177 5402 5428 "plugins/subtac/eterm.ml" 177 5402 5432
+)
+"plugins/subtac/eterm.ml" 189 5906 5916 "plugins/subtac/eterm.ml" 189 5906 5933
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 189 5906 5934 "plugins/subtac/eterm.ml" 189 5906 5935
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/subtac/eterm.ml" 189 5906 5936 "plugins/subtac/eterm.ml" 189 5906 5950
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 189 5906 5951 "plugins/subtac/eterm.ml" 189 5906 5952
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/subtac/eterm.ml" 189 5906 5953 "plugins/subtac/eterm.ml" 189 5906 5966
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"plugins/subtac/eterm.ml" 189 5906 5968 "plugins/subtac/eterm.ml" 189 5906 5972
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"plugins/subtac/eterm.ml" 189 5906 5973 "plugins/subtac/eterm.ml" 189 5906 5974
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/eterm.ml" 189 5906 5974 "plugins/subtac/eterm.ml" 189 5906 5975
+type(
+  int ref
+)
+ident(
+  int_ref i "plugins/subtac/eterm.ml" 186 5807 5815 "plugins/subtac/eterm.ml" 186 5807 5816
+)
+"plugins/subtac/eterm.ml" 189 5906 5973 "plugins/subtac/eterm.ml" 189 5906 5975
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 189 5906 5967 "plugins/subtac/eterm.ml" 189 5906 5976
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 189 5906 5953 "plugins/subtac/eterm.ml" 189 5906 5976
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 189 5906 5936 "plugins/subtac/eterm.ml" 189 5906 5976
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 189 5906 5915 "plugins/subtac/eterm.ml" 189 5906 5977
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 188 5875 5893 "plugins/subtac/eterm.ml" 189 5906 5977
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/subtac/eterm.ml" 188 5875 5888 "plugins/subtac/eterm.ml" 189 5906 5978
+type(
+  int * Names.identifier
+)
+"plugins/subtac/eterm.ml" 190 5980 5989 "plugins/subtac/eterm.ml" 190 5980 5991
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref ev "plugins/subtac/eterm.ml" 187 5831 5860 "plugins/subtac/eterm.ml" 187 5831 5862
+)
+"plugins/subtac/eterm.ml" 188 5875 5883 "plugins/subtac/eterm.ml" 190 5980 5992
+type(
+  Util.Intset.elt * (int * Names.identifier) * Evd.evar_info
+)
+"plugins/subtac/eterm.ml" 187 5831 5867 "plugins/subtac/eterm.ml" 190 5980 5992
+type(
+  Util.Intset.elt * (int * Names.identifier) * Evd.evar_info
+)
+"plugins/subtac/eterm.ml" 187 5831 5850 "plugins/subtac/eterm.ml" 190 5980 5993
+type(
+  Util.Intset.elt * Evd.evar_info ->
+  Util.Intset.elt * (int * Names.identifier) * Evd.evar_info
+)
+"plugins/subtac/eterm.ml" 190 5980 5994 "plugins/subtac/eterm.ml" 190 5980 5997
+type(
+  (Util.Intset.elt * Evd.evar_info) list
+)
+ident(
+  int_ref evl "plugins/subtac/eterm.ml" 184 5738 5744 "plugins/subtac/eterm.ml" 184 5738 5747
+)
+"plugins/subtac/eterm.ml" 187 5831 5837 "plugins/subtac/eterm.ml" 190 5980 5997
+call(
+  stack
+)
+type(
+  (Util.Intset.elt * (int * Names.identifier) * Evd.evar_info) list
+)
+"plugins/subtac/eterm.ml" 186 5807 5811 "plugins/subtac/eterm.ml" 190 5980 5997
+type(
+  (Util.Intset.elt * (int * Names.identifier) * Evd.evar_info) list
+)
+"plugins/subtac/eterm.ml" 192 6003 6009 "plugins/subtac/eterm.ml" 192 6003 6013
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 194 6101 6105 "plugins/subtac/eterm.ml" 194 6101 6115
+type(
+  (Term.existential_key * (int * Names.identifier) * Evd.evar_info ->
+   (Term.existential_key * oblinfo) list ->
+   (Term.existential_key * oblinfo) list) ->
+  (Term.existential_key * (int * Names.identifier) * Evd.evar_info) list ->
+  (Term.existential_key * oblinfo) list ->
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  ext_ref List.fold_right
+)
+"plugins/subtac/eterm.ml" 195 6116 6128 "plugins/subtac/eterm.ml" 195 6116 6130
+type(
+  Term.existential_key
+)
+ident(
+  def id "plugins/subtac/eterm.ml" 195 6116 6147 "plugins/subtac/eterm.ml" 224 7171 7191
+)
+"plugins/subtac/eterm.ml" 195 6116 6133 "plugins/subtac/eterm.ml" 195 6116 6134
+type(
+  int
+)
+ident(
+  def n "plugins/subtac/eterm.ml" 195 6116 6147 "plugins/subtac/eterm.ml" 224 7171 7191
+)
+"plugins/subtac/eterm.ml" 195 6116 6136 "plugins/subtac/eterm.ml" 195 6116 6140
+type(
+  Names.identifier
+)
+ident(
+  def nstr "plugins/subtac/eterm.ml" 195 6116 6147 "plugins/subtac/eterm.ml" 224 7171 7191
+)
+"plugins/subtac/eterm.ml" 195 6116 6132 "plugins/subtac/eterm.ml" 195 6116 6141
+type(
+  int * Names.identifier
+)
+"plugins/subtac/eterm.ml" 195 6116 6143 "plugins/subtac/eterm.ml" 195 6116 6145
+type(
+  Evd.evar_info
+)
+ident(
+  def ev "plugins/subtac/eterm.ml" 195 6116 6147 "plugins/subtac/eterm.ml" 224 7171 7191
+)
+"plugins/subtac/eterm.ml" 195 6116 6127 "plugins/subtac/eterm.ml" 195 6116 6146
+type(
+  Term.existential_key * (int * Names.identifier) * Evd.evar_info
+)
+"plugins/subtac/eterm.ml" 195 6116 6147 "plugins/subtac/eterm.ml" 195 6116 6148
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  def l "plugins/subtac/eterm.ml" 196 6152 6154 "plugins/subtac/eterm.ml" 224 7171 7191
+)
+"plugins/subtac/eterm.ml" 196 6152 6158 "plugins/subtac/eterm.ml" 196 6152 6162
+type(
+  Sign.named_context
+)
+"plugins/subtac/eterm.ml" 196 6152 6165 "plugins/subtac/eterm.ml" 196 6152 6190
+type(
+  Evd.evar_info -> Sign.named_context
+)
+ident(
+  ext_ref Evd.evar_filtered_context
+)
+"plugins/subtac/eterm.ml" 196 6152 6191 "plugins/subtac/eterm.ml" 196 6152 6193
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref ev "plugins/subtac/eterm.ml" 195 6116 6143 "plugins/subtac/eterm.ml" 195 6116 6145
+)
+"plugins/subtac/eterm.ml" 196 6152 6165 "plugins/subtac/eterm.ml" 196 6152 6193
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/subtac/eterm.ml" 197 6197 6203 "plugins/subtac/eterm.ml" 197 6197 6207
+type(
+  Term.named_declaration list
+)
+"plugins/subtac/eterm.ml" 197 6197 6210 "plugins/subtac/eterm.ml" 197 6197 6229
+type(
+  int -> Sign.named_context -> Term.named_declaration list
+)
+ident(
+  int_ref trunc_named_context "plugins/subtac/eterm.ml" 121 3772 3776 "plugins/subtac/eterm.ml" 121 3772 3795
+)
+"plugins/subtac/eterm.ml" 197 6197 6230 "plugins/subtac/eterm.ml" 197 6197 6236
+type(
+  int
+)
+ident(
+  int_ref nc_len "plugins/subtac/eterm.ml" 180 5534 5540 "plugins/subtac/eterm.ml" 180 5534 5546
+)
+"plugins/subtac/eterm.ml" 197 6197 6237 "plugins/subtac/eterm.ml" 197 6197 6241
+type(
+  Sign.named_context
+)
+ident(
+  int_ref hyps "plugins/subtac/eterm.ml" 196 6152 6158 "plugins/subtac/eterm.ml" 196 6152 6162
+)
+"plugins/subtac/eterm.ml" 197 6197 6210 "plugins/subtac/eterm.ml" 197 6197 6241
+call(
+  stack
+)
+type(
+  Term.named_declaration list
+)
+"plugins/subtac/eterm.ml" 198 6245 6251 "plugins/subtac/eterm.ml" 198 6245 6256
+type(
+  Term.types
+)
+"plugins/subtac/eterm.ml" 198 6245 6258 "plugins/subtac/eterm.ml" 198 6245 6262
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 198 6245 6264 "plugins/subtac/eterm.ml" 198 6245 6270
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 198 6245 6251 "plugins/subtac/eterm.ml" 198 6245 6270
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 198 6245 6273 "plugins/subtac/eterm.ml" 198 6245 6286
+type(
+  (Term.existential_key * oblinfo) list ->
+  Term.named_declaration list ->
+  Term.constr -> Term.types * Util.Intset.t * Names.Idset.t
+)
+ident(
+  int_ref etype_of_evar "plugins/subtac/eterm.ml" 96 3007 3011 "plugins/subtac/eterm.ml" 96 3007 3024
+)
+"plugins/subtac/eterm.ml" 198 6245 6287 "plugins/subtac/eterm.ml" 198 6245 6288
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  int_ref l "plugins/subtac/eterm.ml" 195 6116 6147 "plugins/subtac/eterm.ml" 195 6116 6148
+)
+"plugins/subtac/eterm.ml" 198 6245 6289 "plugins/subtac/eterm.ml" 198 6245 6293
+type(
+  Term.named_declaration list
+)
+ident(
+  int_ref hyps "plugins/subtac/eterm.ml" 197 6197 6203 "plugins/subtac/eterm.ml" 197 6197 6207
+)
+"plugins/subtac/eterm.ml" 198 6245 6294 "plugins/subtac/eterm.ml" 198 6245 6296
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref ev "plugins/subtac/eterm.ml" 195 6116 6143 "plugins/subtac/eterm.ml" 195 6116 6145
+)
+"plugins/subtac/eterm.ml" 198 6245 6294 "plugins/subtac/eterm.ml" 198 6245 6307
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 198 6245 6273 "plugins/subtac/eterm.ml" 198 6245 6307
+call(
+  stack
+)
+type(
+  Term.types * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 199 6311 6317 "plugins/subtac/eterm.ml" 199 6311 6322
+type(
+  Term.types
+)
+"plugins/subtac/eterm.ml" 199 6311 6324 "plugins/subtac/eterm.ml" 199 6311 6328
+type(
+  Term.named_declaration list
+)
+"plugins/subtac/eterm.ml" 199 6311 6330 "plugins/subtac/eterm.ml" 199 6311 6334
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 199 6311 6317 "plugins/subtac/eterm.ml" 199 6311 6334
+type(
+  Term.types * Term.named_declaration list * int
+)
+"plugins/subtac/eterm.ml" 200 6337 6347 "plugins/subtac/eterm.ml" 200 6337 6359
+type(
+  int -> Term.types -> Term.types option
+)
+ident(
+  int_ref chop_product "plugins/subtac/eterm.ml" 125 3866 3874 "plugins/subtac/eterm.ml" 125 3866 3886
+)
+"plugins/subtac/eterm.ml" 200 6337 6360 "plugins/subtac/eterm.ml" 200 6337 6362
+type(
+  int
+)
+ident(
+  int_ref fs "plugins/subtac/eterm.ml" 177 5402 5445 "plugins/subtac/eterm.ml" 177 5402 5447
+)
+"plugins/subtac/eterm.ml" 200 6337 6363 "plugins/subtac/eterm.ml" 200 6337 6368
+type(
+  Term.types
+)
+ident(
+  int_ref evtyp "plugins/subtac/eterm.ml" 198 6245 6251 "plugins/subtac/eterm.ml" 198 6245 6256
+)
+"plugins/subtac/eterm.ml" 200 6337 6347 "plugins/subtac/eterm.ml" 200 6337 6368
+call(
+  stack
+)
+type(
+  Term.types option
+)
+"plugins/subtac/eterm.ml" 201 6374 6385 "plugins/subtac/eterm.ml" 201 6374 6386
+type(
+  Term.types
+)
+ident(
+  def t "plugins/subtac/eterm.ml" 201 6374 6390 "plugins/subtac/eterm.ml" 201 6374 6424
+)
+"plugins/subtac/eterm.ml" 201 6374 6380 "plugins/subtac/eterm.ml" 201 6374 6386
+type(
+  Term.types option
+)
+"plugins/subtac/eterm.ml" 201 6374 6390 "plugins/subtac/eterm.ml" 201 6374 6391
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/subtac/eterm.ml" 201 6374 6385 "plugins/subtac/eterm.ml" 201 6374 6386
+)
+"plugins/subtac/eterm.ml" 201 6374 6393 "plugins/subtac/eterm.ml" 201 6374 6412
+type(
+  int -> Term.named_declaration list -> Term.named_declaration list
+)
+ident(
+  int_ref trunc_named_context "plugins/subtac/eterm.ml" 121 3772 3776 "plugins/subtac/eterm.ml" 121 3772 3795
+)
+"plugins/subtac/eterm.ml" 201 6374 6413 "plugins/subtac/eterm.ml" 201 6374 6415
+type(
+  int
+)
+ident(
+  int_ref fs "plugins/subtac/eterm.ml" 177 5402 5445 "plugins/subtac/eterm.ml" 177 5402 5447
+)
+"plugins/subtac/eterm.ml" 201 6374 6416 "plugins/subtac/eterm.ml" 201 6374 6420
+type(
+  Term.named_declaration list
+)
+ident(
+  int_ref hyps "plugins/subtac/eterm.ml" 197 6197 6203 "plugins/subtac/eterm.ml" 197 6197 6207
+)
+"plugins/subtac/eterm.ml" 201 6374 6393 "plugins/subtac/eterm.ml" 201 6374 6420
+call(
+  stack
+)
+type(
+  Term.named_declaration list
+)
+"plugins/subtac/eterm.ml" 201 6374 6422 "plugins/subtac/eterm.ml" 201 6374 6424
+type(
+  int
+)
+ident(
+  int_ref fs "plugins/subtac/eterm.ml" 177 5402 5445 "plugins/subtac/eterm.ml" 177 5402 5447
+)
+"plugins/subtac/eterm.ml" 201 6374 6390 "plugins/subtac/eterm.ml" 201 6374 6424
+type(
+  Term.types * Term.named_declaration list * int
+)
+"plugins/subtac/eterm.ml" 202 6425 6431 "plugins/subtac/eterm.ml" 202 6425 6435
+type(
+  Term.types option
+)
+"plugins/subtac/eterm.ml" 202 6425 6439 "plugins/subtac/eterm.ml" 202 6425 6444
+type(
+  Term.types
+)
+ident(
+  int_ref evtyp "plugins/subtac/eterm.ml" 198 6245 6251 "plugins/subtac/eterm.ml" 198 6245 6256
+)
+"plugins/subtac/eterm.ml" 202 6425 6446 "plugins/subtac/eterm.ml" 202 6425 6450
+type(
+  Term.named_declaration list
+)
+ident(
+  int_ref hyps "plugins/subtac/eterm.ml" 197 6197 6203 "plugins/subtac/eterm.ml" 197 6197 6207
+)
+"plugins/subtac/eterm.ml" 202 6425 6452 "plugins/subtac/eterm.ml" 202 6425 6453
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 202 6425 6439 "plugins/subtac/eterm.ml" 202 6425 6453
+type(
+  Term.types * Term.named_declaration list * int
+)
+"plugins/subtac/eterm.ml" 200 6337 6341 "plugins/subtac/eterm.ml" 202 6425 6453
+type(
+  Term.types * Term.named_declaration list * int
+)
+"plugins/subtac/eterm.ml" 204 6459 6465 "plugins/subtac/eterm.ml" 204 6459 6468
+type(
+  Util.loc
+)
+"plugins/subtac/eterm.ml" 204 6459 6470 "plugins/subtac/eterm.ml" 204 6459 6471
+type(
+  Evd.hole_kind
+)
+"plugins/subtac/eterm.ml" 204 6459 6465 "plugins/subtac/eterm.ml" 204 6459 6471
+type(
+  Util.loc * Evd.hole_kind
+)
+"plugins/subtac/eterm.ml" 204 6459 6474 "plugins/subtac/eterm.ml" 204 6459 6485
+type(
+  Term.existential_key -> Evd.evar_map -> Util.loc * Evd.hole_kind
+)
+ident(
+  ext_ref Evd.evar_source
+)
+"plugins/subtac/eterm.ml" 204 6459 6486 "plugins/subtac/eterm.ml" 204 6459 6488
+type(
+  Term.existential_key
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 195 6116 6128 "plugins/subtac/eterm.ml" 195 6116 6130
+)
+"plugins/subtac/eterm.ml" 204 6459 6489 "plugins/subtac/eterm.ml" 204 6459 6496
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref isevars "plugins/subtac/eterm.ml" 177 5402 5433 "plugins/subtac/eterm.ml" 177 5402 5440
+)
+"plugins/subtac/eterm.ml" 204 6459 6474 "plugins/subtac/eterm.ml" 204 6459 6496
+call(
+  stack
+)
+type(
+  Util.loc * Evd.hole_kind
+)
+"plugins/subtac/eterm.ml" 205 6500 6506 "plugins/subtac/eterm.ml" 205 6500 6512
+type(
+  Evd.obligation_definition_status option
+)
+"plugins/subtac/eterm.ml" 205 6500 6521 "plugins/subtac/eterm.ml" 205 6500 6522
+type(
+  Evd.hole_kind
+)
+ident(
+  int_ref k "plugins/subtac/eterm.ml" 204 6459 6470 "plugins/subtac/eterm.ml" 204 6459 6471
+)
+"plugins/subtac/eterm.ml" 205 6500 6541 "plugins/subtac/eterm.ml" 205 6500 6542
+type(
+  Evd.obligation_definition_status
+)
+ident(
+  def o "plugins/subtac/eterm.ml" 205 6500 6546 "plugins/subtac/eterm.ml" 205 6500 6552
+)
+"plugins/subtac/eterm.ml" 205 6500 6528 "plugins/subtac/eterm.ml" 205 6500 6542
+type(
+  Evd.hole_kind
+)
+"plugins/subtac/eterm.ml" 205 6500 6551 "plugins/subtac/eterm.ml" 205 6500 6552
+type(
+  Evd.obligation_definition_status
+)
+ident(
+  int_ref o "plugins/subtac/eterm.ml" 205 6500 6541 "plugins/subtac/eterm.ml" 205 6500 6542
+)
+"plugins/subtac/eterm.ml" 205 6500 6546 "plugins/subtac/eterm.ml" 205 6500 6552
+type(
+  Evd.obligation_definition_status option
+)
+"plugins/subtac/eterm.ml" 205 6500 6555 "plugins/subtac/eterm.ml" 205 6500 6556
+type(
+  Evd.hole_kind
+)
+"plugins/subtac/eterm.ml" 205 6500 6560 "plugins/subtac/eterm.ml" 205 6500 6566
+type(
+  Evd.obligation_definition_status option
+)
+ident(
+  int_ref status "plugins/subtac/eterm.ml" 177 5402 5449 "plugins/subtac/eterm.ml" 177 5402 5455
+)
+"plugins/subtac/eterm.ml" 205 6500 6515 "plugins/subtac/eterm.ml" 205 6500 6566
+type(
+  Evd.obligation_definition_status option
+)
+"plugins/subtac/eterm.ml" 206 6570 6576 "plugins/subtac/eterm.ml" 206 6570 6582
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/eterm.ml" 206 6570 6584 "plugins/subtac/eterm.ml" 206 6570 6588
+type(
+  int option
+)
+"plugins/subtac/eterm.ml" 206 6570 6576 "plugins/subtac/eterm.ml" 206 6570 6588
+type(
+  Evd.obligation_definition_status * int option
+)
+"plugins/subtac/eterm.ml" 206 6570 6597 "plugins/subtac/eterm.ml" 206 6570 6603
+type(
+  Evd.obligation_definition_status option
+)
+ident(
+  int_ref status "plugins/subtac/eterm.ml" 205 6500 6506 "plugins/subtac/eterm.ml" 205 6500 6512
+)
+"plugins/subtac/eterm.ml" 207 6609 6628 "plugins/subtac/eterm.ml" 207 6609 6632
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 207 6609 6621 "plugins/subtac/eterm.ml" 207 6609 6632
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/eterm.ml" 207 6609 6620 "plugins/subtac/eterm.ml" 207 6609 6641
+type(
+  Evd.obligation_definition_status
+)
+ident(
+  def stat "plugins/subtac/eterm.ml" 208 6645 6653 "plugins/subtac/eterm.ml" 209 6691 6719
+)
+"plugins/subtac/eterm.ml" 207 6609 6615 "plugins/subtac/eterm.ml" 207 6609 6641
+type(
+  Evd.obligation_definition_status option
+)
+"plugins/subtac/eterm.ml" 208 6645 6656 "plugins/subtac/eterm.ml" 208 6645 6660
+type(
+  int
+)
+ident(
+  int_ref chop "plugins/subtac/eterm.ml" 199 6311 6330 "plugins/subtac/eterm.ml" 199 6311 6334
+)
+"plugins/subtac/eterm.ml" 208 6645 6661 "plugins/subtac/eterm.ml" 208 6645 6663
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"plugins/subtac/eterm.ml" 208 6645 6664 "plugins/subtac/eterm.ml" 208 6645 6666
+type(
+  int
+)
+ident(
+  int_ref fs "plugins/subtac/eterm.ml" 177 5402 5445 "plugins/subtac/eterm.ml" 177 5402 5447
+)
+"plugins/subtac/eterm.ml" 208 6645 6656 "plugins/subtac/eterm.ml" 208 6645 6666
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 208 6645 6679 "plugins/subtac/eterm.ml" 208 6645 6684
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 208 6645 6672 "plugins/subtac/eterm.ml" 208 6645 6684
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/eterm.ml" 208 6645 6686 "plugins/subtac/eterm.ml" 208 6645 6690
+type(
+  int option
+)
+"plugins/subtac/eterm.ml" 208 6645 6672 "plugins/subtac/eterm.ml" 208 6645 6690
+type(
+  Evd.obligation_definition_status * int option
+)
+"plugins/subtac/eterm.ml" 209 6691 6704 "plugins/subtac/eterm.ml" 209 6691 6708
+type(
+  Evd.obligation_definition_status
+)
+ident(
+  int_ref stat "plugins/subtac/eterm.ml" 207 6609 6620 "plugins/subtac/eterm.ml" 207 6609 6641
+)
+"plugins/subtac/eterm.ml" 209 6691 6715 "plugins/subtac/eterm.ml" 209 6691 6719
+type(
+  int
+)
+ident(
+  int_ref chop "plugins/subtac/eterm.ml" 199 6311 6330 "plugins/subtac/eterm.ml" 199 6311 6334
+)
+"plugins/subtac/eterm.ml" 209 6691 6710 "plugins/subtac/eterm.ml" 209 6691 6719
+type(
+  int option
+)
+"plugins/subtac/eterm.ml" 209 6691 6704 "plugins/subtac/eterm.ml" 209 6691 6719
+type(
+  Evd.obligation_definition_status * int option
+)
+"plugins/subtac/eterm.ml" 208 6645 6653 "plugins/subtac/eterm.ml" 209 6691 6719
+type(
+  Evd.obligation_definition_status * int option
+)
+"plugins/subtac/eterm.ml" 210 6720 6731 "plugins/subtac/eterm.ml" 210 6720 6732
+type(
+  Evd.obligation_definition_status
+)
+ident(
+  def s "plugins/subtac/eterm.ml" 210 6720 6736 "plugins/subtac/eterm.ml" 210 6720 6743
+)
+"plugins/subtac/eterm.ml" 210 6720 6726 "plugins/subtac/eterm.ml" 210 6720 6732
+type(
+  Evd.obligation_definition_status option
+)
+"plugins/subtac/eterm.ml" 210 6720 6736 "plugins/subtac/eterm.ml" 210 6720 6737
+type(
+  Evd.obligation_definition_status
+)
+ident(
+  int_ref s "plugins/subtac/eterm.ml" 210 6720 6731 "plugins/subtac/eterm.ml" 210 6720 6732
+)
+"plugins/subtac/eterm.ml" 210 6720 6739 "plugins/subtac/eterm.ml" 210 6720 6743
+type(
+  int option
+)
+"plugins/subtac/eterm.ml" 210 6720 6736 "plugins/subtac/eterm.ml" 210 6720 6743
+type(
+  Evd.obligation_definition_status * int option
+)
+"plugins/subtac/eterm.ml" 211 6744 6750 "plugins/subtac/eterm.ml" 211 6744 6754
+type(
+  Evd.obligation_definition_status option
+)
+"plugins/subtac/eterm.ml" 211 6744 6765 "plugins/subtac/eterm.ml" 211 6744 6769
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 211 6744 6758 "plugins/subtac/eterm.ml" 211 6744 6769
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/eterm.ml" 211 6744 6771 "plugins/subtac/eterm.ml" 211 6744 6775
+type(
+  int option
+)
+"plugins/subtac/eterm.ml" 211 6744 6758 "plugins/subtac/eterm.ml" 211 6744 6775
+type(
+  Evd.obligation_definition_status * int option
+)
+"plugins/subtac/eterm.ml" 206 6570 6591 "plugins/subtac/eterm.ml" 211 6744 6775
+type(
+  Evd.obligation_definition_status * int option
+)
+"plugins/subtac/eterm.ml" 213 6781 6787 "plugins/subtac/eterm.ml" 213 6781 6790
+type(
+  Tacmach.tactic option
+)
+"plugins/subtac/eterm.ml" 213 6781 6799 "plugins/subtac/eterm.ml" 213 6781 6801
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref ev "plugins/subtac/eterm.ml" 195 6116 6143 "plugins/subtac/eterm.ml" 195 6116 6145
+)
+"plugins/subtac/eterm.ml" 213 6781 6799 "plugins/subtac/eterm.ml" 213 6781 6812
+type(
+  Dyn.t option
+)
+"plugins/subtac/eterm.ml" 214 6818 6829 "plugins/subtac/eterm.ml" 214 6818 6830
+type(
+  Dyn.t
+)
+ident(
+  def t "plugins/subtac/eterm.ml" 215 6834 6842 "plugins/subtac/eterm.ml" 218 6954 6971
+)
+"plugins/subtac/eterm.ml" 214 6818 6824 "plugins/subtac/eterm.ml" 214 6818 6830
+type(
+  Dyn.t option
+)
+"plugins/subtac/eterm.ml" 215 6834 6845 "plugins/subtac/eterm.ml" 215 6834 6852
+type(
+  Dyn.t -> string
+)
+ident(
+  ext_ref Dyn.tag
+)
+"plugins/subtac/eterm.ml" 215 6834 6853 "plugins/subtac/eterm.ml" 215 6834 6854
+type(
+  Dyn.t
+)
+ident(
+  int_ref t "plugins/subtac/eterm.ml" 214 6818 6829 "plugins/subtac/eterm.ml" 214 6818 6830
+)
+"plugins/subtac/eterm.ml" 215 6834 6845 "plugins/subtac/eterm.ml" 215 6834 6854
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 215 6834 6855 "plugins/subtac/eterm.ml" 215 6834 6856
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/subtac/eterm.ml" 215 6834 6857 "plugins/subtac/eterm.ml" 215 6834 6865
+type(
+  string
+)
+"plugins/subtac/eterm.ml" 215 6834 6845 "plugins/subtac/eterm.ml" 215 6834 6865
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 216 6871 6880 "plugins/subtac/eterm.ml" 216 6871 6896
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/subtac/eterm.ml" 217 6898 6904 "plugins/subtac/eterm.ml" 217 6898 6926
+type(
+  (Tacinterp.interp_sign -> Tacexpr.glob_tactic_expr) ->
+  Tacexpr.raw_tactic_expr
+)
+ident(
+  ext_ref Tacinterp.globTacticIn
+)
+"plugins/subtac/eterm.ml" 217 6898 6928 "plugins/subtac/eterm.ml" 217 6898 6948
+type(
+  Dyn.t -> Tacinterp.interp_sign -> Tacexpr.glob_tactic_expr
+)
+ident(
+  ext_ref Tacinterp.tactic_out
+)
+"plugins/subtac/eterm.ml" 217 6898 6949 "plugins/subtac/eterm.ml" 217 6898 6950
+type(
+  Dyn.t
+)
+ident(
+  int_ref t "plugins/subtac/eterm.ml" 214 6818 6829 "plugins/subtac/eterm.ml" 214 6818 6830
+)
+"plugins/subtac/eterm.ml" 217 6898 6927 "plugins/subtac/eterm.ml" 217 6898 6951
+call(
+  stack
+)
+type(
+  Tacinterp.interp_sign -> Tacexpr.glob_tactic_expr
+)
+"plugins/subtac/eterm.ml" 217 6898 6903 "plugins/subtac/eterm.ml" 217 6898 6952
+call(
+  stack
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+"plugins/subtac/eterm.ml" 216 6871 6879 "plugins/subtac/eterm.ml" 217 6898 6953
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/subtac/eterm.ml" 216 6871 6874 "plugins/subtac/eterm.ml" 217 6898 6953
+type(
+  Tacmach.tactic option
+)
+"plugins/subtac/eterm.ml" 218 6954 6967 "plugins/subtac/eterm.ml" 218 6954 6971
+type(
+  Tacmach.tactic option
+)
+"plugins/subtac/eterm.ml" 215 6834 6842 "plugins/subtac/eterm.ml" 218 6954 6971
+type(
+  Tacmach.tactic option
+)
+"plugins/subtac/eterm.ml" 219 6972 6978 "plugins/subtac/eterm.ml" 219 6972 6982
+type(
+  Dyn.t option
+)
+"plugins/subtac/eterm.ml" 219 6972 6986 "plugins/subtac/eterm.ml" 219 6972 6990
+type(
+  Tacmach.tactic option
+)
+"plugins/subtac/eterm.ml" 213 6781 6793 "plugins/subtac/eterm.ml" 219 6972 6990
+type(
+  Tacmach.tactic option
+)
+"plugins/subtac/eterm.ml" 221 6996 7002 "plugins/subtac/eterm.ml" 221 6996 7006
+type(
+  oblinfo
+)
+"plugins/subtac/eterm.ml" 221 6996 7022 "plugins/subtac/eterm.ml" 221 6996 7023
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/eterm.ml" 195 6116 6133 "plugins/subtac/eterm.ml" 195 6116 6134
+)
+"plugins/subtac/eterm.ml" 221 6996 7025 "plugins/subtac/eterm.ml" 221 6996 7029
+type(
+  Names.identifier
+)
+ident(
+  int_ref nstr "plugins/subtac/eterm.ml" 195 6116 6136 "plugins/subtac/eterm.ml" 195 6116 6140
+)
+"plugins/subtac/eterm.ml" 221 6996 7021 "plugins/subtac/eterm.ml" 221 6996 7030
+type(
+  int * Names.identifier
+)
+"plugins/subtac/eterm.ml" 221 6996 7042 "plugins/subtac/eterm.ml" 221 6996 7046
+type(
+  Sign.named_context
+)
+ident(
+  int_ref hyps "plugins/subtac/eterm.ml" 199 6311 6324 "plugins/subtac/eterm.ml" 199 6311 6328
+)
+"plugins/subtac/eterm.ml" 222 7049 7069 "plugins/subtac/eterm.ml" 222 7049 7075
+type(
+  Evd.obligation_definition_status
+)
+ident(
+  int_ref status "plugins/subtac/eterm.ml" 206 6570 6576 "plugins/subtac/eterm.ml" 206 6570 6582
+)
+"plugins/subtac/eterm.ml" 222 7049 7087 "plugins/subtac/eterm.ml" 222 7049 7091
+type(
+  int option
+)
+ident(
+  int_ref chop "plugins/subtac/eterm.ml" 206 6570 6584 "plugins/subtac/eterm.ml" 206 6570 6588
+)
+"plugins/subtac/eterm.ml" 223 7093 7114 "plugins/subtac/eterm.ml" 223 7093 7117
+type(
+  Util.loc
+)
+ident(
+  int_ref loc "plugins/subtac/eterm.ml" 204 6459 6465 "plugins/subtac/eterm.ml" 204 6459 6468
+)
+"plugins/subtac/eterm.ml" 223 7093 7119 "plugins/subtac/eterm.ml" 223 7093 7120
+type(
+  Evd.hole_kind
+)
+ident(
+  int_ref k "plugins/subtac/eterm.ml" 204 6459 6470 "plugins/subtac/eterm.ml" 204 6459 6471
+)
+"plugins/subtac/eterm.ml" 223 7093 7113 "plugins/subtac/eterm.ml" 223 7093 7121
+type(
+  Evd.hole_kind Util.located
+)
+"plugins/subtac/eterm.ml" 223 7093 7132 "plugins/subtac/eterm.ml" 223 7093 7137
+type(
+  Term.types
+)
+ident(
+  int_ref evtyp "plugins/subtac/eterm.ml" 199 6311 6317 "plugins/subtac/eterm.ml" 199 6311 6322
+)
+"plugins/subtac/eterm.ml" 223 7093 7150 "plugins/subtac/eterm.ml" 223 7093 7154
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref deps "plugins/subtac/eterm.ml" 198 6245 6258 "plugins/subtac/eterm.ml" 198 6245 6262
+)
+"plugins/subtac/eterm.ml" 223 7093 7165 "plugins/subtac/eterm.ml" 223 7093 7168
+type(
+  Proof_type.tactic option
+)
+ident(
+  int_ref tac "plugins/subtac/eterm.ml" 213 6781 6787 "plugins/subtac/eterm.ml" 213 6781 6790
+)
+"plugins/subtac/eterm.ml" 221 6996 7009 "plugins/subtac/eterm.ml" 223 7093 7170
+type(
+  oblinfo
+)
+"plugins/subtac/eterm.ml" 224 7171 7177 "plugins/subtac/eterm.ml" 224 7171 7179
+type(
+  Term.existential_key
+)
+ident(
+  int_ref id "plugins/subtac/eterm.ml" 195 6116 6128 "plugins/subtac/eterm.ml" 195 6116 6130
+)
+"plugins/subtac/eterm.ml" 224 7171 7181 "plugins/subtac/eterm.ml" 224 7171 7185
+type(
+  oblinfo
+)
+ident(
+  int_ref info "plugins/subtac/eterm.ml" 221 6996 7002 "plugins/subtac/eterm.ml" 221 6996 7006
+)
+"plugins/subtac/eterm.ml" 224 7171 7176 "plugins/subtac/eterm.ml" 224 7171 7186
+type(
+  Term.existential_key * oblinfo
+)
+"plugins/subtac/eterm.ml" 224 7171 7190 "plugins/subtac/eterm.ml" 224 7171 7191
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  int_ref l "plugins/subtac/eterm.ml" 195 6116 6147 "plugins/subtac/eterm.ml" 195 6116 6148
+)
+"plugins/subtac/eterm.ml" 224 7171 7176 "plugins/subtac/eterm.ml" 224 7171 7191
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 221 6996 6998 "plugins/subtac/eterm.ml" 224 7171 7191
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 213 6781 6783 "plugins/subtac/eterm.ml" 224 7171 7191
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 206 6570 6572 "plugins/subtac/eterm.ml" 224 7171 7191
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 205 6500 6502 "plugins/subtac/eterm.ml" 224 7171 7191
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 204 6459 6461 "plugins/subtac/eterm.ml" 224 7171 7191
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 199 6311 6313 "plugins/subtac/eterm.ml" 224 7171 7191
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 198 6245 6247 "plugins/subtac/eterm.ml" 224 7171 7191
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 197 6197 6199 "plugins/subtac/eterm.ml" 224 7171 7191
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 196 6152 6154 "plugins/subtac/eterm.ml" 224 7171 7191
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 195 6116 6122 "plugins/subtac/eterm.ml" 224 7171 7192
+type(
+  Term.existential_key * (int * Names.identifier) * Evd.evar_info ->
+  (Term.existential_key * oblinfo) list ->
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 225 7193 7199 "plugins/subtac/eterm.ml" 225 7193 7202
+type(
+  (Term.existential_key * (int * Names.identifier) * Evd.evar_info) list
+)
+ident(
+  int_ref evn "plugins/subtac/eterm.ml" 185 5795 5801 "plugins/subtac/eterm.ml" 185 5795 5804
+)
+"plugins/subtac/eterm.ml" 225 7193 7203 "plugins/subtac/eterm.ml" 225 7193 7205
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 194 6101 6105 "plugins/subtac/eterm.ml" 225 7193 7205
+call(
+  stack
+)
+type(
+  (Term.existential_key * oblinfo) list
+)
+"plugins/subtac/eterm.ml" 227 7211 7217 "plugins/subtac/eterm.ml" 227 7211 7219
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 227 7211 7221 "plugins/subtac/eterm.ml" 227 7211 7222
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 227 7211 7224 "plugins/subtac/eterm.ml" 227 7211 7235
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 227 7211 7217 "plugins/subtac/eterm.ml" 227 7211 7235
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 228 7290 7294 "plugins/subtac/eterm.ml" 228 7290 7311
+type(
+  (Term.existential_key * oblinfo) list ->
+  int ->
+  (Names.identifier -> Term.constr) ->
+  Term.constr -> Term.constr * Util.Intset.t * Names.Idset.t
+)
+ident(
+  int_ref subst_evar_constr "plugins/subtac/eterm.ml" 39 912 916 "plugins/subtac/eterm.ml" 39 912 933
+)
+"plugins/subtac/eterm.ml" 228 7290 7312 "plugins/subtac/eterm.ml" 228 7290 7316
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  int_ref evts "plugins/subtac/eterm.ml" 192 6003 6009 "plugins/subtac/eterm.ml" 192 6003 6013
+)
+"plugins/subtac/eterm.ml" 228 7290 7317 "plugins/subtac/eterm.ml" 228 7290 7318
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 228 7290 7319 "plugins/subtac/eterm.ml" 228 7290 7324
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Term.mkVar
+)
+"plugins/subtac/eterm.ml" 228 7290 7325 "plugins/subtac/eterm.ml" 228 7290 7326
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/subtac/eterm.ml" 177 5402 5456 "plugins/subtac/eterm.ml" 177 5402 5457
+)
+"plugins/subtac/eterm.ml" 228 7290 7294 "plugins/subtac/eterm.ml" 228 7290 7326
+call(
+  stack
+)
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 230 7333 7339 "plugins/subtac/eterm.ml" 230 7333 7341
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 230 7333 7343 "plugins/subtac/eterm.ml" 230 7333 7344
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 230 7333 7346 "plugins/subtac/eterm.ml" 230 7333 7347
+type(
+  Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 230 7333 7339 "plugins/subtac/eterm.ml" 230 7333 7347
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 230 7333 7350 "plugins/subtac/eterm.ml" 230 7333 7367
+type(
+  (Term.existential_key * oblinfo) list ->
+  int ->
+  (Names.identifier -> Term.constr) ->
+  Term.constr -> Term.constr * Util.Intset.t * Names.Idset.t
+)
+ident(
+  int_ref subst_evar_constr "plugins/subtac/eterm.ml" 39 912 916 "plugins/subtac/eterm.ml" 39 912 933
+)
+"plugins/subtac/eterm.ml" 230 7333 7368 "plugins/subtac/eterm.ml" 230 7333 7372
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  int_ref evts "plugins/subtac/eterm.ml" 192 6003 6009 "plugins/subtac/eterm.ml" 192 6003 6013
+)
+"plugins/subtac/eterm.ml" 230 7333 7373 "plugins/subtac/eterm.ml" 230 7333 7374
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 230 7333 7375 "plugins/subtac/eterm.ml" 230 7333 7380
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Term.mkVar
+)
+"plugins/subtac/eterm.ml" 230 7333 7381 "plugins/subtac/eterm.ml" 230 7333 7383
+type(
+  Term.constr
+)
+ident(
+  int_ref ty "plugins/subtac/eterm.ml" 177 5402 5458 "plugins/subtac/eterm.ml" 177 5402 5460
+)
+"plugins/subtac/eterm.ml" 230 7333 7350 "plugins/subtac/eterm.ml" 230 7333 7383
+call(
+  stack
+)
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 231 7387 7393 "plugins/subtac/eterm.ml" 231 7387 7398
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  list
+)
+"plugins/subtac/eterm.ml" 232 7402 7406 "plugins/subtac/eterm.ml" 232 7402 7414
+type(
+  (Term.existential_key * oblinfo ->
+   Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option) ->
+  (Term.existential_key * oblinfo) list ->
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/subtac/eterm.ml" 232 7402 7421 "plugins/subtac/eterm.ml" 232 7402 7423
+type(
+  Term.existential_key
+)
+ident(
+  def ev "plugins/subtac/eterm.ml" 233 7434 7440 "plugins/subtac/eterm.ml" 239 7688 7733
+)
+"plugins/subtac/eterm.ml" 232 7402 7425 "plugins/subtac/eterm.ml" 232 7402 7429
+type(
+  oblinfo
+)
+ident(
+  def info "plugins/subtac/eterm.ml" 233 7434 7440 "plugins/subtac/eterm.ml" 239 7688 7733
+)
+"plugins/subtac/eterm.ml" 232 7402 7420 "plugins/subtac/eterm.ml" 232 7402 7430
+type(
+  Term.existential_key * oblinfo
+)
+"plugins/subtac/eterm.ml" 233 7434 7457 "plugins/subtac/eterm.ml" 233 7434 7458
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 233 7434 7460 "plugins/subtac/eterm.ml" 233 7434 7464
+type(
+  Names.identifier
+)
+"plugins/subtac/eterm.ml" 233 7434 7456 "plugins/subtac/eterm.ml" 233 7434 7465
+type(
+  int * Names.identifier
+)
+"plugins/subtac/eterm.ml" 233 7434 7479 "plugins/subtac/eterm.ml" 233 7434 7485
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/eterm.ml" 234 7487 7504 "plugins/subtac/eterm.ml" 234 7487 7510
+type(
+  Evd.hole_kind Util.located
+)
+"plugins/subtac/eterm.ml" 234 7487 7521 "plugins/subtac/eterm.ml" 234 7487 7524
+type(
+  Term.types
+)
+"plugins/subtac/eterm.ml" 234 7487 7536 "plugins/subtac/eterm.ml" 234 7487 7540
+type(
+  Util.Intset.t
+)
+"plugins/subtac/eterm.ml" 234 7487 7551 "plugins/subtac/eterm.ml" 234 7487 7554
+type(
+  Proof_type.tactic option
+)
+"plugins/subtac/eterm.ml" 233 7434 7444 "plugins/subtac/eterm.ml" 234 7487 7556
+type(
+  oblinfo
+)
+"plugins/subtac/eterm.ml" 234 7487 7559 "plugins/subtac/eterm.ml" 234 7487 7563
+type(
+  oblinfo
+)
+ident(
+  int_ref info "plugins/subtac/eterm.ml" 232 7402 7425 "plugins/subtac/eterm.ml" 232 7402 7429
+)
+"plugins/subtac/eterm.ml" 236 7573 7583 "plugins/subtac/eterm.ml" 236 7573 7589
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/eterm.ml" 236 7573 7598 "plugins/subtac/eterm.ml" 236 7573 7604
+type(
+  Evd.obligation_definition_status
+)
+ident(
+  int_ref status "plugins/subtac/eterm.ml" 233 7434 7479 "plugins/subtac/eterm.ml" 233 7434 7485
+)
+"plugins/subtac/eterm.ml" 237 7610 7620 "plugins/subtac/eterm.ml" 237 7610 7624
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 237 7610 7613 "plugins/subtac/eterm.ml" 237 7610 7624
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/eterm.ml" 237 7610 7630 "plugins/subtac/eterm.ml" 237 7610 7639
+type(
+  Names.Idset.elt -> Names.Idset.t -> bool
+)
+ident(
+  ext_ref Names.Idset.mem
+)
+"plugins/subtac/eterm.ml" 237 7610 7640 "plugins/subtac/eterm.ml" 237 7610 7644
+type(
+  Names.Idset.elt
+)
+ident(
+  int_ref name "plugins/subtac/eterm.ml" 233 7434 7460 "plugins/subtac/eterm.ml" 233 7434 7464
+)
+"plugins/subtac/eterm.ml" 237 7610 7645 "plugins/subtac/eterm.ml" 237 7610 7656
+type(
+  Names.Idset.t
+)
+ident(
+  int_ref transparent "plugins/subtac/eterm.ml" 227 7211 7224 "plugins/subtac/eterm.ml" 227 7211 7235
+)
+"plugins/subtac/eterm.ml" 237 7610 7630 "plugins/subtac/eterm.ml" 237 7610 7656
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 237 7610 7667 "plugins/subtac/eterm.ml" 237 7610 7672
+type(
+  bool
+)
+"plugins/subtac/eterm.ml" 237 7610 7660 "plugins/subtac/eterm.ml" 237 7610 7672
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/eterm.ml" 237 7610 7625 "plugins/subtac/eterm.ml" 237 7610 7672
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/eterm.ml" 238 7673 7676 "plugins/subtac/eterm.ml" 238 7673 7677
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/eterm.ml" 238 7673 7681 "plugins/subtac/eterm.ml" 238 7673 7687
+type(
+  Evd.obligation_definition_status
+)
+ident(
+  int_ref status "plugins/subtac/eterm.ml" 233 7434 7479 "plugins/subtac/eterm.ml" 233 7434 7485
+)
+"plugins/subtac/eterm.ml" 236 7573 7592 "plugins/subtac/eterm.ml" 238 7673 7687
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/eterm.ml" 239 7688 7697 "plugins/subtac/eterm.ml" 239 7688 7701
+type(
+  Names.identifier
+)
+ident(
+  int_ref name "plugins/subtac/eterm.ml" 233 7434 7460 "plugins/subtac/eterm.ml" 233 7434 7464
+)
+"plugins/subtac/eterm.ml" 239 7688 7703 "plugins/subtac/eterm.ml" 239 7688 7706
+type(
+  Term.types
+)
+ident(
+  int_ref typ "plugins/subtac/eterm.ml" 234 7487 7521 "plugins/subtac/eterm.ml" 234 7487 7524
+)
+"plugins/subtac/eterm.ml" 239 7688 7708 "plugins/subtac/eterm.ml" 239 7688 7714
+type(
+  Evd.hole_kind Util.located
+)
+ident(
+  int_ref source "plugins/subtac/eterm.ml" 234 7487 7504 "plugins/subtac/eterm.ml" 234 7487 7510
+)
+"plugins/subtac/eterm.ml" 239 7688 7716 "plugins/subtac/eterm.ml" 239 7688 7722
+type(
+  Evd.obligation_definition_status
+)
+ident(
+  int_ref status "plugins/subtac/eterm.ml" 236 7573 7583 "plugins/subtac/eterm.ml" 236 7573 7589
+)
+"plugins/subtac/eterm.ml" 239 7688 7724 "plugins/subtac/eterm.ml" 239 7688 7728
+type(
+  Util.Intset.t
+)
+ident(
+  int_ref deps "plugins/subtac/eterm.ml" 234 7487 7536 "plugins/subtac/eterm.ml" 234 7487 7540
+)
+"plugins/subtac/eterm.ml" 239 7688 7730 "plugins/subtac/eterm.ml" 239 7688 7733
+type(
+  Proof_type.tactic option
+)
+ident(
+  int_ref tac "plugins/subtac/eterm.ml" 234 7487 7551 "plugins/subtac/eterm.ml" 234 7487 7554
+)
+"plugins/subtac/eterm.ml" 239 7688 7697 "plugins/subtac/eterm.ml" 239 7688 7733
+type(
+  Names.identifier * Term.types * Evd.hole_kind Util.located *
+  Evd.obligation_definition_status * Util.Intset.t * Proof_type.tactic option
+)
+"plugins/subtac/eterm.ml" 236 7573 7579 "plugins/subtac/eterm.ml" 239 7688 7733
+type(
+  Names.identifier * Term.types * Evd.hole_kind Util.located *
+  Evd.obligation_definition_status * Util.Intset.t * Proof_type.tactic option
+)
+"plugins/subtac/eterm.ml" 233 7434 7440 "plugins/subtac/eterm.ml" 239 7688 7733
+type(
+  Names.identifier * Term.types * Evd.hole_kind Util.located *
+  Evd.obligation_definition_status * Util.Intset.t * Proof_type.tactic option
+)
+"plugins/subtac/eterm.ml" 232 7402 7415 "plugins/subtac/eterm.ml" 239 7688 7734
+type(
+  Term.existential_key * oblinfo ->
+  Names.identifier * Term.types * Evd.hole_kind Util.located *
+  Evd.obligation_definition_status * Util.Intset.t * Proof_type.tactic option
+)
+"plugins/subtac/eterm.ml" 239 7688 7735 "plugins/subtac/eterm.ml" 239 7688 7739
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  int_ref evts "plugins/subtac/eterm.ml" 192 6003 6009 "plugins/subtac/eterm.ml" 192 6003 6013
+)
+"plugins/subtac/eterm.ml" 232 7402 7406 "plugins/subtac/eterm.ml" 239 7688 7739
+call(
+  stack
+)
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  list
+)
+"plugins/subtac/eterm.ml" 241 7745 7751 "plugins/subtac/eterm.ml" 241 7745 7758
+type(
+  (Term.existential_key * Names.identifier) list
+)
+"plugins/subtac/eterm.ml" 241 7745 7761 "plugins/subtac/eterm.ml" 241 7745 7769
+type(
+  (Term.existential_key * oblinfo -> Term.existential_key * Names.identifier) ->
+  (Term.existential_key * oblinfo) list ->
+  (Term.existential_key * Names.identifier) list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/subtac/eterm.ml" 241 7745 7776 "plugins/subtac/eterm.ml" 241 7745 7778
+type(
+  Term.existential_key
+)
+ident(
+  def ev "plugins/subtac/eterm.ml" 241 7745 7789 "plugins/subtac/eterm.ml" 241 7745 7809
+)
+"plugins/subtac/eterm.ml" 241 7745 7780 "plugins/subtac/eterm.ml" 241 7745 7784
+type(
+  oblinfo
+)
+ident(
+  def info "plugins/subtac/eterm.ml" 241 7745 7789 "plugins/subtac/eterm.ml" 241 7745 7809
+)
+"plugins/subtac/eterm.ml" 241 7745 7775 "plugins/subtac/eterm.ml" 241 7745 7785
+type(
+  Term.existential_key * oblinfo
+)
+"plugins/subtac/eterm.ml" 241 7745 7789 "plugins/subtac/eterm.ml" 241 7745 7791
+type(
+  Term.existential_key
+)
+ident(
+  int_ref ev "plugins/subtac/eterm.ml" 241 7745 7776 "plugins/subtac/eterm.ml" 241 7745 7778
+)
+"plugins/subtac/eterm.ml" 241 7745 7793 "plugins/subtac/eterm.ml" 241 7745 7796
+type(
+  int * Names.identifier -> Names.identifier
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/subtac/eterm.ml" 241 7745 7797 "plugins/subtac/eterm.ml" 241 7745 7801
+type(
+  oblinfo
+)
+ident(
+  int_ref info "plugins/subtac/eterm.ml" 241 7745 7780 "plugins/subtac/eterm.ml" 241 7745 7784
+)
+"plugins/subtac/eterm.ml" 241 7745 7797 "plugins/subtac/eterm.ml" 241 7745 7809
+type(
+  int * Names.identifier
+)
+"plugins/subtac/eterm.ml" 241 7745 7793 "plugins/subtac/eterm.ml" 241 7745 7809
+type(
+  Names.identifier
+)
+"plugins/subtac/eterm.ml" 241 7745 7789 "plugins/subtac/eterm.ml" 241 7745 7809
+type(
+  Term.existential_key * Names.identifier
+)
+"plugins/subtac/eterm.ml" 241 7745 7770 "plugins/subtac/eterm.ml" 241 7745 7810
+type(
+  Term.existential_key * oblinfo -> Term.existential_key * Names.identifier
+)
+"plugins/subtac/eterm.ml" 241 7745 7811 "plugins/subtac/eterm.ml" 241 7745 7815
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  int_ref evts "plugins/subtac/eterm.ml" 192 6003 6009 "plugins/subtac/eterm.ml" 192 6003 6013
+)
+"plugins/subtac/eterm.ml" 241 7745 7761 "plugins/subtac/eterm.ml" 241 7745 7815
+call(
+  stack
+)
+type(
+  (Term.existential_key * Names.identifier) list
+)
+"plugins/subtac/eterm.ml" 242 7819 7825 "plugins/subtac/eterm.ml" 242 7819 7830
+type(
+  (Names.identifier -> Term.constr) -> Term.constr -> Term.constr
+)
+"plugins/subtac/eterm.ml" 242 7819 7831 "plugins/subtac/eterm.ml" 242 7819 7832
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  def f "plugins/subtac/eterm.ml" 242 7819 7833 "plugins/subtac/eterm.ml" 242 7819 7871
+)
+"plugins/subtac/eterm.ml" 242 7819 7833 "plugins/subtac/eterm.ml" 242 7819 7834
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/subtac/eterm.ml" 242 7819 7837 "plugins/subtac/eterm.ml" 242 7819 7871
+)
+"plugins/subtac/eterm.ml" 242 7819 7837 "plugins/subtac/eterm.ml" 242 7819 7840
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t -> Term.constr
+)
+ident(
+  ext_ref Util.pi1
+)
+"plugins/subtac/eterm.ml" 242 7819 7842 "plugins/subtac/eterm.ml" 242 7819 7859
+type(
+  (Term.existential_key * oblinfo) list ->
+  int ->
+  (Names.identifier -> Term.constr) ->
+  Term.constr -> Term.constr * Util.Intset.t * Names.Idset.t
+)
+ident(
+  int_ref subst_evar_constr "plugins/subtac/eterm.ml" 39 912 916 "plugins/subtac/eterm.ml" 39 912 933
+)
+"plugins/subtac/eterm.ml" 242 7819 7860 "plugins/subtac/eterm.ml" 242 7819 7864
+type(
+  (Term.existential_key * oblinfo) list
+)
+ident(
+  int_ref evts "plugins/subtac/eterm.ml" 192 6003 6009 "plugins/subtac/eterm.ml" 192 6003 6013
+)
+"plugins/subtac/eterm.ml" 242 7819 7865 "plugins/subtac/eterm.ml" 242 7819 7866
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 242 7819 7867 "plugins/subtac/eterm.ml" 242 7819 7868
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  int_ref f "plugins/subtac/eterm.ml" 242 7819 7831 "plugins/subtac/eterm.ml" 242 7819 7832
+)
+"plugins/subtac/eterm.ml" 242 7819 7869 "plugins/subtac/eterm.ml" 242 7819 7870
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/subtac/eterm.ml" 242 7819 7833 "plugins/subtac/eterm.ml" 242 7819 7834
+)
+"plugins/subtac/eterm.ml" 242 7819 7841 "plugins/subtac/eterm.ml" 242 7819 7871
+call(
+  stack
+)
+type(
+  Term.constr * Util.Intset.t * Names.Idset.t
+)
+"plugins/subtac/eterm.ml" 242 7819 7837 "plugins/subtac/eterm.ml" 242 7819 7871
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 243 7875 7879 "plugins/subtac/eterm.ml" 243 7875 7892
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  list ->
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array
+)
+ident(
+  ext_ref Array.of_list
+)
+"plugins/subtac/eterm.ml" 243 7875 7894 "plugins/subtac/eterm.ml" 243 7875 7902
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  list ->
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/subtac/eterm.ml" 243 7875 7903 "plugins/subtac/eterm.ml" 243 7875 7908
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  list
+)
+ident(
+  int_ref evars "plugins/subtac/eterm.ml" 231 7387 7393 "plugins/subtac/eterm.ml" 231 7387 7398
+)
+"plugins/subtac/eterm.ml" 243 7875 7893 "plugins/subtac/eterm.ml" 243 7875 7909
+call(
+  stack
+)
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  list
+)
+"plugins/subtac/eterm.ml" 243 7875 7879 "plugins/subtac/eterm.ml" 243 7875 7909
+call(
+  stack
+)
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array
+)
+"plugins/subtac/eterm.ml" 243 7875 7912 "plugins/subtac/eterm.ml" 243 7875 7919
+type(
+  (Term.existential_key * Names.identifier) list
+)
+ident(
+  int_ref evnames "plugins/subtac/eterm.ml" 241 7745 7751 "plugins/subtac/eterm.ml" 241 7745 7758
+)
+"plugins/subtac/eterm.ml" 243 7875 7921 "plugins/subtac/eterm.ml" 243 7875 7926
+type(
+  (Names.identifier -> Term.constr) -> Term.constr -> Term.constr
+)
+ident(
+  int_ref evmap "plugins/subtac/eterm.ml" 242 7819 7825 "plugins/subtac/eterm.ml" 242 7819 7830
+)
+"plugins/subtac/eterm.ml" 243 7875 7911 "plugins/subtac/eterm.ml" 243 7875 7927
+type(
+  (Term.existential_key * Names.identifier) list *
+  ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)
+)
+"plugins/subtac/eterm.ml" 243 7875 7929 "plugins/subtac/eterm.ml" 243 7875 7931
+type(
+  Term.constr
+)
+ident(
+  int_ref t' "plugins/subtac/eterm.ml" 227 7211 7217 "plugins/subtac/eterm.ml" 227 7211 7219
+)
+"plugins/subtac/eterm.ml" 243 7875 7933 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  Term.constr
+)
+ident(
+  int_ref ty "plugins/subtac/eterm.ml" 230 7333 7339 "plugins/subtac/eterm.ml" 230 7333 7341
+)
+"plugins/subtac/eterm.ml" 243 7875 7879 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 242 7819 7821 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 241 7745 7747 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 231 7387 7389 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 230 7333 7335 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 227 7211 7213 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 192 6003 6005 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 185 5795 5797 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 184 5738 5740 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 183 5700 5702 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 182 5619 5621 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 181 5581 5583 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 180 5534 5536 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 179 5494 5496 "plugins/subtac/eterm.ml" 243 7875 7935
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.constr
+)
+"plugins/subtac/eterm.ml" 245 7937 7941 "plugins/subtac/eterm.ml" 245 7937 7948
+type(
+  int -> Term.constr list
+)
+ident(
+  def mkMetas "plugins/subtac/eterm.ml" 245 7937 8003 --
+)
+"plugins/subtac/eterm.ml" 245 7937 7949 "plugins/subtac/eterm.ml" 245 7937 7950
+type(
+  int
+)
+ident(
+  def n "plugins/subtac/eterm.ml" 245 7937 7953 "plugins/subtac/eterm.ml" 245 7937 8003
+)
+"plugins/subtac/eterm.ml" 245 7937 7953 "plugins/subtac/eterm.ml" 245 7937 7966
+type(
+  (int -> Term.constr) -> int -> Term.constr list
+)
+ident(
+  ext_ref Util.list_tabulate
+)
+"plugins/subtac/eterm.ml" 245 7937 7972 "plugins/subtac/eterm.ml" 245 7937 7973
+type(
+  int
+)
+"plugins/subtac/eterm.ml" 245 7937 7977 "plugins/subtac/eterm.ml" 245 7937 7997
+type(
+  unit -> Term.constr
+)
+ident(
+  ext_ref Evarutil.mk_new_meta
+)
+"plugins/subtac/eterm.ml" 245 7937 7998 "plugins/subtac/eterm.ml" 245 7937 8000
+type(
+  unit
+)
+"plugins/subtac/eterm.ml" 245 7937 7977 "plugins/subtac/eterm.ml" 245 7937 8000
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/subtac/eterm.ml" 245 7937 7967 "plugins/subtac/eterm.ml" 245 7937 8001
+type(
+  int -> Term.constr
+)
+"plugins/subtac/eterm.ml" 245 7937 8002 "plugins/subtac/eterm.ml" 245 7937 8003
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/eterm.ml" 245 7937 7949 "plugins/subtac/eterm.ml" 245 7937 7950
+)
+"plugins/subtac/eterm.ml" 245 7937 7953 "plugins/subtac/eterm.ml" 245 7937 8003
+call(
+  tail
+)
+type(
+  Term.constr list
+)

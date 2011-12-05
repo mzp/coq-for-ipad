@@ -1,0 +1,5 @@
+let _=Mltop.add_known_module"Omega" 
+let _=Mltop.add_known_module"Coq_omega" 
+let _=Mltop.add_known_module"G_omega" 
+let _=Mltop.add_known_module"Omega_plugin_mod" 
+let _=Mltop.add_known_module"omega_plugin"

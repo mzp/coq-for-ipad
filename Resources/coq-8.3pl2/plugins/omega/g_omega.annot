@@ -1,0 +1,1097 @@
+"plugins/omega/g_omega.ml4" 23 1199 1203 "plugins/omega/g_omega.ml4" 23 1199 1215
+type(
+  string list -> Proof_type.tactic
+)
+ident(
+  def omega_tactic "plugins/omega/g_omega.ml4" 38 1675 1675 --
+)
+"plugins/omega/g_omega.ml4" 23 1199 1216 "plugins/omega/g_omega.ml4" 23 1199 1217
+type(
+  string list
+)
+ident(
+  def l "plugins/omega/g_omega.ml4" 24 1220 1222 "plugins/omega/g_omega.ml4" 24 1220 1672
+)
+"plugins/omega/g_omega.ml4" 24 1220 1226 "plugins/omega/g_omega.ml4" 24 1220 1230
+type(
+  Tacmach.tactic list
+)
+"plugins/omega/g_omega.ml4" 24 1220 1233 "plugins/omega/g_omega.ml4" 24 1220 1241
+type(
+  (string -> Tacmach.tactic) -> string list -> Tacmach.tactic list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/omega/g_omega.ml4" 26 1256 1265 "plugins/omega/g_omega.ml4" 26 1256 1270
+type(
+  string
+)
+"plugins/omega/g_omega.ml4" 26 1256 1274 "plugins/omega/g_omega.ml4" 26 1256 1290
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/omega/g_omega.ml4" 26 1256 1291 "plugins/omega/g_omega.ml4" 26 1256 1310
+call(
+  stack
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+"plugins/omega/g_omega.ml4" 26 1256 1274 "plugins/omega/g_omega.ml4" 26 1256 1310
+call(
+  tail
+)
+type(
+  Tacmach.tactic
+)
+"plugins/omega/g_omega.ml4" 27 1311 1320 "plugins/omega/g_omega.ml4" 27 1311 1330
+type(
+  string
+)
+"plugins/omega/g_omega.ml4" 27 1311 1334 "plugins/omega/g_omega.ml4" 27 1311 1350
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/omega/g_omega.ml4" 27 1311 1351 "plugins/omega/g_omega.ml4" 27 1311 1375
+call(
+  stack
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+"plugins/omega/g_omega.ml4" 27 1311 1334 "plugins/omega/g_omega.ml4" 27 1311 1375
+call(
+  tail
+)
+type(
+  Tacmach.tactic
+)
+"plugins/omega/g_omega.ml4" 28 1376 1385 "plugins/omega/g_omega.ml4" 28 1376 1388
+type(
+  string
+)
+"plugins/omega/g_omega.ml4" 28 1376 1392 "plugins/omega/g_omega.ml4" 28 1376 1408
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/omega/g_omega.ml4" 28 1376 1409 "plugins/omega/g_omega.ml4" 28 1376 1426
+call(
+  stack
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+"plugins/omega/g_omega.ml4" 28 1376 1392 "plugins/omega/g_omega.ml4" 28 1376 1426
+call(
+  tail
+)
+type(
+  Tacmach.tactic
+)
+"plugins/omega/g_omega.ml4" 29 1427 1436 "plugins/omega/g_omega.ml4" 29 1427 1439
+type(
+  string
+)
+"plugins/omega/g_omega.ml4" 29 1427 1443 "plugins/omega/g_omega.ml4" 29 1427 1459
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/omega/g_omega.ml4" 29 1427 1460 "plugins/omega/g_omega.ml4" 29 1427 1478
+call(
+  stack
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+"plugins/omega/g_omega.ml4" 29 1427 1443 "plugins/omega/g_omega.ml4" 29 1427 1478
+call(
+  tail
+)
+type(
+  Tacmach.tactic
+)
+"plugins/omega/g_omega.ml4" 30 1479 1488 "plugins/omega/g_omega.ml4" 30 1479 1489
+type(
+  string
+)
+ident(
+  def s "plugins/omega/g_omega.ml4" 30 1479 1493 "plugins/omega/g_omega.ml4" 30 1479 1543
+)
+"plugins/omega/g_omega.ml4" 30 1479 1493 "plugins/omega/g_omega.ml4" 30 1479 1503
+type(
+  string -> Tacmach.tactic
+)
+ident(
+  ext_ref Util.error
+)
+"plugins/omega/g_omega.ml4" 30 1479 1505 "plugins/omega/g_omega.ml4" 30 1479 1540
+type(
+  string
+)
+"plugins/omega/g_omega.ml4" 30 1479 1541 "plugins/omega/g_omega.ml4" 30 1479 1542
+type(
+  string
+)
+ident(
+  int_ref s "plugins/omega/g_omega.ml4" 30 1479 1488 "plugins/omega/g_omega.ml4" 30 1479 1489
+)
+"plugins/omega/g_omega.ml4" 30 1479 1505 "plugins/omega/g_omega.ml4" 30 1479 1542
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/omega/g_omega.ml4" 30 1479 1493 "plugins/omega/g_omega.ml4" 30 1479 1543
+call(
+  tail
+)
+type(
+  Tacmach.tactic
+)
+"plugins/omega/g_omega.ml4" 25 1242 1247 "plugins/omega/g_omega.ml4" 25 1242 1543
+type(
+  string -> Tacmach.tactic
+)
+"plugins/omega/g_omega.ml4" 31 1545 1550 "plugins/omega/g_omega.ml4" 31 1545 1568
+type(
+  string list -> string list
+)
+ident(
+  ext_ref Util.list_uniquize
+)
+"plugins/omega/g_omega.ml4" 31 1545 1570 "plugins/omega/g_omega.ml4" 31 1545 1579
+type(
+  (string -> string -> int) -> string list -> string list
+)
+ident(
+  ext_ref List.sort
+)
+"plugins/omega/g_omega.ml4" 31 1545 1580 "plugins/omega/g_omega.ml4" 31 1545 1587
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"plugins/omega/g_omega.ml4" 31 1545 1588 "plugins/omega/g_omega.ml4" 31 1545 1589
+type(
+  string list
+)
+ident(
+  int_ref l "plugins/omega/g_omega.ml4" 23 1199 1216 "plugins/omega/g_omega.ml4" 23 1199 1217
+)
+"plugins/omega/g_omega.ml4" 31 1545 1570 "plugins/omega/g_omega.ml4" 31 1545 1589
+call(
+  stack
+)
+type(
+  string list
+)
+"plugins/omega/g_omega.ml4" 31 1545 1550 "plugins/omega/g_omega.ml4" 31 1545 1590
+call(
+  stack
+)
+type(
+  string list
+)
+"plugins/omega/g_omega.ml4" 24 1220 1233 "plugins/omega/g_omega.ml4" 24 1220 1591
+call(
+  stack
+)
+type(
+  Tacmach.tactic list
+)
+"plugins/omega/g_omega.ml4" 33 1597 1599 "plugins/omega/g_omega.ml4" 33 1597 1606
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.tclTHEN
+)
+"plugins/omega/g_omega.ml4" 34 1607 1612 "plugins/omega/g_omega.ml4" 34 1607 1621
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.tclREPEAT
+)
+"plugins/omega/g_omega.ml4" 34 1607 1623 "plugins/omega/g_omega.ml4" 34 1607 1634
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.tclPROGRESS
+)
+"plugins/omega/g_omega.ml4" 34 1607 1636 "plugins/omega/g_omega.ml4" 34 1607 1647
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.tclTHENLIST
+)
+"plugins/omega/g_omega.ml4" 34 1607 1648 "plugins/omega/g_omega.ml4" 34 1607 1652
+type(
+  Proof_type.tactic list
+)
+ident(
+  int_ref tacs "plugins/omega/g_omega.ml4" 24 1220 1226 "plugins/omega/g_omega.ml4" 24 1220 1230
+)
+"plugins/omega/g_omega.ml4" 34 1607 1636 "plugins/omega/g_omega.ml4" 34 1607 1652
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/omega/g_omega.ml4" 34 1607 1623 "plugins/omega/g_omega.ml4" 34 1607 1653
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/omega/g_omega.ml4" 34 1607 1612 "plugins/omega/g_omega.ml4" 34 1607 1654
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/omega/g_omega.ml4" 35 1656 1660 "plugins/omega/g_omega.ml4" 35 1656 1672
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Coq_omega.omega_solver
+)
+"plugins/omega/g_omega.ml4" 33 1597 1599 "plugins/omega/g_omega.ml4" 33 1597 1672
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/omega/g_omega.ml4" 24 1220 1222 "plugins/omega/g_omega.ml4" 24 1220 1672
+type(
+  Proof_type.tactic
+)
+"plugins/omega/g_omega.ml4" 23 1199 1216 "plugins/omega/g_omega.ml4" 23 1199 1672
+type(
+  string list -> Proof_type.tactic
+)
+"plugins/omega/g_omega.ml4" 39 1695 1715 "plugins/omega/g_omega.ml4" 39 1695 1727
+type(
+  string list -> Proof_type.tactic
+)
+ident(
+  int_ref omega_tactic "plugins/omega/g_omega.ml4" 23 1199 1203 "plugins/omega/g_omega.ml4" 23 1199 1215
+)
+type(
+  string list -> Proof_type.tactic
+)
+ident(
+  int_ref omega_tactic "plugins/omega/g_omega.ml4" 23 1199 1203 "plugins/omega/g_omega.ml4" 23 1199 1215
+)
+"plugins/omega/g_omega.ml4" 39 1695 1728 "plugins/omega/g_omega.ml4" 39 1695 1730
+type(
+  string list
+)
+type(
+  string list
+)
+"plugins/omega/g_omega.ml4" 39 1695 1715 "plugins/omega/g_omega.ml4" 39 1695 1730
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+"plugins/omega/g_omega.ml4" 38 1675 1675 "plugins/omega/g_omega.ml4" 38 1675 1736
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/omega/g_omega.ml4" 38 1675 1675 "plugins/omega/g_omega.ml4" 38 1675 1736
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/omega/g_omega.ml4" 38 1675 1675 "plugins/omega/g_omega.ml4" 38 1675 1736
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/omega/g_omega.ml4" 38 1675 1675 "plugins/omega/g_omega.ml4" 38 1675 1736
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/omega/g_omega.ml4" 38 1675 1675 "plugins/omega/g_omega.ml4" 38 1675 1736
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/omega/g_omega.ml4" 38 1675 1675 "plugins/omega/g_omega.ml4" 38 1675 1736
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_omega "plugins/omega/g_omega.ml4" 38 1675 1675 --
+)
+"plugins/omega/g_omega.ml4" 43 1759 1778 "plugins/omega/g_omega.ml4" 43 1759 1794
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/omega/g_omega.ml4" 44 1800 1806 "plugins/omega/g_omega.ml4" 44 1800 1818
+type(
+  string list -> Proof_type.tactic
+)
+ident(
+  int_ref omega_tactic "plugins/omega/g_omega.ml4" 23 1199 1203 "plugins/omega/g_omega.ml4" 23 1199 1215
+)
+"plugins/omega/g_omega.ml4" 44 1800 1820 "plugins/omega/g_omega.ml4" 44 1800 1828
+type(
+  (Names.identifier -> string) -> Names.identifier list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/omega/g_omega.ml4" 44 1800 1829 "plugins/omega/g_omega.ml4" 44 1800 1847
+type(
+  Names.identifier -> string
+)
+ident(
+  ext_ref Names.string_of_id
+)
+"plugins/omega/g_omega.ml4" 44 1800 1848 "plugins/omega/g_omega.ml4" 44 1800 1849
+type(
+  Names.identifier list
+)
+ident(
+  int_ref l "plugins/omega/g_omega.ml4" 43 1759 1778 "plugins/omega/g_omega.ml4" 43 1759 1850
+)
+"plugins/omega/g_omega.ml4" 44 1800 1820 "plugins/omega/g_omega.ml4" 44 1800 1849
+call(
+  stack
+)
+type(
+  string list
+)
+"plugins/omega/g_omega.ml4" 44 1800 1806 "plugins/omega/g_omega.ml4" 44 1800 1850
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  bool
+)
+"plugins/omega/g_omega.ml4" 43 1759 1778 "plugins/omega/g_omega.ml4" 43 1759 1850
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Names.identifier list
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Names.identifier list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/omega/g_omega.ml4" 45 1853 1883 "plugins/omega/g_omega.ml4" 45 1853 1895
+type(
+  string list -> Proof_type.tactic
+)
+ident(
+  int_ref omega_tactic "plugins/omega/g_omega.ml4" 23 1199 1203 "plugins/omega/g_omega.ml4" 23 1199 1215
+)
+"plugins/omega/g_omega.ml4" 45 1853 1897 "plugins/omega/g_omega.ml4" 45 1853 1902
+type(
+  string
+)
+"plugins/omega/g_omega.ml4" 45 1853 1903 "plugins/omega/g_omega.ml4" 45 1853 1913
+type(
+  string
+)
+"plugins/omega/g_omega.ml4" 45 1853 1914 "plugins/omega/g_omega.ml4" 45 1853 1917
+type(
+  string
+)
+"plugins/omega/g_omega.ml4" 45 1853 1918 "plugins/omega/g_omega.ml4" 45 1853 1921
+type(
+  string
+)
+"plugins/omega/g_omega.ml4" 45 1853 1896 "plugins/omega/g_omega.ml4" 45 1853 1922
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list
+)
+"plugins/omega/g_omega.ml4" 45 1853 1883 "plugins/omega/g_omega.ml4" 45 1853 1922
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+type(
+  bool
+)
+"plugins/omega/g_omega.ml4" 42 1738 1738 "plugins/omega/g_omega.ml4" 42 1738 1928
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/omega/g_omega.ml4" 42 1738 1738 "plugins/omega/g_omega.ml4" 42 1738 1928
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/omega/g_omega.ml4" 42 1738 1738 "plugins/omega/g_omega.ml4" 42 1738 1928
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/omega/g_omega.ml4" 42 1738 1738 "plugins/omega/g_omega.ml4" 42 1738 1928
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/omega/g_omega.ml4" 42 1738 1738 "plugins/omega/g_omega.ml4" 42 1738 1928
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/omega/g_omega.ml4" 42 1738 1738 "plugins/omega/g_omega.ml4" 42 1738 1928
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)

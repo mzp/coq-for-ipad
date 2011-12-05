@@ -1,0 +1,252 @@
+"plugins/xml/xml_plugin_mod.ml" 1 0 6 "plugins/xml/xml_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 1 0 28 "plugins/xml/xml_plugin_mod.ml" 1 0 37
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 1 0 6 "plugins/xml/xml_plugin_mod.ml" 1 0 37
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 2 39 45 "plugins/xml/xml_plugin_mod.ml" 2 39 67
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 2 39 67 "plugins/xml/xml_plugin_mod.ml" 2 39 72
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 2 39 45 "plugins/xml/xml_plugin_mod.ml" 2 39 72
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 3 74 80 "plugins/xml/xml_plugin_mod.ml" 3 74 102
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 3 74 102 "plugins/xml/xml_plugin_mod.ml" 3 74 108
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 3 74 80 "plugins/xml/xml_plugin_mod.ml" 3 74 108
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 4 110 116 "plugins/xml/xml_plugin_mod.ml" 4 110 138
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 4 110 138 "plugins/xml/xml_plugin_mod.ml" 4 110 159
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 4 110 116 "plugins/xml/xml_plugin_mod.ml" 4 110 159
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 5 161 167 "plugins/xml/xml_plugin_mod.ml" 5 161 189
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 5 161 189 "plugins/xml/xml_plugin_mod.ml" 5 161 199
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 5 161 167 "plugins/xml/xml_plugin_mod.ml" 5 161 199
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 6 201 207 "plugins/xml/xml_plugin_mod.ml" 6 201 229
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 6 201 229 "plugins/xml/xml_plugin_mod.ml" 6 201 239
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 6 201 207 "plugins/xml/xml_plugin_mod.ml" 6 201 239
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 7 241 247 "plugins/xml/xml_plugin_mod.ml" 7 241 269
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 7 241 269 "plugins/xml/xml_plugin_mod.ml" 7 241 283
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 7 241 247 "plugins/xml/xml_plugin_mod.ml" 7 241 283
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 8 285 291 "plugins/xml/xml_plugin_mod.ml" 8 285 313
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 8 285 313 "plugins/xml/xml_plugin_mod.ml" 8 285 325
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 8 285 291 "plugins/xml/xml_plugin_mod.ml" 8 285 325
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 9 327 333 "plugins/xml/xml_plugin_mod.ml" 9 327 355
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 9 327 355 "plugins/xml/xml_plugin_mod.ml" 9 327 370
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 9 327 333 "plugins/xml/xml_plugin_mod.ml" 9 327 370
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 10 372 378 "plugins/xml/xml_plugin_mod.ml" 10 372 400
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 10 372 400 "plugins/xml/xml_plugin_mod.ml" 10 372 412
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 10 372 378 "plugins/xml/xml_plugin_mod.ml" 10 372 412
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 11 414 420 "plugins/xml/xml_plugin_mod.ml" 11 414 442
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 11 414 442 "plugins/xml/xml_plugin_mod.ml" 11 414 451
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 11 414 420 "plugins/xml/xml_plugin_mod.ml" 11 414 451
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 12 453 459 "plugins/xml/xml_plugin_mod.ml" 12 453 481
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 12 453 481 "plugins/xml/xml_plugin_mod.ml" 12 453 491
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 12 453 459 "plugins/xml/xml_plugin_mod.ml" 12 453 491
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 13 493 499 "plugins/xml/xml_plugin_mod.ml" 13 493 521
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 13 493 521 "plugins/xml/xml_plugin_mod.ml" 13 493 537
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 13 493 499 "plugins/xml/xml_plugin_mod.ml" 13 493 537
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml_plugin_mod.ml" 14 539 545 "plugins/xml/xml_plugin_mod.ml" 14 539 567
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/xml/xml_plugin_mod.ml" 14 539 567 "plugins/xml/xml_plugin_mod.ml" 14 539 579
+type(
+  string
+)
+"plugins/xml/xml_plugin_mod.ml" 14 539 545 "plugins/xml/xml_plugin_mod.ml" 14 539 579
+call(
+  stack
+)
+type(
+  unit
+)

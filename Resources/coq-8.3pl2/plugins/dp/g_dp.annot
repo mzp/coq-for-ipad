@@ -1,0 +1,3092 @@
+"plugins/dp/g_dp.ml4" 16 660 682 "plugins/dp/g_dp.ml4" 16 660 690
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.simplify
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.simplify
+)
+"plugins/dp/g_dp.ml4" 15 637 637 "plugins/dp/g_dp.ml4" 15 637 696
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 15 637 637 "plugins/dp/g_dp.ml4" 15 637 696
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 15 637 637 "plugins/dp/g_dp.ml4" 15 637 696
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 15 637 637 "plugins/dp/g_dp.ml4" 15 637 696
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 15 637 637 "plugins/dp/g_dp.ml4" 15 637 696
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/dp/g_dp.ml4" 15 637 637 "plugins/dp/g_dp.ml4" 15 637 696
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_Simplify "plugins/dp/g_dp.ml4" 15 637 637 --
+)
+"plugins/dp/g_dp.ml4" 20 717 735 "plugins/dp/g_dp.ml4" 20 717 739
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.ergo
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.ergo
+)
+"plugins/dp/g_dp.ml4" 19 698 698 "plugins/dp/g_dp.ml4" 19 698 745
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 19 698 698 "plugins/dp/g_dp.ml4" 19 698 745
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 19 698 698 "plugins/dp/g_dp.ml4" 19 698 745
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 19 698 698 "plugins/dp/g_dp.ml4" 19 698 745
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 19 698 698 "plugins/dp/g_dp.ml4" 19 698 745
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/dp/g_dp.ml4" 19 698 698 "plugins/dp/g_dp.ml4" 19 698 745
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_Ergo "plugins/dp/g_dp.ml4" 19 698 698 --
+)
+"plugins/dp/g_dp.ml4" 24 767 786 "plugins/dp/g_dp.ml4" 24 767 791
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.yices
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.yices
+)
+"plugins/dp/g_dp.ml4" 23 747 747 "plugins/dp/g_dp.ml4" 23 747 797
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 23 747 747 "plugins/dp/g_dp.ml4" 23 747 797
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 23 747 747 "plugins/dp/g_dp.ml4" 23 747 797
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 23 747 747 "plugins/dp/g_dp.ml4" 23 747 797
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 23 747 747 "plugins/dp/g_dp.ml4" 23 747 797
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/dp/g_dp.ml4" 23 747 747 "plugins/dp/g_dp.ml4" 23 747 797
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_Yices "plugins/dp/g_dp.ml4" 23 747 747 --
+)
+"plugins/dp/g_dp.ml4" 28 818 836 "plugins/dp/g_dp.ml4" 28 818 840
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.cvc3
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.cvc3
+)
+"plugins/dp/g_dp.ml4" 27 799 799 "plugins/dp/g_dp.ml4" 27 799 846
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 27 799 799 "plugins/dp/g_dp.ml4" 27 799 846
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 27 799 799 "plugins/dp/g_dp.ml4" 27 799 846
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 27 799 799 "plugins/dp/g_dp.ml4" 27 799 846
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 27 799 799 "plugins/dp/g_dp.ml4" 27 799 846
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/dp/g_dp.ml4" 27 799 799 "plugins/dp/g_dp.ml4" 27 799 846
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_CVC3 "plugins/dp/g_dp.ml4" 27 799 799 --
+)
+"plugins/dp/g_dp.ml4" 32 865 881 "plugins/dp/g_dp.ml4" 32 865 883
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.z3
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.z3
+)
+"plugins/dp/g_dp.ml4" 31 848 848 "plugins/dp/g_dp.ml4" 31 848 889
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 31 848 848 "plugins/dp/g_dp.ml4" 31 848 889
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 31 848 848 "plugins/dp/g_dp.ml4" 31 848 889
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 31 848 848 "plugins/dp/g_dp.ml4" 31 848 889
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 31 848 848 "plugins/dp/g_dp.ml4" 31 848 889
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/dp/g_dp.ml4" 31 848 848 "plugins/dp/g_dp.ml4" 31 848 889
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_Z3 "plugins/dp/g_dp.ml4" 31 848 848 --
+)
+"plugins/dp/g_dp.ml4" 36 913 931 "plugins/dp/g_dp.ml4" 36 913 939
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.cvc_lite
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.cvc_lite
+)
+"plugins/dp/g_dp.ml4" 35 891 891 "plugins/dp/g_dp.ml4" 35 891 945
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 35 891 891 "plugins/dp/g_dp.ml4" 35 891 945
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 35 891 891 "plugins/dp/g_dp.ml4" 35 891 945
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 35 891 891 "plugins/dp/g_dp.ml4" 35 891 945
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 35 891 891 "plugins/dp/g_dp.ml4" 35 891 945
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/dp/g_dp.ml4" 35 891 891 "plugins/dp/g_dp.ml4" 35 891 945
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_CVCLite "plugins/dp/g_dp.ml4" 35 891 891 --
+)
+"plugins/dp/g_dp.ml4" 40 968 988 "plugins/dp/g_dp.ml4" 40 968 994
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.harvey
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.harvey
+)
+"plugins/dp/g_dp.ml4" 39 947 947 "plugins/dp/g_dp.ml4" 39 947 1000
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 39 947 947 "plugins/dp/g_dp.ml4" 39 947 1000
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 39 947 947 "plugins/dp/g_dp.ml4" 39 947 1000
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 39 947 947 "plugins/dp/g_dp.ml4" 39 947 1000
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 39 947 947 "plugins/dp/g_dp.ml4" 39 947 1000
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/dp/g_dp.ml4" 39 947 947 "plugins/dp/g_dp.ml4" 39 947 1000
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_Harvey "plugins/dp/g_dp.ml4" 39 947 947 --
+)
+"plugins/dp/g_dp.ml4" 44 1022 1041 "plugins/dp/g_dp.ml4" 44 1022 1046
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.zenon
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.zenon
+)
+"plugins/dp/g_dp.ml4" 43 1002 1002 "plugins/dp/g_dp.ml4" 43 1002 1052
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 43 1002 1002 "plugins/dp/g_dp.ml4" 43 1002 1052
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 43 1002 1002 "plugins/dp/g_dp.ml4" 43 1002 1052
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 43 1002 1002 "plugins/dp/g_dp.ml4" 43 1002 1052
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 43 1002 1002 "plugins/dp/g_dp.ml4" 43 1002 1052
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/dp/g_dp.ml4" 43 1002 1002 "plugins/dp/g_dp.ml4" 43 1002 1052
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_Zenon "plugins/dp/g_dp.ml4" 43 1002 1002 --
+)
+"plugins/dp/g_dp.ml4" 48 1073 1091 "plugins/dp/g_dp.ml4" 48 1073 1095
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.gwhy
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Dp.gwhy
+)
+"plugins/dp/g_dp.ml4" 47 1054 1054 "plugins/dp/g_dp.ml4" 47 1054 1101
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 47 1054 1054 "plugins/dp/g_dp.ml4" 47 1054 1101
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 47 1054 1054 "plugins/dp/g_dp.ml4" 47 1054 1101
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 47 1054 1054 "plugins/dp/g_dp.ml4" 47 1054 1101
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 47 1054 1054 "plugins/dp/g_dp.ml4" 47 1054 1101
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/dp/g_dp.ml4" 47 1054 1054 "plugins/dp/g_dp.ml4" 47 1054 1101
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_Gwhy "plugins/dp/g_dp.ml4" 47 1054 1054 --
+)
+"plugins/dp/g_dp.ml4" 53 1168 1190 "plugins/dp/g_dp.ml4" 53 1168 1215
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.admit_as_an_axiom
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.admit_as_an_axiom
+)
+"plugins/dp/g_dp.ml4" 52 1148 1148 "plugins/dp/g_dp.ml4" 52 1148 1221
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 52 1148 1148 "plugins/dp/g_dp.ml4" 52 1148 1221
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 52 1148 1148 "plugins/dp/g_dp.ml4" 52 1148 1221
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 52 1148 1148 "plugins/dp/g_dp.ml4" 52 1148 1221
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 52 1148 1148 "plugins/dp/g_dp.ml4" 52 1148 1221
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/dp/g_dp.ml4" 52 1148 1148 "plugins/dp/g_dp.ml4" 52 1148 1221
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_admit "plugins/dp/g_dp.ml4" 52 1148 1148 --
+)
+"plugins/dp/g_dp.ml4" 57 1253 1267 "plugins/dp/g_dp.ml4" 57 1253 1284
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/dp/g_dp.ml4" 57 1253 1292 "plugins/dp/g_dp.ml4" 57 1253 1299
+type(
+  Libnames.reference list -> unit
+)
+ident(
+  ext_ref Dp.dp_hint
+)
+"plugins/dp/g_dp.ml4" 57 1253 1300 "plugins/dp/g_dp.ml4" 57 1253 1301
+type(
+  Libnames.reference list
+)
+ident(
+  int_ref l "plugins/dp/g_dp.ml4" 57 1253 1255 "plugins/dp/g_dp.ml4" 57 1253 1303
+)
+"plugins/dp/g_dp.ml4" 57 1253 1292 "plugins/dp/g_dp.ml4" 57 1253 1301
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/g_dp.ml4" 57 1253 1255 "plugins/dp/g_dp.ml4" 57 1253 1303
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Libnames.reference list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/dp/g_dp.ml4" 56 1223 1223 "plugins/dp/g_dp.ml4" 56 1223 1307
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 56 1223 1223 "plugins/dp/g_dp.ml4" 56 1223 1307
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 56 1223 1223 "plugins/dp/g_dp.ml4" 56 1223 1307
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/dp/g_dp.ml4" 61 1342 1359 "plugins/dp/g_dp.ml4" 61 1342 1369
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/dp/g_dp.ml4" 61 1342 1377 "plugins/dp/g_dp.ml4" 61 1342 1387
+type(
+  int -> unit
+)
+ident(
+  ext_ref Dp.dp_timeout
+)
+"plugins/dp/g_dp.ml4" 61 1342 1388 "plugins/dp/g_dp.ml4" 61 1342 1389
+type(
+  int
+)
+ident(
+  int_ref n "plugins/dp/g_dp.ml4" 61 1342 1344 "plugins/dp/g_dp.ml4" 61 1342 1391
+)
+"plugins/dp/g_dp.ml4" 61 1342 1377 "plugins/dp/g_dp.ml4" 61 1342 1389
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/g_dp.ml4" 61 1342 1344 "plugins/dp/g_dp.ml4" 61 1342 1391
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  int
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref n "" -1 0 0 "" -1 0 0
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_int
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> int
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  int
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref n "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/dp/g_dp.ml4" 60 1309 1309 "plugins/dp/g_dp.ml4" 60 1309 1395
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 60 1309 1309 "plugins/dp/g_dp.ml4" 60 1309 1395
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 60 1309 1309 "plugins/dp/g_dp.ml4" 60 1309 1395
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/dp/g_dp.ml4" 65 1430 1447 "plugins/dp/g_dp.ml4" 65 1430 1461
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/dp/g_dp.ml4" 65 1430 1469 "plugins/dp/g_dp.ml4" 65 1430 1479
+type(
+  string list -> unit
+)
+ident(
+  ext_ref Dp.dp_prelude
+)
+"plugins/dp/g_dp.ml4" 65 1430 1480 "plugins/dp/g_dp.ml4" 65 1430 1481
+type(
+  string list
+)
+ident(
+  int_ref l "plugins/dp/g_dp.ml4" 65 1430 1432 "plugins/dp/g_dp.ml4" 65 1430 1483
+)
+"plugins/dp/g_dp.ml4" 65 1430 1469 "plugins/dp/g_dp.ml4" 65 1430 1481
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/g_dp.ml4" 65 1430 1432 "plugins/dp/g_dp.ml4" 65 1430 1483
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  string list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (string list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_string
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (string list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (string list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/dp/g_dp.ml4" 64 1397 1397 "plugins/dp/g_dp.ml4" 64 1397 1487
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 64 1397 1397 "plugins/dp/g_dp.ml4" 64 1397 1487
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 64 1397 1397 "plugins/dp/g_dp.ml4" 64 1397 1487
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/dp/g_dp.ml4" 69 1525 1545 "plugins/dp/g_dp.ml4" 69 1525 1554
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/dp/g_dp.ml4" 69 1525 1560 "plugins/dp/g_dp.ml4" 69 1525 1569
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/dp/g_dp.ml4" 69 1525 1577 "plugins/dp/g_dp.ml4" 69 1525 1590
+type(
+  Libnames.reference -> string -> unit
+)
+ident(
+  ext_ref Dp.dp_predefined
+)
+"plugins/dp/g_dp.ml4" 69 1525 1591 "plugins/dp/g_dp.ml4" 69 1525 1592
+type(
+  Libnames.reference
+)
+ident(
+  int_ref g "plugins/dp/g_dp.ml4" 69 1525 1527 "plugins/dp/g_dp.ml4" 69 1525 1596
+)
+"plugins/dp/g_dp.ml4" 69 1525 1593 "plugins/dp/g_dp.ml4" 69 1525 1594
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/g_dp.ml4" 69 1525 1527 "plugins/dp/g_dp.ml4" 69 1525 1596
+)
+"plugins/dp/g_dp.ml4" 69 1525 1577 "plugins/dp/g_dp.ml4" 69 1525 1594
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/g_dp.ml4" 69 1525 1527 "plugins/dp/g_dp.ml4" 69 1525 1596
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  string
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref s "" -1 0 0 "" -1 0 0
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_string
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string
+)
+type(
+  Libnames.reference
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref g "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref s "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref g "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/dp/g_dp.ml4" 68 1489 1489 "plugins/dp/g_dp.ml4" 68 1489 1600
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 68 1489 1489 "plugins/dp/g_dp.ml4" 68 1489 1600
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 68 1489 1489 "plugins/dp/g_dp.ml4" 68 1489 1600
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/dp/g_dp.ml4" 73 1633 1655 "plugins/dp/g_dp.ml4" 73 1633 1663
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Dp.dp_debug
+)
+"plugins/dp/g_dp.ml4" 73 1633 1664 "plugins/dp/g_dp.ml4" 73 1633 1668
+type(
+  bool
+)
+"plugins/dp/g_dp.ml4" 73 1633 1655 "plugins/dp/g_dp.ml4" 73 1633 1668
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/g_dp.ml4" 73 1633 1670 "plugins/dp/g_dp.ml4" 73 1633 1688
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Dp_zenon.set_debug
+)
+"plugins/dp/g_dp.ml4" 73 1633 1689 "plugins/dp/g_dp.ml4" 73 1633 1693
+type(
+  bool
+)
+"plugins/dp/g_dp.ml4" 73 1633 1670 "plugins/dp/g_dp.ml4" 73 1633 1693
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/g_dp.ml4" 73 1633 1655 "plugins/dp/g_dp.ml4" 73 1633 1693
+type(
+  unit
+)
+"plugins/dp/g_dp.ml4" 73 1633 1635 "plugins/dp/g_dp.ml4" 73 1633 1695
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/dp/g_dp.ml4" 72 1602 1602 "plugins/dp/g_dp.ml4" 72 1602 1699
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 72 1602 1602 "plugins/dp/g_dp.ml4" 72 1602 1699
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 72 1602 1602 "plugins/dp/g_dp.ml4" 72 1602 1699
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/dp/g_dp.ml4" 77 1732 1754 "plugins/dp/g_dp.ml4" 77 1732 1762
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Dp.dp_trace
+)
+"plugins/dp/g_dp.ml4" 77 1732 1763 "plugins/dp/g_dp.ml4" 77 1732 1767
+type(
+  bool
+)
+"plugins/dp/g_dp.ml4" 77 1732 1754 "plugins/dp/g_dp.ml4" 77 1732 1767
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/g_dp.ml4" 77 1732 1734 "plugins/dp/g_dp.ml4" 77 1732 1769
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/dp/g_dp.ml4" 76 1701 1701 "plugins/dp/g_dp.ml4" 76 1701 1773
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/dp/g_dp.ml4" 76 1701 1701 "plugins/dp/g_dp.ml4" 76 1701 1773
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/dp/g_dp.ml4" 76 1701 1701 "plugins/dp/g_dp.ml4" 76 1701 1773
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)

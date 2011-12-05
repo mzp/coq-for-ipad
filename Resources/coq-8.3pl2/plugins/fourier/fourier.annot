@@ -1,0 +1,3672 @@
+"plugins/fourier/fourier.ml" 31 1172 1176 "plugins/fourier/fourier.ml" 31 1172 1190
+type(
+  rational -> unit
+)
+ident(
+  def print_rational "plugins/fourier/fourier.ml" 37 1274 1274 --
+)
+"plugins/fourier/fourier.ml" 31 1172 1191 "plugins/fourier/fourier.ml" 31 1172 1192
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 32 1195 1203 "plugins/fourier/fourier.ml" 34 1246 1269
+)
+"plugins/fourier/fourier.ml" 32 1195 1203 "plugins/fourier/fourier.ml" 32 1195 1212
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"plugins/fourier/fourier.ml" 32 1195 1213 "plugins/fourier/fourier.ml" 32 1195 1214
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 31 1172 1191 "plugins/fourier/fourier.ml" 31 1172 1192
+)
+"plugins/fourier/fourier.ml" 32 1195 1213 "plugins/fourier/fourier.ml" 32 1195 1218
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 32 1195 1203 "plugins/fourier/fourier.ml" 32 1195 1218
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 33 1220 1228 "plugins/fourier/fourier.ml" 33 1220 1240
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"plugins/fourier/fourier.ml" 33 1220 1241 "plugins/fourier/fourier.ml" 33 1220 1244
+type(
+  string
+)
+"plugins/fourier/fourier.ml" 33 1220 1228 "plugins/fourier/fourier.ml" 33 1220 1244
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 34 1246 1254 "plugins/fourier/fourier.ml" 34 1246 1263
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.print_int
+)
+"plugins/fourier/fourier.ml" 34 1246 1264 "plugins/fourier/fourier.ml" 34 1246 1265
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 31 1172 1191 "plugins/fourier/fourier.ml" 31 1172 1192
+)
+"plugins/fourier/fourier.ml" 34 1246 1264 "plugins/fourier/fourier.ml" 34 1246 1269
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 34 1246 1254 "plugins/fourier/fourier.ml" 34 1246 1269
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 33 1220 1228 "plugins/fourier/fourier.ml" 34 1246 1269
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 32 1195 1203 "plugins/fourier/fourier.ml" 34 1246 1269
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 37 1274 1282 "plugins/fourier/fourier.ml" 37 1274 1286
+type(
+  int -> int -> int
+)
+ident(
+  def pgcd "plugins/fourier/fourier.ml" 37 1274 1274 --
+)
+"plugins/fourier/fourier.ml" 37 1274 1287 "plugins/fourier/fourier.ml" 37 1274 1288
+type(
+  int
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 37 1274 1289 "plugins/fourier/fourier.ml" 37 1274 1330
+)
+"plugins/fourier/fourier.ml" 37 1274 1289 "plugins/fourier/fourier.ml" 37 1274 1290
+type(
+  int
+)
+ident(
+  def y "plugins/fourier/fourier.ml" 37 1274 1293 "plugins/fourier/fourier.ml" 37 1274 1330
+)
+"plugins/fourier/fourier.ml" 37 1274 1296 "plugins/fourier/fourier.ml" 37 1274 1297
+type(
+  int
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 37 1274 1289 "plugins/fourier/fourier.ml" 37 1274 1290
+)
+"plugins/fourier/fourier.ml" 37 1274 1298 "plugins/fourier/fourier.ml" 37 1274 1299
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/fourier/fourier.ml" 37 1274 1300 "plugins/fourier/fourier.ml" 37 1274 1301
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 37 1274 1296 "plugins/fourier/fourier.ml" 37 1274 1301
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 37 1274 1307 "plugins/fourier/fourier.ml" 37 1274 1308
+type(
+  int
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 37 1274 1287 "plugins/fourier/fourier.ml" 37 1274 1288
+)
+"plugins/fourier/fourier.ml" 37 1274 1314 "plugins/fourier/fourier.ml" 37 1274 1318
+type(
+  int -> int -> int
+)
+ident(
+  int_ref pgcd "plugins/fourier/fourier.ml" 37 1274 1282 "plugins/fourier/fourier.ml" 37 1274 1286
+)
+"plugins/fourier/fourier.ml" 37 1274 1319 "plugins/fourier/fourier.ml" 37 1274 1320
+type(
+  int
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 37 1274 1289 "plugins/fourier/fourier.ml" 37 1274 1290
+)
+"plugins/fourier/fourier.ml" 37 1274 1322 "plugins/fourier/fourier.ml" 37 1274 1323
+type(
+  int
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 37 1274 1287 "plugins/fourier/fourier.ml" 37 1274 1288
+)
+"plugins/fourier/fourier.ml" 37 1274 1324 "plugins/fourier/fourier.ml" 37 1274 1327
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"plugins/fourier/fourier.ml" 37 1274 1328 "plugins/fourier/fourier.ml" 37 1274 1329
+type(
+  int
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 37 1274 1289 "plugins/fourier/fourier.ml" 37 1274 1290
+)
+"plugins/fourier/fourier.ml" 37 1274 1321 "plugins/fourier/fourier.ml" 37 1274 1330
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 37 1274 1314 "plugins/fourier/fourier.ml" 37 1274 1330
+call(
+  tail
+)
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 37 1274 1293 "plugins/fourier/fourier.ml" 37 1274 1330
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 40 1335 1339 "plugins/fourier/fourier.ml" 40 1335 1341
+type(
+  rational
+)
+ident(
+  def r0 "plugins/fourier/fourier.ml" 41 1360 1360 --
+)
+"plugins/fourier/fourier.ml" 40 1335 1349 "plugins/fourier/fourier.ml" 40 1335 1350
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 40 1335 1355 "plugins/fourier/fourier.ml" 40 1335 1356
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 40 1335 1344 "plugins/fourier/fourier.ml" 40 1335 1357
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 41 1360 1364 "plugins/fourier/fourier.ml" 41 1360 1366
+type(
+  rational
+)
+ident(
+  def r1 "plugins/fourier/fourier.ml" 43 1386 1386 --
+)
+"plugins/fourier/fourier.ml" 41 1360 1374 "plugins/fourier/fourier.ml" 41 1360 1375
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 41 1360 1380 "plugins/fourier/fourier.ml" 41 1360 1381
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 41 1360 1369 "plugins/fourier/fourier.ml" 41 1360 1382
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 43 1386 1390 "plugins/fourier/fourier.ml" 43 1386 1395
+type(
+  rational -> rational
+)
+ident(
+  def rnorm "plugins/fourier/fourier.ml" 49 1637 1637 --
+)
+"plugins/fourier/fourier.ml" 43 1386 1396 "plugins/fourier/fourier.ml" 43 1386 1397
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 43 1386 1400 "plugins/fourier/fourier.ml" 47 1583 1633
+)
+"plugins/fourier/fourier.ml" 43 1386 1404 "plugins/fourier/fourier.ml" 43 1386 1405
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 43 1386 1412 "plugins/fourier/fourier.ml" 43 1386 1413
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 43 1386 1396 "plugins/fourier/fourier.ml" 43 1386 1397
+)
+"plugins/fourier/fourier.ml" 43 1386 1412 "plugins/fourier/fourier.ml" 43 1386 1417
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 43 1386 1417 "plugins/fourier/fourier.ml" 43 1386 1418
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"plugins/fourier/fourier.ml" 43 1386 1418 "plugins/fourier/fourier.ml" 43 1386 1419
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 43 1386 1412 "plugins/fourier/fourier.ml" 43 1386 1419
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 43 1386 1431 "plugins/fourier/fourier.ml" 43 1386 1432
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"plugins/fourier/fourier.ml" 43 1386 1432 "plugins/fourier/fourier.ml" 43 1386 1433
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 43 1386 1396 "plugins/fourier/fourier.ml" 43 1386 1397
+)
+"plugins/fourier/fourier.ml" 43 1386 1432 "plugins/fourier/fourier.ml" 43 1386 1437
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 43 1386 1430 "plugins/fourier/fourier.ml" 43 1386 1438
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 43 1386 1444 "plugins/fourier/fourier.ml" 43 1386 1445
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"plugins/fourier/fourier.ml" 43 1386 1445 "plugins/fourier/fourier.ml" 43 1386 1446
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 43 1386 1396 "plugins/fourier/fourier.ml" 43 1386 1397
+)
+"plugins/fourier/fourier.ml" 43 1386 1445 "plugins/fourier/fourier.ml" 43 1386 1450
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 43 1386 1443 "plugins/fourier/fourier.ml" 43 1386 1451
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 43 1386 1425 "plugins/fourier/fourier.ml" 43 1386 1452
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 43 1386 1458 "plugins/fourier/fourier.ml" 43 1386 1459
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 43 1386 1396 "plugins/fourier/fourier.ml" 43 1386 1397
+)
+"plugins/fourier/fourier.ml" 43 1386 1408 "plugins/fourier/fourier.ml" 43 1386 1460
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 44 1464 1481 "plugins/fourier/fourier.ml" 44 1464 1482
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 43 1386 1404 "plugins/fourier/fourier.ml" 43 1386 1405
+)
+"plugins/fourier/fourier.ml" 44 1464 1481 "plugins/fourier/fourier.ml" 44 1464 1486
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 44 1464 1486 "plugins/fourier/fourier.ml" 44 1464 1487
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/fourier/fourier.ml" 44 1464 1487 "plugins/fourier/fourier.ml" 44 1464 1488
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 44 1464 1481 "plugins/fourier/fourier.ml" 44 1464 1488
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 44 1464 1494 "plugins/fourier/fourier.ml" 44 1464 1496
+type(
+  rational
+)
+ident(
+  int_ref r0 "plugins/fourier/fourier.ml" 40 1335 1339 "plugins/fourier/fourier.ml" 40 1335 1341
+)
+"plugins/fourier/fourier.ml" 45 1497 1521 "plugins/fourier/fourier.ml" 45 1497 1522
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 45 1497 1523 "plugins/fourier/fourier.ml" 45 1497 1527
+type(
+  int -> int -> int
+)
+ident(
+  int_ref pgcd "plugins/fourier/fourier.ml" 37 1274 1282 "plugins/fourier/fourier.ml" 37 1274 1286
+)
+"plugins/fourier/fourier.ml" 45 1497 1528 "plugins/fourier/fourier.ml" 45 1497 1529
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 43 1386 1404 "plugins/fourier/fourier.ml" 43 1386 1405
+)
+"plugins/fourier/fourier.ml" 45 1497 1528 "plugins/fourier/fourier.ml" 45 1497 1533
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 45 1497 1534 "plugins/fourier/fourier.ml" 45 1497 1535
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 43 1386 1404 "plugins/fourier/fourier.ml" 43 1386 1405
+)
+"plugins/fourier/fourier.ml" 45 1497 1534 "plugins/fourier/fourier.ml" 45 1497 1539
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 45 1497 1523 "plugins/fourier/fourier.ml" 45 1497 1539
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 46 1543 1553 "plugins/fourier/fourier.ml" 46 1543 1554
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 46 1543 1560 "plugins/fourier/fourier.ml" 46 1543 1561
+type(
+  int
+)
+ident(
+  int_ref d "plugins/fourier/fourier.ml" 45 1497 1521 "plugins/fourier/fourier.ml" 45 1497 1522
+)
+"plugins/fourier/fourier.ml" 46 1543 1561 "plugins/fourier/fourier.ml" 46 1543 1562
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"plugins/fourier/fourier.ml" 46 1543 1562 "plugins/fourier/fourier.ml" 46 1543 1563
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 46 1543 1560 "plugins/fourier/fourier.ml" 46 1543 1563
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 46 1543 1569 "plugins/fourier/fourier.ml" 46 1543 1570
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"plugins/fourier/fourier.ml" 46 1543 1570 "plugins/fourier/fourier.ml" 46 1543 1571
+type(
+  int
+)
+ident(
+  int_ref d "plugins/fourier/fourier.ml" 45 1497 1521 "plugins/fourier/fourier.ml" 45 1497 1522
+)
+"plugins/fourier/fourier.ml" 46 1543 1569 "plugins/fourier/fourier.ml" 46 1543 1571
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 46 1543 1577 "plugins/fourier/fourier.ml" 46 1543 1578
+type(
+  int
+)
+ident(
+  int_ref d "plugins/fourier/fourier.ml" 45 1497 1521 "plugins/fourier/fourier.ml" 45 1497 1522
+)
+"plugins/fourier/fourier.ml" 46 1543 1556 "plugins/fourier/fourier.ml" 46 1543 1579
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 47 1583 1609 "plugins/fourier/fourier.ml" 47 1583 1610
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 43 1386 1404 "plugins/fourier/fourier.ml" 43 1386 1405
+)
+"plugins/fourier/fourier.ml" 47 1583 1608 "plugins/fourier/fourier.ml" 47 1583 1615
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 47 1583 1615 "plugins/fourier/fourier.ml" 47 1583 1616
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"plugins/fourier/fourier.ml" 47 1583 1616 "plugins/fourier/fourier.ml" 47 1583 1617
+type(
+  int
+)
+ident(
+  int_ref d "plugins/fourier/fourier.ml" 46 1543 1553 "plugins/fourier/fourier.ml" 46 1543 1554
+)
+"plugins/fourier/fourier.ml" 47 1583 1608 "plugins/fourier/fourier.ml" 47 1583 1617
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 47 1583 1623 "plugins/fourier/fourier.ml" 47 1583 1624
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 43 1386 1404 "plugins/fourier/fourier.ml" 43 1386 1405
+)
+"plugins/fourier/fourier.ml" 47 1583 1622 "plugins/fourier/fourier.ml" 47 1583 1629
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 47 1583 1629 "plugins/fourier/fourier.ml" 47 1583 1630
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"plugins/fourier/fourier.ml" 47 1583 1630 "plugins/fourier/fourier.ml" 47 1583 1631
+type(
+  int
+)
+ident(
+  int_ref d "plugins/fourier/fourier.ml" 46 1543 1553 "plugins/fourier/fourier.ml" 46 1543 1554
+)
+"plugins/fourier/fourier.ml" 47 1583 1622 "plugins/fourier/fourier.ml" 47 1583 1631
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 47 1583 1603 "plugins/fourier/fourier.ml" 47 1583 1632
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 46 1543 1549 "plugins/fourier/fourier.ml" 47 1583 1632
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 45 1497 1516 "plugins/fourier/fourier.ml" 47 1583 1633
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 44 1464 1478 "plugins/fourier/fourier.ml" 47 1583 1633
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 43 1386 1400 "plugins/fourier/fourier.ml" 47 1583 1633
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 49 1637 1641 "plugins/fourier/fourier.ml" 49 1637 1644
+type(
+  rational -> rational
+)
+ident(
+  def rop "plugins/fourier/fourier.ml" 51 1683 1683 --
+)
+"plugins/fourier/fourier.ml" 49 1637 1645 "plugins/fourier/fourier.ml" 49 1637 1646
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 49 1637 1649 "plugins/fourier/fourier.ml" 49 1637 1679
+)
+"plugins/fourier/fourier.ml" 49 1637 1649 "plugins/fourier/fourier.ml" 49 1637 1654
+type(
+  rational -> rational
+)
+ident(
+  int_ref rnorm "plugins/fourier/fourier.ml" 43 1386 1390 "plugins/fourier/fourier.ml" 43 1386 1395
+)
+"plugins/fourier/fourier.ml" 49 1637 1661 "plugins/fourier/fourier.ml" 49 1637 1662
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.( ~- )
+)
+"plugins/fourier/fourier.ml" 49 1637 1662 "plugins/fourier/fourier.ml" 49 1637 1663
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 49 1637 1645 "plugins/fourier/fourier.ml" 49 1637 1646
+)
+"plugins/fourier/fourier.ml" 49 1637 1662 "plugins/fourier/fourier.ml" 49 1637 1667
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 49 1637 1660 "plugins/fourier/fourier.ml" 49 1637 1668
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 49 1637 1673 "plugins/fourier/fourier.ml" 49 1637 1674
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 49 1637 1645 "plugins/fourier/fourier.ml" 49 1637 1646
+)
+"plugins/fourier/fourier.ml" 49 1637 1673 "plugins/fourier/fourier.ml" 49 1637 1678
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 49 1637 1655 "plugins/fourier/fourier.ml" 49 1637 1679
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 49 1637 1649 "plugins/fourier/fourier.ml" 49 1637 1679
+call(
+  tail
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 51 1683 1687 "plugins/fourier/fourier.ml" 51 1683 1692
+type(
+  rational -> rational -> rational
+)
+ident(
+  def rplus "plugins/fourier/fourier.ml" 53 1756 1756 --
+)
+"plugins/fourier/fourier.ml" 51 1683 1693 "plugins/fourier/fourier.ml" 51 1683 1694
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 51 1683 1695 "plugins/fourier/fourier.ml" 51 1683 1752
+)
+"plugins/fourier/fourier.ml" 51 1683 1695 "plugins/fourier/fourier.ml" 51 1683 1696
+type(
+  rational
+)
+ident(
+  def y "plugins/fourier/fourier.ml" 51 1683 1699 "plugins/fourier/fourier.ml" 51 1683 1752
+)
+"plugins/fourier/fourier.ml" 51 1683 1699 "plugins/fourier/fourier.ml" 51 1683 1704
+type(
+  rational -> rational
+)
+ident(
+  int_ref rnorm "plugins/fourier/fourier.ml" 43 1386 1390 "plugins/fourier/fourier.ml" 43 1386 1395
+)
+"plugins/fourier/fourier.ml" 51 1683 1710 "plugins/fourier/fourier.ml" 51 1683 1711
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 51 1683 1693 "plugins/fourier/fourier.ml" 51 1683 1694
+)
+"plugins/fourier/fourier.ml" 51 1683 1710 "plugins/fourier/fourier.ml" 51 1683 1715
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 51 1683 1715 "plugins/fourier/fourier.ml" 51 1683 1716
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 51 1683 1716 "plugins/fourier/fourier.ml" 51 1683 1717
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 51 1683 1695 "plugins/fourier/fourier.ml" 51 1683 1696
+)
+"plugins/fourier/fourier.ml" 51 1683 1716 "plugins/fourier/fourier.ml" 51 1683 1721
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 51 1683 1710 "plugins/fourier/fourier.ml" 51 1683 1721
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 51 1683 1722 "plugins/fourier/fourier.ml" 51 1683 1723
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/fourier/fourier.ml" 51 1683 1724 "plugins/fourier/fourier.ml" 51 1683 1725
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 51 1683 1695 "plugins/fourier/fourier.ml" 51 1683 1696
+)
+"plugins/fourier/fourier.ml" 51 1683 1724 "plugins/fourier/fourier.ml" 51 1683 1729
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 51 1683 1729 "plugins/fourier/fourier.ml" 51 1683 1730
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 51 1683 1730 "plugins/fourier/fourier.ml" 51 1683 1731
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 51 1683 1693 "plugins/fourier/fourier.ml" 51 1683 1694
+)
+"plugins/fourier/fourier.ml" 51 1683 1730 "plugins/fourier/fourier.ml" 51 1683 1735
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 51 1683 1724 "plugins/fourier/fourier.ml" 51 1683 1735
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 51 1683 1710 "plugins/fourier/fourier.ml" 51 1683 1735
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 51 1683 1740 "plugins/fourier/fourier.ml" 51 1683 1741
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 51 1683 1693 "plugins/fourier/fourier.ml" 51 1683 1694
+)
+"plugins/fourier/fourier.ml" 51 1683 1740 "plugins/fourier/fourier.ml" 51 1683 1745
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 51 1683 1745 "plugins/fourier/fourier.ml" 51 1683 1746
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 51 1683 1746 "plugins/fourier/fourier.ml" 51 1683 1747
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 51 1683 1695 "plugins/fourier/fourier.ml" 51 1683 1696
+)
+"plugins/fourier/fourier.ml" 51 1683 1746 "plugins/fourier/fourier.ml" 51 1683 1751
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 51 1683 1740 "plugins/fourier/fourier.ml" 51 1683 1751
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 51 1683 1705 "plugins/fourier/fourier.ml" 51 1683 1752
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 51 1683 1699 "plugins/fourier/fourier.ml" 51 1683 1752
+call(
+  tail
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 53 1756 1760 "plugins/fourier/fourier.ml" 53 1756 1766
+type(
+  rational -> rational -> rational
+)
+ident(
+  def rminus "plugins/fourier/fourier.ml" 55 1830 1830 --
+)
+"plugins/fourier/fourier.ml" 53 1756 1767 "plugins/fourier/fourier.ml" 53 1756 1768
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 53 1756 1769 "plugins/fourier/fourier.ml" 53 1756 1826
+)
+"plugins/fourier/fourier.ml" 53 1756 1769 "plugins/fourier/fourier.ml" 53 1756 1770
+type(
+  rational
+)
+ident(
+  def y "plugins/fourier/fourier.ml" 53 1756 1773 "plugins/fourier/fourier.ml" 53 1756 1826
+)
+"plugins/fourier/fourier.ml" 53 1756 1773 "plugins/fourier/fourier.ml" 53 1756 1778
+type(
+  rational -> rational
+)
+ident(
+  int_ref rnorm "plugins/fourier/fourier.ml" 43 1386 1390 "plugins/fourier/fourier.ml" 43 1386 1395
+)
+"plugins/fourier/fourier.ml" 53 1756 1784 "plugins/fourier/fourier.ml" 53 1756 1785
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 53 1756 1767 "plugins/fourier/fourier.ml" 53 1756 1768
+)
+"plugins/fourier/fourier.ml" 53 1756 1784 "plugins/fourier/fourier.ml" 53 1756 1789
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 53 1756 1789 "plugins/fourier/fourier.ml" 53 1756 1790
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 53 1756 1790 "plugins/fourier/fourier.ml" 53 1756 1791
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 53 1756 1769 "plugins/fourier/fourier.ml" 53 1756 1770
+)
+"plugins/fourier/fourier.ml" 53 1756 1790 "plugins/fourier/fourier.ml" 53 1756 1795
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 53 1756 1784 "plugins/fourier/fourier.ml" 53 1756 1795
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 53 1756 1796 "plugins/fourier/fourier.ml" 53 1756 1797
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/fourier/fourier.ml" 53 1756 1798 "plugins/fourier/fourier.ml" 53 1756 1799
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 53 1756 1769 "plugins/fourier/fourier.ml" 53 1756 1770
+)
+"plugins/fourier/fourier.ml" 53 1756 1798 "plugins/fourier/fourier.ml" 53 1756 1803
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 53 1756 1803 "plugins/fourier/fourier.ml" 53 1756 1804
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 53 1756 1804 "plugins/fourier/fourier.ml" 53 1756 1805
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 53 1756 1767 "plugins/fourier/fourier.ml" 53 1756 1768
+)
+"plugins/fourier/fourier.ml" 53 1756 1804 "plugins/fourier/fourier.ml" 53 1756 1809
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 53 1756 1798 "plugins/fourier/fourier.ml" 53 1756 1809
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 53 1756 1784 "plugins/fourier/fourier.ml" 53 1756 1809
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 53 1756 1814 "plugins/fourier/fourier.ml" 53 1756 1815
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 53 1756 1767 "plugins/fourier/fourier.ml" 53 1756 1768
+)
+"plugins/fourier/fourier.ml" 53 1756 1814 "plugins/fourier/fourier.ml" 53 1756 1819
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 53 1756 1819 "plugins/fourier/fourier.ml" 53 1756 1820
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 53 1756 1820 "plugins/fourier/fourier.ml" 53 1756 1821
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 53 1756 1769 "plugins/fourier/fourier.ml" 53 1756 1770
+)
+"plugins/fourier/fourier.ml" 53 1756 1820 "plugins/fourier/fourier.ml" 53 1756 1825
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 53 1756 1814 "plugins/fourier/fourier.ml" 53 1756 1825
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 53 1756 1779 "plugins/fourier/fourier.ml" 53 1756 1826
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 53 1756 1773 "plugins/fourier/fourier.ml" 53 1756 1826
+call(
+  tail
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 55 1830 1834 "plugins/fourier/fourier.ml" 55 1830 1839
+type(
+  rational -> rational -> rational
+)
+ident(
+  def rmult "plugins/fourier/fourier.ml" 57 1889 1889 --
+)
+"plugins/fourier/fourier.ml" 55 1830 1840 "plugins/fourier/fourier.ml" 55 1830 1841
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 55 1830 1842 "plugins/fourier/fourier.ml" 55 1830 1885
+)
+"plugins/fourier/fourier.ml" 55 1830 1842 "plugins/fourier/fourier.ml" 55 1830 1843
+type(
+  rational
+)
+ident(
+  def y "plugins/fourier/fourier.ml" 55 1830 1846 "plugins/fourier/fourier.ml" 55 1830 1885
+)
+"plugins/fourier/fourier.ml" 55 1830 1846 "plugins/fourier/fourier.ml" 55 1830 1851
+type(
+  rational -> rational
+)
+ident(
+  int_ref rnorm "plugins/fourier/fourier.ml" 43 1386 1390 "plugins/fourier/fourier.ml" 43 1386 1395
+)
+"plugins/fourier/fourier.ml" 55 1830 1857 "plugins/fourier/fourier.ml" 55 1830 1858
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 55 1830 1840 "plugins/fourier/fourier.ml" 55 1830 1841
+)
+"plugins/fourier/fourier.ml" 55 1830 1857 "plugins/fourier/fourier.ml" 55 1830 1862
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 55 1830 1862 "plugins/fourier/fourier.ml" 55 1830 1863
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 55 1830 1863 "plugins/fourier/fourier.ml" 55 1830 1864
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 55 1830 1842 "plugins/fourier/fourier.ml" 55 1830 1843
+)
+"plugins/fourier/fourier.ml" 55 1830 1863 "plugins/fourier/fourier.ml" 55 1830 1868
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 55 1830 1857 "plugins/fourier/fourier.ml" 55 1830 1868
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 55 1830 1873 "plugins/fourier/fourier.ml" 55 1830 1874
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 55 1830 1840 "plugins/fourier/fourier.ml" 55 1830 1841
+)
+"plugins/fourier/fourier.ml" 55 1830 1873 "plugins/fourier/fourier.ml" 55 1830 1878
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 55 1830 1878 "plugins/fourier/fourier.ml" 55 1830 1879
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 55 1830 1879 "plugins/fourier/fourier.ml" 55 1830 1880
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 55 1830 1842 "plugins/fourier/fourier.ml" 55 1830 1843
+)
+"plugins/fourier/fourier.ml" 55 1830 1879 "plugins/fourier/fourier.ml" 55 1830 1884
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 55 1830 1873 "plugins/fourier/fourier.ml" 55 1830 1884
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 55 1830 1852 "plugins/fourier/fourier.ml" 55 1830 1885
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 55 1830 1846 "plugins/fourier/fourier.ml" 55 1830 1885
+call(
+  tail
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 57 1889 1893 "plugins/fourier/fourier.ml" 57 1889 1897
+type(
+  rational -> rational
+)
+ident(
+  def rinv "plugins/fourier/fourier.ml" 59 1933 1933 --
+)
+"plugins/fourier/fourier.ml" 57 1889 1898 "plugins/fourier/fourier.ml" 57 1889 1899
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 57 1889 1902 "plugins/fourier/fourier.ml" 57 1889 1929
+)
+"plugins/fourier/fourier.ml" 57 1889 1902 "plugins/fourier/fourier.ml" 57 1889 1907
+type(
+  rational -> rational
+)
+ident(
+  int_ref rnorm "plugins/fourier/fourier.ml" 43 1386 1390 "plugins/fourier/fourier.ml" 43 1386 1395
+)
+"plugins/fourier/fourier.ml" 57 1889 1913 "plugins/fourier/fourier.ml" 57 1889 1914
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 57 1889 1898 "plugins/fourier/fourier.ml" 57 1889 1899
+)
+"plugins/fourier/fourier.ml" 57 1889 1913 "plugins/fourier/fourier.ml" 57 1889 1918
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 57 1889 1923 "plugins/fourier/fourier.ml" 57 1889 1924
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 57 1889 1898 "plugins/fourier/fourier.ml" 57 1889 1899
+)
+"plugins/fourier/fourier.ml" 57 1889 1923 "plugins/fourier/fourier.ml" 57 1889 1928
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 57 1889 1908 "plugins/fourier/fourier.ml" 57 1889 1929
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 57 1889 1902 "plugins/fourier/fourier.ml" 57 1889 1929
+call(
+  tail
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 59 1933 1937 "plugins/fourier/fourier.ml" 59 1933 1941
+type(
+  rational -> rational -> rational
+)
+ident(
+  def rdiv "plugins/fourier/fourier.ml" 61 1991 1991 --
+)
+"plugins/fourier/fourier.ml" 59 1933 1942 "plugins/fourier/fourier.ml" 59 1933 1943
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 59 1933 1944 "plugins/fourier/fourier.ml" 59 1933 1987
+)
+"plugins/fourier/fourier.ml" 59 1933 1944 "plugins/fourier/fourier.ml" 59 1933 1945
+type(
+  rational
+)
+ident(
+  def y "plugins/fourier/fourier.ml" 59 1933 1948 "plugins/fourier/fourier.ml" 59 1933 1987
+)
+"plugins/fourier/fourier.ml" 59 1933 1948 "plugins/fourier/fourier.ml" 59 1933 1953
+type(
+  rational -> rational
+)
+ident(
+  int_ref rnorm "plugins/fourier/fourier.ml" 43 1386 1390 "plugins/fourier/fourier.ml" 43 1386 1395
+)
+"plugins/fourier/fourier.ml" 59 1933 1959 "plugins/fourier/fourier.ml" 59 1933 1960
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 59 1933 1942 "plugins/fourier/fourier.ml" 59 1933 1943
+)
+"plugins/fourier/fourier.ml" 59 1933 1959 "plugins/fourier/fourier.ml" 59 1933 1964
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 59 1933 1964 "plugins/fourier/fourier.ml" 59 1933 1965
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 59 1933 1965 "plugins/fourier/fourier.ml" 59 1933 1966
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 59 1933 1944 "plugins/fourier/fourier.ml" 59 1933 1945
+)
+"plugins/fourier/fourier.ml" 59 1933 1965 "plugins/fourier/fourier.ml" 59 1933 1970
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 59 1933 1959 "plugins/fourier/fourier.ml" 59 1933 1970
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 59 1933 1975 "plugins/fourier/fourier.ml" 59 1933 1976
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 59 1933 1942 "plugins/fourier/fourier.ml" 59 1933 1943
+)
+"plugins/fourier/fourier.ml" 59 1933 1975 "plugins/fourier/fourier.ml" 59 1933 1980
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 59 1933 1980 "plugins/fourier/fourier.ml" 59 1933 1981
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 59 1933 1981 "plugins/fourier/fourier.ml" 59 1933 1982
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 59 1933 1944 "plugins/fourier/fourier.ml" 59 1933 1945
+)
+"plugins/fourier/fourier.ml" 59 1933 1981 "plugins/fourier/fourier.ml" 59 1933 1986
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 59 1933 1975 "plugins/fourier/fourier.ml" 59 1933 1986
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 59 1933 1954 "plugins/fourier/fourier.ml" 59 1933 1987
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 59 1933 1948 "plugins/fourier/fourier.ml" 59 1933 1987
+call(
+  tail
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 61 1991 1995 "plugins/fourier/fourier.ml" 61 1991 1999
+type(
+  rational -> rational -> bool
+)
+ident(
+  def rinf "plugins/fourier/fourier.ml" 62 2034 2034 --
+)
+"plugins/fourier/fourier.ml" 61 1991 2000 "plugins/fourier/fourier.ml" 61 1991 2001
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 61 1991 2002 "plugins/fourier/fourier.ml" 61 1991 2031
+)
+"plugins/fourier/fourier.ml" 61 1991 2002 "plugins/fourier/fourier.ml" 61 1991 2003
+type(
+  rational
+)
+ident(
+  def y "plugins/fourier/fourier.ml" 61 1991 2006 "plugins/fourier/fourier.ml" 61 1991 2031
+)
+"plugins/fourier/fourier.ml" 61 1991 2006 "plugins/fourier/fourier.ml" 61 1991 2007
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 61 1991 2000 "plugins/fourier/fourier.ml" 61 1991 2001
+)
+"plugins/fourier/fourier.ml" 61 1991 2006 "plugins/fourier/fourier.ml" 61 1991 2011
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 61 1991 2011 "plugins/fourier/fourier.ml" 61 1991 2012
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 61 1991 2012 "plugins/fourier/fourier.ml" 61 1991 2013
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 61 1991 2002 "plugins/fourier/fourier.ml" 61 1991 2003
+)
+"plugins/fourier/fourier.ml" 61 1991 2012 "plugins/fourier/fourier.ml" 61 1991 2017
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 61 1991 2006 "plugins/fourier/fourier.ml" 61 1991 2017
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 61 1991 2018 "plugins/fourier/fourier.ml" 61 1991 2019
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"plugins/fourier/fourier.ml" 61 1991 2020 "plugins/fourier/fourier.ml" 61 1991 2021
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 61 1991 2002 "plugins/fourier/fourier.ml" 61 1991 2003
+)
+"plugins/fourier/fourier.ml" 61 1991 2020 "plugins/fourier/fourier.ml" 61 1991 2025
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 61 1991 2025 "plugins/fourier/fourier.ml" 61 1991 2026
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 61 1991 2026 "plugins/fourier/fourier.ml" 61 1991 2027
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 61 1991 2000 "plugins/fourier/fourier.ml" 61 1991 2001
+)
+"plugins/fourier/fourier.ml" 61 1991 2026 "plugins/fourier/fourier.ml" 61 1991 2031
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 61 1991 2020 "plugins/fourier/fourier.ml" 61 1991 2031
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 61 1991 2006 "plugins/fourier/fourier.ml" 61 1991 2031
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 62 2034 2038 "plugins/fourier/fourier.ml" 62 2034 2044
+type(
+  rational -> rational -> bool
+)
+ident(
+  def rinfeq "plugins/fourier/fourier.ml" 69 2334 2334 --
+)
+"plugins/fourier/fourier.ml" 62 2034 2045 "plugins/fourier/fourier.ml" 62 2034 2046
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 62 2034 2047 "plugins/fourier/fourier.ml" 62 2034 2077
+)
+"plugins/fourier/fourier.ml" 62 2034 2047 "plugins/fourier/fourier.ml" 62 2034 2048
+type(
+  rational
+)
+ident(
+  def y "plugins/fourier/fourier.ml" 62 2034 2051 "plugins/fourier/fourier.ml" 62 2034 2077
+)
+"plugins/fourier/fourier.ml" 62 2034 2051 "plugins/fourier/fourier.ml" 62 2034 2052
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 62 2034 2045 "plugins/fourier/fourier.ml" 62 2034 2046
+)
+"plugins/fourier/fourier.ml" 62 2034 2051 "plugins/fourier/fourier.ml" 62 2034 2056
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 62 2034 2056 "plugins/fourier/fourier.ml" 62 2034 2057
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 62 2034 2057 "plugins/fourier/fourier.ml" 62 2034 2058
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 62 2034 2047 "plugins/fourier/fourier.ml" 62 2034 2048
+)
+"plugins/fourier/fourier.ml" 62 2034 2057 "plugins/fourier/fourier.ml" 62 2034 2062
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 62 2034 2051 "plugins/fourier/fourier.ml" 62 2034 2062
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 62 2034 2063 "plugins/fourier/fourier.ml" 62 2034 2065
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"plugins/fourier/fourier.ml" 62 2034 2066 "plugins/fourier/fourier.ml" 62 2034 2067
+type(
+  rational
+)
+ident(
+  int_ref y "plugins/fourier/fourier.ml" 62 2034 2047 "plugins/fourier/fourier.ml" 62 2034 2048
+)
+"plugins/fourier/fourier.ml" 62 2034 2066 "plugins/fourier/fourier.ml" 62 2034 2071
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 62 2034 2071 "plugins/fourier/fourier.ml" 62 2034 2072
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/fourier/fourier.ml" 62 2034 2072 "plugins/fourier/fourier.ml" 62 2034 2073
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 62 2034 2045 "plugins/fourier/fourier.ml" 62 2034 2046
+)
+"plugins/fourier/fourier.ml" 62 2034 2072 "plugins/fourier/fourier.ml" 62 2034 2077
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 62 2034 2066 "plugins/fourier/fourier.ml" 62 2034 2077
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 62 2034 2051 "plugins/fourier/fourier.ml" 62 2034 2077
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 73 2429 2433 "plugins/fourier/fourier.ml" 73 2429 2436
+type(
+  'a -> 'a list ref -> unit
+)
+ident(
+  def pop "plugins/fourier/fourier.ml" 77 2559 2559 --
+)
+"plugins/fourier/fourier.ml" 73 2429 2437 "plugins/fourier/fourier.ml" 73 2429 2438
+type(
+  'a
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 73 2429 2439 "plugins/fourier/fourier.ml" 73 2429 2453
+)
+"plugins/fourier/fourier.ml" 73 2429 2439 "plugins/fourier/fourier.ml" 73 2429 2440
+type(
+  'a list ref
+)
+ident(
+  def l "plugins/fourier/fourier.ml" 73 2429 2443 "plugins/fourier/fourier.ml" 73 2429 2453
+)
+"plugins/fourier/fourier.ml" 73 2429 2443 "plugins/fourier/fourier.ml" 73 2429 2444
+type(
+  'a list ref
+)
+ident(
+  int_ref l "plugins/fourier/fourier.ml" 73 2429 2439 "plugins/fourier/fourier.ml" 73 2429 2440
+)
+"plugins/fourier/fourier.ml" 73 2429 2444 "plugins/fourier/fourier.ml" 73 2429 2446
+type(
+  'a list ref -> 'a list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/fourier/fourier.ml" 73 2429 2446 "plugins/fourier/fourier.ml" 73 2429 2447
+type(
+  'a
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 73 2429 2437 "plugins/fourier/fourier.ml" 73 2429 2438
+)
+"plugins/fourier/fourier.ml" 73 2429 2450 "plugins/fourier/fourier.ml" 73 2429 2451
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 73 2429 2451 "plugins/fourier/fourier.ml" 73 2429 2452
+type(
+  'a list ref
+)
+ident(
+  int_ref l "plugins/fourier/fourier.ml" 73 2429 2439 "plugins/fourier/fourier.ml" 73 2429 2440
+)
+"plugins/fourier/fourier.ml" 73 2429 2449 "plugins/fourier/fourier.ml" 73 2429 2453
+type(
+  'a list
+)
+"plugins/fourier/fourier.ml" 73 2429 2446 "plugins/fourier/fourier.ml" 73 2429 2453
+type(
+  'a list
+)
+"plugins/fourier/fourier.ml" 73 2429 2443 "plugins/fourier/fourier.ml" 73 2429 2453
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 77 2559 2563 "plugins/fourier/fourier.ml" 77 2559 2574
+type(
+  ineq list -> ineq list list
+)
+ident(
+  def partitionne "plugins/fourier/fourier.ml" 98 3296 3296 --
+)
+"plugins/fourier/fourier.ml" 77 2559 2575 "plugins/fourier/fourier.ml" 77 2559 2576
+type(
+  ineq list
+)
+ident(
+  def s "plugins/fourier/fourier.ml" 78 2579 2582 "plugins/fourier/fourier.ml" 88 2991 3013
+)
+"plugins/fourier/fourier.ml" 78 2579 2586 "plugins/fourier/fourier.ml" 78 2579 2590
+type(
+  ineq list ref
+)
+"plugins/fourier/fourier.ml" 78 2579 2591 "plugins/fourier/fourier.ml" 78 2579 2594
+type(
+  ineq list -> ineq list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/fourier/fourier.ml" 78 2579 2595 "plugins/fourier/fourier.ml" 78 2579 2597
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 78 2579 2591 "plugins/fourier/fourier.ml" 78 2579 2597
+type(
+  ineq list ref
+)
+"plugins/fourier/fourier.ml" 79 2601 2608 "plugins/fourier/fourier.ml" 79 2601 2612
+type(
+  ineq list ref
+)
+"plugins/fourier/fourier.ml" 79 2601 2613 "plugins/fourier/fourier.ml" 79 2601 2616
+type(
+  ineq list -> ineq list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/fourier/fourier.ml" 79 2601 2617 "plugins/fourier/fourier.ml" 79 2601 2619
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 79 2601 2613 "plugins/fourier/fourier.ml" 79 2601 2619
+type(
+  ineq list ref
+)
+"plugins/fourier/fourier.ml" 80 2623 2630 "plugins/fourier/fourier.ml" 80 2623 2634
+type(
+  ineq list ref
+)
+"plugins/fourier/fourier.ml" 80 2623 2635 "plugins/fourier/fourier.ml" 80 2623 2638
+type(
+  ineq list -> ineq list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/fourier/fourier.ml" 80 2623 2639 "plugins/fourier/fourier.ml" 80 2623 2641
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 80 2623 2635 "plugins/fourier/fourier.ml" 80 2623 2641
+type(
+  ineq list ref
+)
+"plugins/fourier/fourier.ml" 81 2645 2648 "plugins/fourier/fourier.ml" 81 2645 2657
+type(
+  (ineq -> unit) -> ineq list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/fourier/fourier.ml" 81 2645 2663 "plugins/fourier/fourier.ml" 81 2645 2665
+type(
+  ineq
+)
+ident(
+  def ie "plugins/fourier/fourier.ml" 81 2645 2669 "plugins/fourier/fourier.ml" 86 2911 2973
+)
+"plugins/fourier/fourier.ml" 81 2645 2675 "plugins/fourier/fourier.ml" 81 2645 2677
+type(
+  ineq
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 81 2645 2663 "plugins/fourier/fourier.ml" 81 2645 2665
+)
+"plugins/fourier/fourier.ml" 81 2645 2675 "plugins/fourier/fourier.ml" 81 2645 2682
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 82 2688 2712 "plugins/fourier/fourier.ml" 82 2688 2714
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 82 2688 2719 "plugins/fourier/fourier.ml" 82 2688 2724
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/fourier/fourier.ml" 82 2688 2734 "plugins/fourier/fourier.ml" 82 2688 2746
+type(
+  string
+)
+"plugins/fourier/fourier.ml" 82 2688 2725 "plugins/fourier/fourier.ml" 82 2688 2747
+type(
+  exn
+)
+"plugins/fourier/fourier.ml" 82 2688 2719 "plugins/fourier/fourier.ml" 82 2688 2747
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 83 2748 2773 "plugins/fourier/fourier.ml" 83 2748 2774
+type(
+  rational
+)
+ident(
+  def c "plugins/fourier/fourier.ml" 83 2748 2782 "plugins/fourier/fourier.ml" 86 2911 2973
+)
+"plugins/fourier/fourier.ml" 83 2748 2776 "plugins/fourier/fourier.ml" 83 2748 2777
+type(
+  rational list
+)
+ident(
+  def r "plugins/fourier/fourier.ml" 83 2748 2782 "plugins/fourier/fourier.ml" 86 2911 2973
+)
+"plugins/fourier/fourier.ml" 83 2748 2772 "plugins/fourier/fourier.ml" 83 2748 2778
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 83 2748 2785 "plugins/fourier/fourier.ml" 83 2748 2789
+type(
+  rational -> rational -> bool
+)
+ident(
+  int_ref rinf "plugins/fourier/fourier.ml" 61 1991 1995 "plugins/fourier/fourier.ml" 61 1991 1999
+)
+"plugins/fourier/fourier.ml" 83 2748 2790 "plugins/fourier/fourier.ml" 83 2748 2791
+type(
+  rational
+)
+ident(
+  int_ref c "plugins/fourier/fourier.ml" 83 2748 2773 "plugins/fourier/fourier.ml" 83 2748 2774
+)
+"plugins/fourier/fourier.ml" 83 2748 2792 "plugins/fourier/fourier.ml" 83 2748 2794
+type(
+  rational
+)
+ident(
+  int_ref r0 "plugins/fourier/fourier.ml" 40 1335 1339 "plugins/fourier/fourier.ml" 40 1335 1341
+)
+"plugins/fourier/fourier.ml" 83 2748 2785 "plugins/fourier/fourier.ml" 83 2748 2794
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 84 2795 2830 "plugins/fourier/fourier.ml" 84 2795 2833
+type(
+  ineq -> ineq list ref -> unit
+)
+ident(
+  int_ref pop "plugins/fourier/fourier.ml" 73 2429 2433 "plugins/fourier/fourier.ml" 73 2429 2436
+)
+"plugins/fourier/fourier.ml" 84 2795 2834 "plugins/fourier/fourier.ml" 84 2795 2836
+type(
+  ineq
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 81 2645 2663 "plugins/fourier/fourier.ml" 81 2645 2665
+)
+"plugins/fourier/fourier.ml" 84 2795 2837 "plugins/fourier/fourier.ml" 84 2795 2841
+type(
+  ineq list ref
+)
+ident(
+  int_ref lneg "plugins/fourier/fourier.ml" 79 2601 2608 "plugins/fourier/fourier.ml" 79 2601 2612
+)
+"plugins/fourier/fourier.ml" 84 2795 2830 "plugins/fourier/fourier.ml" 84 2795 2841
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 85 2842 2884 "plugins/fourier/fourier.ml" 85 2842 2888
+type(
+  rational -> rational -> bool
+)
+ident(
+  int_ref rinf "plugins/fourier/fourier.ml" 61 1991 1995 "plugins/fourier/fourier.ml" 61 1991 1999
+)
+"plugins/fourier/fourier.ml" 85 2842 2889 "plugins/fourier/fourier.ml" 85 2842 2891
+type(
+  rational
+)
+ident(
+  int_ref r0 "plugins/fourier/fourier.ml" 40 1335 1339 "plugins/fourier/fourier.ml" 40 1335 1341
+)
+"plugins/fourier/fourier.ml" 85 2842 2892 "plugins/fourier/fourier.ml" 85 2842 2893
+type(
+  rational
+)
+ident(
+  int_ref c "plugins/fourier/fourier.ml" 83 2748 2773 "plugins/fourier/fourier.ml" 83 2748 2774
+)
+"plugins/fourier/fourier.ml" 85 2842 2884 "plugins/fourier/fourier.ml" 85 2842 2893
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 85 2842 2899 "plugins/fourier/fourier.ml" 85 2842 2902
+type(
+  ineq -> ineq list ref -> unit
+)
+ident(
+  int_ref pop "plugins/fourier/fourier.ml" 73 2429 2433 "plugins/fourier/fourier.ml" 73 2429 2436
+)
+"plugins/fourier/fourier.ml" 85 2842 2903 "plugins/fourier/fourier.ml" 85 2842 2905
+type(
+  ineq
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 81 2645 2663 "plugins/fourier/fourier.ml" 81 2645 2665
+)
+"plugins/fourier/fourier.ml" 85 2842 2906 "plugins/fourier/fourier.ml" 85 2842 2910
+type(
+  ineq list ref
+)
+ident(
+  int_ref lpos "plugins/fourier/fourier.ml" 78 2579 2586 "plugins/fourier/fourier.ml" 78 2579 2590
+)
+"plugins/fourier/fourier.ml" 85 2842 2899 "plugins/fourier/fourier.ml" 85 2842 2910
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 86 2911 2962 "plugins/fourier/fourier.ml" 86 2911 2965
+type(
+  ineq -> ineq list ref -> unit
+)
+ident(
+  int_ref pop "plugins/fourier/fourier.ml" 73 2429 2433 "plugins/fourier/fourier.ml" 73 2429 2436
+)
+"plugins/fourier/fourier.ml" 86 2911 2966 "plugins/fourier/fourier.ml" 86 2911 2968
+type(
+  ineq
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 81 2645 2663 "plugins/fourier/fourier.ml" 81 2645 2665
+)
+"plugins/fourier/fourier.ml" 86 2911 2969 "plugins/fourier/fourier.ml" 86 2911 2973
+type(
+  ineq list ref
+)
+ident(
+  int_ref lnul "plugins/fourier/fourier.ml" 80 2623 2630 "plugins/fourier/fourier.ml" 80 2623 2634
+)
+"plugins/fourier/fourier.ml" 86 2911 2962 "plugins/fourier/fourier.ml" 86 2911 2973
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 85 2842 2881 "plugins/fourier/fourier.ml" 86 2911 2973
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 83 2748 2782 "plugins/fourier/fourier.ml" 86 2911 2973
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 81 2645 2669 "plugins/fourier/fourier.ml" 86 2911 2973
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 81 2645 2658 "plugins/fourier/fourier.ml" 86 2911 2974
+type(
+  ineq -> unit
+)
+"plugins/fourier/fourier.ml" 87 2975 2988 "plugins/fourier/fourier.ml" 87 2975 2989
+type(
+  ineq list
+)
+ident(
+  int_ref s "plugins/fourier/fourier.ml" 77 2559 2575 "plugins/fourier/fourier.ml" 77 2559 2576
+)
+"plugins/fourier/fourier.ml" 81 2645 2648 "plugins/fourier/fourier.ml" 87 2975 2989
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 88 2991 2995 "plugins/fourier/fourier.ml" 88 2991 2996
+type(
+  ineq list ref -> ineq list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 88 2991 2996 "plugins/fourier/fourier.ml" 88 2991 3000
+type(
+  ineq list ref
+)
+ident(
+  int_ref lneg "plugins/fourier/fourier.ml" 79 2601 2608 "plugins/fourier/fourier.ml" 79 2601 2612
+)
+"plugins/fourier/fourier.ml" 88 2991 2995 "plugins/fourier/fourier.ml" 88 2991 3000
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 88 2991 3001 "plugins/fourier/fourier.ml" 88 2991 3002
+type(
+  ineq list ref -> ineq list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 88 2991 3002 "plugins/fourier/fourier.ml" 88 2991 3006
+type(
+  ineq list ref
+)
+ident(
+  int_ref lnul "plugins/fourier/fourier.ml" 80 2623 2630 "plugins/fourier/fourier.ml" 80 2623 2634
+)
+"plugins/fourier/fourier.ml" 88 2991 3001 "plugins/fourier/fourier.ml" 88 2991 3006
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 88 2991 3007 "plugins/fourier/fourier.ml" 88 2991 3008
+type(
+  ineq list ref -> ineq list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 88 2991 3008 "plugins/fourier/fourier.ml" 88 2991 3012
+type(
+  ineq list ref
+)
+ident(
+  int_ref lpos "plugins/fourier/fourier.ml" 78 2579 2586 "plugins/fourier/fourier.ml" 78 2579 2590
+)
+"plugins/fourier/fourier.ml" 88 2991 3007 "plugins/fourier/fourier.ml" 88 2991 3012
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 88 2991 2994 "plugins/fourier/fourier.ml" 88 2991 3013
+type(
+  ineq list list
+)
+"plugins/fourier/fourier.ml" 81 2645 2648 "plugins/fourier/fourier.ml" 88 2991 3013
+type(
+  ineq list list
+)
+"plugins/fourier/fourier.ml" 80 2623 2626 "plugins/fourier/fourier.ml" 88 2991 3013
+type(
+  ineq list list
+)
+"plugins/fourier/fourier.ml" 79 2601 2604 "plugins/fourier/fourier.ml" 88 2991 3013
+type(
+  ineq list list
+)
+"plugins/fourier/fourier.ml" 78 2579 2582 "plugins/fourier/fourier.ml" 88 2991 3013
+type(
+  ineq list list
+)
+"plugins/fourier/fourier.ml" 98 3296 3300 "plugins/fourier/fourier.ml" 98 3296 3308
+type(
+  (rational list * bool) list -> ineq list
+)
+ident(
+  def add_hist "plugins/fourier/fourier.ml" 111 3665 3665 --
+)
+"plugins/fourier/fourier.ml" 98 3296 3309 "plugins/fourier/fourier.ml" 98 3296 3311
+type(
+  (rational list * bool) list
+)
+ident(
+  def le "plugins/fourier/fourier.ml" 99 3314 3317 "plugins/fourier/fourier.ml" 108 3612 3627
+)
+"plugins/fourier/fourier.ml" 99 3314 3321 "plugins/fourier/fourier.ml" 99 3314 3322
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 99 3314 3325 "plugins/fourier/fourier.ml" 99 3314 3336
+type(
+  (rational list * bool) list -> int
+)
+ident(
+  ext_ref List.length
+)
+"plugins/fourier/fourier.ml" 99 3314 3337 "plugins/fourier/fourier.ml" 99 3314 3339
+type(
+  (rational list * bool) list
+)
+ident(
+  int_ref le "plugins/fourier/fourier.ml" 98 3296 3309 "plugins/fourier/fourier.ml" 98 3296 3311
+)
+"plugins/fourier/fourier.ml" 99 3314 3325 "plugins/fourier/fourier.ml" 99 3314 3339
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 100 3343 3350 "plugins/fourier/fourier.ml" 100 3343 3351
+type(
+  int ref
+)
+"plugins/fourier/fourier.ml" 100 3343 3352 "plugins/fourier/fourier.ml" 100 3343 3355
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/fourier/fourier.ml" 100 3343 3356 "plugins/fourier/fourier.ml" 100 3343 3357
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 100 3343 3352 "plugins/fourier/fourier.ml" 100 3343 3357
+type(
+  int ref
+)
+"plugins/fourier/fourier.ml" 101 3361 3364 "plugins/fourier/fourier.ml" 101 3361 3372
+type(
+  (rational list * bool -> ineq) -> (rational list * bool) list -> ineq list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/fourier/fourier.ml" 101 3361 3379 "plugins/fourier/fourier.ml" 101 3361 3381
+type(
+  rational list
+)
+ident(
+  def ie "plugins/fourier/fourier.ml" 102 3388 3402 "plugins/fourier/fourier.ml" 107 3568 3610
+)
+"plugins/fourier/fourier.ml" 101 3361 3382 "plugins/fourier/fourier.ml" 101 3361 3383
+type(
+  bool
+)
+ident(
+  def s "plugins/fourier/fourier.ml" 102 3388 3402 "plugins/fourier/fourier.ml" 107 3568 3610
+)
+"plugins/fourier/fourier.ml" 101 3361 3378 "plugins/fourier/fourier.ml" 101 3361 3384
+type(
+  rational list * bool
+)
+"plugins/fourier/fourier.ml" 102 3388 3406 "plugins/fourier/fourier.ml" 102 3388 3407
+type(
+  rational list ref
+)
+"plugins/fourier/fourier.ml" 102 3388 3409 "plugins/fourier/fourier.ml" 102 3388 3412
+type(
+  rational list -> rational list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/fourier/fourier.ml" 102 3388 3413 "plugins/fourier/fourier.ml" 102 3388 3415
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 102 3388 3409 "plugins/fourier/fourier.ml" 102 3388 3415
+type(
+  rational list ref
+)
+"plugins/fourier/fourier.ml" 103 3419 3439 "plugins/fourier/fourier.ml" 103 3419 3440
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 103 3419 3445 "plugins/fourier/fourier.ml" 103 3419 3446
+type(
+  int
+)
+ident(
+  int_ref n "plugins/fourier/fourier.ml" 99 3314 3321 "plugins/fourier/fourier.ml" 99 3314 3322
+)
+"plugins/fourier/fourier.ml" 103 3419 3446 "plugins/fourier/fourier.ml" 103 3419 3447
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/fourier/fourier.ml" 103 3419 3448 "plugins/fourier/fourier.ml" 103 3419 3449
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 103 3419 3449 "plugins/fourier/fourier.ml" 103 3419 3450
+type(
+  int ref
+)
+ident(
+  int_ref i "plugins/fourier/fourier.ml" 100 3343 3350 "plugins/fourier/fourier.ml" 100 3343 3351
+)
+"plugins/fourier/fourier.ml" 103 3419 3447 "plugins/fourier/fourier.ml" 103 3419 3451
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 103 3419 3445 "plugins/fourier/fourier.ml" 103 3419 3451
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 103 3419 3451 "plugins/fourier/fourier.ml" 103 3419 3452
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/fourier/fourier.ml" 103 3419 3452 "plugins/fourier/fourier.ml" 103 3419 3453
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 103 3419 3444 "plugins/fourier/fourier.ml" 103 3419 3454
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 103 3419 3458 "plugins/fourier/fourier.ml" 103 3419 3461
+type(
+  rational -> rational list ref -> unit
+)
+ident(
+  int_ref pop "plugins/fourier/fourier.ml" 73 2429 2433 "plugins/fourier/fourier.ml" 73 2429 2436
+)
+"plugins/fourier/fourier.ml" 103 3419 3462 "plugins/fourier/fourier.ml" 103 3419 3464
+type(
+  rational
+)
+ident(
+  int_ref r0 "plugins/fourier/fourier.ml" 40 1335 1339 "plugins/fourier/fourier.ml" 40 1335 1341
+)
+"plugins/fourier/fourier.ml" 103 3419 3465 "plugins/fourier/fourier.ml" 103 3419 3466
+type(
+  rational list ref
+)
+ident(
+  int_ref h "plugins/fourier/fourier.ml" 102 3388 3406 "plugins/fourier/fourier.ml" 102 3388 3407
+)
+"plugins/fourier/fourier.ml" 103 3419 3458 "plugins/fourier/fourier.ml" 103 3419 3467
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 103 3419 3433 "plugins/fourier/fourier.ml" 103 3419 3472
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 104 3474 3488 "plugins/fourier/fourier.ml" 104 3474 3491
+type(
+  rational -> rational list ref -> unit
+)
+ident(
+  int_ref pop "plugins/fourier/fourier.ml" 73 2429 2433 "plugins/fourier/fourier.ml" 73 2429 2436
+)
+"plugins/fourier/fourier.ml" 104 3474 3492 "plugins/fourier/fourier.ml" 104 3474 3494
+type(
+  rational
+)
+ident(
+  int_ref r1 "plugins/fourier/fourier.ml" 41 1360 1364 "plugins/fourier/fourier.ml" 41 1360 1366
+)
+"plugins/fourier/fourier.ml" 104 3474 3495 "plugins/fourier/fourier.ml" 104 3474 3496
+type(
+  rational list ref
+)
+ident(
+  int_ref h "plugins/fourier/fourier.ml" 102 3388 3406 "plugins/fourier/fourier.ml" 102 3388 3407
+)
+"plugins/fourier/fourier.ml" 104 3474 3488 "plugins/fourier/fourier.ml" 104 3474 3496
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 105 3498 3518 "plugins/fourier/fourier.ml" 105 3498 3519
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 105 3498 3523 "plugins/fourier/fourier.ml" 105 3498 3524
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 105 3498 3524 "plugins/fourier/fourier.ml" 105 3498 3525
+type(
+  int ref
+)
+ident(
+  int_ref i "plugins/fourier/fourier.ml" 100 3343 3350 "plugins/fourier/fourier.ml" 100 3343 3351
+)
+"plugins/fourier/fourier.ml" 105 3498 3523 "plugins/fourier/fourier.ml" 105 3498 3525
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 105 3498 3529 "plugins/fourier/fourier.ml" 105 3498 3532
+type(
+  rational -> rational list ref -> unit
+)
+ident(
+  int_ref pop "plugins/fourier/fourier.ml" 73 2429 2433 "plugins/fourier/fourier.ml" 73 2429 2436
+)
+"plugins/fourier/fourier.ml" 105 3498 3533 "plugins/fourier/fourier.ml" 105 3498 3535
+type(
+  rational
+)
+ident(
+  int_ref r0 "plugins/fourier/fourier.ml" 40 1335 1339 "plugins/fourier/fourier.ml" 40 1335 1341
+)
+"plugins/fourier/fourier.ml" 105 3498 3536 "plugins/fourier/fourier.ml" 105 3498 3537
+type(
+  rational list ref
+)
+ident(
+  int_ref h "plugins/fourier/fourier.ml" 102 3388 3406 "plugins/fourier/fourier.ml" 102 3388 3407
+)
+"plugins/fourier/fourier.ml" 105 3498 3529 "plugins/fourier/fourier.ml" 105 3498 3538
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 105 3498 3512 "plugins/fourier/fourier.ml" 105 3498 3543
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 106 3545 3559 "plugins/fourier/fourier.ml" 106 3545 3560
+type(
+  int ref
+)
+ident(
+  int_ref i "plugins/fourier/fourier.ml" 100 3343 3350 "plugins/fourier/fourier.ml" 100 3343 3351
+)
+"plugins/fourier/fourier.ml" 106 3545 3560 "plugins/fourier/fourier.ml" 106 3545 3562
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/fourier/fourier.ml" 106 3545 3562 "plugins/fourier/fourier.ml" 106 3545 3563
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 106 3545 3563 "plugins/fourier/fourier.ml" 106 3545 3564
+type(
+  int ref
+)
+ident(
+  int_ref i "plugins/fourier/fourier.ml" 100 3343 3350 "plugins/fourier/fourier.ml" 100 3343 3351
+)
+"plugins/fourier/fourier.ml" 106 3545 3562 "plugins/fourier/fourier.ml" 106 3545 3564
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 106 3545 3564 "plugins/fourier/fourier.ml" 106 3545 3565
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/fourier/fourier.ml" 106 3545 3565 "plugins/fourier/fourier.ml" 106 3545 3566
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 106 3545 3562 "plugins/fourier/fourier.ml" 106 3545 3566
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 106 3545 3559 "plugins/fourier/fourier.ml" 106 3545 3566
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 107 3568 3588 "plugins/fourier/fourier.ml" 107 3568 3590
+type(
+  rational list
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 101 3361 3379 "plugins/fourier/fourier.ml" 101 3361 3381
+)
+"plugins/fourier/fourier.ml" 107 3568 3597 "plugins/fourier/fourier.ml" 107 3568 3598
+type(
+  rational list ref -> rational list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 107 3568 3598 "plugins/fourier/fourier.ml" 107 3568 3599
+type(
+  rational list ref
+)
+ident(
+  int_ref h "plugins/fourier/fourier.ml" 102 3388 3406 "plugins/fourier/fourier.ml" 102 3388 3407
+)
+"plugins/fourier/fourier.ml" 107 3568 3596 "plugins/fourier/fourier.ml" 107 3568 3600
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 107 3568 3608 "plugins/fourier/fourier.ml" 107 3568 3609
+type(
+  bool
+)
+ident(
+  int_ref s "plugins/fourier/fourier.ml" 101 3361 3382 "plugins/fourier/fourier.ml" 101 3361 3383
+)
+"plugins/fourier/fourier.ml" 107 3568 3582 "plugins/fourier/fourier.ml" 107 3568 3610
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 106 3545 3559 "plugins/fourier/fourier.ml" 107 3568 3610
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 105 3498 3512 "plugins/fourier/fourier.ml" 107 3568 3610
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 104 3474 3488 "plugins/fourier/fourier.ml" 107 3568 3610
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 103 3419 3433 "plugins/fourier/fourier.ml" 107 3568 3610
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 102 3388 3402 "plugins/fourier/fourier.ml" 107 3568 3610
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 101 3361 3373 "plugins/fourier/fourier.ml" 107 3568 3611
+type(
+  rational list * bool -> ineq
+)
+"plugins/fourier/fourier.ml" 108 3612 3625 "plugins/fourier/fourier.ml" 108 3612 3627
+type(
+  (rational list * bool) list
+)
+ident(
+  int_ref le "plugins/fourier/fourier.ml" 98 3296 3309 "plugins/fourier/fourier.ml" 98 3296 3311
+)
+"plugins/fourier/fourier.ml" 101 3361 3364 "plugins/fourier/fourier.ml" 108 3612 3627
+call(
+  tail
+)
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 100 3343 3346 "plugins/fourier/fourier.ml" 108 3612 3627
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 99 3314 3317 "plugins/fourier/fourier.ml" 108 3612 3627
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 111 3665 3669 "plugins/fourier/fourier.ml" 111 3665 3675
+type(
+  ineq -> ineq -> ineq
+)
+ident(
+  def ie_add "plugins/fourier/fourier.ml" 116 3898 3898 --
+)
+"plugins/fourier/fourier.ml" 111 3665 3676 "plugins/fourier/fourier.ml" 111 3665 3679
+type(
+  ineq
+)
+ident(
+  def ie1 "plugins/fourier/fourier.ml" 111 3665 3680 "plugins/fourier/fourier.ml" 113 3789 3829
+)
+"plugins/fourier/fourier.ml" 111 3665 3680 "plugins/fourier/fourier.ml" 111 3665 3683
+type(
+  ineq
+)
+ident(
+  def ie2 "plugins/fourier/fourier.ml" 111 3665 3686 "plugins/fourier/fourier.ml" 113 3789 3829
+)
+"plugins/fourier/fourier.ml" 111 3665 3692 "plugins/fourier/fourier.ml" 111 3665 3701
+type(
+  (rational -> rational -> rational) ->
+  rational list -> rational list -> rational list
+)
+ident(
+  ext_ref List.map2
+)
+"plugins/fourier/fourier.ml" 111 3665 3702 "plugins/fourier/fourier.ml" 111 3665 3707
+type(
+  rational -> rational -> rational
+)
+ident(
+  int_ref rplus "plugins/fourier/fourier.ml" 51 1683 1687 "plugins/fourier/fourier.ml" 51 1683 1692
+)
+"plugins/fourier/fourier.ml" 111 3665 3708 "plugins/fourier/fourier.ml" 111 3665 3711
+type(
+  ineq
+)
+ident(
+  int_ref ie1 "plugins/fourier/fourier.ml" 111 3665 3676 "plugins/fourier/fourier.ml" 111 3665 3679
+)
+"plugins/fourier/fourier.ml" 111 3665 3708 "plugins/fourier/fourier.ml" 111 3665 3716
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 111 3665 3717 "plugins/fourier/fourier.ml" 111 3665 3720
+type(
+  ineq
+)
+ident(
+  int_ref ie2 "plugins/fourier/fourier.ml" 111 3665 3680 "plugins/fourier/fourier.ml" 111 3665 3683
+)
+"plugins/fourier/fourier.ml" 111 3665 3717 "plugins/fourier/fourier.ml" 111 3665 3725
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 111 3665 3692 "plugins/fourier/fourier.ml" 111 3665 3725
+call(
+  stack
+)
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 112 3727 3754 "plugins/fourier/fourier.ml" 112 3727 3763
+type(
+  (rational -> rational -> rational) ->
+  rational list -> rational list -> rational list
+)
+ident(
+  ext_ref List.map2
+)
+"plugins/fourier/fourier.ml" 112 3727 3764 "plugins/fourier/fourier.ml" 112 3727 3769
+type(
+  rational -> rational -> rational
+)
+ident(
+  int_ref rplus "plugins/fourier/fourier.ml" 51 1683 1687 "plugins/fourier/fourier.ml" 51 1683 1692
+)
+"plugins/fourier/fourier.ml" 112 3727 3770 "plugins/fourier/fourier.ml" 112 3727 3773
+type(
+  ineq
+)
+ident(
+  int_ref ie1 "plugins/fourier/fourier.ml" 111 3665 3676 "plugins/fourier/fourier.ml" 111 3665 3679
+)
+"plugins/fourier/fourier.ml" 112 3727 3770 "plugins/fourier/fourier.ml" 112 3727 3778
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 112 3727 3779 "plugins/fourier/fourier.ml" 112 3727 3782
+type(
+  ineq
+)
+ident(
+  int_ref ie2 "plugins/fourier/fourier.ml" 111 3665 3680 "plugins/fourier/fourier.ml" 111 3665 3683
+)
+"plugins/fourier/fourier.ml" 112 3727 3779 "plugins/fourier/fourier.ml" 112 3727 3787
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 112 3727 3754 "plugins/fourier/fourier.ml" 112 3727 3787
+call(
+  stack
+)
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 113 3789 3804 "plugins/fourier/fourier.ml" 113 3789 3807
+type(
+  ineq
+)
+ident(
+  int_ref ie1 "plugins/fourier/fourier.ml" 111 3665 3676 "plugins/fourier/fourier.ml" 111 3665 3679
+)
+"plugins/fourier/fourier.ml" 113 3789 3804 "plugins/fourier/fourier.ml" 113 3789 3814
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 113 3789 3815 "plugins/fourier/fourier.ml" 113 3789 3817
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"plugins/fourier/fourier.ml" 113 3789 3818 "plugins/fourier/fourier.ml" 113 3789 3821
+type(
+  ineq
+)
+ident(
+  int_ref ie2 "plugins/fourier/fourier.ml" 111 3665 3680 "plugins/fourier/fourier.ml" 111 3665 3683
+)
+"plugins/fourier/fourier.ml" 113 3789 3818 "plugins/fourier/fourier.ml" 113 3789 3828
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 113 3789 3804 "plugins/fourier/fourier.ml" 113 3789 3828
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 111 3665 3686 "plugins/fourier/fourier.ml" 113 3789 3829
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 116 3898 3902 "plugins/fourier/fourier.ml" 116 3898 3910
+type(
+  rational -> ineq -> ineq
+)
+ident(
+  def ie_emult "plugins/fourier/fourier.ml" 121 4096 4096 --
+)
+"plugins/fourier/fourier.ml" 116 3898 3911 "plugins/fourier/fourier.ml" 116 3898 3912
+type(
+  rational
+)
+ident(
+  def a "plugins/fourier/fourier.ml" 116 3898 3913 "plugins/fourier/fourier.ml" 118 4028 4053
+)
+"plugins/fourier/fourier.ml" 116 3898 3913 "plugins/fourier/fourier.ml" 116 3898 3915
+type(
+  ineq
+)
+ident(
+  def ie "plugins/fourier/fourier.ml" 116 3898 3918 "plugins/fourier/fourier.ml" 118 4028 4053
+)
+"plugins/fourier/fourier.ml" 116 3898 3924 "plugins/fourier/fourier.ml" 116 3898 3932
+type(
+  (rational -> rational) -> rational list -> rational list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/fourier/fourier.ml" 116 3898 3938 "plugins/fourier/fourier.ml" 116 3898 3939
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 116 3898 3943 "plugins/fourier/fourier.ml" 116 3898 3952
+)
+"plugins/fourier/fourier.ml" 116 3898 3943 "plugins/fourier/fourier.ml" 116 3898 3948
+type(
+  rational -> rational -> rational
+)
+ident(
+  int_ref rmult "plugins/fourier/fourier.ml" 55 1830 1834 "plugins/fourier/fourier.ml" 55 1830 1839
+)
+"plugins/fourier/fourier.ml" 116 3898 3949 "plugins/fourier/fourier.ml" 116 3898 3950
+type(
+  rational
+)
+ident(
+  int_ref a "plugins/fourier/fourier.ml" 116 3898 3911 "plugins/fourier/fourier.ml" 116 3898 3912
+)
+"plugins/fourier/fourier.ml" 116 3898 3951 "plugins/fourier/fourier.ml" 116 3898 3952
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 116 3898 3938 "plugins/fourier/fourier.ml" 116 3898 3939
+)
+"plugins/fourier/fourier.ml" 116 3898 3943 "plugins/fourier/fourier.ml" 116 3898 3952
+call(
+  tail
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 116 3898 3933 "plugins/fourier/fourier.ml" 116 3898 3953
+type(
+  rational -> rational
+)
+"plugins/fourier/fourier.ml" 116 3898 3954 "plugins/fourier/fourier.ml" 116 3898 3956
+type(
+  ineq
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 116 3898 3913 "plugins/fourier/fourier.ml" 116 3898 3915
+)
+"plugins/fourier/fourier.ml" 116 3898 3954 "plugins/fourier/fourier.ml" 116 3898 3961
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 116 3898 3924 "plugins/fourier/fourier.ml" 116 3898 3961
+call(
+  stack
+)
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 117 3963 3989 "plugins/fourier/fourier.ml" 117 3963 3997
+type(
+  (rational -> rational) -> rational list -> rational list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/fourier/fourier.ml" 117 3963 4003 "plugins/fourier/fourier.ml" 117 3963 4004
+type(
+  rational
+)
+ident(
+  def x "plugins/fourier/fourier.ml" 117 3963 4008 "plugins/fourier/fourier.ml" 117 3963 4017
+)
+"plugins/fourier/fourier.ml" 117 3963 4008 "plugins/fourier/fourier.ml" 117 3963 4013
+type(
+  rational -> rational -> rational
+)
+ident(
+  int_ref rmult "plugins/fourier/fourier.ml" 55 1830 1834 "plugins/fourier/fourier.ml" 55 1830 1839
+)
+"plugins/fourier/fourier.ml" 117 3963 4014 "plugins/fourier/fourier.ml" 117 3963 4015
+type(
+  rational
+)
+ident(
+  int_ref a "plugins/fourier/fourier.ml" 116 3898 3911 "plugins/fourier/fourier.ml" 116 3898 3912
+)
+"plugins/fourier/fourier.ml" 117 3963 4016 "plugins/fourier/fourier.ml" 117 3963 4017
+type(
+  rational
+)
+ident(
+  int_ref x "plugins/fourier/fourier.ml" 117 3963 4003 "plugins/fourier/fourier.ml" 117 3963 4004
+)
+"plugins/fourier/fourier.ml" 117 3963 4008 "plugins/fourier/fourier.ml" 117 3963 4017
+call(
+  tail
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 117 3963 3998 "plugins/fourier/fourier.ml" 117 3963 4018
+type(
+  rational -> rational
+)
+"plugins/fourier/fourier.ml" 117 3963 4019 "plugins/fourier/fourier.ml" 117 3963 4021
+type(
+  ineq
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 116 3898 3913 "plugins/fourier/fourier.ml" 116 3898 3915
+)
+"plugins/fourier/fourier.ml" 117 3963 4019 "plugins/fourier/fourier.ml" 117 3963 4026
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 117 3963 3989 "plugins/fourier/fourier.ml" 117 3963 4026
+call(
+  stack
+)
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 118 4028 4043 "plugins/fourier/fourier.ml" 118 4028 4045
+type(
+  ineq
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 116 3898 3913 "plugins/fourier/fourier.ml" 116 3898 3915
+)
+"plugins/fourier/fourier.ml" 118 4028 4043 "plugins/fourier/fourier.ml" 118 4028 4052
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 116 3898 3918 "plugins/fourier/fourier.ml" 118 4028 4053
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 121 4096 4100 "plugins/fourier/fourier.ml" 121 4096 4105
+type(
+  ineq -> ineq
+)
+ident(
+  def ie_tl "plugins/fourier/fourier.ml" 124 4220 4220 --
+)
+"plugins/fourier/fourier.ml" 121 4096 4106 "plugins/fourier/fourier.ml" 121 4096 4108
+type(
+  ineq
+)
+ident(
+  def ie "plugins/fourier/fourier.ml" 121 4096 4111 "plugins/fourier/fourier.ml" 121 4096 4163
+)
+"plugins/fourier/fourier.ml" 121 4096 4117 "plugins/fourier/fourier.ml" 121 4096 4124
+type(
+  rational list -> rational list
+)
+ident(
+  ext_ref List.tl
+)
+"plugins/fourier/fourier.ml" 121 4096 4125 "plugins/fourier/fourier.ml" 121 4096 4127
+type(
+  ineq
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 121 4096 4106 "plugins/fourier/fourier.ml" 121 4096 4108
+)
+"plugins/fourier/fourier.ml" 121 4096 4125 "plugins/fourier/fourier.ml" 121 4096 4132
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 121 4096 4117 "plugins/fourier/fourier.ml" 121 4096 4132
+call(
+  stack
+)
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 121 4096 4138 "plugins/fourier/fourier.ml" 121 4096 4140
+type(
+  ineq
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 121 4096 4106 "plugins/fourier/fourier.ml" 121 4096 4108
+)
+"plugins/fourier/fourier.ml" 121 4096 4138 "plugins/fourier/fourier.ml" 121 4096 4145
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 121 4096 4153 "plugins/fourier/fourier.ml" 121 4096 4155
+type(
+  ineq
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 121 4096 4106 "plugins/fourier/fourier.ml" 121 4096 4108
+)
+"plugins/fourier/fourier.ml" 121 4096 4153 "plugins/fourier/fourier.ml" 121 4096 4162
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 121 4096 4111 "plugins/fourier/fourier.ml" 121 4096 4163
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 124 4220 4224 "plugins/fourier/fourier.ml" 124 4220 4231
+type(
+  ineq -> rational
+)
+ident(
+  def hd_coef "plugins/fourier/fourier.ml" 129 4399 4399 --
+)
+"plugins/fourier/fourier.ml" 124 4220 4232 "plugins/fourier/fourier.ml" 124 4220 4234
+type(
+  ineq
+)
+ident(
+  def ie "plugins/fourier/fourier.ml" 124 4220 4237 "plugins/fourier/fourier.ml" 124 4220 4252
+)
+"plugins/fourier/fourier.ml" 124 4220 4237 "plugins/fourier/fourier.ml" 124 4220 4244
+type(
+  rational list -> rational
+)
+ident(
+  ext_ref List.hd
+)
+"plugins/fourier/fourier.ml" 124 4220 4245 "plugins/fourier/fourier.ml" 124 4220 4247
+type(
+  ineq
+)
+ident(
+  int_ref ie "plugins/fourier/fourier.ml" 124 4220 4232 "plugins/fourier/fourier.ml" 124 4220 4234
+)
+"plugins/fourier/fourier.ml" 124 4220 4245 "plugins/fourier/fourier.ml" 124 4220 4252
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 124 4220 4237 "plugins/fourier/fourier.ml" 124 4220 4252
+call(
+  tail
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 129 4399 4403 "plugins/fourier/fourier.ml" 129 4399 4413
+type(
+  ineq list -> ineq list -> ineq list
+)
+ident(
+  def deduce_add "plugins/fourier/fourier.ml" 144 4803 4803 --
+)
+"plugins/fourier/fourier.ml" 129 4399 4414 "plugins/fourier/fourier.ml" 129 4399 4418
+type(
+  ineq list
+)
+ident(
+  def lneg "plugins/fourier/fourier.ml" 129 4399 4419 "plugins/fourier/fourier.ml" 139 4662 4669
+)
+"plugins/fourier/fourier.ml" 129 4399 4419 "plugins/fourier/fourier.ml" 129 4399 4423
+type(
+  ineq list
+)
+ident(
+  def lpos "plugins/fourier/fourier.ml" 130 4426 4429 "plugins/fourier/fourier.ml" 139 4662 4669
+)
+"plugins/fourier/fourier.ml" 130 4426 4433 "plugins/fourier/fourier.ml" 130 4426 4436
+type(
+  ineq list ref
+)
+"plugins/fourier/fourier.ml" 130 4426 4437 "plugins/fourier/fourier.ml" 130 4426 4440
+type(
+  ineq list -> ineq list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/fourier/fourier.ml" 130 4426 4441 "plugins/fourier/fourier.ml" 130 4426 4443
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 130 4426 4437 "plugins/fourier/fourier.ml" 130 4426 4443
+type(
+  ineq list ref
+)
+"plugins/fourier/fourier.ml" 131 4447 4450 "plugins/fourier/fourier.ml" 131 4447 4459
+type(
+  (ineq -> unit) -> ineq list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/fourier/fourier.ml" 131 4447 4465 "plugins/fourier/fourier.ml" 131 4447 4467
+type(
+  ineq
+)
+ident(
+  def i1 "plugins/fourier/fourier.ml" 132 4471 4474 "plugins/fourier/fourier.ml" 137 4624 4641
+)
+"plugins/fourier/fourier.ml" 132 4471 4474 "plugins/fourier/fourier.ml" 132 4471 4483
+type(
+  (ineq -> unit) -> ineq list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/fourier/fourier.ml" 132 4471 4489 "plugins/fourier/fourier.ml" 132 4471 4491
+type(
+  ineq
+)
+ident(
+  def i2 "plugins/fourier/fourier.ml" 133 4495 4499 "plugins/fourier/fourier.ml" 136 4592 4622
+)
+"plugins/fourier/fourier.ml" 133 4495 4503 "plugins/fourier/fourier.ml" 133 4495 4504
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 133 4495 4507 "plugins/fourier/fourier.ml" 133 4495 4510
+type(
+  rational -> rational
+)
+ident(
+  int_ref rop "plugins/fourier/fourier.ml" 49 1637 1641 "plugins/fourier/fourier.ml" 49 1637 1644
+)
+"plugins/fourier/fourier.ml" 133 4495 4512 "plugins/fourier/fourier.ml" 133 4495 4519
+type(
+  ineq -> rational
+)
+ident(
+  int_ref hd_coef "plugins/fourier/fourier.ml" 124 4220 4224 "plugins/fourier/fourier.ml" 124 4220 4231
+)
+"plugins/fourier/fourier.ml" 133 4495 4520 "plugins/fourier/fourier.ml" 133 4495 4522
+type(
+  ineq
+)
+ident(
+  int_ref i1 "plugins/fourier/fourier.ml" 131 4447 4465 "plugins/fourier/fourier.ml" 131 4447 4467
+)
+"plugins/fourier/fourier.ml" 133 4495 4511 "plugins/fourier/fourier.ml" 133 4495 4523
+call(
+  stack
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 133 4495 4507 "plugins/fourier/fourier.ml" 133 4495 4523
+call(
+  stack
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 134 4527 4535 "plugins/fourier/fourier.ml" 134 4527 4536
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 134 4527 4539 "plugins/fourier/fourier.ml" 134 4527 4546
+type(
+  ineq -> rational
+)
+ident(
+  int_ref hd_coef "plugins/fourier/fourier.ml" 124 4220 4224 "plugins/fourier/fourier.ml" 124 4220 4231
+)
+"plugins/fourier/fourier.ml" 134 4527 4547 "plugins/fourier/fourier.ml" 134 4527 4549
+type(
+  ineq
+)
+ident(
+  int_ref i2 "plugins/fourier/fourier.ml" 132 4471 4489 "plugins/fourier/fourier.ml" 132 4471 4491
+)
+"plugins/fourier/fourier.ml" 134 4527 4539 "plugins/fourier/fourier.ml" 134 4527 4549
+call(
+  stack
+)
+type(
+  rational
+)
+"plugins/fourier/fourier.ml" 135 4553 4557 "plugins/fourier/fourier.ml" 135 4553 4560
+type(
+  ineq -> ineq list ref -> unit
+)
+ident(
+  int_ref pop "plugins/fourier/fourier.ml" 73 2429 2433 "plugins/fourier/fourier.ml" 73 2429 2436
+)
+"plugins/fourier/fourier.ml" 135 4553 4562 "plugins/fourier/fourier.ml" 135 4553 4567
+type(
+  ineq -> ineq
+)
+ident(
+  int_ref ie_tl "plugins/fourier/fourier.ml" 121 4096 4100 "plugins/fourier/fourier.ml" 121 4096 4105
+)
+"plugins/fourier/fourier.ml" 135 4553 4569 "plugins/fourier/fourier.ml" 135 4553 4575
+type(
+  ineq -> ineq -> ineq
+)
+ident(
+  int_ref ie_add "plugins/fourier/fourier.ml" 111 3665 3669 "plugins/fourier/fourier.ml" 111 3665 3675
+)
+"plugins/fourier/fourier.ml" 135 4553 4577 "plugins/fourier/fourier.ml" 135 4553 4585
+type(
+  rational -> ineq -> ineq
+)
+ident(
+  int_ref ie_emult "plugins/fourier/fourier.ml" 116 3898 3902 "plugins/fourier/fourier.ml" 116 3898 3910
+)
+"plugins/fourier/fourier.ml" 135 4553 4586 "plugins/fourier/fourier.ml" 135 4553 4587
+type(
+  rational
+)
+ident(
+  int_ref b "plugins/fourier/fourier.ml" 134 4527 4535 "plugins/fourier/fourier.ml" 134 4527 4536
+)
+"plugins/fourier/fourier.ml" 135 4553 4588 "plugins/fourier/fourier.ml" 135 4553 4590
+type(
+  ineq
+)
+ident(
+  int_ref i1 "plugins/fourier/fourier.ml" 131 4447 4465 "plugins/fourier/fourier.ml" 131 4447 4467
+)
+"plugins/fourier/fourier.ml" 135 4553 4576 "plugins/fourier/fourier.ml" 135 4553 4591
+call(
+  stack
+)
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 136 4592 4602 "plugins/fourier/fourier.ml" 136 4592 4610
+type(
+  rational -> ineq -> ineq
+)
+ident(
+  int_ref ie_emult "plugins/fourier/fourier.ml" 116 3898 3902 "plugins/fourier/fourier.ml" 116 3898 3910
+)
+"plugins/fourier/fourier.ml" 136 4592 4611 "plugins/fourier/fourier.ml" 136 4592 4612
+type(
+  rational
+)
+ident(
+  int_ref a "plugins/fourier/fourier.ml" 133 4495 4503 "plugins/fourier/fourier.ml" 133 4495 4504
+)
+"plugins/fourier/fourier.ml" 136 4592 4613 "plugins/fourier/fourier.ml" 136 4592 4615
+type(
+  ineq
+)
+ident(
+  int_ref i2 "plugins/fourier/fourier.ml" 132 4471 4489 "plugins/fourier/fourier.ml" 132 4471 4491
+)
+"plugins/fourier/fourier.ml" 136 4592 4601 "plugins/fourier/fourier.ml" 136 4592 4616
+call(
+  stack
+)
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 135 4553 4568 "plugins/fourier/fourier.ml" 136 4592 4617
+call(
+  stack
+)
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 135 4553 4561 "plugins/fourier/fourier.ml" 136 4592 4618
+call(
+  stack
+)
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 136 4592 4619 "plugins/fourier/fourier.ml" 136 4592 4622
+type(
+  ineq list ref
+)
+ident(
+  int_ref res "plugins/fourier/fourier.ml" 130 4426 4433 "plugins/fourier/fourier.ml" 130 4426 4436
+)
+"plugins/fourier/fourier.ml" 135 4553 4557 "plugins/fourier/fourier.ml" 136 4592 4622
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 134 4527 4531 "plugins/fourier/fourier.ml" 136 4592 4622
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 133 4495 4499 "plugins/fourier/fourier.ml" 136 4592 4622
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 132 4471 4484 "plugins/fourier/fourier.ml" 136 4592 4623
+type(
+  ineq -> unit
+)
+"plugins/fourier/fourier.ml" 137 4624 4637 "plugins/fourier/fourier.ml" 137 4624 4641
+type(
+  ineq list
+)
+ident(
+  int_ref lpos "plugins/fourier/fourier.ml" 129 4399 4419 "plugins/fourier/fourier.ml" 129 4399 4423
+)
+"plugins/fourier/fourier.ml" 132 4471 4474 "plugins/fourier/fourier.ml" 137 4624 4641
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 131 4447 4460 "plugins/fourier/fourier.ml" 137 4624 4642
+type(
+  ineq -> unit
+)
+"plugins/fourier/fourier.ml" 138 4643 4656 "plugins/fourier/fourier.ml" 138 4643 4660
+type(
+  ineq list
+)
+ident(
+  int_ref lneg "plugins/fourier/fourier.ml" 129 4399 4414 "plugins/fourier/fourier.ml" 129 4399 4418
+)
+"plugins/fourier/fourier.ml" 131 4447 4450 "plugins/fourier/fourier.ml" 138 4643 4660
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 139 4662 4665 "plugins/fourier/fourier.ml" 139 4662 4666
+type(
+  ineq list ref -> ineq list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 139 4662 4666 "plugins/fourier/fourier.ml" 139 4662 4669
+type(
+  ineq list ref
+)
+ident(
+  int_ref res "plugins/fourier/fourier.ml" 130 4426 4433 "plugins/fourier/fourier.ml" 130 4426 4436
+)
+"plugins/fourier/fourier.ml" 139 4662 4665 "plugins/fourier/fourier.ml" 139 4662 4669
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 131 4447 4450 "plugins/fourier/fourier.ml" 139 4662 4669
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 130 4426 4429 "plugins/fourier/fourier.ml" 139 4662 4669
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 144 4803 4807 "plugins/fourier/fourier.ml" 144 4803 4814
+type(
+  ineq list -> ineq list
+)
+ident(
+  def deduce1 "plugins/fourier/fourier.ml" 153 5048 5048 --
+)
+"plugins/fourier/fourier.ml" 144 4803 4815 "plugins/fourier/fourier.ml" 144 4803 4816
+type(
+  ineq list
+)
+ident(
+  def s "plugins/fourier/fourier.ml" 145 4819 4823 "plugins/fourier/fourier.ml" 149 4946 4967
+)
+"plugins/fourier/fourier.ml" 145 4819 4830 "plugins/fourier/fourier.ml" 145 4819 4841
+type(
+  ineq list -> ineq list list
+)
+ident(
+  int_ref partitionne "plugins/fourier/fourier.ml" 77 2559 2563 "plugins/fourier/fourier.ml" 77 2559 2574
+)
+"plugins/fourier/fourier.ml" 145 4819 4842 "plugins/fourier/fourier.ml" 145 4819 4843
+type(
+  ineq list
+)
+ident(
+  int_ref s "plugins/fourier/fourier.ml" 144 4803 4815 "plugins/fourier/fourier.ml" 144 4803 4816
+)
+"plugins/fourier/fourier.ml" 145 4819 4829 "plugins/fourier/fourier.ml" 145 4819 4844
+call(
+  stack
+)
+type(
+  ineq list list
+)
+"plugins/fourier/fourier.ml" 146 4850 4857 "plugins/fourier/fourier.ml" 146 4850 4861
+type(
+  ineq list
+)
+ident(
+  def lneg "plugins/fourier/fourier.ml" 147 4876 4880 "plugins/fourier/fourier.ml" 148 4915 4945
+)
+"plugins/fourier/fourier.ml" 146 4850 4862 "plugins/fourier/fourier.ml" 146 4850 4866
+type(
+  ineq list
+)
+ident(
+  def lnul "plugins/fourier/fourier.ml" 147 4876 4880 "plugins/fourier/fourier.ml" 148 4915 4945
+)
+"plugins/fourier/fourier.ml" 146 4850 4867 "plugins/fourier/fourier.ml" 146 4850 4871
+type(
+  ineq list
+)
+ident(
+  def lpos "plugins/fourier/fourier.ml" 147 4876 4880 "plugins/fourier/fourier.ml" 148 4915 4945
+)
+"plugins/fourier/fourier.ml" 146 4850 4856 "plugins/fourier/fourier.ml" 146 4850 4872
+type(
+  ineq list list
+)
+"plugins/fourier/fourier.ml" 147 4876 4884 "plugins/fourier/fourier.ml" 147 4876 4888
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 147 4876 4891 "plugins/fourier/fourier.ml" 147 4876 4901
+type(
+  ineq list -> ineq list -> ineq list
+)
+ident(
+  int_ref deduce_add "plugins/fourier/fourier.ml" 129 4399 4403 "plugins/fourier/fourier.ml" 129 4399 4413
+)
+"plugins/fourier/fourier.ml" 147 4876 4902 "plugins/fourier/fourier.ml" 147 4876 4906
+type(
+  ineq list
+)
+ident(
+  int_ref lneg "plugins/fourier/fourier.ml" 146 4850 4857 "plugins/fourier/fourier.ml" 146 4850 4861
+)
+"plugins/fourier/fourier.ml" 147 4876 4907 "plugins/fourier/fourier.ml" 147 4876 4911
+type(
+  ineq list
+)
+ident(
+  int_ref lpos "plugins/fourier/fourier.ml" 146 4850 4867 "plugins/fourier/fourier.ml" 146 4850 4871
+)
+"plugins/fourier/fourier.ml" 147 4876 4891 "plugins/fourier/fourier.ml" 147 4876 4911
+call(
+  stack
+)
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 148 4915 4920 "plugins/fourier/fourier.ml" 148 4915 4928
+type(
+  (ineq -> ineq) -> ineq list -> ineq list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/fourier/fourier.ml" 148 4915 4929 "plugins/fourier/fourier.ml" 148 4915 4934
+type(
+  ineq -> ineq
+)
+ident(
+  int_ref ie_tl "plugins/fourier/fourier.ml" 121 4096 4100 "plugins/fourier/fourier.ml" 121 4096 4105
+)
+"plugins/fourier/fourier.ml" 148 4915 4935 "plugins/fourier/fourier.ml" 148 4915 4939
+type(
+  ineq list
+)
+ident(
+  int_ref lnul "plugins/fourier/fourier.ml" 146 4850 4862 "plugins/fourier/fourier.ml" 146 4850 4866
+)
+"plugins/fourier/fourier.ml" 148 4915 4919 "plugins/fourier/fourier.ml" 148 4915 4940
+call(
+  stack
+)
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 148 4915 4940 "plugins/fourier/fourier.ml" 148 4915 4941
+type(
+  ineq list -> ineq list -> ineq list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"plugins/fourier/fourier.ml" 148 4915 4941 "plugins/fourier/fourier.ml" 148 4915 4945
+type(
+  ineq list
+)
+ident(
+  int_ref lnew "plugins/fourier/fourier.ml" 147 4876 4884 "plugins/fourier/fourier.ml" 147 4876 4888
+)
+"plugins/fourier/fourier.ml" 148 4915 4919 "plugins/fourier/fourier.ml" 148 4915 4945
+call(
+  tail
+)
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 147 4876 4880 "plugins/fourier/fourier.ml" 148 4915 4945
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 149 4946 4952 "plugins/fourier/fourier.ml" 149 4946 4953
+type(
+  ineq list list
+)
+"plugins/fourier/fourier.ml" 149 4946 4955 "plugins/fourier/fourier.ml" 149 4946 4967
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 145 4819 4823 "plugins/fourier/fourier.ml" 149 4946 4967
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 153 5048 5052 "plugins/fourier/fourier.ml" 153 5048 5058
+type(
+  (rational list * bool) list -> ineq list
+)
+ident(
+  def deduce "plugins/fourier/fourier.ml" 169 5420 5420 --
+)
+"plugins/fourier/fourier.ml" 153 5048 5059 "plugins/fourier/fourier.ml" 153 5048 5062
+type(
+  (rational list * bool) list
+)
+ident(
+  def lie "plugins/fourier/fourier.ml" 154 5065 5068 "plugins/fourier/fourier.ml" 159 5200 5207
+)
+"plugins/fourier/fourier.ml" 154 5065 5072 "plugins/fourier/fourier.ml" 154 5065 5073
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 154 5065 5076 "plugins/fourier/fourier.ml" 154 5065 5087
+type(
+  rational list -> int
+)
+ident(
+  ext_ref List.length
+)
+"plugins/fourier/fourier.ml" 154 5065 5089 "plugins/fourier/fourier.ml" 154 5065 5092
+type(
+  rational list * bool -> rational list
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"plugins/fourier/fourier.ml" 154 5065 5094 "plugins/fourier/fourier.ml" 154 5065 5101
+type(
+  (rational list * bool) list -> rational list * bool
+)
+ident(
+  ext_ref List.hd
+)
+"plugins/fourier/fourier.ml" 154 5065 5102 "plugins/fourier/fourier.ml" 154 5065 5105
+type(
+  (rational list * bool) list
+)
+ident(
+  int_ref lie "plugins/fourier/fourier.ml" 153 5048 5059 "plugins/fourier/fourier.ml" 153 5048 5062
+)
+"plugins/fourier/fourier.ml" 154 5065 5093 "plugins/fourier/fourier.ml" 154 5065 5106
+call(
+  stack
+)
+type(
+  rational list * bool
+)
+"plugins/fourier/fourier.ml" 154 5065 5088 "plugins/fourier/fourier.ml" 154 5065 5107
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 154 5065 5076 "plugins/fourier/fourier.ml" 154 5065 5107
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 155 5111 5118 "plugins/fourier/fourier.ml" 155 5111 5121
+type(
+  ineq list ref
+)
+"plugins/fourier/fourier.ml" 155 5111 5122 "plugins/fourier/fourier.ml" 155 5111 5125
+type(
+  ineq list -> ineq list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/fourier/fourier.ml" 155 5111 5127 "plugins/fourier/fourier.ml" 155 5111 5135
+type(
+  (rational list * bool) list -> ineq list
+)
+ident(
+  int_ref add_hist "plugins/fourier/fourier.ml" 98 3296 3300 "plugins/fourier/fourier.ml" 98 3296 3308
+)
+"plugins/fourier/fourier.ml" 155 5111 5136 "plugins/fourier/fourier.ml" 155 5111 5139
+type(
+  (rational list * bool) list
+)
+ident(
+  int_ref lie "plugins/fourier/fourier.ml" 153 5048 5059 "plugins/fourier/fourier.ml" 153 5048 5062
+)
+"plugins/fourier/fourier.ml" 155 5111 5126 "plugins/fourier/fourier.ml" 155 5111 5140
+call(
+  stack
+)
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 155 5111 5122 "plugins/fourier/fourier.ml" 155 5111 5140
+type(
+  ineq list ref
+)
+"plugins/fourier/fourier.ml" 156 5144 5153 "plugins/fourier/fourier.ml" 156 5144 5154
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 156 5144 5158 "plugins/fourier/fourier.ml" 156 5144 5159
+type(
+  int
+)
+ident(
+  int_ref n "plugins/fourier/fourier.ml" 154 5065 5072 "plugins/fourier/fourier.ml" 154 5065 5073
+)
+"plugins/fourier/fourier.ml" 156 5144 5159 "plugins/fourier/fourier.ml" 156 5144 5160
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/fourier/fourier.ml" 156 5144 5160 "plugins/fourier/fourier.ml" 156 5144 5161
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 156 5144 5158 "plugins/fourier/fourier.ml" 156 5144 5161
+type(
+  int
+)
+"plugins/fourier/fourier.ml" 157 5165 5171 "plugins/fourier/fourier.ml" 157 5165 5174
+type(
+  ineq list ref
+)
+ident(
+  int_ref lie "plugins/fourier/fourier.ml" 155 5111 5118 "plugins/fourier/fourier.ml" 155 5111 5121
+)
+"plugins/fourier/fourier.ml" 157 5165 5174 "plugins/fourier/fourier.ml" 157 5165 5176
+type(
+  ineq list ref -> ineq list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/fourier/fourier.ml" 157 5165 5177 "plugins/fourier/fourier.ml" 157 5165 5184
+type(
+  ineq list -> ineq list
+)
+ident(
+  int_ref deduce1 "plugins/fourier/fourier.ml" 144 4803 4807 "plugins/fourier/fourier.ml" 144 4803 4814
+)
+"plugins/fourier/fourier.ml" 157 5165 5185 "plugins/fourier/fourier.ml" 157 5165 5186
+type(
+  ineq list ref -> ineq list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 157 5165 5186 "plugins/fourier/fourier.ml" 157 5165 5189
+type(
+  ineq list ref
+)
+ident(
+  int_ref lie "plugins/fourier/fourier.ml" 155 5111 5118 "plugins/fourier/fourier.ml" 155 5111 5121
+)
+"plugins/fourier/fourier.ml" 157 5165 5185 "plugins/fourier/fourier.ml" 157 5165 5189
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 157 5165 5177 "plugins/fourier/fourier.ml" 157 5165 5189
+call(
+  stack
+)
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 157 5165 5171 "plugins/fourier/fourier.ml" 157 5165 5190
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 156 5144 5147 "plugins/fourier/fourier.ml" 158 5191 5198
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 159 5200 5203 "plugins/fourier/fourier.ml" 159 5200 5204
+type(
+  ineq list ref -> ineq list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 159 5200 5204 "plugins/fourier/fourier.ml" 159 5200 5207
+type(
+  ineq list ref
+)
+ident(
+  int_ref lie "plugins/fourier/fourier.ml" 155 5111 5118 "plugins/fourier/fourier.ml" 155 5111 5121
+)
+"plugins/fourier/fourier.ml" 159 5200 5203 "plugins/fourier/fourier.ml" 159 5200 5207
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 156 5144 5147 "plugins/fourier/fourier.ml" 159 5200 5207
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 155 5111 5114 "plugins/fourier/fourier.ml" 159 5200 5207
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 154 5065 5068 "plugins/fourier/fourier.ml" 159 5200 5207
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 169 5420 5424 "plugins/fourier/fourier.ml" 169 5420 5434
+type(
+  (rational list * bool) list -> (rational * bool * rational list) list
+)
+ident(
+  def unsolvable "plugins/fourier/fourier.ml" 181 5776 5783 --
+)
+"plugins/fourier/fourier.ml" 169 5420 5435 "plugins/fourier/fourier.ml" 169 5420 5438
+type(
+  (rational list * bool) list
+)
+ident(
+  def lie "plugins/fourier/fourier.ml" 170 5441 5444 "plugins/fourier/fourier.ml" 181 5776 5783
+)
+"plugins/fourier/fourier.ml" 170 5441 5448 "plugins/fourier/fourier.ml" 170 5441 5450
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 170 5441 5453 "plugins/fourier/fourier.ml" 170 5441 5459
+type(
+  (rational list * bool) list -> ineq list
+)
+ident(
+  int_ref deduce "plugins/fourier/fourier.ml" 153 5048 5052 "plugins/fourier/fourier.ml" 153 5048 5058
+)
+"plugins/fourier/fourier.ml" 170 5441 5460 "plugins/fourier/fourier.ml" 170 5441 5463
+type(
+  (rational list * bool) list
+)
+ident(
+  int_ref lie "plugins/fourier/fourier.ml" 169 5420 5435 "plugins/fourier/fourier.ml" 169 5420 5438
+)
+"plugins/fourier/fourier.ml" 170 5441 5453 "plugins/fourier/fourier.ml" 170 5441 5463
+call(
+  stack
+)
+type(
+  ineq list
+)
+"plugins/fourier/fourier.ml" 171 5467 5474 "plugins/fourier/fourier.ml" 171 5467 5477
+type(
+  (rational * bool * rational list) list ref
+)
+"plugins/fourier/fourier.ml" 171 5467 5480 "plugins/fourier/fourier.ml" 171 5467 5483
+type(
+  (rational * bool * rational list) list ->
+  (rational * bool * rational list) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/fourier/fourier.ml" 171 5467 5484 "plugins/fourier/fourier.ml" 171 5467 5486
+type(
+  (rational * bool * rational list) list
+)
+"plugins/fourier/fourier.ml" 171 5467 5480 "plugins/fourier/fourier.ml" 171 5467 5486
+type(
+  (rational * bool * rational list) list ref
+)
+"plugins/fourier/fourier.ml" 172 5490 5499 "plugins/fourier/fourier.ml" 172 5490 5508
+type(
+  (ineq -> unit) -> ineq list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/fourier/fourier.ml" 172 5490 5514 "plugins/fourier/fourier.ml" 172 5490 5515
+type(
+  ineq
+)
+ident(
+  def e "plugins/fourier/fourier.ml" 173 5519 5528 "plugins/fourier/fourier.ml" 178 5718 5744
+)
+"plugins/fourier/fourier.ml" 173 5519 5534 "plugins/fourier/fourier.ml" 173 5519 5535
+type(
+  ineq
+)
+ident(
+  int_ref e "plugins/fourier/fourier.ml" 172 5490 5514 "plugins/fourier/fourier.ml" 172 5490 5515
+)
+"plugins/fourier/fourier.ml" 174 5541 5559 "plugins/fourier/fourier.ml" 174 5541 5560
+type(
+  rational
+)
+ident(
+  def c "plugins/fourier/fourier.ml" 175 5583 5587 "plugins/fourier/fourier.ml" 177 5676 5717
+)
+"plugins/fourier/fourier.ml" 174 5541 5558 "plugins/fourier/fourier.ml" 174 5541 5561
+type(
+  rational list
+)
+"plugins/fourier/fourier.ml" 174 5541 5567 "plugins/fourier/fourier.ml" 174 5541 5569
+type(
+  rational list
+)
+ident(
+  def lc "plugins/fourier/fourier.ml" 175 5583 5587 "plugins/fourier/fourier.ml" 177 5676 5717
+)
+"plugins/fourier/fourier.ml" 174 5541 5577 "plugins/fourier/fourier.ml" 174 5541 5578
+type(
+  bool
+)
+ident(
+  def s "plugins/fourier/fourier.ml" 175 5583 5587 "plugins/fourier/fourier.ml" 177 5676 5717
+)
+"plugins/fourier/fourier.ml" 174 5541 5552 "plugins/fourier/fourier.ml" 174 5541 5579
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 175 5583 5591 "plugins/fourier/fourier.ml" 175 5583 5595
+type(
+  rational -> rational -> bool
+)
+ident(
+  int_ref rinf "plugins/fourier/fourier.ml" 61 1991 1995 "plugins/fourier/fourier.ml" 61 1991 1999
+)
+"plugins/fourier/fourier.ml" 175 5583 5596 "plugins/fourier/fourier.ml" 175 5583 5597
+type(
+  rational
+)
+ident(
+  int_ref c "plugins/fourier/fourier.ml" 174 5541 5559 "plugins/fourier/fourier.ml" 174 5541 5560
+)
+"plugins/fourier/fourier.ml" 175 5583 5598 "plugins/fourier/fourier.ml" 175 5583 5600
+type(
+  rational
+)
+ident(
+  int_ref r0 "plugins/fourier/fourier.ml" 40 1335 1339 "plugins/fourier/fourier.ml" 40 1335 1341
+)
+"plugins/fourier/fourier.ml" 175 5583 5591 "plugins/fourier/fourier.ml" 175 5583 5600
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 175 5583 5601 "plugins/fourier/fourier.ml" 175 5583 5603
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/fourier/fourier.ml" 175 5583 5605 "plugins/fourier/fourier.ml" 175 5583 5608
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/fourier/fourier.ml" 175 5583 5609 "plugins/fourier/fourier.ml" 175 5583 5610
+type(
+  bool
+)
+ident(
+  int_ref s "plugins/fourier/fourier.ml" 174 5541 5577 "plugins/fourier/fourier.ml" 174 5541 5578
+)
+"plugins/fourier/fourier.ml" 175 5583 5604 "plugins/fourier/fourier.ml" 175 5583 5611
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 175 5583 5590 "plugins/fourier/fourier.ml" 175 5583 5612
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 175 5583 5613 "plugins/fourier/fourier.ml" 175 5583 5615
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"plugins/fourier/fourier.ml" 175 5583 5617 "plugins/fourier/fourier.ml" 175 5583 5623
+type(
+  rational -> rational -> bool
+)
+ident(
+  int_ref rinfeq "plugins/fourier/fourier.ml" 62 2034 2038 "plugins/fourier/fourier.ml" 62 2034 2044
+)
+"plugins/fourier/fourier.ml" 175 5583 5624 "plugins/fourier/fourier.ml" 175 5583 5625
+type(
+  rational
+)
+ident(
+  int_ref c "plugins/fourier/fourier.ml" 174 5541 5559 "plugins/fourier/fourier.ml" 174 5541 5560
+)
+"plugins/fourier/fourier.ml" 175 5583 5626 "plugins/fourier/fourier.ml" 175 5583 5628
+type(
+  rational
+)
+ident(
+  int_ref r0 "plugins/fourier/fourier.ml" 40 1335 1339 "plugins/fourier/fourier.ml" 40 1335 1341
+)
+"plugins/fourier/fourier.ml" 175 5583 5617 "plugins/fourier/fourier.ml" 175 5583 5628
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 175 5583 5629 "plugins/fourier/fourier.ml" 175 5583 5631
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/fourier/fourier.ml" 175 5583 5632 "plugins/fourier/fourier.ml" 175 5583 5633
+type(
+  bool
+)
+ident(
+  int_ref s "plugins/fourier/fourier.ml" 174 5541 5577 "plugins/fourier/fourier.ml" 174 5541 5578
+)
+"plugins/fourier/fourier.ml" 175 5583 5616 "plugins/fourier/fourier.ml" 175 5583 5634
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 175 5583 5590 "plugins/fourier/fourier.ml" 175 5583 5634
+type(
+  bool
+)
+"plugins/fourier/fourier.ml" 176 5635 5659 "plugins/fourier/fourier.ml" 176 5635 5662
+type(
+  (rational * bool * rational list) list ref
+)
+ident(
+  int_ref res "plugins/fourier/fourier.ml" 171 5467 5474 "plugins/fourier/fourier.ml" 171 5467 5477
+)
+"plugins/fourier/fourier.ml" 176 5635 5663 "plugins/fourier/fourier.ml" 176 5635 5665
+type(
+  (rational * bool * rational list) list ref ->
+  (rational * bool * rational list) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/fourier/fourier.ml" 176 5635 5667 "plugins/fourier/fourier.ml" 176 5635 5668
+type(
+  rational
+)
+ident(
+  int_ref c "plugins/fourier/fourier.ml" 174 5541 5559 "plugins/fourier/fourier.ml" 174 5541 5560
+)
+"plugins/fourier/fourier.ml" 176 5635 5669 "plugins/fourier/fourier.ml" 176 5635 5670
+type(
+  bool
+)
+ident(
+  int_ref s "plugins/fourier/fourier.ml" 174 5541 5577 "plugins/fourier/fourier.ml" 174 5541 5578
+)
+"plugins/fourier/fourier.ml" 176 5635 5671 "plugins/fourier/fourier.ml" 176 5635 5673
+type(
+  rational list
+)
+ident(
+  int_ref lc "plugins/fourier/fourier.ml" 174 5541 5567 "plugins/fourier/fourier.ml" 174 5541 5569
+)
+"plugins/fourier/fourier.ml" 176 5635 5667 "plugins/fourier/fourier.ml" 176 5635 5673
+type(
+  rational * bool * rational list
+)
+"plugins/fourier/fourier.ml" 176 5635 5666 "plugins/fourier/fourier.ml" 176 5635 5674
+type(
+  (rational * bool * rational list) list
+)
+"plugins/fourier/fourier.ml" 176 5635 5659 "plugins/fourier/fourier.ml" 176 5635 5674
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 177 5676 5679 "plugins/fourier/fourier.ml" 177 5676 5684
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/fourier/fourier.ml" 177 5676 5694 "plugins/fourier/fourier.ml" 177 5676 5715
+type(
+  string
+)
+"plugins/fourier/fourier.ml" 177 5676 5685 "plugins/fourier/fourier.ml" 177 5676 5716
+type(
+  exn
+)
+"plugins/fourier/fourier.ml" 177 5676 5679 "plugins/fourier/fourier.ml" 177 5676 5716
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 176 5635 5658 "plugins/fourier/fourier.ml" 177 5676 5717
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 175 5583 5587 "plugins/fourier/fourier.ml" 177 5676 5717
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 178 5718 5729 "plugins/fourier/fourier.ml" 178 5718 5730
+type(
+  ineq
+)
+"plugins/fourier/fourier.ml" 178 5718 5732 "plugins/fourier/fourier.ml" 178 5718 5744
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 173 5519 5528 "plugins/fourier/fourier.ml" 178 5718 5744
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 172 5490 5509 "plugins/fourier/fourier.ml" 178 5718 5745
+type(
+  ineq -> unit
+)
+"plugins/fourier/fourier.ml" 179 5746 5754 "plugins/fourier/fourier.ml" 179 5746 5756
+type(
+  ineq list
+)
+ident(
+  int_ref lr "plugins/fourier/fourier.ml" 170 5441 5448 "plugins/fourier/fourier.ml" 170 5441 5450
+)
+"plugins/fourier/fourier.ml" 172 5490 5498 "plugins/fourier/fourier.ml" 179 5746 5757
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 180 5758 5766 "plugins/fourier/fourier.ml" 180 5758 5767
+type(
+  exn
+)
+"plugins/fourier/fourier.ml" 180 5758 5771 "plugins/fourier/fourier.ml" 180 5758 5773
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 172 5490 5493 "plugins/fourier/fourier.ml" 180 5758 5774
+type(
+  unit
+)
+"plugins/fourier/fourier.ml" 181 5776 5779 "plugins/fourier/fourier.ml" 181 5776 5780
+type(
+  (rational * bool * rational list) list ref ->
+  (rational * bool * rational list) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/fourier/fourier.ml" 181 5776 5780 "plugins/fourier/fourier.ml" 181 5776 5783
+type(
+  (rational * bool * rational list) list ref
+)
+ident(
+  int_ref res "plugins/fourier/fourier.ml" 171 5467 5474 "plugins/fourier/fourier.ml" 171 5467 5477
+)
+"plugins/fourier/fourier.ml" 181 5776 5779 "plugins/fourier/fourier.ml" 181 5776 5783
+type(
+  (rational * bool * rational list) list
+)
+"plugins/fourier/fourier.ml" 172 5490 5493 "plugins/fourier/fourier.ml" 181 5776 5783
+type(
+  (rational * bool * rational list) list
+)
+"plugins/fourier/fourier.ml" 171 5467 5470 "plugins/fourier/fourier.ml" 181 5776 5783
+type(
+  (rational * bool * rational list) list
+)
+"plugins/fourier/fourier.ml" 170 5441 5444 "plugins/fourier/fourier.ml" 181 5776 5783
+type(
+  (rational * bool * rational list) list
+)

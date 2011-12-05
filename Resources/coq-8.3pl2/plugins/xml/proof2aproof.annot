@@ -1,0 +1,3543 @@
+"plugins/xml/proof2aproof.ml" 21 1218 1224 "plugins/xml/proof2aproof.ml" 21 1218 1229
+type(
+  'a list
+)
+ident(
+  def empty "plugins/xml/proof2aproof.ml" 22 1235 1237 "plugins/xml/proof2aproof.ml" 24 1278 1282
+)
+"plugins/xml/proof2aproof.ml" 21 1218 1232 "plugins/xml/proof2aproof.ml" 21 1218 1234
+type(
+  'a list
+)
+"plugins/xml/proof2aproof.ml" 22 1235 1241 "plugins/xml/proof2aproof.ml" 22 1235 1244
+type(
+  'b -> 'b list -> bool
+)
+ident(
+  def mem "plugins/xml/proof2aproof.ml" 23 1257 1259 "plugins/xml/proof2aproof.ml" 24 1278 1282
+)
+"plugins/xml/proof2aproof.ml" 22 1235 1247 "plugins/xml/proof2aproof.ml" 22 1235 1256
+type(
+  'b -> 'b list -> bool
+)
+ident(
+  ext_ref List.memq
+)
+"plugins/xml/proof2aproof.ml" 23 1257 1263 "plugins/xml/proof2aproof.ml" 23 1257 1266
+type(
+  'c -> 'c list -> 'c list
+)
+ident(
+  def add "plugins/xml/proof2aproof.ml" 23 1257 1277 "plugins/xml/proof2aproof.ml" 24 1278 1282
+)
+"plugins/xml/proof2aproof.ml" 23 1257 1267 "plugins/xml/proof2aproof.ml" 23 1257 1268
+type(
+  'c
+)
+ident(
+  def x "plugins/xml/proof2aproof.ml" 23 1257 1269 "plugins/xml/proof2aproof.ml" 23 1257 1277
+)
+"plugins/xml/proof2aproof.ml" 23 1257 1269 "plugins/xml/proof2aproof.ml" 23 1257 1270
+type(
+  'c list
+)
+ident(
+  def l "plugins/xml/proof2aproof.ml" 23 1257 1273 "plugins/xml/proof2aproof.ml" 23 1257 1277
+)
+"plugins/xml/proof2aproof.ml" 23 1257 1273 "plugins/xml/proof2aproof.ml" 23 1257 1274
+type(
+  'c
+)
+ident(
+  int_ref x "plugins/xml/proof2aproof.ml" 23 1257 1267 "plugins/xml/proof2aproof.ml" 23 1257 1268
+)
+"plugins/xml/proof2aproof.ml" 23 1257 1276 "plugins/xml/proof2aproof.ml" 23 1257 1277
+type(
+  'c list
+)
+ident(
+  int_ref l "plugins/xml/proof2aproof.ml" 23 1257 1269 "plugins/xml/proof2aproof.ml" 23 1257 1270
+)
+"plugins/xml/proof2aproof.ml" 23 1257 1273 "plugins/xml/proof2aproof.ml" 23 1257 1277
+type(
+  'c list
+)
+"plugins/xml/proof2aproof.ml" 28 1334 1338 "plugins/xml/proof2aproof.ml" 28 1334 1345
+type(
+  Evd.evar_map ->
+  preserve:(Term.constr -> bool) -> Term.constr -> Term.constr
+)
+ident(
+  def nf_evar "plugins/xml/proof2aproof.ml" 64 2834 2834 --
+)
+"plugins/xml/proof2aproof.ml" 28 1334 1346 "plugins/xml/proof2aproof.ml" 28 1334 1351
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/proof2aproof.ml" 28 1334 1352 "plugins/xml/proof2aproof.ml" 59 2666 2673
+)
+"plugins/xml/proof2aproof.ml" 28 1334 1353 "plugins/xml/proof2aproof.ml" 28 1334 1361
+type(
+  Term.constr -> bool
+)
+ident(
+  def preserve "plugins/xml/proof2aproof.ml" 29 1364 1365 "plugins/xml/proof2aproof.ml" 59 2666 2673
+)
+"plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  def aux "plugins/xml/proof2aproof.ml" 30 1388 1390 "plugins/xml/proof2aproof.ml" 59 2666 2673
+)
+"plugins/xml/proof2aproof.ml" 30 1388 1402 "plugins/xml/proof2aproof.ml" 30 1388 1403
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/xml/proof2aproof.ml" 31 1406 1409 "plugins/xml/proof2aproof.ml" 57 2596 2659
+)
+"plugins/xml/proof2aproof.ml" 31 1406 1412 "plugins/xml/proof2aproof.ml" 31 1406 1420
+type(
+  Term.constr -> bool
+)
+ident(
+  int_ref preserve "plugins/xml/proof2aproof.ml" 28 1334 1353 "plugins/xml/proof2aproof.ml" 28 1334 1361
+)
+"plugins/xml/proof2aproof.ml" 31 1406 1421 "plugins/xml/proof2aproof.ml" 31 1406 1422
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/xml/proof2aproof.ml" 30 1388 1402 "plugins/xml/proof2aproof.ml" 30 1388 1403
+)
+"plugins/xml/proof2aproof.ml" 31 1406 1412 "plugins/xml/proof2aproof.ml" 31 1406 1422
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/xml/proof2aproof.ml" 31 1406 1428 "plugins/xml/proof2aproof.ml" 31 1406 1429
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/xml/proof2aproof.ml" 30 1388 1402 "plugins/xml/proof2aproof.ml" 30 1388 1403
+)
+"plugins/xml/proof2aproof.ml" 32 1435 1445 "plugins/xml/proof2aproof.ml" 32 1435 1459
+type(
+  Term.constr -> (Term.constr, Term.constr) T.kind_of_term
+)
+ident(
+  ext_ref T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 32 1435 1460 "plugins/xml/proof2aproof.ml" 32 1435 1461
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/xml/proof2aproof.ml" 30 1388 1402 "plugins/xml/proof2aproof.ml" 30 1388 1403
+)
+"plugins/xml/proof2aproof.ml" 32 1435 1445 "plugins/xml/proof2aproof.ml" 32 1435 1461
+call(
+  stack
+)
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1480 "plugins/xml/proof2aproof.ml" 33 1467 1481
+type(
+  int
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1474 "plugins/xml/proof2aproof.ml" 33 1467 1481
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1491 "plugins/xml/proof2aproof.ml" 33 1467 1492
+type(
+  T.metavariable
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1484 "plugins/xml/proof2aproof.ml" 33 1467 1492
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1474 "plugins/xml/proof2aproof.ml" 33 1467 1492
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1501 "plugins/xml/proof2aproof.ml" 33 1467 1502
+type(
+  Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1495 "plugins/xml/proof2aproof.ml" 33 1467 1502
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1474 "plugins/xml/proof2aproof.ml" 33 1467 1502
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1512 "plugins/xml/proof2aproof.ml" 33 1467 1513
+type(
+  T.sorts
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1505 "plugins/xml/proof2aproof.ml" 33 1467 1513
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1474 "plugins/xml/proof2aproof.ml" 33 1467 1513
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1524 "plugins/xml/proof2aproof.ml" 33 1467 1525
+type(
+  Names.constant
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1516 "plugins/xml/proof2aproof.ml" 33 1467 1525
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1474 "plugins/xml/proof2aproof.ml" 33 1467 1525
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1534 "plugins/xml/proof2aproof.ml" 33 1467 1535
+type(
+  Names.inductive
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1528 "plugins/xml/proof2aproof.ml" 33 1467 1535
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1474 "plugins/xml/proof2aproof.ml" 33 1467 1535
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 34 1536 1555 "plugins/xml/proof2aproof.ml" 34 1536 1556
+type(
+  Names.constructor
+)
+"plugins/xml/proof2aproof.ml" 34 1536 1543 "plugins/xml/proof2aproof.ml" 34 1536 1556
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 33 1467 1474 "plugins/xml/proof2aproof.ml" 34 1536 1556
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 34 1536 1560 "plugins/xml/proof2aproof.ml" 34 1536 1561
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/xml/proof2aproof.ml" 30 1388 1402 "plugins/xml/proof2aproof.ml" 30 1388 1403
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1577 "plugins/xml/proof2aproof.ml" 35 1562 1579
+type(
+  Term.constr
+)
+ident(
+  def c1 "plugins/xml/proof2aproof.ml" 35 1562 1589 "plugins/xml/proof2aproof.ml" 35 1562 1617
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1580 "plugins/xml/proof2aproof.ml" 35 1562 1581
+type(
+  T.cast_kind
+)
+ident(
+  def k "plugins/xml/proof2aproof.ml" 35 1562 1589 "plugins/xml/proof2aproof.ml" 35 1562 1617
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1582 "plugins/xml/proof2aproof.ml" 35 1562 1584
+type(
+  Term.constr
+)
+ident(
+  def c2 "plugins/xml/proof2aproof.ml" 35 1562 1589 "plugins/xml/proof2aproof.ml" 35 1562 1617
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1569 "plugins/xml/proof2aproof.ml" 35 1562 1585
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1589 "plugins/xml/proof2aproof.ml" 35 1562 1597
+type(
+  Term.constr * T.cast_kind * Term.constr -> Term.constr
+)
+ident(
+  ext_ref T.mkCast
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1599 "plugins/xml/proof2aproof.ml" 35 1562 1602
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1603 "plugins/xml/proof2aproof.ml" 35 1562 1605
+type(
+  Term.constr
+)
+ident(
+  int_ref c1 "plugins/xml/proof2aproof.ml" 35 1562 1577 "plugins/xml/proof2aproof.ml" 35 1562 1579
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1599 "plugins/xml/proof2aproof.ml" 35 1562 1605
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1607 "plugins/xml/proof2aproof.ml" 35 1562 1608
+type(
+  T.cast_kind
+)
+ident(
+  int_ref k "plugins/xml/proof2aproof.ml" 35 1562 1580 "plugins/xml/proof2aproof.ml" 35 1562 1581
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1610 "plugins/xml/proof2aproof.ml" 35 1562 1613
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1614 "plugins/xml/proof2aproof.ml" 35 1562 1616
+type(
+  Term.constr
+)
+ident(
+  int_ref c2 "plugins/xml/proof2aproof.ml" 35 1562 1582 "plugins/xml/proof2aproof.ml" 35 1562 1584
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1610 "plugins/xml/proof2aproof.ml" 35 1562 1616
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1598 "plugins/xml/proof2aproof.ml" 35 1562 1617
+type(
+  Term.constr * T.cast_kind * Term.constr
+)
+"plugins/xml/proof2aproof.ml" 35 1562 1589 "plugins/xml/proof2aproof.ml" 35 1562 1617
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1633 "plugins/xml/proof2aproof.ml" 36 1618 1635
+type(
+  Names.name
+)
+ident(
+  def na "plugins/xml/proof2aproof.ml" 36 1618 1646 "plugins/xml/proof2aproof.ml" 36 1618 1675
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1636 "plugins/xml/proof2aproof.ml" 36 1618 1638
+type(
+  Term.constr
+)
+ident(
+  def c1 "plugins/xml/proof2aproof.ml" 36 1618 1646 "plugins/xml/proof2aproof.ml" 36 1618 1675
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1639 "plugins/xml/proof2aproof.ml" 36 1618 1641
+type(
+  Term.constr
+)
+ident(
+  def c2 "plugins/xml/proof2aproof.ml" 36 1618 1646 "plugins/xml/proof2aproof.ml" 36 1618 1675
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1625 "plugins/xml/proof2aproof.ml" 36 1618 1642
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1646 "plugins/xml/proof2aproof.ml" 36 1618 1654
+type(
+  Names.name * Term.constr * Term.constr -> Term.constr
+)
+ident(
+  ext_ref T.mkProd
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1656 "plugins/xml/proof2aproof.ml" 36 1618 1658
+type(
+  Names.name
+)
+ident(
+  int_ref na "plugins/xml/proof2aproof.ml" 36 1618 1633 "plugins/xml/proof2aproof.ml" 36 1618 1635
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1660 "plugins/xml/proof2aproof.ml" 36 1618 1663
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1664 "plugins/xml/proof2aproof.ml" 36 1618 1666
+type(
+  Term.constr
+)
+ident(
+  int_ref c1 "plugins/xml/proof2aproof.ml" 36 1618 1636 "plugins/xml/proof2aproof.ml" 36 1618 1638
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1660 "plugins/xml/proof2aproof.ml" 36 1618 1666
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1668 "plugins/xml/proof2aproof.ml" 36 1618 1671
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1672 "plugins/xml/proof2aproof.ml" 36 1618 1674
+type(
+  Term.constr
+)
+ident(
+  int_ref c2 "plugins/xml/proof2aproof.ml" 36 1618 1639 "plugins/xml/proof2aproof.ml" 36 1618 1641
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1668 "plugins/xml/proof2aproof.ml" 36 1618 1674
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1655 "plugins/xml/proof2aproof.ml" 36 1618 1675
+type(
+  Names.name * Term.constr * Term.constr
+)
+"plugins/xml/proof2aproof.ml" 36 1618 1646 "plugins/xml/proof2aproof.ml" 36 1618 1675
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1693 "plugins/xml/proof2aproof.ml" 37 1676 1695
+type(
+  Names.name
+)
+ident(
+  def na "plugins/xml/proof2aproof.ml" 37 1676 1704 "plugins/xml/proof2aproof.ml" 37 1676 1733
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1696 "plugins/xml/proof2aproof.ml" 37 1676 1697
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/xml/proof2aproof.ml" 37 1676 1704 "plugins/xml/proof2aproof.ml" 37 1676 1733
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1698 "plugins/xml/proof2aproof.ml" 37 1676 1699
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/xml/proof2aproof.ml" 37 1676 1704 "plugins/xml/proof2aproof.ml" 37 1676 1733
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1683 "plugins/xml/proof2aproof.ml" 37 1676 1700
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1704 "plugins/xml/proof2aproof.ml" 37 1676 1714
+type(
+  Names.name * Term.constr * Term.constr -> Term.constr
+)
+ident(
+  ext_ref T.mkLambda
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1716 "plugins/xml/proof2aproof.ml" 37 1676 1718
+type(
+  Names.name
+)
+ident(
+  int_ref na "plugins/xml/proof2aproof.ml" 37 1676 1693 "plugins/xml/proof2aproof.ml" 37 1676 1695
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1720 "plugins/xml/proof2aproof.ml" 37 1676 1723
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1724 "plugins/xml/proof2aproof.ml" 37 1676 1725
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/xml/proof2aproof.ml" 37 1676 1696 "plugins/xml/proof2aproof.ml" 37 1676 1697
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1720 "plugins/xml/proof2aproof.ml" 37 1676 1725
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1727 "plugins/xml/proof2aproof.ml" 37 1676 1730
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1731 "plugins/xml/proof2aproof.ml" 37 1676 1732
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/xml/proof2aproof.ml" 37 1676 1698 "plugins/xml/proof2aproof.ml" 37 1676 1699
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1727 "plugins/xml/proof2aproof.ml" 37 1676 1732
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1715 "plugins/xml/proof2aproof.ml" 37 1676 1733
+type(
+  Names.name * Term.constr * Term.constr
+)
+"plugins/xml/proof2aproof.ml" 37 1676 1704 "plugins/xml/proof2aproof.ml" 37 1676 1733
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1750 "plugins/xml/proof2aproof.ml" 38 1734 1752
+type(
+  Names.name
+)
+ident(
+  def na "plugins/xml/proof2aproof.ml" 38 1734 1763 "plugins/xml/proof2aproof.ml" 38 1734 1798
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1753 "plugins/xml/proof2aproof.ml" 38 1734 1754
+type(
+  Term.constr
+)
+ident(
+  def b "plugins/xml/proof2aproof.ml" 38 1734 1763 "plugins/xml/proof2aproof.ml" 38 1734 1798
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1755 "plugins/xml/proof2aproof.ml" 38 1734 1756
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/xml/proof2aproof.ml" 38 1734 1763 "plugins/xml/proof2aproof.ml" 38 1734 1798
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1757 "plugins/xml/proof2aproof.ml" 38 1734 1758
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/xml/proof2aproof.ml" 38 1734 1763 "plugins/xml/proof2aproof.ml" 38 1734 1798
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1741 "plugins/xml/proof2aproof.ml" 38 1734 1759
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1763 "plugins/xml/proof2aproof.ml" 38 1734 1772
+type(
+  Names.name * Term.constr * T.types * T.constr -> T.constr
+)
+ident(
+  ext_ref T.mkLetIn
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1774 "plugins/xml/proof2aproof.ml" 38 1734 1776
+type(
+  Names.name
+)
+ident(
+  int_ref na "plugins/xml/proof2aproof.ml" 38 1734 1750 "plugins/xml/proof2aproof.ml" 38 1734 1752
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1778 "plugins/xml/proof2aproof.ml" 38 1734 1781
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1782 "plugins/xml/proof2aproof.ml" 38 1734 1783
+type(
+  Term.constr
+)
+ident(
+  int_ref b "plugins/xml/proof2aproof.ml" 38 1734 1753 "plugins/xml/proof2aproof.ml" 38 1734 1754
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1778 "plugins/xml/proof2aproof.ml" 38 1734 1783
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1785 "plugins/xml/proof2aproof.ml" 38 1734 1788
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1789 "plugins/xml/proof2aproof.ml" 38 1734 1790
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/xml/proof2aproof.ml" 38 1734 1755 "plugins/xml/proof2aproof.ml" 38 1734 1756
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1785 "plugins/xml/proof2aproof.ml" 38 1734 1790
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1792 "plugins/xml/proof2aproof.ml" 38 1734 1795
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1796 "plugins/xml/proof2aproof.ml" 38 1734 1797
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/xml/proof2aproof.ml" 38 1734 1757 "plugins/xml/proof2aproof.ml" 38 1734 1758
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1792 "plugins/xml/proof2aproof.ml" 38 1734 1797
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1773 "plugins/xml/proof2aproof.ml" 38 1734 1798
+type(
+  Names.name * Term.constr * T.types * T.constr
+)
+"plugins/xml/proof2aproof.ml" 38 1734 1763 "plugins/xml/proof2aproof.ml" 38 1734 1798
+call(
+  tail
+)
+type(
+  T.constr
+)
+"plugins/xml/proof2aproof.ml" 39 1799 1813 "plugins/xml/proof2aproof.ml" 39 1799 1814
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/xml/proof2aproof.ml" 40 1821 1829 "plugins/xml/proof2aproof.ml" 49 2193 2228
+)
+"plugins/xml/proof2aproof.ml" 39 1799 1815 "plugins/xml/proof2aproof.ml" 39 1799 1816
+type(
+  Term.constr array
+)
+ident(
+  def l "plugins/xml/proof2aproof.ml" 40 1821 1829 "plugins/xml/proof2aproof.ml" 49 2193 2228
+)
+"plugins/xml/proof2aproof.ml" 39 1799 1806 "plugins/xml/proof2aproof.ml" 39 1799 1817
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 40 1821 1833 "plugins/xml/proof2aproof.ml" 40 1821 1835
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 40 1821 1838 "plugins/xml/proof2aproof.ml" 40 1821 1841
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 40 1821 1842 "plugins/xml/proof2aproof.ml" 40 1821 1843
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/xml/proof2aproof.ml" 39 1799 1813 "plugins/xml/proof2aproof.ml" 39 1799 1814
+)
+"plugins/xml/proof2aproof.ml" 40 1821 1838 "plugins/xml/proof2aproof.ml" 40 1821 1843
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 41 1847 1859 "plugins/xml/proof2aproof.ml" 41 1847 1861
+type(
+  Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 41 1847 1864 "plugins/xml/proof2aproof.ml" 41 1847 1873
+type(
+  (Term.constr -> Term.constr) -> Term.constr array -> Term.constr array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/xml/proof2aproof.ml" 41 1847 1874 "plugins/xml/proof2aproof.ml" 41 1847 1877
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 41 1847 1878 "plugins/xml/proof2aproof.ml" 41 1847 1879
+type(
+  Term.constr array
+)
+ident(
+  int_ref l "plugins/xml/proof2aproof.ml" 39 1799 1815 "plugins/xml/proof2aproof.ml" 39 1799 1816
+)
+"plugins/xml/proof2aproof.ml" 41 1847 1864 "plugins/xml/proof2aproof.ml" 41 1847 1879
+call(
+  stack
+)
+type(
+  Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 42 1883 1899 "plugins/xml/proof2aproof.ml" 42 1883 1913
+type(
+  Term.constr -> (Term.constr, T.types) T.kind_of_term
+)
+ident(
+  ext_ref T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 42 1883 1914 "plugins/xml/proof2aproof.ml" 42 1883 1916
+type(
+  Term.constr
+)
+ident(
+  int_ref c' "plugins/xml/proof2aproof.ml" 40 1821 1833 "plugins/xml/proof2aproof.ml" 40 1821 1835
+)
+"plugins/xml/proof2aproof.ml" 42 1883 1899 "plugins/xml/proof2aproof.ml" 42 1883 1916
+call(
+  stack
+)
+type(
+  (Term.constr, T.types) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 43 1922 1942 "plugins/xml/proof2aproof.ml" 43 1922 1945
+type(
+  Term.constr
+)
+ident(
+  def c'' "plugins/xml/proof2aproof.ml" 43 1922 1954 "plugins/xml/proof2aproof.ml" 43 1922 1988
+)
+"plugins/xml/proof2aproof.ml" 43 1922 1946 "plugins/xml/proof2aproof.ml" 43 1922 1949
+type(
+  Term.constr array
+)
+ident(
+  def l'' "plugins/xml/proof2aproof.ml" 43 1922 1954 "plugins/xml/proof2aproof.ml" 43 1922 1988
+)
+"plugins/xml/proof2aproof.ml" 43 1922 1935 "plugins/xml/proof2aproof.ml" 43 1922 1950
+type(
+  (Term.constr, T.types) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 43 1922 1954 "plugins/xml/proof2aproof.ml" 43 1922 1961
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref T.mkApp
+)
+"plugins/xml/proof2aproof.ml" 43 1922 1963 "plugins/xml/proof2aproof.ml" 43 1922 1966
+type(
+  Term.constr
+)
+ident(
+  int_ref c'' "plugins/xml/proof2aproof.ml" 43 1922 1942 "plugins/xml/proof2aproof.ml" 43 1922 1945
+)
+"plugins/xml/proof2aproof.ml" 43 1922 1968 "plugins/xml/proof2aproof.ml" 43 1922 1980
+type(
+  Term.constr array -> Term.constr array -> Term.constr array
+)
+ident(
+  ext_ref Array.append
+)
+"plugins/xml/proof2aproof.ml" 43 1922 1981 "plugins/xml/proof2aproof.ml" 43 1922 1984
+type(
+  Term.constr array
+)
+ident(
+  int_ref l'' "plugins/xml/proof2aproof.ml" 43 1922 1946 "plugins/xml/proof2aproof.ml" 43 1922 1949
+)
+"plugins/xml/proof2aproof.ml" 43 1922 1985 "plugins/xml/proof2aproof.ml" 43 1922 1987
+type(
+  Term.constr array
+)
+ident(
+  int_ref l' "plugins/xml/proof2aproof.ml" 41 1847 1859 "plugins/xml/proof2aproof.ml" 41 1847 1861
+)
+"plugins/xml/proof2aproof.ml" 43 1922 1968 "plugins/xml/proof2aproof.ml" 43 1922 1987
+call(
+  stack
+)
+type(
+  Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 43 1922 1962 "plugins/xml/proof2aproof.ml" 43 1922 1988
+type(
+  Term.constr * Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 43 1922 1954 "plugins/xml/proof2aproof.ml" 43 1922 1988
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 44 1989 2010 "plugins/xml/proof2aproof.ml" 44 1989 2012
+type(
+  Term.constr
+)
+ident(
+  def he "plugins/xml/proof2aproof.ml" 45 2021 2035 "plugins/xml/proof2aproof.ml" 48 2177 2192
+)
+"plugins/xml/proof2aproof.ml" 44 1989 2013 "plugins/xml/proof2aproof.ml" 44 1989 2014
+type(
+  T.cast_kind
+)
+"plugins/xml/proof2aproof.ml" 44 1989 2015 "plugins/xml/proof2aproof.ml" 44 1989 2016
+type(
+  T.types
+)
+"plugins/xml/proof2aproof.ml" 44 1989 2002 "plugins/xml/proof2aproof.ml" 44 1989 2017
+type(
+  (Term.constr, T.types) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 45 2021 2042 "plugins/xml/proof2aproof.ml" 45 2021 2056
+type(
+  Term.constr -> (Term.constr, T.types) T.kind_of_term
+)
+ident(
+  ext_ref T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 45 2021 2057 "plugins/xml/proof2aproof.ml" 45 2021 2059
+type(
+  Term.constr
+)
+ident(
+  int_ref he "plugins/xml/proof2aproof.ml" 44 1989 2010 "plugins/xml/proof2aproof.ml" 44 1989 2012
+)
+"plugins/xml/proof2aproof.ml" 45 2021 2042 "plugins/xml/proof2aproof.ml" 45 2021 2059
+call(
+  stack
+)
+type(
+  (Term.constr, T.types) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 46 2065 2090 "plugins/xml/proof2aproof.ml" 46 2065 2093
+type(
+  Term.constr
+)
+ident(
+  def c'' "plugins/xml/proof2aproof.ml" 46 2065 2102 "plugins/xml/proof2aproof.ml" 46 2065 2136
+)
+"plugins/xml/proof2aproof.ml" 46 2065 2094 "plugins/xml/proof2aproof.ml" 46 2065 2097
+type(
+  Term.constr array
+)
+ident(
+  def l'' "plugins/xml/proof2aproof.ml" 46 2065 2102 "plugins/xml/proof2aproof.ml" 46 2065 2136
+)
+"plugins/xml/proof2aproof.ml" 46 2065 2083 "plugins/xml/proof2aproof.ml" 46 2065 2098
+type(
+  (Term.constr, T.types) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 46 2065 2102 "plugins/xml/proof2aproof.ml" 46 2065 2109
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref T.mkApp
+)
+"plugins/xml/proof2aproof.ml" 46 2065 2111 "plugins/xml/proof2aproof.ml" 46 2065 2114
+type(
+  Term.constr
+)
+ident(
+  int_ref c'' "plugins/xml/proof2aproof.ml" 46 2065 2090 "plugins/xml/proof2aproof.ml" 46 2065 2093
+)
+"plugins/xml/proof2aproof.ml" 46 2065 2116 "plugins/xml/proof2aproof.ml" 46 2065 2128
+type(
+  Term.constr array -> Term.constr array -> Term.constr array
+)
+ident(
+  ext_ref Array.append
+)
+"plugins/xml/proof2aproof.ml" 46 2065 2129 "plugins/xml/proof2aproof.ml" 46 2065 2132
+type(
+  Term.constr array
+)
+ident(
+  int_ref l'' "plugins/xml/proof2aproof.ml" 46 2065 2094 "plugins/xml/proof2aproof.ml" 46 2065 2097
+)
+"plugins/xml/proof2aproof.ml" 46 2065 2133 "plugins/xml/proof2aproof.ml" 46 2065 2135
+type(
+  Term.constr array
+)
+ident(
+  int_ref l' "plugins/xml/proof2aproof.ml" 41 1847 1859 "plugins/xml/proof2aproof.ml" 41 1847 1861
+)
+"plugins/xml/proof2aproof.ml" 46 2065 2116 "plugins/xml/proof2aproof.ml" 46 2065 2135
+call(
+  stack
+)
+type(
+  Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 46 2065 2110 "plugins/xml/proof2aproof.ml" 46 2065 2136
+type(
+  Term.constr * Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 46 2065 2102 "plugins/xml/proof2aproof.ml" 46 2065 2136
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 47 2137 2155 "plugins/xml/proof2aproof.ml" 47 2137 2156
+type(
+  (Term.constr, T.types) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 47 2137 2160 "plugins/xml/proof2aproof.ml" 47 2137 2167
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref T.mkApp
+)
+"plugins/xml/proof2aproof.ml" 47 2137 2169 "plugins/xml/proof2aproof.ml" 47 2137 2171
+type(
+  Term.constr
+)
+ident(
+  int_ref c' "plugins/xml/proof2aproof.ml" 40 1821 1833 "plugins/xml/proof2aproof.ml" 40 1821 1835
+)
+"plugins/xml/proof2aproof.ml" 47 2137 2173 "plugins/xml/proof2aproof.ml" 47 2137 2175
+type(
+  Term.constr array
+)
+ident(
+  int_ref l' "plugins/xml/proof2aproof.ml" 41 1847 1859 "plugins/xml/proof2aproof.ml" 41 1847 1861
+)
+"plugins/xml/proof2aproof.ml" 47 2137 2168 "plugins/xml/proof2aproof.ml" 47 2137 2176
+type(
+  Term.constr * Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 47 2137 2160 "plugins/xml/proof2aproof.ml" 47 2137 2176
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 45 2021 2035 "plugins/xml/proof2aproof.ml" 48 2177 2192
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 49 2193 2206 "plugins/xml/proof2aproof.ml" 49 2193 2207
+type(
+  (Term.constr, T.types) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 49 2193 2211 "plugins/xml/proof2aproof.ml" 49 2193 2218
+type(
+  Term.constr * T.constr array -> T.constr
+)
+ident(
+  ext_ref T.mkApp
+)
+"plugins/xml/proof2aproof.ml" 49 2193 2220 "plugins/xml/proof2aproof.ml" 49 2193 2222
+type(
+  Term.constr
+)
+ident(
+  int_ref c' "plugins/xml/proof2aproof.ml" 40 1821 1833 "plugins/xml/proof2aproof.ml" 40 1821 1835
+)
+"plugins/xml/proof2aproof.ml" 49 2193 2224 "plugins/xml/proof2aproof.ml" 49 2193 2226
+type(
+  T.constr array
+)
+ident(
+  int_ref l' "plugins/xml/proof2aproof.ml" 41 1847 1859 "plugins/xml/proof2aproof.ml" 41 1847 1861
+)
+"plugins/xml/proof2aproof.ml" 49 2193 2219 "plugins/xml/proof2aproof.ml" 49 2193 2227
+type(
+  Term.constr * T.constr array
+)
+"plugins/xml/proof2aproof.ml" 49 2193 2211 "plugins/xml/proof2aproof.ml" 49 2193 2227
+type(
+  T.constr
+)
+"plugins/xml/proof2aproof.ml" 42 1883 1892 "plugins/xml/proof2aproof.ml" 49 2193 2228
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 41 1847 1855 "plugins/xml/proof2aproof.ml" 49 2193 2228
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 40 1821 1829 "plugins/xml/proof2aproof.ml" 49 2193 2228
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2244 "plugins/xml/proof2aproof.ml" 50 2229 2245
+type(
+  T.existential_key
+)
+ident(
+  def e "plugins/xml/proof2aproof.ml" 50 2229 2249 "plugins/xml/proof2aproof.ml" 51 2298 2338
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2246 "plugins/xml/proof2aproof.ml" 50 2229 2247
+type(
+  Term.constr array
+)
+ident(
+  def l "plugins/xml/proof2aproof.ml" 50 2229 2249 "plugins/xml/proof2aproof.ml" 51 2298 2338
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2243 "plugins/xml/proof2aproof.ml" 50 2229 2248
+type(
+  Term.constr T.pexistential
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2236 "plugins/xml/proof2aproof.ml" 50 2229 2248
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2254 "plugins/xml/proof2aproof.ml" 50 2229 2261
+type(
+  Evd.evar_map -> Evd.evar -> bool
+)
+ident(
+  ext_ref Evd.mem
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2262 "plugins/xml/proof2aproof.ml" 50 2229 2267
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/proof2aproof.ml" 28 1334 1346 "plugins/xml/proof2aproof.ml" 28 1334 1351
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2268 "plugins/xml/proof2aproof.ml" 50 2229 2269
+type(
+  T.existential_key
+)
+ident(
+  int_ref e "plugins/xml/proof2aproof.ml" 50 2229 2244 "plugins/xml/proof2aproof.ml" 50 2229 2245
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2254 "plugins/xml/proof2aproof.ml" 50 2229 2269
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2270 "plugins/xml/proof2aproof.ml" 50 2229 2271
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( & )
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2272 "plugins/xml/proof2aproof.ml" 50 2229 2286
+type(
+  Evd.evar_map -> Evd.evar -> bool
+)
+ident(
+  ext_ref Evd.is_defined
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2287 "plugins/xml/proof2aproof.ml" 50 2229 2292
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/proof2aproof.ml" 28 1334 1346 "plugins/xml/proof2aproof.ml" 28 1334 1351
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2293 "plugins/xml/proof2aproof.ml" 50 2229 2294
+type(
+  T.existential_key
+)
+ident(
+  int_ref e "plugins/xml/proof2aproof.ml" 50 2229 2244 "plugins/xml/proof2aproof.ml" 50 2229 2245
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2272 "plugins/xml/proof2aproof.ml" 50 2229 2294
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2254 "plugins/xml/proof2aproof.ml" 50 2229 2294
+type(
+  bool
+)
+"plugins/xml/proof2aproof.ml" 51 2298 2299 "plugins/xml/proof2aproof.ml" 51 2298 2302
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 51 2298 2304 "plugins/xml/proof2aproof.ml" 51 2298 2325
+type(
+  Evd.evar_map -> Term.existential -> Term.constr
+)
+ident(
+  ext_ref Evd.existential_value
+)
+"plugins/xml/proof2aproof.ml" 51 2298 2326 "plugins/xml/proof2aproof.ml" 51 2298 2331
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/proof2aproof.ml" 28 1334 1346 "plugins/xml/proof2aproof.ml" 28 1334 1351
+)
+"plugins/xml/proof2aproof.ml" 51 2298 2333 "plugins/xml/proof2aproof.ml" 51 2298 2334
+type(
+  T.existential_key
+)
+ident(
+  int_ref e "plugins/xml/proof2aproof.ml" 50 2229 2244 "plugins/xml/proof2aproof.ml" 50 2229 2245
+)
+"plugins/xml/proof2aproof.ml" 51 2298 2335 "plugins/xml/proof2aproof.ml" 51 2298 2336
+type(
+  Term.constr array
+)
+ident(
+  int_ref l "plugins/xml/proof2aproof.ml" 50 2229 2246 "plugins/xml/proof2aproof.ml" 50 2229 2247
+)
+"plugins/xml/proof2aproof.ml" 51 2298 2332 "plugins/xml/proof2aproof.ml" 51 2298 2337
+type(
+  Term.existential
+)
+"plugins/xml/proof2aproof.ml" 51 2298 2303 "plugins/xml/proof2aproof.ml" 51 2298 2338
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 51 2298 2299 "plugins/xml/proof2aproof.ml" 51 2298 2338
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 50 2229 2249 "plugins/xml/proof2aproof.ml" 51 2298 2338
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2354 "plugins/xml/proof2aproof.ml" 52 2339 2355
+type(
+  T.existential_key
+)
+ident(
+  def e "plugins/xml/proof2aproof.ml" 52 2339 2362 "plugins/xml/proof2aproof.ml" 52 2339 2391
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2356 "plugins/xml/proof2aproof.ml" 52 2339 2357
+type(
+  Term.constr array
+)
+ident(
+  def l "plugins/xml/proof2aproof.ml" 52 2339 2362 "plugins/xml/proof2aproof.ml" 52 2339 2391
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2353 "plugins/xml/proof2aproof.ml" 52 2339 2358
+type(
+  Term.constr T.pexistential
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2346 "plugins/xml/proof2aproof.ml" 52 2339 2358
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2362 "plugins/xml/proof2aproof.ml" 52 2339 2370
+type(
+  T.existential -> Term.constr
+)
+ident(
+  ext_ref T.mkEvar
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2372 "plugins/xml/proof2aproof.ml" 52 2339 2373
+type(
+  T.existential_key
+)
+ident(
+  int_ref e "plugins/xml/proof2aproof.ml" 52 2339 2354 "plugins/xml/proof2aproof.ml" 52 2339 2355
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2375 "plugins/xml/proof2aproof.ml" 52 2339 2384
+type(
+  (Term.constr -> Term.constr) -> Term.constr array -> Term.constr array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2385 "plugins/xml/proof2aproof.ml" 52 2339 2388
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2389 "plugins/xml/proof2aproof.ml" 52 2339 2390
+type(
+  Term.constr array
+)
+ident(
+  int_ref l "plugins/xml/proof2aproof.ml" 52 2339 2356 "plugins/xml/proof2aproof.ml" 52 2339 2357
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2375 "plugins/xml/proof2aproof.ml" 52 2339 2390
+call(
+  stack
+)
+type(
+  Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2371 "plugins/xml/proof2aproof.ml" 52 2339 2391
+type(
+  T.existential
+)
+"plugins/xml/proof2aproof.ml" 52 2339 2362 "plugins/xml/proof2aproof.ml" 52 2339 2391
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2407 "plugins/xml/proof2aproof.ml" 53 2392 2409
+type(
+  T.case_info
+)
+ident(
+  def ci "plugins/xml/proof2aproof.ml" 53 2392 2421 "plugins/xml/proof2aproof.ml" 53 2392 2466
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2410 "plugins/xml/proof2aproof.ml" 53 2392 2411
+type(
+  Term.constr
+)
+ident(
+  def p "plugins/xml/proof2aproof.ml" 53 2392 2421 "plugins/xml/proof2aproof.ml" 53 2392 2466
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2412 "plugins/xml/proof2aproof.ml" 53 2392 2413
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/xml/proof2aproof.ml" 53 2392 2421 "plugins/xml/proof2aproof.ml" 53 2392 2466
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2414 "plugins/xml/proof2aproof.ml" 53 2392 2416
+type(
+  Term.constr array
+)
+ident(
+  def bl "plugins/xml/proof2aproof.ml" 53 2392 2421 "plugins/xml/proof2aproof.ml" 53 2392 2466
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2399 "plugins/xml/proof2aproof.ml" 53 2392 2417
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2421 "plugins/xml/proof2aproof.ml" 53 2392 2429
+type(
+  T.case_info * Term.constr * Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref T.mkCase
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2431 "plugins/xml/proof2aproof.ml" 53 2392 2433
+type(
+  T.case_info
+)
+ident(
+  int_ref ci "plugins/xml/proof2aproof.ml" 53 2392 2407 "plugins/xml/proof2aproof.ml" 53 2392 2409
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2435 "plugins/xml/proof2aproof.ml" 53 2392 2438
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2439 "plugins/xml/proof2aproof.ml" 53 2392 2440
+type(
+  Term.constr
+)
+ident(
+  int_ref p "plugins/xml/proof2aproof.ml" 53 2392 2410 "plugins/xml/proof2aproof.ml" 53 2392 2411
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2435 "plugins/xml/proof2aproof.ml" 53 2392 2440
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2442 "plugins/xml/proof2aproof.ml" 53 2392 2445
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2446 "plugins/xml/proof2aproof.ml" 53 2392 2447
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/xml/proof2aproof.ml" 53 2392 2412 "plugins/xml/proof2aproof.ml" 53 2392 2413
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2442 "plugins/xml/proof2aproof.ml" 53 2392 2447
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2449 "plugins/xml/proof2aproof.ml" 53 2392 2458
+type(
+  (Term.constr -> Term.constr) -> Term.constr array -> Term.constr array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2459 "plugins/xml/proof2aproof.ml" 53 2392 2462
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2463 "plugins/xml/proof2aproof.ml" 53 2392 2465
+type(
+  Term.constr array
+)
+ident(
+  int_ref bl "plugins/xml/proof2aproof.ml" 53 2392 2414 "plugins/xml/proof2aproof.ml" 53 2392 2416
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2449 "plugins/xml/proof2aproof.ml" 53 2392 2465
+call(
+  stack
+)
+type(
+  Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2430 "plugins/xml/proof2aproof.ml" 53 2392 2466
+type(
+  T.case_info * Term.constr * Term.constr * Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 53 2392 2421 "plugins/xml/proof2aproof.ml" 53 2392 2466
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 54 2467 2481 "plugins/xml/proof2aproof.ml" 54 2467 2483
+type(
+  int array * int
+)
+ident(
+  def ln "plugins/xml/proof2aproof.ml" 55 2500 2509 "plugins/xml/proof2aproof.ml" 55 2500 2561
+)
+"plugins/xml/proof2aproof.ml" 54 2467 2485 "plugins/xml/proof2aproof.ml" 54 2467 2488
+type(
+  Names.name array
+)
+ident(
+  def lna "plugins/xml/proof2aproof.ml" 55 2500 2509 "plugins/xml/proof2aproof.ml" 55 2500 2561
+)
+"plugins/xml/proof2aproof.ml" 54 2467 2489 "plugins/xml/proof2aproof.ml" 54 2467 2491
+type(
+  Term.constr array
+)
+ident(
+  def tl "plugins/xml/proof2aproof.ml" 55 2500 2509 "plugins/xml/proof2aproof.ml" 55 2500 2561
+)
+"plugins/xml/proof2aproof.ml" 54 2467 2492 "plugins/xml/proof2aproof.ml" 54 2467 2494
+type(
+  Term.constr array
+)
+ident(
+  def bl "plugins/xml/proof2aproof.ml" 55 2500 2509 "plugins/xml/proof2aproof.ml" 55 2500 2561
+)
+"plugins/xml/proof2aproof.ml" 54 2467 2484 "plugins/xml/proof2aproof.ml" 54 2467 2495
+type(
+  (Term.constr, Term.constr) T.prec_declaration
+)
+"plugins/xml/proof2aproof.ml" 54 2467 2480 "plugins/xml/proof2aproof.ml" 54 2467 2496
+type(
+  (Term.constr, Term.constr) T.pfixpoint
+)
+"plugins/xml/proof2aproof.ml" 54 2467 2474 "plugins/xml/proof2aproof.ml" 54 2467 2496
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2509 "plugins/xml/proof2aproof.ml" 55 2500 2516
+type(
+  T.fixpoint -> Term.constr
+)
+ident(
+  ext_ref T.mkFix
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2518 "plugins/xml/proof2aproof.ml" 55 2500 2520
+type(
+  int array * int
+)
+ident(
+  int_ref ln "plugins/xml/proof2aproof.ml" 54 2467 2481 "plugins/xml/proof2aproof.ml" 54 2467 2483
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2522 "plugins/xml/proof2aproof.ml" 55 2500 2525
+type(
+  Names.name array
+)
+ident(
+  int_ref lna "plugins/xml/proof2aproof.ml" 54 2467 2485 "plugins/xml/proof2aproof.ml" 54 2467 2488
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2526 "plugins/xml/proof2aproof.ml" 55 2500 2535
+type(
+  (Term.constr -> Term.constr) -> Term.constr array -> Term.constr array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2536 "plugins/xml/proof2aproof.ml" 55 2500 2539
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2540 "plugins/xml/proof2aproof.ml" 55 2500 2542
+type(
+  Term.constr array
+)
+ident(
+  int_ref tl "plugins/xml/proof2aproof.ml" 54 2467 2489 "plugins/xml/proof2aproof.ml" 54 2467 2491
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2526 "plugins/xml/proof2aproof.ml" 55 2500 2542
+call(
+  stack
+)
+type(
+  Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2543 "plugins/xml/proof2aproof.ml" 55 2500 2552
+type(
+  (Term.constr -> Term.constr) -> Term.constr array -> T.constr array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2553 "plugins/xml/proof2aproof.ml" 55 2500 2556
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2557 "plugins/xml/proof2aproof.ml" 55 2500 2559
+type(
+  Term.constr array
+)
+ident(
+  int_ref bl "plugins/xml/proof2aproof.ml" 54 2467 2492 "plugins/xml/proof2aproof.ml" 54 2467 2494
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2543 "plugins/xml/proof2aproof.ml" 55 2500 2559
+call(
+  stack
+)
+type(
+  T.constr array
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2521 "plugins/xml/proof2aproof.ml" 55 2500 2560
+type(
+  T.rec_declaration
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2517 "plugins/xml/proof2aproof.ml" 55 2500 2561
+type(
+  T.fixpoint
+)
+"plugins/xml/proof2aproof.ml" 55 2500 2509 "plugins/xml/proof2aproof.ml" 55 2500 2561
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 56 2562 2577 "plugins/xml/proof2aproof.ml" 56 2562 2579
+type(
+  int
+)
+ident(
+  def ln "plugins/xml/proof2aproof.ml" 57 2596 2605 "plugins/xml/proof2aproof.ml" 57 2596 2659
+)
+"plugins/xml/proof2aproof.ml" 56 2562 2581 "plugins/xml/proof2aproof.ml" 56 2562 2584
+type(
+  Names.name array
+)
+ident(
+  def lna "plugins/xml/proof2aproof.ml" 57 2596 2605 "plugins/xml/proof2aproof.ml" 57 2596 2659
+)
+"plugins/xml/proof2aproof.ml" 56 2562 2585 "plugins/xml/proof2aproof.ml" 56 2562 2587
+type(
+  Term.constr array
+)
+ident(
+  def tl "plugins/xml/proof2aproof.ml" 57 2596 2605 "plugins/xml/proof2aproof.ml" 57 2596 2659
+)
+"plugins/xml/proof2aproof.ml" 56 2562 2588 "plugins/xml/proof2aproof.ml" 56 2562 2590
+type(
+  Term.constr array
+)
+ident(
+  def bl "plugins/xml/proof2aproof.ml" 57 2596 2605 "plugins/xml/proof2aproof.ml" 57 2596 2659
+)
+"plugins/xml/proof2aproof.ml" 56 2562 2580 "plugins/xml/proof2aproof.ml" 56 2562 2591
+type(
+  (Term.constr, Term.constr) T.prec_declaration
+)
+"plugins/xml/proof2aproof.ml" 56 2562 2576 "plugins/xml/proof2aproof.ml" 56 2562 2592
+type(
+  (Term.constr, Term.constr) T.pcofixpoint
+)
+"plugins/xml/proof2aproof.ml" 56 2562 2569 "plugins/xml/proof2aproof.ml" 56 2562 2592
+type(
+  (Term.constr, Term.constr) T.kind_of_term
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2605 "plugins/xml/proof2aproof.ml" 57 2596 2614
+type(
+  T.cofixpoint -> Term.constr
+)
+ident(
+  ext_ref T.mkCoFix
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2616 "plugins/xml/proof2aproof.ml" 57 2596 2618
+type(
+  int
+)
+ident(
+  int_ref ln "plugins/xml/proof2aproof.ml" 56 2562 2577 "plugins/xml/proof2aproof.ml" 56 2562 2579
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2620 "plugins/xml/proof2aproof.ml" 57 2596 2623
+type(
+  Names.name array
+)
+ident(
+  int_ref lna "plugins/xml/proof2aproof.ml" 56 2562 2581 "plugins/xml/proof2aproof.ml" 56 2562 2584
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2624 "plugins/xml/proof2aproof.ml" 57 2596 2633
+type(
+  (Term.constr -> Term.constr) -> Term.constr array -> Term.constr array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2634 "plugins/xml/proof2aproof.ml" 57 2596 2637
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2638 "plugins/xml/proof2aproof.ml" 57 2596 2640
+type(
+  Term.constr array
+)
+ident(
+  int_ref tl "plugins/xml/proof2aproof.ml" 56 2562 2585 "plugins/xml/proof2aproof.ml" 56 2562 2587
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2624 "plugins/xml/proof2aproof.ml" 57 2596 2640
+call(
+  stack
+)
+type(
+  Term.constr array
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2641 "plugins/xml/proof2aproof.ml" 57 2596 2650
+type(
+  (Term.constr -> Term.constr) -> Term.constr array -> T.constr array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2651 "plugins/xml/proof2aproof.ml" 57 2596 2654
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2655 "plugins/xml/proof2aproof.ml" 57 2596 2657
+type(
+  Term.constr array
+)
+ident(
+  int_ref bl "plugins/xml/proof2aproof.ml" 56 2562 2588 "plugins/xml/proof2aproof.ml" 56 2562 2590
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2641 "plugins/xml/proof2aproof.ml" 57 2596 2657
+call(
+  stack
+)
+type(
+  T.constr array
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2619 "plugins/xml/proof2aproof.ml" 57 2596 2658
+type(
+  T.rec_declaration
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2615 "plugins/xml/proof2aproof.ml" 57 2596 2659
+type(
+  T.cofixpoint
+)
+"plugins/xml/proof2aproof.ml" 57 2596 2605 "plugins/xml/proof2aproof.ml" 57 2596 2659
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 32 1435 1439 "plugins/xml/proof2aproof.ml" 57 2596 2659
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 31 1406 1409 "plugins/xml/proof2aproof.ml" 57 2596 2659
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 59 2666 2670 "plugins/xml/proof2aproof.ml" 59 2666 2673
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref aux "plugins/xml/proof2aproof.ml" 30 1388 1398 "plugins/xml/proof2aproof.ml" 30 1388 1401
+)
+"plugins/xml/proof2aproof.ml" 30 1388 1390 "plugins/xml/proof2aproof.ml" 59 2666 2673
+type(
+  Term.constr -> Term.constr
+)
+"plugins/xml/proof2aproof.ml" 29 1364 1365 "plugins/xml/proof2aproof.ml" 59 2666 2673
+type(
+  Term.constr -> Term.constr
+)
+"plugins/xml/proof2aproof.ml" 64 2834 2842 "plugins/xml/proof2aproof.ml" 64 2834 2860
+type(
+  Proof_type.proof_tree -> Proof_type.proof_tree
+)
+ident(
+  def unshare_proof_tree "plugins/xml/proof2aproof.ml" 64 2834 2834 --
+)
+"plugins/xml/proof2aproof.ml" 66 2894 2925 "plugins/xml/proof2aproof.ml" 66 2894 2931
+type(
+  int
+)
+ident(
+  def status "plugins/xml/proof2aproof.ml" 69 2978 2981 "plugins/xml/proof2aproof.ml" 83 3359 3386
+)
+"plugins/xml/proof2aproof.ml" 67 2934 2949 "plugins/xml/proof2aproof.ml" 67 2934 2953
+type(
+  PT.goal
+)
+ident(
+  def goal "plugins/xml/proof2aproof.ml" 69 2978 2981 "plugins/xml/proof2aproof.ml" 83 3359 3386
+)
+"plugins/xml/proof2aproof.ml" 68 2956 2970 "plugins/xml/proof2aproof.ml" 68 2956 2973
+type(
+  (PT.rule * Proof_type.proof_tree list) option
+)
+ident(
+  def ref "plugins/xml/proof2aproof.ml" 69 2978 2981 "plugins/xml/proof2aproof.ml" 83 3359 3386
+)
+"plugins/xml/proof2aproof.ml" 66 2894 2905 "plugins/xml/proof2aproof.ml" 68 2956 2974
+type(
+  Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 69 2978 2985 "plugins/xml/proof2aproof.ml" 69 2978 2997
+type(
+  (PT.rule * Proof_type.proof_tree list) option
+)
+"plugins/xml/proof2aproof.ml" 70 3000 3010 "plugins/xml/proof2aproof.ml" 70 3000 3013
+type(
+  (PT.rule * Proof_type.proof_tree list) option
+)
+ident(
+  int_ref ref "plugins/xml/proof2aproof.ml" 68 2956 2970 "plugins/xml/proof2aproof.ml" 68 2956 2973
+)
+"plugins/xml/proof2aproof.ml" 71 3019 3026 "plugins/xml/proof2aproof.ml" 71 3019 3030
+type(
+  (PT.rule * Proof_type.proof_tree list) option
+)
+"plugins/xml/proof2aproof.ml" 71 3019 3034 "plugins/xml/proof2aproof.ml" 71 3019 3038
+type(
+  (PT.rule * Proof_type.proof_tree list) option
+)
+"plugins/xml/proof2aproof.ml" 72 3039 3052 "plugins/xml/proof2aproof.ml" 72 3039 3056
+type(
+  PT.rule
+)
+ident(
+  def rule "plugins/xml/proof2aproof.ml" 73 3065 3073 "plugins/xml/proof2aproof.ml" 79 3235 3297
+)
+"plugins/xml/proof2aproof.ml" 72 3039 3057 "plugins/xml/proof2aproof.ml" 72 3039 3060
+type(
+  Proof_type.proof_tree list
+)
+ident(
+  def pfs "plugins/xml/proof2aproof.ml" 73 3065 3073 "plugins/xml/proof2aproof.ml" 79 3235 3297
+)
+"plugins/xml/proof2aproof.ml" 72 3039 3051 "plugins/xml/proof2aproof.ml" 72 3039 3061
+type(
+  PT.rule * Proof_type.proof_tree list
+)
+"plugins/xml/proof2aproof.ml" 72 3039 3046 "plugins/xml/proof2aproof.ml" 72 3039 3061
+type(
+  (PT.rule * Proof_type.proof_tree list) option
+)
+"plugins/xml/proof2aproof.ml" 73 3065 3077 "plugins/xml/proof2aproof.ml" 73 3065 3090
+type(
+  PT.rule
+)
+"plugins/xml/proof2aproof.ml" 74 3093 3108 "plugins/xml/proof2aproof.ml" 74 3093 3112
+type(
+  PT.rule
+)
+ident(
+  int_ref rule "plugins/xml/proof2aproof.ml" 72 3039 3052 "plugins/xml/proof2aproof.ml" 72 3039 3056
+)
+"plugins/xml/proof2aproof.ml" 75 3118 3142 "plugins/xml/proof2aproof.ml" 75 3118 3146
+type(
+  PT.compound_rule
+)
+ident(
+  def cmpd "plugins/xml/proof2aproof.ml" 76 3155 3170 "plugins/xml/proof2aproof.ml" 76 3155 3209
+)
+"plugins/xml/proof2aproof.ml" 75 3118 3148 "plugins/xml/proof2aproof.ml" 75 3118 3150
+type(
+  Proof_type.proof_tree
+)
+ident(
+  def pf "plugins/xml/proof2aproof.ml" 76 3155 3170 "plugins/xml/proof2aproof.ml" 76 3155 3209
+)
+"plugins/xml/proof2aproof.ml" 75 3118 3131 "plugins/xml/proof2aproof.ml" 75 3118 3151
+type(
+  PT.rule
+)
+"plugins/xml/proof2aproof.ml" 76 3155 3181 "plugins/xml/proof2aproof.ml" 76 3155 3185
+type(
+  PT.compound_rule
+)
+ident(
+  int_ref cmpd "plugins/xml/proof2aproof.ml" 75 3118 3142 "plugins/xml/proof2aproof.ml" 75 3118 3146
+)
+"plugins/xml/proof2aproof.ml" 76 3155 3187 "plugins/xml/proof2aproof.ml" 76 3155 3205
+type(
+  Proof_type.proof_tree -> Proof_type.proof_tree
+)
+ident(
+  int_ref unshare_proof_tree "plugins/xml/proof2aproof.ml" 64 2834 2842 "plugins/xml/proof2aproof.ml" 64 2834 2860
+)
+"plugins/xml/proof2aproof.ml" 76 3155 3206 "plugins/xml/proof2aproof.ml" 76 3155 3208
+type(
+  Proof_type.proof_tree
+)
+ident(
+  int_ref pf "plugins/xml/proof2aproof.ml" 75 3118 3148 "plugins/xml/proof2aproof.ml" 75 3118 3150
+)
+"plugins/xml/proof2aproof.ml" 76 3155 3187 "plugins/xml/proof2aproof.ml" 76 3155 3208
+call(
+  stack
+)
+type(
+  Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 76 3155 3170 "plugins/xml/proof2aproof.ml" 76 3155 3209
+type(
+  PT.rule
+)
+"plugins/xml/proof2aproof.ml" 77 3210 3216 "plugins/xml/proof2aproof.ml" 77 3210 3221
+type(
+  PT.rule
+)
+ident(
+  def other "plugins/xml/proof2aproof.ml" 77 3210 3225 "plugins/xml/proof2aproof.ml" 77 3210 3230
+)
+"plugins/xml/proof2aproof.ml" 77 3210 3225 "plugins/xml/proof2aproof.ml" 77 3210 3230
+type(
+  PT.rule
+)
+ident(
+  int_ref other "plugins/xml/proof2aproof.ml" 77 3210 3216 "plugins/xml/proof2aproof.ml" 77 3210 3221
+)
+"plugins/xml/proof2aproof.ml" 74 3093 3102 "plugins/xml/proof2aproof.ml" 77 3210 3230
+type(
+  PT.rule
+)
+"plugins/xml/proof2aproof.ml" 79 3235 3250 "plugins/xml/proof2aproof.ml" 79 3235 3263
+type(
+  PT.rule
+)
+ident(
+  int_ref unshared_rule "plugins/xml/proof2aproof.ml" 73 3065 3077 "plugins/xml/proof2aproof.ml" 73 3065 3090
+)
+"plugins/xml/proof2aproof.ml" 79 3235 3265 "plugins/xml/proof2aproof.ml" 79 3235 3273
+type(
+  (Proof_type.proof_tree -> Proof_type.proof_tree) ->
+  Proof_type.proof_tree list -> Proof_type.proof_tree list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/xml/proof2aproof.ml" 79 3235 3274 "plugins/xml/proof2aproof.ml" 79 3235 3292
+type(
+  Proof_type.proof_tree -> Proof_type.proof_tree
+)
+ident(
+  int_ref unshare_proof_tree "plugins/xml/proof2aproof.ml" 64 2834 2842 "plugins/xml/proof2aproof.ml" 64 2834 2860
+)
+"plugins/xml/proof2aproof.ml" 79 3235 3293 "plugins/xml/proof2aproof.ml" 79 3235 3296
+type(
+  Proof_type.proof_tree list
+)
+ident(
+  int_ref pfs "plugins/xml/proof2aproof.ml" 72 3039 3057 "plugins/xml/proof2aproof.ml" 72 3039 3060
+)
+"plugins/xml/proof2aproof.ml" 79 3235 3265 "plugins/xml/proof2aproof.ml" 79 3235 3296
+call(
+  stack
+)
+type(
+  Proof_type.proof_tree list
+)
+"plugins/xml/proof2aproof.ml" 79 3235 3249 "plugins/xml/proof2aproof.ml" 79 3235 3297
+type(
+  PT.rule * Proof_type.proof_tree list
+)
+"plugins/xml/proof2aproof.ml" 79 3235 3244 "plugins/xml/proof2aproof.ml" 79 3235 3297
+type(
+  (PT.rule * Proof_type.proof_tree list) option
+)
+"plugins/xml/proof2aproof.ml" 73 3065 3073 "plugins/xml/proof2aproof.ml" 79 3235 3297
+type(
+  (PT.rule * Proof_type.proof_tree list) option
+)
+"plugins/xml/proof2aproof.ml" 70 3000 3004 "plugins/xml/proof2aproof.ml" 79 3235 3297
+type(
+  (PT.rule * Proof_type.proof_tree list) option
+)
+"plugins/xml/proof2aproof.ml" 81 3304 3328 "plugins/xml/proof2aproof.ml" 81 3304 3334
+type(
+  int
+)
+ident(
+  int_ref status "plugins/xml/proof2aproof.ml" 66 2894 2925 "plugins/xml/proof2aproof.ml" 66 2894 2931
+)
+"plugins/xml/proof2aproof.ml" 82 3337 3352 "plugins/xml/proof2aproof.ml" 82 3337 3356
+type(
+  PT.goal
+)
+ident(
+  int_ref goal "plugins/xml/proof2aproof.ml" 67 2934 2949 "plugins/xml/proof2aproof.ml" 67 2934 2953
+)
+"plugins/xml/proof2aproof.ml" 83 3359 3373 "plugins/xml/proof2aproof.ml" 83 3359 3385
+type(
+  (PT.rule * Proof_type.proof_tree list) option
+)
+ident(
+  int_ref unshared_ref "plugins/xml/proof2aproof.ml" 69 2978 2985 "plugins/xml/proof2aproof.ml" 69 2978 2997
+)
+"plugins/xml/proof2aproof.ml" 81 3304 3308 "plugins/xml/proof2aproof.ml" 83 3359 3386
+type(
+  Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 69 2978 2981 "plugins/xml/proof2aproof.ml" 83 3359 3386
+type(
+  Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 66 2894 2896 "plugins/xml/proof2aproof.ml" 83 3359 3386
+type(
+  Proof_type.proof_tree -> Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 65 2863 2864 "plugins/xml/proof2aproof.ml" 83 3359 3386
+type(
+  Proof_type.proof_tree -> Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 90 3473 3481 "plugins/xml/proof2aproof.ml" 90 3473 3486
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def equal "plugins/xml/proof2aproof.ml" 91 3494 3498 "plugins/xml/proof2aproof.ml" 92 3522 3528
+)
+"plugins/xml/proof2aproof.ml" 90 3473 3489 "plugins/xml/proof2aproof.ml" 90 3473 3493
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"plugins/xml/proof2aproof.ml" 91 3494 3502 "plugins/xml/proof2aproof.ml" 91 3494 3506
+type(
+  'b -> int
+)
+ident(
+  def hash "plugins/xml/proof2aproof.ml" 91 3494 3521 "plugins/xml/proof2aproof.ml" 92 3522 3528
+)
+"plugins/xml/proof2aproof.ml" 91 3494 3509 "plugins/xml/proof2aproof.ml" 91 3494 3521
+type(
+  'b -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"plugins/xml/proof2aproof.ml" 87 3414 3415 "plugins/xml/proof2aproof.ml" 92 3522 3529
+call(
+  stack
+)
+"plugins/xml/proof2aproof.ml" 96 3535 3539 "plugins/xml/proof2aproof.ml" 96 3535 3557
+type(
+  Evd.evar_map ->
+  Proof_type.proof_tree ->
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+ident(
+  def extract_open_proof "plugins/xml/proof2aproof.ml" 173 6590 6590 --
+)
+"plugins/xml/proof2aproof.ml" 96 3535 3558 "plugins/xml/proof2aproof.ml" 96 3535 3563
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/proof2aproof.ml" 96 3535 3564 "plugins/xml/proof2aproof.ml" 170 6569 6585
+)
+"plugins/xml/proof2aproof.ml" 96 3535 3564 "plugins/xml/proof2aproof.ml" 96 3535 3566
+type(
+  Proof_type.proof_tree
+)
+ident(
+  def pf "plugins/xml/proof2aproof.ml" 97 3569 3570 "plugins/xml/proof2aproof.ml" 170 6569 6585
+)
+"plugins/xml/proof2aproof.ml" 99 3625 3631 "plugins/xml/proof2aproof.ml" 99 3625 3634
+type(
+  Evd.evar_map ref
+)
+ident(
+  def evd "plugins/xml/proof2aproof.ml" 100 3673 3675 "plugins/xml/proof2aproof.ml" 170 6569 6585
+)
+"plugins/xml/proof2aproof.ml" 99 3625 3637 "plugins/xml/proof2aproof.ml" 99 3625 3640
+type(
+  Evd.evar_map -> Evd.evar_map ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/xml/proof2aproof.ml" 99 3625 3642 "plugins/xml/proof2aproof.ml" 99 3625 3662
+type(
+  Evd.evar_map -> Evd.evar_map
+)
+ident(
+  ext_ref Evd.create_evar_defs
+)
+"plugins/xml/proof2aproof.ml" 99 3625 3663 "plugins/xml/proof2aproof.ml" 99 3625 3668
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/proof2aproof.ml" 96 3535 3558 "plugins/xml/proof2aproof.ml" 96 3535 3563
+)
+"plugins/xml/proof2aproof.ml" 99 3625 3641 "plugins/xml/proof2aproof.ml" 99 3625 3669
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/xml/proof2aproof.ml" 99 3625 3637 "plugins/xml/proof2aproof.ml" 99 3625 3669
+type(
+  Evd.evar_map ref
+)
+"plugins/xml/proof2aproof.ml" 100 3673 3679 "plugins/xml/proof2aproof.ml" 100 3673 3699
+type(
+  Term.constr ProofTreeHash.t
+)
+ident(
+  def proof_tree_to_constr "plugins/xml/proof2aproof.ml" 101 3730 3732 "plugins/xml/proof2aproof.ml" 170 6569 6585
+)
+"plugins/xml/proof2aproof.ml" 100 3673 3702 "plugins/xml/proof2aproof.ml" 100 3673 3722
+type(
+  int -> Term.constr ProofTreeHash.t
+)
+ident(
+  ext_ref ProofTreeHash.create
+)
+"plugins/xml/proof2aproof.ml" 100 3673 3723 "plugins/xml/proof2aproof.ml" 100 3673 3726
+type(
+  int
+)
+"plugins/xml/proof2aproof.ml" 100 3673 3702 "plugins/xml/proof2aproof.ml" 100 3673 3726
+call(
+  stack
+)
+type(
+  Term.constr ProofTreeHash.t
+)
+"plugins/xml/proof2aproof.ml" 101 3730 3736 "plugins/xml/proof2aproof.ml" 101 3730 3770
+type(
+  Proof_type.proof_tree ProofTreeHash.t
+)
+ident(
+  def proof_tree_to_flattened_proof_tree "plugins/xml/proof2aproof.ml" 102 3801 3803 "plugins/xml/proof2aproof.ml" 170 6569 6585
+)
+"plugins/xml/proof2aproof.ml" 101 3730 3773 "plugins/xml/proof2aproof.ml" 101 3730 3793
+type(
+  int -> Proof_type.proof_tree ProofTreeHash.t
+)
+ident(
+  ext_ref ProofTreeHash.create
+)
+"plugins/xml/proof2aproof.ml" 101 3730 3794 "plugins/xml/proof2aproof.ml" 101 3730 3797
+type(
+  int
+)
+"plugins/xml/proof2aproof.ml" 101 3730 3773 "plugins/xml/proof2aproof.ml" 101 3730 3797
+call(
+  stack
+)
+type(
+  Proof_type.proof_tree ProofTreeHash.t
+)
+"plugins/xml/proof2aproof.ml" 102 3801 3807 "plugins/xml/proof2aproof.ml" 102 3801 3823
+type(
+  Term.constr list ref
+)
+ident(
+  def unshared_constrs "plugins/xml/proof2aproof.ml" 103 3841 3843 "plugins/xml/proof2aproof.ml" 170 6569 6585
+)
+"plugins/xml/proof2aproof.ml" 102 3801 3826 "plugins/xml/proof2aproof.ml" 102 3801 3829
+type(
+  Term.constr list -> Term.constr list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/xml/proof2aproof.ml" 102 3801 3830 "plugins/xml/proof2aproof.ml" 102 3801 3837
+type(
+  Term.constr list
+)
+ident(
+  ext_ref S.empty
+)
+"plugins/xml/proof2aproof.ml" 102 3801 3826 "plugins/xml/proof2aproof.ml" 102 3801 3837
+type(
+  Term.constr list ref
+)
+"plugins/xml/proof2aproof.ml" 103 3841 3851 "plugins/xml/proof2aproof.ml" 103 3841 3866
+type(
+  L.proof_variable list -> PT.proof_tree -> Term.constr
+)
+ident(
+  def proof_extractor "plugins/xml/proof2aproof.ml" 103 3841 3843 "plugins/xml/proof2aproof.ml" 170 6569 6585
+)
+"plugins/xml/proof2aproof.ml" 103 3841 3867 "plugins/xml/proof2aproof.ml" 103 3841 3869
+type(
+  L.proof_variable list
+)
+ident(
+  def vl "plugins/xml/proof2aproof.ml" 103 3841 3870 "plugins/xml/proof2aproof.ml" 165 6373 6392
+)
+"plugins/xml/proof2aproof.ml" 103 3841 3870 "plugins/xml/proof2aproof.ml" 103 3841 3874
+type(
+  PT.proof_tree
+)
+ident(
+  def node "plugins/xml/proof2aproof.ml" 104 3877 3880 "plugins/xml/proof2aproof.ml" 165 6373 6392
+)
+"plugins/xml/proof2aproof.ml" 104 3877 3884 "plugins/xml/proof2aproof.ml" 104 3877 3890
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 105 3893 3903 "plugins/xml/proof2aproof.ml" 105 3893 3907
+type(
+  PT.proof_tree
+)
+ident(
+  int_ref node "plugins/xml/proof2aproof.ml" 103 3841 3870 "plugins/xml/proof2aproof.ml" 103 3841 3874
+)
+"plugins/xml/proof2aproof.ml" 106 3913 3941 "plugins/xml/proof2aproof.ml" 106 3913 3942
+type(
+  PT.prim_rule
+)
+"plugins/xml/proof2aproof.ml" 106 3913 3933 "plugins/xml/proof2aproof.ml" 106 3913 3942
+type(
+  PT.rule
+)
+"plugins/xml/proof2aproof.ml" 106 3913 3943 "plugins/xml/proof2aproof.ml" 106 3913 3944
+type(
+  PT.proof_tree list
+)
+"plugins/xml/proof2aproof.ml" 106 3913 3932 "plugins/xml/proof2aproof.ml" 106 3913 3945
+type(
+  PT.rule * PT.proof_tree list
+)
+"plugins/xml/proof2aproof.ml" 106 3913 3928 "plugins/xml/proof2aproof.ml" 106 3913 3945
+type(
+  (PT.rule * PT.proof_tree list) option
+)
+"plugins/xml/proof2aproof.ml" 106 3913 3920 "plugins/xml/proof2aproof.ml" 106 3913 3946
+type(
+  PT.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 106 3913 3920 "plugins/xml/proof2aproof.ml" 106 3913 3952
+type(
+  PT.proof_tree
+)
+ident(
+  def pf "plugins/xml/proof2aproof.ml" 107 3956 3964 "plugins/xml/proof2aproof.ml" 107 3956 4002
+)
+"plugins/xml/proof2aproof.ml" 107 3956 3964 "plugins/xml/proof2aproof.ml" 107 3956 3980
+type(
+  (L.proof_variable list -> PT.proof_tree -> Term.constr) ->
+  L.proof_variable list -> PT.proof_tree -> Term.constr
+)
+ident(
+  ext_ref L.prim_extractor
+)
+"plugins/xml/proof2aproof.ml" 107 3956 3981 "plugins/xml/proof2aproof.ml" 107 3956 3996
+type(
+  L.proof_variable list -> PT.proof_tree -> Term.constr
+)
+ident(
+  int_ref proof_extractor "plugins/xml/proof2aproof.ml" 103 3841 3851 "plugins/xml/proof2aproof.ml" 103 3841 3866
+)
+"plugins/xml/proof2aproof.ml" 107 3956 3997 "plugins/xml/proof2aproof.ml" 107 3956 3999
+type(
+  L.proof_variable list
+)
+ident(
+  int_ref vl "plugins/xml/proof2aproof.ml" 103 3841 3867 "plugins/xml/proof2aproof.ml" 103 3841 3869
+)
+"plugins/xml/proof2aproof.ml" 107 3956 4000 "plugins/xml/proof2aproof.ml" 107 3956 4002
+type(
+  PT.proof_tree
+)
+ident(
+  int_ref pf "plugins/xml/proof2aproof.ml" 106 3913 3920 "plugins/xml/proof2aproof.ml" 106 3913 3952
+)
+"plugins/xml/proof2aproof.ml" 107 3956 3964 "plugins/xml/proof2aproof.ml" 107 3956 4002
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 109 4004 4035 "plugins/xml/proof2aproof.ml" 109 4004 4036
+type(
+  PT.compound_rule
+)
+"plugins/xml/proof2aproof.ml" 109 4004 4037 "plugins/xml/proof2aproof.ml" 109 4004 4049
+type(
+  PT.proof_tree
+)
+ident(
+  def hidden_proof "plugins/xml/proof2aproof.ml" 110 4061 4063 "plugins/xml/proof2aproof.ml" 113 4217 4248
+)
+"plugins/xml/proof2aproof.ml" 109 4004 4024 "plugins/xml/proof2aproof.ml" 109 4004 4050
+type(
+  PT.rule
+)
+"plugins/xml/proof2aproof.ml" 109 4004 4051 "plugins/xml/proof2aproof.ml" 109 4004 4055
+type(
+  PT.proof_tree list
+)
+ident(
+  def spfl "plugins/xml/proof2aproof.ml" 110 4061 4063 "plugins/xml/proof2aproof.ml" 113 4217 4248
+)
+"plugins/xml/proof2aproof.ml" 109 4004 4023 "plugins/xml/proof2aproof.ml" 109 4004 4056
+type(
+  PT.rule * PT.proof_tree list
+)
+"plugins/xml/proof2aproof.ml" 109 4004 4019 "plugins/xml/proof2aproof.ml" 109 4004 4056
+type(
+  (PT.rule * PT.proof_tree list) option
+)
+"plugins/xml/proof2aproof.ml" 109 4004 4011 "plugins/xml/proof2aproof.ml" 109 4004 4057
+type(
+  PT.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 110 4061 4067 "plugins/xml/proof2aproof.ml" 110 4061 4070
+type(
+  Proof_type.goal list
+)
+"plugins/xml/proof2aproof.ml" 110 4061 4071 "plugins/xml/proof2aproof.ml" 110 4061 4072
+type(
+  Proof_type.validation
+)
+"plugins/xml/proof2aproof.ml" 110 4061 4067 "plugins/xml/proof2aproof.ml" 110 4061 4072
+type(
+  Proof_type.goal list * Proof_type.validation
+)
+"plugins/xml/proof2aproof.ml" 110 4061 4075 "plugins/xml/proof2aproof.ml" 110 4061 4091
+type(
+  Refiner.transformation_tactic
+)
+ident(
+  ext_ref Refiner.frontier
+)
+"plugins/xml/proof2aproof.ml" 110 4061 4092 "plugins/xml/proof2aproof.ml" 110 4061 4104
+type(
+  PT.proof_tree
+)
+ident(
+  int_ref hidden_proof "plugins/xml/proof2aproof.ml" 109 4004 4037 "plugins/xml/proof2aproof.ml" 109 4004 4049
+)
+"plugins/xml/proof2aproof.ml" 110 4061 4075 "plugins/xml/proof2aproof.ml" 110 4061 4104
+call(
+  stack
+)
+type(
+  Proof_type.goal list * Proof_type.validation
+)
+"plugins/xml/proof2aproof.ml" 111 4108 4114 "plugins/xml/proof2aproof.ml" 111 4108 4124
+type(
+  Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 111 4108 4127 "plugins/xml/proof2aproof.ml" 111 4108 4128
+type(
+  Proof_type.validation
+)
+ident(
+  int_ref v "plugins/xml/proof2aproof.ml" 110 4061 4071 "plugins/xml/proof2aproof.ml" 110 4061 4072
+)
+"plugins/xml/proof2aproof.ml" 111 4108 4129 "plugins/xml/proof2aproof.ml" 111 4108 4133
+type(
+  PT.proof_tree list
+)
+ident(
+  int_ref spfl "plugins/xml/proof2aproof.ml" 109 4004 4051 "plugins/xml/proof2aproof.ml" 109 4004 4055
+)
+"plugins/xml/proof2aproof.ml" 111 4108 4127 "plugins/xml/proof2aproof.ml" 111 4108 4133
+call(
+  stack
+)
+type(
+  Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 112 4137 4146 "plugins/xml/proof2aproof.ml" 112 4137 4163
+type(
+  Proof_type.proof_tree ProofTreeHash.t ->
+  ProofTreeHash.key -> Proof_type.proof_tree -> unit
+)
+ident(
+  ext_ref ProofTreeHash.add
+)
+"plugins/xml/proof2aproof.ml" 112 4137 4164 "plugins/xml/proof2aproof.ml" 112 4137 4198
+type(
+  Proof_type.proof_tree ProofTreeHash.t
+)
+ident(
+  int_ref proof_tree_to_flattened_proof_tree "plugins/xml/proof2aproof.ml" 101 3730 3736 "plugins/xml/proof2aproof.ml" 101 3730 3770
+)
+"plugins/xml/proof2aproof.ml" 112 4137 4199 "plugins/xml/proof2aproof.ml" 112 4137 4203
+type(
+  PT.proof_tree
+)
+ident(
+  int_ref node "plugins/xml/proof2aproof.ml" 103 3841 3870 "plugins/xml/proof2aproof.ml" 103 3841 3874
+)
+"plugins/xml/proof2aproof.ml" 112 4137 4204 "plugins/xml/proof2aproof.ml" 112 4137 4214
+type(
+  Proof_type.proof_tree
+)
+ident(
+  int_ref flat_proof "plugins/xml/proof2aproof.ml" 111 4108 4114 "plugins/xml/proof2aproof.ml" 111 4108 4124
+)
+"plugins/xml/proof2aproof.ml" 112 4137 4146 "plugins/xml/proof2aproof.ml" 112 4137 4214
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/proof2aproof.ml" 113 4217 4219 "plugins/xml/proof2aproof.ml" 113 4217 4234
+type(
+  L.proof_variable list -> PT.proof_tree -> Term.constr
+)
+ident(
+  int_ref proof_extractor "plugins/xml/proof2aproof.ml" 103 3841 3851 "plugins/xml/proof2aproof.ml" 103 3841 3866
+)
+"plugins/xml/proof2aproof.ml" 113 4217 4235 "plugins/xml/proof2aproof.ml" 113 4217 4237
+type(
+  L.proof_variable list
+)
+ident(
+  int_ref vl "plugins/xml/proof2aproof.ml" 103 3841 3867 "plugins/xml/proof2aproof.ml" 103 3841 3869
+)
+"plugins/xml/proof2aproof.ml" 113 4217 4238 "plugins/xml/proof2aproof.ml" 113 4217 4248
+type(
+  PT.proof_tree
+)
+ident(
+  int_ref flat_proof "plugins/xml/proof2aproof.ml" 111 4108 4114 "plugins/xml/proof2aproof.ml" 111 4108 4124
+)
+"plugins/xml/proof2aproof.ml" 113 4217 4219 "plugins/xml/proof2aproof.ml" 113 4217 4248
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 112 4137 4146 "plugins/xml/proof2aproof.ml" 113 4217 4248
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 111 4108 4110 "plugins/xml/proof2aproof.ml" 113 4217 4248
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 110 4061 4063 "plugins/xml/proof2aproof.ml" 113 4217 4248
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 115 4250 4265 "plugins/xml/proof2aproof.ml" 115 4250 4269
+type(
+  (PT.rule * PT.proof_tree list) option
+)
+"plugins/xml/proof2aproof.ml" 115 4250 4278 "plugins/xml/proof2aproof.ml" 115 4250 4282
+type(
+  PT.goal
+)
+ident(
+  def goal "plugins/xml/proof2aproof.ml" 116 4287 4289 "plugins/xml/proof2aproof.ml" 146 5683 5696
+)
+"plugins/xml/proof2aproof.ml" 115 4250 4257 "plugins/xml/proof2aproof.ml" 115 4250 4283
+type(
+  PT.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 116 4287 4293 "plugins/xml/proof2aproof.ml" 116 4287 4305
+type(
+  (int * Names.identifier) list
+)
+"plugins/xml/proof2aproof.ml" 117 4308 4319 "plugins/xml/proof2aproof.ml" 117 4308 4335
+type(
+  (Names.identifier -> int * Names.identifier) ->
+  Names.identifier list -> (int * Names.identifier) list
+)
+ident(
+  ext_ref Util.map_succeed
+)
+"plugins/xml/proof2aproof.ml" 118 4336 4354 "plugins/xml/proof2aproof.ml" 118 4336 4356
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/xml/proof2aproof.ml" 121 4506 4522 "plugins/xml/proof2aproof.ml" 122 4577 4621
+)
+"plugins/xml/proof2aproof.ml" 121 4506 4530 "plugins/xml/proof2aproof.ml" 121 4506 4531
+type(
+  int
+)
+ident(
+  def n "plugins/xml/proof2aproof.ml" 121 4506 4570 "plugins/xml/proof2aproof.ml" 121 4506 4576
+)
+"plugins/xml/proof2aproof.ml" 121 4506 4534 "plugins/xml/proof2aproof.ml" 121 4506 4560
+type(
+  Names.identifier -> L.proof_variable list -> int
+)
+ident(
+  ext_ref Logic.proof_variable_index
+)
+"plugins/xml/proof2aproof.ml" 121 4506 4561 "plugins/xml/proof2aproof.ml" 121 4506 4563
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/xml/proof2aproof.ml" 118 4336 4354 "plugins/xml/proof2aproof.ml" 118 4336 4356
+)
+"plugins/xml/proof2aproof.ml" 121 4506 4564 "plugins/xml/proof2aproof.ml" 121 4506 4566
+type(
+  L.proof_variable list
+)
+ident(
+  int_ref vl "plugins/xml/proof2aproof.ml" 103 3841 3867 "plugins/xml/proof2aproof.ml" 103 3841 3869
+)
+"plugins/xml/proof2aproof.ml" 121 4506 4534 "plugins/xml/proof2aproof.ml" 121 4506 4566
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/xml/proof2aproof.ml" 121 4506 4571 "plugins/xml/proof2aproof.ml" 121 4506 4572
+type(
+  int
+)
+ident(
+  int_ref n "plugins/xml/proof2aproof.ml" 121 4506 4530 "plugins/xml/proof2aproof.ml" 121 4506 4531
+)
+"plugins/xml/proof2aproof.ml" 121 4506 4573 "plugins/xml/proof2aproof.ml" 121 4506 4575
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/xml/proof2aproof.ml" 118 4336 4354 "plugins/xml/proof2aproof.ml" 118 4336 4356
+)
+"plugins/xml/proof2aproof.ml" 121 4506 4570 "plugins/xml/proof2aproof.ml" 121 4506 4576
+type(
+  int * Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 121 4506 4526 "plugins/xml/proof2aproof.ml" 121 4506 4576
+type(
+  int * Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 122 4577 4591 "plugins/xml/proof2aproof.ml" 122 4577 4600
+type(
+  exn
+)
+"plugins/xml/proof2aproof.ml" 122 4577 4604 "plugins/xml/proof2aproof.ml" 122 4577 4612
+type(
+  string -> int * Names.identifier
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"plugins/xml/proof2aproof.ml" 122 4577 4613 "plugins/xml/proof2aproof.ml" 122 4577 4621
+type(
+  string
+)
+"plugins/xml/proof2aproof.ml" 122 4577 4604 "plugins/xml/proof2aproof.ml" 122 4577 4621
+call(
+  tail
+)
+type(
+  int * Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 121 4506 4522 "plugins/xml/proof2aproof.ml" 122 4577 4621
+type(
+  int * Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 118 4336 4349 "plugins/xml/proof2aproof.ml" 122 4577 4622
+type(
+  Names.identifier -> int * Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 127 4919 4933 "plugins/xml/proof2aproof.ml" 127 4919 4961
+type(
+  Sign.named_context -> Names.identifier list
+)
+ident(
+  ext_ref Termops.ids_of_named_context
+)
+"plugins/xml/proof2aproof.ml" 128 4962 4965 "plugins/xml/proof2aproof.ml" 128 4962 4993
+type(
+  Environ.named_context_val -> Sign.named_context
+)
+ident(
+  ext_ref Environ.named_context_of_val
+)
+"plugins/xml/proof2aproof.ml" 128 4962 4994 "plugins/xml/proof2aproof.ml" 128 4962 4998
+type(
+  PT.goal
+)
+ident(
+  int_ref goal "plugins/xml/proof2aproof.ml" 115 4250 4278 "plugins/xml/proof2aproof.ml" 115 4250 4282
+)
+"plugins/xml/proof2aproof.ml" 128 4962 4994 "plugins/xml/proof2aproof.ml" 128 4962 5012
+type(
+  Environ.named_context_val
+)
+"plugins/xml/proof2aproof.ml" 128 4962 4964 "plugins/xml/proof2aproof.ml" 128 4962 5013
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/xml/proof2aproof.ml" 127 4919 4932 "plugins/xml/proof2aproof.ml" 128 4962 5014
+call(
+  stack
+)
+type(
+  Names.identifier list
+)
+"plugins/xml/proof2aproof.ml" 117 4308 4319 "plugins/xml/proof2aproof.ml" 128 4962 5014
+call(
+  stack
+)
+type(
+  (int * Names.identifier) list
+)
+"plugins/xml/proof2aproof.ml" 129 5018 5024 "plugins/xml/proof2aproof.ml" 129 5018 5035
+type(
+  (int * Names.identifier) list
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5042 "plugins/xml/proof2aproof.ml" 130 5038 5051
+type(
+  (int * Names.identifier -> int * Names.identifier -> bool) ->
+  (int * Names.identifier) list -> (int * Names.identifier) list
+)
+ident(
+  ext_ref Sort.list
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5058 "plugins/xml/proof2aproof.ml" 130 5038 5060
+type(
+  int
+)
+ident(
+  def n1 "plugins/xml/proof2aproof.ml" 130 5038 5064 "plugins/xml/proof2aproof.ml" 130 5038 5081
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5061 "plugins/xml/proof2aproof.ml" 130 5038 5062
+type(
+  Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5057 "plugins/xml/proof2aproof.ml" 130 5038 5063
+type(
+  int * Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5065 "plugins/xml/proof2aproof.ml" 130 5038 5067
+type(
+  int
+)
+ident(
+  def n2 "plugins/xml/proof2aproof.ml" 130 5038 5074 "plugins/xml/proof2aproof.ml" 130 5038 5081
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5068 "plugins/xml/proof2aproof.ml" 130 5038 5069
+type(
+  Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5064 "plugins/xml/proof2aproof.ml" 130 5038 5070
+type(
+  int * Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5074 "plugins/xml/proof2aproof.ml" 130 5038 5076
+type(
+  int
+)
+ident(
+  int_ref n1 "plugins/xml/proof2aproof.ml" 130 5038 5058 "plugins/xml/proof2aproof.ml" 130 5038 5060
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5077 "plugins/xml/proof2aproof.ml" 130 5038 5078
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5079 "plugins/xml/proof2aproof.ml" 130 5038 5081
+type(
+  int
+)
+ident(
+  int_ref n2 "plugins/xml/proof2aproof.ml" 130 5038 5065 "plugins/xml/proof2aproof.ml" 130 5038 5067
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5074 "plugins/xml/proof2aproof.ml" 130 5038 5081
+type(
+  bool
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5052 "plugins/xml/proof2aproof.ml" 130 5038 5083
+type(
+  int * Names.identifier -> int * Names.identifier -> bool
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5084 "plugins/xml/proof2aproof.ml" 130 5038 5096
+type(
+  (int * Names.identifier) list
+)
+ident(
+  int_ref visible_rels "plugins/xml/proof2aproof.ml" 116 4287 4293 "plugins/xml/proof2aproof.ml" 116 4287 4305
+)
+"plugins/xml/proof2aproof.ml" 130 5038 5042 "plugins/xml/proof2aproof.ml" 130 5038 5096
+call(
+  stack
+)
+type(
+  (int * Names.identifier) list
+)
+"plugins/xml/proof2aproof.ml" 131 5100 5106 "plugins/xml/proof2aproof.ml" 131 5100 5113
+type(
+  Environ.named_context_val
+)
+"plugins/xml/proof2aproof.ml" 132 5116 5124 "plugins/xml/proof2aproof.ml" 132 5116 5125
+type(
+  Term.named_declaration list
+)
+"plugins/xml/proof2aproof.ml" 133 5128 5141 "plugins/xml/proof2aproof.ml" 133 5128 5149
+type(
+  (int * Names.identifier -> Term.named_declaration) ->
+  (int * Names.identifier) list -> Term.named_declaration list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/xml/proof2aproof.ml" 134 5150 5171 "plugins/xml/proof2aproof.ml" 134 5150 5172
+type(
+  int
+)
+"plugins/xml/proof2aproof.ml" 134 5150 5173 "plugins/xml/proof2aproof.ml" 134 5150 5175
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/xml/proof2aproof.ml" 134 5150 5180 "plugins/xml/proof2aproof.ml" 135 5201 5255
+)
+"plugins/xml/proof2aproof.ml" 134 5150 5170 "plugins/xml/proof2aproof.ml" 134 5150 5176
+type(
+  int * Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 134 5150 5180 "plugins/xml/proof2aproof.ml" 134 5150 5197
+type(
+  Names.identifier -> Sign.named_context -> Term.named_declaration
+)
+ident(
+  ext_ref Sign.lookup_named
+)
+"plugins/xml/proof2aproof.ml" 134 5150 5198 "plugins/xml/proof2aproof.ml" 134 5150 5200
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/xml/proof2aproof.ml" 134 5150 5173 "plugins/xml/proof2aproof.ml" 134 5150 5175
+)
+"plugins/xml/proof2aproof.ml" 135 5201 5207 "plugins/xml/proof2aproof.ml" 135 5201 5235
+type(
+  Environ.named_context_val -> Sign.named_context
+)
+ident(
+  ext_ref Environ.named_context_of_val
+)
+"plugins/xml/proof2aproof.ml" 135 5201 5236 "plugins/xml/proof2aproof.ml" 135 5201 5240
+type(
+  PT.goal
+)
+ident(
+  int_ref goal "plugins/xml/proof2aproof.ml" 115 4250 4278 "plugins/xml/proof2aproof.ml" 115 4250 4282
+)
+"plugins/xml/proof2aproof.ml" 135 5201 5236 "plugins/xml/proof2aproof.ml" 135 5201 5254
+type(
+  Environ.named_context_val
+)
+"plugins/xml/proof2aproof.ml" 135 5201 5206 "plugins/xml/proof2aproof.ml" 135 5201 5255
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/xml/proof2aproof.ml" 134 5150 5180 "plugins/xml/proof2aproof.ml" 135 5201 5255
+call(
+  tail
+)
+type(
+  Term.named_declaration
+)
+"plugins/xml/proof2aproof.ml" 134 5150 5165 "plugins/xml/proof2aproof.ml" 135 5201 5256
+type(
+  int * Names.identifier -> Term.named_declaration
+)
+"plugins/xml/proof2aproof.ml" 136 5257 5272 "plugins/xml/proof2aproof.ml" 136 5257 5283
+type(
+  (int * Names.identifier) list
+)
+ident(
+  int_ref sorted_rels "plugins/xml/proof2aproof.ml" 129 5018 5024 "plugins/xml/proof2aproof.ml" 129 5018 5035
+)
+"plugins/xml/proof2aproof.ml" 133 5128 5141 "plugins/xml/proof2aproof.ml" 136 5257 5283
+call(
+  stack
+)
+type(
+  Term.named_declaration list
+)
+"plugins/xml/proof2aproof.ml" 137 5287 5291 "plugins/xml/proof2aproof.ml" 137 5287 5319
+type(
+  Sign.named_context -> Environ.named_context_val
+)
+ident(
+  ext_ref Environ.val_of_named_context
+)
+"plugins/xml/proof2aproof.ml" 137 5287 5320 "plugins/xml/proof2aproof.ml" 137 5287 5321
+type(
+  Sign.named_context
+)
+ident(
+  int_ref l "plugins/xml/proof2aproof.ml" 132 5116 5124 "plugins/xml/proof2aproof.ml" 132 5116 5125
+)
+"plugins/xml/proof2aproof.ml" 137 5287 5291 "plugins/xml/proof2aproof.ml" 137 5287 5321
+call(
+  stack
+)
+type(
+  Environ.named_context_val
+)
+"plugins/xml/proof2aproof.ml" 132 5116 5120 "plugins/xml/proof2aproof.ml" 137 5287 5321
+type(
+  Environ.named_context_val
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5416 "plugins/xml/proof2aproof.ml" 140 5403 5429
+type(
+  Term.constr list
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5432 "plugins/xml/proof2aproof.ml" 140 5403 5440
+type(
+  (int * Names.identifier -> Term.constr) ->
+  (int * Names.identifier) list -> Term.constr list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5447 "plugins/xml/proof2aproof.ml" 140 5403 5448
+type(
+  int
+)
+ident(
+  def n "plugins/xml/proof2aproof.ml" 140 5403 5455 "plugins/xml/proof2aproof.ml" 140 5403 5467
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5449 "plugins/xml/proof2aproof.ml" 140 5403 5450
+type(
+  Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5446 "plugins/xml/proof2aproof.ml" 140 5403 5451
+type(
+  int * Names.identifier
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5455 "plugins/xml/proof2aproof.ml" 140 5403 5465
+type(
+  int -> Term.constr
+)
+ident(
+  ext_ref Term.mkRel
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5466 "plugins/xml/proof2aproof.ml" 140 5403 5467
+type(
+  int
+)
+ident(
+  int_ref n "plugins/xml/proof2aproof.ml" 140 5403 5447 "plugins/xml/proof2aproof.ml" 140 5403 5448
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5455 "plugins/xml/proof2aproof.ml" 140 5403 5467
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5441 "plugins/xml/proof2aproof.ml" 140 5403 5468
+type(
+  int * Names.identifier -> Term.constr
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5469 "plugins/xml/proof2aproof.ml" 140 5403 5480
+type(
+  (int * Names.identifier) list
+)
+ident(
+  int_ref sorted_rels "plugins/xml/proof2aproof.ml" 129 5018 5024 "plugins/xml/proof2aproof.ml" 129 5018 5035
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5432 "plugins/xml/proof2aproof.ml" 140 5403 5480
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/xml/proof2aproof.ml" 142 5541 5547 "plugins/xml/proof2aproof.ml" 142 5541 5551
+type(
+  Evd.evar_map
+)
+"plugins/xml/proof2aproof.ml" 142 5541 5552 "plugins/xml/proof2aproof.ml" 142 5541 5556
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 142 5541 5547 "plugins/xml/proof2aproof.ml" 142 5541 5556
+type(
+  Evd.evar_map * Term.constr
+)
+"plugins/xml/proof2aproof.ml" 143 5559 5570 "plugins/xml/proof2aproof.ml" 143 5559 5596
+type(
+  Environ.named_context_val ->
+  Evd.evar_map ->
+  Term.types ->
+  ?src:Util.loc * Evd.hole_kind ->
+  ?filter:bool list -> Term.constr list -> Evd.evar_map * Term.constr
+)
+ident(
+  ext_ref Evarutil.new_evar_instance
+)
+"plugins/xml/proof2aproof.ml" 143 5559 5597 "plugins/xml/proof2aproof.ml" 143 5559 5604
+type(
+  Environ.named_context_val
+)
+ident(
+  int_ref context "plugins/xml/proof2aproof.ml" 131 5100 5106 "plugins/xml/proof2aproof.ml" 131 5100 5113
+)
+"plugins/xml/proof2aproof.ml" 143 5559 5605 "plugins/xml/proof2aproof.ml" 143 5559 5606
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/xml/proof2aproof.ml" 143 5559 5606 "plugins/xml/proof2aproof.ml" 143 5559 5609
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref evd "plugins/xml/proof2aproof.ml" 99 3625 3631 "plugins/xml/proof2aproof.ml" 99 3625 3634
+)
+"plugins/xml/proof2aproof.ml" 143 5559 5605 "plugins/xml/proof2aproof.ml" 143 5559 5609
+type(
+  Evd.evar_map
+)
+"plugins/xml/proof2aproof.ml" 143 5559 5610 "plugins/xml/proof2aproof.ml" 143 5559 5614
+type(
+  PT.goal
+)
+ident(
+  int_ref goal "plugins/xml/proof2aproof.ml" 115 4250 4278 "plugins/xml/proof2aproof.ml" 115 4250 4282
+)
+"plugins/xml/proof2aproof.ml" 143 5559 5610 "plugins/xml/proof2aproof.ml" 143 5559 5629
+type(
+  Term.types
+)
+"plugins/xml/proof2aproof.ml" 144 5630 5643 "plugins/xml/proof2aproof.ml" 144 5630 5656
+type(
+  Term.constr list
+)
+ident(
+  int_ref evar_instance "plugins/xml/proof2aproof.ml" 140 5403 5416 "plugins/xml/proof2aproof.ml" 140 5403 5429
+)
+"plugins/xml/proof2aproof.ml" 143 5559 5570 "plugins/xml/proof2aproof.ml" 144 5630 5656
+call(
+  stack
+)
+type(
+  Evd.evar_map * Term.constr
+)
+"plugins/xml/proof2aproof.ml" 145 5660 5669 "plugins/xml/proof2aproof.ml" 145 5660 5672
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref evd "plugins/xml/proof2aproof.ml" 99 3625 3631 "plugins/xml/proof2aproof.ml" 99 3625 3634
+)
+"plugins/xml/proof2aproof.ml" 145 5660 5673 "plugins/xml/proof2aproof.ml" 145 5660 5675
+type(
+  Evd.evar_map ref -> Evd.evar_map -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/xml/proof2aproof.ml" 145 5660 5676 "plugins/xml/proof2aproof.ml" 145 5660 5680
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evd' "plugins/xml/proof2aproof.ml" 142 5541 5547 "plugins/xml/proof2aproof.ml" 142 5541 5551
+)
+"plugins/xml/proof2aproof.ml" 145 5660 5669 "plugins/xml/proof2aproof.ml" 145 5660 5680
+type(
+  unit
+)
+"plugins/xml/proof2aproof.ml" 146 5683 5692 "plugins/xml/proof2aproof.ml" 146 5683 5696
+type(
+  Term.constr
+)
+ident(
+  int_ref evar "plugins/xml/proof2aproof.ml" 142 5541 5552 "plugins/xml/proof2aproof.ml" 142 5541 5556
+)
+"plugins/xml/proof2aproof.ml" 145 5660 5669 "plugins/xml/proof2aproof.ml" 146 5683 5696
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 142 5541 5543 "plugins/xml/proof2aproof.ml" 146 5683 5696
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 140 5403 5412 "plugins/xml/proof2aproof.ml" 146 5683 5696
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 131 5100 5102 "plugins/xml/proof2aproof.ml" 146 5683 5696
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 129 5018 5020 "plugins/xml/proof2aproof.ml" 146 5683 5696
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 116 4287 4289 "plugins/xml/proof2aproof.ml" 146 5683 5696
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 148 5698 5705 "plugins/xml/proof2aproof.ml" 148 5698 5706
+type(
+  PT.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 148 5698 5710 "plugins/xml/proof2aproof.ml" 148 5698 5722
+type(
+  string -> Term.constr
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/xml/proof2aproof.ml" 148 5698 5723 "plugins/xml/proof2aproof.ml" 148 5698 5775
+type(
+  string
+)
+"plugins/xml/proof2aproof.ml" 148 5698 5710 "plugins/xml/proof2aproof.ml" 148 5698 5775
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 105 3893 3897 "plugins/xml/proof2aproof.ml" 148 5698 5775
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 150 5782 5790 "plugins/xml/proof2aproof.ml" 150 5782 5804
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 151 5807 5816 "plugins/xml/proof2aproof.ml" 151 5807 5830
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 152 5833 5839 "plugins/xml/proof2aproof.ml" 152 5833 5846
+type(
+  Evd.evar_map ->
+  preserve:(Term.constr -> bool) -> Term.constr -> Term.constr
+)
+ident(
+  int_ref nf_evar "plugins/xml/proof2aproof.ml" 28 1334 1338 "plugins/xml/proof2aproof.ml" 28 1334 1345
+)
+"plugins/xml/proof2aproof.ml" 152 5833 5849 "plugins/xml/proof2aproof.ml" 152 5833 5850
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/xml/proof2aproof.ml" 152 5833 5850 "plugins/xml/proof2aproof.ml" 152 5833 5853
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref evd "plugins/xml/proof2aproof.ml" 99 3625 3631 "plugins/xml/proof2aproof.ml" 99 3625 3634
+)
+"plugins/xml/proof2aproof.ml" 152 5833 5847 "plugins/xml/proof2aproof.ml" 152 5833 5854
+type(
+  Evd.evar_map
+)
+"plugins/xml/proof2aproof.ml" 153 5855 5883 "plugins/xml/proof2aproof.ml" 153 5855 5884
+type(
+  Term.constr
+)
+ident(
+  def e "plugins/xml/proof2aproof.ml" 153 5855 5888 "plugins/xml/proof2aproof.ml" 153 5855 5913
+)
+"plugins/xml/proof2aproof.ml" 153 5855 5888 "plugins/xml/proof2aproof.ml" 153 5855 5893
+type(
+  Term.constr -> Term.constr list -> bool
+)
+ident(
+  ext_ref S.mem
+)
+"plugins/xml/proof2aproof.ml" 153 5855 5894 "plugins/xml/proof2aproof.ml" 153 5855 5895
+type(
+  Term.constr
+)
+ident(
+  int_ref e "plugins/xml/proof2aproof.ml" 153 5855 5883 "plugins/xml/proof2aproof.ml" 153 5855 5884
+)
+"plugins/xml/proof2aproof.ml" 153 5855 5896 "plugins/xml/proof2aproof.ml" 153 5855 5897
+type(
+  Term.constr list ref -> Term.constr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/xml/proof2aproof.ml" 153 5855 5897 "plugins/xml/proof2aproof.ml" 153 5855 5913
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref unshared_constrs "plugins/xml/proof2aproof.ml" 102 3801 3807 "plugins/xml/proof2aproof.ml" 102 3801 3823
+)
+"plugins/xml/proof2aproof.ml" 153 5855 5896 "plugins/xml/proof2aproof.ml" 153 5855 5913
+type(
+  Term.constr list
+)
+"plugins/xml/proof2aproof.ml" 153 5855 5888 "plugins/xml/proof2aproof.ml" 153 5855 5913
+call(
+  tail
+)
+type(
+  bool
+)
+"plugins/xml/proof2aproof.ml" 153 5855 5873 "plugins/xml/proof2aproof.ml" 153 5855 5914
+type(
+  Term.constr -> bool
+)
+"plugins/xml/proof2aproof.ml" 153 5855 5915 "plugins/xml/proof2aproof.ml" 153 5855 5921
+type(
+  Term.constr
+)
+ident(
+  int_ref constr "plugins/xml/proof2aproof.ml" 104 3877 3884 "plugins/xml/proof2aproof.ml" 104 3877 3890
+)
+"plugins/xml/proof2aproof.ml" 152 5833 5839 "plugins/xml/proof2aproof.ml" 153 5855 5921
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 155 5930 5936 "plugins/xml/proof2aproof.ml" 155 5930 5951
+type(
+  ?already_unshared:(Term.constr -> bool) -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Unshare.unshare
+)
+"plugins/xml/proof2aproof.ml" 156 5952 5987 "plugins/xml/proof2aproof.ml" 156 5952 5988
+type(
+  Term.constr
+)
+ident(
+  def e "plugins/xml/proof2aproof.ml" 156 5952 5992 "plugins/xml/proof2aproof.ml" 156 5952 6017
+)
+"plugins/xml/proof2aproof.ml" 156 5952 5992 "plugins/xml/proof2aproof.ml" 156 5952 5997
+type(
+  Term.constr -> Term.constr list -> bool
+)
+ident(
+  ext_ref S.mem
+)
+"plugins/xml/proof2aproof.ml" 156 5952 5998 "plugins/xml/proof2aproof.ml" 156 5952 5999
+type(
+  Term.constr
+)
+ident(
+  int_ref e "plugins/xml/proof2aproof.ml" 156 5952 5987 "plugins/xml/proof2aproof.ml" 156 5952 5988
+)
+"plugins/xml/proof2aproof.ml" 156 5952 6000 "plugins/xml/proof2aproof.ml" 156 5952 6001
+type(
+  Term.constr list ref -> Term.constr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/xml/proof2aproof.ml" 156 5952 6001 "plugins/xml/proof2aproof.ml" 156 5952 6017
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref unshared_constrs "plugins/xml/proof2aproof.ml" 102 3801 3807 "plugins/xml/proof2aproof.ml" 102 3801 3823
+)
+"plugins/xml/proof2aproof.ml" 156 5952 6000 "plugins/xml/proof2aproof.ml" 156 5952 6017
+type(
+  Term.constr list
+)
+"plugins/xml/proof2aproof.ml" 156 5952 5992 "plugins/xml/proof2aproof.ml" 156 5952 6017
+call(
+  tail
+)
+type(
+  bool
+)
+"plugins/xml/proof2aproof.ml" 156 5952 5977 "plugins/xml/proof2aproof.ml" 156 5952 6018
+type(
+  Term.constr -> bool
+)
+"plugins/xml/proof2aproof.ml" 157 6019 6026 "plugins/xml/proof2aproof.ml" 157 6019 6040
+type(
+  Term.constr
+)
+ident(
+  int_ref evar_nf_constr "plugins/xml/proof2aproof.ml" 151 5807 5816 "plugins/xml/proof2aproof.ml" 151 5807 5830
+)
+"plugins/xml/proof2aproof.ml" 155 5930 5936 "plugins/xml/proof2aproof.ml" 157 6019 6040
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 151 5807 5812 "plugins/xml/proof2aproof.ml" 157 6019 6040
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 160 6088 6091 "plugins/xml/proof2aproof.ml" 160 6088 6108
+type(
+  Term.constr ProofTreeHash.t -> ProofTreeHash.key -> bool
+)
+ident(
+  ext_ref ProofTreeHash.mem
+)
+"plugins/xml/proof2aproof.ml" 160 6088 6109 "plugins/xml/proof2aproof.ml" 160 6088 6129
+type(
+  Term.constr ProofTreeHash.t
+)
+ident(
+  int_ref proof_tree_to_constr "plugins/xml/proof2aproof.ml" 100 3673 3679 "plugins/xml/proof2aproof.ml" 100 3673 3699
+)
+"plugins/xml/proof2aproof.ml" 160 6088 6130 "plugins/xml/proof2aproof.ml" 160 6088 6134
+type(
+  PT.proof_tree
+)
+ident(
+  int_ref node "plugins/xml/proof2aproof.ml" 103 3841 3870 "plugins/xml/proof2aproof.ml" 103 3841 3874
+)
+"plugins/xml/proof2aproof.ml" 160 6088 6091 "plugins/xml/proof2aproof.ml" 160 6088 6134
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/xml/proof2aproof.ml" 161 6140 6141 "plugins/xml/proof2aproof.ml" 161 6140 6148
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.ppnl
+)
+"plugins/xml/proof2aproof.ml" 161 6140 6150 "plugins/xml/proof2aproof.ml" 161 6140 6157
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/proof2aproof.ml" 161 6140 6159 "plugins/xml/proof2aproof.ml" 161 6140 6165
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/proof2aproof.ml" 161 6140 6166 "plugins/xml/proof2aproof.ml" 161 6140 6190
+type(
+  string
+)
+"plugins/xml/proof2aproof.ml" 161 6140 6158 "plugins/xml/proof2aproof.ml" 161 6140 6191
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/proof2aproof.ml" 162 6192 6194 "plugins/xml/proof2aproof.ml" 162 6192 6220
+type(
+  Evd.evar_map -> Sign.named_context -> PT.proof_tree -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Tactic_printer.print_proof
+)
+"plugins/xml/proof2aproof.ml" 162 6192 6223 "plugins/xml/proof2aproof.ml" 162 6192 6224
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/xml/proof2aproof.ml" 162 6192 6224 "plugins/xml/proof2aproof.ml" 162 6192 6227
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref evd "plugins/xml/proof2aproof.ml" 99 3625 3631 "plugins/xml/proof2aproof.ml" 99 3625 3634
+)
+"plugins/xml/proof2aproof.ml" 162 6192 6221 "plugins/xml/proof2aproof.ml" 162 6192 6228
+type(
+  Evd.evar_map
+)
+"plugins/xml/proof2aproof.ml" 162 6192 6229 "plugins/xml/proof2aproof.ml" 162 6192 6231
+type(
+  Sign.named_context
+)
+"plugins/xml/proof2aproof.ml" 162 6192 6232 "plugins/xml/proof2aproof.ml" 162 6192 6236
+type(
+  PT.proof_tree
+)
+ident(
+  int_ref node "plugins/xml/proof2aproof.ml" 103 3841 3870 "plugins/xml/proof2aproof.ml" 103 3841 3874
+)
+"plugins/xml/proof2aproof.ml" 162 6192 6193 "plugins/xml/proof2aproof.ml" 162 6192 6237
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/proof2aproof.ml" 161 6140 6149 "plugins/xml/proof2aproof.ml" 162 6192 6238
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/proof2aproof.ml" 161 6140 6141 "plugins/xml/proof2aproof.ml" 162 6192 6238
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/proof2aproof.ml" 160 6088 6088 "plugins/xml/proof2aproof.ml" 162 6192 6238
+type(
+  unit
+)
+"plugins/xml/proof2aproof.ml" 163 6241 6246 "plugins/xml/proof2aproof.ml" 163 6241 6263
+type(
+  Term.constr ProofTreeHash.t -> ProofTreeHash.key -> Term.constr -> unit
+)
+ident(
+  ext_ref ProofTreeHash.add
+)
+"plugins/xml/proof2aproof.ml" 163 6241 6264 "plugins/xml/proof2aproof.ml" 163 6241 6284
+type(
+  Term.constr ProofTreeHash.t
+)
+ident(
+  int_ref proof_tree_to_constr "plugins/xml/proof2aproof.ml" 100 3673 3679 "plugins/xml/proof2aproof.ml" 100 3673 3699
+)
+"plugins/xml/proof2aproof.ml" 163 6241 6285 "plugins/xml/proof2aproof.ml" 163 6241 6289
+type(
+  PT.proof_tree
+)
+ident(
+  int_ref node "plugins/xml/proof2aproof.ml" 103 3841 3870 "plugins/xml/proof2aproof.ml" 103 3841 3874
+)
+"plugins/xml/proof2aproof.ml" 163 6241 6290 "plugins/xml/proof2aproof.ml" 163 6241 6304
+type(
+  Term.constr
+)
+ident(
+  int_ref unsharedconstr "plugins/xml/proof2aproof.ml" 150 5782 5790 "plugins/xml/proof2aproof.ml" 150 5782 5804
+)
+"plugins/xml/proof2aproof.ml" 163 6241 6246 "plugins/xml/proof2aproof.ml" 163 6241 6304
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/proof2aproof.ml" 164 6307 6312 "plugins/xml/proof2aproof.ml" 164 6307 6328
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref unshared_constrs "plugins/xml/proof2aproof.ml" 102 3801 3807 "plugins/xml/proof2aproof.ml" 102 3801 3823
+)
+"plugins/xml/proof2aproof.ml" 164 6307 6329 "plugins/xml/proof2aproof.ml" 164 6307 6331
+type(
+  Term.constr list ref -> Term.constr list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/xml/proof2aproof.ml" 164 6307 6332 "plugins/xml/proof2aproof.ml" 164 6307 6337
+type(
+  Term.constr -> Term.constr list -> Term.constr list
+)
+ident(
+  ext_ref S.add
+)
+"plugins/xml/proof2aproof.ml" 164 6307 6338 "plugins/xml/proof2aproof.ml" 164 6307 6352
+type(
+  Term.constr
+)
+ident(
+  int_ref unsharedconstr "plugins/xml/proof2aproof.ml" 150 5782 5790 "plugins/xml/proof2aproof.ml" 150 5782 5804
+)
+"plugins/xml/proof2aproof.ml" 164 6307 6353 "plugins/xml/proof2aproof.ml" 164 6307 6354
+type(
+  Term.constr list ref -> Term.constr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/xml/proof2aproof.ml" 164 6307 6354 "plugins/xml/proof2aproof.ml" 164 6307 6370
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref unshared_constrs "plugins/xml/proof2aproof.ml" 102 3801 3807 "plugins/xml/proof2aproof.ml" 102 3801 3823
+)
+"plugins/xml/proof2aproof.ml" 164 6307 6353 "plugins/xml/proof2aproof.ml" 164 6307 6370
+type(
+  Term.constr list
+)
+"plugins/xml/proof2aproof.ml" 164 6307 6332 "plugins/xml/proof2aproof.ml" 164 6307 6370
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/xml/proof2aproof.ml" 164 6307 6312 "plugins/xml/proof2aproof.ml" 164 6307 6370
+type(
+  unit
+)
+"plugins/xml/proof2aproof.ml" 165 6373 6378 "plugins/xml/proof2aproof.ml" 165 6373 6392
+type(
+  Term.constr
+)
+ident(
+  int_ref unsharedconstr "plugins/xml/proof2aproof.ml" 150 5782 5790 "plugins/xml/proof2aproof.ml" 150 5782 5804
+)
+"plugins/xml/proof2aproof.ml" 164 6307 6312 "plugins/xml/proof2aproof.ml" 165 6373 6392
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 163 6241 6246 "plugins/xml/proof2aproof.ml" 165 6373 6392
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 160 6088 6088 "plugins/xml/proof2aproof.ml" 165 6373 6392
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 150 5782 5786 "plugins/xml/proof2aproof.ml" 165 6373 6392
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 104 3877 3880 "plugins/xml/proof2aproof.ml" 165 6373 6392
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 167 6398 6404 "plugins/xml/proof2aproof.ml" 167 6398 6415
+type(
+  Proof_type.proof_tree
+)
+ident(
+  def unshared_pf "plugins/xml/proof2aproof.ml" 168 6443 6445 "plugins/xml/proof2aproof.ml" 170 6569 6585
+)
+"plugins/xml/proof2aproof.ml" 167 6398 6418 "plugins/xml/proof2aproof.ml" 167 6398 6436
+type(
+  Proof_type.proof_tree -> Proof_type.proof_tree
+)
+ident(
+  int_ref unshare_proof_tree "plugins/xml/proof2aproof.ml" 64 2834 2842 "plugins/xml/proof2aproof.ml" 64 2834 2860
+)
+"plugins/xml/proof2aproof.ml" 167 6398 6437 "plugins/xml/proof2aproof.ml" 167 6398 6439
+type(
+  Proof_type.proof_tree
+)
+ident(
+  int_ref pf "plugins/xml/proof2aproof.ml" 96 3535 3564 "plugins/xml/proof2aproof.ml" 96 3535 3566
+)
+"plugins/xml/proof2aproof.ml" 167 6398 6418 "plugins/xml/proof2aproof.ml" 167 6398 6439
+call(
+  stack
+)
+type(
+  Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 168 6443 6449 "plugins/xml/proof2aproof.ml" 168 6443 6455
+type(
+  Term.constr
+)
+ident(
+  def pfterm "plugins/xml/proof2aproof.ml" 169 6492 6495 "plugins/xml/proof2aproof.ml" 170 6569 6585
+)
+"plugins/xml/proof2aproof.ml" 168 6443 6458 "plugins/xml/proof2aproof.ml" 168 6443 6473
+type(
+  L.proof_variable list -> Proof_type.proof_tree -> Term.constr
+)
+ident(
+  int_ref proof_extractor "plugins/xml/proof2aproof.ml" 103 3841 3851 "plugins/xml/proof2aproof.ml" 103 3841 3866
+)
+"plugins/xml/proof2aproof.ml" 168 6443 6474 "plugins/xml/proof2aproof.ml" 168 6443 6476
+type(
+  L.proof_variable list
+)
+"plugins/xml/proof2aproof.ml" 168 6443 6477 "plugins/xml/proof2aproof.ml" 168 6443 6488
+type(
+  Proof_type.proof_tree
+)
+ident(
+  int_ref unshared_pf "plugins/xml/proof2aproof.ml" 167 6398 6404 "plugins/xml/proof2aproof.ml" 167 6398 6415
+)
+"plugins/xml/proof2aproof.ml" 168 6443 6458 "plugins/xml/proof2aproof.ml" 168 6443 6488
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/proof2aproof.ml" 169 6492 6496 "plugins/xml/proof2aproof.ml" 169 6492 6502
+type(
+  Term.constr
+)
+ident(
+  int_ref pfterm "plugins/xml/proof2aproof.ml" 168 6443 6449 "plugins/xml/proof2aproof.ml" 168 6443 6455
+)
+"plugins/xml/proof2aproof.ml" 169 6492 6505 "plugins/xml/proof2aproof.ml" 169 6492 6506
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/xml/proof2aproof.ml" 169 6492 6506 "plugins/xml/proof2aproof.ml" 169 6492 6509
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref evd "plugins/xml/proof2aproof.ml" 99 3625 3631 "plugins/xml/proof2aproof.ml" 99 3625 3634
+)
+"plugins/xml/proof2aproof.ml" 169 6492 6505 "plugins/xml/proof2aproof.ml" 169 6492 6509
+type(
+  Evd.evar_map
+)
+"plugins/xml/proof2aproof.ml" 169 6492 6511 "plugins/xml/proof2aproof.ml" 169 6492 6531
+type(
+  Term.constr ProofTreeHash.t
+)
+ident(
+  int_ref proof_tree_to_constr "plugins/xml/proof2aproof.ml" 100 3673 3679 "plugins/xml/proof2aproof.ml" 100 3673 3699
+)
+"plugins/xml/proof2aproof.ml" 169 6492 6533 "plugins/xml/proof2aproof.ml" 169 6492 6567
+type(
+  Proof_type.proof_tree ProofTreeHash.t
+)
+ident(
+  int_ref proof_tree_to_flattened_proof_tree "plugins/xml/proof2aproof.ml" 101 3730 3736 "plugins/xml/proof2aproof.ml" 101 3730 3770
+)
+"plugins/xml/proof2aproof.ml" 170 6569 6573 "plugins/xml/proof2aproof.ml" 170 6569 6584
+type(
+  Proof_type.proof_tree
+)
+ident(
+  int_ref unshared_pf "plugins/xml/proof2aproof.ml" 167 6398 6404 "plugins/xml/proof2aproof.ml" 167 6398 6415
+)
+"plugins/xml/proof2aproof.ml" 169 6492 6495 "plugins/xml/proof2aproof.ml" 170 6569 6585
+type(
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 168 6443 6445 "plugins/xml/proof2aproof.ml" 170 6569 6585
+type(
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 167 6398 6400 "plugins/xml/proof2aproof.ml" 170 6569 6585
+type(
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 103 3841 3843 "plugins/xml/proof2aproof.ml" 170 6569 6585
+type(
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 102 3801 3803 "plugins/xml/proof2aproof.ml" 170 6569 6585
+type(
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 101 3730 3732 "plugins/xml/proof2aproof.ml" 170 6569 6585
+type(
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 100 3673 3675 "plugins/xml/proof2aproof.ml" 170 6569 6585
+type(
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 99 3625 3627 "plugins/xml/proof2aproof.ml" 170 6569 6585
+type(
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 98 3600 3601 "plugins/xml/proof2aproof.ml" 170 6569 6585
+type(
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 97 3569 3570 "plugins/xml/proof2aproof.ml" 170 6569 6585
+type(
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 173 6590 6594 "plugins/xml/proof2aproof.ml" 173 6590 6618
+type(
+  Tacmach.pftreestate ->
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+ident(
+  def extract_open_pftreestate "plugins/xml/proof2aproof.ml" 175 6679 6716 --
+)
+"plugins/xml/proof2aproof.ml" 173 6590 6619 "plugins/xml/proof2aproof.ml" 173 6590 6622
+type(
+  Tacmach.pftreestate
+)
+ident(
+  def pts "plugins/xml/proof2aproof.ml" 174 6625 6627 "plugins/xml/proof2aproof.ml" 175 6679 6716
+)
+"plugins/xml/proof2aproof.ml" 174 6625 6627 "plugins/xml/proof2aproof.ml" 174 6625 6645
+type(
+  Evd.evar_map ->
+  Proof_type.proof_tree ->
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)
+ident(
+  int_ref extract_open_proof "plugins/xml/proof2aproof.ml" 96 3535 3539 "plugins/xml/proof2aproof.ml" 96 3535 3557
+)
+"plugins/xml/proof2aproof.ml" 174 6625 6647 "plugins/xml/proof2aproof.ml" 174 6625 6673
+type(
+  Tacmach.pftreestate -> Evd.evar_map
+)
+ident(
+  ext_ref Refiner.evc_of_pftreestate
+)
+"plugins/xml/proof2aproof.ml" 174 6625 6674 "plugins/xml/proof2aproof.ml" 174 6625 6677
+type(
+  Tacmach.pftreestate
+)
+ident(
+  int_ref pts "plugins/xml/proof2aproof.ml" 173 6590 6619 "plugins/xml/proof2aproof.ml" 173 6590 6622
+)
+"plugins/xml/proof2aproof.ml" 174 6625 6646 "plugins/xml/proof2aproof.ml" 174 6625 6678
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/xml/proof2aproof.ml" 175 6679 6683 "plugins/xml/proof2aproof.ml" 175 6679 6711
+type(
+  Tacmach.pftreestate -> Proof_type.proof_tree
+)
+ident(
+  ext_ref Tacmach.proof_of_pftreestate
+)
+"plugins/xml/proof2aproof.ml" 175 6679 6712 "plugins/xml/proof2aproof.ml" 175 6679 6715
+type(
+  Tacmach.pftreestate
+)
+ident(
+  int_ref pts "plugins/xml/proof2aproof.ml" 173 6590 6619 "plugins/xml/proof2aproof.ml" 173 6590 6622
+)
+"plugins/xml/proof2aproof.ml" 175 6679 6682 "plugins/xml/proof2aproof.ml" 175 6679 6716
+call(
+  stack
+)
+type(
+  Proof_type.proof_tree
+)
+"plugins/xml/proof2aproof.ml" 174 6625 6627 "plugins/xml/proof2aproof.ml" 175 6679 6716
+call(
+  tail
+)
+type(
+  Term.constr * Evd.evar_map * Term.constr ProofTreeHash.t *
+  Proof_type.proof_tree ProofTreeHash.t * Proof_type.proof_tree
+)

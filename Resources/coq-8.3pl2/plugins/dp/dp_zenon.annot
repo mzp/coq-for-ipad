@@ -1,0 +1,5046 @@
+"plugins/dp/dp_zenon.mll" 13 144 150 "plugins/dp/dp_zenon.mll" 13 144 155
+type(
+  bool ref
+)
+ident(
+  def debug "plugins/dp/dp_zenon.mll" 14 168 170 --
+)
+"plugins/dp/dp_zenon.mll" 13 144 158 "plugins/dp/dp_zenon.mll" 13 144 161
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/dp/dp_zenon.mll" 13 144 162 "plugins/dp/dp_zenon.mll" 13 144 167
+type(
+  bool
+)
+"plugins/dp/dp_zenon.mll" 13 144 158 "plugins/dp/dp_zenon.mll" 13 144 167
+type(
+  bool ref
+)
+"plugins/dp/dp_zenon.mll" 14 168 174 "plugins/dp/dp_zenon.mll" 14 168 183
+type(
+  bool -> unit
+)
+ident(
+  def set_debug "plugins/dp/dp_zenon.mll" 16 200 202 --
+)
+"plugins/dp/dp_zenon.mll" 14 168 184 "plugins/dp/dp_zenon.mll" 14 168 185
+type(
+  bool
+)
+ident(
+  def b "plugins/dp/dp_zenon.mll" 14 168 188 "plugins/dp/dp_zenon.mll" 14 168 198
+)
+"plugins/dp/dp_zenon.mll" 14 168 188 "plugins/dp/dp_zenon.mll" 14 168 193
+type(
+  bool ref
+)
+ident(
+  int_ref debug "plugins/dp/dp_zenon.mll" 13 144 150 "plugins/dp/dp_zenon.mll" 13 144 155
+)
+"plugins/dp/dp_zenon.mll" 14 168 194 "plugins/dp/dp_zenon.mll" 14 168 196
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/dp/dp_zenon.mll" 14 168 197 "plugins/dp/dp_zenon.mll" 14 168 198
+type(
+  bool
+)
+ident(
+  int_ref b "plugins/dp/dp_zenon.mll" 14 168 184 "plugins/dp/dp_zenon.mll" 14 168 185
+)
+"plugins/dp/dp_zenon.mll" 14 168 188 "plugins/dp/dp_zenon.mll" 14 168 198
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 16 200 206 "plugins/dp/dp_zenon.mll" 16 200 209
+type(
+  Buffer.t
+)
+ident(
+  def buf "plugins/dp/dp_zenon.mll" 18 232 234 --
+)
+"plugins/dp/dp_zenon.mll" 16 200 212 "plugins/dp/dp_zenon.mll" 16 200 225
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"plugins/dp/dp_zenon.mll" 16 200 226 "plugins/dp/dp_zenon.mll" 16 200 230
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 16 200 212 "plugins/dp/dp_zenon.mll" 16 200 230
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"plugins/dp/dp_zenon.mll" 18 232 238 "plugins/dp/dp_zenon.mll" 18 232 254
+type(
+  Names.Idset.t -> Libnames.global_reference -> string
+)
+ident(
+  def string_of_global "plugins/dp/dp_zenon.mll" 21 340 342 --
+)
+"plugins/dp/dp_zenon.mll" 18 232 255 "plugins/dp/dp_zenon.mll" 18 232 258
+type(
+  Names.Idset.t
+)
+ident(
+  def env "plugins/dp/dp_zenon.mll" 18 232 259 "plugins/dp/dp_zenon.mll" 19 265 338
+)
+"plugins/dp/dp_zenon.mll" 18 232 259 "plugins/dp/dp_zenon.mll" 18 232 262
+type(
+  Libnames.global_reference
+)
+ident(
+  def ref "plugins/dp/dp_zenon.mll" 19 265 269 "plugins/dp/dp_zenon.mll" 19 265 338
+)
+"plugins/dp/dp_zenon.mll" 19 265 269 "plugins/dp/dp_zenon.mll" 19 265 294
+type(
+  Libnames.qualid -> string
+)
+ident(
+  ext_ref Libnames.string_of_qualid
+)
+"plugins/dp/dp_zenon.mll" 19 265 296 "plugins/dp/dp_zenon.mll" 19 265 329
+type(
+  Names.Idset.t -> Libnames.global_reference -> Libnames.qualid
+)
+ident(
+  ext_ref Nametab.shortest_qualid_of_global
+)
+"plugins/dp/dp_zenon.mll" 19 265 330 "plugins/dp/dp_zenon.mll" 19 265 333
+type(
+  Names.Idset.t
+)
+ident(
+  int_ref env "plugins/dp/dp_zenon.mll" 18 232 255 "plugins/dp/dp_zenon.mll" 18 232 258
+)
+"plugins/dp/dp_zenon.mll" 19 265 334 "plugins/dp/dp_zenon.mll" 19 265 337
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref ref "plugins/dp/dp_zenon.mll" 18 232 259 "plugins/dp/dp_zenon.mll" 18 232 262
+)
+"plugins/dp/dp_zenon.mll" 19 265 295 "plugins/dp/dp_zenon.mll" 19 265 338
+call(
+  stack
+)
+type(
+  Libnames.qualid
+)
+"plugins/dp/dp_zenon.mll" 19 265 269 "plugins/dp/dp_zenon.mll" 19 265 338
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 21 340 346 "plugins/dp/dp_zenon.mll" 21 340 352
+type(
+  string list ref
+)
+ident(
+  def axioms "plugins/dp/dp_zenon.mll" 25 490 492 --
+)
+"plugins/dp/dp_zenon.mll" 21 340 355 "plugins/dp/dp_zenon.mll" 21 340 358
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/dp/dp_zenon.mll" 21 340 359 "plugins/dp/dp_zenon.mll" 21 340 361
+type(
+  string list
+)
+"plugins/dp/dp_zenon.mll" 21 340 355 "plugins/dp/dp_zenon.mll" 21 340 361
+type(
+  string list ref
+)
+"plugins/dp/dp_zenon.ml" 30 631 635 "plugins/dp/dp_zenon.ml" 30 631 653
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "plugins/dp/dp_zenon.ml" 357 22578 22578 --
+)
+"plugins/dp/dp_zenon.ml" 32 679 682 "plugins/dp/dp_zenon.ml" 42 1379 1424
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 44 1450 1453 "plugins/dp/dp_zenon.ml" 54 2150 2195
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 56 2221 2224 "plugins/dp/dp_zenon.ml" 66 2921 2966
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 68 2990 2993 "plugins/dp/dp_zenon.ml" 147 8520 8565
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 149 8589 8592 "plugins/dp/dp_zenon.ml" 228 14119 14164
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 230 14192 14195 "plugins/dp/dp_zenon.ml" 240 14892 14937
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 242 14968 14971 "plugins/dp/dp_zenon.ml" 252 15668 15713
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 254 15744 15747 "plugins/dp/dp_zenon.ml" 264 16444 16489
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 266 16518 16521 "plugins/dp/dp_zenon.ml" 308 19458 19503
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 310 19532 19535 "plugins/dp/dp_zenon.ml" 352 22472 22517
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 354 22540 22543 "plugins/dp/dp_zenon.ml" 354 22540 22573
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 30 631 656 "plugins/dp/dp_zenon.ml" 355 22575 22576
+type(
+  Lexing.lex_tables
+)
+"plugins/dp/dp_zenon.ml" 357 22578 22586 "plugins/dp/dp_zenon.ml" 357 22578 22591
+type(
+  Lexing.lexbuf -> lemma list * string
+)
+ident(
+  def start "plugins/dp/dp_zenon.ml" 357 22578 22578 --
+)
+"plugins/dp/dp_zenon.ml" 357 22578 22592 "plugins/dp/dp_zenon.ml" 357 22578 22598
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "plugins/dp/dp_zenon.ml" 358 22601 22605 "plugins/dp/dp_zenon.ml" 358 22601 22635
+)
+"plugins/dp/dp_zenon.ml" 358 22601 22605 "plugins/dp/dp_zenon.ml" 358 22601 22626
+type(
+  Lexing.lexbuf -> int -> lemma list * string
+)
+ident(
+  int_ref __ocaml_lex_start_rec "plugins/dp/dp_zenon.ml" 359 22636 22640 "plugins/dp/dp_zenon.ml" 359 22636 22661
+)
+"plugins/dp/dp_zenon.ml" 358 22601 22627 "plugins/dp/dp_zenon.ml" 358 22601 22633
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 357 22578 22592 "plugins/dp/dp_zenon.ml" 357 22578 22598
+)
+"plugins/dp/dp_zenon.ml" 358 22601 22634 "plugins/dp/dp_zenon.ml" 358 22601 22635
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 358 22601 22605 "plugins/dp/dp_zenon.ml" 358 22601 22635
+call(
+  tail
+)
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 359 22636 22640 "plugins/dp/dp_zenon.ml" 359 22636 22661
+type(
+  Lexing.lexbuf -> int -> lemma list * string
+)
+ident(
+  def __ocaml_lex_start_rec "plugins/dp/dp_zenon.ml" 357 22578 22578 --
+)
+"plugins/dp/dp_zenon.ml" 359 22636 22662 "plugins/dp/dp_zenon.ml" 359 22636 22668
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "plugins/dp/dp_zenon.ml" 359 22636 22669 "plugins/dp/dp_zenon.ml" 376 23091 23196
+)
+"plugins/dp/dp_zenon.ml" 359 22636 22669 "plugins/dp/dp_zenon.ml" 359 22636 22686
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "plugins/dp/dp_zenon.ml" 360 22689 22691 "plugins/dp/dp_zenon.ml" 376 23091 23196
+)
+"plugins/dp/dp_zenon.ml" 360 22689 22697 "plugins/dp/dp_zenon.ml" 360 22689 22710
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"plugins/dp/dp_zenon.ml" 360 22689 22711 "plugins/dp/dp_zenon.ml" 360 22689 22729
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "plugins/dp/dp_zenon.ml" 30 631 635 "plugins/dp/dp_zenon.ml" 30 631 653
+)
+"plugins/dp/dp_zenon.ml" 360 22689 22730 "plugins/dp/dp_zenon.ml" 360 22689 22747
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "plugins/dp/dp_zenon.ml" 359 22636 22669 "plugins/dp/dp_zenon.ml" 359 22636 22686
+)
+"plugins/dp/dp_zenon.ml" 360 22689 22748 "plugins/dp/dp_zenon.ml" 360 22689 22754
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 359 22636 22662 "plugins/dp/dp_zenon.ml" 359 22636 22668
+)
+"plugins/dp/dp_zenon.ml" 360 22689 22697 "plugins/dp/dp_zenon.ml" 360 22689 22754
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 361 22760 22768 "plugins/dp/dp_zenon.ml" 361 22760 22769
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 34 22804 22833 "plugins/dp/dp_zenon.mll" 34 22804 22837
+type(
+  Lexing.lexbuf -> lemma list * string
+)
+ident(
+  int_ref scan "plugins/dp/dp_zenon.ml" 378 23198 23202 "plugins/dp/dp_zenon.ml" 378 23198 23206
+)
+"plugins/dp/dp_zenon.mll" 34 22804 22838 "plugins/dp/dp_zenon.mll" 34 22804 22844
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 359 22636 22662 "plugins/dp/dp_zenon.ml" 359 22636 22668
+)
+"plugins/dp/dp_zenon.mll" 34 22804 22831 "plugins/dp/dp_zenon.mll" 34 22804 22846
+call(
+  tail
+)
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 366 22879 22883 "plugins/dp/dp_zenon.ml" 366 22879 22884
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 35 22919 22925 "plugins/dp/dp_zenon.mll" 35 22919 22930
+type(
+  Lexing.lexbuf -> lemma list * string
+)
+ident(
+  int_ref start "plugins/dp/dp_zenon.ml" 357 22578 22586 "plugins/dp/dp_zenon.ml" 357 22578 22591
+)
+"plugins/dp/dp_zenon.mll" 35 22919 22931 "plugins/dp/dp_zenon.mll" 35 22919 22937
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 359 22636 22662 "plugins/dp/dp_zenon.ml" 359 22636 22668
+)
+"plugins/dp/dp_zenon.mll" 35 22919 22923 "plugins/dp/dp_zenon.mll" 35 22919 22939
+call(
+  tail
+)
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 371 22972 22976 "plugins/dp/dp_zenon.ml" 371 22972 22977
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 36 23012 23020 "plugins/dp/dp_zenon.mll" 36 23012 23027
+type(
+  string -> lemma list * string
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/dp/dp_zenon.mll" 36 23012 23028 "plugins/dp/dp_zenon.mll" 36 23012 23056
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 36 23012 23018 "plugins/dp/dp_zenon.mll" 36 23012 23058
+call(
+  tail
+)
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 376 23091 23095 "plugins/dp/dp_zenon.ml" 376 23091 23112
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "plugins/dp/dp_zenon.ml" 376 23091 23116 "plugins/dp/dp_zenon.ml" 376 23091 23196
+)
+"plugins/dp/dp_zenon.ml" 376 23091 23116 "plugins/dp/dp_zenon.ml" 376 23091 23122
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 359 22636 22662 "plugins/dp/dp_zenon.ml" 359 22636 22668
+)
+"plugins/dp/dp_zenon.ml" 376 23091 23116 "plugins/dp/dp_zenon.ml" 376 23091 23141
+type(
+  Lexing.lexbuf -> unit
+)
+"plugins/dp/dp_zenon.ml" 376 23091 23142 "plugins/dp/dp_zenon.ml" 376 23091 23148
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 359 22636 22662 "plugins/dp/dp_zenon.ml" 359 22636 22668
+)
+"plugins/dp/dp_zenon.ml" 376 23091 23116 "plugins/dp/dp_zenon.ml" 376 23091 23148
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.ml" 376 23091 23150 "plugins/dp/dp_zenon.ml" 376 23091 23171
+type(
+  Lexing.lexbuf -> int -> lemma list * string
+)
+ident(
+  int_ref __ocaml_lex_start_rec "plugins/dp/dp_zenon.ml" 359 22636 22640 "plugins/dp/dp_zenon.ml" 359 22636 22661
+)
+"plugins/dp/dp_zenon.ml" 376 23091 23172 "plugins/dp/dp_zenon.ml" 376 23091 23178
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 359 22636 22662 "plugins/dp/dp_zenon.ml" 359 22636 22668
+)
+"plugins/dp/dp_zenon.ml" 376 23091 23179 "plugins/dp/dp_zenon.ml" 376 23091 23196
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "plugins/dp/dp_zenon.ml" 376 23091 23095 "plugins/dp/dp_zenon.ml" 376 23091 23112
+)
+"plugins/dp/dp_zenon.ml" 376 23091 23150 "plugins/dp/dp_zenon.ml" 376 23091 23196
+call(
+  tail
+)
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 376 23091 23116 "plugins/dp/dp_zenon.ml" 376 23091 23196
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 360 22689 22691 "plugins/dp/dp_zenon.ml" 376 23091 23196
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 378 23198 23202 "plugins/dp/dp_zenon.ml" 378 23198 23206
+type(
+  Lexing.lexbuf -> lemma list * string
+)
+ident(
+  def scan "plugins/dp/dp_zenon.ml" 357 22578 22578 --
+)
+"plugins/dp/dp_zenon.ml" 378 23198 23207 "plugins/dp/dp_zenon.ml" 378 23198 23213
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "plugins/dp/dp_zenon.ml" 379 23216 23218 "plugins/dp/dp_zenon.ml" 379 23216 23297
+)
+"plugins/dp/dp_zenon.ml" 379 23216 23218 "plugins/dp/dp_zenon.ml" 379 23216 23224
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 378 23198 23207 "plugins/dp/dp_zenon.ml" 378 23198 23213
+)
+"plugins/dp/dp_zenon.ml" 379 23216 23243 "plugins/dp/dp_zenon.ml" 379 23216 23255
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"plugins/dp/dp_zenon.ml" 379 23216 23256 "plugins/dp/dp_zenon.ml" 379 23216 23257
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 379 23216 23258 "plugins/dp/dp_zenon.ml" 379 23216 23262
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 379 23216 23243 "plugins/dp/dp_zenon.ml" 379 23216 23262
+type(
+  int array
+)
+"plugins/dp/dp_zenon.ml" 379 23216 23218 "plugins/dp/dp_zenon.ml" 379 23216 23262
+type(
+  unit
+)
+"plugins/dp/dp_zenon.ml" 379 23216 23267 "plugins/dp/dp_zenon.ml" 379 23216 23287
+type(
+  Lexing.lexbuf -> int -> lemma list * string
+)
+ident(
+  int_ref __ocaml_lex_scan_rec "plugins/dp/dp_zenon.ml" 380 23298 23302 "plugins/dp/dp_zenon.ml" 380 23298 23322
+)
+"plugins/dp/dp_zenon.ml" 379 23216 23288 "plugins/dp/dp_zenon.ml" 379 23216 23294
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 378 23198 23207 "plugins/dp/dp_zenon.ml" 378 23198 23213
+)
+"plugins/dp/dp_zenon.ml" 379 23216 23295 "plugins/dp/dp_zenon.ml" 379 23216 23297
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 379 23216 23267 "plugins/dp/dp_zenon.ml" 379 23216 23297
+call(
+  tail
+)
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 379 23216 23218 "plugins/dp/dp_zenon.ml" 379 23216 23297
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 380 23298 23302 "plugins/dp/dp_zenon.ml" 380 23298 23322
+type(
+  Lexing.lexbuf -> int -> lemma list * string
+)
+ident(
+  def __ocaml_lex_scan_rec "plugins/dp/dp_zenon.ml" 357 22578 22578 --
+)
+"plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23330 "plugins/dp/dp_zenon.ml" 405 24076 24180
+)
+"plugins/dp/dp_zenon.ml" 380 23298 23330 "plugins/dp/dp_zenon.ml" 380 23298 23347
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "plugins/dp/dp_zenon.ml" 381 23350 23352 "plugins/dp/dp_zenon.ml" 405 24076 24180
+)
+"plugins/dp/dp_zenon.ml" 381 23350 23358 "plugins/dp/dp_zenon.ml" 381 23350 23375
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"plugins/dp/dp_zenon.ml" 381 23350 23376 "plugins/dp/dp_zenon.ml" 381 23350 23394
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "plugins/dp/dp_zenon.ml" 30 631 635 "plugins/dp/dp_zenon.ml" 30 631 653
+)
+"plugins/dp/dp_zenon.ml" 381 23350 23395 "plugins/dp/dp_zenon.ml" 381 23350 23412
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "plugins/dp/dp_zenon.ml" 380 23298 23330 "plugins/dp/dp_zenon.ml" 380 23298 23347
+)
+"plugins/dp/dp_zenon.ml" 381 23350 23413 "plugins/dp/dp_zenon.ml" 381 23350 23419
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+)
+"plugins/dp/dp_zenon.ml" 381 23350 23358 "plugins/dp/dp_zenon.ml" 381 23350 23419
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 382 23425 23433 "plugins/dp/dp_zenon.ml" 382 23425 23434
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 42 23473 23497 "plugins/dp/dp_zenon.mll" 42 23473 23499
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23533 "plugins/dp/dp_zenon.ml" 387 23531 23550
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23551 "plugins/dp/dp_zenon.ml" 387 23531 23557
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23559 "plugins/dp/dp_zenon.ml" 387 23531 23565
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23559 "plugins/dp/dp_zenon.ml" 387 23531 23586
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23587 "plugins/dp/dp_zenon.ml" 387 23531 23588
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23589 "plugins/dp/dp_zenon.ml" 387 23531 23590
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23558 "plugins/dp/dp_zenon.ml" 387 23531 23591
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23592 "plugins/dp/dp_zenon.ml" 387 23531 23598
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23592 "plugins/dp/dp_zenon.ml" 387 23531 23613
+type(
+  int array
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23615 "plugins/dp/dp_zenon.ml" 387 23531 23616
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23592 "plugins/dp/dp_zenon.ml" 387 23531 23617
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 387 23531 23533 "plugins/dp/dp_zenon.ml" 387 23531 23617
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 43 23652 23660 "plugins/dp/dp_zenon.mll" 43 23652 23661
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 43 23652 23664 "plugins/dp/dp_zenon.mll" 43 23652 23677
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref read_coq_term "plugins/dp/dp_zenon.ml" 407 24182 24186 "plugins/dp/dp_zenon.ml" 407 24182 24199
+)
+"plugins/dp/dp_zenon.mll" 43 23652 23678 "plugins/dp/dp_zenon.mll" 43 23652 23684
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+)
+"plugins/dp/dp_zenon.mll" 43 23652 23664 "plugins/dp/dp_zenon.mll" 43 23652 23684
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 44 23688 23696 "plugins/dp/dp_zenon.mll" 44 23688 23697
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 44 23688 23700 "plugins/dp/dp_zenon.mll" 44 23688 23716
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref read_lemma_proof "plugins/dp/dp_zenon.ml" 453 25648 25652 "plugins/dp/dp_zenon.ml" 453 25648 25668
+)
+"plugins/dp/dp_zenon.mll" 44 23688 23717 "plugins/dp/dp_zenon.mll" 44 23688 23723
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+)
+"plugins/dp/dp_zenon.mll" 44 23688 23700 "plugins/dp/dp_zenon.mll" 44 23688 23723
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 45 23727 23735 "plugins/dp/dp_zenon.mll" 45 23727 23736
+type(
+  lemma list
+)
+"plugins/dp/dp_zenon.mll" 45 23727 23737 "plugins/dp/dp_zenon.mll" 45 23727 23739
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 45 23727 23735 "plugins/dp/dp_zenon.mll" 45 23727 23739
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 45 23727 23742 "plugins/dp/dp_zenon.mll" 45 23727 23746
+type(
+  Lexing.lexbuf -> lemma list * string
+)
+ident(
+  int_ref scan "plugins/dp/dp_zenon.ml" 378 23198 23202 "plugins/dp/dp_zenon.ml" 378 23198 23206
+)
+"plugins/dp/dp_zenon.mll" 45 23727 23747 "plugins/dp/dp_zenon.mll" 45 23727 23753
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+)
+"plugins/dp/dp_zenon.mll" 45 23727 23742 "plugins/dp/dp_zenon.mll" 45 23727 23753
+call(
+  stack
+)
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 46 23757 23770 "plugins/dp/dp_zenon.mll" 46 23757 23772
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_zenon.mll" 42 23473 23497 "plugins/dp/dp_zenon.mll" 42 23473 23499
+)
+"plugins/dp/dp_zenon.mll" 46 23757 23783 "plugins/dp/dp_zenon.mll" 46 23757 23784
+type(
+  string
+)
+ident(
+  int_ref t "plugins/dp/dp_zenon.mll" 43 23652 23660 "plugins/dp/dp_zenon.mll" 43 23652 23661
+)
+"plugins/dp/dp_zenon.mll" 46 23757 23796 "plugins/dp/dp_zenon.mll" 46 23757 23797
+type(
+  string
+)
+ident(
+  int_ref p "plugins/dp/dp_zenon.mll" 44 23688 23696 "plugins/dp/dp_zenon.mll" 44 23688 23697
+)
+"plugins/dp/dp_zenon.mll" 46 23757 23761 "plugins/dp/dp_zenon.mll" 46 23757 23799
+type(
+  lemma
+)
+"plugins/dp/dp_zenon.mll" 46 23757 23803 "plugins/dp/dp_zenon.mll" 46 23757 23804
+type(
+  lemma list
+)
+ident(
+  int_ref l "plugins/dp/dp_zenon.mll" 45 23727 23735 "plugins/dp/dp_zenon.mll" 45 23727 23736
+)
+"plugins/dp/dp_zenon.mll" 46 23757 23761 "plugins/dp/dp_zenon.mll" 46 23757 23804
+type(
+  lemma list
+)
+"plugins/dp/dp_zenon.mll" 46 23757 23806 "plugins/dp/dp_zenon.mll" 46 23757 23808
+type(
+  string
+)
+ident(
+  int_ref pr "plugins/dp/dp_zenon.mll" 45 23727 23737 "plugins/dp/dp_zenon.mll" 45 23727 23739
+)
+"plugins/dp/dp_zenon.mll" 46 23757 23761 "plugins/dp/dp_zenon.mll" 46 23757 23808
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 45 23727 23731 "plugins/dp/dp_zenon.mll" 46 23757 23808
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 44 23688 23692 "plugins/dp/dp_zenon.mll" 46 23757 23808
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 43 23652 23654 "plugins/dp/dp_zenon.mll" 46 23757 23810
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 383 23438 23438 "plugins/dp/dp_zenon.mll" 46 23757 23810
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 395 23843 23847 "plugins/dp/dp_zenon.ml" 395 23843 23848
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 48 23883 23891 "plugins/dp/dp_zenon.mll" 48 23883 23892
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 48 23883 23895 "plugins/dp/dp_zenon.mll" 48 23883 23910
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref read_main_proof "plugins/dp/dp_zenon.ml" 469 26196 26200 "plugins/dp/dp_zenon.ml" 469 26196 26215
+)
+"plugins/dp/dp_zenon.mll" 48 23883 23911 "plugins/dp/dp_zenon.mll" 48 23883 23917
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+)
+"plugins/dp/dp_zenon.mll" 48 23883 23895 "plugins/dp/dp_zenon.mll" 48 23883 23917
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 48 23883 23921 "plugins/dp/dp_zenon.mll" 48 23883 23923
+type(
+  lemma list
+)
+"plugins/dp/dp_zenon.mll" 48 23883 23925 "plugins/dp/dp_zenon.mll" 48 23883 23926
+type(
+  string
+)
+ident(
+  int_ref t "plugins/dp/dp_zenon.mll" 48 23883 23891 "plugins/dp/dp_zenon.mll" 48 23883 23892
+)
+"plugins/dp/dp_zenon.mll" 48 23883 23921 "plugins/dp/dp_zenon.mll" 48 23883 23926
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 48 23883 23885 "plugins/dp/dp_zenon.mll" 48 23883 23928
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 400 23961 23965 "plugins/dp/dp_zenon.ml" 400 23961 23966
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 50 24001 24005 "plugins/dp/dp_zenon.mll" 50 24001 24012
+type(
+  string -> lemma list * string
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/dp/dp_zenon.mll" 50 24001 24013 "plugins/dp/dp_zenon.mll" 50 24001 24041
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 50 24001 24003 "plugins/dp/dp_zenon.mll" 50 24001 24043
+call(
+  tail
+)
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 405 24076 24080 "plugins/dp/dp_zenon.ml" 405 24076 24097
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "plugins/dp/dp_zenon.ml" 405 24076 24101 "plugins/dp/dp_zenon.ml" 405 24076 24180
+)
+"plugins/dp/dp_zenon.ml" 405 24076 24101 "plugins/dp/dp_zenon.ml" 405 24076 24107
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+)
+"plugins/dp/dp_zenon.ml" 405 24076 24101 "plugins/dp/dp_zenon.ml" 405 24076 24126
+type(
+  Lexing.lexbuf -> unit
+)
+"plugins/dp/dp_zenon.ml" 405 24076 24127 "plugins/dp/dp_zenon.ml" 405 24076 24133
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+)
+"plugins/dp/dp_zenon.ml" 405 24076 24101 "plugins/dp/dp_zenon.ml" 405 24076 24133
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.ml" 405 24076 24135 "plugins/dp/dp_zenon.ml" 405 24076 24155
+type(
+  Lexing.lexbuf -> int -> lemma list * string
+)
+ident(
+  int_ref __ocaml_lex_scan_rec "plugins/dp/dp_zenon.ml" 380 23298 23302 "plugins/dp/dp_zenon.ml" 380 23298 23322
+)
+"plugins/dp/dp_zenon.ml" 405 24076 24156 "plugins/dp/dp_zenon.ml" 405 24076 24162
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 380 23298 23323 "plugins/dp/dp_zenon.ml" 380 23298 23329
+)
+"plugins/dp/dp_zenon.ml" 405 24076 24163 "plugins/dp/dp_zenon.ml" 405 24076 24180
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "plugins/dp/dp_zenon.ml" 405 24076 24080 "plugins/dp/dp_zenon.ml" 405 24076 24097
+)
+"plugins/dp/dp_zenon.ml" 405 24076 24135 "plugins/dp/dp_zenon.ml" 405 24076 24180
+call(
+  tail
+)
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 405 24076 24101 "plugins/dp/dp_zenon.ml" 405 24076 24180
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 381 23350 23352 "plugins/dp/dp_zenon.ml" 405 24076 24180
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.ml" 407 24182 24186 "plugins/dp/dp_zenon.ml" 407 24182 24199
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  def read_coq_term "plugins/dp/dp_zenon.ml" 357 22578 22578 --
+)
+"plugins/dp/dp_zenon.ml" 407 24182 24200 "plugins/dp/dp_zenon.ml" 407 24182 24206
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "plugins/dp/dp_zenon.ml" 408 24209 24213 "plugins/dp/dp_zenon.ml" 408 24209 24252
+)
+"plugins/dp/dp_zenon.ml" 408 24209 24213 "plugins/dp/dp_zenon.ml" 408 24209 24242
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_read_coq_term_rec "plugins/dp/dp_zenon.ml" 409 24253 24257 "plugins/dp/dp_zenon.ml" 409 24253 24286
+)
+"plugins/dp/dp_zenon.ml" 408 24209 24243 "plugins/dp/dp_zenon.ml" 408 24209 24249
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 407 24182 24200 "plugins/dp/dp_zenon.ml" 407 24182 24206
+)
+"plugins/dp/dp_zenon.ml" 408 24209 24250 "plugins/dp/dp_zenon.ml" 408 24209 24252
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 408 24209 24213 "plugins/dp/dp_zenon.ml" 408 24209 24252
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 409 24253 24257 "plugins/dp/dp_zenon.ml" 409 24253 24286
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  def __ocaml_lex_read_coq_term_rec "plugins/dp/dp_zenon.ml" 357 22578 22578 --
+)
+"plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24294 "plugins/dp/dp_zenon.ml" 451 25533 25646
+)
+"plugins/dp/dp_zenon.ml" 409 24253 24294 "plugins/dp/dp_zenon.ml" 409 24253 24311
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "plugins/dp/dp_zenon.ml" 410 24314 24316 "plugins/dp/dp_zenon.ml" 451 25533 25646
+)
+"plugins/dp/dp_zenon.ml" 410 24314 24322 "plugins/dp/dp_zenon.ml" 410 24314 24335
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"plugins/dp/dp_zenon.ml" 410 24314 24336 "plugins/dp/dp_zenon.ml" 410 24314 24354
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "plugins/dp/dp_zenon.ml" 30 631 635 "plugins/dp/dp_zenon.ml" 30 631 653
+)
+"plugins/dp/dp_zenon.ml" 410 24314 24355 "plugins/dp/dp_zenon.ml" 410 24314 24372
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "plugins/dp/dp_zenon.ml" 409 24253 24294 "plugins/dp/dp_zenon.ml" 409 24253 24311
+)
+"plugins/dp/dp_zenon.ml" 410 24314 24373 "plugins/dp/dp_zenon.ml" 410 24314 24379
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 410 24314 24322 "plugins/dp/dp_zenon.ml" 410 24314 24379
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 411 24385 24393 "plugins/dp/dp_zenon.ml" 411 24385 24394
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 54 24429 24437 "plugins/dp/dp_zenon.mll" 54 24429 24438
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 54 24429 24441 "plugins/dp/dp_zenon.mll" 54 24429 24456
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"plugins/dp/dp_zenon.mll" 54 24429 24457 "plugins/dp/dp_zenon.mll" 54 24429 24460
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "plugins/dp/dp_zenon.mll" 16 200 206 "plugins/dp/dp_zenon.mll" 16 200 209
+)
+"plugins/dp/dp_zenon.mll" 54 24429 24441 "plugins/dp/dp_zenon.mll" 54 24429 24460
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 54 24429 24464 "plugins/dp/dp_zenon.mll" 54 24429 24476
+type(
+  Buffer.t -> unit
+)
+ident(
+  ext_ref Buffer.clear
+)
+"plugins/dp/dp_zenon.mll" 54 24429 24477 "plugins/dp/dp_zenon.mll" 54 24429 24480
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "plugins/dp/dp_zenon.mll" 16 200 206 "plugins/dp/dp_zenon.mll" 16 200 209
+)
+"plugins/dp/dp_zenon.mll" 54 24429 24464 "plugins/dp/dp_zenon.mll" 54 24429 24480
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 54 24429 24482 "plugins/dp/dp_zenon.mll" 54 24429 24483
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/dp_zenon.mll" 54 24429 24437 "plugins/dp/dp_zenon.mll" 54 24429 24438
+)
+"plugins/dp/dp_zenon.mll" 54 24429 24464 "plugins/dp/dp_zenon.mll" 54 24429 24483
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 54 24429 24431 "plugins/dp/dp_zenon.mll" 54 24429 24485
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 416 24518 24522 "plugins/dp/dp_zenon.ml" 416 24518 24523
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 55 24562 24582 "plugins/dp/dp_zenon.mll" 55 24562 24584
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 421 24616 24618 "plugins/dp/dp_zenon.ml" 421 24616 24635
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"plugins/dp/dp_zenon.ml" 421 24616 24636 "plugins/dp/dp_zenon.ml" 421 24616 24642
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 421 24616 24644 "plugins/dp/dp_zenon.ml" 421 24616 24650
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 421 24616 24644 "plugins/dp/dp_zenon.ml" 421 24616 24671
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 421 24616 24672 "plugins/dp/dp_zenon.ml" 421 24616 24673
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/dp/dp_zenon.ml" 421 24616 24674 "plugins/dp/dp_zenon.ml" 421 24616 24675
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 421 24616 24643 "plugins/dp/dp_zenon.ml" 421 24616 24676
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 421 24616 24677 "plugins/dp/dp_zenon.ml" 421 24616 24683
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 421 24616 24677 "plugins/dp/dp_zenon.ml" 421 24616 24703
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 421 24616 24618 "plugins/dp/dp_zenon.ml" 421 24616 24703
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 56 24738 24742 "plugins/dp/dp_zenon.mll" 56 24738 24759
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"plugins/dp/dp_zenon.mll" 56 24738 24760 "plugins/dp/dp_zenon.mll" 56 24738 24763
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "plugins/dp/dp_zenon.mll" 16 200 206 "plugins/dp/dp_zenon.mll" 16 200 209
+)
+"plugins/dp/dp_zenon.mll" 56 24738 24764 "plugins/dp/dp_zenon.mll" 56 24738 24766
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_zenon.mll" 55 24562 24582 "plugins/dp/dp_zenon.mll" 55 24562 24584
+)
+"plugins/dp/dp_zenon.mll" 56 24738 24742 "plugins/dp/dp_zenon.mll" 56 24738 24766
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 56 24738 24768 "plugins/dp/dp_zenon.mll" 56 24738 24781
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref read_coq_term "plugins/dp/dp_zenon.ml" 407 24182 24186 "plugins/dp/dp_zenon.ml" 407 24182 24199
+)
+"plugins/dp/dp_zenon.mll" 56 24738 24782 "plugins/dp/dp_zenon.mll" 56 24738 24788
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.mll" 56 24738 24768 "plugins/dp/dp_zenon.mll" 56 24738 24788
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 56 24738 24740 "plugins/dp/dp_zenon.mll" 56 24738 24790
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 417 24527 24527 "plugins/dp/dp_zenon.mll" 56 24738 24790
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 426 24823 24827 "plugins/dp/dp_zenon.ml" 426 24823 24828
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 57 24867 24898 "plugins/dp/dp_zenon.mll" 57 24867 24900
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 431 24932 24934 "plugins/dp/dp_zenon.ml" 431 24932 24951
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"plugins/dp/dp_zenon.ml" 431 24932 24952 "plugins/dp/dp_zenon.ml" 431 24932 24958
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 431 24932 24959 "plugins/dp/dp_zenon.ml" 431 24932 24965
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 431 24932 24959 "plugins/dp/dp_zenon.ml" 431 24932 24986
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 431 24932 24987 "plugins/dp/dp_zenon.ml" 431 24932 24993
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 431 24932 24987 "plugins/dp/dp_zenon.ml" 431 24932 25013
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 431 24932 24934 "plugins/dp/dp_zenon.ml" 431 24932 25013
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25052 "plugins/dp/dp_zenon.mll" 58 25048 25058
+type(
+  string list ref
+)
+ident(
+  int_ref axioms "plugins/dp/dp_zenon.mll" 21 340 346 "plugins/dp/dp_zenon.mll" 21 340 352
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25059 "plugins/dp/dp_zenon.mll" 58 25048 25061
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25062 "plugins/dp/dp_zenon.mll" 58 25048 25064
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_zenon.mll" 57 24867 24898 "plugins/dp/dp_zenon.mll" 57 24867 24900
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25068 "plugins/dp/dp_zenon.mll" 58 25048 25069
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25069 "plugins/dp/dp_zenon.mll" 58 25048 25075
+type(
+  string list ref
+)
+ident(
+  int_ref axioms "plugins/dp/dp_zenon.mll" 21 340 346 "plugins/dp/dp_zenon.mll" 21 340 352
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25068 "plugins/dp/dp_zenon.mll" 58 25048 25075
+type(
+  string list
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25062 "plugins/dp/dp_zenon.mll" 58 25048 25075
+type(
+  string list
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25052 "plugins/dp/dp_zenon.mll" 58 25048 25075
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25077 "plugins/dp/dp_zenon.mll" 58 25048 25094
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25095 "plugins/dp/dp_zenon.mll" 58 25048 25098
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "plugins/dp/dp_zenon.mll" 16 200 206 "plugins/dp/dp_zenon.mll" 16 200 209
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25099 "plugins/dp/dp_zenon.mll" 58 25048 25101
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_zenon.mll" 57 24867 24898 "plugins/dp/dp_zenon.mll" 57 24867 24900
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25077 "plugins/dp/dp_zenon.mll" 58 25048 25101
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25103 "plugins/dp/dp_zenon.mll" 58 25048 25116
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref read_coq_term "plugins/dp/dp_zenon.ml" 407 24182 24186 "plugins/dp/dp_zenon.ml" 407 24182 24199
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25117 "plugins/dp/dp_zenon.mll" 58 25048 25123
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25103 "plugins/dp/dp_zenon.mll" 58 25048 25123
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25077 "plugins/dp/dp_zenon.mll" 58 25048 25123
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 58 25048 25050 "plugins/dp/dp_zenon.mll" 58 25048 25125
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 427 24832 24832 "plugins/dp/dp_zenon.mll" 58 25048 25125
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 436 25158 25162 "plugins/dp/dp_zenon.ml" 436 25158 25163
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 59 25202 25209 "plugins/dp/dp_zenon.mll" 59 25202 25210
+type(
+  char
+)
+"plugins/dp/dp_zenon.ml" 441 25242 25244 "plugins/dp/dp_zenon.ml" 441 25242 25266
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"plugins/dp/dp_zenon.ml" 441 25242 25267 "plugins/dp/dp_zenon.ml" 441 25242 25273
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 441 25242 25274 "plugins/dp/dp_zenon.ml" 441 25242 25280
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 441 25242 25274 "plugins/dp/dp_zenon.ml" 441 25242 25301
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 441 25242 25244 "plugins/dp/dp_zenon.ml" 441 25242 25301
+call(
+  stack
+)
+type(
+  char
+)
+"plugins/dp/dp_zenon.mll" 60 25336 25340 "plugins/dp/dp_zenon.mll" 60 25336 25355
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"plugins/dp/dp_zenon.mll" 60 25336 25356 "plugins/dp/dp_zenon.mll" 60 25336 25359
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "plugins/dp/dp_zenon.mll" 16 200 206 "plugins/dp/dp_zenon.mll" 16 200 209
+)
+"plugins/dp/dp_zenon.mll" 60 25336 25360 "plugins/dp/dp_zenon.mll" 60 25336 25361
+type(
+  char
+)
+ident(
+  int_ref c "plugins/dp/dp_zenon.mll" 59 25202 25209 "plugins/dp/dp_zenon.mll" 59 25202 25210
+)
+"plugins/dp/dp_zenon.mll" 60 25336 25340 "plugins/dp/dp_zenon.mll" 60 25336 25361
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 60 25336 25363 "plugins/dp/dp_zenon.mll" 60 25336 25376
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref read_coq_term "plugins/dp/dp_zenon.ml" 407 24182 24186 "plugins/dp/dp_zenon.ml" 407 24182 24199
+)
+"plugins/dp/dp_zenon.mll" 60 25336 25377 "plugins/dp/dp_zenon.mll" 60 25336 25383
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.mll" 60 25336 25363 "plugins/dp/dp_zenon.mll" 60 25336 25383
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 60 25336 25338 "plugins/dp/dp_zenon.mll" 60 25336 25385
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 437 25167 25167 "plugins/dp/dp_zenon.mll" 60 25336 25385
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 446 25418 25422 "plugins/dp/dp_zenon.ml" 446 25418 25423
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 62 25458 25462 "plugins/dp/dp_zenon.mll" 62 25458 25469
+type(
+  string -> string
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/dp/dp_zenon.mll" 62 25458 25470 "plugins/dp/dp_zenon.mll" 62 25458 25498
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 62 25458 25460 "plugins/dp/dp_zenon.mll" 62 25458 25500
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 451 25533 25537 "plugins/dp/dp_zenon.ml" 451 25533 25554
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "plugins/dp/dp_zenon.ml" 451 25533 25558 "plugins/dp/dp_zenon.ml" 451 25533 25646
+)
+"plugins/dp/dp_zenon.ml" 451 25533 25558 "plugins/dp/dp_zenon.ml" 451 25533 25564
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 451 25533 25558 "plugins/dp/dp_zenon.ml" 451 25533 25583
+type(
+  Lexing.lexbuf -> unit
+)
+"plugins/dp/dp_zenon.ml" 451 25533 25584 "plugins/dp/dp_zenon.ml" 451 25533 25590
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 451 25533 25558 "plugins/dp/dp_zenon.ml" 451 25533 25590
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.ml" 451 25533 25592 "plugins/dp/dp_zenon.ml" 451 25533 25621
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_read_coq_term_rec "plugins/dp/dp_zenon.ml" 409 24253 24257 "plugins/dp/dp_zenon.ml" 409 24253 24286
+)
+"plugins/dp/dp_zenon.ml" 451 25533 25622 "plugins/dp/dp_zenon.ml" 451 25533 25628
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 409 24253 24287 "plugins/dp/dp_zenon.ml" 409 24253 24293
+)
+"plugins/dp/dp_zenon.ml" 451 25533 25629 "plugins/dp/dp_zenon.ml" 451 25533 25646
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "plugins/dp/dp_zenon.ml" 451 25533 25537 "plugins/dp/dp_zenon.ml" 451 25533 25554
+)
+"plugins/dp/dp_zenon.ml" 451 25533 25592 "plugins/dp/dp_zenon.ml" 451 25533 25646
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 451 25533 25558 "plugins/dp/dp_zenon.ml" 451 25533 25646
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 410 24314 24316 "plugins/dp/dp_zenon.ml" 451 25533 25646
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 453 25648 25652 "plugins/dp/dp_zenon.ml" 453 25648 25668
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  def read_lemma_proof "plugins/dp/dp_zenon.ml" 357 22578 22578 --
+)
+"plugins/dp/dp_zenon.ml" 453 25648 25669 "plugins/dp/dp_zenon.ml" 453 25648 25675
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "plugins/dp/dp_zenon.ml" 454 25678 25682 "plugins/dp/dp_zenon.ml" 454 25678 25724
+)
+"plugins/dp/dp_zenon.ml" 454 25678 25682 "plugins/dp/dp_zenon.ml" 454 25678 25714
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_read_lemma_proof_rec "plugins/dp/dp_zenon.ml" 455 25725 25729 "plugins/dp/dp_zenon.ml" 455 25725 25761
+)
+"plugins/dp/dp_zenon.ml" 454 25678 25715 "plugins/dp/dp_zenon.ml" 454 25678 25721
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 453 25648 25669 "plugins/dp/dp_zenon.ml" 453 25648 25675
+)
+"plugins/dp/dp_zenon.ml" 454 25678 25722 "plugins/dp/dp_zenon.ml" 454 25678 25724
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 454 25678 25682 "plugins/dp/dp_zenon.ml" 454 25678 25724
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 455 25725 25729 "plugins/dp/dp_zenon.ml" 455 25725 25761
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  def __ocaml_lex_read_lemma_proof_rec "plugins/dp/dp_zenon.ml" 357 22578 22578 --
+)
+"plugins/dp/dp_zenon.ml" 455 25725 25762 "plugins/dp/dp_zenon.ml" 455 25725 25768
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "plugins/dp/dp_zenon.ml" 455 25725 25769 "plugins/dp/dp_zenon.ml" 467 26078 26194
+)
+"plugins/dp/dp_zenon.ml" 455 25725 25769 "plugins/dp/dp_zenon.ml" 455 25725 25786
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "plugins/dp/dp_zenon.ml" 456 25789 25791 "plugins/dp/dp_zenon.ml" 467 26078 26194
+)
+"plugins/dp/dp_zenon.ml" 456 25789 25797 "plugins/dp/dp_zenon.ml" 456 25789 25810
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"plugins/dp/dp_zenon.ml" 456 25789 25811 "plugins/dp/dp_zenon.ml" 456 25789 25829
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "plugins/dp/dp_zenon.ml" 30 631 635 "plugins/dp/dp_zenon.ml" 30 631 653
+)
+"plugins/dp/dp_zenon.ml" 456 25789 25830 "plugins/dp/dp_zenon.ml" 456 25789 25847
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "plugins/dp/dp_zenon.ml" 455 25725 25769 "plugins/dp/dp_zenon.ml" 455 25725 25786
+)
+"plugins/dp/dp_zenon.ml" 456 25789 25848 "plugins/dp/dp_zenon.ml" 456 25789 25854
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 455 25725 25762 "plugins/dp/dp_zenon.ml" 455 25725 25768
+)
+"plugins/dp/dp_zenon.ml" 456 25789 25797 "plugins/dp/dp_zenon.ml" 456 25789 25854
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 457 25860 25868 "plugins/dp/dp_zenon.ml" 457 25860 25869
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 66 25904 25908 "plugins/dp/dp_zenon.mll" 66 25904 25921
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref read_coq_term "plugins/dp/dp_zenon.ml" 407 24182 24186 "plugins/dp/dp_zenon.ml" 407 24182 24199
+)
+"plugins/dp/dp_zenon.mll" 66 25904 25922 "plugins/dp/dp_zenon.mll" 66 25904 25928
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 455 25725 25762 "plugins/dp/dp_zenon.ml" 455 25725 25768
+)
+"plugins/dp/dp_zenon.mll" 66 25904 25906 "plugins/dp/dp_zenon.mll" 66 25904 25930
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 462 25963 25967 "plugins/dp/dp_zenon.ml" 462 25963 25968
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 68 26003 26007 "plugins/dp/dp_zenon.mll" 68 26003 26014
+type(
+  string -> string
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/dp/dp_zenon.mll" 68 26003 26015 "plugins/dp/dp_zenon.mll" 68 26003 26043
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 68 26003 26005 "plugins/dp/dp_zenon.mll" 68 26003 26045
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 467 26078 26082 "plugins/dp/dp_zenon.ml" 467 26078 26099
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "plugins/dp/dp_zenon.ml" 467 26078 26103 "plugins/dp/dp_zenon.ml" 467 26078 26194
+)
+"plugins/dp/dp_zenon.ml" 467 26078 26103 "plugins/dp/dp_zenon.ml" 467 26078 26109
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 455 25725 25762 "plugins/dp/dp_zenon.ml" 455 25725 25768
+)
+"plugins/dp/dp_zenon.ml" 467 26078 26103 "plugins/dp/dp_zenon.ml" 467 26078 26128
+type(
+  Lexing.lexbuf -> unit
+)
+"plugins/dp/dp_zenon.ml" 467 26078 26129 "plugins/dp/dp_zenon.ml" 467 26078 26135
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 455 25725 25762 "plugins/dp/dp_zenon.ml" 455 25725 25768
+)
+"plugins/dp/dp_zenon.ml" 467 26078 26103 "plugins/dp/dp_zenon.ml" 467 26078 26135
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.ml" 467 26078 26137 "plugins/dp/dp_zenon.ml" 467 26078 26169
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_read_lemma_proof_rec "plugins/dp/dp_zenon.ml" 455 25725 25729 "plugins/dp/dp_zenon.ml" 455 25725 25761
+)
+"plugins/dp/dp_zenon.ml" 467 26078 26170 "plugins/dp/dp_zenon.ml" 467 26078 26176
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 455 25725 25762 "plugins/dp/dp_zenon.ml" 455 25725 25768
+)
+"plugins/dp/dp_zenon.ml" 467 26078 26177 "plugins/dp/dp_zenon.ml" 467 26078 26194
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "plugins/dp/dp_zenon.ml" 467 26078 26082 "plugins/dp/dp_zenon.ml" 467 26078 26099
+)
+"plugins/dp/dp_zenon.ml" 467 26078 26137 "plugins/dp/dp_zenon.ml" 467 26078 26194
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 467 26078 26103 "plugins/dp/dp_zenon.ml" 467 26078 26194
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 456 25789 25791 "plugins/dp/dp_zenon.ml" 467 26078 26194
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 469 26196 26200 "plugins/dp/dp_zenon.ml" 469 26196 26215
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  def read_main_proof "plugins/dp/dp_zenon.ml" 357 22578 22578 --
+)
+"plugins/dp/dp_zenon.ml" 469 26196 26216 "plugins/dp/dp_zenon.ml" 469 26196 26222
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "plugins/dp/dp_zenon.ml" 470 26225 26229 "plugins/dp/dp_zenon.ml" 470 26225 26270
+)
+"plugins/dp/dp_zenon.ml" 470 26225 26229 "plugins/dp/dp_zenon.ml" 470 26225 26260
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_read_main_proof_rec "plugins/dp/dp_zenon.ml" 471 26271 26275 "plugins/dp/dp_zenon.ml" 471 26271 26306
+)
+"plugins/dp/dp_zenon.ml" 470 26225 26261 "plugins/dp/dp_zenon.ml" 470 26225 26267
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 469 26196 26216 "plugins/dp/dp_zenon.ml" 469 26196 26222
+)
+"plugins/dp/dp_zenon.ml" 470 26225 26268 "plugins/dp/dp_zenon.ml" 470 26225 26270
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 470 26225 26229 "plugins/dp/dp_zenon.ml" 470 26225 26270
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 471 26271 26275 "plugins/dp/dp_zenon.ml" 471 26271 26306
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  def __ocaml_lex_read_main_proof_rec "plugins/dp/dp_zenon.ml" 357 22578 22578 --
+)
+"plugins/dp/dp_zenon.ml" 471 26271 26307 "plugins/dp/dp_zenon.ml" 471 26271 26313
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "plugins/dp/dp_zenon.ml" 471 26271 26314 "plugins/dp/dp_zenon.ml" 488 26724 26839
+)
+"plugins/dp/dp_zenon.ml" 471 26271 26314 "plugins/dp/dp_zenon.ml" 471 26271 26331
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "plugins/dp/dp_zenon.ml" 472 26334 26336 "plugins/dp/dp_zenon.ml" 488 26724 26839
+)
+"plugins/dp/dp_zenon.ml" 472 26334 26342 "plugins/dp/dp_zenon.ml" 472 26334 26355
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"plugins/dp/dp_zenon.ml" 472 26334 26356 "plugins/dp/dp_zenon.ml" 472 26334 26374
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "plugins/dp/dp_zenon.ml" 30 631 635 "plugins/dp/dp_zenon.ml" 30 631 653
+)
+"plugins/dp/dp_zenon.ml" 472 26334 26375 "plugins/dp/dp_zenon.ml" 472 26334 26392
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "plugins/dp/dp_zenon.ml" 471 26271 26314 "plugins/dp/dp_zenon.ml" 471 26271 26331
+)
+"plugins/dp/dp_zenon.ml" 472 26334 26393 "plugins/dp/dp_zenon.ml" 472 26334 26399
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 471 26271 26307 "plugins/dp/dp_zenon.ml" 471 26271 26313
+)
+"plugins/dp/dp_zenon.ml" 472 26334 26342 "plugins/dp/dp_zenon.ml" 472 26334 26399
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/dp/dp_zenon.ml" 473 26405 26413 "plugins/dp/dp_zenon.ml" 473 26405 26414
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 73 26449 26453 "plugins/dp/dp_zenon.mll" 73 26449 26466
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref read_coq_term "plugins/dp/dp_zenon.ml" 407 24182 24186 "plugins/dp/dp_zenon.ml" 407 24182 24199
+)
+"plugins/dp/dp_zenon.mll" 73 26449 26467 "plugins/dp/dp_zenon.mll" 73 26449 26473
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 471 26271 26307 "plugins/dp/dp_zenon.ml" 471 26271 26313
+)
+"plugins/dp/dp_zenon.mll" 73 26449 26451 "plugins/dp/dp_zenon.mll" 73 26449 26475
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 478 26508 26512 "plugins/dp/dp_zenon.ml" 478 26508 26513
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 75 26548 26552 "plugins/dp/dp_zenon.mll" 75 26548 26567
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  int_ref read_main_proof "plugins/dp/dp_zenon.ml" 469 26196 26200 "plugins/dp/dp_zenon.ml" 469 26196 26215
+)
+"plugins/dp/dp_zenon.mll" 75 26548 26568 "plugins/dp/dp_zenon.mll" 75 26548 26574
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 471 26271 26307 "plugins/dp/dp_zenon.ml" 471 26271 26313
+)
+"plugins/dp/dp_zenon.mll" 75 26548 26550 "plugins/dp/dp_zenon.mll" 75 26548 26576
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 483 26609 26613 "plugins/dp/dp_zenon.ml" 483 26609 26614
+type(
+  int
+)
+"plugins/dp/dp_zenon.mll" 77 26649 26653 "plugins/dp/dp_zenon.mll" 77 26649 26660
+type(
+  string -> string
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/dp/dp_zenon.mll" 77 26649 26661 "plugins/dp/dp_zenon.mll" 77 26649 26689
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 77 26649 26651 "plugins/dp/dp_zenon.mll" 77 26649 26691
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 488 26724 26728 "plugins/dp/dp_zenon.ml" 488 26724 26745
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "plugins/dp/dp_zenon.ml" 488 26724 26749 "plugins/dp/dp_zenon.ml" 488 26724 26839
+)
+"plugins/dp/dp_zenon.ml" 488 26724 26749 "plugins/dp/dp_zenon.ml" 488 26724 26755
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 471 26271 26307 "plugins/dp/dp_zenon.ml" 471 26271 26313
+)
+"plugins/dp/dp_zenon.ml" 488 26724 26749 "plugins/dp/dp_zenon.ml" 488 26724 26774
+type(
+  Lexing.lexbuf -> unit
+)
+"plugins/dp/dp_zenon.ml" 488 26724 26775 "plugins/dp/dp_zenon.ml" 488 26724 26781
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 471 26271 26307 "plugins/dp/dp_zenon.ml" 471 26271 26313
+)
+"plugins/dp/dp_zenon.ml" 488 26724 26749 "plugins/dp/dp_zenon.ml" 488 26724 26781
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.ml" 488 26724 26783 "plugins/dp/dp_zenon.ml" 488 26724 26814
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref __ocaml_lex_read_main_proof_rec "plugins/dp/dp_zenon.ml" 471 26271 26275 "plugins/dp/dp_zenon.ml" 471 26271 26306
+)
+"plugins/dp/dp_zenon.ml" 488 26724 26815 "plugins/dp/dp_zenon.ml" 488 26724 26821
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "plugins/dp/dp_zenon.ml" 471 26271 26307 "plugins/dp/dp_zenon.ml" 471 26271 26313
+)
+"plugins/dp/dp_zenon.ml" 488 26724 26822 "plugins/dp/dp_zenon.ml" 488 26724 26839
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "plugins/dp/dp_zenon.ml" 488 26724 26728 "plugins/dp/dp_zenon.ml" 488 26724 26745
+)
+"plugins/dp/dp_zenon.ml" 488 26724 26783 "plugins/dp/dp_zenon.ml" 488 26724 26839
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 488 26724 26749 "plugins/dp/dp_zenon.ml" 488 26724 26839
+type(
+  string
+)
+"plugins/dp/dp_zenon.ml" 472 26334 26336 "plugins/dp/dp_zenon.ml" 488 26724 26839
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 82 26879 26885 "plugins/dp/dp_zenon.mll" 82 26879 26901
+type(
+  string -> lemma list * string
+)
+ident(
+  def read_zenon_proof "plugins/dp/dp_zenon.mll" 91 27095 27097 --
+)
+"plugins/dp/dp_zenon.mll" 82 26879 26902 "plugins/dp/dp_zenon.mll" 82 26879 26903
+type(
+  string
+)
+ident(
+  def f "plugins/dp/dp_zenon.mll" 83 26906 26910 "plugins/dp/dp_zenon.mll" 89 27088 27093
+)
+"plugins/dp/dp_zenon.mll" 83 26906 26910 "plugins/dp/dp_zenon.mll" 83 26906 26922
+type(
+  Buffer.t -> unit
+)
+ident(
+  ext_ref Buffer.clear
+)
+"plugins/dp/dp_zenon.mll" 83 26906 26923 "plugins/dp/dp_zenon.mll" 83 26906 26926
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "plugins/dp/dp_zenon.mll" 16 200 206 "plugins/dp/dp_zenon.mll" 16 200 209
+)
+"plugins/dp/dp_zenon.mll" 83 26906 26910 "plugins/dp/dp_zenon.mll" 83 26906 26926
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 84 26928 26936 "plugins/dp/dp_zenon.mll" 84 26928 26937
+type(
+  in_channel
+)
+"plugins/dp/dp_zenon.mll" 84 26928 26940 "plugins/dp/dp_zenon.mll" 84 26928 26947
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"plugins/dp/dp_zenon.mll" 84 26928 26948 "plugins/dp/dp_zenon.mll" 84 26928 26949
+type(
+  string
+)
+ident(
+  int_ref f "plugins/dp/dp_zenon.mll" 82 26879 26902 "plugins/dp/dp_zenon.mll" 82 26879 26903
+)
+"plugins/dp/dp_zenon.mll" 84 26928 26940 "plugins/dp/dp_zenon.mll" 84 26928 26949
+call(
+  stack
+)
+type(
+  in_channel
+)
+"plugins/dp/dp_zenon.mll" 85 26953 26961 "plugins/dp/dp_zenon.mll" 85 26953 26963
+type(
+  Lexing.lexbuf
+)
+"plugins/dp/dp_zenon.mll" 85 26953 26966 "plugins/dp/dp_zenon.mll" 85 26953 26978
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"plugins/dp/dp_zenon.mll" 85 26953 26979 "plugins/dp/dp_zenon.mll" 85 26953 26980
+type(
+  in_channel
+)
+ident(
+  int_ref c "plugins/dp/dp_zenon.mll" 84 26928 26936 "plugins/dp/dp_zenon.mll" 84 26928 26937
+)
+"plugins/dp/dp_zenon.mll" 85 26953 26966 "plugins/dp/dp_zenon.mll" 85 26953 26980
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"plugins/dp/dp_zenon.mll" 86 26984 26992 "plugins/dp/dp_zenon.mll" 86 26984 26993
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 86 26984 26996 "plugins/dp/dp_zenon.mll" 86 26984 27001
+type(
+  Lexing.lexbuf -> lemma list * string
+)
+ident(
+  int_ref start "plugins/dp/dp_zenon.ml" 357 22578 22586 "plugins/dp/dp_zenon.ml" 357 22578 22591
+)
+"plugins/dp/dp_zenon.mll" 86 26984 27002 "plugins/dp/dp_zenon.mll" 86 26984 27004
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lb "plugins/dp/dp_zenon.mll" 85 26953 26961 "plugins/dp/dp_zenon.mll" 85 26953 26963
+)
+"plugins/dp/dp_zenon.mll" 86 26984 26996 "plugins/dp/dp_zenon.mll" 86 26984 27004
+call(
+  stack
+)
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 87 27008 27012 "plugins/dp/dp_zenon.mll" 87 27008 27020
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"plugins/dp/dp_zenon.mll" 87 27008 27021 "plugins/dp/dp_zenon.mll" 87 27008 27022
+type(
+  in_channel
+)
+ident(
+  int_ref c "plugins/dp/dp_zenon.mll" 84 26928 26936 "plugins/dp/dp_zenon.mll" 84 26928 26937
+)
+"plugins/dp/dp_zenon.mll" 87 27008 27012 "plugins/dp/dp_zenon.mll" 87 27008 27022
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27031 "plugins/dp/dp_zenon.mll" 88 27024 27034
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27035 "plugins/dp/dp_zenon.mll" 88 27024 27036
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27036 "plugins/dp/dp_zenon.mll" 88 27024 27041
+type(
+  bool ref
+)
+ident(
+  int_ref debug "plugins/dp/dp_zenon.mll" 13 144 150 "plugins/dp/dp_zenon.mll" 13 144 155
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27035 "plugins/dp/dp_zenon.mll" 88 27024 27041
+type(
+  bool
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27031 "plugins/dp/dp_zenon.mll" 88 27024 27041
+type(
+  bool
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27057 "plugins/dp/dp_zenon.mll" 88 27024 27067
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27068 "plugins/dp/dp_zenon.mll" 88 27024 27069
+type(
+  string
+)
+ident(
+  int_ref f "plugins/dp/dp_zenon.mll" 82 26879 26902 "plugins/dp/dp_zenon.mll" 82 26879 26903
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27057 "plugins/dp/dp_zenon.mll" 88 27024 27069
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27075 "plugins/dp/dp_zenon.mll" 88 27024 27076
+type(
+  exn
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27080 "plugins/dp/dp_zenon.mll" 88 27024 27082
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27047 "plugins/dp/dp_zenon.mll" 88 27024 27086
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27028 "plugins/dp/dp_zenon.mll" 88 27024 27086
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 89 27088 27092 "plugins/dp/dp_zenon.mll" 89 27088 27093
+type(
+  lemma list * string
+)
+ident(
+  int_ref p "plugins/dp/dp_zenon.mll" 86 26984 26992 "plugins/dp/dp_zenon.mll" 86 26984 26993
+)
+"plugins/dp/dp_zenon.mll" 88 27024 27028 "plugins/dp/dp_zenon.mll" 89 27088 27093
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 87 27008 27012 "plugins/dp/dp_zenon.mll" 89 27088 27093
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 86 26984 26988 "plugins/dp/dp_zenon.mll" 89 27088 27093
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 85 26953 26957 "plugins/dp/dp_zenon.mll" 89 27088 27093
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 84 26928 26932 "plugins/dp/dp_zenon.mll" 89 27088 27093
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 83 26906 26910 "plugins/dp/dp_zenon.mll" 89 27088 27093
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 91 27095 27101 "plugins/dp/dp_zenon.mll" 91 27095 27117
+type(
+  Proof_type.goal Tacmach.sigma -> string -> Term.constr
+)
+ident(
+  def constr_of_string "plugins/dp/dp_zenon.mll" 97 27368 27370 --
+)
+"plugins/dp/dp_zenon.mll" 91 27095 27118 "plugins/dp/dp_zenon.mll" 91 27095 27120
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/dp/dp_zenon.mll" 91 27095 27121 "plugins/dp/dp_zenon.mll" 93 27188 27260
+)
+"plugins/dp/dp_zenon.mll" 91 27095 27121 "plugins/dp/dp_zenon.mll" 91 27095 27122
+type(
+  string
+)
+ident(
+  def s "plugins/dp/dp_zenon.mll" 92 27125 27129 "plugins/dp/dp_zenon.mll" 93 27188 27260
+)
+"plugins/dp/dp_zenon.mll" 92 27125 27133 "plugins/dp/dp_zenon.mll" 92 27125 27145
+type(
+  string -> Topconstr.constr_expr
+)
+"plugins/dp/dp_zenon.mll" 92 27125 27148 "plugins/dp/dp_zenon.mll" 92 27125 27165
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e -> string -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Pcoq.parse_string
+)
+"plugins/dp/dp_zenon.mll" 92 27125 27166 "plugins/dp/dp_zenon.mll" 92 27125 27184
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.Constr.constr
+)
+"plugins/dp/dp_zenon.mll" 92 27125 27148 "plugins/dp/dp_zenon.mll" 92 27125 27184
+call(
+  stack
+)
+type(
+  string -> Topconstr.constr_expr
+)
+"plugins/dp/dp_zenon.mll" 93 27188 27192 "plugins/dp/dp_zenon.mll" 93 27188 27218
+type(
+  Evd.evar_map -> Environ.env -> Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Constrintern.interp_constr
+)
+"plugins/dp/dp_zenon.mll" 93 27188 27220 "plugins/dp/dp_zenon.mll" 93 27188 27227
+type(
+  Proof_type.goal Tacmach.sigma -> Evd.evar_map
+)
+ident(
+  ext_ref Tacmach.project
+)
+"plugins/dp/dp_zenon.mll" 93 27188 27228 "plugins/dp/dp_zenon.mll" 93 27188 27230
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/dp/dp_zenon.mll" 91 27095 27118 "plugins/dp/dp_zenon.mll" 91 27095 27120
+)
+"plugins/dp/dp_zenon.mll" 93 27188 27219 "plugins/dp/dp_zenon.mll" 93 27188 27231
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/dp/dp_zenon.mll" 93 27188 27233 "plugins/dp/dp_zenon.mll" 93 27188 27239
+type(
+  Proof_type.goal Tacmach.sigma -> Environ.env
+)
+ident(
+  ext_ref Tacmach.pf_env
+)
+"plugins/dp/dp_zenon.mll" 93 27188 27240 "plugins/dp/dp_zenon.mll" 93 27188 27242
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/dp/dp_zenon.mll" 91 27095 27118 "plugins/dp/dp_zenon.mll" 91 27095 27120
+)
+"plugins/dp/dp_zenon.mll" 93 27188 27232 "plugins/dp/dp_zenon.mll" 93 27188 27243
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/dp/dp_zenon.mll" 93 27188 27245 "plugins/dp/dp_zenon.mll" 93 27188 27257
+type(
+  string -> Topconstr.constr_expr
+)
+ident(
+  int_ref parse_constr "plugins/dp/dp_zenon.mll" 92 27125 27133 "plugins/dp/dp_zenon.mll" 92 27125 27145
+)
+"plugins/dp/dp_zenon.mll" 93 27188 27258 "plugins/dp/dp_zenon.mll" 93 27188 27259
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/dp_zenon.mll" 91 27095 27121 "plugins/dp/dp_zenon.mll" 91 27095 27122
+)
+"plugins/dp/dp_zenon.mll" 93 27188 27244 "plugins/dp/dp_zenon.mll" 93 27188 27260
+call(
+  stack
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/dp/dp_zenon.mll" 93 27188 27192 "plugins/dp/dp_zenon.mll" 93 27188 27260
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/dp/dp_zenon.mll" 92 27125 27129 "plugins/dp/dp_zenon.mll" 93 27188 27260
+type(
+  Term.constr
+)
+"plugins/dp/dp_zenon.mll" 101 27420 27432 "plugins/dp/dp_zenon.mll" 101 27420 27442
+type(
+  ('a -> unit -> 'b) -> ('a -> 'c -> unit) -> 'a -> 'c list -> unit
+)
+ident(
+  def print_list "plugins/dp/dp_zenon.mll" 101 27420 27424 "plugins/dp/dp_zenon.mll" 154 29252 29257
+)
+"plugins/dp/dp_zenon.mll" 101 27420 27443 "plugins/dp/dp_zenon.mll" 101 27420 27446
+type(
+  'a -> unit -> 'b
+)
+ident(
+  def sep "plugins/dp/dp_zenon.mll" 101 27420 27447 "plugins/dp/dp_zenon.mll" 104 27512 27581
+)
+"plugins/dp/dp_zenon.mll" 101 27420 27447 "plugins/dp/dp_zenon.mll" 101 27420 27452
+type(
+  'a -> 'c -> unit
+)
+ident(
+  def print "plugins/dp/dp_zenon.mll" 101 27420 27453 "plugins/dp/dp_zenon.mll" 104 27512 27581
+)
+"plugins/dp/dp_zenon.mll" 101 27420 27453 "plugins/dp/dp_zenon.mll" 101 27420 27456
+type(
+  'a
+)
+ident(
+  def fmt "plugins/dp/dp_zenon.mll" 101 27420 27459 "plugins/dp/dp_zenon.mll" 104 27512 27581
+)
+"plugins/dp/dp_zenon.mll" 102 27468 27476 "plugins/dp/dp_zenon.mll" 102 27468 27478
+type(
+  'c list
+)
+"plugins/dp/dp_zenon.mll" 102 27468 27482 "plugins/dp/dp_zenon.mll" 102 27468 27484
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 103 27485 27494 "plugins/dp/dp_zenon.mll" 103 27485 27495
+type(
+  'c
+)
+ident(
+  def x "plugins/dp/dp_zenon.mll" 103 27485 27500 "plugins/dp/dp_zenon.mll" 103 27485 27511
+)
+"plugins/dp/dp_zenon.mll" 103 27485 27493 "plugins/dp/dp_zenon.mll" 103 27485 27496
+type(
+  'c list
+)
+"plugins/dp/dp_zenon.mll" 103 27485 27500 "plugins/dp/dp_zenon.mll" 103 27485 27505
+type(
+  'a -> 'c -> unit
+)
+ident(
+  int_ref print "plugins/dp/dp_zenon.mll" 101 27420 27447 "plugins/dp/dp_zenon.mll" 101 27420 27452
+)
+"plugins/dp/dp_zenon.mll" 103 27485 27506 "plugins/dp/dp_zenon.mll" 103 27485 27509
+type(
+  'a
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 101 27420 27453 "plugins/dp/dp_zenon.mll" 101 27420 27456
+)
+"plugins/dp/dp_zenon.mll" 103 27485 27510 "plugins/dp/dp_zenon.mll" 103 27485 27511
+type(
+  'c
+)
+ident(
+  int_ref x "plugins/dp/dp_zenon.mll" 103 27485 27494 "plugins/dp/dp_zenon.mll" 103 27485 27495
+)
+"plugins/dp/dp_zenon.mll" 103 27485 27500 "plugins/dp/dp_zenon.mll" 103 27485 27511
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27520 "plugins/dp/dp_zenon.mll" 104 27512 27521
+type(
+  'c
+)
+ident(
+  def x "plugins/dp/dp_zenon.mll" 104 27512 27530 "plugins/dp/dp_zenon.mll" 104 27512 27581
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27525 "plugins/dp/dp_zenon.mll" 104 27512 27526
+type(
+  'c list
+)
+ident(
+  def r "plugins/dp/dp_zenon.mll" 104 27512 27530 "plugins/dp/dp_zenon.mll" 104 27512 27581
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27520 "plugins/dp/dp_zenon.mll" 104 27512 27526
+type(
+  'c list
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27530 "plugins/dp/dp_zenon.mll" 104 27512 27535
+type(
+  'a -> 'c -> unit
+)
+ident(
+  int_ref print "plugins/dp/dp_zenon.mll" 101 27420 27447 "plugins/dp/dp_zenon.mll" 101 27420 27452
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27536 "plugins/dp/dp_zenon.mll" 104 27512 27539
+type(
+  'a
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 101 27420 27453 "plugins/dp/dp_zenon.mll" 101 27420 27456
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27540 "plugins/dp/dp_zenon.mll" 104 27512 27541
+type(
+  'c
+)
+ident(
+  int_ref x "plugins/dp/dp_zenon.mll" 104 27512 27520 "plugins/dp/dp_zenon.mll" 104 27512 27521
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27530 "plugins/dp/dp_zenon.mll" 104 27512 27541
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27543 "plugins/dp/dp_zenon.mll" 104 27512 27546
+type(
+  'a -> unit -> 'b
+)
+ident(
+  int_ref sep "plugins/dp/dp_zenon.mll" 101 27420 27443 "plugins/dp/dp_zenon.mll" 101 27420 27446
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27547 "plugins/dp/dp_zenon.mll" 104 27512 27550
+type(
+  'a
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 101 27420 27453 "plugins/dp/dp_zenon.mll" 101 27420 27456
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27551 "plugins/dp/dp_zenon.mll" 104 27512 27553
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27543 "plugins/dp/dp_zenon.mll" 104 27512 27553
+call(
+  stack
+)
+type(
+  'b
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27555 "plugins/dp/dp_zenon.mll" 104 27512 27565
+type(
+  ('a -> unit -> 'b) -> ('a -> 'c -> unit) -> 'a -> 'c list -> unit
+)
+ident(
+  int_ref print_list "plugins/dp/dp_zenon.mll" 101 27420 27432 "plugins/dp/dp_zenon.mll" 101 27420 27442
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27566 "plugins/dp/dp_zenon.mll" 104 27512 27569
+type(
+  'a -> unit -> 'b
+)
+ident(
+  int_ref sep "plugins/dp/dp_zenon.mll" 101 27420 27443 "plugins/dp/dp_zenon.mll" 101 27420 27446
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27570 "plugins/dp/dp_zenon.mll" 104 27512 27575
+type(
+  'a -> 'c -> unit
+)
+ident(
+  int_ref print "plugins/dp/dp_zenon.mll" 101 27420 27447 "plugins/dp/dp_zenon.mll" 101 27420 27452
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27576 "plugins/dp/dp_zenon.mll" 104 27512 27579
+type(
+  'a
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 101 27420 27453 "plugins/dp/dp_zenon.mll" 101 27420 27456
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27580 "plugins/dp/dp_zenon.mll" 104 27512 27581
+type(
+  'c list
+)
+ident(
+  int_ref r "plugins/dp/dp_zenon.mll" 104 27512 27525 "plugins/dp/dp_zenon.mll" 104 27512 27526
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27555 "plugins/dp/dp_zenon.mll" 104 27512 27581
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27543 "plugins/dp/dp_zenon.mll" 104 27512 27581
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 104 27512 27530 "plugins/dp/dp_zenon.mll" 104 27512 27581
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 101 27420 27459 "plugins/dp/dp_zenon.mll" 104 27512 27581
+type(
+  'c list -> unit
+)
+"plugins/dp/dp_zenon.mll" 106 27583 27591 "plugins/dp/dp_zenon.mll" 106 27583 27596
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  def space "plugins/dp/dp_zenon.mll" 107 27623 27627 "plugins/dp/dp_zenon.mll" 154 29252 29257
+)
+"plugins/dp/dp_zenon.mll" 106 27583 27597 "plugins/dp/dp_zenon.mll" 106 27583 27600
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_zenon.mll" 106 27583 27601 "plugins/dp/dp_zenon.mll" 106 27583 27622
+)
+"plugins/dp/dp_zenon.mll" 106 27583 27601 "plugins/dp/dp_zenon.mll" 106 27583 27603
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 106 27583 27606 "plugins/dp/dp_zenon.mll" 106 27583 27613
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 106 27583 27614 "plugins/dp/dp_zenon.mll" 106 27583 27617
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 106 27583 27597 "plugins/dp/dp_zenon.mll" 106 27583 27600
+)
+"plugins/dp/dp_zenon.mll" 106 27583 27618 "plugins/dp/dp_zenon.mll" 106 27583 27622
+type(
+  (unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_zenon.mll" 106 27583 27606 "plugins/dp/dp_zenon.mll" 106 27583 27622
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 107 27623 27631 "plugins/dp/dp_zenon.mll" 107 27623 27636
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  def comma "plugins/dp/dp_zenon.mll" 109 27665 27669 "plugins/dp/dp_zenon.mll" 154 29252 29257
+)
+"plugins/dp/dp_zenon.mll" 107 27623 27637 "plugins/dp/dp_zenon.mll" 107 27623 27640
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_zenon.mll" 107 27623 27641 "plugins/dp/dp_zenon.mll" 107 27623 27663
+)
+"plugins/dp/dp_zenon.mll" 107 27623 27641 "plugins/dp/dp_zenon.mll" 107 27623 27643
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 107 27623 27646 "plugins/dp/dp_zenon.mll" 107 27623 27653
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 107 27623 27654 "plugins/dp/dp_zenon.mll" 107 27623 27657
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 107 27623 27637 "plugins/dp/dp_zenon.mll" 107 27623 27640
+)
+"plugins/dp/dp_zenon.mll" 107 27623 27658 "plugins/dp/dp_zenon.mll" 107 27623 27663
+type(
+  (unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_zenon.mll" 107 27623 27646 "plugins/dp/dp_zenon.mll" 107 27623 27663
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 109 27665 27677 "plugins/dp/dp_zenon.mll" 109 27665 27686
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  def print_typ "plugins/dp/dp_zenon.mll" 109 27665 27669 "plugins/dp/dp_zenon.mll" 154 29252 29257
+)
+"plugins/dp/dp_zenon.mll" 109 27665 27687 "plugins/dp/dp_zenon.mll" 109 27665 27690
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_zenon.mll" 109 27665 27693 "plugins/dp/dp_zenon.mll" 115 27906 27964
+)
+"plugins/dp/dp_zenon.mll" 110 27702 27715 "plugins/dp/dp_zenon.mll" 110 27702 27716
+type(
+  string
+)
+ident(
+  def x "plugins/dp/dp_zenon.mll" 110 27702 27720 "plugins/dp/dp_zenon.mll" 110 27702 27738
+)
+"plugins/dp/dp_zenon.mll" 110 27702 27710 "plugins/dp/dp_zenon.mll" 110 27702 27716
+type(
+  Fol.typ
+)
+"plugins/dp/dp_zenon.mll" 110 27702 27720 "plugins/dp/dp_zenon.mll" 110 27702 27727
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 110 27702 27728 "plugins/dp/dp_zenon.mll" 110 27702 27731
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 109 27665 27687 "plugins/dp/dp_zenon.mll" 109 27665 27690
+)
+"plugins/dp/dp_zenon.mll" 110 27702 27732 "plugins/dp/dp_zenon.mll" 110 27702 27736
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_zenon.mll" 110 27702 27737 "plugins/dp/dp_zenon.mll" 110 27702 27738
+type(
+  string
+)
+ident(
+  int_ref x "plugins/dp/dp_zenon.mll" 110 27702 27715 "plugins/dp/dp_zenon.mll" 110 27702 27716
+)
+"plugins/dp/dp_zenon.mll" 110 27702 27720 "plugins/dp/dp_zenon.mll" 110 27702 27738
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 111 27739 27752 "plugins/dp/dp_zenon.mll" 111 27739 27757
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 111 27739 27759 "plugins/dp/dp_zenon.mll" 111 27739 27761
+type(
+  Fol.typ list
+)
+"plugins/dp/dp_zenon.mll" 111 27739 27747 "plugins/dp/dp_zenon.mll" 111 27739 27762
+type(
+  Fol.typ
+)
+"plugins/dp/dp_zenon.mll" 111 27739 27766 "plugins/dp/dp_zenon.mll" 111 27739 27773
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 111 27739 27774 "plugins/dp/dp_zenon.mll" 111 27739 27777
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 109 27665 27687 "plugins/dp/dp_zenon.mll" 109 27665 27690
+)
+"plugins/dp/dp_zenon.mll" 111 27739 27778 "plugins/dp/dp_zenon.mll" 111 27739 27781
+type(
+  (unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_zenon.mll" 111 27739 27766 "plugins/dp/dp_zenon.mll" 111 27739 27781
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 112 27782 27795 "plugins/dp/dp_zenon.mll" 112 27782 27796
+type(
+  string
+)
+ident(
+  def x "plugins/dp/dp_zenon.mll" 112 27782 27805 "plugins/dp/dp_zenon.mll" 112 27782 27823
+)
+"plugins/dp/dp_zenon.mll" 112 27782 27798 "plugins/dp/dp_zenon.mll" 112 27782 27800
+type(
+  Fol.typ list
+)
+"plugins/dp/dp_zenon.mll" 112 27782 27790 "plugins/dp/dp_zenon.mll" 112 27782 27801
+type(
+  Fol.typ
+)
+"plugins/dp/dp_zenon.mll" 112 27782 27805 "plugins/dp/dp_zenon.mll" 112 27782 27812
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 112 27782 27813 "plugins/dp/dp_zenon.mll" 112 27782 27816
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 109 27665 27687 "plugins/dp/dp_zenon.mll" 109 27665 27690
+)
+"plugins/dp/dp_zenon.mll" 112 27782 27817 "plugins/dp/dp_zenon.mll" 112 27782 27821
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_zenon.mll" 112 27782 27822 "plugins/dp/dp_zenon.mll" 112 27782 27823
+type(
+  string
+)
+ident(
+  int_ref x "plugins/dp/dp_zenon.mll" 112 27782 27795 "plugins/dp/dp_zenon.mll" 112 27782 27796
+)
+"plugins/dp/dp_zenon.mll" 112 27782 27805 "plugins/dp/dp_zenon.mll" 112 27782 27823
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 113 27824 27837 "plugins/dp/dp_zenon.mll" 113 27824 27838
+type(
+  string
+)
+ident(
+  def x "plugins/dp/dp_zenon.mll" 113 27824 27848 "plugins/dp/dp_zenon.mll" 113 27824 27883
+)
+"plugins/dp/dp_zenon.mll" 113 27824 27841 "plugins/dp/dp_zenon.mll" 113 27824 27842
+type(
+  Fol.typ
+)
+ident(
+  def t "plugins/dp/dp_zenon.mll" 113 27824 27848 "plugins/dp/dp_zenon.mll" 113 27824 27883
+)
+"plugins/dp/dp_zenon.mll" 113 27824 27840 "plugins/dp/dp_zenon.mll" 113 27824 27843
+type(
+  Fol.typ list
+)
+"plugins/dp/dp_zenon.mll" 113 27824 27832 "plugins/dp/dp_zenon.mll" 113 27824 27844
+type(
+  Fol.typ
+)
+"plugins/dp/dp_zenon.mll" 113 27824 27848 "plugins/dp/dp_zenon.mll" 113 27824 27855
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit,
+   Format.formatter, unit)
+  format ->
+  string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 113 27824 27856 "plugins/dp/dp_zenon.mll" 113 27824 27859
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 109 27665 27687 "plugins/dp/dp_zenon.mll" 109 27665 27690
+)
+"plugins/dp/dp_zenon.mll" 113 27824 27860 "plugins/dp/dp_zenon.mll" 113 27824 27869
+type(
+  (string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_zenon.mll" 113 27824 27870 "plugins/dp/dp_zenon.mll" 113 27824 27871
+type(
+  string
+)
+ident(
+  int_ref x "plugins/dp/dp_zenon.mll" 113 27824 27837 "plugins/dp/dp_zenon.mll" 113 27824 27838
+)
+"plugins/dp/dp_zenon.mll" 113 27824 27872 "plugins/dp/dp_zenon.mll" 113 27824 27881
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_zenon.mll" 109 27665 27677 "plugins/dp/dp_zenon.mll" 109 27665 27686
+)
+"plugins/dp/dp_zenon.mll" 113 27824 27882 "plugins/dp/dp_zenon.mll" 113 27824 27883
+type(
+  Fol.typ
+)
+ident(
+  int_ref t "plugins/dp/dp_zenon.mll" 113 27824 27841 "plugins/dp/dp_zenon.mll" 113 27824 27842
+)
+"plugins/dp/dp_zenon.mll" 113 27824 27848 "plugins/dp/dp_zenon.mll" 113 27824 27883
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 114 27884 27897 "plugins/dp/dp_zenon.mll" 114 27884 27898
+type(
+  string
+)
+ident(
+  def x "plugins/dp/dp_zenon.mll" 115 27906 27909 "plugins/dp/dp_zenon.mll" 115 27906 27964
+)
+"plugins/dp/dp_zenon.mll" 114 27884 27899 "plugins/dp/dp_zenon.mll" 114 27884 27901
+type(
+  Fol.typ list
+)
+ident(
+  def tl "plugins/dp/dp_zenon.mll" 115 27906 27909 "plugins/dp/dp_zenon.mll" 115 27906 27964
+)
+"plugins/dp/dp_zenon.mll" 114 27884 27892 "plugins/dp/dp_zenon.mll" 114 27884 27902
+type(
+  Fol.typ
+)
+"plugins/dp/dp_zenon.mll" 115 27906 27909 "plugins/dp/dp_zenon.mll" 115 27906 27916
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Fol.typ list -> unit) -> Fol.typ list -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Fol.typ list -> unit) -> Fol.typ list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 115 27906 27917 "plugins/dp/dp_zenon.mll" 115 27906 27920
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 109 27665 27687 "plugins/dp/dp_zenon.mll" 109 27665 27690
+)
+"plugins/dp/dp_zenon.mll" 115 27906 27921 "plugins/dp/dp_zenon.mll" 115 27906 27930
+type(
+  (string ->
+   (Format.formatter -> Fol.typ list -> unit) -> Fol.typ list -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_zenon.mll" 115 27906 27931 "plugins/dp/dp_zenon.mll" 115 27906 27932
+type(
+  string
+)
+ident(
+  int_ref x "plugins/dp/dp_zenon.mll" 114 27884 27897 "plugins/dp/dp_zenon.mll" 114 27884 27898
+)
+"plugins/dp/dp_zenon.mll" 115 27906 27934 "plugins/dp/dp_zenon.mll" 115 27906 27944
+type(
+  (Format.formatter -> unit -> unit) ->
+  (Format.formatter -> Fol.typ -> unit) ->
+  Format.formatter -> Fol.typ list -> unit
+)
+ident(
+  int_ref print_list "plugins/dp/dp_zenon.mll" 101 27420 27432 "plugins/dp/dp_zenon.mll" 101 27420 27442
+)
+"plugins/dp/dp_zenon.mll" 115 27906 27945 "plugins/dp/dp_zenon.mll" 115 27906 27950
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref comma "plugins/dp/dp_zenon.mll" 107 27623 27631 "plugins/dp/dp_zenon.mll" 107 27623 27636
+)
+"plugins/dp/dp_zenon.mll" 115 27906 27951 "plugins/dp/dp_zenon.mll" 115 27906 27960
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_zenon.mll" 109 27665 27677 "plugins/dp/dp_zenon.mll" 109 27665 27686
+)
+"plugins/dp/dp_zenon.mll" 115 27906 27933 "plugins/dp/dp_zenon.mll" 115 27906 27961
+call(
+  stack
+)
+type(
+  Format.formatter -> Fol.typ list -> unit
+)
+"plugins/dp/dp_zenon.mll" 115 27906 27962 "plugins/dp/dp_zenon.mll" 115 27906 27964
+type(
+  Fol.typ list
+)
+ident(
+  int_ref tl "plugins/dp/dp_zenon.mll" 114 27884 27899 "plugins/dp/dp_zenon.mll" 114 27884 27901
+)
+"plugins/dp/dp_zenon.mll" 115 27906 27909 "plugins/dp/dp_zenon.mll" 115 27906 27964
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 109 27665 27693 "plugins/dp/dp_zenon.mll" 115 27906 27964
+type(
+  Fol.typ -> unit
+)
+"plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  def print_term "plugins/dp/dp_zenon.mll" 117 27966 27970 "plugins/dp/dp_zenon.mll" 154 29252 29257
+)
+"plugins/dp/dp_zenon.mll" 117 27966 27989 "plugins/dp/dp_zenon.mll" 117 27966 27992
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_zenon.mll" 117 27966 27995 "plugins/dp/dp_zenon.mll" 139 28769 28815
+)
+"plugins/dp/dp_zenon.mll" 118 28004 28016 "plugins/dp/dp_zenon.mll" 118 28004 28017
+type(
+  Big_int.big_int
+)
+ident(
+  def n "plugins/dp/dp_zenon.mll" 119 28021 28024 "plugins/dp/dp_zenon.mll" 119 28021 28070
+)
+"plugins/dp/dp_zenon.mll" 118 28004 28012 "plugins/dp/dp_zenon.mll" 118 28004 28017
+type(
+  Fol.term
+)
+"plugins/dp/dp_zenon.mll" 119 28021 28024 "plugins/dp/dp_zenon.mll" 119 28021 28031
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 119 28021 28032 "plugins/dp/dp_zenon.mll" 119 28021 28035
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 117 27966 27989 "plugins/dp/dp_zenon.mll" 117 27966 27992
+)
+"plugins/dp/dp_zenon.mll" 119 28021 28036 "plugins/dp/dp_zenon.mll" 119 28021 28040
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_zenon.mll" 119 28021 28042 "plugins/dp/dp_zenon.mll" 119 28021 28067
+type(
+  Big_int.big_int -> string
+)
+ident(
+  ext_ref Big_int.string_of_big_int
+)
+"plugins/dp/dp_zenon.mll" 119 28021 28068 "plugins/dp/dp_zenon.mll" 119 28021 28069
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref n "plugins/dp/dp_zenon.mll" 118 28004 28016 "plugins/dp/dp_zenon.mll" 118 28004 28017
+)
+"plugins/dp/dp_zenon.mll" 119 28021 28041 "plugins/dp/dp_zenon.mll" 119 28021 28070
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 119 28021 28024 "plugins/dp/dp_zenon.mll" 119 28021 28070
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 120 28071 28084 "plugins/dp/dp_zenon.mll" 120 28071 28085
+type(
+  Big_int.big_int
+)
+ident(
+  def s "plugins/dp/dp_zenon.mll" 121 28089 28099 "plugins/dp/dp_zenon.mll" 121 28089 28145
+)
+"plugins/dp/dp_zenon.mll" 120 28071 28079 "plugins/dp/dp_zenon.mll" 120 28071 28085
+type(
+  Fol.term
+)
+"plugins/dp/dp_zenon.mll" 121 28089 28099 "plugins/dp/dp_zenon.mll" 121 28089 28106
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 121 28089 28107 "plugins/dp/dp_zenon.mll" 121 28089 28110
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 117 27966 27989 "plugins/dp/dp_zenon.mll" 117 27966 27992
+)
+"plugins/dp/dp_zenon.mll" 121 28089 28111 "plugins/dp/dp_zenon.mll" 121 28089 28115
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_zenon.mll" 121 28089 28117 "plugins/dp/dp_zenon.mll" 121 28089 28142
+type(
+  Big_int.big_int -> string
+)
+ident(
+  ext_ref Big_int.string_of_big_int
+)
+"plugins/dp/dp_zenon.mll" 121 28089 28143 "plugins/dp/dp_zenon.mll" 121 28089 28144
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref s "plugins/dp/dp_zenon.mll" 120 28071 28084 "plugins/dp/dp_zenon.mll" 120 28071 28085
+)
+"plugins/dp/dp_zenon.mll" 121 28089 28116 "plugins/dp/dp_zenon.mll" 121 28089 28145
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 121 28089 28099 "plugins/dp/dp_zenon.mll" 121 28089 28145
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 122 28146 28161 "plugins/dp/dp_zenon.mll" 122 28146 28162
+type(
+  Big_int.big_int
+)
+ident(
+  def n "plugins/dp/dp_zenon.mll" 123 28166 28176 "plugins/dp/dp_zenon.mll" 123 28166 28238
+)
+"plugins/dp/dp_zenon.mll" 122 28146 28154 "plugins/dp/dp_zenon.mll" 122 28146 28162
+type(
+  Fol.term
+)
+"plugins/dp/dp_zenon.mll" 123 28166 28176 "plugins/dp/dp_zenon.mll" 123 28166 28183
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 123 28166 28184 "plugins/dp/dp_zenon.mll" 123 28166 28187
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 117 27966 27989 "plugins/dp/dp_zenon.mll" 117 27966 27992
+)
+"plugins/dp/dp_zenon.mll" 123 28166 28188 "plugins/dp/dp_zenon.mll" 123 28166 28208
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_zenon.mll" 123 28166 28210 "plugins/dp/dp_zenon.mll" 123 28166 28235
+type(
+  Big_int.big_int -> string
+)
+ident(
+  ext_ref Big_int.string_of_big_int
+)
+"plugins/dp/dp_zenon.mll" 123 28166 28236 "plugins/dp/dp_zenon.mll" 123 28166 28237
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref n "plugins/dp/dp_zenon.mll" 122 28146 28161 "plugins/dp/dp_zenon.mll" 122 28146 28162
+)
+"plugins/dp/dp_zenon.mll" 123 28166 28209 "plugins/dp/dp_zenon.mll" 123 28166 28238
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 123 28166 28176 "plugins/dp/dp_zenon.mll" 123 28166 28238
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 126 28299 28313 "plugins/dp/dp_zenon.mll" 126 28299 28314
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_zenon.mll" 127 28322 28325 "plugins/dp/dp_zenon.mll" 127 28322 28382
+)
+"plugins/dp/dp_zenon.mll" 126 28299 28316 "plugins/dp/dp_zenon.mll" 126 28299 28317
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_zenon.mll" 127 28322 28325 "plugins/dp/dp_zenon.mll" 127 28322 28382
+)
+"plugins/dp/dp_zenon.mll" 126 28299 28307 "plugins/dp/dp_zenon.mll" 126 28299 28318
+type(
+  Fol.term
+)
+"plugins/dp/dp_zenon.mll" 127 28322 28325 "plugins/dp/dp_zenon.mll" 127 28322 28332
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 127 28322 28333 "plugins/dp/dp_zenon.mll" 127 28322 28336
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 117 27966 27989 "plugins/dp/dp_zenon.mll" 117 27966 27992
+)
+"plugins/dp/dp_zenon.mll" 127 28322 28337 "plugins/dp/dp_zenon.mll" 127 28322 28356
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_zenon.mll" 127 28322 28357 "plugins/dp/dp_zenon.mll" 127 28322 28367
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+)
+"plugins/dp/dp_zenon.mll" 127 28322 28368 "plugins/dp/dp_zenon.mll" 127 28322 28369
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_zenon.mll" 126 28299 28313 "plugins/dp/dp_zenon.mll" 126 28299 28314
+)
+"plugins/dp/dp_zenon.mll" 127 28322 28370 "plugins/dp/dp_zenon.mll" 127 28322 28380
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+)
+"plugins/dp/dp_zenon.mll" 127 28322 28381 "plugins/dp/dp_zenon.mll" 127 28322 28382
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_zenon.mll" 126 28299 28316 "plugins/dp/dp_zenon.mll" 126 28299 28317
+)
+"plugins/dp/dp_zenon.mll" 127 28322 28325 "plugins/dp/dp_zenon.mll" 127 28322 28382
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 128 28383 28398 "plugins/dp/dp_zenon.mll" 128 28383 28399
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_zenon.mll" 129 28407 28410 "plugins/dp/dp_zenon.mll" 129 28407 28468
+)
+"plugins/dp/dp_zenon.mll" 128 28383 28401 "plugins/dp/dp_zenon.mll" 128 28383 28402
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_zenon.mll" 129 28407 28410 "plugins/dp/dp_zenon.mll" 129 28407 28468
+)
+"plugins/dp/dp_zenon.mll" 128 28383 28391 "plugins/dp/dp_zenon.mll" 128 28383 28403
+type(
+  Fol.term
+)
+"plugins/dp/dp_zenon.mll" 129 28407 28410 "plugins/dp/dp_zenon.mll" 129 28407 28417
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 129 28407 28418 "plugins/dp/dp_zenon.mll" 129 28407 28421
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 117 27966 27989 "plugins/dp/dp_zenon.mll" 117 27966 27992
+)
+"plugins/dp/dp_zenon.mll" 129 28407 28422 "plugins/dp/dp_zenon.mll" 129 28407 28442
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_zenon.mll" 129 28407 28443 "plugins/dp/dp_zenon.mll" 129 28407 28453
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+)
+"plugins/dp/dp_zenon.mll" 129 28407 28454 "plugins/dp/dp_zenon.mll" 129 28407 28455
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_zenon.mll" 128 28383 28398 "plugins/dp/dp_zenon.mll" 128 28383 28399
+)
+"plugins/dp/dp_zenon.mll" 129 28407 28456 "plugins/dp/dp_zenon.mll" 129 28407 28466
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+)
+"plugins/dp/dp_zenon.mll" 129 28407 28467 "plugins/dp/dp_zenon.mll" 129 28407 28468
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_zenon.mll" 128 28383 28401 "plugins/dp/dp_zenon.mll" 128 28383 28402
+)
+"plugins/dp/dp_zenon.mll" 129 28407 28410 "plugins/dp/dp_zenon.mll" 129 28407 28468
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 130 28469 28483 "plugins/dp/dp_zenon.mll" 130 28469 28484
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_zenon.mll" 131 28492 28495 "plugins/dp/dp_zenon.mll" 131 28492 28552
+)
+"plugins/dp/dp_zenon.mll" 130 28469 28486 "plugins/dp/dp_zenon.mll" 130 28469 28487
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_zenon.mll" 131 28492 28495 "plugins/dp/dp_zenon.mll" 131 28492 28552
+)
+"plugins/dp/dp_zenon.mll" 130 28469 28477 "plugins/dp/dp_zenon.mll" 130 28469 28488
+type(
+  Fol.term
+)
+"plugins/dp/dp_zenon.mll" 131 28492 28495 "plugins/dp/dp_zenon.mll" 131 28492 28502
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 131 28492 28503 "plugins/dp/dp_zenon.mll" 131 28492 28506
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 117 27966 27989 "plugins/dp/dp_zenon.mll" 117 27966 27992
+)
+"plugins/dp/dp_zenon.mll" 131 28492 28507 "plugins/dp/dp_zenon.mll" 131 28492 28526
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_zenon.mll" 131 28492 28527 "plugins/dp/dp_zenon.mll" 131 28492 28537
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+)
+"plugins/dp/dp_zenon.mll" 131 28492 28538 "plugins/dp/dp_zenon.mll" 131 28492 28539
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_zenon.mll" 130 28469 28483 "plugins/dp/dp_zenon.mll" 130 28469 28484
+)
+"plugins/dp/dp_zenon.mll" 131 28492 28540 "plugins/dp/dp_zenon.mll" 131 28492 28550
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+)
+"plugins/dp/dp_zenon.mll" 131 28492 28551 "plugins/dp/dp_zenon.mll" 131 28492 28552
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_zenon.mll" 130 28469 28486 "plugins/dp/dp_zenon.mll" 130 28469 28487
+)
+"plugins/dp/dp_zenon.mll" 131 28492 28495 "plugins/dp/dp_zenon.mll" 131 28492 28552
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 132 28553 28566 "plugins/dp/dp_zenon.mll" 132 28553 28567
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_zenon.mll" 133 28575 28578 "plugins/dp/dp_zenon.mll" 133 28575 28634
+)
+"plugins/dp/dp_zenon.mll" 132 28553 28569 "plugins/dp/dp_zenon.mll" 132 28553 28570
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_zenon.mll" 133 28575 28578 "plugins/dp/dp_zenon.mll" 133 28575 28634
+)
+"plugins/dp/dp_zenon.mll" 132 28553 28561 "plugins/dp/dp_zenon.mll" 132 28553 28571
+type(
+  Fol.term
+)
+"plugins/dp/dp_zenon.mll" 133 28575 28578 "plugins/dp/dp_zenon.mll" 133 28575 28585
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 133 28575 28586 "plugins/dp/dp_zenon.mll" 133 28575 28589
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 117 27966 27989 "plugins/dp/dp_zenon.mll" 117 27966 27992
+)
+"plugins/dp/dp_zenon.mll" 133 28575 28590 "plugins/dp/dp_zenon.mll" 133 28575 28608
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_zenon.mll" 133 28575 28609 "plugins/dp/dp_zenon.mll" 133 28575 28619
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+)
+"plugins/dp/dp_zenon.mll" 133 28575 28620 "plugins/dp/dp_zenon.mll" 133 28575 28621
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_zenon.mll" 132 28553 28566 "plugins/dp/dp_zenon.mll" 132 28553 28567
+)
+"plugins/dp/dp_zenon.mll" 133 28575 28622 "plugins/dp/dp_zenon.mll" 133 28575 28632
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+)
+"plugins/dp/dp_zenon.mll" 133 28575 28633 "plugins/dp/dp_zenon.mll" 133 28575 28634
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_zenon.mll" 132 28553 28569 "plugins/dp/dp_zenon.mll" 132 28553 28570
+)
+"plugins/dp/dp_zenon.mll" 133 28575 28578 "plugins/dp/dp_zenon.mll" 133 28575 28634
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 134 28635 28647 "plugins/dp/dp_zenon.mll" 134 28635 28650
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_zenon.mll" 135 28654 28657 "plugins/dp/dp_zenon.mll" 135 28654 28697
+)
+"plugins/dp/dp_zenon.mll" 134 28635 28643 "plugins/dp/dp_zenon.mll" 134 28635 28650
+type(
+  Fol.term
+)
+"plugins/dp/dp_zenon.mll" 135 28654 28657 "plugins/dp/dp_zenon.mll" 135 28654 28664
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 135 28654 28665 "plugins/dp/dp_zenon.mll" 135 28654 28668
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 117 27966 27989 "plugins/dp/dp_zenon.mll" 117 27966 27992
+)
+"plugins/dp/dp_zenon.mll" 135 28654 28669 "plugins/dp/dp_zenon.mll" 135 28654 28684
+type(
+  ((Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_zenon.mll" 135 28654 28685 "plugins/dp/dp_zenon.mll" 135 28654 28695
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+)
+"plugins/dp/dp_zenon.mll" 135 28654 28696 "plugins/dp/dp_zenon.mll" 135 28654 28697
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_zenon.mll" 134 28635 28647 "plugins/dp/dp_zenon.mll" 134 28635 28650
+)
+"plugins/dp/dp_zenon.mll" 135 28654 28657 "plugins/dp/dp_zenon.mll" 135 28654 28697
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 136 28698 28711 "plugins/dp/dp_zenon.mll" 136 28698 28713
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_zenon.mll" 137 28722 28725 "plugins/dp/dp_zenon.mll" 137 28722 28744
+)
+"plugins/dp/dp_zenon.mll" 136 28698 28715 "plugins/dp/dp_zenon.mll" 136 28698 28717
+type(
+  Fol.term list
+)
+"plugins/dp/dp_zenon.mll" 136 28698 28706 "plugins/dp/dp_zenon.mll" 136 28698 28718
+type(
+  Fol.term
+)
+"plugins/dp/dp_zenon.mll" 137 28722 28725 "plugins/dp/dp_zenon.mll" 137 28722 28732
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 137 28722 28733 "plugins/dp/dp_zenon.mll" 137 28722 28736
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 117 27966 27989 "plugins/dp/dp_zenon.mll" 117 27966 27992
+)
+"plugins/dp/dp_zenon.mll" 137 28722 28737 "plugins/dp/dp_zenon.mll" 137 28722 28741
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_zenon.mll" 137 28722 28742 "plugins/dp/dp_zenon.mll" 137 28722 28744
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_zenon.mll" 136 28698 28711 "plugins/dp/dp_zenon.mll" 136 28698 28713
+)
+"plugins/dp/dp_zenon.mll" 137 28722 28725 "plugins/dp/dp_zenon.mll" 137 28722 28744
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 138 28745 28758 "plugins/dp/dp_zenon.mll" 138 28745 28760
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_zenon.mll" 139 28769 28772 "plugins/dp/dp_zenon.mll" 139 28769 28815
+)
+"plugins/dp/dp_zenon.mll" 138 28745 28762 "plugins/dp/dp_zenon.mll" 138 28745 28764
+type(
+  Fol.term list
+)
+ident(
+  def tl "plugins/dp/dp_zenon.mll" 139 28769 28772 "plugins/dp/dp_zenon.mll" 139 28769 28815
+)
+"plugins/dp/dp_zenon.mll" 138 28745 28753 "plugins/dp/dp_zenon.mll" 138 28745 28765
+type(
+  Fol.term
+)
+"plugins/dp/dp_zenon.mll" 139 28769 28772 "plugins/dp/dp_zenon.mll" 139 28769 28779
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Fol.term list -> unit) -> Fol.term list -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Fol.term list -> unit) -> Fol.term list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 139 28769 28780 "plugins/dp/dp_zenon.mll" 139 28769 28783
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 117 27966 27989 "plugins/dp/dp_zenon.mll" 117 27966 27992
+)
+"plugins/dp/dp_zenon.mll" 139 28769 28784 "plugins/dp/dp_zenon.mll" 139 28769 28797
+type(
+  (string ->
+   (Format.formatter -> Fol.term list -> unit) -> Fol.term list -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_zenon.mll" 139 28769 28798 "plugins/dp/dp_zenon.mll" 139 28769 28800
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_zenon.mll" 138 28745 28758 "plugins/dp/dp_zenon.mll" 138 28745 28760
+)
+"plugins/dp/dp_zenon.mll" 139 28769 28801 "plugins/dp/dp_zenon.mll" 139 28769 28812
+type(
+  Format.formatter -> Fol.term list -> unit
+)
+ident(
+  int_ref print_terms "plugins/dp/dp_zenon.mll" 141 28817 28825 "plugins/dp/dp_zenon.mll" 141 28817 28836
+)
+"plugins/dp/dp_zenon.mll" 139 28769 28813 "plugins/dp/dp_zenon.mll" 139 28769 28815
+type(
+  Fol.term list
+)
+ident(
+  int_ref tl "plugins/dp/dp_zenon.mll" 138 28745 28762 "plugins/dp/dp_zenon.mll" 138 28745 28764
+)
+"plugins/dp/dp_zenon.mll" 139 28769 28772 "plugins/dp/dp_zenon.mll" 139 28769 28815
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 117 27966 27995 "plugins/dp/dp_zenon.mll" 139 28769 28815
+type(
+  Fol.term -> unit
+)
+"plugins/dp/dp_zenon.mll" 141 28817 28825 "plugins/dp/dp_zenon.mll" 141 28817 28836
+type(
+  Format.formatter -> Fol.term list -> unit
+)
+ident(
+  def print_terms "plugins/dp/dp_zenon.mll" 117 27966 27970 "plugins/dp/dp_zenon.mll" 154 29252 29257
+)
+"plugins/dp/dp_zenon.mll" 141 28817 28837 "plugins/dp/dp_zenon.mll" 141 28817 28840
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_zenon.mll" 141 28817 28841 "plugins/dp/dp_zenon.mll" 142 28846 28886
+)
+"plugins/dp/dp_zenon.mll" 141 28817 28841 "plugins/dp/dp_zenon.mll" 141 28817 28843
+type(
+  Fol.term list
+)
+ident(
+  def tl "plugins/dp/dp_zenon.mll" 142 28846 28852 "plugins/dp/dp_zenon.mll" 142 28846 28886
+)
+"plugins/dp/dp_zenon.mll" 142 28846 28852 "plugins/dp/dp_zenon.mll" 142 28846 28862
+type(
+  (Format.formatter -> unit -> unit) ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Format.formatter -> Fol.term list -> unit
+)
+ident(
+  int_ref print_list "plugins/dp/dp_zenon.mll" 101 27420 27432 "plugins/dp/dp_zenon.mll" 101 27420 27442
+)
+"plugins/dp/dp_zenon.mll" 142 28846 28863 "plugins/dp/dp_zenon.mll" 142 28846 28868
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref space "plugins/dp/dp_zenon.mll" 106 27583 27591 "plugins/dp/dp_zenon.mll" 106 27583 27596
+)
+"plugins/dp/dp_zenon.mll" 142 28846 28869 "plugins/dp/dp_zenon.mll" 142 28846 28879
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+)
+"plugins/dp/dp_zenon.mll" 142 28846 28880 "plugins/dp/dp_zenon.mll" 142 28846 28883
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 141 28817 28837 "plugins/dp/dp_zenon.mll" 141 28817 28840
+)
+"plugins/dp/dp_zenon.mll" 142 28846 28884 "plugins/dp/dp_zenon.mll" 142 28846 28886
+type(
+  Fol.term list
+)
+ident(
+  int_ref tl "plugins/dp/dp_zenon.mll" 141 28817 28841 "plugins/dp/dp_zenon.mll" 141 28817 28843
+)
+"plugins/dp/dp_zenon.mll" 142 28846 28852 "plugins/dp/dp_zenon.mll" 142 28846 28886
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 145 28944 28952 "plugins/dp/dp_zenon.mll" 145 28944 28965
+type(
+  string -> (string * Fol.typ) list -> Fol.term -> string
+)
+ident(
+  def fun_def_axiom "plugins/dp/dp_zenon.mll" 152 29222 29250 "plugins/dp/dp_zenon.mll" 154 29252 29257
+)
+"plugins/dp/dp_zenon.mll" 145 28944 28966 "plugins/dp/dp_zenon.mll" 145 28944 28967
+type(
+  string
+)
+ident(
+  def f "plugins/dp/dp_zenon.mll" 145 28944 28968 "plugins/dp/dp_zenon.mll" 152 29222 29250
+)
+"plugins/dp/dp_zenon.mll" 145 28944 28968 "plugins/dp/dp_zenon.mll" 145 28944 28972
+type(
+  (string * Fol.typ) list
+)
+ident(
+  def vars "plugins/dp/dp_zenon.mll" 145 28944 28973 "plugins/dp/dp_zenon.mll" 152 29222 29250
+)
+"plugins/dp/dp_zenon.mll" 145 28944 28973 "plugins/dp/dp_zenon.mll" 145 28944 28974
+type(
+  Fol.term
+)
+ident(
+  def t "plugins/dp/dp_zenon.mll" 146 28977 28983 "plugins/dp/dp_zenon.mll" 152 29222 29250
+)
+"plugins/dp/dp_zenon.mll" 146 28977 28987 "plugins/dp/dp_zenon.mll" 146 28977 28993
+type(
+  Format.formatter -> string * Fol.typ -> unit
+)
+"plugins/dp/dp_zenon.mll" 146 28977 28994 "plugins/dp/dp_zenon.mll" 146 28977 28997
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_zenon.mll" 146 28977 28998 "plugins/dp/dp_zenon.mll" 146 28977 29042
+)
+"plugins/dp/dp_zenon.mll" 146 28977 28999 "plugins/dp/dp_zenon.mll" 146 28977 29000
+type(
+  string
+)
+ident(
+  def x "plugins/dp/dp_zenon.mll" 146 28977 29006 "plugins/dp/dp_zenon.mll" 146 28977 29042
+)
+"plugins/dp/dp_zenon.mll" 146 28977 29001 "plugins/dp/dp_zenon.mll" 146 28977 29002
+type(
+  Fol.typ
+)
+ident(
+  def t "plugins/dp/dp_zenon.mll" 146 28977 29006 "plugins/dp/dp_zenon.mll" 146 28977 29042
+)
+"plugins/dp/dp_zenon.mll" 146 28977 28998 "plugins/dp/dp_zenon.mll" 146 28977 29003
+type(
+  string * Fol.typ
+)
+"plugins/dp/dp_zenon.mll" 146 28977 29006 "plugins/dp/dp_zenon.mll" 146 28977 29013
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit,
+   Format.formatter, unit)
+  format ->
+  string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 146 28977 29014 "plugins/dp/dp_zenon.mll" 146 28977 29017
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 146 28977 28994 "plugins/dp/dp_zenon.mll" 146 28977 28997
+)
+"plugins/dp/dp_zenon.mll" 146 28977 29018 "plugins/dp/dp_zenon.mll" 146 28977 29028
+type(
+  (string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_zenon.mll" 146 28977 29029 "plugins/dp/dp_zenon.mll" 146 28977 29030
+type(
+  string
+)
+ident(
+  int_ref x "plugins/dp/dp_zenon.mll" 146 28977 28999 "plugins/dp/dp_zenon.mll" 146 28977 29000
+)
+"plugins/dp/dp_zenon.mll" 146 28977 29031 "plugins/dp/dp_zenon.mll" 146 28977 29040
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_zenon.mll" 109 27665 27677 "plugins/dp/dp_zenon.mll" 109 27665 27686
+)
+"plugins/dp/dp_zenon.mll" 146 28977 29041 "plugins/dp/dp_zenon.mll" 146 28977 29042
+type(
+  Fol.typ
+)
+ident(
+  int_ref t "plugins/dp/dp_zenon.mll" 146 28977 29001 "plugins/dp/dp_zenon.mll" 146 28977 29002
+)
+"plugins/dp/dp_zenon.mll" 146 28977 29006 "plugins/dp/dp_zenon.mll" 146 28977 29042
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 147 29046 29052 "plugins/dp/dp_zenon.mll" 147 29046 29059
+type(
+  Format.formatter ->
+  ((Format.formatter -> (string * Fol.typ) list -> unit) ->
+   (string * Fol.typ) list ->
+   string ->
+   (Format.formatter -> (string * Fol.typ) list -> unit) ->
+   (string * Fol.typ) list ->
+   (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> (string * Fol.typ) list -> unit) ->
+  (string * Fol.typ) list ->
+  string ->
+  (Format.formatter -> (string * Fol.typ) list -> unit) ->
+  (string * Fol.typ) list ->
+  (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_zenon.mll" 147 29046 29060 "plugins/dp/dp_zenon.mll" 147 29046 29073
+type(
+  Format.formatter
+)
+ident(
+  ext_ref Format.str_formatter
+)
+"plugins/dp/dp_zenon.mll" 148 29074 29075 "plugins/dp/dp_zenon.mll" 148 29074 29106
+type(
+  ((Format.formatter -> (string * Fol.typ) list -> unit) ->
+   (string * Fol.typ) list ->
+   string ->
+   (Format.formatter -> (string * Fol.typ) list -> unit) ->
+   (string * Fol.typ) list ->
+   (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_zenon.mll" 149 29107 29109 "plugins/dp/dp_zenon.mll" 149 29107 29119
+type(
+  (Format.formatter -> unit -> unit) ->
+  (Format.formatter -> string * Fol.typ -> unit) ->
+  Format.formatter -> (string * Fol.typ) list -> unit
+)
+ident(
+  int_ref print_list "plugins/dp/dp_zenon.mll" 101 27420 27432 "plugins/dp/dp_zenon.mll" 101 27420 27442
+)
+"plugins/dp/dp_zenon.mll" 149 29107 29120 "plugins/dp/dp_zenon.mll" 149 29107 29125
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref space "plugins/dp/dp_zenon.mll" 106 27583 27591 "plugins/dp/dp_zenon.mll" 106 27583 27596
+)
+"plugins/dp/dp_zenon.mll" 149 29107 29126 "plugins/dp/dp_zenon.mll" 149 29107 29132
+type(
+  Format.formatter -> string * Fol.typ -> unit
+)
+ident(
+  int_ref binder "plugins/dp/dp_zenon.mll" 146 28977 28987 "plugins/dp/dp_zenon.mll" 146 28977 28993
+)
+"plugins/dp/dp_zenon.mll" 149 29107 29108 "plugins/dp/dp_zenon.mll" 149 29107 29133
+call(
+  stack
+)
+type(
+  Format.formatter -> (string * Fol.typ) list -> unit
+)
+"plugins/dp/dp_zenon.mll" 149 29107 29134 "plugins/dp/dp_zenon.mll" 149 29107 29138
+type(
+  (string * Fol.typ) list
+)
+ident(
+  int_ref vars "plugins/dp/dp_zenon.mll" 145 28944 28968 "plugins/dp/dp_zenon.mll" 145 28944 28972
+)
+"plugins/dp/dp_zenon.mll" 149 29107 29139 "plugins/dp/dp_zenon.mll" 149 29107 29140
+type(
+  string
+)
+ident(
+  int_ref f "plugins/dp/dp_zenon.mll" 145 28944 28966 "plugins/dp/dp_zenon.mll" 145 28944 28967
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29143 "plugins/dp/dp_zenon.mll" 150 29141 29153
+type(
+  (Format.formatter -> unit -> unit) ->
+  (Format.formatter -> string * Fol.typ -> unit) ->
+  Format.formatter -> (string * Fol.typ) list -> unit
+)
+ident(
+  int_ref print_list "plugins/dp/dp_zenon.mll" 101 27420 27432 "plugins/dp/dp_zenon.mll" 101 27420 27442
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29154 "plugins/dp/dp_zenon.mll" 150 29141 29159
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref space "plugins/dp/dp_zenon.mll" 106 27583 27591 "plugins/dp/dp_zenon.mll" 106 27583 27596
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29165 "plugins/dp/dp_zenon.mll" 150 29141 29168
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_zenon.mll" 150 29141 29169 "plugins/dp/dp_zenon.mll" 150 29141 29199
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29170 "plugins/dp/dp_zenon.mll" 150 29141 29171
+type(
+  string
+)
+ident(
+  def x "plugins/dp/dp_zenon.mll" 150 29141 29178 "plugins/dp/dp_zenon.mll" 150 29141 29199
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29172 "plugins/dp/dp_zenon.mll" 150 29141 29173
+type(
+  Fol.typ
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29169 "plugins/dp/dp_zenon.mll" 150 29141 29174
+type(
+  string * Fol.typ
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29178 "plugins/dp/dp_zenon.mll" 150 29141 29193
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29194 "plugins/dp/dp_zenon.mll" 150 29141 29197
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_zenon.mll" 150 29141 29165 "plugins/dp/dp_zenon.mll" 150 29141 29168
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29198 "plugins/dp/dp_zenon.mll" 150 29141 29199
+type(
+  string
+)
+ident(
+  int_ref x "plugins/dp/dp_zenon.mll" 150 29141 29170 "plugins/dp/dp_zenon.mll" 150 29141 29171
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29178 "plugins/dp/dp_zenon.mll" 150 29141 29199
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29160 "plugins/dp/dp_zenon.mll" 150 29141 29200
+type(
+  Format.formatter -> string * Fol.typ -> unit
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29142 "plugins/dp/dp_zenon.mll" 150 29141 29201
+call(
+  stack
+)
+type(
+  Format.formatter -> (string * Fol.typ) list -> unit
+)
+"plugins/dp/dp_zenon.mll" 150 29141 29202 "plugins/dp/dp_zenon.mll" 150 29141 29206
+type(
+  (string * Fol.typ) list
+)
+ident(
+  int_ref vars "plugins/dp/dp_zenon.mll" 145 28944 28968 "plugins/dp/dp_zenon.mll" 145 28944 28972
+)
+"plugins/dp/dp_zenon.mll" 151 29207 29208 "plugins/dp/dp_zenon.mll" 151 29207 29218
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_zenon.mll" 117 27966 27978 "plugins/dp/dp_zenon.mll" 117 27966 27988
+)
+"plugins/dp/dp_zenon.mll" 151 29207 29219 "plugins/dp/dp_zenon.mll" 151 29207 29220
+type(
+  Fol.term
+)
+ident(
+  int_ref t "plugins/dp/dp_zenon.mll" 145 28944 28973 "plugins/dp/dp_zenon.mll" 145 28944 28974
+)
+"plugins/dp/dp_zenon.mll" 147 29046 29052 "plugins/dp/dp_zenon.mll" 151 29207 29220
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 152 29222 29228 "plugins/dp/dp_zenon.mll" 152 29222 29247
+type(
+  unit -> string
+)
+ident(
+  ext_ref Format.flush_str_formatter
+)
+"plugins/dp/dp_zenon.mll" 152 29222 29248 "plugins/dp/dp_zenon.mll" 152 29222 29250
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 152 29222 29228 "plugins/dp/dp_zenon.mll" 152 29222 29250
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 147 29046 29052 "plugins/dp/dp_zenon.mll" 152 29222 29250
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 146 28977 28983 "plugins/dp/dp_zenon.mll" 152 29222 29250
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 156 29259 29265 "plugins/dp/dp_zenon.mll" 156 29259 29276
+type(
+  string -> Proof_type.tactic
+)
+ident(
+  def prove_axiom "plugins/dp/dp_zenon.mll" 168 29644 29646 --
+)
+"plugins/dp/dp_zenon.mll" 156 29259 29277 "plugins/dp/dp_zenon.mll" 156 29259 29279
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_zenon.mll" 156 29259 29282 "plugins/dp/dp_zenon.mll" 166 29601 29642
+)
+"plugins/dp/dp_zenon.mll" 156 29259 29288 "plugins/dp/dp_zenon.mll" 156 29259 29305
+type(
+  string -> Dp_why.proof
+)
+ident(
+  ext_ref Dp_why.find_proof
+)
+"plugins/dp/dp_zenon.mll" 156 29259 29306 "plugins/dp/dp_zenon.mll" 156 29259 29308
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_zenon.mll" 156 29259 29277 "plugins/dp/dp_zenon.mll" 156 29259 29279
+)
+"plugins/dp/dp_zenon.mll" 156 29259 29288 "plugins/dp/dp_zenon.mll" 156 29259 29308
+call(
+  stack
+)
+type(
+  Dp_why.proof
+)
+"plugins/dp/dp_zenon.mll" 157 29314 29330 "plugins/dp/dp_zenon.mll" 157 29314 29331
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/dp/dp_zenon.mll" 158 29335 29336 "plugins/dp/dp_zenon.mll" 158 29335 29349
+)
+"plugins/dp/dp_zenon.mll" 157 29314 29320 "plugins/dp/dp_zenon.mll" 157 29314 29331
+type(
+  Dp_why.proof
+)
+"plugins/dp/dp_zenon.mll" 158 29335 29336 "plugins/dp/dp_zenon.mll" 158 29335 29347
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.exact_check
+)
+"plugins/dp/dp_zenon.mll" 158 29335 29348 "plugins/dp/dp_zenon.mll" 158 29335 29349
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/dp/dp_zenon.mll" 157 29314 29330 "plugins/dp/dp_zenon.mll" 157 29314 29331
+)
+"plugins/dp/dp_zenon.mll" 158 29335 29336 "plugins/dp/dp_zenon.mll" 158 29335 29349
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 159 29350 29365 "plugins/dp/dp_zenon.mll" 159 29350 29366
+type(
+  string
+)
+ident(
+  def f "plugins/dp/dp_zenon.mll" 160 29384 29385 "plugins/dp/dp_zenon.mll" 166 29601 29642
+)
+"plugins/dp/dp_zenon.mll" 159 29350 29368 "plugins/dp/dp_zenon.mll" 159 29350 29372
+type(
+  (string * Fol.typ) list
+)
+ident(
+  def vars "plugins/dp/dp_zenon.mll" 160 29384 29385 "plugins/dp/dp_zenon.mll" 166 29601 29642
+)
+"plugins/dp/dp_zenon.mll" 159 29350 29374 "plugins/dp/dp_zenon.mll" 159 29350 29376
+type(
+  Fol.typ
+)
+ident(
+  def ty "plugins/dp/dp_zenon.mll" 160 29384 29385 "plugins/dp/dp_zenon.mll" 166 29601 29642
+)
+"plugins/dp/dp_zenon.mll" 159 29350 29378 "plugins/dp/dp_zenon.mll" 159 29350 29379
+type(
+  Fol.term
+)
+ident(
+  def t "plugins/dp/dp_zenon.mll" 160 29384 29385 "plugins/dp/dp_zenon.mll" 166 29601 29642
+)
+"plugins/dp/dp_zenon.mll" 159 29350 29356 "plugins/dp/dp_zenon.mll" 159 29350 29380
+type(
+  Dp_why.proof
+)
+"plugins/dp/dp_zenon.mll" 160 29384 29385 "plugins/dp/dp_zenon.mll" 160 29384 29393
+type(
+  Proof_type.tactic -> Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENS
+)
+"plugins/dp/dp_zenon.mll" 161 29394 29402 "plugins/dp/dp_zenon.mll" 161 29394 29404
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/dp/dp_zenon.mll" 162 29408 29414 "plugins/dp/dp_zenon.mll" 165 29553 29599
+)
+"plugins/dp/dp_zenon.mll" 162 29408 29418 "plugins/dp/dp_zenon.mll" 162 29408 29419
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 162 29408 29422 "plugins/dp/dp_zenon.mll" 162 29408 29439
+type(
+  string -> (string * Fol.typ) list -> Fol.term -> string
+)
+ident(
+  ext_ref Coq.fun_def_axiom
+)
+"plugins/dp/dp_zenon.mll" 162 29408 29440 "plugins/dp/dp_zenon.mll" 162 29408 29441
+type(
+  string
+)
+ident(
+  int_ref f "plugins/dp/dp_zenon.mll" 159 29350 29365 "plugins/dp/dp_zenon.mll" 159 29350 29366
+)
+"plugins/dp/dp_zenon.mll" 162 29408 29442 "plugins/dp/dp_zenon.mll" 162 29408 29446
+type(
+  (string * Fol.typ) list
+)
+ident(
+  int_ref vars "plugins/dp/dp_zenon.mll" 159 29350 29368 "plugins/dp/dp_zenon.mll" 159 29350 29372
+)
+"plugins/dp/dp_zenon.mll" 162 29408 29447 "plugins/dp/dp_zenon.mll" 162 29408 29448
+type(
+  Fol.term
+)
+ident(
+  int_ref t "plugins/dp/dp_zenon.mll" 159 29350 29378 "plugins/dp/dp_zenon.mll" 159 29350 29379
+)
+"plugins/dp/dp_zenon.mll" 162 29408 29422 "plugins/dp/dp_zenon.mll" 162 29408 29448
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 163 29452 29461 "plugins/dp/dp_zenon.mll" 163 29452 29462
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/dp/dp_zenon.mll" 163 29452 29462 "plugins/dp/dp_zenon.mll" 163 29452 29467
+type(
+  bool ref
+)
+ident(
+  int_ref debug "plugins/dp/dp_zenon.mll" 13 144 150 "plugins/dp/dp_zenon.mll" 13 144 155
+)
+"plugins/dp/dp_zenon.mll" 163 29452 29461 "plugins/dp/dp_zenon.mll" 163 29452 29467
+type(
+  bool
+)
+"plugins/dp/dp_zenon.mll" 163 29452 29473 "plugins/dp/dp_zenon.mll" 163 29452 29487
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"plugins/dp/dp_zenon.mll" 163 29452 29488 "plugins/dp/dp_zenon.mll" 163 29452 29510
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_zenon.mll" 163 29452 29511 "plugins/dp/dp_zenon.mll" 163 29452 29512
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/dp_zenon.mll" 162 29408 29418 "plugins/dp/dp_zenon.mll" 162 29408 29419
+)
+"plugins/dp/dp_zenon.mll" 163 29452 29473 "plugins/dp/dp_zenon.mll" 163 29452 29512
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 163 29452 29458 "plugins/dp/dp_zenon.mll" 163 29452 29512
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 164 29514 29524 "plugins/dp/dp_zenon.mll" 164 29514 29525
+type(
+  Term.constr
+)
+"plugins/dp/dp_zenon.mll" 164 29514 29528 "plugins/dp/dp_zenon.mll" 164 29514 29544
+type(
+  Proof_type.goal Tacmach.sigma -> string -> Term.constr
+)
+ident(
+  int_ref constr_of_string "plugins/dp/dp_zenon.mll" 91 27095 27101 "plugins/dp/dp_zenon.mll" 91 27095 27117
+)
+"plugins/dp/dp_zenon.mll" 164 29514 29545 "plugins/dp/dp_zenon.mll" 164 29514 29547
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/dp/dp_zenon.mll" 161 29394 29402 "plugins/dp/dp_zenon.mll" 161 29394 29404
+)
+"plugins/dp/dp_zenon.mll" 164 29514 29548 "plugins/dp/dp_zenon.mll" 164 29514 29549
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/dp_zenon.mll" 162 29408 29418 "plugins/dp/dp_zenon.mll" 162 29408 29419
+)
+"plugins/dp/dp_zenon.mll" 164 29514 29528 "plugins/dp/dp_zenon.mll" 164 29514 29549
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/dp/dp_zenon.mll" 165 29553 29559 "plugins/dp/dp_zenon.mll" 165 29553 29569
+type(
+  Names.name -> Term.types -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.assert_tac
+)
+"plugins/dp/dp_zenon.mll" 165 29553 29577 "plugins/dp/dp_zenon.mll" 165 29553 29589
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+"plugins/dp/dp_zenon.mll" 165 29553 29590 "plugins/dp/dp_zenon.mll" 165 29553 29592
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_zenon.mll" 156 29259 29277 "plugins/dp/dp_zenon.mll" 156 29259 29279
+)
+"plugins/dp/dp_zenon.mll" 165 29553 29576 "plugins/dp/dp_zenon.mll" 165 29553 29593
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/dp/dp_zenon.mll" 165 29553 29570 "plugins/dp/dp_zenon.mll" 165 29553 29594
+type(
+  Names.name
+)
+"plugins/dp/dp_zenon.mll" 165 29553 29595 "plugins/dp/dp_zenon.mll" 165 29553 29596
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/dp/dp_zenon.mll" 164 29514 29524 "plugins/dp/dp_zenon.mll" 164 29514 29525
+)
+"plugins/dp/dp_zenon.mll" 165 29553 29597 "plugins/dp/dp_zenon.mll" 165 29553 29599
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/dp/dp_zenon.mll" 161 29394 29402 "plugins/dp/dp_zenon.mll" 161 29394 29404
+)
+"plugins/dp/dp_zenon.mll" 165 29553 29559 "plugins/dp/dp_zenon.mll" 165 29553 29599
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/dp/dp_zenon.mll" 164 29514 29520 "plugins/dp/dp_zenon.mll" 165 29553 29599
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/dp/dp_zenon.mll" 163 29452 29458 "plugins/dp/dp_zenon.mll" 165 29553 29599
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/dp/dp_zenon.mll" 162 29408 29414 "plugins/dp/dp_zenon.mll" 165 29553 29599
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/dp/dp_zenon.mll" 161 29394 29397 "plugins/dp/dp_zenon.mll" 165 29553 29600
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/dp/dp_zenon.mll" 166 29601 29605 "plugins/dp/dp_zenon.mll" 166 29601 29612
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHEN
+)
+"plugins/dp/dp_zenon.mll" 166 29601 29613 "plugins/dp/dp_zenon.mll" 166 29601 29619
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.intros
+)
+"plugins/dp/dp_zenon.mll" 166 29601 29620 "plugins/dp/dp_zenon.mll" 166 29601 29631
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.reflexivity
+)
+"plugins/dp/dp_zenon.mll" 166 29601 29605 "plugins/dp/dp_zenon.mll" 166 29601 29631
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 166 29601 29633 "plugins/dp/dp_zenon.mll" 166 29601 29641
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIDTAC
+)
+"plugins/dp/dp_zenon.mll" 166 29601 29604 "plugins/dp/dp_zenon.mll" 166 29601 29642
+type(
+  Proof_type.tactic list
+)
+"plugins/dp/dp_zenon.mll" 160 29384 29385 "plugins/dp/dp_zenon.mll" 166 29601 29642
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 156 29259 29282 "plugins/dp/dp_zenon.mll" 166 29601 29642
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 168 29644 29650 "plugins/dp/dp_zenon.mll" 168 29644 29662
+type(
+  string ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def exact_string "plugins/dp/dp_zenon.mll" 172 29729 29731 --
+)
+"plugins/dp/dp_zenon.mll" 168 29644 29663 "plugins/dp/dp_zenon.mll" 168 29644 29664
+type(
+  string
+)
+ident(
+  def s "plugins/dp/dp_zenon.mll" 168 29644 29665 "plugins/dp/dp_zenon.mll" 170 29707 29727
+)
+"plugins/dp/dp_zenon.mll" 168 29644 29665 "plugins/dp/dp_zenon.mll" 168 29644 29667
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/dp/dp_zenon.mll" 169 29670 29674 "plugins/dp/dp_zenon.mll" 170 29707 29727
+)
+"plugins/dp/dp_zenon.mll" 169 29670 29678 "plugins/dp/dp_zenon.mll" 169 29670 29679
+type(
+  Term.constr
+)
+"plugins/dp/dp_zenon.mll" 169 29670 29682 "plugins/dp/dp_zenon.mll" 169 29670 29698
+type(
+  Proof_type.goal Tacmach.sigma -> string -> Term.constr
+)
+ident(
+  int_ref constr_of_string "plugins/dp/dp_zenon.mll" 91 27095 27101 "plugins/dp/dp_zenon.mll" 91 27095 27117
+)
+"plugins/dp/dp_zenon.mll" 169 29670 29699 "plugins/dp/dp_zenon.mll" 169 29670 29701
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/dp/dp_zenon.mll" 168 29644 29665 "plugins/dp/dp_zenon.mll" 168 29644 29667
+)
+"plugins/dp/dp_zenon.mll" 169 29670 29702 "plugins/dp/dp_zenon.mll" 169 29670 29703
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/dp_zenon.mll" 168 29644 29663 "plugins/dp/dp_zenon.mll" 168 29644 29664
+)
+"plugins/dp/dp_zenon.mll" 169 29670 29682 "plugins/dp/dp_zenon.mll" 169 29670 29703
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/dp/dp_zenon.mll" 170 29707 29711 "plugins/dp/dp_zenon.mll" 170 29707 29722
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.exact_check
+)
+"plugins/dp/dp_zenon.mll" 170 29707 29723 "plugins/dp/dp_zenon.mll" 170 29707 29724
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/dp/dp_zenon.mll" 169 29670 29678 "plugins/dp/dp_zenon.mll" 169 29670 29679
+)
+"plugins/dp/dp_zenon.mll" 170 29707 29725 "plugins/dp/dp_zenon.mll" 170 29707 29727
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/dp/dp_zenon.mll" 168 29644 29665 "plugins/dp/dp_zenon.mll" 168 29644 29667
+)
+"plugins/dp/dp_zenon.mll" 170 29707 29711 "plugins/dp/dp_zenon.mll" 170 29707 29727
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/dp/dp_zenon.mll" 169 29670 29674 "plugins/dp/dp_zenon.mll" 170 29707 29727
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/dp/dp_zenon.mll" 172 29729 29735 "plugins/dp/dp_zenon.mll" 172 29729 29753
+type(
+  lemma list * string -> Proof_type.tactic
+)
+ident(
+  def interp_zenon_proof "plugins/dp/dp_zenon.mll" 182 30001 30003 --
+)
+"plugins/dp/dp_zenon.mll" 172 29729 29755 "plugins/dp/dp_zenon.mll" 172 29729 29757
+type(
+  lemma list
+)
+ident(
+  def ll "plugins/dp/dp_zenon.mll" 173 29763 29767 "plugins/dp/dp_zenon.mll" 180 29946 29999
+)
+"plugins/dp/dp_zenon.mll" 172 29729 29758 "plugins/dp/dp_zenon.mll" 172 29729 29759
+type(
+  string
+)
+ident(
+  def p "plugins/dp/dp_zenon.mll" 173 29763 29767 "plugins/dp/dp_zenon.mll" 180 29946 29999
+)
+"plugins/dp/dp_zenon.mll" 172 29729 29754 "plugins/dp/dp_zenon.mll" 172 29729 29760
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 173 29763 29771 "plugins/dp/dp_zenon.mll" 173 29763 29783
+type(
+  lemma ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/dp/dp_zenon.mll" 173 29763 29784 "plugins/dp/dp_zenon.mll" 173 29763 29785
+type(
+  lemma
+)
+ident(
+  def l "plugins/dp/dp_zenon.mll" 173 29763 29786 "plugins/dp/dp_zenon.mll" 178 29935 29938
+)
+"plugins/dp/dp_zenon.mll" 173 29763 29786 "plugins/dp/dp_zenon.mll" 173 29763 29788
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/dp/dp_zenon.mll" 174 29791 29797 "plugins/dp/dp_zenon.mll" 178 29935 29938
+)
+"plugins/dp/dp_zenon.mll" 174 29791 29801 "plugins/dp/dp_zenon.mll" 174 29791 29803
+type(
+  Term.constr
+)
+"plugins/dp/dp_zenon.mll" 174 29791 29806 "plugins/dp/dp_zenon.mll" 174 29791 29822
+type(
+  Proof_type.goal Tacmach.sigma -> string -> Term.constr
+)
+ident(
+  int_ref constr_of_string "plugins/dp/dp_zenon.mll" 91 27095 27101 "plugins/dp/dp_zenon.mll" 91 27095 27117
+)
+"plugins/dp/dp_zenon.mll" 174 29791 29823 "plugins/dp/dp_zenon.mll" 174 29791 29825
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/dp/dp_zenon.mll" 173 29763 29786 "plugins/dp/dp_zenon.mll" 173 29763 29788
+)
+"plugins/dp/dp_zenon.mll" 174 29791 29826 "plugins/dp/dp_zenon.mll" 174 29791 29827
+type(
+  lemma
+)
+ident(
+  int_ref l "plugins/dp/dp_zenon.mll" 173 29763 29784 "plugins/dp/dp_zenon.mll" 173 29763 29785
+)
+"plugins/dp/dp_zenon.mll" 174 29791 29826 "plugins/dp/dp_zenon.mll" 174 29791 29834
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 174 29791 29806 "plugins/dp/dp_zenon.mll" 174 29791 29834
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/dp/dp_zenon.mll" 175 29838 29844 "plugins/dp/dp_zenon.mll" 175 29838 29852
+type(
+  Proof_type.tactic -> Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENS
+)
+"plugins/dp/dp_zenon.mll" 176 29853 29855 "plugins/dp/dp_zenon.mll" 176 29853 29865
+type(
+  Names.name -> Term.types -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.assert_tac
+)
+"plugins/dp/dp_zenon.mll" 176 29853 29873 "plugins/dp/dp_zenon.mll" 176 29853 29885
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+"plugins/dp/dp_zenon.mll" 176 29853 29886 "plugins/dp/dp_zenon.mll" 176 29853 29887
+type(
+  lemma
+)
+ident(
+  int_ref l "plugins/dp/dp_zenon.mll" 173 29763 29784 "plugins/dp/dp_zenon.mll" 173 29763 29785
+)
+"plugins/dp/dp_zenon.mll" 176 29853 29886 "plugins/dp/dp_zenon.mll" 176 29853 29892
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 176 29853 29872 "plugins/dp/dp_zenon.mll" 176 29853 29893
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/dp/dp_zenon.mll" 176 29853 29866 "plugins/dp/dp_zenon.mll" 176 29853 29894
+type(
+  Names.name
+)
+"plugins/dp/dp_zenon.mll" 176 29853 29895 "plugins/dp/dp_zenon.mll" 176 29853 29897
+type(
+  Term.types
+)
+ident(
+  int_ref ty "plugins/dp/dp_zenon.mll" 174 29791 29801 "plugins/dp/dp_zenon.mll" 174 29791 29803
+)
+"plugins/dp/dp_zenon.mll" 176 29853 29854 "plugins/dp/dp_zenon.mll" 176 29853 29898
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 177 29899 29901 "plugins/dp/dp_zenon.mll" 177 29899 29913
+type(
+  string -> Proof_type.tactic
+)
+ident(
+  int_ref exact_string "plugins/dp/dp_zenon.mll" 168 29644 29650 "plugins/dp/dp_zenon.mll" 168 29644 29662
+)
+"plugins/dp/dp_zenon.mll" 177 29899 29914 "plugins/dp/dp_zenon.mll" 177 29899 29915
+type(
+  lemma
+)
+ident(
+  int_ref l "plugins/dp/dp_zenon.mll" 173 29763 29784 "plugins/dp/dp_zenon.mll" 173 29763 29785
+)
+"plugins/dp/dp_zenon.mll" 177 29899 29914 "plugins/dp/dp_zenon.mll" 177 29899 29923
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 177 29899 29901 "plugins/dp/dp_zenon.mll" 177 29899 29923
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 177 29899 29925 "plugins/dp/dp_zenon.mll" 177 29899 29933
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIDTAC
+)
+"plugins/dp/dp_zenon.mll" 177 29899 29900 "plugins/dp/dp_zenon.mll" 177 29899 29934
+type(
+  Proof_type.tactic list
+)
+"plugins/dp/dp_zenon.mll" 178 29935 29936 "plugins/dp/dp_zenon.mll" 178 29935 29938
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/dp/dp_zenon.mll" 173 29763 29786 "plugins/dp/dp_zenon.mll" 173 29763 29788
+)
+"plugins/dp/dp_zenon.mll" 175 29838 29844 "plugins/dp/dp_zenon.mll" 178 29935 29938
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/dp/dp_zenon.mll" 174 29791 29797 "plugins/dp/dp_zenon.mll" 178 29935 29938
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/dp/dp_zenon.mll" 180 29946 29950 "plugins/dp/dp_zenon.mll" 180 29946 29957
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHEN
+)
+"plugins/dp/dp_zenon.mll" 180 29946 29959 "plugins/dp/dp_zenon.mll" 180 29946 29965
+type(
+  (lemma -> Proof_type.tactic) -> lemma list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclMAP
+)
+"plugins/dp/dp_zenon.mll" 180 29946 29966 "plugins/dp/dp_zenon.mll" 180 29946 29978
+type(
+  lemma -> Proof_type.tactic
+)
+ident(
+  int_ref interp_lemma "plugins/dp/dp_zenon.mll" 173 29763 29771 "plugins/dp/dp_zenon.mll" 173 29763 29783
+)
+"plugins/dp/dp_zenon.mll" 180 29946 29979 "plugins/dp/dp_zenon.mll" 180 29946 29981
+type(
+  lemma list
+)
+ident(
+  int_ref ll "plugins/dp/dp_zenon.mll" 172 29729 29755 "plugins/dp/dp_zenon.mll" 172 29729 29757
+)
+"plugins/dp/dp_zenon.mll" 180 29946 29958 "plugins/dp/dp_zenon.mll" 180 29946 29982
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 180 29946 29984 "plugins/dp/dp_zenon.mll" 180 29946 29996
+type(
+  string -> Proof_type.tactic
+)
+ident(
+  int_ref exact_string "plugins/dp/dp_zenon.mll" 168 29644 29650 "plugins/dp/dp_zenon.mll" 168 29644 29662
+)
+"plugins/dp/dp_zenon.mll" 180 29946 29997 "plugins/dp/dp_zenon.mll" 180 29946 29998
+type(
+  string
+)
+ident(
+  int_ref p "plugins/dp/dp_zenon.mll" 172 29729 29758 "plugins/dp/dp_zenon.mll" 172 29729 29759
+)
+"plugins/dp/dp_zenon.mll" 180 29946 29983 "plugins/dp/dp_zenon.mll" 180 29946 29999
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 180 29946 29950 "plugins/dp/dp_zenon.mll" 180 29946 29999
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 173 29763 29767 "plugins/dp/dp_zenon.mll" 180 29946 29999
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 182 30001 30007 "plugins/dp/dp_zenon.mll" 182 30001 30022
+type(
+  string -> Proof_type.tactic
+)
+ident(
+  def proof_from_file "plugins/dp/dp_zenon.mll" 187 30175 30239 --
+)
+"plugins/dp/dp_zenon.mll" 182 30001 30023 "plugins/dp/dp_zenon.mll" 182 30001 30024
+type(
+  string
+)
+ident(
+  def f "plugins/dp/dp_zenon.mll" 183 30027 30031 "plugins/dp/dp_zenon.mll" 187 30175 30239
+)
+"plugins/dp/dp_zenon.mll" 183 30027 30031 "plugins/dp/dp_zenon.mll" 183 30027 30037
+type(
+  string list ref
+)
+ident(
+  int_ref axioms "plugins/dp/dp_zenon.mll" 21 340 346 "plugins/dp/dp_zenon.mll" 21 340 352
+)
+"plugins/dp/dp_zenon.mll" 183 30027 30038 "plugins/dp/dp_zenon.mll" 183 30027 30040
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/dp/dp_zenon.mll" 183 30027 30041 "plugins/dp/dp_zenon.mll" 183 30027 30043
+type(
+  string list
+)
+"plugins/dp/dp_zenon.mll" 183 30027 30031 "plugins/dp/dp_zenon.mll" 183 30027 30043
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 184 30045 30049 "plugins/dp/dp_zenon.mll" 184 30045 30054
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msgnl
+)
+"plugins/dp/dp_zenon.mll" 184 30045 30056 "plugins/dp/dp_zenon.mll" 184 30045 30059
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/dp/dp_zenon.mll" 184 30045 30060 "plugins/dp/dp_zenon.mll" 184 30045 30078
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 184 30045 30056 "plugins/dp/dp_zenon.mll" 184 30045 30078
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/dp/dp_zenon.mll" 184 30045 30079 "plugins/dp/dp_zenon.mll" 184 30045 30081
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/dp/dp_zenon.mll" 184 30045 30082 "plugins/dp/dp_zenon.mll" 184 30045 30085
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/dp/dp_zenon.mll" 184 30045 30086 "plugins/dp/dp_zenon.mll" 184 30045 30087
+type(
+  string
+)
+ident(
+  int_ref f "plugins/dp/dp_zenon.mll" 182 30001 30023 "plugins/dp/dp_zenon.mll" 182 30001 30024
+)
+"plugins/dp/dp_zenon.mll" 184 30045 30082 "plugins/dp/dp_zenon.mll" 184 30045 30087
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/dp/dp_zenon.mll" 184 30045 30055 "plugins/dp/dp_zenon.mll" 184 30045 30088
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/dp/dp_zenon.mll" 184 30045 30049 "plugins/dp/dp_zenon.mll" 184 30045 30088
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 185 30090 30098 "plugins/dp/dp_zenon.mll" 185 30090 30100
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 185 30090 30103 "plugins/dp/dp_zenon.mll" 185 30090 30119
+type(
+  string -> lemma list * string
+)
+ident(
+  int_ref read_zenon_proof "plugins/dp/dp_zenon.mll" 82 26879 26885 "plugins/dp/dp_zenon.mll" 82 26879 26901
+)
+"plugins/dp/dp_zenon.mll" 185 30090 30120 "plugins/dp/dp_zenon.mll" 185 30090 30121
+type(
+  string
+)
+ident(
+  int_ref f "plugins/dp/dp_zenon.mll" 182 30001 30023 "plugins/dp/dp_zenon.mll" 182 30001 30024
+)
+"plugins/dp/dp_zenon.mll" 185 30090 30103 "plugins/dp/dp_zenon.mll" 185 30090 30121
+call(
+  stack
+)
+type(
+  lemma list * string
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30129 "plugins/dp/dp_zenon.mll" 186 30125 30134
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msgnl
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30136 "plugins/dp/dp_zenon.mll" 186 30125 30139
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30140 "plugins/dp/dp_zenon.mll" 186 30125 30156
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30136 "plugins/dp/dp_zenon.mll" 186 30125 30156
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30157 "plugins/dp/dp_zenon.mll" 186 30125 30159
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30160 "plugins/dp/dp_zenon.mll" 186 30125 30163
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30165 "plugins/dp/dp_zenon.mll" 186 30125 30168
+type(
+  lemma list * string -> string
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30169 "plugins/dp/dp_zenon.mll" 186 30125 30171
+type(
+  lemma list * string
+)
+ident(
+  int_ref zp "plugins/dp/dp_zenon.mll" 185 30090 30098 "plugins/dp/dp_zenon.mll" 185 30090 30100
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30164 "plugins/dp/dp_zenon.mll" 186 30125 30172
+type(
+  string
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30160 "plugins/dp/dp_zenon.mll" 186 30125 30172
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30135 "plugins/dp/dp_zenon.mll" 186 30125 30173
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30129 "plugins/dp/dp_zenon.mll" 186 30125 30173
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_zenon.mll" 187 30175 30179 "plugins/dp/dp_zenon.mll" 187 30175 30186
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHEN
+)
+"plugins/dp/dp_zenon.mll" 187 30175 30188 "plugins/dp/dp_zenon.mll" 187 30175 30194
+type(
+  (string -> Proof_type.tactic) -> string list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclMAP
+)
+"plugins/dp/dp_zenon.mll" 187 30175 30195 "plugins/dp/dp_zenon.mll" 187 30175 30206
+type(
+  string -> Proof_type.tactic
+)
+ident(
+  int_ref prove_axiom "plugins/dp/dp_zenon.mll" 156 29259 29265 "plugins/dp/dp_zenon.mll" 156 29259 29276
+)
+"plugins/dp/dp_zenon.mll" 187 30175 30207 "plugins/dp/dp_zenon.mll" 187 30175 30208
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/dp/dp_zenon.mll" 187 30175 30208 "plugins/dp/dp_zenon.mll" 187 30175 30214
+type(
+  string list ref
+)
+ident(
+  int_ref axioms "plugins/dp/dp_zenon.mll" 21 340 346 "plugins/dp/dp_zenon.mll" 21 340 352
+)
+"plugins/dp/dp_zenon.mll" 187 30175 30207 "plugins/dp/dp_zenon.mll" 187 30175 30214
+type(
+  string list
+)
+"plugins/dp/dp_zenon.mll" 187 30175 30187 "plugins/dp/dp_zenon.mll" 187 30175 30215
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 187 30175 30217 "plugins/dp/dp_zenon.mll" 187 30175 30235
+type(
+  lemma list * string -> Proof_type.tactic
+)
+ident(
+  int_ref interp_zenon_proof "plugins/dp/dp_zenon.mll" 172 29729 29735 "plugins/dp/dp_zenon.mll" 172 29729 29753
+)
+"plugins/dp/dp_zenon.mll" 187 30175 30236 "plugins/dp/dp_zenon.mll" 187 30175 30238
+type(
+  lemma list * string
+)
+ident(
+  int_ref zp "plugins/dp/dp_zenon.mll" 185 30090 30098 "plugins/dp/dp_zenon.mll" 185 30090 30100
+)
+"plugins/dp/dp_zenon.mll" 187 30175 30216 "plugins/dp/dp_zenon.mll" 187 30175 30239
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 187 30175 30179 "plugins/dp/dp_zenon.mll" 187 30175 30239
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 186 30125 30129 "plugins/dp/dp_zenon.mll" 187 30175 30239
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 185 30090 30094 "plugins/dp/dp_zenon.mll" 187 30175 30239
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 184 30045 30049 "plugins/dp/dp_zenon.mll" 187 30175 30239
+type(
+  Proof_type.tactic
+)
+"plugins/dp/dp_zenon.mll" 183 30027 30031 "plugins/dp/dp_zenon.mll" 187 30175 30239
+type(
+  Proof_type.tactic
+)

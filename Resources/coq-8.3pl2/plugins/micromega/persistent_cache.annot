@@ -1,0 +1,1513 @@
+"plugins/micromega/persistent_cache.ml" 58 2194 2211 "plugins/micromega/persistent_cache.ml" 58 2194 2228
+call(
+  stack
+)
+"plugins/micromega/persistent_cache.ml" 77 2419 2423 "plugins/micromega/persistent_cache.ml" 77 2419 2429
+type(
+  int -> string -> 'a t
+)
+ident(
+  def create "plugins/micromega/persistent_cache.ml" 84 2520 2520 "plugins/micromega/persistent_cache.ml" 175 4506 4509
+)
+"plugins/micromega/persistent_cache.ml" 77 2419 2430 "plugins/micromega/persistent_cache.ml" 77 2419 2431
+type(
+  int
+)
+ident(
+  def i "plugins/micromega/persistent_cache.ml" 77 2419 2432 "plugins/micromega/persistent_cache.ml" 82 2515 2518
+)
+"plugins/micromega/persistent_cache.ml" 77 2419 2432 "plugins/micromega/persistent_cache.ml" 77 2419 2433
+type(
+  string
+)
+ident(
+  def f "plugins/micromega/persistent_cache.ml" 78 2436 2438 "plugins/micromega/persistent_cache.ml" 82 2515 2518
+)
+"plugins/micromega/persistent_cache.ml" 79 2440 2452 "plugins/micromega/persistent_cache.ml" 79 2440 2464
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out_bin
+)
+"plugins/micromega/persistent_cache.ml" 79 2440 2465 "plugins/micromega/persistent_cache.ml" 79 2440 2466
+type(
+  string
+)
+ident(
+  int_ref f "plugins/micromega/persistent_cache.ml" 77 2419 2432 "plugins/micromega/persistent_cache.ml" 77 2419 2433
+)
+"plugins/micromega/persistent_cache.ml" 79 2440 2452 "plugins/micromega/persistent_cache.ml" 79 2440 2466
+call(
+  stack
+)
+type(
+  out_channel
+)
+"plugins/micromega/persistent_cache.ml" 80 2469 2482 "plugins/micromega/persistent_cache.ml" 80 2469 2486
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 81 2489 2500 "plugins/micromega/persistent_cache.ml" 81 2489 2512
+type(
+  int -> 'a Table.t
+)
+ident(
+  ext_ref Table.create
+)
+"plugins/micromega/persistent_cache.ml" 81 2489 2513 "plugins/micromega/persistent_cache.ml" 81 2489 2514
+type(
+  int
+)
+ident(
+  int_ref i "plugins/micromega/persistent_cache.ml" 77 2419 2430 "plugins/micromega/persistent_cache.ml" 77 2419 2431
+)
+"plugins/micromega/persistent_cache.ml" 81 2489 2500 "plugins/micromega/persistent_cache.ml" 81 2489 2514
+call(
+  stack
+)
+type(
+  'a Table.t
+)
+"plugins/micromega/persistent_cache.ml" 78 2436 2438 "plugins/micromega/persistent_cache.ml" 82 2515 2518
+type(
+  'a t
+)
+"plugins/micromega/persistent_cache.ml" 84 2520 2524 "plugins/micromega/persistent_cache.ml" 84 2520 2531
+type(
+  (unit -> 'b) -> (unit -> 'c) -> 'b
+)
+ident(
+  def finally "plugins/micromega/persistent_cache.ml" 94 2655 2655 "plugins/micromega/persistent_cache.ml" 175 4506 4509
+)
+"plugins/micromega/persistent_cache.ml" 84 2520 2532 "plugins/micromega/persistent_cache.ml" 84 2520 2533
+type(
+  unit -> 'b
+)
+ident(
+  def f "plugins/micromega/persistent_cache.ml" 84 2520 2534 "plugins/micromega/persistent_cache.ml" 91 2638 2652
+)
+"plugins/micromega/persistent_cache.ml" 84 2520 2534 "plugins/micromega/persistent_cache.ml" 84 2520 2537
+type(
+  unit -> 'c
+)
+ident(
+  def rst "plugins/micromega/persistent_cache.ml" 85 2540 2542 "plugins/micromega/persistent_cache.ml" 91 2638 2652
+)
+"plugins/micromega/persistent_cache.ml" 86 2546 2554 "plugins/micromega/persistent_cache.ml" 86 2546 2557
+type(
+  'b
+)
+ident(
+  def res "plugins/micromega/persistent_cache.ml" 87 2568 2574 "plugins/micromega/persistent_cache.ml" 87 2568 2586
+)
+"plugins/micromega/persistent_cache.ml" 86 2546 2560 "plugins/micromega/persistent_cache.ml" 86 2546 2561
+type(
+  unit -> 'b
+)
+ident(
+  int_ref f "plugins/micromega/persistent_cache.ml" 84 2520 2532 "plugins/micromega/persistent_cache.ml" 84 2520 2533
+)
+"plugins/micromega/persistent_cache.ml" 86 2546 2562 "plugins/micromega/persistent_cache.ml" 86 2546 2564
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 86 2546 2560 "plugins/micromega/persistent_cache.ml" 86 2546 2564
+call(
+  stack
+)
+type(
+  'b
+)
+"plugins/micromega/persistent_cache.ml" 87 2568 2574 "plugins/micromega/persistent_cache.ml" 87 2568 2577
+type(
+  unit -> 'c
+)
+ident(
+  int_ref rst "plugins/micromega/persistent_cache.ml" 84 2520 2534 "plugins/micromega/persistent_cache.ml" 84 2520 2537
+)
+"plugins/micromega/persistent_cache.ml" 87 2568 2578 "plugins/micromega/persistent_cache.ml" 87 2568 2580
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 87 2568 2574 "plugins/micromega/persistent_cache.ml" 87 2568 2580
+call(
+  stack
+)
+type(
+  'c
+)
+"plugins/micromega/persistent_cache.ml" 87 2568 2583 "plugins/micromega/persistent_cache.ml" 87 2568 2586
+type(
+  'b
+)
+ident(
+  int_ref res "plugins/micromega/persistent_cache.ml" 86 2546 2554 "plugins/micromega/persistent_cache.ml" 86 2546 2557
+)
+"plugins/micromega/persistent_cache.ml" 87 2568 2574 "plugins/micromega/persistent_cache.ml" 87 2568 2586
+type(
+  'b
+)
+"plugins/micromega/persistent_cache.ml" 86 2546 2550 "plugins/micromega/persistent_cache.ml" 87 2568 2586
+type(
+  'b
+)
+"plugins/micromega/persistent_cache.ml" 88 2587 2594 "plugins/micromega/persistent_cache.ml" 88 2587 2595
+type(
+  exn
+)
+ident(
+  def x "plugins/micromega/persistent_cache.ml" 89 2599 2603 "plugins/micromega/persistent_cache.ml" 91 2638 2652
+)
+"plugins/micromega/persistent_cache.ml" 89 2599 2608 "plugins/micromega/persistent_cache.ml" 89 2599 2611
+type(
+  unit -> 'c
+)
+ident(
+  int_ref rst "plugins/micromega/persistent_cache.ml" 84 2520 2534 "plugins/micromega/persistent_cache.ml" 84 2520 2537
+)
+"plugins/micromega/persistent_cache.ml" 89 2599 2612 "plugins/micromega/persistent_cache.ml" 89 2599 2614
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 89 2599 2608 "plugins/micromega/persistent_cache.ml" 89 2599 2614
+call(
+  stack
+)
+type(
+  'c
+)
+"plugins/micromega/persistent_cache.ml" 90 2615 2624 "plugins/micromega/persistent_cache.ml" 90 2615 2625
+type(
+  exn
+)
+"plugins/micromega/persistent_cache.ml" 90 2615 2630 "plugins/micromega/persistent_cache.ml" 90 2615 2635
+type(
+  exn -> 'c
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/micromega/persistent_cache.ml" 90 2615 2636 "plugins/micromega/persistent_cache.ml" 90 2615 2637
+type(
+  exn
+)
+ident(
+  int_ref x "plugins/micromega/persistent_cache.ml" 88 2587 2594 "plugins/micromega/persistent_cache.ml" 88 2587 2595
+)
+"plugins/micromega/persistent_cache.ml" 90 2615 2630 "plugins/micromega/persistent_cache.ml" 90 2615 2637
+type(
+  'c
+)
+"plugins/micromega/persistent_cache.ml" 89 2599 2603 "plugins/micromega/persistent_cache.ml" 91 2638 2643
+type(
+  'c
+)
+"plugins/micromega/persistent_cache.ml" 91 2638 2645 "plugins/micromega/persistent_cache.ml" 91 2638 2650
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/micromega/persistent_cache.ml" 91 2638 2651 "plugins/micromega/persistent_cache.ml" 91 2638 2652
+type(
+  exn
+)
+ident(
+  int_ref x "plugins/micromega/persistent_cache.ml" 88 2587 2594 "plugins/micromega/persistent_cache.ml" 88 2587 2595
+)
+"plugins/micromega/persistent_cache.ml" 91 2638 2645 "plugins/micromega/persistent_cache.ml" 91 2638 2652
+type(
+  'b
+)
+"plugins/micromega/persistent_cache.ml" 89 2599 2603 "plugins/micromega/persistent_cache.ml" 91 2638 2652
+type(
+  'b
+)
+"plugins/micromega/persistent_cache.ml" 85 2540 2542 "plugins/micromega/persistent_cache.ml" 91 2638 2652
+type(
+  'b
+)
+"plugins/micromega/persistent_cache.ml" 94 2655 2659 "plugins/micromega/persistent_cache.ml" 94 2655 2672
+type(
+  in_channel -> 'd option
+)
+ident(
+  def read_key_elem "plugins/micromega/persistent_cache.ml" 101 2803 2803 "plugins/micromega/persistent_cache.ml" 175 4506 4509
+)
+"plugins/micromega/persistent_cache.ml" 94 2655 2673 "plugins/micromega/persistent_cache.ml" 94 2655 2677
+type(
+  in_channel
+)
+ident(
+  def inch "plugins/micromega/persistent_cache.ml" 95 2680 2682 "plugins/micromega/persistent_cache.ml" 99 2756 2801
+)
+"plugins/micromega/persistent_cache.ml" 96 2686 2696 "plugins/micromega/persistent_cache.ml" 96 2686 2716
+type(
+  in_channel -> 'd
+)
+ident(
+  ext_ref Marshal.from_channel
+)
+"plugins/micromega/persistent_cache.ml" 96 2686 2717 "plugins/micromega/persistent_cache.ml" 96 2686 2721
+type(
+  in_channel
+)
+ident(
+  int_ref inch "plugins/micromega/persistent_cache.ml" 94 2655 2673 "plugins/micromega/persistent_cache.ml" 94 2655 2677
+)
+"plugins/micromega/persistent_cache.ml" 96 2686 2695 "plugins/micromega/persistent_cache.ml" 96 2686 2722
+call(
+  stack
+)
+type(
+  'd
+)
+"plugins/micromega/persistent_cache.ml" 96 2686 2690 "plugins/micromega/persistent_cache.ml" 96 2686 2722
+type(
+  'd option
+)
+"plugins/micromega/persistent_cache.ml" 98 2730 2736 "plugins/micromega/persistent_cache.ml" 98 2730 2747
+type(
+  exn
+)
+"plugins/micromega/persistent_cache.ml" 98 2730 2751 "plugins/micromega/persistent_cache.ml" 98 2730 2755
+type(
+  'd option
+)
+"plugins/micromega/persistent_cache.ml" 99 2756 2765 "plugins/micromega/persistent_cache.ml" 99 2756 2766
+type(
+  exn
+)
+"plugins/micromega/persistent_cache.ml" 99 2756 2777 "plugins/micromega/persistent_cache.ml" 99 2756 2782
+type(
+  exn -> 'd option
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/micromega/persistent_cache.ml" 99 2756 2783 "plugins/micromega/persistent_cache.ml" 99 2756 2801
+type(
+  exn
+)
+"plugins/micromega/persistent_cache.ml" 99 2756 2777 "plugins/micromega/persistent_cache.ml" 99 2756 2801
+type(
+  'd option
+)
+"plugins/micromega/persistent_cache.ml" 95 2680 2682 "plugins/micromega/persistent_cache.ml" 99 2756 2801
+type(
+  'd option
+)
+"plugins/micromega/persistent_cache.ml" 101 2803 2807 "plugins/micromega/persistent_cache.ml" 101 2803 2814
+type(
+  string -> 'e t
+)
+ident(
+  def open_in "plugins/micromega/persistent_cache.ml" 136 3687 3687 "plugins/micromega/persistent_cache.ml" 175 4506 4509
+)
+"plugins/micromega/persistent_cache.ml" 101 2803 2815 "plugins/micromega/persistent_cache.ml" 101 2803 2816
+type(
+  string
+)
+ident(
+  def f "plugins/micromega/persistent_cache.ml" 102 2819 2821 "plugins/micromega/persistent_cache.ml" 133 3675 3684
+)
+"plugins/micromega/persistent_cache.ml" 102 2819 2825 "plugins/micromega/persistent_cache.ml" 102 2819 2830
+type(
+  open_flag list
+)
+"plugins/micromega/persistent_cache.ml" 102 2819 2834 "plugins/micromega/persistent_cache.ml" 102 2819 2845
+type(
+  open_flag
+)
+"plugins/micromega/persistent_cache.ml" 102 2819 2846 "plugins/micromega/persistent_cache.ml" 102 2819 2857
+type(
+  open_flag
+)
+"plugins/micromega/persistent_cache.ml" 102 2819 2858 "plugins/micromega/persistent_cache.ml" 102 2819 2868
+type(
+  open_flag
+)
+"plugins/micromega/persistent_cache.ml" 102 2819 2833 "plugins/micromega/persistent_cache.ml" 102 2819 2869
+type(
+  open_flag list
+)
+"plugins/micromega/persistent_cache.ml" 103 2873 2879 "plugins/micromega/persistent_cache.ml" 103 2873 2883
+type(
+  in_channel
+)
+"plugins/micromega/persistent_cache.ml" 103 2873 2886 "plugins/micromega/persistent_cache.ml" 103 2873 2897
+type(
+  open_flag list -> int -> string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in_gen
+)
+"plugins/micromega/persistent_cache.ml" 103 2873 2898 "plugins/micromega/persistent_cache.ml" 103 2873 2903
+type(
+  open_flag list
+)
+ident(
+  int_ref flags "plugins/micromega/persistent_cache.ml" 102 2819 2825 "plugins/micromega/persistent_cache.ml" 102 2819 2830
+)
+"plugins/micromega/persistent_cache.ml" 103 2873 2904 "plugins/micromega/persistent_cache.ml" 103 2873 2909
+type(
+  int
+)
+"plugins/micromega/persistent_cache.ml" 103 2873 2910 "plugins/micromega/persistent_cache.ml" 103 2873 2911
+type(
+  string
+)
+ident(
+  int_ref f "plugins/micromega/persistent_cache.ml" 101 2803 2815 "plugins/micromega/persistent_cache.ml" 101 2803 2816
+)
+"plugins/micromega/persistent_cache.ml" 103 2873 2886 "plugins/micromega/persistent_cache.ml" 103 2873 2911
+call(
+  stack
+)
+type(
+  in_channel
+)
+"plugins/micromega/persistent_cache.ml" 104 2915 2921 "plugins/micromega/persistent_cache.ml" 104 2915 2925
+type(
+  'e Table.t
+)
+"plugins/micromega/persistent_cache.ml" 104 2915 2928 "plugins/micromega/persistent_cache.ml" 104 2915 2940
+type(
+  int -> 'e Table.t
+)
+ident(
+  ext_ref Table.create
+)
+"plugins/micromega/persistent_cache.ml" 104 2915 2941 "plugins/micromega/persistent_cache.ml" 104 2915 2943
+type(
+  int
+)
+"plugins/micromega/persistent_cache.ml" 104 2915 2928 "plugins/micromega/persistent_cache.ml" 104 2915 2943
+call(
+  stack
+)
+type(
+  'e Table.t
+)
+"plugins/micromega/persistent_cache.ml" 106 2948 2958 "plugins/micromega/persistent_cache.ml" 106 2948 2963
+type(
+  unit -> unit
+)
+"plugins/micromega/persistent_cache.ml" 106 2948 2964 "plugins/micromega/persistent_cache.ml" 106 2948 2966
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 107 2969 2979 "plugins/micromega/persistent_cache.ml" 107 2969 2992
+type(
+  in_channel -> (Table.key * 'e) option
+)
+ident(
+  int_ref read_key_elem "plugins/micromega/persistent_cache.ml" 94 2655 2659 "plugins/micromega/persistent_cache.ml" 94 2655 2672
+)
+"plugins/micromega/persistent_cache.ml" 107 2969 2993 "plugins/micromega/persistent_cache.ml" 107 2969 2997
+type(
+  in_channel
+)
+ident(
+  int_ref inch "plugins/micromega/persistent_cache.ml" 103 2873 2879 "plugins/micromega/persistent_cache.ml" 103 2873 2883
+)
+"plugins/micromega/persistent_cache.ml" 107 2969 2979 "plugins/micromega/persistent_cache.ml" 107 2969 2997
+call(
+  stack
+)
+type(
+  (Table.key * 'e) option
+)
+"plugins/micromega/persistent_cache.ml" 108 3003 3011 "plugins/micromega/persistent_cache.ml" 108 3003 3015
+type(
+  (Table.key * 'e) option
+)
+"plugins/micromega/persistent_cache.ml" 108 3003 3019 "plugins/micromega/persistent_cache.ml" 108 3003 3021
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 109 3022 3036 "plugins/micromega/persistent_cache.ml" 109 3022 3039
+type(
+  Table.key
+)
+ident(
+  def key "plugins/micromega/persistent_cache.ml" 110 3049 3052 "plugins/micromega/persistent_cache.ml" 111 3078 3089
+)
+"plugins/micromega/persistent_cache.ml" 109 3022 3040 "plugins/micromega/persistent_cache.ml" 109 3022 3044
+type(
+  'e
+)
+ident(
+  def elem "plugins/micromega/persistent_cache.ml" 110 3049 3052 "plugins/micromega/persistent_cache.ml" 111 3078 3089
+)
+"plugins/micromega/persistent_cache.ml" 109 3022 3035 "plugins/micromega/persistent_cache.ml" 109 3022 3045
+type(
+  Table.key * 'e
+)
+"plugins/micromega/persistent_cache.ml" 109 3022 3030 "plugins/micromega/persistent_cache.ml" 109 3022 3045
+type(
+  (Table.key * 'e) option
+)
+"plugins/micromega/persistent_cache.ml" 110 3049 3052 "plugins/micromega/persistent_cache.ml" 110 3049 3061
+type(
+  'e Table.t -> Table.key -> 'e -> unit
+)
+ident(
+  ext_ref Table.add
+)
+"plugins/micromega/persistent_cache.ml" 110 3049 3062 "plugins/micromega/persistent_cache.ml" 110 3049 3066
+type(
+  'e Table.t
+)
+ident(
+  int_ref htbl "plugins/micromega/persistent_cache.ml" 104 2915 2921 "plugins/micromega/persistent_cache.ml" 104 2915 2925
+)
+"plugins/micromega/persistent_cache.ml" 110 3049 3067 "plugins/micromega/persistent_cache.ml" 110 3049 3070
+type(
+  Table.key
+)
+ident(
+  int_ref key "plugins/micromega/persistent_cache.ml" 109 3022 3036 "plugins/micromega/persistent_cache.ml" 109 3022 3039
+)
+"plugins/micromega/persistent_cache.ml" 110 3049 3071 "plugins/micromega/persistent_cache.ml" 110 3049 3075
+type(
+  'e
+)
+ident(
+  int_ref elem "plugins/micromega/persistent_cache.ml" 109 3022 3040 "plugins/micromega/persistent_cache.ml" 109 3022 3044
+)
+"plugins/micromega/persistent_cache.ml" 110 3049 3052 "plugins/micromega/persistent_cache.ml" 110 3049 3075
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 111 3078 3081 "plugins/micromega/persistent_cache.ml" 111 3078 3086
+type(
+  unit -> unit
+)
+ident(
+  int_ref xload "plugins/micromega/persistent_cache.ml" 106 2948 2958 "plugins/micromega/persistent_cache.ml" 106 2948 2963
+)
+"plugins/micromega/persistent_cache.ml" 111 3078 3087 "plugins/micromega/persistent_cache.ml" 111 3078 3089
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 111 3078 3081 "plugins/micromega/persistent_cache.ml" 111 3078 3089
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 110 3049 3052 "plugins/micromega/persistent_cache.ml" 111 3078 3089
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 107 2969 2973 "plugins/micromega/persistent_cache.ml" 111 3078 3089
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3108 "plugins/micromega/persistent_cache.ml" 114 3102 3115
+type(
+  (unit -> unit) -> (unit -> unit) -> unit
+)
+ident(
+  int_ref finally "plugins/micromega/persistent_cache.ml" 84 2520 2524 "plugins/micromega/persistent_cache.ml" 84 2520 2531
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3121 "plugins/micromega/persistent_cache.ml" 114 3102 3123
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3127 "plugins/micromega/persistent_cache.ml" 114 3102 3132
+type(
+  unit -> unit
+)
+ident(
+  int_ref xload "plugins/micromega/persistent_cache.ml" 106 2948 2958 "plugins/micromega/persistent_cache.ml" 106 2948 2963
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3133 "plugins/micromega/persistent_cache.ml" 114 3102 3135
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3127 "plugins/micromega/persistent_cache.ml" 114 3102 3135
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3116 "plugins/micromega/persistent_cache.ml" 114 3102 3137
+type(
+  unit -> unit
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3143 "plugins/micromega/persistent_cache.ml" 114 3102 3145
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3149 "plugins/micromega/persistent_cache.ml" 114 3102 3157
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3158 "plugins/micromega/persistent_cache.ml" 114 3102 3162
+type(
+  in_channel
+)
+ident(
+  int_ref inch "plugins/micromega/persistent_cache.ml" 103 2873 2879 "plugins/micromega/persistent_cache.ml" 103 2873 2883
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3149 "plugins/micromega/persistent_cache.ml" 114 3102 3162
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3138 "plugins/micromega/persistent_cache.ml" 114 3102 3163
+type(
+  unit -> unit
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3108 "plugins/micromega/persistent_cache.ml" 114 3102 3163
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 117 3189 3196 "plugins/micromega/persistent_cache.ml" 117 3189 3201
+type(
+  open_flag list
+)
+"plugins/micromega/persistent_cache.ml" 117 3189 3205 "plugins/micromega/persistent_cache.ml" 117 3189 3216
+type(
+  open_flag
+)
+"plugins/micromega/persistent_cache.ml" 117 3189 3217 "plugins/micromega/persistent_cache.ml" 117 3189 3228
+type(
+  open_flag
+)
+"plugins/micromega/persistent_cache.ml" 117 3189 3229 "plugins/micromega/persistent_cache.ml" 117 3189 3239
+type(
+  open_flag
+)
+"plugins/micromega/persistent_cache.ml" 117 3189 3204 "plugins/micromega/persistent_cache.ml" 117 3189 3240
+type(
+  open_flag list
+)
+"plugins/micromega/persistent_cache.ml" 118 3244 3249 "plugins/micromega/persistent_cache.ml" 118 3244 3261
+type(
+  open_flag list -> int -> string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out_gen
+)
+"plugins/micromega/persistent_cache.ml" 118 3244 3262 "plugins/micromega/persistent_cache.ml" 118 3244 3267
+type(
+  open_flag list
+)
+ident(
+  int_ref flags "plugins/micromega/persistent_cache.ml" 117 3189 3196 "plugins/micromega/persistent_cache.ml" 117 3189 3201
+)
+"plugins/micromega/persistent_cache.ml" 118 3244 3268 "plugins/micromega/persistent_cache.ml" 118 3244 3273
+type(
+  int
+)
+"plugins/micromega/persistent_cache.ml" 118 3244 3274 "plugins/micromega/persistent_cache.ml" 118 3244 3275
+type(
+  string
+)
+ident(
+  int_ref f "plugins/micromega/persistent_cache.ml" 101 2803 2815 "plugins/micromega/persistent_cache.ml" 101 2803 2816
+)
+"plugins/micromega/persistent_cache.ml" 118 3244 3249 "plugins/micromega/persistent_cache.ml" 118 3244 3275
+call(
+  stack
+)
+type(
+  out_channel
+)
+"plugins/micromega/persistent_cache.ml" 116 3174 3183 "plugins/micromega/persistent_cache.ml" 119 3276 3280
+type(
+  out_channel
+)
+"plugins/micromega/persistent_cache.ml" 120 3283 3293 "plugins/micromega/persistent_cache.ml" 120 3283 3297
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 121 3300 3308 "plugins/micromega/persistent_cache.ml" 121 3300 3312
+type(
+  'e Table.t
+)
+ident(
+  int_ref htbl "plugins/micromega/persistent_cache.ml" 104 2915 2921 "plugins/micromega/persistent_cache.ml" 104 2915 2925
+)
+"plugins/micromega/persistent_cache.ml" 115 3166 3172 "plugins/micromega/persistent_cache.ml" 122 3313 3320
+type(
+  'e t
+)
+"plugins/micromega/persistent_cache.ml" 114 3102 3108 "plugins/micromega/persistent_cache.ml" 122 3313 3320
+type(
+  'e t
+)
+"plugins/micromega/persistent_cache.ml" 123 3321 3330 "plugins/micromega/persistent_cache.ml" 123 3321 3348
+type(
+  exn
+)
+"plugins/micromega/persistent_cache.ml" 126 3416 3421 "plugins/micromega/persistent_cache.ml" 126 3416 3426
+type(
+  open_flag list
+)
+"plugins/micromega/persistent_cache.ml" 126 3416 3430 "plugins/micromega/persistent_cache.ml" 126 3416 3441
+type(
+  open_flag
+)
+"plugins/micromega/persistent_cache.ml" 126 3416 3443 "plugins/micromega/persistent_cache.ml" 126 3416 3453
+type(
+  open_flag
+)
+"plugins/micromega/persistent_cache.ml" 126 3416 3454 "plugins/micromega/persistent_cache.ml" 126 3416 3465
+type(
+  open_flag
+)
+"plugins/micromega/persistent_cache.ml" 126 3416 3466 "plugins/micromega/persistent_cache.ml" 126 3416 3476
+type(
+  open_flag
+)
+"plugins/micromega/persistent_cache.ml" 126 3416 3429 "plugins/micromega/persistent_cache.ml" 126 3416 3477
+type(
+  open_flag list
+)
+"plugins/micromega/persistent_cache.ml" 127 3481 3486 "plugins/micromega/persistent_cache.ml" 127 3481 3491
+type(
+  out_channel
+)
+"plugins/micromega/persistent_cache.ml" 127 3481 3494 "plugins/micromega/persistent_cache.ml" 127 3481 3506
+type(
+  open_flag list -> int -> string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out_gen
+)
+"plugins/micromega/persistent_cache.ml" 127 3481 3507 "plugins/micromega/persistent_cache.ml" 127 3481 3512
+type(
+  open_flag list
+)
+ident(
+  int_ref flags "plugins/micromega/persistent_cache.ml" 126 3416 3421 "plugins/micromega/persistent_cache.ml" 126 3416 3426
+)
+"plugins/micromega/persistent_cache.ml" 127 3481 3513 "plugins/micromega/persistent_cache.ml" 127 3481 3518
+type(
+  int
+)
+"plugins/micromega/persistent_cache.ml" 127 3481 3519 "plugins/micromega/persistent_cache.ml" 127 3481 3520
+type(
+  string
+)
+ident(
+  int_ref f "plugins/micromega/persistent_cache.ml" 101 2803 2815 "plugins/micromega/persistent_cache.ml" 101 2803 2816
+)
+"plugins/micromega/persistent_cache.ml" 127 3481 3494 "plugins/micromega/persistent_cache.ml" 127 3481 3520
+call(
+  stack
+)
+type(
+  out_channel
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3527 "plugins/micromega/persistent_cache.ml" 128 3524 3537
+type(
+  (Table.key -> 'e -> unit) -> 'e Table.t -> unit
+)
+ident(
+  ext_ref Table.iter
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3543 "plugins/micromega/persistent_cache.ml" 128 3524 3544
+type(
+  Table.key
+)
+ident(
+  def k "plugins/micromega/persistent_cache.ml" 128 3524 3545 "plugins/micromega/persistent_cache.ml" 128 3524 3601
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3545 "plugins/micromega/persistent_cache.ml" 128 3524 3546
+type(
+  'e
+)
+ident(
+  def e "plugins/micromega/persistent_cache.ml" 128 3524 3550 "plugins/micromega/persistent_cache.ml" 128 3524 3601
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3550 "plugins/micromega/persistent_cache.ml" 128 3524 3568
+type(
+  out_channel -> Table.key * 'e -> Marshal.extern_flags list -> unit
+)
+ident(
+  ext_ref Marshal.to_channel
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3569 "plugins/micromega/persistent_cache.ml" 128 3524 3574
+type(
+  out_channel
+)
+ident(
+  int_ref outch "plugins/micromega/persistent_cache.ml" 127 3481 3486 "plugins/micromega/persistent_cache.ml" 127 3481 3491
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3576 "plugins/micromega/persistent_cache.ml" 128 3524 3577
+type(
+  Table.key
+)
+ident(
+  int_ref k "plugins/micromega/persistent_cache.ml" 128 3524 3543 "plugins/micromega/persistent_cache.ml" 128 3524 3544
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3578 "plugins/micromega/persistent_cache.ml" 128 3524 3579
+type(
+  'e
+)
+ident(
+  int_ref e "plugins/micromega/persistent_cache.ml" 128 3524 3545 "plugins/micromega/persistent_cache.ml" 128 3524 3546
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3575 "plugins/micromega/persistent_cache.ml" 128 3524 3580
+type(
+  Table.key * 'e
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3582 "plugins/micromega/persistent_cache.ml" 128 3524 3600
+type(
+  Marshal.extern_flags
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3581 "plugins/micromega/persistent_cache.ml" 128 3524 3601
+type(
+  Marshal.extern_flags list
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3550 "plugins/micromega/persistent_cache.ml" 128 3524 3601
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3538 "plugins/micromega/persistent_cache.ml" 128 3524 3602
+type(
+  Table.key -> 'e -> unit
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3603 "plugins/micromega/persistent_cache.ml" 128 3524 3607
+type(
+  'e Table.t
+)
+ident(
+  int_ref htbl "plugins/micromega/persistent_cache.ml" 104 2915 2921 "plugins/micromega/persistent_cache.ml" 104 2915 2925
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3527 "plugins/micromega/persistent_cache.ml" 128 3524 3607
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 129 3609 3622 "plugins/micromega/persistent_cache.ml" 129 3609 3627
+type(
+  out_channel
+)
+ident(
+  int_ref outch "plugins/micromega/persistent_cache.ml" 127 3481 3486 "plugins/micromega/persistent_cache.ml" 127 3481 3491
+)
+"plugins/micromega/persistent_cache.ml" 130 3630 3644 "plugins/micromega/persistent_cache.ml" 130 3630 3648
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 131 3651 3665 "plugins/micromega/persistent_cache.ml" 131 3651 3669
+type(
+  'e Table.t
+)
+ident(
+  int_ref htbl "plugins/micromega/persistent_cache.ml" 104 2915 2921 "plugins/micromega/persistent_cache.ml" 104 2915 2925
+)
+"plugins/micromega/persistent_cache.ml" 129 3609 3612 "plugins/micromega/persistent_cache.ml" 132 3670 3674
+type(
+  'e t
+)
+"plugins/micromega/persistent_cache.ml" 128 3524 3527 "plugins/micromega/persistent_cache.ml" 132 3670 3674
+type(
+  'e t
+)
+"plugins/micromega/persistent_cache.ml" 127 3481 3482 "plugins/micromega/persistent_cache.ml" 132 3670 3674
+type(
+  'e t
+)
+"plugins/micromega/persistent_cache.ml" 125 3404 3410 "plugins/micromega/persistent_cache.ml" 133 3675 3684
+type(
+  'e t
+)
+"plugins/micromega/persistent_cache.ml" 113 3094 3098 "plugins/micromega/persistent_cache.ml" 133 3675 3684
+type(
+  'e t
+)
+"plugins/micromega/persistent_cache.ml" 106 2948 2950 "plugins/micromega/persistent_cache.ml" 133 3675 3684
+type(
+  'e t
+)
+"plugins/micromega/persistent_cache.ml" 104 2915 2917 "plugins/micromega/persistent_cache.ml" 133 3675 3684
+type(
+  'e t
+)
+"plugins/micromega/persistent_cache.ml" 103 2873 2875 "plugins/micromega/persistent_cache.ml" 133 3675 3684
+type(
+  'e t
+)
+"plugins/micromega/persistent_cache.ml" 102 2819 2821 "plugins/micromega/persistent_cache.ml" 133 3675 3684
+type(
+  'e t
+)
+"plugins/micromega/persistent_cache.ml" 136 3687 3691 "plugins/micromega/persistent_cache.ml" 136 3687 3696
+type(
+  'f t -> unit
+)
+ident(
+  def close "plugins/micromega/persistent_cache.ml" 145 3902 3902 "plugins/micromega/persistent_cache.ml" 175 4506 4509
+)
+"plugins/micromega/persistent_cache.ml" 136 3687 3697 "plugins/micromega/persistent_cache.ml" 136 3687 3698
+type(
+  'f t
+)
+ident(
+  def t "plugins/micromega/persistent_cache.ml" 137 3701 3703 "plugins/micromega/persistent_cache.ml" 143 3881 3900
+)
+"plugins/micromega/persistent_cache.ml" 137 3701 3716 "plugins/micromega/persistent_cache.ml" 137 3701 3721
+type(
+  out_channel
+)
+"plugins/micromega/persistent_cache.ml" 137 3701 3733 "plugins/micromega/persistent_cache.ml" 137 3701 3739
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 137 3701 3749 "plugins/micromega/persistent_cache.ml" 137 3701 3752
+type(
+  'f Table.t
+)
+"plugins/micromega/persistent_cache.ml" 137 3701 3707 "plugins/micromega/persistent_cache.ml" 137 3701 3753
+type(
+  'f t
+)
+"plugins/micromega/persistent_cache.ml" 137 3701 3756 "plugins/micromega/persistent_cache.ml" 137 3701 3757
+type(
+  'f t
+)
+ident(
+  int_ref t "plugins/micromega/persistent_cache.ml" 136 3687 3697 "plugins/micromega/persistent_cache.ml" 136 3687 3698
+)
+"plugins/micromega/persistent_cache.ml" 138 3761 3771 "plugins/micromega/persistent_cache.ml" 138 3761 3772
+type(
+  'f t
+)
+ident(
+  int_ref t "plugins/micromega/persistent_cache.ml" 136 3687 3697 "plugins/micromega/persistent_cache.ml" 136 3687 3698
+)
+"plugins/micromega/persistent_cache.ml" 138 3761 3771 "plugins/micromega/persistent_cache.ml" 138 3761 3779
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 139 3785 3791 "plugins/micromega/persistent_cache.ml" 139 3785 3797
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 139 3785 3801 "plugins/micromega/persistent_cache.ml" 139 3785 3803
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 140 3828 3834 "plugins/micromega/persistent_cache.ml" 140 3828 3838
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 141 3843 3844 "plugins/micromega/persistent_cache.ml" 141 3843 3853
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"plugins/micromega/persistent_cache.ml" 141 3843 3854 "plugins/micromega/persistent_cache.ml" 141 3843 3859
+type(
+  out_channel
+)
+ident(
+  int_ref outch "plugins/micromega/persistent_cache.ml" 137 3701 3716 "plugins/micromega/persistent_cache.ml" 137 3701 3721
+)
+"plugins/micromega/persistent_cache.ml" 141 3843 3844 "plugins/micromega/persistent_cache.ml" 141 3843 3859
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 142 3862 3863 "plugins/micromega/persistent_cache.ml" 142 3862 3874
+type(
+  'f Table.t -> unit
+)
+ident(
+  ext_ref Table.clear
+)
+"plugins/micromega/persistent_cache.ml" 142 3862 3875 "plugins/micromega/persistent_cache.ml" 142 3862 3878
+type(
+  'f Table.t
+)
+ident(
+  int_ref tbl "plugins/micromega/persistent_cache.ml" 137 3701 3749 "plugins/micromega/persistent_cache.ml" 137 3701 3752
+)
+"plugins/micromega/persistent_cache.ml" 142 3862 3863 "plugins/micromega/persistent_cache.ml" 142 3862 3878
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 143 3881 3882 "plugins/micromega/persistent_cache.ml" 143 3881 3883
+type(
+  'f t
+)
+ident(
+  int_ref t "plugins/micromega/persistent_cache.ml" 136 3687 3697 "plugins/micromega/persistent_cache.ml" 136 3687 3698
+)
+"plugins/micromega/persistent_cache.ml" 143 3881 3894 "plugins/micromega/persistent_cache.ml" 143 3881 3900
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 143 3881 3882 "plugins/micromega/persistent_cache.ml" 143 3881 3900
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 142 3862 3863 "plugins/micromega/persistent_cache.ml" 143 3881 3900
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 141 3843 3844 "plugins/micromega/persistent_cache.ml" 143 3881 3900
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 138 3761 3765 "plugins/micromega/persistent_cache.ml" 143 3881 3900
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 137 3701 3703 "plugins/micromega/persistent_cache.ml" 143 3881 3900
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 145 3902 3906 "plugins/micromega/persistent_cache.ml" 145 3902 3909
+type(
+  'g t -> Table.key -> 'g -> unit
+)
+ident(
+  def add "plugins/micromega/persistent_cache.ml" 155 4135 4135 "plugins/micromega/persistent_cache.ml" 175 4506 4509
+)
+"plugins/micromega/persistent_cache.ml" 145 3902 3910 "plugins/micromega/persistent_cache.ml" 145 3902 3911
+type(
+  'g t
+)
+ident(
+  def t "plugins/micromega/persistent_cache.ml" 145 3902 3912 "plugins/micromega/persistent_cache.ml" 153 4124 4133
+)
+"plugins/micromega/persistent_cache.ml" 145 3902 3912 "plugins/micromega/persistent_cache.ml" 145 3902 3913
+type(
+  Table.key
+)
+ident(
+  def k "plugins/micromega/persistent_cache.ml" 145 3902 3914 "plugins/micromega/persistent_cache.ml" 153 4124 4133
+)
+"plugins/micromega/persistent_cache.ml" 145 3902 3914 "plugins/micromega/persistent_cache.ml" 145 3902 3915
+type(
+  'g
+)
+ident(
+  def e "plugins/micromega/persistent_cache.ml" 146 3918 3920 "plugins/micromega/persistent_cache.ml" 153 4124 4133
+)
+"plugins/micromega/persistent_cache.ml" 146 3918 3933 "plugins/micromega/persistent_cache.ml" 146 3918 3938
+type(
+  out_channel
+)
+"plugins/micromega/persistent_cache.ml" 146 3918 3950 "plugins/micromega/persistent_cache.ml" 146 3918 3956
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 146 3918 3966 "plugins/micromega/persistent_cache.ml" 146 3918 3969
+type(
+  'g Table.t
+)
+"plugins/micromega/persistent_cache.ml" 146 3918 3924 "plugins/micromega/persistent_cache.ml" 146 3918 3970
+type(
+  'g t
+)
+"plugins/micromega/persistent_cache.ml" 146 3918 3973 "plugins/micromega/persistent_cache.ml" 146 3918 3974
+type(
+  'g t
+)
+ident(
+  int_ref t "plugins/micromega/persistent_cache.ml" 145 3902 3910 "plugins/micromega/persistent_cache.ml" 145 3902 3911
+)
+"plugins/micromega/persistent_cache.ml" 147 3978 3985 "plugins/micromega/persistent_cache.ml" 147 3978 3991
+type(
+  mode
+)
+ident(
+  int_ref status "plugins/micromega/persistent_cache.ml" 146 3918 3950 "plugins/micromega/persistent_cache.ml" 146 3918 3956
+)
+"plugins/micromega/persistent_cache.ml" 147 3978 3992 "plugins/micromega/persistent_cache.ml" 147 3978 3993
+type(
+  mode -> mode -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/micromega/persistent_cache.ml" 147 3978 3994 "plugins/micromega/persistent_cache.ml" 147 3978 4000
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 147 3978 3985 "plugins/micromega/persistent_cache.ml" 147 3978 4000
+type(
+  bool
+)
+"plugins/micromega/persistent_cache.ml" 148 4001 4010 "plugins/micromega/persistent_cache.ml" 148 4001 4015
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/micromega/persistent_cache.ml" 148 4001 4016 "plugins/micromega/persistent_cache.ml" 148 4001 4028
+type(
+  exn
+)
+"plugins/micromega/persistent_cache.ml" 148 4001 4010 "plugins/micromega/persistent_cache.ml" 148 4001 4028
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 151 4050 4051 "plugins/micromega/persistent_cache.ml" 151 4050 4060
+type(
+  'g Table.t -> Table.key -> 'g -> unit
+)
+ident(
+  ext_ref Table.add
+)
+"plugins/micromega/persistent_cache.ml" 151 4050 4061 "plugins/micromega/persistent_cache.ml" 151 4050 4064
+type(
+  'g Table.t
+)
+ident(
+  int_ref tbl "plugins/micromega/persistent_cache.ml" 146 3918 3966 "plugins/micromega/persistent_cache.ml" 146 3918 3969
+)
+"plugins/micromega/persistent_cache.ml" 151 4050 4065 "plugins/micromega/persistent_cache.ml" 151 4050 4066
+type(
+  Table.key
+)
+ident(
+  int_ref k "plugins/micromega/persistent_cache.ml" 145 3902 3912 "plugins/micromega/persistent_cache.ml" 145 3902 3913
+)
+"plugins/micromega/persistent_cache.ml" 151 4050 4067 "plugins/micromega/persistent_cache.ml" 151 4050 4068
+type(
+  'g
+)
+ident(
+  int_ref e "plugins/micromega/persistent_cache.ml" 145 3902 3914 "plugins/micromega/persistent_cache.ml" 145 3902 3915
+)
+"plugins/micromega/persistent_cache.ml" 151 4050 4051 "plugins/micromega/persistent_cache.ml" 151 4050 4068
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 152 4071 4072 "plugins/micromega/persistent_cache.ml" 152 4071 4090
+type(
+  out_channel -> Table.key * 'g -> Marshal.extern_flags list -> unit
+)
+ident(
+  ext_ref Marshal.to_channel
+)
+"plugins/micromega/persistent_cache.ml" 152 4071 4091 "plugins/micromega/persistent_cache.ml" 152 4071 4096
+type(
+  out_channel
+)
+ident(
+  int_ref outch "plugins/micromega/persistent_cache.ml" 146 3918 3933 "plugins/micromega/persistent_cache.ml" 146 3918 3938
+)
+"plugins/micromega/persistent_cache.ml" 152 4071 4098 "plugins/micromega/persistent_cache.ml" 152 4071 4099
+type(
+  Table.key
+)
+ident(
+  int_ref k "plugins/micromega/persistent_cache.ml" 145 3902 3912 "plugins/micromega/persistent_cache.ml" 145 3902 3913
+)
+"plugins/micromega/persistent_cache.ml" 152 4071 4100 "plugins/micromega/persistent_cache.ml" 152 4071 4101
+type(
+  'g
+)
+ident(
+  int_ref e "plugins/micromega/persistent_cache.ml" 145 3902 3914 "plugins/micromega/persistent_cache.ml" 145 3902 3915
+)
+"plugins/micromega/persistent_cache.ml" 152 4071 4097 "plugins/micromega/persistent_cache.ml" 152 4071 4102
+type(
+  Table.key * 'g
+)
+"plugins/micromega/persistent_cache.ml" 152 4071 4104 "plugins/micromega/persistent_cache.ml" 152 4071 4122
+type(
+  Marshal.extern_flags
+)
+"plugins/micromega/persistent_cache.ml" 152 4071 4103 "plugins/micromega/persistent_cache.ml" 152 4071 4123
+type(
+  Marshal.extern_flags list
+)
+"plugins/micromega/persistent_cache.ml" 152 4071 4072 "plugins/micromega/persistent_cache.ml" 152 4071 4123
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 150 4038 4044 "plugins/micromega/persistent_cache.ml" 153 4124 4133
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 147 3978 3982 "plugins/micromega/persistent_cache.ml" 153 4124 4133
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 146 3918 3920 "plugins/micromega/persistent_cache.ml" 153 4124 4133
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 155 4135 4139 "plugins/micromega/persistent_cache.ml" 155 4135 4143
+type(
+  'h t -> Table.key -> 'h
+)
+ident(
+  def find "plugins/micromega/persistent_cache.ml" 163 4312 4312 "plugins/micromega/persistent_cache.ml" 175 4506 4509
+)
+"plugins/micromega/persistent_cache.ml" 155 4135 4144 "plugins/micromega/persistent_cache.ml" 155 4135 4145
+type(
+  'h t
+)
+ident(
+  def t "plugins/micromega/persistent_cache.ml" 155 4135 4146 "plugins/micromega/persistent_cache.ml" 161 4306 4310
+)
+"plugins/micromega/persistent_cache.ml" 155 4135 4146 "plugins/micromega/persistent_cache.ml" 155 4135 4147
+type(
+  Table.key
+)
+ident(
+  def k "plugins/micromega/persistent_cache.ml" 156 4150 4152 "plugins/micromega/persistent_cache.ml" 161 4306 4310
+)
+"plugins/micromega/persistent_cache.ml" 156 4150 4165 "plugins/micromega/persistent_cache.ml" 156 4150 4170
+type(
+  out_channel
+)
+"plugins/micromega/persistent_cache.ml" 156 4150 4182 "plugins/micromega/persistent_cache.ml" 156 4150 4188
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 156 4150 4198 "plugins/micromega/persistent_cache.ml" 156 4150 4201
+type(
+  'h Table.t
+)
+"plugins/micromega/persistent_cache.ml" 156 4150 4156 "plugins/micromega/persistent_cache.ml" 156 4150 4202
+type(
+  'h t
+)
+"plugins/micromega/persistent_cache.ml" 156 4150 4205 "plugins/micromega/persistent_cache.ml" 156 4150 4206
+type(
+  'h t
+)
+ident(
+  int_ref t "plugins/micromega/persistent_cache.ml" 155 4135 4144 "plugins/micromega/persistent_cache.ml" 155 4135 4145
+)
+"plugins/micromega/persistent_cache.ml" 157 4210 4217 "plugins/micromega/persistent_cache.ml" 157 4210 4223
+type(
+  mode
+)
+ident(
+  int_ref status "plugins/micromega/persistent_cache.ml" 156 4150 4182 "plugins/micromega/persistent_cache.ml" 156 4150 4188
+)
+"plugins/micromega/persistent_cache.ml" 157 4210 4224 "plugins/micromega/persistent_cache.ml" 157 4210 4225
+type(
+  mode -> mode -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/micromega/persistent_cache.ml" 157 4210 4226 "plugins/micromega/persistent_cache.ml" 157 4210 4232
+type(
+  mode
+)
+"plugins/micromega/persistent_cache.ml" 157 4210 4217 "plugins/micromega/persistent_cache.ml" 157 4210 4232
+type(
+  bool
+)
+"plugins/micromega/persistent_cache.ml" 158 4233 4242 "plugins/micromega/persistent_cache.ml" 158 4233 4247
+type(
+  exn -> 'h
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/micromega/persistent_cache.ml" 158 4233 4248 "plugins/micromega/persistent_cache.ml" 158 4233 4260
+type(
+  exn
+)
+"plugins/micromega/persistent_cache.ml" 158 4233 4242 "plugins/micromega/persistent_cache.ml" 158 4233 4260
+type(
+  'h
+)
+"plugins/micromega/persistent_cache.ml" 160 4270 4280 "plugins/micromega/persistent_cache.ml" 160 4270 4283
+type(
+  'h
+)
+"plugins/micromega/persistent_cache.ml" 160 4270 4286 "plugins/micromega/persistent_cache.ml" 160 4270 4296
+type(
+  'h Table.t -> Table.key -> 'h
+)
+ident(
+  ext_ref Table.find
+)
+"plugins/micromega/persistent_cache.ml" 160 4270 4297 "plugins/micromega/persistent_cache.ml" 160 4270 4300
+type(
+  'h Table.t
+)
+ident(
+  int_ref tbl "plugins/micromega/persistent_cache.ml" 156 4150 4198 "plugins/micromega/persistent_cache.ml" 156 4150 4201
+)
+"plugins/micromega/persistent_cache.ml" 160 4270 4301 "plugins/micromega/persistent_cache.ml" 160 4270 4302
+type(
+  Table.key
+)
+ident(
+  int_ref k "plugins/micromega/persistent_cache.ml" 155 4135 4146 "plugins/micromega/persistent_cache.ml" 155 4135 4147
+)
+"plugins/micromega/persistent_cache.ml" 160 4270 4286 "plugins/micromega/persistent_cache.ml" 160 4270 4302
+call(
+  stack
+)
+type(
+  'h
+)
+"plugins/micromega/persistent_cache.ml" 161 4306 4307 "plugins/micromega/persistent_cache.ml" 161 4306 4310
+type(
+  'h
+)
+ident(
+  int_ref res "plugins/micromega/persistent_cache.ml" 160 4270 4280 "plugins/micromega/persistent_cache.ml" 160 4270 4283
+)
+"plugins/micromega/persistent_cache.ml" 160 4270 4276 "plugins/micromega/persistent_cache.ml" 161 4306 4310
+type(
+  'h
+)
+"plugins/micromega/persistent_cache.ml" 157 4210 4214 "plugins/micromega/persistent_cache.ml" 161 4306 4310
+type(
+  'h
+)
+"plugins/micromega/persistent_cache.ml" 156 4150 4152 "plugins/micromega/persistent_cache.ml" 161 4306 4310
+type(
+  'h
+)
+"plugins/micromega/persistent_cache.ml" 163 4312 4316 "plugins/micromega/persistent_cache.ml" 163 4312 4320
+type(
+  string -> (Table.key -> 'i) -> Table.key -> 'i
+)
+ident(
+  def memo "plugins/micromega/persistent_cache.ml" 173 4499 4504 "plugins/micromega/persistent_cache.ml" 175 4506 4509
+)
+"plugins/micromega/persistent_cache.ml" 163 4312 4321 "plugins/micromega/persistent_cache.ml" 163 4312 4326
+type(
+  string
+)
+ident(
+  def cache "plugins/micromega/persistent_cache.ml" 163 4312 4327 "plugins/micromega/persistent_cache.ml" 173 4499 4504
+)
+"plugins/micromega/persistent_cache.ml" 163 4312 4327 "plugins/micromega/persistent_cache.ml" 163 4312 4328
+type(
+  Table.key -> 'i
+)
+ident(
+  def f "plugins/micromega/persistent_cache.ml" 164 4331 4333 "plugins/micromega/persistent_cache.ml" 173 4499 4504
+)
+"plugins/micromega/persistent_cache.ml" 164 4331 4337 "plugins/micromega/persistent_cache.ml" 164 4331 4340
+type(
+  'i t lazy_t
+)
+"plugins/micromega/persistent_cache.ml" 164 4331 4349 "plugins/micromega/persistent_cache.ml" 164 4331 4356
+type(
+  string -> 'i t
+)
+ident(
+  int_ref open_in "plugins/micromega/persistent_cache.ml" 101 2803 2807 "plugins/micromega/persistent_cache.ml" 101 2803 2814
+)
+"plugins/micromega/persistent_cache.ml" 164 4331 4357 "plugins/micromega/persistent_cache.ml" 164 4331 4362
+type(
+  string
+)
+ident(
+  int_ref cache "plugins/micromega/persistent_cache.ml" 163 4312 4321 "plugins/micromega/persistent_cache.ml" 163 4312 4326
+)
+"plugins/micromega/persistent_cache.ml" 164 4331 4348 "plugins/micromega/persistent_cache.ml" 164 4331 4363
+call(
+  tail
+)
+type(
+  'i t
+)
+"plugins/micromega/persistent_cache.ml" 164 4331 4343 "plugins/micromega/persistent_cache.ml" 164 4331 4363
+type(
+  'i t lazy_t
+)
+"plugins/micromega/persistent_cache.ml" 165 4367 4375 "plugins/micromega/persistent_cache.ml" 165 4367 4376
+type(
+  Table.key
+)
+ident(
+  def x "plugins/micromega/persistent_cache.ml" 166 4380 4386 "plugins/micromega/persistent_cache.ml" 173 4499 4504
+)
+"plugins/micromega/persistent_cache.ml" 166 4380 4390 "plugins/micromega/persistent_cache.ml" 166 4380 4393
+type(
+  'i t
+)
+"plugins/micromega/persistent_cache.ml" 166 4380 4396 "plugins/micromega/persistent_cache.ml" 166 4380 4406
+type(
+  'i t Lazy.t -> 'i t
+)
+ident(
+  ext_ref Lazy.force
+)
+"plugins/micromega/persistent_cache.ml" 166 4380 4407 "plugins/micromega/persistent_cache.ml" 166 4380 4410
+type(
+  'i t Lazy.t
+)
+ident(
+  int_ref tbl "plugins/micromega/persistent_cache.ml" 164 4331 4337 "plugins/micromega/persistent_cache.ml" 164 4331 4340
+)
+"plugins/micromega/persistent_cache.ml" 166 4380 4396 "plugins/micromega/persistent_cache.ml" 166 4380 4410
+call(
+  stack
+)
+type(
+  'i t
+)
+"plugins/micromega/persistent_cache.ml" 168 4419 4422 "plugins/micromega/persistent_cache.ml" 168 4419 4426
+type(
+  'i t -> Table.key -> 'i
+)
+ident(
+  int_ref find "plugins/micromega/persistent_cache.ml" 155 4135 4139 "plugins/micromega/persistent_cache.ml" 155 4135 4143
+)
+"plugins/micromega/persistent_cache.ml" 168 4419 4427 "plugins/micromega/persistent_cache.ml" 168 4419 4430
+type(
+  'i t
+)
+ident(
+  int_ref tbl "plugins/micromega/persistent_cache.ml" 166 4380 4390 "plugins/micromega/persistent_cache.ml" 166 4380 4393
+)
+"plugins/micromega/persistent_cache.ml" 168 4419 4431 "plugins/micromega/persistent_cache.ml" 168 4419 4432
+type(
+  Table.key
+)
+ident(
+  int_ref x "plugins/micromega/persistent_cache.ml" 165 4367 4375 "plugins/micromega/persistent_cache.ml" 165 4367 4376
+)
+"plugins/micromega/persistent_cache.ml" 168 4419 4422 "plugins/micromega/persistent_cache.ml" 168 4419 4432
+call(
+  stack
+)
+type(
+  'i
+)
+"plugins/micromega/persistent_cache.ml" 170 4439 4444 "plugins/micromega/persistent_cache.ml" 170 4439 4453
+type(
+  exn
+)
+"plugins/micromega/persistent_cache.ml" 171 4457 4468 "plugins/micromega/persistent_cache.ml" 171 4457 4471
+type(
+  'i
+)
+"plugins/micromega/persistent_cache.ml" 171 4457 4474 "plugins/micromega/persistent_cache.ml" 171 4457 4475
+type(
+  Table.key -> 'i
+)
+ident(
+  int_ref f "plugins/micromega/persistent_cache.ml" 163 4312 4327 "plugins/micromega/persistent_cache.ml" 163 4312 4328
+)
+"plugins/micromega/persistent_cache.ml" 171 4457 4476 "plugins/micromega/persistent_cache.ml" 171 4457 4477
+type(
+  Table.key
+)
+ident(
+  int_ref x "plugins/micromega/persistent_cache.ml" 165 4367 4375 "plugins/micromega/persistent_cache.ml" 165 4367 4376
+)
+"plugins/micromega/persistent_cache.ml" 171 4457 4474 "plugins/micromega/persistent_cache.ml" 171 4457 4477
+call(
+  stack
+)
+type(
+  'i
+)
+"plugins/micromega/persistent_cache.ml" 172 4481 4483 "plugins/micromega/persistent_cache.ml" 172 4481 4486
+type(
+  'i t -> Table.key -> 'i -> unit
+)
+ident(
+  int_ref add "plugins/micromega/persistent_cache.ml" 145 3902 3906 "plugins/micromega/persistent_cache.ml" 145 3902 3909
+)
+"plugins/micromega/persistent_cache.ml" 172 4481 4487 "plugins/micromega/persistent_cache.ml" 172 4481 4490
+type(
+  'i t
+)
+ident(
+  int_ref tbl "plugins/micromega/persistent_cache.ml" 166 4380 4390 "plugins/micromega/persistent_cache.ml" 166 4380 4393
+)
+"plugins/micromega/persistent_cache.ml" 172 4481 4491 "plugins/micromega/persistent_cache.ml" 172 4481 4492
+type(
+  Table.key
+)
+ident(
+  int_ref x "plugins/micromega/persistent_cache.ml" 165 4367 4375 "plugins/micromega/persistent_cache.ml" 165 4367 4376
+)
+"plugins/micromega/persistent_cache.ml" 172 4481 4493 "plugins/micromega/persistent_cache.ml" 172 4481 4496
+type(
+  'i
+)
+ident(
+  int_ref res "plugins/micromega/persistent_cache.ml" 171 4457 4468 "plugins/micromega/persistent_cache.ml" 171 4457 4471
+)
+"plugins/micromega/persistent_cache.ml" 172 4481 4483 "plugins/micromega/persistent_cache.ml" 172 4481 4496
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/micromega/persistent_cache.ml" 173 4499 4501 "plugins/micromega/persistent_cache.ml" 173 4499 4504
+type(
+  'i
+)
+ident(
+  int_ref res "plugins/micromega/persistent_cache.ml" 171 4457 4468 "plugins/micromega/persistent_cache.ml" 171 4457 4471
+)
+"plugins/micromega/persistent_cache.ml" 172 4481 4483 "plugins/micromega/persistent_cache.ml" 173 4499 4504
+type(
+  'i
+)
+"plugins/micromega/persistent_cache.ml" 171 4457 4464 "plugins/micromega/persistent_cache.ml" 173 4499 4504
+type(
+  'i
+)
+"plugins/micromega/persistent_cache.ml" 167 4414 4415 "plugins/micromega/persistent_cache.ml" 173 4499 4504
+type(
+  'i
+)
+"plugins/micromega/persistent_cache.ml" 166 4380 4386 "plugins/micromega/persistent_cache.ml" 173 4499 4504
+type(
+  'i
+)
+"plugins/micromega/persistent_cache.ml" 165 4367 4371 "plugins/micromega/persistent_cache.ml" 173 4499 4504
+type(
+  Table.key -> 'i
+)
+"plugins/micromega/persistent_cache.ml" 164 4331 4333 "plugins/micromega/persistent_cache.ml" 173 4499 4504
+type(
+  Table.key -> 'i
+)

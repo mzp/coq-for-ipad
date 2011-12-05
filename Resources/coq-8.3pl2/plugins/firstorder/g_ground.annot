@@ -1,0 +1,5033 @@
+"plugins/firstorder/g_ground.ml4" 27 822 826 "plugins/firstorder/g_ground.ml4" 27 822 838
+type(
+  int ref
+)
+ident(
+  def ground_depth "plugins/firstorder/g_ground.ml4" 29 846 846 --
+)
+"plugins/firstorder/g_ground.ml4" 27 822 839 "plugins/firstorder/g_ground.ml4" 27 822 842
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/g_ground.ml4" 27 822 843 "plugins/firstorder/g_ground.ml4" 27 822 844
+type(
+  int
+)
+"plugins/firstorder/g_ground.ml4" 27 822 839 "plugins/firstorder/g_ground.ml4" 27 822 844
+type(
+  int ref
+)
+"plugins/firstorder/g_ground.ml4" 30 853 859 "plugins/firstorder/g_ground.ml4" 30 853 864
+type(
+  int option Goptions.option_sig
+)
+ident(
+  def gdopt "plugins/firstorder/g_ground.ml4" 40 1100 1104 "plugins/firstorder/g_ground.ml4" 40 1100 1128
+)
+"plugins/firstorder/g_ground.ml4" 31 866 880 "plugins/firstorder/g_ground.ml4" 31 866 884
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 32 886 900 "plugins/firstorder/g_ground.ml4" 32 886 918
+type(
+  string
+)
+"plugins/firstorder/g_ground.ml4" 33 920 934 "plugins/firstorder/g_ground.ml4" 33 920 946
+type(
+  string
+)
+"plugins/firstorder/g_ground.ml4" 33 920 947 "plugins/firstorder/g_ground.ml4" 33 920 954
+type(
+  string
+)
+"plugins/firstorder/g_ground.ml4" 33 920 933 "plugins/firstorder/g_ground.ml4" 33 920 955
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  Goptions.option_name
+)
+"plugins/firstorder/g_ground.ml4" 34 957 976 "plugins/firstorder/g_ground.ml4" 34 957 978
+type(
+  unit
+)
+"plugins/firstorder/g_ground.ml4" 34 957 986 "plugins/firstorder/g_ground.ml4" 34 957 998
+type(
+  int ref
+)
+ident(
+  int_ref ground_depth "plugins/firstorder/g_ground.ml4" 27 822 826 "plugins/firstorder/g_ground.ml4" 27 822 838
+)
+"plugins/firstorder/g_ground.ml4" 34 957 985 "plugins/firstorder/g_ground.ml4" 34 957 998
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/g_ground.ml4" 34 957 980 "plugins/firstorder/g_ground.ml4" 34 957 998
+type(
+  int option
+)
+"plugins/firstorder/g_ground.ml4" 34 957 972 "plugins/firstorder/g_ground.ml4" 34 957 998
+type(
+  unit -> int option
+)
+"plugins/firstorder/g_ground.ml4" 37 1030 1031 "plugins/firstorder/g_ground.ml4" 37 1030 1035
+type(
+  int option
+)
+"plugins/firstorder/g_ground.ml4" 37 1030 1037 "plugins/firstorder/g_ground.ml4" 37 1030 1049
+type(
+  int ref
+)
+ident(
+  int_ref ground_depth "plugins/firstorder/g_ground.ml4" 27 822 826 "plugins/firstorder/g_ground.ml4" 27 822 838
+)
+"plugins/firstorder/g_ground.ml4" 37 1030 1051 "plugins/firstorder/g_ground.ml4" 37 1030 1052
+type(
+  int
+)
+"plugins/firstorder/g_ground.ml4" 37 1030 1037 "plugins/firstorder/g_ground.ml4" 37 1030 1052
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/g_ground.ml4" 38 1053 1066 "plugins/firstorder/g_ground.ml4" 38 1053 1067
+type(
+  int
+)
+ident(
+  def i "plugins/firstorder/g_ground.ml4" 38 1053 1069 "plugins/firstorder/g_ground.ml4" 38 1053 1092
+)
+"plugins/firstorder/g_ground.ml4" 38 1053 1061 "plugins/firstorder/g_ground.ml4" 38 1053 1067
+type(
+  int option
+)
+"plugins/firstorder/g_ground.ml4" 38 1053 1069 "plugins/firstorder/g_ground.ml4" 38 1053 1081
+type(
+  int ref
+)
+ident(
+  int_ref ground_depth "plugins/firstorder/g_ground.ml4" 27 822 826 "plugins/firstorder/g_ground.ml4" 27 822 838
+)
+"plugins/firstorder/g_ground.ml4" 38 1053 1084 "plugins/firstorder/g_ground.ml4" 38 1053 1087
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"plugins/firstorder/g_ground.ml4" 38 1053 1088 "plugins/firstorder/g_ground.ml4" 38 1053 1089
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/g_ground.ml4" 38 1053 1066 "plugins/firstorder/g_ground.ml4" 38 1053 1067
+)
+"plugins/firstorder/g_ground.ml4" 38 1053 1090 "plugins/firstorder/g_ground.ml4" 38 1053 1091
+type(
+  int
+)
+"plugins/firstorder/g_ground.ml4" 38 1053 1084 "plugins/firstorder/g_ground.ml4" 38 1053 1091
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/g_ground.ml4" 38 1053 1069 "plugins/firstorder/g_ground.ml4" 38 1053 1092
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/g_ground.ml4" 36 1017 1021 "plugins/firstorder/g_ground.ml4" 36 1017 1092
+type(
+  int option -> unit
+)
+"plugins/firstorder/g_ground.ml4" 31 866 870 "plugins/firstorder/g_ground.ml4" 31 866 1094
+type(
+  int option Goptions.option_sig
+)
+"plugins/firstorder/g_ground.ml4" 40 1100 1104 "plugins/firstorder/g_ground.ml4" 40 1100 1122
+type(
+  int option Goptions.option_sig -> int option Goptions.write_function
+)
+ident(
+  ext_ref Goptions.declare_int_option
+)
+"plugins/firstorder/g_ground.ml4" 40 1100 1123 "plugins/firstorder/g_ground.ml4" 40 1100 1128
+type(
+  int option Goptions.option_sig
+)
+ident(
+  int_ref gdopt "plugins/firstorder/g_ground.ml4" 30 853 859 "plugins/firstorder/g_ground.ml4" 30 853 864
+)
+"plugins/firstorder/g_ground.ml4" 40 1100 1104 "plugins/firstorder/g_ground.ml4" 40 1100 1128
+call(
+  stack
+)
+type(
+  int option Goptions.write_function
+)
+"plugins/firstorder/g_ground.ml4" 30 853 855 "plugins/firstorder/g_ground.ml4" 30 853 1128
+type(
+  int option Goptions.write_function
+)
+"plugins/firstorder/g_ground.ml4" 42 1130 1134 "plugins/firstorder/g_ground.ml4" 42 1130 1150
+type(
+  int ref
+)
+ident(
+  def congruence_depth "plugins/firstorder/g_ground.ml4" 44 1160 1160 --
+)
+"plugins/firstorder/g_ground.ml4" 42 1130 1151 "plugins/firstorder/g_ground.ml4" 42 1130 1154
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/g_ground.ml4" 42 1130 1155 "plugins/firstorder/g_ground.ml4" 42 1130 1158
+type(
+  int
+)
+"plugins/firstorder/g_ground.ml4" 42 1130 1151 "plugins/firstorder/g_ground.ml4" 42 1130 1158
+type(
+  int ref
+)
+"plugins/firstorder/g_ground.ml4" 45 1167 1173 "plugins/firstorder/g_ground.ml4" 45 1167 1178
+type(
+  int option Goptions.option_sig
+)
+ident(
+  def gdopt "plugins/firstorder/g_ground.ml4" 55 1426 1430 "plugins/firstorder/g_ground.ml4" 55 1426 1454
+)
+"plugins/firstorder/g_ground.ml4" 46 1180 1194 "plugins/firstorder/g_ground.ml4" 46 1180 1198
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 47 1200 1214 "plugins/firstorder/g_ground.ml4" 47 1200 1232
+type(
+  string
+)
+"plugins/firstorder/g_ground.ml4" 48 1234 1248 "plugins/firstorder/g_ground.ml4" 48 1234 1260
+type(
+  string
+)
+"plugins/firstorder/g_ground.ml4" 48 1234 1261 "plugins/firstorder/g_ground.ml4" 48 1234 1268
+type(
+  string
+)
+"plugins/firstorder/g_ground.ml4" 48 1234 1247 "plugins/firstorder/g_ground.ml4" 48 1234 1269
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  Goptions.option_name
+)
+"plugins/firstorder/g_ground.ml4" 49 1271 1290 "plugins/firstorder/g_ground.ml4" 49 1271 1292
+type(
+  unit
+)
+"plugins/firstorder/g_ground.ml4" 49 1271 1300 "plugins/firstorder/g_ground.ml4" 49 1271 1316
+type(
+  int ref
+)
+ident(
+  int_ref congruence_depth "plugins/firstorder/g_ground.ml4" 42 1130 1134 "plugins/firstorder/g_ground.ml4" 42 1130 1150
+)
+"plugins/firstorder/g_ground.ml4" 49 1271 1299 "plugins/firstorder/g_ground.ml4" 49 1271 1316
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/g_ground.ml4" 49 1271 1294 "plugins/firstorder/g_ground.ml4" 49 1271 1316
+type(
+  int option
+)
+"plugins/firstorder/g_ground.ml4" 49 1271 1286 "plugins/firstorder/g_ground.ml4" 49 1271 1316
+type(
+  unit -> int option
+)
+"plugins/firstorder/g_ground.ml4" 52 1348 1349 "plugins/firstorder/g_ground.ml4" 52 1348 1353
+type(
+  int option
+)
+"plugins/firstorder/g_ground.ml4" 52 1348 1355 "plugins/firstorder/g_ground.ml4" 52 1348 1371
+type(
+  int ref
+)
+ident(
+  int_ref congruence_depth "plugins/firstorder/g_ground.ml4" 42 1130 1134 "plugins/firstorder/g_ground.ml4" 42 1130 1150
+)
+"plugins/firstorder/g_ground.ml4" 52 1348 1373 "plugins/firstorder/g_ground.ml4" 52 1348 1374
+type(
+  int
+)
+"plugins/firstorder/g_ground.ml4" 52 1348 1355 "plugins/firstorder/g_ground.ml4" 52 1348 1374
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/g_ground.ml4" 53 1375 1388 "plugins/firstorder/g_ground.ml4" 53 1375 1389
+type(
+  int
+)
+ident(
+  def i "plugins/firstorder/g_ground.ml4" 53 1375 1391 "plugins/firstorder/g_ground.ml4" 53 1375 1418
+)
+"plugins/firstorder/g_ground.ml4" 53 1375 1383 "plugins/firstorder/g_ground.ml4" 53 1375 1389
+type(
+  int option
+)
+"plugins/firstorder/g_ground.ml4" 53 1375 1391 "plugins/firstorder/g_ground.ml4" 53 1375 1407
+type(
+  int ref
+)
+ident(
+  int_ref congruence_depth "plugins/firstorder/g_ground.ml4" 42 1130 1134 "plugins/firstorder/g_ground.ml4" 42 1130 1150
+)
+"plugins/firstorder/g_ground.ml4" 53 1375 1410 "plugins/firstorder/g_ground.ml4" 53 1375 1413
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"plugins/firstorder/g_ground.ml4" 53 1375 1414 "plugins/firstorder/g_ground.ml4" 53 1375 1415
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/g_ground.ml4" 53 1375 1388 "plugins/firstorder/g_ground.ml4" 53 1375 1389
+)
+"plugins/firstorder/g_ground.ml4" 53 1375 1416 "plugins/firstorder/g_ground.ml4" 53 1375 1417
+type(
+  int
+)
+"plugins/firstorder/g_ground.ml4" 53 1375 1410 "plugins/firstorder/g_ground.ml4" 53 1375 1417
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/g_ground.ml4" 53 1375 1391 "plugins/firstorder/g_ground.ml4" 53 1375 1418
+type(
+  unit
+)
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/g_ground.ml4" 51 1335 1339 "plugins/firstorder/g_ground.ml4" 51 1335 1418
+type(
+  int option -> unit
+)
+"plugins/firstorder/g_ground.ml4" 46 1180 1184 "plugins/firstorder/g_ground.ml4" 46 1180 1420
+type(
+  int option Goptions.option_sig
+)
+"plugins/firstorder/g_ground.ml4" 55 1426 1430 "plugins/firstorder/g_ground.ml4" 55 1426 1448
+type(
+  int option Goptions.option_sig -> int option Goptions.write_function
+)
+ident(
+  ext_ref Goptions.declare_int_option
+)
+"plugins/firstorder/g_ground.ml4" 55 1426 1449 "plugins/firstorder/g_ground.ml4" 55 1426 1454
+type(
+  int option Goptions.option_sig
+)
+ident(
+  int_ref gdopt "plugins/firstorder/g_ground.ml4" 45 1167 1173 "plugins/firstorder/g_ground.ml4" 45 1167 1178
+)
+"plugins/firstorder/g_ground.ml4" 55 1426 1430 "plugins/firstorder/g_ground.ml4" 55 1426 1454
+call(
+  stack
+)
+type(
+  int option Goptions.write_function
+)
+"plugins/firstorder/g_ground.ml4" 45 1167 1169 "plugins/firstorder/g_ground.ml4" 45 1167 1454
+type(
+  int option Goptions.write_function
+)
+"plugins/firstorder/g_ground.ml4" 57 1456 1461 "plugins/firstorder/g_ground.ml4" 57 1456 1479
+type(
+  Vernacexpr.locality_flag -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  def set_default_solver "plugins/firstorder/g_ground.ml4" 60 1623 1623 --
+)
+"plugins/firstorder/g_ground.ml4" 57 1456 1481 "plugins/firstorder/g_ground.ml4" 57 1456 1495
+type(
+  unit -> Vernacexpr.locality_flag * Proof_type.tactic
+)
+ident(
+  def default_solver "plugins/firstorder/g_ground.ml4" 60 1623 1623 --
+)
+"plugins/firstorder/g_ground.ml4" 57 1456 1497 "plugins/firstorder/g_ground.ml4" 57 1456 1517
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  def print_default_solver "plugins/firstorder/g_ground.ml4" 60 1623 1623 --
+)
+"plugins/firstorder/g_ground.ml4" 57 1456 1461 "plugins/firstorder/g_ground.ml4" 57 1456 1517
+type(
+  (Vernacexpr.locality_flag -> Tacexpr.glob_tactic_expr -> unit) *
+  (unit -> Vernacexpr.locality_flag * Proof_type.tactic) *
+  (unit -> Pp.std_ppcmds)
+)
+"plugins/firstorder/g_ground.ml4" 58 1522 1524 "plugins/firstorder/g_ground.ml4" 58 1522 1559
+type(
+  ?default:Tacexpr.glob_tactic_expr ->
+  string ->
+  (Vernacexpr.locality_flag -> Tacexpr.glob_tactic_expr -> unit) *
+  (unit -> Vernacexpr.locality_flag * Proof_type.tactic) *
+  (unit -> Pp.std_ppcmds)
+)
+ident(
+  ext_ref Tactic_option.declare_tactic_option
+)
+"plugins/firstorder/g_ground.ml4" 58 1522 1570 "plugins/firstorder/g_ground.ml4" 58 1522 1592
+type(
+  string list option
+)
+type(
+  Genarg.rawconstr_and_expr list
+)
+type(
+  int Rawterm.or_var option
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+"plugins/firstorder/g_ground.ml4" 58 1522 1594 "plugins/firstorder/g_ground.ml4" 58 1522 1621
+type(
+  string
+)
+"plugins/firstorder/g_ground.ml4" 58 1522 1524 "plugins/firstorder/g_ground.ml4" 58 1522 1621
+call(
+  stack
+)
+type(
+  (Vernacexpr.locality_flag -> Tacexpr.glob_tactic_expr -> unit) *
+  (unit -> Vernacexpr.locality_flag * Proof_type.tactic) *
+  (unit -> Pp.std_ppcmds)
+)
+"plugins/firstorder/g_ground.ml4" 61 1667 1699 "plugins/firstorder/g_ground.ml4" 61 1667 1708
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/firstorder/g_ground.ml4" 62 1716 1720 "plugins/firstorder/g_ground.ml4" 62 1716 1738
+type(
+  Vernacexpr.locality_flag -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  int_ref set_default_solver "plugins/firstorder/g_ground.ml4" 57 1456 1461 "plugins/firstorder/g_ground.ml4" 57 1456 1479
+)
+"plugins/firstorder/g_ground.ml4" 63 1740 1747 "plugins/firstorder/g_ground.ml4" 63 1740 1778
+type(
+  unit -> Vernacexpr.locality_flag
+)
+ident(
+  ext_ref Vernacexpr.use_section_locality
+)
+"plugins/firstorder/g_ground.ml4" 63 1740 1779 "plugins/firstorder/g_ground.ml4" 63 1740 1781
+type(
+  unit
+)
+"plugins/firstorder/g_ground.ml4" 63 1740 1747 "plugins/firstorder/g_ground.ml4" 63 1740 1781
+call(
+  stack
+)
+type(
+  Vernacexpr.locality_flag
+)
+"plugins/firstorder/g_ground.ml4" 64 1783 1790 "plugins/firstorder/g_ground.ml4" 64 1783 1811
+type(
+  Tacexpr.raw_tactic_expr -> Tacexpr.glob_tactic_expr
+)
+ident(
+  ext_ref Tacinterp.glob_tactic
+)
+"plugins/firstorder/g_ground.ml4" 64 1783 1812 "plugins/firstorder/g_ground.ml4" 64 1783 1813
+type(
+  Tacexpr.raw_tactic_expr
+)
+ident(
+  int_ref t "plugins/firstorder/g_ground.ml4" 61 1667 1669 "plugins/firstorder/g_ground.ml4" 61 1667 1816
+)
+"plugins/firstorder/g_ground.ml4" 64 1783 1790 "plugins/firstorder/g_ground.ml4" 64 1783 1813
+call(
+  stack
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+"plugins/firstorder/g_ground.ml4" 62 1716 1720 "plugins/firstorder/g_ground.ml4" 62 1716 1814
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/g_ground.ml4" 61 1667 1669 "plugins/firstorder/g_ground.ml4" 61 1667 1816
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.rawwit_tactic5
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/g_ground.ml4" 60 1623 1623 "plugins/firstorder/g_ground.ml4" 60 1623 1820
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/firstorder/g_ground.ml4" 60 1623 1623 "plugins/firstorder/g_ground.ml4" 60 1623 1820
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/firstorder/g_ground.ml4" 60 1623 1623 "plugins/firstorder/g_ground.ml4" 60 1623 1820
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/firstorder/g_ground.ml4" 69 1909 1913 "plugins/firstorder/g_ground.ml4" 69 1909 1921
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msgnl
+)
+"plugins/firstorder/g_ground.ml4" 70 1922 1929 "plugins/firstorder/g_ground.ml4" 70 1922 1936
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/firstorder/g_ground.ml4" 70 1922 1938 "plugins/firstorder/g_ground.ml4" 70 1922 1944
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/firstorder/g_ground.ml4" 70 1922 1944 "plugins/firstorder/g_ground.ml4" 70 1922 1974
+type(
+  string
+)
+"plugins/firstorder/g_ground.ml4" 70 1922 1938 "plugins/firstorder/g_ground.ml4" 70 1922 1974
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 70 1922 1977 "plugins/firstorder/g_ground.ml4" 70 1922 1997
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  int_ref print_default_solver "plugins/firstorder/g_ground.ml4" 57 1456 1497 "plugins/firstorder/g_ground.ml4" 57 1456 1517
+)
+"plugins/firstorder/g_ground.ml4" 70 1922 1998 "plugins/firstorder/g_ground.ml4" 70 1922 2000
+type(
+  unit
+)
+"plugins/firstorder/g_ground.ml4" 70 1922 1977 "plugins/firstorder/g_ground.ml4" 70 1922 2000
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 70 1922 1929 "plugins/firstorder/g_ground.ml4" 70 1922 2001
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 69 1909 1913 "plugins/firstorder/g_ground.ml4" 69 1909 2002
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/g_ground.ml4" 68 1868 1870 "plugins/firstorder/g_ground.ml4" 68 1868 2004
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 67 1822 1822 "plugins/firstorder/g_ground.ml4" 67 1822 2008
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/firstorder/g_ground.ml4" 67 1822 1822 "plugins/firstorder/g_ground.ml4" 67 1822 2008
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/firstorder/g_ground.ml4" 67 1822 1822 "plugins/firstorder/g_ground.ml4" 67 1822 2008
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/firstorder/g_ground.ml4" 73 2010 2014 "plugins/firstorder/g_ground.ml4" 73 2010 2025
+type(
+  Proof_type.tactic
+)
+ident(
+  def fail_solver "plugins/firstorder/g_ground.ml4" 75 2062 2062 --
+)
+"plugins/firstorder/g_ground.ml4" 73 2010 2026 "plugins/firstorder/g_ground.ml4" 73 2010 2033
+type(
+  int -> Pp.std_ppcmds -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclFAIL
+)
+"plugins/firstorder/g_ground.ml4" 73 2010 2034 "plugins/firstorder/g_ground.ml4" 73 2010 2035
+type(
+  int
+)
+"plugins/firstorder/g_ground.ml4" 73 2010 2037 "plugins/firstorder/g_ground.ml4" 73 2010 2043
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/firstorder/g_ground.ml4" 73 2010 2044 "plugins/firstorder/g_ground.ml4" 73 2010 2059
+type(
+  string
+)
+"plugins/firstorder/g_ground.ml4" 73 2010 2037 "plugins/firstorder/g_ground.ml4" 73 2010 2059
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 73 2010 2026 "plugins/firstorder/g_ground.ml4" 73 2010 2060
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 75 2062 2066 "plugins/firstorder/g_ground.ml4" 75 2062 2080
+type(
+  bool ->
+  Proof_type.tactic option ->
+  Libnames.global_reference list ->
+  Auto.hint_db_name list ->
+  Proof_type.goal Evd.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def gen_ground_tac "plugins/firstorder/g_ground.ml4" 106 2947 2947 --
+)
+"plugins/firstorder/g_ground.ml4" 75 2062 2081 "plugins/firstorder/g_ground.ml4" 75 2062 2085
+type(
+  bool
+)
+ident(
+  def flag "plugins/firstorder/g_ground.ml4" 75 2062 2086 "plugins/firstorder/g_ground.ml4" 75 2062 2485
+)
+"plugins/firstorder/g_ground.ml4" 75 2062 2086 "plugins/firstorder/g_ground.ml4" 75 2062 2090
+type(
+  Proof_type.tactic option
+)
+ident(
+  def taco "plugins/firstorder/g_ground.ml4" 75 2062 2091 "plugins/firstorder/g_ground.ml4" 75 2062 2485
+)
+"plugins/firstorder/g_ground.ml4" 75 2062 2091 "plugins/firstorder/g_ground.ml4" 75 2062 2094
+type(
+  Libnames.global_reference list
+)
+ident(
+  def ids "plugins/firstorder/g_ground.ml4" 75 2062 2095 "plugins/firstorder/g_ground.ml4" 75 2062 2485
+)
+"plugins/firstorder/g_ground.ml4" 75 2062 2095 "plugins/firstorder/g_ground.ml4" 75 2062 2100
+type(
+  Auto.hint_db_name list
+)
+ident(
+  def bases "plugins/firstorder/g_ground.ml4" 75 2062 2101 "plugins/firstorder/g_ground.ml4" 75 2062 2485
+)
+"plugins/firstorder/g_ground.ml4" 75 2062 2101 "plugins/firstorder/g_ground.ml4" 75 2062 2103
+type(
+  Proof_type.goal Evd.sigma
+)
+ident(
+  def gl "plugins/firstorder/g_ground.ml4" 76 2105 2107 "plugins/firstorder/g_ground.ml4" 76 2105 2485
+)
+"plugins/firstorder/g_ground.ml4" 76 2105 2111 "plugins/firstorder/g_ground.ml4" 76 2105 2117
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 76 2105 2120 "plugins/firstorder/g_ground.ml4" 76 2105 2125
+type(
+  bool ref
+)
+ident(
+  ext_ref Formula.qflag
+)
+"plugins/firstorder/g_ground.ml4" 76 2105 2119 "plugins/firstorder/g_ground.ml4" 76 2105 2125
+type(
+  bool
+)
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/g_ground.ml4" 78 2137 2143 "plugins/firstorder/g_ground.ml4" 78 2137 2148
+type(
+  bool ref
+)
+ident(
+  ext_ref Formula.qflag
+)
+"plugins/firstorder/g_ground.ml4" 78 2137 2150 "plugins/firstorder/g_ground.ml4" 78 2137 2154
+type(
+  bool
+)
+ident(
+  int_ref flag "plugins/firstorder/g_ground.ml4" 75 2062 2081 "plugins/firstorder/g_ground.ml4" 75 2062 2085
+)
+"plugins/firstorder/g_ground.ml4" 78 2137 2143 "plugins/firstorder/g_ground.ml4" 78 2137 2154
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/g_ground.ml4" 79 2156 2166 "plugins/firstorder/g_ground.ml4" 79 2156 2172
+type(
+  Proof_type.tactic
+)
+ident(
+  def solver "plugins/firstorder/g_ground.ml4" 83 2250 2256 "plugins/firstorder/g_ground.ml4" 83 2250 2450
+)
+"plugins/firstorder/g_ground.ml4" 80 2174 2181 "plugins/firstorder/g_ground.ml4" 80 2174 2185
+type(
+  Proof_type.tactic option
+)
+ident(
+  int_ref taco "plugins/firstorder/g_ground.ml4" 75 2062 2086 "plugins/firstorder/g_ground.ml4" 75 2062 2090
+)
+"plugins/firstorder/g_ground.ml4" 81 2191 2201 "plugins/firstorder/g_ground.ml4" 81 2191 2204
+type(
+  Proof_type.tactic
+)
+ident(
+  def tac "plugins/firstorder/g_ground.ml4" 81 2191 2207 "plugins/firstorder/g_ground.ml4" 81 2191 2210
+)
+"plugins/firstorder/g_ground.ml4" 81 2191 2196 "plugins/firstorder/g_ground.ml4" 81 2191 2204
+type(
+  Proof_type.tactic option
+)
+"plugins/firstorder/g_ground.ml4" 81 2191 2207 "plugins/firstorder/g_ground.ml4" 81 2191 2210
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref tac "plugins/firstorder/g_ground.ml4" 81 2191 2201 "plugins/firstorder/g_ground.ml4" 81 2191 2204
+)
+"plugins/firstorder/g_ground.ml4" 82 2211 2216 "plugins/firstorder/g_ground.ml4" 82 2211 2220
+type(
+  Proof_type.tactic option
+)
+"plugins/firstorder/g_ground.ml4" 82 2211 2223 "plugins/firstorder/g_ground.ml4" 82 2211 2226
+type(
+  Vernacexpr.locality_flag * Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/firstorder/g_ground.ml4" 82 2211 2228 "plugins/firstorder/g_ground.ml4" 82 2211 2242
+type(
+  unit -> Vernacexpr.locality_flag * Proof_type.tactic
+)
+ident(
+  int_ref default_solver "plugins/firstorder/g_ground.ml4" 57 1456 1481 "plugins/firstorder/g_ground.ml4" 57 1456 1495
+)
+"plugins/firstorder/g_ground.ml4" 82 2211 2243 "plugins/firstorder/g_ground.ml4" 82 2211 2245
+type(
+  unit
+)
+"plugins/firstorder/g_ground.ml4" 82 2211 2228 "plugins/firstorder/g_ground.ml4" 82 2211 2245
+call(
+  stack
+)
+type(
+  Vernacexpr.locality_flag * Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 82 2211 2223 "plugins/firstorder/g_ground.ml4" 82 2211 2246
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 80 2174 2175 "plugins/firstorder/g_ground.ml4" 80 2174 2246
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 83 2250 2260 "plugins/firstorder/g_ground.ml4" 83 2250 2268
+type(
+  Proof_type.goal Tacmach.sigma -> Sequent.t
+)
+ident(
+  def startseq "plugins/firstorder/g_ground.ml4" 86 2379 2385 "plugins/firstorder/g_ground.ml4" 86 2379 2450
+)
+"plugins/firstorder/g_ground.ml4" 83 2250 2269 "plugins/firstorder/g_ground.ml4" 83 2250 2271
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/g_ground.ml4" 84 2273 2274 "plugins/firstorder/g_ground.ml4" 84 2273 2375
+)
+"plugins/firstorder/g_ground.ml4" 84 2273 2278 "plugins/firstorder/g_ground.ml4" 84 2273 2281
+type(
+  Sequent.t
+)
+"plugins/firstorder/g_ground.ml4" 84 2273 2282 "plugins/firstorder/g_ground.ml4" 84 2273 2291
+type(
+  int -> Sequent.t
+)
+ident(
+  ext_ref Sequent.empty_seq
+)
+"plugins/firstorder/g_ground.ml4" 84 2273 2293 "plugins/firstorder/g_ground.ml4" 84 2273 2305
+type(
+  int ref
+)
+ident(
+  int_ref ground_depth "plugins/firstorder/g_ground.ml4" 27 822 826 "plugins/firstorder/g_ground.ml4" 27 822 838
+)
+"plugins/firstorder/g_ground.ml4" 84 2273 2292 "plugins/firstorder/g_ground.ml4" 84 2273 2305
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/g_ground.ml4" 84 2273 2282 "plugins/firstorder/g_ground.ml4" 84 2273 2305
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/g_ground.ml4" 85 2309 2310 "plugins/firstorder/g_ground.ml4" 85 2309 2332
+type(
+  Auto.hint_db_name list ->
+  Sequent.t -> Proof_type.goal Tacmach.sigma -> Sequent.t
+)
+ident(
+  ext_ref Sequent.extend_with_auto_hints
+)
+"plugins/firstorder/g_ground.ml4" 85 2309 2333 "plugins/firstorder/g_ground.ml4" 85 2309 2338
+type(
+  Auto.hint_db_name list
+)
+ident(
+  int_ref bases "plugins/firstorder/g_ground.ml4" 75 2062 2095 "plugins/firstorder/g_ground.ml4" 75 2062 2100
+)
+"plugins/firstorder/g_ground.ml4" 85 2309 2340 "plugins/firstorder/g_ground.ml4" 85 2309 2360
+type(
+  Libnames.global_reference list ->
+  Sequent.t -> Proof_type.goal Tacmach.sigma -> Sequent.t
+)
+ident(
+  ext_ref Sequent.extend_with_ref_list
+)
+"plugins/firstorder/g_ground.ml4" 85 2309 2361 "plugins/firstorder/g_ground.ml4" 85 2309 2364
+type(
+  Libnames.global_reference list
+)
+ident(
+  int_ref ids "plugins/firstorder/g_ground.ml4" 75 2062 2091 "plugins/firstorder/g_ground.ml4" 75 2062 2094
+)
+"plugins/firstorder/g_ground.ml4" 85 2309 2365 "plugins/firstorder/g_ground.ml4" 85 2309 2368
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/g_ground.ml4" 84 2273 2278 "plugins/firstorder/g_ground.ml4" 84 2273 2281
+)
+"plugins/firstorder/g_ground.ml4" 85 2309 2369 "plugins/firstorder/g_ground.ml4" 85 2309 2371
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/g_ground.ml4" 83 2250 2269 "plugins/firstorder/g_ground.ml4" 83 2250 2271
+)
+"plugins/firstorder/g_ground.ml4" 85 2309 2340 "plugins/firstorder/g_ground.ml4" 85 2309 2371
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/g_ground.ml4" 85 2309 2373 "plugins/firstorder/g_ground.ml4" 85 2309 2375
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/g_ground.ml4" 83 2250 2269 "plugins/firstorder/g_ground.ml4" 83 2250 2271
+)
+"plugins/firstorder/g_ground.ml4" 85 2309 2310 "plugins/firstorder/g_ground.ml4" 85 2309 2375
+call(
+  tail
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/g_ground.ml4" 84 2273 2274 "plugins/firstorder/g_ground.ml4" 84 2273 2375
+type(
+  Sequent.t
+)
+"plugins/firstorder/g_ground.ml4" 83 2250 2269 "plugins/firstorder/g_ground.ml4" 83 2250 2375
+type(
+  Proof_type.goal Tacmach.sigma -> Sequent.t
+)
+"plugins/firstorder/g_ground.ml4" 86 2379 2389 "plugins/firstorder/g_ground.ml4" 86 2379 2395
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def result "plugins/firstorder/g_ground.ml4" 87 2429 2430 "plugins/firstorder/g_ground.ml4" 87 2429 2450
+)
+"plugins/firstorder/g_ground.ml4" 86 2379 2396 "plugins/firstorder/g_ground.ml4" 86 2379 2406
+type(
+  Tacmach.tactic ->
+  (Proof_type.goal Tacmach.sigma -> Sequent.t) -> Tacmach.tactic
+)
+ident(
+  ext_ref Ground.ground_tac
+)
+"plugins/firstorder/g_ground.ml4" 86 2379 2407 "plugins/firstorder/g_ground.ml4" 86 2379 2413
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref solver "plugins/firstorder/g_ground.ml4" 79 2156 2166 "plugins/firstorder/g_ground.ml4" 79 2156 2172
+)
+"plugins/firstorder/g_ground.ml4" 86 2379 2414 "plugins/firstorder/g_ground.ml4" 86 2379 2422
+type(
+  Proof_type.goal Tacmach.sigma -> Sequent.t
+)
+ident(
+  int_ref startseq "plugins/firstorder/g_ground.ml4" 83 2250 2260 "plugins/firstorder/g_ground.ml4" 83 2250 2268
+)
+"plugins/firstorder/g_ground.ml4" 86 2379 2423 "plugins/firstorder/g_ground.ml4" 86 2379 2425
+type(
+  Proof_type.goal Evd.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/g_ground.ml4" 75 2062 2101 "plugins/firstorder/g_ground.ml4" 75 2062 2103
+)
+"plugins/firstorder/g_ground.ml4" 86 2379 2396 "plugins/firstorder/g_ground.ml4" 86 2379 2425
+call(
+  stack
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 87 2429 2430 "plugins/firstorder/g_ground.ml4" 87 2429 2435
+type(
+  bool ref
+)
+ident(
+  ext_ref Formula.qflag
+)
+"plugins/firstorder/g_ground.ml4" 87 2429 2437 "plugins/firstorder/g_ground.ml4" 87 2429 2443
+type(
+  bool
+)
+ident(
+  int_ref backup "plugins/firstorder/g_ground.ml4" 76 2105 2111 "plugins/firstorder/g_ground.ml4" 76 2105 2117
+)
+"plugins/firstorder/g_ground.ml4" 87 2429 2430 "plugins/firstorder/g_ground.ml4" 87 2429 2443
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/g_ground.ml4" 87 2429 2444 "plugins/firstorder/g_ground.ml4" 87 2429 2450
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref result "plugins/firstorder/g_ground.ml4" 86 2379 2389 "plugins/firstorder/g_ground.ml4" 86 2379 2395
+)
+"plugins/firstorder/g_ground.ml4" 87 2429 2430 "plugins/firstorder/g_ground.ml4" 87 2429 2450
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 86 2379 2385 "plugins/firstorder/g_ground.ml4" 86 2379 2450
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 83 2250 2256 "plugins/firstorder/g_ground.ml4" 83 2250 2450
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 79 2156 2162 "plugins/firstorder/g_ground.ml4" 79 2156 2450
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 78 2137 2143 "plugins/firstorder/g_ground.ml4" 78 2137 2450
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 88 2451 2460 "plugins/firstorder/g_ground.ml4" 88 2451 2461
+type(
+  exn
+)
+ident(
+  def e "plugins/firstorder/g_ground.ml4" 88 2451 2464 "plugins/firstorder/g_ground.ml4" 88 2451 2485
+)
+"plugins/firstorder/g_ground.ml4" 88 2451 2464 "plugins/firstorder/g_ground.ml4" 88 2451 2469
+type(
+  bool ref
+)
+ident(
+  ext_ref Formula.qflag
+)
+"plugins/firstorder/g_ground.ml4" 88 2451 2471 "plugins/firstorder/g_ground.ml4" 88 2451 2477
+type(
+  bool
+)
+ident(
+  int_ref backup "plugins/firstorder/g_ground.ml4" 76 2105 2111 "plugins/firstorder/g_ground.ml4" 76 2105 2117
+)
+"plugins/firstorder/g_ground.ml4" 88 2451 2464 "plugins/firstorder/g_ground.ml4" 88 2451 2477
+type(
+  unit
+)
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/g_ground.ml4" 88 2451 2478 "plugins/firstorder/g_ground.ml4" 88 2451 2483
+type(
+  exn -> Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/firstorder/g_ground.ml4" 88 2451 2484 "plugins/firstorder/g_ground.ml4" 88 2451 2485
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/firstorder/g_ground.ml4" 88 2451 2460 "plugins/firstorder/g_ground.ml4" 88 2451 2461
+)
+"plugins/firstorder/g_ground.ml4" 88 2451 2478 "plugins/firstorder/g_ground.ml4" 88 2451 2485
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 88 2451 2464 "plugins/firstorder/g_ground.ml4" 88 2451 2485
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 77 2129 2133 "plugins/firstorder/g_ground.ml4" 77 2129 2485
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 76 2105 2107 "plugins/firstorder/g_ground.ml4" 76 2105 2485
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 75 2062 2101 "plugins/firstorder/g_ground.ml4" 75 2062 2485
+type(
+  Proof_type.goal Evd.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 75 2062 2095 "plugins/firstorder/g_ground.ml4" 75 2062 2485
+type(
+  Auto.hint_db_name list ->
+  Proof_type.goal Evd.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 75 2062 2091 "plugins/firstorder/g_ground.ml4" 75 2062 2485
+type(
+  Libnames.global_reference list ->
+  Auto.hint_db_name list ->
+  Proof_type.goal Evd.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 75 2062 2086 "plugins/firstorder/g_ground.ml4" 75 2062 2485
+type(
+  Proof_type.tactic option ->
+  Libnames.global_reference list ->
+  Auto.hint_db_name list ->
+  Proof_type.goal Evd.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 75 2062 2081 "plugins/firstorder/g_ground.ml4" 75 2062 2485
+type(
+  bool ->
+  Proof_type.tactic option ->
+  Libnames.global_reference list ->
+  Auto.hint_db_name list ->
+  Proof_type.goal Evd.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 109 2986 2990 "plugins/firstorder/g_ground.ml4" 109 2986 3013
+type(
+  'a -> 'b -> 'c -> Libnames.reference list -> Pp.std_ppcmds
+)
+ident(
+  def pr_firstorder_using_raw "plugins/firstorder/g_ground.ml4" 110 3060 3060 --
+)
+"plugins/firstorder/g_ground.ml4" 109 2986 3014 "plugins/firstorder/g_ground.ml4" 109 2986 3015
+type(
+  'a
+)
+"plugins/firstorder/g_ground.ml4" 109 2986 3016 "plugins/firstorder/g_ground.ml4" 109 2986 3017
+type(
+  'b
+)
+"plugins/firstorder/g_ground.ml4" 109 2986 3018 "plugins/firstorder/g_ground.ml4" 109 2986 3019
+type(
+  'c
+)
+"plugins/firstorder/g_ground.ml4" 109 2986 3022 "plugins/firstorder/g_ground.ml4" 109 2986 3037
+type(
+  (unit -> Pp.std_ppcmds) ->
+  (Libnames.reference -> Pp.std_ppcmds) ->
+  Libnames.reference list -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prlist_with_sep
+)
+"plugins/firstorder/g_ground.ml4" 109 2986 3038 "plugins/firstorder/g_ground.ml4" 109 2986 3046
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.pr_comma
+)
+"plugins/firstorder/g_ground.ml4" 109 2986 3047 "plugins/firstorder/g_ground.ml4" 109 2986 3059
+type(
+  Libnames.reference -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Libnames.pr_reference
+)
+"plugins/firstorder/g_ground.ml4" 109 2986 3022 "plugins/firstorder/g_ground.ml4" 109 2986 3059
+call(
+  tail
+)
+type(
+  Libnames.reference list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 109 2986 3018 "plugins/firstorder/g_ground.ml4" 109 2986 3059
+type(
+  'c -> Libnames.reference list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 109 2986 3016 "plugins/firstorder/g_ground.ml4" 109 2986 3059
+type(
+  'b -> 'c -> Libnames.reference list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 109 2986 3014 "plugins/firstorder/g_ground.ml4" 109 2986 3059
+type(
+  'a -> 'b -> 'c -> Libnames.reference list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3064 "plugins/firstorder/g_ground.ml4" 110 3060 3088
+type(
+  'a ->
+  'b ->
+  'c ->
+  Libnames.global_reference Util.located Rawterm.or_var list -> Pp.std_ppcmds
+)
+ident(
+  def pr_firstorder_using_glob "plugins/firstorder/g_ground.ml4" 111 3157 3157 --
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3089 "plugins/firstorder/g_ground.ml4" 110 3060 3090
+type(
+  'a
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3091 "plugins/firstorder/g_ground.ml4" 110 3060 3092
+type(
+  'b
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3093 "plugins/firstorder/g_ground.ml4" 110 3060 3094
+type(
+  'c
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3097 "plugins/firstorder/g_ground.ml4" 110 3060 3112
+type(
+  (unit -> Pp.std_ppcmds) ->
+  (Libnames.global_reference Util.located Rawterm.or_var -> Pp.std_ppcmds) ->
+  Libnames.global_reference Util.located Rawterm.or_var list -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prlist_with_sep
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3113 "plugins/firstorder/g_ground.ml4" 110 3060 3121
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.pr_comma
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3123 "plugins/firstorder/g_ground.ml4" 110 3060 3132
+type(
+  (Libnames.global_reference Util.located -> Pp.std_ppcmds) ->
+  Libnames.global_reference Util.located Rawterm.or_var -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Ppconstr.pr_or_var
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3134 "plugins/firstorder/g_ground.ml4" 110 3060 3144
+type(
+  (Libnames.global_reference -> Pp.std_ppcmds) ->
+  Libnames.global_reference Util.located -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.pr_located
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3145 "plugins/firstorder/g_ground.ml4" 110 3060 3154
+type(
+  Libnames.global_reference -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Printer.pr_global
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3134 "plugins/firstorder/g_ground.ml4" 110 3060 3154
+call(
+  stack
+)
+type(
+  Libnames.global_reference Util.located -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3123 "plugins/firstorder/g_ground.ml4" 110 3060 3155
+call(
+  stack
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3097 "plugins/firstorder/g_ground.ml4" 110 3060 3156
+call(
+  tail
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3093 "plugins/firstorder/g_ground.ml4" 110 3060 3156
+type(
+  'c ->
+  Libnames.global_reference Util.located Rawterm.or_var list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3091 "plugins/firstorder/g_ground.ml4" 110 3060 3156
+type(
+  'b ->
+  'c ->
+  Libnames.global_reference Util.located Rawterm.or_var list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 110 3060 3089 "plugins/firstorder/g_ground.ml4" 110 3060 3156
+type(
+  'a ->
+  'b ->
+  'c ->
+  Libnames.global_reference Util.located Rawterm.or_var list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 111 3157 3161 "plugins/firstorder/g_ground.ml4" 111 3157 3186
+type(
+  'a -> 'b -> 'c -> Libnames.global_reference list -> Pp.std_ppcmds
+)
+ident(
+  def pr_firstorder_using_typed "plugins/firstorder/g_ground.ml4" 113 3231 3231 --
+)
+"plugins/firstorder/g_ground.ml4" 111 3157 3187 "plugins/firstorder/g_ground.ml4" 111 3157 3188
+type(
+  'a
+)
+"plugins/firstorder/g_ground.ml4" 111 3157 3189 "plugins/firstorder/g_ground.ml4" 111 3157 3190
+type(
+  'b
+)
+"plugins/firstorder/g_ground.ml4" 111 3157 3191 "plugins/firstorder/g_ground.ml4" 111 3157 3192
+type(
+  'c
+)
+"plugins/firstorder/g_ground.ml4" 111 3157 3195 "plugins/firstorder/g_ground.ml4" 111 3157 3210
+type(
+  (unit -> Pp.std_ppcmds) ->
+  (Libnames.global_reference -> Pp.std_ppcmds) ->
+  Libnames.global_reference list -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prlist_with_sep
+)
+"plugins/firstorder/g_ground.ml4" 111 3157 3211 "plugins/firstorder/g_ground.ml4" 111 3157 3219
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.pr_comma
+)
+"plugins/firstorder/g_ground.ml4" 111 3157 3220 "plugins/firstorder/g_ground.ml4" 111 3157 3229
+type(
+  Libnames.global_reference -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Printer.pr_global
+)
+"plugins/firstorder/g_ground.ml4" 111 3157 3195 "plugins/firstorder/g_ground.ml4" 111 3157 3229
+call(
+  tail
+)
+type(
+  Libnames.global_reference list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 111 3157 3191 "plugins/firstorder/g_ground.ml4" 111 3157 3229
+type(
+  'c -> Libnames.global_reference list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 111 3157 3189 "plugins/firstorder/g_ground.ml4" 111 3157 3229
+type(
+  'b -> 'c -> Libnames.global_reference list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 111 3157 3187 "plugins/firstorder/g_ground.ml4" 111 3157 3229
+type(
+  'a -> 'b -> 'c -> Libnames.global_reference list -> Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 120 3474 3507 "plugins/firstorder/g_ground.ml4" 120 3474 3508
+type(
+  Libnames.reference
+)
+ident(
+  int_ref a "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+"plugins/firstorder/g_ground.ml4" 120 3474 3506 "plugins/firstorder/g_ground.ml4" 120 3474 3509
+type(
+  Libnames.reference list
+)
+type(
+  Libnames.reference list
+)
+type(
+  Libnames.reference list
+)
+"plugins/firstorder/g_ground.ml4" 121 3512 3577 "plugins/firstorder/g_ground.ml4" 121 3512 3578
+type(
+  Libnames.reference
+)
+ident(
+  int_ref a "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+"plugins/firstorder/g_ground.ml4" 121 3512 3580 "plugins/firstorder/g_ground.ml4" 121 3512 3581
+type(
+  Libnames.reference list
+)
+ident(
+  int_ref l "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+"plugins/firstorder/g_ground.ml4" 121 3512 3577 "plugins/firstorder/g_ground.ml4" 121 3512 3581
+type(
+  Libnames.reference list
+)
+type(
+  Libnames.reference list
+)
+"plugins/firstorder/g_ground.ml4" 123 3647 3651 "plugins/firstorder/g_ground.ml4" 123 3647 3667
+type(
+  (Pp.std_ppcmds -> unit) -> Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Flags.if_verbose
+)
+"plugins/firstorder/g_ground.ml4" 124 3668 3674 "plugins/firstorder/g_ground.ml4" 124 3668 3688
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msg_warning
+)
+"plugins/firstorder/g_ground.ml4" 124 3668 3690 "plugins/firstorder/g_ground.ml4" 124 3668 3696
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/firstorder/g_ground.ml4" 124 3668 3697 "plugins/firstorder/g_ground.ml4" 124 3668 3740
+type(
+  string
+)
+"plugins/firstorder/g_ground.ml4" 124 3668 3690 "plugins/firstorder/g_ground.ml4" 124 3668 3740
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/g_ground.ml4" 123 3647 3651 "plugins/firstorder/g_ground.ml4" 123 3647 3741
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/g_ground.ml4" 125 3743 3747 "plugins/firstorder/g_ground.ml4" 125 3743 3748
+type(
+  Libnames.reference
+)
+ident(
+  int_ref a "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+"plugins/firstorder/g_ground.ml4" 125 3743 3750 "plugins/firstorder/g_ground.ml4" 125 3743 3751
+type(
+  Libnames.reference
+)
+ident(
+  int_ref b "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+"plugins/firstorder/g_ground.ml4" 125 3743 3753 "plugins/firstorder/g_ground.ml4" 125 3743 3754
+type(
+  Libnames.reference list
+)
+ident(
+  int_ref l "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+"plugins/firstorder/g_ground.ml4" 125 3743 3750 "plugins/firstorder/g_ground.ml4" 125 3743 3754
+type(
+  Libnames.reference list
+)
+"plugins/firstorder/g_ground.ml4" 125 3743 3747 "plugins/firstorder/g_ground.ml4" 125 3743 3754
+type(
+  Libnames.reference list
+)
+"plugins/firstorder/g_ground.ml4" 123 3647 3651 "plugins/firstorder/g_ground.ml4" 123 3647 3754
+type(
+  Libnames.reference list
+)
+type(
+  Libnames.reference list
+)
+"plugins/firstorder/g_ground.ml4" 127 3759 3770 "plugins/firstorder/g_ground.ml4" 127 3759 3772
+type(
+  Libnames.reference list
+)
+type(
+  Libnames.reference list
+)
+"plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  Libnames.global_reference list Tacexpr.typed_abstract_argument_type *
+  Libnames.global_reference list Pptactic.extra_genarg_printer
+)
+type(
+  Libnames.global_reference list Pptactic.extra_genarg_printer
+)
+ident(
+  int_ref pr_firstorder_using_typed "plugins/firstorder/g_ground.ml4" 111 3157 3161 "plugins/firstorder/g_ground.ml4" 111 3157 3186
+)
+type(
+  Libnames.global_reference list Tacexpr.typed_abstract_argument_type
+)
+ident(
+  int_ref wit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+  Tacexpr.glob_abstract_argument_type *
+  Libnames.global_reference Util.located Rawterm.or_var list
+  Pptactic.glob_extra_genarg_printer
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+  Pptactic.glob_extra_genarg_printer
+)
+ident(
+  int_ref pr_firstorder_using_glob "plugins/firstorder/g_ground.ml4" 110 3060 3064 "plugins/firstorder/g_ground.ml4" 110 3060 3088
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+  Tacexpr.glob_abstract_argument_type
+)
+ident(
+  int_ref globwit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Libnames.reference list Tacexpr.raw_abstract_argument_type *
+  Libnames.reference list Pptactic.raw_extra_genarg_printer
+)
+type(
+  Libnames.reference list Pptactic.raw_extra_genarg_printer
+)
+ident(
+  int_ref pr_firstorder_using_raw "plugins/firstorder/g_ground.ml4" 109 2986 2990 "plugins/firstorder/g_ground.ml4" 109 2986 3013
+)
+type(
+  Libnames.reference list Tacexpr.raw_abstract_argument_type
+)
+ident(
+  int_ref rawwit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Libnames.reference list Tacexpr.raw_abstract_argument_type *
+  Libnames.reference list Pptactic.raw_extra_genarg_printer ->
+  Libnames.global_reference Util.located Rawterm.or_var list
+  Tacexpr.glob_abstract_argument_type *
+  Libnames.global_reference Util.located Rawterm.or_var list
+  Pptactic.glob_extra_genarg_printer ->
+  Libnames.global_reference list Tacexpr.typed_abstract_argument_type *
+  Libnames.global_reference list Pptactic.extra_genarg_printer -> unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_genarg_pprule
+)
+type(
+  unit
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  string option * Gramext.g_assoc option *
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Libnames.reference -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_a -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_b -> Libnames.reference list
+)
+type(
+  '_b
+)
+ident(
+  def loc "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  ('_b -> Libnames.reference list) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_a
+)
+type(
+  ('_a -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference
+)
+ident(
+  int_ref a "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Libnames.reference -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference
+)
+ident(
+  def a "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Libnames.reference list -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_c -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Libnames.reference -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_d -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_e -> Libnames.reference list
+)
+type(
+  '_e
+)
+ident(
+  def loc "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  ('_e -> Libnames.reference list) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_d
+)
+type(
+  ('_d -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference
+)
+ident(
+  int_ref a "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Libnames.reference -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference
+)
+ident(
+  def a "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_c
+)
+type(
+  ('_c -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference list
+)
+ident(
+  int_ref l "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Libnames.reference list -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference list
+)
+ident(
+  def l "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference list -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Libnames.reference list -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Libnames.reference -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Libnames.reference -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_f -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_g -> Libnames.reference list
+)
+type(
+  '_g
+)
+ident(
+  def loc "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  ('_g -> Libnames.reference list) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_f
+)
+type(
+  ('_f -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference
+)
+ident(
+  int_ref a "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Libnames.reference -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference
+)
+ident(
+  def a "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference
+)
+ident(
+  int_ref b "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Libnames.reference -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference
+)
+ident(
+  def b "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference list
+)
+ident(
+  int_ref l "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Libnames.reference list -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Libnames.reference list
+)
+ident(
+  def l "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference list -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_h -> Libnames.reference list
+)
+type(
+  '_h
+)
+ident(
+  def loc "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  ('_h -> Libnames.reference list) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Gramext.g_assoc option
+)
+type(
+  string option
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  Gramext.position option
+)
+type(
+  Libnames.reference list Pcoq.Gram.Entry.e
+)
+type(
+  Libnames.reference list Pcoq.Gram.Entry.e
+)
+ident(
+  int_ref firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Libnames.reference list Pcoq.Gram.Entry.e ->
+  Gramext.position option ->
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list -> unit
+)
+ident(
+  ext_ref Pcoq.Gram.extend
+)
+type(
+  unit
+)
+type(
+  (Tacinterp.glob_sign ->
+   Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument) *
+  (Tacinterp.interp_sign ->
+   Proof_type.goal Tacmach.sigma ->
+   Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument) *
+  (Mod_subst.substitution ->
+   Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument)
+)
+type(
+  Mod_subst.substitution ->
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  int_ref x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument ->
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  int_ref subst "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Mod_subst.substitution ->
+  Libnames.global_reference Util.located Rawterm.or_var list ->
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list ->
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+ident(
+  int_ref x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_ref
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Libnames.global_reference Util.located Rawterm.or_var list ->
+  Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  int_ref s "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Mod_subst.substitution ->
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Tacinterp.subst_genarg
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_ref
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument ->
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+ident(
+  def x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  def s "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Libnames.global_reference Util.located Rawterm.or_var list ->
+  Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  def x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  def subst "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.interp_sign ->
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+type(
+  Libnames.global_reference list
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  int_ref x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument ->
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  int_ref ist "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.interp_sign ->
+  Proof_type.goal Tacmach.sigma ->
+  Libnames.global_reference Util.located Rawterm.or_var list ->
+  Libnames.global_reference list
+)
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Libnames.global_reference Util.located Rawterm.or_var list ->
+  Libnames.global_reference list
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list ->
+  Libnames.global_reference list
+)
+type(
+  Libnames.global_reference list
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+ident(
+  int_ref x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_ref
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Libnames.global_reference Util.located Rawterm.or_var list ->
+  Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  int_ref ist "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.interp_sign ->
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+ident(
+  ext_ref Tacinterp.interp_genarg
+)
+type(
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Libnames.global_reference, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_ref
+)
+type(
+  (Libnames.global_reference, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Libnames.global_reference list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+ident(
+  def x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  def ist "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref wit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Libnames.global_reference list -> Tacexpr.typed_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  def x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  def ist "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.glob_sign ->
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+type(
+  Libnames.reference list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  int_ref e "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.glob_sign ->
+  Libnames.reference list ->
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+type(
+  Libnames.reference list ->
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+type(
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+type(
+  Libnames.reference list
+)
+ident(
+  int_ref x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Libnames.reference list -> Tacexpr.raw_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  int_ref e "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.glob_sign ->
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Tacinterp.intern_genarg
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_ref
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument ->
+  Libnames.global_reference Util.located Rawterm.or_var list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference list
+)
+ident(
+  def x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  def e "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Libnames.global_reference Util.located Rawterm.or_var list ->
+  Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  def x "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  def e "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  string ->
+  (Tacinterp.glob_sign ->
+   Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument) *
+  (Tacinterp.interp_sign ->
+   Proof_type.goal Tacmach.sigma ->
+   Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument) *
+  (Mod_subst.substitution ->
+   Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument) ->
+  unit
+)
+ident(
+  ext_ref Tacinterp.add_interp_genarg
+)
+type(
+  Libnames.reference list Pcoq.Gram.Entry.e
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  string ->
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Libnames.reference list Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.create_generic_entry
+)
+type(
+  Libnames.reference list Pcoq.Gram.Entry.e
+)
+ident(
+  def firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 --
+)
+type(
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type *
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type *
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  string ->
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type *
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type *
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.create_arg
+)
+type(
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type *
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type *
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  def rawwit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 --
+)
+type(
+  (Libnames.global_reference Util.located Rawterm.or_var list, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  def globwit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 --
+)
+type(
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  def wit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 --
+)
+"plugins/firstorder/g_ground.ml4" 131 3805 3824 "plugins/firstorder/g_ground.ml4" 131 3805 3837
+type(
+  string option
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/firstorder/g_ground.ml4" 131 3805 3838 "plugins/firstorder/g_ground.ml4" 131 3805 3857
+type(
+  string option
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/firstorder/g_ground.ml4" 132 3863 3871 "plugins/firstorder/g_ground.ml4" 132 3863 3885
+type(
+  bool ->
+  Proof_type.tactic option ->
+  Libnames.global_reference list -> Auto.hint_db_name list -> Tacmach.tactic
+)
+ident(
+  int_ref gen_ground_tac "plugins/firstorder/g_ground.ml4" 75 2062 2066 "plugins/firstorder/g_ground.ml4" 75 2062 2080
+)
+"plugins/firstorder/g_ground.ml4" 132 3863 3886 "plugins/firstorder/g_ground.ml4" 132 3863 3890
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 132 3863 3892 "plugins/firstorder/g_ground.ml4" 132 3863 3902
+type(
+  (Tacexpr.glob_tactic_expr -> Tacmach.tactic) ->
+  Tacexpr.glob_tactic_expr option -> Proof_type.tactic option
+)
+ident(
+  ext_ref Option.map
+)
+"plugins/firstorder/g_ground.ml4" 132 3863 3903 "plugins/firstorder/g_ground.ml4" 132 3863 3914
+type(
+  Tacexpr.glob_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.eval_tactic
+)
+"plugins/firstorder/g_ground.ml4" 132 3863 3915 "plugins/firstorder/g_ground.ml4" 132 3863 3916
+type(
+  Tacexpr.glob_tactic_expr option
+)
+ident(
+  int_ref t "plugins/firstorder/g_ground.ml4" 131 3805 3824 "plugins/firstorder/g_ground.ml4" 131 3805 3922
+)
+"plugins/firstorder/g_ground.ml4" 132 3863 3892 "plugins/firstorder/g_ground.ml4" 132 3863 3916
+call(
+  stack
+)
+type(
+  Proof_type.tactic option
+)
+"plugins/firstorder/g_ground.ml4" 132 3863 3918 "plugins/firstorder/g_ground.ml4" 132 3863 3919
+type(
+  Libnames.global_reference list
+)
+ident(
+  int_ref l "plugins/firstorder/g_ground.ml4" 131 3805 3838 "plugins/firstorder/g_ground.ml4" 131 3805 3922
+)
+"plugins/firstorder/g_ground.ml4" 132 3863 3920 "plugins/firstorder/g_ground.ml4" 132 3863 3922
+type(
+  Auto.hint_db_name list
+)
+"plugins/firstorder/g_ground.ml4" 132 3863 3871 "plugins/firstorder/g_ground.ml4" 132 3863 3922
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 131 3805 3838 "plugins/firstorder/g_ground.ml4" 131 3805 3922
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Libnames.global_reference list
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref wit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Libnames.global_reference list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.global_reference list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/g_ground.ml4" 131 3805 3824 "plugins/firstorder/g_ground.ml4" 131 3805 3922
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.wit_tactic5
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Tacexpr.glob_tactic_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/g_ground.ml4" 133 3925 3944 "plugins/firstorder/g_ground.ml4" 133 3925 3957
+type(
+  string option
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/firstorder/g_ground.ml4" 133 3925 3965 "plugins/firstorder/g_ground.ml4" 133 3925 3984
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/firstorder/g_ground.ml4" 134 3990 3998 "plugins/firstorder/g_ground.ml4" 134 3990 4012
+type(
+  bool ->
+  Proof_type.tactic option ->
+  Libnames.global_reference list -> Auto.hint_db_name list -> Tacmach.tactic
+)
+ident(
+  int_ref gen_ground_tac "plugins/firstorder/g_ground.ml4" 75 2062 2066 "plugins/firstorder/g_ground.ml4" 75 2062 2080
+)
+"plugins/firstorder/g_ground.ml4" 134 3990 4013 "plugins/firstorder/g_ground.ml4" 134 3990 4017
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 134 3990 4019 "plugins/firstorder/g_ground.ml4" 134 3990 4029
+type(
+  (Tacexpr.glob_tactic_expr -> Tacmach.tactic) ->
+  Tacexpr.glob_tactic_expr option -> Proof_type.tactic option
+)
+ident(
+  ext_ref Option.map
+)
+"plugins/firstorder/g_ground.ml4" 134 3990 4030 "plugins/firstorder/g_ground.ml4" 134 3990 4041
+type(
+  Tacexpr.glob_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.eval_tactic
+)
+"plugins/firstorder/g_ground.ml4" 134 3990 4042 "plugins/firstorder/g_ground.ml4" 134 3990 4043
+type(
+  Tacexpr.glob_tactic_expr option
+)
+ident(
+  int_ref t "plugins/firstorder/g_ground.ml4" 133 3925 3944 "plugins/firstorder/g_ground.ml4" 133 3925 4049
+)
+"plugins/firstorder/g_ground.ml4" 134 3990 4019 "plugins/firstorder/g_ground.ml4" 134 3990 4043
+call(
+  stack
+)
+type(
+  Proof_type.tactic option
+)
+"plugins/firstorder/g_ground.ml4" 134 3990 4045 "plugins/firstorder/g_ground.ml4" 134 3990 4047
+type(
+  Libnames.global_reference list
+)
+"plugins/firstorder/g_ground.ml4" 134 3990 4048 "plugins/firstorder/g_ground.ml4" 134 3990 4049
+type(
+  Auto.hint_db_name list
+)
+ident(
+  int_ref l "plugins/firstorder/g_ground.ml4" 133 3925 3965 "plugins/firstorder/g_ground.ml4" 133 3925 4049
+)
+"plugins/firstorder/g_ground.ml4" 134 3990 3998 "plugins/firstorder/g_ground.ml4" 134 3990 4049
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 133 3925 3965 "plugins/firstorder/g_ground.ml4" 133 3925 4049
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  string list
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (string list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  (string, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_pre_ident
+)
+type(
+  (string, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (string list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (string list, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> string list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/g_ground.ml4" 133 3925 3944 "plugins/firstorder/g_ground.ml4" 133 3925 4049
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.wit_tactic5
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Tacexpr.glob_tactic_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/g_ground.ml4" 135 4052 4071 "plugins/firstorder/g_ground.ml4" 135 4052 4084
+type(
+  string option
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/firstorder/g_ground.ml4" 135 4052 4085 "plugins/firstorder/g_ground.ml4" 135 4052 4104
+type(
+  string option
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/firstorder/g_ground.ml4" 136 4105 4119 "plugins/firstorder/g_ground.ml4" 136 4105 4139
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/firstorder/g_ground.ml4" 137 4145 4153 "plugins/firstorder/g_ground.ml4" 137 4145 4167
+type(
+  bool ->
+  Proof_type.tactic option ->
+  Libnames.global_reference list -> Auto.hint_db_name list -> Tacmach.tactic
+)
+ident(
+  int_ref gen_ground_tac "plugins/firstorder/g_ground.ml4" 75 2062 2066 "plugins/firstorder/g_ground.ml4" 75 2062 2080
+)
+"plugins/firstorder/g_ground.ml4" 137 4145 4168 "plugins/firstorder/g_ground.ml4" 137 4145 4172
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 137 4145 4174 "plugins/firstorder/g_ground.ml4" 137 4145 4184
+type(
+  (Tacexpr.glob_tactic_expr -> Tacmach.tactic) ->
+  Tacexpr.glob_tactic_expr option -> Proof_type.tactic option
+)
+ident(
+  ext_ref Option.map
+)
+"plugins/firstorder/g_ground.ml4" 137 4145 4185 "plugins/firstorder/g_ground.ml4" 137 4145 4196
+type(
+  Tacexpr.glob_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.eval_tactic
+)
+"plugins/firstorder/g_ground.ml4" 137 4145 4197 "plugins/firstorder/g_ground.ml4" 137 4145 4198
+type(
+  Tacexpr.glob_tactic_expr option
+)
+ident(
+  int_ref t "plugins/firstorder/g_ground.ml4" 135 4052 4071 "plugins/firstorder/g_ground.ml4" 135 4052 4204
+)
+"plugins/firstorder/g_ground.ml4" 137 4145 4174 "plugins/firstorder/g_ground.ml4" 137 4145 4198
+call(
+  stack
+)
+type(
+  Proof_type.tactic option
+)
+"plugins/firstorder/g_ground.ml4" 137 4145 4200 "plugins/firstorder/g_ground.ml4" 137 4145 4201
+type(
+  Libnames.global_reference list
+)
+ident(
+  int_ref l "plugins/firstorder/g_ground.ml4" 135 4052 4085 "plugins/firstorder/g_ground.ml4" 135 4052 4204
+)
+"plugins/firstorder/g_ground.ml4" 137 4145 4202 "plugins/firstorder/g_ground.ml4" 137 4145 4204
+type(
+  Auto.hint_db_name list
+)
+ident(
+  int_ref l' "plugins/firstorder/g_ground.ml4" 136 4105 4119 "plugins/firstorder/g_ground.ml4" 136 4105 4204
+)
+"plugins/firstorder/g_ground.ml4" 137 4145 4153 "plugins/firstorder/g_ground.ml4" 137 4145 4204
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 136 4105 4119 "plugins/firstorder/g_ground.ml4" 136 4105 4204
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  string list
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l' "" -1 0 0 "" -1 0 0
+)
+type(
+  (string list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  (string, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_pre_ident
+)
+type(
+  (string, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (string list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (string list, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> string list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l' "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/g_ground.ml4" 135 4052 4085 "plugins/firstorder/g_ground.ml4" 135 4052 4204
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Libnames.global_reference list
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref wit_firstorder_using "plugins/firstorder/g_ground.ml4" 113 3231 3231 "plugins/firstorder/g_ground.ml4" 113 3231 3778
+)
+type(
+  (Libnames.global_reference list, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Libnames.global_reference list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.global_reference list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/g_ground.ml4" 135 4052 4071 "plugins/firstorder/g_ground.ml4" 135 4052 4204
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.wit_tactic5
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Tacexpr.glob_tactic_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/g_ground.ml4" 138 4207 4226 "plugins/firstorder/g_ground.ml4" 138 4207 4239
+type(
+  string option
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/firstorder/g_ground.ml4" 139 4245 4253 "plugins/firstorder/g_ground.ml4" 139 4245 4267
+type(
+  bool ->
+  Proof_type.tactic option ->
+  Libnames.global_reference list -> Auto.hint_db_name list -> Tacmach.tactic
+)
+ident(
+  int_ref gen_ground_tac "plugins/firstorder/g_ground.ml4" 75 2062 2066 "plugins/firstorder/g_ground.ml4" 75 2062 2080
+)
+"plugins/firstorder/g_ground.ml4" 139 4245 4268 "plugins/firstorder/g_ground.ml4" 139 4245 4272
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 139 4245 4274 "plugins/firstorder/g_ground.ml4" 139 4245 4284
+type(
+  (Tacexpr.glob_tactic_expr -> Tacmach.tactic) ->
+  Tacexpr.glob_tactic_expr option -> Proof_type.tactic option
+)
+ident(
+  ext_ref Option.map
+)
+"plugins/firstorder/g_ground.ml4" 139 4245 4285 "plugins/firstorder/g_ground.ml4" 139 4245 4296
+type(
+  Tacexpr.glob_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.eval_tactic
+)
+"plugins/firstorder/g_ground.ml4" 139 4245 4297 "plugins/firstorder/g_ground.ml4" 139 4245 4298
+type(
+  Tacexpr.glob_tactic_expr option
+)
+ident(
+  int_ref t "plugins/firstorder/g_ground.ml4" 138 4207 4226 "plugins/firstorder/g_ground.ml4" 138 4207 4305
+)
+"plugins/firstorder/g_ground.ml4" 139 4245 4274 "plugins/firstorder/g_ground.ml4" 139 4245 4298
+call(
+  stack
+)
+type(
+  Proof_type.tactic option
+)
+"plugins/firstorder/g_ground.ml4" 139 4245 4300 "plugins/firstorder/g_ground.ml4" 139 4245 4302
+type(
+  Libnames.global_reference list
+)
+"plugins/firstorder/g_ground.ml4" 139 4245 4303 "plugins/firstorder/g_ground.ml4" 139 4245 4305
+type(
+  Auto.hint_db_name list
+)
+"plugins/firstorder/g_ground.ml4" 139 4245 4253 "plugins/firstorder/g_ground.ml4" 139 4245 4305
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 138 4207 4226 "plugins/firstorder/g_ground.ml4" 138 4207 4305
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.wit_tactic5
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Tacexpr.glob_tactic_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/g_ground.ml4" 130 3780 3780 "plugins/firstorder/g_ground.ml4" 130 3780 4311
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/firstorder/g_ground.ml4" 130 3780 3780 "plugins/firstorder/g_ground.ml4" 130 3780 4311
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/firstorder/g_ground.ml4" 130 3780 3780 "plugins/firstorder/g_ground.ml4" 130 3780 4311
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/firstorder/g_ground.ml4" 130 3780 3780 "plugins/firstorder/g_ground.ml4" 130 3780 4311
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/firstorder/g_ground.ml4" 130 3780 3780 "plugins/firstorder/g_ground.ml4" 130 3780 4311
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/firstorder/g_ground.ml4" 130 3780 3780 "plugins/firstorder/g_ground.ml4" 130 3780 4311
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+"plugins/firstorder/g_ground.ml4" 143 4338 4355 "plugins/firstorder/g_ground.ml4" 143 4338 4368
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  string option
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.glob_tactic_expr option -> Proof_type.tactic
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+ident(
+  int_ref t "plugins/firstorder/g_ground.ml4" 143 4338 4355 "plugins/firstorder/g_ground.ml4" 143 4338 4368
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.wit_tactic5
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.glob_tactic_expr option -> Tacexpr.typed_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.typed_generic_argument list
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+ident(
+  def t "plugins/firstorder/g_ground.ml4" 142 4313 4313 "plugins/firstorder/g_ground.ml4" 142 4313 4440
+)
+"plugins/firstorder/g_ground.ml4" 144 4374 4381 "plugins/firstorder/g_ground.ml4" 144 4374 4395
+type(
+  bool ->
+  Proof_type.tactic option ->
+  Libnames.global_reference list -> Auto.hint_db_name list -> Tacmach.tactic
+)
+ident(
+  int_ref gen_ground_tac "plugins/firstorder/g_ground.ml4" 75 2062 2066 "plugins/firstorder/g_ground.ml4" 75 2062 2080
+)
+type(
+  bool ->
+  Proof_type.tactic option ->
+  Libnames.global_reference list ->
+  Auto.hint_db_name list -> Proof_type.tactic
+)
+ident(
+  int_ref gen_ground_tac "plugins/firstorder/g_ground.ml4" 75 2062 2066 "plugins/firstorder/g_ground.ml4" 75 2062 2080
+)
+"plugins/firstorder/g_ground.ml4" 144 4374 4396 "plugins/firstorder/g_ground.ml4" 144 4374 4401
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 144 4374 4403 "plugins/firstorder/g_ground.ml4" 144 4374 4413
+type(
+  (Tacexpr.glob_tactic_expr -> Tacmach.tactic) ->
+  Tacexpr.glob_tactic_expr option -> Proof_type.tactic option
+)
+ident(
+  ext_ref Option.map
+)
+type(
+  (Tacexpr.glob_tactic_expr -> Tacmach.tactic) ->
+  Tacexpr.glob_tactic_expr option -> Proof_type.tactic option
+)
+ident(
+  ext_ref Option.map
+)
+"plugins/firstorder/g_ground.ml4" 144 4374 4414 "plugins/firstorder/g_ground.ml4" 144 4374 4425
+type(
+  Tacexpr.glob_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.eval_tactic
+)
+type(
+  Tacexpr.glob_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.eval_tactic
+)
+"plugins/firstorder/g_ground.ml4" 144 4374 4426 "plugins/firstorder/g_ground.ml4" 144 4374 4427
+type(
+  Tacexpr.glob_tactic_expr option
+)
+ident(
+  int_ref t "plugins/firstorder/g_ground.ml4" 143 4338 4355 "plugins/firstorder/g_ground.ml4" 143 4338 4434
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+ident(
+  int_ref t "plugins/firstorder/g_ground.ml4" 143 4338 4355 "plugins/firstorder/g_ground.ml4" 143 4338 4368
+)
+"plugins/firstorder/g_ground.ml4" 144 4374 4403 "plugins/firstorder/g_ground.ml4" 144 4374 4427
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Proof_type.tactic option
+)
+type(
+  Proof_type.tactic option
+)
+"plugins/firstorder/g_ground.ml4" 144 4374 4429 "plugins/firstorder/g_ground.ml4" 144 4374 4431
+type(
+  Libnames.global_reference list
+)
+type(
+  Libnames.global_reference list
+)
+"plugins/firstorder/g_ground.ml4" 144 4374 4432 "plugins/firstorder/g_ground.ml4" 144 4374 4434
+type(
+  Auto.hint_db_name list
+)
+type(
+  Auto.hint_db_name list
+)
+"plugins/firstorder/g_ground.ml4" 144 4374 4381 "plugins/firstorder/g_ground.ml4" 144 4374 4434
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 143 4338 4355 "plugins/firstorder/g_ground.ml4" 143 4338 4434
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.wit_tactic5
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Tacexpr.glob_tactic_expr option, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Tacexpr.glob_tactic_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.glob_tactic_expr option
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/g_ground.ml4" 142 4313 4313 "plugins/firstorder/g_ground.ml4" 142 4313 4440
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/firstorder/g_ground.ml4" 142 4313 4313 "plugins/firstorder/g_ground.ml4" 142 4313 4440
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/firstorder/g_ground.ml4" 142 4313 4313 "plugins/firstorder/g_ground.ml4" 142 4313 4440
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/firstorder/g_ground.ml4" 142 4313 4313 "plugins/firstorder/g_ground.ml4" 142 4313 4440
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/firstorder/g_ground.ml4" 142 4313 4313 "plugins/firstorder/g_ground.ml4" 142 4313 4440
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/firstorder/g_ground.ml4" 142 4313 4313 "plugins/firstorder/g_ground.ml4" 142 4313 4440
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Tacexpr.glob_tactic_expr option -> Proof_type.tactic
+)
+ident(
+  def h_gintuition "plugins/firstorder/g_ground.ml4" 142 4313 4313 --
+)
+"plugins/firstorder/g_ground.ml4" 148 4443 4447 "plugins/firstorder/g_ground.ml4" 148 4443 4477
+type(
+  Proof_type.goal Evd.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def default_declarative_automation "plugins/firstorder/g_ground.ml4" 160 4729 4729 --
+)
+"plugins/firstorder/g_ground.ml4" 148 4443 4478 "plugins/firstorder/g_ground.ml4" 148 4443 4481
+type(
+  Proof_type.goal Evd.sigma
+)
+ident(
+  def gls "plugins/firstorder/g_ground.ml4" 149 4484 4486 "plugins/firstorder/g_ground.ml4" 149 4484 4725
+)
+"plugins/firstorder/g_ground.ml4" 149 4484 4486 "plugins/firstorder/g_ground.ml4" 149 4484 4495
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclORELSE
+)
+"plugins/firstorder/g_ground.ml4" 150 4496 4501 "plugins/firstorder/g_ground.ml4" 150 4496 4510
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclORELSE
+)
+"plugins/firstorder/g_ground.ml4" 150 4496 4512 "plugins/firstorder/g_ground.ml4" 150 4496 4526
+type(
+  Term.constr list -> Auto.hint_db_name list option -> Tacmach.tactic
+)
+ident(
+  ext_ref Auto.h_trivial
+)
+"plugins/firstorder/g_ground.ml4" 150 4496 4527 "plugins/firstorder/g_ground.ml4" 150 4496 4529
+type(
+  Term.constr list
+)
+"plugins/firstorder/g_ground.ml4" 150 4496 4530 "plugins/firstorder/g_ground.ml4" 150 4496 4534
+type(
+  Auto.hint_db_name list option
+)
+"plugins/firstorder/g_ground.ml4" 150 4496 4512 "plugins/firstorder/g_ground.ml4" 150 4496 4534
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/g_ground.ml4" 151 4536 4541 "plugins/firstorder/g_ground.ml4" 151 4536 4561
+type(
+  int -> Term.constr list -> Proof_type.tactic
+)
+ident(
+  ext_ref Cctac.congruence_tac
+)
+"plugins/firstorder/g_ground.ml4" 151 4536 4563 "plugins/firstorder/g_ground.ml4" 151 4536 4579
+type(
+  int ref
+)
+ident(
+  int_ref congruence_depth "plugins/firstorder/g_ground.ml4" 42 1130 1134 "plugins/firstorder/g_ground.ml4" 42 1130 1150
+)
+"plugins/firstorder/g_ground.ml4" 151 4536 4562 "plugins/firstorder/g_ground.ml4" 151 4536 4579
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/g_ground.ml4" 151 4536 4580 "plugins/firstorder/g_ground.ml4" 151 4536 4582
+type(
+  Term.constr list
+)
+"plugins/firstorder/g_ground.ml4" 151 4536 4541 "plugins/firstorder/g_ground.ml4" 151 4536 4582
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 150 4496 4501 "plugins/firstorder/g_ground.ml4" 150 4496 4583
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 152 4585 4590 "plugins/firstorder/g_ground.ml4" 152 4585 4604
+type(
+  bool ->
+  Proof_type.tactic option ->
+  Libnames.global_reference list ->
+  Auto.hint_db_name list -> Proof_type.tactic
+)
+ident(
+  int_ref gen_ground_tac "plugins/firstorder/g_ground.ml4" 75 2062 2066 "plugins/firstorder/g_ground.ml4" 75 2062 2080
+)
+"plugins/firstorder/g_ground.ml4" 152 4585 4605 "plugins/firstorder/g_ground.ml4" 152 4585 4609
+type(
+  bool
+)
+"plugins/firstorder/g_ground.ml4" 153 4610 4624 "plugins/firstorder/g_ground.ml4" 153 4610 4631
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHEN
+)
+"plugins/firstorder/g_ground.ml4" 154 4632 4635 "plugins/firstorder/g_ground.ml4" 154 4632 4638
+type(
+  Vernacexpr.locality_flag * Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/firstorder/g_ground.ml4" 154 4632 4640 "plugins/firstorder/g_ground.ml4" 154 4632 4654
+type(
+  unit -> Vernacexpr.locality_flag * Proof_type.tactic
+)
+ident(
+  int_ref default_solver "plugins/firstorder/g_ground.ml4" 57 1456 1481 "plugins/firstorder/g_ground.ml4" 57 1456 1495
+)
+"plugins/firstorder/g_ground.ml4" 154 4632 4655 "plugins/firstorder/g_ground.ml4" 154 4632 4657
+type(
+  unit
+)
+"plugins/firstorder/g_ground.ml4" 154 4632 4640 "plugins/firstorder/g_ground.ml4" 154 4632 4657
+call(
+  stack
+)
+type(
+  Vernacexpr.locality_flag * Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 154 4632 4635 "plugins/firstorder/g_ground.ml4" 154 4632 4658
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 155 4660 4663 "plugins/firstorder/g_ground.ml4" 155 4660 4683
+type(
+  int -> Term.constr list -> Proof_type.tactic
+)
+ident(
+  ext_ref Cctac.congruence_tac
+)
+"plugins/firstorder/g_ground.ml4" 155 4660 4685 "plugins/firstorder/g_ground.ml4" 155 4660 4701
+type(
+  int ref
+)
+ident(
+  int_ref congruence_depth "plugins/firstorder/g_ground.ml4" 42 1130 1134 "plugins/firstorder/g_ground.ml4" 42 1130 1150
+)
+"plugins/firstorder/g_ground.ml4" 155 4660 4684 "plugins/firstorder/g_ground.ml4" 155 4660 4701
+type(
+  int
+)
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/g_ground.ml4" 155 4660 4702 "plugins/firstorder/g_ground.ml4" 155 4660 4704
+type(
+  Term.constr list
+)
+"plugins/firstorder/g_ground.ml4" 155 4660 4663 "plugins/firstorder/g_ground.ml4" 155 4660 4704
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 153 4610 4624 "plugins/firstorder/g_ground.ml4" 153 4610 4705
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 153 4610 4618 "plugins/firstorder/g_ground.ml4" 153 4610 4706
+type(
+  Proof_type.tactic option
+)
+"plugins/firstorder/g_ground.ml4" 156 4708 4715 "plugins/firstorder/g_ground.ml4" 156 4708 4717
+type(
+  Libnames.global_reference list
+)
+"plugins/firstorder/g_ground.ml4" 156 4708 4718 "plugins/firstorder/g_ground.ml4" 156 4708 4720
+type(
+  Auto.hint_db_name list
+)
+"plugins/firstorder/g_ground.ml4" 152 4585 4590 "plugins/firstorder/g_ground.ml4" 152 4585 4720
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/g_ground.ml4" 156 4708 4722 "plugins/firstorder/g_ground.ml4" 156 4708 4725
+type(
+  Proof_type.goal Evd.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/g_ground.ml4" 148 4443 4478 "plugins/firstorder/g_ground.ml4" 148 4443 4481
+)
+"plugins/firstorder/g_ground.ml4" 149 4484 4486 "plugins/firstorder/g_ground.ml4" 149 4484 4725
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 148 4443 4478 "plugins/firstorder/g_ground.ml4" 148 4443 4725
+type(
+  Proof_type.goal Evd.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/g_ground.ml4" 160 4729 4733 "plugins/firstorder/g_ground.ml4" 160 4729 4735
+type(
+  unit
+)
+"plugins/firstorder/g_ground.ml4" 161 4738 4740 "plugins/firstorder/g_ground.ml4" 161 4738 4780
+type(
+  Tacmach.tactic -> unit
+)
+ident(
+  ext_ref Decl_proof_instr.register_automation_tac
+)
+"plugins/firstorder/g_ground.ml4" 161 4738 4781 "plugins/firstorder/g_ground.ml4" 161 4738 4811
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref default_declarative_automation "plugins/firstorder/g_ground.ml4" 148 4443 4447 "plugins/firstorder/g_ground.ml4" 148 4443 4477
+)
+"plugins/firstorder/g_ground.ml4" 161 4738 4740 "plugins/firstorder/g_ground.ml4" 161 4738 4811
+call(
+  stack
+)
+type(
+  unit
+)

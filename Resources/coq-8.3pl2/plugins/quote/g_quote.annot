@@ -1,0 +1,1745 @@
+"plugins/quote/g_quote.ml4" 17 666 670 "plugins/quote/g_quote.ml4" 17 666 679
+type(
+  Tacexpr.glob_tactic_expr * 'a -> Term.constr -> Tacmach.tactic
+)
+ident(
+  def make_cont "plugins/quote/g_quote.ml4" 23 893 893 --
+)
+"plugins/quote/g_quote.ml4" 17 666 680 "plugins/quote/g_quote.ml4" 17 666 681
+type(
+  Tacexpr.glob_tactic_expr * 'a
+)
+ident(
+  def k "plugins/quote/g_quote.ml4" 17 666 682 "plugins/quote/g_quote.ml4" 17 666 891
+)
+"plugins/quote/g_quote.ml4" 17 666 682 "plugins/quote/g_quote.ml4" 17 666 683
+type(
+  Term.constr
+)
+ident(
+  def x "plugins/quote/g_quote.ml4" 18 686 688 "plugins/quote/g_quote.ml4" 18 686 891
+)
+"plugins/quote/g_quote.ml4" 18 686 692 "plugins/quote/g_quote.ml4" 18 686 693
+type(
+  ('b, 'c, 'd, 'e, 'f, 'g, 'h, 'i) Tacexpr.gen_tactic_arg
+)
+"plugins/quote/g_quote.ml4" 18 686 707 "plugins/quote/g_quote.ml4" 18 686 716
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+"plugins/quote/g_quote.ml4" 18 686 718 "plugins/quote/g_quote.ml4" 18 686 737
+type(
+  (Tacinterp.interp_sign -> Tacexpr.glob_tactic_expr) -> Dyn.t
+)
+ident(
+  ext_ref Tacinterp.tactic_in
+)
+"plugins/quote/g_quote.ml4" 18 686 743 "plugins/quote/g_quote.ml4" 18 686 744
+type(
+  Tacinterp.interp_sign
+)
+"plugins/quote/g_quote.ml4" 18 686 748 "plugins/quote/g_quote.ml4" 18 686 751
+type(
+  Tacexpr.glob_tactic_expr * 'a -> Tacexpr.glob_tactic_expr
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"plugins/quote/g_quote.ml4" 18 686 752 "plugins/quote/g_quote.ml4" 18 686 753
+type(
+  Tacexpr.glob_tactic_expr * 'a
+)
+ident(
+  int_ref k "plugins/quote/g_quote.ml4" 17 666 680 "plugins/quote/g_quote.ml4" 17 666 681
+)
+"plugins/quote/g_quote.ml4" 18 686 748 "plugins/quote/g_quote.ml4" 18 686 753
+type(
+  Tacexpr.glob_tactic_expr
+)
+"plugins/quote/g_quote.ml4" 18 686 739 "plugins/quote/g_quote.ml4" 18 686 753
+type(
+  Tacinterp.interp_sign -> Tacexpr.glob_tactic_expr
+)
+"plugins/quote/g_quote.ml4" 18 686 718 "plugins/quote/g_quote.ml4" 18 686 754
+call(
+  stack
+)
+type(
+  Dyn.t
+)
+"plugins/quote/g_quote.ml4" 18 686 696 "plugins/quote/g_quote.ml4" 18 686 755
+type(
+  ('b, 'c, 'd, 'e, 'f, 'g, 'h, 'i) Tacexpr.gen_tactic_arg
+)
+"plugins/quote/g_quote.ml4" 19 759 765 "plugins/quote/g_quote.ml4" 19 759 766
+type(
+  ('j, 'k, 'l, 'm, 'n, 'o, 'p, 'q) Tacexpr.gen_tactic_arg
+)
+"plugins/quote/g_quote.ml4" 19 759 780 "plugins/quote/g_quote.ml4" 19 759 789
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+"plugins/quote/g_quote.ml4" 19 759 791 "plugins/quote/g_quote.ml4" 19 759 810
+type(
+  Term.constr -> Dyn.t
+)
+ident(
+  ext_ref Pretyping.constr_in
+)
+"plugins/quote/g_quote.ml4" 19 759 811 "plugins/quote/g_quote.ml4" 19 759 812
+type(
+  Term.constr
+)
+ident(
+  int_ref x "plugins/quote/g_quote.ml4" 17 666 682 "plugins/quote/g_quote.ml4" 17 666 683
+)
+"plugins/quote/g_quote.ml4" 19 759 791 "plugins/quote/g_quote.ml4" 19 759 812
+call(
+  stack
+)
+type(
+  Dyn.t
+)
+"plugins/quote/g_quote.ml4" 19 759 769 "plugins/quote/g_quote.ml4" 19 759 813
+type(
+  ('j, 'k, 'l, 'm, 'n, 'o, 'p, 'q) Tacexpr.gen_tactic_arg
+)
+"plugins/quote/g_quote.ml4" 20 817 823 "plugins/quote/g_quote.ml4" 20 817 826
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_expr
+)
+"" -1 0 866 "" -1 0 864
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+ident(
+  int_ref k "plugins/quote/g_quote.ml4" 18 686 692 "plugins/quote/g_quote.ml4" 18 686 693
+)
+"plugins/quote/g_quote.ml4" 20 817 829 "plugins/quote/g_quote.ml4" 20 817 865
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_expr
+)
+type(
+  (Names.identifier Util.located *
+   (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+    Libnames.reference Genarg.or_by_notation,
+    Libnames.reference Genarg.or_by_notation, Libnames.reference,
+    Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+    Genarg.rlevel)
+   Tacexpr.gen_tactic_arg)
+  list
+)
+type(
+  Names.identifier Util.located *
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Names.identifier Util.located *
+   (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+    Libnames.reference Genarg.or_by_notation,
+    Libnames.reference Genarg.or_by_notation, Libnames.reference,
+    Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+    Genarg.rlevel)
+   Tacexpr.gen_tactic_arg)
+  list
+)
+type(
+  Tacexpr.rec_flag
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_expr
+)
+"" -1 0 888 "" -1 0 886
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+ident(
+  int_ref x "plugins/quote/g_quote.ml4" 19 759 765 "plugins/quote/g_quote.ml4" 19 759 766
+)
+"plugins/quote/g_quote.ml4" 21 869 871 "plugins/quote/g_quote.ml4" 21 869 887
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/quote/g_quote.ml4" 21 869 888 "plugins/quote/g_quote.ml4" 21 869 891
+type(
+  Tacexpr.raw_tactic_expr
+)
+ident(
+  int_ref tac "plugins/quote/g_quote.ml4" 20 817 823 "plugins/quote/g_quote.ml4" 20 817 826
+)
+"plugins/quote/g_quote.ml4" 21 869 871 "plugins/quote/g_quote.ml4" 21 869 891
+call(
+  tail
+)
+type(
+  Tacmach.tactic
+)
+"plugins/quote/g_quote.ml4" 20 817 819 "plugins/quote/g_quote.ml4" 20 817 891
+type(
+  Tacmach.tactic
+)
+"plugins/quote/g_quote.ml4" 19 759 761 "plugins/quote/g_quote.ml4" 19 759 891
+type(
+  Tacmach.tactic
+)
+"plugins/quote/g_quote.ml4" 18 686 688 "plugins/quote/g_quote.ml4" 18 686 891
+type(
+  Tacmach.tactic
+)
+"plugins/quote/g_quote.ml4" 17 666 682 "plugins/quote/g_quote.ml4" 17 666 891
+type(
+  Term.constr -> Tacmach.tactic
+)
+"plugins/quote/g_quote.ml4" 17 666 680 "plugins/quote/g_quote.ml4" 17 666 891
+type(
+  Tacexpr.glob_tactic_expr * 'a -> Term.constr -> Tacmach.tactic
+)
+"plugins/quote/g_quote.ml4" 24 913 925 "plugins/quote/g_quote.ml4" 24 913 933
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/quote/g_quote.ml4" 24 913 941 "plugins/quote/g_quote.ml4" 24 913 946
+type(
+  Names.identifier -> Names.identifier list -> Tacmach.tactic
+)
+ident(
+  ext_ref Quote.quote
+)
+"plugins/quote/g_quote.ml4" 24 913 947 "plugins/quote/g_quote.ml4" 24 913 948
+type(
+  Names.identifier
+)
+ident(
+  int_ref f "plugins/quote/g_quote.ml4" 24 913 925 "plugins/quote/g_quote.ml4" 24 913 951
+)
+"plugins/quote/g_quote.ml4" 24 913 949 "plugins/quote/g_quote.ml4" 24 913 951
+type(
+  Names.identifier list
+)
+"plugins/quote/g_quote.ml4" 24 913 941 "plugins/quote/g_quote.ml4" 24 913 951
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/quote/g_quote.ml4" 24 913 925 "plugins/quote/g_quote.ml4" 24 913 951
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref f "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref f "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/quote/g_quote.ml4" 25 954 966 "plugins/quote/g_quote.ml4" 25 954 974
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/quote/g_quote.ml4" 25 954 979 "plugins/quote/g_quote.ml4" 25 954 996
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/quote/g_quote.ml4" 25 954 1007 "plugins/quote/g_quote.ml4" 25 954 1012
+type(
+  Names.identifier -> Names.identifier list -> Tacmach.tactic
+)
+ident(
+  ext_ref Quote.quote
+)
+"plugins/quote/g_quote.ml4" 25 954 1013 "plugins/quote/g_quote.ml4" 25 954 1014
+type(
+  Names.identifier
+)
+ident(
+  int_ref f "plugins/quote/g_quote.ml4" 25 954 966 "plugins/quote/g_quote.ml4" 25 954 1017
+)
+"plugins/quote/g_quote.ml4" 25 954 1015 "plugins/quote/g_quote.ml4" 25 954 1017
+type(
+  Names.identifier list
+)
+ident(
+  int_ref lc "plugins/quote/g_quote.ml4" 25 954 979 "plugins/quote/g_quote.ml4" 25 954 1017
+)
+"plugins/quote/g_quote.ml4" 25 954 1007 "plugins/quote/g_quote.ml4" 25 954 1017
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/quote/g_quote.ml4" 25 954 979 "plugins/quote/g_quote.ml4" 25 954 1017
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Names.identifier list
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref lc "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Names.identifier list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref lc "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/quote/g_quote.ml4" 25 954 966 "plugins/quote/g_quote.ml4" 25 954 1017
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref f "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref f "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/quote/g_quote.ml4" 26 1020 1032 "plugins/quote/g_quote.ml4" 26 1020 1040
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/quote/g_quote.ml4" 26 1020 1046 "plugins/quote/g_quote.ml4" 26 1020 1055
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/quote/g_quote.ml4" 26 1020 1064 "plugins/quote/g_quote.ml4" 26 1020 1073
+type(
+  string option
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/quote/g_quote.ml4" 27 1079 1083 "plugins/quote/g_quote.ml4" 27 1079 1092
+type(
+  (Term.constr -> Tacmach.tactic) ->
+  Quote.ConstrSet.elt ->
+  Names.identifier -> Names.identifier list -> Tacmach.tactic
+)
+ident(
+  ext_ref Quote.gen_quote
+)
+"plugins/quote/g_quote.ml4" 27 1079 1094 "plugins/quote/g_quote.ml4" 27 1079 1103
+type(
+  Tacexpr.glob_tactic_expr * Tacmach.tactic -> Term.constr -> Tacmach.tactic
+)
+ident(
+  int_ref make_cont "plugins/quote/g_quote.ml4" 17 666 670 "plugins/quote/g_quote.ml4" 17 666 679
+)
+"plugins/quote/g_quote.ml4" 27 1079 1104 "plugins/quote/g_quote.ml4" 27 1079 1105
+type(
+  Tacexpr.glob_tactic_expr * Tacmach.tactic
+)
+ident(
+  int_ref k "plugins/quote/g_quote.ml4" 26 1020 1064 "plugins/quote/g_quote.ml4" 26 1020 1113
+)
+"plugins/quote/g_quote.ml4" 27 1079 1094 "plugins/quote/g_quote.ml4" 27 1079 1105
+call(
+  stack
+)
+type(
+  Term.constr -> Tacmach.tactic
+)
+"plugins/quote/g_quote.ml4" 27 1079 1107 "plugins/quote/g_quote.ml4" 27 1079 1108
+type(
+  Quote.ConstrSet.elt
+)
+ident(
+  int_ref c "plugins/quote/g_quote.ml4" 26 1020 1046 "plugins/quote/g_quote.ml4" 26 1020 1113
+)
+"plugins/quote/g_quote.ml4" 27 1079 1109 "plugins/quote/g_quote.ml4" 27 1079 1110
+type(
+  Names.identifier
+)
+ident(
+  int_ref f "plugins/quote/g_quote.ml4" 26 1020 1032 "plugins/quote/g_quote.ml4" 26 1020 1113
+)
+"plugins/quote/g_quote.ml4" 27 1079 1111 "plugins/quote/g_quote.ml4" 27 1079 1113
+type(
+  Names.identifier list
+)
+"plugins/quote/g_quote.ml4" 27 1079 1083 "plugins/quote/g_quote.ml4" 27 1079 1113
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/quote/g_quote.ml4" 26 1020 1064 "plugins/quote/g_quote.ml4" 26 1020 1113
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacexpr.glob_tactic_expr * Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref k "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.wit_tactic5
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Tacexpr.glob_tactic_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.glob_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.eval_tactic
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref k "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.wit_tactic5
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Tacexpr.glob_tactic_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.glob_tactic_expr * Tacmach.tactic
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref k "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/quote/g_quote.ml4" 26 1020 1046 "plugins/quote/g_quote.ml4" 26 1020 1113
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Term.constr
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref c "" -1 0 0 "" -1 0 0
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_constr
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Term.constr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Term.constr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref c "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/quote/g_quote.ml4" 26 1020 1032 "plugins/quote/g_quote.ml4" 26 1020 1113
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref f "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref f "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/quote/g_quote.ml4" 28 1116 1128 "plugins/quote/g_quote.ml4" 28 1116 1136
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/quote/g_quote.ml4" 28 1116 1141 "plugins/quote/g_quote.ml4" 28 1116 1158
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/quote/g_quote.ml4" 29 1163 1172 "plugins/quote/g_quote.ml4" 29 1163 1181
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/quote/g_quote.ml4" 29 1163 1190 "plugins/quote/g_quote.ml4" 29 1163 1199
+type(
+  string option
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/quote/g_quote.ml4" 30 1205 1209 "plugins/quote/g_quote.ml4" 30 1205 1218
+type(
+  (Term.constr -> Tacmach.tactic) ->
+  Quote.ConstrSet.elt ->
+  Names.identifier -> Names.identifier list -> Tacmach.tactic
+)
+ident(
+  ext_ref Quote.gen_quote
+)
+"plugins/quote/g_quote.ml4" 30 1205 1220 "plugins/quote/g_quote.ml4" 30 1205 1229
+type(
+  Tacexpr.glob_tactic_expr * Tacmach.tactic -> Term.constr -> Tacmach.tactic
+)
+ident(
+  int_ref make_cont "plugins/quote/g_quote.ml4" 17 666 670 "plugins/quote/g_quote.ml4" 17 666 679
+)
+"plugins/quote/g_quote.ml4" 30 1205 1230 "plugins/quote/g_quote.ml4" 30 1205 1231
+type(
+  Tacexpr.glob_tactic_expr * Tacmach.tactic
+)
+ident(
+  int_ref k "plugins/quote/g_quote.ml4" 29 1163 1190 "plugins/quote/g_quote.ml4" 29 1163 1239
+)
+"plugins/quote/g_quote.ml4" 30 1205 1220 "plugins/quote/g_quote.ml4" 30 1205 1231
+call(
+  stack
+)
+type(
+  Term.constr -> Tacmach.tactic
+)
+"plugins/quote/g_quote.ml4" 30 1205 1233 "plugins/quote/g_quote.ml4" 30 1205 1234
+type(
+  Quote.ConstrSet.elt
+)
+ident(
+  int_ref c "plugins/quote/g_quote.ml4" 29 1163 1172 "plugins/quote/g_quote.ml4" 29 1163 1239
+)
+"plugins/quote/g_quote.ml4" 30 1205 1235 "plugins/quote/g_quote.ml4" 30 1205 1236
+type(
+  Names.identifier
+)
+ident(
+  int_ref f "plugins/quote/g_quote.ml4" 28 1116 1128 "plugins/quote/g_quote.ml4" 28 1116 1239
+)
+"plugins/quote/g_quote.ml4" 30 1205 1237 "plugins/quote/g_quote.ml4" 30 1205 1239
+type(
+  Names.identifier list
+)
+ident(
+  int_ref lc "plugins/quote/g_quote.ml4" 28 1116 1141 "plugins/quote/g_quote.ml4" 28 1116 1239
+)
+"plugins/quote/g_quote.ml4" 30 1205 1209 "plugins/quote/g_quote.ml4" 30 1205 1239
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/quote/g_quote.ml4" 29 1163 1190 "plugins/quote/g_quote.ml4" 29 1163 1239
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacexpr.glob_tactic_expr * Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref k "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.wit_tactic5
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Tacexpr.glob_tactic_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.glob_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.eval_tactic
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref k "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.wit_tactic5
+)
+type(
+  (Tacexpr.glob_tactic_expr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Tacexpr.glob_tactic_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.glob_tactic_expr * Tacmach.tactic
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref k "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/quote/g_quote.ml4" 29 1163 1172 "plugins/quote/g_quote.ml4" 29 1163 1239
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Term.constr
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref c "" -1 0 0 "" -1 0 0
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_constr
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Term.constr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Term.constr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref c "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/quote/g_quote.ml4" 28 1116 1141 "plugins/quote/g_quote.ml4" 28 1116 1239
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Names.identifier list
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref lc "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Names.identifier list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref lc "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/quote/g_quote.ml4" 28 1116 1128 "plugins/quote/g_quote.ml4" 28 1116 1239
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref f "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref f "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/quote/g_quote.ml4" 23 893 893 "plugins/quote/g_quote.ml4" 23 893 1245
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/quote/g_quote.ml4" 23 893 893 "plugins/quote/g_quote.ml4" 23 893 1245
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/quote/g_quote.ml4" 23 893 893 "plugins/quote/g_quote.ml4" 23 893 1245
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/quote/g_quote.ml4" 23 893 893 "plugins/quote/g_quote.ml4" 23 893 1245
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/quote/g_quote.ml4" 23 893 893 "plugins/quote/g_quote.ml4" 23 893 1245
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/quote/g_quote.ml4" 23 893 893 "plugins/quote/g_quote.ml4" 23 893 1245
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)

@@ -1,0 +1,162 @@
+"plugins/firstorder/ground_plugin_mod.ml" 1 0 6 "plugins/firstorder/ground_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/firstorder/ground_plugin_mod.ml" 1 0 28 "plugins/firstorder/ground_plugin_mod.ml" 1 0 37
+type(
+  string
+)
+"plugins/firstorder/ground_plugin_mod.ml" 1 0 6 "plugins/firstorder/ground_plugin_mod.ml" 1 0 37
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/ground_plugin_mod.ml" 2 39 45 "plugins/firstorder/ground_plugin_mod.ml" 2 39 67
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/firstorder/ground_plugin_mod.ml" 2 39 67 "plugins/firstorder/ground_plugin_mod.ml" 2 39 74
+type(
+  string
+)
+"plugins/firstorder/ground_plugin_mod.ml" 2 39 45 "plugins/firstorder/ground_plugin_mod.ml" 2 39 74
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/ground_plugin_mod.ml" 3 76 82 "plugins/firstorder/ground_plugin_mod.ml" 3 76 104
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/firstorder/ground_plugin_mod.ml" 3 76 104 "plugins/firstorder/ground_plugin_mod.ml" 3 76 113
+type(
+  string
+)
+"plugins/firstorder/ground_plugin_mod.ml" 3 76 82 "plugins/firstorder/ground_plugin_mod.ml" 3 76 113
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/ground_plugin_mod.ml" 4 115 121 "plugins/firstorder/ground_plugin_mod.ml" 4 115 143
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/firstorder/ground_plugin_mod.ml" 4 115 143 "plugins/firstorder/ground_plugin_mod.ml" 4 115 150
+type(
+  string
+)
+"plugins/firstorder/ground_plugin_mod.ml" 4 115 121 "plugins/firstorder/ground_plugin_mod.ml" 4 115 150
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/ground_plugin_mod.ml" 5 152 158 "plugins/firstorder/ground_plugin_mod.ml" 5 152 180
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/firstorder/ground_plugin_mod.ml" 5 152 180 "plugins/firstorder/ground_plugin_mod.ml" 5 152 191
+type(
+  string
+)
+"plugins/firstorder/ground_plugin_mod.ml" 5 152 158 "plugins/firstorder/ground_plugin_mod.ml" 5 152 191
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/ground_plugin_mod.ml" 6 193 199 "plugins/firstorder/ground_plugin_mod.ml" 6 193 221
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/firstorder/ground_plugin_mod.ml" 6 193 221 "plugins/firstorder/ground_plugin_mod.ml" 6 193 229
+type(
+  string
+)
+"plugins/firstorder/ground_plugin_mod.ml" 6 193 199 "plugins/firstorder/ground_plugin_mod.ml" 6 193 229
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/ground_plugin_mod.ml" 7 231 237 "plugins/firstorder/ground_plugin_mod.ml" 7 231 259
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/firstorder/ground_plugin_mod.ml" 7 231 259 "plugins/firstorder/ground_plugin_mod.ml" 7 231 269
+type(
+  string
+)
+"plugins/firstorder/ground_plugin_mod.ml" 7 231 237 "plugins/firstorder/ground_plugin_mod.ml" 7 231 269
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/ground_plugin_mod.ml" 8 271 277 "plugins/firstorder/ground_plugin_mod.ml" 8 271 299
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/firstorder/ground_plugin_mod.ml" 8 271 299 "plugins/firstorder/ground_plugin_mod.ml" 8 271 318
+type(
+  string
+)
+"plugins/firstorder/ground_plugin_mod.ml" 8 271 277 "plugins/firstorder/ground_plugin_mod.ml" 8 271 318
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/ground_plugin_mod.ml" 9 320 326 "plugins/firstorder/ground_plugin_mod.ml" 9 320 348
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/firstorder/ground_plugin_mod.ml" 9 320 348 "plugins/firstorder/ground_plugin_mod.ml" 9 320 363
+type(
+  string
+)
+"plugins/firstorder/ground_plugin_mod.ml" 9 320 326 "plugins/firstorder/ground_plugin_mod.ml" 9 320 363
+call(
+  stack
+)
+type(
+  unit
+)

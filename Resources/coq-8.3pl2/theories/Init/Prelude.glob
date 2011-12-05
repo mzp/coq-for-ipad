@@ -1,0 +1,8 @@
+FCoq.Init.Prelude
+R603 Coq.Init.Notations <> <> lib
+R629 Coq.Init.Logic <> <> lib
+R651 Coq.Init.Datatypes <> <> lib
+R677 Coq.Init.Specif <> <> lib
+R700 Coq.Init.Peano <> <> lib
+R722 Coq.Init.Wf <> <> lib
+R750 Coq.Init.Tactics <> <> lib

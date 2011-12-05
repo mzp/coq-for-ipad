@@ -1,0 +1,5351 @@
+"plugins/firstorder/formula.ml" 22 728 732 "plugins/firstorder/formula.ml" 22 728 737
+type(
+  bool ref
+)
+ident(
+  def qflag "plugins/firstorder/formula.ml" 24 748 748 --
+)
+"plugins/firstorder/formula.ml" 22 728 738 "plugins/firstorder/formula.ml" 22 728 741
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/formula.ml" 22 728 742 "plugins/firstorder/formula.ml" 22 728 746
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 22 728 738 "plugins/firstorder/formula.ml" 22 728 746
+type(
+  bool ref
+)
+"plugins/firstorder/formula.ml" 24 748 752 "plugins/firstorder/formula.ml" 24 748 761
+type(
+  Closure.RedFlags.reds ref
+)
+ident(
+  def red_flags "plugins/firstorder/formula.ml" 26 788 788 --
+)
+"plugins/firstorder/formula.ml" 24 748 762 "plugins/firstorder/formula.ml" 24 748 765
+type(
+  Closure.RedFlags.reds -> Closure.RedFlags.reds ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/formula.ml" 24 748 766 "plugins/firstorder/formula.ml" 24 748 786
+type(
+  Closure.RedFlags.reds
+)
+ident(
+  ext_ref Closure.betaiotazeta
+)
+"plugins/firstorder/formula.ml" 24 748 762 "plugins/firstorder/formula.ml" 24 748 786
+type(
+  Closure.RedFlags.reds ref
+)
+"plugins/firstorder/formula.ml" 26 788 792 "plugins/firstorder/formula.ml" 26 788 796
+type(
+  ('a -> 'b -> int) -> ('c -> 'd -> int) -> 'a -> 'b -> 'c -> 'd -> int
+)
+ident(
+  def =? "plugins/firstorder/formula.ml" 30 865 865 --
+)
+"plugins/firstorder/formula.ml" 26 788 797 "plugins/firstorder/formula.ml" 26 788 798
+type(
+  'a -> 'b -> int
+)
+ident(
+  def f "plugins/firstorder/formula.ml" 26 788 799 "plugins/firstorder/formula.ml" 28 833 863
+)
+"plugins/firstorder/formula.ml" 26 788 799 "plugins/firstorder/formula.ml" 26 788 800
+type(
+  'c -> 'd -> int
+)
+ident(
+  def g "plugins/firstorder/formula.ml" 26 788 801 "plugins/firstorder/formula.ml" 28 833 863
+)
+"plugins/firstorder/formula.ml" 26 788 801 "plugins/firstorder/formula.ml" 26 788 803
+type(
+  'a
+)
+ident(
+  def i1 "plugins/firstorder/formula.ml" 26 788 804 "plugins/firstorder/formula.ml" 28 833 863
+)
+"plugins/firstorder/formula.ml" 26 788 804 "plugins/firstorder/formula.ml" 26 788 806
+type(
+  'b
+)
+ident(
+  def i2 "plugins/firstorder/formula.ml" 26 788 807 "plugins/firstorder/formula.ml" 28 833 863
+)
+"plugins/firstorder/formula.ml" 26 788 807 "plugins/firstorder/formula.ml" 26 788 809
+type(
+  'c
+)
+ident(
+  def j1 "plugins/firstorder/formula.ml" 26 788 810 "plugins/firstorder/formula.ml" 28 833 863
+)
+"plugins/firstorder/formula.ml" 26 788 810 "plugins/firstorder/formula.ml" 26 788 812
+type(
+  'd
+)
+ident(
+  def j2 "plugins/firstorder/formula.ml" 27 814 816 "plugins/firstorder/formula.ml" 28 833 863
+)
+"plugins/firstorder/formula.ml" 27 814 820 "plugins/firstorder/formula.ml" 27 814 821
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 27 814 822 "plugins/firstorder/formula.ml" 27 814 823
+type(
+  'a -> 'b -> int
+)
+ident(
+  int_ref f "plugins/firstorder/formula.ml" 26 788 797 "plugins/firstorder/formula.ml" 26 788 798
+)
+"plugins/firstorder/formula.ml" 27 814 824 "plugins/firstorder/formula.ml" 27 814 826
+type(
+  'a
+)
+ident(
+  int_ref i1 "plugins/firstorder/formula.ml" 26 788 801 "plugins/firstorder/formula.ml" 26 788 803
+)
+"plugins/firstorder/formula.ml" 27 814 827 "plugins/firstorder/formula.ml" 27 814 829
+type(
+  'b
+)
+ident(
+  int_ref i2 "plugins/firstorder/formula.ml" 26 788 804 "plugins/firstorder/formula.ml" 26 788 806
+)
+"plugins/firstorder/formula.ml" 27 814 822 "plugins/firstorder/formula.ml" 27 814 829
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 28 833 840 "plugins/firstorder/formula.ml" 28 833 841
+type(
+  int
+)
+ident(
+  int_ref c "plugins/firstorder/formula.ml" 27 814 820 "plugins/firstorder/formula.ml" 27 814 821
+)
+"plugins/firstorder/formula.ml" 28 833 841 "plugins/firstorder/formula.ml" 28 833 842
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/firstorder/formula.ml" 28 833 842 "plugins/firstorder/formula.ml" 28 833 843
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 28 833 840 "plugins/firstorder/formula.ml" 28 833 843
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 28 833 849 "plugins/firstorder/formula.ml" 28 833 850
+type(
+  'c -> 'd -> int
+)
+ident(
+  int_ref g "plugins/firstorder/formula.ml" 26 788 799 "plugins/firstorder/formula.ml" 26 788 800
+)
+"plugins/firstorder/formula.ml" 28 833 851 "plugins/firstorder/formula.ml" 28 833 853
+type(
+  'c
+)
+ident(
+  int_ref j1 "plugins/firstorder/formula.ml" 26 788 807 "plugins/firstorder/formula.ml" 26 788 809
+)
+"plugins/firstorder/formula.ml" 28 833 854 "plugins/firstorder/formula.ml" 28 833 856
+type(
+  'd
+)
+ident(
+  int_ref j2 "plugins/firstorder/formula.ml" 26 788 810 "plugins/firstorder/formula.ml" 26 788 812
+)
+"plugins/firstorder/formula.ml" 28 833 849 "plugins/firstorder/formula.ml" 28 833 856
+call(
+  tail
+)
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 28 833 862 "plugins/firstorder/formula.ml" 28 833 863
+type(
+  int
+)
+ident(
+  int_ref c "plugins/firstorder/formula.ml" 27 814 820 "plugins/firstorder/formula.ml" 27 814 821
+)
+"plugins/firstorder/formula.ml" 28 833 837 "plugins/firstorder/formula.ml" 28 833 863
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 27 814 816 "plugins/firstorder/formula.ml" 28 833 863
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 30 865 869 "plugins/firstorder/formula.ml" 30 865 874
+type(
+  ('a -> 'b -> 'c -> 'd -> int) ->
+  ('e -> 'f -> int) -> 'a -> 'b -> 'c -> 'd -> 'e -> 'f -> int
+)
+ident(
+  def ==? "plugins/firstorder/formula.ml" 34 957 957 --
+)
+"plugins/firstorder/formula.ml" 30 865 875 "plugins/firstorder/formula.ml" 30 865 877
+type(
+  'a -> 'b -> 'c -> 'd -> int
+)
+ident(
+  def fg "plugins/firstorder/formula.ml" 30 865 878 "plugins/firstorder/formula.ml" 32 925 955
+)
+"plugins/firstorder/formula.ml" 30 865 878 "plugins/firstorder/formula.ml" 30 865 879
+type(
+  'e -> 'f -> int
+)
+ident(
+  def h "plugins/firstorder/formula.ml" 30 865 880 "plugins/firstorder/formula.ml" 32 925 955
+)
+"plugins/firstorder/formula.ml" 30 865 880 "plugins/firstorder/formula.ml" 30 865 882
+type(
+  'a
+)
+ident(
+  def i1 "plugins/firstorder/formula.ml" 30 865 883 "plugins/firstorder/formula.ml" 32 925 955
+)
+"plugins/firstorder/formula.ml" 30 865 883 "plugins/firstorder/formula.ml" 30 865 885
+type(
+  'b
+)
+ident(
+  def i2 "plugins/firstorder/formula.ml" 30 865 886 "plugins/firstorder/formula.ml" 32 925 955
+)
+"plugins/firstorder/formula.ml" 30 865 886 "plugins/firstorder/formula.ml" 30 865 888
+type(
+  'c
+)
+ident(
+  def j1 "plugins/firstorder/formula.ml" 30 865 889 "plugins/firstorder/formula.ml" 32 925 955
+)
+"plugins/firstorder/formula.ml" 30 865 889 "plugins/firstorder/formula.ml" 30 865 891
+type(
+  'd
+)
+ident(
+  def j2 "plugins/firstorder/formula.ml" 30 865 892 "plugins/firstorder/formula.ml" 32 925 955
+)
+"plugins/firstorder/formula.ml" 30 865 892 "plugins/firstorder/formula.ml" 30 865 894
+type(
+  'e
+)
+ident(
+  def k1 "plugins/firstorder/formula.ml" 30 865 895 "plugins/firstorder/formula.ml" 32 925 955
+)
+"plugins/firstorder/formula.ml" 30 865 895 "plugins/firstorder/formula.ml" 30 865 897
+type(
+  'f
+)
+ident(
+  def k2 "plugins/firstorder/formula.ml" 31 899 901 "plugins/firstorder/formula.ml" 32 925 955
+)
+"plugins/firstorder/formula.ml" 31 899 905 "plugins/firstorder/formula.ml" 31 899 906
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 31 899 907 "plugins/firstorder/formula.ml" 31 899 909
+type(
+  'a -> 'b -> 'c -> 'd -> int
+)
+ident(
+  int_ref fg "plugins/firstorder/formula.ml" 30 865 875 "plugins/firstorder/formula.ml" 30 865 877
+)
+"plugins/firstorder/formula.ml" 31 899 910 "plugins/firstorder/formula.ml" 31 899 912
+type(
+  'a
+)
+ident(
+  int_ref i1 "plugins/firstorder/formula.ml" 30 865 880 "plugins/firstorder/formula.ml" 30 865 882
+)
+"plugins/firstorder/formula.ml" 31 899 913 "plugins/firstorder/formula.ml" 31 899 915
+type(
+  'b
+)
+ident(
+  int_ref i2 "plugins/firstorder/formula.ml" 30 865 883 "plugins/firstorder/formula.ml" 30 865 885
+)
+"plugins/firstorder/formula.ml" 31 899 916 "plugins/firstorder/formula.ml" 31 899 918
+type(
+  'c
+)
+ident(
+  int_ref j1 "plugins/firstorder/formula.ml" 30 865 886 "plugins/firstorder/formula.ml" 30 865 888
+)
+"plugins/firstorder/formula.ml" 31 899 919 "plugins/firstorder/formula.ml" 31 899 921
+type(
+  'd
+)
+ident(
+  int_ref j2 "plugins/firstorder/formula.ml" 30 865 889 "plugins/firstorder/formula.ml" 30 865 891
+)
+"plugins/firstorder/formula.ml" 31 899 907 "plugins/firstorder/formula.ml" 31 899 921
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 32 925 932 "plugins/firstorder/formula.ml" 32 925 933
+type(
+  int
+)
+ident(
+  int_ref c "plugins/firstorder/formula.ml" 31 899 905 "plugins/firstorder/formula.ml" 31 899 906
+)
+"plugins/firstorder/formula.ml" 32 925 933 "plugins/firstorder/formula.ml" 32 925 934
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/firstorder/formula.ml" 32 925 934 "plugins/firstorder/formula.ml" 32 925 935
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 32 925 932 "plugins/firstorder/formula.ml" 32 925 935
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 32 925 941 "plugins/firstorder/formula.ml" 32 925 942
+type(
+  'e -> 'f -> int
+)
+ident(
+  int_ref h "plugins/firstorder/formula.ml" 30 865 878 "plugins/firstorder/formula.ml" 30 865 879
+)
+"plugins/firstorder/formula.ml" 32 925 943 "plugins/firstorder/formula.ml" 32 925 945
+type(
+  'e
+)
+ident(
+  int_ref k1 "plugins/firstorder/formula.ml" 30 865 892 "plugins/firstorder/formula.ml" 30 865 894
+)
+"plugins/firstorder/formula.ml" 32 925 946 "plugins/firstorder/formula.ml" 32 925 948
+type(
+  'f
+)
+ident(
+  int_ref k2 "plugins/firstorder/formula.ml" 30 865 895 "plugins/firstorder/formula.ml" 30 865 897
+)
+"plugins/firstorder/formula.ml" 32 925 941 "plugins/firstorder/formula.ml" 32 925 948
+call(
+  tail
+)
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 32 925 954 "plugins/firstorder/formula.ml" 32 925 955
+type(
+  int
+)
+ident(
+  int_ref c "plugins/firstorder/formula.ml" 31 899 905 "plugins/firstorder/formula.ml" 31 899 906
+)
+"plugins/firstorder/formula.ml" 32 925 929 "plugins/firstorder/formula.ml" 32 925 955
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 31 899 901 "plugins/firstorder/formula.ml" 32 925 955
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 40 1068 1072 "plugins/firstorder/formula.ml" 40 1068 1081
+type(
+  int -> int
+)
+ident(
+  def meta_succ "plugins/firstorder/formula.ml" 42 1091 1091 --
+)
+"plugins/firstorder/formula.ml" 40 1068 1082 "plugins/firstorder/formula.ml" 40 1068 1083
+type(
+  int
+)
+ident(
+  def m "plugins/firstorder/formula.ml" 40 1068 1086 "plugins/firstorder/formula.ml" 40 1068 1089
+)
+"plugins/firstorder/formula.ml" 40 1068 1086 "plugins/firstorder/formula.ml" 40 1068 1087
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/formula.ml" 40 1068 1082 "plugins/firstorder/formula.ml" 40 1068 1083
+)
+"plugins/firstorder/formula.ml" 40 1068 1087 "plugins/firstorder/formula.ml" 40 1068 1088
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/firstorder/formula.ml" 40 1068 1088 "plugins/firstorder/formula.ml" 40 1068 1089
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 40 1068 1086 "plugins/firstorder/formula.ml" 40 1068 1089
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 42 1091 1099 "plugins/firstorder/formula.ml" 42 1091 1112
+type(
+  int -> Term.types -> int
+)
+ident(
+  def nb_prod_after "plugins/firstorder/formula.ml" 42 1091 1091 --
+)
+"plugins/firstorder/formula.ml" 42 1091 1113 "plugins/firstorder/formula.ml" 42 1091 1114
+type(
+  int
+)
+ident(
+  def n "plugins/firstorder/formula.ml" 42 1091 1115 "plugins/firstorder/formula.ml" 46 1229 1241
+)
+"plugins/firstorder/formula.ml" 42 1091 1115 "plugins/firstorder/formula.ml" 42 1091 1116
+type(
+  Term.types
+)
+ident(
+  def c "plugins/firstorder/formula.ml" 43 1118 1120 "plugins/firstorder/formula.ml" 46 1229 1241
+)
+"plugins/firstorder/formula.ml" 43 1118 1126 "plugins/firstorder/formula.ml" 43 1118 1138
+type(
+  Term.types -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/firstorder/formula.ml" 43 1118 1139 "plugins/firstorder/formula.ml" 43 1118 1140
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/firstorder/formula.ml" 42 1091 1115 "plugins/firstorder/formula.ml" 42 1091 1116
+)
+"plugins/firstorder/formula.ml" 43 1118 1126 "plugins/firstorder/formula.ml" 43 1118 1140
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/formula.ml" 44 1146 1158 "plugins/firstorder/formula.ml" 44 1146 1159
+type(
+  Names.name
+)
+"plugins/firstorder/formula.ml" 44 1146 1160 "plugins/firstorder/formula.ml" 44 1146 1161
+type(
+  Term.types
+)
+"plugins/firstorder/formula.ml" 44 1146 1162 "plugins/firstorder/formula.ml" 44 1146 1163
+type(
+  Term.types
+)
+ident(
+  def b "plugins/firstorder/formula.ml" 44 1146 1167 "plugins/firstorder/formula.ml" 45 1206 1228
+)
+"plugins/firstorder/formula.ml" 44 1146 1152 "plugins/firstorder/formula.ml" 44 1146 1164
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/formula.ml" 44 1146 1170 "plugins/firstorder/formula.ml" 44 1146 1171
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/formula.ml" 42 1091 1113 "plugins/firstorder/formula.ml" 42 1091 1114
+)
+"plugins/firstorder/formula.ml" 44 1146 1171 "plugins/firstorder/formula.ml" 44 1146 1172
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"plugins/firstorder/formula.ml" 44 1146 1172 "plugins/firstorder/formula.ml" 44 1146 1173
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 44 1146 1170 "plugins/firstorder/formula.ml" 44 1146 1173
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 44 1146 1179 "plugins/firstorder/formula.ml" 44 1146 1192
+type(
+  int -> Term.types -> int
+)
+ident(
+  int_ref nb_prod_after "plugins/firstorder/formula.ml" 42 1091 1099 "plugins/firstorder/formula.ml" 42 1091 1112
+)
+"plugins/firstorder/formula.ml" 44 1146 1194 "plugins/firstorder/formula.ml" 44 1146 1195
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/formula.ml" 42 1091 1113 "plugins/firstorder/formula.ml" 42 1091 1114
+)
+"plugins/firstorder/formula.ml" 44 1146 1195 "plugins/firstorder/formula.ml" 44 1146 1196
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/formula.ml" 44 1146 1196 "plugins/firstorder/formula.ml" 44 1146 1197
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 44 1146 1193 "plugins/firstorder/formula.ml" 44 1146 1198
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 44 1146 1199 "plugins/firstorder/formula.ml" 44 1146 1200
+type(
+  Term.types
+)
+ident(
+  int_ref b "plugins/firstorder/formula.ml" 44 1146 1162 "plugins/firstorder/formula.ml" 44 1146 1163
+)
+"plugins/firstorder/formula.ml" 44 1146 1179 "plugins/firstorder/formula.ml" 44 1146 1200
+call(
+  tail
+)
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 45 1206 1207 "plugins/firstorder/formula.ml" 45 1206 1208
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 45 1206 1208 "plugins/firstorder/formula.ml" 45 1206 1209
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/firstorder/formula.ml" 45 1206 1210 "plugins/firstorder/formula.ml" 45 1206 1223
+type(
+  int -> Term.types -> int
+)
+ident(
+  int_ref nb_prod_after "plugins/firstorder/formula.ml" 42 1091 1099 "plugins/firstorder/formula.ml" 42 1091 1112
+)
+"plugins/firstorder/formula.ml" 45 1206 1224 "plugins/firstorder/formula.ml" 45 1206 1225
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 45 1206 1226 "plugins/firstorder/formula.ml" 45 1206 1227
+type(
+  Term.types
+)
+ident(
+  int_ref b "plugins/firstorder/formula.ml" 44 1146 1162 "plugins/firstorder/formula.ml" 44 1146 1163
+)
+"plugins/firstorder/formula.ml" 45 1206 1209 "plugins/firstorder/formula.ml" 45 1206 1228
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 45 1206 1207 "plugins/firstorder/formula.ml" 45 1206 1228
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 44 1146 1167 "plugins/firstorder/formula.ml" 45 1206 1228
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 46 1229 1235 "plugins/firstorder/formula.ml" 46 1229 1236
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/formula.ml" 46 1229 1240 "plugins/firstorder/formula.ml" 46 1229 1241
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 43 1118 1120 "plugins/firstorder/formula.ml" 46 1229 1241
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 48 1243 1247 "plugins/firstorder/formula.ml" 48 1243 1262
+type(
+  Names.inductive -> Proof_type.goal Tacmach.sigma -> int array
+)
+ident(
+  def construct_nhyps "plugins/firstorder/formula.ml" 55 1564 1564 --
+)
+"plugins/firstorder/formula.ml" 48 1243 1263 "plugins/firstorder/formula.ml" 48 1243 1266
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/formula.ml" 48 1243 1267 "plugins/firstorder/formula.ml" 52 1456 1486
+)
+"plugins/firstorder/formula.ml" 48 1243 1267 "plugins/firstorder/formula.ml" 48 1243 1270
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gls "plugins/firstorder/formula.ml" 49 1273 1275 "plugins/firstorder/formula.ml" 52 1456 1486
+)
+"plugins/firstorder/formula.ml" 49 1273 1279 "plugins/firstorder/formula.ml" 49 1273 1286
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 49 1273 1290 "plugins/firstorder/formula.ml" 49 1273 1293
+type(
+  Declarations.mutual_inductive_body * Declarations.one_inductive_body ->
+  Declarations.mutual_inductive_body
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"plugins/firstorder/formula.ml" 49 1273 1295 "plugins/firstorder/formula.ml" 49 1273 1318
+type(
+  Names.inductive ->
+  Declarations.mutual_inductive_body * Declarations.one_inductive_body
+)
+ident(
+  ext_ref Global.lookup_inductive
+)
+"plugins/firstorder/formula.ml" 49 1273 1319 "plugins/firstorder/formula.ml" 49 1273 1322
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/formula.ml" 48 1243 1263 "plugins/firstorder/formula.ml" 48 1243 1266
+)
+"plugins/firstorder/formula.ml" 49 1273 1294 "plugins/firstorder/formula.ml" 49 1273 1323
+call(
+  stack
+)
+type(
+  Declarations.mutual_inductive_body * Declarations.one_inductive_body
+)
+"plugins/firstorder/formula.ml" 49 1273 1289 "plugins/firstorder/formula.ml" 49 1273 1324
+type(
+  Declarations.mutual_inductive_body
+)
+"plugins/firstorder/formula.ml" 49 1273 1289 "plugins/firstorder/formula.ml" 49 1273 1337
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 50 1341 1347 "plugins/firstorder/formula.ml" 50 1341 1359
+type(
+  Term.types array
+)
+"plugins/firstorder/formula.ml" 50 1341 1362 "plugins/firstorder/formula.ml" 50 1341 1398
+type(
+  Environ.env -> Names.inductive -> Term.types array
+)
+ident(
+  ext_ref Inductiveops.arities_of_constructors
+)
+"plugins/firstorder/formula.ml" 50 1341 1400 "plugins/firstorder/formula.ml" 50 1341 1406
+type(
+  Proof_type.goal Tacmach.sigma -> Environ.env
+)
+ident(
+  ext_ref Tacmach.pf_env
+)
+"plugins/firstorder/formula.ml" 50 1341 1407 "plugins/firstorder/formula.ml" 50 1341 1410
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/formula.ml" 48 1243 1267 "plugins/firstorder/formula.ml" 48 1243 1270
+)
+"plugins/firstorder/formula.ml" 50 1341 1399 "plugins/firstorder/formula.ml" 50 1341 1411
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/firstorder/formula.ml" 50 1341 1412 "plugins/firstorder/formula.ml" 50 1341 1415
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/formula.ml" 48 1243 1263 "plugins/firstorder/formula.ml" 48 1243 1266
+)
+"plugins/firstorder/formula.ml" 50 1341 1362 "plugins/firstorder/formula.ml" 50 1341 1415
+call(
+  stack
+)
+type(
+  Term.types array
+)
+"plugins/firstorder/formula.ml" 51 1419 1425 "plugins/firstorder/formula.ml" 51 1419 1428
+type(
+  Term.types -> int
+)
+"plugins/firstorder/formula.ml" 51 1419 1431 "plugins/firstorder/formula.ml" 51 1419 1444
+type(
+  int -> Term.types -> int
+)
+ident(
+  int_ref nb_prod_after "plugins/firstorder/formula.ml" 42 1091 1099 "plugins/firstorder/formula.ml" 42 1091 1112
+)
+"plugins/firstorder/formula.ml" 51 1419 1445 "plugins/firstorder/formula.ml" 51 1419 1452
+type(
+  int
+)
+ident(
+  int_ref nparams "plugins/firstorder/formula.ml" 49 1273 1279 "plugins/firstorder/formula.ml" 49 1273 1286
+)
+"plugins/firstorder/formula.ml" 51 1419 1431 "plugins/firstorder/formula.ml" 51 1419 1452
+call(
+  stack
+)
+type(
+  Term.types -> int
+)
+"plugins/firstorder/formula.ml" 52 1456 1460 "plugins/firstorder/formula.ml" 52 1456 1469
+type(
+  (Term.types -> int) -> Term.types array -> int array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/firstorder/formula.ml" 52 1456 1470 "plugins/firstorder/formula.ml" 52 1456 1473
+type(
+  Term.types -> int
+)
+ident(
+  int_ref hyp "plugins/firstorder/formula.ml" 51 1419 1425 "plugins/firstorder/formula.ml" 51 1419 1428
+)
+"plugins/firstorder/formula.ml" 52 1456 1474 "plugins/firstorder/formula.ml" 52 1456 1486
+type(
+  Term.types array
+)
+ident(
+  int_ref constr_types "plugins/firstorder/formula.ml" 50 1341 1347 "plugins/firstorder/formula.ml" 50 1341 1359
+)
+"plugins/firstorder/formula.ml" 52 1456 1460 "plugins/firstorder/formula.ml" 52 1456 1486
+call(
+  tail
+)
+type(
+  int array
+)
+"plugins/firstorder/formula.ml" 51 1419 1421 "plugins/firstorder/formula.ml" 52 1456 1486
+type(
+  int array
+)
+"plugins/firstorder/formula.ml" 50 1341 1343 "plugins/firstorder/formula.ml" 52 1456 1486
+type(
+  int array
+)
+"plugins/firstorder/formula.ml" 49 1273 1275 "plugins/firstorder/formula.ml" 52 1456 1486
+type(
+  int array
+)
+"plugins/firstorder/formula.ml" 55 1564 1568 "plugins/firstorder/formula.ml" 55 1564 1576
+type(
+  int ->
+  Names.inductive ->
+  Term.constr list -> Proof_type.goal Tacmach.sigma -> Term.rel_context array
+)
+ident(
+  def ind_hyps "plugins/firstorder/formula.ml" 64 1880 1880 --
+)
+"plugins/firstorder/formula.ml" 55 1564 1577 "plugins/firstorder/formula.ml" 55 1564 1582
+type(
+  int
+)
+ident(
+  def nevar "plugins/firstorder/formula.ml" 55 1564 1583 "plugins/firstorder/formula.ml" 62 1854 1878
+)
+"plugins/firstorder/formula.ml" 55 1564 1583 "plugins/firstorder/formula.ml" 55 1564 1586
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/formula.ml" 55 1564 1587 "plugins/firstorder/formula.ml" 62 1854 1878
+)
+"plugins/firstorder/formula.ml" 55 1564 1587 "plugins/firstorder/formula.ml" 55 1564 1592
+type(
+  Term.constr list
+)
+ident(
+  def largs "plugins/firstorder/formula.ml" 55 1564 1593 "plugins/firstorder/formula.ml" 62 1854 1878
+)
+"plugins/firstorder/formula.ml" 55 1564 1593 "plugins/firstorder/formula.ml" 55 1564 1596
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gls "plugins/firstorder/formula.ml" 56 1598 1600 "plugins/firstorder/formula.ml" 62 1854 1878
+)
+"plugins/firstorder/formula.ml" 56 1598 1604 "plugins/firstorder/formula.ml" 56 1598 1609
+type(
+  Term.types array
+)
+"plugins/firstorder/formula.ml" 56 1598 1611 "plugins/firstorder/formula.ml" 56 1598 1647
+type(
+  Environ.env -> Names.inductive -> Term.types array
+)
+ident(
+  ext_ref Inductiveops.arities_of_constructors
+)
+"plugins/firstorder/formula.ml" 56 1598 1649 "plugins/firstorder/formula.ml" 56 1598 1655
+type(
+  Proof_type.goal Tacmach.sigma -> Environ.env
+)
+ident(
+  ext_ref Tacmach.pf_env
+)
+"plugins/firstorder/formula.ml" 56 1598 1656 "plugins/firstorder/formula.ml" 56 1598 1659
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/formula.ml" 55 1564 1593 "plugins/firstorder/formula.ml" 55 1564 1596
+)
+"plugins/firstorder/formula.ml" 56 1598 1648 "plugins/firstorder/formula.ml" 56 1598 1660
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/firstorder/formula.ml" 56 1598 1661 "plugins/firstorder/formula.ml" 56 1598 1664
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/formula.ml" 55 1564 1583 "plugins/firstorder/formula.ml" 55 1564 1586
+)
+"plugins/firstorder/formula.ml" 56 1598 1611 "plugins/firstorder/formula.ml" 56 1598 1664
+call(
+  stack
+)
+type(
+  Term.types array
+)
+"plugins/firstorder/formula.ml" 57 1668 1674 "plugins/firstorder/formula.ml" 57 1668 1676
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 57 1668 1677 "plugins/firstorder/formula.ml" 57 1668 1689
+type(
+  Term.types array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"plugins/firstorder/formula.ml" 57 1668 1690 "plugins/firstorder/formula.ml" 57 1668 1695
+type(
+  Term.types array
+)
+ident(
+  int_ref types "plugins/firstorder/formula.ml" 56 1598 1604 "plugins/firstorder/formula.ml" 56 1598 1609
+)
+"plugins/firstorder/formula.ml" 57 1668 1677 "plugins/firstorder/formula.ml" 57 1668 1695
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 58 1699 1705 "plugins/firstorder/formula.ml" 58 1699 1711
+type(
+  int -> Term.rel_context
+)
+"plugins/firstorder/formula.ml" 58 1699 1712 "plugins/firstorder/formula.ml" 58 1699 1713
+type(
+  int
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 59 1715 1719 "plugins/firstorder/formula.ml" 61 1815 1850
+)
+"plugins/firstorder/formula.ml" 59 1715 1723 "plugins/firstorder/formula.ml" 59 1715 1725
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 59 1715 1726 "plugins/firstorder/formula.ml" 59 1715 1743
+type(
+  Term.types -> Term.constr list -> Term.constr
+)
+ident(
+  ext_ref Term.prod_applist
+)
+"plugins/firstorder/formula.ml" 59 1715 1744 "plugins/firstorder/formula.ml" 59 1715 1749
+type(
+  Term.types array
+)
+ident(
+  int_ref types "plugins/firstorder/formula.ml" 56 1598 1604 "plugins/firstorder/formula.ml" 56 1598 1609
+)
+"plugins/firstorder/formula.ml" 59 1715 1751 "plugins/firstorder/formula.ml" 59 1715 1752
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 58 1699 1712 "plugins/firstorder/formula.ml" 58 1699 1713
+)
+"plugins/firstorder/formula.ml" 59 1715 1744 "plugins/firstorder/formula.ml" 59 1715 1753
+type(
+  Term.types
+)
+"plugins/firstorder/formula.ml" 59 1715 1754 "plugins/firstorder/formula.ml" 59 1715 1759
+type(
+  Term.constr list
+)
+ident(
+  int_ref largs "plugins/firstorder/formula.ml" 55 1564 1587 "plugins/firstorder/formula.ml" 55 1564 1592
+)
+"plugins/firstorder/formula.ml" 59 1715 1726 "plugins/firstorder/formula.ml" 59 1715 1759
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 60 1763 1771 "plugins/firstorder/formula.ml" 60 1763 1773
+type(
+  Term.types
+)
+"plugins/firstorder/formula.ml" 60 1763 1774 "plugins/firstorder/formula.ml" 60 1763 1777
+type(
+  Term.rel_context * Term.types -> Term.types
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/firstorder/formula.ml" 60 1763 1779 "plugins/firstorder/formula.ml" 60 1763 1801
+type(
+  int -> Term.types -> Term.rel_context * Term.types
+)
+ident(
+  ext_ref Term.decompose_prod_n_assum
+)
+"plugins/firstorder/formula.ml" 60 1763 1802 "plugins/firstorder/formula.ml" 60 1763 1807
+type(
+  int
+)
+ident(
+  int_ref nevar "plugins/firstorder/formula.ml" 55 1564 1577 "plugins/firstorder/formula.ml" 55 1564 1582
+)
+"plugins/firstorder/formula.ml" 60 1763 1808 "plugins/firstorder/formula.ml" 60 1763 1810
+type(
+  Term.types
+)
+ident(
+  int_ref t1 "plugins/firstorder/formula.ml" 59 1715 1723 "plugins/firstorder/formula.ml" 59 1715 1725
+)
+"plugins/firstorder/formula.ml" 60 1763 1778 "plugins/firstorder/formula.ml" 60 1763 1811
+call(
+  stack
+)
+type(
+  Term.rel_context * Term.types
+)
+"plugins/firstorder/formula.ml" 60 1763 1774 "plugins/firstorder/formula.ml" 60 1763 1811
+type(
+  Term.types
+)
+"plugins/firstorder/formula.ml" 61 1815 1821 "plugins/firstorder/formula.ml" 61 1815 1824
+type(
+  Term.rel_context * Term.types -> Term.rel_context
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"plugins/firstorder/formula.ml" 61 1815 1826 "plugins/firstorder/formula.ml" 61 1815 1846
+type(
+  Term.types -> Term.rel_context * Term.types
+)
+ident(
+  ext_ref Term.decompose_prod_assum
+)
+"plugins/firstorder/formula.ml" 61 1815 1847 "plugins/firstorder/formula.ml" 61 1815 1849
+type(
+  Term.types
+)
+ident(
+  int_ref t2 "plugins/firstorder/formula.ml" 60 1763 1771 "plugins/firstorder/formula.ml" 60 1763 1773
+)
+"plugins/firstorder/formula.ml" 61 1815 1825 "plugins/firstorder/formula.ml" 61 1815 1850
+call(
+  stack
+)
+type(
+  Term.rel_context * Term.types
+)
+"plugins/firstorder/formula.ml" 61 1815 1821 "plugins/firstorder/formula.ml" 61 1815 1850
+type(
+  Term.rel_context
+)
+"plugins/firstorder/formula.ml" 60 1763 1767 "plugins/firstorder/formula.ml" 61 1815 1850
+type(
+  Term.rel_context
+)
+"plugins/firstorder/formula.ml" 59 1715 1719 "plugins/firstorder/formula.ml" 61 1815 1850
+type(
+  Term.rel_context
+)
+"plugins/firstorder/formula.ml" 62 1854 1858 "plugins/firstorder/formula.ml" 62 1854 1868
+type(
+  int -> (int -> Term.rel_context) -> Term.rel_context array
+)
+ident(
+  ext_ref Array.init
+)
+"plugins/firstorder/formula.ml" 62 1854 1869 "plugins/firstorder/formula.ml" 62 1854 1871
+type(
+  int
+)
+ident(
+  int_ref lp "plugins/firstorder/formula.ml" 57 1668 1674 "plugins/firstorder/formula.ml" 57 1668 1676
+)
+"plugins/firstorder/formula.ml" 62 1854 1872 "plugins/firstorder/formula.ml" 62 1854 1878
+type(
+  int -> Term.rel_context
+)
+ident(
+  int_ref myhyps "plugins/firstorder/formula.ml" 58 1699 1705 "plugins/firstorder/formula.ml" 58 1699 1711
+)
+"plugins/firstorder/formula.ml" 62 1854 1858 "plugins/firstorder/formula.ml" 62 1854 1878
+call(
+  tail
+)
+type(
+  Term.rel_context array
+)
+"plugins/firstorder/formula.ml" 58 1699 1701 "plugins/firstorder/formula.ml" 62 1854 1878
+type(
+  Term.rel_context array
+)
+"plugins/firstorder/formula.ml" 57 1668 1670 "plugins/firstorder/formula.ml" 62 1854 1878
+type(
+  Term.rel_context array
+)
+"plugins/firstorder/formula.ml" 56 1598 1600 "plugins/firstorder/formula.ml" 62 1854 1878
+type(
+  Term.rel_context array
+)
+"plugins/firstorder/formula.ml" 64 1880 1884 "plugins/firstorder/formula.ml" 64 1880 1894
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr
+)
+ident(
+  def special_nf "plugins/firstorder/formula.ml" 68 2021 2021 --
+)
+"plugins/firstorder/formula.ml" 64 1880 1895 "plugins/firstorder/formula.ml" 64 1880 1897
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/formula.ml" 65 1899 1901 "plugins/firstorder/formula.ml" 66 1963 2019
+)
+"plugins/firstorder/formula.ml" 65 1899 1905 "plugins/firstorder/formula.ml" 65 1899 1910
+type(
+  Closure.clos_infos
+)
+"plugins/firstorder/formula.ml" 65 1899 1911 "plugins/firstorder/formula.ml" 65 1899 1936
+type(
+  ?evars:(Term.existential -> Term.constr option) ->
+  Closure.RedFlags.reds -> Environ.env -> Closure.clos_infos
+)
+ident(
+  ext_ref Closure.create_clos_infos
+)
+"plugins/firstorder/formula.ml" 65 1899 1937 "plugins/firstorder/formula.ml" 65 1899 1938
+type(
+  Closure.RedFlags.reds ref -> Closure.RedFlags.reds
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/formula.ml" 65 1899 1938 "plugins/firstorder/formula.ml" 65 1899 1947
+type(
+  Closure.RedFlags.reds ref
+)
+ident(
+  int_ref red_flags "plugins/firstorder/formula.ml" 24 748 752 "plugins/firstorder/formula.ml" 24 748 761
+)
+"plugins/firstorder/formula.ml" 65 1899 1937 "plugins/firstorder/formula.ml" 65 1899 1947
+type(
+  Closure.RedFlags.reds
+)
+"plugins/firstorder/formula.ml" 65 1899 1949 "plugins/firstorder/formula.ml" 65 1899 1955
+type(
+  Proof_type.goal Tacmach.sigma -> Environ.env
+)
+ident(
+  ext_ref Tacmach.pf_env
+)
+"plugins/firstorder/formula.ml" 65 1899 1956 "plugins/firstorder/formula.ml" 65 1899 1958
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 64 1880 1895 "plugins/firstorder/formula.ml" 64 1880 1897
+)
+"plugins/firstorder/formula.ml" 65 1899 1948 "plugins/firstorder/formula.ml" 65 1899 1959
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/firstorder/formula.ml" 65 1899 1911 "plugins/firstorder/formula.ml" 65 1899 1959
+call(
+  stack
+)
+type(
+  Closure.clos_infos
+)
+"plugins/firstorder/formula.ml" 66 1963 1972 "plugins/firstorder/formula.ml" 66 1963 1973
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/formula.ml" 66 1963 1977 "plugins/firstorder/formula.ml" 66 1963 2018
+)
+"plugins/firstorder/formula.ml" 66 1963 1977 "plugins/firstorder/formula.ml" 66 1963 1993
+type(
+  Closure.clos_infos -> Closure.fconstr -> Term.constr
+)
+ident(
+  ext_ref Closure.norm_val
+)
+"plugins/firstorder/formula.ml" 66 1963 1994 "plugins/firstorder/formula.ml" 66 1963 1999
+type(
+  Closure.clos_infos
+)
+ident(
+  int_ref infos "plugins/firstorder/formula.ml" 65 1899 1905 "plugins/firstorder/formula.ml" 65 1899 1910
+)
+"plugins/firstorder/formula.ml" 66 1963 2001 "plugins/firstorder/formula.ml" 66 1963 2015
+type(
+  Term.constr -> Closure.fconstr
+)
+ident(
+  ext_ref Closure.inject
+)
+"plugins/firstorder/formula.ml" 66 1963 2016 "plugins/firstorder/formula.ml" 66 1963 2017
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/formula.ml" 66 1963 1972 "plugins/firstorder/formula.ml" 66 1963 1973
+)
+"plugins/firstorder/formula.ml" 66 1963 2000 "plugins/firstorder/formula.ml" 66 1963 2018
+call(
+  stack
+)
+type(
+  Closure.fconstr
+)
+"plugins/firstorder/formula.ml" 66 1963 1977 "plugins/firstorder/formula.ml" 66 1963 2018
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 66 1963 1967 "plugins/firstorder/formula.ml" 66 1963 2019
+type(
+  Term.constr -> Term.constr
+)
+"plugins/firstorder/formula.ml" 65 1899 1901 "plugins/firstorder/formula.ml" 66 1963 2019
+type(
+  Term.constr -> Term.constr
+)
+"plugins/firstorder/formula.ml" 68 2021 2025 "plugins/firstorder/formula.ml" 68 2021 2036
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr
+)
+ident(
+  def special_whd "plugins/firstorder/formula.ml" 72 2162 2162 --
+)
+"plugins/firstorder/formula.ml" 68 2021 2037 "plugins/firstorder/formula.ml" 68 2021 2039
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/formula.ml" 69 2041 2043 "plugins/firstorder/formula.ml" 70 2105 2160
+)
+"plugins/firstorder/formula.ml" 69 2041 2047 "plugins/firstorder/formula.ml" 69 2041 2052
+type(
+  Closure.clos_infos
+)
+"plugins/firstorder/formula.ml" 69 2041 2053 "plugins/firstorder/formula.ml" 69 2041 2078
+type(
+  ?evars:(Term.existential -> Term.constr option) ->
+  Closure.RedFlags.reds -> Environ.env -> Closure.clos_infos
+)
+ident(
+  ext_ref Closure.create_clos_infos
+)
+"plugins/firstorder/formula.ml" 69 2041 2079 "plugins/firstorder/formula.ml" 69 2041 2080
+type(
+  Closure.RedFlags.reds ref -> Closure.RedFlags.reds
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/formula.ml" 69 2041 2080 "plugins/firstorder/formula.ml" 69 2041 2089
+type(
+  Closure.RedFlags.reds ref
+)
+ident(
+  int_ref red_flags "plugins/firstorder/formula.ml" 24 748 752 "plugins/firstorder/formula.ml" 24 748 761
+)
+"plugins/firstorder/formula.ml" 69 2041 2079 "plugins/firstorder/formula.ml" 69 2041 2089
+type(
+  Closure.RedFlags.reds
+)
+"plugins/firstorder/formula.ml" 69 2041 2091 "plugins/firstorder/formula.ml" 69 2041 2097
+type(
+  Proof_type.goal Tacmach.sigma -> Environ.env
+)
+ident(
+  ext_ref Tacmach.pf_env
+)
+"plugins/firstorder/formula.ml" 69 2041 2098 "plugins/firstorder/formula.ml" 69 2041 2100
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 68 2021 2037 "plugins/firstorder/formula.ml" 68 2021 2039
+)
+"plugins/firstorder/formula.ml" 69 2041 2090 "plugins/firstorder/formula.ml" 69 2041 2101
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/firstorder/formula.ml" 69 2041 2053 "plugins/firstorder/formula.ml" 69 2041 2101
+call(
+  stack
+)
+type(
+  Closure.clos_infos
+)
+"plugins/firstorder/formula.ml" 70 2105 2114 "plugins/firstorder/formula.ml" 70 2105 2115
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/formula.ml" 70 2105 2119 "plugins/firstorder/formula.ml" 70 2105 2159
+)
+"plugins/firstorder/formula.ml" 70 2105 2119 "plugins/firstorder/formula.ml" 70 2105 2134
+type(
+  Closure.clos_infos -> Closure.fconstr -> Term.constr
+)
+ident(
+  ext_ref Closure.whd_val
+)
+"plugins/firstorder/formula.ml" 70 2105 2135 "plugins/firstorder/formula.ml" 70 2105 2140
+type(
+  Closure.clos_infos
+)
+ident(
+  int_ref infos "plugins/firstorder/formula.ml" 69 2041 2047 "plugins/firstorder/formula.ml" 69 2041 2052
+)
+"plugins/firstorder/formula.ml" 70 2105 2142 "plugins/firstorder/formula.ml" 70 2105 2156
+type(
+  Term.constr -> Closure.fconstr
+)
+ident(
+  ext_ref Closure.inject
+)
+"plugins/firstorder/formula.ml" 70 2105 2157 "plugins/firstorder/formula.ml" 70 2105 2158
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/formula.ml" 70 2105 2114 "plugins/firstorder/formula.ml" 70 2105 2115
+)
+"plugins/firstorder/formula.ml" 70 2105 2141 "plugins/firstorder/formula.ml" 70 2105 2159
+call(
+  stack
+)
+type(
+  Closure.fconstr
+)
+"plugins/firstorder/formula.ml" 70 2105 2119 "plugins/firstorder/formula.ml" 70 2105 2159
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 70 2105 2109 "plugins/firstorder/formula.ml" 70 2105 2160
+type(
+  Term.constr -> Term.constr
+)
+"plugins/firstorder/formula.ml" 69 2041 2043 "plugins/firstorder/formula.ml" 70 2105 2160
+type(
+  Term.constr -> Term.constr
+)
+"plugins/firstorder/formula.ml" 81 2405 2413 "plugins/firstorder/formula.ml" 81 2405 2428
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> kind_of_formula
+)
+ident(
+  def kind_of_formula "plugins/firstorder/formula.ml" 81 2405 2405 --
+)
+"plugins/firstorder/formula.ml" 81 2405 2429 "plugins/firstorder/formula.ml" 81 2405 2431
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/formula.ml" 81 2405 2432 "plugins/firstorder/formula.ml" 115 3423 3460
+)
+"plugins/firstorder/formula.ml" 81 2405 2432 "plugins/firstorder/formula.ml" 81 2405 2436
+type(
+  Term.constr
+)
+ident(
+  def term "plugins/firstorder/formula.ml" 82 2439 2441 "plugins/firstorder/formula.ml" 115 3423 3460
+)
+"plugins/firstorder/formula.ml" 82 2439 2445 "plugins/firstorder/formula.ml" 82 2439 2454
+type(
+  Term.constr -> Term.constr
+)
+"plugins/firstorder/formula.ml" 82 2439 2455 "plugins/firstorder/formula.ml" 82 2439 2465
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr
+)
+ident(
+  int_ref special_nf "plugins/firstorder/formula.ml" 64 1880 1884 "plugins/firstorder/formula.ml" 64 1880 1894
+)
+"plugins/firstorder/formula.ml" 82 2439 2466 "plugins/firstorder/formula.ml" 82 2439 2468
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 81 2405 2429 "plugins/firstorder/formula.ml" 81 2405 2431
+)
+"plugins/firstorder/formula.ml" 82 2439 2455 "plugins/firstorder/formula.ml" 82 2439 2468
+call(
+  stack
+)
+type(
+  Term.constr -> Term.constr
+)
+"plugins/firstorder/formula.ml" 83 2472 2478 "plugins/firstorder/formula.ml" 83 2472 2485
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 83 2472 2486 "plugins/firstorder/formula.ml" 83 2472 2497
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr
+)
+ident(
+  int_ref special_whd "plugins/firstorder/formula.ml" 68 2021 2025 "plugins/firstorder/formula.ml" 68 2021 2036
+)
+"plugins/firstorder/formula.ml" 83 2472 2498 "plugins/firstorder/formula.ml" 83 2472 2500
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 81 2405 2429 "plugins/firstorder/formula.ml" 81 2405 2431
+)
+"plugins/firstorder/formula.ml" 83 2472 2501 "plugins/firstorder/formula.ml" 83 2472 2505
+type(
+  Term.constr
+)
+ident(
+  int_ref term "plugins/firstorder/formula.ml" 81 2405 2432 "plugins/firstorder/formula.ml" 81 2405 2436
+)
+"plugins/firstorder/formula.ml" 83 2472 2486 "plugins/firstorder/formula.ml" 83 2472 2505
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 84 2509 2519 "plugins/firstorder/formula.ml" 84 2509 2538
+type(
+  (Term.constr * Term.constr) Hipattern.matching_function
+)
+ident(
+  ext_ref Hipattern.match_with_imp_term
+)
+"plugins/firstorder/formula.ml" 84 2509 2539 "plugins/firstorder/formula.ml" 84 2509 2546
+type(
+  Term.constr
+)
+ident(
+  int_ref cciterm "plugins/firstorder/formula.ml" 83 2472 2478 "plugins/firstorder/formula.ml" 83 2472 2485
+)
+"plugins/firstorder/formula.ml" 84 2509 2519 "plugins/firstorder/formula.ml" 84 2509 2546
+call(
+  stack
+)
+type(
+  (Term.constr * Term.constr) option
+)
+"plugins/firstorder/formula.ml" 85 2552 2559 "plugins/firstorder/formula.ml" 85 2552 2560
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/formula.ml" 85 2552 2566 "plugins/firstorder/formula.ml" 85 2552 2582
+)
+"plugins/firstorder/formula.ml" 85 2552 2561 "plugins/firstorder/formula.ml" 85 2552 2562
+type(
+  Term.constr
+)
+ident(
+  def b "plugins/firstorder/formula.ml" 85 2552 2566 "plugins/firstorder/formula.ml" 85 2552 2582
+)
+"plugins/firstorder/formula.ml" 85 2552 2558 "plugins/firstorder/formula.ml" 85 2552 2563
+type(
+  Term.constr * Term.constr
+)
+"plugins/firstorder/formula.ml" 85 2552 2553 "plugins/firstorder/formula.ml" 85 2552 2563
+type(
+  (Term.constr * Term.constr) option
+)
+"plugins/firstorder/formula.ml" 85 2552 2572 "plugins/firstorder/formula.ml" 85 2552 2573
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/formula.ml" 85 2552 2559 "plugins/firstorder/formula.ml" 85 2552 2560
+)
+"plugins/firstorder/formula.ml" 85 2552 2575 "plugins/firstorder/formula.ml" 85 2552 2578
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  ext_ref Termops.pop
+)
+"plugins/firstorder/formula.ml" 85 2552 2579 "plugins/firstorder/formula.ml" 85 2552 2580
+type(
+  Term.constr
+)
+ident(
+  int_ref b "plugins/firstorder/formula.ml" 85 2552 2561 "plugins/firstorder/formula.ml" 85 2552 2562
+)
+"plugins/firstorder/formula.ml" 85 2552 2574 "plugins/firstorder/formula.ml" 85 2552 2581
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 85 2552 2566 "plugins/firstorder/formula.ml" 85 2552 2582
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 86 2583 2590 "plugins/firstorder/formula.ml" 86 2583 2591
+type(
+  (Term.constr * Term.constr) option
+)
+"plugins/firstorder/formula.ml" 87 2594 2602 "plugins/firstorder/formula.ml" 87 2594 2624
+type(
+  (Names.name * Term.constr * Term.constr) Hipattern.matching_function
+)
+ident(
+  ext_ref Hipattern.match_with_forall_term
+)
+"plugins/firstorder/formula.ml" 87 2594 2625 "plugins/firstorder/formula.ml" 87 2594 2632
+type(
+  Term.constr
+)
+ident(
+  int_ref cciterm "plugins/firstorder/formula.ml" 83 2472 2478 "plugins/firstorder/formula.ml" 83 2472 2485
+)
+"plugins/firstorder/formula.ml" 87 2594 2602 "plugins/firstorder/formula.ml" 87 2594 2632
+call(
+  stack
+)
+type(
+  (Names.name * Term.constr * Term.constr) option
+)
+"plugins/firstorder/formula.ml" 88 2638 2650 "plugins/firstorder/formula.ml" 88 2638 2651
+type(
+  Names.name
+)
+"plugins/firstorder/formula.ml" 88 2638 2652 "plugins/firstorder/formula.ml" 88 2638 2653
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/formula.ml" 88 2638 2659 "plugins/firstorder/formula.ml" 88 2638 2670
+)
+"plugins/firstorder/formula.ml" 88 2638 2654 "plugins/firstorder/formula.ml" 88 2638 2655
+type(
+  Term.constr
+)
+ident(
+  def b "plugins/firstorder/formula.ml" 88 2638 2659 "plugins/firstorder/formula.ml" 88 2638 2670
+)
+"plugins/firstorder/formula.ml" 88 2638 2649 "plugins/firstorder/formula.ml" 88 2638 2656
+type(
+  Names.name * Term.constr * Term.constr
+)
+"plugins/firstorder/formula.ml" 88 2638 2644 "plugins/firstorder/formula.ml" 88 2638 2656
+type(
+  (Names.name * Term.constr * Term.constr) option
+)
+"plugins/firstorder/formula.ml" 88 2638 2666 "plugins/firstorder/formula.ml" 88 2638 2667
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/formula.ml" 88 2638 2652 "plugins/firstorder/formula.ml" 88 2638 2653
+)
+"plugins/firstorder/formula.ml" 88 2638 2668 "plugins/firstorder/formula.ml" 88 2638 2669
+type(
+  Term.constr
+)
+ident(
+  int_ref b "plugins/firstorder/formula.ml" 88 2638 2654 "plugins/firstorder/formula.ml" 88 2638 2655
+)
+"plugins/firstorder/formula.ml" 88 2638 2659 "plugins/firstorder/formula.ml" 88 2638 2670
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 89 2671 2676 "plugins/firstorder/formula.ml" 89 2671 2677
+type(
+  (Names.name * Term.constr * Term.constr) option
+)
+"plugins/firstorder/formula.ml" 90 2680 2693 "plugins/firstorder/formula.ml" 90 2680 2713
+type(
+  (Term.constr * Term.constr list * int) Hipattern.matching_function
+)
+ident(
+  ext_ref Hipattern.match_with_nodep_ind
+)
+"plugins/firstorder/formula.ml" 90 2680 2714 "plugins/firstorder/formula.ml" 90 2680 2721
+type(
+  Term.constr
+)
+ident(
+  int_ref cciterm "plugins/firstorder/formula.ml" 83 2472 2478 "plugins/firstorder/formula.ml" 83 2472 2485
+)
+"plugins/firstorder/formula.ml" 90 2680 2693 "plugins/firstorder/formula.ml" 90 2680 2721
+call(
+  stack
+)
+type(
+  (Term.constr * Term.constr list * int) option
+)
+"plugins/firstorder/formula.ml" 91 2727 2737 "plugins/firstorder/formula.ml" 91 2727 2738
+type(
+  Term.constr
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 92 2746 2752 "plugins/firstorder/formula.ml" 111 3299 3328
+)
+"plugins/firstorder/formula.ml" 91 2727 2739 "plugins/firstorder/formula.ml" 91 2727 2740
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/firstorder/formula.ml" 92 2746 2752 "plugins/firstorder/formula.ml" 111 3299 3328
+)
+"plugins/firstorder/formula.ml" 91 2727 2741 "plugins/firstorder/formula.ml" 91 2727 2742
+type(
+  int
+)
+ident(
+  def n "plugins/firstorder/formula.ml" 92 2746 2752 "plugins/firstorder/formula.ml" 111 3299 3328
+)
+"plugins/firstorder/formula.ml" 91 2727 2736 "plugins/firstorder/formula.ml" 91 2727 2743
+type(
+  Term.constr * Term.constr list * int
+)
+"plugins/firstorder/formula.ml" 91 2727 2731 "plugins/firstorder/formula.ml" 91 2727 2743
+type(
+  (Term.constr * Term.constr list * int) option
+)
+"plugins/firstorder/formula.ml" 92 2746 2756 "plugins/firstorder/formula.ml" 92 2746 2759
+type(
+  Names.inductive
+)
+"plugins/firstorder/formula.ml" 92 2746 2760 "plugins/firstorder/formula.ml" 92 2746 2767
+type(
+  Term.constr -> Names.inductive
+)
+ident(
+  ext_ref Term.destInd
+)
+"plugins/firstorder/formula.ml" 92 2746 2768 "plugins/firstorder/formula.ml" 92 2746 2769
+type(
+  Term.constr
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 91 2727 2737 "plugins/firstorder/formula.ml" 91 2727 2738
+)
+"plugins/firstorder/formula.ml" 92 2746 2760 "plugins/firstorder/formula.ml" 92 2746 2769
+call(
+  stack
+)
+type(
+  Names.inductive
+)
+"plugins/firstorder/formula.ml" 93 2773 2784 "plugins/firstorder/formula.ml" 93 2773 2787
+type(
+  Declarations.mutual_inductive_body
+)
+"plugins/firstorder/formula.ml" 93 2773 2788 "plugins/firstorder/formula.ml" 93 2773 2791
+type(
+  Declarations.one_inductive_body
+)
+"plugins/firstorder/formula.ml" 93 2773 2783 "plugins/firstorder/formula.ml" 93 2773 2792
+type(
+  Declarations.mutual_inductive_body * Declarations.one_inductive_body
+)
+"plugins/firstorder/formula.ml" 93 2773 2795 "plugins/firstorder/formula.ml" 93 2773 2818
+type(
+  Names.inductive ->
+  Declarations.mutual_inductive_body * Declarations.one_inductive_body
+)
+ident(
+  ext_ref Global.lookup_inductive
+)
+"plugins/firstorder/formula.ml" 93 2773 2819 "plugins/firstorder/formula.ml" 93 2773 2822
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/formula.ml" 92 2746 2756 "plugins/firstorder/formula.ml" 92 2746 2759
+)
+"plugins/firstorder/formula.ml" 93 2773 2795 "plugins/firstorder/formula.ml" 93 2773 2822
+call(
+  stack
+)
+type(
+  Declarations.mutual_inductive_body * Declarations.one_inductive_body
+)
+"plugins/firstorder/formula.ml" 94 2826 2836 "plugins/firstorder/formula.ml" 94 2826 2843
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 94 2826 2844 "plugins/firstorder/formula.ml" 94 2826 2856
+type(
+  Names.identifier array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"plugins/firstorder/formula.ml" 94 2826 2857 "plugins/firstorder/formula.ml" 94 2826 2860
+type(
+  Declarations.one_inductive_body
+)
+ident(
+  int_ref mip "plugins/firstorder/formula.ml" 93 2773 2788 "plugins/firstorder/formula.ml" 93 2773 2791
+)
+"plugins/firstorder/formula.ml" 94 2826 2857 "plugins/firstorder/formula.ml" 94 2826 2875
+type(
+  Names.identifier array
+)
+"plugins/firstorder/formula.ml" 94 2826 2844 "plugins/firstorder/formula.ml" 94 2826 2875
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 95 2879 2890 "plugins/firstorder/formula.ml" 95 2879 2897
+type(
+  int
+)
+ident(
+  int_ref nconstr "plugins/firstorder/formula.ml" 94 2826 2836 "plugins/firstorder/formula.ml" 94 2826 2843
+)
+"plugins/firstorder/formula.ml" 95 2879 2897 "plugins/firstorder/formula.ml" 95 2879 2898
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/firstorder/formula.ml" 95 2879 2898 "plugins/firstorder/formula.ml" 95 2879 2899
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 95 2879 2890 "plugins/firstorder/formula.ml" 95 2879 2899
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 96 2905 2914 "plugins/firstorder/formula.ml" 96 2905 2917
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/formula.ml" 92 2746 2756 "plugins/firstorder/formula.ml" 92 2746 2759
+)
+"plugins/firstorder/formula.ml" 96 2905 2918 "plugins/firstorder/formula.ml" 96 2905 2919
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 91 2727 2739 "plugins/firstorder/formula.ml" 91 2727 2740
+)
+"plugins/firstorder/formula.ml" 96 2905 2908 "plugins/firstorder/formula.ml" 96 2905 2920
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 98 2934 2941 "plugins/firstorder/formula.ml" 98 2934 2953
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 98 2934 2955 "plugins/firstorder/formula.ml" 98 2934 2956
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/formula.ml" 91 2727 2741 "plugins/firstorder/formula.ml" 91 2727 2742
+)
+"plugins/firstorder/formula.ml" 98 2934 2956 "plugins/firstorder/formula.ml" 98 2934 2957
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"plugins/firstorder/formula.ml" 98 2934 2957 "plugins/firstorder/formula.ml" 98 2934 2958
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 98 2934 2954 "plugins/firstorder/formula.ml" 98 2934 2959
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 99 2963 2970 "plugins/firstorder/formula.ml" 99 2963 2980
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 100 2982 2991 "plugins/firstorder/formula.ml" 100 2982 3002
+type(
+  Term.constr -> bool
+)
+"plugins/firstorder/formula.ml" 100 2982 3003 "plugins/firstorder/formula.ml" 100 2982 3004
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/firstorder/formula.ml" 101 3007 3014 "plugins/firstorder/formula.ml" 101 3007 3042
+)
+"plugins/firstorder/formula.ml" 101 3007 3014 "plugins/firstorder/formula.ml" 101 3007 3021
+type(
+  Term.constr -> int
+)
+ident(
+  ext_ref Term.nb_prod
+)
+"plugins/firstorder/formula.ml" 101 3007 3022 "plugins/firstorder/formula.ml" 101 3007 3023
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/firstorder/formula.ml" 100 2982 3003 "plugins/firstorder/formula.ml" 100 2982 3004
+)
+"plugins/firstorder/formula.ml" 101 3007 3014 "plugins/firstorder/formula.ml" 101 3007 3023
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 101 3007 3024 "plugins/firstorder/formula.ml" 101 3007 3025
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/firstorder/formula.ml" 101 3007 3026 "plugins/firstorder/formula.ml" 101 3007 3029
+type(
+  Declarations.mutual_inductive_body
+)
+ident(
+  int_ref mib "plugins/firstorder/formula.ml" 93 2773 2784 "plugins/firstorder/formula.ml" 93 2773 2787
+)
+"plugins/firstorder/formula.ml" 101 3007 3026 "plugins/firstorder/formula.ml" 101 3007 3042
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 101 3007 3014 "plugins/firstorder/formula.ml" 101 3007 3042
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 102 3046 3053 "plugins/firstorder/formula.ml" 102 3046 3065
+type(
+  (Term.types -> bool) -> Term.types array -> bool
+)
+ident(
+  ext_ref Util.array_exists
+)
+"plugins/firstorder/formula.ml" 102 3046 3066 "plugins/firstorder/formula.ml" 102 3046 3077
+type(
+  Term.types -> bool
+)
+ident(
+  int_ref is_constant "plugins/firstorder/formula.ml" 100 2982 2991 "plugins/firstorder/formula.ml" 100 2982 3002
+)
+"plugins/firstorder/formula.ml" 102 3046 3078 "plugins/firstorder/formula.ml" 102 3046 3081
+type(
+  Declarations.one_inductive_body
+)
+ident(
+  int_ref mip "plugins/firstorder/formula.ml" 93 2773 2788 "plugins/firstorder/formula.ml" 93 2773 2791
+)
+"plugins/firstorder/formula.ml" 102 3046 3078 "plugins/firstorder/formula.ml" 102 3046 3092
+type(
+  Term.types array
+)
+"plugins/firstorder/formula.ml" 102 3046 3053 "plugins/firstorder/formula.ml" 102 3046 3092
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 100 2982 2987 "plugins/firstorder/formula.ml" 102 3046 3092
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 103 3096 3104 "plugins/firstorder/formula.ml" 103 3096 3133
+type(
+  Names.inductive * Declarations.mutual_inductive_body *
+  Declarations.one_inductive_body -> bool
+)
+ident(
+  ext_ref Inductiveops.mis_is_recursive
+)
+"plugins/firstorder/formula.ml" 103 3096 3135 "plugins/firstorder/formula.ml" 103 3096 3138
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/formula.ml" 92 2746 2756 "plugins/firstorder/formula.ml" 92 2746 2759
+)
+"plugins/firstorder/formula.ml" 103 3096 3139 "plugins/firstorder/formula.ml" 103 3096 3142
+type(
+  Declarations.mutual_inductive_body
+)
+ident(
+  int_ref mib "plugins/firstorder/formula.ml" 93 2773 2784 "plugins/firstorder/formula.ml" 93 2773 2787
+)
+"plugins/firstorder/formula.ml" 103 3096 3143 "plugins/firstorder/formula.ml" 103 3096 3146
+type(
+  Declarations.one_inductive_body
+)
+ident(
+  int_ref mip "plugins/firstorder/formula.ml" 93 2773 2788 "plugins/firstorder/formula.ml" 93 2773 2791
+)
+"plugins/firstorder/formula.ml" 103 3096 3134 "plugins/firstorder/formula.ml" 103 3096 3147
+type(
+  Names.inductive * Declarations.mutual_inductive_body *
+  Declarations.one_inductive_body
+)
+"plugins/firstorder/formula.ml" 103 3096 3104 "plugins/firstorder/formula.ml" 103 3096 3147
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 103 3096 3148 "plugins/firstorder/formula.ml" 103 3096 3150
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"plugins/firstorder/formula.ml" 104 3151 3159 "plugins/firstorder/formula.ml" 104 3151 3171
+type(
+  bool
+)
+ident(
+  int_ref has_realargs "plugins/firstorder/formula.ml" 98 2934 2941 "plugins/firstorder/formula.ml" 98 2934 2953
+)
+"plugins/firstorder/formula.ml" 104 3151 3172 "plugins/firstorder/formula.ml" 104 3151 3174
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/formula.ml" 104 3151 3175 "plugins/firstorder/formula.ml" 104 3151 3178
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/firstorder/formula.ml" 104 3151 3179 "plugins/firstorder/formula.ml" 104 3151 3189
+type(
+  bool
+)
+ident(
+  int_ref is_trivial "plugins/firstorder/formula.ml" 99 2963 2970 "plugins/firstorder/formula.ml" 99 2963 2980
+)
+"plugins/firstorder/formula.ml" 104 3151 3175 "plugins/firstorder/formula.ml" 104 3151 3189
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 104 3151 3158 "plugins/firstorder/formula.ml" 104 3151 3190
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 103 3096 3104 "plugins/firstorder/formula.ml" 104 3151 3190
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 106 3201 3213 "plugins/firstorder/formula.ml" 106 3201 3220
+type(
+  Term.constr
+)
+ident(
+  int_ref cciterm "plugins/firstorder/formula.ml" 83 2472 2478 "plugins/firstorder/formula.ml" 83 2472 2485
+)
+"plugins/firstorder/formula.ml" 106 3201 3208 "plugins/firstorder/formula.ml" 106 3201 3220
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 108 3231 3241 "plugins/firstorder/formula.ml" 108 3231 3248
+type(
+  int
+)
+ident(
+  int_ref nconstr "plugins/firstorder/formula.ml" 94 2826 2836 "plugins/firstorder/formula.ml" 94 2826 2843
+)
+"plugins/firstorder/formula.ml" 108 3231 3248 "plugins/firstorder/formula.ml" 108 3231 3249
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/firstorder/formula.ml" 108 3231 3249 "plugins/firstorder/formula.ml" 108 3231 3250
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 108 3231 3241 "plugins/firstorder/formula.ml" 108 3231 3250
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 109 3256 3269 "plugins/firstorder/formula.ml" 109 3256 3272
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/formula.ml" 92 2746 2756 "plugins/firstorder/formula.ml" 92 2746 2759
+)
+"plugins/firstorder/formula.ml" 109 3256 3273 "plugins/firstorder/formula.ml" 109 3256 3274
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 91 2727 2739 "plugins/firstorder/formula.ml" 91 2727 2740
+)
+"plugins/firstorder/formula.ml" 109 3256 3275 "plugins/firstorder/formula.ml" 109 3256 3285
+type(
+  bool
+)
+ident(
+  int_ref is_trivial "plugins/firstorder/formula.ml" 99 2963 2970 "plugins/firstorder/formula.ml" 99 2963 2980
+)
+"plugins/firstorder/formula.ml" 109 3256 3265 "plugins/firstorder/formula.ml" 109 3256 3286
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 111 3299 3311 "plugins/firstorder/formula.ml" 111 3299 3314
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/formula.ml" 92 2746 2756 "plugins/firstorder/formula.ml" 92 2746 2759
+)
+"plugins/firstorder/formula.ml" 111 3299 3315 "plugins/firstorder/formula.ml" 111 3299 3316
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 91 2727 2739 "plugins/firstorder/formula.ml" 91 2727 2740
+)
+"plugins/firstorder/formula.ml" 111 3299 3317 "plugins/firstorder/formula.ml" 111 3299 3327
+type(
+  bool
+)
+ident(
+  int_ref is_trivial "plugins/firstorder/formula.ml" 99 2963 2970 "plugins/firstorder/formula.ml" 99 2963 2980
+)
+"plugins/firstorder/formula.ml" 111 3299 3308 "plugins/firstorder/formula.ml" 111 3299 3328
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 108 3231 3238 "plugins/firstorder/formula.ml" 111 3299 3328
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 103 3096 3101 "plugins/firstorder/formula.ml" 111 3299 3328
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 99 2963 2966 "plugins/firstorder/formula.ml" 111 3299 3328
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 98 2934 2937 "plugins/firstorder/formula.ml" 111 3299 3328
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 95 2879 2887 "plugins/firstorder/formula.ml" 111 3299 3328
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 94 2826 2832 "plugins/firstorder/formula.ml" 111 3299 3328
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 93 2773 2779 "plugins/firstorder/formula.ml" 111 3299 3328
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 92 2746 2752 "plugins/firstorder/formula.ml" 111 3299 3328
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 112 3329 3333 "plugins/firstorder/formula.ml" 112 3329 3334
+type(
+  (Term.constr * Term.constr list * int) option
+)
+"plugins/firstorder/formula.ml" 113 3338 3350 "plugins/firstorder/formula.ml" 113 3338 3371
+type(
+  (Term.constr * Term.constr list) Hipattern.matching_function
+)
+ident(
+  ext_ref Hipattern.match_with_sigma_type
+)
+"plugins/firstorder/formula.ml" 113 3338 3372 "plugins/firstorder/formula.ml" 113 3338 3379
+type(
+  Term.constr
+)
+ident(
+  int_ref cciterm "plugins/firstorder/formula.ml" 83 2472 2478 "plugins/firstorder/formula.ml" 83 2472 2485
+)
+"plugins/firstorder/formula.ml" 113 3338 3350 "plugins/firstorder/formula.ml" 113 3338 3379
+call(
+  stack
+)
+type(
+  (Term.constr * Term.constr list) option
+)
+"plugins/firstorder/formula.ml" 114 3385 3394 "plugins/firstorder/formula.ml" 114 3385 3395
+type(
+  Term.constr
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 114 3385 3401 "plugins/firstorder/formula.ml" 114 3385 3422
+)
+"plugins/firstorder/formula.ml" 114 3385 3396 "plugins/firstorder/formula.ml" 114 3385 3397
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/firstorder/formula.ml" 114 3385 3401 "plugins/firstorder/formula.ml" 114 3385 3422
+)
+"plugins/firstorder/formula.ml" 114 3385 3393 "plugins/firstorder/formula.ml" 114 3385 3398
+type(
+  Term.constr * Term.constr list
+)
+"plugins/firstorder/formula.ml" 114 3385 3388 "plugins/firstorder/formula.ml" 114 3385 3398
+type(
+  (Term.constr * Term.constr list) option
+)
+"plugins/firstorder/formula.ml" 114 3385 3409 "plugins/firstorder/formula.ml" 114 3385 3416
+type(
+  Term.constr -> Names.inductive
+)
+ident(
+  ext_ref Term.destInd
+)
+"plugins/firstorder/formula.ml" 114 3385 3417 "plugins/firstorder/formula.ml" 114 3385 3418
+type(
+  Term.constr
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 114 3385 3394 "plugins/firstorder/formula.ml" 114 3385 3395
+)
+"plugins/firstorder/formula.ml" 114 3385 3408 "plugins/firstorder/formula.ml" 114 3385 3419
+call(
+  stack
+)
+type(
+  Names.inductive
+)
+"plugins/firstorder/formula.ml" 114 3385 3420 "plugins/firstorder/formula.ml" 114 3385 3421
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 114 3385 3396 "plugins/firstorder/formula.ml" 114 3385 3397
+)
+"plugins/firstorder/formula.ml" 114 3385 3401 "plugins/firstorder/formula.ml" 114 3385 3422
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 115 3423 3432 "plugins/firstorder/formula.ml" 115 3423 3433
+type(
+  (Term.constr * Term.constr list) option
+)
+"plugins/firstorder/formula.ml" 115 3423 3442 "plugins/firstorder/formula.ml" 115 3423 3451
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref normalize "plugins/firstorder/formula.ml" 82 2439 2445 "plugins/firstorder/formula.ml" 82 2439 2454
+)
+"plugins/firstorder/formula.ml" 115 3423 3452 "plugins/firstorder/formula.ml" 115 3423 3459
+type(
+  Term.constr
+)
+ident(
+  int_ref cciterm "plugins/firstorder/formula.ml" 83 2472 2478 "plugins/firstorder/formula.ml" 83 2472 2485
+)
+"plugins/firstorder/formula.ml" 115 3423 3441 "plugins/firstorder/formula.ml" 115 3423 3460
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 115 3423 3436 "plugins/firstorder/formula.ml" 115 3423 3460
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 113 3338 3344 "plugins/firstorder/formula.ml" 115 3423 3460
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 90 2680 2687 "plugins/firstorder/formula.ml" 115 3423 3460
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 87 2594 2596 "plugins/firstorder/formula.ml" 115 3423 3460
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 84 2509 2513 "plugins/firstorder/formula.ml" 115 3423 3460
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 83 2472 2474 "plugins/firstorder/formula.ml" 115 3423 3460
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 82 2439 2441 "plugins/firstorder/formula.ml" 115 3423 3460
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 121 3552 3556 "plugins/firstorder/formula.ml" 121 3552 3564
+type(
+  bool * atoms
+)
+ident(
+  def no_atoms "plugins/firstorder/formula.ml" 123 3602 3602 --
+)
+"plugins/firstorder/formula.ml" 121 3552 3568 "plugins/firstorder/formula.ml" 121 3552 3573
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 121 3552 3584 "plugins/firstorder/formula.ml" 121 3552 3586
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 121 3552 3596 "plugins/firstorder/formula.ml" 121 3552 3598
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 121 3552 3574 "plugins/firstorder/formula.ml" 121 3552 3599
+type(
+  atoms
+)
+"plugins/firstorder/formula.ml" 121 3552 3567 "plugins/firstorder/formula.ml" 121 3552 3600
+type(
+  bool * atoms
+)
+"plugins/firstorder/formula.ml" 123 3602 3606 "plugins/firstorder/formula.ml" 123 3602 3614
+type(
+  Libnames.global_reference
+)
+ident(
+  def dummy_id "plugins/firstorder/formula.ml" 125 3669 3669 --
+)
+"plugins/firstorder/formula.ml" 123 3602 3623 "plugins/firstorder/formula.ml" 123 3602 3635
+type(
+  string -> Names.variable
+)
+ident(
+  ext_ref Names.id_of_string
+)
+"plugins/firstorder/formula.ml" 123 3602 3636 "plugins/firstorder/formula.ml" 123 3602 3639
+type(
+  string
+)
+"plugins/firstorder/formula.ml" 123 3602 3622 "plugins/firstorder/formula.ml" 123 3602 3640
+call(
+  stack
+)
+type(
+  Names.variable
+)
+"plugins/firstorder/formula.ml" 123 3602 3615 "plugins/firstorder/formula.ml" 123 3602 3640
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/formula.ml" 125 3669 3673 "plugins/firstorder/formula.ml" 125 3669 3684
+type(
+  Proof_type.goal Tacmach.sigma ->
+  (bool -> Term.metavariable) -> side -> Term.constr -> bool * atoms
+)
+ident(
+  def build_atoms "plugins/firstorder/formula.ml" 183 5509 5509 --
+)
+"plugins/firstorder/formula.ml" 125 3669 3685 "plugins/firstorder/formula.ml" 125 3669 3687
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/formula.ml" 125 3669 3688 "plugins/firstorder/formula.ml" 181 5480 5507
+)
+"plugins/firstorder/formula.ml" 125 3669 3688 "plugins/firstorder/formula.ml" 125 3669 3695
+type(
+  bool -> Term.metavariable
+)
+ident(
+  def metagen "plugins/firstorder/formula.ml" 125 3669 3696 "plugins/firstorder/formula.ml" 181 5480 5507
+)
+"plugins/firstorder/formula.ml" 125 3669 3696 "plugins/firstorder/formula.ml" 125 3669 3700
+type(
+  side
+)
+ident(
+  def side "plugins/firstorder/formula.ml" 125 3669 3701 "plugins/firstorder/formula.ml" 181 5480 5507
+)
+"plugins/firstorder/formula.ml" 125 3669 3701 "plugins/firstorder/formula.ml" 125 3669 3708
+type(
+  Term.constr
+)
+ident(
+  def cciterm "plugins/firstorder/formula.ml" 126 3711 3713 "plugins/firstorder/formula.ml" 181 5480 5507
+)
+"plugins/firstorder/formula.ml" 126 3711 3717 "plugins/firstorder/formula.ml" 126 3711 3724
+type(
+  bool ref
+)
+"plugins/firstorder/formula.ml" 126 3711 3726 "plugins/firstorder/formula.ml" 126 3711 3729
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/formula.ml" 126 3711 3730 "plugins/firstorder/formula.ml" 126 3711 3735
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 126 3711 3726 "plugins/firstorder/formula.ml" 126 3711 3735
+type(
+  bool ref
+)
+"plugins/firstorder/formula.ml" 127 3736 3742 "plugins/firstorder/formula.ml" 127 3736 3750
+type(
+  Term.constr list ref
+)
+"plugins/firstorder/formula.ml" 127 3736 3751 "plugins/firstorder/formula.ml" 127 3736 3754
+type(
+  Term.constr list -> Term.constr list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/formula.ml" 127 3736 3755 "plugins/firstorder/formula.ml" 127 3736 3757
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 127 3736 3751 "plugins/firstorder/formula.ml" 127 3736 3757
+type(
+  Term.constr list ref
+)
+"plugins/firstorder/formula.ml" 128 3758 3764 "plugins/firstorder/formula.ml" 128 3758 3772
+type(
+  Term.constr list ref
+)
+"plugins/firstorder/formula.ml" 128 3758 3773 "plugins/firstorder/formula.ml" 128 3758 3776
+type(
+  Term.constr list -> Term.constr list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/formula.ml" 128 3758 3777 "plugins/firstorder/formula.ml" 128 3758 3779
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 128 3758 3773 "plugins/firstorder/formula.ml" 128 3758 3779
+type(
+  Term.constr list ref
+)
+"plugins/firstorder/formula.ml" 129 3783 3789 "plugins/firstorder/formula.ml" 129 3783 3798
+type(
+  Term.constr -> Term.constr
+)
+"plugins/firstorder/formula.ml" 129 3783 3799 "plugins/firstorder/formula.ml" 129 3783 3809
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr
+)
+ident(
+  int_ref special_nf "plugins/firstorder/formula.ml" 64 1880 1884 "plugins/firstorder/formula.ml" 64 1880 1894
+)
+"plugins/firstorder/formula.ml" 129 3783 3810 "plugins/firstorder/formula.ml" 129 3783 3812
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 125 3669 3685 "plugins/firstorder/formula.ml" 125 3669 3687
+)
+"plugins/firstorder/formula.ml" 129 3783 3799 "plugins/firstorder/formula.ml" 129 3783 3812
+call(
+  stack
+)
+type(
+  Term.constr -> Term.constr
+)
+"plugins/firstorder/formula.ml" 130 3816 3826 "plugins/firstorder/formula.ml" 130 3816 3835
+type(
+  Term.constr list -> bool -> Term.constr -> unit
+)
+"plugins/firstorder/formula.ml" 130 3816 3836 "plugins/firstorder/formula.ml" 130 3816 3839
+type(
+  Term.constr list
+)
+ident(
+  def env "plugins/firstorder/formula.ml" 130 3816 3840 "plugins/firstorder/formula.ml" 169 5073 5107
+)
+"plugins/firstorder/formula.ml" 130 3816 3840 "plugins/firstorder/formula.ml" 130 3816 3848
+type(
+  bool
+)
+ident(
+  def polarity "plugins/firstorder/formula.ml" 130 3816 3849 "plugins/firstorder/formula.ml" 169 5073 5107
+)
+"plugins/firstorder/formula.ml" 130 3816 3849 "plugins/firstorder/formula.ml" 130 3816 3856
+type(
+  Term.constr
+)
+ident(
+  def cciterm "plugins/firstorder/formula.ml" 131 3858 3862 "plugins/firstorder/formula.ml" 169 5073 5107
+)
+"plugins/firstorder/formula.ml" 131 3858 3868 "plugins/firstorder/formula.ml" 131 3858 3883
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> kind_of_formula
+)
+ident(
+  int_ref kind_of_formula "plugins/firstorder/formula.ml" 81 2405 2413 "plugins/firstorder/formula.ml" 81 2405 2428
+)
+"plugins/firstorder/formula.ml" 131 3858 3884 "plugins/firstorder/formula.ml" 131 3858 3886
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 125 3669 3685 "plugins/firstorder/formula.ml" 125 3669 3687
+)
+"plugins/firstorder/formula.ml" 131 3858 3887 "plugins/firstorder/formula.ml" 131 3858 3894
+type(
+  Term.constr
+)
+ident(
+  int_ref cciterm "plugins/firstorder/formula.ml" 130 3816 3849 "plugins/firstorder/formula.ml" 130 3816 3856
+)
+"plugins/firstorder/formula.ml" 131 3858 3868 "plugins/firstorder/formula.ml" 131 3858 3894
+call(
+  stack
+)
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 132 3900 3907 "plugins/firstorder/formula.ml" 132 3900 3908
+type(
+  Names.inductive
+)
+"plugins/firstorder/formula.ml" 132 3900 3909 "plugins/firstorder/formula.ml" 132 3900 3910
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 132 3900 3901 "plugins/firstorder/formula.ml" 132 3900 3911
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 132 3900 3916 "plugins/firstorder/formula.ml" 132 3900 3919
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/firstorder/formula.ml" 132 3900 3920 "plugins/firstorder/formula.ml" 132 3900 3928
+type(
+  bool
+)
+ident(
+  int_ref polarity "plugins/firstorder/formula.ml" 130 3816 3840 "plugins/firstorder/formula.ml" 130 3816 3848
+)
+"plugins/firstorder/formula.ml" 132 3900 3916 "plugins/firstorder/formula.ml" 132 3900 3928
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 132 3900 3934 "plugins/firstorder/formula.ml" 132 3900 3941
+type(
+  bool ref
+)
+ident(
+  int_ref trivial "plugins/firstorder/formula.ml" 126 3711 3717 "plugins/firstorder/formula.ml" 126 3711 3724
+)
+"plugins/firstorder/formula.ml" 132 3900 3941 "plugins/firstorder/formula.ml" 132 3900 3943
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/formula.ml" 132 3900 3943 "plugins/firstorder/formula.ml" 132 3900 3947
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 132 3900 3934 "plugins/firstorder/formula.ml" 132 3900 3947
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 132 3900 3913 "plugins/firstorder/formula.ml" 132 3900 3947
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 133 3948 3963 "plugins/firstorder/formula.ml" 133 3948 3964
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/formula.ml" 134 3970 3973 "plugins/firstorder/formula.ml" 135 4005 4032
+)
+"plugins/firstorder/formula.ml" 133 3948 3965 "plugins/firstorder/formula.ml" 133 3948 3966
+type(
+  Term.constr
+)
+ident(
+  def b "plugins/firstorder/formula.ml" 134 3970 3973 "plugins/firstorder/formula.ml" 135 4005 4032
+)
+"plugins/firstorder/formula.ml" 133 3948 3956 "plugins/firstorder/formula.ml" 133 3948 3967
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 134 3970 3973 "plugins/firstorder/formula.ml" 134 3970 3982
+type(
+  Term.constr list -> bool -> Term.constr -> unit
+)
+ident(
+  int_ref build_rec "plugins/firstorder/formula.ml" 130 3816 3826 "plugins/firstorder/formula.ml" 130 3816 3835
+)
+"plugins/firstorder/formula.ml" 134 3970 3983 "plugins/firstorder/formula.ml" 134 3970 3986
+type(
+  Term.constr list
+)
+ident(
+  int_ref env "plugins/firstorder/formula.ml" 130 3816 3836 "plugins/firstorder/formula.ml" 130 3816 3839
+)
+"plugins/firstorder/formula.ml" 134 3970 3988 "plugins/firstorder/formula.ml" 134 3970 3991
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/firstorder/formula.ml" 134 3970 3992 "plugins/firstorder/formula.ml" 134 3970 4000
+type(
+  bool
+)
+ident(
+  int_ref polarity "plugins/firstorder/formula.ml" 130 3816 3840 "plugins/firstorder/formula.ml" 130 3816 3848
+)
+"plugins/firstorder/formula.ml" 134 3970 3987 "plugins/firstorder/formula.ml" 134 3970 4001
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 134 3970 4002 "plugins/firstorder/formula.ml" 134 3970 4003
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/formula.ml" 133 3948 3963 "plugins/firstorder/formula.ml" 133 3948 3964
+)
+"plugins/firstorder/formula.ml" 134 3970 3973 "plugins/firstorder/formula.ml" 134 3970 4003
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 135 4005 4008 "plugins/firstorder/formula.ml" 135 4005 4017
+type(
+  Term.constr list -> bool -> Term.constr -> unit
+)
+ident(
+  int_ref build_rec "plugins/firstorder/formula.ml" 130 3816 3826 "plugins/firstorder/formula.ml" 130 3816 3835
+)
+"plugins/firstorder/formula.ml" 135 4005 4018 "plugins/firstorder/formula.ml" 135 4005 4021
+type(
+  Term.constr list
+)
+ident(
+  int_ref env "plugins/firstorder/formula.ml" 130 3816 3836 "plugins/firstorder/formula.ml" 130 3816 3839
+)
+"plugins/firstorder/formula.ml" 135 4005 4022 "plugins/firstorder/formula.ml" 135 4005 4030
+type(
+  bool
+)
+ident(
+  int_ref polarity "plugins/firstorder/formula.ml" 130 3816 3840 "plugins/firstorder/formula.ml" 130 3816 3848
+)
+"plugins/firstorder/formula.ml" 135 4005 4031 "plugins/firstorder/formula.ml" 135 4005 4032
+type(
+  Term.constr
+)
+ident(
+  int_ref b "plugins/firstorder/formula.ml" 133 3948 3965 "plugins/firstorder/formula.ml" 133 3948 3966
+)
+"plugins/firstorder/formula.ml" 135 4005 4008 "plugins/firstorder/formula.ml" 135 4005 4032
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 134 3970 3973 "plugins/firstorder/formula.ml" 135 4005 4032
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 136 4033 4045 "plugins/firstorder/formula.ml" 136 4033 4046
+type(
+  Names.inductive
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 137 4066 4069 "plugins/firstorder/formula.ml" 153 4552 4571
+)
+"plugins/firstorder/formula.ml" 136 4033 4047 "plugins/firstorder/formula.ml" 136 4033 4048
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/firstorder/formula.ml" 137 4066 4069 "plugins/firstorder/formula.ml" 153 4552 4571
+)
+"plugins/firstorder/formula.ml" 136 4033 4049 "plugins/firstorder/formula.ml" 136 4033 4050
+type(
+  bool
+)
+ident(
+  def b "plugins/firstorder/formula.ml" 137 4066 4069 "plugins/firstorder/formula.ml" 153 4552 4571
+)
+"plugins/firstorder/formula.ml" 136 4033 4041 "plugins/firstorder/formula.ml" 136 4033 4051
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 136 4033 4057 "plugins/firstorder/formula.ml" 136 4033 4058
+type(
+  Names.inductive
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 137 4066 4069 "plugins/firstorder/formula.ml" 153 4552 4571
+)
+"plugins/firstorder/formula.ml" 136 4033 4059 "plugins/firstorder/formula.ml" 136 4033 4060
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/firstorder/formula.ml" 137 4066 4069 "plugins/firstorder/formula.ml" 153 4552 4571
+)
+"plugins/firstorder/formula.ml" 136 4033 4061 "plugins/firstorder/formula.ml" 136 4033 4062
+type(
+  bool
+)
+ident(
+  def b "plugins/firstorder/formula.ml" 137 4066 4069 "plugins/firstorder/formula.ml" 153 4552 4571
+)
+"plugins/firstorder/formula.ml" 136 4033 4054 "plugins/firstorder/formula.ml" 136 4033 4063
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 136 4033 4041 "plugins/firstorder/formula.ml" 136 4033 4063
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 137 4066 4072 "plugins/firstorder/formula.ml" 137 4066 4073
+type(
+  bool
+)
+ident(
+  int_ref b "plugins/firstorder/formula.ml" 136 4033 4049 "plugins/firstorder/formula.ml" 136 4033 4050
+)
+"plugins/firstorder/formula.ml" 139 4090 4101 "plugins/firstorder/formula.ml" 139 4090 4109
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 139 4090 4110 "plugins/firstorder/formula.ml" 139 4090 4119
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref normalize "plugins/firstorder/formula.ml" 129 3783 3789 "plugins/firstorder/formula.ml" 129 3783 3798
+)
+"plugins/firstorder/formula.ml" 139 4090 4121 "plugins/firstorder/formula.ml" 139 4090 4128
+type(
+  Term.constr list -> int -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.substnl
+)
+"plugins/firstorder/formula.ml" 139 4090 4129 "plugins/firstorder/formula.ml" 139 4090 4132
+type(
+  Term.constr list
+)
+ident(
+  int_ref env "plugins/firstorder/formula.ml" 130 3816 3836 "plugins/firstorder/formula.ml" 130 3816 3839
+)
+"plugins/firstorder/formula.ml" 139 4090 4133 "plugins/firstorder/formula.ml" 139 4090 4134
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 139 4090 4135 "plugins/firstorder/formula.ml" 139 4090 4142
+type(
+  Term.constr
+)
+ident(
+  int_ref cciterm "plugins/firstorder/formula.ml" 130 3816 3849 "plugins/firstorder/formula.ml" 130 3816 3856
+)
+"plugins/firstorder/formula.ml" 139 4090 4120 "plugins/firstorder/formula.ml" 139 4090 4143
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 139 4090 4110 "plugins/firstorder/formula.ml" 139 4090 4143
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 140 4147 4152 "plugins/firstorder/formula.ml" 140 4147 4160
+type(
+  bool
+)
+ident(
+  int_ref polarity "plugins/firstorder/formula.ml" 130 3816 3840 "plugins/firstorder/formula.ml" 130 3816 3848
+)
+"plugins/firstorder/formula.ml" 141 4166 4170 "plugins/firstorder/formula.ml" 141 4166 4178
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref positive "plugins/firstorder/formula.ml" 127 3736 3742 "plugins/firstorder/formula.ml" 127 3736 3750
+)
+"plugins/firstorder/formula.ml" 141 4166 4178 "plugins/firstorder/formula.ml" 141 4166 4180
+type(
+  Term.constr list ref -> Term.constr list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/formula.ml" 141 4166 4181 "plugins/firstorder/formula.ml" 141 4166 4189
+type(
+  Term.constr
+)
+ident(
+  int_ref unsigned "plugins/firstorder/formula.ml" 139 4090 4101 "plugins/firstorder/formula.ml" 139 4090 4109
+)
+"plugins/firstorder/formula.ml" 141 4166 4193 "plugins/firstorder/formula.ml" 141 4166 4194
+type(
+  Term.constr list ref -> Term.constr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/formula.ml" 141 4166 4194 "plugins/firstorder/formula.ml" 141 4166 4202
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref positive "plugins/firstorder/formula.ml" 127 3736 3742 "plugins/firstorder/formula.ml" 127 3736 3750
+)
+"plugins/firstorder/formula.ml" 141 4166 4193 "plugins/firstorder/formula.ml" 141 4166 4202
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 141 4166 4181 "plugins/firstorder/formula.ml" 141 4166 4202
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 141 4166 4170 "plugins/firstorder/formula.ml" 141 4166 4202
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 143 4210 4214 "plugins/firstorder/formula.ml" 143 4210 4222
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref negative "plugins/firstorder/formula.ml" 128 3758 3764 "plugins/firstorder/formula.ml" 128 3758 3772
+)
+"plugins/firstorder/formula.ml" 143 4210 4222 "plugins/firstorder/formula.ml" 143 4210 4224
+type(
+  Term.constr list ref -> Term.constr list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/formula.ml" 143 4210 4225 "plugins/firstorder/formula.ml" 143 4210 4233
+type(
+  Term.constr
+)
+ident(
+  int_ref unsigned "plugins/firstorder/formula.ml" 139 4090 4101 "plugins/firstorder/formula.ml" 139 4090 4109
+)
+"plugins/firstorder/formula.ml" 143 4210 4237 "plugins/firstorder/formula.ml" 143 4210 4238
+type(
+  Term.constr list ref -> Term.constr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/formula.ml" 143 4210 4238 "plugins/firstorder/formula.ml" 143 4210 4246
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref negative "plugins/firstorder/formula.ml" 128 3758 3764 "plugins/firstorder/formula.ml" 128 3758 3772
+)
+"plugins/firstorder/formula.ml" 143 4210 4237 "plugins/firstorder/formula.ml" 143 4210 4246
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 143 4210 4225 "plugins/firstorder/formula.ml" 143 4210 4246
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 143 4210 4214 "plugins/firstorder/formula.ml" 143 4210 4246
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 140 4147 4149 "plugins/firstorder/formula.ml" 143 4210 4246
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 138 4079 4084 "plugins/firstorder/formula.ml" 144 4247 4255
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 137 4066 4069 "plugins/firstorder/formula.ml" 144 4247 4255
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 145 4257 4264 "plugins/firstorder/formula.ml" 145 4257 4265
+type(
+  Term.rel_context array
+)
+"plugins/firstorder/formula.ml" 145 4257 4268 "plugins/firstorder/formula.ml" 145 4257 4276
+type(
+  int ->
+  Names.inductive ->
+  Term.constr list -> Proof_type.goal Tacmach.sigma -> Term.rel_context array
+)
+ident(
+  int_ref ind_hyps "plugins/firstorder/formula.ml" 55 1564 1568 "plugins/firstorder/formula.ml" 55 1564 1576
+)
+"plugins/firstorder/formula.ml" 145 4257 4277 "plugins/firstorder/formula.ml" 145 4257 4278
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 145 4257 4279 "plugins/firstorder/formula.ml" 145 4257 4280
+type(
+  Names.inductive
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 136 4033 4045 "plugins/firstorder/formula.ml" 136 4033 4046
+)
+"plugins/firstorder/formula.ml" 145 4257 4281 "plugins/firstorder/formula.ml" 145 4257 4282
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 136 4033 4047 "plugins/firstorder/formula.ml" 136 4033 4048
+)
+"plugins/firstorder/formula.ml" 145 4257 4283 "plugins/firstorder/formula.ml" 145 4257 4285
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 125 3669 3685 "plugins/firstorder/formula.ml" 125 3669 3687
+)
+"plugins/firstorder/formula.ml" 145 4257 4268 "plugins/firstorder/formula.ml" 145 4257 4285
+call(
+  stack
+)
+type(
+  Term.rel_context array
+)
+"plugins/firstorder/formula.ml" 146 4289 4296 "plugins/firstorder/formula.ml" 146 4289 4297
+type(
+  int -> 'a -> 'b * 'c * Term.constr -> unit
+)
+"plugins/firstorder/formula.ml" 146 4289 4298 "plugins/firstorder/formula.ml" 146 4289 4299
+type(
+  int
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 146 4289 4300 "plugins/firstorder/formula.ml" 147 4312 4350
+)
+"plugins/firstorder/formula.ml" 146 4289 4300 "plugins/firstorder/formula.ml" 146 4289 4301
+type(
+  'a
+)
+"plugins/firstorder/formula.ml" 146 4289 4303 "plugins/firstorder/formula.ml" 146 4289 4304
+type(
+  'b
+)
+"plugins/firstorder/formula.ml" 146 4289 4305 "plugins/firstorder/formula.ml" 146 4289 4306
+type(
+  'c
+)
+"plugins/firstorder/formula.ml" 146 4289 4307 "plugins/firstorder/formula.ml" 146 4289 4308
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/formula.ml" 147 4312 4317 "plugins/firstorder/formula.ml" 147 4312 4350
+)
+"plugins/firstorder/formula.ml" 146 4289 4302 "plugins/firstorder/formula.ml" 146 4289 4309
+type(
+  'b * 'c * Term.constr
+)
+"plugins/firstorder/formula.ml" 147 4312 4317 "plugins/firstorder/formula.ml" 147 4312 4326
+type(
+  Term.constr list -> bool -> Term.constr -> unit
+)
+ident(
+  int_ref build_rec "plugins/firstorder/formula.ml" 130 3816 3826 "plugins/firstorder/formula.ml" 130 3816 3835
+)
+"plugins/firstorder/formula.ml" 147 4312 4327 "plugins/firstorder/formula.ml" 147 4312 4330
+type(
+  Term.constr list
+)
+ident(
+  int_ref env "plugins/firstorder/formula.ml" 130 3816 3836 "plugins/firstorder/formula.ml" 130 3816 3839
+)
+"plugins/firstorder/formula.ml" 147 4312 4331 "plugins/firstorder/formula.ml" 147 4312 4339
+type(
+  bool
+)
+ident(
+  int_ref polarity "plugins/firstorder/formula.ml" 130 3816 3840 "plugins/firstorder/formula.ml" 130 3816 3848
+)
+"plugins/firstorder/formula.ml" 147 4312 4341 "plugins/firstorder/formula.ml" 147 4312 4345
+type(
+  int -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.lift
+)
+"plugins/firstorder/formula.ml" 147 4312 4346 "plugins/firstorder/formula.ml" 147 4312 4347
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 146 4289 4298 "plugins/firstorder/formula.ml" 146 4289 4299
+)
+"plugins/firstorder/formula.ml" 147 4312 4348 "plugins/firstorder/formula.ml" 147 4312 4349
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/formula.ml" 146 4289 4307 "plugins/firstorder/formula.ml" 146 4289 4308
+)
+"plugins/firstorder/formula.ml" 147 4312 4340 "plugins/firstorder/formula.ml" 147 4312 4350
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 147 4312 4317 "plugins/firstorder/formula.ml" 147 4312 4350
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 148 4354 4361 "plugins/firstorder/formula.ml" 148 4354 4362
+type(
+  ('d * 'e * Term.constr) list -> unit
+)
+"plugins/firstorder/formula.ml" 148 4354 4363 "plugins/firstorder/formula.ml" 148 4354 4364
+type(
+  ('d * 'e * Term.constr) list
+)
+ident(
+  def l "plugins/firstorder/formula.ml" 149 4367 4372 "plugins/firstorder/formula.ml" 149 4367 4415
+)
+"plugins/firstorder/formula.ml" 149 4367 4372 "plugins/firstorder/formula.ml" 149 4367 4388
+type(
+  (int -> unit -> 'd * 'e * Term.constr -> unit) ->
+  int -> unit -> ('d * 'e * Term.constr) list -> unit
+)
+ident(
+  ext_ref Util.list_fold_left_i
+)
+"plugins/firstorder/formula.ml" 149 4367 4389 "plugins/firstorder/formula.ml" 149 4367 4390
+type(
+  int -> unit -> 'd * 'e * Term.constr -> unit
+)
+ident(
+  int_ref g "plugins/firstorder/formula.ml" 146 4289 4296 "plugins/firstorder/formula.ml" 146 4289 4297
+)
+"plugins/firstorder/formula.ml" 149 4367 4392 "plugins/firstorder/formula.ml" 149 4367 4393
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 149 4367 4393 "plugins/firstorder/formula.ml" 149 4367 4394
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/formula.ml" 149 4367 4395 "plugins/firstorder/formula.ml" 149 4367 4406
+type(
+  ('d * 'e * Term.constr) list -> int
+)
+ident(
+  ext_ref List.length
+)
+"plugins/firstorder/formula.ml" 149 4367 4407 "plugins/firstorder/formula.ml" 149 4367 4408
+type(
+  ('d * 'e * Term.constr) list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 148 4354 4363 "plugins/firstorder/formula.ml" 148 4354 4364
+)
+"plugins/firstorder/formula.ml" 149 4367 4394 "plugins/firstorder/formula.ml" 149 4367 4409
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 149 4367 4391 "plugins/firstorder/formula.ml" 149 4367 4410
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 149 4367 4411 "plugins/firstorder/formula.ml" 149 4367 4413
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 149 4367 4414 "plugins/firstorder/formula.ml" 149 4367 4415
+type(
+  ('d * 'e * Term.constr) list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 148 4354 4363 "plugins/firstorder/formula.ml" 148 4354 4364
+)
+"plugins/firstorder/formula.ml" 149 4367 4372 "plugins/firstorder/formula.ml" 149 4367 4415
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 150 4419 4427 "plugins/firstorder/formula.ml" 150 4419 4435
+type(
+  bool
+)
+ident(
+  int_ref polarity "plugins/firstorder/formula.ml" 130 3816 3840 "plugins/firstorder/formula.ml" 130 3816 3848
+)
+"plugins/firstorder/formula.ml" 150 4419 4436 "plugins/firstorder/formula.ml" 150 4419 4438
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/formula.ml" 151 4476 4483 "plugins/firstorder/formula.ml" 151 4476 4495
+type(
+  (Term.rel_context -> bool) -> Term.rel_context array -> bool
+)
+ident(
+  ext_ref Util.array_exists
+)
+"plugins/firstorder/formula.ml" 151 4476 4506 "plugins/firstorder/formula.ml" 151 4476 4508
+type(
+  Term.rel_context
+)
+"plugins/firstorder/formula.ml" 151 4476 4510 "plugins/firstorder/formula.ml" 151 4476 4514
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 151 4476 4515 "plugins/firstorder/formula.ml" 151 4476 4516
+type(
+  Term.rel_context
+)
+"plugins/firstorder/formula.ml" 151 4476 4518 "plugins/firstorder/formula.ml" 151 4476 4523
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 151 4476 4496 "plugins/firstorder/formula.ml" 151 4476 4524
+type(
+  Term.rel_context -> bool
+)
+"plugins/firstorder/formula.ml" 151 4476 4525 "plugins/firstorder/formula.ml" 151 4476 4526
+type(
+  Term.rel_context array
+)
+ident(
+  int_ref v "plugins/firstorder/formula.ml" 145 4257 4264 "plugins/firstorder/formula.ml" 145 4257 4265
+)
+"plugins/firstorder/formula.ml" 151 4476 4483 "plugins/firstorder/formula.ml" 151 4476 4526
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 150 4419 4427 "plugins/firstorder/formula.ml" 151 4476 4526
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 152 4527 4537 "plugins/firstorder/formula.ml" 152 4527 4544
+type(
+  bool ref
+)
+ident(
+  int_ref trivial "plugins/firstorder/formula.ml" 126 3711 3717 "plugins/firstorder/formula.ml" 126 3711 3724
+)
+"plugins/firstorder/formula.ml" 152 4527 4544 "plugins/firstorder/formula.ml" 152 4527 4546
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/formula.ml" 152 4527 4546 "plugins/firstorder/formula.ml" 152 4527 4550
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 152 4527 4537 "plugins/firstorder/formula.ml" 152 4527 4550
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 150 4419 4424 "plugins/firstorder/formula.ml" 152 4527 4550
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 153 4552 4557 "plugins/firstorder/formula.ml" 153 4552 4567
+type(
+  (Term.rel_context -> unit) -> Term.rel_context array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"plugins/firstorder/formula.ml" 153 4552 4568 "plugins/firstorder/formula.ml" 153 4552 4569
+type(
+  Term.rel_context -> unit
+)
+ident(
+  int_ref f "plugins/firstorder/formula.ml" 148 4354 4361 "plugins/firstorder/formula.ml" 148 4354 4362
+)
+"plugins/firstorder/formula.ml" 153 4552 4570 "plugins/firstorder/formula.ml" 153 4552 4571
+type(
+  Term.rel_context array
+)
+ident(
+  int_ref v "plugins/firstorder/formula.ml" 145 4257 4264 "plugins/firstorder/formula.ml" 145 4257 4265
+)
+"plugins/firstorder/formula.ml" 153 4552 4557 "plugins/firstorder/formula.ml" 153 4552 4571
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 150 4419 4424 "plugins/firstorder/formula.ml" 153 4552 4571
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 148 4354 4357 "plugins/firstorder/formula.ml" 153 4552 4571
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 146 4289 4292 "plugins/firstorder/formula.ml" 153 4552 4571
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 145 4257 4260 "plugins/firstorder/formula.ml" 153 4552 4571
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 137 4066 4069 "plugins/firstorder/formula.ml" 153 4552 4571
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 154 4572 4587 "plugins/firstorder/formula.ml" 154 4572 4588
+type(
+  Names.inductive
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 155 4594 4597 "plugins/firstorder/formula.ml" 159 4739 4787
+)
+"plugins/firstorder/formula.ml" 154 4572 4589 "plugins/firstorder/formula.ml" 154 4572 4590
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/firstorder/formula.ml" 155 4594 4597 "plugins/firstorder/formula.ml" 159 4739 4787
+)
+"plugins/firstorder/formula.ml" 154 4572 4580 "plugins/firstorder/formula.ml" 154 4572 4591
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 155 4594 4601 "plugins/firstorder/formula.ml" 155 4594 4604
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 155 4594 4605 "plugins/firstorder/formula.ml" 155 4594 4611
+type(
+  Term.metavariable -> Term.constr
+)
+ident(
+  ext_ref Term.mkMeta
+)
+"plugins/firstorder/formula.ml" 155 4594 4613 "plugins/firstorder/formula.ml" 155 4594 4620
+type(
+  bool -> Term.metavariable
+)
+ident(
+  int_ref metagen "plugins/firstorder/formula.ml" 125 3669 3688 "plugins/firstorder/formula.ml" 125 3669 3695
+)
+"plugins/firstorder/formula.ml" 155 4594 4621 "plugins/firstorder/formula.ml" 155 4594 4625
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 155 4594 4612 "plugins/firstorder/formula.ml" 155 4594 4626
+call(
+  stack
+)
+type(
+  Term.metavariable
+)
+"plugins/firstorder/formula.ml" 155 4594 4605 "plugins/firstorder/formula.ml" 155 4594 4626
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 156 4630 4637 "plugins/firstorder/formula.ml" 156 4630 4638
+type(
+  Term.rel_context
+)
+"plugins/firstorder/formula.ml" 156 4630 4641 "plugins/firstorder/formula.ml" 156 4630 4649
+type(
+  int ->
+  Names.inductive ->
+  Term.constr list -> Proof_type.goal Tacmach.sigma -> Term.rel_context array
+)
+ident(
+  int_ref ind_hyps "plugins/firstorder/formula.ml" 55 1564 1568 "plugins/firstorder/formula.ml" 55 1564 1576
+)
+"plugins/firstorder/formula.ml" 156 4630 4650 "plugins/firstorder/formula.ml" 156 4630 4651
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 156 4630 4652 "plugins/firstorder/formula.ml" 156 4630 4653
+type(
+  Names.inductive
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 154 4572 4587 "plugins/firstorder/formula.ml" 154 4572 4588
+)
+"plugins/firstorder/formula.ml" 156 4630 4654 "plugins/firstorder/formula.ml" 156 4630 4655
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 154 4572 4589 "plugins/firstorder/formula.ml" 154 4572 4590
+)
+"plugins/firstorder/formula.ml" 156 4630 4656 "plugins/firstorder/formula.ml" 156 4630 4658
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 125 3669 3685 "plugins/firstorder/formula.ml" 125 3669 3687
+)
+"plugins/firstorder/formula.ml" 156 4630 4640 "plugins/firstorder/formula.ml" 156 4630 4659
+call(
+  stack
+)
+type(
+  Term.rel_context array
+)
+"plugins/firstorder/formula.ml" 156 4630 4661 "plugins/firstorder/formula.ml" 156 4630 4662
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 156 4630 4640 "plugins/firstorder/formula.ml" 156 4630 4663
+type(
+  Term.rel_context
+)
+"plugins/firstorder/formula.ml" 157 4667 4674 "plugins/firstorder/formula.ml" 157 4667 4675
+type(
+  int -> 'f -> 'g * 'h * Term.constr -> unit
+)
+"plugins/firstorder/formula.ml" 157 4667 4676 "plugins/firstorder/formula.ml" 157 4667 4677
+type(
+  int
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 157 4667 4678 "plugins/firstorder/formula.ml" 158 4690 4735
+)
+"plugins/firstorder/formula.ml" 157 4667 4678 "plugins/firstorder/formula.ml" 157 4667 4679
+type(
+  'f
+)
+"plugins/firstorder/formula.ml" 157 4667 4681 "plugins/firstorder/formula.ml" 157 4667 4682
+type(
+  'g
+)
+"plugins/firstorder/formula.ml" 157 4667 4683 "plugins/firstorder/formula.ml" 157 4667 4684
+type(
+  'h
+)
+"plugins/firstorder/formula.ml" 157 4667 4685 "plugins/firstorder/formula.ml" 157 4667 4686
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/formula.ml" 158 4690 4695 "plugins/firstorder/formula.ml" 158 4690 4735
+)
+"plugins/firstorder/formula.ml" 157 4667 4680 "plugins/firstorder/formula.ml" 157 4667 4687
+type(
+  'g * 'h * Term.constr
+)
+"plugins/firstorder/formula.ml" 158 4690 4695 "plugins/firstorder/formula.ml" 158 4690 4704
+type(
+  Term.constr list -> bool -> Term.constr -> unit
+)
+ident(
+  int_ref build_rec "plugins/firstorder/formula.ml" 130 3816 3826 "plugins/firstorder/formula.ml" 130 3816 3835
+)
+"plugins/firstorder/formula.ml" 158 4690 4706 "plugins/firstorder/formula.ml" 158 4690 4709
+type(
+  Term.constr
+)
+ident(
+  int_ref var "plugins/firstorder/formula.ml" 155 4594 4601 "plugins/firstorder/formula.ml" 155 4594 4604
+)
+"plugins/firstorder/formula.ml" 158 4690 4711 "plugins/firstorder/formula.ml" 158 4690 4714
+type(
+  Term.constr list
+)
+ident(
+  int_ref env "plugins/firstorder/formula.ml" 130 3816 3836 "plugins/firstorder/formula.ml" 130 3816 3839
+)
+"plugins/firstorder/formula.ml" 158 4690 4705 "plugins/firstorder/formula.ml" 158 4690 4715
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 158 4690 4716 "plugins/firstorder/formula.ml" 158 4690 4724
+type(
+  bool
+)
+ident(
+  int_ref polarity "plugins/firstorder/formula.ml" 130 3816 3840 "plugins/firstorder/formula.ml" 130 3816 3848
+)
+"plugins/firstorder/formula.ml" 158 4690 4726 "plugins/firstorder/formula.ml" 158 4690 4730
+type(
+  int -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.lift
+)
+"plugins/firstorder/formula.ml" 158 4690 4731 "plugins/firstorder/formula.ml" 158 4690 4732
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 157 4667 4676 "plugins/firstorder/formula.ml" 157 4667 4677
+)
+"plugins/firstorder/formula.ml" 158 4690 4733 "plugins/firstorder/formula.ml" 158 4690 4734
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/formula.ml" 157 4667 4685 "plugins/firstorder/formula.ml" 157 4667 4686
+)
+"plugins/firstorder/formula.ml" 158 4690 4725 "plugins/firstorder/formula.ml" 158 4690 4735
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 158 4690 4695 "plugins/firstorder/formula.ml" 158 4690 4735
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 159 4739 4744 "plugins/firstorder/formula.ml" 159 4739 4760
+type(
+  (int -> unit -> Term.rel_declaration -> unit) ->
+  int -> unit -> Term.rel_context -> unit
+)
+ident(
+  ext_ref Util.list_fold_left_i
+)
+"plugins/firstorder/formula.ml" 159 4739 4761 "plugins/firstorder/formula.ml" 159 4739 4762
+type(
+  int -> unit -> Term.rel_declaration -> unit
+)
+ident(
+  int_ref g "plugins/firstorder/formula.ml" 157 4667 4674 "plugins/firstorder/formula.ml" 157 4667 4675
+)
+"plugins/firstorder/formula.ml" 159 4739 4764 "plugins/firstorder/formula.ml" 159 4739 4765
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 159 4739 4765 "plugins/firstorder/formula.ml" 159 4739 4766
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/formula.ml" 159 4739 4767 "plugins/firstorder/formula.ml" 159 4739 4778
+type(
+  Term.constr list -> int
+)
+ident(
+  ext_ref List.length
+)
+"plugins/firstorder/formula.ml" 159 4739 4779 "plugins/firstorder/formula.ml" 159 4739 4780
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 154 4572 4589 "plugins/firstorder/formula.ml" 154 4572 4590
+)
+"plugins/firstorder/formula.ml" 159 4739 4766 "plugins/firstorder/formula.ml" 159 4739 4781
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 159 4739 4763 "plugins/firstorder/formula.ml" 159 4739 4782
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 159 4739 4783 "plugins/firstorder/formula.ml" 159 4739 4785
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 159 4739 4786 "plugins/firstorder/formula.ml" 159 4739 4787
+type(
+  Term.rel_context
+)
+ident(
+  int_ref v "plugins/firstorder/formula.ml" 156 4630 4637 "plugins/firstorder/formula.ml" 156 4630 4638
+)
+"plugins/firstorder/formula.ml" 159 4739 4744 "plugins/firstorder/formula.ml" 159 4739 4787
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 157 4667 4670 "plugins/firstorder/formula.ml" 159 4739 4787
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 156 4630 4633 "plugins/firstorder/formula.ml" 159 4739 4787
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 155 4594 4597 "plugins/firstorder/formula.ml" 159 4739 4787
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 160 4788 4803 "plugins/firstorder/formula.ml" 160 4788 4804
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 160 4788 4805 "plugins/firstorder/formula.ml" 160 4788 4806
+type(
+  Term.constr
+)
+ident(
+  def b "plugins/firstorder/formula.ml" 161 4810 4813 "plugins/firstorder/formula.ml" 162 4846 4882
+)
+"plugins/firstorder/formula.ml" 160 4788 4796 "plugins/firstorder/formula.ml" 160 4788 4807
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 161 4810 4817 "plugins/firstorder/formula.ml" 161 4810 4820
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 161 4810 4821 "plugins/firstorder/formula.ml" 161 4810 4827
+type(
+  Term.metavariable -> Term.constr
+)
+ident(
+  ext_ref Term.mkMeta
+)
+"plugins/firstorder/formula.ml" 161 4810 4829 "plugins/firstorder/formula.ml" 161 4810 4836
+type(
+  bool -> Term.metavariable
+)
+ident(
+  int_ref metagen "plugins/firstorder/formula.ml" 125 3669 3688 "plugins/firstorder/formula.ml" 125 3669 3695
+)
+"plugins/firstorder/formula.ml" 161 4810 4837 "plugins/firstorder/formula.ml" 161 4810 4841
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 161 4810 4828 "plugins/firstorder/formula.ml" 161 4810 4842
+call(
+  stack
+)
+type(
+  Term.metavariable
+)
+"plugins/firstorder/formula.ml" 161 4810 4821 "plugins/firstorder/formula.ml" 161 4810 4842
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 162 4846 4851 "plugins/firstorder/formula.ml" 162 4846 4860
+type(
+  Term.constr list -> bool -> Term.constr -> unit
+)
+ident(
+  int_ref build_rec "plugins/firstorder/formula.ml" 130 3816 3826 "plugins/firstorder/formula.ml" 130 3816 3835
+)
+"plugins/firstorder/formula.ml" 162 4846 4862 "plugins/firstorder/formula.ml" 162 4846 4865
+type(
+  Term.constr
+)
+ident(
+  int_ref var "plugins/firstorder/formula.ml" 161 4810 4817 "plugins/firstorder/formula.ml" 161 4810 4820
+)
+"plugins/firstorder/formula.ml" 162 4846 4867 "plugins/firstorder/formula.ml" 162 4846 4870
+type(
+  Term.constr list
+)
+ident(
+  int_ref env "plugins/firstorder/formula.ml" 130 3816 3836 "plugins/firstorder/formula.ml" 130 3816 3839
+)
+"plugins/firstorder/formula.ml" 162 4846 4861 "plugins/firstorder/formula.ml" 162 4846 4871
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 162 4846 4872 "plugins/firstorder/formula.ml" 162 4846 4880
+type(
+  bool
+)
+ident(
+  int_ref polarity "plugins/firstorder/formula.ml" 130 3816 3840 "plugins/firstorder/formula.ml" 130 3816 3848
+)
+"plugins/firstorder/formula.ml" 162 4846 4881 "plugins/firstorder/formula.ml" 162 4846 4882
+type(
+  Term.constr
+)
+ident(
+  int_ref b "plugins/firstorder/formula.ml" 160 4788 4805 "plugins/firstorder/formula.ml" 160 4788 4806
+)
+"plugins/firstorder/formula.ml" 162 4846 4851 "plugins/firstorder/formula.ml" 162 4846 4882
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 161 4810 4813 "plugins/firstorder/formula.ml" 162 4846 4882
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 163 4883 4896 "plugins/firstorder/formula.ml" 163 4883 4897
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/formula.ml" 164 4900 4903 "plugins/firstorder/formula.ml" 169 5073 5107
+)
+"plugins/firstorder/formula.ml" 163 4883 4891 "plugins/firstorder/formula.ml" 163 4883 4897
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 164 4900 4907 "plugins/firstorder/formula.ml" 164 4900 4915
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 164 4900 4916 "plugins/firstorder/formula.ml" 164 4900 4923
+type(
+  Term.constr list -> int -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.substnl
+)
+"plugins/firstorder/formula.ml" 164 4900 4924 "plugins/firstorder/formula.ml" 164 4900 4927
+type(
+  Term.constr list
+)
+ident(
+  int_ref env "plugins/firstorder/formula.ml" 130 3816 3836 "plugins/firstorder/formula.ml" 130 3816 3839
+)
+"plugins/firstorder/formula.ml" 164 4900 4928 "plugins/firstorder/formula.ml" 164 4900 4929
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 164 4900 4930 "plugins/firstorder/formula.ml" 164 4900 4931
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/formula.ml" 163 4883 4896 "plugins/firstorder/formula.ml" 163 4883 4897
+)
+"plugins/firstorder/formula.ml" 164 4900 4916 "plugins/firstorder/formula.ml" 164 4900 4931
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 165 4935 4943 "plugins/firstorder/formula.ml" 165 4935 4946
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/firstorder/formula.ml" 165 4935 4948 "plugins/firstorder/formula.ml" 165 4935 4954
+type(
+  Term.constr -> bool
+)
+ident(
+  ext_ref Term.isMeta
+)
+"plugins/firstorder/formula.ml" 165 4935 4955 "plugins/firstorder/formula.ml" 165 4935 4963
+type(
+  Term.constr
+)
+ident(
+  int_ref unsigned "plugins/firstorder/formula.ml" 164 4900 4907 "plugins/firstorder/formula.ml" 164 4900 4915
+)
+"plugins/firstorder/formula.ml" 165 4935 4947 "plugins/firstorder/formula.ml" 165 4935 4964
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 165 4935 4943 "plugins/firstorder/formula.ml" 165 4935 4964
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 166 5002 5012 "plugins/firstorder/formula.ml" 166 5002 5020
+type(
+  bool
+)
+ident(
+  int_ref polarity "plugins/firstorder/formula.ml" 130 3816 3840 "plugins/firstorder/formula.ml" 130 3816 3848
+)
+"plugins/firstorder/formula.ml" 167 5026 5028 "plugins/firstorder/formula.ml" 167 5026 5036
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref positive "plugins/firstorder/formula.ml" 127 3736 3742 "plugins/firstorder/formula.ml" 127 3736 3750
+)
+"plugins/firstorder/formula.ml" 167 5026 5036 "plugins/firstorder/formula.ml" 167 5026 5038
+type(
+  Term.constr list ref -> Term.constr list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/formula.ml" 167 5026 5039 "plugins/firstorder/formula.ml" 167 5026 5047
+type(
+  Term.constr
+)
+ident(
+  int_ref unsigned "plugins/firstorder/formula.ml" 164 4900 4907 "plugins/firstorder/formula.ml" 164 4900 4915
+)
+"plugins/firstorder/formula.ml" 167 5026 5051 "plugins/firstorder/formula.ml" 167 5026 5052
+type(
+  Term.constr list ref -> Term.constr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/formula.ml" 167 5026 5052 "plugins/firstorder/formula.ml" 167 5026 5060
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref positive "plugins/firstorder/formula.ml" 127 3736 3742 "plugins/firstorder/formula.ml" 127 3736 3750
+)
+"plugins/firstorder/formula.ml" 167 5026 5051 "plugins/firstorder/formula.ml" 167 5026 5060
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 167 5026 5039 "plugins/firstorder/formula.ml" 167 5026 5060
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 167 5026 5028 "plugins/firstorder/formula.ml" 167 5026 5060
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 169 5073 5075 "plugins/firstorder/formula.ml" 169 5073 5083
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref negative "plugins/firstorder/formula.ml" 128 3758 3764 "plugins/firstorder/formula.ml" 128 3758 3772
+)
+"plugins/firstorder/formula.ml" 169 5073 5083 "plugins/firstorder/formula.ml" 169 5073 5085
+type(
+  Term.constr list ref -> Term.constr list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/formula.ml" 169 5073 5086 "plugins/firstorder/formula.ml" 169 5073 5094
+type(
+  Term.constr
+)
+ident(
+  int_ref unsigned "plugins/firstorder/formula.ml" 164 4900 4907 "plugins/firstorder/formula.ml" 164 4900 4915
+)
+"plugins/firstorder/formula.ml" 169 5073 5098 "plugins/firstorder/formula.ml" 169 5073 5099
+type(
+  Term.constr list ref -> Term.constr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/formula.ml" 169 5073 5099 "plugins/firstorder/formula.ml" 169 5073 5107
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref negative "plugins/firstorder/formula.ml" 128 3758 3764 "plugins/firstorder/formula.ml" 128 3758 3772
+)
+"plugins/firstorder/formula.ml" 169 5073 5098 "plugins/firstorder/formula.ml" 169 5073 5107
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 169 5073 5086 "plugins/firstorder/formula.ml" 169 5073 5107
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 169 5073 5075 "plugins/firstorder/formula.ml" 169 5073 5107
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 166 5002 5009 "plugins/firstorder/formula.ml" 169 5073 5107
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 165 4935 4940 "plugins/firstorder/formula.ml" 169 5073 5107
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 164 4900 4903 "plugins/firstorder/formula.ml" 169 5073 5107
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 131 3858 3862 "plugins/firstorder/formula.ml" 169 5073 5107
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 171 5121 5133 "plugins/firstorder/formula.ml" 171 5121 5137
+type(
+  side
+)
+ident(
+  int_ref side "plugins/firstorder/formula.ml" 125 3669 3696 "plugins/firstorder/formula.ml" 125 3669 3700
+)
+"plugins/firstorder/formula.ml" 172 5143 5146 "plugins/firstorder/formula.ml" 172 5143 5151
+type(
+  side
+)
+"plugins/firstorder/formula.ml" 172 5143 5158 "plugins/firstorder/formula.ml" 172 5143 5167
+type(
+  Term.constr list -> bool -> Term.constr -> unit
+)
+ident(
+  int_ref build_rec "plugins/firstorder/formula.ml" 130 3816 3826 "plugins/firstorder/formula.ml" 130 3816 3835
+)
+"plugins/firstorder/formula.ml" 172 5143 5168 "plugins/firstorder/formula.ml" 172 5143 5170
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 172 5143 5171 "plugins/firstorder/formula.ml" 172 5143 5175
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 172 5143 5176 "plugins/firstorder/formula.ml" 172 5143 5183
+type(
+  Term.constr
+)
+ident(
+  int_ref cciterm "plugins/firstorder/formula.ml" 125 3669 3701 "plugins/firstorder/formula.ml" 125 3669 3708
+)
+"plugins/firstorder/formula.ml" 172 5143 5158 "plugins/firstorder/formula.ml" 172 5143 5183
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 173 5184 5187 "plugins/firstorder/formula.ml" 173 5184 5190
+type(
+  side
+)
+"plugins/firstorder/formula.ml" 173 5184 5199 "plugins/firstorder/formula.ml" 173 5184 5208
+type(
+  Term.constr list -> bool -> Term.constr -> unit
+)
+ident(
+  int_ref build_rec "plugins/firstorder/formula.ml" 130 3816 3826 "plugins/firstorder/formula.ml" 130 3816 3835
+)
+"plugins/firstorder/formula.ml" 173 5184 5209 "plugins/firstorder/formula.ml" 173 5184 5211
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 173 5184 5212 "plugins/firstorder/formula.ml" 173 5184 5217
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 173 5184 5218 "plugins/firstorder/formula.ml" 173 5184 5225
+type(
+  Term.constr
+)
+ident(
+  int_ref cciterm "plugins/firstorder/formula.ml" 125 3669 3701 "plugins/firstorder/formula.ml" 125 3669 3708
+)
+"plugins/firstorder/formula.ml" 173 5184 5199 "plugins/firstorder/formula.ml" 173 5184 5225
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 174 5226 5229 "plugins/firstorder/formula.ml" 174 5226 5233
+type(
+  side
+)
+"plugins/firstorder/formula.ml" 175 5241 5250 "plugins/firstorder/formula.ml" 175 5241 5254
+type(
+  (Names.name * Term.constr) list
+)
+"plugins/firstorder/formula.ml" 175 5241 5255 "plugins/firstorder/formula.ml" 175 5241 5259
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 175 5241 5250 "plugins/firstorder/formula.ml" 175 5241 5259
+type(
+  (Names.name * Term.constr) list * Term.constr
+)
+"plugins/firstorder/formula.ml" 175 5241 5260 "plugins/firstorder/formula.ml" 175 5241 5274
+type(
+  Term.constr -> (Names.name * Term.constr) list * Term.constr
+)
+ident(
+  ext_ref Term.decompose_prod
+)
+"plugins/firstorder/formula.ml" 175 5241 5275 "plugins/firstorder/formula.ml" 175 5241 5282
+type(
+  Term.constr
+)
+ident(
+  int_ref cciterm "plugins/firstorder/formula.ml" 125 3669 3701 "plugins/firstorder/formula.ml" 125 3669 3708
+)
+"plugins/firstorder/formula.ml" 175 5241 5260 "plugins/firstorder/formula.ml" 175 5241 5282
+call(
+  stack
+)
+type(
+  (Names.name * Term.constr) list * Term.constr
+)
+"plugins/firstorder/formula.ml" 176 5286 5295 "plugins/firstorder/formula.ml" 176 5286 5298
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 176 5286 5299 "plugins/firstorder/formula.ml" 176 5286 5307
+type(
+  Term.constr list -> Term.constr list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/firstorder/formula.ml" 176 5286 5309 "plugins/firstorder/formula.ml" 176 5286 5317
+type(
+  (Names.name * Term.constr -> Term.constr) ->
+  (Names.name * Term.constr) list -> Term.constr list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/firstorder/formula.ml" 176 5286 5323 "plugins/firstorder/formula.ml" 176 5286 5324
+type(
+  Names.name * Term.constr
+)
+"plugins/firstorder/formula.ml" 176 5286 5326 "plugins/firstorder/formula.ml" 176 5286 5332
+type(
+  Term.metavariable -> Term.constr
+)
+ident(
+  ext_ref Term.mkMeta
+)
+"plugins/firstorder/formula.ml" 176 5286 5334 "plugins/firstorder/formula.ml" 176 5286 5341
+type(
+  bool -> Term.metavariable
+)
+ident(
+  int_ref metagen "plugins/firstorder/formula.ml" 125 3669 3688 "plugins/firstorder/formula.ml" 125 3669 3695
+)
+"plugins/firstorder/formula.ml" 176 5286 5342 "plugins/firstorder/formula.ml" 176 5286 5346
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 176 5286 5333 "plugins/firstorder/formula.ml" 176 5286 5347
+call(
+  stack
+)
+type(
+  Term.metavariable
+)
+"plugins/firstorder/formula.ml" 176 5286 5326 "plugins/firstorder/formula.ml" 176 5286 5347
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 176 5286 5318 "plugins/firstorder/formula.ml" 176 5286 5348
+type(
+  Names.name * Term.constr -> Term.constr
+)
+"plugins/firstorder/formula.ml" 176 5286 5349 "plugins/firstorder/formula.ml" 176 5286 5353
+type(
+  (Names.name * Term.constr) list
+)
+ident(
+  int_ref rels "plugins/firstorder/formula.ml" 175 5241 5250 "plugins/firstorder/formula.ml" 175 5241 5254
+)
+"plugins/firstorder/formula.ml" 176 5286 5308 "plugins/firstorder/formula.ml" 176 5286 5354
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 176 5286 5299 "plugins/firstorder/formula.ml" 176 5286 5354
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 177 5358 5365 "plugins/firstorder/formula.ml" 177 5358 5374
+type(
+  Term.constr list -> bool -> Term.constr -> unit
+)
+ident(
+  int_ref build_rec "plugins/firstorder/formula.ml" 130 3816 3826 "plugins/firstorder/formula.ml" 130 3816 3835
+)
+"plugins/firstorder/formula.ml" 177 5358 5375 "plugins/firstorder/formula.ml" 177 5358 5378
+type(
+  Term.constr list
+)
+ident(
+  int_ref env "plugins/firstorder/formula.ml" 176 5286 5295 "plugins/firstorder/formula.ml" 176 5286 5298
+)
+"plugins/firstorder/formula.ml" 177 5358 5379 "plugins/firstorder/formula.ml" 177 5358 5384
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 177 5358 5385 "plugins/firstorder/formula.ml" 177 5358 5389
+type(
+  Term.constr
+)
+ident(
+  int_ref head "plugins/firstorder/formula.ml" 175 5241 5255 "plugins/firstorder/formula.ml" 175 5241 5259
+)
+"plugins/firstorder/formula.ml" 177 5358 5365 "plugins/firstorder/formula.ml" 177 5358 5389
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 177 5358 5390 "plugins/firstorder/formula.ml" 177 5358 5397
+type(
+  bool ref
+)
+ident(
+  int_ref trivial "plugins/firstorder/formula.ml" 126 3711 3717 "plugins/firstorder/formula.ml" 126 3711 3724
+)
+"plugins/firstorder/formula.ml" 177 5358 5397 "plugins/firstorder/formula.ml" 177 5358 5399
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/formula.ml" 177 5358 5399 "plugins/firstorder/formula.ml" 177 5358 5404
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 177 5358 5390 "plugins/firstorder/formula.ml" 177 5358 5404
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 177 5358 5365 "plugins/firstorder/formula.ml" 177 5358 5404
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 176 5286 5291 "plugins/firstorder/formula.ml" 177 5358 5404
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 175 5241 5246 "plugins/firstorder/formula.ml" 177 5358 5404
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 170 5111 5115 "plugins/firstorder/formula.ml" 178 5429 5436
+type(
+  unit
+)
+"plugins/firstorder/formula.ml" 179 5438 5443 "plugins/firstorder/formula.ml" 179 5438 5444
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/formula.ml" 179 5438 5444 "plugins/firstorder/formula.ml" 179 5438 5451
+type(
+  bool ref
+)
+ident(
+  int_ref trivial "plugins/firstorder/formula.ml" 126 3711 3717 "plugins/firstorder/formula.ml" 126 3711 3724
+)
+"plugins/firstorder/formula.ml" 179 5438 5443 "plugins/firstorder/formula.ml" 179 5438 5451
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 180 5453 5469 "plugins/firstorder/formula.ml" 180 5453 5470
+type(
+  Term.constr list ref -> Term.constr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/formula.ml" 180 5453 5470 "plugins/firstorder/formula.ml" 180 5453 5478
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref positive "plugins/firstorder/formula.ml" 127 3736 3742 "plugins/firstorder/formula.ml" 127 3736 3750
+)
+"plugins/firstorder/formula.ml" 180 5453 5469 "plugins/firstorder/formula.ml" 180 5453 5478
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 181 5480 5496 "plugins/firstorder/formula.ml" 181 5480 5497
+type(
+  Term.constr list ref -> Term.constr list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/formula.ml" 181 5480 5497 "plugins/firstorder/formula.ml" 181 5480 5505
+type(
+  Term.constr list ref
+)
+ident(
+  int_ref negative "plugins/firstorder/formula.ml" 128 3758 3764 "plugins/firstorder/formula.ml" 128 3758 3772
+)
+"plugins/firstorder/formula.ml" 181 5480 5496 "plugins/firstorder/formula.ml" 181 5480 5505
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 180 5453 5458 "plugins/firstorder/formula.ml" 181 5480 5506
+type(
+  atoms
+)
+"plugins/firstorder/formula.ml" 179 5438 5442 "plugins/firstorder/formula.ml" 181 5480 5507
+type(
+  bool * atoms
+)
+"plugins/firstorder/formula.ml" 170 5111 5115 "plugins/firstorder/formula.ml" 181 5480 5507
+type(
+  bool * atoms
+)
+"plugins/firstorder/formula.ml" 130 3816 3818 "plugins/firstorder/formula.ml" 181 5480 5507
+type(
+  bool * atoms
+)
+"plugins/firstorder/formula.ml" 129 3783 3785 "plugins/firstorder/formula.ml" 181 5480 5507
+type(
+  bool * atoms
+)
+"plugins/firstorder/formula.ml" 126 3711 3713 "plugins/firstorder/formula.ml" 181 5480 5507
+type(
+  bool * atoms
+)
+"plugins/firstorder/formula.ml" 213 6136 6140 "plugins/firstorder/formula.ml" 213 6136 6153
+type(
+  side ->
+  Libnames.global_reference ->
+  Term.constr ->
+  Proof_type.goal Tacmach.sigma ->
+  (bool -> Term.metavariable) -> (t, Term.constr) sum
+)
+ident(
+  def build_formula "plugins/firstorder/formula.ml" 269 7685 7713 --
+)
+"plugins/firstorder/formula.ml" 213 6136 6154 "plugins/firstorder/formula.ml" 213 6136 6158
+type(
+  side
+)
+ident(
+  def side "plugins/firstorder/formula.ml" 213 6136 6159 "plugins/firstorder/formula.ml" 269 7685 7713
+)
+"plugins/firstorder/formula.ml" 213 6136 6159 "plugins/firstorder/formula.ml" 213 6136 6162
+type(
+  Libnames.global_reference
+)
+ident(
+  def nam "plugins/firstorder/formula.ml" 213 6136 6163 "plugins/firstorder/formula.ml" 269 7685 7713
+)
+"plugins/firstorder/formula.ml" 213 6136 6163 "plugins/firstorder/formula.ml" 213 6136 6166
+type(
+  Term.constr
+)
+ident(
+  def typ "plugins/firstorder/formula.ml" 213 6136 6167 "plugins/firstorder/formula.ml" 269 7685 7713
+)
+"plugins/firstorder/formula.ml" 213 6136 6167 "plugins/firstorder/formula.ml" 213 6136 6169
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/formula.ml" 213 6136 6170 "plugins/firstorder/formula.ml" 269 7685 7713
+)
+"plugins/firstorder/formula.ml" 213 6136 6170 "plugins/firstorder/formula.ml" 213 6136 6177
+type(
+  bool -> Term.metavariable
+)
+ident(
+  def metagen "plugins/firstorder/formula.ml" 214 6179 6181 "plugins/firstorder/formula.ml" 269 7685 7713
+)
+"plugins/firstorder/formula.ml" 214 6179 6185 "plugins/firstorder/formula.ml" 214 6179 6194
+type(
+  Term.constr -> Term.constr
+)
+"plugins/firstorder/formula.ml" 214 6179 6197 "plugins/firstorder/formula.ml" 214 6179 6207
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr
+)
+ident(
+  int_ref special_nf "plugins/firstorder/formula.ml" 64 1880 1884 "plugins/firstorder/formula.ml" 64 1880 1894
+)
+"plugins/firstorder/formula.ml" 214 6179 6208 "plugins/firstorder/formula.ml" 214 6179 6210
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 213 6136 6167 "plugins/firstorder/formula.ml" 213 6136 6169
+)
+"plugins/firstorder/formula.ml" 214 6179 6197 "plugins/firstorder/formula.ml" 214 6179 6210
+call(
+  stack
+)
+type(
+  Term.constr -> Term.constr
+)
+"plugins/firstorder/formula.ml" 216 6222 6232 "plugins/firstorder/formula.ml" 216 6222 6233
+type(
+  int
+)
+ident(
+  def m "plugins/firstorder/formula.ml" 217 6262 6268 "plugins/firstorder/formula.ml" 268 7665 7684
+)
+"plugins/firstorder/formula.ml" 216 6222 6234 "plugins/firstorder/formula.ml" 216 6222 6243
+type(
+  Term.metavariable -> int
+)
+ident(
+  int_ref meta_succ "plugins/firstorder/formula.ml" 40 1068 1072 "plugins/firstorder/formula.ml" 40 1068 1081
+)
+"plugins/firstorder/formula.ml" 216 6222 6244 "plugins/firstorder/formula.ml" 216 6222 6251
+type(
+  bool -> Term.metavariable
+)
+ident(
+  int_ref metagen "plugins/firstorder/formula.ml" 213 6136 6170 "plugins/firstorder/formula.ml" 213 6136 6177
+)
+"plugins/firstorder/formula.ml" 216 6222 6252 "plugins/firstorder/formula.ml" 216 6222 6257
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 216 6222 6243 "plugins/firstorder/formula.ml" 216 6222 6258
+call(
+  stack
+)
+type(
+  Term.metavariable
+)
+"plugins/firstorder/formula.ml" 216 6222 6234 "plugins/firstorder/formula.ml" 216 6222 6258
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 217 6262 6272 "plugins/firstorder/formula.ml" 217 6262 6279
+type(
+  bool
+)
+ident(
+  def trivial "plugins/firstorder/formula.ml" 221 6356 6362 "plugins/firstorder/formula.ml" 268 7665 7684
+)
+"plugins/firstorder/formula.ml" 217 6262 6280 "plugins/firstorder/formula.ml" 217 6262 6285
+type(
+  atoms
+)
+ident(
+  def atoms "plugins/firstorder/formula.ml" 221 6356 6362 "plugins/firstorder/formula.ml" 268 7665 7684
+)
+"plugins/firstorder/formula.ml" 217 6262 6272 "plugins/firstorder/formula.ml" 217 6262 6285
+type(
+  bool * atoms
+)
+"plugins/firstorder/formula.ml" 218 6287 6291 "plugins/firstorder/formula.ml" 218 6287 6292
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/formula.ml" 218 6287 6292 "plugins/firstorder/formula.ml" 218 6287 6297
+type(
+  bool ref
+)
+ident(
+  int_ref qflag "plugins/firstorder/formula.ml" 22 728 732 "plugins/firstorder/formula.ml" 22 728 737
+)
+"plugins/firstorder/formula.ml" 218 6287 6291 "plugins/firstorder/formula.ml" 218 6287 6297
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 219 6303 6306 "plugins/firstorder/formula.ml" 219 6303 6317
+type(
+  Proof_type.goal Tacmach.sigma ->
+  (bool -> Term.metavariable) -> side -> Term.constr -> bool * atoms
+)
+ident(
+  int_ref build_atoms "plugins/firstorder/formula.ml" 125 3669 3673 "plugins/firstorder/formula.ml" 125 3669 3684
+)
+"plugins/firstorder/formula.ml" 219 6303 6318 "plugins/firstorder/formula.ml" 219 6303 6320
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 213 6136 6167 "plugins/firstorder/formula.ml" 213 6136 6169
+)
+"plugins/firstorder/formula.ml" 219 6303 6321 "plugins/firstorder/formula.ml" 219 6303 6328
+type(
+  bool -> Term.metavariable
+)
+ident(
+  int_ref metagen "plugins/firstorder/formula.ml" 213 6136 6170 "plugins/firstorder/formula.ml" 213 6136 6177
+)
+"plugins/firstorder/formula.ml" 219 6303 6329 "plugins/firstorder/formula.ml" 219 6303 6333
+type(
+  side
+)
+ident(
+  int_ref side "plugins/firstorder/formula.ml" 213 6136 6154 "plugins/firstorder/formula.ml" 213 6136 6158
+)
+"plugins/firstorder/formula.ml" 219 6303 6334 "plugins/firstorder/formula.ml" 219 6303 6337
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/firstorder/formula.ml" 213 6136 6163 "plugins/firstorder/formula.ml" 213 6136 6166
+)
+"plugins/firstorder/formula.ml" 219 6303 6306 "plugins/firstorder/formula.ml" 219 6303 6337
+call(
+  stack
+)
+type(
+  bool * atoms
+)
+"plugins/firstorder/formula.ml" 220 6338 6344 "plugins/firstorder/formula.ml" 220 6338 6352
+type(
+  bool * atoms
+)
+ident(
+  int_ref no_atoms "plugins/firstorder/formula.ml" 121 3552 3556 "plugins/firstorder/formula.ml" 121 3552 3564
+)
+"plugins/firstorder/formula.ml" 218 6287 6288 "plugins/firstorder/formula.ml" 220 6338 6352
+type(
+  bool * atoms
+)
+"plugins/firstorder/formula.ml" 221 6356 6366 "plugins/firstorder/formula.ml" 221 6356 6373
+type(
+  (left_pattern, right_pattern) sum
+)
+ident(
+  def pattern "plugins/firstorder/formula.ml" 265 7601 7602 "plugins/firstorder/formula.ml" 268 7665 7684
+)
+"plugins/firstorder/formula.ml" 222 6375 6382 "plugins/firstorder/formula.ml" 222 6375 6386
+type(
+  side
+)
+ident(
+  int_ref side "plugins/firstorder/formula.ml" 213 6136 6154 "plugins/firstorder/formula.ml" 213 6136 6158
+)
+"plugins/firstorder/formula.ml" 223 6392 6397 "plugins/firstorder/formula.ml" 223 6392 6402
+type(
+  side
+)
+"plugins/firstorder/formula.ml" 224 6406 6417 "plugins/firstorder/formula.ml" 224 6406 6420
+type(
+  right_pattern
+)
+"plugins/firstorder/formula.ml" 225 6422 6430 "plugins/firstorder/formula.ml" 225 6422 6445
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> kind_of_formula
+)
+ident(
+  int_ref kind_of_formula "plugins/firstorder/formula.ml" 81 2405 2413 "plugins/firstorder/formula.ml" 81 2405 2428
+)
+"plugins/firstorder/formula.ml" 225 6422 6446 "plugins/firstorder/formula.ml" 225 6422 6448
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 213 6136 6167 "plugins/firstorder/formula.ml" 213 6136 6169
+)
+"plugins/firstorder/formula.ml" 225 6422 6449 "plugins/firstorder/formula.ml" 225 6422 6452
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/firstorder/formula.ml" 213 6136 6163 "plugins/firstorder/formula.ml" 213 6136 6166
+)
+"plugins/firstorder/formula.ml" 225 6422 6430 "plugins/firstorder/formula.ml" 225 6422 6452
+call(
+  stack
+)
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 226 6458 6470 "plugins/firstorder/formula.ml" 226 6458 6471
+type(
+  Names.inductive
+)
+"plugins/firstorder/formula.ml" 226 6458 6472 "plugins/firstorder/formula.ml" 226 6458 6473
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 226 6458 6464 "plugins/firstorder/formula.ml" 226 6458 6474
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 226 6458 6485 "plugins/firstorder/formula.ml" 226 6458 6491
+type(
+  right_pattern
+)
+"plugins/firstorder/formula.ml" 227 6492 6503 "plugins/firstorder/formula.ml" 227 6492 6504
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/formula.ml" 227 6492 6514 "plugins/firstorder/formula.ml" 227 6492 6531
+)
+"plugins/firstorder/formula.ml" 227 6492 6498 "plugins/firstorder/formula.ml" 227 6492 6504
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 227 6492 6514 "plugins/firstorder/formula.ml" 227 6492 6519
+type(
+  exn -> right_pattern
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/firstorder/formula.ml" 227 6492 6529 "plugins/firstorder/formula.ml" 227 6492 6530
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/formula.ml" 227 6492 6503 "plugins/firstorder/formula.ml" 227 6492 6504
+)
+"plugins/firstorder/formula.ml" 227 6492 6520 "plugins/firstorder/formula.ml" 227 6492 6531
+type(
+  exn
+)
+"plugins/firstorder/formula.ml" 227 6492 6514 "plugins/firstorder/formula.ml" 227 6492 6531
+type(
+  right_pattern
+)
+"plugins/firstorder/formula.ml" 228 6532 6542 "plugins/firstorder/formula.ml" 228 6532 6543
+type(
+  Names.inductive
+)
+"plugins/firstorder/formula.ml" 228 6532 6544 "plugins/firstorder/formula.ml" 228 6532 6545
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 228 6532 6546 "plugins/firstorder/formula.ml" 228 6532 6547
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 228 6532 6538 "plugins/firstorder/formula.ml" 228 6532 6548
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 228 6532 6559 "plugins/firstorder/formula.ml" 228 6532 6563
+type(
+  right_pattern
+)
+"plugins/firstorder/formula.ml" 229 6564 6573 "plugins/firstorder/formula.ml" 229 6564 6574
+type(
+  Names.inductive
+)
+"plugins/firstorder/formula.ml" 229 6564 6575 "plugins/firstorder/formula.ml" 229 6564 6576
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 229 6564 6577 "plugins/firstorder/formula.ml" 229 6564 6578
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 229 6564 6570 "plugins/firstorder/formula.ml" 229 6564 6579
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 229 6564 6591 "plugins/firstorder/formula.ml" 229 6564 6594
+type(
+  right_pattern
+)
+"plugins/firstorder/formula.ml" 230 6595 6609 "plugins/firstorder/formula.ml" 230 6595 6610
+type(
+  Names.inductive
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 231 6617 6625 "plugins/firstorder/formula.ml" 232 6674 6697
+)
+"plugins/firstorder/formula.ml" 230 6595 6611 "plugins/firstorder/formula.ml" 230 6595 6612
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/firstorder/formula.ml" 231 6617 6625 "plugins/firstorder/formula.ml" 232 6674 6697
+)
+"plugins/firstorder/formula.ml" 230 6595 6601 "plugins/firstorder/formula.ml" 230 6595 6613
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 231 6617 6630 "plugins/firstorder/formula.ml" 231 6617 6631
+type(
+  Names.name
+)
+"plugins/firstorder/formula.ml" 231 6617 6632 "plugins/firstorder/formula.ml" 231 6617 6633
+type(
+  Term.constr option
+)
+"plugins/firstorder/formula.ml" 231 6617 6634 "plugins/firstorder/formula.ml" 231 6617 6635
+type(
+  Term.types
+)
+"plugins/firstorder/formula.ml" 231 6617 6629 "plugins/firstorder/formula.ml" 231 6617 6636
+type(
+  Term.rel_declaration
+)
+"plugins/firstorder/formula.ml" 231 6617 6637 "plugins/firstorder/formula.ml" 231 6617 6646
+type(
+  Term.rel_context -> Term.rel_declaration
+)
+ident(
+  ext_ref Util.list_last
+)
+"plugins/firstorder/formula.ml" 231 6617 6648 "plugins/firstorder/formula.ml" 231 6617 6656
+type(
+  int ->
+  Names.inductive ->
+  Term.constr list -> Proof_type.goal Tacmach.sigma -> Term.rel_context array
+)
+ident(
+  int_ref ind_hyps "plugins/firstorder/formula.ml" 55 1564 1568 "plugins/firstorder/formula.ml" 55 1564 1576
+)
+"plugins/firstorder/formula.ml" 231 6617 6657 "plugins/firstorder/formula.ml" 231 6617 6658
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 231 6617 6659 "plugins/firstorder/formula.ml" 231 6617 6660
+type(
+  Names.inductive
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 230 6595 6609 "plugins/firstorder/formula.ml" 230 6595 6610
+)
+"plugins/firstorder/formula.ml" 231 6617 6661 "plugins/firstorder/formula.ml" 231 6617 6662
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 230 6595 6611 "plugins/firstorder/formula.ml" 230 6595 6612
+)
+"plugins/firstorder/formula.ml" 231 6617 6663 "plugins/firstorder/formula.ml" 231 6617 6665
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 213 6136 6167 "plugins/firstorder/formula.ml" 213 6136 6169
+)
+"plugins/firstorder/formula.ml" 231 6617 6647 "plugins/firstorder/formula.ml" 231 6617 6666
+call(
+  stack
+)
+type(
+  Term.rel_context array
+)
+"plugins/firstorder/formula.ml" 231 6617 6668 "plugins/firstorder/formula.ml" 231 6617 6669
+type(
+  int
+)
+"plugins/firstorder/formula.ml" 231 6617 6647 "plugins/firstorder/formula.ml" 231 6617 6670
+type(
+  Term.rel_context
+)
+"plugins/firstorder/formula.ml" 231 6617 6637 "plugins/firstorder/formula.ml" 231 6617 6670
+call(
+  stack
+)
+type(
+  Term.rel_declaration
+)
+"plugins/firstorder/formula.ml" 232 6674 6685 "plugins/firstorder/formula.ml" 232 6674 6686
+type(
+  Term.metavariable
+)
+ident(
+  int_ref m "plugins/firstorder/formula.ml" 216 6222 6232 "plugins/firstorder/formula.ml" 216 6222 6233
+)
+"plugins/firstorder/formula.ml" 232 6674 6687 "plugins/firstorder/formula.ml" 232 6674 6688
+type(
+  Term.types
+)
+ident(
+  int_ref d "plugins/firstorder/formula.ml" 231 6617 6634 "plugins/firstorder/formula.ml" 231 6617 6635
+)
+"plugins/firstorder/formula.ml" 232 6674 6689 "plugins/firstorder/formula.ml" 232 6674 6696
+type(
+  bool
+)
+ident(
+  int_ref trivial "plugins/firstorder/formula.ml" 217 6262 6272 "plugins/firstorder/formula.ml" 217 6262 6279
+)
+"plugins/firstorder/formula.ml" 232 6674 6677 "plugins/firstorder/formula.ml" 232 6674 6697
+type(
+  right_pattern
+)
+"plugins/firstorder/formula.ml" 231 6617 6625 "plugins/firstorder/formula.ml" 232 6674 6697
+type(
+  right_pattern
+)
+"plugins/firstorder/formula.ml" 233 6698 6712 "plugins/firstorder/formula.ml" 233 6698 6713
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 233 6698 6714 "plugins/firstorder/formula.ml" 233 6698 6715
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/formula.ml" 233 6698 6720 "plugins/firstorder/formula.ml" 233 6698 6727
+)
+"plugins/firstorder/formula.ml" 233 6698 6704 "plugins/firstorder/formula.ml" 233 6698 6716
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 233 6698 6720 "plugins/firstorder/formula.ml" 233 6698 6727
+type(
+  right_pattern
+)
+"plugins/firstorder/formula.ml" 234 6728 6741 "plugins/firstorder/formula.ml" 234 6728 6742
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/formula.ml" 234 6728 6749 "plugins/firstorder/formula.ml" 234 6728 6755
+)
+"plugins/firstorder/formula.ml" 234 6728 6743 "plugins/firstorder/formula.ml" 234 6728 6744
+type(
+  Term.constr
+)
+ident(
+  def b "plugins/firstorder/formula.ml" 234 6728 6749 "plugins/firstorder/formula.ml" 234 6728 6755
+)
+"plugins/firstorder/formula.ml" 234 6728 6734 "plugins/firstorder/formula.ml" 234 6728 6745
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 234 6728 6749 "plugins/firstorder/formula.ml" 234 6728 6755
+type(
+  right_pattern
+)
+"plugins/firstorder/formula.ml" 225 6422 6424 "plugins/firstorder/formula.ml" 234 6728 6755
+type(
+  right_pattern
+)
+"plugins/firstorder/formula.ml" 235 6759 6767 "plugins/firstorder/formula.ml" 235 6759 6770
+type(
+  right_pattern
+)
+ident(
+  int_ref pat "plugins/firstorder/formula.ml" 224 6406 6417 "plugins/firstorder/formula.ml" 224 6406 6420
+)
+"plugins/firstorder/formula.ml" 235 6759 6761 "plugins/firstorder/formula.ml" 235 6759 6770
+type(
+  (left_pattern, right_pattern) sum
+)
+"plugins/firstorder/formula.ml" 224 6406 6413 "plugins/firstorder/formula.ml" 235 6759 6770
+type(
+  (left_pattern, right_pattern) sum
+)
+"plugins/firstorder/formula.ml" 236 6771 6776 "plugins/firstorder/formula.ml" 236 6771 6777
+type(
+  side
+)
+"plugins/firstorder/formula.ml" 237 6781 6792 "plugins/firstorder/formula.ml" 237 6781 6795
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 238 6797 6805 "plugins/firstorder/formula.ml" 238 6797 6820
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> kind_of_formula
+)
+ident(
+  int_ref kind_of_formula "plugins/firstorder/formula.ml" 81 2405 2413 "plugins/firstorder/formula.ml" 81 2405 2428
+)
+"plugins/firstorder/formula.ml" 238 6797 6821 "plugins/firstorder/formula.ml" 238 6797 6823
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 213 6136 6167 "plugins/firstorder/formula.ml" 213 6136 6169
+)
+"plugins/firstorder/formula.ml" 238 6797 6824 "plugins/firstorder/formula.ml" 238 6797 6827
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/firstorder/formula.ml" 213 6136 6163 "plugins/firstorder/formula.ml" 213 6136 6166
+)
+"plugins/firstorder/formula.ml" 238 6797 6805 "plugins/firstorder/formula.ml" 238 6797 6827
+call(
+  stack
+)
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 239 6833 6845 "plugins/firstorder/formula.ml" 239 6833 6846
+type(
+  Names.inductive
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 239 6833 6861 "plugins/firstorder/formula.ml" 239 6833 6867
+)
+"plugins/firstorder/formula.ml" 239 6833 6847 "plugins/firstorder/formula.ml" 239 6833 6848
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 239 6833 6839 "plugins/firstorder/formula.ml" 239 6833 6849
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 239 6833 6861 "plugins/firstorder/formula.ml" 239 6833 6867
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 240 6868 6879 "plugins/firstorder/formula.ml" 240 6868 6880
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/formula.ml" 240 6868 6891 "plugins/firstorder/formula.ml" 240 6868 6908
+)
+"plugins/firstorder/formula.ml" 240 6868 6874 "plugins/firstorder/formula.ml" 240 6868 6880
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 240 6868 6891 "plugins/firstorder/formula.ml" 240 6868 6896
+type(
+  exn -> left_pattern
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/firstorder/formula.ml" 240 6868 6906 "plugins/firstorder/formula.ml" 240 6868 6907
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/formula.ml" 240 6868 6879 "plugins/firstorder/formula.ml" 240 6868 6880
+)
+"plugins/firstorder/formula.ml" 240 6868 6897 "plugins/firstorder/formula.ml" 240 6868 6908
+type(
+  exn
+)
+"plugins/firstorder/formula.ml" 240 6868 6891 "plugins/firstorder/formula.ml" 240 6868 6908
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 241 6909 6919 "plugins/firstorder/formula.ml" 241 6909 6920
+type(
+  Names.inductive
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 242 6937 6945 "plugins/firstorder/formula.ml" 244 7007 7026
+)
+"plugins/firstorder/formula.ml" 241 6909 6921 "plugins/firstorder/formula.ml" 241 6909 6922
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 241 6909 6923 "plugins/firstorder/formula.ml" 241 6909 6924
+type(
+  bool
+)
+ident(
+  def b "plugins/firstorder/formula.ml" 242 6937 6945 "plugins/firstorder/formula.ml" 244 7007 7026
+)
+"plugins/firstorder/formula.ml" 241 6909 6915 "plugins/firstorder/formula.ml" 241 6909 6925
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 242 6937 6948 "plugins/firstorder/formula.ml" 242 6937 6949
+type(
+  bool
+)
+ident(
+  int_ref b "plugins/firstorder/formula.ml" 241 6909 6923 "plugins/firstorder/formula.ml" 241 6909 6924
+)
+"plugins/firstorder/formula.ml" 243 6955 6962 "plugins/firstorder/formula.ml" 243 6955 6967
+type(
+  Term.constr
+)
+ident(
+  def nftyp "plugins/firstorder/formula.ml" 243 6955 6985 "plugins/firstorder/formula.ml" 243 6955 7006
+)
+"plugins/firstorder/formula.ml" 243 6955 6968 "plugins/firstorder/formula.ml" 243 6955 6977
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref normalize "plugins/firstorder/formula.ml" 214 6179 6185 "plugins/firstorder/formula.ml" 214 6179 6194
+)
+"plugins/firstorder/formula.ml" 243 6955 6978 "plugins/firstorder/formula.ml" 243 6955 6981
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/firstorder/formula.ml" 213 6136 6163 "plugins/firstorder/formula.ml" 213 6136 6166
+)
+"plugins/firstorder/formula.ml" 243 6955 6968 "plugins/firstorder/formula.ml" 243 6955 6981
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 243 6955 6985 "plugins/firstorder/formula.ml" 243 6955 6990
+type(
+  exn -> left_pattern
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/firstorder/formula.ml" 243 6955 7000 "plugins/firstorder/formula.ml" 243 6955 7005
+type(
+  Term.constr
+)
+ident(
+  int_ref nftyp "plugins/firstorder/formula.ml" 243 6955 6962 "plugins/firstorder/formula.ml" 243 6955 6967
+)
+"plugins/firstorder/formula.ml" 243 6955 6991 "plugins/firstorder/formula.ml" 243 6955 7006
+type(
+  exn
+)
+"plugins/firstorder/formula.ml" 243 6955 6985 "plugins/firstorder/formula.ml" 243 6955 7006
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 243 6955 6958 "plugins/firstorder/formula.ml" 243 6955 7006
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 244 7007 7025 "plugins/firstorder/formula.ml" 244 7007 7026
+type(
+  Names.inductive
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 241 6909 6919 "plugins/firstorder/formula.ml" 241 6909 6920
+)
+"plugins/firstorder/formula.ml" 244 7007 7020 "plugins/firstorder/formula.ml" 244 7007 7026
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 242 6937 6945 "plugins/firstorder/formula.ml" 244 7007 7026
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 245 7027 7036 "plugins/firstorder/formula.ml" 245 7027 7037
+type(
+  Names.inductive
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 246 7055 7063 "plugins/firstorder/formula.ml" 248 7125 7143
+)
+"plugins/firstorder/formula.ml" 245 7027 7038 "plugins/firstorder/formula.ml" 245 7027 7039
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 245 7027 7040 "plugins/firstorder/formula.ml" 245 7027 7041
+type(
+  bool
+)
+ident(
+  def b "plugins/firstorder/formula.ml" 246 7055 7063 "plugins/firstorder/formula.ml" 248 7125 7143
+)
+"plugins/firstorder/formula.ml" 245 7027 7033 "plugins/firstorder/formula.ml" 245 7027 7042
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 246 7055 7066 "plugins/firstorder/formula.ml" 246 7055 7067
+type(
+  bool
+)
+ident(
+  int_ref b "plugins/firstorder/formula.ml" 245 7027 7040 "plugins/firstorder/formula.ml" 245 7027 7041
+)
+"plugins/firstorder/formula.ml" 247 7073 7080 "plugins/firstorder/formula.ml" 247 7073 7085
+type(
+  Term.constr
+)
+ident(
+  def nftyp "plugins/firstorder/formula.ml" 247 7073 7103 "plugins/firstorder/formula.ml" 247 7073 7124
+)
+"plugins/firstorder/formula.ml" 247 7073 7086 "plugins/firstorder/formula.ml" 247 7073 7095
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref normalize "plugins/firstorder/formula.ml" 214 6179 6185 "plugins/firstorder/formula.ml" 214 6179 6194
+)
+"plugins/firstorder/formula.ml" 247 7073 7096 "plugins/firstorder/formula.ml" 247 7073 7099
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/firstorder/formula.ml" 213 6136 6163 "plugins/firstorder/formula.ml" 213 6136 6166
+)
+"plugins/firstorder/formula.ml" 247 7073 7086 "plugins/firstorder/formula.ml" 247 7073 7099
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 247 7073 7103 "plugins/firstorder/formula.ml" 247 7073 7108
+type(
+  exn -> left_pattern
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/firstorder/formula.ml" 247 7073 7118 "plugins/firstorder/formula.ml" 247 7073 7123
+type(
+  Term.constr
+)
+ident(
+  int_ref nftyp "plugins/firstorder/formula.ml" 247 7073 7080 "plugins/firstorder/formula.ml" 247 7073 7085
+)
+"plugins/firstorder/formula.ml" 247 7073 7109 "plugins/firstorder/formula.ml" 247 7073 7124
+type(
+  exn
+)
+"plugins/firstorder/formula.ml" 247 7073 7103 "plugins/firstorder/formula.ml" 247 7073 7124
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 247 7073 7076 "plugins/firstorder/formula.ml" 247 7073 7124
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 248 7125 7142 "plugins/firstorder/formula.ml" 248 7125 7143
+type(
+  Names.inductive
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 245 7027 7036 "plugins/firstorder/formula.ml" 245 7027 7037
+)
+"plugins/firstorder/formula.ml" 248 7125 7138 "plugins/firstorder/formula.ml" 248 7125 7143
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 246 7055 7063 "plugins/firstorder/formula.ml" 248 7125 7143
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 249 7144 7158 "plugins/firstorder/formula.ml" 249 7144 7161
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/formula.ml" 249 7144 7169 "plugins/firstorder/formula.ml" 249 7144 7180
+)
+"plugins/firstorder/formula.ml" 249 7144 7162 "plugins/firstorder/formula.ml" 249 7144 7163
+type(
+  Term.constr list
+)
+"plugins/firstorder/formula.ml" 249 7144 7150 "plugins/firstorder/formula.ml" 249 7144 7164
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 249 7144 7177 "plugins/firstorder/formula.ml" 249 7144 7180
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/formula.ml" 249 7144 7158 "plugins/firstorder/formula.ml" 249 7144 7161
+)
+"plugins/firstorder/formula.ml" 249 7144 7169 "plugins/firstorder/formula.ml" 249 7144 7180
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 250 7181 7195 "plugins/firstorder/formula.ml" 250 7181 7196
+type(
+  Term.constr
+)
+ident(
+  def d "plugins/firstorder/formula.ml" 251 7203 7211 "plugins/firstorder/formula.ml" 251 7203 7231
+)
+"plugins/firstorder/formula.ml" 250 7181 7197 "plugins/firstorder/formula.ml" 250 7181 7198
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 250 7181 7187 "plugins/firstorder/formula.ml" 250 7181 7199
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 251 7203 7219 "plugins/firstorder/formula.ml" 251 7203 7220
+type(
+  Term.metavariable
+)
+ident(
+  int_ref m "plugins/firstorder/formula.ml" 216 6222 6232 "plugins/firstorder/formula.ml" 216 6222 6233
+)
+"plugins/firstorder/formula.ml" 251 7203 7221 "plugins/firstorder/formula.ml" 251 7203 7222
+type(
+  Term.constr
+)
+ident(
+  int_ref d "plugins/firstorder/formula.ml" 250 7181 7195 "plugins/firstorder/formula.ml" 250 7181 7196
+)
+"plugins/firstorder/formula.ml" 251 7203 7223 "plugins/firstorder/formula.ml" 251 7203 7230
+type(
+  bool
+)
+ident(
+  int_ref trivial "plugins/firstorder/formula.ml" 217 6262 6272 "plugins/firstorder/formula.ml" 217 6262 6279
+)
+"plugins/firstorder/formula.ml" 251 7203 7211 "plugins/firstorder/formula.ml" 251 7203 7231
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 252 7232 7245 "plugins/firstorder/formula.ml" 252 7232 7246
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/formula.ml" 253 7253 7261 "plugins/firstorder/formula.ml" 262 7542 7577
+)
+"plugins/firstorder/formula.ml" 252 7232 7247 "plugins/firstorder/formula.ml" 252 7232 7248
+type(
+  Term.constr
+)
+ident(
+  def b "plugins/firstorder/formula.ml" 253 7253 7261 "plugins/firstorder/formula.ml" 262 7542 7577
+)
+"plugins/firstorder/formula.ml" 252 7232 7238 "plugins/firstorder/formula.ml" 252 7232 7249
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 253 7253 7265 "plugins/firstorder/formula.ml" 253 7253 7268
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 253 7253 7269 "plugins/firstorder/formula.ml" 253 7253 7278
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref normalize "plugins/firstorder/formula.ml" 214 6179 6185 "plugins/firstorder/formula.ml" 214 6179 6194
+)
+"plugins/firstorder/formula.ml" 253 7253 7279 "plugins/firstorder/formula.ml" 253 7253 7280
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/formula.ml" 252 7232 7245 "plugins/firstorder/formula.ml" 252 7232 7246
+)
+"plugins/firstorder/formula.ml" 253 7253 7269 "plugins/firstorder/formula.ml" 253 7253 7280
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 254 7284 7291 "plugins/firstorder/formula.ml" 254 7284 7294
+type(
+  Term.constr
+)
+ident(
+  int_ref nfa "plugins/firstorder/formula.ml" 253 7253 7265 "plugins/firstorder/formula.ml" 253 7253 7268
+)
+"plugins/firstorder/formula.ml" 255 7296 7309 "plugins/firstorder/formula.ml" 255 7296 7324
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> kind_of_formula
+)
+ident(
+  int_ref kind_of_formula "plugins/firstorder/formula.ml" 81 2405 2413 "plugins/firstorder/formula.ml" 81 2405 2428
+)
+"plugins/firstorder/formula.ml" 255 7296 7325 "plugins/firstorder/formula.ml" 255 7296 7327
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/formula.ml" 213 6136 6167 "plugins/firstorder/formula.ml" 213 6136 6169
+)
+"plugins/firstorder/formula.ml" 255 7296 7328 "plugins/firstorder/formula.ml" 255 7296 7329
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/formula.ml" 252 7232 7245 "plugins/firstorder/formula.ml" 252 7232 7246
+)
+"plugins/firstorder/formula.ml" 255 7296 7309 "plugins/firstorder/formula.ml" 255 7296 7329
+call(
+  stack
+)
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 256 7335 7345 "plugins/firstorder/formula.ml" 256 7335 7346
+type(
+  Names.inductive
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 256 7335 7352 "plugins/firstorder/formula.ml" 256 7335 7364
+)
+"plugins/firstorder/formula.ml" 256 7335 7347 "plugins/firstorder/formula.ml" 256 7335 7348
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/firstorder/formula.ml" 256 7335 7352 "plugins/firstorder/formula.ml" 256 7335 7364
+)
+"plugins/firstorder/formula.ml" 256 7335 7339 "plugins/firstorder/formula.ml" 256 7335 7349
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 256 7335 7360 "plugins/firstorder/formula.ml" 256 7335 7361
+type(
+  Names.inductive
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 256 7335 7345 "plugins/firstorder/formula.ml" 256 7335 7346
+)
+"plugins/firstorder/formula.ml" 256 7335 7362 "plugins/firstorder/formula.ml" 256 7335 7363
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 256 7335 7347 "plugins/firstorder/formula.ml" 256 7335 7348
+)
+"plugins/firstorder/formula.ml" 256 7335 7352 "plugins/firstorder/formula.ml" 256 7335 7364
+type(
+  left_arrow_pattern
+)
+"plugins/firstorder/formula.ml" 257 7365 7381 "plugins/firstorder/formula.ml" 257 7365 7382
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/formula.ml" 257 7365 7389 "plugins/firstorder/formula.ml" 257 7365 7395
+)
+"plugins/firstorder/formula.ml" 257 7365 7376 "plugins/firstorder/formula.ml" 257 7365 7382
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 257 7365 7389 "plugins/firstorder/formula.ml" 257 7365 7395
+type(
+  left_arrow_pattern
+)
+"plugins/firstorder/formula.ml" 258 7396 7411 "plugins/firstorder/formula.ml" 258 7396 7412
+type(
+  Names.inductive
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 258 7396 7420 "plugins/firstorder/formula.ml" 258 7396 7430
+)
+"plugins/firstorder/formula.ml" 258 7396 7413 "plugins/firstorder/formula.ml" 258 7396 7414
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/firstorder/formula.ml" 258 7396 7420 "plugins/firstorder/formula.ml" 258 7396 7430
+)
+"plugins/firstorder/formula.ml" 258 7396 7415 "plugins/firstorder/formula.ml" 258 7396 7416
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 258 7396 7407 "plugins/firstorder/formula.ml" 258 7396 7417
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 258 7396 7426 "plugins/firstorder/formula.ml" 258 7396 7427
+type(
+  Names.inductive
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 258 7396 7411 "plugins/firstorder/formula.ml" 258 7396 7412
+)
+"plugins/firstorder/formula.ml" 258 7396 7428 "plugins/firstorder/formula.ml" 258 7396 7429
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 258 7396 7413 "plugins/firstorder/formula.ml" 258 7396 7414
+)
+"plugins/firstorder/formula.ml" 258 7396 7420 "plugins/firstorder/formula.ml" 258 7396 7430
+type(
+  left_arrow_pattern
+)
+"plugins/firstorder/formula.ml" 259 7431 7445 "plugins/firstorder/formula.ml" 259 7431 7446
+type(
+  Names.inductive
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 259 7431 7455 "plugins/firstorder/formula.ml" 259 7431 7464
+)
+"plugins/firstorder/formula.ml" 259 7431 7447 "plugins/firstorder/formula.ml" 259 7431 7448
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/firstorder/formula.ml" 259 7431 7455 "plugins/firstorder/formula.ml" 259 7431 7464
+)
+"plugins/firstorder/formula.ml" 259 7431 7449 "plugins/firstorder/formula.ml" 259 7431 7450
+type(
+  bool
+)
+"plugins/firstorder/formula.ml" 259 7431 7442 "plugins/firstorder/formula.ml" 259 7431 7451
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 259 7431 7460 "plugins/firstorder/formula.ml" 259 7431 7461
+type(
+  Names.inductive
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 259 7431 7445 "plugins/firstorder/formula.ml" 259 7431 7446
+)
+"plugins/firstorder/formula.ml" 259 7431 7462 "plugins/firstorder/formula.ml" 259 7431 7463
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 259 7431 7447 "plugins/firstorder/formula.ml" 259 7431 7448
+)
+"plugins/firstorder/formula.ml" 259 7431 7455 "plugins/firstorder/formula.ml" 259 7431 7464
+type(
+  left_arrow_pattern
+)
+"plugins/firstorder/formula.ml" 260 7465 7482 "plugins/firstorder/formula.ml" 260 7465 7483
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/formula.ml" 260 7465 7489 "plugins/firstorder/formula.ml" 260 7465 7503
+)
+"plugins/firstorder/formula.ml" 260 7465 7484 "plugins/firstorder/formula.ml" 260 7465 7485
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/firstorder/formula.ml" 260 7465 7489 "plugins/firstorder/formula.ml" 260 7465 7503
+)
+"plugins/firstorder/formula.ml" 260 7465 7476 "plugins/firstorder/formula.ml" 260 7465 7486
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 260 7465 7497 "plugins/firstorder/formula.ml" 260 7465 7498
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/formula.ml" 260 7465 7482 "plugins/firstorder/formula.ml" 260 7465 7483
+)
+"plugins/firstorder/formula.ml" 260 7465 7499 "plugins/firstorder/formula.ml" 260 7465 7500
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/firstorder/formula.ml" 260 7465 7484 "plugins/firstorder/formula.ml" 260 7465 7485
+)
+"plugins/firstorder/formula.ml" 260 7465 7501 "plugins/firstorder/formula.ml" 260 7465 7502
+type(
+  Term.constr
+)
+ident(
+  int_ref b "plugins/firstorder/formula.ml" 252 7232 7247 "plugins/firstorder/formula.ml" 252 7232 7248
+)
+"plugins/firstorder/formula.ml" 260 7465 7489 "plugins/firstorder/formula.ml" 260 7465 7503
+type(
+  left_arrow_pattern
+)
+"plugins/firstorder/formula.ml" 261 7504 7522 "plugins/firstorder/formula.ml" 261 7504 7523
+type(
+  Names.inductive
+)
+ident(
+  def i "plugins/firstorder/formula.ml" 261 7504 7528 "plugins/firstorder/formula.ml" 261 7504 7541
+)
+"plugins/firstorder/formula.ml" 261 7504 7524 "plugins/firstorder/formula.ml" 261 7504 7525
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/firstorder/formula.ml" 261 7504 7528 "plugins/firstorder/formula.ml" 261 7504 7541
+)
+"plugins/firstorder/formula.ml" 261 7504 7515 "plugins/firstorder/formula.ml" 261 7504 7526
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 261 7504 7537 "plugins/firstorder/formula.ml" 261 7504 7538
+type(
+  Names.inductive
+)
+ident(
+  int_ref i "plugins/firstorder/formula.ml" 261 7504 7522 "plugins/firstorder/formula.ml" 261 7504 7523
+)
+"plugins/firstorder/formula.ml" 261 7504 7539 "plugins/firstorder/formula.ml" 261 7504 7540
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/formula.ml" 261 7504 7524 "plugins/firstorder/formula.ml" 261 7504 7525
+)
+"plugins/firstorder/formula.ml" 261 7504 7528 "plugins/firstorder/formula.ml" 261 7504 7541
+type(
+  left_arrow_pattern
+)
+"plugins/firstorder/formula.ml" 262 7542 7560 "plugins/firstorder/formula.ml" 262 7542 7561
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 262 7542 7562 "plugins/firstorder/formula.ml" 262 7542 7563
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 262 7542 7553 "plugins/firstorder/formula.ml" 262 7542 7564
+type(
+  kind_of_formula
+)
+"plugins/firstorder/formula.ml" 262 7542 7575 "plugins/firstorder/formula.ml" 262 7542 7576
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/formula.ml" 252 7232 7245 "plugins/firstorder/formula.ml" 252 7232 7246
+)
+"plugins/firstorder/formula.ml" 262 7542 7566 "plugins/firstorder/formula.ml" 262 7542 7576
+type(
+  left_arrow_pattern
+)
+"plugins/firstorder/formula.ml" 255 7296 7303 "plugins/firstorder/formula.ml" 262 7542 7576
+type(
+  left_arrow_pattern
+)
+"plugins/firstorder/formula.ml" 254 7284 7287 "plugins/firstorder/formula.ml" 262 7542 7577
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 253 7253 7261 "plugins/firstorder/formula.ml" 262 7542 7577
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 238 6797 6799 "plugins/firstorder/formula.ml" 262 7542 7577
+type(
+  left_pattern
+)
+"plugins/firstorder/formula.ml" 263 7581 7588 "plugins/firstorder/formula.ml" 263 7581 7591
+type(
+  left_pattern
+)
+ident(
+  int_ref pat "plugins/firstorder/formula.ml" 237 6781 6792 "plugins/firstorder/formula.ml" 237 6781 6795
+)
+"plugins/firstorder/formula.ml" 263 7581 7583 "plugins/firstorder/formula.ml" 263 7581 7591
+type(
+  (left_pattern, right_pattern) sum
+)
+"plugins/firstorder/formula.ml" 237 6781 6788 "plugins/firstorder/formula.ml" 263 7581 7591
+type(
+  (left_pattern, right_pattern) sum
+)
+"plugins/firstorder/formula.ml" 222 6375 6376 "plugins/firstorder/formula.ml" 263 7581 7591
+type(
+  (left_pattern, right_pattern) sum
+)
+"plugins/firstorder/formula.ml" 265 7601 7611 "plugins/firstorder/formula.ml" 265 7601 7614
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref nam "plugins/firstorder/formula.ml" 213 6136 6159 "plugins/firstorder/formula.ml" 213 6136 6162
+)
+"plugins/firstorder/formula.ml" 266 7616 7630 "plugins/firstorder/formula.ml" 266 7616 7639
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  int_ref normalize "plugins/firstorder/formula.ml" 214 6179 6185 "plugins/firstorder/formula.ml" 214 6179 6194
+)
+"plugins/firstorder/formula.ml" 266 7616 7640 "plugins/firstorder/formula.ml" 266 7616 7643
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/firstorder/formula.ml" 213 6136 6163 "plugins/firstorder/formula.ml" 213 6136 6166
+)
+"plugins/firstorder/formula.ml" 266 7616 7630 "plugins/firstorder/formula.ml" 266 7616 7643
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/formula.ml" 267 7645 7656 "plugins/firstorder/formula.ml" 267 7645 7663
+type(
+  (left_pattern, right_pattern) sum
+)
+ident(
+  int_ref pattern "plugins/firstorder/formula.ml" 221 6356 6366 "plugins/firstorder/formula.ml" 221 6356 6373
+)
+"plugins/firstorder/formula.ml" 268 7665 7678 "plugins/firstorder/formula.ml" 268 7665 7683
+type(
+  atoms
+)
+ident(
+  int_ref atoms "plugins/firstorder/formula.ml" 217 6262 6280 "plugins/firstorder/formula.ml" 217 6262 6285
+)
+"plugins/firstorder/formula.ml" 265 7601 7607 "plugins/firstorder/formula.ml" 268 7665 7684
+type(
+  t
+)
+"plugins/firstorder/formula.ml" 265 7601 7602 "plugins/firstorder/formula.ml" 268 7665 7684
+type(
+  (t, Term.constr) sum
+)
+"plugins/firstorder/formula.ml" 221 6356 6362 "plugins/firstorder/formula.ml" 268 7665 7684
+type(
+  (t, Term.constr) sum
+)
+"plugins/firstorder/formula.ml" 217 6262 6268 "plugins/firstorder/formula.ml" 268 7665 7684
+type(
+  (t, Term.constr) sum
+)
+"plugins/firstorder/formula.ml" 216 6222 6228 "plugins/firstorder/formula.ml" 268 7665 7684
+type(
+  (t, Term.constr) sum
+)
+"plugins/firstorder/formula.ml" 269 7685 7702 "plugins/firstorder/formula.ml" 269 7685 7703
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/formula.ml" 269 7685 7706 "plugins/firstorder/formula.ml" 269 7685 7713
+)
+"plugins/firstorder/formula.ml" 269 7685 7694 "plugins/firstorder/formula.ml" 269 7685 7703
+type(
+  exn
+)
+"plugins/firstorder/formula.ml" 269 7685 7712 "plugins/firstorder/formula.ml" 269 7685 7713
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/formula.ml" 269 7685 7702 "plugins/firstorder/formula.ml" 269 7685 7703
+)
+"plugins/firstorder/formula.ml" 269 7685 7706 "plugins/firstorder/formula.ml" 269 7685 7713
+type(
+  (t, Term.constr) sum
+)
+"plugins/firstorder/formula.ml" 215 6214 6218 "plugins/firstorder/formula.ml" 269 7685 7713
+type(
+  (t, Term.constr) sum
+)
+"plugins/firstorder/formula.ml" 214 6179 6181 "plugins/firstorder/formula.ml" 269 7685 7713
+type(
+  (t, Term.constr) sum
+)

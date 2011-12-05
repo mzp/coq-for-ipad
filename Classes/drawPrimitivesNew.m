@@ -536,12 +536,16 @@ void my_mutex_unlock(pthread_mutex_t *p)
 
 void* PosixThreadMainRoutine(void* data)
 {
-	const char *init = "ocamlinit";
 	memset(stdoutbuf, ' ', sizeof stdoutbuf);
-	const char *ocaml = fullp(@"ocaml-3.12.0/bin/ocaml");
-	const char *ocamlinit = fullp(@"ocaml-3.12.0/ocamlinit");
-	const char *ocamlinclude = fullp(@"ocaml-3.12.0");
-	if (access(init,R_OK))
+	const char *coqtop = fullp(@"coq-8.3pl2/coqtop.byte");
+    const char *ocamlinclude = fullp(@"ocaml-3.12.0");
+	const char *coqlib = fullp(@"coq-8.3pl2");
+    const char *argv[] = {"ocamlun", coqtop, "-I", ocamlinclude,"-coqlib", coqlib,NULL};
+    ocaml_main(6,argv);
+    free((char*)ocamlinclude);
+    free((char*)coqtop);
+    free((char*)coqlib);
+/*	if (access(init,R_OK))
 	{
 		init = ocamlinit;
 		if (access(init,R_OK))
@@ -562,7 +566,7 @@ void* PosixThreadMainRoutine(void* data)
 	}
 	free((char *)ocaml);
 	free((char *)ocamlinit);
-	free((char *)ocamlinclude);
+	free((char *)ocamlinclude);*/
 	return NULL;
 }
 

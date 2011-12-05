@@ -1,0 +1,90 @@
+"plugins/rtauto/rtauto_plugin_mod.ml" 1 0 6 "plugins/rtauto/rtauto_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 1 0 28 "plugins/rtauto/rtauto_plugin_mod.ml" 1 0 42
+type(
+  string
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 1 0 6 "plugins/rtauto/rtauto_plugin_mod.ml" 1 0 42
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 2 44 50 "plugins/rtauto/rtauto_plugin_mod.ml" 2 44 72
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 2 44 72 "plugins/rtauto/rtauto_plugin_mod.ml" 2 44 84
+type(
+  string
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 2 44 50 "plugins/rtauto/rtauto_plugin_mod.ml" 2 44 84
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 3 86 92 "plugins/rtauto/rtauto_plugin_mod.ml" 3 86 114
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 3 86 114 "plugins/rtauto/rtauto_plugin_mod.ml" 3 86 124
+type(
+  string
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 3 86 92 "plugins/rtauto/rtauto_plugin_mod.ml" 3 86 124
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 4 126 132 "plugins/rtauto/rtauto_plugin_mod.ml" 4 126 154
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 4 126 154 "plugins/rtauto/rtauto_plugin_mod.ml" 4 126 173
+type(
+  string
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 4 126 132 "plugins/rtauto/rtauto_plugin_mod.ml" 4 126 173
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 5 175 181 "plugins/rtauto/rtauto_plugin_mod.ml" 5 175 203
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 5 175 203 "plugins/rtauto/rtauto_plugin_mod.ml" 5 175 218
+type(
+  string
+)
+"plugins/rtauto/rtauto_plugin_mod.ml" 5 175 181 "plugins/rtauto/rtauto_plugin_mod.ml" 5 175 218
+call(
+  stack
+)
+type(
+  unit
+)

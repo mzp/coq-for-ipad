@@ -1,0 +1,54 @@
+"plugins/syntax/nat_syntax_plugin_mod.ml" 1 0 6 "plugins/syntax/nat_syntax_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/syntax/nat_syntax_plugin_mod.ml" 1 0 28 "plugins/syntax/nat_syntax_plugin_mod.ml" 1 0 40
+type(
+  string
+)
+"plugins/syntax/nat_syntax_plugin_mod.ml" 1 0 6 "plugins/syntax/nat_syntax_plugin_mod.ml" 1 0 40
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/syntax/nat_syntax_plugin_mod.ml" 2 42 48 "plugins/syntax/nat_syntax_plugin_mod.ml" 2 42 70
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/syntax/nat_syntax_plugin_mod.ml" 2 42 70 "plugins/syntax/nat_syntax_plugin_mod.ml" 2 42 93
+type(
+  string
+)
+"plugins/syntax/nat_syntax_plugin_mod.ml" 2 42 48 "plugins/syntax/nat_syntax_plugin_mod.ml" 2 42 93
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/syntax/nat_syntax_plugin_mod.ml" 3 95 101 "plugins/syntax/nat_syntax_plugin_mod.ml" 3 95 123
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/syntax/nat_syntax_plugin_mod.ml" 3 95 123 "plugins/syntax/nat_syntax_plugin_mod.ml" 3 95 142
+type(
+  string
+)
+"plugins/syntax/nat_syntax_plugin_mod.ml" 3 95 101 "plugins/syntax/nat_syntax_plugin_mod.ml" 3 95 142
+call(
+  stack
+)
+type(
+  unit
+)

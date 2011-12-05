@@ -1,0 +1,5584 @@
+"plugins/dp/dp_why.ml" 11 176 180 "plugins/dp/dp_why.ml" 11 176 186
+type(
+  (string, proof) Hashtbl.t
+)
+ident(
+  def proofs "plugins/dp/dp_why.ml" 12 207 207 --
+)
+"plugins/dp/dp_why.ml" 11 176 189 "plugins/dp/dp_why.ml" 11 176 203
+type(
+  int -> (string, proof) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"plugins/dp/dp_why.ml" 11 176 204 "plugins/dp/dp_why.ml" 11 176 206
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 11 176 189 "plugins/dp/dp_why.ml" 11 176 206
+call(
+  stack
+)
+type(
+  (string, proof) Hashtbl.t
+)
+"plugins/dp/dp_why.ml" 12 207 211 "plugins/dp/dp_why.ml" 12 207 221
+type(
+  unit -> string
+)
+ident(
+  def proof_name "plugins/dp/dp_why.ml" 15 294 294 --
+)
+"plugins/dp/dp_why.ml" 13 224 230 "plugins/dp/dp_why.ml" 13 224 231
+type(
+  int ref
+)
+"plugins/dp/dp_why.ml" 13 224 234 "plugins/dp/dp_why.ml" 13 224 237
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/dp/dp_why.ml" 13 224 238 "plugins/dp/dp_why.ml" 13 224 239
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 13 224 234 "plugins/dp/dp_why.ml" 13 224 239
+type(
+  int ref
+)
+"plugins/dp/dp_why.ml" 13 224 247 "plugins/dp/dp_why.ml" 13 224 249
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 13 224 253 "plugins/dp/dp_why.ml" 13 224 257
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"plugins/dp/dp_why.ml" 13 224 258 "plugins/dp/dp_why.ml" 13 224 259
+type(
+  int ref
+)
+ident(
+  int_ref r "plugins/dp/dp_why.ml" 13 224 230 "plugins/dp/dp_why.ml" 13 224 231
+)
+"plugins/dp/dp_why.ml" 13 224 253 "plugins/dp/dp_why.ml" 13 224 259
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 13 224 261 "plugins/dp/dp_why.ml" 13 224 273
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 13 224 274 "plugins/dp/dp_why.ml" 13 224 275
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/dp/dp_why.ml" 13 224 276 "plugins/dp/dp_why.ml" 13 224 289
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"plugins/dp/dp_why.ml" 13 224 290 "plugins/dp/dp_why.ml" 13 224 291
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/dp/dp_why.ml" 13 224 291 "plugins/dp/dp_why.ml" 13 224 292
+type(
+  int ref
+)
+ident(
+  int_ref r "plugins/dp/dp_why.ml" 13 224 230 "plugins/dp/dp_why.ml" 13 224 231
+)
+"plugins/dp/dp_why.ml" 13 224 290 "plugins/dp/dp_why.ml" 13 224 292
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 13 224 276 "plugins/dp/dp_why.ml" 13 224 292
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 13 224 261 "plugins/dp/dp_why.ml" 13 224 292
+call(
+  tail
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 13 224 253 "plugins/dp/dp_why.ml" 13 224 292
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 13 224 243 "plugins/dp/dp_why.ml" 13 224 292
+type(
+  unit -> string
+)
+"plugins/dp/dp_why.ml" 13 224 226 "plugins/dp/dp_why.ml" 13 224 292
+type(
+  unit -> string
+)
+"plugins/dp/dp_why.ml" 15 294 298 "plugins/dp/dp_why.ml" 15 294 307
+type(
+  proof -> string
+)
+ident(
+  def add_proof "plugins/dp/dp_why.ml" 17 366 366 --
+)
+"plugins/dp/dp_why.ml" 15 294 308 "plugins/dp/dp_why.ml" 15 294 310
+type(
+  proof
+)
+ident(
+  def pr "plugins/dp/dp_why.ml" 15 294 313 "plugins/dp/dp_why.ml" 15 294 364
+)
+"plugins/dp/dp_why.ml" 15 294 317 "plugins/dp/dp_why.ml" 15 294 318
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 15 294 321 "plugins/dp/dp_why.ml" 15 294 331
+type(
+  unit -> string
+)
+ident(
+  int_ref proof_name "plugins/dp/dp_why.ml" 12 207 211 "plugins/dp/dp_why.ml" 12 207 221
+)
+"plugins/dp/dp_why.ml" 15 294 332 "plugins/dp/dp_why.ml" 15 294 334
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 15 294 321 "plugins/dp/dp_why.ml" 15 294 334
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 15 294 338 "plugins/dp/dp_why.ml" 15 294 349
+type(
+  (string, proof) Hashtbl.t -> string -> proof -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"plugins/dp/dp_why.ml" 15 294 350 "plugins/dp/dp_why.ml" 15 294 356
+type(
+  (string, proof) Hashtbl.t
+)
+ident(
+  int_ref proofs "plugins/dp/dp_why.ml" 11 176 180 "plugins/dp/dp_why.ml" 11 176 186
+)
+"plugins/dp/dp_why.ml" 15 294 357 "plugins/dp/dp_why.ml" 15 294 358
+type(
+  string
+)
+ident(
+  int_ref n "plugins/dp/dp_why.ml" 15 294 317 "plugins/dp/dp_why.ml" 15 294 318
+)
+"plugins/dp/dp_why.ml" 15 294 359 "plugins/dp/dp_why.ml" 15 294 361
+type(
+  proof
+)
+ident(
+  int_ref pr "plugins/dp/dp_why.ml" 15 294 308 "plugins/dp/dp_why.ml" 15 294 310
+)
+"plugins/dp/dp_why.ml" 15 294 338 "plugins/dp/dp_why.ml" 15 294 361
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 15 294 363 "plugins/dp/dp_why.ml" 15 294 364
+type(
+  string
+)
+ident(
+  int_ref n "plugins/dp/dp_why.ml" 15 294 317 "plugins/dp/dp_why.ml" 15 294 318
+)
+"plugins/dp/dp_why.ml" 15 294 338 "plugins/dp/dp_why.ml" 15 294 364
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 15 294 313 "plugins/dp/dp_why.ml" 15 294 364
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 17 366 370 "plugins/dp/dp_why.ml" 17 366 380
+type(
+  string -> proof
+)
+ident(
+  def find_proof "plugins/dp/dp_why.ml" 19 404 404 --
+)
+"plugins/dp/dp_why.ml" 17 366 383 "plugins/dp/dp_why.ml" 17 366 395
+type(
+  (string, proof) Hashtbl.t -> string -> proof
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"plugins/dp/dp_why.ml" 17 366 396 "plugins/dp/dp_why.ml" 17 366 402
+type(
+  (string, proof) Hashtbl.t
+)
+ident(
+  int_ref proofs "plugins/dp/dp_why.ml" 11 176 180 "plugins/dp/dp_why.ml" 11 176 186
+)
+"plugins/dp/dp_why.ml" 17 366 383 "plugins/dp/dp_why.ml" 17 366 402
+call(
+  stack
+)
+type(
+  string -> proof
+)
+"plugins/dp/dp_why.ml" 19 404 412 "plugins/dp/dp_why.ml" 19 404 422
+type(
+  ('a -> unit -> 'b) -> ('a -> 'c -> unit) -> 'a -> 'c list -> unit
+)
+ident(
+  def print_list "plugins/dp/dp_why.ml" 19 404 404 --
+)
+"plugins/dp/dp_why.ml" 19 404 423 "plugins/dp/dp_why.ml" 19 404 426
+type(
+  'a -> unit -> 'b
+)
+ident(
+  def sep "plugins/dp/dp_why.ml" 19 404 427 "plugins/dp/dp_why.ml" 22 484 549
+)
+"plugins/dp/dp_why.ml" 19 404 427 "plugins/dp/dp_why.ml" 19 404 432
+type(
+  'a -> 'c -> unit
+)
+ident(
+  def print "plugins/dp/dp_why.ml" 19 404 433 "plugins/dp/dp_why.ml" 22 484 549
+)
+"plugins/dp/dp_why.ml" 19 404 433 "plugins/dp/dp_why.ml" 19 404 436
+type(
+  'a
+)
+ident(
+  def fmt "plugins/dp/dp_why.ml" 19 404 439 "plugins/dp/dp_why.ml" 22 484 549
+)
+"plugins/dp/dp_why.ml" 20 448 452 "plugins/dp/dp_why.ml" 20 448 454
+type(
+  'c list
+)
+"plugins/dp/dp_why.ml" 20 448 458 "plugins/dp/dp_why.ml" 20 448 460
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 21 461 466 "plugins/dp/dp_why.ml" 21 461 467
+type(
+  'c
+)
+ident(
+  def x "plugins/dp/dp_why.ml" 21 461 472 "plugins/dp/dp_why.ml" 21 461 483
+)
+"plugins/dp/dp_why.ml" 21 461 465 "plugins/dp/dp_why.ml" 21 461 468
+type(
+  'c list
+)
+"plugins/dp/dp_why.ml" 21 461 472 "plugins/dp/dp_why.ml" 21 461 477
+type(
+  'a -> 'c -> unit
+)
+ident(
+  int_ref print "plugins/dp/dp_why.ml" 19 404 427 "plugins/dp/dp_why.ml" 19 404 432
+)
+"plugins/dp/dp_why.ml" 21 461 478 "plugins/dp/dp_why.ml" 21 461 481
+type(
+  'a
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 19 404 433 "plugins/dp/dp_why.ml" 19 404 436
+)
+"plugins/dp/dp_why.ml" 21 461 482 "plugins/dp/dp_why.ml" 21 461 483
+type(
+  'c
+)
+ident(
+  int_ref x "plugins/dp/dp_why.ml" 21 461 466 "plugins/dp/dp_why.ml" 21 461 467
+)
+"plugins/dp/dp_why.ml" 21 461 472 "plugins/dp/dp_why.ml" 21 461 483
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 22 484 488 "plugins/dp/dp_why.ml" 22 484 489
+type(
+  'c
+)
+ident(
+  def x "plugins/dp/dp_why.ml" 22 484 498 "plugins/dp/dp_why.ml" 22 484 549
+)
+"plugins/dp/dp_why.ml" 22 484 493 "plugins/dp/dp_why.ml" 22 484 494
+type(
+  'c list
+)
+ident(
+  def r "plugins/dp/dp_why.ml" 22 484 498 "plugins/dp/dp_why.ml" 22 484 549
+)
+"plugins/dp/dp_why.ml" 22 484 488 "plugins/dp/dp_why.ml" 22 484 494
+type(
+  'c list
+)
+"plugins/dp/dp_why.ml" 22 484 498 "plugins/dp/dp_why.ml" 22 484 503
+type(
+  'a -> 'c -> unit
+)
+ident(
+  int_ref print "plugins/dp/dp_why.ml" 19 404 427 "plugins/dp/dp_why.ml" 19 404 432
+)
+"plugins/dp/dp_why.ml" 22 484 504 "plugins/dp/dp_why.ml" 22 484 507
+type(
+  'a
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 19 404 433 "plugins/dp/dp_why.ml" 19 404 436
+)
+"plugins/dp/dp_why.ml" 22 484 508 "plugins/dp/dp_why.ml" 22 484 509
+type(
+  'c
+)
+ident(
+  int_ref x "plugins/dp/dp_why.ml" 22 484 488 "plugins/dp/dp_why.ml" 22 484 489
+)
+"plugins/dp/dp_why.ml" 22 484 498 "plugins/dp/dp_why.ml" 22 484 509
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 22 484 511 "plugins/dp/dp_why.ml" 22 484 514
+type(
+  'a -> unit -> 'b
+)
+ident(
+  int_ref sep "plugins/dp/dp_why.ml" 19 404 423 "plugins/dp/dp_why.ml" 19 404 426
+)
+"plugins/dp/dp_why.ml" 22 484 515 "plugins/dp/dp_why.ml" 22 484 518
+type(
+  'a
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 19 404 433 "plugins/dp/dp_why.ml" 19 404 436
+)
+"plugins/dp/dp_why.ml" 22 484 519 "plugins/dp/dp_why.ml" 22 484 521
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 22 484 511 "plugins/dp/dp_why.ml" 22 484 521
+call(
+  stack
+)
+type(
+  'b
+)
+"plugins/dp/dp_why.ml" 22 484 523 "plugins/dp/dp_why.ml" 22 484 533
+type(
+  ('a -> unit -> 'b) -> ('a -> 'c -> unit) -> 'a -> 'c list -> unit
+)
+ident(
+  int_ref print_list "plugins/dp/dp_why.ml" 19 404 412 "plugins/dp/dp_why.ml" 19 404 422
+)
+"plugins/dp/dp_why.ml" 22 484 534 "plugins/dp/dp_why.ml" 22 484 537
+type(
+  'a -> unit -> 'b
+)
+ident(
+  int_ref sep "plugins/dp/dp_why.ml" 19 404 423 "plugins/dp/dp_why.ml" 19 404 426
+)
+"plugins/dp/dp_why.ml" 22 484 538 "plugins/dp/dp_why.ml" 22 484 543
+type(
+  'a -> 'c -> unit
+)
+ident(
+  int_ref print "plugins/dp/dp_why.ml" 19 404 427 "plugins/dp/dp_why.ml" 19 404 432
+)
+"plugins/dp/dp_why.ml" 22 484 544 "plugins/dp/dp_why.ml" 22 484 547
+type(
+  'a
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 19 404 433 "plugins/dp/dp_why.ml" 19 404 436
+)
+"plugins/dp/dp_why.ml" 22 484 548 "plugins/dp/dp_why.ml" 22 484 549
+type(
+  'c list
+)
+ident(
+  int_ref r "plugins/dp/dp_why.ml" 22 484 493 "plugins/dp/dp_why.ml" 22 484 494
+)
+"plugins/dp/dp_why.ml" 22 484 523 "plugins/dp/dp_why.ml" 22 484 549
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 22 484 511 "plugins/dp/dp_why.ml" 22 484 549
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 22 484 498 "plugins/dp/dp_why.ml" 22 484 549
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 19 404 439 "plugins/dp/dp_why.ml" 22 484 549
+type(
+  'c list -> unit
+)
+"plugins/dp/dp_why.ml" 24 551 555 "plugins/dp/dp_why.ml" 24 551 560
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  def space "plugins/dp/dp_why.ml" 25 587 587 --
+)
+"plugins/dp/dp_why.ml" 24 551 561 "plugins/dp/dp_why.ml" 24 551 564
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_why.ml" 24 551 565 "plugins/dp/dp_why.ml" 24 551 586
+)
+"plugins/dp/dp_why.ml" 24 551 565 "plugins/dp/dp_why.ml" 24 551 567
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 24 551 570 "plugins/dp/dp_why.ml" 24 551 577
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 24 551 578 "plugins/dp/dp_why.ml" 24 551 581
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 24 551 561 "plugins/dp/dp_why.ml" 24 551 564
+)
+"plugins/dp/dp_why.ml" 24 551 582 "plugins/dp/dp_why.ml" 24 551 586
+type(
+  (unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 24 551 570 "plugins/dp/dp_why.ml" 24 551 586
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 25 587 591 "plugins/dp/dp_why.ml" 25 587 596
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  def comma "plugins/dp/dp_why.ml" 27 625 625 --
+)
+"plugins/dp/dp_why.ml" 25 587 597 "plugins/dp/dp_why.ml" 25 587 600
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_why.ml" 25 587 601 "plugins/dp/dp_why.ml" 25 587 623
+)
+"plugins/dp/dp_why.ml" 25 587 601 "plugins/dp/dp_why.ml" 25 587 603
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 25 587 606 "plugins/dp/dp_why.ml" 25 587 613
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 25 587 614 "plugins/dp/dp_why.ml" 25 587 617
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 25 587 597 "plugins/dp/dp_why.ml" 25 587 600
+)
+"plugins/dp/dp_why.ml" 25 587 618 "plugins/dp/dp_why.ml" 25 587 623
+type(
+  (unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 25 587 606 "plugins/dp/dp_why.ml" 25 587 623
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 27 625 629 "plugins/dp/dp_why.ml" 27 625 643
+type(
+  string -> bool
+)
+ident(
+  def is_why_keyword "plugins/dp/dp_why.ml" 40 1218 1218 --
+)
+"plugins/dp/dp_why.ml" 28 646 652 "plugins/dp/dp_why.ml" 28 646 653
+type(
+  (string, unit) Hashtbl.t
+)
+"plugins/dp/dp_why.ml" 28 646 656 "plugins/dp/dp_why.ml" 28 646 670
+type(
+  int -> (string, unit) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"plugins/dp/dp_why.ml" 28 646 671 "plugins/dp/dp_why.ml" 28 646 673
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 28 646 656 "plugins/dp/dp_why.ml" 28 646 673
+call(
+  stack
+)
+type(
+  (string, unit) Hashtbl.t
+)
+"plugins/dp/dp_why.ml" 29 677 679 "plugins/dp/dp_why.ml" 29 677 688
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/dp/dp_why.ml" 30 689 698 "plugins/dp/dp_why.ml" 30 689 699
+type(
+  string
+)
+ident(
+  def s "plugins/dp/dp_why.ml" 30 689 703 "plugins/dp/dp_why.ml" 30 689 721
+)
+"plugins/dp/dp_why.ml" 30 689 703 "plugins/dp/dp_why.ml" 30 689 714
+type(
+  (string, unit) Hashtbl.t -> string -> unit -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"plugins/dp/dp_why.ml" 30 689 715 "plugins/dp/dp_why.ml" 30 689 716
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref h "plugins/dp/dp_why.ml" 28 646 652 "plugins/dp/dp_why.ml" 28 646 653
+)
+"plugins/dp/dp_why.ml" 30 689 717 "plugins/dp/dp_why.ml" 30 689 718
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/dp_why.ml" 30 689 698 "plugins/dp/dp_why.ml" 30 689 699
+)
+"plugins/dp/dp_why.ml" 30 689 719 "plugins/dp/dp_why.ml" 30 689 721
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 30 689 703 "plugins/dp/dp_why.ml" 30 689 721
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 30 689 693 "plugins/dp/dp_why.ml" 30 689 722
+type(
+  string -> unit
+)
+"plugins/dp/dp_why.ml" 31 723 728 "plugins/dp/dp_why.ml" 31 723 736
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 31 723 738 "plugins/dp/dp_why.ml" 31 723 743
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 31 723 745 "plugins/dp/dp_why.ml" 31 723 752
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 31 723 754 "plugins/dp/dp_why.ml" 31 723 758
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 31 723 760 "plugins/dp/dp_why.ml" 31 723 768
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 31 723 770 "plugins/dp/dp_why.ml" 31 723 777
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 31 723 779 "plugins/dp/dp_why.ml" 31 723 786
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 32 788 793 "plugins/dp/dp_why.ml" 32 788 799
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 32 788 801 "plugins/dp/dp_why.ml" 32 788 805
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 32 788 807 "plugins/dp/dp_why.ml" 32 788 813
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 32 788 815 "plugins/dp/dp_why.ml" 32 788 821
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 32 788 823 "plugins/dp/dp_why.ml" 32 788 828
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 32 788 830 "plugins/dp/dp_why.ml" 32 788 841
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 32 788 843 "plugins/dp/dp_why.ml" 32 788 851
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 33 853 858 "plugins/dp/dp_why.ml" 33 853 868
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 33 853 870 "plugins/dp/dp_why.ml" 33 853 877
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 33 853 879 "plugins/dp/dp_why.ml" 33 853 884
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 33 853 886 "plugins/dp/dp_why.ml" 33 853 894
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 33 853 896 "plugins/dp/dp_why.ml" 33 853 901
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 33 853 903 "plugins/dp/dp_why.ml" 33 853 913
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 33 853 915 "plugins/dp/dp_why.ml" 33 853 921
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 34 923 928 "plugins/dp/dp_why.ml" 34 923 932
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 34 923 934 "plugins/dp/dp_why.ml" 34 923 938
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 34 923 940 "plugins/dp/dp_why.ml" 34 923 945
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 34 923 947 "plugins/dp/dp_why.ml" 34 923 958
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 34 923 960 "plugins/dp/dp_why.ml" 34 923 967
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 34 923 969 "plugins/dp/dp_why.ml" 34 923 974
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 34 923 976 "plugins/dp/dp_why.ml" 34 923 983
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 34 923 985 "plugins/dp/dp_why.ml" 34 923 990
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 35 992 997 "plugins/dp/dp_why.ml" 35 992 1001
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 35 992 1003 "plugins/dp/dp_why.ml" 35 992 1007
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 35 992 1009 "plugins/dp/dp_why.ml" 35 992 1020
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 35 992 1022 "plugins/dp/dp_why.ml" 35 992 1033
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 35 992 1035 "plugins/dp/dp_why.ml" 35 992 1041
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 35 992 1043 "plugins/dp/dp_why.ml" 35 992 1050
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 35 992 1052 "plugins/dp/dp_why.ml" 35 992 1060
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 36 1062 1067 "plugins/dp/dp_why.ml" 36 1062 1074
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 36 1062 1076 "plugins/dp/dp_why.ml" 36 1062 1082
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 36 1062 1084 "plugins/dp/dp_why.ml" 36 1062 1089
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 36 1062 1091 "plugins/dp/dp_why.ml" 36 1062 1096
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 36 1062 1098 "plugins/dp/dp_why.ml" 36 1062 1107
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 36 1062 1109 "plugins/dp/dp_why.ml" 36 1062 1115
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 36 1062 1117 "plugins/dp/dp_why.ml" 36 1062 1123
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 36 1062 1125 "plugins/dp/dp_why.ml" 36 1062 1130
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 37 1132 1137 "plugins/dp/dp_why.ml" 37 1132 1143
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 37 1132 1145 "plugins/dp/dp_why.ml" 37 1132 1151
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 37 1132 1153 "plugins/dp/dp_why.ml" 37 1132 1162
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 37 1132 1164 "plugins/dp/dp_why.ml" 37 1132 1170
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 37 1132 1172 "plugins/dp/dp_why.ml" 37 1132 1179
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 37 1132 1181 "plugins/dp/dp_why.ml" 37 1132 1187
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 37 1132 1189 "plugins/dp/dp_why.ml" 37 1132 1197
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 31 723 727 "plugins/dp/dp_why.ml" 37 1132 1199
+type(
+  string list
+)
+"plugins/dp/dp_why.ml" 29 677 679 "plugins/dp/dp_why.ml" 37 1132 1199
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 38 1201 1203 "plugins/dp/dp_why.ml" 38 1201 1214
+type(
+  (string, unit) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.mem
+)
+"plugins/dp/dp_why.ml" 38 1201 1215 "plugins/dp/dp_why.ml" 38 1201 1216
+type(
+  (string, unit) Hashtbl.t
+)
+ident(
+  int_ref h "plugins/dp/dp_why.ml" 28 646 652 "plugins/dp/dp_why.ml" 28 646 653
+)
+"plugins/dp/dp_why.ml" 38 1201 1203 "plugins/dp/dp_why.ml" 38 1201 1216
+call(
+  stack
+)
+type(
+  string -> bool
+)
+"plugins/dp/dp_why.ml" 29 677 679 "plugins/dp/dp_why.ml" 38 1201 1216
+type(
+  string -> bool
+)
+"plugins/dp/dp_why.ml" 28 646 648 "plugins/dp/dp_why.ml" 38 1201 1216
+type(
+  string -> bool
+)
+"plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  def ident "plugins/dp/dp_why.ml" 43 1312 1312 --
+)
+"plugins/dp/dp_why.ml" 40 1218 1228 "plugins/dp/dp_why.ml" 40 1218 1231
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_why.ml" 40 1218 1232 "plugins/dp/dp_why.ml" 41 1236 1310
+)
+"plugins/dp/dp_why.ml" 40 1218 1232 "plugins/dp/dp_why.ml" 40 1218 1233
+type(
+  string
+)
+ident(
+  def s "plugins/dp/dp_why.ml" 41 1236 1238 "plugins/dp/dp_why.ml" 41 1236 1310
+)
+"plugins/dp/dp_why.ml" 41 1236 1241 "plugins/dp/dp_why.ml" 41 1236 1255
+type(
+  string -> bool
+)
+ident(
+  int_ref is_why_keyword "plugins/dp/dp_why.ml" 27 625 629 "plugins/dp/dp_why.ml" 27 625 643
+)
+"plugins/dp/dp_why.ml" 41 1236 1256 "plugins/dp/dp_why.ml" 41 1236 1257
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/dp_why.ml" 40 1218 1232 "plugins/dp/dp_why.ml" 40 1218 1233
+)
+"plugins/dp/dp_why.ml" 41 1236 1241 "plugins/dp/dp_why.ml" 41 1236 1257
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/dp/dp_why.ml" 41 1236 1263 "plugins/dp/dp_why.ml" 41 1236 1270
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 41 1236 1271 "plugins/dp/dp_why.ml" 41 1236 1274
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 40 1218 1228 "plugins/dp/dp_why.ml" 40 1218 1231
+)
+"plugins/dp/dp_why.ml" 41 1236 1275 "plugins/dp/dp_why.ml" 41 1236 1284
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 41 1236 1285 "plugins/dp/dp_why.ml" 41 1236 1286
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/dp_why.ml" 40 1218 1232 "plugins/dp/dp_why.ml" 40 1218 1233
+)
+"plugins/dp/dp_why.ml" 41 1236 1263 "plugins/dp/dp_why.ml" 41 1236 1286
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 41 1236 1292 "plugins/dp/dp_why.ml" 41 1236 1299
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 41 1236 1300 "plugins/dp/dp_why.ml" 41 1236 1303
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 40 1218 1228 "plugins/dp/dp_why.ml" 40 1218 1231
+)
+"plugins/dp/dp_why.ml" 41 1236 1304 "plugins/dp/dp_why.ml" 41 1236 1308
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 41 1236 1309 "plugins/dp/dp_why.ml" 41 1236 1310
+type(
+  string
+)
+ident(
+  int_ref s "plugins/dp/dp_why.ml" 40 1218 1232 "plugins/dp/dp_why.ml" 40 1218 1233
+)
+"plugins/dp/dp_why.ml" 41 1236 1292 "plugins/dp/dp_why.ml" 41 1236 1310
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 41 1236 1238 "plugins/dp/dp_why.ml" 41 1236 1310
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 43 1312 1320 "plugins/dp/dp_why.ml" 43 1312 1329
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  def print_typ "plugins/dp/dp_why.ml" 43 1312 1312 --
+)
+"plugins/dp/dp_why.ml" 43 1312 1330 "plugins/dp/dp_why.ml" 43 1312 1333
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_why.ml" 43 1312 1336 "plugins/dp/dp_why.ml" 49 1573 1652
+)
+"plugins/dp/dp_why.ml" 44 1345 1354 "plugins/dp/dp_why.ml" 44 1345 1355
+type(
+  string
+)
+ident(
+  def x "plugins/dp/dp_why.ml" 44 1345 1359 "plugins/dp/dp_why.ml" 44 1345 1384
+)
+"plugins/dp/dp_why.ml" 44 1345 1349 "plugins/dp/dp_why.ml" 44 1345 1355
+type(
+  Fol.typ
+)
+"plugins/dp/dp_why.ml" 44 1345 1359 "plugins/dp/dp_why.ml" 44 1345 1366
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 44 1345 1367 "plugins/dp/dp_why.ml" 44 1345 1370
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 43 1312 1330 "plugins/dp/dp_why.ml" 43 1312 1333
+)
+"plugins/dp/dp_why.ml" 44 1345 1371 "plugins/dp/dp_why.ml" 44 1345 1376
+type(
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format
+)
+"plugins/dp/dp_why.ml" 44 1345 1377 "plugins/dp/dp_why.ml" 44 1345 1382
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 44 1345 1383 "plugins/dp/dp_why.ml" 44 1345 1384
+type(
+  string
+)
+ident(
+  int_ref x "plugins/dp/dp_why.ml" 44 1345 1354 "plugins/dp/dp_why.ml" 44 1345 1355
+)
+"plugins/dp/dp_why.ml" 44 1345 1359 "plugins/dp/dp_why.ml" 44 1345 1384
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 45 1385 1394 "plugins/dp/dp_why.ml" 45 1385 1399
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 45 1385 1401 "plugins/dp/dp_why.ml" 45 1385 1403
+type(
+  Fol.typ list
+)
+"plugins/dp/dp_why.ml" 45 1385 1389 "plugins/dp/dp_why.ml" 45 1385 1404
+type(
+  Fol.typ
+)
+"plugins/dp/dp_why.ml" 45 1385 1408 "plugins/dp/dp_why.ml" 45 1385 1415
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 45 1385 1416 "plugins/dp/dp_why.ml" 45 1385 1419
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 43 1312 1330 "plugins/dp/dp_why.ml" 43 1312 1333
+)
+"plugins/dp/dp_why.ml" 45 1385 1420 "plugins/dp/dp_why.ml" 45 1385 1425
+type(
+  (unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 45 1385 1408 "plugins/dp/dp_why.ml" 45 1385 1425
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 46 1426 1435 "plugins/dp/dp_why.ml" 46 1426 1441
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 46 1426 1443 "plugins/dp/dp_why.ml" 46 1426 1445
+type(
+  Fol.typ list
+)
+"plugins/dp/dp_why.ml" 46 1426 1430 "plugins/dp/dp_why.ml" 46 1426 1446
+type(
+  Fol.typ
+)
+"plugins/dp/dp_why.ml" 46 1426 1450 "plugins/dp/dp_why.ml" 46 1426 1457
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 46 1426 1458 "plugins/dp/dp_why.ml" 46 1426 1461
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 43 1312 1330 "plugins/dp/dp_why.ml" 43 1312 1333
+)
+"plugins/dp/dp_why.ml" 46 1426 1462 "plugins/dp/dp_why.ml" 46 1426 1468
+type(
+  (unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 46 1426 1450 "plugins/dp/dp_why.ml" 46 1426 1468
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 47 1469 1478 "plugins/dp/dp_why.ml" 47 1469 1479
+type(
+  string
+)
+ident(
+  def x "plugins/dp/dp_why.ml" 47 1469 1488 "plugins/dp/dp_why.ml" 47 1469 1512
+)
+"plugins/dp/dp_why.ml" 47 1469 1481 "plugins/dp/dp_why.ml" 47 1469 1483
+type(
+  Fol.typ list
+)
+"plugins/dp/dp_why.ml" 47 1469 1473 "plugins/dp/dp_why.ml" 47 1469 1484
+type(
+  Fol.typ
+)
+"plugins/dp/dp_why.ml" 47 1469 1488 "plugins/dp/dp_why.ml" 47 1469 1495
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 47 1469 1496 "plugins/dp/dp_why.ml" 47 1469 1499
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 43 1312 1330 "plugins/dp/dp_why.ml" 43 1312 1333
+)
+"plugins/dp/dp_why.ml" 47 1469 1500 "plugins/dp/dp_why.ml" 47 1469 1504
+type(
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format
+)
+"plugins/dp/dp_why.ml" 47 1469 1505 "plugins/dp/dp_why.ml" 47 1469 1510
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 47 1469 1511 "plugins/dp/dp_why.ml" 47 1469 1512
+type(
+  string
+)
+ident(
+  int_ref x "plugins/dp/dp_why.ml" 47 1469 1478 "plugins/dp/dp_why.ml" 47 1469 1479
+)
+"plugins/dp/dp_why.ml" 47 1469 1488 "plugins/dp/dp_why.ml" 47 1469 1512
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 48 1513 1522 "plugins/dp/dp_why.ml" 48 1513 1523
+type(
+  string
+)
+ident(
+  def x "plugins/dp/dp_why.ml" 48 1513 1533 "plugins/dp/dp_why.ml" 48 1513 1572
+)
+"plugins/dp/dp_why.ml" 48 1513 1526 "plugins/dp/dp_why.ml" 48 1513 1527
+type(
+  Fol.typ
+)
+ident(
+  def t "plugins/dp/dp_why.ml" 48 1513 1533 "plugins/dp/dp_why.ml" 48 1513 1572
+)
+"plugins/dp/dp_why.ml" 48 1513 1525 "plugins/dp/dp_why.ml" 48 1513 1528
+type(
+  Fol.typ list
+)
+"plugins/dp/dp_why.ml" 48 1513 1517 "plugins/dp/dp_why.ml" 48 1513 1529
+type(
+  Fol.typ
+)
+"plugins/dp/dp_why.ml" 48 1513 1533 "plugins/dp/dp_why.ml" 48 1513 1540
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.typ -> unit) ->
+   Fol.typ -> (Format.formatter -> string -> unit) -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.typ -> unit) ->
+  Fol.typ -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 48 1513 1541 "plugins/dp/dp_why.ml" 48 1513 1544
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 43 1312 1330 "plugins/dp/dp_why.ml" 43 1312 1333
+)
+"plugins/dp/dp_why.ml" 48 1513 1545 "plugins/dp/dp_why.ml" 48 1513 1552
+type(
+  ((Format.formatter -> Fol.typ -> unit) ->
+   Fol.typ -> (Format.formatter -> string -> unit) -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 48 1513 1553 "plugins/dp/dp_why.ml" 48 1513 1562
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_why.ml" 43 1312 1320 "plugins/dp/dp_why.ml" 43 1312 1329
+)
+"plugins/dp/dp_why.ml" 48 1513 1563 "plugins/dp/dp_why.ml" 48 1513 1564
+type(
+  Fol.typ
+)
+ident(
+  int_ref t "plugins/dp/dp_why.ml" 48 1513 1526 "plugins/dp/dp_why.ml" 48 1513 1527
+)
+"plugins/dp/dp_why.ml" 48 1513 1565 "plugins/dp/dp_why.ml" 48 1513 1570
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 48 1513 1571 "plugins/dp/dp_why.ml" 48 1513 1572
+type(
+  string
+)
+ident(
+  int_ref x "plugins/dp/dp_why.ml" 48 1513 1522 "plugins/dp/dp_why.ml" 48 1513 1523
+)
+"plugins/dp/dp_why.ml" 48 1513 1533 "plugins/dp/dp_why.ml" 48 1513 1572
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 49 1573 1582 "plugins/dp/dp_why.ml" 49 1573 1583
+type(
+  string
+)
+ident(
+  def x "plugins/dp/dp_why.ml" 49 1573 1591 "plugins/dp/dp_why.ml" 49 1573 1652
+)
+"plugins/dp/dp_why.ml" 49 1573 1584 "plugins/dp/dp_why.ml" 49 1573 1586
+type(
+  Fol.typ list
+)
+ident(
+  def tl "plugins/dp/dp_why.ml" 49 1573 1591 "plugins/dp/dp_why.ml" 49 1573 1652
+)
+"plugins/dp/dp_why.ml" 49 1573 1577 "plugins/dp/dp_why.ml" 49 1573 1587
+type(
+  Fol.typ
+)
+"plugins/dp/dp_why.ml" 49 1573 1591 "plugins/dp/dp_why.ml" 49 1573 1598
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.typ list -> unit) ->
+   Fol.typ list -> (Format.formatter -> string -> unit) -> string -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.typ list -> unit) ->
+  Fol.typ list -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 49 1573 1599 "plugins/dp/dp_why.ml" 49 1573 1602
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 43 1312 1330 "plugins/dp/dp_why.ml" 43 1312 1333
+)
+"plugins/dp/dp_why.ml" 49 1573 1603 "plugins/dp/dp_why.ml" 49 1573 1612
+type(
+  ((Format.formatter -> Fol.typ list -> unit) ->
+   Fol.typ list -> (Format.formatter -> string -> unit) -> string -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 49 1573 1614 "plugins/dp/dp_why.ml" 49 1573 1624
+type(
+  (Format.formatter -> unit -> unit) ->
+  (Format.formatter -> Fol.typ -> unit) ->
+  Format.formatter -> Fol.typ list -> unit
+)
+ident(
+  int_ref print_list "plugins/dp/dp_why.ml" 19 404 412 "plugins/dp/dp_why.ml" 19 404 422
+)
+"plugins/dp/dp_why.ml" 49 1573 1625 "plugins/dp/dp_why.ml" 49 1573 1630
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref comma "plugins/dp/dp_why.ml" 25 587 591 "plugins/dp/dp_why.ml" 25 587 596
+)
+"plugins/dp/dp_why.ml" 49 1573 1631 "plugins/dp/dp_why.ml" 49 1573 1640
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_why.ml" 43 1312 1320 "plugins/dp/dp_why.ml" 43 1312 1329
+)
+"plugins/dp/dp_why.ml" 49 1573 1613 "plugins/dp/dp_why.ml" 49 1573 1641
+call(
+  stack
+)
+type(
+  Format.formatter -> Fol.typ list -> unit
+)
+"plugins/dp/dp_why.ml" 49 1573 1642 "plugins/dp/dp_why.ml" 49 1573 1644
+type(
+  Fol.typ list
+)
+ident(
+  int_ref tl "plugins/dp/dp_why.ml" 49 1573 1584 "plugins/dp/dp_why.ml" 49 1573 1586
+)
+"plugins/dp/dp_why.ml" 49 1573 1645 "plugins/dp/dp_why.ml" 49 1573 1650
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 49 1573 1651 "plugins/dp/dp_why.ml" 49 1573 1652
+type(
+  string
+)
+ident(
+  int_ref x "plugins/dp/dp_why.ml" 49 1573 1582 "plugins/dp/dp_why.ml" 49 1573 1583
+)
+"plugins/dp/dp_why.ml" 49 1573 1591 "plugins/dp/dp_why.ml" 49 1573 1652
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 43 1312 1336 "plugins/dp/dp_why.ml" 49 1573 1652
+type(
+  Fol.typ -> unit
+)
+"plugins/dp/dp_why.ml" 51 1654 1658 "plugins/dp/dp_why.ml" 51 1654 1667
+type(
+  Format.formatter -> string * Fol.typ -> unit
+)
+ident(
+  def print_arg "plugins/dp/dp_why.ml" 53 1728 1728 --
+)
+"plugins/dp/dp_why.ml" 51 1654 1668 "plugins/dp/dp_why.ml" 51 1654 1671
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_why.ml" 51 1654 1672 "plugins/dp/dp_why.ml" 51 1654 1726
+)
+"plugins/dp/dp_why.ml" 51 1654 1673 "plugins/dp/dp_why.ml" 51 1654 1675
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 51 1654 1683 "plugins/dp/dp_why.ml" 51 1654 1726
+)
+"plugins/dp/dp_why.ml" 51 1654 1676 "plugins/dp/dp_why.ml" 51 1654 1679
+type(
+  Fol.typ
+)
+ident(
+  def typ "plugins/dp/dp_why.ml" 51 1654 1683 "plugins/dp/dp_why.ml" 51 1654 1726
+)
+"plugins/dp/dp_why.ml" 51 1654 1672 "plugins/dp/dp_why.ml" 51 1654 1680
+type(
+  string * Fol.typ
+)
+"plugins/dp/dp_why.ml" 51 1654 1683 "plugins/dp/dp_why.ml" 51 1654 1690
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 51 1654 1691 "plugins/dp/dp_why.ml" 51 1654 1694
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 51 1654 1668 "plugins/dp/dp_why.ml" 51 1654 1671
+)
+"plugins/dp/dp_why.ml" 51 1654 1695 "plugins/dp/dp_why.ml" 51 1654 1703
+type(
+  ((Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 51 1654 1704 "plugins/dp/dp_why.ml" 51 1654 1709
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 51 1654 1710 "plugins/dp/dp_why.ml" 51 1654 1712
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 51 1654 1673 "plugins/dp/dp_why.ml" 51 1654 1675
+)
+"plugins/dp/dp_why.ml" 51 1654 1713 "plugins/dp/dp_why.ml" 51 1654 1722
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_why.ml" 43 1312 1320 "plugins/dp/dp_why.ml" 43 1312 1329
+)
+"plugins/dp/dp_why.ml" 51 1654 1723 "plugins/dp/dp_why.ml" 51 1654 1726
+type(
+  Fol.typ
+)
+ident(
+  int_ref typ "plugins/dp/dp_why.ml" 51 1654 1676 "plugins/dp/dp_why.ml" 51 1654 1679
+)
+"plugins/dp/dp_why.ml" 51 1654 1683 "plugins/dp/dp_why.ml" 51 1654 1726
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  def print_term "plugins/dp/dp_why.ml" 53 1728 1728 --
+)
+"plugins/dp/dp_why.ml" 53 1728 1747 "plugins/dp/dp_why.ml" 53 1728 1750
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_why.ml" 53 1728 1753 "plugins/dp/dp_why.ml" 73 2422 2476
+)
+"plugins/dp/dp_why.ml" 54 1762 1770 "plugins/dp/dp_why.ml" 54 1762 1771
+type(
+  Big_int.big_int
+)
+ident(
+  def n "plugins/dp/dp_why.ml" 55 1775 1781 "plugins/dp/dp_why.ml" 55 1775 1827
+)
+"plugins/dp/dp_why.ml" 54 1762 1766 "plugins/dp/dp_why.ml" 54 1762 1771
+type(
+  Fol.term
+)
+"plugins/dp/dp_why.ml" 55 1775 1781 "plugins/dp/dp_why.ml" 55 1775 1788
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 55 1775 1789 "plugins/dp/dp_why.ml" 55 1775 1792
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 53 1728 1747 "plugins/dp/dp_why.ml" 53 1728 1750
+)
+"plugins/dp/dp_why.ml" 55 1775 1793 "plugins/dp/dp_why.ml" 55 1775 1797
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 55 1775 1799 "plugins/dp/dp_why.ml" 55 1775 1824
+type(
+  Big_int.big_int -> string
+)
+ident(
+  ext_ref Big_int.string_of_big_int
+)
+"plugins/dp/dp_why.ml" 55 1775 1825 "plugins/dp/dp_why.ml" 55 1775 1826
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref n "plugins/dp/dp_why.ml" 54 1762 1770 "plugins/dp/dp_why.ml" 54 1762 1771
+)
+"plugins/dp/dp_why.ml" 55 1775 1798 "plugins/dp/dp_why.ml" 55 1775 1827
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 55 1775 1781 "plugins/dp/dp_why.ml" 55 1775 1827
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 56 1828 1837 "plugins/dp/dp_why.ml" 56 1828 1838
+type(
+  Big_int.big_int
+)
+ident(
+  def s "plugins/dp/dp_why.ml" 57 1842 1848 "plugins/dp/dp_why.ml" 57 1842 1896
+)
+"plugins/dp/dp_why.ml" 56 1828 1832 "plugins/dp/dp_why.ml" 56 1828 1838
+type(
+  Fol.term
+)
+"plugins/dp/dp_why.ml" 57 1842 1848 "plugins/dp/dp_why.ml" 57 1842 1855
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 57 1842 1856 "plugins/dp/dp_why.ml" 57 1842 1859
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 53 1728 1747 "plugins/dp/dp_why.ml" 53 1728 1750
+)
+"plugins/dp/dp_why.ml" 57 1842 1860 "plugins/dp/dp_why.ml" 57 1842 1866
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 57 1842 1868 "plugins/dp/dp_why.ml" 57 1842 1893
+type(
+  Big_int.big_int -> string
+)
+ident(
+  ext_ref Big_int.string_of_big_int
+)
+"plugins/dp/dp_why.ml" 57 1842 1894 "plugins/dp/dp_why.ml" 57 1842 1895
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref s "plugins/dp/dp_why.ml" 56 1828 1837 "plugins/dp/dp_why.ml" 56 1828 1838
+)
+"plugins/dp/dp_why.ml" 57 1842 1867 "plugins/dp/dp_why.ml" 57 1842 1896
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 57 1842 1848 "plugins/dp/dp_why.ml" 57 1842 1896
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 58 1897 1908 "plugins/dp/dp_why.ml" 58 1897 1909
+type(
+  Big_int.big_int
+)
+ident(
+  def n "plugins/dp/dp_why.ml" 59 1913 1919 "plugins/dp/dp_why.ml" 59 1913 1969
+)
+"plugins/dp/dp_why.ml" 58 1897 1901 "plugins/dp/dp_why.ml" 58 1897 1909
+type(
+  Fol.term
+)
+"plugins/dp/dp_why.ml" 59 1913 1919 "plugins/dp/dp_why.ml" 59 1913 1926
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 59 1913 1927 "plugins/dp/dp_why.ml" 59 1913 1930
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 53 1728 1747 "plugins/dp/dp_why.ml" 53 1728 1750
+)
+"plugins/dp/dp_why.ml" 59 1913 1931 "plugins/dp/dp_why.ml" 59 1913 1939
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 59 1913 1941 "plugins/dp/dp_why.ml" 59 1913 1966
+type(
+  Big_int.big_int -> string
+)
+ident(
+  ext_ref Big_int.string_of_big_int
+)
+"plugins/dp/dp_why.ml" 59 1913 1967 "plugins/dp/dp_why.ml" 59 1913 1968
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref n "plugins/dp/dp_why.ml" 58 1897 1908 "plugins/dp/dp_why.ml" 58 1897 1909
+)
+"plugins/dp/dp_why.ml" 59 1913 1940 "plugins/dp/dp_why.ml" 59 1913 1969
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 59 1913 1919 "plugins/dp/dp_why.ml" 59 1913 1969
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 60 1970 1980 "plugins/dp/dp_why.ml" 60 1970 1981
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 61 1989 1995 "plugins/dp/dp_why.ml" 61 1989 2049
+)
+"plugins/dp/dp_why.ml" 60 1970 1983 "plugins/dp/dp_why.ml" 60 1970 1984
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 61 1989 1995 "plugins/dp/dp_why.ml" 61 1989 2049
+)
+"plugins/dp/dp_why.ml" 60 1970 1974 "plugins/dp/dp_why.ml" 60 1970 1985
+type(
+  Fol.term
+)
+"plugins/dp/dp_why.ml" 61 1989 1995 "plugins/dp/dp_why.ml" 61 1989 2002
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 61 1989 2003 "plugins/dp/dp_why.ml" 61 1989 2006
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 53 1728 1747 "plugins/dp/dp_why.ml" 53 1728 1750
+)
+"plugins/dp/dp_why.ml" 61 1989 2007 "plugins/dp/dp_why.ml" 61 1989 2023
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 61 1989 2024 "plugins/dp/dp_why.ml" 61 1989 2034
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 61 1989 2035 "plugins/dp/dp_why.ml" 61 1989 2036
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 60 1970 1980 "plugins/dp/dp_why.ml" 60 1970 1981
+)
+"plugins/dp/dp_why.ml" 61 1989 2037 "plugins/dp/dp_why.ml" 61 1989 2047
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 61 1989 2048 "plugins/dp/dp_why.ml" 61 1989 2049
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 60 1970 1983 "plugins/dp/dp_why.ml" 60 1970 1984
+)
+"plugins/dp/dp_why.ml" 61 1989 1995 "plugins/dp/dp_why.ml" 61 1989 2049
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 62 2050 2061 "plugins/dp/dp_why.ml" 62 2050 2062
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 63 2070 2076 "plugins/dp/dp_why.ml" 63 2070 2130
+)
+"plugins/dp/dp_why.ml" 62 2050 2064 "plugins/dp/dp_why.ml" 62 2050 2065
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 63 2070 2076 "plugins/dp/dp_why.ml" 63 2070 2130
+)
+"plugins/dp/dp_why.ml" 62 2050 2054 "plugins/dp/dp_why.ml" 62 2050 2066
+type(
+  Fol.term
+)
+"plugins/dp/dp_why.ml" 63 2070 2076 "plugins/dp/dp_why.ml" 63 2070 2083
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 63 2070 2084 "plugins/dp/dp_why.ml" 63 2070 2087
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 53 1728 1747 "plugins/dp/dp_why.ml" 53 1728 1750
+)
+"plugins/dp/dp_why.ml" 63 2070 2088 "plugins/dp/dp_why.ml" 63 2070 2104
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 63 2070 2105 "plugins/dp/dp_why.ml" 63 2070 2115
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 63 2070 2116 "plugins/dp/dp_why.ml" 63 2070 2117
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 62 2050 2061 "plugins/dp/dp_why.ml" 62 2050 2062
+)
+"plugins/dp/dp_why.ml" 63 2070 2118 "plugins/dp/dp_why.ml" 63 2070 2128
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 63 2070 2129 "plugins/dp/dp_why.ml" 63 2070 2130
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 62 2050 2064 "plugins/dp/dp_why.ml" 62 2050 2065
+)
+"plugins/dp/dp_why.ml" 63 2070 2076 "plugins/dp/dp_why.ml" 63 2070 2130
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 64 2131 2141 "plugins/dp/dp_why.ml" 64 2131 2142
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 65 2150 2156 "plugins/dp/dp_why.ml" 65 2150 2210
+)
+"plugins/dp/dp_why.ml" 64 2131 2144 "plugins/dp/dp_why.ml" 64 2131 2145
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 65 2150 2156 "plugins/dp/dp_why.ml" 65 2150 2210
+)
+"plugins/dp/dp_why.ml" 64 2131 2135 "plugins/dp/dp_why.ml" 64 2131 2146
+type(
+  Fol.term
+)
+"plugins/dp/dp_why.ml" 65 2150 2156 "plugins/dp/dp_why.ml" 65 2150 2163
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 65 2150 2164 "plugins/dp/dp_why.ml" 65 2150 2167
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 53 1728 1747 "plugins/dp/dp_why.ml" 53 1728 1750
+)
+"plugins/dp/dp_why.ml" 65 2150 2168 "plugins/dp/dp_why.ml" 65 2150 2184
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 65 2150 2185 "plugins/dp/dp_why.ml" 65 2150 2195
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 65 2150 2196 "plugins/dp/dp_why.ml" 65 2150 2197
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 64 2131 2141 "plugins/dp/dp_why.ml" 64 2131 2142
+)
+"plugins/dp/dp_why.ml" 65 2150 2198 "plugins/dp/dp_why.ml" 65 2150 2208
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 65 2150 2209 "plugins/dp/dp_why.ml" 65 2150 2210
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 64 2131 2144 "plugins/dp/dp_why.ml" 64 2131 2145
+)
+"plugins/dp/dp_why.ml" 65 2150 2156 "plugins/dp/dp_why.ml" 65 2150 2210
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 66 2211 2220 "plugins/dp/dp_why.ml" 66 2211 2221
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 67 2229 2235 "plugins/dp/dp_why.ml" 67 2229 2289
+)
+"plugins/dp/dp_why.ml" 66 2211 2223 "plugins/dp/dp_why.ml" 66 2211 2224
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 67 2229 2235 "plugins/dp/dp_why.ml" 67 2229 2289
+)
+"plugins/dp/dp_why.ml" 66 2211 2215 "plugins/dp/dp_why.ml" 66 2211 2225
+type(
+  Fol.term
+)
+"plugins/dp/dp_why.ml" 67 2229 2235 "plugins/dp/dp_why.ml" 67 2229 2242
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 67 2229 2243 "plugins/dp/dp_why.ml" 67 2229 2246
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 53 1728 1747 "plugins/dp/dp_why.ml" 53 1728 1750
+)
+"plugins/dp/dp_why.ml" 67 2229 2247 "plugins/dp/dp_why.ml" 67 2229 2263
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 67 2229 2264 "plugins/dp/dp_why.ml" 67 2229 2274
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 67 2229 2275 "plugins/dp/dp_why.ml" 67 2229 2276
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 66 2211 2220 "plugins/dp/dp_why.ml" 66 2211 2221
+)
+"plugins/dp/dp_why.ml" 67 2229 2277 "plugins/dp/dp_why.ml" 67 2229 2287
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 67 2229 2288 "plugins/dp/dp_why.ml" 67 2229 2289
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 66 2211 2223 "plugins/dp/dp_why.ml" 66 2211 2224
+)
+"plugins/dp/dp_why.ml" 67 2229 2235 "plugins/dp/dp_why.ml" 67 2229 2289
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 68 2290 2298 "plugins/dp/dp_why.ml" 68 2290 2301
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 69 2305 2311 "plugins/dp/dp_why.ml" 69 2305 2349
+)
+"plugins/dp/dp_why.ml" 68 2290 2294 "plugins/dp/dp_why.ml" 68 2290 2301
+type(
+  Fol.term
+)
+"plugins/dp/dp_why.ml" 69 2305 2311 "plugins/dp/dp_why.ml" 69 2305 2318
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 69 2305 2319 "plugins/dp/dp_why.ml" 69 2305 2322
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 53 1728 1747 "plugins/dp/dp_why.ml" 53 1728 1750
+)
+"plugins/dp/dp_why.ml" 69 2305 2323 "plugins/dp/dp_why.ml" 69 2305 2336
+type(
+  ((Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 69 2305 2337 "plugins/dp/dp_why.ml" 69 2305 2347
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 69 2305 2348 "plugins/dp/dp_why.ml" 69 2305 2349
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 68 2290 2298 "plugins/dp/dp_why.ml" 68 2290 2301
+)
+"plugins/dp/dp_why.ml" 69 2305 2311 "plugins/dp/dp_why.ml" 69 2305 2349
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 70 2350 2359 "plugins/dp/dp_why.ml" 70 2350 2361
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 71 2370 2376 "plugins/dp/dp_why.ml" 71 2370 2401
+)
+"plugins/dp/dp_why.ml" 70 2350 2363 "plugins/dp/dp_why.ml" 70 2350 2365
+type(
+  Fol.term list
+)
+"plugins/dp/dp_why.ml" 70 2350 2354 "plugins/dp/dp_why.ml" 70 2350 2366
+type(
+  Fol.term
+)
+"plugins/dp/dp_why.ml" 71 2370 2376 "plugins/dp/dp_why.ml" 71 2370 2383
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 71 2370 2384 "plugins/dp/dp_why.ml" 71 2370 2387
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 53 1728 1747 "plugins/dp/dp_why.ml" 53 1728 1750
+)
+"plugins/dp/dp_why.ml" 71 2370 2388 "plugins/dp/dp_why.ml" 71 2370 2392
+type(
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format
+)
+"plugins/dp/dp_why.ml" 71 2370 2393 "plugins/dp/dp_why.ml" 71 2370 2398
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 71 2370 2399 "plugins/dp/dp_why.ml" 71 2370 2401
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 70 2350 2359 "plugins/dp/dp_why.ml" 70 2350 2361
+)
+"plugins/dp/dp_why.ml" 71 2370 2376 "plugins/dp/dp_why.ml" 71 2370 2401
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 72 2402 2411 "plugins/dp/dp_why.ml" 72 2402 2413
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 73 2422 2428 "plugins/dp/dp_why.ml" 73 2422 2476
+)
+"plugins/dp/dp_why.ml" 72 2402 2415 "plugins/dp/dp_why.ml" 72 2402 2417
+type(
+  Fol.term list
+)
+ident(
+  def tl "plugins/dp/dp_why.ml" 73 2422 2428 "plugins/dp/dp_why.ml" 73 2422 2476
+)
+"plugins/dp/dp_why.ml" 72 2402 2406 "plugins/dp/dp_why.ml" 72 2402 2418
+type(
+  Fol.term
+)
+"plugins/dp/dp_why.ml" 73 2422 2428 "plugins/dp/dp_why.ml" 73 2422 2435
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.term list -> unit) -> Fol.term list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> Fol.term list -> unit) -> Fol.term list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 73 2422 2436 "plugins/dp/dp_why.ml" 73 2422 2439
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 53 1728 1747 "plugins/dp/dp_why.ml" 53 1728 1750
+)
+"plugins/dp/dp_why.ml" 73 2422 2440 "plugins/dp/dp_why.ml" 73 2422 2452
+type(
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.term list -> unit) -> Fol.term list -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 73 2422 2453 "plugins/dp/dp_why.ml" 73 2422 2458
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 73 2422 2459 "plugins/dp/dp_why.ml" 73 2422 2461
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 72 2402 2411 "plugins/dp/dp_why.ml" 72 2402 2413
+)
+"plugins/dp/dp_why.ml" 73 2422 2462 "plugins/dp/dp_why.ml" 73 2422 2473
+type(
+  Format.formatter -> Fol.term list -> unit
+)
+ident(
+  int_ref print_terms "plugins/dp/dp_why.ml" 75 2478 2482 "plugins/dp/dp_why.ml" 75 2478 2493
+)
+"plugins/dp/dp_why.ml" 73 2422 2474 "plugins/dp/dp_why.ml" 73 2422 2476
+type(
+  Fol.term list
+)
+ident(
+  int_ref tl "plugins/dp/dp_why.ml" 72 2402 2415 "plugins/dp/dp_why.ml" 72 2402 2417
+)
+"plugins/dp/dp_why.ml" 73 2422 2428 "plugins/dp/dp_why.ml" 73 2422 2476
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 53 1728 1753 "plugins/dp/dp_why.ml" 73 2422 2476
+type(
+  Fol.term -> unit
+)
+"plugins/dp/dp_why.ml" 75 2478 2482 "plugins/dp/dp_why.ml" 75 2478 2493
+type(
+  Format.formatter -> Fol.term list -> unit
+)
+ident(
+  def print_terms "plugins/dp/dp_why.ml" 53 1728 1728 --
+)
+"plugins/dp/dp_why.ml" 75 2478 2494 "plugins/dp/dp_why.ml" 75 2478 2497
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_why.ml" 75 2478 2498 "plugins/dp/dp_why.ml" 76 2503 2539
+)
+"plugins/dp/dp_why.ml" 75 2478 2498 "plugins/dp/dp_why.ml" 75 2478 2500
+type(
+  Fol.term list
+)
+ident(
+  def tl "plugins/dp/dp_why.ml" 76 2503 2505 "plugins/dp/dp_why.ml" 76 2503 2539
+)
+"plugins/dp/dp_why.ml" 76 2503 2505 "plugins/dp/dp_why.ml" 76 2503 2515
+type(
+  (Format.formatter -> unit -> unit) ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Format.formatter -> Fol.term list -> unit
+)
+ident(
+  int_ref print_list "plugins/dp/dp_why.ml" 19 404 412 "plugins/dp/dp_why.ml" 19 404 422
+)
+"plugins/dp/dp_why.ml" 76 2503 2516 "plugins/dp/dp_why.ml" 76 2503 2521
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref comma "plugins/dp/dp_why.ml" 25 587 591 "plugins/dp/dp_why.ml" 25 587 596
+)
+"plugins/dp/dp_why.ml" 76 2503 2522 "plugins/dp/dp_why.ml" 76 2503 2532
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 76 2503 2533 "plugins/dp/dp_why.ml" 76 2503 2536
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 75 2478 2494 "plugins/dp/dp_why.ml" 75 2478 2497
+)
+"plugins/dp/dp_why.ml" 76 2503 2537 "plugins/dp/dp_why.ml" 76 2503 2539
+type(
+  Fol.term list
+)
+ident(
+  int_ref tl "plugins/dp/dp_why.ml" 75 2478 2498 "plugins/dp/dp_why.ml" 75 2478 2500
+)
+"plugins/dp/dp_why.ml" 76 2503 2505 "plugins/dp/dp_why.ml" 76 2503 2539
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 78 2541 2549 "plugins/dp/dp_why.ml" 78 2541 2564
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  def print_predicate "plugins/dp/dp_why.ml" 78 2541 2541 --
+)
+"plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_why.ml" 78 2541 2569 "plugins/dp/dp_why.ml" 112 3699 3768
+)
+"plugins/dp/dp_why.ml" 78 2541 2569 "plugins/dp/dp_why.ml" 78 2541 2570
+type(
+  Fol.form
+)
+ident(
+  def p "plugins/dp/dp_why.ml" 79 2573 2575 "plugins/dp/dp_why.ml" 112 3699 3768
+)
+"plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+type(
+  Format.formatter -> Fol.form -> unit
+)
+"plugins/dp/dp_why.ml" 79 2573 2584 "plugins/dp/dp_why.ml" 79 2573 2599
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref print_predicate "plugins/dp/dp_why.ml" 78 2541 2549 "plugins/dp/dp_why.ml" 78 2541 2564
+)
+"plugins/dp/dp_why.ml" 80 2603 2611 "plugins/dp/dp_why.ml" 80 2603 2612
+type(
+  Fol.form
+)
+ident(
+  int_ref p "plugins/dp/dp_why.ml" 78 2541 2569 "plugins/dp/dp_why.ml" 78 2541 2570
+)
+"plugins/dp/dp_why.ml" 81 2618 2622 "plugins/dp/dp_why.ml" 81 2618 2626
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 82 2630 2636 "plugins/dp/dp_why.ml" 82 2630 2643
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 82 2630 2644 "plugins/dp/dp_why.ml" 82 2630 2647
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 82 2630 2648 "plugins/dp/dp_why.ml" 82 2630 2654
+type(
+  (unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 82 2630 2636 "plugins/dp/dp_why.ml" 82 2630 2654
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 83 2655 2659 "plugins/dp/dp_why.ml" 83 2655 2664
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 84 2668 2674 "plugins/dp/dp_why.ml" 84 2668 2681
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 84 2668 2682 "plugins/dp/dp_why.ml" 84 2668 2685
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 84 2668 2686 "plugins/dp/dp_why.ml" 84 2668 2693
+type(
+  (unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 84 2668 2674 "plugins/dp/dp_why.ml" 84 2668 2693
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 85 2694 2709 "plugins/dp/dp_why.ml" 85 2694 2710
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 86 2719 2725 "plugins/dp/dp_why.ml" 86 2719 2779
+)
+"plugins/dp/dp_why.ml" 85 2694 2712 "plugins/dp/dp_why.ml" 85 2694 2713
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 86 2719 2725 "plugins/dp/dp_why.ml" 86 2719 2779
+)
+"plugins/dp/dp_why.ml" 85 2694 2704 "plugins/dp/dp_why.ml" 85 2694 2715
+type(
+  Fol.atom
+)
+"plugins/dp/dp_why.ml" 85 2694 2698 "plugins/dp/dp_why.ml" 85 2694 2715
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 86 2719 2725 "plugins/dp/dp_why.ml" 86 2719 2732
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 86 2719 2733 "plugins/dp/dp_why.ml" 86 2719 2736
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 86 2719 2737 "plugins/dp/dp_why.ml" 86 2719 2753
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 86 2719 2754 "plugins/dp/dp_why.ml" 86 2719 2764
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 86 2719 2765 "plugins/dp/dp_why.ml" 86 2719 2766
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 85 2694 2709 "plugins/dp/dp_why.ml" 85 2694 2710
+)
+"plugins/dp/dp_why.ml" 86 2719 2767 "plugins/dp/dp_why.ml" 86 2719 2777
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 86 2719 2778 "plugins/dp/dp_why.ml" 86 2719 2779
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 85 2694 2712 "plugins/dp/dp_why.ml" 85 2694 2713
+)
+"plugins/dp/dp_why.ml" 86 2719 2725 "plugins/dp/dp_why.ml" 86 2719 2779
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 87 2780 2795 "plugins/dp/dp_why.ml" 87 2780 2796
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 88 2805 2811 "plugins/dp/dp_why.ml" 88 2805 2866
+)
+"plugins/dp/dp_why.ml" 87 2780 2798 "plugins/dp/dp_why.ml" 87 2780 2799
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 88 2805 2811 "plugins/dp/dp_why.ml" 88 2805 2866
+)
+"plugins/dp/dp_why.ml" 87 2780 2790 "plugins/dp/dp_why.ml" 87 2780 2801
+type(
+  Fol.atom
+)
+"plugins/dp/dp_why.ml" 87 2780 2784 "plugins/dp/dp_why.ml" 87 2780 2801
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 88 2805 2811 "plugins/dp/dp_why.ml" 88 2805 2818
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 88 2805 2819 "plugins/dp/dp_why.ml" 88 2805 2822
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 88 2805 2823 "plugins/dp/dp_why.ml" 88 2805 2840
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 88 2805 2841 "plugins/dp/dp_why.ml" 88 2805 2851
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 88 2805 2852 "plugins/dp/dp_why.ml" 88 2805 2853
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 87 2780 2795 "plugins/dp/dp_why.ml" 87 2780 2796
+)
+"plugins/dp/dp_why.ml" 88 2805 2854 "plugins/dp/dp_why.ml" 88 2805 2864
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 88 2805 2865 "plugins/dp/dp_why.ml" 88 2805 2866
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 87 2780 2798 "plugins/dp/dp_why.ml" 87 2780 2799
+)
+"plugins/dp/dp_why.ml" 88 2805 2811 "plugins/dp/dp_why.ml" 88 2805 2866
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 89 2867 2882 "plugins/dp/dp_why.ml" 89 2867 2883
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 90 2891 2897 "plugins/dp/dp_why.ml" 90 2891 2951
+)
+"plugins/dp/dp_why.ml" 89 2867 2885 "plugins/dp/dp_why.ml" 89 2867 2886
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 90 2891 2897 "plugins/dp/dp_why.ml" 90 2891 2951
+)
+"plugins/dp/dp_why.ml" 89 2867 2877 "plugins/dp/dp_why.ml" 89 2867 2888
+type(
+  Fol.atom
+)
+"plugins/dp/dp_why.ml" 89 2867 2871 "plugins/dp/dp_why.ml" 89 2867 2888
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 90 2891 2897 "plugins/dp/dp_why.ml" 90 2891 2904
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 90 2891 2905 "plugins/dp/dp_why.ml" 90 2891 2908
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 90 2891 2909 "plugins/dp/dp_why.ml" 90 2891 2925
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 90 2891 2926 "plugins/dp/dp_why.ml" 90 2891 2936
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 90 2891 2937 "plugins/dp/dp_why.ml" 90 2891 2938
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 89 2867 2882 "plugins/dp/dp_why.ml" 89 2867 2883
+)
+"plugins/dp/dp_why.ml" 90 2891 2939 "plugins/dp/dp_why.ml" 90 2891 2949
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 90 2891 2950 "plugins/dp/dp_why.ml" 90 2891 2951
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 89 2867 2885 "plugins/dp/dp_why.ml" 89 2867 2886
+)
+"plugins/dp/dp_why.ml" 90 2891 2897 "plugins/dp/dp_why.ml" 90 2891 2951
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 91 2952 2967 "plugins/dp/dp_why.ml" 91 2952 2968
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 92 2977 2983 "plugins/dp/dp_why.ml" 92 2977 3038
+)
+"plugins/dp/dp_why.ml" 91 2952 2970 "plugins/dp/dp_why.ml" 91 2952 2971
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 92 2977 2983 "plugins/dp/dp_why.ml" 92 2977 3038
+)
+"plugins/dp/dp_why.ml" 91 2952 2962 "plugins/dp/dp_why.ml" 91 2952 2973
+type(
+  Fol.atom
+)
+"plugins/dp/dp_why.ml" 91 2952 2956 "plugins/dp/dp_why.ml" 91 2952 2973
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 92 2977 2983 "plugins/dp/dp_why.ml" 92 2977 2990
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 92 2977 2991 "plugins/dp/dp_why.ml" 92 2977 2994
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 92 2977 2995 "plugins/dp/dp_why.ml" 92 2977 3012
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 92 2977 3013 "plugins/dp/dp_why.ml" 92 2977 3023
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 92 2977 3024 "plugins/dp/dp_why.ml" 92 2977 3025
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 91 2952 2967 "plugins/dp/dp_why.ml" 91 2952 2968
+)
+"plugins/dp/dp_why.ml" 92 2977 3026 "plugins/dp/dp_why.ml" 92 2977 3036
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 92 2977 3037 "plugins/dp/dp_why.ml" 92 2977 3038
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 91 2952 2970 "plugins/dp/dp_why.ml" 91 2952 2971
+)
+"plugins/dp/dp_why.ml" 92 2977 2983 "plugins/dp/dp_why.ml" 92 2977 3038
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 93 3039 3054 "plugins/dp/dp_why.ml" 93 3039 3055
+type(
+  Fol.term
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 94 3064 3070 "plugins/dp/dp_why.ml" 94 3064 3124
+)
+"plugins/dp/dp_why.ml" 93 3039 3057 "plugins/dp/dp_why.ml" 93 3039 3058
+type(
+  Fol.term
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 94 3064 3070 "plugins/dp/dp_why.ml" 94 3064 3124
+)
+"plugins/dp/dp_why.ml" 93 3039 3049 "plugins/dp/dp_why.ml" 93 3039 3060
+type(
+  Fol.atom
+)
+"plugins/dp/dp_why.ml" 93 3039 3043 "plugins/dp/dp_why.ml" 93 3039 3060
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 94 3064 3070 "plugins/dp/dp_why.ml" 94 3064 3077
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.term -> unit) ->
+  Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 94 3064 3078 "plugins/dp/dp_why.ml" 94 3064 3081
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 94 3064 3082 "plugins/dp/dp_why.ml" 94 3064 3098
+type(
+  ((Format.formatter -> Fol.term -> unit) ->
+   Fol.term -> (Format.formatter -> Fol.term -> unit) -> Fol.term -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 94 3064 3099 "plugins/dp/dp_why.ml" 94 3064 3109
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 94 3064 3110 "plugins/dp/dp_why.ml" 94 3064 3111
+type(
+  Fol.term
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 93 3039 3054 "plugins/dp/dp_why.ml" 93 3039 3055
+)
+"plugins/dp/dp_why.ml" 94 3064 3112 "plugins/dp/dp_why.ml" 94 3064 3122
+type(
+  Format.formatter -> Fol.term -> unit
+)
+ident(
+  int_ref print_term "plugins/dp/dp_why.ml" 53 1728 1736 "plugins/dp/dp_why.ml" 53 1728 1746
+)
+"plugins/dp/dp_why.ml" 94 3064 3123 "plugins/dp/dp_why.ml" 94 3064 3124
+type(
+  Fol.term
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 93 3039 3057 "plugins/dp/dp_why.ml" 93 3039 3058
+)
+"plugins/dp/dp_why.ml" 94 3064 3070 "plugins/dp/dp_why.ml" 94 3064 3124
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 95 3125 3142 "plugins/dp/dp_why.ml" 95 3125 3144
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 96 3154 3160 "plugins/dp/dp_why.ml" 96 3154 3185
+)
+"plugins/dp/dp_why.ml" 95 3125 3146 "plugins/dp/dp_why.ml" 95 3125 3148
+type(
+  Fol.term list
+)
+"plugins/dp/dp_why.ml" 95 3125 3135 "plugins/dp/dp_why.ml" 95 3125 3150
+type(
+  Fol.atom
+)
+"plugins/dp/dp_why.ml" 95 3125 3129 "plugins/dp/dp_why.ml" 95 3125 3150
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 96 3154 3160 "plugins/dp/dp_why.ml" 96 3154 3167
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 96 3154 3168 "plugins/dp/dp_why.ml" 96 3154 3171
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 96 3154 3172 "plugins/dp/dp_why.ml" 96 3154 3176
+type(
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format
+)
+"plugins/dp/dp_why.ml" 96 3154 3177 "plugins/dp/dp_why.ml" 96 3154 3182
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 96 3154 3183 "plugins/dp/dp_why.ml" 96 3154 3185
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 95 3125 3142 "plugins/dp/dp_why.ml" 95 3125 3144
+)
+"plugins/dp/dp_why.ml" 96 3154 3160 "plugins/dp/dp_why.ml" 96 3154 3185
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 97 3186 3203 "plugins/dp/dp_why.ml" 97 3186 3205
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 98 3215 3221 "plugins/dp/dp_why.ml" 98 3215 3269
+)
+"plugins/dp/dp_why.ml" 97 3186 3207 "plugins/dp/dp_why.ml" 97 3186 3209
+type(
+  Fol.term list
+)
+ident(
+  def tl "plugins/dp/dp_why.ml" 98 3215 3221 "plugins/dp/dp_why.ml" 98 3215 3269
+)
+"plugins/dp/dp_why.ml" 97 3186 3196 "plugins/dp/dp_why.ml" 97 3186 3211
+type(
+  Fol.atom
+)
+"plugins/dp/dp_why.ml" 97 3186 3190 "plugins/dp/dp_why.ml" 97 3186 3211
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 98 3215 3221 "plugins/dp/dp_why.ml" 98 3215 3228
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.term list -> unit) -> Fol.term list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> Fol.term list -> unit) -> Fol.term list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 98 3215 3229 "plugins/dp/dp_why.ml" 98 3215 3232
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 98 3215 3233 "plugins/dp/dp_why.ml" 98 3215 3245
+type(
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.term list -> unit) -> Fol.term list -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 98 3215 3246 "plugins/dp/dp_why.ml" 98 3215 3251
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 98 3215 3252 "plugins/dp/dp_why.ml" 98 3215 3254
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 97 3186 3203 "plugins/dp/dp_why.ml" 97 3186 3205
+)
+"plugins/dp/dp_why.ml" 98 3215 3255 "plugins/dp/dp_why.ml" 98 3215 3266
+type(
+  Format.formatter -> Fol.term list -> unit
+)
+ident(
+  int_ref print_terms "plugins/dp/dp_why.ml" 75 2478 2482 "plugins/dp/dp_why.ml" 75 2478 2493
+)
+"plugins/dp/dp_why.ml" 98 3215 3267 "plugins/dp/dp_why.ml" 98 3215 3269
+type(
+  Fol.term list
+)
+ident(
+  int_ref tl "plugins/dp/dp_why.ml" 97 3186 3207 "plugins/dp/dp_why.ml" 97 3186 3209
+)
+"plugins/dp/dp_why.ml" 98 3215 3221 "plugins/dp/dp_why.ml" 98 3215 3269
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 99 3270 3279 "plugins/dp/dp_why.ml" 99 3270 3280
+type(
+  Fol.form
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 100 3288 3294 "plugins/dp/dp_why.ml" 100 3288 3333
+)
+"plugins/dp/dp_why.ml" 99 3270 3282 "plugins/dp/dp_why.ml" 99 3270 3283
+type(
+  Fol.form
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 100 3288 3294 "plugins/dp/dp_why.ml" 100 3288 3333
+)
+"plugins/dp/dp_why.ml" 99 3270 3274 "plugins/dp/dp_why.ml" 99 3270 3284
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 100 3288 3294 "plugins/dp/dp_why.ml" 100 3288 3301
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.form -> unit) ->
+   Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.form -> unit) ->
+  Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 100 3288 3302 "plugins/dp/dp_why.ml" 100 3288 3305
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 100 3288 3306 "plugins/dp/dp_why.ml" 100 3288 3323
+type(
+  ((Format.formatter -> Fol.form -> unit) ->
+   Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 100 3288 3324 "plugins/dp/dp_why.ml" 100 3288 3326
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref pp "plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+)
+"plugins/dp/dp_why.ml" 100 3288 3327 "plugins/dp/dp_why.ml" 100 3288 3328
+type(
+  Fol.form
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 99 3270 3279 "plugins/dp/dp_why.ml" 99 3270 3280
+)
+"plugins/dp/dp_why.ml" 100 3288 3329 "plugins/dp/dp_why.ml" 100 3288 3331
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref pp "plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+)
+"plugins/dp/dp_why.ml" 100 3288 3332 "plugins/dp/dp_why.ml" 100 3288 3333
+type(
+  Fol.form
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 99 3270 3282 "plugins/dp/dp_why.ml" 99 3270 3283
+)
+"plugins/dp/dp_why.ml" 100 3288 3294 "plugins/dp/dp_why.ml" 100 3288 3333
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 101 3334 3343 "plugins/dp/dp_why.ml" 101 3334 3344
+type(
+  Fol.form
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 102 3352 3358 "plugins/dp/dp_why.ml" 102 3352 3398
+)
+"plugins/dp/dp_why.ml" 101 3334 3346 "plugins/dp/dp_why.ml" 101 3334 3347
+type(
+  Fol.form
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 102 3352 3358 "plugins/dp/dp_why.ml" 102 3352 3398
+)
+"plugins/dp/dp_why.ml" 101 3334 3338 "plugins/dp/dp_why.ml" 101 3334 3348
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 102 3352 3358 "plugins/dp/dp_why.ml" 102 3352 3365
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.form -> unit) ->
+   Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.form -> unit) ->
+  Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 102 3352 3366 "plugins/dp/dp_why.ml" 102 3352 3369
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 102 3352 3370 "plugins/dp/dp_why.ml" 102 3352 3388
+type(
+  ((Format.formatter -> Fol.form -> unit) ->
+   Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 102 3352 3389 "plugins/dp/dp_why.ml" 102 3352 3391
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref pp "plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+)
+"plugins/dp/dp_why.ml" 102 3352 3392 "plugins/dp/dp_why.ml" 102 3352 3393
+type(
+  Fol.form
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 101 3334 3343 "plugins/dp/dp_why.ml" 101 3334 3344
+)
+"plugins/dp/dp_why.ml" 102 3352 3394 "plugins/dp/dp_why.ml" 102 3352 3396
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref pp "plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+)
+"plugins/dp/dp_why.ml" 102 3352 3397 "plugins/dp/dp_why.ml" 102 3352 3398
+type(
+  Fol.form
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 101 3334 3346 "plugins/dp/dp_why.ml" 101 3334 3347
+)
+"plugins/dp/dp_why.ml" 102 3352 3358 "plugins/dp/dp_why.ml" 102 3352 3398
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 103 3399 3408 "plugins/dp/dp_why.ml" 103 3399 3409
+type(
+  Fol.form
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 104 3417 3423 "plugins/dp/dp_why.ml" 104 3417 3463
+)
+"plugins/dp/dp_why.ml" 103 3399 3411 "plugins/dp/dp_why.ml" 103 3399 3412
+type(
+  Fol.form
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 104 3417 3423 "plugins/dp/dp_why.ml" 104 3417 3463
+)
+"plugins/dp/dp_why.ml" 103 3399 3403 "plugins/dp/dp_why.ml" 103 3399 3413
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 104 3417 3423 "plugins/dp/dp_why.ml" 104 3417 3430
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.form -> unit) ->
+   Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.form -> unit) ->
+  Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 104 3417 3431 "plugins/dp/dp_why.ml" 104 3417 3434
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 104 3417 3435 "plugins/dp/dp_why.ml" 104 3417 3453
+type(
+  ((Format.formatter -> Fol.form -> unit) ->
+   Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 104 3417 3454 "plugins/dp/dp_why.ml" 104 3417 3456
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref pp "plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+)
+"plugins/dp/dp_why.ml" 104 3417 3457 "plugins/dp/dp_why.ml" 104 3417 3458
+type(
+  Fol.form
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 103 3399 3408 "plugins/dp/dp_why.ml" 103 3399 3409
+)
+"plugins/dp/dp_why.ml" 104 3417 3459 "plugins/dp/dp_why.ml" 104 3417 3461
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref pp "plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+)
+"plugins/dp/dp_why.ml" 104 3417 3462 "plugins/dp/dp_why.ml" 104 3417 3463
+type(
+  Fol.form
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 103 3399 3411 "plugins/dp/dp_why.ml" 103 3399 3412
+)
+"plugins/dp/dp_why.ml" 104 3417 3423 "plugins/dp/dp_why.ml" 104 3417 3463
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 105 3464 3472 "plugins/dp/dp_why.ml" 105 3464 3473
+type(
+  Fol.form
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 106 3481 3487 "plugins/dp/dp_why.ml" 106 3481 3526
+)
+"plugins/dp/dp_why.ml" 105 3464 3475 "plugins/dp/dp_why.ml" 105 3464 3476
+type(
+  Fol.form
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 106 3481 3487 "plugins/dp/dp_why.ml" 106 3481 3526
+)
+"plugins/dp/dp_why.ml" 105 3464 3468 "plugins/dp/dp_why.ml" 105 3464 3477
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 106 3481 3487 "plugins/dp/dp_why.ml" 106 3481 3494
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.form -> unit) ->
+   Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.form -> unit) ->
+  Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 106 3481 3495 "plugins/dp/dp_why.ml" 106 3481 3498
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 106 3481 3499 "plugins/dp/dp_why.ml" 106 3481 3516
+type(
+  ((Format.formatter -> Fol.form -> unit) ->
+   Fol.form -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 106 3481 3517 "plugins/dp/dp_why.ml" 106 3481 3519
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref pp "plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+)
+"plugins/dp/dp_why.ml" 106 3481 3520 "plugins/dp/dp_why.ml" 106 3481 3521
+type(
+  Fol.form
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 105 3464 3472 "plugins/dp/dp_why.ml" 105 3464 3473
+)
+"plugins/dp/dp_why.ml" 106 3481 3522 "plugins/dp/dp_why.ml" 106 3481 3524
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref pp "plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+)
+"plugins/dp/dp_why.ml" 106 3481 3525 "plugins/dp/dp_why.ml" 106 3481 3526
+type(
+  Fol.form
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 105 3464 3475 "plugins/dp/dp_why.ml" 105 3464 3476
+)
+"plugins/dp/dp_why.ml" 106 3481 3487 "plugins/dp/dp_why.ml" 106 3481 3526
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 107 3527 3535 "plugins/dp/dp_why.ml" 107 3527 3536
+type(
+  Fol.form
+)
+ident(
+  def a "plugins/dp/dp_why.ml" 108 3540 3546 "plugins/dp/dp_why.ml" 108 3540 3578
+)
+"plugins/dp/dp_why.ml" 107 3527 3531 "plugins/dp/dp_why.ml" 107 3527 3536
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 108 3540 3546 "plugins/dp/dp_why.ml" 108 3540 3553
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 108 3540 3554 "plugins/dp/dp_why.ml" 108 3540 3557
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 108 3540 3558 "plugins/dp/dp_why.ml" 108 3540 3573
+type(
+  ((Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 108 3540 3574 "plugins/dp/dp_why.ml" 108 3540 3576
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref pp "plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+)
+"plugins/dp/dp_why.ml" 108 3540 3577 "plugins/dp/dp_why.ml" 108 3540 3578
+type(
+  Fol.form
+)
+ident(
+  int_ref a "plugins/dp/dp_why.ml" 107 3527 3535 "plugins/dp/dp_why.ml" 107 3527 3536
+)
+"plugins/dp/dp_why.ml" 108 3540 3546 "plugins/dp/dp_why.ml" 108 3540 3578
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 109 3579 3591 "plugins/dp/dp_why.ml" 109 3579 3593
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 110 3604 3610 "plugins/dp/dp_why.ml" 110 3604 3673
+)
+"plugins/dp/dp_why.ml" 109 3579 3595 "plugins/dp/dp_why.ml" 109 3579 3596
+type(
+  Fol.typ
+)
+ident(
+  def t "plugins/dp/dp_why.ml" 110 3604 3610 "plugins/dp/dp_why.ml" 110 3604 3673
+)
+"plugins/dp/dp_why.ml" 109 3579 3598 "plugins/dp/dp_why.ml" 109 3579 3599
+type(
+  Fol.form
+)
+ident(
+  def p "plugins/dp/dp_why.ml" 110 3604 3610 "plugins/dp/dp_why.ml" 110 3604 3673
+)
+"plugins/dp/dp_why.ml" 109 3579 3583 "plugins/dp/dp_why.ml" 109 3579 3600
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 110 3604 3610 "plugins/dp/dp_why.ml" 110 3604 3617
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.typ -> unit) ->
+   Fol.typ -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> Fol.typ -> unit) ->
+  Fol.typ -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 110 3604 3618 "plugins/dp/dp_why.ml" 110 3604 3621
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 110 3604 3622 "plugins/dp/dp_why.ml" 110 3604 3647
+type(
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.typ -> unit) ->
+   Fol.typ -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 110 3604 3648 "plugins/dp/dp_why.ml" 110 3604 3653
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 110 3604 3654 "plugins/dp/dp_why.ml" 110 3604 3656
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 109 3579 3591 "plugins/dp/dp_why.ml" 109 3579 3593
+)
+"plugins/dp/dp_why.ml" 110 3604 3657 "plugins/dp/dp_why.ml" 110 3604 3666
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_why.ml" 43 1312 1320 "plugins/dp/dp_why.ml" 43 1312 1329
+)
+"plugins/dp/dp_why.ml" 110 3604 3667 "plugins/dp/dp_why.ml" 110 3604 3668
+type(
+  Fol.typ
+)
+ident(
+  int_ref t "plugins/dp/dp_why.ml" 109 3579 3595 "plugins/dp/dp_why.ml" 109 3579 3596
+)
+"plugins/dp/dp_why.ml" 110 3604 3669 "plugins/dp/dp_why.ml" 110 3604 3671
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref pp "plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+)
+"plugins/dp/dp_why.ml" 110 3604 3672 "plugins/dp/dp_why.ml" 110 3604 3673
+type(
+  Fol.form
+)
+ident(
+  int_ref p "plugins/dp/dp_why.ml" 109 3579 3598 "plugins/dp/dp_why.ml" 109 3579 3599
+)
+"plugins/dp/dp_why.ml" 110 3604 3610 "plugins/dp/dp_why.ml" 110 3604 3673
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 111 3674 3686 "plugins/dp/dp_why.ml" 111 3674 3688
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 112 3699 3705 "plugins/dp/dp_why.ml" 112 3699 3768
+)
+"plugins/dp/dp_why.ml" 111 3674 3690 "plugins/dp/dp_why.ml" 111 3674 3691
+type(
+  Fol.typ
+)
+ident(
+  def t "plugins/dp/dp_why.ml" 112 3699 3705 "plugins/dp/dp_why.ml" 112 3699 3768
+)
+"plugins/dp/dp_why.ml" 111 3674 3693 "plugins/dp/dp_why.ml" 111 3674 3694
+type(
+  Fol.form
+)
+ident(
+  def p "plugins/dp/dp_why.ml" 112 3699 3705 "plugins/dp/dp_why.ml" 112 3699 3768
+)
+"plugins/dp/dp_why.ml" 111 3674 3678 "plugins/dp/dp_why.ml" 111 3674 3695
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 112 3699 3705 "plugins/dp/dp_why.ml" 112 3699 3712
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.typ -> unit) ->
+   Fol.typ -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> Fol.typ -> unit) ->
+  Fol.typ -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 112 3699 3713 "plugins/dp/dp_why.ml" 112 3699 3716
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 78 2541 2565 "plugins/dp/dp_why.ml" 78 2541 2568
+)
+"plugins/dp/dp_why.ml" 112 3699 3717 "plugins/dp/dp_why.ml" 112 3699 3742
+type(
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.typ -> unit) ->
+   Fol.typ -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 112 3699 3743 "plugins/dp/dp_why.ml" 112 3699 3748
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 112 3699 3749 "plugins/dp/dp_why.ml" 112 3699 3751
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 111 3674 3686 "plugins/dp/dp_why.ml" 111 3674 3688
+)
+"plugins/dp/dp_why.ml" 112 3699 3752 "plugins/dp/dp_why.ml" 112 3699 3761
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_why.ml" 43 1312 1320 "plugins/dp/dp_why.ml" 43 1312 1329
+)
+"plugins/dp/dp_why.ml" 112 3699 3762 "plugins/dp/dp_why.ml" 112 3699 3763
+type(
+  Fol.typ
+)
+ident(
+  int_ref t "plugins/dp/dp_why.ml" 111 3674 3690 "plugins/dp/dp_why.ml" 111 3674 3691
+)
+"plugins/dp/dp_why.ml" 112 3699 3764 "plugins/dp/dp_why.ml" 112 3699 3766
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref pp "plugins/dp/dp_why.ml" 79 2573 2579 "plugins/dp/dp_why.ml" 79 2573 2581
+)
+"plugins/dp/dp_why.ml" 112 3699 3767 "plugins/dp/dp_why.ml" 112 3699 3768
+type(
+  Fol.form
+)
+ident(
+  int_ref p "plugins/dp/dp_why.ml" 111 3674 3693 "plugins/dp/dp_why.ml" 111 3674 3694
+)
+"plugins/dp/dp_why.ml" 112 3699 3705 "plugins/dp/dp_why.ml" 112 3699 3768
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 80 2603 2605 "plugins/dp/dp_why.ml" 112 3699 3768
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 79 2573 2575 "plugins/dp/dp_why.ml" 112 3699 3768
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 114 3770 3778 "plugins/dp/dp_why.ml" 114 3770 3788
+type(
+  (string * Fol.typ) list -> Fol.form -> (string * Fol.typ) list * Fol.form
+)
+ident(
+  def remove_iff "plugins/dp/dp_why.ml" 114 3770 3770 --
+)
+"plugins/dp/dp_why.ml" 114 3770 3789 "plugins/dp/dp_why.ml" 114 3770 3793
+type(
+  (string * Fol.typ) list
+)
+ident(
+  def args "plugins/dp/dp_why.ml" 114 3770 3796 "plugins/dp/dp_why.ml" 117 3889 3913
+)
+"plugins/dp/dp_why.ml" 115 3805 3817 "plugins/dp/dp_why.ml" 115 3805 3819
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 115 3805 3828 "plugins/dp/dp_why.ml" 115 3805 3855
+)
+"plugins/dp/dp_why.ml" 115 3805 3820 "plugins/dp/dp_why.ml" 115 3805 3821
+type(
+  Fol.typ
+)
+ident(
+  def t "plugins/dp/dp_why.ml" 115 3805 3828 "plugins/dp/dp_why.ml" 115 3805 3855
+)
+"plugins/dp/dp_why.ml" 115 3805 3822 "plugins/dp/dp_why.ml" 115 3805 3823
+type(
+  Fol.form
+)
+ident(
+  def p "plugins/dp/dp_why.ml" 115 3805 3828 "plugins/dp/dp_why.ml" 115 3805 3855
+)
+"plugins/dp/dp_why.ml" 115 3805 3809 "plugins/dp/dp_why.ml" 115 3805 3824
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 115 3805 3828 "plugins/dp/dp_why.ml" 115 3805 3838
+type(
+  (string * Fol.typ) list -> Fol.form -> (string * Fol.typ) list * Fol.form
+)
+ident(
+  int_ref remove_iff "plugins/dp/dp_why.ml" 114 3770 3778 "plugins/dp/dp_why.ml" 114 3770 3788
+)
+"plugins/dp/dp_why.ml" 115 3805 3841 "plugins/dp/dp_why.ml" 115 3805 3843
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 115 3805 3817 "plugins/dp/dp_why.ml" 115 3805 3819
+)
+"plugins/dp/dp_why.ml" 115 3805 3844 "plugins/dp/dp_why.ml" 115 3805 3845
+type(
+  Fol.typ
+)
+ident(
+  int_ref t "plugins/dp/dp_why.ml" 115 3805 3820 "plugins/dp/dp_why.ml" 115 3805 3821
+)
+"plugins/dp/dp_why.ml" 115 3805 3840 "plugins/dp/dp_why.ml" 115 3805 3846
+type(
+  string * Fol.typ
+)
+"plugins/dp/dp_why.ml" 115 3805 3848 "plugins/dp/dp_why.ml" 115 3805 3852
+type(
+  (string * Fol.typ) list
+)
+ident(
+  int_ref args "plugins/dp/dp_why.ml" 114 3770 3789 "plugins/dp/dp_why.ml" 114 3770 3793
+)
+"plugins/dp/dp_why.ml" 115 3805 3839 "plugins/dp/dp_why.ml" 115 3805 3853
+type(
+  (string * Fol.typ) list
+)
+"plugins/dp/dp_why.ml" 115 3805 3854 "plugins/dp/dp_why.ml" 115 3805 3855
+type(
+  Fol.form
+)
+ident(
+  int_ref p "plugins/dp/dp_why.ml" 115 3805 3822 "plugins/dp/dp_why.ml" 115 3805 3823
+)
+"plugins/dp/dp_why.ml" 115 3805 3828 "plugins/dp/dp_why.ml" 115 3805 3855
+call(
+  tail
+)
+type(
+  (string * Fol.typ) list * Fol.form
+)
+"plugins/dp/dp_why.ml" 116 3856 3864 "plugins/dp/dp_why.ml" 116 3856 3865
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 116 3856 3866 "plugins/dp/dp_why.ml" 116 3856 3867
+type(
+  Fol.form
+)
+ident(
+  def b "plugins/dp/dp_why.ml" 116 3856 3872 "plugins/dp/dp_why.ml" 116 3856 3888
+)
+"plugins/dp/dp_why.ml" 116 3856 3860 "plugins/dp/dp_why.ml" 116 3856 3868
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 116 3856 3872 "plugins/dp/dp_why.ml" 116 3856 3880
+type(
+  (string * Fol.typ) list -> (string * Fol.typ) list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/dp/dp_why.ml" 116 3856 3881 "plugins/dp/dp_why.ml" 116 3856 3885
+type(
+  (string * Fol.typ) list
+)
+ident(
+  int_ref args "plugins/dp/dp_why.ml" 114 3770 3789 "plugins/dp/dp_why.ml" 114 3770 3793
+)
+"plugins/dp/dp_why.ml" 116 3856 3872 "plugins/dp/dp_why.ml" 116 3856 3885
+call(
+  stack
+)
+type(
+  (string * Fol.typ) list
+)
+"plugins/dp/dp_why.ml" 116 3856 3887 "plugins/dp/dp_why.ml" 116 3856 3888
+type(
+  Fol.form
+)
+ident(
+  int_ref b "plugins/dp/dp_why.ml" 116 3856 3866 "plugins/dp/dp_why.ml" 116 3856 3867
+)
+"plugins/dp/dp_why.ml" 116 3856 3872 "plugins/dp/dp_why.ml" 116 3856 3888
+type(
+  (string * Fol.typ) list * Fol.form
+)
+"plugins/dp/dp_why.ml" 117 3889 3893 "plugins/dp/dp_why.ml" 117 3889 3894
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 117 3889 3898 "plugins/dp/dp_why.ml" 117 3889 3903
+type(
+  exn -> (string * Fol.typ) list * Fol.form
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/dp/dp_why.ml" 117 3889 3904 "plugins/dp/dp_why.ml" 117 3889 3913
+type(
+  exn
+)
+"plugins/dp/dp_why.ml" 117 3889 3898 "plugins/dp/dp_why.ml" 117 3889 3913
+type(
+  (string * Fol.typ) list * Fol.form
+)
+"plugins/dp/dp_why.ml" 114 3770 3796 "plugins/dp/dp_why.ml" 117 3889 3913
+type(
+  Fol.form -> (string * Fol.typ) list * Fol.form
+)
+"plugins/dp/dp_why.ml" 119 3915 3919 "plugins/dp/dp_why.ml" 119 3915 3930
+type(
+  Format.formatter -> Fol.decl list * Fol.form -> unit
+)
+ident(
+  def print_query "plugins/dp/dp_why.ml" 181 6020 6020 --
+)
+"plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+type(
+  Format.formatter
+)
+ident(
+  def fmt "plugins/dp/dp_why.ml" 119 3915 3935 "plugins/dp/dp_why.ml" 179 5950 6018
+)
+"plugins/dp/dp_why.ml" 119 3915 3936 "plugins/dp/dp_why.ml" 119 3915 3941
+type(
+  Fol.decl list
+)
+ident(
+  def decls "plugins/dp/dp_why.ml" 120 3951 3953 "plugins/dp/dp_why.ml" 179 5950 6018
+)
+"plugins/dp/dp_why.ml" 119 3915 3942 "plugins/dp/dp_why.ml" 119 3915 3947
+type(
+  Fol.form
+)
+ident(
+  def concl "plugins/dp/dp_why.ml" 120 3951 3953 "plugins/dp/dp_why.ml" 179 5950 6018
+)
+"plugins/dp/dp_why.ml" 119 3915 3935 "plugins/dp/dp_why.ml" 119 3915 3948
+type(
+  Fol.decl list * Fol.form
+)
+"plugins/dp/dp_why.ml" 120 3951 3957 "plugins/dp/dp_why.ml" 120 3951 3976
+type(
+  (string * Fol.typ list) list -> Fol.decl -> (string * Fol.typ list) list
+)
+"plugins/dp/dp_why.ml" 120 3951 3977 "plugins/dp/dp_why.ml" 120 3951 3978
+type(
+  (string * Fol.typ list) list
+)
+ident(
+  def l "plugins/dp/dp_why.ml" 121 3981 3985 "plugins/dp/dp_why.ml" 123 4041 4055
+)
+"plugins/dp/dp_why.ml" 122 3994 4012 "plugins/dp/dp_why.ml" 122 3994 4014
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 122 3994 4026 "plugins/dp/dp_why.ml" 122 3994 4040
+)
+"plugins/dp/dp_why.ml" 122 3994 4015 "plugins/dp/dp_why.ml" 122 3994 4016
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 122 3994 4017 "plugins/dp/dp_why.ml" 122 3994 4021
+type(
+  Fol.typ list
+)
+ident(
+  def args "plugins/dp/dp_why.ml" 122 3994 4026 "plugins/dp/dp_why.ml" 122 3994 4040
+)
+"plugins/dp/dp_why.ml" 122 3994 4002 "plugins/dp/dp_why.ml" 122 3994 4022
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 122 3994 4027 "plugins/dp/dp_why.ml" 122 3994 4029
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 122 3994 4012 "plugins/dp/dp_why.ml" 122 3994 4014
+)
+"plugins/dp/dp_why.ml" 122 3994 4030 "plugins/dp/dp_why.ml" 122 3994 4034
+type(
+  Fol.typ list
+)
+ident(
+  int_ref args "plugins/dp/dp_why.ml" 122 3994 4017 "plugins/dp/dp_why.ml" 122 3994 4021
+)
+"plugins/dp/dp_why.ml" 122 3994 4026 "plugins/dp/dp_why.ml" 122 3994 4035
+type(
+  string * Fol.typ list
+)
+"plugins/dp/dp_why.ml" 122 3994 4039 "plugins/dp/dp_why.ml" 122 3994 4040
+type(
+  (string * Fol.typ list) list
+)
+ident(
+  int_ref l "plugins/dp/dp_why.ml" 120 3951 3977 "plugins/dp/dp_why.ml" 120 3951 3978
+)
+"plugins/dp/dp_why.ml" 122 3994 4026 "plugins/dp/dp_why.ml" 122 3994 4040
+type(
+  (string * Fol.typ list) list
+)
+"plugins/dp/dp_why.ml" 123 4041 4049 "plugins/dp/dp_why.ml" 123 4041 4050
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 123 4041 4054 "plugins/dp/dp_why.ml" 123 4041 4055
+type(
+  (string * Fol.typ list) list
+)
+ident(
+  int_ref l "plugins/dp/dp_why.ml" 120 3951 3977 "plugins/dp/dp_why.ml" 120 3951 3978
+)
+"plugins/dp/dp_why.ml" 121 3981 3985 "plugins/dp/dp_why.ml" 123 4041 4055
+type(
+  Fol.decl -> (string * Fol.typ list) list
+)
+"plugins/dp/dp_why.ml" 125 4061 4067 "plugins/dp/dp_why.ml" 125 4061 4085
+type(
+  (string * 'a) list ->
+  (string * ((string * Fol.typ) list * Fol.form)) list ->
+  Fol.decl -> (string * ((string * Fol.typ) list * Fol.form)) list
+)
+"plugins/dp/dp_why.ml" 125 4061 4086 "plugins/dp/dp_why.ml" 125 4061 4094
+type(
+  (string * 'a) list
+)
+ident(
+  def declared "plugins/dp/dp_why.ml" 125 4061 4095 "plugins/dp/dp_why.ml" 131 4256 4268
+)
+"plugins/dp/dp_why.ml" 125 4061 4095 "plugins/dp/dp_why.ml" 125 4061 4096
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+ident(
+  def l "plugins/dp/dp_why.ml" 125 4061 4099 "plugins/dp/dp_why.ml" 131 4256 4268
+)
+"plugins/dp/dp_why.ml" 126 4108 4120 "plugins/dp/dp_why.ml" 126 4108 4122
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 127 4129 4137 "plugins/dp/dp_why.ml" 130 4226 4255
+)
+"plugins/dp/dp_why.ml" 126 4108 4123 "plugins/dp/dp_why.ml" 126 4108 4124
+type(
+  Fol.form
+)
+ident(
+  def f "plugins/dp/dp_why.ml" 127 4129 4137 "plugins/dp/dp_why.ml" 130 4226 4255
+)
+"plugins/dp/dp_why.ml" 126 4108 4114 "plugins/dp/dp_why.ml" 126 4108 4125
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 128 4142 4157 "plugins/dp/dp_why.ml" 128 4142 4162
+type(
+  'a
+)
+ident(
+  def _decl "plugins/dp/dp_why.ml" 129 4191 4202 "plugins/dp/dp_why.ml" 129 4191 4225
+)
+"plugins/dp/dp_why.ml" 128 4142 4165 "plugins/dp/dp_why.ml" 128 4142 4175
+type(
+  string -> (string * 'a) list -> 'a
+)
+ident(
+  ext_ref List.assoc
+)
+"plugins/dp/dp_why.ml" 128 4142 4176 "plugins/dp/dp_why.ml" 128 4142 4178
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 126 4108 4120 "plugins/dp/dp_why.ml" 126 4108 4122
+)
+"plugins/dp/dp_why.ml" 128 4142 4179 "plugins/dp/dp_why.ml" 128 4142 4187
+type(
+  (string * 'a) list
+)
+ident(
+  int_ref declared "plugins/dp/dp_why.ml" 125 4061 4086 "plugins/dp/dp_why.ml" 125 4061 4094
+)
+"plugins/dp/dp_why.ml" 128 4142 4165 "plugins/dp/dp_why.ml" 128 4142 4187
+call(
+  stack
+)
+type(
+  'a
+)
+"plugins/dp/dp_why.ml" 129 4191 4203 "plugins/dp/dp_why.ml" 129 4191 4205
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 126 4108 4120 "plugins/dp/dp_why.ml" 126 4108 4122
+)
+"plugins/dp/dp_why.ml" 129 4191 4206 "plugins/dp/dp_why.ml" 129 4191 4216
+type(
+  (string * Fol.typ) list -> Fol.form -> (string * Fol.typ) list * Fol.form
+)
+ident(
+  int_ref remove_iff "plugins/dp/dp_why.ml" 114 3770 3778 "plugins/dp/dp_why.ml" 114 3770 3788
+)
+"plugins/dp/dp_why.ml" 129 4191 4217 "plugins/dp/dp_why.ml" 129 4191 4219
+type(
+  (string * Fol.typ) list
+)
+"plugins/dp/dp_why.ml" 129 4191 4220 "plugins/dp/dp_why.ml" 129 4191 4221
+type(
+  Fol.form
+)
+ident(
+  int_ref f "plugins/dp/dp_why.ml" 126 4108 4123 "plugins/dp/dp_why.ml" 126 4108 4124
+)
+"plugins/dp/dp_why.ml" 129 4191 4206 "plugins/dp/dp_why.ml" 129 4191 4221
+call(
+  stack
+)
+type(
+  (string * Fol.typ) list * Fol.form
+)
+"plugins/dp/dp_why.ml" 129 4191 4202 "plugins/dp/dp_why.ml" 129 4191 4222
+type(
+  string * ((string * Fol.typ) list * Fol.form)
+)
+"plugins/dp/dp_why.ml" 129 4191 4224 "plugins/dp/dp_why.ml" 129 4191 4225
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+ident(
+  int_ref l "plugins/dp/dp_why.ml" 125 4061 4095 "plugins/dp/dp_why.ml" 125 4061 4096
+)
+"plugins/dp/dp_why.ml" 129 4191 4202 "plugins/dp/dp_why.ml" 129 4191 4225
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+"plugins/dp/dp_why.ml" 128 4142 4153 "plugins/dp/dp_why.ml" 129 4191 4225
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+"plugins/dp/dp_why.ml" 130 4226 4240 "plugins/dp/dp_why.ml" 130 4226 4249
+type(
+  exn
+)
+"plugins/dp/dp_why.ml" 130 4226 4253 "plugins/dp/dp_why.ml" 130 4226 4254
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+ident(
+  int_ref l "plugins/dp/dp_why.ml" 125 4061 4095 "plugins/dp/dp_why.ml" 125 4061 4096
+)
+"plugins/dp/dp_why.ml" 127 4129 4137 "plugins/dp/dp_why.ml" 130 4226 4255
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+"plugins/dp/dp_why.ml" 131 4256 4262 "plugins/dp/dp_why.ml" 131 4256 4263
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 131 4256 4267 "plugins/dp/dp_why.ml" 131 4256 4268
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+ident(
+  int_ref l "plugins/dp/dp_why.ml" 125 4061 4095 "plugins/dp/dp_why.ml" 125 4061 4096
+)
+"plugins/dp/dp_why.ml" 125 4061 4099 "plugins/dp/dp_why.ml" 131 4256 4268
+type(
+  Fol.decl -> (string * ((string * Fol.typ) list * Fol.form)) list
+)
+"plugins/dp/dp_why.ml" 133 4274 4280 "plugins/dp/dp_why.ml" 133 4274 4294
+type(
+  (string * Fol.typ list) list
+)
+"plugins/dp/dp_why.ml" 134 4297 4301 "plugins/dp/dp_why.ml" 134 4297 4315
+type(
+  ((string * Fol.typ list) list -> Fol.decl -> (string * Fol.typ list) list) ->
+  (string * Fol.typ list) list ->
+  Fol.decl list -> (string * Fol.typ list) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"plugins/dp/dp_why.ml" 134 4297 4316 "plugins/dp/dp_why.ml" 134 4297 4335
+type(
+  (string * Fol.typ list) list -> Fol.decl -> (string * Fol.typ list) list
+)
+ident(
+  int_ref find_declared_preds "plugins/dp/dp_why.ml" 120 3951 3957 "plugins/dp/dp_why.ml" 120 3951 3976
+)
+"plugins/dp/dp_why.ml" 134 4297 4336 "plugins/dp/dp_why.ml" 134 4297 4338
+type(
+  (string * Fol.typ list) list
+)
+"plugins/dp/dp_why.ml" 134 4297 4339 "plugins/dp/dp_why.ml" 134 4297 4344
+type(
+  Fol.decl list
+)
+ident(
+  int_ref decls "plugins/dp/dp_why.ml" 119 3915 3936 "plugins/dp/dp_why.ml" 119 3915 3941
+)
+"plugins/dp/dp_why.ml" 134 4297 4301 "plugins/dp/dp_why.ml" 134 4297 4344
+call(
+  stack
+)
+type(
+  (string * Fol.typ list) list
+)
+"plugins/dp/dp_why.ml" 135 4348 4354 "plugins/dp/dp_why.ml" 135 4348 4367
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+"plugins/dp/dp_why.ml" 136 4370 4374 "plugins/dp/dp_why.ml" 136 4370 4388
+type(
+  ((string * ((string * Fol.typ) list * Fol.form)) list ->
+   Fol.decl -> (string * ((string * Fol.typ) list * Fol.form)) list) ->
+  (string * ((string * Fol.typ) list * Fol.form)) list ->
+  Fol.decl list -> (string * ((string * Fol.typ) list * Fol.form)) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"plugins/dp/dp_why.ml" 136 4370 4390 "plugins/dp/dp_why.ml" 136 4370 4408
+type(
+  (string * Fol.typ list) list ->
+  (string * ((string * Fol.typ) list * Fol.form)) list ->
+  Fol.decl -> (string * ((string * Fol.typ) list * Fol.form)) list
+)
+ident(
+  int_ref find_defined_preds "plugins/dp/dp_why.ml" 125 4061 4067 "plugins/dp/dp_why.ml" 125 4061 4085
+)
+"plugins/dp/dp_why.ml" 136 4370 4409 "plugins/dp/dp_why.ml" 136 4370 4423
+type(
+  (string * Fol.typ list) list
+)
+ident(
+  int_ref declared_preds "plugins/dp/dp_why.ml" 133 4274 4280 "plugins/dp/dp_why.ml" 133 4274 4294
+)
+"plugins/dp/dp_why.ml" 136 4370 4389 "plugins/dp/dp_why.ml" 136 4370 4424
+call(
+  stack
+)
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list ->
+  Fol.decl -> (string * ((string * Fol.typ) list * Fol.form)) list
+)
+"plugins/dp/dp_why.ml" 136 4370 4425 "plugins/dp/dp_why.ml" 136 4370 4427
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+"plugins/dp/dp_why.ml" 136 4370 4428 "plugins/dp/dp_why.ml" 136 4370 4433
+type(
+  Fol.decl list
+)
+ident(
+  int_ref decls "plugins/dp/dp_why.ml" 119 3915 3936 "plugins/dp/dp_why.ml" 119 3915 3941
+)
+"plugins/dp/dp_why.ml" 136 4370 4374 "plugins/dp/dp_why.ml" 136 4370 4433
+call(
+  stack
+)
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+"plugins/dp/dp_why.ml" 138 4439 4445 "plugins/dp/dp_why.ml" 138 4439 4456
+type(
+  Fol.decl -> unit
+)
+"plugins/dp/dp_why.ml" 139 4468 4484 "plugins/dp/dp_why.ml" 139 4468 4486
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 140 4494 4495 "plugins/dp/dp_why.ml" 140 4494 4535
+)
+"plugins/dp/dp_why.ml" 139 4468 4488 "plugins/dp/dp_why.ml" 139 4468 4489
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 139 4468 4474 "plugins/dp/dp_why.ml" 139 4468 4490
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 140 4494 4495 "plugins/dp/dp_why.ml" 140 4494 4502
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 140 4494 4503 "plugins/dp/dp_why.ml" 140 4494 4506
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 140 4494 4507 "plugins/dp/dp_why.ml" 140 4494 4526
+type(
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format
+)
+"plugins/dp/dp_why.ml" 140 4494 4527 "plugins/dp/dp_why.ml" 140 4494 4532
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 140 4494 4533 "plugins/dp/dp_why.ml" 140 4494 4535
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 139 4468 4484 "plugins/dp/dp_why.ml" 139 4468 4486
+)
+"plugins/dp/dp_why.ml" 140 4494 4495 "plugins/dp/dp_why.ml" 140 4494 4535
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 141 4536 4552 "plugins/dp/dp_why.ml" 141 4536 4554
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 142 4562 4563 "plugins/dp/dp_why.ml" 142 4562 4606
+)
+"plugins/dp/dp_why.ml" 141 4536 4556 "plugins/dp/dp_why.ml" 141 4536 4557
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 141 4536 4542 "plugins/dp/dp_why.ml" 141 4536 4558
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 142 4562 4563 "plugins/dp/dp_why.ml" 142 4562 4570
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 142 4562 4571 "plugins/dp/dp_why.ml" 142 4562 4574
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 142 4562 4575 "plugins/dp/dp_why.ml" 142 4562 4597
+type(
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format
+)
+"plugins/dp/dp_why.ml" 142 4562 4598 "plugins/dp/dp_why.ml" 142 4562 4603
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 142 4562 4604 "plugins/dp/dp_why.ml" 142 4562 4606
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 141 4536 4552 "plugins/dp/dp_why.ml" 141 4536 4554
+)
+"plugins/dp/dp_why.ml" 142 4562 4563 "plugins/dp/dp_why.ml" 142 4562 4606
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 143 4607 4623 "plugins/dp/dp_why.ml" 143 4607 4625
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 144 4633 4634 "plugins/dp/dp_why.ml" 148 4740 4776
+)
+"plugins/dp/dp_why.ml" 143 4607 4627 "plugins/dp/dp_why.ml" 143 4607 4628
+type(
+  int
+)
+ident(
+  def n "plugins/dp/dp_why.ml" 144 4633 4634 "plugins/dp/dp_why.ml" 148 4740 4776
+)
+"plugins/dp/dp_why.ml" 143 4607 4613 "plugins/dp/dp_why.ml" 143 4607 4629
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 144 4633 4634 "plugins/dp/dp_why.ml" 144 4633 4641
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 144 4633 4642 "plugins/dp/dp_why.ml" 144 4633 4645
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 144 4633 4646 "plugins/dp/dp_why.ml" 144 4633 4656
+type(
+  (unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 144 4633 4634 "plugins/dp/dp_why.ml" 144 4633 4656
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 145 4658 4667 "plugins/dp/dp_why.ml" 145 4658 4668
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 145 4658 4672 "plugins/dp/dp_why.ml" 145 4658 4673
+type(
+  int
+)
+ident(
+  int_ref n "plugins/dp/dp_why.ml" 143 4607 4627 "plugins/dp/dp_why.ml" 143 4607 4628
+)
+"plugins/dp/dp_why.ml" 146 4677 4680 "plugins/dp/dp_why.ml" 146 4677 4687
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 146 4677 4688 "plugins/dp/dp_why.ml" 146 4677 4691
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 146 4677 4692 "plugins/dp/dp_why.ml" 146 4677 4698
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 146 4677 4699 "plugins/dp/dp_why.ml" 146 4677 4700
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 146 4677 4680 "plugins/dp/dp_why.ml" 146 4677 4700
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 146 4677 4705 "plugins/dp/dp_why.ml" 146 4677 4706
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 146 4677 4707 "plugins/dp/dp_why.ml" 146 4677 4708
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"plugins/dp/dp_why.ml" 146 4677 4709 "plugins/dp/dp_why.ml" 146 4677 4710
+type(
+  int
+)
+ident(
+  int_ref n "plugins/dp/dp_why.ml" 143 4607 4627 "plugins/dp/dp_why.ml" 143 4607 4628
+)
+"plugins/dp/dp_why.ml" 146 4677 4705 "plugins/dp/dp_why.ml" 146 4677 4710
+type(
+  bool
+)
+"plugins/dp/dp_why.ml" 146 4677 4716 "plugins/dp/dp_why.ml" 146 4677 4723
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 146 4677 4724 "plugins/dp/dp_why.ml" 146 4677 4727
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 146 4677 4728 "plugins/dp/dp_why.ml" 146 4677 4732
+type(
+  (unit, Format.formatter, unit) format
+)
+"plugins/dp/dp_why.ml" 146 4677 4716 "plugins/dp/dp_why.ml" 146 4677 4732
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 146 4677 4702 "plugins/dp/dp_why.ml" 146 4677 4732
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 146 4677 4680 "plugins/dp/dp_why.ml" 146 4677 4732
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 145 4658 4659 "plugins/dp/dp_why.ml" 147 4733 4738
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 148 4740 4741 "plugins/dp/dp_why.ml" 148 4740 4748
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 148 4740 4749 "plugins/dp/dp_why.ml" 148 4740 4752
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 148 4740 4753 "plugins/dp/dp_why.ml" 148 4740 4767
+type(
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format
+)
+"plugins/dp/dp_why.ml" 148 4740 4768 "plugins/dp/dp_why.ml" 148 4740 4773
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 148 4740 4774 "plugins/dp/dp_why.ml" 148 4740 4776
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 143 4607 4623 "plugins/dp/dp_why.ml" 143 4607 4625
+)
+"plugins/dp/dp_why.ml" 148 4740 4741 "plugins/dp/dp_why.ml" 148 4740 4776
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 145 4658 4659 "plugins/dp/dp_why.ml" 148 4740 4776
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 144 4633 4634 "plugins/dp/dp_why.ml" 148 4740 4776
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 149 4777 4791 "plugins/dp/dp_why.ml" 149 4777 4792
+type(
+  Fol.typ
+)
+type(
+  Fol.typ list
+)
+type(
+  int
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 149 4777 4783 "plugins/dp/dp_why.ml" 149 4777 4792
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 149 4777 4804 "plugins/dp/dp_why.ml" 149 4777 4805
+type(
+  Fol.typ list
+)
+type(
+  int
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 149 4777 4795 "plugins/dp/dp_why.ml" 149 4777 4805
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 149 4777 4783 "plugins/dp/dp_why.ml" 149 4777 4805
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 149 4777 4814 "plugins/dp/dp_why.ml" 149 4777 4815
+type(
+  Fol.form
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 149 4777 4808 "plugins/dp/dp_why.ml" 149 4777 4815
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 149 4777 4783 "plugins/dp/dp_why.ml" 149 4777 4815
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 150 4819 4820 "plugins/dp/dp_why.ml" 150 4819 4822
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 138 4439 4459 "plugins/dp/dp_why.ml" 150 4819 4822
+type(
+  Fol.decl -> unit
+)
+"plugins/dp/dp_why.ml" 152 4828 4834 "plugins/dp/dp_why.ml" 152 4828 4850
+type(
+  Fol.decl -> unit
+)
+"plugins/dp/dp_why.ml" 153 4862 4877 "plugins/dp/dp_why.ml" 153 4862 4879
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 154 4894 4895 "plugins/dp/dp_why.ml" 154 4894 4956
+)
+"plugins/dp/dp_why.ml" 153 4862 4881 "plugins/dp/dp_why.ml" 153 4862 4882
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 153 4862 4884 "plugins/dp/dp_why.ml" 153 4862 4886
+type(
+  Fol.typ list
+)
+"plugins/dp/dp_why.ml" 153 4862 4888 "plugins/dp/dp_why.ml" 153 4862 4889
+type(
+  Fol.typ
+)
+ident(
+  def t "plugins/dp/dp_why.ml" 154 4894 4895 "plugins/dp/dp_why.ml" 154 4894 4956
+)
+"plugins/dp/dp_why.ml" 153 4862 4868 "plugins/dp/dp_why.ml" 153 4862 4890
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 154 4894 4895 "plugins/dp/dp_why.ml" 154 4894 4902
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 154 4894 4903 "plugins/dp/dp_why.ml" 154 4894 4906
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 154 4894 4907 "plugins/dp/dp_why.ml" 154 4894 4935
+type(
+  ((Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 154 4894 4936 "plugins/dp/dp_why.ml" 154 4894 4941
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 154 4894 4942 "plugins/dp/dp_why.ml" 154 4894 4944
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 153 4862 4877 "plugins/dp/dp_why.ml" 153 4862 4879
+)
+"plugins/dp/dp_why.ml" 154 4894 4945 "plugins/dp/dp_why.ml" 154 4894 4954
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_why.ml" 43 1312 1320 "plugins/dp/dp_why.ml" 43 1312 1329
+)
+"plugins/dp/dp_why.ml" 154 4894 4955 "plugins/dp/dp_why.ml" 154 4894 4956
+type(
+  Fol.typ
+)
+ident(
+  int_ref t "plugins/dp/dp_why.ml" 153 4862 4888 "plugins/dp/dp_why.ml" 153 4862 4889
+)
+"plugins/dp/dp_why.ml" 154 4894 4895 "plugins/dp/dp_why.ml" 154 4894 4956
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 155 4957 4972 "plugins/dp/dp_why.ml" 155 4957 4974
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 156 4988 4989 "plugins/dp/dp_why.ml" 157 5033 5087
+)
+"plugins/dp/dp_why.ml" 155 4957 4976 "plugins/dp/dp_why.ml" 155 4957 4977
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 155 4957 4979 "plugins/dp/dp_why.ml" 155 4957 4980
+type(
+  Fol.typ list
+)
+ident(
+  def l "plugins/dp/dp_why.ml" 156 4988 4989 "plugins/dp/dp_why.ml" 157 5033 5087
+)
+"plugins/dp/dp_why.ml" 155 4957 4982 "plugins/dp/dp_why.ml" 155 4957 4983
+type(
+  Fol.typ
+)
+ident(
+  def t "plugins/dp/dp_why.ml" 156 4988 4989 "plugins/dp/dp_why.ml" 157 5033 5087
+)
+"plugins/dp/dp_why.ml" 155 4957 4963 "plugins/dp/dp_why.ml" 155 4957 4984
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 156 4988 4989 "plugins/dp/dp_why.ml" 156 4988 4996
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.typ list -> unit) ->
+   Fol.typ list -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> Fol.typ list -> unit) ->
+  Fol.typ list -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 156 4988 4997 "plugins/dp/dp_why.ml" 156 4988 5000
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 156 4988 5001 "plugins/dp/dp_why.ml" 156 4988 5032
+type(
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.typ list -> unit) ->
+   Fol.typ list -> (Format.formatter -> Fol.typ -> unit) -> Fol.typ -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 157 5033 5036 "plugins/dp/dp_why.ml" 157 5033 5041
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 157 5033 5042 "plugins/dp/dp_why.ml" 157 5033 5044
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 155 4957 4972 "plugins/dp/dp_why.ml" 155 4957 4974
+)
+"plugins/dp/dp_why.ml" 157 5033 5046 "plugins/dp/dp_why.ml" 157 5033 5056
+type(
+  (Format.formatter -> unit -> unit) ->
+  (Format.formatter -> Fol.typ -> unit) ->
+  Format.formatter -> Fol.typ list -> unit
+)
+ident(
+  int_ref print_list "plugins/dp/dp_why.ml" 19 404 412 "plugins/dp/dp_why.ml" 19 404 422
+)
+"plugins/dp/dp_why.ml" 157 5033 5057 "plugins/dp/dp_why.ml" 157 5033 5062
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref comma "plugins/dp/dp_why.ml" 25 587 591 "plugins/dp/dp_why.ml" 25 587 596
+)
+"plugins/dp/dp_why.ml" 157 5033 5063 "plugins/dp/dp_why.ml" 157 5033 5072
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_why.ml" 43 1312 1320 "plugins/dp/dp_why.ml" 43 1312 1329
+)
+"plugins/dp/dp_why.ml" 157 5033 5045 "plugins/dp/dp_why.ml" 157 5033 5073
+call(
+  stack
+)
+type(
+  Format.formatter -> Fol.typ list -> unit
+)
+"plugins/dp/dp_why.ml" 157 5033 5074 "plugins/dp/dp_why.ml" 157 5033 5075
+type(
+  Fol.typ list
+)
+ident(
+  int_ref l "plugins/dp/dp_why.ml" 155 4957 4979 "plugins/dp/dp_why.ml" 155 4957 4980
+)
+"plugins/dp/dp_why.ml" 157 5033 5076 "plugins/dp/dp_why.ml" 157 5033 5085
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_why.ml" 43 1312 1320 "plugins/dp/dp_why.ml" 43 1312 1329
+)
+"plugins/dp/dp_why.ml" 157 5033 5086 "plugins/dp/dp_why.ml" 157 5033 5087
+type(
+  Fol.typ
+)
+ident(
+  int_ref t "plugins/dp/dp_why.ml" 155 4957 4982 "plugins/dp/dp_why.ml" 155 4957 4983
+)
+"plugins/dp/dp_why.ml" 156 4988 4989 "plugins/dp/dp_why.ml" 157 5033 5087
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 158 5088 5104 "plugins/dp/dp_why.ml" 158 5088 5106
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 158 5088 5115 "plugins/dp/dp_why.ml" 159 5161 5214
+)
+"plugins/dp/dp_why.ml" 158 5088 5108 "plugins/dp/dp_why.ml" 158 5088 5109
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 158 5088 5111 "plugins/dp/dp_why.ml" 158 5088 5113
+type(
+  Fol.typ list
+)
+"plugins/dp/dp_why.ml" 158 5088 5094 "plugins/dp/dp_why.ml" 158 5088 5114
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 158 5088 5120 "plugins/dp/dp_why.ml" 158 5088 5123
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/dp/dp_why.ml" 158 5088 5125 "plugins/dp/dp_why.ml" 158 5088 5139
+type(
+  string -> (string * ((string * Fol.typ) list * Fol.form)) list -> bool
+)
+ident(
+  ext_ref List.mem_assoc
+)
+"plugins/dp/dp_why.ml" 158 5088 5140 "plugins/dp/dp_why.ml" 158 5088 5142
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 158 5088 5104 "plugins/dp/dp_why.ml" 158 5088 5106
+)
+"plugins/dp/dp_why.ml" 158 5088 5143 "plugins/dp/dp_why.ml" 158 5088 5156
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+ident(
+  int_ref defined_preds "plugins/dp/dp_why.ml" 135 4348 4354 "plugins/dp/dp_why.ml" 135 4348 4367
+)
+"plugins/dp/dp_why.ml" 158 5088 5124 "plugins/dp/dp_why.ml" 158 5088 5157
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/dp/dp_why.ml" 158 5088 5120 "plugins/dp/dp_why.ml" 158 5088 5157
+type(
+  bool
+)
+"plugins/dp/dp_why.ml" 159 5161 5162 "plugins/dp/dp_why.ml" 159 5161 5169
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 159 5161 5170 "plugins/dp/dp_why.ml" 159 5161 5173
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 159 5161 5174 "plugins/dp/dp_why.ml" 159 5161 5205
+type(
+  ((Format.formatter -> string -> unit) -> string -> unit, Format.formatter,
+   unit)
+  format
+)
+"plugins/dp/dp_why.ml" 159 5161 5206 "plugins/dp/dp_why.ml" 159 5161 5211
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 159 5161 5212 "plugins/dp/dp_why.ml" 159 5161 5214
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 158 5088 5104 "plugins/dp/dp_why.ml" 158 5088 5106
+)
+"plugins/dp/dp_why.ml" 159 5161 5162 "plugins/dp/dp_why.ml" 159 5161 5214
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 158 5088 5115 "plugins/dp/dp_why.ml" 159 5161 5214
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 160 5215 5231 "plugins/dp/dp_why.ml" 160 5215 5233
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 160 5215 5241 "plugins/dp/dp_why.ml" 162 5334 5376
+)
+"plugins/dp/dp_why.ml" 160 5215 5235 "plugins/dp/dp_why.ml" 160 5215 5236
+type(
+  int
+)
+"plugins/dp/dp_why.ml" 160 5215 5238 "plugins/dp/dp_why.ml" 160 5215 5239
+type(
+  Fol.typ list
+)
+ident(
+  def l "plugins/dp/dp_why.ml" 160 5215 5241 "plugins/dp/dp_why.ml" 162 5334 5376
+)
+"plugins/dp/dp_why.ml" 160 5215 5221 "plugins/dp/dp_why.ml" 160 5215 5240
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 160 5215 5246 "plugins/dp/dp_why.ml" 160 5215 5249
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/dp/dp_why.ml" 160 5215 5251 "plugins/dp/dp_why.ml" 160 5215 5265
+type(
+  string -> (string * ((string * Fol.typ) list * Fol.form)) list -> bool
+)
+ident(
+  ext_ref List.mem_assoc
+)
+"plugins/dp/dp_why.ml" 160 5215 5266 "plugins/dp/dp_why.ml" 160 5215 5268
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 160 5215 5231 "plugins/dp/dp_why.ml" 160 5215 5233
+)
+"plugins/dp/dp_why.ml" 160 5215 5269 "plugins/dp/dp_why.ml" 160 5215 5282
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+ident(
+  int_ref defined_preds "plugins/dp/dp_why.ml" 135 4348 4354 "plugins/dp/dp_why.ml" 135 4348 4367
+)
+"plugins/dp/dp_why.ml" 160 5215 5250 "plugins/dp/dp_why.ml" 160 5215 5283
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/dp/dp_why.ml" 160 5215 5246 "plugins/dp/dp_why.ml" 160 5215 5283
+type(
+  bool
+)
+"plugins/dp/dp_why.ml" 161 5287 5288 "plugins/dp/dp_why.ml" 161 5287 5295
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.typ list -> unit) -> Fol.typ list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> Fol.typ list -> unit) -> Fol.typ list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 161 5287 5296 "plugins/dp/dp_why.ml" 161 5287 5299
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 161 5287 5300 "plugins/dp/dp_why.ml" 161 5287 5333
+type(
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> Fol.typ list -> unit) -> Fol.typ list -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 162 5334 5337 "plugins/dp/dp_why.ml" 162 5334 5342
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 162 5334 5343 "plugins/dp/dp_why.ml" 162 5334 5345
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 160 5215 5231 "plugins/dp/dp_why.ml" 160 5215 5233
+)
+"plugins/dp/dp_why.ml" 162 5334 5347 "plugins/dp/dp_why.ml" 162 5334 5357
+type(
+  (Format.formatter -> unit -> unit) ->
+  (Format.formatter -> Fol.typ -> unit) ->
+  Format.formatter -> Fol.typ list -> unit
+)
+ident(
+  int_ref print_list "plugins/dp/dp_why.ml" 19 404 412 "plugins/dp/dp_why.ml" 19 404 422
+)
+"plugins/dp/dp_why.ml" 162 5334 5358 "plugins/dp/dp_why.ml" 162 5334 5363
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref comma "plugins/dp/dp_why.ml" 25 587 591 "plugins/dp/dp_why.ml" 25 587 596
+)
+"plugins/dp/dp_why.ml" 162 5334 5364 "plugins/dp/dp_why.ml" 162 5334 5373
+type(
+  Format.formatter -> Fol.typ -> unit
+)
+ident(
+  int_ref print_typ "plugins/dp/dp_why.ml" 43 1312 1320 "plugins/dp/dp_why.ml" 43 1312 1329
+)
+"plugins/dp/dp_why.ml" 162 5334 5346 "plugins/dp/dp_why.ml" 162 5334 5374
+call(
+  stack
+)
+type(
+  Format.formatter -> Fol.typ list -> unit
+)
+"plugins/dp/dp_why.ml" 162 5334 5375 "plugins/dp/dp_why.ml" 162 5334 5376
+type(
+  Fol.typ list
+)
+ident(
+  int_ref l "plugins/dp/dp_why.ml" 160 5215 5238 "plugins/dp/dp_why.ml" 160 5215 5239
+)
+"plugins/dp/dp_why.ml" 161 5287 5288 "plugins/dp/dp_why.ml" 162 5334 5376
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 160 5215 5241 "plugins/dp/dp_why.ml" 162 5334 5376
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 163 5377 5392 "plugins/dp/dp_why.ml" 163 5377 5393
+type(
+  int
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 163 5377 5383 "plugins/dp/dp_why.ml" 163 5377 5393
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 163 5377 5402 "plugins/dp/dp_why.ml" 163 5377 5403
+type(
+  Fol.form
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 163 5377 5396 "plugins/dp/dp_why.ml" 163 5377 5403
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 163 5377 5383 "plugins/dp/dp_why.ml" 163 5377 5403
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 163 5377 5415 "plugins/dp/dp_why.ml" 163 5377 5416
+type(
+  Fol.typ list
+)
+type(
+  int
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 163 5377 5406 "plugins/dp/dp_why.ml" 163 5377 5416
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 163 5377 5383 "plugins/dp/dp_why.ml" 163 5377 5416
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 164 5420 5421 "plugins/dp/dp_why.ml" 164 5420 5423
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 152 4828 4853 "plugins/dp/dp_why.ml" 164 5420 5423
+type(
+  Fol.decl -> unit
+)
+"plugins/dp/dp_why.ml" 166 5429 5435 "plugins/dp/dp_why.ml" 166 5429 5447
+type(
+  Fol.decl -> unit
+)
+"plugins/dp/dp_why.ml" 167 5459 5471 "plugins/dp/dp_why.ml" 167 5459 5473
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 167 5459 5477 "plugins/dp/dp_why.ml" 170 5634 5697
+)
+"plugins/dp/dp_why.ml" 167 5459 5474 "plugins/dp/dp_why.ml" 167 5459 5475
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 167 5459 5465 "plugins/dp/dp_why.ml" 167 5459 5476
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 167 5459 5482 "plugins/dp/dp_why.ml" 167 5459 5496
+type(
+  string -> (string * ((string * Fol.typ) list * Fol.form)) list -> bool
+)
+ident(
+  ext_ref List.mem_assoc
+)
+"plugins/dp/dp_why.ml" 167 5459 5497 "plugins/dp/dp_why.ml" 167 5459 5499
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 167 5459 5471 "plugins/dp/dp_why.ml" 167 5459 5473
+)
+"plugins/dp/dp_why.ml" 167 5459 5500 "plugins/dp/dp_why.ml" 167 5459 5513
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+ident(
+  int_ref defined_preds "plugins/dp/dp_why.ml" 135 4348 4354 "plugins/dp/dp_why.ml" 135 4348 4367
+)
+"plugins/dp/dp_why.ml" 167 5459 5482 "plugins/dp/dp_why.ml" 167 5459 5513
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/dp/dp_why.ml" 168 5517 5529 "plugins/dp/dp_why.ml" 168 5517 5533
+type(
+  (string * Fol.typ) list
+)
+"plugins/dp/dp_why.ml" 168 5517 5535 "plugins/dp/dp_why.ml" 168 5517 5538
+type(
+  Fol.form
+)
+"plugins/dp/dp_why.ml" 168 5517 5529 "plugins/dp/dp_why.ml" 168 5517 5538
+type(
+  (string * Fol.typ) list * Fol.form
+)
+"plugins/dp/dp_why.ml" 168 5517 5541 "plugins/dp/dp_why.ml" 168 5517 5551
+type(
+  string ->
+  (string * ((string * Fol.typ) list * Fol.form)) list ->
+  (string * Fol.typ) list * Fol.form
+)
+ident(
+  ext_ref List.assoc
+)
+"plugins/dp/dp_why.ml" 168 5517 5552 "plugins/dp/dp_why.ml" 168 5517 5554
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 167 5459 5471 "plugins/dp/dp_why.ml" 167 5459 5473
+)
+"plugins/dp/dp_why.ml" 168 5517 5555 "plugins/dp/dp_why.ml" 168 5517 5568
+type(
+  (string * ((string * Fol.typ) list * Fol.form)) list
+)
+ident(
+  int_ref defined_preds "plugins/dp/dp_why.ml" 135 4348 4354 "plugins/dp/dp_why.ml" 135 4348 4367
+)
+"plugins/dp/dp_why.ml" 168 5517 5541 "plugins/dp/dp_why.ml" 168 5517 5568
+call(
+  stack
+)
+type(
+  (string * Fol.typ) list * Fol.form
+)
+"plugins/dp/dp_why.ml" 169 5572 5580 "plugins/dp/dp_why.ml" 169 5572 5587
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> (string * Fol.typ) list -> unit) ->
+   (string * Fol.typ) list ->
+   (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string ->
+  (Format.formatter -> (string * Fol.typ) list -> unit) ->
+  (string * Fol.typ) list ->
+  (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 169 5572 5588 "plugins/dp/dp_why.ml" 169 5572 5591
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 169 5572 5592 "plugins/dp/dp_why.ml" 169 5572 5624
+type(
+  ((Format.formatter -> string -> unit) ->
+   string ->
+   (Format.formatter -> (string * Fol.typ) list -> unit) ->
+   (string * Fol.typ) list ->
+   (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 169 5572 5625 "plugins/dp/dp_why.ml" 169 5572 5630
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 169 5572 5631 "plugins/dp/dp_why.ml" 169 5572 5633
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 167 5459 5471 "plugins/dp/dp_why.ml" 167 5459 5473
+)
+"plugins/dp/dp_why.ml" 170 5634 5645 "plugins/dp/dp_why.ml" 170 5634 5655
+type(
+  (Format.formatter -> unit -> unit) ->
+  (Format.formatter -> string * Fol.typ -> unit) ->
+  Format.formatter -> (string * Fol.typ) list -> unit
+)
+ident(
+  int_ref print_list "plugins/dp/dp_why.ml" 19 404 412 "plugins/dp/dp_why.ml" 19 404 422
+)
+"plugins/dp/dp_why.ml" 170 5634 5656 "plugins/dp/dp_why.ml" 170 5634 5661
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  int_ref comma "plugins/dp/dp_why.ml" 25 587 591 "plugins/dp/dp_why.ml" 25 587 596
+)
+"plugins/dp/dp_why.ml" 170 5634 5662 "plugins/dp/dp_why.ml" 170 5634 5671
+type(
+  Format.formatter -> string * Fol.typ -> unit
+)
+ident(
+  int_ref print_arg "plugins/dp/dp_why.ml" 51 1654 1658 "plugins/dp/dp_why.ml" 51 1654 1667
+)
+"plugins/dp/dp_why.ml" 170 5634 5644 "plugins/dp/dp_why.ml" 170 5634 5672
+call(
+  stack
+)
+type(
+  Format.formatter -> (string * Fol.typ) list -> unit
+)
+"plugins/dp/dp_why.ml" 170 5634 5673 "plugins/dp/dp_why.ml" 170 5634 5677
+type(
+  (string * Fol.typ) list
+)
+ident(
+  int_ref args "plugins/dp/dp_why.ml" 168 5517 5529 "plugins/dp/dp_why.ml" 168 5517 5533
+)
+"plugins/dp/dp_why.ml" 170 5634 5678 "plugins/dp/dp_why.ml" 170 5634 5693
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref print_predicate "plugins/dp/dp_why.ml" 78 2541 2549 "plugins/dp/dp_why.ml" 78 2541 2564
+)
+"plugins/dp/dp_why.ml" 170 5634 5694 "plugins/dp/dp_why.ml" 170 5634 5697
+type(
+  Fol.form
+)
+ident(
+  int_ref def "plugins/dp/dp_why.ml" 168 5517 5535 "plugins/dp/dp_why.ml" 168 5517 5538
+)
+"plugins/dp/dp_why.ml" 169 5572 5580 "plugins/dp/dp_why.ml" 170 5634 5697
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 168 5517 5525 "plugins/dp/dp_why.ml" 170 5634 5697
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 167 5459 5477 "plugins/dp/dp_why.ml" 170 5634 5697
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 171 5700 5713 "plugins/dp/dp_why.ml" 171 5700 5715
+type(
+  string
+)
+ident(
+  def id "plugins/dp/dp_why.ml" 172 5724 5725 "plugins/dp/dp_why.ml" 172 5724 5796
+)
+"plugins/dp/dp_why.ml" 171 5700 5717 "plugins/dp/dp_why.ml" 171 5700 5718
+type(
+  Fol.form
+)
+ident(
+  def f "plugins/dp/dp_why.ml" 172 5724 5725 "plugins/dp/dp_why.ml" 172 5724 5796
+)
+"plugins/dp/dp_why.ml" 171 5700 5706 "plugins/dp/dp_why.ml" 171 5700 5719
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 172 5724 5725 "plugins/dp/dp_why.ml" 172 5724 5732
+type(
+  Format.formatter ->
+  ((Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> string -> unit) ->
+  string -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 172 5724 5733 "plugins/dp/dp_why.ml" 172 5724 5736
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 172 5724 5737 "plugins/dp/dp_why.ml" 172 5724 5769
+type(
+  ((Format.formatter -> string -> unit) ->
+   string -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 172 5724 5770 "plugins/dp/dp_why.ml" 172 5724 5775
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  int_ref ident "plugins/dp/dp_why.ml" 40 1218 1222 "plugins/dp/dp_why.ml" 40 1218 1227
+)
+"plugins/dp/dp_why.ml" 172 5724 5776 "plugins/dp/dp_why.ml" 172 5724 5778
+type(
+  string
+)
+ident(
+  int_ref id "plugins/dp/dp_why.ml" 171 5700 5713 "plugins/dp/dp_why.ml" 171 5700 5715
+)
+"plugins/dp/dp_why.ml" 172 5724 5779 "plugins/dp/dp_why.ml" 172 5724 5794
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref print_predicate "plugins/dp/dp_why.ml" 78 2541 2549 "plugins/dp/dp_why.ml" 78 2541 2564
+)
+"plugins/dp/dp_why.ml" 172 5724 5795 "plugins/dp/dp_why.ml" 172 5724 5796
+type(
+  Fol.form
+)
+ident(
+  int_ref f "plugins/dp/dp_why.ml" 171 5700 5717 "plugins/dp/dp_why.ml" 171 5700 5718
+)
+"plugins/dp/dp_why.ml" 172 5724 5725 "plugins/dp/dp_why.ml" 172 5724 5796
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 173 5797 5812 "plugins/dp/dp_why.ml" 173 5797 5813
+type(
+  int
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 173 5797 5803 "plugins/dp/dp_why.ml" 173 5797 5813
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 173 5797 5824 "plugins/dp/dp_why.ml" 173 5797 5825
+type(
+  Fol.typ
+)
+type(
+  Fol.typ list
+)
+type(
+  int
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 173 5797 5816 "plugins/dp/dp_why.ml" 173 5797 5825
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 173 5797 5803 "plugins/dp/dp_why.ml" 173 5797 5825
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 173 5797 5837 "plugins/dp/dp_why.ml" 173 5797 5838
+type(
+  Fol.typ list
+)
+type(
+  int
+)
+type(
+  string
+)
+"plugins/dp/dp_why.ml" 173 5797 5828 "plugins/dp/dp_why.ml" 173 5797 5838
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 173 5797 5803 "plugins/dp/dp_why.ml" 173 5797 5838
+type(
+  Fol.decl
+)
+"plugins/dp/dp_why.ml" 174 5842 5843 "plugins/dp/dp_why.ml" 174 5842 5845
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 166 5429 5450 "plugins/dp/dp_why.ml" 174 5842 5845
+type(
+  Fol.decl -> unit
+)
+"plugins/dp/dp_why.ml" 176 5851 5853 "plugins/dp/dp_why.ml" 176 5851 5862
+type(
+  (Fol.decl -> unit) -> Fol.decl list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/dp/dp_why.ml" 176 5851 5863 "plugins/dp/dp_why.ml" 176 5851 5874
+type(
+  Fol.decl -> unit
+)
+ident(
+  int_ref print_dtype "plugins/dp/dp_why.ml" 138 4439 4445 "plugins/dp/dp_why.ml" 138 4439 4456
+)
+"plugins/dp/dp_why.ml" 176 5851 5875 "plugins/dp/dp_why.ml" 176 5851 5880
+type(
+  Fol.decl list
+)
+ident(
+  int_ref decls "plugins/dp/dp_why.ml" 119 3915 3936 "plugins/dp/dp_why.ml" 119 3915 3941
+)
+"plugins/dp/dp_why.ml" 176 5851 5853 "plugins/dp/dp_why.ml" 176 5851 5880
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 177 5882 5884 "plugins/dp/dp_why.ml" 177 5882 5893
+type(
+  (Fol.decl -> unit) -> Fol.decl list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/dp/dp_why.ml" 177 5882 5894 "plugins/dp/dp_why.ml" 177 5882 5910
+type(
+  Fol.decl -> unit
+)
+ident(
+  int_ref print_dvar_dpred "plugins/dp/dp_why.ml" 152 4828 4834 "plugins/dp/dp_why.ml" 152 4828 4850
+)
+"plugins/dp/dp_why.ml" 177 5882 5911 "plugins/dp/dp_why.ml" 177 5882 5916
+type(
+  Fol.decl list
+)
+ident(
+  int_ref decls "plugins/dp/dp_why.ml" 119 3915 3936 "plugins/dp/dp_why.ml" 119 3915 3941
+)
+"plugins/dp/dp_why.ml" 177 5882 5884 "plugins/dp/dp_why.ml" 177 5882 5916
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 178 5918 5920 "plugins/dp/dp_why.ml" 178 5918 5929
+type(
+  (Fol.decl -> unit) -> Fol.decl list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/dp/dp_why.ml" 178 5918 5930 "plugins/dp/dp_why.ml" 178 5918 5942
+type(
+  Fol.decl -> unit
+)
+ident(
+  int_ref print_assert "plugins/dp/dp_why.ml" 166 5429 5435 "plugins/dp/dp_why.ml" 166 5429 5447
+)
+"plugins/dp/dp_why.ml" 178 5918 5943 "plugins/dp/dp_why.ml" 178 5918 5948
+type(
+  Fol.decl list
+)
+ident(
+  int_ref decls "plugins/dp/dp_why.ml" 119 3915 3936 "plugins/dp/dp_why.ml" 119 3915 3941
+)
+"plugins/dp/dp_why.ml" 178 5918 5920 "plugins/dp/dp_why.ml" 178 5918 5948
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 179 5950 5952 "plugins/dp/dp_why.ml" 179 5950 5959
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Fol.form -> unit) -> Fol.form -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 179 5950 5960 "plugins/dp/dp_why.ml" 179 5950 5963
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 119 3915 3931 "plugins/dp/dp_why.ml" 119 3915 3934
+)
+"plugins/dp/dp_why.ml" 179 5950 5964 "plugins/dp/dp_why.ml" 179 5950 5996
+type(
+  ((Format.formatter -> Fol.form -> unit) -> Fol.form -> unit,
+   Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 179 5950 5997 "plugins/dp/dp_why.ml" 179 5950 6012
+type(
+  Format.formatter -> Fol.form -> unit
+)
+ident(
+  int_ref print_predicate "plugins/dp/dp_why.ml" 78 2541 2549 "plugins/dp/dp_why.ml" 78 2541 2564
+)
+"plugins/dp/dp_why.ml" 179 5950 6013 "plugins/dp/dp_why.ml" 179 5950 6018
+type(
+  Fol.form
+)
+ident(
+  int_ref concl "plugins/dp/dp_why.ml" 119 3915 3942 "plugins/dp/dp_why.ml" 119 3915 3947
+)
+"plugins/dp/dp_why.ml" 179 5950 5952 "plugins/dp/dp_why.ml" 179 5950 6018
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 178 5918 5920 "plugins/dp/dp_why.ml" 179 5950 6018
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 177 5882 5884 "plugins/dp/dp_why.ml" 179 5950 6018
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 176 5851 5853 "plugins/dp/dp_why.ml" 179 5950 6018
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 166 5429 5431 "plugins/dp/dp_why.ml" 179 5950 6018
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 152 4828 4830 "plugins/dp/dp_why.ml" 179 5950 6018
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 138 4439 4441 "plugins/dp/dp_why.ml" 179 5950 6018
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 135 4348 4350 "plugins/dp/dp_why.ml" 179 5950 6018
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 133 4274 4276 "plugins/dp/dp_why.ml" 179 5950 6018
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 125 4061 4063 "plugins/dp/dp_why.ml" 179 5950 6018
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 120 3951 3953 "plugins/dp/dp_why.ml" 179 5950 6018
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 181 6020 6024 "plugins/dp/dp_why.ml" 181 6020 6035
+type(
+  string -> Fol.decl list * Fol.form -> unit
+)
+ident(
+  def output_file "plugins/dp/dp_why.ml" 185 6148 6161 --
+)
+"plugins/dp/dp_why.ml" 181 6020 6036 "plugins/dp/dp_why.ml" 181 6020 6037
+type(
+  string
+)
+ident(
+  def f "plugins/dp/dp_why.ml" 181 6020 6038 "plugins/dp/dp_why.ml" 185 6148 6161
+)
+"plugins/dp/dp_why.ml" 181 6020 6038 "plugins/dp/dp_why.ml" 181 6020 6039
+type(
+  Fol.decl list * Fol.form
+)
+ident(
+  def q "plugins/dp/dp_why.ml" 182 6042 6044 "plugins/dp/dp_why.ml" 185 6148 6161
+)
+"plugins/dp/dp_why.ml" 182 6042 6048 "plugins/dp/dp_why.ml" 182 6042 6049
+type(
+  out_channel
+)
+"plugins/dp/dp_why.ml" 182 6042 6052 "plugins/dp/dp_why.ml" 182 6042 6060
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"plugins/dp/dp_why.ml" 182 6042 6061 "plugins/dp/dp_why.ml" 182 6042 6062
+type(
+  string
+)
+ident(
+  int_ref f "plugins/dp/dp_why.ml" 181 6020 6036 "plugins/dp/dp_why.ml" 181 6020 6037
+)
+"plugins/dp/dp_why.ml" 182 6042 6052 "plugins/dp/dp_why.ml" 182 6042 6062
+call(
+  stack
+)
+type(
+  out_channel
+)
+"plugins/dp/dp_why.ml" 183 6066 6072 "plugins/dp/dp_why.ml" 183 6066 6075
+type(
+  Format.formatter
+)
+"plugins/dp/dp_why.ml" 183 6066 6078 "plugins/dp/dp_why.ml" 183 6066 6102
+type(
+  out_channel -> Format.formatter
+)
+ident(
+  ext_ref Format.formatter_of_out_channel
+)
+"plugins/dp/dp_why.ml" 183 6066 6103 "plugins/dp/dp_why.ml" 183 6066 6104
+type(
+  out_channel
+)
+ident(
+  int_ref c "plugins/dp/dp_why.ml" 182 6042 6048 "plugins/dp/dp_why.ml" 182 6042 6049
+)
+"plugins/dp/dp_why.ml" 183 6066 6078 "plugins/dp/dp_why.ml" 183 6066 6104
+call(
+  stack
+)
+type(
+  Format.formatter
+)
+"plugins/dp/dp_why.ml" 184 6108 6110 "plugins/dp/dp_why.ml" 184 6108 6117
+type(
+  Format.formatter ->
+  ((Format.formatter -> Fol.decl list * Fol.form -> unit) ->
+   Fol.decl list * Fol.form -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Fol.decl list * Fol.form -> unit) ->
+  Fol.decl list * Fol.form -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"plugins/dp/dp_why.ml" 184 6108 6118 "plugins/dp/dp_why.ml" 184 6108 6121
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "plugins/dp/dp_why.ml" 183 6066 6072 "plugins/dp/dp_why.ml" 183 6066 6075
+)
+"plugins/dp/dp_why.ml" 184 6108 6122 "plugins/dp/dp_why.ml" 184 6108 6132
+type(
+  ((Format.formatter -> Fol.decl list * Fol.form -> unit) ->
+   Fol.decl list * Fol.form -> unit, Format.formatter, unit)
+  format
+)
+"plugins/dp/dp_why.ml" 184 6108 6133 "plugins/dp/dp_why.ml" 184 6108 6144
+type(
+  Format.formatter -> Fol.decl list * Fol.form -> unit
+)
+ident(
+  int_ref print_query "plugins/dp/dp_why.ml" 119 3915 3919 "plugins/dp/dp_why.ml" 119 3915 3930
+)
+"plugins/dp/dp_why.ml" 184 6108 6145 "plugins/dp/dp_why.ml" 184 6108 6146
+type(
+  Fol.decl list * Fol.form
+)
+ident(
+  int_ref q "plugins/dp/dp_why.ml" 181 6020 6038 "plugins/dp/dp_why.ml" 181 6020 6039
+)
+"plugins/dp/dp_why.ml" 184 6108 6110 "plugins/dp/dp_why.ml" 184 6108 6146
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 185 6148 6150 "plugins/dp/dp_why.ml" 185 6148 6159
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"plugins/dp/dp_why.ml" 185 6148 6160 "plugins/dp/dp_why.ml" 185 6148 6161
+type(
+  out_channel
+)
+ident(
+  int_ref c "plugins/dp/dp_why.ml" 182 6042 6048 "plugins/dp/dp_why.ml" 182 6042 6049
+)
+"plugins/dp/dp_why.ml" 185 6148 6150 "plugins/dp/dp_why.ml" 185 6148 6161
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 184 6108 6110 "plugins/dp/dp_why.ml" 185 6148 6161
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 183 6066 6068 "plugins/dp/dp_why.ml" 185 6148 6161
+type(
+  unit
+)
+"plugins/dp/dp_why.ml" 182 6042 6044 "plugins/dp/dp_why.ml" 185 6148 6161
+type(
+  unit
+)

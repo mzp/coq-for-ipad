@@ -1,0 +1,4380 @@
+"plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+type(
+  Pp.ppcmd Stream.t -> Pp.ppcmd Stream.t
+)
+ident(
+  def xmlstream "plugins/xml/dumptree.ml4" 34 1110 1110 --
+)
+"plugins/xml/dumptree.ml4" 29 945 959 "plugins/xml/dumptree.ml4" 29 945 960
+type(
+  Pp.ppcmd Stream.t
+)
+ident(
+  def s "plugins/xml/dumptree.ml4" 31 1043 1045 "plugins/xml/dumptree.ml4" 31 1043 1105
+)
+"plugins/xml/dumptree.ml4" 31 1043 1045 "plugins/xml/dumptree.ml4" 31 1043 1059
+type(
+  Pp.ppcmd list -> Pp.ppcmd Stream.t
+)
+ident(
+  ext_ref Stream.of_list
+)
+"plugins/xml/dumptree.ml4" 31 1043 1061 "plugins/xml/dumptree.ml4" 31 1043 1069
+type(
+  (Pp.ppcmd -> Pp.ppcmd) -> Pp.ppcmd list -> Pp.ppcmd list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/xml/dumptree.ml4" 31 1043 1070 "plugins/xml/dumptree.ml4" 31 1043 1079
+type(
+  Pp.ppcmd -> Pp.ppcmd
+)
+ident(
+  ext_ref Pp.xmlescape
+)
+"plugins/xml/dumptree.ml4" 31 1043 1081 "plugins/xml/dumptree.ml4" 31 1043 1093
+type(
+  int -> Pp.ppcmd Stream.t -> Pp.ppcmd list
+)
+ident(
+  ext_ref Stream.npeek
+)
+"plugins/xml/dumptree.ml4" 31 1043 1094 "plugins/xml/dumptree.ml4" 31 1043 1101
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.max_int
+)
+"plugins/xml/dumptree.ml4" 31 1043 1102 "plugins/xml/dumptree.ml4" 31 1043 1103
+type(
+  Pp.ppcmd Stream.t
+)
+ident(
+  int_ref s "plugins/xml/dumptree.ml4" 29 945 959 "plugins/xml/dumptree.ml4" 29 945 960
+)
+"plugins/xml/dumptree.ml4" 31 1043 1081 "plugins/xml/dumptree.ml4" 31 1043 1103
+call(
+  stack
+)
+type(
+  Pp.ppcmd list
+)
+"plugins/xml/dumptree.ml4" 31 1043 1061 "plugins/xml/dumptree.ml4" 31 1043 1104
+call(
+  stack
+)
+type(
+  Pp.ppcmd list
+)
+"plugins/xml/dumptree.ml4" 31 1043 1045 "plugins/xml/dumptree.ml4" 31 1043 1105
+call(
+  tail
+)
+type(
+  Pp.ppcmd Stream.t
+)
+"plugins/xml/dumptree.ml4" 29 945 959 "plugins/xml/dumptree.ml4" 29 945 1105
+type(
+  Pp.ppcmd Stream.t -> Pp.ppcmd Stream.t
+)
+"plugins/xml/dumptree.ml4" 34 1110 1114 "plugins/xml/dumptree.ml4" 34 1110 1123
+type(
+  Sign.named_context -> Sign.named_context -> Environ.named_context_val
+)
+ident(
+  def thin_sign "plugins/xml/dumptree.ml4" 44 1423 1423 --
+)
+"plugins/xml/dumptree.ml4" 34 1110 1124 "plugins/xml/dumptree.ml4" 34 1110 1129
+type(
+  Sign.named_context
+)
+ident(
+  def osign "plugins/xml/dumptree.ml4" 34 1110 1130 "plugins/xml/dumptree.ml4" 34 1110 1418
+)
+"plugins/xml/dumptree.ml4" 34 1110 1130 "plugins/xml/dumptree.ml4" 34 1110 1134
+type(
+  Sign.named_context
+)
+ident(
+  def sign "plugins/xml/dumptree.ml4" 35 1137 1139 "plugins/xml/dumptree.ml4" 35 1137 1418
+)
+"plugins/xml/dumptree.ml4" 35 1137 1139 "plugins/xml/dumptree.ml4" 35 1137 1162
+type(
+  (Term.named_declaration ->
+   Environ.named_context_val -> Environ.named_context_val) ->
+  Sign.named_context ->
+  init:Environ.named_context_val -> Environ.named_context_val
+)
+ident(
+  ext_ref Sign.fold_named_context
+)
+"plugins/xml/dumptree.ml4" 36 1163 1173 "plugins/xml/dumptree.ml4" 36 1163 1175
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/xml/dumptree.ml4" 36 1163 1187 "plugins/xml/dumptree.ml4" 36 1163 1370
+)
+"plugins/xml/dumptree.ml4" 36 1163 1176 "plugins/xml/dumptree.ml4" 36 1163 1177
+type(
+  Term.constr option
+)
+ident(
+  def c "plugins/xml/dumptree.ml4" 36 1163 1187 "plugins/xml/dumptree.ml4" 36 1163 1370
+)
+"plugins/xml/dumptree.ml4" 36 1163 1178 "plugins/xml/dumptree.ml4" 36 1163 1180
+type(
+  Term.types
+)
+ident(
+  def ty "plugins/xml/dumptree.ml4" 36 1163 1187 "plugins/xml/dumptree.ml4" 36 1163 1370
+)
+"plugins/xml/dumptree.ml4" 36 1163 1173 "plugins/xml/dumptree.ml4" 36 1163 1180
+type(
+  Term.named_declaration
+)
+"plugins/xml/dumptree.ml4" 36 1163 1173 "plugins/xml/dumptree.ml4" 36 1163 1185
+type(
+  Term.named_declaration
+)
+ident(
+  def d "plugins/xml/dumptree.ml4" 36 1163 1187 "plugins/xml/dumptree.ml4" 36 1163 1370
+)
+"plugins/xml/dumptree.ml4" 36 1163 1187 "plugins/xml/dumptree.ml4" 36 1163 1191
+type(
+  Environ.named_context_val
+)
+ident(
+  def sign "plugins/xml/dumptree.ml4" 37 1195 1202 "plugins/xml/dumptree.ml4" 37 1195 1370
+)
+"plugins/xml/dumptree.ml4" 38 1206 1217 "plugins/xml/dumptree.ml4" 38 1206 1234
+type(
+  Names.identifier -> Sign.named_context -> Term.named_declaration
+)
+ident(
+  ext_ref Sign.lookup_named
+)
+"plugins/xml/dumptree.ml4" 38 1206 1235 "plugins/xml/dumptree.ml4" 38 1206 1237
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/xml/dumptree.ml4" 36 1163 1173 "plugins/xml/dumptree.ml4" 36 1163 1175
+)
+"plugins/xml/dumptree.ml4" 38 1206 1238 "plugins/xml/dumptree.ml4" 38 1206 1243
+type(
+  Sign.named_context
+)
+ident(
+  int_ref osign "plugins/xml/dumptree.ml4" 34 1110 1124 "plugins/xml/dumptree.ml4" 34 1110 1129
+)
+"plugins/xml/dumptree.ml4" 38 1206 1217 "plugins/xml/dumptree.ml4" 38 1206 1243
+call(
+  stack
+)
+type(
+  Term.named_declaration
+)
+"plugins/xml/dumptree.ml4" 38 1206 1247 "plugins/xml/dumptree.ml4" 38 1206 1249
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/xml/dumptree.ml4" 36 1163 1173 "plugins/xml/dumptree.ml4" 36 1163 1175
+)
+"plugins/xml/dumptree.ml4" 38 1206 1250 "plugins/xml/dumptree.ml4" 38 1206 1251
+type(
+  Term.constr option
+)
+ident(
+  int_ref c "plugins/xml/dumptree.ml4" 36 1163 1176 "plugins/xml/dumptree.ml4" 36 1163 1177
+)
+"plugins/xml/dumptree.ml4" 38 1206 1252 "plugins/xml/dumptree.ml4" 38 1206 1254
+type(
+  Term.types
+)
+ident(
+  int_ref ty "plugins/xml/dumptree.ml4" 36 1163 1178 "plugins/xml/dumptree.ml4" 36 1163 1180
+)
+"plugins/xml/dumptree.ml4" 38 1206 1247 "plugins/xml/dumptree.ml4" 38 1206 1254
+type(
+  Term.named_declaration
+)
+"plugins/xml/dumptree.ml4" 38 1206 1217 "plugins/xml/dumptree.ml4" 38 1206 1255
+type(
+  bool
+)
+type(
+  Term.named_declaration -> Term.named_declaration -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/xml/dumptree.ml4" 38 1206 1261 "plugins/xml/dumptree.ml4" 38 1206 1265
+type(
+  Environ.named_context_val
+)
+ident(
+  int_ref sign "plugins/xml/dumptree.ml4" 36 1163 1187 "plugins/xml/dumptree.ml4" 36 1163 1191
+)
+"plugins/xml/dumptree.ml4" 39 1266 1280 "plugins/xml/dumptree.ml4" 39 1266 1285
+type(
+  exn -> Environ.named_context_val
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/xml/dumptree.ml4" 39 1266 1286 "plugins/xml/dumptree.ml4" 39 1266 1295
+type(
+  exn
+)
+"plugins/xml/dumptree.ml4" 39 1266 1280 "plugins/xml/dumptree.ml4" 39 1266 1295
+type(
+  Environ.named_context_val
+)
+"plugins/xml/dumptree.ml4" 38 1206 1214 "plugins/xml/dumptree.ml4" 38 1206 1295
+type(
+  Environ.named_context_val
+)
+"plugins/xml/dumptree.ml4" 40 1296 1308 "plugins/xml/dumptree.ml4" 40 1296 1317
+type(
+  exn
+)
+"plugins/xml/dumptree.ml4" 40 1296 1320 "plugins/xml/dumptree.ml4" 40 1296 1329
+type(
+  exn
+)
+"plugins/xml/dumptree.ml4" 40 1296 1308 "plugins/xml/dumptree.ml4" 40 1296 1329
+type(
+  exn
+)
+"plugins/xml/dumptree.ml4" 40 1296 1333 "plugins/xml/dumptree.ml4" 40 1296 1363
+type(
+  Term.named_declaration ->
+  Environ.named_context_val -> Environ.named_context_val
+)
+ident(
+  ext_ref Environ.push_named_context_val
+)
+"plugins/xml/dumptree.ml4" 40 1296 1364 "plugins/xml/dumptree.ml4" 40 1296 1365
+type(
+  Term.named_declaration
+)
+ident(
+  int_ref d "plugins/xml/dumptree.ml4" 36 1163 1173 "plugins/xml/dumptree.ml4" 36 1163 1185
+)
+"plugins/xml/dumptree.ml4" 40 1296 1366 "plugins/xml/dumptree.ml4" 40 1296 1370
+type(
+  Environ.named_context_val
+)
+ident(
+  int_ref sign "plugins/xml/dumptree.ml4" 36 1163 1187 "plugins/xml/dumptree.ml4" 36 1163 1191
+)
+"plugins/xml/dumptree.ml4" 40 1296 1333 "plugins/xml/dumptree.ml4" 40 1296 1370
+call(
+  tail
+)
+type(
+  Environ.named_context_val
+)
+"plugins/xml/dumptree.ml4" 37 1195 1202 "plugins/xml/dumptree.ml4" 37 1195 1370
+type(
+  Environ.named_context_val
+)
+"plugins/xml/dumptree.ml4" 36 1163 1187 "plugins/xml/dumptree.ml4" 36 1163 1370
+type(
+  Environ.named_context_val -> Environ.named_context_val
+)
+"plugins/xml/dumptree.ml4" 36 1163 1168 "plugins/xml/dumptree.ml4" 36 1163 1370
+type(
+  Term.named_declaration ->
+  Environ.named_context_val -> Environ.named_context_val
+)
+"plugins/xml/dumptree.ml4" 41 1372 1376 "plugins/xml/dumptree.ml4" 41 1372 1380
+type(
+  Sign.named_context
+)
+ident(
+  int_ref sign "plugins/xml/dumptree.ml4" 34 1110 1130 "plugins/xml/dumptree.ml4" 34 1110 1134
+)
+"plugins/xml/dumptree.ml4" 41 1372 1387 "plugins/xml/dumptree.ml4" 41 1372 1418
+type(
+  Environ.named_context_val
+)
+ident(
+  ext_ref Environ.empty_named_context_val
+)
+"plugins/xml/dumptree.ml4" 35 1137 1139 "plugins/xml/dumptree.ml4" 35 1137 1418
+call(
+  tail
+)
+type(
+  Environ.named_context_val
+)
+"plugins/xml/dumptree.ml4" 34 1110 1130 "plugins/xml/dumptree.ml4" 34 1110 1418
+type(
+  Sign.named_context -> Environ.named_context_val
+)
+"plugins/xml/dumptree.ml4" 34 1110 1124 "plugins/xml/dumptree.ml4" 34 1110 1418
+type(
+  Sign.named_context -> Sign.named_context -> Environ.named_context_val
+)
+"plugins/xml/dumptree.ml4" 44 1423 1427 "plugins/xml/dumptree.ml4" 44 1423 1440
+type(
+  Proof_type.tactic_expr -> Pp.std_ppcmds
+)
+ident(
+  def pr_tactic_xml "plugins/xml/dumptree.ml4" 49 1667 1667 --
+)
+"plugins/xml/dumptree.ml4" 45 1452 1471 "plugins/xml/dumptree.ml4" 45 1452 1472
+type(
+  Tacexpr.glob_tactic_expr
+)
+ident(
+  def t "plugins/xml/dumptree.ml4" 45 1452 1477 "plugins/xml/dumptree.ml4" 45 1452 1567
+)
+"plugins/xml/dumptree.ml4" 45 1452 1464 "plugins/xml/dumptree.ml4" 45 1452 1472
+type(
+  (Term.constr, Pattern.constr_pattern, Names.evaluable_global_reference,
+   Names.inductive, Nametab.ltac_constant, Names.identifier,
+   Tacexpr.glob_tactic_expr, Genarg.tlevel)
+  Tacexpr.gen_tactic_arg
+)
+"plugins/xml/dumptree.ml4" 45 1452 1456 "plugins/xml/dumptree.ml4" 45 1452 1473
+type(
+  Proof_type.tactic_expr
+)
+"plugins/xml/dumptree.ml4" 45 1452 1477 "plugins/xml/dumptree.ml4" 45 1452 1480
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 45 1452 1481 "plugins/xml/dumptree.ml4" 45 1452 1497
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 45 1452 1477 "plugins/xml/dumptree.ml4" 45 1452 1497
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 45 1452 1501 "plugins/xml/dumptree.ml4" 45 1452 1510
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 45 1452 1512 "plugins/xml/dumptree.ml4" 45 1452 1535
+type(
+  Environ.env -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pptactic.pr_glob_tactic
+)
+"plugins/xml/dumptree.ml4" 45 1452 1537 "plugins/xml/dumptree.ml4" 45 1452 1547
+type(
+  unit -> Environ.env
+)
+ident(
+  ext_ref Global.env
+)
+"plugins/xml/dumptree.ml4" 45 1452 1547 "plugins/xml/dumptree.ml4" 45 1452 1549
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 45 1452 1537 "plugins/xml/dumptree.ml4" 45 1452 1549
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/xml/dumptree.ml4" 45 1452 1551 "plugins/xml/dumptree.ml4" 45 1452 1552
+type(
+  Tacexpr.glob_tactic_expr
+)
+ident(
+  int_ref t "plugins/xml/dumptree.ml4" 45 1452 1471 "plugins/xml/dumptree.ml4" 45 1452 1472
+)
+"plugins/xml/dumptree.ml4" 45 1452 1512 "plugins/xml/dumptree.ml4" 45 1452 1552
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 45 1452 1501 "plugins/xml/dumptree.ml4" 45 1452 1553
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 45 1452 1477 "plugins/xml/dumptree.ml4" 45 1452 1553
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 45 1452 1557 "plugins/xml/dumptree.ml4" 45 1452 1560
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 45 1452 1561 "plugins/xml/dumptree.ml4" 45 1452 1567
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 45 1452 1557 "plugins/xml/dumptree.ml4" 45 1452 1567
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 45 1452 1477 "plugins/xml/dumptree.ml4" 45 1452 1567
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 46 1568 1572 "plugins/xml/dumptree.ml4" 46 1568 1573
+type(
+  Proof_type.tactic_expr
+)
+ident(
+  def t "plugins/xml/dumptree.ml4" 46 1568 1577 "plugins/xml/dumptree.ml4" 46 1568 1662
+)
+"plugins/xml/dumptree.ml4" 46 1568 1577 "plugins/xml/dumptree.ml4" 46 1568 1580
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 46 1568 1581 "plugins/xml/dumptree.ml4" 46 1568 1597
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 46 1568 1577 "plugins/xml/dumptree.ml4" 46 1568 1597
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 46 1568 1601 "plugins/xml/dumptree.ml4" 46 1568 1610
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 46 1568 1612 "plugins/xml/dumptree.ml4" 46 1568 1630
+type(
+  Environ.env -> Proof_type.tactic_expr -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pptactic.pr_tactic
+)
+"plugins/xml/dumptree.ml4" 46 1568 1632 "plugins/xml/dumptree.ml4" 46 1568 1642
+type(
+  unit -> Environ.env
+)
+ident(
+  ext_ref Global.env
+)
+"plugins/xml/dumptree.ml4" 46 1568 1642 "plugins/xml/dumptree.ml4" 46 1568 1644
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 46 1568 1632 "plugins/xml/dumptree.ml4" 46 1568 1644
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/xml/dumptree.ml4" 46 1568 1646 "plugins/xml/dumptree.ml4" 46 1568 1647
+type(
+  Proof_type.tactic_expr
+)
+ident(
+  int_ref t "plugins/xml/dumptree.ml4" 46 1568 1572 "plugins/xml/dumptree.ml4" 46 1568 1573
+)
+"plugins/xml/dumptree.ml4" 46 1568 1612 "plugins/xml/dumptree.ml4" 46 1568 1647
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 46 1568 1601 "plugins/xml/dumptree.ml4" 46 1568 1648
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 46 1568 1577 "plugins/xml/dumptree.ml4" 46 1568 1648
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 46 1568 1652 "plugins/xml/dumptree.ml4" 46 1568 1655
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 46 1568 1656 "plugins/xml/dumptree.ml4" 46 1568 1662
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 46 1568 1652 "plugins/xml/dumptree.ml4" 46 1568 1662
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 46 1568 1577 "plugins/xml/dumptree.ml4" 46 1568 1662
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 44 1423 1443 "plugins/xml/dumptree.ml4" 44 1423 1662
+type(
+  Proof_type.tactic_expr -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 49 1667 1671 "plugins/xml/dumptree.ml4" 49 1667 1689
+type(
+  Decl_expr.proof_instr -> Pp.std_ppcmds
+)
+ident(
+  def pr_proof_instr_xml "plugins/xml/dumptree.ml4" 53 1753 1753 --
+)
+"plugins/xml/dumptree.ml4" 49 1667 1690 "plugins/xml/dumptree.ml4" 49 1667 1695
+type(
+  Decl_expr.proof_instr
+)
+ident(
+  def instr "plugins/xml/dumptree.ml4" 50 1698 1700 "plugins/xml/dumptree.ml4" 50 1698 1748
+)
+"plugins/xml/dumptree.ml4" 50 1698 1700 "plugins/xml/dumptree.ml4" 50 1698 1727
+type(
+  Environ.env -> Decl_expr.proof_instr -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Ppdecl_proof.pr_proof_instr
+)
+"plugins/xml/dumptree.ml4" 50 1698 1729 "plugins/xml/dumptree.ml4" 50 1698 1739
+type(
+  unit -> Environ.env
+)
+ident(
+  ext_ref Global.env
+)
+"plugins/xml/dumptree.ml4" 50 1698 1739 "plugins/xml/dumptree.ml4" 50 1698 1741
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 50 1698 1729 "plugins/xml/dumptree.ml4" 50 1698 1741
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/xml/dumptree.ml4" 50 1698 1743 "plugins/xml/dumptree.ml4" 50 1698 1748
+type(
+  Decl_expr.proof_instr
+)
+ident(
+  int_ref instr "plugins/xml/dumptree.ml4" 49 1667 1690 "plugins/xml/dumptree.ml4" 49 1667 1695
+)
+"plugins/xml/dumptree.ml4" 50 1698 1700 "plugins/xml/dumptree.ml4" 50 1698 1748
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 49 1667 1690 "plugins/xml/dumptree.ml4" 49 1667 1748
+type(
+  Decl_expr.proof_instr -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 53 1753 1757 "plugins/xml/dumptree.ml4" 53 1753 1768
+type(
+  (Proof_type.proof_tree -> Pp.std_ppcmds) ->
+  Proof_type.rule -> Pp.std_ppcmds
+)
+ident(
+  def pr_rule_xml "plugins/xml/dumptree.ml4" 68 2266 2266 --
+)
+"plugins/xml/dumptree.ml4" 53 1753 1769 "plugins/xml/dumptree.ml4" 53 1753 1771
+type(
+  Proof_type.proof_tree -> Pp.std_ppcmds
+)
+ident(
+  def pr "plugins/xml/dumptree.ml4" 53 1753 1774 "plugins/xml/dumptree.ml4" 53 1753 2219
+)
+"plugins/xml/dumptree.ml4" 54 1783 1792 "plugins/xml/dumptree.ml4" 54 1783 1793
+type(
+  Proof_type.prim_rule
+)
+ident(
+  def r "plugins/xml/dumptree.ml4" 54 1783 1797 "plugins/xml/dumptree.ml4" 54 1783 1860
+)
+"plugins/xml/dumptree.ml4" 54 1783 1787 "plugins/xml/dumptree.ml4" 54 1783 1793
+type(
+  Proof_type.rule
+)
+"plugins/xml/dumptree.ml4" 54 1783 1797 "plugins/xml/dumptree.ml4" 54 1783 1800
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 54 1783 1801 "plugins/xml/dumptree.ml4" 54 1783 1816
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 54 1783 1797 "plugins/xml/dumptree.ml4" 54 1783 1816
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 54 1783 1820 "plugins/xml/dumptree.ml4" 54 1783 1829
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 54 1783 1831 "plugins/xml/dumptree.ml4" 54 1783 1843
+type(
+  Proof_type.prim_rule -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Printer.pr_prim_rule
+)
+"plugins/xml/dumptree.ml4" 54 1783 1844 "plugins/xml/dumptree.ml4" 54 1783 1845
+type(
+  Proof_type.prim_rule
+)
+ident(
+  int_ref r "plugins/xml/dumptree.ml4" 54 1783 1792 "plugins/xml/dumptree.ml4" 54 1783 1793
+)
+"plugins/xml/dumptree.ml4" 54 1783 1831 "plugins/xml/dumptree.ml4" 54 1783 1845
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 54 1783 1820 "plugins/xml/dumptree.ml4" 54 1783 1846
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 54 1783 1797 "plugins/xml/dumptree.ml4" 54 1783 1846
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 54 1783 1850 "plugins/xml/dumptree.ml4" 54 1783 1853
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 54 1783 1854 "plugins/xml/dumptree.ml4" 54 1783 1860
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 54 1783 1850 "plugins/xml/dumptree.ml4" 54 1783 1860
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 54 1783 1797 "plugins/xml/dumptree.ml4" 54 1783 1860
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 55 1861 1872 "plugins/xml/dumptree.ml4" 55 1861 1876
+type(
+  Proof_type.compound_rule
+)
+ident(
+  def cmpd "plugins/xml/dumptree.ml4" 56 1890 1896 "plugins/xml/dumptree.ml4" 56 1890 2154
+)
+"plugins/xml/dumptree.ml4" 55 1861 1878 "plugins/xml/dumptree.ml4" 55 1861 1885
+type(
+  Proof_type.proof_tree
+)
+ident(
+  def subtree "plugins/xml/dumptree.ml4" 56 1890 1896 "plugins/xml/dumptree.ml4" 56 1890 2154
+)
+"plugins/xml/dumptree.ml4" 55 1861 1865 "plugins/xml/dumptree.ml4" 55 1861 1886
+type(
+  Proof_type.rule
+)
+"plugins/xml/dumptree.ml4" 56 1890 1896 "plugins/xml/dumptree.ml4" 56 1890 1899
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/xml/dumptree.ml4" 56 1890 1900 "plugins/xml/dumptree.ml4" 56 1890 1901
+type(
+  int
+)
+"plugins/xml/dumptree.ml4" 56 1890 1903 "plugins/xml/dumptree.ml4" 56 1890 1906
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 56 1890 1907 "plugins/xml/dumptree.ml4" 56 1890 1919
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 56 1890 1903 "plugins/xml/dumptree.ml4" 56 1890 1919
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 56 1890 1923 "plugins/xml/dumptree.ml4" 56 1890 1926
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 56 1890 1927 "plugins/xml/dumptree.ml4" 56 1890 1929
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 56 1890 1923 "plugins/xml/dumptree.ml4" 56 1890 1929
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 56 1890 1903 "plugins/xml/dumptree.ml4" 56 1890 1929
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 57 1933 1953 "plugins/xml/dumptree.ml4" 57 1933 1957
+type(
+  Proof_type.compound_rule
+)
+ident(
+  int_ref cmpd "plugins/xml/dumptree.ml4" 55 1861 1872 "plugins/xml/dumptree.ml4" 55 1861 1876
+)
+"plugins/xml/dumptree.ml4" 58 1963 1981 "plugins/xml/dumptree.ml4" 58 1963 1985
+type(
+  Proof_type.tactic_expr
+)
+ident(
+  def texp "plugins/xml/dumptree.ml4" 58 1963 1993 "plugins/xml/dumptree.ml4" 58 1963 2011
+)
+"plugins/xml/dumptree.ml4" 58 1963 1987 "plugins/xml/dumptree.ml4" 58 1963 1988
+type(
+  bool
+)
+"plugins/xml/dumptree.ml4" 58 1963 1973 "plugins/xml/dumptree.ml4" 58 1963 1989
+type(
+  Proof_type.compound_rule
+)
+"plugins/xml/dumptree.ml4" 58 1963 1993 "plugins/xml/dumptree.ml4" 58 1963 2006
+type(
+  Proof_type.tactic_expr -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_tactic_xml "plugins/xml/dumptree.ml4" 44 1423 1427 "plugins/xml/dumptree.ml4" 44 1423 1440
+)
+"plugins/xml/dumptree.ml4" 58 1963 2007 "plugins/xml/dumptree.ml4" 58 1963 2011
+type(
+  Proof_type.tactic_expr
+)
+ident(
+  int_ref texp "plugins/xml/dumptree.ml4" 58 1963 1981 "plugins/xml/dumptree.ml4" 58 1963 1985
+)
+"plugins/xml/dumptree.ml4" 58 1963 1993 "plugins/xml/dumptree.ml4" 58 1963 2011
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 59 2012 2035 "plugins/xml/dumptree.ml4" 59 2012 2036
+type(
+  bool
+)
+"plugins/xml/dumptree.ml4" 59 2012 2037 "plugins/xml/dumptree.ml4" 59 2012 2042
+type(
+  Decl_expr.proof_instr
+)
+ident(
+  def instr "plugins/xml/dumptree.ml4" 59 2012 2047 "plugins/xml/dumptree.ml4" 59 2012 2071
+)
+"plugins/xml/dumptree.ml4" 59 2012 2022 "plugins/xml/dumptree.ml4" 59 2012 2043
+type(
+  Proof_type.compound_rule
+)
+"plugins/xml/dumptree.ml4" 59 2012 2047 "plugins/xml/dumptree.ml4" 59 2012 2065
+type(
+  Decl_expr.proof_instr -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_proof_instr_xml "plugins/xml/dumptree.ml4" 49 1667 1671 "plugins/xml/dumptree.ml4" 49 1667 1689
+)
+"plugins/xml/dumptree.ml4" 59 2012 2066 "plugins/xml/dumptree.ml4" 59 2012 2071
+type(
+  Decl_expr.proof_instr
+)
+ident(
+  int_ref instr "plugins/xml/dumptree.ml4" 59 2012 2037 "plugins/xml/dumptree.ml4" 59 2012 2042
+)
+"plugins/xml/dumptree.ml4" 59 2012 2047 "plugins/xml/dumptree.ml4" 59 2012 2071
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 57 1933 1947 "plugins/xml/dumptree.ml4" 57 1933 2071
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 56 1890 1903 "plugins/xml/dumptree.ml4" 56 1890 2083
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 60 2072 2087 "plugins/xml/dumptree.ml4" 60 2072 2090
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 60 2072 2091 "plugins/xml/dumptree.ml4" 60 2072 2093
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 60 2072 2087 "plugins/xml/dumptree.ml4" 60 2072 2093
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 56 1890 1903 "plugins/xml/dumptree.ml4" 56 1890 2093
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 61 2094 2105 "plugins/xml/dumptree.ml4" 61 2094 2107
+type(
+  Proof_type.proof_tree -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr "plugins/xml/dumptree.ml4" 53 1753 1769 "plugins/xml/dumptree.ml4" 53 1753 1771
+)
+"plugins/xml/dumptree.ml4" 61 2094 2108 "plugins/xml/dumptree.ml4" 61 2094 2115
+type(
+  Proof_type.proof_tree
+)
+ident(
+  int_ref subtree "plugins/xml/dumptree.ml4" 55 1861 1878 "plugins/xml/dumptree.ml4" 55 1861 1885
+)
+"plugins/xml/dumptree.ml4" 61 2094 2105 "plugins/xml/dumptree.ml4" 61 2094 2115
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 56 1890 1903 "plugins/xml/dumptree.ml4" 56 1890 2115
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 56 1890 1896 "plugins/xml/dumptree.ml4" 56 1890 2123
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 62 2116 2127 "plugins/xml/dumptree.ml4" 62 2116 2130
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 62 2116 2131 "plugins/xml/dumptree.ml4" 62 2116 2133
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 62 2116 2127 "plugins/xml/dumptree.ml4" 62 2116 2133
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 56 1890 1896 "plugins/xml/dumptree.ml4" 56 1890 2133
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 62 2116 2137 "plugins/xml/dumptree.ml4" 62 2116 2140
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 62 2116 2141 "plugins/xml/dumptree.ml4" 62 2116 2154
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 62 2116 2137 "plugins/xml/dumptree.ml4" 62 2116 2154
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 56 1890 1896 "plugins/xml/dumptree.ml4" 56 1890 2154
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 63 2155 2159 "plugins/xml/dumptree.ml4" 63 2155 2165
+type(
+  Proof_type.rule
+)
+"plugins/xml/dumptree.ml4" 63 2155 2169 "plugins/xml/dumptree.ml4" 63 2155 2172
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 63 2155 2173 "plugins/xml/dumptree.ml4" 63 2155 2184
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 63 2155 2169 "plugins/xml/dumptree.ml4" 63 2155 2184
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 64 2185 2200 "plugins/xml/dumptree.ml4" 64 2185 2201
+type(
+  bool
+)
+"plugins/xml/dumptree.ml4" 64 2185 2189 "plugins/xml/dumptree.ml4" 64 2185 2201
+type(
+  Proof_type.rule
+)
+"plugins/xml/dumptree.ml4" 64 2185 2205 "plugins/xml/dumptree.ml4" 64 2185 2208
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 64 2185 2209 "plugins/xml/dumptree.ml4" 64 2185 2219
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 64 2185 2205 "plugins/xml/dumptree.ml4" 64 2185 2219
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 53 1753 1774 "plugins/xml/dumptree.ml4" 53 1753 2219
+type(
+  Proof_type.rule -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 53 1753 1769 "plugins/xml/dumptree.ml4" 53 1753 2219
+type(
+  (Proof_type.proof_tree -> Pp.std_ppcmds) ->
+  Proof_type.rule -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 68 2266 2270 "plugins/xml/dumptree.ml4" 68 2266 2285
+type(
+  Environ.env ->
+  Names.identifier * Term.constr option * Term.constr -> Pp.std_ppcmds
+)
+ident(
+  def pr_var_decl_xml "plugins/xml/dumptree.ml4" 80 2706 2706 --
+)
+"plugins/xml/dumptree.ml4" 68 2266 2286 "plugins/xml/dumptree.ml4" 68 2266 2289
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/dumptree.ml4" 68 2266 2290 "plugins/xml/dumptree.ml4" 68 2266 2701
+)
+"plugins/xml/dumptree.ml4" 68 2266 2291 "plugins/xml/dumptree.ml4" 68 2266 2293
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/xml/dumptree.ml4" 69 2303 2305 "plugins/xml/dumptree.ml4" 69 2303 2701
+)
+"plugins/xml/dumptree.ml4" 68 2266 2294 "plugins/xml/dumptree.ml4" 68 2266 2295
+type(
+  Term.constr option
+)
+ident(
+  def c "plugins/xml/dumptree.ml4" 69 2303 2305 "plugins/xml/dumptree.ml4" 69 2303 2701
+)
+"plugins/xml/dumptree.ml4" 68 2266 2296 "plugins/xml/dumptree.ml4" 68 2266 2299
+type(
+  Term.constr
+)
+ident(
+  def typ "plugins/xml/dumptree.ml4" 69 2303 2305 "plugins/xml/dumptree.ml4" 69 2303 2701
+)
+"plugins/xml/dumptree.ml4" 68 2266 2291 "plugins/xml/dumptree.ml4" 68 2266 2299
+type(
+  Names.identifier * Term.constr option * Term.constr
+)
+"plugins/xml/dumptree.ml4" 69 2303 2309 "plugins/xml/dumptree.ml4" 69 2303 2313
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 69 2303 2316 "plugins/xml/dumptree.ml4" 69 2303 2332
+type(
+  Environ.env -> Term.constr -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Termops.print_constr_env
+)
+"plugins/xml/dumptree.ml4" 69 2303 2333 "plugins/xml/dumptree.ml4" 69 2303 2336
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 68 2266 2286 "plugins/xml/dumptree.ml4" 68 2266 2289
+)
+"plugins/xml/dumptree.ml4" 69 2303 2337 "plugins/xml/dumptree.ml4" 69 2303 2340
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/xml/dumptree.ml4" 68 2266 2296 "plugins/xml/dumptree.ml4" 68 2266 2299
+)
+"plugins/xml/dumptree.ml4" 69 2303 2316 "plugins/xml/dumptree.ml4" 69 2303 2340
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 70 2344 2352 "plugins/xml/dumptree.ml4" 70 2344 2353
+type(
+  Term.constr option
+)
+ident(
+  int_ref c "plugins/xml/dumptree.ml4" 68 2266 2294 "plugins/xml/dumptree.ml4" 68 2266 2295
+)
+"plugins/xml/dumptree.ml4" 71 2359 2363 "plugins/xml/dumptree.ml4" 71 2359 2367
+type(
+  Term.constr option
+)
+"plugins/xml/dumptree.ml4" 72 2371 2378 "plugins/xml/dumptree.ml4" 72 2371 2381
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 72 2371 2382 "plugins/xml/dumptree.ml4" 72 2371 2394
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 72 2371 2378 "plugins/xml/dumptree.ml4" 72 2371 2394
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 72 2371 2398 "plugins/xml/dumptree.ml4" 72 2371 2407
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 72 2371 2409 "plugins/xml/dumptree.ml4" 72 2371 2414
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Ppconstr.pr_id
+)
+"plugins/xml/dumptree.ml4" 72 2371 2415 "plugins/xml/dumptree.ml4" 72 2371 2417
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/xml/dumptree.ml4" 68 2266 2291 "plugins/xml/dumptree.ml4" 68 2266 2293
+)
+"plugins/xml/dumptree.ml4" 72 2371 2409 "plugins/xml/dumptree.ml4" 72 2371 2417
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 72 2371 2398 "plugins/xml/dumptree.ml4" 72 2371 2418
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 72 2371 2378 "plugins/xml/dumptree.ml4" 72 2371 2418
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 72 2371 2422 "plugins/xml/dumptree.ml4" 72 2371 2425
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 72 2371 2426 "plugins/xml/dumptree.ml4" 72 2371 2438
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 72 2371 2422 "plugins/xml/dumptree.ml4" 72 2371 2438
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 72 2371 2378 "plugins/xml/dumptree.ml4" 72 2371 2438
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 72 2371 2442 "plugins/xml/dumptree.ml4" 72 2371 2451
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 72 2371 2452 "plugins/xml/dumptree.ml4" 72 2371 2456
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref ptyp "plugins/xml/dumptree.ml4" 69 2303 2309 "plugins/xml/dumptree.ml4" 69 2303 2313
+)
+"plugins/xml/dumptree.ml4" 72 2371 2442 "plugins/xml/dumptree.ml4" 72 2371 2456
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 72 2371 2378 "plugins/xml/dumptree.ml4" 72 2371 2456
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 72 2371 2460 "plugins/xml/dumptree.ml4" 72 2371 2463
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 72 2371 2464 "plugins/xml/dumptree.ml4" 72 2371 2470
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 72 2371 2460 "plugins/xml/dumptree.ml4" 72 2371 2470
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 72 2371 2378 "plugins/xml/dumptree.ml4" 72 2371 2470
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 73 2472 2481 "plugins/xml/dumptree.ml4" 73 2472 2482
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/xml/dumptree.ml4" 75 2515 2521 "plugins/xml/dumptree.ml4" 75 2515 2701
+)
+"plugins/xml/dumptree.ml4" 73 2472 2476 "plugins/xml/dumptree.ml4" 73 2472 2482
+type(
+  Term.constr option
+)
+"plugins/xml/dumptree.ml4" 75 2515 2525 "plugins/xml/dumptree.ml4" 75 2515 2527
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 75 2515 2530 "plugins/xml/dumptree.ml4" 75 2515 2546
+type(
+  Environ.env -> Term.constr -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Termops.print_constr_env
+)
+"plugins/xml/dumptree.ml4" 75 2515 2547 "plugins/xml/dumptree.ml4" 75 2515 2550
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 68 2266 2286 "plugins/xml/dumptree.ml4" 68 2266 2289
+)
+"plugins/xml/dumptree.ml4" 75 2515 2551 "plugins/xml/dumptree.ml4" 75 2515 2552
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/xml/dumptree.ml4" 73 2472 2481 "plugins/xml/dumptree.ml4" 73 2472 2482
+)
+"plugins/xml/dumptree.ml4" 75 2515 2530 "plugins/xml/dumptree.ml4" 75 2515 2552
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 76 2556 2563 "plugins/xml/dumptree.ml4" 76 2556 2566
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 76 2556 2567 "plugins/xml/dumptree.ml4" 76 2556 2579
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 76 2556 2563 "plugins/xml/dumptree.ml4" 76 2556 2579
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 76 2556 2583 "plugins/xml/dumptree.ml4" 76 2556 2592
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 76 2556 2594 "plugins/xml/dumptree.ml4" 76 2556 2599
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Ppconstr.pr_id
+)
+"plugins/xml/dumptree.ml4" 76 2556 2600 "plugins/xml/dumptree.ml4" 76 2556 2602
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/xml/dumptree.ml4" 68 2266 2291 "plugins/xml/dumptree.ml4" 68 2266 2293
+)
+"plugins/xml/dumptree.ml4" 76 2556 2594 "plugins/xml/dumptree.ml4" 76 2556 2602
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 76 2556 2583 "plugins/xml/dumptree.ml4" 76 2556 2603
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 76 2556 2563 "plugins/xml/dumptree.ml4" 76 2556 2603
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 76 2556 2607 "plugins/xml/dumptree.ml4" 76 2556 2610
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 76 2556 2611 "plugins/xml/dumptree.ml4" 76 2556 2623
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 76 2556 2607 "plugins/xml/dumptree.ml4" 76 2556 2623
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 76 2556 2563 "plugins/xml/dumptree.ml4" 76 2556 2623
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 76 2556 2627 "plugins/xml/dumptree.ml4" 76 2556 2636
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 76 2556 2637 "plugins/xml/dumptree.ml4" 76 2556 2641
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref ptyp "plugins/xml/dumptree.ml4" 69 2303 2309 "plugins/xml/dumptree.ml4" 69 2303 2313
+)
+"plugins/xml/dumptree.ml4" 76 2556 2627 "plugins/xml/dumptree.ml4" 76 2556 2641
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 76 2556 2563 "plugins/xml/dumptree.ml4" 76 2556 2641
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 76 2556 2645 "plugins/xml/dumptree.ml4" 76 2556 2648
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 76 2556 2649 "plugins/xml/dumptree.ml4" 76 2556 2661
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 76 2556 2645 "plugins/xml/dumptree.ml4" 76 2556 2661
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 76 2556 2563 "plugins/xml/dumptree.ml4" 76 2556 2661
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 77 2665 2674 "plugins/xml/dumptree.ml4" 77 2665 2683
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 77 2665 2684 "plugins/xml/dumptree.ml4" 77 2665 2686
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref pb "plugins/xml/dumptree.ml4" 75 2515 2525 "plugins/xml/dumptree.ml4" 75 2515 2527
+)
+"plugins/xml/dumptree.ml4" 77 2665 2674 "plugins/xml/dumptree.ml4" 77 2665 2686
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 76 2556 2563 "plugins/xml/dumptree.ml4" 76 2556 2686
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 77 2665 2690 "plugins/xml/dumptree.ml4" 77 2665 2693
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 77 2665 2694 "plugins/xml/dumptree.ml4" 77 2665 2700
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 77 2665 2690 "plugins/xml/dumptree.ml4" 77 2665 2700
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 76 2556 2563 "plugins/xml/dumptree.ml4" 76 2556 2700
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 75 2515 2521 "plugins/xml/dumptree.ml4" 75 2515 2701
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 70 2344 2346 "plugins/xml/dumptree.ml4" 70 2344 2701
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 69 2303 2305 "plugins/xml/dumptree.ml4" 69 2303 2701
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 68 2266 2290 "plugins/xml/dumptree.ml4" 68 2266 2701
+type(
+  Names.identifier * Term.constr option * Term.constr -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 68 2266 2286 "plugins/xml/dumptree.ml4" 68 2266 2701
+type(
+  Environ.env ->
+  Names.identifier * Term.constr option * Term.constr -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 80 2706 2710 "plugins/xml/dumptree.ml4" 80 2706 2725
+type(
+  Environ.env ->
+  Names.name * Term.constr option * Term.constr -> Pp.std_ppcmds
+)
+ident(
+  def pr_rel_decl_xml "plugins/xml/dumptree.ml4" 96 3166 3166 --
+)
+"plugins/xml/dumptree.ml4" 80 2706 2726 "plugins/xml/dumptree.ml4" 80 2706 2729
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/dumptree.ml4" 80 2706 2730 "plugins/xml/dumptree.ml4" 80 2706 3161
+)
+"plugins/xml/dumptree.ml4" 80 2706 2731 "plugins/xml/dumptree.ml4" 80 2706 2733
+type(
+  Names.name
+)
+ident(
+  def na "plugins/xml/dumptree.ml4" 81 2743 2745 "plugins/xml/dumptree.ml4" 81 2743 3161
+)
+"plugins/xml/dumptree.ml4" 80 2706 2734 "plugins/xml/dumptree.ml4" 80 2706 2735
+type(
+  Term.constr option
+)
+ident(
+  def c "plugins/xml/dumptree.ml4" 81 2743 2745 "plugins/xml/dumptree.ml4" 81 2743 3161
+)
+"plugins/xml/dumptree.ml4" 80 2706 2736 "plugins/xml/dumptree.ml4" 80 2706 2739
+type(
+  Term.constr
+)
+ident(
+  def typ "plugins/xml/dumptree.ml4" 81 2743 2745 "plugins/xml/dumptree.ml4" 81 2743 3161
+)
+"plugins/xml/dumptree.ml4" 80 2706 2731 "plugins/xml/dumptree.ml4" 80 2706 2739
+type(
+  Names.name * Term.constr option * Term.constr
+)
+"plugins/xml/dumptree.ml4" 81 2743 2749 "plugins/xml/dumptree.ml4" 81 2743 2754
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 81 2743 2763 "plugins/xml/dumptree.ml4" 81 2743 2764
+type(
+  Term.constr option
+)
+ident(
+  int_ref c "plugins/xml/dumptree.ml4" 80 2706 2734 "plugins/xml/dumptree.ml4" 80 2706 2735
+)
+"plugins/xml/dumptree.ml4" 82 2770 2776 "plugins/xml/dumptree.ml4" 82 2770 2780
+type(
+  Term.constr option
+)
+"plugins/xml/dumptree.ml4" 82 2770 2784 "plugins/xml/dumptree.ml4" 82 2770 2786
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/xml/dumptree.ml4" 82 2770 2787 "plugins/xml/dumptree.ml4" 82 2770 2789
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 82 2770 2784 "plugins/xml/dumptree.ml4" 82 2770 2789
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 83 2790 2801 "plugins/xml/dumptree.ml4" 83 2790 2802
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/xml/dumptree.ml4" 85 2830 2831 "plugins/xml/dumptree.ml4" 85 2830 2912
+)
+"plugins/xml/dumptree.ml4" 83 2790 2796 "plugins/xml/dumptree.ml4" 83 2790 2802
+type(
+  Term.constr option
+)
+"plugins/xml/dumptree.ml4" 85 2830 2835 "plugins/xml/dumptree.ml4" 85 2830 2837
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 85 2830 2840 "plugins/xml/dumptree.ml4" 85 2830 2856
+type(
+  Environ.env -> Term.constr -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Termops.print_constr_env
+)
+"plugins/xml/dumptree.ml4" 85 2830 2857 "plugins/xml/dumptree.ml4" 85 2830 2860
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 80 2706 2726 "plugins/xml/dumptree.ml4" 80 2706 2729
+)
+"plugins/xml/dumptree.ml4" 85 2830 2861 "plugins/xml/dumptree.ml4" 85 2830 2862
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/xml/dumptree.ml4" 83 2790 2801 "plugins/xml/dumptree.ml4" 83 2790 2802
+)
+"plugins/xml/dumptree.ml4" 85 2830 2840 "plugins/xml/dumptree.ml4" 85 2830 2862
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 86 2866 2870 "plugins/xml/dumptree.ml4" 86 2866 2873
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 86 2866 2873 "plugins/xml/dumptree.ml4" 86 2866 2883
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 86 2866 2870 "plugins/xml/dumptree.ml4" 86 2866 2883
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 86 2866 2887 "plugins/xml/dumptree.ml4" 86 2866 2896
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 86 2866 2897 "plugins/xml/dumptree.ml4" 86 2866 2899
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref pb "plugins/xml/dumptree.ml4" 85 2830 2835 "plugins/xml/dumptree.ml4" 85 2830 2837
+)
+"plugins/xml/dumptree.ml4" 86 2866 2887 "plugins/xml/dumptree.ml4" 86 2866 2899
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 86 2866 2870 "plugins/xml/dumptree.ml4" 86 2866 2899
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 86 2866 2903 "plugins/xml/dumptree.ml4" 86 2866 2906
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 86 2866 2907 "plugins/xml/dumptree.ml4" 86 2866 2911
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 86 2866 2903 "plugins/xml/dumptree.ml4" 86 2866 2911
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 86 2866 2870 "plugins/xml/dumptree.ml4" 86 2866 2911
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 85 2830 2831 "plugins/xml/dumptree.ml4" 85 2830 2912
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 81 2743 2757 "plugins/xml/dumptree.ml4" 81 2743 2912
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 87 2916 2922 "plugins/xml/dumptree.ml4" 87 2916 2926
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 87 2916 2929 "plugins/xml/dumptree.ml4" 87 2916 2945
+type(
+  Environ.env -> Term.constr -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Termops.print_constr_env
+)
+"plugins/xml/dumptree.ml4" 87 2916 2946 "plugins/xml/dumptree.ml4" 87 2916 2949
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 80 2706 2726 "plugins/xml/dumptree.ml4" 80 2706 2729
+)
+"plugins/xml/dumptree.ml4" 87 2916 2950 "plugins/xml/dumptree.ml4" 87 2916 2953
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/xml/dumptree.ml4" 80 2706 2736 "plugins/xml/dumptree.ml4" 80 2706 2739
+)
+"plugins/xml/dumptree.ml4" 87 2916 2929 "plugins/xml/dumptree.ml4" 87 2916 2953
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 88 2957 2963 "plugins/xml/dumptree.ml4" 88 2957 2966
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 89 2969 2979 "plugins/xml/dumptree.ml4" 89 2969 2981
+type(
+  Names.name
+)
+ident(
+  int_ref na "plugins/xml/dumptree.ml4" 80 2706 2731 "plugins/xml/dumptree.ml4" 80 2706 2733
+)
+"plugins/xml/dumptree.ml4" 90 2987 2993 "plugins/xml/dumptree.ml4" 90 2987 3002
+type(
+  Names.name
+)
+"plugins/xml/dumptree.ml4" 90 2987 3006 "plugins/xml/dumptree.ml4" 90 2987 3008
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/xml/dumptree.ml4" 90 2987 3009 "plugins/xml/dumptree.ml4" 90 2987 3011
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 90 2987 3006 "plugins/xml/dumptree.ml4" 90 2987 3011
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 91 3012 3023 "plugins/xml/dumptree.ml4" 91 3012 3025
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/xml/dumptree.ml4" 91 3012 3029 "plugins/xml/dumptree.ml4" 91 3012 3065
+)
+"plugins/xml/dumptree.ml4" 91 3012 3018 "plugins/xml/dumptree.ml4" 91 3012 3025
+type(
+  Names.name
+)
+"plugins/xml/dumptree.ml4" 91 3012 3029 "plugins/xml/dumptree.ml4" 91 3012 3032
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 91 3012 3033 "plugins/xml/dumptree.ml4" 91 3012 3041
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 91 3012 3029 "plugins/xml/dumptree.ml4" 91 3012 3041
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 91 3012 3045 "plugins/xml/dumptree.ml4" 91 3012 3050
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Ppconstr.pr_id
+)
+"plugins/xml/dumptree.ml4" 91 3012 3051 "plugins/xml/dumptree.ml4" 91 3012 3053
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/xml/dumptree.ml4" 91 3012 3023 "plugins/xml/dumptree.ml4" 91 3012 3025
+)
+"plugins/xml/dumptree.ml4" 91 3012 3045 "plugins/xml/dumptree.ml4" 91 3012 3053
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 91 3012 3029 "plugins/xml/dumptree.ml4" 91 3012 3053
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 91 3012 3057 "plugins/xml/dumptree.ml4" 91 3012 3060
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 91 3012 3061 "plugins/xml/dumptree.ml4" 91 3012 3065
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 91 3012 3057 "plugins/xml/dumptree.ml4" 91 3012 3065
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 91 3012 3029 "plugins/xml/dumptree.ml4" 91 3012 3065
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 89 2969 2973 "plugins/xml/dumptree.ml4" 89 2969 3065
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 93 3071 3074 "plugins/xml/dumptree.ml4" 93 3071 3077
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 93 3071 3078 "plugins/xml/dumptree.ml4" 93 3071 3084
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 93 3071 3074 "plugins/xml/dumptree.ml4" 93 3071 3084
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 93 3071 3088 "plugins/xml/dumptree.ml4" 93 3071 3091
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref pid "plugins/xml/dumptree.ml4" 88 2957 2963 "plugins/xml/dumptree.ml4" 88 2957 2966
+)
+"plugins/xml/dumptree.ml4" 93 3071 3074 "plugins/xml/dumptree.ml4" 93 3071 3091
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 93 3071 3095 "plugins/xml/dumptree.ml4" 93 3071 3098
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 93 3071 3099 "plugins/xml/dumptree.ml4" 93 3071 3109
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 93 3071 3095 "plugins/xml/dumptree.ml4" 93 3071 3109
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 93 3071 3074 "plugins/xml/dumptree.ml4" 93 3071 3109
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 93 3071 3113 "plugins/xml/dumptree.ml4" 93 3071 3122
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 93 3071 3123 "plugins/xml/dumptree.ml4" 93 3071 3127
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref ptyp "plugins/xml/dumptree.ml4" 87 2916 2922 "plugins/xml/dumptree.ml4" 87 2916 2926
+)
+"plugins/xml/dumptree.ml4" 93 3071 3113 "plugins/xml/dumptree.ml4" 93 3071 3127
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 93 3071 3074 "plugins/xml/dumptree.ml4" 93 3071 3127
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 93 3071 3131 "plugins/xml/dumptree.ml4" 93 3071 3134
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 93 3071 3135 "plugins/xml/dumptree.ml4" 93 3071 3139
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 93 3071 3131 "plugins/xml/dumptree.ml4" 93 3071 3139
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 93 3071 3074 "plugins/xml/dumptree.ml4" 93 3071 3139
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 93 3071 3143 "plugins/xml/dumptree.ml4" 93 3071 3148
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref pbody "plugins/xml/dumptree.ml4" 81 2743 2749 "plugins/xml/dumptree.ml4" 81 2743 2754
+)
+"plugins/xml/dumptree.ml4" 93 3071 3074 "plugins/xml/dumptree.ml4" 93 3071 3148
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 93 3071 3152 "plugins/xml/dumptree.ml4" 93 3071 3155
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 93 3071 3156 "plugins/xml/dumptree.ml4" 93 3071 3160
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 93 3071 3152 "plugins/xml/dumptree.ml4" 93 3071 3160
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 93 3071 3074 "plugins/xml/dumptree.ml4" 93 3071 3160
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 88 2957 2959 "plugins/xml/dumptree.ml4" 88 2957 3161
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 87 2916 2918 "plugins/xml/dumptree.ml4" 87 2916 3161
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 81 2743 2745 "plugins/xml/dumptree.ml4" 81 2743 3161
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 80 2706 2730 "plugins/xml/dumptree.ml4" 80 2706 3161
+type(
+  Names.name * Term.constr option * Term.constr -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 80 2706 2726 "plugins/xml/dumptree.ml4" 80 2706 3161
+type(
+  Environ.env ->
+  Names.name * Term.constr option * Term.constr -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 96 3166 3170 "plugins/xml/dumptree.ml4" 96 3166 3184
+type(
+  Environ.env -> Pp.std_ppcmds
+)
+ident(
+  def pr_context_xml "plugins/xml/dumptree.ml4" 110 3456 3456 --
+)
+"plugins/xml/dumptree.ml4" 96 3166 3185 "plugins/xml/dumptree.ml4" 96 3166 3188
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/dumptree.ml4" 97 3191 3193 "plugins/xml/dumptree.ml4" 97 3191 3451
+)
+"plugins/xml/dumptree.ml4" 97 3191 3197 "plugins/xml/dumptree.ml4" 97 3191 3205
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 98 3208 3212 "plugins/xml/dumptree.ml4" 98 3208 3230
+type(
+  (Environ.env -> Term.named_declaration -> Pp.std_ppcmds -> Pp.std_ppcmds) ->
+  Environ.env -> init:Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Environ.fold_named_context
+)
+"plugins/xml/dumptree.ml4" 99 3231 3242 "plugins/xml/dumptree.ml4" 99 3231 3245
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/dumptree.ml4" 99 3231 3246 "plugins/xml/dumptree.ml4" 99 3231 3281
+)
+"plugins/xml/dumptree.ml4" 99 3231 3246 "plugins/xml/dumptree.ml4" 99 3231 3247
+type(
+  Term.named_declaration
+)
+ident(
+  def d "plugins/xml/dumptree.ml4" 99 3231 3248 "plugins/xml/dumptree.ml4" 99 3231 3281
+)
+"plugins/xml/dumptree.ml4" 99 3231 3248 "plugins/xml/dumptree.ml4" 99 3231 3250
+type(
+  Pp.std_ppcmds
+)
+ident(
+  def pp "plugins/xml/dumptree.ml4" 99 3231 3254 "plugins/xml/dumptree.ml4" 99 3231 3281
+)
+"plugins/xml/dumptree.ml4" 99 3231 3254 "plugins/xml/dumptree.ml4" 99 3231 3256
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref pp "plugins/xml/dumptree.ml4" 99 3231 3248 "plugins/xml/dumptree.ml4" 99 3231 3250
+)
+"plugins/xml/dumptree.ml4" 99 3231 3260 "plugins/xml/dumptree.ml4" 99 3231 3275
+type(
+  Environ.env -> Term.named_declaration -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_var_decl_xml "plugins/xml/dumptree.ml4" 68 2266 2270 "plugins/xml/dumptree.ml4" 68 2266 2285
+)
+"plugins/xml/dumptree.ml4" 99 3231 3276 "plugins/xml/dumptree.ml4" 99 3231 3279
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 99 3231 3242 "plugins/xml/dumptree.ml4" 99 3231 3245
+)
+"plugins/xml/dumptree.ml4" 99 3231 3280 "plugins/xml/dumptree.ml4" 99 3231 3281
+type(
+  Term.named_declaration
+)
+ident(
+  int_ref d "plugins/xml/dumptree.ml4" 99 3231 3246 "plugins/xml/dumptree.ml4" 99 3231 3247
+)
+"plugins/xml/dumptree.ml4" 99 3231 3260 "plugins/xml/dumptree.ml4" 99 3231 3281
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 99 3231 3254 "plugins/xml/dumptree.ml4" 99 3231 3281
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 99 3231 3248 "plugins/xml/dumptree.ml4" 99 3231 3281
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 99 3231 3246 "plugins/xml/dumptree.ml4" 99 3231 3281
+type(
+  Term.named_declaration -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 99 3231 3238 "plugins/xml/dumptree.ml4" 99 3231 3281
+type(
+  Environ.env -> Term.named_declaration -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 100 3283 3289 "plugins/xml/dumptree.ml4" 100 3283 3292
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 96 3166 3185 "plugins/xml/dumptree.ml4" 96 3166 3188
+)
+"plugins/xml/dumptree.ml4" 100 3283 3300 "plugins/xml/dumptree.ml4" 100 3283 3302
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/xml/dumptree.ml4" 100 3283 3303 "plugins/xml/dumptree.ml4" 100 3283 3305
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 100 3283 3300 "plugins/xml/dumptree.ml4" 100 3283 3305
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 98 3208 3212 "plugins/xml/dumptree.ml4" 98 3208 3306
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 102 3312 3318 "plugins/xml/dumptree.ml4" 102 3312 3324
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 103 3327 3331 "plugins/xml/dumptree.ml4" 103 3327 3347
+type(
+  (Environ.env -> Term.rel_declaration -> Pp.std_ppcmds -> Pp.std_ppcmds) ->
+  Environ.env -> init:Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Environ.fold_rel_context
+)
+"plugins/xml/dumptree.ml4" 104 3348 3359 "plugins/xml/dumptree.ml4" 104 3348 3362
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/dumptree.ml4" 104 3348 3363 "plugins/xml/dumptree.ml4" 104 3348 3398
+)
+"plugins/xml/dumptree.ml4" 104 3348 3363 "plugins/xml/dumptree.ml4" 104 3348 3364
+type(
+  Term.rel_declaration
+)
+ident(
+  def d "plugins/xml/dumptree.ml4" 104 3348 3365 "plugins/xml/dumptree.ml4" 104 3348 3398
+)
+"plugins/xml/dumptree.ml4" 104 3348 3365 "plugins/xml/dumptree.ml4" 104 3348 3367
+type(
+  Pp.std_ppcmds
+)
+ident(
+  def pp "plugins/xml/dumptree.ml4" 104 3348 3371 "plugins/xml/dumptree.ml4" 104 3348 3398
+)
+"plugins/xml/dumptree.ml4" 104 3348 3371 "plugins/xml/dumptree.ml4" 104 3348 3373
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref pp "plugins/xml/dumptree.ml4" 104 3348 3365 "plugins/xml/dumptree.ml4" 104 3348 3367
+)
+"plugins/xml/dumptree.ml4" 104 3348 3377 "plugins/xml/dumptree.ml4" 104 3348 3392
+type(
+  Environ.env -> Term.rel_declaration -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_rel_decl_xml "plugins/xml/dumptree.ml4" 80 2706 2710 "plugins/xml/dumptree.ml4" 80 2706 2725
+)
+"plugins/xml/dumptree.ml4" 104 3348 3393 "plugins/xml/dumptree.ml4" 104 3348 3396
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 104 3348 3359 "plugins/xml/dumptree.ml4" 104 3348 3362
+)
+"plugins/xml/dumptree.ml4" 104 3348 3397 "plugins/xml/dumptree.ml4" 104 3348 3398
+type(
+  Term.rel_declaration
+)
+ident(
+  int_ref d "plugins/xml/dumptree.ml4" 104 3348 3363 "plugins/xml/dumptree.ml4" 104 3348 3364
+)
+"plugins/xml/dumptree.ml4" 104 3348 3377 "plugins/xml/dumptree.ml4" 104 3348 3398
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 104 3348 3371 "plugins/xml/dumptree.ml4" 104 3348 3398
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 104 3348 3365 "plugins/xml/dumptree.ml4" 104 3348 3398
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 104 3348 3363 "plugins/xml/dumptree.ml4" 104 3348 3398
+type(
+  Term.rel_declaration -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 104 3348 3355 "plugins/xml/dumptree.ml4" 104 3348 3398
+type(
+  Environ.env -> Term.rel_declaration -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 105 3400 3406 "plugins/xml/dumptree.ml4" 105 3400 3409
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 96 3166 3185 "plugins/xml/dumptree.ml4" 96 3166 3188
+)
+"plugins/xml/dumptree.ml4" 105 3400 3417 "plugins/xml/dumptree.ml4" 105 3400 3419
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/xml/dumptree.ml4" 105 3400 3420 "plugins/xml/dumptree.ml4" 105 3400 3422
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 105 3400 3417 "plugins/xml/dumptree.ml4" 105 3400 3422
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 103 3327 3331 "plugins/xml/dumptree.ml4" 103 3327 3423
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 107 3429 3432 "plugins/xml/dumptree.ml4" 107 3429 3440
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref sign_env "plugins/xml/dumptree.ml4" 97 3191 3197 "plugins/xml/dumptree.ml4" 97 3191 3205
+)
+"plugins/xml/dumptree.ml4" 107 3429 3444 "plugins/xml/dumptree.ml4" 107 3429 3450
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref db_env "plugins/xml/dumptree.ml4" 102 3312 3318 "plugins/xml/dumptree.ml4" 102 3312 3324
+)
+"plugins/xml/dumptree.ml4" 107 3429 3432 "plugins/xml/dumptree.ml4" 107 3429 3450
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 102 3312 3314 "plugins/xml/dumptree.ml4" 102 3312 3451
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 97 3191 3193 "plugins/xml/dumptree.ml4" 97 3191 3451
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 96 3166 3185 "plugins/xml/dumptree.ml4" 96 3166 3451
+type(
+  Environ.env -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 110 3456 3460 "plugins/xml/dumptree.ml4" 110 3456 3480
+type(
+  (int * Term.types) list -> Environ.env -> Pp.std_ppcmds
+)
+ident(
+  def pr_subgoal_metas_xml "plugins/xml/dumptree.ml4" 118 3710 3710 --
+)
+"plugins/xml/dumptree.ml4" 110 3456 3481 "plugins/xml/dumptree.ml4" 110 3456 3486
+type(
+  (int * Term.types) list
+)
+ident(
+  def metas "plugins/xml/dumptree.ml4" 110 3456 3487 "plugins/xml/dumptree.ml4" 110 3456 3705
+)
+"plugins/xml/dumptree.ml4" 110 3456 3487 "plugins/xml/dumptree.ml4" 110 3456 3490
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/dumptree.ml4" 111 3492 3494 "plugins/xml/dumptree.ml4" 111 3492 3705
+)
+"plugins/xml/dumptree.ml4" 111 3492 3498 "plugins/xml/dumptree.ml4" 111 3492 3504
+type(
+  int * Term.types -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 111 3492 3506 "plugins/xml/dumptree.ml4" 111 3492 3510
+type(
+  int
+)
+ident(
+  def meta "plugins/xml/dumptree.ml4" 112 3519 3523 "plugins/xml/dumptree.ml4" 112 3519 3646
+)
+"plugins/xml/dumptree.ml4" 111 3492 3512 "plugins/xml/dumptree.ml4" 111 3492 3515
+type(
+  Term.types
+)
+ident(
+  def typ "plugins/xml/dumptree.ml4" 112 3519 3523 "plugins/xml/dumptree.ml4" 112 3519 3646
+)
+"plugins/xml/dumptree.ml4" 111 3492 3506 "plugins/xml/dumptree.ml4" 111 3492 3515
+type(
+  int * Term.types
+)
+"plugins/xml/dumptree.ml4" 112 3519 3523 "plugins/xml/dumptree.ml4" 112 3519 3526
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 112 3519 3527 "plugins/xml/dumptree.ml4" 112 3519 3529
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 112 3519 3523 "plugins/xml/dumptree.ml4" 112 3519 3529
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 112 3519 3533 "plugins/xml/dumptree.ml4" 112 3519 3536
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 112 3519 3537 "plugins/xml/dumptree.ml4" 112 3519 3553
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 112 3519 3533 "plugins/xml/dumptree.ml4" 112 3519 3553
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 112 3519 3523 "plugins/xml/dumptree.ml4" 112 3519 3553
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 112 3519 3557 "plugins/xml/dumptree.ml4" 112 3519 3560
+type(
+  int -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.int
+)
+"plugins/xml/dumptree.ml4" 112 3519 3561 "plugins/xml/dumptree.ml4" 112 3519 3565
+type(
+  int
+)
+ident(
+  int_ref meta "plugins/xml/dumptree.ml4" 111 3492 3506 "plugins/xml/dumptree.ml4" 111 3492 3510
+)
+"plugins/xml/dumptree.ml4" 112 3519 3557 "plugins/xml/dumptree.ml4" 112 3519 3565
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 112 3519 3523 "plugins/xml/dumptree.ml4" 112 3519 3565
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 112 3519 3569 "plugins/xml/dumptree.ml4" 112 3519 3572
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 112 3519 3573 "plugins/xml/dumptree.ml4" 112 3519 3583
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 112 3519 3569 "plugins/xml/dumptree.ml4" 112 3519 3583
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 112 3519 3523 "plugins/xml/dumptree.ml4" 112 3519 3583
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 112 3519 3587 "plugins/xml/dumptree.ml4" 112 3519 3596
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 112 3519 3598 "plugins/xml/dumptree.ml4" 112 3519 3617
+type(
+  Environ.env -> Term.types -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Printer.pr_ltype_env_at_top
+)
+"plugins/xml/dumptree.ml4" 112 3519 3618 "plugins/xml/dumptree.ml4" 112 3519 3621
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 110 3456 3487 "plugins/xml/dumptree.ml4" 110 3456 3490
+)
+"plugins/xml/dumptree.ml4" 112 3519 3622 "plugins/xml/dumptree.ml4" 112 3519 3625
+type(
+  Term.types
+)
+ident(
+  int_ref typ "plugins/xml/dumptree.ml4" 111 3492 3512 "plugins/xml/dumptree.ml4" 111 3492 3515
+)
+"plugins/xml/dumptree.ml4" 112 3519 3598 "plugins/xml/dumptree.ml4" 112 3519 3625
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 112 3519 3587 "plugins/xml/dumptree.ml4" 112 3519 3626
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 112 3519 3523 "plugins/xml/dumptree.ml4" 112 3519 3626
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 113 3630 3636 "plugins/xml/dumptree.ml4" 113 3630 3639
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 113 3630 3640 "plugins/xml/dumptree.ml4" 113 3630 3646
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 113 3630 3636 "plugins/xml/dumptree.ml4" 113 3630 3646
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 112 3519 3523 "plugins/xml/dumptree.ml4" 112 3519 3646
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 111 3492 3505 "plugins/xml/dumptree.ml4" 111 3492 3646
+type(
+  int * Term.types -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 115 3652 3654 "plugins/xml/dumptree.ml4" 115 3652 3668
+type(
+  (Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds) ->
+  Pp.std_ppcmds -> Pp.std_ppcmds list -> Pp.std_ppcmds
+)
+ident(
+  ext_ref List.fold_left
+)
+"plugins/xml/dumptree.ml4" 115 3652 3669 "plugins/xml/dumptree.ml4" 115 3652 3673
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 115 3652 3675 "plugins/xml/dumptree.ml4" 115 3652 3677
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/xml/dumptree.ml4" 115 3652 3678 "plugins/xml/dumptree.ml4" 115 3652 3680
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 115 3652 3675 "plugins/xml/dumptree.ml4" 115 3652 3680
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 115 3652 3683 "plugins/xml/dumptree.ml4" 115 3652 3691
+type(
+  (int * Term.types -> Pp.std_ppcmds) ->
+  (int * Term.types) list -> Pp.std_ppcmds list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/xml/dumptree.ml4" 115 3652 3692 "plugins/xml/dumptree.ml4" 115 3652 3698
+type(
+  int * Term.types -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_one "plugins/xml/dumptree.ml4" 111 3492 3498 "plugins/xml/dumptree.ml4" 111 3492 3504
+)
+"plugins/xml/dumptree.ml4" 115 3652 3699 "plugins/xml/dumptree.ml4" 115 3652 3704
+type(
+  (int * Term.types) list
+)
+ident(
+  int_ref metas "plugins/xml/dumptree.ml4" 110 3456 3481 "plugins/xml/dumptree.ml4" 110 3456 3486
+)
+"plugins/xml/dumptree.ml4" 115 3652 3683 "plugins/xml/dumptree.ml4" 115 3652 3704
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds list
+)
+"plugins/xml/dumptree.ml4" 115 3652 3654 "plugins/xml/dumptree.ml4" 115 3652 3705
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 111 3492 3494 "plugins/xml/dumptree.ml4" 111 3492 3705
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 110 3456 3487 "plugins/xml/dumptree.ml4" 110 3456 3705
+type(
+  Environ.env -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 110 3456 3481 "plugins/xml/dumptree.ml4" 110 3456 3705
+type(
+  (int * Term.types) list -> Environ.env -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 118 3710 3714 "plugins/xml/dumptree.ml4" 118 3710 3725
+type(
+  Evd.evar_info -> Pp.std_ppcmds
+)
+ident(
+  def pr_goal_xml "plugins/xml/dumptree.ml4" 132 4133 4133 --
+)
+"plugins/xml/dumptree.ml4" 118 3710 3726 "plugins/xml/dumptree.ml4" 118 3710 3727
+type(
+  Evd.evar_info
+)
+ident(
+  def g "plugins/xml/dumptree.ml4" 119 3730 3732 "plugins/xml/dumptree.ml4" 119 3730 4128
+)
+"plugins/xml/dumptree.ml4" 119 3730 3736 "plugins/xml/dumptree.ml4" 119 3730 3739
+type(
+  Environ.env
+)
+"plugins/xml/dumptree.ml4" 119 3730 3746 "plugins/xml/dumptree.ml4" 119 3730 3765
+type(
+  Evd.evar_info -> Environ.env
+)
+ident(
+  ext_ref Evd.evar_unfiltered_env
+)
+"plugins/xml/dumptree.ml4" 119 3730 3766 "plugins/xml/dumptree.ml4" 119 3730 3767
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref g "plugins/xml/dumptree.ml4" 118 3710 3726 "plugins/xml/dumptree.ml4" 118 3710 3727
+)
+"plugins/xml/dumptree.ml4" 119 3730 3746 "plugins/xml/dumptree.ml4" 119 3730 3767
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/xml/dumptree.ml4" 119 3730 3773 "plugins/xml/dumptree.ml4" 119 3730 3774
+type(
+  exn
+)
+"plugins/xml/dumptree.ml4" 119 3730 3778 "plugins/xml/dumptree.ml4" 119 3730 3787
+type(
+  Environ.env
+)
+ident(
+  ext_ref Environ.empty_env
+)
+"plugins/xml/dumptree.ml4" 119 3730 3742 "plugins/xml/dumptree.ml4" 119 3730 3787
+type(
+  Environ.env
+)
+"plugins/xml/dumptree.ml4" 120 3791 3796 "plugins/xml/dumptree.ml4" 120 3791 3797
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref g "plugins/xml/dumptree.ml4" 118 3710 3726 "plugins/xml/dumptree.ml4" 118 3710 3727
+)
+"plugins/xml/dumptree.ml4" 120 3791 3796 "plugins/xml/dumptree.ml4" 120 3791 3808
+type(
+  Dyn.t option
+)
+"plugins/xml/dumptree.ml4" 120 3791 3811 "plugins/xml/dumptree.ml4" 120 3791 3815
+type(
+  Dyn.t option
+)
+"plugins/xml/dumptree.ml4" 120 3791 3796 "plugins/xml/dumptree.ml4" 120 3791 3815
+type(
+  bool
+)
+type(
+  Dyn.t option -> Dyn.t option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/xml/dumptree.ml4" 121 3821 3826 "plugins/xml/dumptree.ml4" 121 3821 3829
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/xml/dumptree.ml4" 121 3821 3830 "plugins/xml/dumptree.ml4" 121 3821 3831
+type(
+  int
+)
+"plugins/xml/dumptree.ml4" 121 3821 3833 "plugins/xml/dumptree.ml4" 121 3821 3836
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 121 3821 3837 "plugins/xml/dumptree.ml4" 121 3821 3845
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 121 3821 3833 "plugins/xml/dumptree.ml4" 121 3821 3845
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 121 3821 3849 "plugins/xml/dumptree.ml4" 121 3821 3852
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 121 3821 3853 "plugins/xml/dumptree.ml4" 121 3821 3855
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 121 3821 3849 "plugins/xml/dumptree.ml4" 121 3821 3855
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 121 3821 3833 "plugins/xml/dumptree.ml4" 121 3821 3855
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 121 3821 3859 "plugins/xml/dumptree.ml4" 121 3821 3862
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 121 3821 3863 "plugins/xml/dumptree.ml4" 121 3821 3879
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 121 3821 3859 "plugins/xml/dumptree.ml4" 121 3821 3879
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 121 3821 3833 "plugins/xml/dumptree.ml4" 121 3821 3879
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 122 3883 3887 "plugins/xml/dumptree.ml4" 122 3883 3896
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref xmlstream "plugins/xml/dumptree.ml4" 29 945 949 "plugins/xml/dumptree.ml4" 29 945 958
+)
+"plugins/xml/dumptree.ml4" 122 3883 3898 "plugins/xml/dumptree.ml4" 122 3883 3917
+type(
+  Environ.env -> Term.types -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Printer.pr_ltype_env_at_top
+)
+"plugins/xml/dumptree.ml4" 122 3883 3918 "plugins/xml/dumptree.ml4" 122 3883 3921
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 119 3730 3736 "plugins/xml/dumptree.ml4" 119 3730 3739
+)
+"plugins/xml/dumptree.ml4" 122 3883 3922 "plugins/xml/dumptree.ml4" 122 3883 3923
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref g "plugins/xml/dumptree.ml4" 118 3710 3726 "plugins/xml/dumptree.ml4" 118 3710 3727
+)
+"plugins/xml/dumptree.ml4" 122 3883 3922 "plugins/xml/dumptree.ml4" 122 3883 3934
+type(
+  Term.types
+)
+"plugins/xml/dumptree.ml4" 122 3883 3898 "plugins/xml/dumptree.ml4" 122 3883 3934
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 122 3883 3887 "plugins/xml/dumptree.ml4" 122 3883 3935
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 121 3821 3833 "plugins/xml/dumptree.ml4" 121 3821 3935
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 123 3939 3943 "plugins/xml/dumptree.ml4" 123 3939 3946
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 123 3939 3947 "plugins/xml/dumptree.ml4" 123 3939 3953
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 123 3939 3943 "plugins/xml/dumptree.ml4" 123 3939 3953
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 121 3821 3833 "plugins/xml/dumptree.ml4" 121 3821 3953
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 124 3957 3962 "plugins/xml/dumptree.ml4" 124 3957 3976
+type(
+  Environ.env -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_context_xml "plugins/xml/dumptree.ml4" 96 3166 3170 "plugins/xml/dumptree.ml4" 96 3166 3184
+)
+"plugins/xml/dumptree.ml4" 124 3957 3977 "plugins/xml/dumptree.ml4" 124 3957 3980
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 119 3730 3736 "plugins/xml/dumptree.ml4" 119 3730 3739
+)
+"plugins/xml/dumptree.ml4" 124 3957 3962 "plugins/xml/dumptree.ml4" 124 3957 3980
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 121 3821 3833 "plugins/xml/dumptree.ml4" 121 3821 3981
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 121 3821 3826 "plugins/xml/dumptree.ml4" 121 3821 3982
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 125 3986 3990 "plugins/xml/dumptree.ml4" 125 3986 3993
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 125 3986 3994 "plugins/xml/dumptree.ml4" 125 3986 3996
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 125 3986 3990 "plugins/xml/dumptree.ml4" 125 3986 3996
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 121 3821 3826 "plugins/xml/dumptree.ml4" 121 3821 3996
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 125 3986 4000 "plugins/xml/dumptree.ml4" 125 3986 4003
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 125 3986 4004 "plugins/xml/dumptree.ml4" 125 3986 4013
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 125 3986 4000 "plugins/xml/dumptree.ml4" 125 3986 4013
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 121 3821 3826 "plugins/xml/dumptree.ml4" 121 3821 4013
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 127 4022 4027 "plugins/xml/dumptree.ml4" 127 4022 4030
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/xml/dumptree.ml4" 127 4022 4031 "plugins/xml/dumptree.ml4" 127 4022 4032
+type(
+  int
+)
+"plugins/xml/dumptree.ml4" 127 4022 4034 "plugins/xml/dumptree.ml4" 127 4022 4037
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 127 4022 4038 "plugins/xml/dumptree.ml4" 127 4022 4067
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 127 4022 4034 "plugins/xml/dumptree.ml4" 127 4022 4067
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 128 4071 4076 "plugins/xml/dumptree.ml4" 128 4071 4090
+type(
+  Environ.env -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_context_xml "plugins/xml/dumptree.ml4" 96 3166 3170 "plugins/xml/dumptree.ml4" 96 3166 3184
+)
+"plugins/xml/dumptree.ml4" 128 4071 4091 "plugins/xml/dumptree.ml4" 128 4071 4094
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/dumptree.ml4" 119 3730 3736 "plugins/xml/dumptree.ml4" 119 3730 3739
+)
+"plugins/xml/dumptree.ml4" 128 4071 4076 "plugins/xml/dumptree.ml4" 128 4071 4094
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 127 4022 4034 "plugins/xml/dumptree.ml4" 127 4022 4095
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 127 4022 4027 "plugins/xml/dumptree.ml4" 127 4022 4096
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 129 4100 4104 "plugins/xml/dumptree.ml4" 129 4100 4107
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 129 4100 4108 "plugins/xml/dumptree.ml4" 129 4100 4110
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 129 4100 4104 "plugins/xml/dumptree.ml4" 129 4100 4110
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 127 4022 4027 "plugins/xml/dumptree.ml4" 127 4022 4110
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 129 4100 4114 "plugins/xml/dumptree.ml4" 129 4100 4117
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 129 4100 4118 "plugins/xml/dumptree.ml4" 129 4100 4127
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 129 4100 4114 "plugins/xml/dumptree.ml4" 129 4100 4127
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 127 4022 4027 "plugins/xml/dumptree.ml4" 127 4022 4127
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 120 3791 3793 "plugins/xml/dumptree.ml4" 120 3791 4128
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 119 3730 3732 "plugins/xml/dumptree.ml4" 119 3730 4128
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 118 3710 3726 "plugins/xml/dumptree.ml4" 118 3710 4128
+type(
+  Evd.evar_info -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 132 4133 4141 "plugins/xml/dumptree.ml4" 132 4133 4156
+type(
+  'a -> Sign.named_context -> Proof_type.proof_tree -> Pp.std_ppcmds
+)
+ident(
+  def print_proof_xml "plugins/xml/dumptree.ml4" 132 4133 4133 --
+)
+"plugins/xml/dumptree.ml4" 132 4133 4157 "plugins/xml/dumptree.ml4" 132 4133 4162
+type(
+  'a
+)
+ident(
+  def sigma "plugins/xml/dumptree.ml4" 132 4133 4163 "plugins/xml/dumptree.ml4" 132 4133 4728
+)
+"plugins/xml/dumptree.ml4" 132 4133 4163 "plugins/xml/dumptree.ml4" 132 4133 4168
+type(
+  Sign.named_context
+)
+ident(
+  def osign "plugins/xml/dumptree.ml4" 132 4133 4169 "plugins/xml/dumptree.ml4" 132 4133 4728
+)
+"plugins/xml/dumptree.ml4" 132 4133 4169 "plugins/xml/dumptree.ml4" 132 4133 4171
+type(
+  Proof_type.proof_tree
+)
+ident(
+  def pf "plugins/xml/dumptree.ml4" 133 4174 4176 "plugins/xml/dumptree.ml4" 133 4174 4728
+)
+"plugins/xml/dumptree.ml4" 133 4174 4180 "plugins/xml/dumptree.ml4" 133 4174 4184
+type(
+  Sign.named_context
+)
+"plugins/xml/dumptree.ml4" 133 4174 4187 "plugins/xml/dumptree.ml4" 133 4174 4215
+type(
+  Environ.named_context_val -> Sign.named_context
+)
+ident(
+  ext_ref Environ.named_context_of_val
+)
+"plugins/xml/dumptree.ml4" 133 4174 4216 "plugins/xml/dumptree.ml4" 133 4174 4218
+type(
+  Proof_type.proof_tree
+)
+ident(
+  int_ref pf "plugins/xml/dumptree.ml4" 132 4133 4169 "plugins/xml/dumptree.ml4" 132 4133 4171
+)
+"plugins/xml/dumptree.ml4" 133 4174 4216 "plugins/xml/dumptree.ml4" 133 4174 4233
+type(
+  Environ.named_context_val
+)
+type(
+  Proof_type.goal
+)
+"plugins/xml/dumptree.ml4" 133 4174 4187 "plugins/xml/dumptree.ml4" 133 4174 4233
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/xml/dumptree.ml4" 134 4237 4243 "plugins/xml/dumptree.ml4" 134 4237 4248
+type(
+  Environ.named_context_val
+)
+"plugins/xml/dumptree.ml4" 134 4237 4251 "plugins/xml/dumptree.ml4" 134 4237 4260
+type(
+  Sign.named_context -> Sign.named_context -> Environ.named_context_val
+)
+ident(
+  int_ref thin_sign "plugins/xml/dumptree.ml4" 34 1110 1114 "plugins/xml/dumptree.ml4" 34 1110 1123
+)
+"plugins/xml/dumptree.ml4" 134 4237 4261 "plugins/xml/dumptree.ml4" 134 4237 4266
+type(
+  Sign.named_context
+)
+ident(
+  int_ref osign "plugins/xml/dumptree.ml4" 132 4133 4163 "plugins/xml/dumptree.ml4" 132 4133 4168
+)
+"plugins/xml/dumptree.ml4" 134 4237 4267 "plugins/xml/dumptree.ml4" 134 4237 4271
+type(
+  Sign.named_context
+)
+ident(
+  int_ref hyps "plugins/xml/dumptree.ml4" 133 4174 4180 "plugins/xml/dumptree.ml4" 133 4174 4184
+)
+"plugins/xml/dumptree.ml4" 134 4237 4251 "plugins/xml/dumptree.ml4" 134 4237 4271
+call(
+  stack
+)
+type(
+  Environ.named_context_val
+)
+"plugins/xml/dumptree.ml4" 135 4275 4283 "plugins/xml/dumptree.ml4" 135 4275 4285
+type(
+  Proof_type.proof_tree
+)
+ident(
+  int_ref pf "plugins/xml/dumptree.ml4" 132 4133 4169 "plugins/xml/dumptree.ml4" 132 4133 4171
+)
+"plugins/xml/dumptree.ml4" 135 4275 4283 "plugins/xml/dumptree.ml4" 135 4275 4289
+type(
+  (Proof_type.rule * Proof_type.proof_tree list) option
+)
+"plugins/xml/dumptree.ml4" 136 4295 4301 "plugins/xml/dumptree.ml4" 136 4295 4305
+type(
+  (Proof_type.rule * Proof_type.proof_tree list) option
+)
+"plugins/xml/dumptree.ml4" 136 4295 4309 "plugins/xml/dumptree.ml4" 136 4295 4312
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/xml/dumptree.ml4" 136 4295 4313 "plugins/xml/dumptree.ml4" 136 4295 4314
+type(
+  int
+)
+"plugins/xml/dumptree.ml4" 136 4295 4316 "plugins/xml/dumptree.ml4" 136 4295 4319
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 136 4295 4320 "plugins/xml/dumptree.ml4" 136 4295 4328
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 136 4295 4316 "plugins/xml/dumptree.ml4" 136 4295 4328
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 136 4295 4332 "plugins/xml/dumptree.ml4" 136 4295 4335
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 136 4295 4336 "plugins/xml/dumptree.ml4" 136 4295 4338
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 136 4295 4332 "plugins/xml/dumptree.ml4" 136 4295 4338
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 136 4295 4316 "plugins/xml/dumptree.ml4" 136 4295 4338
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 136 4295 4343 "plugins/xml/dumptree.ml4" 136 4295 4354
+type(
+  Evd.evar_info -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_goal_xml "plugins/xml/dumptree.ml4" 118 3710 3714 "plugins/xml/dumptree.ml4" 118 3710 3725
+)
+"plugins/xml/dumptree.ml4" 136 4295 4356 "plugins/xml/dumptree.ml4" 136 4295 4358
+type(
+  Proof_type.proof_tree
+)
+ident(
+  int_ref pf "plugins/xml/dumptree.ml4" 132 4133 4169 "plugins/xml/dumptree.ml4" 132 4133 4171
+)
+"plugins/xml/dumptree.ml4" 136 4295 4356 "plugins/xml/dumptree.ml4" 136 4295 4363
+type(
+  Proof_type.goal
+)
+"plugins/xml/dumptree.ml4" 136 4295 4379 "plugins/xml/dumptree.ml4" 136 4295 4384
+type(
+  Environ.named_context_val
+)
+ident(
+  int_ref hyps' "plugins/xml/dumptree.ml4" 134 4237 4243 "plugins/xml/dumptree.ml4" 134 4237 4248
+)
+"plugins/xml/dumptree.ml4" 136 4295 4355 "plugins/xml/dumptree.ml4" 136 4295 4385
+type(
+  Evd.evar_info
+)
+"plugins/xml/dumptree.ml4" 136 4295 4343 "plugins/xml/dumptree.ml4" 136 4295 4385
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 136 4295 4316 "plugins/xml/dumptree.ml4" 136 4295 4386
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 136 4295 4309 "plugins/xml/dumptree.ml4" 136 4295 4387
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 136 4295 4391 "plugins/xml/dumptree.ml4" 136 4295 4394
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 136 4295 4395 "plugins/xml/dumptree.ml4" 136 4295 4397
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 136 4295 4391 "plugins/xml/dumptree.ml4" 136 4295 4397
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 136 4295 4309 "plugins/xml/dumptree.ml4" 136 4295 4397
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 136 4295 4401 "plugins/xml/dumptree.ml4" 136 4295 4404
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 136 4295 4405 "plugins/xml/dumptree.ml4" 136 4295 4414
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 136 4295 4401 "plugins/xml/dumptree.ml4" 136 4295 4414
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 136 4295 4309 "plugins/xml/dumptree.ml4" 136 4295 4414
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 137 4415 4426 "plugins/xml/dumptree.ml4" 137 4415 4427
+type(
+  Proof_type.rule
+)
+ident(
+  def r "plugins/xml/dumptree.ml4" 138 4437 4445 "plugins/xml/dumptree.ml4" 138 4437 4728
+)
+"plugins/xml/dumptree.ml4" 137 4415 4428 "plugins/xml/dumptree.ml4" 137 4415 4432
+type(
+  Proof_type.proof_tree list
+)
+ident(
+  def spfl "plugins/xml/dumptree.ml4" 138 4437 4445 "plugins/xml/dumptree.ml4" 138 4437 4728
+)
+"plugins/xml/dumptree.ml4" 137 4415 4426 "plugins/xml/dumptree.ml4" 137 4415 4432
+type(
+  Proof_type.rule * Proof_type.proof_tree list
+)
+"plugins/xml/dumptree.ml4" 137 4415 4421 "plugins/xml/dumptree.ml4" 137 4415 4433
+type(
+  (Proof_type.rule * Proof_type.proof_tree list) option
+)
+"plugins/xml/dumptree.ml4" 138 4437 4445 "plugins/xml/dumptree.ml4" 138 4437 4448
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/xml/dumptree.ml4" 138 4437 4449 "plugins/xml/dumptree.ml4" 138 4437 4450
+type(
+  int
+)
+"plugins/xml/dumptree.ml4" 138 4437 4452 "plugins/xml/dumptree.ml4" 138 4437 4455
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 138 4437 4456 "plugins/xml/dumptree.ml4" 138 4437 4464
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 138 4437 4452 "plugins/xml/dumptree.ml4" 138 4437 4464
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 138 4437 4468 "plugins/xml/dumptree.ml4" 138 4437 4471
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 138 4437 4472 "plugins/xml/dumptree.ml4" 138 4437 4474
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 138 4437 4468 "plugins/xml/dumptree.ml4" 138 4437 4474
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 138 4437 4452 "plugins/xml/dumptree.ml4" 138 4437 4474
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 139 4478 4487 "plugins/xml/dumptree.ml4" 139 4478 4498
+type(
+  Evd.evar_info -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_goal_xml "plugins/xml/dumptree.ml4" 118 3710 3714 "plugins/xml/dumptree.ml4" 118 3710 3725
+)
+"plugins/xml/dumptree.ml4" 139 4478 4500 "plugins/xml/dumptree.ml4" 139 4478 4502
+type(
+  Proof_type.proof_tree
+)
+ident(
+  int_ref pf "plugins/xml/dumptree.ml4" 132 4133 4169 "plugins/xml/dumptree.ml4" 132 4133 4171
+)
+"plugins/xml/dumptree.ml4" 139 4478 4500 "plugins/xml/dumptree.ml4" 139 4478 4507
+type(
+  Proof_type.goal
+)
+"plugins/xml/dumptree.ml4" 139 4478 4523 "plugins/xml/dumptree.ml4" 139 4478 4528
+type(
+  Environ.named_context_val
+)
+ident(
+  int_ref hyps' "plugins/xml/dumptree.ml4" 134 4237 4243 "plugins/xml/dumptree.ml4" 134 4237 4248
+)
+"plugins/xml/dumptree.ml4" 139 4478 4499 "plugins/xml/dumptree.ml4" 139 4478 4529
+type(
+  Evd.evar_info
+)
+"plugins/xml/dumptree.ml4" 139 4478 4487 "plugins/xml/dumptree.ml4" 139 4478 4529
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 138 4437 4452 "plugins/xml/dumptree.ml4" 138 4437 4530
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 139 4478 4534 "plugins/xml/dumptree.ml4" 139 4478 4537
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 139 4478 4538 "plugins/xml/dumptree.ml4" 139 4478 4540
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 139 4478 4534 "plugins/xml/dumptree.ml4" 139 4478 4540
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 138 4437 4452 "plugins/xml/dumptree.ml4" 138 4437 4540
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 139 4478 4545 "plugins/xml/dumptree.ml4" 139 4478 4556
+type(
+  (Proof_type.proof_tree -> Pp.std_ppcmds) ->
+  Proof_type.rule -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_rule_xml "plugins/xml/dumptree.ml4" 53 1753 1757 "plugins/xml/dumptree.ml4" 53 1753 1768
+)
+"plugins/xml/dumptree.ml4" 139 4478 4558 "plugins/xml/dumptree.ml4" 139 4478 4573
+type(
+  'a -> Sign.named_context -> Proof_type.proof_tree -> Pp.std_ppcmds
+)
+ident(
+  int_ref print_proof_xml "plugins/xml/dumptree.ml4" 132 4133 4141 "plugins/xml/dumptree.ml4" 132 4133 4156
+)
+"plugins/xml/dumptree.ml4" 139 4478 4574 "plugins/xml/dumptree.ml4" 139 4478 4579
+type(
+  'a
+)
+ident(
+  int_ref sigma "plugins/xml/dumptree.ml4" 132 4133 4157 "plugins/xml/dumptree.ml4" 132 4133 4162
+)
+"plugins/xml/dumptree.ml4" 139 4478 4580 "plugins/xml/dumptree.ml4" 139 4478 4585
+type(
+  Sign.named_context
+)
+ident(
+  int_ref osign "plugins/xml/dumptree.ml4" 132 4133 4163 "plugins/xml/dumptree.ml4" 132 4133 4168
+)
+"plugins/xml/dumptree.ml4" 139 4478 4558 "plugins/xml/dumptree.ml4" 139 4478 4585
+call(
+  stack
+)
+type(
+  Proof_type.proof_tree -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 139 4478 4587 "plugins/xml/dumptree.ml4" 139 4478 4588
+type(
+  Proof_type.rule
+)
+ident(
+  int_ref r "plugins/xml/dumptree.ml4" 137 4415 4426 "plugins/xml/dumptree.ml4" 137 4415 4427
+)
+"plugins/xml/dumptree.ml4" 139 4478 4545 "plugins/xml/dumptree.ml4" 139 4478 4588
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 138 4437 4452 "plugins/xml/dumptree.ml4" 138 4437 4589
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 140 4593 4602 "plugins/xml/dumptree.ml4" 140 4593 4616
+type(
+  (Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds) ->
+  Pp.std_ppcmds -> Pp.std_ppcmds list -> Pp.std_ppcmds
+)
+ident(
+  ext_ref List.fold_left
+)
+"plugins/xml/dumptree.ml4" 140 4593 4622 "plugins/xml/dumptree.ml4" 140 4593 4623
+type(
+  Pp.std_ppcmds
+)
+ident(
+  def x "plugins/xml/dumptree.ml4" 140 4593 4624 "plugins/xml/dumptree.ml4" 140 4593 4645
+)
+"plugins/xml/dumptree.ml4" 140 4593 4624 "plugins/xml/dumptree.ml4" 140 4593 4625
+type(
+  Pp.std_ppcmds
+)
+ident(
+  def y "plugins/xml/dumptree.ml4" 140 4593 4629 "plugins/xml/dumptree.ml4" 140 4593 4645
+)
+"plugins/xml/dumptree.ml4" 140 4593 4629 "plugins/xml/dumptree.ml4" 140 4593 4630
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref x "plugins/xml/dumptree.ml4" 140 4593 4622 "plugins/xml/dumptree.ml4" 140 4593 4623
+)
+"plugins/xml/dumptree.ml4" 140 4593 4634 "plugins/xml/dumptree.ml4" 140 4593 4637
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 140 4593 4638 "plugins/xml/dumptree.ml4" 140 4593 4640
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 140 4593 4634 "plugins/xml/dumptree.ml4" 140 4593 4640
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 140 4593 4629 "plugins/xml/dumptree.ml4" 140 4593 4640
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 140 4593 4644 "plugins/xml/dumptree.ml4" 140 4593 4645
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref y "plugins/xml/dumptree.ml4" 140 4593 4624 "plugins/xml/dumptree.ml4" 140 4593 4625
+)
+"plugins/xml/dumptree.ml4" 140 4593 4629 "plugins/xml/dumptree.ml4" 140 4593 4645
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 140 4593 4624 "plugins/xml/dumptree.ml4" 140 4593 4645
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 140 4593 4618 "plugins/xml/dumptree.ml4" 140 4593 4645
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 140 4593 4648 "plugins/xml/dumptree.ml4" 140 4593 4650
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/xml/dumptree.ml4" 140 4593 4651 "plugins/xml/dumptree.ml4" 140 4593 4653
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 140 4593 4648 "plugins/xml/dumptree.ml4" 140 4593 4653
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 140 4593 4656 "plugins/xml/dumptree.ml4" 140 4593 4664
+type(
+  (Proof_type.proof_tree -> Pp.std_ppcmds) ->
+  Proof_type.proof_tree list -> Pp.std_ppcmds list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/xml/dumptree.ml4" 140 4593 4666 "plugins/xml/dumptree.ml4" 140 4593 4681
+type(
+  'a -> Sign.named_context -> Proof_type.proof_tree -> Pp.std_ppcmds
+)
+ident(
+  int_ref print_proof_xml "plugins/xml/dumptree.ml4" 132 4133 4141 "plugins/xml/dumptree.ml4" 132 4133 4156
+)
+"plugins/xml/dumptree.ml4" 140 4593 4682 "plugins/xml/dumptree.ml4" 140 4593 4687
+type(
+  'a
+)
+ident(
+  int_ref sigma "plugins/xml/dumptree.ml4" 132 4133 4157 "plugins/xml/dumptree.ml4" 132 4133 4162
+)
+"plugins/xml/dumptree.ml4" 140 4593 4688 "plugins/xml/dumptree.ml4" 140 4593 4692
+type(
+  Sign.named_context
+)
+ident(
+  int_ref hyps "plugins/xml/dumptree.ml4" 133 4174 4180 "plugins/xml/dumptree.ml4" 133 4174 4184
+)
+"plugins/xml/dumptree.ml4" 140 4593 4666 "plugins/xml/dumptree.ml4" 140 4593 4692
+call(
+  stack
+)
+type(
+  Proof_type.proof_tree -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 140 4593 4694 "plugins/xml/dumptree.ml4" 140 4593 4698
+type(
+  Proof_type.proof_tree list
+)
+ident(
+  int_ref spfl "plugins/xml/dumptree.ml4" 137 4415 4428 "plugins/xml/dumptree.ml4" 137 4415 4432
+)
+"plugins/xml/dumptree.ml4" 140 4593 4656 "plugins/xml/dumptree.ml4" 140 4593 4698
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds list
+)
+"plugins/xml/dumptree.ml4" 140 4593 4602 "plugins/xml/dumptree.ml4" 140 4593 4699
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 138 4437 4452 "plugins/xml/dumptree.ml4" 138 4437 4700
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 138 4437 4445 "plugins/xml/dumptree.ml4" 138 4437 4701
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 140 4593 4705 "plugins/xml/dumptree.ml4" 140 4593 4708
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.fnl
+)
+"plugins/xml/dumptree.ml4" 140 4593 4709 "plugins/xml/dumptree.ml4" 140 4593 4711
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 140 4593 4705 "plugins/xml/dumptree.ml4" 140 4593 4711
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 138 4437 4445 "plugins/xml/dumptree.ml4" 138 4437 4711
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 140 4593 4715 "plugins/xml/dumptree.ml4" 140 4593 4718
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/dumptree.ml4" 140 4593 4719 "plugins/xml/dumptree.ml4" 140 4593 4728
+type(
+  string
+)
+"plugins/xml/dumptree.ml4" 140 4593 4715 "plugins/xml/dumptree.ml4" 140 4593 4728
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 138 4437 4445 "plugins/xml/dumptree.ml4" 138 4437 4728
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/dumptree.ml4" 135 4275 4277 "plugins/xml/dumptree.ml4" 135 4275 4728
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 134 4237 4239 "plugins/xml/dumptree.ml4" 134 4237 4728
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 133 4174 4176 "plugins/xml/dumptree.ml4" 133 4174 4728
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 132 4133 4169 "plugins/xml/dumptree.ml4" 132 4133 4728
+type(
+  Proof_type.proof_tree -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 132 4133 4163 "plugins/xml/dumptree.ml4" 132 4133 4728
+type(
+  Sign.named_context -> Proof_type.proof_tree -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 132 4133 4157 "plugins/xml/dumptree.ml4" 132 4133 4728
+type(
+  'a -> Sign.named_context -> Proof_type.proof_tree -> Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 143 4733 4737 "plugins/xml/dumptree.ml4" 143 4733 4752
+type(
+  unit -> unit
+)
+ident(
+  def print_proof_xml "plugins/xml/dumptree.ml4" 150 4927 4927 --
+)
+"plugins/xml/dumptree.ml4" 143 4733 4753 "plugins/xml/dumptree.ml4" 143 4733 4755
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 144 4758 4764 "plugins/xml/dumptree.ml4" 144 4758 4766
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 144 4758 4769 "plugins/xml/dumptree.ml4" 144 4758 4784
+type(
+  Evd.evar_map ->
+  Sign.named_context -> Proof_type.proof_tree -> Pp.std_ppcmds
+)
+ident(
+  int_ref print_proof_xml "plugins/xml/dumptree.ml4" 132 4133 4141 "plugins/xml/dumptree.ml4" 132 4133 4156
+)
+"plugins/xml/dumptree.ml4" 144 4758 4785 "plugins/xml/dumptree.ml4" 144 4758 4794
+type(
+  Evd.evar_map
+)
+ident(
+  ext_ref Evd.empty
+)
+"plugins/xml/dumptree.ml4" 144 4758 4795 "plugins/xml/dumptree.ml4" 144 4758 4819
+type(
+  Sign.named_context
+)
+ident(
+  ext_ref Sign.empty_named_context
+)
+"plugins/xml/dumptree.ml4" 145 4820 4827 "plugins/xml/dumptree.ml4" 145 4820 4855
+type(
+  Tacmach.pftreestate -> Proof_type.proof_tree
+)
+ident(
+  ext_ref Tacmach.proof_of_pftreestate
+)
+"plugins/xml/dumptree.ml4" 145 4820 4857 "plugins/xml/dumptree.ml4" 145 4820 4876
+type(
+  Tacmach.pftreestate -> Tacmach.pftreestate
+)
+ident(
+  ext_ref Refiner.top_of_tree
+)
+"plugins/xml/dumptree.ml4" 145 4820 4878 "plugins/xml/dumptree.ml4" 145 4820 4900
+type(
+  unit -> Tacmach.pftreestate
+)
+ident(
+  ext_ref Pfedit.get_pftreestate
+)
+"plugins/xml/dumptree.ml4" 145 4820 4901 "plugins/xml/dumptree.ml4" 145 4820 4903
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 145 4820 4878 "plugins/xml/dumptree.ml4" 145 4820 4903
+call(
+  stack
+)
+type(
+  Tacmach.pftreestate
+)
+"plugins/xml/dumptree.ml4" 145 4820 4857 "plugins/xml/dumptree.ml4" 145 4820 4904
+call(
+  stack
+)
+type(
+  Tacmach.pftreestate
+)
+"plugins/xml/dumptree.ml4" 145 4820 4827 "plugins/xml/dumptree.ml4" 145 4820 4905
+call(
+  stack
+)
+type(
+  Proof_type.proof_tree
+)
+"plugins/xml/dumptree.ml4" 144 4758 4769 "plugins/xml/dumptree.ml4" 144 4758 4906
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/dumptree.ml4" 147 4912 4914 "plugins/xml/dumptree.ml4" 147 4912 4919
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msgnl
+)
+"plugins/xml/dumptree.ml4" 147 4912 4920 "plugins/xml/dumptree.ml4" 147 4912 4922
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref pp "plugins/xml/dumptree.ml4" 144 4758 4764 "plugins/xml/dumptree.ml4" 144 4758 4766
+)
+"plugins/xml/dumptree.ml4" 147 4912 4914 "plugins/xml/dumptree.ml4" 147 4912 4922
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 144 4758 4760 "plugins/xml/dumptree.ml4" 144 4758 4922
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 143 4733 4753 "plugins/xml/dumptree.ml4" 143 4733 4922
+type(
+  unit -> unit
+)
+"plugins/xml/dumptree.ml4" 151 4958 4983 "plugins/xml/dumptree.ml4" 151 4958 4998
+type(
+  unit -> unit
+)
+ident(
+  int_ref print_proof_xml "plugins/xml/dumptree.ml4" 143 4733 4737 "plugins/xml/dumptree.ml4" 143 4733 4752
+)
+"plugins/xml/dumptree.ml4" 151 4958 4999 "plugins/xml/dumptree.ml4" 151 4958 5001
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 151 4958 4983 "plugins/xml/dumptree.ml4" 151 4958 5001
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/dumptree.ml4" 151 4958 4960 "plugins/xml/dumptree.ml4" 151 4958 5003
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/xml/dumptree.ml4" 150 4927 4927 "plugins/xml/dumptree.ml4" 150 4927 5007
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/xml/dumptree.ml4" 150 4927 4927 "plugins/xml/dumptree.ml4" 150 4927 5007
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/xml/dumptree.ml4" 150 4927 4927 "plugins/xml/dumptree.ml4" 150 4927 5007
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)

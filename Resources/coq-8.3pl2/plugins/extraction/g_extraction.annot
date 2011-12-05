@@ -1,0 +1,5897 @@
+"plugins/extraction/g_extraction.ml4" 22 684 688 "plugins/extraction/g_extraction.ml4" 22 684 697
+type(
+  'a -> 'b -> 'c -> string -> Pp.std_ppcmds
+)
+ident(
+  def pr_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 --
+)
+"plugins/extraction/g_extraction.ml4" 22 684 698 "plugins/extraction/g_extraction.ml4" 22 684 699
+type(
+  'a
+)
+"plugins/extraction/g_extraction.ml4" 22 684 700 "plugins/extraction/g_extraction.ml4" 22 684 701
+type(
+  'b
+)
+"plugins/extraction/g_extraction.ml4" 22 684 702 "plugins/extraction/g_extraction.ml4" 22 684 703
+type(
+  'c
+)
+"plugins/extraction/g_extraction.ml4" 22 684 704 "plugins/extraction/g_extraction.ml4" 22 684 705
+type(
+  string
+)
+ident(
+  def s "plugins/extraction/g_extraction.ml4" 22 684 708 "plugins/extraction/g_extraction.ml4" 22 684 722
+)
+"plugins/extraction/g_extraction.ml4" 22 684 708 "plugins/extraction/g_extraction.ml4" 22 684 711
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/g_extraction.ml4" 22 684 712 "plugins/extraction/g_extraction.ml4" 22 684 714
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 22 684 708 "plugins/extraction/g_extraction.ml4" 22 684 714
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 22 684 718 "plugins/extraction/g_extraction.ml4" 22 684 720
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.qs
+)
+"plugins/extraction/g_extraction.ml4" 22 684 721 "plugins/extraction/g_extraction.ml4" 22 684 722
+type(
+  string
+)
+ident(
+  int_ref s "plugins/extraction/g_extraction.ml4" 22 684 704 "plugins/extraction/g_extraction.ml4" 22 684 705
+)
+"plugins/extraction/g_extraction.ml4" 22 684 718 "plugins/extraction/g_extraction.ml4" 22 684 722
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 22 684 708 "plugins/extraction/g_extraction.ml4" 22 684 722
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/g_extraction.ml4" 22 684 704 "plugins/extraction/g_extraction.ml4" 22 684 722
+type(
+  string -> Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 22 684 702 "plugins/extraction/g_extraction.ml4" 22 684 722
+type(
+  'c -> string -> Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 22 684 700 "plugins/extraction/g_extraction.ml4" 22 684 722
+type(
+  'b -> 'c -> string -> Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 22 684 698 "plugins/extraction/g_extraction.ml4" 22 684 722
+type(
+  'a -> 'b -> 'c -> string -> Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 27 788 812 "plugins/extraction/g_extraction.ml4" 27 788 814
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref id "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+"plugins/extraction/g_extraction.ml4" 28 817 838 "plugins/extraction/g_extraction.ml4" 28 817 839
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+"plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string Tacexpr.typed_abstract_argument_type *
+  string Pptactic.extra_genarg_printer
+)
+type(
+  string Pptactic.extra_genarg_printer
+)
+ident(
+  int_ref pr_mlname "plugins/extraction/g_extraction.ml4" 22 684 688 "plugins/extraction/g_extraction.ml4" 22 684 697
+)
+type(
+  string Tacexpr.typed_abstract_argument_type
+)
+ident(
+  int_ref wit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  string Tacexpr.glob_abstract_argument_type *
+  string Pptactic.glob_extra_genarg_printer
+)
+type(
+  string Pptactic.glob_extra_genarg_printer
+)
+ident(
+  int_ref pr_mlname "plugins/extraction/g_extraction.ml4" 22 684 688 "plugins/extraction/g_extraction.ml4" 22 684 697
+)
+type(
+  string Tacexpr.glob_abstract_argument_type
+)
+ident(
+  int_ref globwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  string Tacexpr.raw_abstract_argument_type *
+  string Pptactic.raw_extra_genarg_printer
+)
+type(
+  string Pptactic.raw_extra_genarg_printer
+)
+ident(
+  int_ref pr_mlname "plugins/extraction/g_extraction.ml4" 22 684 688 "plugins/extraction/g_extraction.ml4" 22 684 697
+)
+type(
+  string Tacexpr.raw_abstract_argument_type
+)
+ident(
+  int_ref rawwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  string Tacexpr.raw_abstract_argument_type *
+  string Pptactic.raw_extra_genarg_printer ->
+  string Tacexpr.glob_abstract_argument_type *
+  string Pptactic.glob_extra_genarg_printer ->
+  string Tacexpr.typed_abstract_argument_type *
+  string Pptactic.extra_genarg_printer -> unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_genarg_pprule
+)
+type(
+  unit
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  string option * Gramext.g_assoc option *
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  string -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_a -> string
+)
+type(
+  '_a
+)
+ident(
+  def loc "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  ('_a -> string) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  string
+)
+ident(
+  int_ref id "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_pre_ident
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  string -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  string
+)
+ident(
+  def id "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  string -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_b -> string
+)
+type(
+  '_b
+)
+ident(
+  def loc "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  ('_b -> string) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_string
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  string -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  string
+)
+ident(
+  def s "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Gramext.g_assoc option
+)
+type(
+  string option
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  Gramext.position option
+)
+type(
+  string Pcoq.Gram.Entry.e
+)
+type(
+  string Pcoq.Gram.Entry.e
+)
+ident(
+  int_ref mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  string Pcoq.Gram.Entry.e ->
+  Gramext.position option ->
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list -> unit
+)
+ident(
+  ext_ref Pcoq.Gram.extend
+)
+type(
+  unit
+)
+type(
+  (Tacinterp.glob_sign ->
+   Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument) *
+  (Tacinterp.interp_sign ->
+   Proof_type.goal Tacmach.sigma ->
+   Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument) *
+  (Mod_subst.substitution ->
+   Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument)
+)
+type(
+  Mod_subst.substitution ->
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument -> string
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  int_ref subst "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Mod_subst.substitution -> string -> string
+)
+type(
+  string -> string
+)
+type(
+  string
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  string
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_string
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type ->
+  string -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  int_ref s "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Mod_subst.substitution ->
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Tacinterp.subst_genarg
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_string
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument -> string
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  def s "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type ->
+  string -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  def subst "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.interp_sign ->
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument -> string
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  int_ref ist "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.interp_sign -> Proof_type.goal Tacmach.sigma -> string -> string
+)
+type(
+  Proof_type.goal Tacmach.sigma -> string -> string
+)
+type(
+  string -> string
+)
+type(
+  string
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  string
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_string
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type ->
+  string -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  int_ref ist "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.interp_sign ->
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+ident(
+  ext_ref Tacinterp.interp_genarg
+)
+type(
+  (string, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_string
+)
+type(
+  (string, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> string
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  def ist "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref wit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.tlevel) Genarg.abstract_argument_type ->
+  string -> Tacexpr.typed_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  def ist "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.glob_sign ->
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.glob_sign -> string -> string
+)
+type(
+  string -> string
+)
+type(
+  string
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+type(
+  string
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_string
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  string -> Tacexpr.raw_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.glob_sign ->
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Tacinterp.intern_genarg
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_string
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument -> string
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type ->
+  string -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  string ->
+  (Tacinterp.glob_sign ->
+   Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument) *
+  (Tacinterp.interp_sign ->
+   Proof_type.goal Tacmach.sigma ->
+   Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument) *
+  (Mod_subst.substitution ->
+   Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument) ->
+  unit
+)
+ident(
+  ext_ref Tacinterp.add_interp_genarg
+)
+type(
+  string Pcoq.Gram.Entry.e
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  string ->
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  string Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.create_generic_entry
+)
+type(
+  string Pcoq.Gram.Entry.e
+)
+ident(
+  def mlname "plugins/extraction/g_extraction.ml4" 24 724 724 --
+)
+type(
+  (string, Genarg.tlevel) Genarg.abstract_argument_type *
+  (string, Genarg.glevel) Genarg.abstract_argument_type *
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  string ->
+  (string, Genarg.tlevel) Genarg.abstract_argument_type *
+  (string, Genarg.glevel) Genarg.abstract_argument_type *
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.create_arg
+)
+type(
+  (string, Genarg.tlevel) Genarg.abstract_argument_type *
+  (string, Genarg.glevel) Genarg.abstract_argument_type *
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  def rawwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 --
+)
+type(
+  (string, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  def globwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 --
+)
+type(
+  (string, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  def wit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 --
+)
+"plugins/extraction/g_extraction.ml4" 31 847 851 "plugins/extraction/g_extraction.ml4" 31 847 863
+type(
+  'a -> 'b -> 'c -> Table.int_or_id -> Pp.std_ppcmds
+)
+ident(
+  def pr_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 --
+)
+"plugins/extraction/g_extraction.ml4" 31 847 864 "plugins/extraction/g_extraction.ml4" 31 847 865
+type(
+  'a
+)
+"plugins/extraction/g_extraction.ml4" 31 847 866 "plugins/extraction/g_extraction.ml4" 31 847 867
+type(
+  'b
+)
+"plugins/extraction/g_extraction.ml4" 31 847 868 "plugins/extraction/g_extraction.ml4" 31 847 869
+type(
+  'c
+)
+"plugins/extraction/g_extraction.ml4" 32 881 892 "plugins/extraction/g_extraction.ml4" 32 881 893
+type(
+  int
+)
+ident(
+  def i "plugins/extraction/g_extraction.ml4" 32 881 897 "plugins/extraction/g_extraction.ml4" 32 881 902
+)
+"plugins/extraction/g_extraction.ml4" 32 881 885 "plugins/extraction/g_extraction.ml4" 32 881 893
+type(
+  Table.int_or_id
+)
+"plugins/extraction/g_extraction.ml4" 32 881 897 "plugins/extraction/g_extraction.ml4" 32 881 900
+type(
+  int -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.int
+)
+"plugins/extraction/g_extraction.ml4" 32 881 901 "plugins/extraction/g_extraction.ml4" 32 881 902
+type(
+  int
+)
+ident(
+  int_ref i "plugins/extraction/g_extraction.ml4" 32 881 892 "plugins/extraction/g_extraction.ml4" 32 881 893
+)
+"plugins/extraction/g_extraction.ml4" 32 881 897 "plugins/extraction/g_extraction.ml4" 32 881 902
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 33 903 913 "plugins/extraction/g_extraction.ml4" 33 903 915
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/extraction/g_extraction.ml4" 33 903 919 "plugins/extraction/g_extraction.ml4" 33 903 927
+)
+"plugins/extraction/g_extraction.ml4" 33 903 907 "plugins/extraction/g_extraction.ml4" 33 903 915
+type(
+  Table.int_or_id
+)
+"plugins/extraction/g_extraction.ml4" 33 903 919 "plugins/extraction/g_extraction.ml4" 33 903 924
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Nameops.pr_id
+)
+"plugins/extraction/g_extraction.ml4" 33 903 925 "plugins/extraction/g_extraction.ml4" 33 903 927
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/extraction/g_extraction.ml4" 33 903 913 "plugins/extraction/g_extraction.ml4" 33 903 915
+)
+"plugins/extraction/g_extraction.ml4" 33 903 919 "plugins/extraction/g_extraction.ml4" 33 903 927
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 31 847 872 "plugins/extraction/g_extraction.ml4" 31 847 927
+type(
+  Table.int_or_id -> Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 31 847 868 "plugins/extraction/g_extraction.ml4" 31 847 927
+type(
+  'c -> Table.int_or_id -> Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 31 847 866 "plugins/extraction/g_extraction.ml4" 31 847 927
+type(
+  'b -> 'c -> Table.int_or_id -> Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 31 847 864 "plugins/extraction/g_extraction.ml4" 31 847 927
+type(
+  'a -> 'b -> 'c -> Table.int_or_id -> Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 38 1002 1033 "plugins/extraction/g_extraction.ml4" 38 1002 1045
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+"plugins/extraction/g_extraction.ml4" 38 1002 1046 "plugins/extraction/g_extraction.ml4" 38 1002 1048
+type(
+  string
+)
+ident(
+  int_ref id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+"plugins/extraction/g_extraction.ml4" 38 1002 1033 "plugins/extraction/g_extraction.ml4" 38 1002 1048
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/extraction/g_extraction.ml4" 38 1002 1026 "plugins/extraction/g_extraction.ml4" 38 1002 1049
+type(
+  Table.int_or_id
+)
+type(
+  Table.int_or_id
+)
+"plugins/extraction/g_extraction.ml4" 39 1052 1081 "plugins/extraction/g_extraction.ml4" 39 1052 1082
+type(
+  int
+)
+ident(
+  int_ref i "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+"plugins/extraction/g_extraction.ml4" 39 1052 1074 "plugins/extraction/g_extraction.ml4" 39 1052 1082
+type(
+  Table.int_or_id
+)
+type(
+  Table.int_or_id
+)
+"plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  Table.int_or_id Tacexpr.typed_abstract_argument_type *
+  Table.int_or_id Pptactic.extra_genarg_printer
+)
+type(
+  Table.int_or_id Pptactic.extra_genarg_printer
+)
+ident(
+  int_ref pr_int_or_id "plugins/extraction/g_extraction.ml4" 31 847 851 "plugins/extraction/g_extraction.ml4" 31 847 863
+)
+type(
+  Table.int_or_id Tacexpr.typed_abstract_argument_type
+)
+ident(
+  int_ref wit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Table.int_or_id Tacexpr.glob_abstract_argument_type *
+  Table.int_or_id Pptactic.glob_extra_genarg_printer
+)
+type(
+  Table.int_or_id Pptactic.glob_extra_genarg_printer
+)
+ident(
+  int_ref pr_int_or_id "plugins/extraction/g_extraction.ml4" 31 847 851 "plugins/extraction/g_extraction.ml4" 31 847 863
+)
+type(
+  Table.int_or_id Tacexpr.glob_abstract_argument_type
+)
+ident(
+  int_ref globwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Table.int_or_id Tacexpr.raw_abstract_argument_type *
+  Table.int_or_id Pptactic.raw_extra_genarg_printer
+)
+type(
+  Table.int_or_id Pptactic.raw_extra_genarg_printer
+)
+ident(
+  int_ref pr_int_or_id "plugins/extraction/g_extraction.ml4" 31 847 851 "plugins/extraction/g_extraction.ml4" 31 847 863
+)
+type(
+  Table.int_or_id Tacexpr.raw_abstract_argument_type
+)
+ident(
+  int_ref rawwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Table.int_or_id Tacexpr.raw_abstract_argument_type *
+  Table.int_or_id Pptactic.raw_extra_genarg_printer ->
+  Table.int_or_id Tacexpr.glob_abstract_argument_type *
+  Table.int_or_id Pptactic.glob_extra_genarg_printer ->
+  Table.int_or_id Tacexpr.typed_abstract_argument_type *
+  Table.int_or_id Pptactic.extra_genarg_printer -> unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_genarg_pprule
+)
+type(
+  unit
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  string option * Gramext.g_assoc option *
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  string -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_a -> Table.int_or_id
+)
+type(
+  '_a
+)
+ident(
+  def loc "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  ('_a -> Table.int_or_id) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  string
+)
+ident(
+  int_ref id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_pre_ident
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  string -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  string
+)
+ident(
+  def id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (string -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  int -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_b -> Table.int_or_id
+)
+type(
+  '_b
+)
+ident(
+  def loc "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  ('_b -> Table.int_or_id) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  int
+)
+ident(
+  int_ref i "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_int
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type ->
+  int -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  int
+)
+ident(
+  def i "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (int -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Gramext.g_assoc option
+)
+type(
+  string option
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  Gramext.position option
+)
+type(
+  Table.int_or_id Pcoq.Gram.Entry.e
+)
+type(
+  Table.int_or_id Pcoq.Gram.Entry.e
+)
+ident(
+  int_ref int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Table.int_or_id Pcoq.Gram.Entry.e ->
+  Gramext.position option ->
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list -> unit
+)
+ident(
+  ext_ref Pcoq.Gram.extend
+)
+type(
+  unit
+)
+type(
+  (Tacinterp.glob_sign ->
+   Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument) *
+  (Tacinterp.interp_sign ->
+   Proof_type.goal Tacmach.sigma ->
+   Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument) *
+  (Mod_subst.substitution ->
+   Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument)
+)
+type(
+  Mod_subst.substitution ->
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Table.int_or_id
+)
+type(
+  Table.int_or_id
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument -> Table.int_or_id
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  int_ref subst "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Mod_subst.substitution -> Table.int_or_id -> Table.int_or_id
+)
+type(
+  Table.int_or_id -> Table.int_or_id
+)
+type(
+  Table.int_or_id
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Table.int_or_id
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type ->
+  Table.int_or_id -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  int_ref s "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Mod_subst.substitution ->
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Tacinterp.subst_genarg
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument -> Table.int_or_id
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Table.int_or_id
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  def s "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type ->
+  Table.int_or_id -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  def subst "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.interp_sign ->
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+type(
+  Table.int_or_id
+)
+type(
+  Table.int_or_id
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument -> Table.int_or_id
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  int_ref ist "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.interp_sign ->
+  Proof_type.goal Tacmach.sigma -> Table.int_or_id -> Table.int_or_id
+)
+type(
+  Proof_type.goal Tacmach.sigma -> Table.int_or_id -> Table.int_or_id
+)
+type(
+  Table.int_or_id -> Table.int_or_id
+)
+type(
+  Table.int_or_id
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Table.int_or_id
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type ->
+  Table.int_or_id -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  int_ref ist "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.interp_sign ->
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+ident(
+  ext_ref Tacinterp.interp_genarg
+)
+type(
+  (Table.int_or_id, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref wit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Table.int_or_id
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Table.int_or_id
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  def ist "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref wit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Table.int_or_id -> Tacexpr.typed_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  def ist "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.glob_sign ->
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Table.int_or_id
+)
+type(
+  Table.int_or_id
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Table.int_or_id
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.glob_sign -> Table.int_or_id -> Table.int_or_id
+)
+type(
+  Table.int_or_id -> Table.int_or_id
+)
+type(
+  Table.int_or_id
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+type(
+  Table.int_or_id
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Table.int_or_id -> Tacexpr.raw_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.glob_sign ->
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Tacinterp.intern_genarg
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument -> Table.int_or_id
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Table.int_or_id
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type ->
+  Table.int_or_id -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  def x "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  string ->
+  (Tacinterp.glob_sign ->
+   Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument) *
+  (Tacinterp.interp_sign ->
+   Proof_type.goal Tacmach.sigma ->
+   Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument) *
+  (Mod_subst.substitution ->
+   Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument) ->
+  unit
+)
+ident(
+  ext_ref Tacinterp.add_interp_genarg
+)
+type(
+  Table.int_or_id Pcoq.Gram.Entry.e
+)
+type(
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  string ->
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Table.int_or_id Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.create_generic_entry
+)
+type(
+  Table.int_or_id Pcoq.Gram.Entry.e
+)
+ident(
+  def int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 --
+)
+type(
+  (Table.int_or_id, Genarg.tlevel) Genarg.abstract_argument_type *
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type *
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  string ->
+  (Table.int_or_id, Genarg.tlevel) Genarg.abstract_argument_type *
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type *
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.create_arg
+)
+type(
+  (Table.int_or_id, Genarg.tlevel) Genarg.abstract_argument_type *
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type *
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  def rawwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 --
+)
+type(
+  (Table.int_or_id, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  def globwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 --
+)
+type(
+  (Table.int_or_id, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  def wit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 --
+)
+"plugins/extraction/g_extraction.ml4" 42 1090 1094 "plugins/extraction/g_extraction.ml4" 42 1090 1105
+type(
+  Table.lang -> Pp.std_ppcmds
+)
+ident(
+  def pr_language "plugins/extraction/g_extraction.ml4" 47 1199 1199 --
+)
+"plugins/extraction/g_extraction.ml4" 43 1117 1121 "plugins/extraction/g_extraction.ml4" 43 1117 1126
+type(
+  Table.lang
+)
+"plugins/extraction/g_extraction.ml4" 43 1117 1130 "plugins/extraction/g_extraction.ml4" 43 1117 1133
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/g_extraction.ml4" 43 1117 1134 "plugins/extraction/g_extraction.ml4" 43 1117 1141
+type(
+  string
+)
+"plugins/extraction/g_extraction.ml4" 43 1117 1130 "plugins/extraction/g_extraction.ml4" 43 1117 1141
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 44 1142 1146 "plugins/extraction/g_extraction.ml4" 44 1142 1153
+type(
+  Table.lang
+)
+"plugins/extraction/g_extraction.ml4" 44 1142 1157 "plugins/extraction/g_extraction.ml4" 44 1142 1160
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/g_extraction.ml4" 44 1142 1161 "plugins/extraction/g_extraction.ml4" 44 1142 1170
+type(
+  string
+)
+"plugins/extraction/g_extraction.ml4" 44 1142 1157 "plugins/extraction/g_extraction.ml4" 44 1142 1170
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 45 1171 1175 "plugins/extraction/g_extraction.ml4" 45 1171 1181
+type(
+  Table.lang
+)
+"plugins/extraction/g_extraction.ml4" 45 1171 1185 "plugins/extraction/g_extraction.ml4" 45 1171 1188
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/g_extraction.ml4" 45 1171 1189 "plugins/extraction/g_extraction.ml4" 45 1171 1197
+type(
+  string
+)
+"plugins/extraction/g_extraction.ml4" 45 1171 1185 "plugins/extraction/g_extraction.ml4" 45 1171 1197
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 42 1090 1108 "plugins/extraction/g_extraction.ml4" 42 1090 1197
+type(
+  Table.lang -> Pp.std_ppcmds
+)
+"plugins/extraction/g_extraction.ml4" 49 1254 1273 "plugins/extraction/g_extraction.ml4" 49 1254 1278
+type(
+  Table.lang
+)
+type(
+  Table.lang
+)
+"plugins/extraction/g_extraction.ml4" 50 1281 1302 "plugins/extraction/g_extraction.ml4" 50 1281 1309
+type(
+  Table.lang
+)
+type(
+  Table.lang
+)
+"plugins/extraction/g_extraction.ml4" 51 1312 1332 "plugins/extraction/g_extraction.ml4" 51 1312 1338
+type(
+  Table.lang
+)
+type(
+  Table.lang
+)
+"plugins/extraction/g_extraction.ml4" 47 1199 1199 "plugins/extraction/g_extraction.ml4" 47 1199 1344
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit Tacexpr.typed_abstract_argument_type *
+  unit Pptactic.extra_genarg_printer
+)
+type(
+  unit Pptactic.extra_genarg_printer
+)
+type(
+  (Term.constr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  unit -> Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  string
+)
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.anomaly
+)
+type(
+  unit
+)
+type(
+  Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Term.constr -> Pp.std_ppcmds
+)
+type(
+  Term.constr -> Pp.std_ppcmds
+)
+type(
+  unit Tacexpr.typed_abstract_argument_type
+)
+ident(
+  int_ref wit_language "plugins/extraction/g_extraction.ml4" 47 1199 1199 "plugins/extraction/g_extraction.ml4" 47 1199 1344
+)
+type(
+  unit Tacexpr.glob_abstract_argument_type *
+  unit Pptactic.glob_extra_genarg_printer
+)
+type(
+  unit Pptactic.glob_extra_genarg_printer
+)
+type(
+  (Genarg.rawconstr_and_expr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  unit -> Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  string
+)
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.anomaly
+)
+type(
+  unit
+)
+type(
+  Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Genarg.rawconstr_and_expr -> Pp.std_ppcmds
+)
+type(
+  Genarg.rawconstr_and_expr -> Pp.std_ppcmds
+)
+type(
+  unit Tacexpr.glob_abstract_argument_type
+)
+ident(
+  int_ref globwit_language "plugins/extraction/g_extraction.ml4" 47 1199 1199 "plugins/extraction/g_extraction.ml4" 47 1199 1344
+)
+type(
+  Table.lang Tacexpr.raw_abstract_argument_type *
+  Table.lang Pptactic.raw_extra_genarg_printer
+)
+type(
+  Table.lang Pptactic.raw_extra_genarg_printer
+)
+type(
+  (Topconstr.constr_expr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds) ->
+  Table.lang -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds) ->
+  Table.lang -> Pp.std_ppcmds
+)
+type(
+  Table.lang -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_language "plugins/extraction/g_extraction.ml4" 42 1090 1094 "plugins/extraction/g_extraction.ml4" 42 1090 1105
+)
+type(
+  Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  Table.lang Tacexpr.raw_abstract_argument_type
+)
+ident(
+  int_ref rawwit_language "plugins/extraction/g_extraction.ml4" 47 1199 1199 "plugins/extraction/g_extraction.ml4" 47 1199 1344
+)
+type(
+  Table.lang Tacexpr.raw_abstract_argument_type *
+  Table.lang Pptactic.raw_extra_genarg_printer ->
+  unit Tacexpr.glob_abstract_argument_type *
+  unit Pptactic.glob_extra_genarg_printer ->
+  unit Tacexpr.typed_abstract_argument_type *
+  unit Pptactic.extra_genarg_printer -> unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_genarg_pprule
+)
+type(
+  unit
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  string option * Gramext.g_assoc option *
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_a -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_b -> Table.lang
+)
+type(
+  '_b
+)
+ident(
+  def loc "plugins/extraction/g_extraction.ml4" 47 1199 1199 "plugins/extraction/g_extraction.ml4" 47 1199 1344
+)
+type(
+  ('_b -> Table.lang) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_a
+)
+type(
+  ('_a -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_c -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_d -> Table.lang
+)
+type(
+  '_d
+)
+ident(
+  def loc "plugins/extraction/g_extraction.ml4" 47 1199 1199 "plugins/extraction/g_extraction.ml4" 47 1199 1344
+)
+type(
+  ('_d -> Table.lang) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_c
+)
+type(
+  ('_c -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_e -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_f -> Table.lang
+)
+type(
+  '_f
+)
+ident(
+  def loc "plugins/extraction/g_extraction.ml4" 47 1199 1199 "plugins/extraction/g_extraction.ml4" 47 1199 1344
+)
+type(
+  ('_f -> Table.lang) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_e
+)
+type(
+  ('_e -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Gramext.g_assoc option
+)
+type(
+  string option
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  Gramext.position option
+)
+type(
+  Table.lang Pcoq.Gram.Entry.e
+)
+type(
+  Table.lang Pcoq.Gram.Entry.e
+)
+ident(
+  int_ref language "plugins/extraction/g_extraction.ml4" 47 1199 1199 "plugins/extraction/g_extraction.ml4" 47 1199 1344
+)
+type(
+  Table.lang Pcoq.Gram.Entry.e ->
+  Gramext.position option ->
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list -> unit
+)
+ident(
+  ext_ref Pcoq.Gram.extend
+)
+type(
+  Table.lang Pcoq.Gram.Entry.e
+)
+type(
+  (Table.lang, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_language "plugins/extraction/g_extraction.ml4" 47 1199 1199 "plugins/extraction/g_extraction.ml4" 47 1199 1344
+)
+type(
+  string ->
+  (Table.lang, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Table.lang Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.create_generic_entry
+)
+type(
+  Table.lang Pcoq.Gram.Entry.e
+)
+ident(
+  def language "plugins/extraction/g_extraction.ml4" 47 1199 1199 --
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (Table.lang, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  string ->
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (Table.lang, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.create_arg
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (Table.lang, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Table.lang, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  def rawwit_language "plugins/extraction/g_extraction.ml4" 47 1199 1199 --
+)
+type(
+  (unit, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  def globwit_language "plugins/extraction/g_extraction.ml4" 47 1199 1199 --
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  def wit_language "plugins/extraction/g_extraction.ml4" 47 1199 1199 --
+)
+"plugins/extraction/g_extraction.ml4" 58 1443 1460 "plugins/extraction/g_extraction.ml4" 58 1443 1469
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 58 1443 1477 "plugins/extraction/g_extraction.ml4" 58 1443 1494
+type(
+  Libnames.reference -> unit
+)
+ident(
+  ext_ref Extract_env.simple_extraction
+)
+"plugins/extraction/g_extraction.ml4" 58 1443 1495 "plugins/extraction/g_extraction.ml4" 58 1443 1496
+type(
+  Libnames.reference
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 58 1443 1445 "plugins/extraction/g_extraction.ml4" 58 1443 1498
+)
+"plugins/extraction/g_extraction.ml4" 58 1443 1477 "plugins/extraction/g_extraction.ml4" 58 1443 1496
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 58 1443 1445 "plugins/extraction/g_extraction.ml4" 58 1443 1498
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Libnames.reference
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 59 1499 1528 "plugins/extraction/g_extraction.ml4" 59 1499 1545
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 59 1499 1553 "plugins/extraction/g_extraction.ml4" 59 1499 1568
+type(
+  string option -> Libnames.reference list -> unit
+)
+ident(
+  ext_ref Extract_env.full_extraction
+)
+"plugins/extraction/g_extraction.ml4" 59 1499 1569 "plugins/extraction/g_extraction.ml4" 59 1499 1573
+type(
+  string option
+)
+"plugins/extraction/g_extraction.ml4" 59 1499 1574 "plugins/extraction/g_extraction.ml4" 59 1499 1575
+type(
+  Libnames.reference list
+)
+ident(
+  int_ref l "plugins/extraction/g_extraction.ml4" 59 1499 1501 "plugins/extraction/g_extraction.ml4" 59 1499 1577
+)
+"plugins/extraction/g_extraction.ml4" 59 1499 1553 "plugins/extraction/g_extraction.ml4" 59 1499 1575
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 59 1499 1501 "plugins/extraction/g_extraction.ml4" 59 1499 1577
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Libnames.reference list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 62 1617 1634 "plugins/extraction/g_extraction.ml4" 62 1617 1643
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 62 1617 1644 "plugins/extraction/g_extraction.ml4" 62 1617 1661
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 63 1664 1671 "plugins/extraction/g_extraction.ml4" 63 1664 1686
+type(
+  string option -> Libnames.reference list -> unit
+)
+ident(
+  ext_ref Extract_env.full_extraction
+)
+"plugins/extraction/g_extraction.ml4" 63 1664 1693 "plugins/extraction/g_extraction.ml4" 63 1664 1694
+type(
+  string
+)
+ident(
+  int_ref f "plugins/extraction/g_extraction.ml4" 62 1617 1619 "plugins/extraction/g_extraction.ml4" 62 1617 1699
+)
+"plugins/extraction/g_extraction.ml4" 63 1664 1688 "plugins/extraction/g_extraction.ml4" 63 1664 1694
+type(
+  string option
+)
+"plugins/extraction/g_extraction.ml4" 63 1664 1696 "plugins/extraction/g_extraction.ml4" 63 1664 1697
+type(
+  Libnames.reference list
+)
+ident(
+  int_ref l "plugins/extraction/g_extraction.ml4" 62 1617 1619 "plugins/extraction/g_extraction.ml4" 62 1617 1699
+)
+"plugins/extraction/g_extraction.ml4" 63 1664 1671 "plugins/extraction/g_extraction.ml4" 63 1664 1697
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 62 1617 1619 "plugins/extraction/g_extraction.ml4" 62 1617 1699
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Libnames.reference list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference list
+)
+type(
+  string
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref f "" -1 0 0 "" -1 0 0
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_string
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref f "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 56 1373 1373 "plugins/extraction/g_extraction.ml4" 56 1373 1703
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 56 1373 1373 "plugins/extraction/g_extraction.ml4" 56 1373 1703
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 56 1373 1373 "plugins/extraction/g_extraction.ml4" 56 1373 1703
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 68 1804 1831 "plugins/extraction/g_extraction.ml4" 68 1804 1839
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 69 1842 1849 "plugins/extraction/g_extraction.ml4" 69 1842 1867
+type(
+  bool -> Names.identifier -> unit
+)
+ident(
+  ext_ref Extract_env.extraction_library
+)
+"plugins/extraction/g_extraction.ml4" 69 1842 1868 "plugins/extraction/g_extraction.ml4" 69 1842 1873
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 69 1842 1874 "plugins/extraction/g_extraction.ml4" 69 1842 1875
+type(
+  Names.identifier
+)
+ident(
+  int_ref m "plugins/extraction/g_extraction.ml4" 68 1804 1806 "plugins/extraction/g_extraction.ml4" 68 1804 1877
+)
+"plugins/extraction/g_extraction.ml4" 69 1842 1849 "plugins/extraction/g_extraction.ml4" 69 1842 1875
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 68 1804 1806 "plugins/extraction/g_extraction.ml4" 68 1804 1877
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref m "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref m "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 67 1764 1764 "plugins/extraction/g_extraction.ml4" 67 1764 1881
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 67 1764 1764 "plugins/extraction/g_extraction.ml4" 67 1764 1881
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 67 1764 1764 "plugins/extraction/g_extraction.ml4" 67 1764 1881
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 73 1932 1971 "plugins/extraction/g_extraction.ml4" 73 1932 1979
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 74 1982 1989 "plugins/extraction/g_extraction.ml4" 74 1982 2007
+type(
+  bool -> Names.identifier -> unit
+)
+ident(
+  ext_ref Extract_env.extraction_library
+)
+"plugins/extraction/g_extraction.ml4" 74 1982 2008 "plugins/extraction/g_extraction.ml4" 74 1982 2012
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 74 1982 2013 "plugins/extraction/g_extraction.ml4" 74 1982 2014
+type(
+  Names.identifier
+)
+ident(
+  int_ref m "plugins/extraction/g_extraction.ml4" 73 1932 1934 "plugins/extraction/g_extraction.ml4" 73 1932 2016
+)
+"plugins/extraction/g_extraction.ml4" 74 1982 1989 "plugins/extraction/g_extraction.ml4" 74 1982 2014
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 73 1932 1934 "plugins/extraction/g_extraction.ml4" 73 1932 2016
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref m "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref m "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 72 1883 1883 "plugins/extraction/g_extraction.ml4" 72 1883 2020
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 72 1883 1883 "plugins/extraction/g_extraction.ml4" 72 1883 2020
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 72 1883 1883 "plugins/extraction/g_extraction.ml4" 72 1883 2020
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 79 2085 2113 "plugins/extraction/g_extraction.ml4" 79 2085 2124
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 80 2127 2134 "plugins/extraction/g_extraction.ml4" 80 2127 2153
+type(
+  Table.lang -> unit
+)
+ident(
+  ext_ref Table.extraction_language
+)
+"plugins/extraction/g_extraction.ml4" 80 2127 2154 "plugins/extraction/g_extraction.ml4" 80 2127 2155
+type(
+  Table.lang
+)
+ident(
+  int_ref l "plugins/extraction/g_extraction.ml4" 79 2085 2087 "plugins/extraction/g_extraction.ml4" 79 2085 2157
+)
+"plugins/extraction/g_extraction.ml4" 80 2127 2134 "plugins/extraction/g_extraction.ml4" 80 2127 2155
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 79 2085 2087 "plugins/extraction/g_extraction.ml4" 79 2085 2157
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Table.lang
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Table.lang, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_language "plugins/extraction/g_extraction.ml4" 47 1199 1199 "plugins/extraction/g_extraction.ml4" 47 1199 1344
+)
+type(
+  (Table.lang, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Table.lang
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Table.lang
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 78 2044 2044 "plugins/extraction/g_extraction.ml4" 78 2044 2161
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 78 2044 2044 "plugins/extraction/g_extraction.ml4" 78 2044 2161
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 78 2044 2044 "plugins/extraction/g_extraction.ml4" 78 2044 2161
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 85 2235 2261 "plugins/extraction/g_extraction.ml4" 85 2235 2278
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 86 2281 2288 "plugins/extraction/g_extraction.ml4" 86 2281 2305
+type(
+  bool -> Libnames.reference list -> unit
+)
+ident(
+  ext_ref Table.extraction_inline
+)
+"plugins/extraction/g_extraction.ml4" 86 2281 2306 "plugins/extraction/g_extraction.ml4" 86 2281 2310
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 86 2281 2311 "plugins/extraction/g_extraction.ml4" 86 2281 2312
+type(
+  Libnames.reference list
+)
+ident(
+  int_ref l "plugins/extraction/g_extraction.ml4" 85 2235 2237 "plugins/extraction/g_extraction.ml4" 85 2235 2314
+)
+"plugins/extraction/g_extraction.ml4" 86 2281 2288 "plugins/extraction/g_extraction.ml4" 86 2281 2312
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 85 2235 2237 "plugins/extraction/g_extraction.ml4" 85 2235 2314
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Libnames.reference list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 83 2163 2163 "plugins/extraction/g_extraction.ml4" 83 2163 2318
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 83 2163 2163 "plugins/extraction/g_extraction.ml4" 83 2163 2318
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 83 2163 2163 "plugins/extraction/g_extraction.ml4" 83 2163 2318
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 90 2361 2389 "plugins/extraction/g_extraction.ml4" 90 2361 2406
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 91 2409 2416 "plugins/extraction/g_extraction.ml4" 91 2409 2433
+type(
+  bool -> Libnames.reference list -> unit
+)
+ident(
+  ext_ref Table.extraction_inline
+)
+"plugins/extraction/g_extraction.ml4" 91 2409 2434 "plugins/extraction/g_extraction.ml4" 91 2409 2439
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 91 2409 2440 "plugins/extraction/g_extraction.ml4" 91 2409 2441
+type(
+  Libnames.reference list
+)
+ident(
+  int_ref l "plugins/extraction/g_extraction.ml4" 90 2361 2363 "plugins/extraction/g_extraction.ml4" 90 2361 2443
+)
+"plugins/extraction/g_extraction.ml4" 91 2409 2416 "plugins/extraction/g_extraction.ml4" 91 2409 2441
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 90 2361 2363 "plugins/extraction/g_extraction.ml4" 90 2361 2443
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Libnames.reference list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Libnames.reference list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 89 2320 2320 "plugins/extraction/g_extraction.ml4" 89 2320 2447
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 89 2320 2320 "plugins/extraction/g_extraction.ml4" 89 2320 2447
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 89 2320 2320 "plugins/extraction/g_extraction.ml4" 89 2320 2447
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 96 2529 2536 "plugins/extraction/g_extraction.ml4" 96 2529 2559
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Table.print_extraction_inline
+)
+"plugins/extraction/g_extraction.ml4" 96 2529 2560 "plugins/extraction/g_extraction.ml4" 96 2529 2562
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 96 2529 2536 "plugins/extraction/g_extraction.ml4" 96 2529 2562
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 95 2493 2495 "plugins/extraction/g_extraction.ml4" 95 2493 2564
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 94 2449 2449 "plugins/extraction/g_extraction.ml4" 94 2449 2568
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 94 2449 2449 "plugins/extraction/g_extraction.ml4" 94 2449 2568
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 94 2449 2449 "plugins/extraction/g_extraction.ml4" 94 2449 2568
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 101 2650 2657 "plugins/extraction/g_extraction.ml4" 101 2650 2680
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Table.reset_extraction_inline
+)
+"plugins/extraction/g_extraction.ml4" 101 2650 2681 "plugins/extraction/g_extraction.ml4" 101 2650 2683
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 101 2650 2657 "plugins/extraction/g_extraction.ml4" 101 2650 2683
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 100 2614 2616 "plugins/extraction/g_extraction.ml4" 100 2614 2685
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 99 2570 2570 "plugins/extraction/g_extraction.ml4" 99 2570 2689
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 99 2570 2570 "plugins/extraction/g_extraction.ml4" 99 2570 2689
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 99 2570 2570 "plugins/extraction/g_extraction.ml4" 99 2570 2689
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 106 2795 2823 "plugins/extraction/g_extraction.ml4" 106 2795 2832
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 106 2795 2837 "plugins/extraction/g_extraction.ml4" 106 2795 2854
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 107 2861 2868 "plugins/extraction/g_extraction.ml4" 107 2861 2887
+type(
+  Libnames.reference -> Table.int_or_id list -> unit
+)
+ident(
+  ext_ref Table.extraction_implicit
+)
+"plugins/extraction/g_extraction.ml4" 107 2861 2888 "plugins/extraction/g_extraction.ml4" 107 2861 2889
+type(
+  Libnames.reference
+)
+ident(
+  int_ref r "plugins/extraction/g_extraction.ml4" 106 2795 2797 "plugins/extraction/g_extraction.ml4" 106 2795 2893
+)
+"plugins/extraction/g_extraction.ml4" 107 2861 2890 "plugins/extraction/g_extraction.ml4" 107 2861 2891
+type(
+  Table.int_or_id list
+)
+ident(
+  int_ref l "plugins/extraction/g_extraction.ml4" 106 2795 2797 "plugins/extraction/g_extraction.ml4" 106 2795 2893
+)
+"plugins/extraction/g_extraction.ml4" 107 2861 2868 "plugins/extraction/g_extraction.ml4" 107 2861 2891
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 106 2795 2797 "plugins/extraction/g_extraction.ml4" 106 2795 2893
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Table.int_or_id list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Table.int_or_id list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_int_or_id "plugins/extraction/g_extraction.ml4" 35 929 929 "plugins/extraction/g_extraction.ml4" 35 929 1088
+)
+type(
+  (Table.int_or_id, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Table.int_or_id list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (Table.int_or_id list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Table.int_or_id list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Table.int_or_id list
+)
+type(
+  Libnames.reference
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref r "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref r "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 104 2691 2691 "plugins/extraction/g_extraction.ml4" 104 2691 2897
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 104 2691 2691 "plugins/extraction/g_extraction.ml4" 104 2691 2897
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 104 2691 2691 "plugins/extraction/g_extraction.ml4" 104 2691 2897
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 112 2990 3019 "plugins/extraction/g_extraction.ml4" 112 2990 3035
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 113 3038 3045 "plugins/extraction/g_extraction.ml4" 113 3038 3065
+type(
+  Names.identifier list -> unit
+)
+ident(
+  ext_ref Table.extraction_blacklist
+)
+"plugins/extraction/g_extraction.ml4" 113 3038 3066 "plugins/extraction/g_extraction.ml4" 113 3038 3067
+type(
+  Names.identifier list
+)
+ident(
+  int_ref l "plugins/extraction/g_extraction.ml4" 112 2990 2992 "plugins/extraction/g_extraction.ml4" 112 2990 3069
+)
+"plugins/extraction/g_extraction.ml4" 113 3038 3045 "plugins/extraction/g_extraction.ml4" 113 3038 3067
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 112 2990 2992 "plugins/extraction/g_extraction.ml4" 112 2990 3069
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Names.identifier list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Names.identifier list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Names.identifier list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Names.identifier list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 110 2899 2899 "plugins/extraction/g_extraction.ml4" 110 2899 3073
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 110 2899 2899 "plugins/extraction/g_extraction.ml4" 110 2899 3073
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 110 2899 2899 "plugins/extraction/g_extraction.ml4" 110 2899 3073
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 118 3161 3168 "plugins/extraction/g_extraction.ml4" 118 3161 3194
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Table.print_extraction_blacklist
+)
+"plugins/extraction/g_extraction.ml4" 118 3161 3195 "plugins/extraction/g_extraction.ml4" 118 3161 3197
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 118 3161 3168 "plugins/extraction/g_extraction.ml4" 118 3161 3197
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 117 3122 3124 "plugins/extraction/g_extraction.ml4" 117 3122 3199
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 116 3075 3075 "plugins/extraction/g_extraction.ml4" 116 3075 3203
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 116 3075 3075 "plugins/extraction/g_extraction.ml4" 116 3075 3203
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 116 3075 3075 "plugins/extraction/g_extraction.ml4" 116 3075 3203
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 123 3291 3298 "plugins/extraction/g_extraction.ml4" 123 3291 3324
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Table.reset_extraction_blacklist
+)
+"plugins/extraction/g_extraction.ml4" 123 3291 3325 "plugins/extraction/g_extraction.ml4" 123 3291 3327
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 123 3291 3298 "plugins/extraction/g_extraction.ml4" 123 3291 3327
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 122 3252 3254 "plugins/extraction/g_extraction.ml4" 122 3252 3329
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 121 3205 3205 "plugins/extraction/g_extraction.ml4" 121 3205 3333
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 121 3205 3205 "plugins/extraction/g_extraction.ml4" 121 3205 3333
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 121 3205 3205 "plugins/extraction/g_extraction.ml4" 121 3205 3333
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 129 3423 3448 "plugins/extraction/g_extraction.ml4" 129 3423 3457
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 129 3423 3458 "plugins/extraction/g_extraction.ml4" 129 3423 3474
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 129 3423 3480 "plugins/extraction/g_extraction.ml4" 129 3423 3489
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 130 3492 3499 "plugins/extraction/g_extraction.ml4" 130 3492 3522
+type(
+  bool -> Libnames.reference -> string list -> string -> unit
+)
+ident(
+  ext_ref Table.extract_constant_inline
+)
+"plugins/extraction/g_extraction.ml4" 130 3492 3523 "plugins/extraction/g_extraction.ml4" 130 3492 3528
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 130 3492 3529 "plugins/extraction/g_extraction.ml4" 130 3492 3530
+type(
+  Libnames.reference
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 129 3423 3425 "plugins/extraction/g_extraction.ml4" 129 3423 3538
+)
+"plugins/extraction/g_extraction.ml4" 130 3492 3531 "plugins/extraction/g_extraction.ml4" 130 3492 3534
+type(
+  string list
+)
+ident(
+  int_ref idl "plugins/extraction/g_extraction.ml4" 129 3423 3425 "plugins/extraction/g_extraction.ml4" 129 3423 3538
+)
+"plugins/extraction/g_extraction.ml4" 130 3492 3535 "plugins/extraction/g_extraction.ml4" 130 3492 3536
+type(
+  string
+)
+ident(
+  int_ref y "plugins/extraction/g_extraction.ml4" 129 3423 3425 "plugins/extraction/g_extraction.ml4" 129 3423 3538
+)
+"plugins/extraction/g_extraction.ml4" 130 3492 3499 "plugins/extraction/g_extraction.ml4" 130 3492 3536
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 129 3423 3425 "plugins/extraction/g_extraction.ml4" 129 3423 3538
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  string
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref y "" -1 0 0 "" -1 0 0
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string
+)
+type(
+  string list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref idl "" -1 0 0 "" -1 0 0
+)
+type(
+  (string list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_string
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (string list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (string list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string list
+)
+type(
+  Libnames.reference
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref y "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref idl "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 128 3382 3382 "plugins/extraction/g_extraction.ml4" 128 3382 3542
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 128 3382 3382 "plugins/extraction/g_extraction.ml4" 128 3382 3542
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 128 3382 3382 "plugins/extraction/g_extraction.ml4" 128 3382 3542
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 134 3592 3627 "plugins/extraction/g_extraction.ml4" 134 3592 3636
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 134 3592 3642 "plugins/extraction/g_extraction.ml4" 134 3592 3651
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 135 3654 3661 "plugins/extraction/g_extraction.ml4" 135 3654 3684
+type(
+  bool -> Libnames.reference -> string list -> string -> unit
+)
+ident(
+  ext_ref Table.extract_constant_inline
+)
+"plugins/extraction/g_extraction.ml4" 135 3654 3685 "plugins/extraction/g_extraction.ml4" 135 3654 3689
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 135 3654 3690 "plugins/extraction/g_extraction.ml4" 135 3654 3691
+type(
+  Libnames.reference
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 134 3592 3594 "plugins/extraction/g_extraction.ml4" 134 3592 3698
+)
+"plugins/extraction/g_extraction.ml4" 135 3654 3692 "plugins/extraction/g_extraction.ml4" 135 3654 3694
+type(
+  string list
+)
+"plugins/extraction/g_extraction.ml4" 135 3654 3695 "plugins/extraction/g_extraction.ml4" 135 3654 3696
+type(
+  string
+)
+ident(
+  int_ref y "plugins/extraction/g_extraction.ml4" 134 3592 3594 "plugins/extraction/g_extraction.ml4" 134 3592 3698
+)
+"plugins/extraction/g_extraction.ml4" 135 3654 3661 "plugins/extraction/g_extraction.ml4" 135 3654 3696
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 134 3592 3594 "plugins/extraction/g_extraction.ml4" 134 3592 3698
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  string
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref y "" -1 0 0 "" -1 0 0
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string
+)
+type(
+  Libnames.reference
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref y "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 133 3544 3544 "plugins/extraction/g_extraction.ml4" 133 3544 3702
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 133 3544 3544 "plugins/extraction/g_extraction.ml4" 133 3544 3702
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 133 3544 3544 "plugins/extraction/g_extraction.ml4" 133 3544 3702
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/extraction/g_extraction.ml4" 139 3746 3772 "plugins/extraction/g_extraction.ml4" 139 3746 3781
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 140 3787 3791 "plugins/extraction/g_extraction.ml4" 140 3787 3801
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 140 3787 3806 "plugins/extraction/g_extraction.ml4" 140 3787 3822
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 140 3787 3827 "plugins/extraction/g_extraction.ml4" 140 3787 3840
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/extraction/g_extraction.ml4" 141 3843 3850 "plugins/extraction/g_extraction.ml4" 141 3843 3867
+type(
+  Libnames.reference -> string -> string list -> string option -> unit
+)
+ident(
+  ext_ref Table.extract_inductive
+)
+"plugins/extraction/g_extraction.ml4" 141 3843 3868 "plugins/extraction/g_extraction.ml4" 141 3843 3869
+type(
+  Libnames.reference
+)
+ident(
+  int_ref x "plugins/extraction/g_extraction.ml4" 139 3746 3748 "plugins/extraction/g_extraction.ml4" 139 3746 3880
+)
+"plugins/extraction/g_extraction.ml4" 141 3843 3870 "plugins/extraction/g_extraction.ml4" 141 3843 3872
+type(
+  string
+)
+ident(
+  int_ref id "plugins/extraction/g_extraction.ml4" 140 3787 3748 "plugins/extraction/g_extraction.ml4" 140 3787 3880
+)
+"plugins/extraction/g_extraction.ml4" 141 3843 3873 "plugins/extraction/g_extraction.ml4" 141 3843 3876
+type(
+  string list
+)
+ident(
+  int_ref idl "plugins/extraction/g_extraction.ml4" 140 3787 3748 "plugins/extraction/g_extraction.ml4" 140 3787 3880
+)
+"plugins/extraction/g_extraction.ml4" 141 3843 3877 "plugins/extraction/g_extraction.ml4" 141 3843 3878
+type(
+  string option
+)
+ident(
+  int_ref o "plugins/extraction/g_extraction.ml4" 140 3787 3748 "plugins/extraction/g_extraction.ml4" 140 3787 3880
+)
+"plugins/extraction/g_extraction.ml4" 141 3843 3850 "plugins/extraction/g_extraction.ml4" 141 3843 3878
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 140 3787 3748 "plugins/extraction/g_extraction.ml4" 140 3787 3880
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/extraction/g_extraction.ml4" 139 3746 3748 "plugins/extraction/g_extraction.ml4" 139 3746 3880
+call(
+  stack
+)
+"plugins/extraction/g_extraction.ml4" 140 3787 3748 "plugins/extraction/g_extraction.ml4" 140 3787 3880
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/extraction/g_extraction.ml4" 139 3746 3748 "plugins/extraction/g_extraction.ml4" 139 3746 3880
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/extraction/g_extraction.ml4" 140 3787 3748 "plugins/extraction/g_extraction.ml4" 140 3787 3880
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/extraction/g_extraction.ml4" 139 3746 3748 "plugins/extraction/g_extraction.ml4" 139 3746 3880
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+"plugins/extraction/g_extraction.ml4" 140 3787 3748 "plugins/extraction/g_extraction.ml4" 140 3787 3880
+type(
+  string option
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref o "" -1 0 0 "" -1 0 0
+)
+type(
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_string
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string option
+)
+type(
+  string list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref idl "" -1 0 0 "" -1 0 0
+)
+type(
+  (string list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (string list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (string list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string list
+)
+type(
+  string
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref id "" -1 0 0 "" -1 0 0
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_mlname "plugins/extraction/g_extraction.ml4" 24 724 724 "plugins/extraction/g_extraction.ml4" 24 724 845
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string
+)
+"plugins/extraction/g_extraction.ml4" 139 3746 3748 "plugins/extraction/g_extraction.ml4" 139 3746 3880
+type(
+  Libnames.reference
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference
+)
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 140 3787 3748 "plugins/extraction/g_extraction.ml4" 140 3787 3880
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 139 3746 3748 "plugins/extraction/g_extraction.ml4" 139 3746 3880
+type(
+  bool
+)
+"plugins/extraction/g_extraction.ml4" 140 3787 3748 "plugins/extraction/g_extraction.ml4" 140 3787 3880
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref o "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref idl "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref id "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 139 3746 3748 "plugins/extraction/g_extraction.ml4" 139 3746 3880
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/g_extraction.ml4" 138 3704 3704 "plugins/extraction/g_extraction.ml4" 138 3704 3884
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/extraction/g_extraction.ml4" 138 3704 3704 "plugins/extraction/g_extraction.ml4" 138 3704 3884
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/extraction/g_extraction.ml4" 138 3704 3704 "plugins/extraction/g_extraction.ml4" 138 3704 3884
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)

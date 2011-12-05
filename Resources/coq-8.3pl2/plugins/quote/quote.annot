@@ -1,0 +1,6113 @@
+"plugins/quote/quote.ml" 122 4310 4314 "plugins/quote/quote.ml" 122 4310 4322
+type(
+  string list -> string -> Term.constr
+)
+ident(
+  def constant "plugins/quote/quote.ml" 124 4377 4377 --
+)
+"plugins/quote/quote.ml" 122 4310 4323 "plugins/quote/quote.ml" 122 4310 4326
+type(
+  string list
+)
+ident(
+  def dir "plugins/quote/quote.ml" 122 4310 4327 "plugins/quote/quote.ml" 122 4310 4375
+)
+"plugins/quote/quote.ml" 122 4310 4327 "plugins/quote/quote.ml" 122 4310 4328
+type(
+  string
+)
+ident(
+  def s "plugins/quote/quote.ml" 122 4310 4331 "plugins/quote/quote.ml" 122 4310 4375
+)
+"plugins/quote/quote.ml" 122 4310 4331 "plugins/quote/quote.ml" 122 4310 4350
+type(
+  Coqlib.message -> string list -> string -> Term.constr
+)
+ident(
+  ext_ref Coqlib.gen_constant
+)
+"plugins/quote/quote.ml" 122 4310 4351 "plugins/quote/quote.ml" 122 4310 4358
+type(
+  Coqlib.message
+)
+"plugins/quote/quote.ml" 122 4310 4360 "plugins/quote/quote.ml" 122 4310 4367
+type(
+  string
+)
+"plugins/quote/quote.ml" 122 4310 4369 "plugins/quote/quote.ml" 122 4310 4372
+type(
+  string list
+)
+ident(
+  int_ref dir "plugins/quote/quote.ml" 122 4310 4323 "plugins/quote/quote.ml" 122 4310 4326
+)
+"plugins/quote/quote.ml" 122 4310 4359 "plugins/quote/quote.ml" 122 4310 4373
+type(
+  string list
+)
+"plugins/quote/quote.ml" 122 4310 4374 "plugins/quote/quote.ml" 122 4310 4375
+type(
+  string
+)
+ident(
+  int_ref s "plugins/quote/quote.ml" 122 4310 4327 "plugins/quote/quote.ml" 122 4310 4328
+)
+"plugins/quote/quote.ml" 122 4310 4331 "plugins/quote/quote.ml" 122 4310 4375
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 124 4377 4381 "plugins/quote/quote.ml" 124 4377 4393
+type(
+  Term.constr lazy_t
+)
+ident(
+  def coq_Empty_vm "plugins/quote/quote.ml" 125 4433 4433 --
+)
+"plugins/quote/quote.ml" 124 4377 4402 "plugins/quote/quote.ml" 124 4377 4410
+type(
+  string list -> string -> Term.constr
+)
+ident(
+  int_ref constant "plugins/quote/quote.ml" 122 4310 4314 "plugins/quote/quote.ml" 122 4310 4322
+)
+"plugins/quote/quote.ml" 124 4377 4412 "plugins/quote/quote.ml" 124 4377 4419
+type(
+  string
+)
+"plugins/quote/quote.ml" 124 4377 4411 "plugins/quote/quote.ml" 124 4377 4420
+type(
+  string list
+)
+"plugins/quote/quote.ml" 124 4377 4421 "plugins/quote/quote.ml" 124 4377 4431
+type(
+  string
+)
+"plugins/quote/quote.ml" 124 4377 4401 "plugins/quote/quote.ml" 124 4377 4432
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 124 4377 4396 "plugins/quote/quote.ml" 124 4377 4432
+type(
+  Term.constr lazy_t
+)
+"plugins/quote/quote.ml" 125 4433 4437 "plugins/quote/quote.ml" 125 4433 4448
+type(
+  Term.constr lazy_t
+)
+ident(
+  def coq_Node_vm "plugins/quote/quote.ml" 126 4487 4487 --
+)
+"plugins/quote/quote.ml" 125 4433 4457 "plugins/quote/quote.ml" 125 4433 4465
+type(
+  string list -> string -> Term.constr
+)
+ident(
+  int_ref constant "plugins/quote/quote.ml" 122 4310 4314 "plugins/quote/quote.ml" 122 4310 4322
+)
+"plugins/quote/quote.ml" 125 4433 4467 "plugins/quote/quote.ml" 125 4433 4474
+type(
+  string
+)
+"plugins/quote/quote.ml" 125 4433 4466 "plugins/quote/quote.ml" 125 4433 4475
+type(
+  string list
+)
+"plugins/quote/quote.ml" 125 4433 4476 "plugins/quote/quote.ml" 125 4433 4485
+type(
+  string
+)
+"plugins/quote/quote.ml" 125 4433 4456 "plugins/quote/quote.ml" 125 4433 4486
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 125 4433 4451 "plugins/quote/quote.ml" 125 4433 4486
+type(
+  Term.constr lazy_t
+)
+"plugins/quote/quote.ml" 126 4487 4491 "plugins/quote/quote.ml" 126 4487 4506
+type(
+  Term.constr lazy_t
+)
+ident(
+  def coq_varmap_find "plugins/quote/quote.ml" 127 4549 4549 --
+)
+"plugins/quote/quote.ml" 126 4487 4515 "plugins/quote/quote.ml" 126 4487 4523
+type(
+  string list -> string -> Term.constr
+)
+ident(
+  int_ref constant "plugins/quote/quote.ml" 122 4310 4314 "plugins/quote/quote.ml" 122 4310 4322
+)
+"plugins/quote/quote.ml" 126 4487 4525 "plugins/quote/quote.ml" 126 4487 4532
+type(
+  string
+)
+"plugins/quote/quote.ml" 126 4487 4524 "plugins/quote/quote.ml" 126 4487 4533
+type(
+  string list
+)
+"plugins/quote/quote.ml" 126 4487 4534 "plugins/quote/quote.ml" 126 4487 4547
+type(
+  string
+)
+"plugins/quote/quote.ml" 126 4487 4514 "plugins/quote/quote.ml" 126 4487 4548
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 126 4487 4509 "plugins/quote/quote.ml" 126 4487 4548
+type(
+  Term.constr lazy_t
+)
+"plugins/quote/quote.ml" 127 4549 4553 "plugins/quote/quote.ml" 127 4549 4566
+type(
+  Term.constr lazy_t
+)
+ident(
+  def coq_Right_idx "plugins/quote/quote.ml" 128 4607 4607 --
+)
+"plugins/quote/quote.ml" 127 4549 4575 "plugins/quote/quote.ml" 127 4549 4583
+type(
+  string list -> string -> Term.constr
+)
+ident(
+  int_ref constant "plugins/quote/quote.ml" 122 4310 4314 "plugins/quote/quote.ml" 122 4310 4322
+)
+"plugins/quote/quote.ml" 127 4549 4585 "plugins/quote/quote.ml" 127 4549 4592
+type(
+  string
+)
+"plugins/quote/quote.ml" 127 4549 4584 "plugins/quote/quote.ml" 127 4549 4593
+type(
+  string list
+)
+"plugins/quote/quote.ml" 127 4549 4594 "plugins/quote/quote.ml" 127 4549 4605
+type(
+  string
+)
+"plugins/quote/quote.ml" 127 4549 4574 "plugins/quote/quote.ml" 127 4549 4606
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 127 4549 4569 "plugins/quote/quote.ml" 127 4549 4606
+type(
+  Term.constr lazy_t
+)
+"plugins/quote/quote.ml" 128 4607 4611 "plugins/quote/quote.ml" 128 4607 4623
+type(
+  Term.constr lazy_t
+)
+ident(
+  def coq_Left_idx "plugins/quote/quote.ml" 129 4663 4663 --
+)
+"plugins/quote/quote.ml" 128 4607 4632 "plugins/quote/quote.ml" 128 4607 4640
+type(
+  string list -> string -> Term.constr
+)
+ident(
+  int_ref constant "plugins/quote/quote.ml" 122 4310 4314 "plugins/quote/quote.ml" 122 4310 4322
+)
+"plugins/quote/quote.ml" 128 4607 4642 "plugins/quote/quote.ml" 128 4607 4649
+type(
+  string
+)
+"plugins/quote/quote.ml" 128 4607 4641 "plugins/quote/quote.ml" 128 4607 4650
+type(
+  string list
+)
+"plugins/quote/quote.ml" 128 4607 4651 "plugins/quote/quote.ml" 128 4607 4661
+type(
+  string
+)
+"plugins/quote/quote.ml" 128 4607 4631 "plugins/quote/quote.ml" 128 4607 4662
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 128 4607 4626 "plugins/quote/quote.ml" 128 4607 4662
+type(
+  Term.constr lazy_t
+)
+"plugins/quote/quote.ml" 129 4663 4667 "plugins/quote/quote.ml" 129 4663 4678
+type(
+  Term.constr lazy_t
+)
+ident(
+  def coq_End_idx "plugins/quote/quote.ml" 169 5791 5791 --
+)
+"plugins/quote/quote.ml" 129 4663 4687 "plugins/quote/quote.ml" 129 4663 4695
+type(
+  string list -> string -> Term.constr
+)
+ident(
+  int_ref constant "plugins/quote/quote.ml" 122 4310 4314 "plugins/quote/quote.ml" 122 4310 4322
+)
+"plugins/quote/quote.ml" 129 4663 4697 "plugins/quote/quote.ml" 129 4663 4704
+type(
+  string
+)
+"plugins/quote/quote.ml" 129 4663 4696 "plugins/quote/quote.ml" 129 4663 4705
+type(
+  string list
+)
+"plugins/quote/quote.ml" 129 4663 4706 "plugins/quote/quote.ml" 129 4663 4715
+type(
+  string
+)
+"plugins/quote/quote.ml" 129 4663 4686 "plugins/quote/quote.ml" 129 4663 4716
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 129 4663 4681 "plugins/quote/quote.ml" 129 4663 4716
+type(
+  Term.constr lazy_t
+)
+"plugins/quote/quote.ml" 172 5849 5857 "plugins/quote/quote.ml" 172 5849 5864
+type(
+  t -> t -> int
+)
+ident(
+  def compare "plugins/quote/quote.ml" 172 5849 5899 "plugins/quote/quote.ml" 173 5900 5905
+)
+"plugins/quote/quote.ml" 172 5849 5868 "plugins/quote/quote.ml" 172 5849 5886
+type(
+  t -> t -> int
+)
+type(
+  t -> t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"plugins/quote/quote.ml" 169 5791 5810 "plugins/quote/quote.ml" 173 5900 5906
+call(
+  stack
+)
+"plugins/quote/quote.ml" 187 6369 6373 "plugins/quote/quote.ml" 187 6369 6388
+type(
+  unit -> 'a
+)
+ident(
+  def i_can't_do_that "plugins/quote/quote.ml" 189 6432 6432 --
+)
+"plugins/quote/quote.ml" 187 6369 6389 "plugins/quote/quote.ml" 187 6369 6391
+type(
+  unit
+)
+"plugins/quote/quote.ml" 187 6369 6394 "plugins/quote/quote.ml" 187 6369 6399
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Util.error
+)
+"plugins/quote/quote.ml" 187 6369 6400 "plugins/quote/quote.ml" 187 6369 6430
+type(
+  string
+)
+"plugins/quote/quote.ml" 187 6369 6394 "plugins/quote/quote.ml" 187 6369 6430
+call(
+  tail
+)
+type(
+  'a
+)
+"plugins/quote/quote.ml" 189 6432 6436 "plugins/quote/quote.ml" 189 6432 6447
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  def decomp_term "plugins/quote/quote.ml" 195 6641 6641 --
+)
+"plugins/quote/quote.ml" 189 6432 6448 "plugins/quote/quote.ml" 189 6432 6449
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/quote/quote.ml" 189 6432 6452 "plugins/quote/quote.ml" 189 6432 6485
+)
+"plugins/quote/quote.ml" 189 6432 6452 "plugins/quote/quote.ml" 189 6432 6464
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/quote/quote.ml" 189 6432 6466 "plugins/quote/quote.ml" 189 6432 6482
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.strip_outer_cast
+)
+"plugins/quote/quote.ml" 189 6432 6483 "plugins/quote/quote.ml" 189 6432 6484
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 189 6432 6448 "plugins/quote/quote.ml" 189 6432 6449
+)
+"plugins/quote/quote.ml" 189 6432 6465 "plugins/quote/quote.ml" 189 6432 6485
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 189 6432 6452 "plugins/quote/quote.ml" 189 6432 6485
+call(
+  tail
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 195 6641 6645 "plugins/quote/quote.ml" 195 6641 6660
+type(
+  Names.identifier -> int
+)
+ident(
+  def coerce_meta_out "plugins/quote/quote.ml" 198 6750 6750 --
+)
+"plugins/quote/quote.ml" 195 6641 6661 "plugins/quote/quote.ml" 195 6641 6663
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/quote/quote.ml" 196 6666 6668 "plugins/quote/quote.ml" 197 6695 6749
+)
+"plugins/quote/quote.ml" 196 6666 6672 "plugins/quote/quote.ml" 196 6666 6673
+type(
+  string
+)
+"plugins/quote/quote.ml" 196 6666 6676 "plugins/quote/quote.ml" 196 6666 6688
+type(
+  Names.identifier -> string
+)
+ident(
+  ext_ref Names.string_of_id
+)
+"plugins/quote/quote.ml" 196 6666 6689 "plugins/quote/quote.ml" 196 6666 6691
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/quote/quote.ml" 195 6641 6661 "plugins/quote/quote.ml" 195 6641 6663
+)
+"plugins/quote/quote.ml" 196 6666 6676 "plugins/quote/quote.ml" 196 6666 6691
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/quote/quote.ml" 197 6695 6697 "plugins/quote/quote.ml" 197 6695 6710
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"plugins/quote/quote.ml" 197 6695 6712 "plugins/quote/quote.ml" 197 6695 6722
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"plugins/quote/quote.ml" 197 6695 6723 "plugins/quote/quote.ml" 197 6695 6724
+type(
+  string
+)
+ident(
+  int_ref s "plugins/quote/quote.ml" 196 6666 6672 "plugins/quote/quote.ml" 196 6666 6673
+)
+"plugins/quote/quote.ml" 197 6695 6725 "plugins/quote/quote.ml" 197 6695 6726
+type(
+  int
+)
+"plugins/quote/quote.ml" 197 6695 6728 "plugins/quote/quote.ml" 197 6695 6741
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"plugins/quote/quote.ml" 197 6695 6742 "plugins/quote/quote.ml" 197 6695 6743
+type(
+  string
+)
+ident(
+  int_ref s "plugins/quote/quote.ml" 196 6666 6672 "plugins/quote/quote.ml" 196 6666 6673
+)
+"plugins/quote/quote.ml" 197 6695 6728 "plugins/quote/quote.ml" 197 6695 6743
+type(
+  int
+)
+"plugins/quote/quote.ml" 197 6695 6744 "plugins/quote/quote.ml" 197 6695 6745
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/quote/quote.ml" 197 6695 6746 "plugins/quote/quote.ml" 197 6695 6747
+type(
+  int
+)
+"plugins/quote/quote.ml" 197 6695 6727 "plugins/quote/quote.ml" 197 6695 6748
+type(
+  int
+)
+"plugins/quote/quote.ml" 197 6695 6711 "plugins/quote/quote.ml" 197 6695 6749
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/quote/quote.ml" 197 6695 6697 "plugins/quote/quote.ml" 197 6695 6749
+type(
+  int
+)
+"plugins/quote/quote.ml" 196 6666 6668 "plugins/quote/quote.ml" 197 6695 6749
+type(
+  int
+)
+"plugins/quote/quote.ml" 198 6750 6754 "plugins/quote/quote.ml" 198 6750 6768
+type(
+  int -> Names.identifier
+)
+ident(
+  def coerce_meta_in "plugins/quote/quote.ml" 201 6813 6813 --
+)
+"plugins/quote/quote.ml" 198 6750 6769 "plugins/quote/quote.ml" 198 6750 6770
+type(
+  int
+)
+ident(
+  def n "plugins/quote/quote.ml" 199 6773 6775 "plugins/quote/quote.ml" 199 6773 6811
+)
+"plugins/quote/quote.ml" 199 6773 6775 "plugins/quote/quote.ml" 199 6773 6787
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+"plugins/quote/quote.ml" 199 6773 6789 "plugins/quote/quote.ml" 199 6773 6792
+type(
+  string
+)
+"plugins/quote/quote.ml" 199 6773 6793 "plugins/quote/quote.ml" 199 6773 6794
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/quote/quote.ml" 199 6773 6795 "plugins/quote/quote.ml" 199 6773 6808
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"plugins/quote/quote.ml" 199 6773 6809 "plugins/quote/quote.ml" 199 6773 6810
+type(
+  int
+)
+ident(
+  int_ref n "plugins/quote/quote.ml" 198 6750 6769 "plugins/quote/quote.ml" 198 6750 6770
+)
+"plugins/quote/quote.ml" 199 6773 6795 "plugins/quote/quote.ml" 199 6773 6810
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/quote/quote.ml" 199 6773 6788 "plugins/quote/quote.ml" 199 6773 6811
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/quote/quote.ml" 199 6773 6775 "plugins/quote/quote.ml" 199 6773 6811
+call(
+  tail
+)
+type(
+  Names.identifier
+)
+"plugins/quote/quote.ml" 201 6813 6817 "plugins/quote/quote.ml" 201 6813 6828
+type(
+  Term.constr -> int -> int -> Term.constr
+)
+ident(
+  def compute_lhs "plugins/quote/quote.ml" 211 7185 7185 --
+)
+"plugins/quote/quote.ml" 201 6813 6829 "plugins/quote/quote.ml" 201 6813 6832
+type(
+  Term.constr
+)
+ident(
+  def typ "plugins/quote/quote.ml" 201 6813 6833 "plugins/quote/quote.ml" 206 7013 7042
+)
+"plugins/quote/quote.ml" 201 6813 6833 "plugins/quote/quote.ml" 201 6813 6834
+type(
+  int
+)
+ident(
+  def i "plugins/quote/quote.ml" 201 6813 6835 "plugins/quote/quote.ml" 206 7013 7042
+)
+"plugins/quote/quote.ml" 201 6813 6835 "plugins/quote/quote.ml" 201 6813 6841
+type(
+  int
+)
+ident(
+  def nargsi "plugins/quote/quote.ml" 202 6844 6846 "plugins/quote/quote.ml" 206 7013 7042
+)
+"plugins/quote/quote.ml" 202 6844 6852 "plugins/quote/quote.ml" 202 6844 6864
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/quote/quote.ml" 202 6844 6865 "plugins/quote/quote.ml" 202 6844 6868
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/quote/quote.ml" 201 6813 6829 "plugins/quote/quote.ml" 201 6813 6832
+)
+"plugins/quote/quote.ml" 202 6844 6852 "plugins/quote/quote.ml" 202 6844 6868
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 203 6874 6884 "plugins/quote/quote.ml" 203 6874 6886
+type(
+  Names.mutual_inductive
+)
+ident(
+  def sp "plugins/quote/quote.ml" 204 6893 6901 "plugins/quote/quote.ml" 205 6965 7012
+)
+"plugins/quote/quote.ml" 203 6874 6887 "plugins/quote/quote.ml" 203 6874 6888
+type(
+  int
+)
+"plugins/quote/quote.ml" 203 6874 6883 "plugins/quote/quote.ml" 203 6874 6889
+type(
+  Names.inductive
+)
+"plugins/quote/quote.ml" 203 6874 6880 "plugins/quote/quote.ml" 203 6874 6889
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 204 6893 6905 "plugins/quote/quote.ml" 204 6893 6910
+type(
+  Term.constr array
+)
+"plugins/quote/quote.ml" 204 6893 6913 "plugins/quote/quote.ml" 204 6893 6923
+type(
+  int -> (int -> Term.constr) -> Term.constr array
+)
+ident(
+  ext_ref Array.init
+)
+"plugins/quote/quote.ml" 204 6893 6924 "plugins/quote/quote.ml" 204 6893 6930
+type(
+  int
+)
+ident(
+  int_ref nargsi "plugins/quote/quote.ml" 201 6813 6835 "plugins/quote/quote.ml" 201 6813 6841
+)
+"plugins/quote/quote.ml" 204 6893 6936 "plugins/quote/quote.ml" 204 6893 6937
+type(
+  int
+)
+ident(
+  def j "plugins/quote/quote.ml" 204 6893 6941 "plugins/quote/quote.ml" 204 6893 6960
+)
+"plugins/quote/quote.ml" 204 6893 6941 "plugins/quote/quote.ml" 204 6893 6947
+type(
+  Term.metavariable -> Term.constr
+)
+ident(
+  ext_ref Term.mkMeta
+)
+"plugins/quote/quote.ml" 204 6893 6949 "plugins/quote/quote.ml" 204 6893 6955
+type(
+  int
+)
+ident(
+  int_ref nargsi "plugins/quote/quote.ml" 201 6813 6835 "plugins/quote/quote.ml" 201 6813 6841
+)
+"plugins/quote/quote.ml" 204 6893 6956 "plugins/quote/quote.ml" 204 6893 6957
+type(
+  int -> int -> Term.metavariable
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/quote/quote.ml" 204 6893 6958 "plugins/quote/quote.ml" 204 6893 6959
+type(
+  int
+)
+ident(
+  int_ref j "plugins/quote/quote.ml" 204 6893 6936 "plugins/quote/quote.ml" 204 6893 6937
+)
+"plugins/quote/quote.ml" 204 6893 6948 "plugins/quote/quote.ml" 204 6893 6960
+type(
+  Term.metavariable
+)
+"plugins/quote/quote.ml" 204 6893 6941 "plugins/quote/quote.ml" 204 6893 6960
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 204 6893 6931 "plugins/quote/quote.ml" 204 6893 6961
+type(
+  int -> Term.constr
+)
+"plugins/quote/quote.ml" 204 6893 6913 "plugins/quote/quote.ml" 204 6893 6961
+call(
+  stack
+)
+type(
+  Term.constr array
+)
+"plugins/quote/quote.ml" 205 6965 6973 "plugins/quote/quote.ml" 205 6965 6978
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/quote/quote.ml" 205 6965 6980 "plugins/quote/quote.ml" 205 6965 6991
+type(
+  Names.constructor -> Term.constr
+)
+ident(
+  ext_ref Term.mkConstruct
+)
+"plugins/quote/quote.ml" 205 6965 6994 "plugins/quote/quote.ml" 205 6965 6996
+type(
+  Names.mutual_inductive
+)
+ident(
+  int_ref sp "plugins/quote/quote.ml" 203 6874 6884 "plugins/quote/quote.ml" 203 6874 6886
+)
+"plugins/quote/quote.ml" 205 6965 6997 "plugins/quote/quote.ml" 205 6965 6998
+type(
+  int
+)
+"plugins/quote/quote.ml" 205 6965 6993 "plugins/quote/quote.ml" 205 6965 6999
+type(
+  Names.inductive
+)
+"plugins/quote/quote.ml" 205 6965 7000 "plugins/quote/quote.ml" 205 6965 7001
+type(
+  int
+)
+ident(
+  int_ref i "plugins/quote/quote.ml" 201 6813 6833 "plugins/quote/quote.ml" 201 6813 6834
+)
+"plugins/quote/quote.ml" 205 6965 7001 "plugins/quote/quote.ml" 205 6965 7002
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/quote/quote.ml" 205 6965 7002 "plugins/quote/quote.ml" 205 6965 7003
+type(
+  int
+)
+"plugins/quote/quote.ml" 205 6965 7000 "plugins/quote/quote.ml" 205 6965 7003
+type(
+  int
+)
+"plugins/quote/quote.ml" 205 6965 6992 "plugins/quote/quote.ml" 205 6965 7004
+type(
+  Names.constructor
+)
+"plugins/quote/quote.ml" 205 6965 6980 "plugins/quote/quote.ml" 205 6965 7004
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 205 6965 7006 "plugins/quote/quote.ml" 205 6965 7011
+type(
+  Term.constr array
+)
+ident(
+  int_ref argsi "plugins/quote/quote.ml" 204 6893 6905 "plugins/quote/quote.ml" 204 6893 6910
+)
+"plugins/quote/quote.ml" 205 6965 6979 "plugins/quote/quote.ml" 205 6965 7012
+type(
+  Term.constr * Term.constr array
+)
+"plugins/quote/quote.ml" 205 6965 6973 "plugins/quote/quote.ml" 205 6965 7012
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 204 6893 6901 "plugins/quote/quote.ml" 205 6965 7012
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 206 7013 7019 "plugins/quote/quote.ml" 206 7013 7020
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 206 7013 7024 "plugins/quote/quote.ml" 206 7013 7039
+type(
+  unit -> Term.constr
+)
+ident(
+  int_ref i_can't_do_that "plugins/quote/quote.ml" 187 6369 6373 "plugins/quote/quote.ml" 187 6369 6388
+)
+"plugins/quote/quote.ml" 206 7013 7040 "plugins/quote/quote.ml" 206 7013 7042
+type(
+  unit
+)
+"plugins/quote/quote.ml" 206 7013 7024 "plugins/quote/quote.ml" 206 7013 7042
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 202 6844 6846 "plugins/quote/quote.ml" 206 7013 7042
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 211 7185 7189 "plugins/quote/quote.ml" 211 7185 7200
+type(
+  Term.constr -> int -> Pattern.constr_pattern
+)
+ident(
+  def compute_rhs "plugins/quote/quote.ml" 226 7664 7664 --
+)
+"plugins/quote/quote.ml" 211 7185 7201 "plugins/quote/quote.ml" 211 7185 7206
+type(
+  Term.constr
+)
+ident(
+  def bodyi "plugins/quote/quote.ml" 211 7185 7207 "plugins/quote/quote.ml" 222 7605 7616
+)
+"plugins/quote/quote.ml" 211 7185 7207 "plugins/quote/quote.ml" 211 7185 7217
+type(
+  int
+)
+ident(
+  def index_of_f "plugins/quote/quote.ml" 212 7220 7222 "plugins/quote/quote.ml" 222 7605 7616
+)
+"plugins/quote/quote.ml" 212 7220 7230 "plugins/quote/quote.ml" 212 7220 7233
+type(
+  Term.constr -> Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 212 7220 7234 "plugins/quote/quote.ml" 212 7220 7235
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/quote/quote.ml" 213 7238 7242 "plugins/quote/quote.ml" 220 7551 7599
+)
+"plugins/quote/quote.ml" 213 7238 7248 "plugins/quote/quote.ml" 213 7238 7260
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/quote/quote.ml" 213 7238 7261 "plugins/quote/quote.ml" 213 7238 7262
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 212 7220 7234 "plugins/quote/quote.ml" 212 7220 7235
+)
+"plugins/quote/quote.ml" 213 7238 7248 "plugins/quote/quote.ml" 213 7238 7262
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 214 7268 7281 "plugins/quote/quote.ml" 214 7268 7282
+type(
+  Term.constr
+)
+ident(
+  def j "plugins/quote/quote.ml" 214 7268 7290 "plugins/quote/quote.ml" 216 7389 7423
+)
+"plugins/quote/quote.ml" 214 7268 7284 "plugins/quote/quote.ml" 214 7268 7288
+type(
+  Term.constr array
+)
+ident(
+  def args "plugins/quote/quote.ml" 214 7268 7290 "plugins/quote/quote.ml" 216 7389 7423
+)
+"plugins/quote/quote.ml" 214 7268 7276 "plugins/quote/quote.ml" 214 7268 7289
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 214 7268 7295 "plugins/quote/quote.ml" 214 7268 7296
+type(
+  Term.constr
+)
+ident(
+  int_ref j "plugins/quote/quote.ml" 214 7268 7281 "plugins/quote/quote.ml" 214 7268 7282
+)
+"plugins/quote/quote.ml" 214 7268 7297 "plugins/quote/quote.ml" 214 7268 7298
+type(
+  Term.constr -> Term.constr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/quote/quote.ml" 214 7268 7299 "plugins/quote/quote.ml" 214 7268 7304
+type(
+  int -> Term.constr
+)
+ident(
+  ext_ref Term.mkRel
+)
+"plugins/quote/quote.ml" 214 7268 7305 "plugins/quote/quote.ml" 214 7268 7317
+type(
+  int
+)
+ident(
+  int_ref index_of_f "plugins/quote/quote.ml" 211 7185 7207 "plugins/quote/quote.ml" 211 7185 7217
+)
+"plugins/quote/quote.ml" 214 7268 7299 "plugins/quote/quote.ml" 214 7268 7317
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 214 7268 7295 "plugins/quote/quote.ml" 214 7268 7317
+type(
+  bool
+)
+"plugins/quote/quote.ml" 215 7342 7356 "plugins/quote/quote.ml" 215 7342 7357
+type(
+  int
+)
+"plugins/quote/quote.ml" 215 7342 7360 "plugins/quote/quote.ml" 215 7342 7367
+type(
+  Term.constr -> int
+)
+ident(
+  ext_ref Term.destRel
+)
+"plugins/quote/quote.ml" 215 7342 7369 "plugins/quote/quote.ml" 215 7342 7379
+type(
+  Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Util.array_last
+)
+"plugins/quote/quote.ml" 215 7342 7380 "plugins/quote/quote.ml" 215 7342 7384
+type(
+  Term.constr array
+)
+ident(
+  int_ref args "plugins/quote/quote.ml" 214 7268 7284 "plugins/quote/quote.ml" 214 7268 7288
+)
+"plugins/quote/quote.ml" 215 7342 7368 "plugins/quote/quote.ml" 215 7342 7385
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 215 7342 7360 "plugins/quote/quote.ml" 215 7342 7385
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/quote/quote.ml" 216 7389 7405 "plugins/quote/quote.ml" 216 7389 7419
+type(
+  int -> Rawterm.patvar
+)
+ident(
+  int_ref coerce_meta_in "plugins/quote/quote.ml" 198 6750 6754 "plugins/quote/quote.ml" 198 6750 6768
+)
+"plugins/quote/quote.ml" 216 7389 7420 "plugins/quote/quote.ml" 216 7389 7421
+type(
+  int
+)
+ident(
+  int_ref i "plugins/quote/quote.ml" 215 7342 7356 "plugins/quote/quote.ml" 215 7342 7357
+)
+"plugins/quote/quote.ml" 216 7389 7404 "plugins/quote/quote.ml" 216 7389 7422
+call(
+  stack
+)
+type(
+  Rawterm.patvar
+)
+"plugins/quote/quote.ml" 216 7389 7398 "plugins/quote/quote.ml" 216 7389 7423
+type(
+  Rawterm.patvar option
+)
+"plugins/quote/quote.ml" 216 7389 7392 "plugins/quote/quote.ml" 216 7389 7423
+type(
+  Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 215 7342 7352 "plugins/quote/quote.ml" 216 7389 7423
+type(
+  Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 214 7268 7290 "plugins/quote/quote.ml" 216 7389 7423
+type(
+  Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 217 7424 7437 "plugins/quote/quote.ml" 217 7424 7438
+type(
+  Term.constr
+)
+ident(
+  def f "plugins/quote/quote.ml" 218 7448 7458 "plugins/quote/quote.ml" 218 7448 7520
+)
+"plugins/quote/quote.ml" 217 7424 7439 "plugins/quote/quote.ml" 217 7424 7443
+type(
+  Term.constr array
+)
+ident(
+  def args "plugins/quote/quote.ml" 218 7448 7458 "plugins/quote/quote.ml" 218 7448 7520
+)
+"plugins/quote/quote.ml" 217 7424 7432 "plugins/quote/quote.ml" 217 7424 7444
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 218 7448 7464 "plugins/quote/quote.ml" 218 7448 7467
+type(
+  Sign.named_context * Pattern.constr_pattern -> Pattern.constr_pattern
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/quote/quote.ml" 218 7448 7469 "plugins/quote/quote.ml" 218 7448 7486
+type(
+  Evd.evar_map -> Term.constr -> Sign.named_context * Pattern.constr_pattern
+)
+ident(
+  ext_ref Pattern.pattern_of_constr
+)
+"plugins/quote/quote.ml" 218 7448 7487 "plugins/quote/quote.ml" 218 7448 7496
+type(
+  Evd.evar_map
+)
+ident(
+  ext_ref Evd.empty
+)
+"plugins/quote/quote.ml" 218 7448 7497 "plugins/quote/quote.ml" 218 7448 7498
+type(
+  Term.constr
+)
+ident(
+  int_ref f "plugins/quote/quote.ml" 217 7424 7437 "plugins/quote/quote.ml" 217 7424 7438
+)
+"plugins/quote/quote.ml" 218 7448 7468 "plugins/quote/quote.ml" 218 7448 7499
+call(
+  stack
+)
+type(
+  Sign.named_context * Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 218 7448 7464 "plugins/quote/quote.ml" 218 7448 7499
+type(
+  Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 218 7448 7501 "plugins/quote/quote.ml" 218 7448 7510
+type(
+  (Term.constr -> Pattern.constr_pattern) ->
+  Term.constr array -> Pattern.constr_pattern array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/quote/quote.ml" 218 7448 7511 "plugins/quote/quote.ml" 218 7448 7514
+type(
+  Term.constr -> Pattern.constr_pattern
+)
+ident(
+  int_ref aux "plugins/quote/quote.ml" 212 7220 7230 "plugins/quote/quote.ml" 212 7220 7233
+)
+"plugins/quote/quote.ml" 218 7448 7515 "plugins/quote/quote.ml" 218 7448 7519
+type(
+  Term.constr array
+)
+ident(
+  int_ref args "plugins/quote/quote.ml" 217 7424 7439 "plugins/quote/quote.ml" 217 7424 7443
+)
+"plugins/quote/quote.ml" 218 7448 7501 "plugins/quote/quote.ml" 218 7448 7519
+call(
+  stack
+)
+type(
+  Pattern.constr_pattern array
+)
+"plugins/quote/quote.ml" 218 7448 7458 "plugins/quote/quote.ml" 218 7448 7520
+type(
+  Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 219 7521 7535 "plugins/quote/quote.ml" 219 7521 7536
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/quote/quote.ml" 219 7521 7545 "plugins/quote/quote.ml" 219 7521 7550
+)
+"plugins/quote/quote.ml" 219 7521 7537 "plugins/quote/quote.ml" 219 7521 7538
+type(
+  Term.cast_kind
+)
+"plugins/quote/quote.ml" 219 7521 7539 "plugins/quote/quote.ml" 219 7521 7540
+type(
+  Term.types
+)
+"plugins/quote/quote.ml" 219 7521 7529 "plugins/quote/quote.ml" 219 7521 7541
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 219 7521 7545 "plugins/quote/quote.ml" 219 7521 7548
+type(
+  Term.constr -> Pattern.constr_pattern
+)
+ident(
+  int_ref aux "plugins/quote/quote.ml" 212 7220 7230 "plugins/quote/quote.ml" 212 7220 7233
+)
+"plugins/quote/quote.ml" 219 7521 7549 "plugins/quote/quote.ml" 219 7521 7550
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 219 7521 7535 "plugins/quote/quote.ml" 219 7521 7536
+)
+"plugins/quote/quote.ml" 219 7521 7545 "plugins/quote/quote.ml" 219 7521 7550
+call(
+  tail
+)
+type(
+  Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 220 7551 7559 "plugins/quote/quote.ml" 220 7551 7560
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 220 7551 7564 "plugins/quote/quote.ml" 220 7551 7567
+type(
+  Sign.named_context * Pattern.constr_pattern -> Pattern.constr_pattern
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/quote/quote.ml" 220 7551 7569 "plugins/quote/quote.ml" 220 7551 7586
+type(
+  Evd.evar_map -> Term.constr -> Sign.named_context * Pattern.constr_pattern
+)
+ident(
+  ext_ref Pattern.pattern_of_constr
+)
+"plugins/quote/quote.ml" 220 7551 7587 "plugins/quote/quote.ml" 220 7551 7596
+type(
+  Evd.evar_map
+)
+ident(
+  ext_ref Evd.empty
+)
+"plugins/quote/quote.ml" 220 7551 7597 "plugins/quote/quote.ml" 220 7551 7598
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 212 7220 7234 "plugins/quote/quote.ml" 212 7220 7235
+)
+"plugins/quote/quote.ml" 220 7551 7568 "plugins/quote/quote.ml" 220 7551 7599
+type(
+  Sign.named_context * Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 220 7551 7564 "plugins/quote/quote.ml" 220 7551 7599
+type(
+  Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 213 7238 7242 "plugins/quote/quote.ml" 220 7551 7599
+type(
+  Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 222 7605 7607 "plugins/quote/quote.ml" 222 7605 7610
+type(
+  Term.constr -> Pattern.constr_pattern
+)
+ident(
+  int_ref aux "plugins/quote/quote.ml" 212 7220 7230 "plugins/quote/quote.ml" 212 7220 7233
+)
+"plugins/quote/quote.ml" 222 7605 7611 "plugins/quote/quote.ml" 222 7605 7616
+type(
+  Term.constr
+)
+ident(
+  int_ref bodyi "plugins/quote/quote.ml" 211 7185 7201 "plugins/quote/quote.ml" 211 7185 7206
+)
+"plugins/quote/quote.ml" 222 7605 7607 "plugins/quote/quote.ml" 222 7605 7616
+call(
+  tail
+)
+type(
+  Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 212 7220 7222 "plugins/quote/quote.ml" 222 7605 7616
+type(
+  Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 226 7664 7668 "plugins/quote/quote.ml" 226 7664 7679
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Term.constr -> ConstrSet.elt list -> inversion_scheme
+)
+ident(
+  def compute_ivs "plugins/quote/quote.ml" 301 10750 10750 --
+)
+"plugins/quote/quote.ml" 226 7664 7680 "plugins/quote/quote.ml" 226 7664 7682
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/quote/quote.ml" 226 7664 7683 "plugins/quote/quote.ml" 283 10190 10218
+)
+"plugins/quote/quote.ml" 226 7664 7683 "plugins/quote/quote.ml" 226 7664 7684
+type(
+  Term.constr
+)
+ident(
+  def f "plugins/quote/quote.ml" 226 7664 7685 "plugins/quote/quote.ml" 283 10190 10218
+)
+"plugins/quote/quote.ml" 226 7664 7685 "plugins/quote/quote.ml" 226 7664 7687
+type(
+  ConstrSet.elt list
+)
+ident(
+  def cs "plugins/quote/quote.ml" 227 7690 7692 "plugins/quote/quote.ml" 283 10190 10218
+)
+"plugins/quote/quote.ml" 227 7690 7696 "plugins/quote/quote.ml" 227 7690 7699
+type(
+  Names.constant
+)
+"plugins/quote/quote.ml" 227 7690 7706 "plugins/quote/quote.ml" 227 7690 7715
+type(
+  Term.constr -> Names.constant
+)
+ident(
+  ext_ref Term.destConst
+)
+"plugins/quote/quote.ml" 227 7690 7716 "plugins/quote/quote.ml" 227 7690 7717
+type(
+  Term.constr
+)
+ident(
+  int_ref f "plugins/quote/quote.ml" 226 7664 7683 "plugins/quote/quote.ml" 226 7664 7684
+)
+"plugins/quote/quote.ml" 227 7690 7706 "plugins/quote/quote.ml" 227 7690 7717
+call(
+  stack
+)
+type(
+  Names.constant
+)
+"plugins/quote/quote.ml" 227 7690 7723 "plugins/quote/quote.ml" 227 7690 7724
+type(
+  exn
+)
+"plugins/quote/quote.ml" 227 7690 7728 "plugins/quote/quote.ml" 227 7690 7743
+type(
+  unit -> Names.constant
+)
+ident(
+  int_ref i_can't_do_that "plugins/quote/quote.ml" 187 6369 6373 "plugins/quote/quote.ml" 187 6369 6388
+)
+"plugins/quote/quote.ml" 227 7690 7744 "plugins/quote/quote.ml" 227 7690 7746
+type(
+  unit
+)
+"plugins/quote/quote.ml" 227 7690 7728 "plugins/quote/quote.ml" 227 7690 7746
+call(
+  stack
+)
+type(
+  Names.constant
+)
+"plugins/quote/quote.ml" 227 7690 7702 "plugins/quote/quote.ml" 227 7690 7746
+type(
+  Names.constant
+)
+"plugins/quote/quote.ml" 228 7750 7756 "plugins/quote/quote.ml" 228 7750 7760
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 228 7750 7763 "plugins/quote/quote.ml" 228 7750 7785
+type(
+  Environ.env -> Names.constant -> Term.constr
+)
+ident(
+  ext_ref Environ.constant_value
+)
+"plugins/quote/quote.ml" 228 7750 7787 "plugins/quote/quote.ml" 228 7750 7797
+type(
+  unit -> Environ.env
+)
+ident(
+  ext_ref Global.env
+)
+"plugins/quote/quote.ml" 228 7750 7797 "plugins/quote/quote.ml" 228 7750 7799
+type(
+  unit
+)
+"plugins/quote/quote.ml" 228 7750 7786 "plugins/quote/quote.ml" 228 7750 7800
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/quote/quote.ml" 228 7750 7801 "plugins/quote/quote.ml" 228 7750 7804
+type(
+  Names.constant
+)
+ident(
+  int_ref cst "plugins/quote/quote.ml" 227 7690 7696 "plugins/quote/quote.ml" 227 7690 7699
+)
+"plugins/quote/quote.ml" 228 7750 7763 "plugins/quote/quote.ml" 228 7750 7804
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 229 7808 7816 "plugins/quote/quote.ml" 229 7808 7827
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  int_ref decomp_term "plugins/quote/quote.ml" 189 6432 6436 "plugins/quote/quote.ml" 189 6432 6447
+)
+"plugins/quote/quote.ml" 229 7808 7828 "plugins/quote/quote.ml" 229 7808 7832
+type(
+  Term.constr
+)
+ident(
+  int_ref body "plugins/quote/quote.ml" 228 7750 7756 "plugins/quote/quote.ml" 228 7750 7760
+)
+"plugins/quote/quote.ml" 229 7808 7816 "plugins/quote/quote.ml" 229 7808 7832
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 230 7838 7852 "plugins/quote/quote.ml" 230 7838 7855
+type(
+  int
+)
+ident(
+  def len "plugins/quote/quote.ml" 231 7905 7913 "plugins/quote/quote.ml" 282 10178 10189
+)
+"plugins/quote/quote.ml" 230 7838 7849 "plugins/quote/quote.ml" 230 7838 7858
+type(
+  int array
+)
+"plugins/quote/quote.ml" 230 7838 7860 "plugins/quote/quote.ml" 230 7838 7861
+type(
+  int
+)
+"plugins/quote/quote.ml" 230 7838 7848 "plugins/quote/quote.ml" 230 7838 7862
+type(
+  int array * int
+)
+"plugins/quote/quote.ml" 230 7838 7868 "plugins/quote/quote.ml" 230 7838 7872
+type(
+  Names.name
+)
+ident(
+  def name "plugins/quote/quote.ml" 231 7905 7913 "plugins/quote/quote.ml" 282 10178 10189
+)
+"plugins/quote/quote.ml" 230 7838 7865 "plugins/quote/quote.ml" 230 7838 7875
+type(
+  Names.name array
+)
+"plugins/quote/quote.ml" 230 7838 7880 "plugins/quote/quote.ml" 230 7838 7883
+type(
+  Term.types
+)
+ident(
+  def typ "plugins/quote/quote.ml" 231 7905 7913 "plugins/quote/quote.ml" 282 10178 10189
+)
+"plugins/quote/quote.ml" 230 7838 7877 "plugins/quote/quote.ml" 230 7838 7886
+type(
+  Term.types array
+)
+"plugins/quote/quote.ml" 230 7838 7891 "plugins/quote/quote.ml" 230 7838 7896
+type(
+  Term.constr
+)
+ident(
+  def body2 "plugins/quote/quote.ml" 231 7905 7913 "plugins/quote/quote.ml" 282 10178 10189
+)
+"plugins/quote/quote.ml" 230 7838 7888 "plugins/quote/quote.ml" 230 7838 7899
+type(
+  Term.constr array
+)
+"plugins/quote/quote.ml" 230 7838 7864 "plugins/quote/quote.ml" 230 7838 7900
+type(
+  (Term.constr, Term.types) Term.prec_declaration
+)
+"plugins/quote/quote.ml" 230 7838 7847 "plugins/quote/quote.ml" 230 7838 7901
+type(
+  (Term.constr, Term.types) Term.pfixpoint
+)
+"plugins/quote/quote.ml" 230 7838 7844 "plugins/quote/quote.ml" 230 7838 7901
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 231 7905 7918 "plugins/quote/quote.ml" 231 7905 7923
+type(
+  (Names.name * Term.constr) list
+)
+"plugins/quote/quote.ml" 231 7905 7925 "plugins/quote/quote.ml" 231 7905 7930
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 231 7905 7917 "plugins/quote/quote.ml" 231 7905 7931
+type(
+  (Names.name * Term.constr) list * Term.constr
+)
+"plugins/quote/quote.ml" 231 7905 7934 "plugins/quote/quote.ml" 231 7905 7947
+type(
+  Term.constr -> (Names.name * Term.constr) list * Term.constr
+)
+ident(
+  ext_ref Term.decompose_lam
+)
+"plugins/quote/quote.ml" 231 7905 7948 "plugins/quote/quote.ml" 231 7905 7953
+type(
+  Term.constr
+)
+ident(
+  int_ref body2 "plugins/quote/quote.ml" 230 7838 7891 "plugins/quote/quote.ml" 230 7838 7896
+)
+"plugins/quote/quote.ml" 231 7905 7934 "plugins/quote/quote.ml" 231 7905 7953
+call(
+  stack
+)
+type(
+  (Names.name * Term.constr) list * Term.constr
+)
+"plugins/quote/quote.ml" 232 7957 7969 "plugins/quote/quote.ml" 232 7957 7975
+type(
+  int
+)
+"plugins/quote/quote.ml" 232 7957 7978 "plugins/quote/quote.ml" 232 7957 7989
+type(
+  (Names.name * Term.constr) list -> int
+)
+ident(
+  ext_ref List.length
+)
+"plugins/quote/quote.ml" 232 7957 7990 "plugins/quote/quote.ml" 232 7957 7995
+type(
+  (Names.name * Term.constr) list
+)
+ident(
+  int_ref args3 "plugins/quote/quote.ml" 231 7905 7918 "plugins/quote/quote.ml" 231 7905 7923
+)
+"plugins/quote/quote.ml" 232 7957 7978 "plugins/quote/quote.ml" 232 7957 7995
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/quote/quote.ml" 233 7999 8019 "plugins/quote/quote.ml" 233 7999 8030
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  int_ref decomp_term "plugins/quote/quote.ml" 189 6432 6436 "plugins/quote/quote.ml" 189 6432 6447
+)
+"plugins/quote/quote.ml" 233 7999 8031 "plugins/quote/quote.ml" 233 7999 8036
+type(
+  Term.constr
+)
+ident(
+  int_ref body3 "plugins/quote/quote.ml" 231 7905 7925 "plugins/quote/quote.ml" 231 7905 7930
+)
+"plugins/quote/quote.ml" 233 7999 8019 "plugins/quote/quote.ml" 233 7999 8036
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 234 8042 8059 "plugins/quote/quote.ml" 234 8042 8060
+type(
+  Term.case_info
+)
+"plugins/quote/quote.ml" 234 8042 8061 "plugins/quote/quote.ml" 234 8042 8062
+type(
+  Term.constr
+)
+ident(
+  def p "plugins/quote/quote.ml" 235 8107 8121 "plugins/quote/quote.ml" 279 10101 10140
+)
+"plugins/quote/quote.ml" 234 8042 8063 "plugins/quote/quote.ml" 234 8042 8064
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/quote/quote.ml" 235 8107 8121 "plugins/quote/quote.ml" 279 10101 10140
+)
+"plugins/quote/quote.ml" 234 8042 8065 "plugins/quote/quote.ml" 234 8042 8068
+type(
+  Term.constr array
+)
+ident(
+  def lci "plugins/quote/quote.ml" 235 8107 8121 "plugins/quote/quote.ml" 279 10101 10140
+)
+"plugins/quote/quote.ml" 234 8042 8054 "plugins/quote/quote.ml" 234 8042 8069
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 235 8107 8125 "plugins/quote/quote.ml" 235 8107 8134
+type(
+  (Term.constr * Pattern.constr_pattern) list ref
+)
+"plugins/quote/quote.ml" 235 8107 8137 "plugins/quote/quote.ml" 235 8107 8140
+type(
+  (Term.constr * Pattern.constr_pattern) list ->
+  (Term.constr * Pattern.constr_pattern) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/quote/quote.ml" 235 8107 8141 "plugins/quote/quote.ml" 235 8107 8143
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+"plugins/quote/quote.ml" 235 8107 8137 "plugins/quote/quote.ml" 235 8107 8143
+type(
+  (Term.constr * Pattern.constr_pattern) list ref
+)
+"plugins/quote/quote.ml" 236 8144 8162 "plugins/quote/quote.ml" 236 8144 8167
+type(
+  Term.constr option ref
+)
+"plugins/quote/quote.ml" 236 8144 8170 "plugins/quote/quote.ml" 236 8144 8173
+type(
+  Term.constr option -> Term.constr option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/quote/quote.ml" 236 8144 8175 "plugins/quote/quote.ml" 236 8144 8179
+type(
+  Term.constr option
+)
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 236 8144 8170 "plugins/quote/quote.ml" 236 8144 8196
+type(
+  Term.constr option ref
+)
+"plugins/quote/quote.ml" 237 8197 8215 "plugins/quote/quote.ml" 237 8197 8220
+type(
+  Term.constr option ref
+)
+"plugins/quote/quote.ml" 237 8197 8223 "plugins/quote/quote.ml" 237 8197 8226
+type(
+  Term.constr option -> Term.constr option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/quote/quote.ml" 237 8197 8228 "plugins/quote/quote.ml" 237 8197 8232
+type(
+  Term.constr option
+)
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 237 8197 8223 "plugins/quote/quote.ml" 237 8197 8249
+type(
+  Term.constr option ref
+)
+"plugins/quote/quote.ml" 238 8253 8267 "plugins/quote/quote.ml" 238 8253 8278
+type(
+  (int -> Term.constr -> unit) -> Term.constr array -> unit
+)
+ident(
+  ext_ref Array.iteri
+)
+"plugins/quote/quote.ml" 239 8279 8300 "plugins/quote/quote.ml" 239 8279 8301
+type(
+  int
+)
+ident(
+  def i "plugins/quote/quote.ml" 239 8279 8302 "plugins/quote/quote.ml" 264 9609 9631
+)
+"plugins/quote/quote.ml" 239 8279 8302 "plugins/quote/quote.ml" 239 8279 8304
+type(
+  Term.constr
+)
+ident(
+  def ci "plugins/quote/quote.ml" 240 8308 8327 "plugins/quote/quote.ml" 264 9609 9631
+)
+"plugins/quote/quote.ml" 240 8308 8331 "plugins/quote/quote.ml" 240 8308 8336
+type(
+  (Names.name * Term.constr) list
+)
+"plugins/quote/quote.ml" 240 8308 8338 "plugins/quote/quote.ml" 240 8308 8343
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 240 8308 8331 "plugins/quote/quote.ml" 240 8308 8343
+type(
+  (Names.name * Term.constr) list * Term.constr
+)
+"plugins/quote/quote.ml" 240 8308 8346 "plugins/quote/quote.ml" 240 8308 8359
+type(
+  Term.constr -> (Names.name * Term.constr) list * Term.constr
+)
+ident(
+  ext_ref Term.decompose_lam
+)
+"plugins/quote/quote.ml" 240 8308 8360 "plugins/quote/quote.ml" 240 8308 8362
+type(
+  Term.constr
+)
+ident(
+  int_ref ci "plugins/quote/quote.ml" 239 8279 8302 "plugins/quote/quote.ml" 239 8279 8304
+)
+"plugins/quote/quote.ml" 240 8308 8346 "plugins/quote/quote.ml" 240 8308 8362
+call(
+  stack
+)
+type(
+  (Names.name * Term.constr) list * Term.constr
+)
+"plugins/quote/quote.ml" 241 8366 8389 "plugins/quote/quote.ml" 241 8366 8395
+type(
+  int
+)
+"plugins/quote/quote.ml" 241 8366 8398 "plugins/quote/quote.ml" 241 8366 8409
+type(
+  (Names.name * Term.constr) list -> int
+)
+ident(
+  ext_ref List.length
+)
+"plugins/quote/quote.ml" 241 8366 8410 "plugins/quote/quote.ml" 241 8366 8415
+type(
+  (Names.name * Term.constr) list
+)
+ident(
+  int_ref argsi "plugins/quote/quote.ml" 240 8308 8331 "plugins/quote/quote.ml" 240 8308 8336
+)
+"plugins/quote/quote.ml" 241 8366 8398 "plugins/quote/quote.ml" 241 8366 8415
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/quote/quote.ml" 246 8668 8690 "plugins/quote/quote.ml" 246 8668 8695
+type(
+  Term.constr
+)
+ident(
+  int_ref bodyi "plugins/quote/quote.ml" 240 8308 8338 "plugins/quote/quote.ml" 240 8308 8343
+)
+"plugins/quote/quote.ml" 246 8668 8696 "plugins/quote/quote.ml" 246 8668 8697
+type(
+  Term.constr -> Term.constr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/quote/quote.ml" 246 8668 8698 "plugins/quote/quote.ml" 246 8668 8703
+type(
+  int -> Term.constr
+)
+ident(
+  ext_ref Term.mkRel
+)
+"plugins/quote/quote.ml" 246 8668 8704 "plugins/quote/quote.ml" 246 8668 8705
+type(
+  int
+)
+"plugins/quote/quote.ml" 246 8668 8698 "plugins/quote/quote.ml" 246 8668 8705
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 246 8668 8690 "plugins/quote/quote.ml" 246 8668 8705
+type(
+  bool
+)
+"plugins/quote/quote.ml" 247 8711 8732 "plugins/quote/quote.ml" 247 8711 8737
+type(
+  Term.constr option ref
+)
+ident(
+  int_ref c_lhs "plugins/quote/quote.ml" 237 8197 8215 "plugins/quote/quote.ml" 237 8197 8220
+)
+"plugins/quote/quote.ml" 247 8711 8738 "plugins/quote/quote.ml" 247 8711 8740
+type(
+  Term.constr option ref -> Term.constr option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/quote/quote.ml" 247 8711 8747 "plugins/quote/quote.ml" 247 8711 8758
+type(
+  Term.constr -> int -> int -> Term.constr
+)
+ident(
+  int_ref compute_lhs "plugins/quote/quote.ml" 201 6813 6817 "plugins/quote/quote.ml" 201 6813 6828
+)
+"plugins/quote/quote.ml" 247 8711 8760 "plugins/quote/quote.ml" 247 8711 8763
+type(
+  Names.name * Term.constr -> Term.constr
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/quote/quote.ml" 247 8711 8765 "plugins/quote/quote.ml" 247 8711 8772
+type(
+  (Names.name * Term.constr) list -> Names.name * Term.constr
+)
+ident(
+  ext_ref List.hd
+)
+"plugins/quote/quote.ml" 247 8711 8773 "plugins/quote/quote.ml" 247 8711 8778
+type(
+  (Names.name * Term.constr) list
+)
+ident(
+  int_ref args3 "plugins/quote/quote.ml" 231 7905 7918 "plugins/quote/quote.ml" 231 7905 7923
+)
+"plugins/quote/quote.ml" 247 8711 8764 "plugins/quote/quote.ml" 247 8711 8779
+call(
+  stack
+)
+type(
+  Names.name * Term.constr
+)
+"plugins/quote/quote.ml" 247 8711 8759 "plugins/quote/quote.ml" 247 8711 8780
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 248 8781 8819 "plugins/quote/quote.ml" 248 8781 8820
+type(
+  int
+)
+ident(
+  int_ref i "plugins/quote/quote.ml" 239 8279 8300 "plugins/quote/quote.ml" 239 8279 8301
+)
+"plugins/quote/quote.ml" 248 8781 8821 "plugins/quote/quote.ml" 248 8781 8827
+type(
+  int
+)
+ident(
+  int_ref nargsi "plugins/quote/quote.ml" 241 8366 8389 "plugins/quote/quote.ml" 241 8366 8395
+)
+"plugins/quote/quote.ml" 247 8711 8746 "plugins/quote/quote.ml" 248 8781 8828
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 247 8711 8741 "plugins/quote/quote.ml" 248 8781 8828
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 247 8711 8732 "plugins/quote/quote.ml" 248 8781 8828
+type(
+  unit
+)
+"plugins/quote/quote.ml" 250 8895 8931 "plugins/quote/quote.ml" 250 8895 8944
+type(
+  Term.constr -> Term.constr * Term.constr list
+)
+ident(
+  ext_ref Term.decompose_app
+)
+"plugins/quote/quote.ml" 250 8895 8945 "plugins/quote/quote.ml" 250 8895 8950
+type(
+  Term.constr
+)
+ident(
+  int_ref bodyi "plugins/quote/quote.ml" 240 8308 8338 "plugins/quote/quote.ml" 240 8308 8343
+)
+"plugins/quote/quote.ml" 250 8895 8931 "plugins/quote/quote.ml" 250 8895 8950
+call(
+  stack
+)
+type(
+  Term.constr * Term.constr list
+)
+"plugins/quote/quote.ml" 251 8956 8979 "plugins/quote/quote.ml" 251 8956 8982
+type(
+  Term.constr
+)
+ident(
+  def vmf "plugins/quote/quote.ml" 252 9000 9025 "plugins/quote/quote.ml" 257 9257 9312
+)
+"plugins/quote/quote.ml" 251 8956 8985 "plugins/quote/quote.ml" 251 8956 8986
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 251 8956 8988 "plugins/quote/quote.ml" 251 8956 8989
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 251 8956 8991 "plugins/quote/quote.ml" 251 8956 8993
+type(
+  Term.constr
+)
+ident(
+  def a3 "plugins/quote/quote.ml" 252 9000 9025 "plugins/quote/quote.ml" 257 9257 9312
+)
+"plugins/quote/quote.ml" 251 8956 8995 "plugins/quote/quote.ml" 251 8956 8997
+type(
+  Term.constr
+)
+ident(
+  def a4 "plugins/quote/quote.ml" 252 9000 9025 "plugins/quote/quote.ml" 257 9257 9312
+)
+"plugins/quote/quote.ml" 251 8956 8984 "plugins/quote/quote.ml" 251 8956 8999
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 251 8956 8979 "plugins/quote/quote.ml" 251 8956 8999
+type(
+  Term.constr * Term.constr list
+)
+"plugins/quote/quote.ml" 252 9000 9030 "plugins/quote/quote.ml" 252 9000 9035
+type(
+  Term.constr -> bool
+)
+ident(
+  ext_ref Term.isRel
+)
+"plugins/quote/quote.ml" 252 9000 9036 "plugins/quote/quote.ml" 252 9000 9038
+type(
+  Term.constr
+)
+ident(
+  int_ref a3 "plugins/quote/quote.ml" 251 8956 8991 "plugins/quote/quote.ml" 251 8956 8993
+)
+"plugins/quote/quote.ml" 252 9000 9030 "plugins/quote/quote.ml" 252 9000 9038
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 252 9000 9039 "plugins/quote/quote.ml" 252 9000 9040
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( & )
+)
+"plugins/quote/quote.ml" 252 9000 9041 "plugins/quote/quote.ml" 252 9000 9046
+type(
+  Term.constr -> bool
+)
+ident(
+  ext_ref Term.isRel
+)
+"plugins/quote/quote.ml" 252 9000 9047 "plugins/quote/quote.ml" 252 9000 9049
+type(
+  Term.constr
+)
+ident(
+  int_ref a4 "plugins/quote/quote.ml" 251 8956 8995 "plugins/quote/quote.ml" 251 8956 8997
+)
+"plugins/quote/quote.ml" 252 9000 9041 "plugins/quote/quote.ml" 252 9000 9049
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 252 9000 9050 "plugins/quote/quote.ml" 252 9000 9051
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( & )
+)
+"plugins/quote/quote.ml" 253 9052 9058 "plugins/quote/quote.ml" 253 9052 9067
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr -> bool
+)
+ident(
+  ext_ref Tacmach.pf_conv_x
+)
+"plugins/quote/quote.ml" 253 9052 9068 "plugins/quote/quote.ml" 253 9052 9070
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 226 7664 7680 "plugins/quote/quote.ml" 226 7664 7682
+)
+"plugins/quote/quote.ml" 253 9052 9071 "plugins/quote/quote.ml" 253 9052 9074
+type(
+  Term.constr
+)
+ident(
+  int_ref vmf "plugins/quote/quote.ml" 251 8956 8979 "plugins/quote/quote.ml" 251 8956 8982
+)
+"plugins/quote/quote.ml" 254 9075 9103 "plugins/quote/quote.ml" 254 9075 9113
+type(
+  Term.constr Lazy.t -> Term.constr
+)
+ident(
+  ext_ref Lazy.force
+)
+"plugins/quote/quote.ml" 254 9075 9114 "plugins/quote/quote.ml" 254 9075 9129
+type(
+  Term.constr Lazy.t
+)
+ident(
+  int_ref coq_varmap_find "plugins/quote/quote.ml" 126 4487 4491 "plugins/quote/quote.ml" 126 4487 4506
+)
+"plugins/quote/quote.ml" 254 9075 9102 "plugins/quote/quote.ml" 254 9075 9130
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 253 9052 9058 "plugins/quote/quote.ml" 254 9075 9130
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 252 9000 9041 "plugins/quote/quote.ml" 254 9075 9130
+type(
+  bool
+)
+"plugins/quote/quote.ml" 252 9000 9030 "plugins/quote/quote.ml" 254 9075 9130
+type(
+  bool
+)
+"plugins/quote/quote.ml" 255 9133 9162 "plugins/quote/quote.ml" 255 9133 9167
+type(
+  Term.constr option ref
+)
+ident(
+  int_ref v_lhs "plugins/quote/quote.ml" 236 8144 8162 "plugins/quote/quote.ml" 236 8144 8167
+)
+"plugins/quote/quote.ml" 255 9133 9168 "plugins/quote/quote.ml" 255 9133 9170
+type(
+  Term.constr option ref -> Term.constr option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/quote/quote.ml" 255 9133 9177 "plugins/quote/quote.ml" 255 9133 9188
+type(
+  Term.constr -> int -> int -> Term.constr
+)
+ident(
+  int_ref compute_lhs "plugins/quote/quote.ml" 201 6813 6817 "plugins/quote/quote.ml" 201 6813 6828
+)
+"plugins/quote/quote.ml" 256 9189 9236 "plugins/quote/quote.ml" 256 9189 9239
+type(
+  Names.name * Term.constr -> Term.constr
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/quote/quote.ml" 256 9189 9241 "plugins/quote/quote.ml" 256 9189 9248
+type(
+  (Names.name * Term.constr) list -> Names.name * Term.constr
+)
+ident(
+  ext_ref List.hd
+)
+"plugins/quote/quote.ml" 256 9189 9249 "plugins/quote/quote.ml" 256 9189 9254
+type(
+  (Names.name * Term.constr) list
+)
+ident(
+  int_ref args3 "plugins/quote/quote.ml" 231 7905 7918 "plugins/quote/quote.ml" 231 7905 7923
+)
+"plugins/quote/quote.ml" 256 9189 9240 "plugins/quote/quote.ml" 256 9189 9255
+call(
+  stack
+)
+type(
+  Names.name * Term.constr
+)
+"plugins/quote/quote.ml" 256 9189 9235 "plugins/quote/quote.ml" 256 9189 9256
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 257 9257 9303 "plugins/quote/quote.ml" 257 9257 9304
+type(
+  int
+)
+ident(
+  int_ref i "plugins/quote/quote.ml" 239 8279 8300 "plugins/quote/quote.ml" 239 8279 8301
+)
+"plugins/quote/quote.ml" 257 9257 9305 "plugins/quote/quote.ml" 257 9257 9311
+type(
+  int
+)
+ident(
+  int_ref nargsi "plugins/quote/quote.ml" 241 8366 8389 "plugins/quote/quote.ml" 241 8366 8395
+)
+"plugins/quote/quote.ml" 255 9133 9176 "plugins/quote/quote.ml" 257 9257 9312
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 255 9133 9171 "plugins/quote/quote.ml" 257 9257 9312
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 255 9133 9162 "plugins/quote/quote.ml" 257 9257 9312
+type(
+  unit
+)
+"plugins/quote/quote.ml" 252 9000 9025 "plugins/quote/quote.ml" 257 9257 9312
+type(
+  unit
+)
+"plugins/quote/quote.ml" 259 9367 9390 "plugins/quote/quote.ml" 259 9367 9391
+type(
+  Term.constr * Term.constr list
+)
+"plugins/quote/quote.ml" 260 9395 9420 "plugins/quote/quote.ml" 260 9395 9429
+type(
+  (Term.constr * Pattern.constr_pattern) list ref
+)
+ident(
+  int_ref n_lhs_rhs "plugins/quote/quote.ml" 235 8107 8125 "plugins/quote/quote.ml" 235 8107 8134
+)
+"plugins/quote/quote.ml" 260 9395 9430 "plugins/quote/quote.ml" 260 9395 9432
+type(
+  (Term.constr * Pattern.constr_pattern) list ref ->
+  (Term.constr * Pattern.constr_pattern) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/quote/quote.ml" 261 9433 9459 "plugins/quote/quote.ml" 261 9433 9470
+type(
+  Term.constr -> int -> int -> Term.constr
+)
+ident(
+  int_ref compute_lhs "plugins/quote/quote.ml" 201 6813 6817 "plugins/quote/quote.ml" 201 6813 6828
+)
+"plugins/quote/quote.ml" 261 9433 9472 "plugins/quote/quote.ml" 261 9433 9475
+type(
+  Names.name * Term.constr -> Term.constr
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/quote/quote.ml" 261 9433 9477 "plugins/quote/quote.ml" 261 9433 9484
+type(
+  (Names.name * Term.constr) list -> Names.name * Term.constr
+)
+ident(
+  ext_ref List.hd
+)
+"plugins/quote/quote.ml" 261 9433 9485 "plugins/quote/quote.ml" 261 9433 9490
+type(
+  (Names.name * Term.constr) list
+)
+ident(
+  int_ref args3 "plugins/quote/quote.ml" 231 7905 7918 "plugins/quote/quote.ml" 231 7905 7923
+)
+"plugins/quote/quote.ml" 261 9433 9476 "plugins/quote/quote.ml" 261 9433 9491
+call(
+  stack
+)
+type(
+  Names.name * Term.constr
+)
+"plugins/quote/quote.ml" 261 9433 9471 "plugins/quote/quote.ml" 261 9433 9492
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 261 9433 9493 "plugins/quote/quote.ml" 261 9433 9494
+type(
+  int
+)
+ident(
+  int_ref i "plugins/quote/quote.ml" 239 8279 8300 "plugins/quote/quote.ml" 239 8279 8301
+)
+"plugins/quote/quote.ml" 261 9433 9495 "plugins/quote/quote.ml" 261 9433 9501
+type(
+  int
+)
+ident(
+  int_ref nargsi "plugins/quote/quote.ml" 241 8366 8389 "plugins/quote/quote.ml" 241 8366 8395
+)
+"plugins/quote/quote.ml" 261 9433 9459 "plugins/quote/quote.ml" 261 9433 9501
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 262 9503 9529 "plugins/quote/quote.ml" 262 9503 9540
+type(
+  Term.constr -> int -> Pattern.constr_pattern
+)
+ident(
+  int_ref compute_rhs "plugins/quote/quote.ml" 211 7185 7189 "plugins/quote/quote.ml" 211 7185 7200
+)
+"plugins/quote/quote.ml" 262 9503 9541 "plugins/quote/quote.ml" 262 9503 9546
+type(
+  Term.constr
+)
+ident(
+  int_ref bodyi "plugins/quote/quote.ml" 240 8308 8338 "plugins/quote/quote.ml" 240 8308 8343
+)
+"plugins/quote/quote.ml" 262 9503 9548 "plugins/quote/quote.ml" 262 9503 9554
+type(
+  int
+)
+ident(
+  int_ref nargs3 "plugins/quote/quote.ml" 232 7957 7969 "plugins/quote/quote.ml" 232 7957 7975
+)
+"plugins/quote/quote.ml" 262 9503 9555 "plugins/quote/quote.ml" 262 9503 9556
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/quote/quote.ml" 262 9503 9557 "plugins/quote/quote.ml" 262 9503 9563
+type(
+  int
+)
+ident(
+  int_ref nargsi "plugins/quote/quote.ml" 241 8366 8389 "plugins/quote/quote.ml" 241 8366 8395
+)
+"plugins/quote/quote.ml" 262 9503 9548 "plugins/quote/quote.ml" 262 9503 9563
+type(
+  int
+)
+"plugins/quote/quote.ml" 262 9503 9564 "plugins/quote/quote.ml" 262 9503 9565
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/quote/quote.ml" 262 9503 9566 "plugins/quote/quote.ml" 262 9503 9567
+type(
+  int
+)
+"plugins/quote/quote.ml" 262 9503 9547 "plugins/quote/quote.ml" 262 9503 9568
+type(
+  int
+)
+"plugins/quote/quote.ml" 262 9503 9529 "plugins/quote/quote.ml" 262 9503 9568
+call(
+  stack
+)
+type(
+  Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 261 9433 9458 "plugins/quote/quote.ml" 262 9503 9569
+type(
+  Term.constr * Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 263 9570 9598 "plugins/quote/quote.ml" 263 9570 9599
+type(
+  (Term.constr * Pattern.constr_pattern) list ref ->
+  (Term.constr * Pattern.constr_pattern) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/quote/quote.ml" 263 9570 9599 "plugins/quote/quote.ml" 263 9570 9608
+type(
+  (Term.constr * Pattern.constr_pattern) list ref
+)
+ident(
+  int_ref n_lhs_rhs "plugins/quote/quote.ml" 235 8107 8125 "plugins/quote/quote.ml" 235 8107 8134
+)
+"plugins/quote/quote.ml" 263 9570 9598 "plugins/quote/quote.ml" 263 9570 9608
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+"plugins/quote/quote.ml" 261 9433 9458 "plugins/quote/quote.ml" 263 9570 9608
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+"plugins/quote/quote.ml" 260 9395 9420 "plugins/quote/quote.ml" 263 9570 9608
+type(
+  unit
+)
+"plugins/quote/quote.ml" 250 8895 8919 "plugins/quote/quote.ml" 264 9609 9631
+type(
+  unit
+)
+"plugins/quote/quote.ml" 246 8668 8687 "plugins/quote/quote.ml" 264 9609 9631
+type(
+  unit
+)
+"plugins/quote/quote.ml" 241 8366 8385 "plugins/quote/quote.ml" 264 9609 9631
+type(
+  unit
+)
+"plugins/quote/quote.ml" 240 8308 8327 "plugins/quote/quote.ml" 264 9609 9631
+type(
+  unit
+)
+"plugins/quote/quote.ml" 239 8279 8295 "plugins/quote/quote.ml" 264 9609 9632
+type(
+  int -> Term.constr -> unit
+)
+"plugins/quote/quote.ml" 265 9633 9649 "plugins/quote/quote.ml" 265 9633 9652
+type(
+  Term.constr array
+)
+ident(
+  int_ref lci "plugins/quote/quote.ml" 234 8042 8065 "plugins/quote/quote.ml" 234 8042 8068
+)
+"plugins/quote/quote.ml" 238 8253 8267 "plugins/quote/quote.ml" 265 9633 9652
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/quote/quote.ml" 267 9655 9672 "plugins/quote/quote.ml" 267 9655 9673
+type(
+  Term.constr option ref -> Term.constr option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/quote/quote.ml" 267 9655 9673 "plugins/quote/quote.ml" 267 9655 9678
+type(
+  Term.constr option ref
+)
+ident(
+  int_ref c_lhs "plugins/quote/quote.ml" 237 8197 8215 "plugins/quote/quote.ml" 237 8197 8220
+)
+"plugins/quote/quote.ml" 267 9655 9672 "plugins/quote/quote.ml" 267 9655 9678
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 267 9655 9679 "plugins/quote/quote.ml" 267 9655 9680
+type(
+  Term.constr option -> Term.constr option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/quote/quote.ml" 267 9655 9681 "plugins/quote/quote.ml" 267 9655 9685
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 267 9655 9672 "plugins/quote/quote.ml" 267 9655 9685
+type(
+  bool
+)
+"plugins/quote/quote.ml" 267 9655 9686 "plugins/quote/quote.ml" 267 9655 9687
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( & )
+)
+"plugins/quote/quote.ml" 267 9655 9688 "plugins/quote/quote.ml" 267 9655 9689
+type(
+  Term.constr option ref -> Term.constr option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/quote/quote.ml" 267 9655 9689 "plugins/quote/quote.ml" 267 9655 9694
+type(
+  Term.constr option ref
+)
+ident(
+  int_ref v_lhs "plugins/quote/quote.ml" 236 8144 8162 "plugins/quote/quote.ml" 236 8144 8167
+)
+"plugins/quote/quote.ml" 267 9655 9688 "plugins/quote/quote.ml" 267 9655 9694
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 267 9655 9695 "plugins/quote/quote.ml" 267 9655 9696
+type(
+  Term.constr option -> Term.constr option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/quote/quote.ml" 267 9655 9697 "plugins/quote/quote.ml" 267 9655 9701
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 267 9655 9688 "plugins/quote/quote.ml" 267 9655 9701
+type(
+  bool
+)
+"plugins/quote/quote.ml" 267 9655 9672 "plugins/quote/quote.ml" 267 9655 9701
+type(
+  bool
+)
+"plugins/quote/quote.ml" 267 9655 9707 "plugins/quote/quote.ml" 267 9655 9722
+type(
+  unit -> unit
+)
+ident(
+  int_ref i_can't_do_that "plugins/quote/quote.ml" 187 6369 6373 "plugins/quote/quote.ml" 187 6369 6388
+)
+"plugins/quote/quote.ml" 267 9655 9723 "plugins/quote/quote.ml" 267 9655 9725
+type(
+  unit
+)
+"plugins/quote/quote.ml" 267 9655 9707 "plugins/quote/quote.ml" 267 9655 9725
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/quote/quote.ml" 267 9655 9669 "plugins/quote/quote.ml" 267 9655 9725
+type(
+  unit
+)
+"plugins/quote/quote.ml" 270 9798 9809 "plugins/quote/quote.ml" 270 9798 9810
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 270 9798 9819 "plugins/quote/quote.ml" 270 9798 9831
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/quote/quote.ml" 270 9798 9832 "plugins/quote/quote.ml" 270 9798 9833
+type(
+  Term.constr
+)
+ident(
+  int_ref p "plugins/quote/quote.ml" 234 8042 8061 "plugins/quote/quote.ml" 234 8042 8062
+)
+"plugins/quote/quote.ml" 270 9798 9819 "plugins/quote/quote.ml" 270 9798 9833
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 271 9839 9851 "plugins/quote/quote.ml" 271 9839 9852
+type(
+  Names.name
+)
+"plugins/quote/quote.ml" 271 9839 9853 "plugins/quote/quote.ml" 271 9839 9854
+type(
+  Term.types
+)
+"plugins/quote/quote.ml" 271 9839 9855 "plugins/quote/quote.ml" 271 9839 9856
+type(
+  Term.constr
+)
+ident(
+  def p "plugins/quote/quote.ml" 271 9839 9861 "plugins/quote/quote.ml" 271 9839 9874
+)
+"plugins/quote/quote.ml" 271 9839 9843 "plugins/quote/quote.ml" 271 9839 9857
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 271 9839 9861 "plugins/quote/quote.ml" 271 9839 9872
+type(
+  Term.constr -> Term.constr
+)
+ident(
+  ext_ref Termops.pop
+)
+"plugins/quote/quote.ml" 271 9839 9873 "plugins/quote/quote.ml" 271 9839 9874
+type(
+  Term.constr
+)
+ident(
+  int_ref p "plugins/quote/quote.ml" 271 9839 9855 "plugins/quote/quote.ml" 271 9839 9856
+)
+"plugins/quote/quote.ml" 271 9839 9861 "plugins/quote/quote.ml" 271 9839 9874
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 272 9875 9879 "plugins/quote/quote.ml" 272 9875 9880
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 272 9875 9884 "plugins/quote/quote.ml" 272 9875 9885
+type(
+  Term.constr
+)
+ident(
+  int_ref p "plugins/quote/quote.ml" 234 8042 8061 "plugins/quote/quote.ml" 234 8042 8062
+)
+"plugins/quote/quote.ml" 270 9798 9813 "plugins/quote/quote.ml" 272 9875 9885
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 275 9897 9930 "plugins/quote/quote.ml" 275 9897 9938
+type(
+  (Term.constr * Pattern.constr_pattern) list ->
+  (Term.constr * Pattern.constr_pattern) list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/quote/quote.ml" 275 9897 9939 "plugins/quote/quote.ml" 275 9897 9940
+type(
+  (Term.constr * Pattern.constr_pattern) list ref ->
+  (Term.constr * Pattern.constr_pattern) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/quote/quote.ml" 275 9897 9940 "plugins/quote/quote.ml" 275 9897 9949
+type(
+  (Term.constr * Pattern.constr_pattern) list ref
+)
+ident(
+  int_ref n_lhs_rhs "plugins/quote/quote.ml" 235 8107 8125 "plugins/quote/quote.ml" 235 8107 8134
+)
+"plugins/quote/quote.ml" 275 9897 9939 "plugins/quote/quote.ml" 275 9897 9949
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+"plugins/quote/quote.ml" 275 9897 9930 "plugins/quote/quote.ml" 275 9897 9949
+call(
+  stack
+)
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+"plugins/quote/quote.ml" 276 9951 9982 "plugins/quote/quote.ml" 276 9951 9983
+type(
+  Term.constr option ref -> Term.constr option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/quote/quote.ml" 276 9951 9983 "plugins/quote/quote.ml" 276 9951 9988
+type(
+  Term.constr option ref
+)
+ident(
+  int_ref v_lhs "plugins/quote/quote.ml" 236 8144 8162 "plugins/quote/quote.ml" 236 8144 8167
+)
+"plugins/quote/quote.ml" 276 9951 9982 "plugins/quote/quote.ml" 276 9951 9988
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 277 9990 10020 "plugins/quote/quote.ml" 277 9990 10021
+type(
+  Term.constr
+)
+ident(
+  int_ref p "plugins/quote/quote.ml" 270 9798 9809 "plugins/quote/quote.ml" 270 9798 9810
+)
+"plugins/quote/quote.ml" 278 10023 10051 "plugins/quote/quote.ml" 278 10023 10066
+type(
+  (ConstrSet.elt -> ConstrSet.t -> ConstrSet.t) ->
+  ConstrSet.elt list -> ConstrSet.t -> ConstrSet.t
+)
+ident(
+  ext_ref List.fold_right
+)
+"plugins/quote/quote.ml" 278 10023 10067 "plugins/quote/quote.ml" 278 10023 10080
+type(
+  ConstrSet.elt -> ConstrSet.t -> ConstrSet.t
+)
+ident(
+  ext_ref ConstrSet.add
+)
+"plugins/quote/quote.ml" 278 10023 10081 "plugins/quote/quote.ml" 278 10023 10083
+type(
+  ConstrSet.elt list
+)
+ident(
+  int_ref cs "plugins/quote/quote.ml" 226 7664 7685 "plugins/quote/quote.ml" 226 7664 7687
+)
+"plugins/quote/quote.ml" 278 10023 10084 "plugins/quote/quote.ml" 278 10023 10099
+type(
+  ConstrSet.t
+)
+ident(
+  ext_ref ConstrSet.empty
+)
+"plugins/quote/quote.ml" 278 10023 10051 "plugins/quote/quote.ml" 278 10023 10099
+call(
+  stack
+)
+type(
+  ConstrSet.t
+)
+"plugins/quote/quote.ml" 279 10101 10132 "plugins/quote/quote.ml" 279 10101 10133
+type(
+  Term.constr option ref -> Term.constr option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/quote/quote.ml" 279 10101 10133 "plugins/quote/quote.ml" 279 10101 10138
+type(
+  Term.constr option ref
+)
+ident(
+  int_ref c_lhs "plugins/quote/quote.ml" 237 8197 8215 "plugins/quote/quote.ml" 237 8197 8220
+)
+"plugins/quote/quote.ml" 279 10101 10132 "plugins/quote/quote.ml" 279 10101 10138
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 275 9897 9911 "plugins/quote/quote.ml" 279 10101 10140
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 270 9798 9805 "plugins/quote/quote.ml" 279 10101 10140
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 267 9655 9669 "plugins/quote/quote.ml" 279 10101 10140
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 238 8253 8267 "plugins/quote/quote.ml" 279 10101 10140
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 235 8107 8121 "plugins/quote/quote.ml" 279 10101 10140
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 281 10142 10154 "plugins/quote/quote.ml" 281 10142 10155
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 281 10142 10159 "plugins/quote/quote.ml" 281 10142 10174
+type(
+  unit -> inversion_scheme
+)
+ident(
+  int_ref i_can't_do_that "plugins/quote/quote.ml" 187 6369 6373 "plugins/quote/quote.ml" 187 6369 6388
+)
+"plugins/quote/quote.ml" 281 10142 10175 "plugins/quote/quote.ml" 281 10142 10177
+type(
+  unit
+)
+"plugins/quote/quote.ml" 281 10142 10159 "plugins/quote/quote.ml" 281 10142 10177
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 233 7999 8007 "plugins/quote/quote.ml" 282 10178 10189
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 232 7957 7965 "plugins/quote/quote.ml" 282 10178 10189
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 231 7905 7913 "plugins/quote/quote.ml" 282 10178 10189
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 283 10190 10195 "plugins/quote/quote.ml" 283 10190 10196
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 283 10190 10200 "plugins/quote/quote.ml" 283 10190 10215
+type(
+  unit -> inversion_scheme
+)
+ident(
+  int_ref i_can't_do_that "plugins/quote/quote.ml" 187 6369 6373 "plugins/quote/quote.ml" 187 6369 6388
+)
+"plugins/quote/quote.ml" 283 10190 10216 "plugins/quote/quote.ml" 283 10190 10218
+type(
+  unit
+)
+"plugins/quote/quote.ml" 283 10190 10200 "plugins/quote/quote.ml" 283 10190 10218
+call(
+  tail
+)
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 229 7808 7810 "plugins/quote/quote.ml" 283 10190 10218
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 228 7750 7752 "plugins/quote/quote.ml" 283 10190 10218
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 227 7690 7692 "plugins/quote/quote.ml" 283 10190 10218
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 301 10750 10758 "plugins/quote/quote.ml" 301 10750 10770
+type(
+  ConstrSet.t -> ConstrSet.elt -> bool
+)
+ident(
+  def closed_under "plugins/quote/quote.ml" 301 10750 10750 --
+)
+"plugins/quote/quote.ml" 301 10750 10771 "plugins/quote/quote.ml" 301 10750 10775
+type(
+  ConstrSet.t
+)
+ident(
+  def cset "plugins/quote/quote.ml" 301 10750 10776 "plugins/quote/quote.ml" 306 10959 10977
+)
+"plugins/quote/quote.ml" 301 10750 10776 "plugins/quote/quote.ml" 301 10750 10777
+type(
+  ConstrSet.elt
+)
+ident(
+  def t "plugins/quote/quote.ml" 302 10780 10782 "plugins/quote/quote.ml" 306 10959 10977
+)
+"plugins/quote/quote.ml" 302 10780 10783 "plugins/quote/quote.ml" 302 10780 10796
+type(
+  ConstrSet.elt -> ConstrSet.t -> bool
+)
+ident(
+  ext_ref ConstrSet.mem
+)
+"plugins/quote/quote.ml" 302 10780 10797 "plugins/quote/quote.ml" 302 10780 10798
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref t "plugins/quote/quote.ml" 301 10750 10776 "plugins/quote/quote.ml" 301 10750 10777
+)
+"plugins/quote/quote.ml" 302 10780 10799 "plugins/quote/quote.ml" 302 10780 10803
+type(
+  ConstrSet.t
+)
+ident(
+  int_ref cset "plugins/quote/quote.ml" 301 10750 10771 "plugins/quote/quote.ml" 301 10750 10775
+)
+"plugins/quote/quote.ml" 302 10780 10782 "plugins/quote/quote.ml" 302 10780 10804
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 302 10780 10805 "plugins/quote/quote.ml" 302 10780 10807
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( or )
+)
+"plugins/quote/quote.ml" 303 10808 10818 "plugins/quote/quote.ml" 303 10808 10830
+type(
+  ConstrSet.elt -> (ConstrSet.elt, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/quote/quote.ml" 303 10808 10831 "plugins/quote/quote.ml" 303 10808 10832
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref t "plugins/quote/quote.ml" 301 10750 10776 "plugins/quote/quote.ml" 301 10750 10777
+)
+"plugins/quote/quote.ml" 303 10808 10817 "plugins/quote/quote.ml" 303 10808 10833
+call(
+  stack
+)
+type(
+  (ConstrSet.elt, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 304 10839 10851 "plugins/quote/quote.ml" 304 10839 10852
+type(
+  ConstrSet.elt
+)
+ident(
+  def c "plugins/quote/quote.ml" 304 10839 10861 "plugins/quote/quote.ml" 304 10839 10880
+)
+"plugins/quote/quote.ml" 304 10839 10853 "plugins/quote/quote.ml" 304 10839 10854
+type(
+  Term.cast_kind
+)
+"plugins/quote/quote.ml" 304 10839 10855 "plugins/quote/quote.ml" 304 10839 10856
+type(
+  Term.types
+)
+"plugins/quote/quote.ml" 304 10839 10846 "plugins/quote/quote.ml" 304 10839 10857
+type(
+  (ConstrSet.elt, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 304 10839 10861 "plugins/quote/quote.ml" 304 10839 10873
+type(
+  ConstrSet.t -> ConstrSet.elt -> bool
+)
+ident(
+  int_ref closed_under "plugins/quote/quote.ml" 301 10750 10758 "plugins/quote/quote.ml" 301 10750 10770
+)
+"plugins/quote/quote.ml" 304 10839 10874 "plugins/quote/quote.ml" 304 10839 10878
+type(
+  ConstrSet.t
+)
+ident(
+  int_ref cset "plugins/quote/quote.ml" 301 10750 10771 "plugins/quote/quote.ml" 301 10750 10775
+)
+"plugins/quote/quote.ml" 304 10839 10879 "plugins/quote/quote.ml" 304 10839 10880
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 304 10839 10851 "plugins/quote/quote.ml" 304 10839 10852
+)
+"plugins/quote/quote.ml" 304 10839 10861 "plugins/quote/quote.ml" 304 10839 10880
+call(
+  tail
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 305 10881 10892 "plugins/quote/quote.ml" 305 10881 10893
+type(
+  ConstrSet.elt
+)
+ident(
+  def f "plugins/quote/quote.ml" 305 10881 10900 "plugins/quote/quote.ml" 305 10881 10958
+)
+"plugins/quote/quote.ml" 305 10881 10894 "plugins/quote/quote.ml" 305 10881 10895
+type(
+  ConstrSet.elt array
+)
+ident(
+  def l "plugins/quote/quote.ml" 305 10881 10900 "plugins/quote/quote.ml" 305 10881 10958
+)
+"plugins/quote/quote.ml" 305 10881 10888 "plugins/quote/quote.ml" 305 10881 10896
+type(
+  (ConstrSet.elt, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 305 10881 10900 "plugins/quote/quote.ml" 305 10881 10912
+type(
+  ConstrSet.t -> ConstrSet.elt -> bool
+)
+ident(
+  int_ref closed_under "plugins/quote/quote.ml" 301 10750 10758 "plugins/quote/quote.ml" 301 10750 10770
+)
+"plugins/quote/quote.ml" 305 10881 10913 "plugins/quote/quote.ml" 305 10881 10917
+type(
+  ConstrSet.t
+)
+ident(
+  int_ref cset "plugins/quote/quote.ml" 301 10750 10771 "plugins/quote/quote.ml" 301 10750 10775
+)
+"plugins/quote/quote.ml" 305 10881 10918 "plugins/quote/quote.ml" 305 10881 10919
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref f "plugins/quote/quote.ml" 305 10881 10892 "plugins/quote/quote.ml" 305 10881 10893
+)
+"plugins/quote/quote.ml" 305 10881 10900 "plugins/quote/quote.ml" 305 10881 10919
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 305 10881 10920 "plugins/quote/quote.ml" 305 10881 10922
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/quote/quote.ml" 305 10881 10923 "plugins/quote/quote.ml" 305 10881 10936
+type(
+  (ConstrSet.elt -> bool) -> ConstrSet.elt array -> bool
+)
+ident(
+  ext_ref Util.array_for_all
+)
+"plugins/quote/quote.ml" 305 10881 10938 "plugins/quote/quote.ml" 305 10881 10950
+type(
+  ConstrSet.t -> ConstrSet.elt -> bool
+)
+ident(
+  int_ref closed_under "plugins/quote/quote.ml" 301 10750 10758 "plugins/quote/quote.ml" 301 10750 10770
+)
+"plugins/quote/quote.ml" 305 10881 10951 "plugins/quote/quote.ml" 305 10881 10955
+type(
+  ConstrSet.t
+)
+ident(
+  int_ref cset "plugins/quote/quote.ml" 301 10750 10771 "plugins/quote/quote.ml" 301 10750 10775
+)
+"plugins/quote/quote.ml" 305 10881 10937 "plugins/quote/quote.ml" 305 10881 10956
+call(
+  stack
+)
+type(
+  ConstrSet.elt -> bool
+)
+"plugins/quote/quote.ml" 305 10881 10957 "plugins/quote/quote.ml" 305 10881 10958
+type(
+  ConstrSet.elt array
+)
+ident(
+  int_ref l "plugins/quote/quote.ml" 305 10881 10894 "plugins/quote/quote.ml" 305 10881 10895
+)
+"plugins/quote/quote.ml" 305 10881 10923 "plugins/quote/quote.ml" 305 10881 10958
+call(
+  tail
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 305 10881 10900 "plugins/quote/quote.ml" 305 10881 10958
+type(
+  bool
+)
+"plugins/quote/quote.ml" 306 10959 10966 "plugins/quote/quote.ml" 306 10959 10967
+type(
+  (ConstrSet.elt, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 306 10959 10971 "plugins/quote/quote.ml" 306 10959 10976
+type(
+  bool
+)
+"plugins/quote/quote.ml" 303 10808 10810 "plugins/quote/quote.ml" 306 10959 10977
+type(
+  bool
+)
+"plugins/quote/quote.ml" 302 10780 10782 "plugins/quote/quote.ml" 306 10959 10977
+type(
+  bool
+)
+"plugins/quote/quote.ml" 322 11303 11307 "plugins/quote/quote.ml" 322 11303 11321
+type(
+  Term.constr array -> Term.constr -> Term.constr
+)
+ident(
+  def btree_of_array "plugins/quote/quote.ml" 341 11903 11903 --
+)
+"plugins/quote/quote.ml" 322 11303 11322 "plugins/quote/quote.ml" 322 11303 11323
+type(
+  Term.constr array
+)
+ident(
+  def a "plugins/quote/quote.ml" 322 11303 11324 "plugins/quote/quote.ml" 334 11713 11720
+)
+"plugins/quote/quote.ml" 322 11303 11324 "plugins/quote/quote.ml" 322 11303 11326
+type(
+  Term.constr
+)
+ident(
+  def ty "plugins/quote/quote.ml" 323 11329 11331 "plugins/quote/quote.ml" 334 11713 11720
+)
+"plugins/quote/quote.ml" 323 11329 11335 "plugins/quote/quote.ml" 323 11329 11344
+type(
+  int
+)
+"plugins/quote/quote.ml" 323 11329 11347 "plugins/quote/quote.ml" 323 11329 11359
+type(
+  Term.constr array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"plugins/quote/quote.ml" 323 11329 11360 "plugins/quote/quote.ml" 323 11329 11361
+type(
+  Term.constr array
+)
+ident(
+  int_ref a "plugins/quote/quote.ml" 322 11303 11322 "plugins/quote/quote.ml" 322 11303 11323
+)
+"plugins/quote/quote.ml" 323 11329 11347 "plugins/quote/quote.ml" 323 11329 11361
+type(
+  int
+)
+"plugins/quote/quote.ml" 324 11365 11371 "plugins/quote/quote.ml" 324 11365 11385
+type(
+  int
+)
+"plugins/quote/quote.ml" 324 11365 11388 "plugins/quote/quote.ml" 324 11365 11397
+type(
+  int
+)
+ident(
+  int_ref size_of_a "plugins/quote/quote.ml" 323 11329 11335 "plugins/quote/quote.ml" 323 11329 11344
+)
+"plugins/quote/quote.ml" 324 11365 11398 "plugins/quote/quote.ml" 324 11365 11401
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"plugins/quote/quote.ml" 324 11365 11402 "plugins/quote/quote.ml" 324 11365 11403
+type(
+  int
+)
+"plugins/quote/quote.ml" 324 11365 11388 "plugins/quote/quote.ml" 324 11365 11403
+type(
+  int
+)
+"plugins/quote/quote.ml" 325 11407 11413 "plugins/quote/quote.ml" 325 11407 11417
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 325 11407 11420 "plugins/quote/quote.ml" 325 11407 11430
+type(
+  Term.constr Lazy.t -> Term.constr
+)
+ident(
+  ext_ref Lazy.force
+)
+"plugins/quote/quote.ml" 325 11407 11431 "plugins/quote/quote.ml" 325 11407 11442
+type(
+  Term.constr Lazy.t
+)
+ident(
+  int_ref coq_Node_vm "plugins/quote/quote.ml" 125 4433 4437 "plugins/quote/quote.ml" 125 4433 4448
+)
+"plugins/quote/quote.ml" 325 11407 11420 "plugins/quote/quote.ml" 325 11407 11442
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 326 11443 11449 "plugins/quote/quote.ml" 326 11443 11454
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 326 11443 11457 "plugins/quote/quote.ml" 326 11443 11462
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/quote/quote.ml" 326 11443 11464 "plugins/quote/quote.ml" 326 11443 11474
+type(
+  Term.constr Lazy.t -> Term.constr
+)
+ident(
+  ext_ref Lazy.force
+)
+"plugins/quote/quote.ml" 326 11443 11475 "plugins/quote/quote.ml" 326 11443 11487
+type(
+  Term.constr Lazy.t
+)
+ident(
+  int_ref coq_Empty_vm "plugins/quote/quote.ml" 124 4377 4381 "plugins/quote/quote.ml" 124 4377 4393
+)
+"plugins/quote/quote.ml" 326 11443 11464 "plugins/quote/quote.ml" 326 11443 11487
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 326 11443 11492 "plugins/quote/quote.ml" 326 11443 11494
+type(
+  Term.constr
+)
+ident(
+  int_ref ty "plugins/quote/quote.ml" 322 11303 11324 "plugins/quote/quote.ml" 322 11303 11326
+)
+"plugins/quote/quote.ml" 326 11443 11489 "plugins/quote/quote.ml" 326 11443 11497
+type(
+  Term.constr array
+)
+"plugins/quote/quote.ml" 326 11443 11463 "plugins/quote/quote.ml" 326 11443 11498
+type(
+  Term.constr * Term.constr array
+)
+"plugins/quote/quote.ml" 326 11443 11457 "plugins/quote/quote.ml" 326 11443 11498
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 327 11502 11512 "plugins/quote/quote.ml" 327 11502 11515
+type(
+  int -> Term.constr
+)
+"plugins/quote/quote.ml" 327 11502 11516 "plugins/quote/quote.ml" 327 11502 11517
+type(
+  int
+)
+ident(
+  def n "plugins/quote/quote.ml" 328 11520 11524 "plugins/quote/quote.ml" 332 11643 11707
+)
+"plugins/quote/quote.ml" 328 11520 11527 "plugins/quote/quote.ml" 328 11520 11528
+type(
+  int
+)
+ident(
+  int_ref n "plugins/quote/quote.ml" 327 11502 11516 "plugins/quote/quote.ml" 327 11502 11517
+)
+"plugins/quote/quote.ml" 328 11520 11529 "plugins/quote/quote.ml" 328 11520 11530
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"plugins/quote/quote.ml" 328 11520 11531 "plugins/quote/quote.ml" 328 11520 11540
+type(
+  int
+)
+ident(
+  int_ref size_of_a "plugins/quote/quote.ml" 323 11329 11335 "plugins/quote/quote.ml" 323 11329 11344
+)
+"plugins/quote/quote.ml" 328 11520 11527 "plugins/quote/quote.ml" 328 11520 11540
+type(
+  bool
+)
+"plugins/quote/quote.ml" 329 11541 11550 "plugins/quote/quote.ml" 329 11541 11555
+type(
+  Term.constr
+)
+ident(
+  int_ref empty "plugins/quote/quote.ml" 326 11443 11449 "plugins/quote/quote.ml" 326 11443 11454
+)
+"plugins/quote/quote.ml" 330 11556 11569 "plugins/quote/quote.ml" 330 11556 11570
+type(
+  int
+)
+ident(
+  int_ref n "plugins/quote/quote.ml" 327 11502 11516 "plugins/quote/quote.ml" 327 11502 11517
+)
+"plugins/quote/quote.ml" 330 11556 11571 "plugins/quote/quote.ml" 330 11556 11572
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"plugins/quote/quote.ml" 330 11556 11573 "plugins/quote/quote.ml" 330 11556 11587
+type(
+  int
+)
+ident(
+  int_ref semi_size_of_a "plugins/quote/quote.ml" 324 11365 11371 "plugins/quote/quote.ml" 324 11365 11385
+)
+"plugins/quote/quote.ml" 330 11556 11569 "plugins/quote/quote.ml" 330 11556 11587
+type(
+  bool
+)
+"plugins/quote/quote.ml" 331 11588 11597 "plugins/quote/quote.ml" 331 11588 11602
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/quote/quote.ml" 331 11588 11604 "plugins/quote/quote.ml" 331 11588 11608
+type(
+  Term.constr
+)
+ident(
+  int_ref node "plugins/quote/quote.ml" 325 11407 11413 "plugins/quote/quote.ml" 325 11407 11417
+)
+"plugins/quote/quote.ml" 331 11588 11613 "plugins/quote/quote.ml" 331 11588 11615
+type(
+  Term.constr
+)
+ident(
+  int_ref ty "plugins/quote/quote.ml" 322 11303 11324 "plugins/quote/quote.ml" 322 11303 11326
+)
+"plugins/quote/quote.ml" 331 11588 11617 "plugins/quote/quote.ml" 331 11588 11618
+type(
+  Term.constr array
+)
+ident(
+  int_ref a "plugins/quote/quote.ml" 322 11303 11322 "plugins/quote/quote.ml" 322 11303 11323
+)
+"plugins/quote/quote.ml" 331 11588 11620 "plugins/quote/quote.ml" 331 11588 11621
+type(
+  int
+)
+ident(
+  int_ref n "plugins/quote/quote.ml" 327 11502 11516 "plugins/quote/quote.ml" 327 11502 11517
+)
+"plugins/quote/quote.ml" 331 11588 11621 "plugins/quote/quote.ml" 331 11588 11622
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/quote/quote.ml" 331 11588 11622 "plugins/quote/quote.ml" 331 11588 11623
+type(
+  int
+)
+"plugins/quote/quote.ml" 331 11588 11620 "plugins/quote/quote.ml" 331 11588 11623
+type(
+  int
+)
+"plugins/quote/quote.ml" 331 11588 11617 "plugins/quote/quote.ml" 331 11588 11624
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 331 11588 11626 "plugins/quote/quote.ml" 331 11588 11631
+type(
+  Term.constr
+)
+ident(
+  int_ref empty "plugins/quote/quote.ml" 326 11443 11449 "plugins/quote/quote.ml" 326 11443 11454
+)
+"plugins/quote/quote.ml" 331 11588 11633 "plugins/quote/quote.ml" 331 11588 11638
+type(
+  Term.constr
+)
+ident(
+  int_ref empty "plugins/quote/quote.ml" 326 11443 11449 "plugins/quote/quote.ml" 326 11443 11454
+)
+"plugins/quote/quote.ml" 331 11588 11610 "plugins/quote/quote.ml" 331 11588 11641
+type(
+  Term.constr array
+)
+"plugins/quote/quote.ml" 331 11588 11603 "plugins/quote/quote.ml" 331 11588 11642
+type(
+  Term.constr * Term.constr array
+)
+"plugins/quote/quote.ml" 331 11588 11597 "plugins/quote/quote.ml" 331 11588 11642
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 332 11643 11652 "plugins/quote/quote.ml" 332 11643 11657
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/quote/quote.ml" 332 11643 11659 "plugins/quote/quote.ml" 332 11643 11663
+type(
+  Term.constr
+)
+ident(
+  int_ref node "plugins/quote/quote.ml" 325 11407 11413 "plugins/quote/quote.ml" 325 11407 11417
+)
+"plugins/quote/quote.ml" 332 11643 11668 "plugins/quote/quote.ml" 332 11643 11670
+type(
+  Term.constr
+)
+ident(
+  int_ref ty "plugins/quote/quote.ml" 322 11303 11324 "plugins/quote/quote.ml" 322 11303 11326
+)
+"plugins/quote/quote.ml" 332 11643 11672 "plugins/quote/quote.ml" 332 11643 11673
+type(
+  Term.constr array
+)
+ident(
+  int_ref a "plugins/quote/quote.ml" 322 11303 11322 "plugins/quote/quote.ml" 322 11303 11323
+)
+"plugins/quote/quote.ml" 332 11643 11675 "plugins/quote/quote.ml" 332 11643 11676
+type(
+  int
+)
+ident(
+  int_ref n "plugins/quote/quote.ml" 327 11502 11516 "plugins/quote/quote.ml" 327 11502 11517
+)
+"plugins/quote/quote.ml" 332 11643 11676 "plugins/quote/quote.ml" 332 11643 11677
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/quote/quote.ml" 332 11643 11677 "plugins/quote/quote.ml" 332 11643 11678
+type(
+  int
+)
+"plugins/quote/quote.ml" 332 11643 11675 "plugins/quote/quote.ml" 332 11643 11678
+type(
+  int
+)
+"plugins/quote/quote.ml" 332 11643 11672 "plugins/quote/quote.ml" 332 11643 11679
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 332 11643 11681 "plugins/quote/quote.ml" 332 11643 11684
+type(
+  int -> Term.constr
+)
+ident(
+  int_ref aux "plugins/quote/quote.ml" 327 11502 11512 "plugins/quote/quote.ml" 327 11502 11515
+)
+"plugins/quote/quote.ml" 332 11643 11686 "plugins/quote/quote.ml" 332 11643 11687
+type(
+  int
+)
+"plugins/quote/quote.ml" 332 11643 11687 "plugins/quote/quote.ml" 332 11643 11688
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/quote/quote.ml" 332 11643 11688 "plugins/quote/quote.ml" 332 11643 11689
+type(
+  int
+)
+ident(
+  int_ref n "plugins/quote/quote.ml" 327 11502 11516 "plugins/quote/quote.ml" 327 11502 11517
+)
+"plugins/quote/quote.ml" 332 11643 11685 "plugins/quote/quote.ml" 332 11643 11690
+type(
+  int
+)
+"plugins/quote/quote.ml" 332 11643 11681 "plugins/quote/quote.ml" 332 11643 11690
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 332 11643 11692 "plugins/quote/quote.ml" 332 11643 11695
+type(
+  int -> Term.constr
+)
+ident(
+  int_ref aux "plugins/quote/quote.ml" 327 11502 11512 "plugins/quote/quote.ml" 327 11502 11515
+)
+"plugins/quote/quote.ml" 332 11643 11697 "plugins/quote/quote.ml" 332 11643 11698
+type(
+  int
+)
+"plugins/quote/quote.ml" 332 11643 11698 "plugins/quote/quote.ml" 332 11643 11699
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"plugins/quote/quote.ml" 332 11643 11699 "plugins/quote/quote.ml" 332 11643 11700
+type(
+  int
+)
+ident(
+  int_ref n "plugins/quote/quote.ml" 327 11502 11516 "plugins/quote/quote.ml" 327 11502 11517
+)
+"plugins/quote/quote.ml" 332 11643 11697 "plugins/quote/quote.ml" 332 11643 11700
+type(
+  int
+)
+"plugins/quote/quote.ml" 332 11643 11700 "plugins/quote/quote.ml" 332 11643 11701
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/quote/quote.ml" 332 11643 11701 "plugins/quote/quote.ml" 332 11643 11702
+type(
+  int
+)
+"plugins/quote/quote.ml" 332 11643 11696 "plugins/quote/quote.ml" 332 11643 11703
+type(
+  int
+)
+"plugins/quote/quote.ml" 332 11643 11692 "plugins/quote/quote.ml" 332 11643 11703
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 332 11643 11665 "plugins/quote/quote.ml" 332 11643 11706
+type(
+  Term.constr array
+)
+"plugins/quote/quote.ml" 332 11643 11658 "plugins/quote/quote.ml" 332 11643 11707
+type(
+  Term.constr * Term.constr array
+)
+"plugins/quote/quote.ml" 332 11643 11652 "plugins/quote/quote.ml" 332 11643 11707
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 330 11556 11565 "plugins/quote/quote.ml" 332 11643 11707
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 328 11520 11524 "plugins/quote/quote.ml" 332 11643 11707
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 334 11713 11715 "plugins/quote/quote.ml" 334 11713 11718
+type(
+  int -> Term.constr
+)
+ident(
+  int_ref aux "plugins/quote/quote.ml" 327 11502 11512 "plugins/quote/quote.ml" 327 11502 11515
+)
+"plugins/quote/quote.ml" 334 11713 11719 "plugins/quote/quote.ml" 334 11713 11720
+type(
+  int
+)
+"plugins/quote/quote.ml" 334 11713 11715 "plugins/quote/quote.ml" 334 11713 11720
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 327 11502 11504 "plugins/quote/quote.ml" 334 11713 11720
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 325 11407 11409 "plugins/quote/quote.ml" 334 11713 11720
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 324 11365 11367 "plugins/quote/quote.ml" 334 11713 11720
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 323 11329 11331 "plugins/quote/quote.ml" 334 11713 11720
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 341 11903 11907 "plugins/quote/quote.ml" 341 11903 11918
+type(
+  int -> Term.constr
+)
+ident(
+  def path_of_int "plugins/quote/quote.ml" 363 12686 12686 --
+)
+"plugins/quote/quote.ml" 341 11903 11919 "plugins/quote/quote.ml" 341 11903 11920
+type(
+  int
+)
+ident(
+  def n "plugins/quote/quote.ml" 344 12008 12010 "plugins/quote/quote.ml" 353 12311 12339
+)
+"plugins/quote/quote.ml" 344 12008 12018 "plugins/quote/quote.ml" 344 12008 12031
+type(
+  int -> bool list
+)
+"plugins/quote/quote.ml" 344 12008 12032 "plugins/quote/quote.ml" 344 12008 12033
+type(
+  int
+)
+ident(
+  def n "plugins/quote/quote.ml" 345 12036 12040 "plugins/quote/quote.ml" 346 12055 12104
+)
+"plugins/quote/quote.ml" 345 12036 12043 "plugins/quote/quote.ml" 345 12036 12044
+type(
+  int
+)
+ident(
+  int_ref n "plugins/quote/quote.ml" 344 12008 12032 "plugins/quote/quote.ml" 344 12008 12033
+)
+"plugins/quote/quote.ml" 345 12036 12044 "plugins/quote/quote.ml" 345 12036 12045
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/quote/quote.ml" 345 12036 12045 "plugins/quote/quote.ml" 345 12036 12046
+type(
+  int
+)
+"plugins/quote/quote.ml" 345 12036 12043 "plugins/quote/quote.ml" 345 12036 12046
+type(
+  bool
+)
+"plugins/quote/quote.ml" 345 12036 12052 "plugins/quote/quote.ml" 345 12036 12054
+type(
+  bool list
+)
+"plugins/quote/quote.ml" 346 12055 12065 "plugins/quote/quote.ml" 346 12055 12066
+type(
+  int
+)
+ident(
+  int_ref n "plugins/quote/quote.ml" 344 12008 12032 "plugins/quote/quote.ml" 344 12008 12033
+)
+"plugins/quote/quote.ml" 346 12055 12067 "plugins/quote/quote.ml" 346 12055 12070
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"plugins/quote/quote.ml" 346 12055 12071 "plugins/quote/quote.ml" 346 12055 12072
+type(
+  int
+)
+"plugins/quote/quote.ml" 346 12055 12065 "plugins/quote/quote.ml" 346 12055 12072
+type(
+  int
+)
+"plugins/quote/quote.ml" 346 12055 12073 "plugins/quote/quote.ml" 346 12055 12074
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/quote/quote.ml" 346 12055 12075 "plugins/quote/quote.ml" 346 12055 12076
+type(
+  int
+)
+"plugins/quote/quote.ml" 346 12055 12064 "plugins/quote/quote.ml" 346 12055 12077
+type(
+  bool
+)
+"plugins/quote/quote.ml" 346 12055 12080 "plugins/quote/quote.ml" 346 12055 12093
+type(
+  int -> bool list
+)
+ident(
+  int_ref digits_of_int "plugins/quote/quote.ml" 344 12008 12018 "plugins/quote/quote.ml" 344 12008 12031
+)
+"plugins/quote/quote.ml" 346 12055 12095 "plugins/quote/quote.ml" 346 12055 12096
+type(
+  int
+)
+ident(
+  int_ref n "plugins/quote/quote.ml" 344 12008 12032 "plugins/quote/quote.ml" 344 12008 12033
+)
+"plugins/quote/quote.ml" 346 12055 12097 "plugins/quote/quote.ml" 346 12055 12100
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"plugins/quote/quote.ml" 346 12055 12101 "plugins/quote/quote.ml" 346 12055 12102
+type(
+  int
+)
+"plugins/quote/quote.ml" 346 12055 12094 "plugins/quote/quote.ml" 346 12055 12103
+type(
+  int
+)
+"plugins/quote/quote.ml" 346 12055 12079 "plugins/quote/quote.ml" 346 12055 12104
+call(
+  stack
+)
+type(
+  bool list
+)
+"plugins/quote/quote.ml" 346 12055 12064 "plugins/quote/quote.ml" 346 12055 12104
+type(
+  bool list
+)
+"plugins/quote/quote.ml" 345 12036 12040 "plugins/quote/quote.ml" 346 12055 12104
+type(
+  bool list
+)
+"plugins/quote/quote.ml" 348 12110 12112 "plugins/quote/quote.ml" 348 12110 12127
+type(
+  (bool -> Term.constr -> Term.constr) ->
+  bool list -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref List.fold_right
+)
+"plugins/quote/quote.ml" 349 12128 12137 "plugins/quote/quote.ml" 349 12128 12138
+type(
+  bool
+)
+ident(
+  def b "plugins/quote/quote.ml" 349 12128 12139 "plugins/quote/quote.ml" 351 12243 12276
+)
+"plugins/quote/quote.ml" 349 12128 12139 "plugins/quote/quote.ml" 349 12128 12140
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/quote/quote.ml" 349 12128 12144 "plugins/quote/quote.ml" 351 12243 12276
+)
+"plugins/quote/quote.ml" 349 12128 12144 "plugins/quote/quote.ml" 349 12128 12149
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/quote/quote.ml" 349 12128 12155 "plugins/quote/quote.ml" 349 12128 12156
+type(
+  bool
+)
+ident(
+  int_ref b "plugins/quote/quote.ml" 349 12128 12137 "plugins/quote/quote.ml" 349 12128 12138
+)
+"plugins/quote/quote.ml" 349 12128 12162 "plugins/quote/quote.ml" 349 12128 12172
+type(
+  Term.constr Lazy.t -> Term.constr
+)
+ident(
+  ext_ref Lazy.force
+)
+"plugins/quote/quote.ml" 349 12128 12173 "plugins/quote/quote.ml" 349 12128 12186
+type(
+  Term.constr Lazy.t
+)
+ident(
+  int_ref coq_Right_idx "plugins/quote/quote.ml" 127 4549 4553 "plugins/quote/quote.ml" 127 4549 4566
+)
+"plugins/quote/quote.ml" 349 12128 12162 "plugins/quote/quote.ml" 349 12128 12186
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 350 12187 12217 "plugins/quote/quote.ml" 350 12187 12227
+type(
+  Term.constr Lazy.t -> Term.constr
+)
+ident(
+  ext_ref Lazy.force
+)
+"plugins/quote/quote.ml" 350 12187 12228 "plugins/quote/quote.ml" 350 12187 12240
+type(
+  Term.constr Lazy.t
+)
+ident(
+  int_ref coq_Left_idx "plugins/quote/quote.ml" 128 4607 4611 "plugins/quote/quote.ml" 128 4607 4623
+)
+"plugins/quote/quote.ml" 350 12187 12217 "plugins/quote/quote.ml" 350 12187 12240
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 349 12128 12151 "plugins/quote/quote.ml" 350 12187 12241
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 351 12243 12271 "plugins/quote/quote.ml" 351 12243 12272
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 349 12128 12139 "plugins/quote/quote.ml" 349 12128 12140
+)
+"plugins/quote/quote.ml" 351 12243 12268 "plugins/quote/quote.ml" 351 12243 12275
+type(
+  Term.constr array
+)
+"plugins/quote/quote.ml" 349 12128 12150 "plugins/quote/quote.ml" 351 12243 12276
+type(
+  Term.constr * Term.constr array
+)
+"plugins/quote/quote.ml" 349 12128 12144 "plugins/quote/quote.ml" 351 12243 12276
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 349 12128 12132 "plugins/quote/quote.ml" 351 12243 12277
+type(
+  bool -> Term.constr -> Term.constr
+)
+"plugins/quote/quote.ml" 352 12278 12283 "plugins/quote/quote.ml" 352 12278 12291
+type(
+  bool list -> bool list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/quote/quote.ml" 352 12278 12293 "plugins/quote/quote.ml" 352 12278 12306
+type(
+  int -> bool list
+)
+ident(
+  int_ref digits_of_int "plugins/quote/quote.ml" 344 12008 12018 "plugins/quote/quote.ml" 344 12008 12031
+)
+"plugins/quote/quote.ml" 352 12278 12307 "plugins/quote/quote.ml" 352 12278 12308
+type(
+  int
+)
+ident(
+  int_ref n "plugins/quote/quote.ml" 341 11903 11919 "plugins/quote/quote.ml" 341 11903 11920
+)
+"plugins/quote/quote.ml" 352 12278 12292 "plugins/quote/quote.ml" 352 12278 12309
+call(
+  stack
+)
+type(
+  bool list
+)
+"plugins/quote/quote.ml" 352 12278 12282 "plugins/quote/quote.ml" 352 12278 12310
+call(
+  stack
+)
+type(
+  bool list
+)
+"plugins/quote/quote.ml" 353 12311 12316 "plugins/quote/quote.ml" 353 12311 12326
+type(
+  Term.constr Lazy.t -> Term.constr
+)
+ident(
+  ext_ref Lazy.force
+)
+"plugins/quote/quote.ml" 353 12311 12327 "plugins/quote/quote.ml" 353 12311 12338
+type(
+  Term.constr Lazy.t
+)
+ident(
+  int_ref coq_End_idx "plugins/quote/quote.ml" 129 4663 4667 "plugins/quote/quote.ml" 129 4663 4678
+)
+"plugins/quote/quote.ml" 353 12311 12315 "plugins/quote/quote.ml" 353 12311 12339
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 348 12110 12112 "plugins/quote/quote.ml" 353 12311 12339
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 344 12008 12010 "plugins/quote/quote.ml" 353 12311 12339
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 363 12686 12694 "plugins/quote/quote.ml" 363 12686 12701
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr -> bool
+)
+ident(
+  def subterm "plugins/quote/quote.ml" 363 12686 12686 --
+)
+"plugins/quote/quote.ml" 363 12686 12702 "plugins/quote/quote.ml" 363 12686 12704
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/quote/quote.ml" 363 12686 12705 "plugins/quote/quote.ml" 368 12898 12916
+)
+"plugins/quote/quote.ml" 363 12686 12706 "plugins/quote/quote.ml" 363 12686 12707
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/quote/quote.ml" 363 12686 12718 "plugins/quote/quote.ml" 368 12898 12916
+)
+"plugins/quote/quote.ml" 363 12686 12719 "plugins/quote/quote.ml" 363 12686 12721
+type(
+  Term.constr
+)
+ident(
+  def t' "plugins/quote/quote.ml" 364 12734 12736 "plugins/quote/quote.ml" 368 12898 12916
+)
+"plugins/quote/quote.ml" 364 12734 12737 "plugins/quote/quote.ml" 364 12734 12746
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr -> bool
+)
+ident(
+  ext_ref Tacmach.pf_conv_x
+)
+"plugins/quote/quote.ml" 364 12734 12747 "plugins/quote/quote.ml" 364 12734 12749
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 363 12686 12702 "plugins/quote/quote.ml" 363 12686 12704
+)
+"plugins/quote/quote.ml" 364 12734 12750 "plugins/quote/quote.ml" 364 12734 12751
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/quote/quote.ml" 363 12686 12706 "plugins/quote/quote.ml" 363 12686 12707
+)
+"plugins/quote/quote.ml" 364 12734 12752 "plugins/quote/quote.ml" 364 12734 12754
+type(
+  Term.constr
+)
+ident(
+  int_ref t' "plugins/quote/quote.ml" 363 12686 12719 "plugins/quote/quote.ml" 363 12686 12721
+)
+"plugins/quote/quote.ml" 364 12734 12736 "plugins/quote/quote.ml" 364 12734 12755
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 364 12734 12756 "plugins/quote/quote.ml" 364 12734 12758
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( or )
+)
+"plugins/quote/quote.ml" 365 12759 12769 "plugins/quote/quote.ml" 365 12759 12781
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/quote/quote.ml" 365 12759 12782 "plugins/quote/quote.ml" 365 12759 12783
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/quote/quote.ml" 363 12686 12706 "plugins/quote/quote.ml" 363 12686 12707
+)
+"plugins/quote/quote.ml" 365 12759 12768 "plugins/quote/quote.ml" 365 12759 12784
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 366 12790 12802 "plugins/quote/quote.ml" 366 12790 12803
+type(
+  Term.constr
+)
+ident(
+  def f "plugins/quote/quote.ml" 366 12790 12813 "plugins/quote/quote.ml" 366 12790 12857
+)
+"plugins/quote/quote.ml" 366 12790 12804 "plugins/quote/quote.ml" 366 12790 12808
+type(
+  Term.constr array
+)
+ident(
+  def args "plugins/quote/quote.ml" 366 12790 12813 "plugins/quote/quote.ml" 366 12790 12857
+)
+"plugins/quote/quote.ml" 366 12790 12797 "plugins/quote/quote.ml" 366 12790 12809
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 366 12790 12813 "plugins/quote/quote.ml" 366 12790 12825
+type(
+  (Term.constr -> bool) -> Term.constr array -> bool
+)
+ident(
+  ext_ref Util.array_exists
+)
+"plugins/quote/quote.ml" 366 12790 12831 "plugins/quote/quote.ml" 366 12790 12832
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/quote/quote.ml" 366 12790 12836 "plugins/quote/quote.ml" 366 12790 12851
+)
+"plugins/quote/quote.ml" 366 12790 12836 "plugins/quote/quote.ml" 366 12790 12843
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr -> bool
+)
+ident(
+  int_ref subterm "plugins/quote/quote.ml" 363 12686 12694 "plugins/quote/quote.ml" 363 12686 12701
+)
+"plugins/quote/quote.ml" 366 12790 12844 "plugins/quote/quote.ml" 366 12790 12846
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 363 12686 12702 "plugins/quote/quote.ml" 363 12686 12704
+)
+"plugins/quote/quote.ml" 366 12790 12847 "plugins/quote/quote.ml" 366 12790 12848
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/quote/quote.ml" 366 12790 12831 "plugins/quote/quote.ml" 366 12790 12832
+)
+"plugins/quote/quote.ml" 366 12790 12849 "plugins/quote/quote.ml" 366 12790 12851
+type(
+  Term.constr
+)
+ident(
+  int_ref t' "plugins/quote/quote.ml" 363 12686 12719 "plugins/quote/quote.ml" 363 12686 12721
+)
+"plugins/quote/quote.ml" 366 12790 12836 "plugins/quote/quote.ml" 366 12790 12851
+call(
+  tail
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 366 12790 12826 "plugins/quote/quote.ml" 366 12790 12852
+type(
+  Term.constr -> bool
+)
+"plugins/quote/quote.ml" 366 12790 12853 "plugins/quote/quote.ml" 366 12790 12857
+type(
+  Term.constr array
+)
+ident(
+  int_ref args "plugins/quote/quote.ml" 366 12790 12804 "plugins/quote/quote.ml" 366 12790 12808
+)
+"plugins/quote/quote.ml" 366 12790 12813 "plugins/quote/quote.ml" 366 12790 12857
+call(
+  tail
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 367 12858 12870 "plugins/quote/quote.ml" 367 12858 12871
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/quote/quote.ml" 367 12858 12880 "plugins/quote/quote.ml" 367 12858 12897
+)
+"plugins/quote/quote.ml" 367 12858 12872 "plugins/quote/quote.ml" 367 12858 12873
+type(
+  Term.cast_kind
+)
+"plugins/quote/quote.ml" 367 12858 12874 "plugins/quote/quote.ml" 367 12858 12875
+type(
+  Term.types
+)
+"plugins/quote/quote.ml" 367 12858 12865 "plugins/quote/quote.ml" 367 12858 12876
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 367 12858 12881 "plugins/quote/quote.ml" 367 12858 12888
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr -> bool
+)
+ident(
+  int_ref subterm "plugins/quote/quote.ml" 363 12686 12694 "plugins/quote/quote.ml" 363 12686 12701
+)
+"plugins/quote/quote.ml" 367 12858 12889 "plugins/quote/quote.ml" 367 12858 12891
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 363 12686 12702 "plugins/quote/quote.ml" 363 12686 12704
+)
+"plugins/quote/quote.ml" 367 12858 12892 "plugins/quote/quote.ml" 367 12858 12893
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/quote/quote.ml" 367 12858 12870 "plugins/quote/quote.ml" 367 12858 12871
+)
+"plugins/quote/quote.ml" 367 12858 12894 "plugins/quote/quote.ml" 367 12858 12896
+type(
+  Term.constr
+)
+ident(
+  int_ref t' "plugins/quote/quote.ml" 363 12686 12719 "plugins/quote/quote.ml" 363 12686 12721
+)
+"plugins/quote/quote.ml" 367 12858 12880 "plugins/quote/quote.ml" 367 12858 12897
+call(
+  tail
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 368 12898 12905 "plugins/quote/quote.ml" 368 12898 12906
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/quote/quote.ml" 368 12898 12910 "plugins/quote/quote.ml" 368 12898 12915
+type(
+  bool
+)
+"plugins/quote/quote.ml" 365 12759 12761 "plugins/quote/quote.ml" 368 12898 12916
+type(
+  bool
+)
+"plugins/quote/quote.ml" 364 12734 12736 "plugins/quote/quote.ml" 368 12898 12916
+type(
+  bool
+)
+"plugins/quote/quote.ml" 373 13060 13068 "plugins/quote/quote.ml" 373 13060 13080
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr list -> Term.constr list
+)
+ident(
+  def sort_subterm "plugins/quote/quote.ml" 373 13060 13060 --
+)
+"plugins/quote/quote.ml" 373 13060 13081 "plugins/quote/quote.ml" 373 13060 13083
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/quote/quote.ml" 373 13060 13084 "plugins/quote/quote.ml" 381 13307 13349
+)
+"plugins/quote/quote.ml" 373 13060 13084 "plugins/quote/quote.ml" 373 13060 13085
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/quote/quote.ml" 374 13088 13090 "plugins/quote/quote.ml" 381 13307 13349
+)
+"plugins/quote/quote.ml" 374 13088 13098 "plugins/quote/quote.ml" 374 13088 13104
+type(
+  Term.constr -> Term.constr list -> Term.constr list
+)
+"plugins/quote/quote.ml" 374 13088 13105 "plugins/quote/quote.ml" 374 13088 13106
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/quote/quote.ml" 374 13088 13109 "plugins/quote/quote.ml" 377 13206 13271
+)
+"plugins/quote/quote.ml" 375 13118 13124 "plugins/quote/quote.ml" 375 13118 13126
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 375 13118 13131 "plugins/quote/quote.ml" 375 13118 13132
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 374 13088 13105 "plugins/quote/quote.ml" 374 13088 13106
+)
+"plugins/quote/quote.ml" 375 13118 13130 "plugins/quote/quote.ml" 375 13118 13133
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 376 13134 13141 "plugins/quote/quote.ml" 376 13134 13142
+type(
+  Term.constr
+)
+ident(
+  def h "plugins/quote/quote.ml" 376 13134 13152 "plugins/quote/quote.ml" 376 13134 13167
+)
+"plugins/quote/quote.ml" 376 13134 13144 "plugins/quote/quote.ml" 376 13134 13145
+type(
+  Term.constr list
+)
+ident(
+  def t "plugins/quote/quote.ml" 376 13134 13152 "plugins/quote/quote.ml" 376 13134 13167
+)
+"plugins/quote/quote.ml" 376 13134 13141 "plugins/quote/quote.ml" 376 13134 13145
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 376 13134 13140 "plugins/quote/quote.ml" 376 13134 13151
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/quote/quote.ml" 376 13134 13152 "plugins/quote/quote.ml" 376 13134 13167
+)
+"plugins/quote/quote.ml" 376 13134 13157 "plugins/quote/quote.ml" 376 13134 13158
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 374 13088 13105 "plugins/quote/quote.ml" 374 13088 13106
+)
+"plugins/quote/quote.ml" 376 13134 13159 "plugins/quote/quote.ml" 376 13134 13160
+type(
+  Term.constr -> Term.constr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/quote/quote.ml" 376 13134 13161 "plugins/quote/quote.ml" 376 13134 13162
+type(
+  Term.constr
+)
+ident(
+  int_ref h "plugins/quote/quote.ml" 376 13134 13141 "plugins/quote/quote.ml" 376 13134 13142
+)
+"plugins/quote/quote.ml" 376 13134 13157 "plugins/quote/quote.ml" 376 13134 13162
+type(
+  bool
+)
+"plugins/quote/quote.ml" 376 13134 13166 "plugins/quote/quote.ml" 376 13134 13167
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/quote/quote.ml" 376 13134 13140 "plugins/quote/quote.ml" 376 13134 13151
+)
+"plugins/quote/quote.ml" 376 13134 13152 "plugins/quote/quote.ml" 376 13134 13167
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 377 13206 13212 "plugins/quote/quote.ml" 377 13206 13213
+type(
+  Term.constr
+)
+ident(
+  def h "plugins/quote/quote.ml" 377 13206 13220 "plugins/quote/quote.ml" 377 13206 13271
+)
+"plugins/quote/quote.ml" 377 13206 13215 "plugins/quote/quote.ml" 377 13206 13216
+type(
+  Term.constr list
+)
+ident(
+  def t "plugins/quote/quote.ml" 377 13206 13220 "plugins/quote/quote.ml" 377 13206 13271
+)
+"plugins/quote/quote.ml" 377 13206 13212 "plugins/quote/quote.ml" 377 13206 13216
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 377 13206 13223 "plugins/quote/quote.ml" 377 13206 13230
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.constr -> bool
+)
+ident(
+  int_ref subterm "plugins/quote/quote.ml" 363 12686 12694 "plugins/quote/quote.ml" 363 12686 12701
+)
+"plugins/quote/quote.ml" 377 13206 13231 "plugins/quote/quote.ml" 377 13206 13233
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 373 13060 13081 "plugins/quote/quote.ml" 373 13060 13083
+)
+"plugins/quote/quote.ml" 377 13206 13234 "plugins/quote/quote.ml" 377 13206 13235
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 374 13088 13105 "plugins/quote/quote.ml" 374 13088 13106
+)
+"plugins/quote/quote.ml" 377 13206 13236 "plugins/quote/quote.ml" 377 13206 13237
+type(
+  Term.constr
+)
+ident(
+  int_ref h "plugins/quote/quote.ml" 377 13206 13212 "plugins/quote/quote.ml" 377 13206 13213
+)
+"plugins/quote/quote.ml" 377 13206 13223 "plugins/quote/quote.ml" 377 13206 13237
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 377 13206 13243 "plugins/quote/quote.ml" 377 13206 13244
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 374 13088 13105 "plugins/quote/quote.ml" 374 13088 13106
+)
+"plugins/quote/quote.ml" 377 13206 13246 "plugins/quote/quote.ml" 377 13206 13247
+type(
+  Term.constr
+)
+ident(
+  int_ref h "plugins/quote/quote.ml" 377 13206 13212 "plugins/quote/quote.ml" 377 13206 13213
+)
+"plugins/quote/quote.ml" 377 13206 13249 "plugins/quote/quote.ml" 377 13206 13250
+type(
+  Term.constr list
+)
+ident(
+  int_ref t "plugins/quote/quote.ml" 377 13206 13215 "plugins/quote/quote.ml" 377 13206 13216
+)
+"plugins/quote/quote.ml" 377 13206 13246 "plugins/quote/quote.ml" 377 13206 13250
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 377 13206 13243 "plugins/quote/quote.ml" 377 13206 13250
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 377 13206 13256 "plugins/quote/quote.ml" 377 13206 13257
+type(
+  Term.constr
+)
+ident(
+  int_ref h "plugins/quote/quote.ml" 377 13206 13212 "plugins/quote/quote.ml" 377 13206 13213
+)
+"plugins/quote/quote.ml" 377 13206 13260 "plugins/quote/quote.ml" 377 13206 13266
+type(
+  Term.constr -> Term.constr list -> Term.constr list
+)
+ident(
+  int_ref insert "plugins/quote/quote.ml" 374 13088 13098 "plugins/quote/quote.ml" 374 13088 13104
+)
+"plugins/quote/quote.ml" 377 13206 13267 "plugins/quote/quote.ml" 377 13206 13268
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 374 13088 13105 "plugins/quote/quote.ml" 374 13088 13106
+)
+"plugins/quote/quote.ml" 377 13206 13269 "plugins/quote/quote.ml" 377 13206 13270
+type(
+  Term.constr list
+)
+ident(
+  int_ref t "plugins/quote/quote.ml" 377 13206 13215 "plugins/quote/quote.ml" 377 13206 13216
+)
+"plugins/quote/quote.ml" 377 13206 13259 "plugins/quote/quote.ml" 377 13206 13271
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 377 13206 13256 "plugins/quote/quote.ml" 377 13206 13271
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 377 13206 13220 "plugins/quote/quote.ml" 377 13206 13271
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 374 13088 13109 "plugins/quote/quote.ml" 377 13206 13271
+type(
+  Term.constr list -> Term.constr list
+)
+"plugins/quote/quote.ml" 379 13277 13285 "plugins/quote/quote.ml" 379 13277 13286
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/quote/quote.ml" 373 13060 13084 "plugins/quote/quote.ml" 373 13060 13085
+)
+"plugins/quote/quote.ml" 380 13292 13298 "plugins/quote/quote.ml" 380 13292 13300
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 380 13292 13304 "plugins/quote/quote.ml" 380 13292 13306
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 381 13307 13313 "plugins/quote/quote.ml" 381 13307 13314
+type(
+  Term.constr
+)
+ident(
+  def h "plugins/quote/quote.ml" 381 13307 13321 "plugins/quote/quote.ml" 381 13307 13349
+)
+"plugins/quote/quote.ml" 381 13307 13316 "plugins/quote/quote.ml" 381 13307 13317
+type(
+  Term.constr list
+)
+ident(
+  def t "plugins/quote/quote.ml" 381 13307 13321 "plugins/quote/quote.ml" 381 13307 13349
+)
+"plugins/quote/quote.ml" 381 13307 13313 "plugins/quote/quote.ml" 381 13307 13317
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 381 13307 13321 "plugins/quote/quote.ml" 381 13307 13327
+type(
+  Term.constr -> Term.constr list -> Term.constr list
+)
+ident(
+  int_ref insert "plugins/quote/quote.ml" 374 13088 13098 "plugins/quote/quote.ml" 374 13088 13104
+)
+"plugins/quote/quote.ml" 381 13307 13328 "plugins/quote/quote.ml" 381 13307 13329
+type(
+  Term.constr
+)
+ident(
+  int_ref h "plugins/quote/quote.ml" 381 13307 13313 "plugins/quote/quote.ml" 381 13307 13314
+)
+"plugins/quote/quote.ml" 381 13307 13331 "plugins/quote/quote.ml" 381 13307 13343
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr list -> Term.constr list
+)
+ident(
+  int_ref sort_subterm "plugins/quote/quote.ml" 373 13060 13068 "plugins/quote/quote.ml" 373 13060 13080
+)
+"plugins/quote/quote.ml" 381 13307 13344 "plugins/quote/quote.ml" 381 13307 13346
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 373 13060 13081 "plugins/quote/quote.ml" 373 13060 13083
+)
+"plugins/quote/quote.ml" 381 13307 13347 "plugins/quote/quote.ml" 381 13307 13348
+type(
+  Term.constr list
+)
+ident(
+  int_ref t "plugins/quote/quote.ml" 381 13307 13316 "plugins/quote/quote.ml" 381 13307 13317
+)
+"plugins/quote/quote.ml" 381 13307 13330 "plugins/quote/quote.ml" 381 13307 13349
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 381 13307 13321 "plugins/quote/quote.ml" 381 13307 13349
+call(
+  tail
+)
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 379 13277 13279 "plugins/quote/quote.ml" 381 13307 13349
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 374 13088 13090 "plugins/quote/quote.ml" 381 13307 13349
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 391 13612 13616 "plugins/quote/quote.ml" 391 13612 13627
+type(
+  inversion_scheme ->
+  ConstrSet.elt list -> 'a -> Term.constr list * ConstrSet.elt
+)
+ident(
+  def quote_terms "plugins/quote/quote.ml" 445 15637 15637 --
+)
+"plugins/quote/quote.ml" 391 13612 13628 "plugins/quote/quote.ml" 391 13612 13631
+type(
+  inversion_scheme
+)
+ident(
+  def ivs "plugins/quote/quote.ml" 391 13612 13632 "plugins/quote/quote.ml" 439 15466 15494
+)
+"plugins/quote/quote.ml" 391 13612 13632 "plugins/quote/quote.ml" 391 13612 13634
+type(
+  ConstrSet.elt list
+)
+ident(
+  def lc "plugins/quote/quote.ml" 391 13612 13635 "plugins/quote/quote.ml" 439 15466 15494
+)
+"plugins/quote/quote.ml" 391 13612 13635 "plugins/quote/quote.ml" 391 13612 13637
+type(
+  'a
+)
+ident(
+  def gl "plugins/quote/quote.ml" 392 13640 13642 "plugins/quote/quote.ml" 439 15466 15494
+)
+"plugins/quote/quote.ml" 392 13640 13642 "plugins/quote/quote.ml" 392 13640 13671
+type(
+  string list -> unit
+)
+ident(
+  ext_ref Coqlib.check_required_library
+)
+"plugins/quote/quote.ml" 392 13640 13673 "plugins/quote/quote.ml" 392 13640 13678
+type(
+  string
+)
+"plugins/quote/quote.ml" 392 13640 13679 "plugins/quote/quote.ml" 392 13640 13686
+type(
+  string
+)
+"plugins/quote/quote.ml" 392 13640 13687 "plugins/quote/quote.ml" 392 13640 13694
+type(
+  string
+)
+"plugins/quote/quote.ml" 392 13640 13672 "plugins/quote/quote.ml" 392 13640 13695
+type(
+  string list
+)
+"plugins/quote/quote.ml" 392 13640 13642 "plugins/quote/quote.ml" 392 13640 13695
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/quote/quote.ml" 393 13697 13703 "plugins/quote/quote.ml" 393 13697 13710
+type(
+  (ConstrSet.elt, Term.constr) Hashtbl.t
+)
+"plugins/quote/quote.ml" 393 13697 13715 "plugins/quote/quote.ml" 393 13697 13729
+type(
+  int -> (ConstrSet.elt, Term.constr) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"plugins/quote/quote.ml" 393 13697 13730 "plugins/quote/quote.ml" 393 13697 13732
+type(
+  int
+)
+"plugins/quote/quote.ml" 393 13697 13715 "plugins/quote/quote.ml" 393 13697 13732
+call(
+  stack
+)
+type(
+  (ConstrSet.elt, Term.constr) Hashtbl.t
+)
+type(
+  (ConstrSet.elt, Term.constr) Hashtbl.t
+)
+"plugins/quote/quote.ml" 394 13766 13772 "plugins/quote/quote.ml" 394 13766 13779
+type(
+  ConstrSet.elt list ref
+)
+"plugins/quote/quote.ml" 394 13766 13782 "plugins/quote/quote.ml" 394 13766 13785
+type(
+  ConstrSet.elt list -> ConstrSet.elt list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/quote/quote.ml" 394 13766 13787 "plugins/quote/quote.ml" 394 13766 13789
+type(
+  ConstrSet.elt list
+)
+type(
+  ConstrSet.elt list
+)
+"plugins/quote/quote.ml" 394 13766 13782 "plugins/quote/quote.ml" 394 13766 13804
+type(
+  ConstrSet.elt list ref
+)
+"plugins/quote/quote.ml" 395 13832 13838 "plugins/quote/quote.ml" 395 13832 13845
+type(
+  int ref
+)
+"plugins/quote/quote.ml" 395 13832 13848 "plugins/quote/quote.ml" 395 13832 13851
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/quote/quote.ml" 395 13832 13852 "plugins/quote/quote.ml" 395 13832 13853
+type(
+  int
+)
+"plugins/quote/quote.ml" 395 13832 13848 "plugins/quote/quote.ml" 395 13832 13853
+type(
+  int ref
+)
+"plugins/quote/quote.ml" 396 13895 13905 "plugins/quote/quote.ml" 396 13895 13908
+type(
+  ConstrSet.elt -> Term.constr
+)
+"plugins/quote/quote.ml" 396 13895 13909 "plugins/quote/quote.ml" 396 13895 13910
+type(
+  ConstrSet.elt
+)
+ident(
+  def c "plugins/quote/quote.ml" 397 13913 13917 "plugins/quote/quote.ml" 435 15344 15371
+)
+"plugins/quote/quote.ml" 397 13913 13925 "plugins/quote/quote.ml" 397 13913 13929
+type(
+  (Term.constr * Pattern.constr_pattern) list -> Term.constr
+)
+"plugins/quote/quote.ml" 397 13913 13930 "plugins/quote/quote.ml" 397 13913 13931
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+ident(
+  def l "plugins/quote/quote.ml" 398 13934 13940 "plugins/quote/quote.ml" 433 15320 15336
+)
+"plugins/quote/quote.ml" 398 13934 13946 "plugins/quote/quote.ml" 398 13934 13947
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+ident(
+  int_ref l "plugins/quote/quote.ml" 397 13913 13930 "plugins/quote/quote.ml" 397 13913 13931
+)
+"plugins/quote/quote.ml" 399 13953 13964 "plugins/quote/quote.ml" 399 13953 13967
+type(
+  Term.constr
+)
+ident(
+  def lhs "plugins/quote/quote.ml" 400 13983 13995 "plugins/quote/quote.ml" 406 14228 14243
+)
+"plugins/quote/quote.ml" 399 13953 13969 "plugins/quote/quote.ml" 399 13953 13972
+type(
+  Pattern.constr_pattern
+)
+ident(
+  def rhs "plugins/quote/quote.ml" 400 13983 13995 "plugins/quote/quote.ml" 406 14228 14243
+)
+"plugins/quote/quote.ml" 399 13953 13963 "plugins/quote/quote.ml" 399 13953 13973
+type(
+  Term.constr * Pattern.constr_pattern
+)
+"plugins/quote/quote.ml" 399 13953 13975 "plugins/quote/quote.ml" 399 13953 13979
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+ident(
+  def tail "plugins/quote/quote.ml" 400 13983 13995 "plugins/quote/quote.ml" 406 14228 14243
+)
+"plugins/quote/quote.ml" 399 13953 13963 "plugins/quote/quote.ml" 399 13953 13979
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+"plugins/quote/quote.ml" 401 14005 14023 "plugins/quote/quote.ml" 401 14005 14025
+type(
+  Pattern.patvar_map
+)
+ident(
+  def s1 "plugins/quote/quote.ml" 402 14045 14059 "plugins/quote/quote.ml" 404 14135 14174
+)
+"plugins/quote/quote.ml" 401 14005 14028 "plugins/quote/quote.ml" 401 14005 14035
+type(
+  Pattern.constr_pattern -> ConstrSet.elt -> Pattern.patvar_map
+)
+ident(
+  ext_ref Matching.matches
+)
+"plugins/quote/quote.ml" 401 14005 14036 "plugins/quote/quote.ml" 401 14005 14039
+type(
+  Pattern.constr_pattern
+)
+ident(
+  int_ref rhs "plugins/quote/quote.ml" 399 13953 13969 "plugins/quote/quote.ml" 399 13953 13972
+)
+"plugins/quote/quote.ml" 401 14005 14040 "plugins/quote/quote.ml" 401 14005 14041
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 396 13895 13909 "plugins/quote/quote.ml" 396 13895 13910
+)
+"plugins/quote/quote.ml" 401 14005 14028 "plugins/quote/quote.ml" 401 14005 14041
+call(
+  stack
+)
+type(
+  Pattern.patvar_map
+)
+"plugins/quote/quote.ml" 402 14045 14063 "plugins/quote/quote.ml" 402 14045 14065
+type(
+  (int * Term.constr) list
+)
+ident(
+  def s2 "plugins/quote/quote.ml" 404 14135 14149 "plugins/quote/quote.ml" 404 14135 14174
+)
+"plugins/quote/quote.ml" 402 14045 14068 "plugins/quote/quote.ml" 402 14045 14076
+type(
+  (Rawterm.patvar * ConstrSet.elt -> int * Term.constr) ->
+  Pattern.patvar_map -> (int * Term.constr) list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/quote/quote.ml" 402 14045 14083 "plugins/quote/quote.ml" 402 14045 14084
+type(
+  Rawterm.patvar
+)
+ident(
+  def i "plugins/quote/quote.ml" 402 14045 14093 "plugins/quote/quote.ml" 402 14045 14120
+)
+"plugins/quote/quote.ml" 402 14045 14085 "plugins/quote/quote.ml" 402 14045 14088
+type(
+  ConstrSet.elt
+)
+ident(
+  def c_i "plugins/quote/quote.ml" 402 14045 14093 "plugins/quote/quote.ml" 402 14045 14120
+)
+"plugins/quote/quote.ml" 402 14045 14082 "plugins/quote/quote.ml" 402 14045 14089
+type(
+  Rawterm.patvar * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 402 14045 14094 "plugins/quote/quote.ml" 402 14045 14109
+type(
+  Rawterm.patvar -> int
+)
+ident(
+  int_ref coerce_meta_out "plugins/quote/quote.ml" 195 6641 6645 "plugins/quote/quote.ml" 195 6641 6660
+)
+"plugins/quote/quote.ml" 402 14045 14110 "plugins/quote/quote.ml" 402 14045 14111
+type(
+  Rawterm.patvar
+)
+ident(
+  int_ref i "plugins/quote/quote.ml" 402 14045 14083 "plugins/quote/quote.ml" 402 14045 14084
+)
+"plugins/quote/quote.ml" 402 14045 14094 "plugins/quote/quote.ml" 402 14045 14111
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/quote/quote.ml" 402 14045 14112 "plugins/quote/quote.ml" 402 14045 14115
+type(
+  ConstrSet.elt -> Term.constr
+)
+ident(
+  int_ref aux "plugins/quote/quote.ml" 396 13895 13905 "plugins/quote/quote.ml" 396 13895 13908
+)
+"plugins/quote/quote.ml" 402 14045 14116 "plugins/quote/quote.ml" 402 14045 14119
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref c_i "plugins/quote/quote.ml" 402 14045 14085 "plugins/quote/quote.ml" 402 14045 14088
+)
+"plugins/quote/quote.ml" 402 14045 14112 "plugins/quote/quote.ml" 402 14045 14119
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 402 14045 14093 "plugins/quote/quote.ml" 402 14045 14120
+type(
+  int * Term.constr
+)
+"plugins/quote/quote.ml" 402 14045 14077 "plugins/quote/quote.ml" 402 14045 14121
+type(
+  Rawterm.patvar * ConstrSet.elt -> int * Term.constr
+)
+"plugins/quote/quote.ml" 402 14045 14122 "plugins/quote/quote.ml" 402 14045 14124
+type(
+  Pattern.patvar_map
+)
+ident(
+  int_ref s1 "plugins/quote/quote.ml" 401 14005 14023 "plugins/quote/quote.ml" 401 14005 14025
+)
+"plugins/quote/quote.ml" 402 14045 14068 "plugins/quote/quote.ml" 402 14045 14124
+call(
+  stack
+)
+type(
+  (int * Term.constr) list
+)
+"plugins/quote/quote.ml" 404 14135 14149 "plugins/quote/quote.ml" 404 14135 14167
+type(
+  Termops.meta_value_map -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Termops.subst_meta
+)
+"plugins/quote/quote.ml" 404 14135 14168 "plugins/quote/quote.ml" 404 14135 14170
+type(
+  Termops.meta_value_map
+)
+ident(
+  int_ref s2 "plugins/quote/quote.ml" 402 14045 14063 "plugins/quote/quote.ml" 402 14045 14065
+)
+"plugins/quote/quote.ml" 404 14135 14171 "plugins/quote/quote.ml" 404 14135 14174
+type(
+  Term.constr
+)
+ident(
+  int_ref lhs "plugins/quote/quote.ml" 399 13953 13964 "plugins/quote/quote.ml" 399 13953 13967
+)
+"plugins/quote/quote.ml" 404 14135 14149 "plugins/quote/quote.ml" 404 14135 14174
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 402 14045 14059 "plugins/quote/quote.ml" 404 14135 14174
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 401 14005 14019 "plugins/quote/quote.ml" 404 14135 14174
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 405 14175 14192 "plugins/quote/quote.ml" 405 14175 14214
+type(
+  exn
+)
+"plugins/quote/quote.ml" 405 14175 14218 "plugins/quote/quote.ml" 405 14175 14222
+type(
+  (Term.constr * Pattern.constr_pattern) list -> Term.constr
+)
+ident(
+  int_ref auxl "plugins/quote/quote.ml" 397 13913 13925 "plugins/quote/quote.ml" 397 13913 13929
+)
+"plugins/quote/quote.ml" 405 14175 14223 "plugins/quote/quote.ml" 405 14175 14227
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+ident(
+  int_ref tail "plugins/quote/quote.ml" 399 13953 13975 "plugins/quote/quote.ml" 399 13953 13979
+)
+"plugins/quote/quote.ml" 405 14175 14218 "plugins/quote/quote.ml" 405 14175 14227
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 400 13983 13995 "plugins/quote/quote.ml" 406 14228 14243
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 407 14244 14255 "plugins/quote/quote.ml" 407 14244 14257
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+"plugins/quote/quote.ml" 408 14261 14286 "plugins/quote/quote.ml" 408 14261 14289
+type(
+  inversion_scheme
+)
+ident(
+  int_ref ivs "plugins/quote/quote.ml" 391 13612 13628 "plugins/quote/quote.ml" 391 13612 13631
+)
+"plugins/quote/quote.ml" 408 14261 14286 "plugins/quote/quote.ml" 408 14261 14302
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 409 14308 14325 "plugins/quote/quote.ml" 409 14308 14329
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 410 14333 14364 "plugins/quote/quote.ml" 410 14333 14367
+type(
+  inversion_scheme
+)
+ident(
+  int_ref ivs "plugins/quote/quote.ml" 391 13612 13628 "plugins/quote/quote.ml" 391 13612 13631
+)
+"plugins/quote/quote.ml" 410 14333 14364 "plugins/quote/quote.ml" 410 14333 14380
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 411 14386 14414 "plugins/quote/quote.ml" 411 14386 14419
+type(
+  Term.constr
+)
+ident(
+  def c_lhs "plugins/quote/quote.ml" 411 14386 14423 "plugins/quote/quote.ml" 411 14386 14454
+)
+"plugins/quote/quote.ml" 411 14386 14409 "plugins/quote/quote.ml" 411 14386 14419
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 411 14386 14423 "plugins/quote/quote.ml" 411 14386 14441
+type(
+  Termops.meta_value_map -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Termops.subst_meta
+)
+"plugins/quote/quote.ml" 411 14386 14443 "plugins/quote/quote.ml" 411 14386 14444
+type(
+  Term.metavariable
+)
+"plugins/quote/quote.ml" 411 14386 14446 "plugins/quote/quote.ml" 411 14386 14447
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 396 13895 13909 "plugins/quote/quote.ml" 396 13895 13910
+)
+"plugins/quote/quote.ml" 411 14386 14443 "plugins/quote/quote.ml" 411 14386 14447
+type(
+  Term.metavariable * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 411 14386 14442 "plugins/quote/quote.ml" 411 14386 14448
+type(
+  Termops.meta_value_map
+)
+"plugins/quote/quote.ml" 411 14386 14449 "plugins/quote/quote.ml" 411 14386 14454
+type(
+  Term.constr
+)
+ident(
+  int_ref c_lhs "plugins/quote/quote.ml" 411 14386 14414 "plugins/quote/quote.ml" 411 14386 14419
+)
+"plugins/quote/quote.ml" 411 14386 14423 "plugins/quote/quote.ml" 411 14386 14454
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 412 14455 14478 "plugins/quote/quote.ml" 412 14455 14482
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 412 14455 14486 "plugins/quote/quote.ml" 412 14455 14493
+type(
+  string -> Term.constr
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/quote/quote.ml" 412 14455 14494 "plugins/quote/quote.ml" 412 14455 14530
+type(
+  string
+)
+"plugins/quote/quote.ml" 412 14455 14486 "plugins/quote/quote.ml" 412 14455 14530
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 410 14333 14352 "plugins/quote/quote.ml" 413 14531 14553
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 414 14554 14576 "plugins/quote/quote.ml" 414 14554 14583
+type(
+  Term.constr
+)
+ident(
+  def var_lhs "plugins/quote/quote.ml" 415 14587 14606 "plugins/quote/quote.ml" 432 15297 15319
+)
+"plugins/quote/quote.ml" 414 14554 14571 "plugins/quote/quote.ml" 414 14554 14583
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 415 14587 14618 "plugins/quote/quote.ml" 415 14587 14621
+type(
+  inversion_scheme
+)
+ident(
+  int_ref ivs "plugins/quote/quote.ml" 391 13612 13628 "plugins/quote/quote.ml" 391 13612 13631
+)
+"plugins/quote/quote.ml" 415 14587 14618 "plugins/quote/quote.ml" 415 14587 14634
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 416 14640 14668 "plugins/quote/quote.ml" 416 14640 14673
+type(
+  Term.constr
+)
+ident(
+  def c_lhs "plugins/quote/quote.ml" 416 14640 14674 "plugins/quote/quote.ml" 417 14711 14746
+)
+"plugins/quote/quote.ml" 416 14640 14663 "plugins/quote/quote.ml" 416 14640 14673
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 416 14640 14679 "plugins/quote/quote.ml" 416 14640 14691
+type(
+  ConstrSet.t -> ConstrSet.elt -> bool
+)
+ident(
+  int_ref closed_under "plugins/quote/quote.ml" 301 10750 10758 "plugins/quote/quote.ml" 301 10750 10770
+)
+"plugins/quote/quote.ml" 416 14640 14692 "plugins/quote/quote.ml" 416 14640 14695
+type(
+  inversion_scheme
+)
+ident(
+  int_ref ivs "plugins/quote/quote.ml" 391 13612 13628 "plugins/quote/quote.ml" 391 13612 13631
+)
+"plugins/quote/quote.ml" 416 14640 14692 "plugins/quote/quote.ml" 416 14640 14705
+type(
+  ConstrSet.t
+)
+"plugins/quote/quote.ml" 416 14640 14706 "plugins/quote/quote.ml" 416 14640 14707
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 396 13895 13909 "plugins/quote/quote.ml" 396 13895 13910
+)
+"plugins/quote/quote.ml" 416 14640 14679 "plugins/quote/quote.ml" 416 14640 14707
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/quote/quote.ml" 417 14711 14715 "plugins/quote/quote.ml" 417 14711 14733
+type(
+  Termops.meta_value_map -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Termops.subst_meta
+)
+"plugins/quote/quote.ml" 417 14711 14735 "plugins/quote/quote.ml" 417 14711 14736
+type(
+  Term.metavariable
+)
+"plugins/quote/quote.ml" 417 14711 14738 "plugins/quote/quote.ml" 417 14711 14739
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 396 13895 13909 "plugins/quote/quote.ml" 396 13895 13910
+)
+"plugins/quote/quote.ml" 417 14711 14735 "plugins/quote/quote.ml" 417 14711 14739
+type(
+  Term.metavariable * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 417 14711 14734 "plugins/quote/quote.ml" 417 14711 14740
+type(
+  Termops.meta_value_map
+)
+"plugins/quote/quote.ml" 417 14711 14741 "plugins/quote/quote.ml" 417 14711 14746
+type(
+  Term.constr
+)
+ident(
+  int_ref c_lhs "plugins/quote/quote.ml" 416 14640 14668 "plugins/quote/quote.ml" 416 14640 14673
+)
+"plugins/quote/quote.ml" 417 14711 14715 "plugins/quote/quote.ml" 417 14711 14746
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 416 14640 14674 "plugins/quote/quote.ml" 417 14711 14746
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 418 14747 14770 "plugins/quote/quote.ml" 418 14747 14771
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 420 14785 14816 "plugins/quote/quote.ml" 420 14785 14828
+type(
+  (ConstrSet.elt, Term.constr) Hashtbl.t -> ConstrSet.elt -> Term.constr
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"plugins/quote/quote.ml" 420 14785 14829 "plugins/quote/quote.ml" 420 14785 14836
+type(
+  (ConstrSet.elt, Term.constr) Hashtbl.t
+)
+ident(
+  int_ref varhash "plugins/quote/quote.ml" 393 13697 13703 "plugins/quote/quote.ml" 393 13697 13710
+)
+"plugins/quote/quote.ml" 420 14785 14837 "plugins/quote/quote.ml" 420 14785 14838
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 396 13895 13909 "plugins/quote/quote.ml" 396 13895 13910
+)
+"plugins/quote/quote.ml" 420 14785 14816 "plugins/quote/quote.ml" 420 14785 14838
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 421 14839 14871 "plugins/quote/quote.ml" 421 14839 14880
+type(
+  exn
+)
+"plugins/quote/quote.ml" 422 14884 14917 "plugins/quote/quote.ml" 422 14884 14923
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 423 14926 14957 "plugins/quote/quote.ml" 423 14926 14975
+type(
+  Termops.meta_value_map -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Termops.subst_meta
+)
+"plugins/quote/quote.ml" 423 14926 14977 "plugins/quote/quote.ml" 423 14926 14978
+type(
+  Term.metavariable
+)
+"plugins/quote/quote.ml" 423 14926 14981 "plugins/quote/quote.ml" 423 14926 14992
+type(
+  int -> Term.constr
+)
+ident(
+  int_ref path_of_int "plugins/quote/quote.ml" 341 11903 11907 "plugins/quote/quote.ml" 341 11903 11918
+)
+"plugins/quote/quote.ml" 423 14926 14993 "plugins/quote/quote.ml" 423 14926 14994
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/quote/quote.ml" 423 14926 14994 "plugins/quote/quote.ml" 423 14926 15001
+type(
+  int ref
+)
+ident(
+  int_ref counter "plugins/quote/quote.ml" 395 13832 13838 "plugins/quote/quote.ml" 395 13832 13845
+)
+"plugins/quote/quote.ml" 423 14926 14993 "plugins/quote/quote.ml" 423 14926 15001
+type(
+  int
+)
+"plugins/quote/quote.ml" 423 14926 14980 "plugins/quote/quote.ml" 423 14926 15002
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 423 14926 14977 "plugins/quote/quote.ml" 423 14926 15002
+type(
+  Term.metavariable * Term.constr
+)
+"plugins/quote/quote.ml" 423 14926 14976 "plugins/quote/quote.ml" 423 14926 15003
+type(
+  Termops.meta_value_map
+)
+"plugins/quote/quote.ml" 424 15004 15009 "plugins/quote/quote.ml" 424 15004 15016
+type(
+  Term.constr
+)
+ident(
+  int_ref var_lhs "plugins/quote/quote.ml" 414 14554 14576 "plugins/quote/quote.ml" 414 14554 14583
+)
+"plugins/quote/quote.ml" 423 14926 14957 "plugins/quote/quote.ml" 424 15004 15016
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 426 15055 15086 "plugins/quote/quote.ml" 426 15055 15090
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"plugins/quote/quote.ml" 426 15055 15091 "plugins/quote/quote.ml" 426 15055 15098
+type(
+  int ref
+)
+ident(
+  int_ref counter "plugins/quote/quote.ml" 395 13832 13838 "plugins/quote/quote.ml" 395 13832 13845
+)
+"plugins/quote/quote.ml" 426 15055 15086 "plugins/quote/quote.ml" 426 15055 15098
+type(
+  unit
+)
+"plugins/quote/quote.ml" 427 15100 15131 "plugins/quote/quote.ml" 427 15100 15138
+type(
+  ConstrSet.elt list ref
+)
+ident(
+  int_ref varlist "plugins/quote/quote.ml" 394 13766 13772 "plugins/quote/quote.ml" 394 13766 13779
+)
+"plugins/quote/quote.ml" 427 15100 15139 "plugins/quote/quote.ml" 427 15100 15141
+type(
+  ConstrSet.elt list ref -> ConstrSet.elt list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/quote/quote.ml" 427 15100 15142 "plugins/quote/quote.ml" 427 15100 15143
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 396 13895 13909 "plugins/quote/quote.ml" 396 13895 13910
+)
+"plugins/quote/quote.ml" 427 15100 15147 "plugins/quote/quote.ml" 427 15100 15148
+type(
+  ConstrSet.elt list ref -> ConstrSet.elt list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/quote/quote.ml" 427 15100 15148 "plugins/quote/quote.ml" 427 15100 15155
+type(
+  ConstrSet.elt list ref
+)
+ident(
+  int_ref varlist "plugins/quote/quote.ml" 394 13766 13772 "plugins/quote/quote.ml" 394 13766 13779
+)
+"plugins/quote/quote.ml" 427 15100 15147 "plugins/quote/quote.ml" 427 15100 15155
+type(
+  ConstrSet.elt list
+)
+"plugins/quote/quote.ml" 427 15100 15142 "plugins/quote/quote.ml" 427 15100 15155
+type(
+  ConstrSet.elt list
+)
+"plugins/quote/quote.ml" 427 15100 15131 "plugins/quote/quote.ml" 427 15100 15155
+type(
+  unit
+)
+"plugins/quote/quote.ml" 428 15157 15188 "plugins/quote/quote.ml" 428 15157 15199
+type(
+  (ConstrSet.elt, Term.constr) Hashtbl.t ->
+  ConstrSet.elt -> Term.constr -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"plugins/quote/quote.ml" 428 15157 15200 "plugins/quote/quote.ml" 428 15157 15207
+type(
+  (ConstrSet.elt, Term.constr) Hashtbl.t
+)
+ident(
+  int_ref varhash "plugins/quote/quote.ml" 393 13697 13703 "plugins/quote/quote.ml" 393 13697 13710
+)
+"plugins/quote/quote.ml" 428 15157 15208 "plugins/quote/quote.ml" 428 15157 15209
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 396 13895 13909 "plugins/quote/quote.ml" 396 13895 13910
+)
+"plugins/quote/quote.ml" 428 15157 15210 "plugins/quote/quote.ml" 428 15157 15216
+type(
+  Term.constr
+)
+ident(
+  int_ref newvar "plugins/quote/quote.ml" 422 14884 14917 "plugins/quote/quote.ml" 422 14884 14923
+)
+"plugins/quote/quote.ml" 428 15157 15188 "plugins/quote/quote.ml" 428 15157 15216
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/quote/quote.ml" 429 15218 15249 "plugins/quote/quote.ml" 429 15218 15255
+type(
+  Term.constr
+)
+ident(
+  int_ref newvar "plugins/quote/quote.ml" 422 14884 14917 "plugins/quote/quote.ml" 422 14884 14923
+)
+"plugins/quote/quote.ml" 428 15157 15188 "plugins/quote/quote.ml" 429 15218 15255
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 427 15100 15131 "plugins/quote/quote.ml" 429 15218 15255
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 425 15020 15049 "plugins/quote/quote.ml" 430 15256 15288
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 422 14884 14913 "plugins/quote/quote.ml" 430 15256 15288
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 419 14775 14779 "plugins/quote/quote.ml" 431 15289 15296
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 415 14587 14606 "plugins/quote/quote.ml" 432 15297 15319
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 408 14261 14274 "plugins/quote/quote.ml" 433 15320 15336
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 398 13934 13940 "plugins/quote/quote.ml" 433 15320 15336
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 435 15344 15348 "plugins/quote/quote.ml" 435 15344 15352
+type(
+  (Term.constr * Pattern.constr_pattern) list -> Term.constr
+)
+ident(
+  int_ref auxl "plugins/quote/quote.ml" 397 13913 13925 "plugins/quote/quote.ml" 397 13913 13929
+)
+"plugins/quote/quote.ml" 435 15344 15353 "plugins/quote/quote.ml" 435 15344 15356
+type(
+  inversion_scheme
+)
+ident(
+  int_ref ivs "plugins/quote/quote.ml" 391 13612 13628 "plugins/quote/quote.ml" 391 13612 13631
+)
+"plugins/quote/quote.ml" 435 15344 15353 "plugins/quote/quote.ml" 435 15344 15371
+type(
+  (Term.constr * Pattern.constr_pattern) list
+)
+"plugins/quote/quote.ml" 435 15344 15348 "plugins/quote/quote.ml" 435 15344 15371
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 397 13913 13917 "plugins/quote/quote.ml" 435 15344 15371
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 437 15377 15383 "plugins/quote/quote.ml" 437 15377 15385
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 437 15377 15388 "plugins/quote/quote.ml" 437 15377 15396
+type(
+  (ConstrSet.elt -> Term.constr) -> ConstrSet.elt list -> Term.constr list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/quote/quote.ml" 437 15377 15397 "plugins/quote/quote.ml" 437 15377 15400
+type(
+  ConstrSet.elt -> Term.constr
+)
+ident(
+  int_ref aux "plugins/quote/quote.ml" 396 13895 13905 "plugins/quote/quote.ml" 396 13895 13908
+)
+"plugins/quote/quote.ml" 437 15377 15401 "plugins/quote/quote.ml" 437 15377 15403
+type(
+  ConstrSet.elt list
+)
+ident(
+  int_ref lc "plugins/quote/quote.ml" 391 13612 13632 "plugins/quote/quote.ml" 391 13612 13634
+)
+"plugins/quote/quote.ml" 437 15377 15388 "plugins/quote/quote.ml" 437 15377 15403
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 438 15407 15410 "plugins/quote/quote.ml" 438 15407 15412
+type(
+  Term.constr list
+)
+ident(
+  int_ref lp "plugins/quote/quote.ml" 437 15377 15383 "plugins/quote/quote.ml" 437 15377 15385
+)
+"plugins/quote/quote.ml" 438 15407 15415 "plugins/quote/quote.ml" 438 15407 15429
+type(
+  ConstrSet.elt array -> ConstrSet.elt -> ConstrSet.elt
+)
+ident(
+  int_ref btree_of_array "plugins/quote/quote.ml" 322 11303 11307 "plugins/quote/quote.ml" 322 11303 11321
+)
+"plugins/quote/quote.ml" 438 15407 15431 "plugins/quote/quote.ml" 438 15407 15444
+type(
+  ConstrSet.elt list -> ConstrSet.elt array
+)
+ident(
+  ext_ref Array.of_list
+)
+"plugins/quote/quote.ml" 438 15407 15446 "plugins/quote/quote.ml" 438 15407 15454
+type(
+  ConstrSet.elt list -> ConstrSet.elt list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/quote/quote.ml" 438 15407 15455 "plugins/quote/quote.ml" 438 15407 15456
+type(
+  ConstrSet.elt list ref -> ConstrSet.elt list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/quote/quote.ml" 438 15407 15456 "plugins/quote/quote.ml" 438 15407 15463
+type(
+  ConstrSet.elt list ref
+)
+ident(
+  int_ref varlist "plugins/quote/quote.ml" 394 13766 13772 "plugins/quote/quote.ml" 394 13766 13779
+)
+"plugins/quote/quote.ml" 438 15407 15455 "plugins/quote/quote.ml" 438 15407 15463
+type(
+  ConstrSet.elt list
+)
+"plugins/quote/quote.ml" 438 15407 15445 "plugins/quote/quote.ml" 438 15407 15464
+call(
+  stack
+)
+type(
+  ConstrSet.elt list
+)
+"plugins/quote/quote.ml" 438 15407 15430 "plugins/quote/quote.ml" 438 15407 15465
+call(
+  stack
+)
+type(
+  ConstrSet.elt array
+)
+"plugins/quote/quote.ml" 439 15466 15476 "plugins/quote/quote.ml" 439 15466 15479
+type(
+  inversion_scheme
+)
+ident(
+  int_ref ivs "plugins/quote/quote.ml" 391 13612 13628 "plugins/quote/quote.ml" 391 13612 13631
+)
+"plugins/quote/quote.ml" 439 15466 15476 "plugins/quote/quote.ml" 439 15466 15491
+type(
+  ConstrSet.elt
+)
+"plugins/quote/quote.ml" 438 15407 15414 "plugins/quote/quote.ml" 439 15466 15493
+call(
+  stack
+)
+type(
+  ConstrSet.elt
+)
+"plugins/quote/quote.ml" 438 15407 15409 "plugins/quote/quote.ml" 439 15466 15494
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 437 15377 15379 "plugins/quote/quote.ml" 439 15466 15494
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 396 13895 13897 "plugins/quote/quote.ml" 439 15466 15494
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 395 13832 13834 "plugins/quote/quote.ml" 439 15466 15494
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 394 13766 13768 "plugins/quote/quote.ml" 439 15466 15494
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 393 13697 13699 "plugins/quote/quote.ml" 439 15466 15494
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 392 13640 13642 "plugins/quote/quote.ml" 439 15466 15494
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 445 15637 15641 "plugins/quote/quote.ml" 445 15637 15646
+type(
+  Names.identifier ->
+  Names.identifier list ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def quote "plugins/quote/quote.ml" 457 16059 16059 --
+)
+"plugins/quote/quote.ml" 445 15637 15647 "plugins/quote/quote.ml" 445 15637 15648
+type(
+  Names.identifier
+)
+ident(
+  def f "plugins/quote/quote.ml" 445 15637 15649 "plugins/quote/quote.ml" 455 15980 16057
+)
+"plugins/quote/quote.ml" 445 15637 15649 "plugins/quote/quote.ml" 445 15637 15652
+type(
+  Names.identifier list
+)
+ident(
+  def lid "plugins/quote/quote.ml" 445 15637 15653 "plugins/quote/quote.ml" 455 15980 16057
+)
+"plugins/quote/quote.ml" 445 15637 15653 "plugins/quote/quote.ml" 445 15637 15655
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/quote/quote.ml" 446 15658 15660 "plugins/quote/quote.ml" 455 15980 16057
+)
+"plugins/quote/quote.ml" 446 15658 15664 "plugins/quote/quote.ml" 446 15658 15665
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 446 15658 15668 "plugins/quote/quote.ml" 446 15658 15677
+type(
+  Proof_type.goal Tacmach.sigma -> Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Tacmach.pf_global
+)
+"plugins/quote/quote.ml" 446 15658 15678 "plugins/quote/quote.ml" 446 15658 15680
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 445 15637 15653 "plugins/quote/quote.ml" 445 15637 15655
+)
+"plugins/quote/quote.ml" 446 15658 15681 "plugins/quote/quote.ml" 446 15658 15682
+type(
+  Names.identifier
+)
+ident(
+  int_ref f "plugins/quote/quote.ml" 445 15637 15647 "plugins/quote/quote.ml" 445 15637 15648
+)
+"plugins/quote/quote.ml" 446 15658 15668 "plugins/quote/quote.ml" 446 15658 15682
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 447 15686 15692 "plugins/quote/quote.ml" 447 15686 15694
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 447 15686 15697 "plugins/quote/quote.ml" 447 15686 15705
+type(
+  (Names.identifier -> Term.constr) ->
+  Names.identifier list -> Term.constr list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/quote/quote.ml" 447 15686 15707 "plugins/quote/quote.ml" 447 15686 15716
+type(
+  Proof_type.goal Tacmach.sigma -> Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Tacmach.pf_global
+)
+"plugins/quote/quote.ml" 447 15686 15717 "plugins/quote/quote.ml" 447 15686 15719
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 445 15637 15653 "plugins/quote/quote.ml" 445 15637 15655
+)
+"plugins/quote/quote.ml" 447 15686 15706 "plugins/quote/quote.ml" 447 15686 15720
+call(
+  stack
+)
+type(
+  Names.identifier -> Term.constr
+)
+"plugins/quote/quote.ml" 447 15686 15721 "plugins/quote/quote.ml" 447 15686 15724
+type(
+  Names.identifier list
+)
+ident(
+  int_ref lid "plugins/quote/quote.ml" 445 15637 15649 "plugins/quote/quote.ml" 445 15637 15652
+)
+"plugins/quote/quote.ml" 447 15686 15697 "plugins/quote/quote.ml" 447 15686 15724
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 448 15728 15734 "plugins/quote/quote.ml" 448 15728 15737
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 448 15728 15740 "plugins/quote/quote.ml" 448 15728 15751
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Term.constr -> ConstrSet.elt list -> inversion_scheme
+)
+ident(
+  int_ref compute_ivs "plugins/quote/quote.ml" 226 7664 7668 "plugins/quote/quote.ml" 226 7664 7679
+)
+"plugins/quote/quote.ml" 448 15728 15752 "plugins/quote/quote.ml" 448 15728 15754
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 445 15637 15653 "plugins/quote/quote.ml" 445 15637 15655
+)
+"plugins/quote/quote.ml" 448 15728 15755 "plugins/quote/quote.ml" 448 15728 15756
+type(
+  Term.constr
+)
+ident(
+  int_ref f "plugins/quote/quote.ml" 446 15658 15664 "plugins/quote/quote.ml" 446 15658 15665
+)
+"plugins/quote/quote.ml" 448 15728 15757 "plugins/quote/quote.ml" 448 15728 15759
+type(
+  ConstrSet.elt list
+)
+ident(
+  int_ref cl "plugins/quote/quote.ml" 447 15686 15692 "plugins/quote/quote.ml" 447 15686 15694
+)
+"plugins/quote/quote.ml" 448 15728 15740 "plugins/quote/quote.ml" 448 15728 15759
+call(
+  stack
+)
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 449 15763 15770 "plugins/quote/quote.ml" 449 15763 15771
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 449 15763 15773 "plugins/quote/quote.ml" 449 15763 15775
+type(
+  ConstrSet.elt
+)
+"plugins/quote/quote.ml" 449 15763 15769 "plugins/quote/quote.ml" 449 15763 15776
+type(
+  Term.constr * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 449 15763 15785 "plugins/quote/quote.ml" 449 15763 15796
+type(
+  inversion_scheme ->
+  ConstrSet.elt list ->
+  Proof_type.goal Tacmach.sigma -> Term.constr list * ConstrSet.elt
+)
+ident(
+  int_ref quote_terms "plugins/quote/quote.ml" 391 13612 13616 "plugins/quote/quote.ml" 391 13612 13627
+)
+"plugins/quote/quote.ml" 449 15763 15797 "plugins/quote/quote.ml" 449 15763 15800
+type(
+  inversion_scheme
+)
+ident(
+  int_ref ivs "plugins/quote/quote.ml" 448 15728 15734 "plugins/quote/quote.ml" 448 15728 15737
+)
+"plugins/quote/quote.ml" 449 15763 15803 "plugins/quote/quote.ml" 449 15763 15811
+type(
+  Proof_type.goal Tacmach.sigma -> Term.types
+)
+ident(
+  ext_ref Tacmach.pf_concl
+)
+"plugins/quote/quote.ml" 449 15763 15812 "plugins/quote/quote.ml" 449 15763 15814
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 445 15637 15653 "plugins/quote/quote.ml" 445 15637 15655
+)
+"plugins/quote/quote.ml" 449 15763 15802 "plugins/quote/quote.ml" 449 15763 15815
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/quote/quote.ml" 449 15763 15801 "plugins/quote/quote.ml" 449 15763 15816
+type(
+  ConstrSet.elt list
+)
+"plugins/quote/quote.ml" 449 15763 15817 "plugins/quote/quote.ml" 449 15763 15819
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 445 15637 15653 "plugins/quote/quote.ml" 445 15637 15655
+)
+"plugins/quote/quote.ml" 449 15763 15785 "plugins/quote/quote.ml" 449 15763 15819
+call(
+  stack
+)
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 450 15825 15832 "plugins/quote/quote.ml" 450 15825 15833
+type(
+  Term.constr
+)
+ident(
+  def p "plugins/quote/quote.ml" 450 15825 15842 "plugins/quote/quote.ml" 450 15825 15848
+)
+"plugins/quote/quote.ml" 450 15825 15831 "plugins/quote/quote.ml" 450 15825 15834
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 450 15825 15836 "plugins/quote/quote.ml" 450 15825 15838
+type(
+  ConstrSet.elt
+)
+ident(
+  def vm "plugins/quote/quote.ml" 450 15825 15842 "plugins/quote/quote.ml" 450 15825 15848
+)
+"plugins/quote/quote.ml" 450 15825 15831 "plugins/quote/quote.ml" 450 15825 15838
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 450 15825 15843 "plugins/quote/quote.ml" 450 15825 15844
+type(
+  Term.constr
+)
+ident(
+  int_ref p "plugins/quote/quote.ml" 450 15825 15832 "plugins/quote/quote.ml" 450 15825 15833
+)
+"plugins/quote/quote.ml" 450 15825 15845 "plugins/quote/quote.ml" 450 15825 15847
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref vm "plugins/quote/quote.ml" 450 15825 15836 "plugins/quote/quote.ml" 450 15825 15838
+)
+"plugins/quote/quote.ml" 450 15825 15842 "plugins/quote/quote.ml" 450 15825 15848
+type(
+  Term.constr * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 451 15849 15855 "plugins/quote/quote.ml" 451 15849 15856
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 451 15849 15860 "plugins/quote/quote.ml" 451 15849 15872
+type(
+  Term.constr * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 449 15763 15779 "plugins/quote/quote.ml" 451 15849 15872
+type(
+  Term.constr * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 453 15878 15886 "plugins/quote/quote.ml" 453 15878 15889
+type(
+  inversion_scheme
+)
+ident(
+  int_ref ivs "plugins/quote/quote.ml" 448 15728 15734 "plugins/quote/quote.ml" 448 15728 15737
+)
+"plugins/quote/quote.ml" 453 15878 15886 "plugins/quote/quote.ml" 453 15878 15902
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 454 15908 15914 "plugins/quote/quote.ml" 454 15908 15918
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 454 15908 15922 "plugins/quote/quote.ml" 454 15908 15943
+type(
+  Term.constr -> Term.cast_kind -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.convert_concl
+)
+"plugins/quote/quote.ml" 454 15908 15945 "plugins/quote/quote.ml" 454 15908 15950
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/quote/quote.ml" 454 15908 15952 "plugins/quote/quote.ml" 454 15908 15953
+type(
+  Term.constr
+)
+ident(
+  int_ref f "plugins/quote/quote.ml" 446 15658 15664 "plugins/quote/quote.ml" 446 15658 15665
+)
+"plugins/quote/quote.ml" 454 15908 15958 "plugins/quote/quote.ml" 454 15908 15959
+type(
+  Term.constr
+)
+ident(
+  int_ref p "plugins/quote/quote.ml" 449 15763 15770 "plugins/quote/quote.ml" 449 15763 15771
+)
+"plugins/quote/quote.ml" 454 15908 15955 "plugins/quote/quote.ml" 454 15908 15962
+type(
+  Term.constr array
+)
+"plugins/quote/quote.ml" 454 15908 15951 "plugins/quote/quote.ml" 454 15908 15963
+type(
+  Term.constr * Term.constr array
+)
+"plugins/quote/quote.ml" 454 15908 15944 "plugins/quote/quote.ml" 454 15908 15964
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 454 15908 15965 "plugins/quote/quote.ml" 454 15908 15976
+type(
+  Term.cast_kind
+)
+"plugins/quote/quote.ml" 454 15908 15977 "plugins/quote/quote.ml" 454 15908 15979
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 445 15637 15653 "plugins/quote/quote.ml" 445 15637 15655
+)
+"plugins/quote/quote.ml" 454 15908 15922 "plugins/quote/quote.ml" 454 15908 15979
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/quote/quote.ml" 455 15980 15991 "plugins/quote/quote.ml" 455 15980 15992
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 455 15980 15986 "plugins/quote/quote.ml" 455 15980 15992
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 455 15980 15996 "plugins/quote/quote.ml" 455 15980 16017
+type(
+  Term.constr -> Term.cast_kind -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.convert_concl
+)
+"plugins/quote/quote.ml" 455 15980 16019 "plugins/quote/quote.ml" 455 15980 16024
+type(
+  Term.constr * ConstrSet.elt array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/quote/quote.ml" 455 15980 16026 "plugins/quote/quote.ml" 455 15980 16027
+type(
+  Term.constr
+)
+ident(
+  int_ref f "plugins/quote/quote.ml" 446 15658 15664 "plugins/quote/quote.ml" 446 15658 15665
+)
+"plugins/quote/quote.ml" 455 15980 16032 "plugins/quote/quote.ml" 455 15980 16034
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref vm "plugins/quote/quote.ml" 449 15763 15773 "plugins/quote/quote.ml" 449 15763 15775
+)
+"plugins/quote/quote.ml" 455 15980 16036 "plugins/quote/quote.ml" 455 15980 16037
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref p "plugins/quote/quote.ml" 449 15763 15770 "plugins/quote/quote.ml" 449 15763 15771
+)
+"plugins/quote/quote.ml" 455 15980 16029 "plugins/quote/quote.ml" 455 15980 16040
+type(
+  ConstrSet.elt array
+)
+"plugins/quote/quote.ml" 455 15980 16025 "plugins/quote/quote.ml" 455 15980 16041
+type(
+  Term.constr * ConstrSet.elt array
+)
+"plugins/quote/quote.ml" 455 15980 16018 "plugins/quote/quote.ml" 455 15980 16042
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 455 15980 16043 "plugins/quote/quote.ml" 455 15980 16054
+type(
+  Term.cast_kind
+)
+"plugins/quote/quote.ml" 455 15980 16055 "plugins/quote/quote.ml" 455 15980 16057
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 445 15637 15653 "plugins/quote/quote.ml" 445 15637 15655
+)
+"plugins/quote/quote.ml" 455 15980 15996 "plugins/quote/quote.ml" 455 15980 16057
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/quote/quote.ml" 453 15878 15880 "plugins/quote/quote.ml" 455 15980 16057
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/quote/quote.ml" 449 15763 15765 "plugins/quote/quote.ml" 455 15980 16057
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/quote/quote.ml" 448 15728 15730 "plugins/quote/quote.ml" 455 15980 16057
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/quote/quote.ml" 447 15686 15688 "plugins/quote/quote.ml" 455 15980 16057
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/quote/quote.ml" 446 15658 15660 "plugins/quote/quote.ml" 455 15980 16057
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/quote/quote.ml" 457 16059 16063 "plugins/quote/quote.ml" 457 16059 16072
+type(
+  (Term.constr -> Proof_type.goal Tacmach.sigma -> 'a) ->
+  ConstrSet.elt ->
+  Names.identifier ->
+  Names.identifier list -> Proof_type.goal Tacmach.sigma -> 'a
+)
+ident(
+  def gen_quote "plugins/quote/quote.ml" 467 16372 16420 --
+)
+"plugins/quote/quote.ml" 457 16059 16073 "plugins/quote/quote.ml" 457 16059 16077
+type(
+  Term.constr -> Proof_type.goal Tacmach.sigma -> 'a
+)
+ident(
+  def cont "plugins/quote/quote.ml" 457 16059 16078 "plugins/quote/quote.ml" 467 16372 16420
+)
+"plugins/quote/quote.ml" 457 16059 16078 "plugins/quote/quote.ml" 457 16059 16079
+type(
+  ConstrSet.elt
+)
+ident(
+  def c "plugins/quote/quote.ml" 457 16059 16080 "plugins/quote/quote.ml" 467 16372 16420
+)
+"plugins/quote/quote.ml" 457 16059 16080 "plugins/quote/quote.ml" 457 16059 16081
+type(
+  Names.identifier
+)
+ident(
+  def f "plugins/quote/quote.ml" 457 16059 16082 "plugins/quote/quote.ml" 467 16372 16420
+)
+"plugins/quote/quote.ml" 457 16059 16082 "plugins/quote/quote.ml" 457 16059 16085
+type(
+  Names.identifier list
+)
+ident(
+  def lid "plugins/quote/quote.ml" 457 16059 16086 "plugins/quote/quote.ml" 467 16372 16420
+)
+"plugins/quote/quote.ml" 457 16059 16086 "plugins/quote/quote.ml" 457 16059 16088
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/quote/quote.ml" 458 16091 16093 "plugins/quote/quote.ml" 467 16372 16420
+)
+"plugins/quote/quote.ml" 458 16091 16097 "plugins/quote/quote.ml" 458 16091 16098
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 458 16091 16101 "plugins/quote/quote.ml" 458 16091 16110
+type(
+  Proof_type.goal Tacmach.sigma -> Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Tacmach.pf_global
+)
+"plugins/quote/quote.ml" 458 16091 16111 "plugins/quote/quote.ml" 458 16091 16113
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 457 16059 16086 "plugins/quote/quote.ml" 457 16059 16088
+)
+"plugins/quote/quote.ml" 458 16091 16114 "plugins/quote/quote.ml" 458 16091 16115
+type(
+  Names.identifier
+)
+ident(
+  int_ref f "plugins/quote/quote.ml" 457 16059 16080 "plugins/quote/quote.ml" 457 16059 16081
+)
+"plugins/quote/quote.ml" 458 16091 16101 "plugins/quote/quote.ml" 458 16091 16115
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 459 16119 16125 "plugins/quote/quote.ml" 459 16119 16127
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 459 16119 16130 "plugins/quote/quote.ml" 459 16119 16138
+type(
+  (Names.identifier -> Term.constr) ->
+  Names.identifier list -> Term.constr list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/quote/quote.ml" 459 16119 16140 "plugins/quote/quote.ml" 459 16119 16149
+type(
+  Proof_type.goal Tacmach.sigma -> Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Tacmach.pf_global
+)
+"plugins/quote/quote.ml" 459 16119 16150 "plugins/quote/quote.ml" 459 16119 16152
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 457 16059 16086 "plugins/quote/quote.ml" 457 16059 16088
+)
+"plugins/quote/quote.ml" 459 16119 16139 "plugins/quote/quote.ml" 459 16119 16153
+call(
+  stack
+)
+type(
+  Names.identifier -> Term.constr
+)
+"plugins/quote/quote.ml" 459 16119 16154 "plugins/quote/quote.ml" 459 16119 16157
+type(
+  Names.identifier list
+)
+ident(
+  int_ref lid "plugins/quote/quote.ml" 457 16059 16082 "plugins/quote/quote.ml" 457 16059 16085
+)
+"plugins/quote/quote.ml" 459 16119 16130 "plugins/quote/quote.ml" 459 16119 16157
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 460 16161 16167 "plugins/quote/quote.ml" 460 16161 16170
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 460 16161 16173 "plugins/quote/quote.ml" 460 16161 16184
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Term.constr -> ConstrSet.elt list -> inversion_scheme
+)
+ident(
+  int_ref compute_ivs "plugins/quote/quote.ml" 226 7664 7668 "plugins/quote/quote.ml" 226 7664 7679
+)
+"plugins/quote/quote.ml" 460 16161 16185 "plugins/quote/quote.ml" 460 16161 16187
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 457 16059 16086 "plugins/quote/quote.ml" 457 16059 16088
+)
+"plugins/quote/quote.ml" 460 16161 16188 "plugins/quote/quote.ml" 460 16161 16189
+type(
+  Term.constr
+)
+ident(
+  int_ref f "plugins/quote/quote.ml" 458 16091 16097 "plugins/quote/quote.ml" 458 16091 16098
+)
+"plugins/quote/quote.ml" 460 16161 16190 "plugins/quote/quote.ml" 460 16161 16192
+type(
+  ConstrSet.elt list
+)
+ident(
+  int_ref cl "plugins/quote/quote.ml" 459 16119 16125 "plugins/quote/quote.ml" 459 16119 16127
+)
+"plugins/quote/quote.ml" 460 16161 16173 "plugins/quote/quote.ml" 460 16161 16192
+call(
+  stack
+)
+type(
+  inversion_scheme
+)
+"plugins/quote/quote.ml" 461 16196 16203 "plugins/quote/quote.ml" 461 16196 16204
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 461 16196 16206 "plugins/quote/quote.ml" 461 16196 16208
+type(
+  ConstrSet.elt
+)
+"plugins/quote/quote.ml" 461 16196 16202 "plugins/quote/quote.ml" 461 16196 16209
+type(
+  Term.constr * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 461 16196 16218 "plugins/quote/quote.ml" 461 16196 16229
+type(
+  inversion_scheme ->
+  ConstrSet.elt list ->
+  Proof_type.goal Tacmach.sigma -> Term.constr list * ConstrSet.elt
+)
+ident(
+  int_ref quote_terms "plugins/quote/quote.ml" 391 13612 13616 "plugins/quote/quote.ml" 391 13612 13627
+)
+"plugins/quote/quote.ml" 461 16196 16230 "plugins/quote/quote.ml" 461 16196 16233
+type(
+  inversion_scheme
+)
+ident(
+  int_ref ivs "plugins/quote/quote.ml" 460 16161 16167 "plugins/quote/quote.ml" 460 16161 16170
+)
+"plugins/quote/quote.ml" 461 16196 16235 "plugins/quote/quote.ml" 461 16196 16236
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref c "plugins/quote/quote.ml" 457 16059 16078 "plugins/quote/quote.ml" 457 16059 16079
+)
+"plugins/quote/quote.ml" 461 16196 16234 "plugins/quote/quote.ml" 461 16196 16237
+type(
+  ConstrSet.elt list
+)
+"plugins/quote/quote.ml" 461 16196 16238 "plugins/quote/quote.ml" 461 16196 16240
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 457 16059 16086 "plugins/quote/quote.ml" 457 16059 16088
+)
+"plugins/quote/quote.ml" 461 16196 16218 "plugins/quote/quote.ml" 461 16196 16240
+call(
+  stack
+)
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 462 16246 16253 "plugins/quote/quote.ml" 462 16246 16254
+type(
+  Term.constr
+)
+ident(
+  def p "plugins/quote/quote.ml" 462 16246 16263 "plugins/quote/quote.ml" 462 16246 16269
+)
+"plugins/quote/quote.ml" 462 16246 16252 "plugins/quote/quote.ml" 462 16246 16255
+type(
+  Term.constr list
+)
+"plugins/quote/quote.ml" 462 16246 16257 "plugins/quote/quote.ml" 462 16246 16259
+type(
+  ConstrSet.elt
+)
+ident(
+  def vm "plugins/quote/quote.ml" 462 16246 16263 "plugins/quote/quote.ml" 462 16246 16269
+)
+"plugins/quote/quote.ml" 462 16246 16252 "plugins/quote/quote.ml" 462 16246 16259
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 462 16246 16264 "plugins/quote/quote.ml" 462 16246 16265
+type(
+  Term.constr
+)
+ident(
+  int_ref p "plugins/quote/quote.ml" 462 16246 16253 "plugins/quote/quote.ml" 462 16246 16254
+)
+"plugins/quote/quote.ml" 462 16246 16266 "plugins/quote/quote.ml" 462 16246 16268
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref vm "plugins/quote/quote.ml" 462 16246 16257 "plugins/quote/quote.ml" 462 16246 16259
+)
+"plugins/quote/quote.ml" 462 16246 16263 "plugins/quote/quote.ml" 462 16246 16269
+type(
+  Term.constr * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 463 16270 16276 "plugins/quote/quote.ml" 463 16270 16277
+type(
+  Term.constr list * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 463 16270 16281 "plugins/quote/quote.ml" 463 16270 16293
+type(
+  Term.constr * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 461 16196 16212 "plugins/quote/quote.ml" 463 16270 16293
+type(
+  Term.constr * ConstrSet.elt
+)
+"plugins/quote/quote.ml" 465 16299 16307 "plugins/quote/quote.ml" 465 16299 16310
+type(
+  inversion_scheme
+)
+ident(
+  int_ref ivs "plugins/quote/quote.ml" 460 16161 16167 "plugins/quote/quote.ml" 460 16161 16170
+)
+"plugins/quote/quote.ml" 465 16299 16307 "plugins/quote/quote.ml" 465 16299 16323
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 466 16329 16335 "plugins/quote/quote.ml" 466 16329 16339
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 466 16329 16343 "plugins/quote/quote.ml" 466 16329 16347
+type(
+  Term.constr -> Proof_type.goal Tacmach.sigma -> 'a
+)
+ident(
+  int_ref cont "plugins/quote/quote.ml" 457 16059 16073 "plugins/quote/quote.ml" 457 16059 16077
+)
+"plugins/quote/quote.ml" 466 16329 16349 "plugins/quote/quote.ml" 466 16329 16354
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/quote/quote.ml" 466 16329 16356 "plugins/quote/quote.ml" 466 16329 16357
+type(
+  Term.constr
+)
+ident(
+  int_ref f "plugins/quote/quote.ml" 458 16091 16097 "plugins/quote/quote.ml" 458 16091 16098
+)
+"plugins/quote/quote.ml" 466 16329 16362 "plugins/quote/quote.ml" 466 16329 16363
+type(
+  Term.constr
+)
+ident(
+  int_ref p "plugins/quote/quote.ml" 461 16196 16203 "plugins/quote/quote.ml" 461 16196 16204
+)
+"plugins/quote/quote.ml" 466 16329 16359 "plugins/quote/quote.ml" 466 16329 16366
+type(
+  Term.constr array
+)
+"plugins/quote/quote.ml" 466 16329 16355 "plugins/quote/quote.ml" 466 16329 16367
+type(
+  Term.constr * Term.constr array
+)
+"plugins/quote/quote.ml" 466 16329 16348 "plugins/quote/quote.ml" 466 16329 16368
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 466 16329 16369 "plugins/quote/quote.ml" 466 16329 16371
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 457 16059 16086 "plugins/quote/quote.ml" 457 16059 16088
+)
+"plugins/quote/quote.ml" 466 16329 16343 "plugins/quote/quote.ml" 466 16329 16371
+call(
+  tail
+)
+type(
+  'a
+)
+"plugins/quote/quote.ml" 467 16372 16383 "plugins/quote/quote.ml" 467 16372 16384
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 467 16372 16378 "plugins/quote/quote.ml" 467 16372 16384
+type(
+  Term.constr option
+)
+"plugins/quote/quote.ml" 467 16372 16388 "plugins/quote/quote.ml" 467 16372 16392
+type(
+  Term.constr -> Proof_type.goal Tacmach.sigma -> 'a
+)
+ident(
+  int_ref cont "plugins/quote/quote.ml" 457 16059 16073 "plugins/quote/quote.ml" 457 16059 16077
+)
+"plugins/quote/quote.ml" 467 16372 16394 "plugins/quote/quote.ml" 467 16372 16399
+type(
+  Term.constr * ConstrSet.elt array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/quote/quote.ml" 467 16372 16401 "plugins/quote/quote.ml" 467 16372 16402
+type(
+  Term.constr
+)
+ident(
+  int_ref f "plugins/quote/quote.ml" 458 16091 16097 "plugins/quote/quote.ml" 458 16091 16098
+)
+"plugins/quote/quote.ml" 467 16372 16407 "plugins/quote/quote.ml" 467 16372 16409
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref vm "plugins/quote/quote.ml" 461 16196 16206 "plugins/quote/quote.ml" 461 16196 16208
+)
+"plugins/quote/quote.ml" 467 16372 16411 "plugins/quote/quote.ml" 467 16372 16412
+type(
+  ConstrSet.elt
+)
+ident(
+  int_ref p "plugins/quote/quote.ml" 461 16196 16203 "plugins/quote/quote.ml" 461 16196 16204
+)
+"plugins/quote/quote.ml" 467 16372 16404 "plugins/quote/quote.ml" 467 16372 16415
+type(
+  ConstrSet.elt array
+)
+"plugins/quote/quote.ml" 467 16372 16400 "plugins/quote/quote.ml" 467 16372 16416
+type(
+  Term.constr * ConstrSet.elt array
+)
+"plugins/quote/quote.ml" 467 16372 16393 "plugins/quote/quote.ml" 467 16372 16417
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/quote/quote.ml" 467 16372 16418 "plugins/quote/quote.ml" 467 16372 16420
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/quote/quote.ml" 457 16059 16086 "plugins/quote/quote.ml" 457 16059 16088
+)
+"plugins/quote/quote.ml" 467 16372 16388 "plugins/quote/quote.ml" 467 16372 16420
+call(
+  tail
+)
+type(
+  'a
+)
+"plugins/quote/quote.ml" 465 16299 16301 "plugins/quote/quote.ml" 467 16372 16420
+type(
+  'a
+)
+"plugins/quote/quote.ml" 461 16196 16198 "plugins/quote/quote.ml" 467 16372 16420
+type(
+  'a
+)
+"plugins/quote/quote.ml" 460 16161 16163 "plugins/quote/quote.ml" 467 16372 16420
+type(
+  'a
+)
+"plugins/quote/quote.ml" 459 16119 16121 "plugins/quote/quote.ml" 467 16372 16420
+type(
+  'a
+)
+"plugins/quote/quote.ml" 458 16091 16093 "plugins/quote/quote.ml" 467 16372 16420
+type(
+  'a
+)

@@ -1,0 +1,396 @@
+"plugins/xml/cic2Xml.ml" 1 0 4 "plugins/xml/cic2Xml.ml" 1 0 18
+type(
+  out_channel -> Environ.env -> Evd.evar_map -> Acic.CicHash.key -> unit
+)
+ident(
+  def print_xml_term "plugins/xml/cic2Xml.ml" 16 570 570 --
+)
+"plugins/xml/cic2Xml.ml" 1 0 19 "plugins/xml/cic2Xml.ml" 1 0 21
+type(
+  out_channel
+)
+ident(
+  def ch "plugins/xml/cic2Xml.ml" 1 0 22 "plugins/xml/cic2Xml.ml" 13 547 565
+)
+"plugins/xml/cic2Xml.ml" 1 0 22 "plugins/xml/cic2Xml.ml" 1 0 25
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/cic2Xml.ml" 1 0 26 "plugins/xml/cic2Xml.ml" 13 547 565
+)
+"plugins/xml/cic2Xml.ml" 1 0 26 "plugins/xml/cic2Xml.ml" 1 0 31
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/cic2Xml.ml" 1 0 32 "plugins/xml/cic2Xml.ml" 13 547 565
+)
+"plugins/xml/cic2Xml.ml" 1 0 32 "plugins/xml/cic2Xml.ml" 1 0 35
+type(
+  Acic.CicHash.key
+)
+ident(
+  def cic "plugins/xml/cic2Xml.ml" 2 38 40 "plugins/xml/cic2Xml.ml" 13 547 565
+)
+"plugins/xml/cic2Xml.ml" 2 38 44 "plugins/xml/cic2Xml.ml" 2 38 56
+type(
+  (string, Acic.CicHash.key) Hashtbl.t
+)
+"plugins/xml/cic2Xml.ml" 2 38 59 "plugins/xml/cic2Xml.ml" 2 38 73
+type(
+  int -> (string, Acic.CicHash.key) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"plugins/xml/cic2Xml.ml" 2 38 74 "plugins/xml/cic2Xml.ml" 2 38 77
+type(
+  int
+)
+"plugins/xml/cic2Xml.ml" 2 38 59 "plugins/xml/cic2Xml.ml" 2 38 77
+call(
+  stack
+)
+type(
+  (string, Acic.CicHash.key) Hashtbl.t
+)
+"plugins/xml/cic2Xml.ml" 3 81 87 "plugins/xml/cic2Xml.ml" 3 81 100
+type(
+  string Acic.CicHash.t
+)
+"plugins/xml/cic2Xml.ml" 3 81 103 "plugins/xml/cic2Xml.ml" 3 81 122
+type(
+  int -> string Acic.CicHash.t
+)
+ident(
+  ext_ref Acic.CicHash.create
+)
+"plugins/xml/cic2Xml.ml" 3 81 123 "plugins/xml/cic2Xml.ml" 3 81 126
+type(
+  int
+)
+"plugins/xml/cic2Xml.ml" 3 81 103 "plugins/xml/cic2Xml.ml" 3 81 126
+call(
+  stack
+)
+type(
+  string Acic.CicHash.t
+)
+"plugins/xml/cic2Xml.ml" 4 130 136 "plugins/xml/cic2Xml.ml" 4 130 153
+type(
+  (string, string option) Hashtbl.t
+)
+"plugins/xml/cic2Xml.ml" 4 130 156 "plugins/xml/cic2Xml.ml" 4 130 170
+type(
+  int -> (string, string option) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"plugins/xml/cic2Xml.ml" 4 130 171 "plugins/xml/cic2Xml.ml" 4 130 174
+type(
+  int
+)
+"plugins/xml/cic2Xml.ml" 4 130 156 "plugins/xml/cic2Xml.ml" 4 130 174
+call(
+  stack
+)
+type(
+  (string, string option) Hashtbl.t
+)
+"plugins/xml/cic2Xml.ml" 5 178 184 "plugins/xml/cic2Xml.ml" 5 178 202
+type(
+  (string, string) Hashtbl.t
+)
+"plugins/xml/cic2Xml.ml" 5 178 205 "plugins/xml/cic2Xml.ml" 5 178 219
+type(
+  int -> (string, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"plugins/xml/cic2Xml.ml" 5 178 220 "plugins/xml/cic2Xml.ml" 5 178 223
+type(
+  int
+)
+"plugins/xml/cic2Xml.ml" 5 178 205 "plugins/xml/cic2Xml.ml" 5 178 223
+call(
+  stack
+)
+type(
+  (string, string) Hashtbl.t
+)
+"plugins/xml/cic2Xml.ml" 6 227 233 "plugins/xml/cic2Xml.ml" 6 227 251
+type(
+  (string, Cic2acic.anntypes) Hashtbl.t
+)
+"plugins/xml/cic2Xml.ml" 6 227 254 "plugins/xml/cic2Xml.ml" 6 227 268
+type(
+  int -> (string, Cic2acic.anntypes) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"plugins/xml/cic2Xml.ml" 6 227 269 "plugins/xml/cic2Xml.ml" 6 227 272
+type(
+  int
+)
+"plugins/xml/cic2Xml.ml" 6 227 254 "plugins/xml/cic2Xml.ml" 6 227 272
+call(
+  stack
+)
+type(
+  (string, Cic2acic.anntypes) Hashtbl.t
+)
+"plugins/xml/cic2Xml.ml" 7 276 282 "plugins/xml/cic2Xml.ml" 7 276 286
+type(
+  int ref
+)
+"plugins/xml/cic2Xml.ml" 7 276 289 "plugins/xml/cic2Xml.ml" 7 276 292
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/xml/cic2Xml.ml" 7 276 293 "plugins/xml/cic2Xml.ml" 7 276 294
+type(
+  int
+)
+"plugins/xml/cic2Xml.ml" 7 276 289 "plugins/xml/cic2Xml.ml" 7 276 294
+type(
+  int ref
+)
+"plugins/xml/cic2Xml.ml" 8 298 304 "plugins/xml/cic2Xml.ml" 8 298 308
+type(
+  Acic.aconstr
+)
+"plugins/xml/cic2Xml.ml" 9 311 314 "plugins/xml/cic2Xml.ml" 9 311 343
+type(
+  bool ->
+  int ref ->
+  (string, Acic.CicHash.key) Hashtbl.t ->
+  string Acic.CicHash.t ->
+  (string, string option) Hashtbl.t ->
+  (string, string) Hashtbl.t ->
+  (string, Cic2acic.anntypes) Hashtbl.t ->
+  ?fake_dependent_products:bool ->
+  Environ.env ->
+  string list ->
+  Evd.evar_map -> Acic.CicHash.key -> Term.constr option -> Acic.aconstr
+)
+ident(
+  ext_ref Cic2acic.acic_of_cic_context'
+)
+"plugins/xml/cic2Xml.ml" 9 311 344 "plugins/xml/cic2Xml.ml" 9 311 348
+type(
+  bool
+)
+"plugins/xml/cic2Xml.ml" 9 311 349 "plugins/xml/cic2Xml.ml" 9 311 353
+type(
+  int ref
+)
+ident(
+  int_ref seed "plugins/xml/cic2Xml.ml" 7 276 282 "plugins/xml/cic2Xml.ml" 7 276 286
+)
+"plugins/xml/cic2Xml.ml" 9 311 354 "plugins/xml/cic2Xml.ml" 9 311 366
+type(
+  (string, Acic.CicHash.key) Hashtbl.t
+)
+ident(
+  int_ref ids_to_terms "plugins/xml/cic2Xml.ml" 2 38 44 "plugins/xml/cic2Xml.ml" 2 38 56
+)
+"plugins/xml/cic2Xml.ml" 9 311 367 "plugins/xml/cic2Xml.ml" 9 311 380
+type(
+  string Acic.CicHash.t
+)
+ident(
+  int_ref constr_to_ids "plugins/xml/cic2Xml.ml" 3 81 87 "plugins/xml/cic2Xml.ml" 3 81 100
+)
+"plugins/xml/cic2Xml.ml" 10 381 385 "plugins/xml/cic2Xml.ml" 10 381 402
+type(
+  (string, string option) Hashtbl.t
+)
+ident(
+  int_ref ids_to_father_ids "plugins/xml/cic2Xml.ml" 4 130 136 "plugins/xml/cic2Xml.ml" 4 130 153
+)
+"plugins/xml/cic2Xml.ml" 10 381 403 "plugins/xml/cic2Xml.ml" 10 381 421
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref ids_to_inner_sorts "plugins/xml/cic2Xml.ml" 5 178 184 "plugins/xml/cic2Xml.ml" 5 178 202
+)
+"plugins/xml/cic2Xml.ml" 10 381 422 "plugins/xml/cic2Xml.ml" 10 381 440
+type(
+  (string, Cic2acic.anntypes) Hashtbl.t
+)
+ident(
+  int_ref ids_to_inner_types "plugins/xml/cic2Xml.ml" 6 227 233 "plugins/xml/cic2Xml.ml" 6 227 251
+)
+"plugins/xml/cic2Xml.ml" 11 441 445 "plugins/xml/cic2Xml.ml" 11 441 448
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/cic2Xml.ml" 1 0 22 "plugins/xml/cic2Xml.ml" 1 0 25
+)
+"plugins/xml/cic2Xml.ml" 11 441 449 "plugins/xml/cic2Xml.ml" 11 441 451
+type(
+  string list
+)
+"plugins/xml/cic2Xml.ml" 11 441 452 "plugins/xml/cic2Xml.ml" 11 441 457
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/cic2Xml.ml" 1 0 26 "plugins/xml/cic2Xml.ml" 1 0 31
+)
+"plugins/xml/cic2Xml.ml" 11 441 459 "plugins/xml/cic2Xml.ml" 11 441 474
+type(
+  ?already_unshared:(Acic.CicHash.key -> bool) ->
+  Acic.CicHash.key -> Acic.CicHash.key
+)
+ident(
+  ext_ref Unshare.unshare
+)
+"plugins/xml/cic2Xml.ml" 11 441 475 "plugins/xml/cic2Xml.ml" 11 441 478
+type(
+  Acic.CicHash.key
+)
+ident(
+  int_ref cic "plugins/xml/cic2Xml.ml" 1 0 32 "plugins/xml/cic2Xml.ml" 1 0 35
+)
+"plugins/xml/cic2Xml.ml" 11 441 458 "plugins/xml/cic2Xml.ml" 11 441 479
+call(
+  stack
+)
+type(
+  Acic.CicHash.key
+)
+"plugins/xml/cic2Xml.ml" 11 441 480 "plugins/xml/cic2Xml.ml" 11 441 484
+type(
+  Term.constr option
+)
+"plugins/xml/cic2Xml.ml" 9 311 314 "plugins/xml/cic2Xml.ml" 11 441 484
+call(
+  stack
+)
+type(
+  Acic.aconstr
+)
+"plugins/xml/cic2Xml.ml" 12 488 494 "plugins/xml/cic2Xml.ml" 12 488 497
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/cic2Xml.ml" 12 488 500 "plugins/xml/cic2Xml.ml" 12 488 519
+type(
+  (string, string) Hashtbl.t -> Acic.aconstr -> Xml.token Stream.t
+)
+ident(
+  ext_ref Acic2Xml.print_term
+)
+"plugins/xml/cic2Xml.ml" 12 488 520 "plugins/xml/cic2Xml.ml" 12 488 538
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref ids_to_inner_sorts "plugins/xml/cic2Xml.ml" 5 178 184 "plugins/xml/cic2Xml.ml" 5 178 202
+)
+"plugins/xml/cic2Xml.ml" 12 488 539 "plugins/xml/cic2Xml.ml" 12 488 543
+type(
+  Acic.aconstr
+)
+ident(
+  int_ref acic "plugins/xml/cic2Xml.ml" 8 298 304 "plugins/xml/cic2Xml.ml" 8 298 308
+)
+"plugins/xml/cic2Xml.ml" 12 488 500 "plugins/xml/cic2Xml.ml" 12 488 543
+call(
+  stack
+)
+type(
+  Xml.token Stream.t
+)
+"plugins/xml/cic2Xml.ml" 13 547 549 "plugins/xml/cic2Xml.ml" 13 547 558
+type(
+  Xml.token Stream.t -> out_channel -> unit
+)
+ident(
+  ext_ref Xml.pp_ch
+)
+"plugins/xml/cic2Xml.ml" 13 547 559 "plugins/xml/cic2Xml.ml" 13 547 562
+type(
+  Xml.token Stream.t
+)
+ident(
+  int_ref xml "plugins/xml/cic2Xml.ml" 12 488 494 "plugins/xml/cic2Xml.ml" 12 488 497
+)
+"plugins/xml/cic2Xml.ml" 13 547 563 "plugins/xml/cic2Xml.ml" 13 547 565
+type(
+  out_channel
+)
+ident(
+  int_ref ch "plugins/xml/cic2Xml.ml" 1 0 19 "plugins/xml/cic2Xml.ml" 1 0 21
+)
+"plugins/xml/cic2Xml.ml" 13 547 549 "plugins/xml/cic2Xml.ml" 13 547 565
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/cic2Xml.ml" 12 488 490 "plugins/xml/cic2Xml.ml" 13 547 565
+type(
+  unit
+)
+"plugins/xml/cic2Xml.ml" 8 298 300 "plugins/xml/cic2Xml.ml" 13 547 565
+type(
+  unit
+)
+"plugins/xml/cic2Xml.ml" 7 276 278 "plugins/xml/cic2Xml.ml" 13 547 565
+type(
+  unit
+)
+"plugins/xml/cic2Xml.ml" 6 227 229 "plugins/xml/cic2Xml.ml" 13 547 565
+type(
+  unit
+)
+"plugins/xml/cic2Xml.ml" 5 178 180 "plugins/xml/cic2Xml.ml" 13 547 565
+type(
+  unit
+)
+"plugins/xml/cic2Xml.ml" 4 130 132 "plugins/xml/cic2Xml.ml" 13 547 565
+type(
+  unit
+)
+"plugins/xml/cic2Xml.ml" 3 81 83 "plugins/xml/cic2Xml.ml" 13 547 565
+type(
+  unit
+)
+"plugins/xml/cic2Xml.ml" 2 38 40 "plugins/xml/cic2Xml.ml" 13 547 565
+type(
+  unit
+)
+"plugins/xml/cic2Xml.ml" 16 570 570 "plugins/xml/cic2Xml.ml" 16 570 599
+type(
+  (out_channel -> Environ.env -> Evd.evar_map -> Acic.CicHash.key -> unit) ->
+  unit
+)
+ident(
+  ext_ref Tacinterp.declare_xml_printer
+)
+"plugins/xml/cic2Xml.ml" 16 570 600 "plugins/xml/cic2Xml.ml" 16 570 614
+type(
+  out_channel -> Environ.env -> Evd.evar_map -> Acic.CicHash.key -> unit
+)
+ident(
+  int_ref print_xml_term "plugins/xml/cic2Xml.ml" 1 0 4 "plugins/xml/cic2Xml.ml" 1 0 18
+)
+"plugins/xml/cic2Xml.ml" 16 570 570 "plugins/xml/cic2Xml.ml" 16 570 614
+call(
+  stack
+)
+type(
+  unit
+)

@@ -1,0 +1,3443 @@
+"plugins/subtac/subtac_pretyping.ml" 40 962 981 "plugins/subtac/subtac_pretyping.ml" 40 962 1043
+call(
+  stack
+)
+"plugins/subtac/subtac_pretyping.ml" 44 1061 1069 "plugins/subtac/subtac_pretyping.ml" 44 1061 1099
+type(
+  bool ref
+)
+ident(
+  ext_ref Pretyping.allow_anonymous_refs
+)
+"plugins/subtac/subtac_pretyping.ml" 44 1061 1100 "plugins/subtac/subtac_pretyping.ml" 44 1061 1102
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/subtac/subtac_pretyping.ml" 44 1061 1103 "plugins/subtac/subtac_pretyping.ml" 44 1061 1107
+type(
+  bool
+)
+"plugins/subtac/subtac_pretyping.ml" 44 1061 1069 "plugins/subtac/subtac_pretyping.ml" 44 1061 1107
+type(
+  unit
+)
+"plugins/subtac/subtac_pretyping.ml" 56 1408 1412 "plugins/subtac/subtac_pretyping.ml" 56 1408 1429
+type(
+  Environ.env -> recursion_info -> Pp.std_ppcmds
+)
+ident(
+  def my_print_rec_info "plugins/subtac/subtac_pretyping.ml" 67 2010 2010 --
+)
+"plugins/subtac/subtac_pretyping.ml" 56 1408 1430 "plugins/subtac/subtac_pretyping.ml" 56 1408 1433
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac_pretyping.ml" 56 1408 1434 "plugins/subtac/subtac_pretyping.ml" 62 1772 1827
+)
+"plugins/subtac/subtac_pretyping.ml" 56 1408 1434 "plugins/subtac/subtac_pretyping.ml" 56 1408 1435
+type(
+  recursion_info
+)
+ident(
+  def t "plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 62 1772 1827
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 57 1438 1443
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1444 "plugins/subtac/subtac_pretyping.ml" 57 1438 1452
+type(
+  string
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 57 1438 1452
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1453 "plugins/subtac/subtac_pretyping.ml" 57 1438 1455
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1456 "plugins/subtac/subtac_pretyping.ml" 57 1438 1471
+type(
+  Names.name -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Nameops.pr_name
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1472 "plugins/subtac/subtac_pretyping.ml" 57 1438 1473
+type(
+  recursion_info
+)
+ident(
+  int_ref t "plugins/subtac/subtac_pretyping.ml" 56 1408 1434 "plugins/subtac/subtac_pretyping.ml" 56 1408 1435
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1472 "plugins/subtac/subtac_pretyping.ml" 57 1438 1482
+type(
+  Names.name
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1456 "plugins/subtac/subtac_pretyping.ml" 57 1438 1482
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 57 1438 1482
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1483 "plugins/subtac/subtac_pretyping.ml" 57 1438 1485
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1486 "plugins/subtac/subtac_pretyping.ml" 57 1438 1489
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1490 "plugins/subtac/subtac_pretyping.ml" 57 1438 1492
+type(
+  unit
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1486 "plugins/subtac/subtac_pretyping.ml" 57 1438 1492
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 57 1438 1492
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1493 "plugins/subtac/subtac_pretyping.ml" 57 1438 1495
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1498 "plugins/subtac/subtac_pretyping.ml" 58 1496 1501
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1502 "plugins/subtac/subtac_pretyping.ml" 58 1496 1514
+type(
+  string
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1498 "plugins/subtac/subtac_pretyping.ml" 58 1496 1514
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 58 1496 1514
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1515 "plugins/subtac/subtac_pretyping.ml" 58 1496 1517
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1518 "plugins/subtac/subtac_pretyping.ml" 58 1496 1533
+type(
+  Environ.env -> Term.types -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Subtac_utils.my_print_constr
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1534 "plugins/subtac/subtac_pretyping.ml" 58 1496 1537
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 56 1408 1430 "plugins/subtac/subtac_pretyping.ml" 56 1408 1433
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1538 "plugins/subtac/subtac_pretyping.ml" 58 1496 1539
+type(
+  recursion_info
+)
+ident(
+  int_ref t "plugins/subtac/subtac_pretyping.ml" 56 1408 1434 "plugins/subtac/subtac_pretyping.ml" 56 1408 1435
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1538 "plugins/subtac/subtac_pretyping.ml" 58 1496 1548
+type(
+  Term.types
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1518 "plugins/subtac/subtac_pretyping.ml" 58 1496 1548
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 58 1496 1548
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1549 "plugins/subtac/subtac_pretyping.ml" 58 1496 1551
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1552 "plugins/subtac/subtac_pretyping.ml" 58 1496 1555
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1556 "plugins/subtac/subtac_pretyping.ml" 58 1496 1558
+type(
+  unit
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1552 "plugins/subtac/subtac_pretyping.ml" 58 1496 1558
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 58 1496 1558
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 58 1496 1559 "plugins/subtac/subtac_pretyping.ml" 58 1496 1561
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1564 "plugins/subtac/subtac_pretyping.ml" 59 1562 1567
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1568 "plugins/subtac/subtac_pretyping.ml" 59 1562 1583
+type(
+  string
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1564 "plugins/subtac/subtac_pretyping.ml" 59 1562 1583
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 59 1562 1583
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1584 "plugins/subtac/subtac_pretyping.ml" 59 1562 1586
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1587 "plugins/subtac/subtac_pretyping.ml" 59 1562 1602
+type(
+  Environ.env -> Term.constr -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Subtac_utils.my_print_constr
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1603 "plugins/subtac/subtac_pretyping.ml" 59 1562 1606
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 56 1408 1430 "plugins/subtac/subtac_pretyping.ml" 56 1408 1433
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1607 "plugins/subtac/subtac_pretyping.ml" 59 1562 1608
+type(
+  recursion_info
+)
+ident(
+  int_ref t "plugins/subtac/subtac_pretyping.ml" 56 1408 1434 "plugins/subtac/subtac_pretyping.ml" 56 1408 1435
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1607 "plugins/subtac/subtac_pretyping.ml" 59 1562 1620
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1587 "plugins/subtac/subtac_pretyping.ml" 59 1562 1620
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 59 1562 1620
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1621 "plugins/subtac/subtac_pretyping.ml" 59 1562 1623
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1624 "plugins/subtac/subtac_pretyping.ml" 59 1562 1627
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1628 "plugins/subtac/subtac_pretyping.ml" 59 1562 1630
+type(
+  unit
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1624 "plugins/subtac/subtac_pretyping.ml" 59 1562 1630
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 59 1562 1630
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 59 1562 1631 "plugins/subtac/subtac_pretyping.ml" 59 1562 1633
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1636 "plugins/subtac/subtac_pretyping.ml" 60 1634 1639
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1640 "plugins/subtac/subtac_pretyping.ml" 60 1634 1652
+type(
+  string
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1636 "plugins/subtac/subtac_pretyping.ml" 60 1634 1652
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 60 1634 1652
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1653 "plugins/subtac/subtac_pretyping.ml" 60 1634 1655
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1656 "plugins/subtac/subtac_pretyping.ml" 60 1634 1671
+type(
+  Environ.env -> Term.constr -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Subtac_utils.my_print_constr
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1672 "plugins/subtac/subtac_pretyping.ml" 60 1634 1675
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 56 1408 1430 "plugins/subtac/subtac_pretyping.ml" 56 1408 1433
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1676 "plugins/subtac/subtac_pretyping.ml" 60 1634 1677
+type(
+  recursion_info
+)
+ident(
+  int_ref t "plugins/subtac/subtac_pretyping.ml" 56 1408 1434 "plugins/subtac/subtac_pretyping.ml" 56 1408 1435
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1676 "plugins/subtac/subtac_pretyping.ml" 60 1634 1686
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1656 "plugins/subtac/subtac_pretyping.ml" 60 1634 1686
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 60 1634 1686
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1687 "plugins/subtac/subtac_pretyping.ml" 60 1634 1689
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1690 "plugins/subtac/subtac_pretyping.ml" 60 1634 1693
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1694 "plugins/subtac/subtac_pretyping.ml" 60 1634 1696
+type(
+  unit
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1690 "plugins/subtac/subtac_pretyping.ml" 60 1634 1696
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 60 1634 1696
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 60 1634 1697 "plugins/subtac/subtac_pretyping.ml" 60 1634 1699
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1702 "plugins/subtac/subtac_pretyping.ml" 61 1700 1705
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1706 "plugins/subtac/subtac_pretyping.ml" 61 1700 1726
+type(
+  string
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1702 "plugins/subtac/subtac_pretyping.ml" 61 1700 1726
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 61 1700 1726
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1727 "plugins/subtac/subtac_pretyping.ml" 61 1700 1729
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1730 "plugins/subtac/subtac_pretyping.ml" 61 1700 1745
+type(
+  Environ.env -> Term.types -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Subtac_utils.my_print_constr
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1746 "plugins/subtac/subtac_pretyping.ml" 61 1700 1749
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 56 1408 1430 "plugins/subtac/subtac_pretyping.ml" 56 1408 1433
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1750 "plugins/subtac/subtac_pretyping.ml" 61 1700 1751
+type(
+  recursion_info
+)
+ident(
+  int_ref t "plugins/subtac/subtac_pretyping.ml" 56 1408 1434 "plugins/subtac/subtac_pretyping.ml" 56 1408 1435
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1750 "plugins/subtac/subtac_pretyping.ml" 61 1700 1758
+type(
+  Term.types
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1730 "plugins/subtac/subtac_pretyping.ml" 61 1700 1758
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 61 1700 1758
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1759 "plugins/subtac/subtac_pretyping.ml" 61 1700 1761
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1762 "plugins/subtac/subtac_pretyping.ml" 61 1700 1765
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1766 "plugins/subtac/subtac_pretyping.ml" 61 1700 1768
+type(
+  unit
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1762 "plugins/subtac/subtac_pretyping.ml" 61 1700 1768
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 61 1700 1768
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 61 1700 1769 "plugins/subtac/subtac_pretyping.ml" 61 1700 1771
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 62 1772 1774 "plugins/subtac/subtac_pretyping.ml" 62 1772 1777
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac_pretyping.ml" 62 1772 1778 "plugins/subtac/subtac_pretyping.ml" 62 1772 1791
+type(
+  string
+)
+"plugins/subtac/subtac_pretyping.ml" 62 1772 1774 "plugins/subtac/subtac_pretyping.ml" 62 1772 1791
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 62 1772 1791
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 62 1772 1792 "plugins/subtac/subtac_pretyping.ml" 62 1772 1794
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac_pretyping.ml" 62 1772 1795 "plugins/subtac/subtac_pretyping.ml" 62 1772 1810
+type(
+  Environ.env -> Term.types -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Subtac_utils.my_print_constr
+)
+"plugins/subtac/subtac_pretyping.ml" 62 1772 1811 "plugins/subtac/subtac_pretyping.ml" 62 1772 1814
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 56 1408 1430 "plugins/subtac/subtac_pretyping.ml" 56 1408 1433
+)
+"plugins/subtac/subtac_pretyping.ml" 62 1772 1815 "plugins/subtac/subtac_pretyping.ml" 62 1772 1816
+type(
+  recursion_info
+)
+ident(
+  int_ref t "plugins/subtac/subtac_pretyping.ml" 56 1408 1434 "plugins/subtac/subtac_pretyping.ml" 56 1408 1435
+)
+"plugins/subtac/subtac_pretyping.ml" 62 1772 1815 "plugins/subtac/subtac_pretyping.ml" 62 1772 1827
+type(
+  Term.types
+)
+"plugins/subtac/subtac_pretyping.ml" 62 1772 1795 "plugins/subtac/subtac_pretyping.ml" 62 1772 1827
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 57 1438 1440 "plugins/subtac/subtac_pretyping.ml" 62 1772 1827
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac_pretyping.ml" 67 2010 2014 "plugins/subtac/subtac_pretyping.ml" 67 2010 2024
+type(
+  Evd.evar_map -> Evd.evar_map -> Evd.evar_map
+)
+ident(
+  def merge_evms "plugins/subtac/subtac_pretyping.ml" 70 2086 2086 --
+)
+"plugins/subtac/subtac_pretyping.ml" 67 2010 2025 "plugins/subtac/subtac_pretyping.ml" 67 2010 2026
+type(
+  Evd.evar_map
+)
+ident(
+  def x "plugins/subtac/subtac_pretyping.ml" 67 2010 2027 "plugins/subtac/subtac_pretyping.ml" 68 2031 2084
+)
+"plugins/subtac/subtac_pretyping.ml" 67 2010 2027 "plugins/subtac/subtac_pretyping.ml" 67 2010 2028
+type(
+  Evd.evar_map
+)
+ident(
+  def y "plugins/subtac/subtac_pretyping.ml" 68 2031 2033 "plugins/subtac/subtac_pretyping.ml" 68 2031 2084
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2033 "plugins/subtac/subtac_pretyping.ml" 68 2031 2041
+type(
+  (Evd.evar -> Evd.evar_info -> Evd.evar_map -> Evd.evar_map) ->
+  Evd.evar_map -> Evd.evar_map -> Evd.evar_map
+)
+ident(
+  ext_ref Evd.fold
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2047 "plugins/subtac/subtac_pretyping.ml" 68 2031 2049
+type(
+  Evd.evar
+)
+ident(
+  def ev "plugins/subtac/subtac_pretyping.ml" 68 2031 2050 "plugins/subtac/subtac_pretyping.ml" 68 2031 2079
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2050 "plugins/subtac/subtac_pretyping.ml" 68 2031 2053
+type(
+  Evd.evar_info
+)
+ident(
+  def evi "plugins/subtac/subtac_pretyping.ml" 68 2031 2054 "plugins/subtac/subtac_pretyping.ml" 68 2031 2079
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2054 "plugins/subtac/subtac_pretyping.ml" 68 2031 2057
+type(
+  Evd.evar_map
+)
+ident(
+  def evm "plugins/subtac/subtac_pretyping.ml" 68 2031 2061 "plugins/subtac/subtac_pretyping.ml" 68 2031 2079
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2061 "plugins/subtac/subtac_pretyping.ml" 68 2031 2068
+type(
+  Evd.evar_map -> Evd.evar -> Evd.evar_info -> Evd.evar_map
+)
+ident(
+  ext_ref Evd.add
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2069 "plugins/subtac/subtac_pretyping.ml" 68 2031 2072
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/subtac_pretyping.ml" 68 2031 2054 "plugins/subtac/subtac_pretyping.ml" 68 2031 2057
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2073 "plugins/subtac/subtac_pretyping.ml" 68 2031 2075
+type(
+  Evd.evar
+)
+ident(
+  int_ref ev "plugins/subtac/subtac_pretyping.ml" 68 2031 2047 "plugins/subtac/subtac_pretyping.ml" 68 2031 2049
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2076 "plugins/subtac/subtac_pretyping.ml" 68 2031 2079
+type(
+  Evd.evar_info
+)
+ident(
+  int_ref evi "plugins/subtac/subtac_pretyping.ml" 68 2031 2050 "plugins/subtac/subtac_pretyping.ml" 68 2031 2053
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2061 "plugins/subtac/subtac_pretyping.ml" 68 2031 2079
+call(
+  tail
+)
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2042 "plugins/subtac/subtac_pretyping.ml" 68 2031 2080
+type(
+  Evd.evar -> Evd.evar_info -> Evd.evar_map -> Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2081 "plugins/subtac/subtac_pretyping.ml" 68 2031 2082
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref x "plugins/subtac/subtac_pretyping.ml" 67 2010 2025 "plugins/subtac/subtac_pretyping.ml" 67 2010 2026
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2083 "plugins/subtac/subtac_pretyping.ml" 68 2031 2084
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref y "plugins/subtac/subtac_pretyping.ml" 67 2010 2027 "plugins/subtac/subtac_pretyping.ml" 67 2010 2028
+)
+"plugins/subtac/subtac_pretyping.ml" 68 2031 2033 "plugins/subtac/subtac_pretyping.ml" 68 2031 2084
+call(
+  tail
+)
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 70 2086 2090 "plugins/subtac/subtac_pretyping.ml" 70 2086 2096
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  Rawterm.rawconstr -> Evarutil.type_constraint -> Term.constr * Term.constr
+)
+ident(
+  def interp "plugins/subtac/subtac_pretyping.ml" 81 2618 2618 --
+)
+"plugins/subtac/subtac_pretyping.ml" 70 2086 2097 "plugins/subtac/subtac_pretyping.ml" 70 2086 2100
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac_pretyping.ml" 70 2086 2101 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+)
+"plugins/subtac/subtac_pretyping.ml" 70 2086 2101 "plugins/subtac/subtac_pretyping.ml" 70 2086 2108
+type(
+  Evd.evar_map ref
+)
+ident(
+  def isevars "plugins/subtac/subtac_pretyping.ml" 70 2086 2109 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+)
+"plugins/subtac/subtac_pretyping.ml" 70 2086 2109 "plugins/subtac/subtac_pretyping.ml" 70 2086 2110
+type(
+  Rawterm.rawconstr
+)
+ident(
+  def c "plugins/subtac/subtac_pretyping.ml" 70 2086 2111 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+)
+"plugins/subtac/subtac_pretyping.ml" 70 2086 2111 "plugins/subtac/subtac_pretyping.ml" 70 2086 2116
+type(
+  Evarutil.type_constraint
+)
+ident(
+  def tycon "plugins/subtac/subtac_pretyping.ml" 71 2119 2121 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+)
+"plugins/subtac/subtac_pretyping.ml" 71 2119 2125 "plugins/subtac/subtac_pretyping.ml" 71 2119 2126
+type(
+  Environ.unsafe_judgment
+)
+"plugins/subtac/subtac_pretyping.ml" 71 2119 2129 "plugins/subtac/subtac_pretyping.ml" 71 2119 2136
+type(
+  Evarutil.type_constraint ->
+  Environ.env ->
+  Evd.evar_map ref ->
+  (Names.variable * (Names.identifier list * Term.constr)) list *
+  (Names.variable * Names.identifier option) list ->
+  Rawterm.rawconstr -> Environ.unsafe_judgment
+)
+ident(
+  ext_ref Pretyping.pretype
+)
+"plugins/subtac/subtac_pretyping.ml" 71 2119 2137 "plugins/subtac/subtac_pretyping.ml" 71 2119 2142
+type(
+  Evarutil.type_constraint
+)
+ident(
+  int_ref tycon "plugins/subtac/subtac_pretyping.ml" 70 2086 2111 "plugins/subtac/subtac_pretyping.ml" 70 2086 2116
+)
+"plugins/subtac/subtac_pretyping.ml" 71 2119 2143 "plugins/subtac/subtac_pretyping.ml" 71 2119 2146
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 70 2086 2097 "plugins/subtac/subtac_pretyping.ml" 70 2086 2100
+)
+"plugins/subtac/subtac_pretyping.ml" 71 2119 2147 "plugins/subtac/subtac_pretyping.ml" 71 2119 2154
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 70 2086 2101 "plugins/subtac/subtac_pretyping.ml" 70 2086 2108
+)
+"plugins/subtac/subtac_pretyping.ml" 71 2119 2156 "plugins/subtac/subtac_pretyping.ml" 71 2119 2158
+type(
+  (Names.variable * (Names.identifier list * Term.constr)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 71 2119 2159 "plugins/subtac/subtac_pretyping.ml" 71 2119 2161
+type(
+  (Names.variable * Names.identifier option) list
+)
+"plugins/subtac/subtac_pretyping.ml" 71 2119 2155 "plugins/subtac/subtac_pretyping.ml" 71 2119 2162
+type(
+  (Names.variable * (Names.identifier list * Term.constr)) list *
+  (Names.variable * Names.identifier option) list
+)
+"plugins/subtac/subtac_pretyping.ml" 71 2119 2163 "plugins/subtac/subtac_pretyping.ml" 71 2119 2164
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref c "plugins/subtac/subtac_pretyping.ml" 70 2086 2109 "plugins/subtac/subtac_pretyping.ml" 70 2086 2110
+)
+"plugins/subtac/subtac_pretyping.ml" 71 2119 2129 "plugins/subtac/subtac_pretyping.ml" 71 2119 2164
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/subtac/subtac_pretyping.ml" 72 2168 2174 "plugins/subtac/subtac_pretyping.ml" 72 2168 2175
+type(
+  unit
+)
+"plugins/subtac/subtac_pretyping.ml" 72 2168 2178 "plugins/subtac/subtac_pretyping.ml" 72 2168 2185
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 70 2086 2101 "plugins/subtac/subtac_pretyping.ml" 70 2086 2108
+)
+"plugins/subtac/subtac_pretyping.ml" 72 2168 2186 "plugins/subtac/subtac_pretyping.ml" 72 2168 2188
+type(
+  Evd.evar_map ref -> Evd.evar_map -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/subtac/subtac_pretyping.ml" 72 2168 2189 "plugins/subtac/subtac_pretyping.ml" 72 2168 2209
+type(
+  Evd.evar_map -> Evd.evar_map
+)
+ident(
+  ext_ref Evarutil.nf_evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 72 2168 2210 "plugins/subtac/subtac_pretyping.ml" 72 2168 2211
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/subtac_pretyping.ml" 72 2168 2211 "plugins/subtac/subtac_pretyping.ml" 72 2168 2218
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 70 2086 2101 "plugins/subtac/subtac_pretyping.ml" 70 2086 2108
+)
+"plugins/subtac/subtac_pretyping.ml" 72 2168 2210 "plugins/subtac/subtac_pretyping.ml" 72 2168 2218
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 72 2168 2189 "plugins/subtac/subtac_pretyping.ml" 72 2168 2218
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 72 2168 2178 "plugins/subtac/subtac_pretyping.ml" 72 2168 2218
+type(
+  unit
+)
+"plugins/subtac/subtac_pretyping.ml" 73 2222 2228 "plugins/subtac/subtac_pretyping.ml" 73 2222 2231
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 73 2222 2234 "plugins/subtac/subtac_pretyping.ml" 73 2222 2266
+type(
+  Environ.env -> Evd.evar_map -> Evd.evar_map
+)
+ident(
+  ext_ref Evarconv.consider_remaining_unif_problems
+)
+"plugins/subtac/subtac_pretyping.ml" 73 2222 2267 "plugins/subtac/subtac_pretyping.ml" 73 2222 2270
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 70 2086 2097 "plugins/subtac/subtac_pretyping.ml" 70 2086 2100
+)
+"plugins/subtac/subtac_pretyping.ml" 73 2222 2271 "plugins/subtac/subtac_pretyping.ml" 73 2222 2272
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/subtac_pretyping.ml" 73 2222 2272 "plugins/subtac/subtac_pretyping.ml" 73 2222 2279
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 70 2086 2101 "plugins/subtac/subtac_pretyping.ml" 70 2086 2108
+)
+"plugins/subtac/subtac_pretyping.ml" 73 2222 2271 "plugins/subtac/subtac_pretyping.ml" 73 2222 2279
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 73 2222 2234 "plugins/subtac/subtac_pretyping.ml" 73 2222 2279
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 75 2326 2332 "plugins/subtac/subtac_pretyping.ml" 75 2326 2338
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 75 2326 2341 "plugins/subtac/subtac_pretyping.ml" 75 2326 2372
+type(
+  ?onlyargs:bool ->
+  ?split:bool -> ?fail:bool -> Environ.env -> Evd.evar_map -> Evd.evar_map
+)
+ident(
+  ext_ref Typeclasses.resolve_typeclasses
+)
+"plugins/subtac/subtac_pretyping.ml" 75 2326 2383 "plugins/subtac/subtac_pretyping.ml" 75 2326 2387
+type(
+  bool
+)
+"plugins/subtac/subtac_pretyping.ml" 75 2326 2395 "plugins/subtac/subtac_pretyping.ml" 75 2326 2399
+type(
+  bool
+)
+"plugins/subtac/subtac_pretyping.ml" 75 2326 2406 "plugins/subtac/subtac_pretyping.ml" 75 2326 2410
+type(
+  bool
+)
+"plugins/subtac/subtac_pretyping.ml" 75 2326 2411 "plugins/subtac/subtac_pretyping.ml" 75 2326 2414
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 70 2086 2097 "plugins/subtac/subtac_pretyping.ml" 70 2086 2100
+)
+"plugins/subtac/subtac_pretyping.ml" 75 2326 2415 "plugins/subtac/subtac_pretyping.ml" 75 2326 2418
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evd "plugins/subtac/subtac_pretyping.ml" 73 2222 2228 "plugins/subtac/subtac_pretyping.ml" 73 2222 2231
+)
+"plugins/subtac/subtac_pretyping.ml" 75 2326 2341 "plugins/subtac/subtac_pretyping.ml" 75 2326 2418
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 76 2422 2428 "plugins/subtac/subtac_pretyping.ml" 76 2422 2434
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 76 2422 2437 "plugins/subtac/subtac_pretyping.ml" 76 2422 2468
+type(
+  ?onlyargs:bool ->
+  ?split:bool -> ?fail:bool -> Environ.env -> Evd.evar_map -> Evd.evar_map
+)
+ident(
+  ext_ref Typeclasses.resolve_typeclasses
+)
+"plugins/subtac/subtac_pretyping.ml" 76 2422 2479 "plugins/subtac/subtac_pretyping.ml" 76 2422 2484
+type(
+  bool
+)
+"plugins/subtac/subtac_pretyping.ml" 76 2422 2492 "plugins/subtac/subtac_pretyping.ml" 76 2422 2496
+type(
+  bool
+)
+"plugins/subtac/subtac_pretyping.ml" 76 2422 2503 "plugins/subtac/subtac_pretyping.ml" 76 2422 2508
+type(
+  bool
+)
+"plugins/subtac/subtac_pretyping.ml" 76 2422 2509 "plugins/subtac/subtac_pretyping.ml" 76 2422 2512
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 70 2086 2097 "plugins/subtac/subtac_pretyping.ml" 70 2086 2100
+)
+"plugins/subtac/subtac_pretyping.ml" 76 2422 2513 "plugins/subtac/subtac_pretyping.ml" 76 2422 2519
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref unevd' "plugins/subtac/subtac_pretyping.ml" 75 2326 2332 "plugins/subtac/subtac_pretyping.ml" 75 2326 2338
+)
+"plugins/subtac/subtac_pretyping.ml" 76 2422 2437 "plugins/subtac/subtac_pretyping.ml" 76 2422 2519
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 77 2523 2529 "plugins/subtac/subtac_pretyping.ml" 77 2523 2532
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 77 2523 2536 "plugins/subtac/subtac_pretyping.ml" 77 2523 2542
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref unevd' "plugins/subtac/subtac_pretyping.ml" 76 2422 2428 "plugins/subtac/subtac_pretyping.ml" 76 2422 2434
+)
+"plugins/subtac/subtac_pretyping.ml" 78 2546 2550 "plugins/subtac/subtac_pretyping.ml" 78 2546 2557
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 70 2086 2101 "plugins/subtac/subtac_pretyping.ml" 70 2086 2108
+)
+"plugins/subtac/subtac_pretyping.ml" 78 2546 2558 "plugins/subtac/subtac_pretyping.ml" 78 2546 2560
+type(
+  Evd.evar_map ref -> Evd.evar_map -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/subtac/subtac_pretyping.ml" 78 2546 2561 "plugins/subtac/subtac_pretyping.ml" 78 2546 2567
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref unevd' "plugins/subtac/subtac_pretyping.ml" 76 2422 2428 "plugins/subtac/subtac_pretyping.ml" 76 2422 2434
+)
+"plugins/subtac/subtac_pretyping.ml" 78 2546 2550 "plugins/subtac/subtac_pretyping.ml" 78 2546 2567
+type(
+  unit
+)
+"plugins/subtac/subtac_pretyping.ml" 79 2569 2573 "plugins/subtac/subtac_pretyping.ml" 79 2569 2580
+type(
+  Evd.evar_map -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Pretype_errors.nf_evar
+)
+"plugins/subtac/subtac_pretyping.ml" 79 2569 2581 "plugins/subtac/subtac_pretyping.ml" 79 2569 2584
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/subtac_pretyping.ml" 77 2523 2529 "plugins/subtac/subtac_pretyping.ml" 77 2523 2532
+)
+"plugins/subtac/subtac_pretyping.ml" 79 2569 2585 "plugins/subtac/subtac_pretyping.ml" 79 2569 2586
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/subtac/subtac_pretyping.ml" 71 2119 2125 "plugins/subtac/subtac_pretyping.ml" 71 2119 2126
+)
+"plugins/subtac/subtac_pretyping.ml" 79 2569 2585 "plugins/subtac/subtac_pretyping.ml" 79 2569 2593
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 79 2569 2573 "plugins/subtac/subtac_pretyping.ml" 79 2569 2593
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 79 2569 2595 "plugins/subtac/subtac_pretyping.ml" 79 2569 2602
+type(
+  Evd.evar_map -> Term.types -> Term.constr
+)
+ident(
+  ext_ref Pretype_errors.nf_evar
+)
+"plugins/subtac/subtac_pretyping.ml" 79 2569 2603 "plugins/subtac/subtac_pretyping.ml" 79 2569 2606
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/subtac_pretyping.ml" 77 2523 2529 "plugins/subtac/subtac_pretyping.ml" 77 2523 2532
+)
+"plugins/subtac/subtac_pretyping.ml" 79 2569 2607 "plugins/subtac/subtac_pretyping.ml" 79 2569 2608
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/subtac/subtac_pretyping.ml" 71 2119 2125 "plugins/subtac/subtac_pretyping.ml" 71 2119 2126
+)
+"plugins/subtac/subtac_pretyping.ml" 79 2569 2607 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+type(
+  Term.types
+)
+"plugins/subtac/subtac_pretyping.ml" 79 2569 2595 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 79 2569 2573 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 78 2546 2550 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 77 2523 2525 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 76 2422 2424 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 75 2326 2328 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 73 2222 2224 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 72 2168 2170 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 71 2119 2121 "plugins/subtac/subtac_pretyping.ml" 79 2569 2616
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 81 2618 2622 "plugins/subtac/subtac_pretyping.ml" 81 2618 2637
+type(
+  'a -> ('a * 'b * 'c) list -> int * ('a * 'b * 'c)
+)
+ident(
+  def find_with_index "plugins/subtac/subtac_pretyping.ml" 87 2783 2783 --
+)
+"plugins/subtac/subtac_pretyping.ml" 81 2618 2638 "plugins/subtac/subtac_pretyping.ml" 81 2618 2639
+type(
+  'a
+)
+ident(
+  def x "plugins/subtac/subtac_pretyping.ml" 81 2618 2640 "plugins/subtac/subtac_pretyping.ml" 85 2769 2781
+)
+"plugins/subtac/subtac_pretyping.ml" 81 2618 2640 "plugins/subtac/subtac_pretyping.ml" 81 2618 2641
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  def l "plugins/subtac/subtac_pretyping.ml" 82 2644 2646 "plugins/subtac/subtac_pretyping.ml" 85 2769 2781
+)
+"plugins/subtac/subtac_pretyping.ml" 82 2644 2654 "plugins/subtac/subtac_pretyping.ml" 82 2644 2657
+type(
+  int -> ('a * 'd * 'e) list -> int * ('a * 'd * 'e)
+)
+"plugins/subtac/subtac_pretyping.ml" 82 2644 2658 "plugins/subtac/subtac_pretyping.ml" 82 2644 2659
+type(
+  int
+)
+ident(
+  def i "plugins/subtac/subtac_pretyping.ml" 82 2644 2662 "plugins/subtac/subtac_pretyping.ml" 84 2741 2768
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2678 "plugins/subtac/subtac_pretyping.ml" 83 2671 2679
+type(
+  'a
+)
+ident(
+  def y "plugins/subtac/subtac_pretyping.ml" 83 2671 2701 "plugins/subtac/subtac_pretyping.ml" 83 2671 2740
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2681 "plugins/subtac/subtac_pretyping.ml" 83 2671 2682
+type(
+  'd
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2684 "plugins/subtac/subtac_pretyping.ml" 83 2671 2685
+type(
+  'e
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2677 "plugins/subtac/subtac_pretyping.ml" 83 2671 2686
+type(
+  'a * 'd * 'e
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2677 "plugins/subtac/subtac_pretyping.ml" 83 2671 2691
+type(
+  'a * 'd * 'e
+)
+ident(
+  def t "plugins/subtac/subtac_pretyping.ml" 83 2671 2701 "plugins/subtac/subtac_pretyping.ml" 83 2671 2740
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2695 "plugins/subtac/subtac_pretyping.ml" 83 2671 2697
+type(
+  ('a * 'd * 'e) list
+)
+ident(
+  def tl "plugins/subtac/subtac_pretyping.ml" 83 2671 2701 "plugins/subtac/subtac_pretyping.ml" 83 2671 2740
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2677 "plugins/subtac/subtac_pretyping.ml" 83 2671 2697
+type(
+  ('a * 'd * 'e) list
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2704 "plugins/subtac/subtac_pretyping.ml" 83 2671 2705
+type(
+  'a
+)
+ident(
+  int_ref x "plugins/subtac/subtac_pretyping.ml" 81 2618 2638 "plugins/subtac/subtac_pretyping.ml" 81 2618 2639
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2706 "plugins/subtac/subtac_pretyping.ml" 83 2671 2707
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2708 "plugins/subtac/subtac_pretyping.ml" 83 2671 2709
+type(
+  'a
+)
+ident(
+  int_ref y "plugins/subtac/subtac_pretyping.ml" 83 2671 2678 "plugins/subtac/subtac_pretyping.ml" 83 2671 2679
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2704 "plugins/subtac/subtac_pretyping.ml" 83 2671 2709
+type(
+  bool
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2715 "plugins/subtac/subtac_pretyping.ml" 83 2671 2716
+type(
+  int
+)
+ident(
+  int_ref i "plugins/subtac/subtac_pretyping.ml" 82 2644 2658 "plugins/subtac/subtac_pretyping.ml" 82 2644 2659
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2718 "plugins/subtac/subtac_pretyping.ml" 83 2671 2719
+type(
+  'a * 'd * 'e
+)
+ident(
+  int_ref t "plugins/subtac/subtac_pretyping.ml" 83 2671 2677 "plugins/subtac/subtac_pretyping.ml" 83 2671 2691
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2715 "plugins/subtac/subtac_pretyping.ml" 83 2671 2719
+type(
+  int * ('a * 'd * 'e)
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2725 "plugins/subtac/subtac_pretyping.ml" 83 2671 2728
+type(
+  int -> ('a * 'd * 'e) list -> int * ('a * 'd * 'e)
+)
+ident(
+  int_ref aux "plugins/subtac/subtac_pretyping.ml" 82 2644 2654 "plugins/subtac/subtac_pretyping.ml" 82 2644 2657
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2730 "plugins/subtac/subtac_pretyping.ml" 83 2671 2734
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2735 "plugins/subtac/subtac_pretyping.ml" 83 2671 2736
+type(
+  int
+)
+ident(
+  int_ref i "plugins/subtac/subtac_pretyping.ml" 82 2644 2658 "plugins/subtac/subtac_pretyping.ml" 82 2644 2659
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2729 "plugins/subtac/subtac_pretyping.ml" 83 2671 2737
+type(
+  int
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2738 "plugins/subtac/subtac_pretyping.ml" 83 2671 2740
+type(
+  ('a * 'd * 'e) list
+)
+ident(
+  int_ref tl "plugins/subtac/subtac_pretyping.ml" 83 2671 2695 "plugins/subtac/subtac_pretyping.ml" 83 2671 2697
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2725 "plugins/subtac/subtac_pretyping.ml" 83 2671 2740
+call(
+  tail
+)
+type(
+  int * ('a * 'd * 'e)
+)
+"plugins/subtac/subtac_pretyping.ml" 83 2671 2701 "plugins/subtac/subtac_pretyping.ml" 83 2671 2740
+type(
+  int * ('a * 'd * 'e)
+)
+"plugins/subtac/subtac_pretyping.ml" 84 2741 2747 "plugins/subtac/subtac_pretyping.ml" 84 2741 2749
+type(
+  ('a * 'd * 'e) list
+)
+"plugins/subtac/subtac_pretyping.ml" 84 2741 2753 "plugins/subtac/subtac_pretyping.ml" 84 2741 2758
+type(
+  exn -> int * ('a * 'd * 'e)
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/subtac/subtac_pretyping.ml" 84 2741 2759 "plugins/subtac/subtac_pretyping.ml" 84 2741 2768
+type(
+  exn
+)
+"plugins/subtac/subtac_pretyping.ml" 84 2741 2753 "plugins/subtac/subtac_pretyping.ml" 84 2741 2768
+type(
+  int * ('a * 'd * 'e)
+)
+"plugins/subtac/subtac_pretyping.ml" 82 2644 2662 "plugins/subtac/subtac_pretyping.ml" 84 2741 2768
+type(
+  ('a * 'd * 'e) list -> int * ('a * 'd * 'e)
+)
+"plugins/subtac/subtac_pretyping.ml" 85 2769 2774 "plugins/subtac/subtac_pretyping.ml" 85 2769 2777
+type(
+  int -> ('a * 'b * 'c) list -> int * ('a * 'b * 'c)
+)
+ident(
+  int_ref aux "plugins/subtac/subtac_pretyping.ml" 82 2644 2654 "plugins/subtac/subtac_pretyping.ml" 82 2644 2657
+)
+"plugins/subtac/subtac_pretyping.ml" 85 2769 2778 "plugins/subtac/subtac_pretyping.ml" 85 2769 2779
+type(
+  int
+)
+"plugins/subtac/subtac_pretyping.ml" 85 2769 2780 "plugins/subtac/subtac_pretyping.ml" 85 2769 2781
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  int_ref l "plugins/subtac/subtac_pretyping.ml" 81 2618 2640 "plugins/subtac/subtac_pretyping.ml" 81 2618 2641
+)
+"plugins/subtac/subtac_pretyping.ml" 85 2769 2774 "plugins/subtac/subtac_pretyping.ml" 85 2769 2781
+call(
+  tail
+)
+type(
+  int * ('a * 'b * 'c)
+)
+"plugins/subtac/subtac_pretyping.ml" 82 2644 2646 "plugins/subtac/subtac_pretyping.ml" 85 2769 2781
+type(
+  int * ('a * 'b * 'c)
+)
+"plugins/subtac/subtac_pretyping.ml" 89 2800 2804 "plugins/subtac/subtac_pretyping.ml" 89 2800 2820
+type(
+  Evd.evar_map -> Environ.env -> Topconstr.constr_expr -> Rawterm.rawconstr
+)
+ident(
+  def coqintern_constr "plugins/subtac/subtac_pretyping.ml" 91 2914 2914 --
+)
+"plugins/subtac/subtac_pretyping.ml" 89 2800 2821 "plugins/subtac/subtac_pretyping.ml" 89 2800 2824
+type(
+  Evd.evar_map
+)
+ident(
+  def evd "plugins/subtac/subtac_pretyping.ml" 89 2800 2825 "plugins/subtac/subtac_pretyping.ml" 90 2877 2913
+)
+"plugins/subtac/subtac_pretyping.ml" 89 2800 2825 "plugins/subtac/subtac_pretyping.ml" 89 2800 2828
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac_pretyping.ml" 89 2800 2829 "plugins/subtac/subtac_pretyping.ml" 90 2877 2913
+)
+"plugins/subtac/subtac_pretyping.ml" 90 2877 2879 "plugins/subtac/subtac_pretyping.ml" 90 2877 2905
+type(
+  Evd.evar_map -> Environ.env -> Topconstr.constr_expr -> Rawterm.rawconstr
+)
+ident(
+  ext_ref Constrintern.intern_constr
+)
+"plugins/subtac/subtac_pretyping.ml" 90 2877 2906 "plugins/subtac/subtac_pretyping.ml" 90 2877 2909
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evd "plugins/subtac/subtac_pretyping.ml" 89 2800 2821 "plugins/subtac/subtac_pretyping.ml" 89 2800 2824
+)
+"plugins/subtac/subtac_pretyping.ml" 90 2877 2910 "plugins/subtac/subtac_pretyping.ml" 90 2877 2913
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 89 2800 2825 "plugins/subtac/subtac_pretyping.ml" 89 2800 2828
+)
+"plugins/subtac/subtac_pretyping.ml" 90 2877 2879 "plugins/subtac/subtac_pretyping.ml" 90 2877 2913
+call(
+  tail
+)
+type(
+  Topconstr.constr_expr -> Rawterm.rawconstr
+)
+type(
+  Topconstr.constr_expr -> Rawterm.rawconstr
+)
+"plugins/subtac/subtac_pretyping.ml" 91 2914 2918 "plugins/subtac/subtac_pretyping.ml" 91 2914 2932
+type(
+  Evd.evar_map -> Environ.env -> Topconstr.constr_expr -> Rawterm.rawconstr
+)
+ident(
+  def coqintern_type "plugins/subtac/subtac_pretyping.ml" 94 3025 3025 --
+)
+"plugins/subtac/subtac_pretyping.ml" 91 2914 2933 "plugins/subtac/subtac_pretyping.ml" 91 2914 2936
+type(
+  Evd.evar_map
+)
+ident(
+  def evd "plugins/subtac/subtac_pretyping.ml" 91 2914 2937 "plugins/subtac/subtac_pretyping.ml" 92 2989 3023
+)
+"plugins/subtac/subtac_pretyping.ml" 91 2914 2937 "plugins/subtac/subtac_pretyping.ml" 91 2914 2940
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac_pretyping.ml" 91 2914 2941 "plugins/subtac/subtac_pretyping.ml" 92 2989 3023
+)
+"plugins/subtac/subtac_pretyping.ml" 92 2989 2991 "plugins/subtac/subtac_pretyping.ml" 92 2989 3015
+type(
+  Evd.evar_map -> Environ.env -> Topconstr.constr_expr -> Rawterm.rawconstr
+)
+ident(
+  ext_ref Constrintern.intern_type
+)
+"plugins/subtac/subtac_pretyping.ml" 92 2989 3016 "plugins/subtac/subtac_pretyping.ml" 92 2989 3019
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evd "plugins/subtac/subtac_pretyping.ml" 91 2914 2933 "plugins/subtac/subtac_pretyping.ml" 91 2914 2936
+)
+"plugins/subtac/subtac_pretyping.ml" 92 2989 3020 "plugins/subtac/subtac_pretyping.ml" 92 2989 3023
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 91 2914 2937 "plugins/subtac/subtac_pretyping.ml" 91 2914 2940
+)
+"plugins/subtac/subtac_pretyping.ml" 92 2989 2991 "plugins/subtac/subtac_pretyping.ml" 92 2989 3023
+call(
+  tail
+)
+type(
+  Topconstr.constr_expr -> Rawterm.rawconstr
+)
+type(
+  Topconstr.constr_expr -> Rawterm.rawconstr
+)
+"plugins/subtac/subtac_pretyping.ml" 94 3025 3029 "plugins/subtac/subtac_pretyping.ml" 94 3025 3045
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  Topconstr.local_binder list ->
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  def env_with_binders "plugins/subtac/subtac_pretyping.ml" 114 3778 3778 --
+)
+"plugins/subtac/subtac_pretyping.ml" 94 3025 3046 "plugins/subtac/subtac_pretyping.ml" 94 3025 3049
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac_pretyping.ml" 94 3025 3050 "plugins/subtac/subtac_pretyping.ml" 112 3756 3776
+)
+"plugins/subtac/subtac_pretyping.ml" 94 3025 3050 "plugins/subtac/subtac_pretyping.ml" 94 3025 3057
+type(
+  Evd.evar_map ref
+)
+ident(
+  def isevars "plugins/subtac/subtac_pretyping.ml" 94 3025 3058 "plugins/subtac/subtac_pretyping.ml" 112 3756 3776
+)
+"plugins/subtac/subtac_pretyping.ml" 94 3025 3058 "plugins/subtac/subtac_pretyping.ml" 94 3025 3059
+type(
+  Topconstr.local_binder list
+)
+ident(
+  def l "plugins/subtac/subtac_pretyping.ml" 95 3062 3064 "plugins/subtac/subtac_pretyping.ml" 112 3756 3776
+)
+"plugins/subtac/subtac_pretyping.ml" 95 3062 3072 "plugins/subtac/subtac_pretyping.ml" 95 3062 3075
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list ->
+  Topconstr.local_binder list ->
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 95 3062 3078 "plugins/subtac/subtac_pretyping.ml" 95 3062 3081
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac_pretyping.ml" 95 3062 3099 "plugins/subtac/subtac_pretyping.ml" 111 3740 3755
+)
+"plugins/subtac/subtac_pretyping.ml" 95 3062 3083 "plugins/subtac/subtac_pretyping.ml" 95 3062 3087
+type(
+  (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  def rels "plugins/subtac/subtac_pretyping.ml" 95 3062 3099 "plugins/subtac/subtac_pretyping.ml" 111 3740 3755
+)
+"plugins/subtac/subtac_pretyping.ml" 95 3062 3077 "plugins/subtac/subtac_pretyping.ml" 95 3062 3088
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 95 3062 3076 "plugins/subtac/subtac_pretyping.ml" 95 3062 3096
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  def acc "plugins/subtac/subtac_pretyping.ml" 95 3062 3099 "plugins/subtac/subtac_pretyping.ml" 111 3740 3755
+)
+"plugins/subtac/subtac_pretyping.ml" 96 3108 3138 "plugins/subtac/subtac_pretyping.ml" 96 3108 3141
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac_pretyping.ml" 97 3164 3165 "plugins/subtac/subtac_pretyping.ml" 100 3324 3374
+)
+"plugins/subtac/subtac_pretyping.ml" 96 3108 3143 "plugins/subtac/subtac_pretyping.ml" 96 3108 3147
+type(
+  Names.name
+)
+ident(
+  def name "plugins/subtac/subtac_pretyping.ml" 97 3164 3165 "plugins/subtac/subtac_pretyping.ml" 100 3324 3374
+)
+"plugins/subtac/subtac_pretyping.ml" 96 3108 3137 "plugins/subtac/subtac_pretyping.ml" 96 3108 3148
+type(
+  Names.name Util.located
+)
+"plugins/subtac/subtac_pretyping.ml" 96 3108 3150 "plugins/subtac/subtac_pretyping.ml" 96 3108 3153
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def def "plugins/subtac/subtac_pretyping.ml" 97 3164 3165 "plugins/subtac/subtac_pretyping.ml" 100 3324 3374
+)
+"plugins/subtac/subtac_pretyping.ml" 96 3108 3114 "plugins/subtac/subtac_pretyping.ml" 96 3108 3154
+type(
+  Topconstr.local_binder
+)
+"plugins/subtac/subtac_pretyping.ml" 96 3108 3158 "plugins/subtac/subtac_pretyping.ml" 96 3108 3160
+type(
+  Topconstr.local_binder list
+)
+ident(
+  def tl "plugins/subtac/subtac_pretyping.ml" 97 3164 3165 "plugins/subtac/subtac_pretyping.ml" 100 3324 3374
+)
+"plugins/subtac/subtac_pretyping.ml" 96 3108 3114 "plugins/subtac/subtac_pretyping.ml" 96 3108 3160
+type(
+  Topconstr.local_binder list
+)
+"plugins/subtac/subtac_pretyping.ml" 97 3164 3169 "plugins/subtac/subtac_pretyping.ml" 97 3164 3175
+type(
+  Rawterm.rawconstr
+)
+"plugins/subtac/subtac_pretyping.ml" 97 3164 3178 "plugins/subtac/subtac_pretyping.ml" 97 3164 3194
+type(
+  Evd.evar_map -> Environ.env -> Topconstr.constr_expr -> Rawterm.rawconstr
+)
+ident(
+  int_ref coqintern_constr "plugins/subtac/subtac_pretyping.ml" 89 2800 2804 "plugins/subtac/subtac_pretyping.ml" 89 2800 2820
+)
+"plugins/subtac/subtac_pretyping.ml" 97 3164 3195 "plugins/subtac/subtac_pretyping.ml" 97 3164 3196
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/subtac_pretyping.ml" 97 3164 3196 "plugins/subtac/subtac_pretyping.ml" 97 3164 3203
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 94 3025 3050 "plugins/subtac/subtac_pretyping.ml" 94 3025 3057
+)
+"plugins/subtac/subtac_pretyping.ml" 97 3164 3195 "plugins/subtac/subtac_pretyping.ml" 97 3164 3203
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 97 3164 3204 "plugins/subtac/subtac_pretyping.ml" 97 3164 3207
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 95 3062 3078 "plugins/subtac/subtac_pretyping.ml" 95 3062 3081
+)
+"plugins/subtac/subtac_pretyping.ml" 97 3164 3208 "plugins/subtac/subtac_pretyping.ml" 97 3164 3211
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref def "plugins/subtac/subtac_pretyping.ml" 96 3108 3150 "plugins/subtac/subtac_pretyping.ml" 96 3108 3153
+)
+"plugins/subtac/subtac_pretyping.ml" 97 3164 3178 "plugins/subtac/subtac_pretyping.ml" 97 3164 3211
+call(
+  stack
+)
+type(
+  Rawterm.rawconstr
+)
+"plugins/subtac/subtac_pretyping.ml" 98 3215 3220 "plugins/subtac/subtac_pretyping.ml" 98 3215 3226
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 98 3215 3228 "plugins/subtac/subtac_pretyping.ml" 98 3215 3234
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 98 3215 3220 "plugins/subtac/subtac_pretyping.ml" 98 3215 3234
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 98 3215 3237 "plugins/subtac/subtac_pretyping.ml" 98 3215 3243
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  Rawterm.rawconstr -> Evarutil.type_constraint -> Term.constr * Term.constr
+)
+ident(
+  int_ref interp "plugins/subtac/subtac_pretyping.ml" 70 2086 2090 "plugins/subtac/subtac_pretyping.ml" 70 2086 2096
+)
+"plugins/subtac/subtac_pretyping.ml" 98 3215 3244 "plugins/subtac/subtac_pretyping.ml" 98 3215 3247
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 95 3062 3078 "plugins/subtac/subtac_pretyping.ml" 95 3062 3081
+)
+"plugins/subtac/subtac_pretyping.ml" 98 3215 3248 "plugins/subtac/subtac_pretyping.ml" 98 3215 3255
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 94 3025 3050 "plugins/subtac/subtac_pretyping.ml" 94 3025 3057
+)
+"plugins/subtac/subtac_pretyping.ml" 98 3215 3256 "plugins/subtac/subtac_pretyping.ml" 98 3215 3262
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref rawdef "plugins/subtac/subtac_pretyping.ml" 97 3164 3169 "plugins/subtac/subtac_pretyping.ml" 97 3164 3175
+)
+"plugins/subtac/subtac_pretyping.ml" 98 3215 3263 "plugins/subtac/subtac_pretyping.ml" 98 3215 3274
+type(
+  Evarutil.type_constraint
+)
+ident(
+  ext_ref Evarutil.empty_tycon
+)
+"plugins/subtac/subtac_pretyping.ml" 98 3215 3237 "plugins/subtac/subtac_pretyping.ml" 98 3215 3274
+call(
+  stack
+)
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 99 3278 3283 "plugins/subtac/subtac_pretyping.ml" 99 3278 3290
+type(
+  Names.name * Term.constr option * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 99 3278 3294 "plugins/subtac/subtac_pretyping.ml" 99 3278 3298
+type(
+  Names.name
+)
+ident(
+  int_ref name "plugins/subtac/subtac_pretyping.ml" 96 3108 3143 "plugins/subtac/subtac_pretyping.ml" 96 3108 3147
+)
+"plugins/subtac/subtac_pretyping.ml" 99 3278 3305 "plugins/subtac/subtac_pretyping.ml" 99 3278 3311
+type(
+  Term.constr
+)
+ident(
+  int_ref coqdef "plugins/subtac/subtac_pretyping.ml" 98 3215 3220 "plugins/subtac/subtac_pretyping.ml" 98 3215 3226
+)
+"plugins/subtac/subtac_pretyping.ml" 99 3278 3300 "plugins/subtac/subtac_pretyping.ml" 99 3278 3311
+type(
+  Term.constr option
+)
+"plugins/subtac/subtac_pretyping.ml" 99 3278 3313 "plugins/subtac/subtac_pretyping.ml" 99 3278 3319
+type(
+  Term.constr
+)
+ident(
+  int_ref deftyp "plugins/subtac/subtac_pretyping.ml" 98 3215 3228 "plugins/subtac/subtac_pretyping.ml" 98 3215 3234
+)
+"plugins/subtac/subtac_pretyping.ml" 99 3278 3293 "plugins/subtac/subtac_pretyping.ml" 99 3278 3320
+type(
+  Names.name * Term.constr option * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 100 3324 3327 "plugins/subtac/subtac_pretyping.ml" 100 3324 3330
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list ->
+  Topconstr.local_binder list ->
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  int_ref aux "plugins/subtac/subtac_pretyping.ml" 95 3062 3072 "plugins/subtac/subtac_pretyping.ml" 95 3062 3075
+)
+"plugins/subtac/subtac_pretyping.ml" 100 3324 3333 "plugins/subtac/subtac_pretyping.ml" 100 3324 3341
+type(
+  Term.rel_declaration -> Environ.env -> Environ.env
+)
+ident(
+  ext_ref Environ.push_rel
+)
+"plugins/subtac/subtac_pretyping.ml" 100 3324 3342 "plugins/subtac/subtac_pretyping.ml" 100 3324 3349
+type(
+  Term.rel_declaration
+)
+ident(
+  int_ref reldecl "plugins/subtac/subtac_pretyping.ml" 99 3278 3283 "plugins/subtac/subtac_pretyping.ml" 99 3278 3290
+)
+"plugins/subtac/subtac_pretyping.ml" 100 3324 3350 "plugins/subtac/subtac_pretyping.ml" 100 3324 3353
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 95 3062 3078 "plugins/subtac/subtac_pretyping.ml" 95 3062 3081
+)
+"plugins/subtac/subtac_pretyping.ml" 100 3324 3333 "plugins/subtac/subtac_pretyping.ml" 100 3324 3353
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/subtac/subtac_pretyping.ml" 100 3324 3355 "plugins/subtac/subtac_pretyping.ml" 100 3324 3362
+type(
+  Names.name * Term.constr option * Term.constr
+)
+ident(
+  int_ref reldecl "plugins/subtac/subtac_pretyping.ml" 99 3278 3283 "plugins/subtac/subtac_pretyping.ml" 99 3278 3290
+)
+"plugins/subtac/subtac_pretyping.ml" 100 3324 3366 "plugins/subtac/subtac_pretyping.ml" 100 3324 3370
+type(
+  (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  int_ref rels "plugins/subtac/subtac_pretyping.ml" 95 3062 3083 "plugins/subtac/subtac_pretyping.ml" 95 3062 3087
+)
+"plugins/subtac/subtac_pretyping.ml" 100 3324 3355 "plugins/subtac/subtac_pretyping.ml" 100 3324 3370
+type(
+  (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 100 3324 3332 "plugins/subtac/subtac_pretyping.ml" 100 3324 3371
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 100 3324 3372 "plugins/subtac/subtac_pretyping.ml" 100 3324 3374
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref tl "plugins/subtac/subtac_pretyping.ml" 96 3108 3158 "plugins/subtac/subtac_pretyping.ml" 96 3108 3160
+)
+"plugins/subtac/subtac_pretyping.ml" 100 3324 3327 "plugins/subtac/subtac_pretyping.ml" 100 3324 3374
+call(
+  tail
+)
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 99 3278 3279 "plugins/subtac/subtac_pretyping.ml" 100 3324 3374
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 98 3215 3216 "plugins/subtac/subtac_pretyping.ml" 100 3324 3374
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 97 3164 3165 "plugins/subtac/subtac_pretyping.ml" 100 3324 3374
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 101 3375 3406 "plugins/subtac/subtac_pretyping.ml" 101 3375 3408
+type(
+  Names.name Util.located list
+)
+ident(
+  def bl "plugins/subtac/subtac_pretyping.ml" 102 3427 3428 "plugins/subtac/subtac_pretyping.ml" 110 3725 3739
+)
+"plugins/subtac/subtac_pretyping.ml" 101 3375 3410 "plugins/subtac/subtac_pretyping.ml" 101 3375 3411
+type(
+  Topconstr.binder_kind
+)
+ident(
+  def k "plugins/subtac/subtac_pretyping.ml" 102 3427 3428 "plugins/subtac/subtac_pretyping.ml" 110 3725 3739
+)
+"plugins/subtac/subtac_pretyping.ml" 101 3375 3413 "plugins/subtac/subtac_pretyping.ml" 101 3375 3416
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def typ "plugins/subtac/subtac_pretyping.ml" 102 3427 3428 "plugins/subtac/subtac_pretyping.ml" 110 3725 3739
+)
+"plugins/subtac/subtac_pretyping.ml" 101 3375 3381 "plugins/subtac/subtac_pretyping.ml" 101 3375 3417
+type(
+  Topconstr.local_binder
+)
+"plugins/subtac/subtac_pretyping.ml" 101 3375 3421 "plugins/subtac/subtac_pretyping.ml" 101 3375 3423
+type(
+  Topconstr.local_binder list
+)
+ident(
+  def tl "plugins/subtac/subtac_pretyping.ml" 102 3427 3428 "plugins/subtac/subtac_pretyping.ml" 110 3725 3739
+)
+"plugins/subtac/subtac_pretyping.ml" 101 3375 3381 "plugins/subtac/subtac_pretyping.ml" 101 3375 3423
+type(
+  Topconstr.local_binder list
+)
+"plugins/subtac/subtac_pretyping.ml" 102 3427 3432 "plugins/subtac/subtac_pretyping.ml" 102 3427 3438
+type(
+  Rawterm.rawconstr
+)
+"plugins/subtac/subtac_pretyping.ml" 102 3427 3441 "plugins/subtac/subtac_pretyping.ml" 102 3427 3455
+type(
+  Evd.evar_map -> Environ.env -> Topconstr.constr_expr -> Rawterm.rawconstr
+)
+ident(
+  int_ref coqintern_type "plugins/subtac/subtac_pretyping.ml" 91 2914 2918 "plugins/subtac/subtac_pretyping.ml" 91 2914 2932
+)
+"plugins/subtac/subtac_pretyping.ml" 102 3427 3456 "plugins/subtac/subtac_pretyping.ml" 102 3427 3457
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/subtac_pretyping.ml" 102 3427 3457 "plugins/subtac/subtac_pretyping.ml" 102 3427 3464
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 94 3025 3050 "plugins/subtac/subtac_pretyping.ml" 94 3025 3057
+)
+"plugins/subtac/subtac_pretyping.ml" 102 3427 3456 "plugins/subtac/subtac_pretyping.ml" 102 3427 3464
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 102 3427 3465 "plugins/subtac/subtac_pretyping.ml" 102 3427 3468
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 95 3062 3078 "plugins/subtac/subtac_pretyping.ml" 95 3062 3081
+)
+"plugins/subtac/subtac_pretyping.ml" 102 3427 3469 "plugins/subtac/subtac_pretyping.ml" 102 3427 3472
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref typ "plugins/subtac/subtac_pretyping.ml" 101 3375 3413 "plugins/subtac/subtac_pretyping.ml" 101 3375 3416
+)
+"plugins/subtac/subtac_pretyping.ml" 102 3427 3441 "plugins/subtac/subtac_pretyping.ml" 102 3427 3472
+call(
+  stack
+)
+type(
+  Rawterm.rawconstr
+)
+"plugins/subtac/subtac_pretyping.ml" 103 3476 3481 "plugins/subtac/subtac_pretyping.ml" 103 3476 3487
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 103 3476 3489 "plugins/subtac/subtac_pretyping.ml" 103 3476 3495
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 103 3476 3481 "plugins/subtac/subtac_pretyping.ml" 103 3476 3495
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 103 3476 3498 "plugins/subtac/subtac_pretyping.ml" 103 3476 3504
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  Rawterm.rawconstr -> Evarutil.type_constraint -> Term.constr * Term.constr
+)
+ident(
+  int_ref interp "plugins/subtac/subtac_pretyping.ml" 70 2086 2090 "plugins/subtac/subtac_pretyping.ml" 70 2086 2096
+)
+"plugins/subtac/subtac_pretyping.ml" 103 3476 3505 "plugins/subtac/subtac_pretyping.ml" 103 3476 3508
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 95 3062 3078 "plugins/subtac/subtac_pretyping.ml" 95 3062 3081
+)
+"plugins/subtac/subtac_pretyping.ml" 103 3476 3509 "plugins/subtac/subtac_pretyping.ml" 103 3476 3516
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 94 3025 3050 "plugins/subtac/subtac_pretyping.ml" 94 3025 3057
+)
+"plugins/subtac/subtac_pretyping.ml" 103 3476 3517 "plugins/subtac/subtac_pretyping.ml" 103 3476 3523
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref rawtyp "plugins/subtac/subtac_pretyping.ml" 102 3427 3432 "plugins/subtac/subtac_pretyping.ml" 102 3427 3438
+)
+"plugins/subtac/subtac_pretyping.ml" 103 3476 3524 "plugins/subtac/subtac_pretyping.ml" 103 3476 3535
+type(
+  Evarutil.type_constraint
+)
+ident(
+  ext_ref Evarutil.empty_tycon
+)
+"plugins/subtac/subtac_pretyping.ml" 103 3476 3498 "plugins/subtac/subtac_pretyping.ml" 103 3476 3535
+call(
+  stack
+)
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 104 3539 3544 "plugins/subtac/subtac_pretyping.ml" 104 3539 3547
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 105 3550 3553 "plugins/subtac/subtac_pretyping.ml" 105 3550 3567
+type(
+  (Environ.env * (Names.name * Term.constr option * Term.constr) list ->
+   Names.name Util.located ->
+   Environ.env * (Names.name * Term.constr option * Term.constr) list) ->
+  Environ.env * (Names.name * Term.constr option * Term.constr) list ->
+  Names.name Util.located list ->
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"plugins/subtac/subtac_pretyping.ml" 105 3550 3574 "plugins/subtac/subtac_pretyping.ml" 105 3550 3577
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac_pretyping.ml" 105 3550 3585 "plugins/subtac/subtac_pretyping.ml" 108 3677 3703
+)
+"plugins/subtac/subtac_pretyping.ml" 105 3550 3579 "plugins/subtac/subtac_pretyping.ml" 105 3550 3583
+type(
+  (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  def rels "plugins/subtac/subtac_pretyping.ml" 105 3550 3585 "plugins/subtac/subtac_pretyping.ml" 108 3677 3703
+)
+"plugins/subtac/subtac_pretyping.ml" 105 3550 3573 "plugins/subtac/subtac_pretyping.ml" 105 3550 3584
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 105 3550 3586 "plugins/subtac/subtac_pretyping.ml" 105 3550 3589
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac_pretyping.ml" 106 3600 3607 "plugins/subtac/subtac_pretyping.ml" 108 3677 3703
+)
+"plugins/subtac/subtac_pretyping.ml" 105 3550 3591 "plugins/subtac/subtac_pretyping.ml" 105 3550 3595
+type(
+  Names.name
+)
+ident(
+  def name "plugins/subtac/subtac_pretyping.ml" 106 3600 3607 "plugins/subtac/subtac_pretyping.ml" 108 3677 3703
+)
+"plugins/subtac/subtac_pretyping.ml" 105 3550 3585 "plugins/subtac/subtac_pretyping.ml" 105 3550 3596
+type(
+  Names.name Util.located
+)
+"plugins/subtac/subtac_pretyping.ml" 106 3600 3611 "plugins/subtac/subtac_pretyping.ml" 106 3600 3618
+type(
+  Names.name * 'a option * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 106 3600 3622 "plugins/subtac/subtac_pretyping.ml" 106 3600 3626
+type(
+  Names.name
+)
+ident(
+  int_ref name "plugins/subtac/subtac_pretyping.ml" 105 3550 3591 "plugins/subtac/subtac_pretyping.ml" 105 3550 3595
+)
+"plugins/subtac/subtac_pretyping.ml" 106 3600 3628 "plugins/subtac/subtac_pretyping.ml" 106 3600 3632
+type(
+  'a option
+)
+"plugins/subtac/subtac_pretyping.ml" 106 3600 3634 "plugins/subtac/subtac_pretyping.ml" 106 3600 3640
+type(
+  Term.constr
+)
+ident(
+  int_ref coqtyp "plugins/subtac/subtac_pretyping.ml" 103 3476 3481 "plugins/subtac/subtac_pretyping.ml" 103 3476 3487
+)
+"plugins/subtac/subtac_pretyping.ml" 106 3600 3621 "plugins/subtac/subtac_pretyping.ml" 106 3600 3641
+type(
+  Names.name * 'a option * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 107 3645 3655 "plugins/subtac/subtac_pretyping.ml" 107 3645 3663
+type(
+  Term.rel_declaration -> Environ.env -> Environ.env
+)
+ident(
+  ext_ref Environ.push_rel
+)
+"plugins/subtac/subtac_pretyping.ml" 107 3645 3664 "plugins/subtac/subtac_pretyping.ml" 107 3645 3671
+type(
+  Term.rel_declaration
+)
+ident(
+  int_ref reldecl "plugins/subtac/subtac_pretyping.ml" 106 3600 3611 "plugins/subtac/subtac_pretyping.ml" 106 3600 3618
+)
+"plugins/subtac/subtac_pretyping.ml" 107 3645 3672 "plugins/subtac/subtac_pretyping.ml" 107 3645 3675
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 105 3550 3574 "plugins/subtac/subtac_pretyping.ml" 105 3550 3577
+)
+"plugins/subtac/subtac_pretyping.ml" 107 3645 3655 "plugins/subtac/subtac_pretyping.ml" 107 3645 3675
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/subtac/subtac_pretyping.ml" 108 3677 3687 "plugins/subtac/subtac_pretyping.ml" 108 3677 3694
+type(
+  Names.name * Term.constr option * Term.constr
+)
+ident(
+  int_ref reldecl "plugins/subtac/subtac_pretyping.ml" 106 3600 3611 "plugins/subtac/subtac_pretyping.ml" 106 3600 3618
+)
+"plugins/subtac/subtac_pretyping.ml" 108 3677 3698 "plugins/subtac/subtac_pretyping.ml" 108 3677 3702
+type(
+  (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  int_ref rels "plugins/subtac/subtac_pretyping.ml" 105 3550 3579 "plugins/subtac/subtac_pretyping.ml" 105 3550 3583
+)
+"plugins/subtac/subtac_pretyping.ml" 108 3677 3687 "plugins/subtac/subtac_pretyping.ml" 108 3677 3702
+type(
+  (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 107 3645 3654 "plugins/subtac/subtac_pretyping.ml" 108 3677 3703
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 106 3600 3607 "plugins/subtac/subtac_pretyping.ml" 108 3677 3703
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 105 3550 3568 "plugins/subtac/subtac_pretyping.ml" 108 3677 3704
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list ->
+  Names.name Util.located ->
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 109 3705 3711 "plugins/subtac/subtac_pretyping.ml" 109 3705 3714
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 95 3062 3078 "plugins/subtac/subtac_pretyping.ml" 95 3062 3081
+)
+"plugins/subtac/subtac_pretyping.ml" 109 3705 3716 "plugins/subtac/subtac_pretyping.ml" 109 3705 3720
+type(
+  (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  int_ref rels "plugins/subtac/subtac_pretyping.ml" 95 3062 3083 "plugins/subtac/subtac_pretyping.ml" 95 3062 3087
+)
+"plugins/subtac/subtac_pretyping.ml" 109 3705 3710 "plugins/subtac/subtac_pretyping.ml" 109 3705 3721
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 109 3705 3722 "plugins/subtac/subtac_pretyping.ml" 109 3705 3724
+type(
+  Names.name Util.located list
+)
+ident(
+  int_ref bl "plugins/subtac/subtac_pretyping.ml" 101 3375 3406 "plugins/subtac/subtac_pretyping.ml" 101 3375 3408
+)
+"plugins/subtac/subtac_pretyping.ml" 105 3550 3553 "plugins/subtac/subtac_pretyping.ml" 109 3705 3724
+call(
+  stack
+)
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 110 3725 3729 "plugins/subtac/subtac_pretyping.ml" 110 3725 3732
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list ->
+  Topconstr.local_binder list ->
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  int_ref aux "plugins/subtac/subtac_pretyping.ml" 95 3062 3072 "plugins/subtac/subtac_pretyping.ml" 95 3062 3075
+)
+"plugins/subtac/subtac_pretyping.ml" 110 3725 3733 "plugins/subtac/subtac_pretyping.ml" 110 3725 3736
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  int_ref acc "plugins/subtac/subtac_pretyping.ml" 104 3539 3544 "plugins/subtac/subtac_pretyping.ml" 104 3539 3547
+)
+"plugins/subtac/subtac_pretyping.ml" 110 3725 3737 "plugins/subtac/subtac_pretyping.ml" 110 3725 3739
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref tl "plugins/subtac/subtac_pretyping.ml" 101 3375 3421 "plugins/subtac/subtac_pretyping.ml" 101 3375 3423
+)
+"plugins/subtac/subtac_pretyping.ml" 110 3725 3729 "plugins/subtac/subtac_pretyping.ml" 110 3725 3739
+call(
+  tail
+)
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 104 3539 3540 "plugins/subtac/subtac_pretyping.ml" 110 3725 3739
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 103 3476 3477 "plugins/subtac/subtac_pretyping.ml" 110 3725 3739
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 102 3427 3428 "plugins/subtac/subtac_pretyping.ml" 110 3725 3739
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 111 3740 3746 "plugins/subtac/subtac_pretyping.ml" 111 3740 3748
+type(
+  Topconstr.local_binder list
+)
+"plugins/subtac/subtac_pretyping.ml" 111 3740 3752 "plugins/subtac/subtac_pretyping.ml" 111 3740 3755
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  int_ref acc "plugins/subtac/subtac_pretyping.ml" 95 3062 3076 "plugins/subtac/subtac_pretyping.ml" 95 3062 3096
+)
+"plugins/subtac/subtac_pretyping.ml" 95 3062 3099 "plugins/subtac/subtac_pretyping.ml" 111 3740 3755
+type(
+  Topconstr.local_binder list ->
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 112 3756 3761 "plugins/subtac/subtac_pretyping.ml" 112 3756 3764
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list ->
+  Topconstr.local_binder list ->
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+ident(
+  int_ref aux "plugins/subtac/subtac_pretyping.ml" 95 3062 3072 "plugins/subtac/subtac_pretyping.ml" 95 3062 3075
+)
+"plugins/subtac/subtac_pretyping.ml" 112 3756 3766 "plugins/subtac/subtac_pretyping.ml" 112 3756 3769
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 94 3025 3046 "plugins/subtac/subtac_pretyping.ml" 94 3025 3049
+)
+"plugins/subtac/subtac_pretyping.ml" 112 3756 3771 "plugins/subtac/subtac_pretyping.ml" 112 3756 3773
+type(
+  (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 112 3756 3765 "plugins/subtac/subtac_pretyping.ml" 112 3756 3774
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 112 3756 3775 "plugins/subtac/subtac_pretyping.ml" 112 3756 3776
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref l "plugins/subtac/subtac_pretyping.ml" 94 3025 3058 "plugins/subtac/subtac_pretyping.ml" 94 3025 3059
+)
+"plugins/subtac/subtac_pretyping.ml" 112 3756 3761 "plugins/subtac/subtac_pretyping.ml" 112 3756 3776
+call(
+  tail
+)
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 95 3062 3064 "plugins/subtac/subtac_pretyping.ml" 112 3756 3776
+type(
+  Environ.env * (Names.name * Term.constr option * Term.constr) list
+)
+"plugins/subtac/subtac_pretyping.ml" 114 3778 3782 "plugins/subtac/subtac_pretyping.ml" 114 3778 3796
+type(
+  ?is_type:bool ->
+  Environ.env ->
+  Evd.evar_map ref ->
+  'a ->
+  Topconstr.local_binder list ->
+  Topconstr.constr_expr ->
+  Topconstr.constr_expr option ->
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+ident(
+  def subtac_process "plugins/subtac/subtac_pretyping.ml" 136 4611 4611 --
+)
+"plugins/subtac/subtac_pretyping.ml" 114 3778 3799 "plugins/subtac/subtac_pretyping.ml" 114 3778 3806
+type(
+  bool
+)
+"plugins/subtac/subtac_pretyping.ml" 114 3778 3807 "plugins/subtac/subtac_pretyping.ml" 114 3778 3812
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "plugins/subtac/subtac_pretyping.ml" 114 3778 3807 "plugins/subtac/subtac_pretyping.ml" 114 3778 3812
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "plugins/subtac/subtac_pretyping.ml" 114 3778 3807 "plugins/subtac/subtac_pretyping.ml" 114 3778 3812
+)
+"plugins/subtac/subtac_pretyping.ml" 114 3778 3814 "plugins/subtac/subtac_pretyping.ml" 114 3778 3817
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac_pretyping.ml" 114 3778 3818 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+)
+"plugins/subtac/subtac_pretyping.ml" 114 3778 3818 "plugins/subtac/subtac_pretyping.ml" 114 3778 3825
+type(
+  Evd.evar_map ref
+)
+ident(
+  def isevars "plugins/subtac/subtac_pretyping.ml" 114 3778 3826 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+)
+"plugins/subtac/subtac_pretyping.ml" 114 3778 3826 "plugins/subtac/subtac_pretyping.ml" 114 3778 3828
+type(
+  'a
+)
+ident(
+  def id "plugins/subtac/subtac_pretyping.ml" 114 3778 3829 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+)
+"plugins/subtac/subtac_pretyping.ml" 114 3778 3829 "plugins/subtac/subtac_pretyping.ml" 114 3778 3831
+type(
+  Topconstr.local_binder list
+)
+ident(
+  def bl "plugins/subtac/subtac_pretyping.ml" 114 3778 3832 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+)
+"plugins/subtac/subtac_pretyping.ml" 114 3778 3832 "plugins/subtac/subtac_pretyping.ml" 114 3778 3833
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def c "plugins/subtac/subtac_pretyping.ml" 114 3778 3834 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+)
+"plugins/subtac/subtac_pretyping.ml" 114 3778 3834 "plugins/subtac/subtac_pretyping.ml" 114 3778 3839
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  def tycon "plugins/subtac/subtac_pretyping.ml" 115 3842 3844 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+)
+"plugins/subtac/subtac_pretyping.ml" 115 3842 3848 "plugins/subtac/subtac_pretyping.ml" 115 3842 3849
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/subtac_pretyping.ml" 115 3842 3852 "plugins/subtac/subtac_pretyping.ml" 115 3842 3882
+type(
+  Topconstr.constr_expr ->
+  Topconstr.local_binder list -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Topconstr.abstract_constr_expr
+)
+"plugins/subtac/subtac_pretyping.ml" 115 3842 3883 "plugins/subtac/subtac_pretyping.ml" 115 3842 3884
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref c "plugins/subtac/subtac_pretyping.ml" 114 3778 3832 "plugins/subtac/subtac_pretyping.ml" 114 3778 3833
+)
+"plugins/subtac/subtac_pretyping.ml" 115 3842 3885 "plugins/subtac/subtac_pretyping.ml" 115 3842 3887
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref bl "plugins/subtac/subtac_pretyping.ml" 114 3778 3829 "plugins/subtac/subtac_pretyping.ml" 114 3778 3831
+)
+"plugins/subtac/subtac_pretyping.ml" 115 3842 3852 "plugins/subtac/subtac_pretyping.ml" 115 3842 3887
+call(
+  stack
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/subtac_pretyping.ml" 116 3891 3897 "plugins/subtac/subtac_pretyping.ml" 116 3891 3902
+type(
+  Evarutil.type_constraint
+)
+"plugins/subtac/subtac_pretyping.ml" 116 3891 3904 "plugins/subtac/subtac_pretyping.ml" 116 3891 3908
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 116 3891 3897 "plugins/subtac/subtac_pretyping.ml" 116 3891 3908
+type(
+  Evarutil.type_constraint *
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 117 3911 3921 "plugins/subtac/subtac_pretyping.ml" 117 3911 3926
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  int_ref tycon "plugins/subtac/subtac_pretyping.ml" 114 3778 3834 "plugins/subtac/subtac_pretyping.ml" 114 3778 3839
+)
+"plugins/subtac/subtac_pretyping.ml" 118 3932 3933 "plugins/subtac/subtac_pretyping.ml" 118 3932 3937
+type(
+  Topconstr.constr_expr option
+)
+"plugins/subtac/subtac_pretyping.ml" 118 3932 3941 "plugins/subtac/subtac_pretyping.ml" 118 3932 3952
+type(
+  Evarutil.type_constraint
+)
+ident(
+  ext_ref Evarutil.empty_tycon
+)
+"plugins/subtac/subtac_pretyping.ml" 118 3932 3954 "plugins/subtac/subtac_pretyping.ml" 118 3932 3958
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 118 3932 3941 "plugins/subtac/subtac_pretyping.ml" 118 3932 3958
+type(
+  Evarutil.type_constraint *
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 119 3959 3972 "plugins/subtac/subtac_pretyping.ml" 119 3959 3973
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def t "plugins/subtac/subtac_pretyping.ml" 120 3977 3980 "plugins/subtac/subtac_pretyping.ml" 124 4184 4213
+)
+"plugins/subtac/subtac_pretyping.ml" 119 3959 3967 "plugins/subtac/subtac_pretyping.ml" 119 3959 3973
+type(
+  Topconstr.constr_expr option
+)
+"plugins/subtac/subtac_pretyping.ml" 120 3977 3984 "plugins/subtac/subtac_pretyping.ml" 120 3977 3985
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/subtac_pretyping.ml" 120 3977 3988 "plugins/subtac/subtac_pretyping.ml" 120 3977 4014
+type(
+  Topconstr.constr_expr ->
+  Topconstr.local_binder list -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Topconstr.prod_constr_expr
+)
+"plugins/subtac/subtac_pretyping.ml" 120 3977 4015 "plugins/subtac/subtac_pretyping.ml" 120 3977 4016
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/subtac/subtac_pretyping.ml" 119 3959 3972 "plugins/subtac/subtac_pretyping.ml" 119 3959 3973
+)
+"plugins/subtac/subtac_pretyping.ml" 120 3977 4017 "plugins/subtac/subtac_pretyping.ml" 120 3977 4019
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref bl "plugins/subtac/subtac_pretyping.ml" 114 3778 3829 "plugins/subtac/subtac_pretyping.ml" 114 3778 3831
+)
+"plugins/subtac/subtac_pretyping.ml" 120 3977 3988 "plugins/subtac/subtac_pretyping.ml" 120 3977 4019
+call(
+  stack
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/subtac_pretyping.ml" 121 4023 4030 "plugins/subtac/subtac_pretyping.ml" 121 4023 4031
+type(
+  Rawterm.rawconstr
+)
+"plugins/subtac/subtac_pretyping.ml" 121 4023 4034 "plugins/subtac/subtac_pretyping.ml" 121 4023 4048
+type(
+  Evd.evar_map -> Environ.env -> Topconstr.constr_expr -> Rawterm.rawconstr
+)
+ident(
+  int_ref coqintern_type "plugins/subtac/subtac_pretyping.ml" 91 2914 2918 "plugins/subtac/subtac_pretyping.ml" 91 2914 2932
+)
+"plugins/subtac/subtac_pretyping.ml" 121 4023 4049 "plugins/subtac/subtac_pretyping.ml" 121 4023 4050
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/subtac_pretyping.ml" 121 4023 4050 "plugins/subtac/subtac_pretyping.ml" 121 4023 4057
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 114 3778 3818 "plugins/subtac/subtac_pretyping.ml" 114 3778 3825
+)
+"plugins/subtac/subtac_pretyping.ml" 121 4023 4049 "plugins/subtac/subtac_pretyping.ml" 121 4023 4057
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 121 4023 4058 "plugins/subtac/subtac_pretyping.ml" 121 4023 4061
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 114 3778 3814 "plugins/subtac/subtac_pretyping.ml" 114 3778 3817
+)
+"plugins/subtac/subtac_pretyping.ml" 121 4023 4062 "plugins/subtac/subtac_pretyping.ml" 121 4023 4063
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/subtac/subtac_pretyping.ml" 120 3977 3984 "plugins/subtac/subtac_pretyping.ml" 120 3977 3985
+)
+"plugins/subtac/subtac_pretyping.ml" 121 4023 4034 "plugins/subtac/subtac_pretyping.ml" 121 4023 4063
+call(
+  stack
+)
+type(
+  Rawterm.rawconstr
+)
+"plugins/subtac/subtac_pretyping.ml" 122 4067 4074 "plugins/subtac/subtac_pretyping.ml" 122 4067 4078
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 122 4067 4081 "plugins/subtac/subtac_pretyping.ml" 122 4067 4122
+type(
+  ?with_products:bool ->
+  Rawterm.rawconstr -> (Topconstr.explicitation * (bool * bool * bool)) list
+)
+ident(
+  ext_ref Implicit_quantifiers.implicits_of_rawterm
+)
+"plugins/subtac/subtac_pretyping.ml" 122 4067 4123 "plugins/subtac/subtac_pretyping.ml" 122 4067 4124
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref t "plugins/subtac/subtac_pretyping.ml" 121 4023 4030 "plugins/subtac/subtac_pretyping.ml" 121 4023 4031
+)
+"plugins/subtac/subtac_pretyping.ml" 122 4067 4081 "plugins/subtac/subtac_pretyping.ml" 122 4067 4124
+call(
+  stack
+)
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 123 4128 4135 "plugins/subtac/subtac_pretyping.ml" 123 4128 4139
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 123 4128 4141 "plugins/subtac/subtac_pretyping.ml" 123 4128 4145
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 123 4128 4135 "plugins/subtac/subtac_pretyping.ml" 123 4128 4145
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 123 4128 4148 "plugins/subtac/subtac_pretyping.ml" 123 4128 4154
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  Rawterm.rawconstr -> Evarutil.type_constraint -> Term.constr * Term.constr
+)
+ident(
+  int_ref interp "plugins/subtac/subtac_pretyping.ml" 70 2086 2090 "plugins/subtac/subtac_pretyping.ml" 70 2086 2096
+)
+"plugins/subtac/subtac_pretyping.ml" 123 4128 4155 "plugins/subtac/subtac_pretyping.ml" 123 4128 4158
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 114 3778 3814 "plugins/subtac/subtac_pretyping.ml" 114 3778 3817
+)
+"plugins/subtac/subtac_pretyping.ml" 123 4128 4159 "plugins/subtac/subtac_pretyping.ml" 123 4128 4166
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 114 3778 3818 "plugins/subtac/subtac_pretyping.ml" 114 3778 3825
+)
+"plugins/subtac/subtac_pretyping.ml" 123 4128 4167 "plugins/subtac/subtac_pretyping.ml" 123 4128 4168
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref t "plugins/subtac/subtac_pretyping.ml" 121 4023 4030 "plugins/subtac/subtac_pretyping.ml" 121 4023 4031
+)
+"plugins/subtac/subtac_pretyping.ml" 123 4128 4169 "plugins/subtac/subtac_pretyping.ml" 123 4128 4180
+type(
+  Evarutil.type_constraint
+)
+ident(
+  ext_ref Evarutil.empty_tycon
+)
+"plugins/subtac/subtac_pretyping.ml" 123 4128 4148 "plugins/subtac/subtac_pretyping.ml" 123 4128 4180
+call(
+  stack
+)
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 124 4184 4189 "plugins/subtac/subtac_pretyping.ml" 124 4184 4197
+type(
+  Term.constr -> Evarutil.type_constraint
+)
+ident(
+  ext_ref Evarutil.mk_tycon
+)
+"plugins/subtac/subtac_pretyping.ml" 124 4184 4198 "plugins/subtac/subtac_pretyping.ml" 124 4184 4202
+type(
+  Term.constr
+)
+ident(
+  int_ref coqt "plugins/subtac/subtac_pretyping.ml" 123 4128 4135 "plugins/subtac/subtac_pretyping.ml" 123 4128 4139
+)
+"plugins/subtac/subtac_pretyping.ml" 124 4184 4189 "plugins/subtac/subtac_pretyping.ml" 124 4184 4202
+call(
+  stack
+)
+type(
+  Evarutil.type_constraint
+)
+"plugins/subtac/subtac_pretyping.ml" 124 4184 4209 "plugins/subtac/subtac_pretyping.ml" 124 4184 4213
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+ident(
+  int_ref imps "plugins/subtac/subtac_pretyping.ml" 122 4067 4074 "plugins/subtac/subtac_pretyping.ml" 122 4067 4078
+)
+"plugins/subtac/subtac_pretyping.ml" 124 4184 4204 "plugins/subtac/subtac_pretyping.ml" 124 4184 4213
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 124 4184 4189 "plugins/subtac/subtac_pretyping.ml" 124 4184 4213
+type(
+  Evarutil.type_constraint *
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 123 4128 4131 "plugins/subtac/subtac_pretyping.ml" 124 4184 4213
+type(
+  Evarutil.type_constraint *
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 122 4067 4070 "plugins/subtac/subtac_pretyping.ml" 124 4184 4213
+type(
+  Evarutil.type_constraint *
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 121 4023 4026 "plugins/subtac/subtac_pretyping.ml" 124 4184 4213
+type(
+  Evarutil.type_constraint *
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 120 3977 3980 "plugins/subtac/subtac_pretyping.ml" 124 4184 4213
+type(
+  Evarutil.type_constraint *
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 117 3911 3915 "plugins/subtac/subtac_pretyping.ml" 124 4184 4213
+type(
+  Evarutil.type_constraint *
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 126 4219 4225 "plugins/subtac/subtac_pretyping.ml" 126 4219 4226
+type(
+  Rawterm.rawconstr
+)
+"plugins/subtac/subtac_pretyping.ml" 126 4219 4229 "plugins/subtac/subtac_pretyping.ml" 126 4219 4245
+type(
+  Evd.evar_map -> Environ.env -> Topconstr.constr_expr -> Rawterm.rawconstr
+)
+ident(
+  int_ref coqintern_constr "plugins/subtac/subtac_pretyping.ml" 89 2800 2804 "plugins/subtac/subtac_pretyping.ml" 89 2800 2820
+)
+"plugins/subtac/subtac_pretyping.ml" 126 4219 4246 "plugins/subtac/subtac_pretyping.ml" 126 4219 4247
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/subtac_pretyping.ml" 126 4219 4247 "plugins/subtac/subtac_pretyping.ml" 126 4219 4254
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 114 3778 3818 "plugins/subtac/subtac_pretyping.ml" 114 3778 3825
+)
+"plugins/subtac/subtac_pretyping.ml" 126 4219 4246 "plugins/subtac/subtac_pretyping.ml" 126 4219 4254
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 126 4219 4255 "plugins/subtac/subtac_pretyping.ml" 126 4219 4258
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 114 3778 3814 "plugins/subtac/subtac_pretyping.ml" 114 3778 3817
+)
+"plugins/subtac/subtac_pretyping.ml" 126 4219 4259 "plugins/subtac/subtac_pretyping.ml" 126 4219 4260
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref c "plugins/subtac/subtac_pretyping.ml" 115 3842 3848 "plugins/subtac/subtac_pretyping.ml" 115 3842 3849
+)
+"plugins/subtac/subtac_pretyping.ml" 126 4219 4229 "plugins/subtac/subtac_pretyping.ml" 126 4219 4260
+call(
+  stack
+)
+type(
+  Rawterm.rawconstr
+)
+"plugins/subtac/subtac_pretyping.ml" 127 4264 4270 "plugins/subtac/subtac_pretyping.ml" 127 4264 4274
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 127 4264 4283 "plugins/subtac/subtac_pretyping.ml" 127 4264 4287
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+ident(
+  int_ref imps "plugins/subtac/subtac_pretyping.ml" 116 3891 3904 "plugins/subtac/subtac_pretyping.ml" 116 3891 3908
+)
+"plugins/subtac/subtac_pretyping.ml" 128 4294 4305 "plugins/subtac/subtac_pretyping.ml" 128 4294 4306
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+ident(
+  def i "plugins/subtac/subtac_pretyping.ml" 128 4294 4310 "plugins/subtac/subtac_pretyping.ml" 128 4294 4311
+)
+"plugins/subtac/subtac_pretyping.ml" 128 4294 4300 "plugins/subtac/subtac_pretyping.ml" 128 4294 4306
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 128 4294 4310 "plugins/subtac/subtac_pretyping.ml" 128 4294 4311
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+ident(
+  int_ref i "plugins/subtac/subtac_pretyping.ml" 128 4294 4305 "plugins/subtac/subtac_pretyping.ml" 128 4294 4306
+)
+"plugins/subtac/subtac_pretyping.ml" 129 4312 4318 "plugins/subtac/subtac_pretyping.ml" 129 4312 4322
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list option
+)
+"plugins/subtac/subtac_pretyping.ml" 129 4312 4326 "plugins/subtac/subtac_pretyping.ml" 129 4312 4367
+type(
+  ?with_products:bool ->
+  Rawterm.rawconstr -> (Topconstr.explicitation * (bool * bool * bool)) list
+)
+ident(
+  ext_ref Implicit_quantifiers.implicits_of_rawterm
+)
+"plugins/subtac/subtac_pretyping.ml" 129 4312 4383 "plugins/subtac/subtac_pretyping.ml" 129 4312 4390
+type(
+  bool
+)
+ident(
+  int_ref is_type "plugins/subtac/subtac_pretyping.ml" 114 3778 3799 "plugins/subtac/subtac_pretyping.ml" 114 3778 3806
+)
+"plugins/subtac/subtac_pretyping.ml" 129 4312 4391 "plugins/subtac/subtac_pretyping.ml" 129 4312 4392
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref c "plugins/subtac/subtac_pretyping.ml" 126 4219 4225 "plugins/subtac/subtac_pretyping.ml" 126 4219 4226
+)
+"plugins/subtac/subtac_pretyping.ml" 129 4312 4326 "plugins/subtac/subtac_pretyping.ml" 129 4312 4392
+call(
+  stack
+)
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 127 4264 4277 "plugins/subtac/subtac_pretyping.ml" 129 4312 4392
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 131 4398 4404 "plugins/subtac/subtac_pretyping.ml" 131 4398 4408
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 131 4398 4410 "plugins/subtac/subtac_pretyping.ml" 131 4398 4414
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 131 4398 4404 "plugins/subtac/subtac_pretyping.ml" 131 4398 4414
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 131 4398 4417 "plugins/subtac/subtac_pretyping.ml" 131 4398 4423
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  Rawterm.rawconstr -> Evarutil.type_constraint -> Term.constr * Term.constr
+)
+ident(
+  int_ref interp "plugins/subtac/subtac_pretyping.ml" 70 2086 2090 "plugins/subtac/subtac_pretyping.ml" 70 2086 2096
+)
+"plugins/subtac/subtac_pretyping.ml" 131 4398 4424 "plugins/subtac/subtac_pretyping.ml" 131 4398 4427
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 114 3778 3814 "plugins/subtac/subtac_pretyping.ml" 114 3778 3817
+)
+"plugins/subtac/subtac_pretyping.ml" 131 4398 4428 "plugins/subtac/subtac_pretyping.ml" 131 4398 4435
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 114 3778 3818 "plugins/subtac/subtac_pretyping.ml" 114 3778 3825
+)
+"plugins/subtac/subtac_pretyping.ml" 131 4398 4436 "plugins/subtac/subtac_pretyping.ml" 131 4398 4437
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref c "plugins/subtac/subtac_pretyping.ml" 126 4219 4225 "plugins/subtac/subtac_pretyping.ml" 126 4219 4226
+)
+"plugins/subtac/subtac_pretyping.ml" 131 4398 4438 "plugins/subtac/subtac_pretyping.ml" 131 4398 4443
+type(
+  Evarutil.type_constraint
+)
+ident(
+  int_ref tycon "plugins/subtac/subtac_pretyping.ml" 116 3891 3897 "plugins/subtac/subtac_pretyping.ml" 116 3891 3902
+)
+"plugins/subtac/subtac_pretyping.ml" 131 4398 4417 "plugins/subtac/subtac_pretyping.ml" 131 4398 4443
+call(
+  stack
+)
+type(
+  Term.constr * Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 132 4447 4453 "plugins/subtac/subtac_pretyping.ml" 132 4447 4456
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 132 4447 4459 "plugins/subtac/subtac_pretyping.ml" 132 4447 4479
+type(
+  Environ.env -> Evd.evar_map ref -> Evd.evar_map -> Evd.evar_map
+)
+ident(
+  ext_ref Subtac_utils.non_instanciated_map
+)
+"plugins/subtac/subtac_pretyping.ml" 132 4447 4480 "plugins/subtac/subtac_pretyping.ml" 132 4447 4483
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 114 3778 3814 "plugins/subtac/subtac_pretyping.ml" 114 3778 3817
+)
+"plugins/subtac/subtac_pretyping.ml" 132 4447 4484 "plugins/subtac/subtac_pretyping.ml" 132 4447 4491
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 114 3778 3818 "plugins/subtac/subtac_pretyping.ml" 114 3778 3825
+)
+"plugins/subtac/subtac_pretyping.ml" 132 4447 4492 "plugins/subtac/subtac_pretyping.ml" 132 4447 4493
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/subtac_pretyping.ml" 132 4447 4493 "plugins/subtac/subtac_pretyping.ml" 132 4447 4500
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 114 3778 3818 "plugins/subtac/subtac_pretyping.ml" 114 3778 3825
+)
+"plugins/subtac/subtac_pretyping.ml" 132 4447 4492 "plugins/subtac/subtac_pretyping.ml" 132 4447 4500
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 132 4447 4459 "plugins/subtac/subtac_pretyping.ml" 132 4447 4500
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4510 "plugins/subtac/subtac_pretyping.ml" 133 4504 4512
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4515 "plugins/subtac/subtac_pretyping.ml" 133 4504 4522
+type(
+  Evd.evar_map -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Pretype_errors.nf_evar
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4523 "plugins/subtac/subtac_pretyping.ml" 133 4504 4524
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4524 "plugins/subtac/subtac_pretyping.ml" 133 4504 4531
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 114 3778 3818 "plugins/subtac/subtac_pretyping.ml" 114 3778 3825
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4523 "plugins/subtac/subtac_pretyping.ml" 133 4504 4531
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4539 "plugins/subtac/subtac_pretyping.ml" 133 4504 4544
+type(
+  Evarutil.type_constraint
+)
+ident(
+  int_ref tycon "plugins/subtac/subtac_pretyping.ml" 116 3891 3897 "plugins/subtac/subtac_pretyping.ml" 116 3891 3902
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4556 "plugins/subtac/subtac_pretyping.ml" 133 4504 4560
+type(
+  (int * int) option
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4562 "plugins/subtac/subtac_pretyping.ml" 133 4504 4563
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/subtac/subtac_pretyping.ml" 133 4504 4568 "plugins/subtac/subtac_pretyping.ml" 133 4504 4569
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4555 "plugins/subtac/subtac_pretyping.ml" 133 4504 4564
+type(
+  Evarutil.type_constraint_type
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4550 "plugins/subtac/subtac_pretyping.ml" 133 4504 4564
+type(
+  Evarutil.type_constraint
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4568 "plugins/subtac/subtac_pretyping.ml" 133 4504 4569
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/subtac/subtac_pretyping.ml" 133 4504 4562 "plugins/subtac/subtac_pretyping.ml" 133 4504 4563
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4572 "plugins/subtac/subtac_pretyping.ml" 133 4504 4573
+type(
+  Evarutil.type_constraint
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4577 "plugins/subtac/subtac_pretyping.ml" 133 4504 4581
+type(
+  Term.constr
+)
+ident(
+  int_ref ctyp "plugins/subtac/subtac_pretyping.ml" 131 4398 4410 "plugins/subtac/subtac_pretyping.ml" 131 4398 4414
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4532 "plugins/subtac/subtac_pretyping.ml" 133 4504 4582
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4515 "plugins/subtac/subtac_pretyping.ml" 133 4504 4582
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 134 4586 4590 "plugins/subtac/subtac_pretyping.ml" 134 4586 4593
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/subtac_pretyping.ml" 132 4447 4453 "plugins/subtac/subtac_pretyping.ml" 132 4447 4456
+)
+"plugins/subtac/subtac_pretyping.ml" 134 4586 4595 "plugins/subtac/subtac_pretyping.ml" 134 4586 4599
+type(
+  Term.constr
+)
+ident(
+  int_ref coqc "plugins/subtac/subtac_pretyping.ml" 131 4398 4404 "plugins/subtac/subtac_pretyping.ml" 131 4398 4408
+)
+"plugins/subtac/subtac_pretyping.ml" 134 4586 4601 "plugins/subtac/subtac_pretyping.ml" 134 4586 4603
+type(
+  Term.constr
+)
+ident(
+  int_ref ty "plugins/subtac/subtac_pretyping.ml" 133 4504 4510 "plugins/subtac/subtac_pretyping.ml" 133 4504 4512
+)
+"plugins/subtac/subtac_pretyping.ml" 134 4586 4605 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+ident(
+  int_ref imps "plugins/subtac/subtac_pretyping.ml" 127 4264 4270 "plugins/subtac/subtac_pretyping.ml" 127 4264 4274
+)
+"plugins/subtac/subtac_pretyping.ml" 134 4586 4590 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+type(
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 133 4504 4506 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+type(
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 132 4447 4449 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+type(
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 131 4398 4400 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+type(
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 127 4264 4266 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+type(
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 126 4219 4221 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+type(
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 116 3891 3893 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+type(
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 115 3842 3844 "plugins/subtac/subtac_pretyping.ml" 134 4586 4609
+type(
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 138 4636 4640 "plugins/subtac/subtac_pretyping.ml" 138 4636 4652
+type(
+  Decl_kinds.definition_kind ->
+  Tacexpr.declaration_hook ->
+  Environ.env ->
+  Evd.evar_map ref ->
+  Names.identifier ->
+  Topconstr.local_binder list ->
+  Topconstr.constr_expr ->
+  Topconstr.constr_expr option -> Subtac_obligations.progress
+)
+ident(
+  def subtac_proof "plugins/subtac/subtac_pretyping.ml" 143 4970 5038 --
+)
+"plugins/subtac/subtac_pretyping.ml" 138 4636 4653 "plugins/subtac/subtac_pretyping.ml" 138 4636 4657
+type(
+  Decl_kinds.definition_kind
+)
+ident(
+  def kind "plugins/subtac/subtac_pretyping.ml" 138 4636 4658 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+)
+"plugins/subtac/subtac_pretyping.ml" 138 4636 4658 "plugins/subtac/subtac_pretyping.ml" 138 4636 4662
+type(
+  Tacexpr.declaration_hook
+)
+ident(
+  def hook "plugins/subtac/subtac_pretyping.ml" 138 4636 4663 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+)
+"plugins/subtac/subtac_pretyping.ml" 138 4636 4663 "plugins/subtac/subtac_pretyping.ml" 138 4636 4666
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac_pretyping.ml" 138 4636 4667 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+)
+"plugins/subtac/subtac_pretyping.ml" 138 4636 4667 "plugins/subtac/subtac_pretyping.ml" 138 4636 4674
+type(
+  Evd.evar_map ref
+)
+ident(
+  def isevars "plugins/subtac/subtac_pretyping.ml" 138 4636 4675 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+)
+"plugins/subtac/subtac_pretyping.ml" 138 4636 4675 "plugins/subtac/subtac_pretyping.ml" 138 4636 4677
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/subtac/subtac_pretyping.ml" 138 4636 4678 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+)
+"plugins/subtac/subtac_pretyping.ml" 138 4636 4678 "plugins/subtac/subtac_pretyping.ml" 138 4636 4680
+type(
+  Topconstr.local_binder list
+)
+ident(
+  def bl "plugins/subtac/subtac_pretyping.ml" 138 4636 4681 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+)
+"plugins/subtac/subtac_pretyping.ml" 138 4636 4681 "plugins/subtac/subtac_pretyping.ml" 138 4636 4682
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def c "plugins/subtac/subtac_pretyping.ml" 138 4636 4683 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+)
+"plugins/subtac/subtac_pretyping.ml" 138 4636 4683 "plugins/subtac/subtac_pretyping.ml" 138 4636 4688
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  def tycon "plugins/subtac/subtac_pretyping.ml" 139 4691 4693 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4697 "plugins/subtac/subtac_pretyping.ml" 139 4691 4700
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4702 "plugins/subtac/subtac_pretyping.ml" 139 4691 4706
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4708 "plugins/subtac/subtac_pretyping.ml" 139 4691 4712
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4714 "plugins/subtac/subtac_pretyping.ml" 139 4691 4718
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4697 "plugins/subtac/subtac_pretyping.ml" 139 4691 4718
+type(
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4721 "plugins/subtac/subtac_pretyping.ml" 139 4691 4735
+type(
+  ?is_type:bool ->
+  Environ.env ->
+  Evd.evar_map ref ->
+  Names.identifier ->
+  Topconstr.local_binder list ->
+  Topconstr.constr_expr ->
+  Topconstr.constr_expr option ->
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+ident(
+  int_ref subtac_process "plugins/subtac/subtac_pretyping.ml" 114 3778 3782 "plugins/subtac/subtac_pretyping.ml" 114 3778 3796
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4736 "plugins/subtac/subtac_pretyping.ml" 139 4691 4739
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 138 4636 4663 "plugins/subtac/subtac_pretyping.ml" 138 4636 4666
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4740 "plugins/subtac/subtac_pretyping.ml" 139 4691 4747
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 138 4636 4667 "plugins/subtac/subtac_pretyping.ml" 138 4636 4674
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4748 "plugins/subtac/subtac_pretyping.ml" 139 4691 4750
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac_pretyping.ml" 138 4636 4675 "plugins/subtac/subtac_pretyping.ml" 138 4636 4677
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4751 "plugins/subtac/subtac_pretyping.ml" 139 4691 4753
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref bl "plugins/subtac/subtac_pretyping.ml" 138 4636 4678 "plugins/subtac/subtac_pretyping.ml" 138 4636 4680
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4754 "plugins/subtac/subtac_pretyping.ml" 139 4691 4755
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref c "plugins/subtac/subtac_pretyping.ml" 138 4636 4681 "plugins/subtac/subtac_pretyping.ml" 138 4636 4682
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4756 "plugins/subtac/subtac_pretyping.ml" 139 4691 4761
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  int_ref tycon "plugins/subtac/subtac_pretyping.ml" 138 4636 4683 "plugins/subtac/subtac_pretyping.ml" 138 4636 4688
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4721 "plugins/subtac/subtac_pretyping.ml" 139 4691 4761
+call(
+  stack
+)
+type(
+  Evd.evar_map * Term.constr * Term.constr *
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+"plugins/subtac/subtac_pretyping.ml" 140 4765 4771 "plugins/subtac/subtac_pretyping.ml" 140 4765 4775
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 140 4765 4778 "plugins/subtac/subtac_pretyping.ml" 140 4765 4804
+type(
+  Evd.evar_map -> Evd.evar_map -> Term.constr -> Evd.evar_map
+)
+ident(
+  ext_ref Subtac_utils.evars_of_term
+)
+"plugins/subtac/subtac_pretyping.ml" 140 4765 4805 "plugins/subtac/subtac_pretyping.ml" 140 4765 4808
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/subtac_pretyping.ml" 139 4691 4697 "plugins/subtac/subtac_pretyping.ml" 139 4691 4700
+)
+"plugins/subtac/subtac_pretyping.ml" 140 4765 4809 "plugins/subtac/subtac_pretyping.ml" 140 4765 4818
+type(
+  Evd.evar_map
+)
+ident(
+  ext_ref Evd.empty
+)
+"plugins/subtac/subtac_pretyping.ml" 140 4765 4819 "plugins/subtac/subtac_pretyping.ml" 140 4765 4823
+type(
+  Term.constr
+)
+ident(
+  int_ref coqc "plugins/subtac/subtac_pretyping.ml" 139 4691 4702 "plugins/subtac/subtac_pretyping.ml" 139 4691 4706
+)
+"plugins/subtac/subtac_pretyping.ml" 140 4765 4778 "plugins/subtac/subtac_pretyping.ml" 140 4765 4823
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 141 4827 4833 "plugins/subtac/subtac_pretyping.ml" 141 4827 4837
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 141 4827 4840 "plugins/subtac/subtac_pretyping.ml" 141 4827 4866
+type(
+  Evd.evar_map -> Evd.evar_map -> Term.constr -> Evd.evar_map
+)
+ident(
+  ext_ref Subtac_utils.evars_of_term
+)
+"plugins/subtac/subtac_pretyping.ml" 141 4827 4867 "plugins/subtac/subtac_pretyping.ml" 141 4827 4870
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/subtac_pretyping.ml" 139 4691 4697 "plugins/subtac/subtac_pretyping.ml" 139 4691 4700
+)
+"plugins/subtac/subtac_pretyping.ml" 141 4827 4871 "plugins/subtac/subtac_pretyping.ml" 141 4827 4875
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm' "plugins/subtac/subtac_pretyping.ml" 140 4765 4771 "plugins/subtac/subtac_pretyping.ml" 140 4765 4775
+)
+"plugins/subtac/subtac_pretyping.ml" 141 4827 4876 "plugins/subtac/subtac_pretyping.ml" 141 4827 4880
+type(
+  Term.constr
+)
+ident(
+  int_ref coqt "plugins/subtac/subtac_pretyping.ml" 139 4691 4708 "plugins/subtac/subtac_pretyping.ml" 139 4691 4712
+)
+"plugins/subtac/subtac_pretyping.ml" 141 4827 4840 "plugins/subtac/subtac_pretyping.ml" 141 4827 4880
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4890 "plugins/subtac/subtac_pretyping.ml" 142 4884 4895
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4897 "plugins/subtac/subtac_pretyping.ml" 142 4884 4898
+type(
+  (Term.existential_key * Names.identifier) list *
+  ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4900 "plugins/subtac/subtac_pretyping.ml" 142 4884 4903
+type(
+  Term.constr
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4905 "plugins/subtac/subtac_pretyping.ml" 142 4884 4907
+type(
+  Term.types
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4890 "plugins/subtac/subtac_pretyping.ml" 142 4884 4907
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.types
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4910 "plugins/subtac/subtac_pretyping.ml" 142 4884 4933
+type(
+  Environ.env ->
+  Names.identifier ->
+  Evd.evar_map ->
+  Evd.evar_map ->
+  int ->
+  ?status:Evd.obligation_definition_status ->
+  Term.constr ->
+  Term.types ->
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.types
+)
+ident(
+  ext_ref Eterm.eterm_obligations
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4934 "plugins/subtac/subtac_pretyping.ml" 142 4884 4937
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac_pretyping.ml" 138 4636 4663 "plugins/subtac/subtac_pretyping.ml" 138 4636 4666
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4938 "plugins/subtac/subtac_pretyping.ml" 142 4884 4940
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac_pretyping.ml" 138 4636 4675 "plugins/subtac/subtac_pretyping.ml" 138 4636 4677
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4941 "plugins/subtac/subtac_pretyping.ml" 142 4884 4942
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4942 "plugins/subtac/subtac_pretyping.ml" 142 4884 4949
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac_pretyping.ml" 138 4636 4667 "plugins/subtac/subtac_pretyping.ml" 138 4636 4674
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4941 "plugins/subtac/subtac_pretyping.ml" 142 4884 4949
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4950 "plugins/subtac/subtac_pretyping.ml" 142 4884 4954
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm' "plugins/subtac/subtac_pretyping.ml" 141 4827 4833 "plugins/subtac/subtac_pretyping.ml" 141 4827 4837
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4955 "plugins/subtac/subtac_pretyping.ml" 142 4884 4956
+type(
+  int
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4957 "plugins/subtac/subtac_pretyping.ml" 142 4884 4961
+type(
+  Term.constr
+)
+ident(
+  int_ref coqc "plugins/subtac/subtac_pretyping.ml" 139 4691 4702 "plugins/subtac/subtac_pretyping.ml" 139 4691 4706
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4962 "plugins/subtac/subtac_pretyping.ml" 142 4884 4966
+type(
+  Term.types
+)
+ident(
+  int_ref coqt "plugins/subtac/subtac_pretyping.ml" 139 4691 4708 "plugins/subtac/subtac_pretyping.ml" 139 4691 4712
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4910 "plugins/subtac/subtac_pretyping.ml" 142 4884 4966
+call(
+  stack
+)
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.types
+)
+"plugins/subtac/subtac_pretyping.ml" 143 4970 4974 "plugins/subtac/subtac_pretyping.ml" 143 4970 4988
+type(
+  Names.identifier ->
+  ?term:Term.constr ->
+  Term.types ->
+  ?implicits:(Topconstr.explicitation * (bool * bool * bool)) list ->
+  ?kind:Decl_kinds.definition_kind ->
+  ?tactic:Proof_type.tactic ->
+  ?reduce:(Term.constr -> Term.constr) ->
+  ?hook:Tacexpr.declaration_hook ->
+  Subtac_obligations.obligation_info -> Subtac_obligations.progress
+)
+ident(
+  ext_ref Subtac_obligations.add_definition
+)
+"plugins/subtac/subtac_pretyping.ml" 143 4970 4989 "plugins/subtac/subtac_pretyping.ml" 143 4970 4991
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac_pretyping.ml" 138 4636 4675 "plugins/subtac/subtac_pretyping.ml" 138 4636 4677
+)
+"plugins/subtac/subtac_pretyping.ml" 143 4970 4998 "plugins/subtac/subtac_pretyping.ml" 143 4970 5001
+type(
+  Term.constr
+)
+ident(
+  int_ref def "plugins/subtac/subtac_pretyping.ml" 142 4884 4900 "plugins/subtac/subtac_pretyping.ml" 142 4884 4903
+)
+"plugins/subtac/subtac_pretyping.ml" 143 4970 5002 "plugins/subtac/subtac_pretyping.ml" 143 4970 5004
+type(
+  Term.types
+)
+ident(
+  int_ref ty "plugins/subtac/subtac_pretyping.ml" 142 4884 4905 "plugins/subtac/subtac_pretyping.ml" 142 4884 4907
+)
+"plugins/subtac/subtac_pretyping.ml" 143 4970 5016 "plugins/subtac/subtac_pretyping.ml" 143 4970 5020
+type(
+  (Topconstr.explicitation * (bool * bool * bool)) list
+)
+ident(
+  int_ref imps "plugins/subtac/subtac_pretyping.ml" 139 4691 4714 "plugins/subtac/subtac_pretyping.ml" 139 4691 4718
+)
+"plugins/subtac/subtac_pretyping.ml" 143 4970 5022 "plugins/subtac/subtac_pretyping.ml" 143 4970 5026
+type(
+  Decl_kinds.definition_kind
+)
+ident(
+  int_ref kind "plugins/subtac/subtac_pretyping.ml" 138 4636 4653 "plugins/subtac/subtac_pretyping.ml" 138 4636 4657
+)
+"plugins/subtac/subtac_pretyping.ml" 143 4970 5028 "plugins/subtac/subtac_pretyping.ml" 143 4970 5032
+type(
+  Tacexpr.declaration_hook
+)
+ident(
+  int_ref hook "plugins/subtac/subtac_pretyping.ml" 138 4636 4658 "plugins/subtac/subtac_pretyping.ml" 138 4636 4662
+)
+"plugins/subtac/subtac_pretyping.ml" 143 4970 5033 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+type(
+  Subtac_obligations.obligation_info
+)
+ident(
+  int_ref evars "plugins/subtac/subtac_pretyping.ml" 142 4884 4890 "plugins/subtac/subtac_pretyping.ml" 142 4884 4895
+)
+"plugins/subtac/subtac_pretyping.ml" 143 4970 4974 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+call(
+  tail
+)
+type(
+  Subtac_obligations.progress
+)
+"plugins/subtac/subtac_pretyping.ml" 142 4884 4886 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+type(
+  Subtac_obligations.progress
+)
+"plugins/subtac/subtac_pretyping.ml" 141 4827 4829 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+type(
+  Subtac_obligations.progress
+)
+"plugins/subtac/subtac_pretyping.ml" 140 4765 4767 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+type(
+  Subtac_obligations.progress
+)
+"plugins/subtac/subtac_pretyping.ml" 139 4691 4693 "plugins/subtac/subtac_pretyping.ml" 143 4970 5038
+type(
+  Subtac_obligations.progress
+)

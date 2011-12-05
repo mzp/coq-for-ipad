@@ -1,0 +1,54 @@
+"plugins/setoid_ring/newring_plugin_mod.ml" 1 0 6 "plugins/setoid_ring/newring_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/setoid_ring/newring_plugin_mod.ml" 1 0 28 "plugins/setoid_ring/newring_plugin_mod.ml" 1 0 37
+type(
+  string
+)
+"plugins/setoid_ring/newring_plugin_mod.ml" 1 0 6 "plugins/setoid_ring/newring_plugin_mod.ml" 1 0 37
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/setoid_ring/newring_plugin_mod.ml" 2 39 45 "plugins/setoid_ring/newring_plugin_mod.ml" 2 39 67
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/setoid_ring/newring_plugin_mod.ml" 2 39 67 "plugins/setoid_ring/newring_plugin_mod.ml" 2 39 87
+type(
+  string
+)
+"plugins/setoid_ring/newring_plugin_mod.ml" 2 39 45 "plugins/setoid_ring/newring_plugin_mod.ml" 2 39 87
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/setoid_ring/newring_plugin_mod.ml" 3 89 95 "plugins/setoid_ring/newring_plugin_mod.ml" 3 89 117
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/setoid_ring/newring_plugin_mod.ml" 3 89 117 "plugins/setoid_ring/newring_plugin_mod.ml" 3 89 133
+type(
+  string
+)
+"plugins/setoid_ring/newring_plugin_mod.ml" 3 89 95 "plugins/setoid_ring/newring_plugin_mod.ml" 3 89 133
+call(
+  stack
+)
+type(
+  unit
+)

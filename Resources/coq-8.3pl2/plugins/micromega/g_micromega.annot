@@ -1,0 +1,2458 @@
+"plugins/micromega/g_micromega.ml4" 25 1126 1130 "plugins/micromega/g_micromega.ml4" 25 1126 1137
+type(
+  'a Rawterm.or_var -> 'a
+)
+ident(
+  def out_arg "plugins/micromega/g_micromega.ml4" 29 1222 1222 --
+)
+"plugins/micromega/g_micromega.ml4" 26 1149 1160 "plugins/micromega/g_micromega.ml4" 26 1149 1161
+type(
+  Names.identifier Util.located
+)
+"plugins/micromega/g_micromega.ml4" 26 1149 1153 "plugins/micromega/g_micromega.ml4" 26 1149 1161
+type(
+  'a Rawterm.or_var
+)
+"plugins/micromega/g_micromega.ml4" 26 1149 1165 "plugins/micromega/g_micromega.ml4" 26 1149 1172
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/micromega/g_micromega.ml4" 26 1149 1173 "plugins/micromega/g_micromega.ml4" 26 1149 1202
+type(
+  string
+)
+"plugins/micromega/g_micromega.ml4" 26 1149 1165 "plugins/micromega/g_micromega.ml4" 26 1149 1202
+call(
+  tail
+)
+type(
+  'a
+)
+"plugins/micromega/g_micromega.ml4" 27 1203 1214 "plugins/micromega/g_micromega.ml4" 27 1203 1215
+type(
+  'a
+)
+ident(
+  def x "plugins/micromega/g_micromega.ml4" 27 1203 1219 "plugins/micromega/g_micromega.ml4" 27 1203 1220
+)
+"plugins/micromega/g_micromega.ml4" 27 1203 1207 "plugins/micromega/g_micromega.ml4" 27 1203 1215
+type(
+  'a Rawterm.or_var
+)
+"plugins/micromega/g_micromega.ml4" 27 1203 1219 "plugins/micromega/g_micromega.ml4" 27 1203 1220
+type(
+  'a
+)
+ident(
+  int_ref x "plugins/micromega/g_micromega.ml4" 27 1203 1214 "plugins/micromega/g_micromega.ml4" 27 1203 1215
+)
+"plugins/micromega/g_micromega.ml4" 25 1126 1140 "plugins/micromega/g_micromega.ml4" 25 1126 1220
+type(
+  'a Rawterm.or_var -> 'a
+)
+"plugins/micromega/g_micromega.ml4" 30 1243 1257 "plugins/micromega/g_micromega.ml4" 30 1243 1270
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/micromega/g_micromega.ml4" 30 1243 1278 "plugins/micromega/g_micromega.ml4" 30 1243 1299
+type(
+  int -> Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatz_Z
+)
+"plugins/micromega/g_micromega.ml4" 30 1243 1301 "plugins/micromega/g_micromega.ml4" 30 1243 1308
+type(
+  int Rawterm.or_var -> int
+)
+ident(
+  int_ref out_arg "plugins/micromega/g_micromega.ml4" 25 1126 1130 "plugins/micromega/g_micromega.ml4" 25 1126 1137
+)
+"plugins/micromega/g_micromega.ml4" 30 1243 1309 "plugins/micromega/g_micromega.ml4" 30 1243 1310
+type(
+  int Rawterm.or_var
+)
+ident(
+  int_ref i "plugins/micromega/g_micromega.ml4" 30 1243 1257 "plugins/micromega/g_micromega.ml4" 30 1243 1311
+)
+"plugins/micromega/g_micromega.ml4" 30 1243 1301 "plugins/micromega/g_micromega.ml4" 30 1243 1310
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/micromega/g_micromega.ml4" 30 1243 1278 "plugins/micromega/g_micromega.ml4" 30 1243 1311
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/micromega/g_micromega.ml4" 30 1243 1257 "plugins/micromega/g_micromega.ml4" 30 1243 1311
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  int Rawterm.or_var
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref i "" -1 0 0 "" -1 0 0
+)
+type(
+  (int Rawterm.or_var, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_int_or_var
+)
+type(
+  (int Rawterm.or_var, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> int Rawterm.or_var
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  int Rawterm.or_var
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref i "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/micromega/g_micromega.ml4" 31 1314 1335 "plugins/micromega/g_micromega.ml4" 31 1314 1356
+type(
+  int -> Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatz_Z
+)
+"plugins/micromega/g_micromega.ml4" 31 1314 1358 "plugins/micromega/g_micromega.ml4" 31 1314 1360
+type(
+  int
+)
+"plugins/micromega/g_micromega.ml4" 31 1314 1335 "plugins/micromega/g_micromega.ml4" 31 1314 1361
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/micromega/g_micromega.ml4" 29 1222 1222 "plugins/micromega/g_micromega.ml4" 29 1222 1367
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/micromega/g_micromega.ml4" 29 1222 1222 "plugins/micromega/g_micromega.ml4" 29 1222 1367
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/micromega/g_micromega.ml4" 29 1222 1222 "plugins/micromega/g_micromega.ml4" 29 1222 1367
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 29 1222 1222 "plugins/micromega/g_micromega.ml4" 29 1222 1367
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 29 1222 1222 "plugins/micromega/g_micromega.ml4" 29 1222 1367
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/micromega/g_micromega.ml4" 29 1222 1222 "plugins/micromega/g_micromega.ml4" 29 1222 1367
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+"plugins/micromega/g_micromega.ml4" 35 1392 1409 "plugins/micromega/g_micromega.ml4" 35 1392 1427
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.xlia
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Coq_micromega.xlia
+)
+"plugins/micromega/g_micromega.ml4" 34 1369 1369 "plugins/micromega/g_micromega.ml4" 34 1369 1432
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/micromega/g_micromega.ml4" 34 1369 1369 "plugins/micromega/g_micromega.ml4" 34 1369 1432
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/micromega/g_micromega.ml4" 34 1369 1369 "plugins/micromega/g_micromega.ml4" 34 1369 1432
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 34 1369 1369 "plugins/micromega/g_micromega.ml4" 34 1369 1432
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 34 1369 1369 "plugins/micromega/g_micromega.ml4" 34 1369 1432
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/micromega/g_micromega.ml4" 34 1369 1369 "plugins/micromega/g_micromega.ml4" 34 1369 1432
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_ZOmicron "plugins/micromega/g_micromega.ml4" 34 1369 1369 --
+)
+"plugins/micromega/g_micromega.ml4" 40 1455 1474 "plugins/micromega/g_micromega.ml4" 40 1455 1493
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.sos_Z
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Coq_micromega.sos_Z
+)
+"plugins/micromega/g_micromega.ml4" 39 1435 1435 "plugins/micromega/g_micromega.ml4" 39 1435 1501
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/micromega/g_micromega.ml4" 39 1435 1435 "plugins/micromega/g_micromega.ml4" 39 1435 1501
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/micromega/g_micromega.ml4" 39 1435 1435 "plugins/micromega/g_micromega.ml4" 39 1435 1501
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 39 1435 1435 "plugins/micromega/g_micromega.ml4" 39 1435 1501
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 39 1435 1435 "plugins/micromega/g_micromega.ml4" 39 1435 1501
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/micromega/g_micromega.ml4" 39 1435 1435 "plugins/micromega/g_micromega.ml4" 39 1435 1501
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_Sos_Z "plugins/micromega/g_micromega.ml4" 39 1435 1435 --
+)
+"plugins/micromega/g_micromega.ml4" 44 1523 1542 "plugins/micromega/g_micromega.ml4" 44 1523 1561
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.sos_Q
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Coq_micromega.sos_Q
+)
+"plugins/micromega/g_micromega.ml4" 43 1503 1503 "plugins/micromega/g_micromega.ml4" 43 1503 1569
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/micromega/g_micromega.ml4" 43 1503 1503 "plugins/micromega/g_micromega.ml4" 43 1503 1569
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/micromega/g_micromega.ml4" 43 1503 1503 "plugins/micromega/g_micromega.ml4" 43 1503 1569
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 43 1503 1503 "plugins/micromega/g_micromega.ml4" 43 1503 1569
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 43 1503 1503 "plugins/micromega/g_micromega.ml4" 43 1503 1569
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/micromega/g_micromega.ml4" 43 1503 1503 "plugins/micromega/g_micromega.ml4" 43 1503 1569
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_Sos_Q "plugins/micromega/g_micromega.ml4" 43 1503 1503 --
+)
+"plugins/micromega/g_micromega.ml4" 48 1591 1610 "plugins/micromega/g_micromega.ml4" 48 1591 1629
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.sos_R
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Coq_micromega.sos_R
+)
+"plugins/micromega/g_micromega.ml4" 47 1571 1571 "plugins/micromega/g_micromega.ml4" 47 1571 1634
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/micromega/g_micromega.ml4" 47 1571 1571 "plugins/micromega/g_micromega.ml4" 47 1571 1634
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/micromega/g_micromega.ml4" 47 1571 1571 "plugins/micromega/g_micromega.ml4" 47 1571 1634
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 47 1571 1571 "plugins/micromega/g_micromega.ml4" 47 1571 1634
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 47 1571 1571 "plugins/micromega/g_micromega.ml4" 47 1571 1634
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/micromega/g_micromega.ml4" 47 1571 1571 "plugins/micromega/g_micromega.ml4" 47 1571 1634
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_Sos_R "plugins/micromega/g_micromega.ml4" 47 1571 1571 --
+)
+"plugins/micromega/g_micromega.ml4" 53 1659 1680 "plugins/micromega/g_micromega.ml4" 53 1659 1702
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatzl_Z
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatzl_Z
+)
+"plugins/micromega/g_micromega.ml4" 52 1637 1637 "plugins/micromega/g_micromega.ml4" 52 1637 1707
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/micromega/g_micromega.ml4" 52 1637 1637 "plugins/micromega/g_micromega.ml4" 52 1637 1707
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/micromega/g_micromega.ml4" 52 1637 1637 "plugins/micromega/g_micromega.ml4" 52 1637 1707
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 52 1637 1637 "plugins/micromega/g_micromega.ml4" 52 1637 1707
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 52 1637 1637 "plugins/micromega/g_micromega.ml4" 52 1637 1707
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/micromega/g_micromega.ml4" 52 1637 1637 "plugins/micromega/g_micromega.ml4" 52 1637 1707
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_Omicron "plugins/micromega/g_micromega.ml4" 52 1637 1637 --
+)
+"plugins/micromega/g_micromega.ml4" 57 1732 1753 "plugins/micromega/g_micromega.ml4" 57 1732 1775
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatzl_Q
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatzl_Q
+)
+"plugins/micromega/g_micromega.ml4" 56 1709 1709 "plugins/micromega/g_micromega.ml4" 56 1709 1780
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/micromega/g_micromega.ml4" 56 1709 1709 "plugins/micromega/g_micromega.ml4" 56 1709 1780
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/micromega/g_micromega.ml4" 56 1709 1709 "plugins/micromega/g_micromega.ml4" 56 1709 1780
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 56 1709 1709 "plugins/micromega/g_micromega.ml4" 56 1709 1780
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 56 1709 1709 "plugins/micromega/g_micromega.ml4" 56 1709 1780
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/micromega/g_micromega.ml4" 56 1709 1709 "plugins/micromega/g_micromega.ml4" 56 1709 1780
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_QOmicron "plugins/micromega/g_micromega.ml4" 56 1709 1709 --
+)
+"plugins/micromega/g_micromega.ml4" 63 1807 1828 "plugins/micromega/g_micromega.ml4" 63 1807 1850
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatzl_R
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatzl_R
+)
+"plugins/micromega/g_micromega.ml4" 62 1784 1784 "plugins/micromega/g_micromega.ml4" 62 1784 1855
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/micromega/g_micromega.ml4" 62 1784 1784 "plugins/micromega/g_micromega.ml4" 62 1784 1855
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/micromega/g_micromega.ml4" 62 1784 1784 "plugins/micromega/g_micromega.ml4" 62 1784 1855
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 62 1784 1784 "plugins/micromega/g_micromega.ml4" 62 1784 1855
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 62 1784 1784 "plugins/micromega/g_micromega.ml4" 62 1784 1855
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/micromega/g_micromega.ml4" 62 1784 1784 "plugins/micromega/g_micromega.ml4" 62 1784 1855
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_ROmicron "plugins/micromega/g_micromega.ml4" 62 1784 1784 --
+)
+"plugins/micromega/g_micromega.ml4" 67 1882 1896 "plugins/micromega/g_micromega.ml4" 67 1882 1909
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/micromega/g_micromega.ml4" 67 1882 1917 "plugins/micromega/g_micromega.ml4" 67 1882 1938
+type(
+  int -> Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatz_R
+)
+"plugins/micromega/g_micromega.ml4" 67 1882 1940 "plugins/micromega/g_micromega.ml4" 67 1882 1947
+type(
+  int Rawterm.or_var -> int
+)
+ident(
+  int_ref out_arg "plugins/micromega/g_micromega.ml4" 25 1126 1130 "plugins/micromega/g_micromega.ml4" 25 1126 1137
+)
+"plugins/micromega/g_micromega.ml4" 67 1882 1948 "plugins/micromega/g_micromega.ml4" 67 1882 1949
+type(
+  int Rawterm.or_var
+)
+ident(
+  int_ref i "plugins/micromega/g_micromega.ml4" 67 1882 1896 "plugins/micromega/g_micromega.ml4" 67 1882 1950
+)
+"plugins/micromega/g_micromega.ml4" 67 1882 1940 "plugins/micromega/g_micromega.ml4" 67 1882 1949
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/micromega/g_micromega.ml4" 67 1882 1917 "plugins/micromega/g_micromega.ml4" 67 1882 1950
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/micromega/g_micromega.ml4" 67 1882 1896 "plugins/micromega/g_micromega.ml4" 67 1882 1950
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  int Rawterm.or_var
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref i "" -1 0 0 "" -1 0 0
+)
+type(
+  (int Rawterm.or_var, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_int_or_var
+)
+type(
+  (int Rawterm.or_var, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> int Rawterm.or_var
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  int Rawterm.or_var
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref i "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/micromega/g_micromega.ml4" 68 1953 1974 "plugins/micromega/g_micromega.ml4" 68 1953 1995
+type(
+  int -> Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatz_R
+)
+"plugins/micromega/g_micromega.ml4" 68 1953 1997 "plugins/micromega/g_micromega.ml4" 68 1953 1999
+type(
+  int
+)
+"plugins/micromega/g_micromega.ml4" 68 1953 1974 "plugins/micromega/g_micromega.ml4" 68 1953 2000
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/micromega/g_micromega.ml4" 66 1857 1857 "plugins/micromega/g_micromega.ml4" 66 1857 2006
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/micromega/g_micromega.ml4" 66 1857 1857 "plugins/micromega/g_micromega.ml4" 66 1857 2006
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/micromega/g_micromega.ml4" 66 1857 1857 "plugins/micromega/g_micromega.ml4" 66 1857 2006
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 66 1857 1857 "plugins/micromega/g_micromega.ml4" 66 1857 2006
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 66 1857 1857 "plugins/micromega/g_micromega.ml4" 66 1857 2006
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/micromega/g_micromega.ml4" 66 1857 1857 "plugins/micromega/g_micromega.ml4" 66 1857 2006
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+"plugins/micromega/g_micromega.ml4" 73 2034 2048 "plugins/micromega/g_micromega.ml4" 73 2034 2061
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/micromega/g_micromega.ml4" 73 2034 2069 "plugins/micromega/g_micromega.ml4" 73 2034 2090
+type(
+  int -> Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatz_Q
+)
+"plugins/micromega/g_micromega.ml4" 73 2034 2092 "plugins/micromega/g_micromega.ml4" 73 2034 2099
+type(
+  int Rawterm.or_var -> int
+)
+ident(
+  int_ref out_arg "plugins/micromega/g_micromega.ml4" 25 1126 1130 "plugins/micromega/g_micromega.ml4" 25 1126 1137
+)
+"plugins/micromega/g_micromega.ml4" 73 2034 2100 "plugins/micromega/g_micromega.ml4" 73 2034 2101
+type(
+  int Rawterm.or_var
+)
+ident(
+  int_ref i "plugins/micromega/g_micromega.ml4" 73 2034 2048 "plugins/micromega/g_micromega.ml4" 73 2034 2102
+)
+"plugins/micromega/g_micromega.ml4" 73 2034 2092 "plugins/micromega/g_micromega.ml4" 73 2034 2101
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/micromega/g_micromega.ml4" 73 2034 2069 "plugins/micromega/g_micromega.ml4" 73 2034 2102
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/micromega/g_micromega.ml4" 73 2034 2048 "plugins/micromega/g_micromega.ml4" 73 2034 2102
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  int Rawterm.or_var
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref i "" -1 0 0 "" -1 0 0
+)
+type(
+  (int Rawterm.or_var, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_int_or_var
+)
+type(
+  (int Rawterm.or_var, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> int Rawterm.or_var
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  int Rawterm.or_var
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref i "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/micromega/g_micromega.ml4" 74 2105 2126 "plugins/micromega/g_micromega.ml4" 74 2105 2147
+type(
+  int -> Tacmach.tactic
+)
+ident(
+  ext_ref Coq_micromega.psatz_Q
+)
+"plugins/micromega/g_micromega.ml4" 74 2105 2149 "plugins/micromega/g_micromega.ml4" 74 2105 2151
+type(
+  int
+)
+"plugins/micromega/g_micromega.ml4" 74 2105 2126 "plugins/micromega/g_micromega.ml4" 74 2105 2152
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/micromega/g_micromega.ml4" 72 2009 2009 "plugins/micromega/g_micromega.ml4" 72 2009 2158
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/micromega/g_micromega.ml4" 72 2009 2009 "plugins/micromega/g_micromega.ml4" 72 2009 2158
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/micromega/g_micromega.ml4" 72 2009 2009 "plugins/micromega/g_micromega.ml4" 72 2009 2158
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 72 2009 2009 "plugins/micromega/g_micromega.ml4" 72 2009 2158
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/micromega/g_micromega.ml4" 72 2009 2009 "plugins/micromega/g_micromega.ml4" 72 2009 2158
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/micromega/g_micromega.ml4" 72 2009 2009 "plugins/micromega/g_micromega.ml4" 72 2009 2158
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)

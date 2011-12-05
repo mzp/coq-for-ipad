@@ -1,0 +1,1118 @@
+"plugins/romega/g_romega.ml4" 14 332 336 "plugins/romega/g_romega.ml4" 14 332 349
+type(
+  string list -> Proof_type.tactic
+)
+ident(
+  def romega_tactic "plugins/romega/g_romega.ml4" 34 1044 1044 --
+)
+"plugins/romega/g_romega.ml4" 14 332 350 "plugins/romega/g_romega.ml4" 14 332 351
+type(
+  string list
+)
+ident(
+  def l "plugins/romega/g_romega.ml4" 15 354 356 "plugins/romega/g_romega.ml4" 15 354 1041
+)
+"plugins/romega/g_romega.ml4" 15 354 360 "plugins/romega/g_romega.ml4" 15 354 364
+type(
+  Tacmach.tactic list
+)
+"plugins/romega/g_romega.ml4" 15 354 367 "plugins/romega/g_romega.ml4" 15 354 375
+type(
+  (string -> Tacmach.tactic) -> string list -> Tacmach.tactic list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/romega/g_romega.ml4" 17 390 399 "plugins/romega/g_romega.ml4" 17 390 404
+type(
+  string
+)
+"plugins/romega/g_romega.ml4" 17 390 408 "plugins/romega/g_romega.ml4" 17 390 424
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/romega/g_romega.ml4" 17 390 425 "plugins/romega/g_romega.ml4" 17 390 444
+call(
+  stack
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+"plugins/romega/g_romega.ml4" 17 390 408 "plugins/romega/g_romega.ml4" 17 390 444
+call(
+  tail
+)
+type(
+  Tacmach.tactic
+)
+"plugins/romega/g_romega.ml4" 18 445 454 "plugins/romega/g_romega.ml4" 18 445 464
+type(
+  string
+)
+"plugins/romega/g_romega.ml4" 18 445 468 "plugins/romega/g_romega.ml4" 18 445 484
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/romega/g_romega.ml4" 18 445 485 "plugins/romega/g_romega.ml4" 18 445 509
+call(
+  stack
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+"plugins/romega/g_romega.ml4" 18 445 468 "plugins/romega/g_romega.ml4" 18 445 509
+call(
+  tail
+)
+type(
+  Tacmach.tactic
+)
+"plugins/romega/g_romega.ml4" 19 510 519 "plugins/romega/g_romega.ml4" 19 510 522
+type(
+  string
+)
+"plugins/romega/g_romega.ml4" 19 510 526 "plugins/romega/g_romega.ml4" 19 510 542
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/romega/g_romega.ml4" 19 510 543 "plugins/romega/g_romega.ml4" 19 510 560
+call(
+  stack
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+"plugins/romega/g_romega.ml4" 19 510 526 "plugins/romega/g_romega.ml4" 19 510 560
+call(
+  tail
+)
+type(
+  Tacmach.tactic
+)
+"plugins/romega/g_romega.ml4" 20 561 570 "plugins/romega/g_romega.ml4" 20 561 573
+type(
+  string
+)
+"plugins/romega/g_romega.ml4" 20 561 577 "plugins/romega/g_romega.ml4" 20 561 593
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/romega/g_romega.ml4" 20 561 594 "plugins/romega/g_romega.ml4" 20 561 612
+call(
+  stack
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+"plugins/romega/g_romega.ml4" 20 561 577 "plugins/romega/g_romega.ml4" 20 561 612
+call(
+  tail
+)
+type(
+  Tacmach.tactic
+)
+"plugins/romega/g_romega.ml4" 21 613 622 "plugins/romega/g_romega.ml4" 21 613 623
+type(
+  string
+)
+ident(
+  def s "plugins/romega/g_romega.ml4" 21 613 627 "plugins/romega/g_romega.ml4" 21 613 678
+)
+"plugins/romega/g_romega.ml4" 21 613 627 "plugins/romega/g_romega.ml4" 21 613 637
+type(
+  string -> Tacmach.tactic
+)
+ident(
+  ext_ref Util.error
+)
+"plugins/romega/g_romega.ml4" 21 613 639 "plugins/romega/g_romega.ml4" 21 613 675
+type(
+  string
+)
+"plugins/romega/g_romega.ml4" 21 613 676 "plugins/romega/g_romega.ml4" 21 613 677
+type(
+  string
+)
+ident(
+  int_ref s "plugins/romega/g_romega.ml4" 21 613 622 "plugins/romega/g_romega.ml4" 21 613 623
+)
+"plugins/romega/g_romega.ml4" 21 613 639 "plugins/romega/g_romega.ml4" 21 613 677
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/romega/g_romega.ml4" 21 613 627 "plugins/romega/g_romega.ml4" 21 613 678
+call(
+  tail
+)
+type(
+  Tacmach.tactic
+)
+"plugins/romega/g_romega.ml4" 16 376 381 "plugins/romega/g_romega.ml4" 16 376 678
+type(
+  string -> Tacmach.tactic
+)
+"plugins/romega/g_romega.ml4" 22 680 685 "plugins/romega/g_romega.ml4" 22 680 703
+type(
+  string list -> string list
+)
+ident(
+  ext_ref Util.list_uniquize
+)
+"plugins/romega/g_romega.ml4" 22 680 705 "plugins/romega/g_romega.ml4" 22 680 714
+type(
+  (string -> string -> int) -> string list -> string list
+)
+ident(
+  ext_ref List.sort
+)
+"plugins/romega/g_romega.ml4" 22 680 715 "plugins/romega/g_romega.ml4" 22 680 722
+type(
+  string -> string -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"plugins/romega/g_romega.ml4" 22 680 723 "plugins/romega/g_romega.ml4" 22 680 724
+type(
+  string list
+)
+ident(
+  int_ref l "plugins/romega/g_romega.ml4" 14 332 350 "plugins/romega/g_romega.ml4" 14 332 351
+)
+"plugins/romega/g_romega.ml4" 22 680 705 "plugins/romega/g_romega.ml4" 22 680 724
+call(
+  stack
+)
+type(
+  string list
+)
+"plugins/romega/g_romega.ml4" 22 680 685 "plugins/romega/g_romega.ml4" 22 680 725
+call(
+  stack
+)
+type(
+  string list
+)
+"plugins/romega/g_romega.ml4" 15 354 367 "plugins/romega/g_romega.ml4" 15 354 726
+call(
+  stack
+)
+type(
+  Tacmach.tactic list
+)
+"plugins/romega/g_romega.ml4" 24 732 734 "plugins/romega/g_romega.ml4" 24 732 741
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.tclTHEN
+)
+"plugins/romega/g_romega.ml4" 25 742 747 "plugins/romega/g_romega.ml4" 25 742 756
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.tclREPEAT
+)
+"plugins/romega/g_romega.ml4" 25 742 758 "plugins/romega/g_romega.ml4" 25 742 769
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.tclPROGRESS
+)
+"plugins/romega/g_romega.ml4" 25 742 771 "plugins/romega/g_romega.ml4" 25 742 782
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.tclTHENLIST
+)
+"plugins/romega/g_romega.ml4" 25 742 783 "plugins/romega/g_romega.ml4" 25 742 787
+type(
+  Proof_type.tactic list
+)
+ident(
+  int_ref tacs "plugins/romega/g_romega.ml4" 15 354 360 "plugins/romega/g_romega.ml4" 15 354 364
+)
+"plugins/romega/g_romega.ml4" 25 742 771 "plugins/romega/g_romega.ml4" 25 742 787
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/romega/g_romega.ml4" 25 742 758 "plugins/romega/g_romega.ml4" 25 742 788
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/romega/g_romega.ml4" 25 742 747 "plugins/romega/g_romega.ml4" 25 742 789
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/romega/g_romega.ml4" 26 791 796 "plugins/romega/g_romega.ml4" 26 791 803
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.tclTHEN
+)
+"plugins/romega/g_romega.ml4" 30 983 990 "plugins/romega/g_romega.ml4" 30 983 1004
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.intros
+)
+"plugins/romega/g_romega.ml4" 31 1005 1012 "plugins/romega/g_romega.ml4" 31 1005 1040
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Refl_omega.total_reflexive_omega_tactic
+)
+"plugins/romega/g_romega.ml4" 26 791 796 "plugins/romega/g_romega.ml4" 26 791 1040
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/romega/g_romega.ml4" 24 732 734 "plugins/romega/g_romega.ml4" 24 732 1041
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/romega/g_romega.ml4" 15 354 356 "plugins/romega/g_romega.ml4" 15 354 1041
+type(
+  Proof_type.tactic
+)
+"plugins/romega/g_romega.ml4" 14 332 350 "plugins/romega/g_romega.ml4" 14 332 1041
+type(
+  string list -> Proof_type.tactic
+)
+"plugins/romega/g_romega.ml4" 35 1065 1086 "plugins/romega/g_romega.ml4" 35 1065 1099
+type(
+  string list -> Proof_type.tactic
+)
+ident(
+  int_ref romega_tactic "plugins/romega/g_romega.ml4" 14 332 336 "plugins/romega/g_romega.ml4" 14 332 349
+)
+type(
+  string list -> Proof_type.tactic
+)
+ident(
+  int_ref romega_tactic "plugins/romega/g_romega.ml4" 14 332 336 "plugins/romega/g_romega.ml4" 14 332 349
+)
+"plugins/romega/g_romega.ml4" 35 1065 1100 "plugins/romega/g_romega.ml4" 35 1065 1102
+type(
+  string list
+)
+type(
+  string list
+)
+"plugins/romega/g_romega.ml4" 35 1065 1086 "plugins/romega/g_romega.ml4" 35 1065 1102
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+"plugins/romega/g_romega.ml4" 34 1044 1044 "plugins/romega/g_romega.ml4" 34 1044 1108
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/romega/g_romega.ml4" 34 1044 1044 "plugins/romega/g_romega.ml4" 34 1044 1108
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/romega/g_romega.ml4" 34 1044 1044 "plugins/romega/g_romega.ml4" 34 1044 1108
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/romega/g_romega.ml4" 34 1044 1044 "plugins/romega/g_romega.ml4" 34 1044 1108
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/romega/g_romega.ml4" 34 1044 1044 "plugins/romega/g_romega.ml4" 34 1044 1108
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/romega/g_romega.ml4" 34 1044 1044 "plugins/romega/g_romega.ml4" 34 1044 1108
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Proof_type.tactic
+)
+ident(
+  def h_romega "plugins/romega/g_romega.ml4" 34 1044 1044 --
+)
+"plugins/romega/g_romega.ml4" 39 1132 1152 "plugins/romega/g_romega.ml4" 39 1132 1168
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/romega/g_romega.ml4" 40 1174 1180 "plugins/romega/g_romega.ml4" 40 1174 1193
+type(
+  string list -> Proof_type.tactic
+)
+ident(
+  int_ref romega_tactic "plugins/romega/g_romega.ml4" 14 332 336 "plugins/romega/g_romega.ml4" 14 332 349
+)
+"plugins/romega/g_romega.ml4" 40 1174 1195 "plugins/romega/g_romega.ml4" 40 1174 1203
+type(
+  (Names.identifier -> string) -> Names.identifier list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/romega/g_romega.ml4" 40 1174 1204 "plugins/romega/g_romega.ml4" 40 1174 1222
+type(
+  Names.identifier -> string
+)
+ident(
+  ext_ref Names.string_of_id
+)
+"plugins/romega/g_romega.ml4" 40 1174 1223 "plugins/romega/g_romega.ml4" 40 1174 1224
+type(
+  Names.identifier list
+)
+ident(
+  int_ref l "plugins/romega/g_romega.ml4" 39 1132 1152 "plugins/romega/g_romega.ml4" 39 1132 1225
+)
+"plugins/romega/g_romega.ml4" 40 1174 1195 "plugins/romega/g_romega.ml4" 40 1174 1224
+call(
+  stack
+)
+type(
+  string list
+)
+"plugins/romega/g_romega.ml4" 40 1174 1180 "plugins/romega/g_romega.ml4" 40 1174 1225
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  bool
+)
+"plugins/romega/g_romega.ml4" 39 1132 1152 "plugins/romega/g_romega.ml4" 39 1132 1225
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Names.identifier list
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Names.identifier list, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Names.identifier list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/romega/g_romega.ml4" 41 1228 1259 "plugins/romega/g_romega.ml4" 41 1228 1272
+type(
+  string list -> Proof_type.tactic
+)
+ident(
+  int_ref romega_tactic "plugins/romega/g_romega.ml4" 14 332 336 "plugins/romega/g_romega.ml4" 14 332 349
+)
+"plugins/romega/g_romega.ml4" 41 1228 1274 "plugins/romega/g_romega.ml4" 41 1228 1279
+type(
+  string
+)
+"plugins/romega/g_romega.ml4" 41 1228 1280 "plugins/romega/g_romega.ml4" 41 1228 1290
+type(
+  string
+)
+"plugins/romega/g_romega.ml4" 41 1228 1291 "plugins/romega/g_romega.ml4" 41 1228 1294
+type(
+  string
+)
+"plugins/romega/g_romega.ml4" 41 1228 1295 "plugins/romega/g_romega.ml4" 41 1228 1298
+type(
+  string
+)
+"plugins/romega/g_romega.ml4" 41 1228 1273 "plugins/romega/g_romega.ml4" 41 1228 1299
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list
+)
+"plugins/romega/g_romega.ml4" 41 1228 1259 "plugins/romega/g_romega.ml4" 41 1228 1299
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Proof_type.tactic
+)
+type(
+  Proof_type.tactic
+)
+type(
+  bool
+)
+"plugins/romega/g_romega.ml4" 38 1110 1110 "plugins/romega/g_romega.ml4" 38 1110 1305
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/romega/g_romega.ml4" 38 1110 1110 "plugins/romega/g_romega.ml4" 38 1110 1305
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/romega/g_romega.ml4" 38 1110 1110 "plugins/romega/g_romega.ml4" 38 1110 1305
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/romega/g_romega.ml4" 38 1110 1110 "plugins/romega/g_romega.ml4" 38 1110 1305
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/romega/g_romega.ml4" 38 1110 1110 "plugins/romega/g_romega.ml4" 38 1110 1305
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/romega/g_romega.ml4" 38 1110 1110 "plugins/romega/g_romega.ml4" 38 1110 1305
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)

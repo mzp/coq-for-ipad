@@ -1,0 +1,108 @@
+"plugins/dp/dp_plugin_mod.ml" 1 0 6 "plugins/dp/dp_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/dp/dp_plugin_mod.ml" 1 0 28 "plugins/dp/dp_plugin_mod.ml" 1 0 36
+type(
+  string
+)
+"plugins/dp/dp_plugin_mod.ml" 1 0 6 "plugins/dp/dp_plugin_mod.ml" 1 0 36
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_plugin_mod.ml" 2 38 44 "plugins/dp/dp_plugin_mod.ml" 2 38 66
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/dp/dp_plugin_mod.ml" 2 38 66 "plugins/dp/dp_plugin_mod.ml" 2 38 76
+type(
+  string
+)
+"plugins/dp/dp_plugin_mod.ml" 2 38 44 "plugins/dp/dp_plugin_mod.ml" 2 38 76
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_plugin_mod.ml" 3 78 84 "plugins/dp/dp_plugin_mod.ml" 3 78 106
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/dp/dp_plugin_mod.ml" 3 78 106 "plugins/dp/dp_plugin_mod.ml" 3 78 110
+type(
+  string
+)
+"plugins/dp/dp_plugin_mod.ml" 3 78 84 "plugins/dp/dp_plugin_mod.ml" 3 78 110
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_plugin_mod.ml" 4 112 118 "plugins/dp/dp_plugin_mod.ml" 4 112 140
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/dp/dp_plugin_mod.ml" 4 112 140 "plugins/dp/dp_plugin_mod.ml" 4 112 146
+type(
+  string
+)
+"plugins/dp/dp_plugin_mod.ml" 4 112 118 "plugins/dp/dp_plugin_mod.ml" 4 112 146
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_plugin_mod.ml" 5 148 154 "plugins/dp/dp_plugin_mod.ml" 5 148 176
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/dp/dp_plugin_mod.ml" 5 148 176 "plugins/dp/dp_plugin_mod.ml" 5 148 191
+type(
+  string
+)
+"plugins/dp/dp_plugin_mod.ml" 5 148 154 "plugins/dp/dp_plugin_mod.ml" 5 148 191
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/dp/dp_plugin_mod.ml" 6 193 199 "plugins/dp/dp_plugin_mod.ml" 6 193 221
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/dp/dp_plugin_mod.ml" 6 193 221 "plugins/dp/dp_plugin_mod.ml" 6 193 232
+type(
+  string
+)
+"plugins/dp/dp_plugin_mod.ml" 6 193 199 "plugins/dp/dp_plugin_mod.ml" 6 193 232
+call(
+  stack
+)
+type(
+  unit
+)

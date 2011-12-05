@@ -1,0 +1,251 @@
+FCoq.Init.Specif
+R700 Coq.Init.Notations <> <> lib
+R726 Coq.Init.Datatypes <> <> lib
+R752 Coq.Init.Logic <> <> lib
+ind 1080 <> sig
+constr 1121 <> exist
+R1148 Coq.Init.Specif <> sig ind
+ind 1166 <> sig2
+constr 1210 <> exist2
+R1245 Coq.Init.Specif <> sig2 ind
+ind 1415 <> sigT
+constr 1457 <> existT
+R1485 Coq.Init.Specif <> sigT ind
+ind 1504 <> sigT2
+constr 1549 <> existT2
+R1585 Coq.Init.Specif <> sigT2 ind
+R1630 Coq.Init.Specif <> sig ind
+R1675 Coq.Init.Specif <> sig2 ind
+R1732 Coq.Init.Specif <> sigT ind
+R1778 Coq.Init.Specif <> sigT2 ind
+R1848 Coq.Init.Specif <> sig ind
+not 1830 <> :type_scope:'{'_x_'|'_x_'}'
+R1912 Coq.Init.Specif <> sig2 ind
+not 1889 <> :type_scope:'{'_x_'|'_x_'&'_x_'}'
+R1989 Coq.Init.Specif <> sig ind
+not 1967 <> :type_scope:'{'_x_':'_x_'|'_x_'}'
+R2059 Coq.Init.Specif <> sig2 ind
+not 2032 <> :type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}'
+R2141 Coq.Init.Specif <> sigT ind
+not 2120 <> :type_scope:'{'_x_':'_x_'&'_x_'}'
+R2211 Coq.Init.Specif <> sigT2 ind
+not 2185 <> :type_scope:'{'_x_':'_x_'&'_x_'&'_x_'}'
+sec 2619 <> Subset_projections
+var 2651 Subset_projections A
+var 2672 Subset_projections P
+R2676 Coq.Init.Specif <> Subset_projections.A var
+def 2701 <> proj1_sig
+R2714 Coq.Init.Specif <> sig ind
+R2718 Coq.Init.Specif <> Subset_projections.P var
+R2775 Coq.Init.Specif <> exist constr
+def 2845 <> proj2_sig
+R2858 Coq.Init.Specif <> sig ind
+R2862 Coq.Init.Specif <> Subset_projections.P var
+R2887 Coq.Init.Specif <> Subset_projections.P var
+R2890 Coq.Init.Specif <> proj1_sig def
+R2914 Coq.Init.Specif <> exist constr
+R2943 Coq.Init.Specif Subset_projections <> sec
+sec 3268 <> Projections
+var 3293 Projections A
+var 3314 Projections P
+R3318 Coq.Init.Specif <> Projections.A var
+def 3343 <> projT1
+R3353 Coq.Init.Specif <> sigT ind
+R3358 Coq.Init.Specif <> Projections.P var
+R3363 Coq.Init.Specif <> Projections.A var
+R3421 Coq.Init.Specif <> existT constr
+def 3493 <> projT2
+R3503 Coq.Init.Specif <> sigT ind
+R3508 Coq.Init.Specif <> Projections.P var
+R3513 Coq.Init.Specif <> Projections.P var
+R3516 Coq.Init.Specif <> projT1 def
+R3548 Coq.Init.Specif <> Projections.P var
+R3551 Coq.Init.Specif <> projT1 def
+R3572 Coq.Init.Specif <> existT constr
+R3602 Coq.Init.Specif Projections <> sec
+prf 3675 <> sig_of_sigT
+R3728 Coq.Init.Specif <> sig ind
+R3718 Coq.Init.Specif <> sigT ind
+prf 3798 <> sigT_of_sig
+R3850 Coq.Init.Specif <> sigT ind
+R3841 Coq.Init.Specif <> sig ind
+R3924 Coq.Init.Specif <> sigT_of_sig thm
+R3961 Coq.Init.Specif <> sig_of_sigT thm
+ind 4087 <> sumbool
+constr 4119 <> left
+constr 4145 <> right
+R4195 Coq.Init.Specif <> sumbool ind
+R4131:4131 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4133:4137 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4139:4139 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4158:4158 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4160:4164 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4166:4166 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4195 Coq.Init.Specif <> sumbool ind
+not 4175 <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}'
+ind 4366 <> sumor
+constr 4404 <> inleft
+constr 4430 <> inright
+R4476 Coq.Init.Specif <> sumor ind
+R4419:4422 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R4424:4424 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R4446:4449 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R4451:4451 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R4476 Coq.Init.Specif <> sumor ind
+not 4460 <> :type_scope:x_'+'_'{'_x_'}'
+sec 4598 <> Choice_lemmas
+var 4626 Choice_lemmas S
+var 4628 Choice_lemmas S'
+var 4649 Choice_lemmas R
+R4658 Coq.Init.Specif <> Choice_lemmas.S' var
+R4653 Coq.Init.Specif <> Choice_lemmas.S var
+var 4681 Choice_lemmas R'
+R4691 Coq.Init.Specif <> Choice_lemmas.S' var
+R4686 Coq.Init.Specif <> Choice_lemmas.S var
+var 4714 Choice_lemmas R1
+var 4717 Choice_lemmas R2
+R4722 Coq.Init.Specif <> Choice_lemmas.S var
+prf 4742 <> Choice
+R4786:4786 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4788:4788 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4796:4798 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4820:4820 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4811 Coq.Init.Specif <> Choice_lemmas.R var
+R4808 Coq.Init.Specif <> Choice_lemmas.S var
+R4794 Coq.Init.Specif <> Choice_lemmas.S' var
+R4789 Coq.Init.Specif <> Choice_lemmas.S var
+R4767:4767 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4769:4769 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4772:4774 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4780:4780 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4775 Coq.Init.Specif <> Choice_lemmas.R var
+R4770 Coq.Init.Specif <> Choice_lemmas.S' var
+R4764 Coq.Init.Specif <> Choice_lemmas.S var
+R4864 Coq.Init.Specif <> proj1_sig def
+R4864 Coq.Init.Specif <> proj1_sig def
+prf 4935 <> Choice2
+R4981:4981 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R4983:4983 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R4991:4993 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5016:5016 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R5006 Coq.Init.Specif <> Choice_lemmas.R' var
+R5003 Coq.Init.Specif <> Choice_lemmas.S var
+R4989 Coq.Init.Specif <> Choice_lemmas.S' var
+R4984 Coq.Init.Specif <> Choice_lemmas.S var
+R4961:4961 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R4963:4963 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R4966:4968 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R4975:4975 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R4969 Coq.Init.Specif <> Choice_lemmas.R' var
+R4964 Coq.Init.Specif <> Choice_lemmas.S' var
+R4958 Coq.Init.Specif <> Choice_lemmas.S var
+R5062 Coq.Init.Specif <> projT1 def
+R5062 Coq.Init.Specif <> projT1 def
+prf 5131 <> bool_choice
+R5186:5186 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5188:5188 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5198:5200 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5254:5254 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5231:5234 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R5223:5226 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5216:5218 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5219 Coq.Init.Datatypes <> true constr
+R5227 Coq.Init.Specif <> Choice_lemmas.R1 var
+R5246:5249 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5238:5240 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5241 Coq.Init.Datatypes <> false constr
+R5250 Coq.Init.Specif <> Choice_lemmas.R2 var
+R5210 Coq.Init.Specif <> Choice_lemmas.S var
+R5194 Coq.Init.Datatypes <> bool ind
+R5189 Coq.Init.Specif <> Choice_lemmas.S var
+R5161:5161 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5166:5170 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5175:5175 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R5162 Coq.Init.Specif <> Choice_lemmas.R1 var
+R5171 Coq.Init.Specif <> Choice_lemmas.R2 var
+R5158 Coq.Init.Specif <> Choice_lemmas.S var
+R5324 Coq.Init.Datatypes <> false constr
+R5314 Coq.Init.Datatypes <> true constr
+R5297 Coq.Init.Specif <> Choice_lemmas.S var
+R5324 Coq.Init.Datatypes <> false constr
+R5314 Coq.Init.Datatypes <> true constr
+R5297 Coq.Init.Specif <> Choice_lemmas.S var
+R5379 Coq.Init.Specif Choice_lemmas <> sec
+sec 5403 <> Dependent_choice_lemmas
+var 5441 Dependent_choice_lemmas X
+var 5461 Dependent_choice_lemmas R
+R5470 Coq.Init.Specif <> Dependent_choice_lemmas.X var
+R5465 Coq.Init.Specif <> Dependent_choice_lemmas.X var
+prf 5490 <> dependent_choice
+R5557:5557 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5559:5561 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5570:5572 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5612:5612 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5581:5584 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5576:5578 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5575 Coq.Init.Datatypes <> O constr
+R5595 Coq.Init.Specif <> Dependent_choice_lemmas.R var
+R5607 Coq.Init.Datatypes <> S constr
+R5569 Coq.Init.Specif <> Dependent_choice_lemmas.X var
+R5562 Coq.Init.Datatypes <> nat ind
+R5526:5526 Coq.Init.Specif <> :type_scope:'{'_x_'|'_x_'}' not
+R5528:5530 Coq.Init.Specif <> :type_scope:'{'_x_'|'_x_'}' not
+R5536:5536 Coq.Init.Specif <> :type_scope:'{'_x_'|'_x_'}' not
+R5531 Coq.Init.Specif <> Dependent_choice_lemmas.R var
+R5523 Coq.Init.Specif <> Dependent_choice_lemmas.X var
+R5677 Coq.Init.Datatypes <> O constr
+R5687 Coq.Init.Datatypes <> S constr
+R5695 Coq.Init.Specif <> proj1_sig def
+R5677 Coq.Init.Datatypes <> O constr
+R5687 Coq.Init.Datatypes <> S constr
+R5695 Coq.Init.Specif <> proj1_sig def
+R5790 Coq.Init.Specif <> proj2_sig def
+R5790 Coq.Init.Specif <> proj2_sig def
+R5790 Coq.Init.Specif <> proj2_sig def
+R5813 Coq.Init.Specif Dependent_choice_lemmas <> sec
+def 6071 <> Exc
+R6078 Coq.Init.Datatypes <> option ind
+def 6097 <> value
+R6106 Coq.Init.Datatypes <> Some constr
+def 6123 <> error
+R6133 Coq.Init.Datatypes <> None constr
+R6159 Coq.Init.Specif <> error def
+def 6182 <> except
+R6192 Coq.Init.Logic <> False_rec scheme
+R6270 Coq.Init.Specif <> except def
+prf 6291 <> absurd_set
+R6334:6335 Coq.Init.Logic <> :type_scope:'~'_x not
+R6379 Coq.Init.Logic <> False_rec scheme
+R6379 Coq.Init.Logic <> False_rec scheme
+R6426 Coq.Init.Specif <> left constr
+R6431 Coq.Init.Specif <> right constr
+R6437 Coq.Init.Specif <> inleft constr
+R6444 Coq.Init.Specif <> inright constr
+R6476 Coq.Init.Specif <> exist constr
+R6482 Coq.Init.Specif <> exist2 constr
+R6489 Coq.Init.Specif <> existT constr
+R6496 Coq.Init.Specif <> existT2 constr
+syndef 6542 <> sigS
+R6550 Coq.Init.Specif <> sigT ind
+syndef 6580 <> existS
+R6590 Coq.Init.Specif <> existT constr
+syndef 6622 <> sigS_rect
+R6635 Coq.Init.Specif <> sigT_rect scheme
+syndef 6670 <> sigS_rec
+R6682 Coq.Init.Specif <> sigT_rec scheme
+syndef 6716 <> sigS_ind
+R6728 Coq.Init.Specif <> sigT_ind scheme
+syndef 6762 <> projS1
+R6772 Coq.Init.Specif <> projT1 def
+syndef 6804 <> projS2
+R6814 Coq.Init.Specif <> projT2 def
+syndef 6847 <> sigS2
+R6856 Coq.Init.Specif <> sigT2 ind
+syndef 6887 <> existS2
+R6898 Coq.Init.Specif <> existT2 constr
+syndef 6931 <> sigS2_rect
+R6945 Coq.Init.Specif <> sigT2_rect scheme
+syndef 6981 <> sigS2_rec
+R6994 Coq.Init.Specif <> sigT2_rec scheme
+syndef 7029 <> sigS2_ind
+R7042 Coq.Init.Specif <> sigT2_ind scheme

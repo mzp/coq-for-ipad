@@ -1,0 +1,2559 @@
+"plugins/firstorder/ground.ml" 47 1463 1467 "plugins/firstorder/ground.ml" 47 1463 1479
+type(
+  unit -> unit
+)
+ident(
+  def update_flags "plugins/firstorder/ground.ml" 60 1872 1872 --
+)
+"plugins/firstorder/ground.ml" 47 1463 1480 "plugins/firstorder/ground.ml" 47 1463 1482
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 48 1484 1490 "plugins/firstorder/ground.ml" 48 1484 1497
+type(
+  Names.Cpred.t ref
+)
+"plugins/firstorder/ground.ml" 48 1484 1498 "plugins/firstorder/ground.ml" 48 1484 1501
+type(
+  Names.Cpred.t -> Names.Cpred.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/ground.ml" 48 1484 1502 "plugins/firstorder/ground.ml" 48 1484 1519
+type(
+  Names.Cpred.t
+)
+ident(
+  ext_ref Names.Cpred.empty
+)
+"plugins/firstorder/ground.ml" 48 1484 1498 "plugins/firstorder/ground.ml" 48 1484 1519
+type(
+  Names.Cpred.t ref
+)
+"plugins/firstorder/ground.ml" 49 1523 1529 "plugins/firstorder/ground.ml" 49 1523 1530
+type(
+  Classops.coe_index -> unit
+)
+"plugins/firstorder/ground.ml" 49 1523 1531 "plugins/firstorder/ground.ml" 49 1523 1534
+type(
+  Classops.coe_index
+)
+ident(
+  def coe "plugins/firstorder/ground.ml" 50 1536 1540 "plugins/firstorder/ground.ml" 53 1642 1684
+)
+"plugins/firstorder/ground.ml" 51 1544 1554 "plugins/firstorder/ground.ml" 51 1544 1556
+type(
+  Names.constant
+)
+ident(
+  def kn "plugins/firstorder/ground.ml" 52 1604 1605 "plugins/firstorder/ground.ml" 52 1604 1641
+)
+"plugins/firstorder/ground.ml" 51 1544 1557 "plugins/firstorder/ground.ml" 51 1544 1566
+type(
+  Term.constr -> Names.constant
+)
+ident(
+  ext_ref Term.destConst
+)
+"plugins/firstorder/ground.ml" 51 1544 1568 "plugins/firstorder/ground.ml" 51 1544 1595
+type(
+  Classops.coe_index -> Term.constr
+)
+ident(
+  ext_ref Classops.get_coercion_value
+)
+"plugins/firstorder/ground.ml" 51 1544 1596 "plugins/firstorder/ground.ml" 51 1544 1599
+type(
+  Classops.coe_index
+)
+ident(
+  int_ref coe "plugins/firstorder/ground.ml" 49 1523 1531 "plugins/firstorder/ground.ml" 49 1523 1534
+)
+"plugins/firstorder/ground.ml" 51 1544 1567 "plugins/firstorder/ground.ml" 51 1544 1600
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/ground.ml" 51 1544 1557 "plugins/firstorder/ground.ml" 51 1544 1600
+call(
+  stack
+)
+type(
+  Names.constant
+)
+"plugins/firstorder/ground.ml" 52 1604 1605 "plugins/firstorder/ground.ml" 52 1604 1612
+type(
+  Names.Cpred.t ref
+)
+ident(
+  int_ref predref "plugins/firstorder/ground.ml" 48 1484 1490 "plugins/firstorder/ground.ml" 48 1484 1497
+)
+"plugins/firstorder/ground.ml" 52 1604 1612 "plugins/firstorder/ground.ml" 52 1604 1614
+type(
+  Names.Cpred.t ref -> Names.Cpred.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/ground.ml" 52 1604 1614 "plugins/firstorder/ground.ml" 52 1604 1629
+type(
+  Names.Cpred.elt -> Names.Cpred.t -> Names.Cpred.t
+)
+ident(
+  ext_ref Names.Cpred.add
+)
+"plugins/firstorder/ground.ml" 52 1604 1630 "plugins/firstorder/ground.ml" 52 1604 1632
+type(
+  Names.Cpred.elt
+)
+ident(
+  int_ref kn "plugins/firstorder/ground.ml" 51 1544 1554 "plugins/firstorder/ground.ml" 51 1544 1556
+)
+"plugins/firstorder/ground.ml" 52 1604 1633 "plugins/firstorder/ground.ml" 52 1604 1634
+type(
+  Names.Cpred.t ref -> Names.Cpred.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/ground.ml" 52 1604 1634 "plugins/firstorder/ground.ml" 52 1604 1641
+type(
+  Names.Cpred.t ref
+)
+ident(
+  int_ref predref "plugins/firstorder/ground.ml" 48 1484 1490 "plugins/firstorder/ground.ml" 48 1484 1497
+)
+"plugins/firstorder/ground.ml" 52 1604 1633 "plugins/firstorder/ground.ml" 52 1604 1641
+type(
+  Names.Cpred.t
+)
+"plugins/firstorder/ground.ml" 52 1604 1614 "plugins/firstorder/ground.ml" 52 1604 1641
+call(
+  stack
+)
+type(
+  Names.Cpred.t
+)
+"plugins/firstorder/ground.ml" 52 1604 1605 "plugins/firstorder/ground.ml" 52 1604 1641
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 51 1544 1550 "plugins/firstorder/ground.ml" 52 1604 1641
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 53 1642 1668 "plugins/firstorder/ground.ml" 53 1642 1679
+type(
+  string
+)
+"plugins/firstorder/ground.ml" 53 1642 1651 "plugins/firstorder/ground.ml" 53 1642 1679
+type(
+  exn
+)
+"plugins/firstorder/ground.ml" 53 1642 1682 "plugins/firstorder/ground.ml" 53 1642 1684
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 50 1536 1540 "plugins/firstorder/ground.ml" 53 1642 1684
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 54 1688 1692 "plugins/firstorder/ground.ml" 54 1688 1701
+type(
+  (Classops.coe_index -> unit) -> Classops.coe_index list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/firstorder/ground.ml" 54 1688 1702 "plugins/firstorder/ground.ml" 54 1688 1703
+type(
+  Classops.coe_index -> unit
+)
+ident(
+  int_ref f "plugins/firstorder/ground.ml" 49 1523 1529 "plugins/firstorder/ground.ml" 49 1523 1530
+)
+"plugins/firstorder/ground.ml" 54 1688 1705 "plugins/firstorder/ground.ml" 54 1688 1723
+type(
+  unit -> Classops.coe_index list
+)
+ident(
+  ext_ref Classops.coercions
+)
+"plugins/firstorder/ground.ml" 54 1688 1724 "plugins/firstorder/ground.ml" 54 1688 1726
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 54 1688 1704 "plugins/firstorder/ground.ml" 54 1688 1727
+call(
+  stack
+)
+type(
+  Classops.coe_index list
+)
+"plugins/firstorder/ground.ml" 54 1688 1692 "plugins/firstorder/ground.ml" 54 1688 1727
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 55 1729 1733 "plugins/firstorder/ground.ml" 55 1729 1742
+type(
+  Closure.RedFlags.reds ref
+)
+ident(
+  ext_ref Formula.red_flags
+)
+"plugins/firstorder/ground.ml" 55 1729 1742 "plugins/firstorder/ground.ml" 55 1729 1744
+type(
+  Closure.RedFlags.reds ref -> Closure.RedFlags.reds -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/ground.ml" 56 1745 1749 "plugins/firstorder/ground.ml" 56 1745 1785
+type(
+  Closure.RedFlags.reds -> Names.transparent_state -> Closure.RedFlags.reds
+)
+ident(
+  ext_ref Closure.RedFlags.red_add_transparent
+)
+"plugins/firstorder/ground.ml" 57 1786 1792 "plugins/firstorder/ground.ml" 57 1786 1812
+type(
+  Closure.RedFlags.reds
+)
+ident(
+  ext_ref Closure.betaiotazeta
+)
+"plugins/firstorder/ground.ml" 58 1813 1820 "plugins/firstorder/ground.ml" 58 1813 1837
+type(
+  Names.Idpred.t
+)
+ident(
+  ext_ref Names.Idpred.full
+)
+"plugins/firstorder/ground.ml" 58 1813 1838 "plugins/firstorder/ground.ml" 58 1813 1860
+type(
+  Names.Cpred.t -> Names.Cpred.t
+)
+ident(
+  ext_ref Names.Cpred.complement
+)
+"plugins/firstorder/ground.ml" 58 1813 1861 "plugins/firstorder/ground.ml" 58 1813 1862
+type(
+  Names.Cpred.t ref -> Names.Cpred.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/ground.ml" 58 1813 1862 "plugins/firstorder/ground.ml" 58 1813 1869
+type(
+  Names.Cpred.t ref
+)
+ident(
+  int_ref predref "plugins/firstorder/ground.ml" 48 1484 1490 "plugins/firstorder/ground.ml" 48 1484 1497
+)
+"plugins/firstorder/ground.ml" 58 1813 1861 "plugins/firstorder/ground.ml" 58 1813 1869
+type(
+  Names.Cpred.t
+)
+"plugins/firstorder/ground.ml" 58 1813 1838 "plugins/firstorder/ground.ml" 58 1813 1869
+call(
+  stack
+)
+type(
+  Names.Cpred.t
+)
+"plugins/firstorder/ground.ml" 58 1813 1819 "plugins/firstorder/ground.ml" 58 1813 1870
+type(
+  Names.transparent_state
+)
+"plugins/firstorder/ground.ml" 56 1745 1749 "plugins/firstorder/ground.ml" 58 1813 1870
+call(
+  stack
+)
+type(
+  Closure.RedFlags.reds
+)
+"plugins/firstorder/ground.ml" 55 1729 1733 "plugins/firstorder/ground.ml" 58 1813 1870
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 54 1688 1692 "plugins/firstorder/ground.ml" 58 1813 1870
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 49 1523 1525 "plugins/firstorder/ground.ml" 58 1813 1870
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 48 1484 1486 "plugins/firstorder/ground.ml" 58 1813 1870
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 60 1872 1876 "plugins/firstorder/ground.ml" 60 1872 1886
+type(
+  Tacmach.tactic ->
+  (Proof_type.goal Tacmach.sigma -> Sequent.t) ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def ground_tac "plugins/firstorder/ground.ml" 151 4560 4629 --
+)
+"plugins/firstorder/ground.ml" 60 1872 1887 "plugins/firstorder/ground.ml" 60 1872 1893
+type(
+  Tacmach.tactic
+)
+ident(
+  def solver "plugins/firstorder/ground.ml" 60 1872 1894 "plugins/firstorder/ground.ml" 151 4560 4629
+)
+"plugins/firstorder/ground.ml" 60 1872 1894 "plugins/firstorder/ground.ml" 60 1872 1902
+type(
+  Proof_type.goal Tacmach.sigma -> Sequent.t
+)
+ident(
+  def startseq "plugins/firstorder/ground.ml" 60 1872 1903 "plugins/firstorder/ground.ml" 151 4560 4629
+)
+"plugins/firstorder/ground.ml" 60 1872 1903 "plugins/firstorder/ground.ml" 60 1872 1905
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/ground.ml" 61 1907 1909 "plugins/firstorder/ground.ml" 151 4560 4629
+)
+"plugins/firstorder/ground.ml" 61 1907 1909 "plugins/firstorder/ground.ml" 61 1907 1921
+type(
+  unit -> unit
+)
+ident(
+  int_ref update_flags "plugins/firstorder/ground.ml" 47 1463 1467 "plugins/firstorder/ground.ml" 47 1463 1479
+)
+"plugins/firstorder/ground.ml" 61 1907 1922 "plugins/firstorder/ground.ml" 61 1907 1924
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 61 1907 1909 "plugins/firstorder/ground.ml" 61 1907 1924
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 62 1926 1936 "plugins/firstorder/ground.ml" 62 1926 1942
+type(
+  Formula.t list -> Sequent.t -> Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 62 1926 1943 "plugins/firstorder/ground.ml" 62 1926 1950
+type(
+  Formula.t list
+)
+ident(
+  def skipped "plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 150 4544 4556
+)
+"plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 62 1926 1954
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/ground.ml" 62 1926 1955 "plugins/firstorder/ground.ml" 150 4544 4556
+)
+"plugins/firstorder/ground.ml" 62 1926 1955 "plugins/firstorder/ground.ml" 62 1926 1957
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/ground.ml" 63 1959 1963 "plugins/firstorder/ground.ml" 150 4544 4556
+)
+"plugins/firstorder/ground.ml" 63 1959 1966 "plugins/firstorder/ground.ml" 63 1959 1985
+type(
+  unit -> Tactic_debug.debug_info
+)
+ident(
+  ext_ref Tacinterp.get_debug
+)
+"plugins/firstorder/ground.ml" 63 1959 1985 "plugins/firstorder/ground.ml" 63 1959 1987
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 63 1959 1966 "plugins/firstorder/ground.ml" 63 1959 1987
+call(
+  stack
+)
+type(
+  Tactic_debug.debug_info
+)
+"plugins/firstorder/ground.ml" 63 1959 1987 "plugins/firstorder/ground.ml" 63 1959 1988
+type(
+  Tactic_debug.debug_info -> Tactic_debug.debug_info -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/firstorder/ground.ml" 63 1959 2009 "plugins/firstorder/ground.ml" 63 1959 2010
+type(
+  int
+)
+"plugins/firstorder/ground.ml" 63 1959 1988 "plugins/firstorder/ground.ml" 63 1959 2010
+type(
+  Tactic_debug.debug_info
+)
+"plugins/firstorder/ground.ml" 63 1959 1966 "plugins/firstorder/ground.ml" 63 1959 2010
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 64 2011 2020 "plugins/firstorder/ground.ml" 64 2011 2028
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msgnl
+)
+"plugins/firstorder/ground.ml" 64 2011 2030 "plugins/firstorder/ground.ml" 64 2011 2045
+type(
+  Proof_type.goal -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Printer.pr_goal
+)
+"plugins/firstorder/ground.ml" 64 2011 2047 "plugins/firstorder/ground.ml" 64 2011 2053
+type(
+  Proof_type.goal Tacmach.sigma -> Proof_type.goal
+)
+ident(
+  ext_ref Tacmach.sig_it
+)
+"plugins/firstorder/ground.ml" 64 2011 2054 "plugins/firstorder/ground.ml" 64 2011 2056
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/ground.ml" 62 1926 1955 "plugins/firstorder/ground.ml" 62 1926 1957
+)
+"plugins/firstorder/ground.ml" 64 2011 2046 "plugins/firstorder/ground.ml" 64 2011 2057
+call(
+  stack
+)
+type(
+  Proof_type.goal
+)
+"plugins/firstorder/ground.ml" 64 2011 2029 "plugins/firstorder/ground.ml" 64 2011 2058
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/ground.ml" 64 2011 2020 "plugins/firstorder/ground.ml" 64 2011 2058
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 63 1959 1963 "plugins/firstorder/ground.ml" 64 2011 2058
+type(
+  unit
+)
+"plugins/firstorder/ground.ml" 65 2060 2064 "plugins/firstorder/ground.ml" 65 2060 2073
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclORELSE
+)
+"plugins/firstorder/ground.ml" 65 2060 2075 "plugins/firstorder/ground.ml" 65 2060 2084
+type(
+  Term.types -> Sequent.t -> Tacmach.tactic
+)
+ident(
+  ext_ref Rules.axiom_tac
+)
+"plugins/firstorder/ground.ml" 65 2060 2085 "plugins/firstorder/ground.ml" 65 2060 2088
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 62 1926 1954
+)
+"plugins/firstorder/ground.ml" 65 2060 2085 "plugins/firstorder/ground.ml" 65 2060 2091
+type(
+  Term.types
+)
+"plugins/firstorder/ground.ml" 65 2060 2092 "plugins/firstorder/ground.ml" 65 2060 2095
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 62 1926 1954
+)
+"plugins/firstorder/ground.ml" 65 2060 2074 "plugins/firstorder/ground.ml" 65 2060 2096
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+type(
+  Formula.t
+)
+ident(
+  def hd "plugins/firstorder/ground.ml" 70 2197 2200 "plugins/firstorder/ground.ml" 148 4503 4510
+)
+"plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+type(
+  Sequent.t
+)
+ident(
+  def seq1 "plugins/firstorder/ground.ml" 70 2197 2200 "plugins/firstorder/ground.ml" 148 4503 4510
+)
+"plugins/firstorder/ground.ml" 68 2114 2121 "plugins/firstorder/ground.ml" 68 2114 2130
+type(
+  Formula.t * Sequent.t
+)
+"plugins/firstorder/ground.ml" 68 2114 2131 "plugins/firstorder/ground.ml" 68 2114 2143
+type(
+  Sequent.t -> Formula.t * Sequent.t
+)
+ident(
+  ext_ref Sequent.take_formula
+)
+"plugins/firstorder/ground.ml" 68 2114 2144 "plugins/firstorder/ground.ml" 68 2114 2147
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 62 1926 1954
+)
+"plugins/firstorder/ground.ml" 68 2114 2131 "plugins/firstorder/ground.ml" 68 2114 2147
+call(
+  stack
+)
+type(
+  Formula.t * Sequent.t
+)
+"plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  def re_add "plugins/firstorder/ground.ml" 70 2197 2200 "plugins/firstorder/ground.ml" 148 4503 4510
+)
+"plugins/firstorder/ground.ml" 69 2148 2162 "plugins/firstorder/ground.ml" 69 2148 2163
+type(
+  Sequent.t
+)
+ident(
+  def s "plugins/firstorder/ground.ml" 69 2148 2164 "plugins/firstorder/ground.ml" 69 2148 2193
+)
+"plugins/firstorder/ground.ml" 69 2148 2164 "plugins/firstorder/ground.ml" 69 2148 2183
+type(
+  Formula.t list -> Sequent.t -> Sequent.t
+)
+ident(
+  ext_ref Sequent.re_add_formula_list
+)
+"plugins/firstorder/ground.ml" 69 2148 2184 "plugins/firstorder/ground.ml" 69 2148 2191
+type(
+  Formula.t list
+)
+ident(
+  int_ref skipped "plugins/firstorder/ground.ml" 62 1926 1943 "plugins/firstorder/ground.ml" 62 1926 1950
+)
+"plugins/firstorder/ground.ml" 69 2148 2192 "plugins/firstorder/ground.ml" 69 2148 2193
+type(
+  Sequent.t
+)
+ident(
+  int_ref s "plugins/firstorder/ground.ml" 69 2148 2162 "plugins/firstorder/ground.ml" 69 2148 2163
+)
+"plugins/firstorder/ground.ml" 69 2148 2164 "plugins/firstorder/ground.ml" 69 2148 2193
+call(
+  tail
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  def continue "plugins/firstorder/ground.ml" 72 2275 2280 "plugins/firstorder/ground.ml" 148 4503 4510
+)
+"plugins/firstorder/ground.ml" 70 2197 2213 "plugins/firstorder/ground.ml" 70 2197 2219
+type(
+  Formula.t list -> Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref toptac "plugins/firstorder/ground.ml" 62 1926 1936 "plugins/firstorder/ground.ml" 62 1926 1942
+)
+"plugins/firstorder/ground.ml" 70 2197 2220 "plugins/firstorder/ground.ml" 70 2197 2222
+type(
+  Formula.t list
+)
+"plugins/firstorder/ground.ml" 70 2197 2213 "plugins/firstorder/ground.ml" 70 2197 2222
+call(
+  stack
+)
+type(
+  Sequent.t -> Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def backtrack "plugins/firstorder/ground.ml" 72 2275 2280 "plugins/firstorder/ground.ml" 148 4503 4510
+)
+"plugins/firstorder/ground.ml" 71 2223 2240 "plugins/firstorder/ground.ml" 71 2223 2242
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/ground.ml" 71 2223 2243 "plugins/firstorder/ground.ml" 71 2223 2271
+)
+"plugins/firstorder/ground.ml" 71 2223 2243 "plugins/firstorder/ground.ml" 71 2223 2249
+type(
+  Formula.t list -> Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref toptac "plugins/firstorder/ground.ml" 62 1926 1936 "plugins/firstorder/ground.ml" 62 1926 1942
+)
+"plugins/firstorder/ground.ml" 71 2223 2251 "plugins/firstorder/ground.ml" 71 2223 2253
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+)
+"plugins/firstorder/ground.ml" 71 2223 2255 "plugins/firstorder/ground.ml" 71 2223 2262
+type(
+  Formula.t list
+)
+ident(
+  int_ref skipped "plugins/firstorder/ground.ml" 62 1926 1943 "plugins/firstorder/ground.ml" 62 1926 1950
+)
+"plugins/firstorder/ground.ml" 71 2223 2250 "plugins/firstorder/ground.ml" 71 2223 2263
+type(
+  Formula.t list
+)
+"plugins/firstorder/ground.ml" 71 2223 2264 "plugins/firstorder/ground.ml" 71 2223 2268
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 71 2223 2269 "plugins/firstorder/ground.ml" 71 2223 2271
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/ground.ml" 71 2223 2240 "plugins/firstorder/ground.ml" 71 2223 2242
+)
+"plugins/firstorder/ground.ml" 71 2223 2243 "plugins/firstorder/ground.ml" 71 2223 2271
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/ground.ml" 72 2275 2286 "plugins/firstorder/ground.ml" 72 2275 2288
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+)
+"plugins/firstorder/ground.ml" 72 2275 2286 "plugins/firstorder/ground.ml" 72 2275 2292
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/ground.ml" 73 2298 2306 "plugins/firstorder/ground.ml" 73 2298 2310
+type(
+  Formula.right_pattern
+)
+ident(
+  def rpat "plugins/firstorder/ground.ml" 74 2313 2317 "plugins/firstorder/ground.ml" 98 3060 3067
+)
+"plugins/firstorder/ground.ml" 73 2298 2300 "plugins/firstorder/ground.ml" 73 2298 2310
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/ground.ml" 75 2323 2335 "plugins/firstorder/ground.ml" 75 2323 2339
+type(
+  Formula.right_pattern
+)
+ident(
+  int_ref rpat "plugins/firstorder/ground.ml" 73 2298 2306 "plugins/firstorder/ground.ml" 73 2298 2310
+)
+"plugins/firstorder/ground.ml" 76 2345 2348 "plugins/firstorder/ground.ml" 76 2345 2352
+type(
+  Formula.right_pattern
+)
+"plugins/firstorder/ground.ml" 77 2355 2360 "plugins/firstorder/ground.ml" 77 2355 2367
+type(
+  Rules.seqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.and_tac
+)
+"plugins/firstorder/ground.ml" 77 2355 2368 "plugins/firstorder/ground.ml" 77 2355 2377
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 77 2355 2378 "plugins/firstorder/ground.ml" 77 2355 2386
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 77 2355 2388 "plugins/firstorder/ground.ml" 77 2355 2394
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 77 2355 2395 "plugins/firstorder/ground.ml" 77 2355 2399
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 77 2355 2387 "plugins/firstorder/ground.ml" 77 2355 2400
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 77 2355 2360 "plugins/firstorder/ground.ml" 77 2355 2400
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 78 2401 2411 "plugins/firstorder/ground.ml" 78 2401 2418
+type(
+  Formula.right_pattern
+)
+"plugins/firstorder/ground.ml" 79 2421 2430 "plugins/firstorder/ground.ml" 79 2421 2440
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/ground.ml" 80 2442 2452 "plugins/firstorder/ground.ml" 80 2442 2453
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/ground.ml" 80 2442 2453 "plugins/firstorder/ground.ml" 80 2442 2458
+type(
+  bool ref
+)
+ident(
+  ext_ref Formula.qflag
+)
+"plugins/firstorder/ground.ml" 80 2442 2452 "plugins/firstorder/ground.ml" 80 2442 2458
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 81 2464 2473 "plugins/firstorder/ground.ml" 81 2464 2480
+type(
+  int -> Pp.std_ppcmds -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclFAIL
+)
+"plugins/firstorder/ground.ml" 81 2464 2481 "plugins/firstorder/ground.ml" 81 2464 2482
+type(
+  int
+)
+"plugins/firstorder/ground.ml" 81 2464 2484 "plugins/firstorder/ground.ml" 81 2464 2490
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/firstorder/ground.ml" 81 2464 2491 "plugins/firstorder/ground.ml" 81 2464 2521
+type(
+  string
+)
+"plugins/firstorder/ground.ml" 81 2464 2483 "plugins/firstorder/ground.ml" 81 2464 2522
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/ground.ml" 81 2464 2473 "plugins/firstorder/ground.ml" 81 2464 2522
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/ground.ml" 83 2535 2544 "plugins/firstorder/ground.ml" 83 2535 2553
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 80 2442 2449 "plugins/firstorder/ground.ml" 83 2535 2553
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/ground.ml" 84 2557 2564 "plugins/firstorder/ground.ml" 84 2557 2574
+type(
+  Rules.seqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.forall_tac
+)
+"plugins/firstorder/ground.ml" 84 2557 2575 "plugins/firstorder/ground.ml" 84 2557 2585
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack1 "plugins/firstorder/ground.ml" 79 2421 2430 "plugins/firstorder/ground.ml" 79 2421 2440
+)
+"plugins/firstorder/ground.ml" 84 2557 2586 "plugins/firstorder/ground.ml" 84 2557 2594
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 84 2557 2596 "plugins/firstorder/ground.ml" 84 2557 2602
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 84 2557 2603 "plugins/firstorder/ground.ml" 84 2557 2607
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 84 2557 2595 "plugins/firstorder/ground.ml" 84 2557 2608
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 84 2557 2564 "plugins/firstorder/ground.ml" 84 2557 2608
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 79 2421 2426 "plugins/firstorder/ground.ml" 84 2557 2608
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 85 2609 2619 "plugins/firstorder/ground.ml" 85 2609 2625
+type(
+  Formula.right_pattern
+)
+"plugins/firstorder/ground.ml" 86 2628 2633 "plugins/firstorder/ground.ml" 86 2628 2642
+type(
+  Rules.seqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.arrow_tac
+)
+"plugins/firstorder/ground.ml" 86 2628 2643 "plugins/firstorder/ground.ml" 86 2628 2652
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 86 2628 2653 "plugins/firstorder/ground.ml" 86 2628 2661
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 86 2628 2663 "plugins/firstorder/ground.ml" 86 2628 2669
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 86 2628 2670 "plugins/firstorder/ground.ml" 86 2628 2674
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 86 2628 2662 "plugins/firstorder/ground.ml" 86 2628 2675
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 86 2628 2633 "plugins/firstorder/ground.ml" 86 2628 2675
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 87 2676 2686 "plugins/firstorder/ground.ml" 87 2676 2689
+type(
+  Formula.right_pattern
+)
+"plugins/firstorder/ground.ml" 88 2692 2697 "plugins/firstorder/ground.ml" 88 2692 2703
+type(
+  Rules.seqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.or_tac
+)
+"plugins/firstorder/ground.ml" 88 2692 2705 "plugins/firstorder/ground.ml" 88 2692 2714
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 88 2692 2715 "plugins/firstorder/ground.ml" 88 2692 2723
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 88 2692 2725 "plugins/firstorder/ground.ml" 88 2692 2731
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 88 2692 2732 "plugins/firstorder/ground.ml" 88 2692 2736
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 88 2692 2724 "plugins/firstorder/ground.ml" 88 2692 2737
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 88 2692 2697 "plugins/firstorder/ground.ml" 88 2692 2737
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 89 2738 2748 "plugins/firstorder/ground.ml" 89 2738 2754
+type(
+  Formula.right_pattern
+)
+"plugins/firstorder/ground.ml" 89 2738 2756 "plugins/firstorder/ground.ml" 89 2738 2765
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 90 2766 2784 "plugins/firstorder/ground.ml" 90 2766 2785
+type(
+  Term.metavariable
+)
+ident(
+  def i "plugins/firstorder/ground.ml" 91 2798 2803 "plugins/firstorder/ground.ml" 97 3008 3027
+)
+"plugins/firstorder/ground.ml" 90 2766 2786 "plugins/firstorder/ground.ml" 90 2766 2789
+type(
+  Term.constr
+)
+ident(
+  def dom "plugins/firstorder/ground.ml" 91 2798 2803 "plugins/firstorder/ground.ml" 97 3008 3027
+)
+"plugins/firstorder/ground.ml" 90 2766 2790 "plugins/firstorder/ground.ml" 90 2766 2794
+type(
+  bool
+)
+ident(
+  def triv "plugins/firstorder/ground.ml" 91 2798 2803 "plugins/firstorder/ground.ml" 97 3008 3027
+)
+"plugins/firstorder/ground.ml" 90 2766 2776 "plugins/firstorder/ground.ml" 90 2766 2795
+type(
+  Formula.right_pattern
+)
+"plugins/firstorder/ground.ml" 91 2798 2808 "plugins/firstorder/ground.ml" 91 2798 2811
+type(
+  Formula.t list
+)
+"plugins/firstorder/ground.ml" 91 2798 2812 "plugins/firstorder/ground.ml" 91 2798 2816
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 91 2798 2807 "plugins/firstorder/ground.ml" 91 2798 2817
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/ground.ml" 91 2798 2818 "plugins/firstorder/ground.ml" 91 2798 2836
+type(
+  Sequent.t -> Formula.t list * Sequent.t
+)
+ident(
+  ext_ref Instances.collect_quantified
+)
+"plugins/firstorder/ground.ml" 91 2798 2837 "plugins/firstorder/ground.ml" 91 2798 2840
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 62 1926 1954
+)
+"plugins/firstorder/ground.ml" 91 2798 2818 "plugins/firstorder/ground.ml" 91 2798 2840
+call(
+  stack
+)
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/ground.ml" 92 2844 2853 "plugins/firstorder/ground.ml" 92 2844 2863
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 92 2844 2864 "plugins/firstorder/ground.ml" 92 2844 2870
+type(
+  Formula.t list -> Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref toptac "plugins/firstorder/ground.ml" 62 1926 1936 "plugins/firstorder/ground.ml" 62 1926 1942
+)
+"plugins/firstorder/ground.ml" 92 2844 2872 "plugins/firstorder/ground.ml" 92 2844 2875
+type(
+  Formula.t list
+)
+ident(
+  int_ref lfp "plugins/firstorder/ground.ml" 91 2798 2808 "plugins/firstorder/ground.ml" 91 2798 2811
+)
+"plugins/firstorder/ground.ml" 92 2844 2875 "plugins/firstorder/ground.ml" 92 2844 2876
+type(
+  Formula.t list -> Formula.t list -> Formula.t list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"plugins/firstorder/ground.ml" 92 2844 2876 "plugins/firstorder/ground.ml" 92 2844 2883
+type(
+  Formula.t list
+)
+ident(
+  int_ref skipped "plugins/firstorder/ground.ml" 62 1926 1943 "plugins/firstorder/ground.ml" 62 1926 1950
+)
+"plugins/firstorder/ground.ml" 92 2844 2871 "plugins/firstorder/ground.ml" 92 2844 2884
+call(
+  stack
+)
+type(
+  Formula.t list
+)
+"plugins/firstorder/ground.ml" 92 2844 2885 "plugins/firstorder/ground.ml" 92 2844 2889
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq2 "plugins/firstorder/ground.ml" 91 2798 2812 "plugins/firstorder/ground.ml" 91 2798 2816
+)
+"plugins/firstorder/ground.ml" 92 2844 2864 "plugins/firstorder/ground.ml" 92 2844 2889
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 93 2893 2904 "plugins/firstorder/ground.ml" 93 2893 2905
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/ground.ml" 93 2893 2905 "plugins/firstorder/ground.ml" 93 2893 2910
+type(
+  bool ref
+)
+ident(
+  ext_ref Formula.qflag
+)
+"plugins/firstorder/ground.ml" 93 2893 2904 "plugins/firstorder/ground.ml" 93 2893 2910
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 93 2893 2911 "plugins/firstorder/ground.ml" 93 2893 2913
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/ground.ml" 93 2893 2914 "plugins/firstorder/ground.ml" 93 2893 2917
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 62 1926 1954
+)
+"plugins/firstorder/ground.ml" 93 2893 2914 "plugins/firstorder/ground.ml" 93 2893 2923
+type(
+  int
+)
+"plugins/firstorder/ground.ml" 93 2893 2923 "plugins/firstorder/ground.ml" 93 2893 2924
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"plugins/firstorder/ground.ml" 93 2893 2924 "plugins/firstorder/ground.ml" 93 2893 2925
+type(
+  int
+)
+"plugins/firstorder/ground.ml" 93 2893 2914 "plugins/firstorder/ground.ml" 93 2893 2925
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 93 2893 2904 "plugins/firstorder/ground.ml" 93 2893 2925
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 94 2931 2940 "plugins/firstorder/ground.ml" 94 2931 2954
+type(
+  Formula.t list -> Rules.seqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Instances.quantified_tac
+)
+"plugins/firstorder/ground.ml" 94 2931 2955 "plugins/firstorder/ground.ml" 94 2931 2958
+type(
+  Formula.t list
+)
+ident(
+  int_ref lfp "plugins/firstorder/ground.ml" 91 2798 2808 "plugins/firstorder/ground.ml" 91 2798 2811
+)
+"plugins/firstorder/ground.ml" 94 2931 2959 "plugins/firstorder/ground.ml" 94 2931 2969
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack2 "plugins/firstorder/ground.ml" 92 2844 2853 "plugins/firstorder/ground.ml" 92 2844 2863
+)
+"plugins/firstorder/ground.ml" 95 2970 2974 "plugins/firstorder/ground.ml" 95 2970 2982
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 95 2970 2984 "plugins/firstorder/ground.ml" 95 2970 2990
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 95 2970 2991 "plugins/firstorder/ground.ml" 95 2970 2994
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 62 1926 1954
+)
+"plugins/firstorder/ground.ml" 95 2970 2983 "plugins/firstorder/ground.ml" 95 2970 2995
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 94 2931 2940 "plugins/firstorder/ground.ml" 95 2970 2995
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 97 3008 3017 "plugins/firstorder/ground.ml" 97 3008 3027
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack2 "plugins/firstorder/ground.ml" 92 2844 2853 "plugins/firstorder/ground.ml" 92 2844 2863
+)
+"plugins/firstorder/ground.ml" 93 2893 2900 "plugins/firstorder/ground.ml" 97 3008 3027
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 92 2844 2849 "plugins/firstorder/ground.ml" 97 3008 3027
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 91 2798 2803 "plugins/firstorder/ground.ml" 97 3008 3027
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 74 2313 2317 "plugins/firstorder/ground.ml" 98 3060 3067
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 99 3068 3082 "plugins/firstorder/ground.ml" 99 3068 3086
+type(
+  Formula.left_pattern
+)
+ident(
+  def lpat "plugins/firstorder/ground.ml" 100 3089 3093 "plugins/firstorder/ground.ml" 148 4503 4510
+)
+"plugins/firstorder/ground.ml" 99 3068 3077 "plugins/firstorder/ground.ml" 99 3068 3086
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/ground.ml" 101 3099 3111 "plugins/firstorder/ground.ml" 101 3099 3115
+type(
+  Formula.left_pattern
+)
+ident(
+  int_ref lpat "plugins/firstorder/ground.ml" 99 3068 3082 "plugins/firstorder/ground.ml" 99 3068 3086
+)
+"plugins/firstorder/ground.ml" 102 3121 3124 "plugins/firstorder/ground.ml" 102 3121 3130
+type(
+  Formula.left_pattern
+)
+"plugins/firstorder/ground.ml" 103 3133 3138 "plugins/firstorder/ground.ml" 103 3133 3152
+type(
+  Libnames.global_reference -> Tacmach.tactic
+)
+ident(
+  ext_ref Rules.left_false_tac
+)
+"plugins/firstorder/ground.ml" 103 3133 3153 "plugins/firstorder/ground.ml" 103 3133 3155
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+)
+"plugins/firstorder/ground.ml" 103 3133 3153 "plugins/firstorder/ground.ml" 103 3133 3158
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/ground.ml" 103 3133 3138 "plugins/firstorder/ground.ml" 103 3133 3158
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 104 3159 3174 "plugins/firstorder/ground.ml" 104 3159 3177
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/ground.ml" 105 3180 3185 "plugins/firstorder/ground.ml" 106 3212 3245
+)
+"plugins/firstorder/ground.ml" 104 3159 3169 "plugins/firstorder/ground.ml" 104 3159 3177
+type(
+  Formula.left_pattern
+)
+"plugins/firstorder/ground.ml" 105 3180 3185 "plugins/firstorder/ground.ml" 105 3180 3197
+type(
+  Names.inductive -> Rules.lseqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.left_and_tac
+)
+"plugins/firstorder/ground.ml" 105 3180 3198 "plugins/firstorder/ground.ml" 105 3180 3201
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/ground.ml" 104 3159 3174 "plugins/firstorder/ground.ml" 104 3159 3177
+)
+"plugins/firstorder/ground.ml" 105 3180 3202 "plugins/firstorder/ground.ml" 105 3180 3211
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 106 3212 3217 "plugins/firstorder/ground.ml" 106 3212 3219
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+)
+"plugins/firstorder/ground.ml" 106 3212 3217 "plugins/firstorder/ground.ml" 106 3212 3222
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/ground.ml" 106 3212 3223 "plugins/firstorder/ground.ml" 106 3212 3231
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 106 3212 3233 "plugins/firstorder/ground.ml" 106 3212 3239
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 106 3212 3240 "plugins/firstorder/ground.ml" 106 3212 3244
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 106 3212 3232 "plugins/firstorder/ground.ml" 106 3212 3245
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 105 3180 3185 "plugins/firstorder/ground.ml" 106 3212 3245
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 107 3246 3260 "plugins/firstorder/ground.ml" 107 3246 3263
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/ground.ml" 108 3266 3271 "plugins/firstorder/ground.ml" 109 3297 3330
+)
+"plugins/firstorder/ground.ml" 107 3246 3256 "plugins/firstorder/ground.ml" 107 3246 3263
+type(
+  Formula.left_pattern
+)
+"plugins/firstorder/ground.ml" 108 3266 3271 "plugins/firstorder/ground.ml" 108 3266 3282
+type(
+  Names.inductive -> Rules.lseqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.left_or_tac
+)
+"plugins/firstorder/ground.ml" 108 3266 3283 "plugins/firstorder/ground.ml" 108 3266 3286
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/ground.ml" 107 3246 3260 "plugins/firstorder/ground.ml" 107 3246 3263
+)
+"plugins/firstorder/ground.ml" 108 3266 3287 "plugins/firstorder/ground.ml" 108 3266 3296
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 109 3297 3302 "plugins/firstorder/ground.ml" 109 3297 3304
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+)
+"plugins/firstorder/ground.ml" 109 3297 3302 "plugins/firstorder/ground.ml" 109 3297 3307
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/ground.ml" 109 3297 3308 "plugins/firstorder/ground.ml" 109 3297 3316
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 109 3297 3318 "plugins/firstorder/ground.ml" 109 3297 3324
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 109 3297 3325 "plugins/firstorder/ground.ml" 109 3297 3329
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 109 3297 3317 "plugins/firstorder/ground.ml" 109 3297 3330
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 108 3266 3271 "plugins/firstorder/ground.ml" 109 3297 3330
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 110 3331 3350 "plugins/firstorder/ground.ml" 110 3331 3351
+type(
+  Term.metavariable
+)
+"plugins/firstorder/ground.ml" 110 3331 3352 "plugins/firstorder/ground.ml" 110 3331 3353
+type(
+  Term.constr
+)
+"plugins/firstorder/ground.ml" 110 3331 3354 "plugins/firstorder/ground.ml" 110 3331 3355
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 110 3331 3341 "plugins/firstorder/ground.ml" 110 3331 3356
+type(
+  Formula.left_pattern
+)
+"plugins/firstorder/ground.ml" 111 3359 3369 "plugins/firstorder/ground.ml" 111 3359 3372
+type(
+  Formula.t list
+)
+"plugins/firstorder/ground.ml" 111 3359 3373 "plugins/firstorder/ground.ml" 111 3359 3377
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 111 3359 3368 "plugins/firstorder/ground.ml" 111 3359 3378
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/ground.ml" 111 3359 3379 "plugins/firstorder/ground.ml" 111 3359 3397
+type(
+  Sequent.t -> Formula.t list * Sequent.t
+)
+ident(
+  ext_ref Instances.collect_quantified
+)
+"plugins/firstorder/ground.ml" 111 3359 3398 "plugins/firstorder/ground.ml" 111 3359 3401
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 62 1926 1954
+)
+"plugins/firstorder/ground.ml" 111 3359 3379 "plugins/firstorder/ground.ml" 111 3359 3401
+call(
+  stack
+)
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/ground.ml" 112 3405 3414 "plugins/firstorder/ground.ml" 112 3405 3424
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 112 3405 3425 "plugins/firstorder/ground.ml" 112 3405 3431
+type(
+  Formula.t list -> Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref toptac "plugins/firstorder/ground.ml" 62 1926 1936 "plugins/firstorder/ground.ml" 62 1926 1942
+)
+"plugins/firstorder/ground.ml" 112 3405 3433 "plugins/firstorder/ground.ml" 112 3405 3436
+type(
+  Formula.t list
+)
+ident(
+  int_ref lfp "plugins/firstorder/ground.ml" 111 3359 3369 "plugins/firstorder/ground.ml" 111 3359 3372
+)
+"plugins/firstorder/ground.ml" 112 3405 3436 "plugins/firstorder/ground.ml" 112 3405 3437
+type(
+  Formula.t list -> Formula.t list -> Formula.t list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"plugins/firstorder/ground.ml" 112 3405 3437 "plugins/firstorder/ground.ml" 112 3405 3444
+type(
+  Formula.t list
+)
+ident(
+  int_ref skipped "plugins/firstorder/ground.ml" 62 1926 1943 "plugins/firstorder/ground.ml" 62 1926 1950
+)
+"plugins/firstorder/ground.ml" 112 3405 3432 "plugins/firstorder/ground.ml" 112 3405 3445
+call(
+  stack
+)
+type(
+  Formula.t list
+)
+"plugins/firstorder/ground.ml" 112 3405 3446 "plugins/firstorder/ground.ml" 112 3405 3450
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq2 "plugins/firstorder/ground.ml" 111 3359 3373 "plugins/firstorder/ground.ml" 111 3359 3377
+)
+"plugins/firstorder/ground.ml" 112 3405 3425 "plugins/firstorder/ground.ml" 112 3405 3450
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 113 3454 3465 "plugins/firstorder/ground.ml" 113 3454 3466
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/ground.ml" 113 3454 3466 "plugins/firstorder/ground.ml" 113 3454 3471
+type(
+  bool ref
+)
+ident(
+  ext_ref Formula.qflag
+)
+"plugins/firstorder/ground.ml" 113 3454 3465 "plugins/firstorder/ground.ml" 113 3454 3471
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 113 3454 3472 "plugins/firstorder/ground.ml" 113 3454 3474
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/ground.ml" 113 3454 3475 "plugins/firstorder/ground.ml" 113 3454 3478
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 62 1926 1954
+)
+"plugins/firstorder/ground.ml" 113 3454 3475 "plugins/firstorder/ground.ml" 113 3454 3484
+type(
+  int
+)
+"plugins/firstorder/ground.ml" 113 3454 3484 "plugins/firstorder/ground.ml" 113 3454 3485
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"plugins/firstorder/ground.ml" 113 3454 3485 "plugins/firstorder/ground.ml" 113 3454 3486
+type(
+  int
+)
+"plugins/firstorder/ground.ml" 113 3454 3475 "plugins/firstorder/ground.ml" 113 3454 3486
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 113 3454 3465 "plugins/firstorder/ground.ml" 113 3454 3486
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 114 3492 3501 "plugins/firstorder/ground.ml" 114 3492 3515
+type(
+  Formula.t list -> Rules.seqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Instances.quantified_tac
+)
+"plugins/firstorder/ground.ml" 114 3492 3516 "plugins/firstorder/ground.ml" 114 3492 3519
+type(
+  Formula.t list
+)
+ident(
+  int_ref lfp "plugins/firstorder/ground.ml" 111 3359 3369 "plugins/firstorder/ground.ml" 111 3359 3372
+)
+"plugins/firstorder/ground.ml" 114 3492 3520 "plugins/firstorder/ground.ml" 114 3492 3530
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack2 "plugins/firstorder/ground.ml" 112 3405 3414 "plugins/firstorder/ground.ml" 112 3405 3424
+)
+"plugins/firstorder/ground.ml" 115 3531 3535 "plugins/firstorder/ground.ml" 115 3531 3543
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 115 3531 3545 "plugins/firstorder/ground.ml" 115 3531 3551
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 115 3531 3552 "plugins/firstorder/ground.ml" 115 3531 3555
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 62 1926 1954
+)
+"plugins/firstorder/ground.ml" 115 3531 3544 "plugins/firstorder/ground.ml" 115 3531 3556
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 114 3492 3501 "plugins/firstorder/ground.ml" 115 3531 3556
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 117 3569 3578 "plugins/firstorder/ground.ml" 117 3569 3588
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack2 "plugins/firstorder/ground.ml" 112 3405 3414 "plugins/firstorder/ground.ml" 112 3405 3424
+)
+"plugins/firstorder/ground.ml" 113 3454 3461 "plugins/firstorder/ground.ml" 117 3569 3588
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 112 3405 3410 "plugins/firstorder/ground.ml" 117 3569 3588
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 111 3359 3364 "plugins/firstorder/ground.ml" 117 3569 3588
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 118 3621 3641 "plugins/firstorder/ground.ml" 118 3621 3644
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/ground.ml" 119 3648 3653 "plugins/firstorder/ground.ml" 122 3743 3762
+)
+"plugins/firstorder/ground.ml" 118 3621 3633 "plugins/firstorder/ground.ml" 118 3621 3644
+type(
+  Formula.left_pattern
+)
+"plugins/firstorder/ground.ml" 119 3648 3656 "plugins/firstorder/ground.ml" 119 3648 3657
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/ground.ml" 119 3648 3657 "plugins/firstorder/ground.ml" 119 3648 3662
+type(
+  bool ref
+)
+ident(
+  ext_ref Formula.qflag
+)
+"plugins/firstorder/ground.ml" 119 3648 3656 "plugins/firstorder/ground.ml" 119 3648 3662
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 120 3668 3675 "plugins/firstorder/ground.ml" 120 3668 3690
+type(
+  Names.inductive -> Rules.lseqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.left_exists_tac
+)
+"plugins/firstorder/ground.ml" 120 3668 3691 "plugins/firstorder/ground.ml" 120 3668 3694
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/ground.ml" 118 3621 3641 "plugins/firstorder/ground.ml" 118 3621 3644
+)
+"plugins/firstorder/ground.ml" 120 3668 3695 "plugins/firstorder/ground.ml" 120 3668 3704
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 120 3668 3705 "plugins/firstorder/ground.ml" 120 3668 3707
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+)
+"plugins/firstorder/ground.ml" 120 3668 3705 "plugins/firstorder/ground.ml" 120 3668 3710
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/ground.ml" 121 3711 3720 "plugins/firstorder/ground.ml" 121 3711 3728
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 121 3711 3730 "plugins/firstorder/ground.ml" 121 3711 3736
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 121 3711 3737 "plugins/firstorder/ground.ml" 121 3711 3741
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 121 3711 3729 "plugins/firstorder/ground.ml" 121 3711 3742
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 120 3668 3675 "plugins/firstorder/ground.ml" 121 3711 3742
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 122 3743 3753 "plugins/firstorder/ground.ml" 122 3743 3762
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 119 3648 3653 "plugins/firstorder/ground.ml" 122 3743 3762
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 123 3763 3777 "plugins/firstorder/ground.ml" 123 3763 3780
+type(
+  Term.constr
+)
+ident(
+  def typ "plugins/firstorder/ground.ml" 124 3788 3793 "plugins/firstorder/ground.ml" 147 4444 4502
+)
+"plugins/firstorder/ground.ml" 123 3763 3781 "plugins/firstorder/ground.ml" 123 3763 3784
+type(
+  Formula.left_arrow_pattern
+)
+ident(
+  def lap "plugins/firstorder/ground.ml" 124 3788 3793 "plugins/firstorder/ground.ml" 147 4444 4502
+)
+"plugins/firstorder/ground.ml" 123 3763 3773 "plugins/firstorder/ground.ml" 123 3763 3785
+type(
+  Formula.left_pattern
+)
+"plugins/firstorder/ground.ml" 124 3788 3797 "plugins/firstorder/ground.ml" 124 3788 3803
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 126 3818 3833 "plugins/firstorder/ground.ml" 126 3818 3836
+type(
+  Formula.left_arrow_pattern
+)
+ident(
+  int_ref lap "plugins/firstorder/ground.ml" 123 3763 3781 "plugins/firstorder/ground.ml" 123 3763 3784
+)
+"plugins/firstorder/ground.ml" 127 3842 3848 "plugins/firstorder/ground.ml" 127 3842 3854
+type(
+  Formula.left_arrow_pattern
+)
+"plugins/firstorder/ground.ml" 127 3842 3858 "plugins/firstorder/ground.ml" 127 3842 3867
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 128 3868 3881 "plugins/firstorder/ground.ml" 128 3868 3884
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/ground.ml" 130 3938 3946 "plugins/firstorder/ground.ml" 131 3978 4018
+)
+"plugins/firstorder/ground.ml" 128 3868 3885 "plugins/firstorder/ground.ml" 128 3868 3890
+type(
+  Term.constr list
+)
+ident(
+  def largs "plugins/firstorder/ground.ml" 130 3938 3946 "plugins/firstorder/ground.ml" 131 3978 4018
+)
+"plugins/firstorder/ground.ml" 128 3868 3874 "plugins/firstorder/ground.ml" 128 3868 3891
+type(
+  Formula.left_arrow_pattern
+)
+"plugins/firstorder/ground.ml" 128 3868 3899 "plugins/firstorder/ground.ml" 128 3868 3902
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/ground.ml" 130 3938 3946 "plugins/firstorder/ground.ml" 131 3978 4018
+)
+"plugins/firstorder/ground.ml" 128 3868 3903 "plugins/firstorder/ground.ml" 128 3868 3908
+type(
+  Term.constr list
+)
+ident(
+  def largs "plugins/firstorder/ground.ml" 130 3938 3946 "plugins/firstorder/ground.ml" 131 3978 4018
+)
+"plugins/firstorder/ground.ml" 128 3868 3894 "plugins/firstorder/ground.ml" 128 3868 3909
+type(
+  Formula.left_arrow_pattern
+)
+"plugins/firstorder/ground.ml" 128 3868 3874 "plugins/firstorder/ground.ml" 128 3868 3909
+type(
+  Formula.left_arrow_pattern
+)
+"plugins/firstorder/ground.ml" 129 3910 3925 "plugins/firstorder/ground.ml" 129 3910 3928
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/ground.ml" 130 3938 3946 "plugins/firstorder/ground.ml" 131 3978 4018
+)
+"plugins/firstorder/ground.ml" 129 3910 3929 "plugins/firstorder/ground.ml" 129 3910 3934
+type(
+  Term.constr list
+)
+ident(
+  def largs "plugins/firstorder/ground.ml" 130 3938 3946 "plugins/firstorder/ground.ml" 131 3978 4018
+)
+"plugins/firstorder/ground.ml" 129 3910 3916 "plugins/firstorder/ground.ml" 129 3910 3935
+type(
+  Formula.left_arrow_pattern
+)
+"plugins/firstorder/ground.ml" 128 3868 3874 "plugins/firstorder/ground.ml" 129 3910 3935
+type(
+  Formula.left_arrow_pattern
+)
+"plugins/firstorder/ground.ml" 130 3938 3947 "plugins/firstorder/ground.ml" 130 3938 3957
+type(
+  Names.inductive ->
+  Term.constr list -> Rules.lseqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.ll_ind_tac
+)
+"plugins/firstorder/ground.ml" 130 3938 3958 "plugins/firstorder/ground.ml" 130 3938 3961
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/ground.ml" 128 3868 3881 "plugins/firstorder/ground.ml" 128 3868 3884
+)
+"plugins/firstorder/ground.ml" 130 3938 3962 "plugins/firstorder/ground.ml" 130 3938 3967
+type(
+  Term.constr list
+)
+ident(
+  int_ref largs "plugins/firstorder/ground.ml" 128 3868 3885 "plugins/firstorder/ground.ml" 128 3868 3890
+)
+"plugins/firstorder/ground.ml" 130 3938 3968 "plugins/firstorder/ground.ml" 130 3938 3977
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 131 3978 3989 "plugins/firstorder/ground.ml" 131 3978 3991
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+)
+"plugins/firstorder/ground.ml" 131 3978 3989 "plugins/firstorder/ground.ml" 131 3978 3994
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/ground.ml" 131 3978 3995 "plugins/firstorder/ground.ml" 131 3978 4003
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 131 3978 4005 "plugins/firstorder/ground.ml" 131 3978 4011
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 131 3978 4012 "plugins/firstorder/ground.ml" 131 3978 4016
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 131 3978 4004 "plugins/firstorder/ground.ml" 131 3978 4017
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 130 3938 3946 "plugins/firstorder/ground.ml" 131 3978 4018
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 132 4019 4034 "plugins/firstorder/ground.ml" 132 4019 4035
+type(
+  Term.types
+)
+ident(
+  def p "plugins/firstorder/ground.ml" 133 4039 4047 "plugins/firstorder/ground.ml" 136 4150 4172
+)
+"plugins/firstorder/ground.ml" 132 4019 4025 "plugins/firstorder/ground.ml" 132 4019 4035
+type(
+  Formula.left_arrow_pattern
+)
+"plugins/firstorder/ground.ml" 133 4039 4050 "plugins/firstorder/ground.ml" 133 4039 4053
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/ground.ml" 62 1926 1951 "plugins/firstorder/ground.ml" 62 1926 1954
+)
+"plugins/firstorder/ground.ml" 133 4039 4050 "plugins/firstorder/ground.ml" 133 4039 4059
+type(
+  int
+)
+"plugins/firstorder/ground.ml" 133 4039 4059 "plugins/firstorder/ground.ml" 133 4039 4060
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"plugins/firstorder/ground.ml" 133 4039 4060 "plugins/firstorder/ground.ml" 133 4039 4061
+type(
+  int
+)
+"plugins/firstorder/ground.ml" 133 4039 4050 "plugins/firstorder/ground.ml" 133 4039 4061
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 133 4039 4062 "plugins/firstorder/ground.ml" 133 4039 4064
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/ground.ml" 133 4039 4065 "plugins/firstorder/ground.ml" 133 4039 4066
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/ground.ml" 133 4039 4066 "plugins/firstorder/ground.ml" 133 4039 4071
+type(
+  bool ref
+)
+ident(
+  ext_ref Formula.qflag
+)
+"plugins/firstorder/ground.ml" 133 4039 4065 "plugins/firstorder/ground.ml" 133 4039 4071
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 133 4039 4050 "plugins/firstorder/ground.ml" 133 4039 4071
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 134 4077 4088 "plugins/firstorder/ground.ml" 134 4077 4101
+type(
+  Term.types -> Rules.lseqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.ll_forall_tac
+)
+"plugins/firstorder/ground.ml" 134 4077 4102 "plugins/firstorder/ground.ml" 134 4077 4103
+type(
+  Term.types
+)
+ident(
+  int_ref p "plugins/firstorder/ground.ml" 132 4019 4034 "plugins/firstorder/ground.ml" 132 4019 4035
+)
+"plugins/firstorder/ground.ml" 134 4077 4104 "plugins/firstorder/ground.ml" 134 4077 4113
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 135 4114 4120 "plugins/firstorder/ground.ml" 135 4114 4122
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+)
+"plugins/firstorder/ground.ml" 135 4114 4120 "plugins/firstorder/ground.ml" 135 4114 4125
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/ground.ml" 135 4114 4126 "plugins/firstorder/ground.ml" 135 4114 4134
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 135 4114 4136 "plugins/firstorder/ground.ml" 135 4114 4142
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 135 4114 4143 "plugins/firstorder/ground.ml" 135 4114 4147
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 135 4114 4135 "plugins/firstorder/ground.ml" 135 4114 4148
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 134 4077 4087 "plugins/firstorder/ground.ml" 135 4114 4149
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 136 4150 4163 "plugins/firstorder/ground.ml" 136 4150 4172
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 133 4039 4047 "plugins/firstorder/ground.ml" 136 4150 4172
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 137 4173 4189 "plugins/firstorder/ground.ml" 137 4173 4192
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/ground.ml" 138 4199 4207 "plugins/firstorder/ground.ml" 142 4306 4325
+)
+"plugins/firstorder/ground.ml" 137 4173 4193 "plugins/firstorder/ground.ml" 137 4173 4194
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/firstorder/ground.ml" 138 4199 4207 "plugins/firstorder/ground.ml" 142 4306 4325
+)
+"plugins/firstorder/ground.ml" 137 4173 4179 "plugins/firstorder/ground.ml" 137 4173 4195
+type(
+  Formula.left_arrow_pattern
+)
+"plugins/firstorder/ground.ml" 138 4199 4210 "plugins/firstorder/ground.ml" 138 4199 4211
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/ground.ml" 138 4199 4211 "plugins/firstorder/ground.ml" 138 4199 4216
+type(
+  bool ref
+)
+ident(
+  ext_ref Formula.qflag
+)
+"plugins/firstorder/ground.ml" 138 4199 4210 "plugins/firstorder/ground.ml" 138 4199 4216
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 139 4222 4232 "plugins/firstorder/ground.ml" 139 4222 4242
+type(
+  Names.inductive ->
+  Term.constr list -> Rules.lseqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.ll_ind_tac
+)
+"plugins/firstorder/ground.ml" 139 4222 4243 "plugins/firstorder/ground.ml" 139 4222 4246
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/ground.ml" 137 4173 4189 "plugins/firstorder/ground.ml" 137 4173 4192
+)
+"plugins/firstorder/ground.ml" 139 4222 4247 "plugins/firstorder/ground.ml" 139 4222 4248
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/ground.ml" 137 4173 4193 "plugins/firstorder/ground.ml" 137 4173 4194
+)
+"plugins/firstorder/ground.ml" 139 4222 4249 "plugins/firstorder/ground.ml" 139 4222 4258
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 140 4259 4264 "plugins/firstorder/ground.ml" 140 4259 4266
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+)
+"plugins/firstorder/ground.ml" 140 4259 4264 "plugins/firstorder/ground.ml" 140 4259 4269
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/ground.ml" 140 4259 4270 "plugins/firstorder/ground.ml" 140 4259 4278
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 140 4259 4280 "plugins/firstorder/ground.ml" 140 4259 4286
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 140 4259 4287 "plugins/firstorder/ground.ml" 140 4259 4291
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 140 4259 4279 "plugins/firstorder/ground.ml" 140 4259 4292
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 139 4222 4232 "plugins/firstorder/ground.ml" 140 4259 4292
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 142 4306 4316 "plugins/firstorder/ground.ml" 142 4306 4325
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 138 4199 4207 "plugins/firstorder/ground.ml" 142 4306 4325
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 143 4326 4341 "plugins/firstorder/ground.ml" 143 4326 4342
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/ground.ml" 144 4351 4359 "plugins/firstorder/ground.ml" 145 4389 4429
+)
+"plugins/firstorder/ground.ml" 143 4326 4343 "plugins/firstorder/ground.ml" 143 4326 4344
+type(
+  Term.constr
+)
+ident(
+  def b "plugins/firstorder/ground.ml" 144 4351 4359 "plugins/firstorder/ground.ml" 145 4389 4429
+)
+"plugins/firstorder/ground.ml" 143 4326 4345 "plugins/firstorder/ground.ml" 143 4326 4346
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/firstorder/ground.ml" 144 4351 4359 "plugins/firstorder/ground.ml" 145 4389 4429
+)
+"plugins/firstorder/ground.ml" 143 4326 4332 "plugins/firstorder/ground.ml" 143 4326 4347
+type(
+  Formula.left_arrow_pattern
+)
+"plugins/firstorder/ground.ml" 144 4351 4360 "plugins/firstorder/ground.ml" 144 4351 4372
+type(
+  Term.constr ->
+  Term.constr -> Term.constr -> Rules.lseqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.ll_arrow_tac
+)
+"plugins/firstorder/ground.ml" 144 4351 4373 "plugins/firstorder/ground.ml" 144 4351 4374
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/ground.ml" 143 4326 4341 "plugins/firstorder/ground.ml" 143 4326 4342
+)
+"plugins/firstorder/ground.ml" 144 4351 4375 "plugins/firstorder/ground.ml" 144 4351 4376
+type(
+  Term.constr
+)
+ident(
+  int_ref b "plugins/firstorder/ground.ml" 143 4326 4343 "plugins/firstorder/ground.ml" 143 4326 4344
+)
+"plugins/firstorder/ground.ml" 144 4351 4377 "plugins/firstorder/ground.ml" 144 4351 4378
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/firstorder/ground.ml" 143 4326 4345 "plugins/firstorder/ground.ml" 143 4326 4346
+)
+"plugins/firstorder/ground.ml" 144 4351 4379 "plugins/firstorder/ground.ml" 144 4351 4388
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/ground.ml" 71 2223 2230 "plugins/firstorder/ground.ml" 71 2223 2239
+)
+"plugins/firstorder/ground.ml" 145 4389 4400 "plugins/firstorder/ground.ml" 145 4389 4402
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+)
+"plugins/firstorder/ground.ml" 145 4389 4400 "plugins/firstorder/ground.ml" 145 4389 4405
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/ground.ml" 145 4389 4406 "plugins/firstorder/ground.ml" 145 4389 4414
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 145 4389 4416 "plugins/firstorder/ground.ml" 145 4389 4422
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 145 4389 4423 "plugins/firstorder/ground.ml" 145 4389 4427
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 145 4389 4415 "plugins/firstorder/ground.ml" 145 4389 4428
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 144 4351 4359 "plugins/firstorder/ground.ml" 145 4389 4429
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 125 3805 3812 "plugins/firstorder/ground.ml" 146 4430 4440
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 147 4444 4451 "plugins/firstorder/ground.ml" 147 4444 4462
+type(
+  Term.constr -> Rules.lseqtac Rules.with_backtracking
+)
+ident(
+  ext_ref Rules.ll_atom_tac
+)
+"plugins/firstorder/ground.ml" 147 4444 4463 "plugins/firstorder/ground.ml" 147 4444 4466
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/firstorder/ground.ml" 123 3763 3777 "plugins/firstorder/ground.ml" 123 3763 3780
+)
+"plugins/firstorder/ground.ml" 147 4444 4467 "plugins/firstorder/ground.ml" 147 4444 4473
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref la_tac "plugins/firstorder/ground.ml" 124 3788 3797 "plugins/firstorder/ground.ml" 124 3788 3803
+)
+"plugins/firstorder/ground.ml" 147 4444 4474 "plugins/firstorder/ground.ml" 147 4444 4476
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/ground.ml" 68 2114 2122 "plugins/firstorder/ground.ml" 68 2114 2124
+)
+"plugins/firstorder/ground.ml" 147 4444 4474 "plugins/firstorder/ground.ml" 147 4444 4479
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/ground.ml" 147 4444 4480 "plugins/firstorder/ground.ml" 147 4444 4488
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/ground.ml" 70 2197 2204 "plugins/firstorder/ground.ml" 70 2197 2212
+)
+"plugins/firstorder/ground.ml" 147 4444 4490 "plugins/firstorder/ground.ml" 147 4444 4496
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  int_ref re_add "plugins/firstorder/ground.ml" 69 2148 2155 "plugins/firstorder/ground.ml" 69 2148 2161
+)
+"plugins/firstorder/ground.ml" 147 4444 4497 "plugins/firstorder/ground.ml" 147 4444 4501
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/ground.ml" 68 2114 2125 "plugins/firstorder/ground.ml" 68 2114 2129
+)
+"plugins/firstorder/ground.ml" 147 4444 4489 "plugins/firstorder/ground.ml" 147 4444 4502
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 147 4444 4451 "plugins/firstorder/ground.ml" 147 4444 4502
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 124 3788 3793 "plugins/firstorder/ground.ml" 147 4444 4502
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 100 3089 3093 "plugins/firstorder/ground.ml" 148 4503 4510
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 72 2275 2280 "plugins/firstorder/ground.ml" 148 4503 4510
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 70 2197 2200 "plugins/firstorder/ground.ml" 148 4503 4510
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 68 2114 2117 "plugins/firstorder/ground.ml" 148 4503 4510
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 149 4511 4521 "plugins/firstorder/ground.ml" 149 4511 4535
+type(
+  exn
+)
+"plugins/firstorder/ground.ml" 149 4511 4537 "plugins/firstorder/ground.ml" 149 4511 4543
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref solver "plugins/firstorder/ground.ml" 60 1872 1887 "plugins/firstorder/ground.ml" 60 1872 1893
+)
+"plugins/firstorder/ground.ml" 66 2097 2103 "plugins/firstorder/ground.ml" 150 4544 4553
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 150 4544 4554 "plugins/firstorder/ground.ml" 150 4544 4556
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/ground.ml" 62 1926 1955 "plugins/firstorder/ground.ml" 62 1926 1957
+)
+"plugins/firstorder/ground.ml" 65 2060 2064 "plugins/firstorder/ground.ml" 150 4544 4556
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/ground.ml" 63 1959 1963 "plugins/firstorder/ground.ml" 150 4544 4556
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/ground.ml" 151 4560 4564 "plugins/firstorder/ground.ml" 151 4560 4568
+type(
+  int -> bool -> Rules.seqtac
+)
+ident(
+  ext_ref Rules.wrap
+)
+"plugins/firstorder/ground.ml" 151 4560 4570 "plugins/firstorder/ground.ml" 151 4560 4581
+type(
+  Sign.named_context -> int
+)
+ident(
+  ext_ref List.length
+)
+"plugins/firstorder/ground.ml" 151 4560 4583 "plugins/firstorder/ground.ml" 151 4560 4590
+type(
+  Proof_type.goal Tacmach.sigma -> Sign.named_context
+)
+ident(
+  ext_ref Tacmach.pf_hyps
+)
+"plugins/firstorder/ground.ml" 151 4560 4591 "plugins/firstorder/ground.ml" 151 4560 4593
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/ground.ml" 60 1872 1903 "plugins/firstorder/ground.ml" 60 1872 1905
+)
+"plugins/firstorder/ground.ml" 151 4560 4582 "plugins/firstorder/ground.ml" 151 4560 4594
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/firstorder/ground.ml" 151 4560 4569 "plugins/firstorder/ground.ml" 151 4560 4595
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/ground.ml" 151 4560 4596 "plugins/firstorder/ground.ml" 151 4560 4600
+type(
+  bool
+)
+"plugins/firstorder/ground.ml" 151 4560 4602 "plugins/firstorder/ground.ml" 151 4560 4608
+type(
+  Formula.t list -> Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref toptac "plugins/firstorder/ground.ml" 62 1926 1936 "plugins/firstorder/ground.ml" 62 1926 1942
+)
+"plugins/firstorder/ground.ml" 151 4560 4609 "plugins/firstorder/ground.ml" 151 4560 4611
+type(
+  Formula.t list
+)
+"plugins/firstorder/ground.ml" 151 4560 4601 "plugins/firstorder/ground.ml" 151 4560 4612
+call(
+  stack
+)
+type(
+  Sequent.t -> Tacmach.tactic
+)
+"plugins/firstorder/ground.ml" 151 4560 4614 "plugins/firstorder/ground.ml" 151 4560 4622
+type(
+  Proof_type.goal Tacmach.sigma -> Sequent.t
+)
+ident(
+  int_ref startseq "plugins/firstorder/ground.ml" 60 1872 1894 "plugins/firstorder/ground.ml" 60 1872 1902
+)
+"plugins/firstorder/ground.ml" 151 4560 4623 "plugins/firstorder/ground.ml" 151 4560 4625
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/ground.ml" 60 1872 1903 "plugins/firstorder/ground.ml" 60 1872 1905
+)
+"plugins/firstorder/ground.ml" 151 4560 4613 "plugins/firstorder/ground.ml" 151 4560 4626
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/ground.ml" 151 4560 4627 "plugins/firstorder/ground.ml" 151 4560 4629
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/ground.ml" 60 1872 1903 "plugins/firstorder/ground.ml" 60 1872 1905
+)
+"plugins/firstorder/ground.ml" 151 4560 4564 "plugins/firstorder/ground.ml" 151 4560 4629
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/ground.ml" 62 1926 1928 "plugins/firstorder/ground.ml" 151 4560 4629
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/ground.ml" 61 1907 1909 "plugins/firstorder/ground.ml" 151 4560 4629
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)

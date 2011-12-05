@@ -1,0 +1,529 @@
+"plugins/xml/unshare.ml" 21 1315 1319 "plugins/xml/unshare.ml" 21 1315 1326
+type(
+  ?already_unshared:('a -> bool) -> 'b -> 'c
+)
+ident(
+  def unshare "plugins/xml/unshare.ml" 51 2074 2094 --
+)
+"plugins/xml/unshare.ml" 21 1315 1329 "plugins/xml/unshare.ml" 21 1315 1345
+type(
+  'a -> bool
+)
+"plugins/xml/unshare.ml" 21 1315 1357 "plugins/xml/unshare.ml" 21 1315 1358
+type(
+  'a
+)
+"plugins/xml/unshare.ml" 21 1315 1362 "plugins/xml/unshare.ml" 21 1315 1367
+type(
+  bool
+)
+"plugins/xml/unshare.ml" 21 1315 1348 "plugins/xml/unshare.ml" 21 1315 1367
+type(
+  'a -> bool
+)
+type(
+  'a -> bool
+)
+ident(
+  int_ref *sth* "plugins/xml/unshare.ml" 21 1315 1348 "plugins/xml/unshare.ml" 21 1315 1367
+)
+type(
+  ('a -> bool) option
+)
+type(
+  ('a -> bool) option
+)
+type(
+  'a -> bool
+)
+ident(
+  def *sth* "plugins/xml/unshare.ml" 21 1315 1348 "plugins/xml/unshare.ml" 21 1315 1367
+)
+"plugins/xml/unshare.ml" 21 1315 1369 "plugins/xml/unshare.ml" 21 1315 1370
+type(
+  'b
+)
+ident(
+  def t "plugins/xml/unshare.ml" 22 1373 1374 "plugins/xml/unshare.ml" 51 2074 2094
+)
+"plugins/xml/unshare.ml" 22 1373 1378 "plugins/xml/unshare.ml" 22 1373 1381
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 22 1373 1384 "plugins/xml/unshare.ml" 22 1373 1392
+type(
+  'b -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"plugins/xml/unshare.ml" 22 1373 1393 "plugins/xml/unshare.ml" 22 1373 1394
+type(
+  'b
+)
+ident(
+  int_ref t "plugins/xml/unshare.ml" 21 1315 1369 "plugins/xml/unshare.ml" 21 1315 1370
+)
+"plugins/xml/unshare.ml" 22 1373 1384 "plugins/xml/unshare.ml" 22 1373 1394
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 23 1398 1408 "plugins/xml/unshare.ml" 23 1398 1411
+type(
+  Obj.t -> Obj.t
+)
+"plugins/xml/unshare.ml" 23 1398 1412 "plugins/xml/unshare.ml" 23 1398 1415
+type(
+  Obj.t
+)
+ident(
+  def obj "plugins/xml/unshare.ml" 24 1418 1421 "plugins/xml/unshare.ml" 49 2063 2068
+)
+"plugins/xml/unshare.ml" 24 1418 1424 "plugins/xml/unshare.ml" 24 1418 1440
+type(
+  'a -> bool
+)
+ident(
+  int_ref already_unshared "plugins/xml/unshare.ml" 21 1315 1329 "plugins/xml/unshare.ml" 21 1315 1345
+)
+"plugins/xml/unshare.ml" 24 1418 1442 "plugins/xml/unshare.ml" 24 1418 1449
+type(
+  Obj.t -> 'a
+)
+ident(
+  ext_ref Obj.obj
+)
+"plugins/xml/unshare.ml" 24 1418 1450 "plugins/xml/unshare.ml" 24 1418 1453
+type(
+  Obj.t
+)
+ident(
+  int_ref obj "plugins/xml/unshare.ml" 23 1398 1412 "plugins/xml/unshare.ml" 23 1398 1415
+)
+"plugins/xml/unshare.ml" 24 1418 1441 "plugins/xml/unshare.ml" 24 1418 1454
+type(
+  'a
+)
+"plugins/xml/unshare.ml" 24 1418 1424 "plugins/xml/unshare.ml" 24 1418 1454
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/xml/unshare.ml" 25 1460 1464 "plugins/xml/unshare.ml" 25 1460 1467
+type(
+  Obj.t
+)
+ident(
+  int_ref obj "plugins/xml/unshare.ml" 23 1398 1412 "plugins/xml/unshare.ml" 23 1398 1415
+)
+"plugins/xml/unshare.ml" 27 1476 1484 "plugins/xml/unshare.ml" 27 1476 1494
+type(
+  Obj.t -> bool
+)
+ident(
+  ext_ref Obj.is_int
+)
+"plugins/xml/unshare.ml" 27 1476 1495 "plugins/xml/unshare.ml" 27 1476 1498
+type(
+  Obj.t
+)
+ident(
+  int_ref obj "plugins/xml/unshare.ml" 23 1398 1412 "plugins/xml/unshare.ml" 23 1398 1415
+)
+"plugins/xml/unshare.ml" 27 1476 1484 "plugins/xml/unshare.ml" 27 1476 1498
+type(
+  bool
+)
+"plugins/xml/unshare.ml" 28 1504 1510 "plugins/xml/unshare.ml" 28 1504 1513
+type(
+  Obj.t
+)
+ident(
+  int_ref obj "plugins/xml/unshare.ml" 23 1398 1412 "plugins/xml/unshare.ml" 23 1398 1415
+)
+"plugins/xml/unshare.ml" 29 1514 1527 "plugins/xml/unshare.ml" 29 1514 1539
+type(
+  Obj.t -> bool
+)
+ident(
+  ext_ref Obj.is_block
+)
+"plugins/xml/unshare.ml" 29 1514 1540 "plugins/xml/unshare.ml" 29 1514 1543
+type(
+  Obj.t
+)
+ident(
+  int_ref obj "plugins/xml/unshare.ml" 23 1398 1412 "plugins/xml/unshare.ml" 23 1398 1415
+)
+"plugins/xml/unshare.ml" 29 1514 1527 "plugins/xml/unshare.ml" 29 1514 1543
+type(
+  bool
+)
+"plugins/xml/unshare.ml" 31 1561 1572 "plugins/xml/unshare.ml" 31 1561 1575
+type(
+  int
+)
+ident(
+  def tag "plugins/xml/unshare.ml" 32 1593 1601 "plugins/xml/unshare.ml" 45 1988 2016
+)
+"plugins/xml/unshare.ml" 31 1561 1578 "plugins/xml/unshare.ml" 31 1561 1585
+type(
+  Obj.t -> int
+)
+ident(
+  ext_ref Obj.tag
+)
+"plugins/xml/unshare.ml" 31 1561 1586 "plugins/xml/unshare.ml" 31 1561 1589
+type(
+  Obj.t
+)
+ident(
+  int_ref obj "plugins/xml/unshare.ml" 23 1398 1412 "plugins/xml/unshare.ml" 23 1398 1415
+)
+"plugins/xml/unshare.ml" 31 1561 1578 "plugins/xml/unshare.ml" 31 1561 1589
+type(
+  int
+)
+"plugins/xml/unshare.ml" 32 1593 1604 "plugins/xml/unshare.ml" 32 1593 1607
+type(
+  int
+)
+ident(
+  int_ref tag "plugins/xml/unshare.ml" 31 1561 1572 "plugins/xml/unshare.ml" 31 1561 1575
+)
+"plugins/xml/unshare.ml" 32 1593 1608 "plugins/xml/unshare.ml" 32 1593 1609
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"plugins/xml/unshare.ml" 32 1593 1610 "plugins/xml/unshare.ml" 32 1593 1625
+type(
+  int
+)
+ident(
+  ext_ref Obj.no_scan_tag
+)
+"plugins/xml/unshare.ml" 32 1593 1604 "plugins/xml/unshare.ml" 32 1593 1625
+type(
+  bool
+)
+"plugins/xml/unshare.ml" 34 1646 1660 "plugins/xml/unshare.ml" 34 1646 1664
+type(
+  int
+)
+ident(
+  def size "plugins/xml/unshare.ml" 35 1683 1694 "plugins/xml/unshare.ml" 40 1887 1906
+)
+"plugins/xml/unshare.ml" 34 1646 1667 "plugins/xml/unshare.ml" 34 1646 1675
+type(
+  Obj.t -> int
+)
+ident(
+  ext_ref Obj.size
+)
+"plugins/xml/unshare.ml" 34 1646 1676 "plugins/xml/unshare.ml" 34 1646 1679
+type(
+  Obj.t
+)
+ident(
+  int_ref obj "plugins/xml/unshare.ml" 23 1398 1412 "plugins/xml/unshare.ml" 23 1398 1415
+)
+"plugins/xml/unshare.ml" 34 1646 1667 "plugins/xml/unshare.ml" 34 1646 1679
+type(
+  int
+)
+"plugins/xml/unshare.ml" 35 1683 1698 "plugins/xml/unshare.ml" 35 1683 1705
+type(
+  Obj.t
+)
+ident(
+  def new_obj "plugins/xml/unshare.ml" 36 1732 1744 "plugins/xml/unshare.ml" 40 1887 1906
+)
+"plugins/xml/unshare.ml" 35 1683 1708 "plugins/xml/unshare.ml" 35 1683 1721
+type(
+  int -> int -> Obj.t
+)
+ident(
+  ext_ref Obj.new_block
+)
+"plugins/xml/unshare.ml" 35 1683 1722 "plugins/xml/unshare.ml" 35 1683 1723
+type(
+  int
+)
+"plugins/xml/unshare.ml" 35 1683 1724 "plugins/xml/unshare.ml" 35 1683 1728
+type(
+  int
+)
+ident(
+  int_ref size "plugins/xml/unshare.ml" 34 1646 1660 "plugins/xml/unshare.ml" 34 1646 1664
+)
+"plugins/xml/unshare.ml" 35 1683 1708 "plugins/xml/unshare.ml" 35 1683 1728
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 36 1732 1744 "plugins/xml/unshare.ml" 36 1732 1755
+type(
+  Obj.t -> int -> unit
+)
+ident(
+  ext_ref Obj.set_tag
+)
+"plugins/xml/unshare.ml" 36 1732 1756 "plugins/xml/unshare.ml" 36 1732 1763
+type(
+  Obj.t
+)
+ident(
+  int_ref new_obj "plugins/xml/unshare.ml" 35 1683 1698 "plugins/xml/unshare.ml" 35 1683 1705
+)
+"plugins/xml/unshare.ml" 36 1732 1764 "plugins/xml/unshare.ml" 36 1732 1767
+type(
+  int
+)
+ident(
+  int_ref tag "plugins/xml/unshare.ml" 31 1561 1572 "plugins/xml/unshare.ml" 31 1561 1575
+)
+"plugins/xml/unshare.ml" 36 1732 1744 "plugins/xml/unshare.ml" 36 1732 1767
+type(
+  unit
+)
+"plugins/xml/unshare.ml" 37 1770 1790 "plugins/xml/unshare.ml" 37 1770 1791
+type(
+  int
+)
+"plugins/xml/unshare.ml" 37 1770 1795 "plugins/xml/unshare.ml" 37 1770 1799
+type(
+  int
+)
+ident(
+  int_ref size "plugins/xml/unshare.ml" 34 1646 1660 "plugins/xml/unshare.ml" 34 1646 1664
+)
+"plugins/xml/unshare.ml" 37 1770 1800 "plugins/xml/unshare.ml" 37 1770 1801
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/xml/unshare.ml" 37 1770 1802 "plugins/xml/unshare.ml" 37 1770 1803
+type(
+  int
+)
+"plugins/xml/unshare.ml" 37 1770 1795 "plugins/xml/unshare.ml" 37 1770 1803
+type(
+  int
+)
+"plugins/xml/unshare.ml" 38 1807 1820 "plugins/xml/unshare.ml" 38 1807 1833
+type(
+  Obj.t -> int -> Obj.t -> unit
+)
+ident(
+  ext_ref Obj.set_field
+)
+"plugins/xml/unshare.ml" 38 1807 1834 "plugins/xml/unshare.ml" 38 1807 1841
+type(
+  Obj.t
+)
+ident(
+  int_ref new_obj "plugins/xml/unshare.ml" 35 1683 1698 "plugins/xml/unshare.ml" 35 1683 1705
+)
+"plugins/xml/unshare.ml" 38 1807 1842 "plugins/xml/unshare.ml" 38 1807 1843
+type(
+  int
+)
+"plugins/xml/unshare.ml" 38 1807 1845 "plugins/xml/unshare.ml" 38 1807 1848
+type(
+  Obj.t -> Obj.t
+)
+ident(
+  int_ref aux "plugins/xml/unshare.ml" 23 1398 1408 "plugins/xml/unshare.ml" 23 1398 1411
+)
+"plugins/xml/unshare.ml" 38 1807 1850 "plugins/xml/unshare.ml" 38 1807 1859
+type(
+  Obj.t -> int -> Obj.t
+)
+ident(
+  ext_ref Obj.field
+)
+"plugins/xml/unshare.ml" 38 1807 1860 "plugins/xml/unshare.ml" 38 1807 1863
+type(
+  Obj.t
+)
+ident(
+  int_ref obj "plugins/xml/unshare.ml" 23 1398 1412 "plugins/xml/unshare.ml" 23 1398 1415
+)
+"plugins/xml/unshare.ml" 38 1807 1864 "plugins/xml/unshare.ml" 38 1807 1865
+type(
+  int
+)
+"plugins/xml/unshare.ml" 38 1807 1849 "plugins/xml/unshare.ml" 38 1807 1866
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 38 1807 1844 "plugins/xml/unshare.ml" 38 1807 1867
+call(
+  stack
+)
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 38 1807 1820 "plugins/xml/unshare.ml" 38 1807 1867
+type(
+  unit
+)
+"plugins/xml/unshare.ml" 37 1770 1782 "plugins/xml/unshare.ml" 39 1868 1884
+type(
+  unit
+)
+"plugins/xml/unshare.ml" 40 1887 1899 "plugins/xml/unshare.ml" 40 1887 1906
+type(
+  Obj.t
+)
+ident(
+  int_ref new_obj "plugins/xml/unshare.ml" 35 1683 1698 "plugins/xml/unshare.ml" 35 1683 1705
+)
+"plugins/xml/unshare.ml" 37 1770 1782 "plugins/xml/unshare.ml" 40 1887 1906
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 36 1732 1744 "plugins/xml/unshare.ml" 40 1887 1906
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 35 1683 1694 "plugins/xml/unshare.ml" 40 1887 1906
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 33 1631 1640 "plugins/xml/unshare.ml" 41 1907 1919
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 42 1920 1936 "plugins/xml/unshare.ml" 42 1920 1939
+type(
+  int
+)
+ident(
+  int_ref tag "plugins/xml/unshare.ml" 31 1561 1572 "plugins/xml/unshare.ml" 31 1561 1575
+)
+"plugins/xml/unshare.ml" 42 1920 1940 "plugins/xml/unshare.ml" 42 1920 1941
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/xml/unshare.ml" 42 1920 1942 "plugins/xml/unshare.ml" 42 1920 1956
+type(
+  int
+)
+ident(
+  ext_ref Obj.string_tag
+)
+"plugins/xml/unshare.ml" 42 1920 1936 "plugins/xml/unshare.ml" 42 1920 1956
+type(
+  bool
+)
+"plugins/xml/unshare.ml" 43 1962 1971 "plugins/xml/unshare.ml" 43 1962 1974
+type(
+  Obj.t
+)
+ident(
+  int_ref obj "plugins/xml/unshare.ml" 23 1398 1412 "plugins/xml/unshare.ml" 23 1398 1415
+)
+"plugins/xml/unshare.ml" 45 1988 1997 "plugins/xml/unshare.ml" 45 1988 2002
+type(
+  exn -> Obj.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/xml/unshare.ml" 45 1988 2003 "plugins/xml/unshare.ml" 45 1988 2016
+type(
+  exn
+)
+"plugins/xml/unshare.ml" 45 1988 1997 "plugins/xml/unshare.ml" 45 1988 2016
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 42 1920 1933 "plugins/xml/unshare.ml" 45 1988 2016
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 32 1593 1601 "plugins/xml/unshare.ml" 45 1988 2016
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 30 1549 1555 "plugins/xml/unshare.ml" 46 2017 2026
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 48 2037 2043 "plugins/xml/unshare.ml" 48 2037 2048
+type(
+  exn -> Obj.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/xml/unshare.ml" 48 2037 2049 "plugins/xml/unshare.ml" 48 2037 2062
+type(
+  exn
+)
+"plugins/xml/unshare.ml" 48 2037 2043 "plugins/xml/unshare.ml" 48 2037 2062
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 29 1514 1524 "plugins/xml/unshare.ml" 48 2037 2062
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 27 1476 1480 "plugins/xml/unshare.ml" 49 2063 2068
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 24 1418 1421 "plugins/xml/unshare.ml" 49 2063 2068
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 51 2074 2077 "plugins/xml/unshare.ml" 51 2074 2084
+type(
+  Obj.t -> 'c
+)
+ident(
+  ext_ref Obj.obj
+)
+"plugins/xml/unshare.ml" 51 2074 2086 "plugins/xml/unshare.ml" 51 2074 2089
+type(
+  Obj.t -> Obj.t
+)
+ident(
+  int_ref aux "plugins/xml/unshare.ml" 23 1398 1408 "plugins/xml/unshare.ml" 23 1398 1411
+)
+"plugins/xml/unshare.ml" 51 2074 2090 "plugins/xml/unshare.ml" 51 2074 2093
+type(
+  Obj.t
+)
+ident(
+  int_ref obj "plugins/xml/unshare.ml" 22 1373 1378 "plugins/xml/unshare.ml" 22 1373 1381
+)
+"plugins/xml/unshare.ml" 51 2074 2085 "plugins/xml/unshare.ml" 51 2074 2094
+call(
+  tail
+)
+type(
+  Obj.t
+)
+"plugins/xml/unshare.ml" 51 2074 2077 "plugins/xml/unshare.ml" 51 2074 2094
+type(
+  'c
+)
+"plugins/xml/unshare.ml" 23 1398 1400 "plugins/xml/unshare.ml" 51 2074 2094
+type(
+  'c
+)
+"plugins/xml/unshare.ml" 22 1373 1374 "plugins/xml/unshare.ml" 51 2074 2094
+type(
+  'c
+)

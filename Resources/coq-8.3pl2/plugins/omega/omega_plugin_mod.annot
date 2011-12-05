@@ -1,0 +1,90 @@
+"plugins/omega/omega_plugin_mod.ml" 1 0 6 "plugins/omega/omega_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/omega/omega_plugin_mod.ml" 1 0 28 "plugins/omega/omega_plugin_mod.ml" 1 0 35
+type(
+  string
+)
+"plugins/omega/omega_plugin_mod.ml" 1 0 6 "plugins/omega/omega_plugin_mod.ml" 1 0 35
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/omega/omega_plugin_mod.ml" 2 37 43 "plugins/omega/omega_plugin_mod.ml" 2 37 65
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/omega/omega_plugin_mod.ml" 2 37 65 "plugins/omega/omega_plugin_mod.ml" 2 37 76
+type(
+  string
+)
+"plugins/omega/omega_plugin_mod.ml" 2 37 43 "plugins/omega/omega_plugin_mod.ml" 2 37 76
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/omega/omega_plugin_mod.ml" 3 78 84 "plugins/omega/omega_plugin_mod.ml" 3 78 106
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/omega/omega_plugin_mod.ml" 3 78 106 "plugins/omega/omega_plugin_mod.ml" 3 78 115
+type(
+  string
+)
+"plugins/omega/omega_plugin_mod.ml" 3 78 84 "plugins/omega/omega_plugin_mod.ml" 3 78 115
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/omega/omega_plugin_mod.ml" 4 117 123 "plugins/omega/omega_plugin_mod.ml" 4 117 145
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/omega/omega_plugin_mod.ml" 4 117 145 "plugins/omega/omega_plugin_mod.ml" 4 117 163
+type(
+  string
+)
+"plugins/omega/omega_plugin_mod.ml" 4 117 123 "plugins/omega/omega_plugin_mod.ml" 4 117 163
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/omega/omega_plugin_mod.ml" 5 165 171 "plugins/omega/omega_plugin_mod.ml" 5 165 193
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/omega/omega_plugin_mod.ml" 5 165 193 "plugins/omega/omega_plugin_mod.ml" 5 165 207
+type(
+  string
+)
+"plugins/omega/omega_plugin_mod.ml" 5 165 171 "plugins/omega/omega_plugin_mod.ml" 5 165 207
+call(
+  stack
+)
+type(
+  unit
+)

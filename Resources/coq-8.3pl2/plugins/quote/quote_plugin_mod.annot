@@ -1,0 +1,72 @@
+"plugins/quote/quote_plugin_mod.ml" 1 0 6 "plugins/quote/quote_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/quote/quote_plugin_mod.ml" 1 0 28 "plugins/quote/quote_plugin_mod.ml" 1 0 35
+type(
+  string
+)
+"plugins/quote/quote_plugin_mod.ml" 1 0 6 "plugins/quote/quote_plugin_mod.ml" 1 0 35
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/quote/quote_plugin_mod.ml" 2 37 43 "plugins/quote/quote_plugin_mod.ml" 2 37 65
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/quote/quote_plugin_mod.ml" 2 37 65 "plugins/quote/quote_plugin_mod.ml" 2 37 74
+type(
+  string
+)
+"plugins/quote/quote_plugin_mod.ml" 2 37 43 "plugins/quote/quote_plugin_mod.ml" 2 37 74
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/quote/quote_plugin_mod.ml" 3 76 82 "plugins/quote/quote_plugin_mod.ml" 3 76 104
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/quote/quote_plugin_mod.ml" 3 76 104 "plugins/quote/quote_plugin_mod.ml" 3 76 122
+type(
+  string
+)
+"plugins/quote/quote_plugin_mod.ml" 3 76 82 "plugins/quote/quote_plugin_mod.ml" 3 76 122
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/quote/quote_plugin_mod.ml" 4 124 130 "plugins/quote/quote_plugin_mod.ml" 4 124 152
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/quote/quote_plugin_mod.ml" 4 124 152 "plugins/quote/quote_plugin_mod.ml" 4 124 166
+type(
+  string
+)
+"plugins/quote/quote_plugin_mod.ml" 4 124 130 "plugins/quote/quote_plugin_mod.ml" 4 124 166
+call(
+  stack
+)
+type(
+  unit
+)

@@ -1,0 +1,4899 @@
+"plugins/firstorder/instances.ml" 29 814 818 "plugins/firstorder/instances.ml" 29 814 834
+type(
+  Unify.instance -> Unify.instance -> int
+)
+ident(
+  def compare_instance "plugins/firstorder/instances.ml" 38 1154 1154 --
+)
+"plugins/firstorder/instances.ml" 29 814 835 "plugins/firstorder/instances.ml" 29 814 840
+type(
+  Unify.instance
+)
+ident(
+  def inst1 "plugins/firstorder/instances.ml" 29 814 841 "plugins/firstorder/instances.ml" 36 1099 1152
+)
+"plugins/firstorder/instances.ml" 29 814 841 "plugins/firstorder/instances.ml" 29 814 846
+type(
+  Unify.instance
+)
+ident(
+  def inst2 "plugins/firstorder/instances.ml" 30 848 849 "plugins/firstorder/instances.ml" 36 1099 1152
+)
+"plugins/firstorder/instances.ml" 30 848 855 "plugins/firstorder/instances.ml" 30 848 860
+type(
+  Unify.instance
+)
+ident(
+  int_ref inst1 "plugins/firstorder/instances.ml" 29 814 835 "plugins/firstorder/instances.ml" 29 814 840
+)
+"plugins/firstorder/instances.ml" 30 848 861 "plugins/firstorder/instances.ml" 30 848 866
+type(
+  Unify.instance
+)
+ident(
+  int_ref inst2 "plugins/firstorder/instances.ml" 29 814 841 "plugins/firstorder/instances.ml" 29 814 846
+)
+"plugins/firstorder/instances.ml" 30 848 855 "plugins/firstorder/instances.ml" 30 848 866
+type(
+  Unify.instance * Unify.instance
+)
+"plugins/firstorder/instances.ml" 31 872 884 "plugins/firstorder/instances.ml" 31 872 888
+type(
+  Sequent.OrderedConstr.t
+)
+ident(
+  def d1 "plugins/firstorder/instances.ml" 32 903 910 "plugins/firstorder/instances.ml" 32 903 939
+)
+"plugins/firstorder/instances.ml" 31 872 877 "plugins/firstorder/instances.ml" 31 872 888
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 31 872 896 "plugins/firstorder/instances.ml" 31 872 900
+type(
+  Sequent.OrderedConstr.t
+)
+ident(
+  def d2 "plugins/firstorder/instances.ml" 32 903 910 "plugins/firstorder/instances.ml" 32 903 939
+)
+"plugins/firstorder/instances.ml" 31 872 889 "plugins/firstorder/instances.ml" 31 872 900
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 31 872 877 "plugins/firstorder/instances.ml" 31 872 900
+type(
+  Unify.instance * Unify.instance
+)
+"plugins/firstorder/instances.ml" 32 903 911 "plugins/firstorder/instances.ml" 32 903 932
+type(
+  Sequent.OrderedConstr.t -> Sequent.OrderedConstr.t -> int
+)
+ident(
+  ext_ref Sequent.OrderedConstr.compare
+)
+"plugins/firstorder/instances.ml" 32 903 933 "plugins/firstorder/instances.ml" 32 903 935
+type(
+  Sequent.OrderedConstr.t
+)
+ident(
+  int_ref d1 "plugins/firstorder/instances.ml" 31 872 884 "plugins/firstorder/instances.ml" 31 872 888
+)
+"plugins/firstorder/instances.ml" 32 903 936 "plugins/firstorder/instances.ml" 32 903 938
+type(
+  Sequent.OrderedConstr.t
+)
+ident(
+  int_ref d2 "plugins/firstorder/instances.ml" 31 872 896 "plugins/firstorder/instances.ml" 31 872 900
+)
+"plugins/firstorder/instances.ml" 32 903 910 "plugins/firstorder/instances.ml" 32 903 939
+call(
+  tail
+)
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 33 940 951 "plugins/firstorder/instances.ml" 33 940 953
+type(
+  int
+)
+ident(
+  def m1 "plugins/firstorder/instances.ml" 34 981 988 "plugins/firstorder/instances.ml" 34 981 1044
+)
+"plugins/firstorder/instances.ml" 33 940 954 "plugins/firstorder/instances.ml" 33 940 956
+type(
+  Sequent.OrderedConstr.t
+)
+ident(
+  def c1 "plugins/firstorder/instances.ml" 34 981 988 "plugins/firstorder/instances.ml" 34 981 1044
+)
+"plugins/firstorder/instances.ml" 33 940 950 "plugins/firstorder/instances.ml" 33 940 957
+type(
+  int * Sequent.OrderedConstr.t
+)
+"plugins/firstorder/instances.ml" 33 940 958 "plugins/firstorder/instances.ml" 33 940 960
+type(
+  int
+)
+ident(
+  def n1 "plugins/firstorder/instances.ml" 34 981 988 "plugins/firstorder/instances.ml" 34 981 1044
+)
+"plugins/firstorder/instances.ml" 33 940 945 "plugins/firstorder/instances.ml" 33 940 961
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 33 940 968 "plugins/firstorder/instances.ml" 33 940 970
+type(
+  int
+)
+ident(
+  def m2 "plugins/firstorder/instances.ml" 34 981 988 "plugins/firstorder/instances.ml" 34 981 1044
+)
+"plugins/firstorder/instances.ml" 33 940 971 "plugins/firstorder/instances.ml" 33 940 973
+type(
+  Sequent.OrderedConstr.t
+)
+ident(
+  def c2 "plugins/firstorder/instances.ml" 34 981 988 "plugins/firstorder/instances.ml" 34 981 1044
+)
+"plugins/firstorder/instances.ml" 33 940 967 "plugins/firstorder/instances.ml" 33 940 974
+type(
+  int * Sequent.OrderedConstr.t
+)
+"plugins/firstorder/instances.ml" 33 940 975 "plugins/firstorder/instances.ml" 33 940 977
+type(
+  int
+)
+ident(
+  def n2 "plugins/firstorder/instances.ml" 34 981 988 "plugins/firstorder/instances.ml" 34 981 1044
+)
+"plugins/firstorder/instances.ml" 33 940 962 "plugins/firstorder/instances.ml" 33 940 978
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 33 940 945 "plugins/firstorder/instances.ml" 33 940 978
+type(
+  Unify.instance * Unify.instance
+)
+"plugins/firstorder/instances.ml" 34 981 989 "plugins/firstorder/instances.ml" 34 981 992
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/instances.ml" 34 981 993 "plugins/firstorder/instances.ml" 34 981 995
+type(
+  (int -> int -> int) ->
+  (int -> int -> int) -> int -> int -> int -> int -> int
+)
+ident(
+  ext_ref Formula.( =? )
+)
+"plugins/firstorder/instances.ml" 34 981 996 "plugins/firstorder/instances.ml" 34 981 999
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/instances.ml" 34 981 989 "plugins/firstorder/instances.ml" 34 981 999
+call(
+  stack
+)
+type(
+  int -> int -> int -> int -> int
+)
+"plugins/firstorder/instances.ml" 34 981 1000 "plugins/firstorder/instances.ml" 34 981 1003
+type(
+  (int -> int -> int -> int -> int) ->
+  (Sequent.OrderedConstr.t -> Sequent.OrderedConstr.t -> int) ->
+  int ->
+  int ->
+  int -> int -> Sequent.OrderedConstr.t -> Sequent.OrderedConstr.t -> int
+)
+ident(
+  ext_ref Formula.( ==? )
+)
+"plugins/firstorder/instances.ml" 34 981 1004 "plugins/firstorder/instances.ml" 34 981 1025
+type(
+  Sequent.OrderedConstr.t -> Sequent.OrderedConstr.t -> int
+)
+ident(
+  ext_ref Sequent.OrderedConstr.compare
+)
+"plugins/firstorder/instances.ml" 34 981 988 "plugins/firstorder/instances.ml" 34 981 1026
+type(
+  int ->
+  int ->
+  int -> int -> Sequent.OrderedConstr.t -> Sequent.OrderedConstr.t -> int
+)
+"plugins/firstorder/instances.ml" 34 981 1027 "plugins/firstorder/instances.ml" 34 981 1029
+type(
+  int
+)
+ident(
+  int_ref m2 "plugins/firstorder/instances.ml" 33 940 968 "plugins/firstorder/instances.ml" 33 940 970
+)
+"plugins/firstorder/instances.ml" 34 981 1030 "plugins/firstorder/instances.ml" 34 981 1032
+type(
+  int
+)
+ident(
+  int_ref m1 "plugins/firstorder/instances.ml" 33 940 951 "plugins/firstorder/instances.ml" 33 940 953
+)
+"plugins/firstorder/instances.ml" 34 981 1033 "plugins/firstorder/instances.ml" 34 981 1035
+type(
+  int
+)
+ident(
+  int_ref n1 "plugins/firstorder/instances.ml" 33 940 958 "plugins/firstorder/instances.ml" 33 940 960
+)
+"plugins/firstorder/instances.ml" 34 981 1036 "plugins/firstorder/instances.ml" 34 981 1038
+type(
+  int
+)
+ident(
+  int_ref n2 "plugins/firstorder/instances.ml" 33 940 975 "plugins/firstorder/instances.ml" 33 940 977
+)
+"plugins/firstorder/instances.ml" 34 981 1039 "plugins/firstorder/instances.ml" 34 981 1041
+type(
+  Sequent.OrderedConstr.t
+)
+ident(
+  int_ref c1 "plugins/firstorder/instances.ml" 33 940 954 "plugins/firstorder/instances.ml" 33 940 956
+)
+"plugins/firstorder/instances.ml" 34 981 1042 "plugins/firstorder/instances.ml" 34 981 1044
+type(
+  Sequent.OrderedConstr.t
+)
+ident(
+  int_ref c2 "plugins/firstorder/instances.ml" 33 940 971 "plugins/firstorder/instances.ml" 33 940 973
+)
+"plugins/firstorder/instances.ml" 34 981 988 "plugins/firstorder/instances.ml" 34 981 1044
+call(
+  tail
+)
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 35 1045 1057 "plugins/firstorder/instances.ml" 35 1045 1060
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 35 1045 1050 "plugins/firstorder/instances.ml" 35 1045 1060
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 35 1045 1067 "plugins/firstorder/instances.ml" 35 1045 1068
+type(
+  int
+)
+ident(
+  def m "plugins/firstorder/instances.ml" 35 1045 1077 "plugins/firstorder/instances.ml" 35 1045 1098
+)
+"plugins/firstorder/instances.ml" 35 1045 1069 "plugins/firstorder/instances.ml" 35 1045 1070
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 35 1045 1066 "plugins/firstorder/instances.ml" 35 1045 1071
+type(
+  int * Term.constr
+)
+"plugins/firstorder/instances.ml" 35 1045 1072 "plugins/firstorder/instances.ml" 35 1045 1073
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 35 1045 1061 "plugins/firstorder/instances.ml" 35 1045 1074
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 35 1045 1050 "plugins/firstorder/instances.ml" 35 1045 1074
+type(
+  Unify.instance * Unify.instance
+)
+"plugins/firstorder/instances.ml" 35 1045 1080 "plugins/firstorder/instances.ml" 35 1045 1081
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/instances.ml" 35 1045 1067 "plugins/firstorder/instances.ml" 35 1045 1068
+)
+"plugins/firstorder/instances.ml" 35 1045 1081 "plugins/firstorder/instances.ml" 35 1045 1082
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/firstorder/instances.ml" 35 1045 1082 "plugins/firstorder/instances.ml" 35 1045 1083
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 35 1045 1080 "plugins/firstorder/instances.ml" 35 1045 1083
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 35 1045 1089 "plugins/firstorder/instances.ml" 35 1045 1091
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 35 1045 1097 "plugins/firstorder/instances.ml" 35 1045 1098
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 35 1045 1077 "plugins/firstorder/instances.ml" 35 1045 1098
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 36 1099 1110 "plugins/firstorder/instances.ml" 36 1099 1111
+type(
+  int
+)
+ident(
+  def m "plugins/firstorder/instances.ml" 36 1099 1131 "plugins/firstorder/instances.ml" 36 1099 1152
+)
+"plugins/firstorder/instances.ml" 36 1099 1112 "plugins/firstorder/instances.ml" 36 1099 1113
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 36 1099 1109 "plugins/firstorder/instances.ml" 36 1099 1114
+type(
+  int * Term.constr
+)
+"plugins/firstorder/instances.ml" 36 1099 1115 "plugins/firstorder/instances.ml" 36 1099 1116
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 36 1099 1104 "plugins/firstorder/instances.ml" 36 1099 1117
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 36 1099 1125 "plugins/firstorder/instances.ml" 36 1099 1128
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 36 1099 1118 "plugins/firstorder/instances.ml" 36 1099 1128
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 36 1099 1104 "plugins/firstorder/instances.ml" 36 1099 1128
+type(
+  Unify.instance * Unify.instance
+)
+"plugins/firstorder/instances.ml" 36 1099 1134 "plugins/firstorder/instances.ml" 36 1099 1135
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/instances.ml" 36 1099 1110 "plugins/firstorder/instances.ml" 36 1099 1111
+)
+"plugins/firstorder/instances.ml" 36 1099 1135 "plugins/firstorder/instances.ml" 36 1099 1136
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/firstorder/instances.ml" 36 1099 1136 "plugins/firstorder/instances.ml" 36 1099 1137
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 36 1099 1134 "plugins/firstorder/instances.ml" 36 1099 1137
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 36 1099 1143 "plugins/firstorder/instances.ml" 36 1099 1144
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 36 1099 1150 "plugins/firstorder/instances.ml" 36 1099 1152
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 36 1099 1131 "plugins/firstorder/instances.ml" 36 1099 1152
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 30 848 849 "plugins/firstorder/instances.ml" 36 1099 1152
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 38 1154 1158 "plugins/firstorder/instances.ml" 38 1154 1168
+type(
+  Libnames.global_reference -> Libnames.global_reference -> int
+)
+ident(
+  def compare_gr "plugins/firstorder/instances.ml" 44 1303 1303 --
+)
+"plugins/firstorder/instances.ml" 38 1154 1169 "plugins/firstorder/instances.ml" 38 1154 1172
+type(
+  Libnames.global_reference
+)
+ident(
+  def id1 "plugins/firstorder/instances.ml" 38 1154 1173 "plugins/firstorder/instances.ml" 42 1266 1301
+)
+"plugins/firstorder/instances.ml" 38 1154 1173 "plugins/firstorder/instances.ml" 38 1154 1176
+type(
+  Libnames.global_reference
+)
+ident(
+  def id2 "plugins/firstorder/instances.ml" 39 1178 1180 "plugins/firstorder/instances.ml" 42 1266 1301
+)
+"plugins/firstorder/instances.ml" 39 1178 1183 "plugins/firstorder/instances.ml" 39 1178 1186
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id1 "plugins/firstorder/instances.ml" 38 1154 1169 "plugins/firstorder/instances.ml" 38 1154 1172
+)
+"plugins/firstorder/instances.ml" 39 1178 1186 "plugins/firstorder/instances.ml" 39 1178 1188
+type(
+  Libnames.global_reference -> Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"plugins/firstorder/instances.ml" 39 1178 1188 "plugins/firstorder/instances.ml" 39 1178 1191
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id2 "plugins/firstorder/instances.ml" 38 1154 1173 "plugins/firstorder/instances.ml" 38 1154 1176
+)
+"plugins/firstorder/instances.ml" 39 1178 1183 "plugins/firstorder/instances.ml" 39 1178 1191
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 39 1178 1197 "plugins/firstorder/instances.ml" 39 1178 1198
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 40 1204 1211 "plugins/firstorder/instances.ml" 40 1204 1214
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id1 "plugins/firstorder/instances.ml" 38 1154 1169 "plugins/firstorder/instances.ml" 38 1154 1172
+)
+"plugins/firstorder/instances.ml" 40 1204 1214 "plugins/firstorder/instances.ml" 40 1204 1216
+type(
+  Libnames.global_reference -> Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"plugins/firstorder/instances.ml" 40 1204 1216 "plugins/firstorder/instances.ml" 40 1204 1224
+type(
+  Libnames.global_reference
+)
+ident(
+  ext_ref Formula.dummy_id
+)
+"plugins/firstorder/instances.ml" 40 1204 1211 "plugins/firstorder/instances.ml" 40 1204 1224
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 40 1204 1230 "plugins/firstorder/instances.ml" 40 1204 1231
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 41 1232 1244 "plugins/firstorder/instances.ml" 41 1232 1247
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id2 "plugins/firstorder/instances.ml" 38 1154 1173 "plugins/firstorder/instances.ml" 38 1154 1176
+)
+"plugins/firstorder/instances.ml" 41 1232 1247 "plugins/firstorder/instances.ml" 41 1232 1249
+type(
+  Libnames.global_reference -> Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"plugins/firstorder/instances.ml" 41 1232 1249 "plugins/firstorder/instances.ml" 41 1232 1257
+type(
+  Libnames.global_reference
+)
+ident(
+  ext_ref Formula.dummy_id
+)
+"plugins/firstorder/instances.ml" 41 1232 1244 "plugins/firstorder/instances.ml" 41 1232 1257
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 41 1232 1263 "plugins/firstorder/instances.ml" 41 1232 1265
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 42 1266 1275 "plugins/firstorder/instances.ml" 42 1266 1293
+type(
+  Libnames.global_reference -> Libnames.global_reference -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"plugins/firstorder/instances.ml" 42 1266 1294 "plugins/firstorder/instances.ml" 42 1266 1297
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id1 "plugins/firstorder/instances.ml" 38 1154 1169 "plugins/firstorder/instances.ml" 38 1154 1172
+)
+"plugins/firstorder/instances.ml" 42 1266 1298 "plugins/firstorder/instances.ml" 42 1266 1301
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id2 "plugins/firstorder/instances.ml" 38 1154 1173 "plugins/firstorder/instances.ml" 38 1154 1176
+)
+"plugins/firstorder/instances.ml" 42 1266 1275 "plugins/firstorder/instances.ml" 42 1266 1301
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 41 1232 1241 "plugins/firstorder/instances.ml" 42 1266 1301
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 40 1204 1208 "plugins/firstorder/instances.ml" 42 1266 1301
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 39 1178 1180 "plugins/firstorder/instances.ml" 42 1266 1301
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 47 1380 1386 "plugins/firstorder/instances.ml" 47 1380 1393
+type(
+  Unify.instance * Libnames.global_reference ->
+  Unify.instance * Libnames.global_reference -> int
+)
+ident(
+  def compare "plugins/firstorder/instances.ml" 48 1419 1475 "plugins/firstorder/instances.ml" 50 1523 1526
+)
+"plugins/firstorder/instances.ml" 47 1380 1395 "plugins/firstorder/instances.ml" 47 1380 1400
+type(
+  Unify.instance
+)
+ident(
+  def inst1 "plugins/firstorder/instances.ml" 47 1380 1406 "plugins/firstorder/instances.ml" 48 1419 1475
+)
+"plugins/firstorder/instances.ml" 47 1380 1401 "plugins/firstorder/instances.ml" 47 1380 1404
+type(
+  Libnames.global_reference
+)
+ident(
+  def id1 "plugins/firstorder/instances.ml" 47 1380 1406 "plugins/firstorder/instances.ml" 48 1419 1475
+)
+"plugins/firstorder/instances.ml" 47 1380 1394 "plugins/firstorder/instances.ml" 47 1380 1405
+type(
+  Unify.instance * Libnames.global_reference
+)
+"plugins/firstorder/instances.ml" 47 1380 1407 "plugins/firstorder/instances.ml" 47 1380 1412
+type(
+  Unify.instance
+)
+ident(
+  def inst2 "plugins/firstorder/instances.ml" 48 1419 1423 "plugins/firstorder/instances.ml" 48 1419 1475
+)
+"plugins/firstorder/instances.ml" 47 1380 1413 "plugins/firstorder/instances.ml" 47 1380 1416
+type(
+  Libnames.global_reference
+)
+ident(
+  def id2 "plugins/firstorder/instances.ml" 48 1419 1423 "plugins/firstorder/instances.ml" 48 1419 1475
+)
+"plugins/firstorder/instances.ml" 47 1380 1406 "plugins/firstorder/instances.ml" 47 1380 1417
+type(
+  Unify.instance * Libnames.global_reference
+)
+"plugins/firstorder/instances.ml" 48 1419 1424 "plugins/firstorder/instances.ml" 48 1419 1440
+type(
+  Unify.instance -> Unify.instance -> int
+)
+ident(
+  int_ref compare_instance "plugins/firstorder/instances.ml" 29 814 818 "plugins/firstorder/instances.ml" 29 814 834
+)
+"plugins/firstorder/instances.ml" 48 1419 1441 "plugins/firstorder/instances.ml" 48 1419 1443
+type(
+  (Unify.instance -> Unify.instance -> int) ->
+  (Libnames.global_reference -> Libnames.global_reference -> int) ->
+  Unify.instance ->
+  Unify.instance ->
+  Libnames.global_reference -> Libnames.global_reference -> int
+)
+ident(
+  ext_ref Formula.( =? )
+)
+"plugins/firstorder/instances.ml" 48 1419 1444 "plugins/firstorder/instances.ml" 48 1419 1454
+type(
+  Libnames.global_reference -> Libnames.global_reference -> int
+)
+ident(
+  int_ref compare_gr "plugins/firstorder/instances.ml" 38 1154 1158 "plugins/firstorder/instances.ml" 38 1154 1168
+)
+"plugins/firstorder/instances.ml" 48 1419 1423 "plugins/firstorder/instances.ml" 48 1419 1455
+type(
+  Unify.instance ->
+  Unify.instance ->
+  Libnames.global_reference -> Libnames.global_reference -> int
+)
+"plugins/firstorder/instances.ml" 48 1419 1456 "plugins/firstorder/instances.ml" 48 1419 1461
+type(
+  Unify.instance
+)
+ident(
+  int_ref inst2 "plugins/firstorder/instances.ml" 47 1380 1407 "plugins/firstorder/instances.ml" 47 1380 1412
+)
+"plugins/firstorder/instances.ml" 48 1419 1462 "plugins/firstorder/instances.ml" 48 1419 1467
+type(
+  Unify.instance
+)
+ident(
+  int_ref inst1 "plugins/firstorder/instances.ml" 47 1380 1395 "plugins/firstorder/instances.ml" 47 1380 1400
+)
+"plugins/firstorder/instances.ml" 48 1419 1468 "plugins/firstorder/instances.ml" 48 1419 1471
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id2 "plugins/firstorder/instances.ml" 47 1380 1413 "plugins/firstorder/instances.ml" 47 1380 1416
+)
+"plugins/firstorder/instances.ml" 48 1419 1472 "plugins/firstorder/instances.ml" 48 1419 1475
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id1 "plugins/firstorder/instances.ml" 47 1380 1401 "plugins/firstorder/instances.ml" 47 1380 1404
+)
+"plugins/firstorder/instances.ml" 48 1419 1423 "plugins/firstorder/instances.ml" 48 1419 1475
+call(
+  tail
+)
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 52 1528 1538 "plugins/firstorder/instances.ml" 52 1528 1563
+call(
+  stack
+)
+"plugins/firstorder/instances.ml" 54 1565 1569 "plugins/firstorder/instances.ml" 54 1565 1586
+type(
+  Sequent.t -> Formula.atoms
+)
+ident(
+  def make_simple_atoms "plugins/firstorder/instances.ml" 61 1706 1706 --
+)
+"plugins/firstorder/instances.ml" 54 1565 1587 "plugins/firstorder/instances.ml" 54 1565 1590
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/instances.ml" 55 1592 1594 "plugins/firstorder/instances.ml" 59 1662 1704
+)
+"plugins/firstorder/instances.ml" 55 1592 1598 "plugins/firstorder/instances.ml" 55 1592 1604
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 56 1606 1616 "plugins/firstorder/instances.ml" 56 1606 1619
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 54 1565 1587 "plugins/firstorder/instances.ml" 54 1565 1590
+)
+"plugins/firstorder/instances.ml" 56 1606 1616 "plugins/firstorder/instances.ml" 56 1606 1626
+type(
+  Term.constr option
+)
+"plugins/firstorder/instances.ml" 57 1632 1638 "plugins/firstorder/instances.ml" 57 1632 1639
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/instances.ml" 57 1632 1641 "plugins/firstorder/instances.ml" 57 1632 1644
+)
+"plugins/firstorder/instances.ml" 57 1632 1633 "plugins/firstorder/instances.ml" 57 1632 1639
+type(
+  Term.constr option
+)
+"plugins/firstorder/instances.ml" 57 1632 1642 "plugins/firstorder/instances.ml" 57 1632 1643
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/instances.ml" 57 1632 1638 "plugins/firstorder/instances.ml" 57 1632 1639
+)
+"plugins/firstorder/instances.ml" 57 1632 1641 "plugins/firstorder/instances.ml" 57 1632 1644
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 58 1645 1653 "plugins/firstorder/instances.ml" 58 1645 1657
+type(
+  Term.constr option
+)
+"plugins/firstorder/instances.ml" 58 1645 1659 "plugins/firstorder/instances.ml" 58 1645 1661
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 56 1606 1610 "plugins/firstorder/instances.ml" 58 1645 1661
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 59 1662 1677 "plugins/firstorder/instances.ml" 59 1662 1680
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 54 1565 1587 "plugins/firstorder/instances.ml" 54 1565 1590
+)
+"plugins/firstorder/instances.ml" 59 1662 1677 "plugins/firstorder/instances.ml" 59 1662 1687
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 59 1662 1697 "plugins/firstorder/instances.ml" 59 1662 1703
+type(
+  Term.constr list
+)
+ident(
+  int_ref ratoms "plugins/firstorder/instances.ml" 55 1592 1598 "plugins/firstorder/instances.ml" 55 1592 1604
+)
+"plugins/firstorder/instances.ml" 59 1662 1667 "plugins/firstorder/instances.ml" 59 1662 1704
+type(
+  Formula.atoms
+)
+"plugins/firstorder/instances.ml" 55 1592 1594 "plugins/firstorder/instances.ml" 59 1662 1704
+type(
+  Formula.atoms
+)
+"plugins/firstorder/instances.ml" 61 1706 1710 "plugins/firstorder/instances.ml" 61 1706 1720
+type(
+  IS.t ref ->
+  bool ->
+  Libnames.global_reference ->
+  Sequent.t -> Term.metavariable -> Term.constr -> Formula.atoms -> bool
+)
+ident(
+  def do_sequent "plugins/firstorder/instances.ml" 76 2260 2260 --
+)
+"plugins/firstorder/instances.ml" 61 1706 1721 "plugins/firstorder/instances.ml" 61 1706 1727
+type(
+  IS.t ref
+)
+ident(
+  def setref "plugins/firstorder/instances.ml" 61 1706 1728 "plugins/firstorder/instances.ml" 74 2239 2258
+)
+"plugins/firstorder/instances.ml" 61 1706 1728 "plugins/firstorder/instances.ml" 61 1706 1732
+type(
+  bool
+)
+ident(
+  def triv "plugins/firstorder/instances.ml" 61 1706 1733 "plugins/firstorder/instances.ml" 74 2239 2258
+)
+"plugins/firstorder/instances.ml" 61 1706 1733 "plugins/firstorder/instances.ml" 61 1706 1735
+type(
+  Libnames.global_reference
+)
+ident(
+  def id "plugins/firstorder/instances.ml" 61 1706 1736 "plugins/firstorder/instances.ml" 74 2239 2258
+)
+"plugins/firstorder/instances.ml" 61 1706 1736 "plugins/firstorder/instances.ml" 61 1706 1739
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/instances.ml" 61 1706 1740 "plugins/firstorder/instances.ml" 74 2239 2258
+)
+"plugins/firstorder/instances.ml" 61 1706 1740 "plugins/firstorder/instances.ml" 61 1706 1741
+type(
+  Term.metavariable
+)
+ident(
+  def i "plugins/firstorder/instances.ml" 61 1706 1742 "plugins/firstorder/instances.ml" 74 2239 2258
+)
+"plugins/firstorder/instances.ml" 61 1706 1742 "plugins/firstorder/instances.ml" 61 1706 1745
+type(
+  Term.constr
+)
+ident(
+  def dom "plugins/firstorder/instances.ml" 61 1706 1746 "plugins/firstorder/instances.ml" 74 2239 2258
+)
+"plugins/firstorder/instances.ml" 61 1706 1746 "plugins/firstorder/instances.ml" 61 1706 1751
+type(
+  Formula.atoms
+)
+ident(
+  def atoms "plugins/firstorder/instances.ml" 62 1753 1755 "plugins/firstorder/instances.ml" 74 2239 2258
+)
+"plugins/firstorder/instances.ml" 62 1753 1759 "plugins/firstorder/instances.ml" 62 1753 1763
+type(
+  bool ref
+)
+"plugins/firstorder/instances.ml" 62 1753 1764 "plugins/firstorder/instances.ml" 62 1753 1767
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/instances.ml" 62 1753 1768 "plugins/firstorder/instances.ml" 62 1753 1772
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 62 1753 1764 "plugins/firstorder/instances.ml" 62 1753 1772
+type(
+  bool ref
+)
+"plugins/firstorder/instances.ml" 63 1776 1782 "plugins/firstorder/instances.ml" 63 1776 1787
+type(
+  bool ref
+)
+"plugins/firstorder/instances.ml" 63 1776 1788 "plugins/firstorder/instances.ml" 63 1776 1791
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/instances.ml" 63 1776 1792 "plugins/firstorder/instances.ml" 63 1776 1796
+type(
+  bool
+)
+ident(
+  int_ref triv "plugins/firstorder/instances.ml" 61 1706 1728 "plugins/firstorder/instances.ml" 61 1706 1732
+)
+"plugins/firstorder/instances.ml" 63 1776 1788 "plugins/firstorder/instances.ml" 63 1776 1796
+type(
+  bool ref
+)
+"plugins/firstorder/instances.ml" 64 1800 1806 "plugins/firstorder/instances.ml" 64 1800 1814
+type(
+  Formula.atoms -> Formula.atoms -> unit
+)
+"plugins/firstorder/instances.ml" 64 1800 1815 "plugins/firstorder/instances.ml" 64 1800 1817
+type(
+  Formula.atoms
+)
+ident(
+  def a1 "plugins/firstorder/instances.ml" 64 1800 1818 "plugins/firstorder/instances.ml" 71 2062 2132
+)
+"plugins/firstorder/instances.ml" 64 1800 1818 "plugins/firstorder/instances.ml" 64 1800 1820
+type(
+  Formula.atoms
+)
+ident(
+  def a2 "plugins/firstorder/instances.ml" 65 1823 1827 "plugins/firstorder/instances.ml" 71 2062 2132
+)
+"plugins/firstorder/instances.ml" 65 1823 1831 "plugins/firstorder/instances.ml" 65 1823 1838
+type(
+  Term.constr -> Term.constr -> unit
+)
+"plugins/firstorder/instances.ml" 65 1823 1839 "plugins/firstorder/instances.ml" 65 1823 1841
+type(
+  Term.constr
+)
+ident(
+  def t1 "plugins/firstorder/instances.ml" 65 1823 1842 "plugins/firstorder/instances.ml" 69 1933 1986
+)
+"plugins/firstorder/instances.ml" 65 1823 1842 "plugins/firstorder/instances.ml" 65 1823 1844
+type(
+  Term.constr
+)
+ident(
+  def t2 "plugins/firstorder/instances.ml" 66 1847 1853 "plugins/firstorder/instances.ml" 69 1933 1986
+)
+"plugins/firstorder/instances.ml" 66 1847 1859 "plugins/firstorder/instances.ml" 66 1847 1869
+type(
+  Term.metavariable ->
+  Term.constr -> Term.constr -> Term.constr -> Unify.instance option
+)
+ident(
+  ext_ref Unify.unif_atoms
+)
+"plugins/firstorder/instances.ml" 66 1847 1870 "plugins/firstorder/instances.ml" 66 1847 1871
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/instances.ml" 61 1706 1740 "plugins/firstorder/instances.ml" 61 1706 1741
+)
+"plugins/firstorder/instances.ml" 66 1847 1872 "plugins/firstorder/instances.ml" 66 1847 1875
+type(
+  Term.constr
+)
+ident(
+  int_ref dom "plugins/firstorder/instances.ml" 61 1706 1742 "plugins/firstorder/instances.ml" 61 1706 1745
+)
+"plugins/firstorder/instances.ml" 66 1847 1876 "plugins/firstorder/instances.ml" 66 1847 1878
+type(
+  Term.constr
+)
+ident(
+  int_ref t1 "plugins/firstorder/instances.ml" 65 1823 1839 "plugins/firstorder/instances.ml" 65 1823 1841
+)
+"plugins/firstorder/instances.ml" 66 1847 1879 "plugins/firstorder/instances.ml" 66 1847 1881
+type(
+  Term.constr
+)
+ident(
+  int_ref t2 "plugins/firstorder/instances.ml" 65 1823 1842 "plugins/firstorder/instances.ml" 65 1823 1844
+)
+"plugins/firstorder/instances.ml" 66 1847 1859 "plugins/firstorder/instances.ml" 66 1847 1881
+call(
+  stack
+)
+type(
+  Unify.instance option
+)
+"plugins/firstorder/instances.ml" 67 1887 1890 "plugins/firstorder/instances.ml" 67 1887 1894
+type(
+  Unify.instance option
+)
+"plugins/firstorder/instances.ml" 67 1887 1896 "plugins/firstorder/instances.ml" 67 1887 1898
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 68 1899 1916 "plugins/firstorder/instances.ml" 68 1899 1917
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 68 1899 1907 "plugins/firstorder/instances.ml" 68 1899 1918
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 68 1899 1902 "plugins/firstorder/instances.ml" 68 1899 1918
+type(
+  Unify.instance option
+)
+"plugins/firstorder/instances.ml" 68 1899 1921 "plugins/firstorder/instances.ml" 68 1899 1926
+type(
+  bool ref
+)
+ident(
+  int_ref phref "plugins/firstorder/instances.ml" 63 1776 1782 "plugins/firstorder/instances.ml" 63 1776 1787
+)
+"plugins/firstorder/instances.ml" 68 1899 1926 "plugins/firstorder/instances.ml" 68 1899 1928
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/instances.ml" 68 1899 1928 "plugins/firstorder/instances.ml" 68 1899 1932
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 68 1899 1921 "plugins/firstorder/instances.ml" 68 1899 1932
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 69 1933 1941 "plugins/firstorder/instances.ml" 69 1933 1942
+type(
+  Unify.instance
+)
+ident(
+  def c "plugins/firstorder/instances.ml" 69 1933 1945 "plugins/firstorder/instances.ml" 69 1933 1986
+)
+"plugins/firstorder/instances.ml" 69 1933 1936 "plugins/firstorder/instances.ml" 69 1933 1942
+type(
+  Unify.instance option
+)
+"plugins/firstorder/instances.ml" 69 1933 1945 "plugins/firstorder/instances.ml" 69 1933 1949
+type(
+  bool ref
+)
+ident(
+  int_ref flag "plugins/firstorder/instances.ml" 62 1753 1759 "plugins/firstorder/instances.ml" 62 1753 1763
+)
+"plugins/firstorder/instances.ml" 69 1933 1949 "plugins/firstorder/instances.ml" 69 1933 1951
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/instances.ml" 69 1933 1951 "plugins/firstorder/instances.ml" 69 1933 1956
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 69 1933 1945 "plugins/firstorder/instances.ml" 69 1933 1956
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 69 1933 1957 "plugins/firstorder/instances.ml" 69 1933 1963
+type(
+  IS.t ref
+)
+ident(
+  int_ref setref "plugins/firstorder/instances.ml" 61 1706 1721 "plugins/firstorder/instances.ml" 61 1706 1727
+)
+"plugins/firstorder/instances.ml" 69 1933 1963 "plugins/firstorder/instances.ml" 69 1933 1965
+type(
+  IS.t ref -> IS.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/instances.ml" 69 1933 1965 "plugins/firstorder/instances.ml" 69 1933 1971
+type(
+  IS.elt -> IS.t -> IS.t
+)
+ident(
+  ext_ref IS.add
+)
+"plugins/firstorder/instances.ml" 69 1933 1973 "plugins/firstorder/instances.ml" 69 1933 1974
+type(
+  Unify.instance
+)
+ident(
+  int_ref c "plugins/firstorder/instances.ml" 69 1933 1941 "plugins/firstorder/instances.ml" 69 1933 1942
+)
+"plugins/firstorder/instances.ml" 69 1933 1975 "plugins/firstorder/instances.ml" 69 1933 1977
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 61 1706 1733 "plugins/firstorder/instances.ml" 61 1706 1735
+)
+"plugins/firstorder/instances.ml" 69 1933 1972 "plugins/firstorder/instances.ml" 69 1933 1978
+type(
+  IS.elt
+)
+"plugins/firstorder/instances.ml" 69 1933 1979 "plugins/firstorder/instances.ml" 69 1933 1980
+type(
+  IS.t ref -> IS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/instances.ml" 69 1933 1980 "plugins/firstorder/instances.ml" 69 1933 1986
+type(
+  IS.t ref
+)
+ident(
+  int_ref setref "plugins/firstorder/instances.ml" 61 1706 1721 "plugins/firstorder/instances.ml" 61 1706 1727
+)
+"plugins/firstorder/instances.ml" 69 1933 1979 "plugins/firstorder/instances.ml" 69 1933 1986
+type(
+  IS.t
+)
+"plugins/firstorder/instances.ml" 69 1933 1965 "plugins/firstorder/instances.ml" 69 1933 1986
+type(
+  IS.t
+)
+"plugins/firstorder/instances.ml" 69 1933 1957 "plugins/firstorder/instances.ml" 69 1933 1986
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 69 1933 1945 "plugins/firstorder/instances.ml" 69 1933 1986
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 66 1847 1853 "plugins/firstorder/instances.ml" 69 1933 1986
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 70 1990 1996 "plugins/firstorder/instances.ml" 70 1990 2005
+type(
+  (Term.constr -> unit) -> Term.constr list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/firstorder/instances.ml" 70 1990 2011 "plugins/firstorder/instances.ml" 70 1990 2012
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/instances.ml" 70 1990 2014 "plugins/firstorder/instances.ml" 70 1990 2047
+)
+"plugins/firstorder/instances.ml" 70 1990 2014 "plugins/firstorder/instances.ml" 70 1990 2023
+type(
+  (Term.constr -> unit) -> Term.constr list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/firstorder/instances.ml" 70 1990 2025 "plugins/firstorder/instances.ml" 70 1990 2032
+type(
+  Term.constr -> Term.constr -> unit
+)
+ident(
+  int_ref do_pair "plugins/firstorder/instances.ml" 65 1823 1831 "plugins/firstorder/instances.ml" 65 1823 1838
+)
+"plugins/firstorder/instances.ml" 70 1990 2033 "plugins/firstorder/instances.ml" 70 1990 2034
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/instances.ml" 70 1990 2011 "plugins/firstorder/instances.ml" 70 1990 2012
+)
+"plugins/firstorder/instances.ml" 70 1990 2024 "plugins/firstorder/instances.ml" 70 1990 2035
+call(
+  stack
+)
+type(
+  Term.constr -> unit
+)
+"plugins/firstorder/instances.ml" 70 1990 2036 "plugins/firstorder/instances.ml" 70 1990 2038
+type(
+  Formula.atoms
+)
+ident(
+  int_ref a2 "plugins/firstorder/instances.ml" 64 1800 1818 "plugins/firstorder/instances.ml" 64 1800 1820
+)
+"plugins/firstorder/instances.ml" 70 1990 2036 "plugins/firstorder/instances.ml" 70 1990 2047
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 70 1990 2014 "plugins/firstorder/instances.ml" 70 1990 2047
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 70 1990 2006 "plugins/firstorder/instances.ml" 70 1990 2048
+type(
+  Term.constr -> unit
+)
+"plugins/firstorder/instances.ml" 70 1990 2049 "plugins/firstorder/instances.ml" 70 1990 2051
+type(
+  Formula.atoms
+)
+ident(
+  int_ref a1 "plugins/firstorder/instances.ml" 64 1800 1815 "plugins/firstorder/instances.ml" 64 1800 1817
+)
+"plugins/firstorder/instances.ml" 70 1990 2049 "plugins/firstorder/instances.ml" 70 1990 2060
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 70 1990 1996 "plugins/firstorder/instances.ml" 70 1990 2060
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 71 2062 2068 "plugins/firstorder/instances.ml" 71 2062 2077
+type(
+  (Term.constr -> unit) -> Term.constr list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/firstorder/instances.ml" 71 2062 2083 "plugins/firstorder/instances.ml" 71 2062 2084
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/instances.ml" 71 2062 2086 "plugins/firstorder/instances.ml" 71 2062 2119
+)
+"plugins/firstorder/instances.ml" 71 2062 2086 "plugins/firstorder/instances.ml" 71 2062 2095
+type(
+  (Term.constr -> unit) -> Term.constr list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/firstorder/instances.ml" 71 2062 2097 "plugins/firstorder/instances.ml" 71 2062 2104
+type(
+  Term.constr -> Term.constr -> unit
+)
+ident(
+  int_ref do_pair "plugins/firstorder/instances.ml" 65 1823 1831 "plugins/firstorder/instances.ml" 65 1823 1838
+)
+"plugins/firstorder/instances.ml" 71 2062 2105 "plugins/firstorder/instances.ml" 71 2062 2106
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/instances.ml" 71 2062 2083 "plugins/firstorder/instances.ml" 71 2062 2084
+)
+"plugins/firstorder/instances.ml" 71 2062 2096 "plugins/firstorder/instances.ml" 71 2062 2107
+call(
+  stack
+)
+type(
+  Term.constr -> unit
+)
+"plugins/firstorder/instances.ml" 71 2062 2108 "plugins/firstorder/instances.ml" 71 2062 2110
+type(
+  Formula.atoms
+)
+ident(
+  int_ref a2 "plugins/firstorder/instances.ml" 64 1800 1818 "plugins/firstorder/instances.ml" 64 1800 1820
+)
+"plugins/firstorder/instances.ml" 71 2062 2108 "plugins/firstorder/instances.ml" 71 2062 2119
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 71 2062 2086 "plugins/firstorder/instances.ml" 71 2062 2119
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 71 2062 2078 "plugins/firstorder/instances.ml" 71 2062 2120
+type(
+  Term.constr -> unit
+)
+"plugins/firstorder/instances.ml" 71 2062 2121 "plugins/firstorder/instances.ml" 71 2062 2123
+type(
+  Formula.atoms
+)
+ident(
+  int_ref a1 "plugins/firstorder/instances.ml" 64 1800 1815 "plugins/firstorder/instances.ml" 64 1800 1817
+)
+"plugins/firstorder/instances.ml" 71 2062 2121 "plugins/firstorder/instances.ml" 71 2062 2132
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 71 2062 2068 "plugins/firstorder/instances.ml" 71 2062 2132
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 70 1990 1996 "plugins/firstorder/instances.ml" 71 2062 2132
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 65 1823 1827 "plugins/firstorder/instances.ml" 71 2062 2132
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 72 2136 2140 "plugins/firstorder/instances.ml" 72 2136 2147
+type(
+  (Sequent.HP.elt -> unit) -> Sequent.HP.t -> unit
+)
+ident(
+  ext_ref Sequent.HP.iter
+)
+"plugins/firstorder/instances.ml" 72 2136 2153 "plugins/firstorder/instances.ml" 72 2136 2155
+type(
+  Sequent.HP.elt
+)
+ident(
+  def lf "plugins/firstorder/instances.ml" 72 2136 2157 "plugins/firstorder/instances.ml" 72 2136 2180
+)
+"plugins/firstorder/instances.ml" 72 2136 2157 "plugins/firstorder/instances.ml" 72 2136 2165
+type(
+  Formula.atoms -> Formula.atoms -> unit
+)
+ident(
+  int_ref do_atoms "plugins/firstorder/instances.ml" 64 1800 1806 "plugins/firstorder/instances.ml" 64 1800 1814
+)
+"plugins/firstorder/instances.ml" 72 2136 2166 "plugins/firstorder/instances.ml" 72 2136 2171
+type(
+  Formula.atoms
+)
+ident(
+  int_ref atoms "plugins/firstorder/instances.ml" 61 1706 1746 "plugins/firstorder/instances.ml" 61 1706 1751
+)
+"plugins/firstorder/instances.ml" 72 2136 2172 "plugins/firstorder/instances.ml" 72 2136 2174
+type(
+  Sequent.HP.elt
+)
+ident(
+  int_ref lf "plugins/firstorder/instances.ml" 72 2136 2153 "plugins/firstorder/instances.ml" 72 2136 2155
+)
+"plugins/firstorder/instances.ml" 72 2136 2172 "plugins/firstorder/instances.ml" 72 2136 2180
+type(
+  Formula.atoms
+)
+"plugins/firstorder/instances.ml" 72 2136 2157 "plugins/firstorder/instances.ml" 72 2136 2180
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 72 2136 2148 "plugins/firstorder/instances.ml" 72 2136 2181
+type(
+  Sequent.HP.elt -> unit
+)
+"plugins/firstorder/instances.ml" 72 2136 2182 "plugins/firstorder/instances.ml" 72 2136 2185
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 61 1706 1736 "plugins/firstorder/instances.ml" 61 1706 1739
+)
+"plugins/firstorder/instances.ml" 72 2136 2182 "plugins/firstorder/instances.ml" 72 2136 2193
+type(
+  Sequent.HP.t
+)
+"plugins/firstorder/instances.ml" 72 2136 2140 "plugins/firstorder/instances.ml" 72 2136 2193
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 73 2195 2199 "plugins/firstorder/instances.ml" 73 2195 2207
+type(
+  Formula.atoms -> Formula.atoms -> unit
+)
+ident(
+  int_ref do_atoms "plugins/firstorder/instances.ml" 64 1800 1806 "plugins/firstorder/instances.ml" 64 1800 1814
+)
+"plugins/firstorder/instances.ml" 73 2195 2208 "plugins/firstorder/instances.ml" 73 2195 2213
+type(
+  Formula.atoms
+)
+ident(
+  int_ref atoms "plugins/firstorder/instances.ml" 61 1706 1746 "plugins/firstorder/instances.ml" 61 1706 1751
+)
+"plugins/firstorder/instances.ml" 73 2195 2215 "plugins/firstorder/instances.ml" 73 2195 2232
+type(
+  Sequent.t -> Formula.atoms
+)
+ident(
+  int_ref make_simple_atoms "plugins/firstorder/instances.ml" 54 1565 1569 "plugins/firstorder/instances.ml" 54 1565 1586
+)
+"plugins/firstorder/instances.ml" 73 2195 2233 "plugins/firstorder/instances.ml" 73 2195 2236
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 61 1706 1736 "plugins/firstorder/instances.ml" 61 1706 1739
+)
+"plugins/firstorder/instances.ml" 73 2195 2214 "plugins/firstorder/instances.ml" 73 2195 2237
+call(
+  stack
+)
+type(
+  Formula.atoms
+)
+"plugins/firstorder/instances.ml" 73 2195 2199 "plugins/firstorder/instances.ml" 73 2195 2237
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 74 2239 2243 "plugins/firstorder/instances.ml" 74 2239 2244
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/instances.ml" 74 2239 2244 "plugins/firstorder/instances.ml" 74 2239 2248
+type(
+  bool ref
+)
+ident(
+  int_ref flag "plugins/firstorder/instances.ml" 62 1753 1759 "plugins/firstorder/instances.ml" 62 1753 1763
+)
+"plugins/firstorder/instances.ml" 74 2239 2243 "plugins/firstorder/instances.ml" 74 2239 2248
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 74 2239 2249 "plugins/firstorder/instances.ml" 74 2239 2251
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/instances.ml" 74 2239 2252 "plugins/firstorder/instances.ml" 74 2239 2253
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/instances.ml" 74 2239 2253 "plugins/firstorder/instances.ml" 74 2239 2258
+type(
+  bool ref
+)
+ident(
+  int_ref phref "plugins/firstorder/instances.ml" 63 1776 1782 "plugins/firstorder/instances.ml" 63 1776 1787
+)
+"plugins/firstorder/instances.ml" 74 2239 2252 "plugins/firstorder/instances.ml" 74 2239 2258
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 74 2239 2243 "plugins/firstorder/instances.ml" 74 2239 2258
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 73 2195 2199 "plugins/firstorder/instances.ml" 74 2239 2258
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 72 2136 2140 "plugins/firstorder/instances.ml" 74 2239 2258
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 64 1800 1802 "plugins/firstorder/instances.ml" 74 2239 2258
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 63 1776 1778 "plugins/firstorder/instances.ml" 74 2239 2258
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 62 1753 1755 "plugins/firstorder/instances.ml" 74 2239 2258
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 76 2260 2264 "plugins/firstorder/instances.ml" 76 2260 2288
+type(
+  IS.t ref -> Sequent.t -> Formula.t -> unit
+)
+ident(
+  def match_one_quantified_hyp "plugins/firstorder/instances.ml" 83 2524 2524 --
+)
+"plugins/firstorder/instances.ml" 76 2260 2289 "plugins/firstorder/instances.ml" 76 2260 2295
+type(
+  IS.t ref
+)
+ident(
+  def setref "plugins/firstorder/instances.ml" 76 2260 2296 "plugins/firstorder/instances.ml" 81 2490 2522
+)
+"plugins/firstorder/instances.ml" 76 2260 2296 "plugins/firstorder/instances.ml" 76 2260 2299
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/instances.ml" 76 2260 2300 "plugins/firstorder/instances.ml" 81 2490 2522
+)
+"plugins/firstorder/instances.ml" 76 2260 2300 "plugins/firstorder/instances.ml" 76 2260 2302
+type(
+  Formula.t
+)
+ident(
+  def lf "plugins/firstorder/instances.ml" 77 2304 2306 "plugins/firstorder/instances.ml" 81 2490 2522
+)
+"plugins/firstorder/instances.ml" 77 2304 2312 "plugins/firstorder/instances.ml" 77 2304 2314
+type(
+  Formula.t
+)
+ident(
+  int_ref lf "plugins/firstorder/instances.ml" 76 2260 2300 "plugins/firstorder/instances.ml" 76 2260 2302
+)
+"plugins/firstorder/instances.ml" 77 2304 2312 "plugins/firstorder/instances.ml" 77 2304 2318
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/instances.ml" 78 2324 2343 "plugins/firstorder/instances.ml" 78 2324 2344
+type(
+  Term.metavariable
+)
+ident(
+  def i "plugins/firstorder/instances.ml" 79 2385 2386 "plugins/firstorder/instances.ml" 80 2442 2489
+)
+"plugins/firstorder/instances.ml" 78 2324 2345 "plugins/firstorder/instances.ml" 78 2324 2348
+type(
+  Term.constr
+)
+ident(
+  def dom "plugins/firstorder/instances.ml" 79 2385 2386 "plugins/firstorder/instances.ml" 80 2442 2489
+)
+"plugins/firstorder/instances.ml" 78 2324 2349 "plugins/firstorder/instances.ml" 78 2324 2353
+type(
+  bool
+)
+ident(
+  def triv "plugins/firstorder/instances.ml" 79 2385 2386 "plugins/firstorder/instances.ml" 80 2442 2489
+)
+"plugins/firstorder/instances.ml" 78 2324 2334 "plugins/firstorder/instances.ml" 78 2324 2355
+type(
+  Formula.left_pattern
+)
+"plugins/firstorder/instances.ml" 78 2324 2330 "plugins/firstorder/instances.ml" 78 2324 2355
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/instances.ml" 78 2324 2370 "plugins/firstorder/instances.ml" 78 2324 2371
+type(
+  Term.metavariable
+)
+ident(
+  def i "plugins/firstorder/instances.ml" 79 2385 2386 "plugins/firstorder/instances.ml" 80 2442 2489
+)
+"plugins/firstorder/instances.ml" 78 2324 2372 "plugins/firstorder/instances.ml" 78 2324 2375
+type(
+  Term.constr
+)
+ident(
+  def dom "plugins/firstorder/instances.ml" 79 2385 2386 "plugins/firstorder/instances.ml" 80 2442 2489
+)
+"plugins/firstorder/instances.ml" 78 2324 2376 "plugins/firstorder/instances.ml" 78 2324 2380
+type(
+  bool
+)
+ident(
+  def triv "plugins/firstorder/instances.ml" 79 2385 2386 "plugins/firstorder/instances.ml" 80 2442 2489
+)
+"plugins/firstorder/instances.ml" 78 2324 2361 "plugins/firstorder/instances.ml" 78 2324 2382
+type(
+  Formula.right_pattern
+)
+"plugins/firstorder/instances.ml" 78 2324 2356 "plugins/firstorder/instances.ml" 78 2324 2382
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/instances.ml" 78 2324 2330 "plugins/firstorder/instances.ml" 78 2324 2382
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/instances.ml" 79 2385 2389 "plugins/firstorder/instances.ml" 79 2385 2399
+type(
+  IS.t ref ->
+  bool ->
+  Libnames.global_reference ->
+  Sequent.t -> Term.metavariable -> Term.constr -> Formula.atoms -> bool
+)
+ident(
+  int_ref do_sequent "plugins/firstorder/instances.ml" 61 1706 1710 "plugins/firstorder/instances.ml" 61 1706 1720
+)
+"plugins/firstorder/instances.ml" 79 2385 2400 "plugins/firstorder/instances.ml" 79 2385 2406
+type(
+  IS.t ref
+)
+ident(
+  int_ref setref "plugins/firstorder/instances.ml" 76 2260 2289 "plugins/firstorder/instances.ml" 76 2260 2295
+)
+"plugins/firstorder/instances.ml" 79 2385 2407 "plugins/firstorder/instances.ml" 79 2385 2411
+type(
+  bool
+)
+ident(
+  int_ref triv "plugins/firstorder/instances.ml" 78 2324 2349 "plugins/firstorder/instances.ml" 78 2324 2353
+)
+"plugins/firstorder/instances.ml" 79 2385 2412 "plugins/firstorder/instances.ml" 79 2385 2414
+type(
+  Formula.t
+)
+ident(
+  int_ref lf "plugins/firstorder/instances.ml" 76 2260 2300 "plugins/firstorder/instances.ml" 76 2260 2302
+)
+"plugins/firstorder/instances.ml" 79 2385 2412 "plugins/firstorder/instances.ml" 79 2385 2417
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/instances.ml" 79 2385 2418 "plugins/firstorder/instances.ml" 79 2385 2421
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 76 2260 2296 "plugins/firstorder/instances.ml" 76 2260 2299
+)
+"plugins/firstorder/instances.ml" 79 2385 2422 "plugins/firstorder/instances.ml" 79 2385 2423
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/instances.ml" 78 2324 2343 "plugins/firstorder/instances.ml" 78 2324 2344
+)
+"plugins/firstorder/instances.ml" 79 2385 2424 "plugins/firstorder/instances.ml" 79 2385 2427
+type(
+  Term.constr
+)
+ident(
+  int_ref dom "plugins/firstorder/instances.ml" 78 2324 2345 "plugins/firstorder/instances.ml" 78 2324 2348
+)
+"plugins/firstorder/instances.ml" 79 2385 2428 "plugins/firstorder/instances.ml" 79 2385 2430
+type(
+  Formula.t
+)
+ident(
+  int_ref lf "plugins/firstorder/instances.ml" 76 2260 2300 "plugins/firstorder/instances.ml" 76 2260 2302
+)
+"plugins/firstorder/instances.ml" 79 2385 2428 "plugins/firstorder/instances.ml" 79 2385 2436
+type(
+  Formula.atoms
+)
+"plugins/firstorder/instances.ml" 79 2385 2389 "plugins/firstorder/instances.ml" 79 2385 2436
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 80 2442 2445 "plugins/firstorder/instances.ml" 80 2442 2451
+type(
+  IS.t ref
+)
+ident(
+  int_ref setref "plugins/firstorder/instances.ml" 76 2260 2289 "plugins/firstorder/instances.ml" 76 2260 2295
+)
+"plugins/firstorder/instances.ml" 80 2442 2451 "plugins/firstorder/instances.ml" 80 2442 2453
+type(
+  IS.t ref -> IS.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/instances.ml" 80 2442 2453 "plugins/firstorder/instances.ml" 80 2442 2459
+type(
+  IS.elt -> IS.t -> IS.t
+)
+ident(
+  ext_ref IS.add
+)
+"plugins/firstorder/instances.ml" 80 2442 2470 "plugins/firstorder/instances.ml" 80 2442 2473
+type(
+  Term.constr
+)
+ident(
+  int_ref dom "plugins/firstorder/instances.ml" 78 2324 2345 "plugins/firstorder/instances.ml" 78 2324 2348
+)
+"plugins/firstorder/instances.ml" 80 2442 2461 "plugins/firstorder/instances.ml" 80 2442 2474
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 80 2442 2475 "plugins/firstorder/instances.ml" 80 2442 2477
+type(
+  Formula.t
+)
+ident(
+  int_ref lf "plugins/firstorder/instances.ml" 76 2260 2300 "plugins/firstorder/instances.ml" 76 2260 2302
+)
+"plugins/firstorder/instances.ml" 80 2442 2475 "plugins/firstorder/instances.ml" 80 2442 2480
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/instances.ml" 80 2442 2460 "plugins/firstorder/instances.ml" 80 2442 2481
+type(
+  IS.elt
+)
+"plugins/firstorder/instances.ml" 80 2442 2482 "plugins/firstorder/instances.ml" 80 2442 2483
+type(
+  IS.t ref -> IS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/instances.ml" 80 2442 2483 "plugins/firstorder/instances.ml" 80 2442 2489
+type(
+  IS.t ref
+)
+ident(
+  int_ref setref "plugins/firstorder/instances.ml" 76 2260 2289 "plugins/firstorder/instances.ml" 76 2260 2295
+)
+"plugins/firstorder/instances.ml" 80 2442 2482 "plugins/firstorder/instances.ml" 80 2442 2489
+type(
+  IS.t
+)
+"plugins/firstorder/instances.ml" 80 2442 2453 "plugins/firstorder/instances.ml" 80 2442 2489
+call(
+  stack
+)
+type(
+  IS.t
+)
+"plugins/firstorder/instances.ml" 80 2442 2445 "plugins/firstorder/instances.ml" 80 2442 2489
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 79 2385 2386 "plugins/firstorder/instances.ml" 80 2442 2489
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 81 2490 2496 "plugins/firstorder/instances.ml" 81 2490 2497
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/instances.ml" 81 2490 2500 "plugins/firstorder/instances.ml" 81 2490 2507
+type(
+  string -> unit
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/firstorder/instances.ml" 81 2490 2508 "plugins/firstorder/instances.ml" 81 2490 2522
+type(
+  string
+)
+"plugins/firstorder/instances.ml" 81 2490 2500 "plugins/firstorder/instances.ml" 81 2490 2522
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 77 2304 2306 "plugins/firstorder/instances.ml" 81 2490 2522
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 83 2524 2528 "plugins/firstorder/instances.ml" 83 2524 2542
+type(
+  Formula.t list -> Sequent.t -> IS.elt list
+)
+ident(
+  def give_instances "plugins/firstorder/instances.ml" 90 2693 2693 --
+)
+"plugins/firstorder/instances.ml" 83 2524 2543 "plugins/firstorder/instances.ml" 83 2524 2545
+type(
+  Formula.t list
+)
+ident(
+  def lf "plugins/firstorder/instances.ml" 83 2524 2546 "plugins/firstorder/instances.ml" 86 2636 2659
+)
+"plugins/firstorder/instances.ml" 83 2524 2546 "plugins/firstorder/instances.ml" 83 2524 2549
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/instances.ml" 84 2551 2553 "plugins/firstorder/instances.ml" 86 2636 2659
+)
+"plugins/firstorder/instances.ml" 84 2551 2557 "plugins/firstorder/instances.ml" 84 2551 2563
+type(
+  IS.t ref
+)
+"plugins/firstorder/instances.ml" 84 2551 2564 "plugins/firstorder/instances.ml" 84 2551 2567
+type(
+  IS.t -> IS.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/instances.ml" 84 2551 2568 "plugins/firstorder/instances.ml" 84 2551 2576
+type(
+  IS.t
+)
+ident(
+  ext_ref IS.empty
+)
+"plugins/firstorder/instances.ml" 84 2551 2564 "plugins/firstorder/instances.ml" 84 2551 2576
+type(
+  IS.t ref
+)
+"plugins/firstorder/instances.ml" 85 2580 2584 "plugins/firstorder/instances.ml" 85 2580 2593
+type(
+  (Formula.t -> unit) -> Formula.t list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/firstorder/instances.ml" 85 2580 2595 "plugins/firstorder/instances.ml" 85 2580 2619
+type(
+  IS.t ref -> Sequent.t -> Formula.t -> unit
+)
+ident(
+  int_ref match_one_quantified_hyp "plugins/firstorder/instances.ml" 76 2260 2264 "plugins/firstorder/instances.ml" 76 2260 2288
+)
+"plugins/firstorder/instances.ml" 85 2580 2620 "plugins/firstorder/instances.ml" 85 2580 2626
+type(
+  IS.t ref
+)
+ident(
+  int_ref setref "plugins/firstorder/instances.ml" 84 2551 2557 "plugins/firstorder/instances.ml" 84 2551 2563
+)
+"plugins/firstorder/instances.ml" 85 2580 2627 "plugins/firstorder/instances.ml" 85 2580 2630
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 83 2524 2546 "plugins/firstorder/instances.ml" 83 2524 2549
+)
+"plugins/firstorder/instances.ml" 85 2580 2594 "plugins/firstorder/instances.ml" 85 2580 2631
+call(
+  stack
+)
+type(
+  Formula.t -> unit
+)
+"plugins/firstorder/instances.ml" 85 2580 2632 "plugins/firstorder/instances.ml" 85 2580 2634
+type(
+  Formula.t list
+)
+ident(
+  int_ref lf "plugins/firstorder/instances.ml" 83 2524 2543 "plugins/firstorder/instances.ml" 83 2524 2545
+)
+"plugins/firstorder/instances.ml" 85 2580 2584 "plugins/firstorder/instances.ml" 85 2580 2634
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/instances.ml" 86 2636 2640 "plugins/firstorder/instances.ml" 86 2636 2651
+type(
+  IS.t -> IS.elt list
+)
+ident(
+  ext_ref IS.elements
+)
+"plugins/firstorder/instances.ml" 86 2636 2652 "plugins/firstorder/instances.ml" 86 2636 2653
+type(
+  IS.t ref -> IS.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/instances.ml" 86 2636 2653 "plugins/firstorder/instances.ml" 86 2636 2659
+type(
+  IS.t ref
+)
+ident(
+  int_ref setref "plugins/firstorder/instances.ml" 84 2551 2557 "plugins/firstorder/instances.ml" 84 2551 2563
+)
+"plugins/firstorder/instances.ml" 86 2636 2652 "plugins/firstorder/instances.ml" 86 2636 2659
+type(
+  IS.t
+)
+"plugins/firstorder/instances.ml" 86 2636 2640 "plugins/firstorder/instances.ml" 86 2636 2659
+call(
+  tail
+)
+type(
+  IS.elt list
+)
+"plugins/firstorder/instances.ml" 85 2580 2584 "plugins/firstorder/instances.ml" 86 2636 2659
+type(
+  IS.elt list
+)
+"plugins/firstorder/instances.ml" 84 2551 2553 "plugins/firstorder/instances.ml" 86 2636 2659
+type(
+  IS.elt list
+)
+"plugins/firstorder/instances.ml" 90 2693 2701 "plugins/firstorder/instances.ml" 90 2693 2719
+type(
+  Sequent.t -> Formula.t list * Sequent.t
+)
+ident(
+  def collect_quantified "plugins/firstorder/instances.ml" 90 2693 2693 --
+)
+"plugins/firstorder/instances.ml" 90 2693 2720 "plugins/firstorder/instances.ml" 90 2693 2723
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/instances.ml" 91 2725 2727 "plugins/firstorder/instances.ml" 98 2928 2959
+)
+"plugins/firstorder/instances.ml" 92 2731 2739 "plugins/firstorder/instances.ml" 92 2731 2741
+type(
+  Formula.t
+)
+ident(
+  def hd "plugins/firstorder/instances.ml" 93 2767 2773 "plugins/firstorder/instances.ml" 97 2913 2927
+)
+"plugins/firstorder/instances.ml" 92 2731 2742 "plugins/firstorder/instances.ml" 92 2731 2746
+type(
+  Sequent.t
+)
+ident(
+  def seq1 "plugins/firstorder/instances.ml" 93 2767 2773 "plugins/firstorder/instances.ml" 97 2913 2927
+)
+"plugins/firstorder/instances.ml" 92 2731 2739 "plugins/firstorder/instances.ml" 92 2731 2746
+type(
+  Formula.t * Sequent.t
+)
+"plugins/firstorder/instances.ml" 92 2731 2747 "plugins/firstorder/instances.ml" 92 2731 2759
+type(
+  Sequent.t -> Formula.t * Sequent.t
+)
+ident(
+  ext_ref Sequent.take_formula
+)
+"plugins/firstorder/instances.ml" 92 2731 2760 "plugins/firstorder/instances.ml" 92 2731 2763
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 90 2693 2720 "plugins/firstorder/instances.ml" 90 2693 2723
+)
+"plugins/firstorder/instances.ml" 92 2731 2747 "plugins/firstorder/instances.ml" 92 2731 2763
+call(
+  stack
+)
+type(
+  Formula.t * Sequent.t
+)
+"plugins/firstorder/instances.ml" 93 2767 2780 "plugins/firstorder/instances.ml" 93 2767 2782
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/instances.ml" 92 2731 2739 "plugins/firstorder/instances.ml" 92 2731 2741
+)
+"plugins/firstorder/instances.ml" 93 2767 2780 "plugins/firstorder/instances.ml" 93 2767 2786
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/instances.ml" 94 2792 2809 "plugins/firstorder/instances.ml" 94 2792 2810
+type(
+  Term.metavariable
+)
+"plugins/firstorder/instances.ml" 94 2792 2811 "plugins/firstorder/instances.ml" 94 2792 2812
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 94 2792 2813 "plugins/firstorder/instances.ml" 94 2792 2814
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 94 2792 2800 "plugins/firstorder/instances.ml" 94 2792 2816
+type(
+  Formula.left_pattern
+)
+"plugins/firstorder/instances.ml" 94 2792 2796 "plugins/firstorder/instances.ml" 94 2792 2816
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/instances.ml" 94 2792 2833 "plugins/firstorder/instances.ml" 94 2792 2834
+type(
+  Term.metavariable
+)
+"plugins/firstorder/instances.ml" 94 2792 2835 "plugins/firstorder/instances.ml" 94 2792 2836
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 94 2792 2837 "plugins/firstorder/instances.ml" 94 2792 2838
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 94 2792 2824 "plugins/firstorder/instances.ml" 94 2792 2840
+type(
+  Formula.right_pattern
+)
+"plugins/firstorder/instances.ml" 94 2792 2819 "plugins/firstorder/instances.ml" 94 2792 2840
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/instances.ml" 94 2792 2796 "plugins/firstorder/instances.ml" 94 2792 2840
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/instances.ml" 95 2844 2855 "plugins/firstorder/instances.ml" 95 2844 2856
+type(
+  Formula.t list
+)
+"plugins/firstorder/instances.ml" 95 2844 2857 "plugins/firstorder/instances.ml" 95 2844 2861
+type(
+  Sequent.t
+)
+"plugins/firstorder/instances.ml" 95 2844 2854 "plugins/firstorder/instances.ml" 95 2844 2862
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/instances.ml" 95 2844 2863 "plugins/firstorder/instances.ml" 95 2844 2881
+type(
+  Sequent.t -> Formula.t list * Sequent.t
+)
+ident(
+  int_ref collect_quantified "plugins/firstorder/instances.ml" 90 2693 2701 "plugins/firstorder/instances.ml" 90 2693 2719
+)
+"plugins/firstorder/instances.ml" 95 2844 2882 "plugins/firstorder/instances.ml" 95 2844 2886
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/instances.ml" 92 2731 2742 "plugins/firstorder/instances.ml" 92 2731 2746
+)
+"plugins/firstorder/instances.ml" 95 2844 2863 "plugins/firstorder/instances.ml" 95 2844 2886
+call(
+  stack
+)
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/instances.ml" 96 2890 2900 "plugins/firstorder/instances.ml" 96 2890 2902
+type(
+  Formula.t
+)
+ident(
+  int_ref hd "plugins/firstorder/instances.ml" 92 2731 2739 "plugins/firstorder/instances.ml" 92 2731 2741
+)
+"plugins/firstorder/instances.ml" 96 2890 2904 "plugins/firstorder/instances.ml" 96 2890 2905
+type(
+  Formula.t list
+)
+ident(
+  int_ref q "plugins/firstorder/instances.ml" 95 2844 2855 "plugins/firstorder/instances.ml" 95 2844 2856
+)
+"plugins/firstorder/instances.ml" 96 2890 2899 "plugins/firstorder/instances.ml" 96 2890 2906
+type(
+  Formula.t list
+)
+"plugins/firstorder/instances.ml" 96 2890 2907 "plugins/firstorder/instances.ml" 96 2890 2911
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq2 "plugins/firstorder/instances.ml" 95 2844 2857 "plugins/firstorder/instances.ml" 95 2844 2861
+)
+"plugins/firstorder/instances.ml" 96 2890 2898 "plugins/firstorder/instances.ml" 96 2890 2912
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/instances.ml" 95 2844 2850 "plugins/firstorder/instances.ml" 96 2890 2912
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/instances.ml" 97 2913 2917 "plugins/firstorder/instances.ml" 97 2913 2918
+type(
+  (Formula.left_pattern, Formula.right_pattern) Formula.sum
+)
+"plugins/firstorder/instances.ml" 97 2913 2920 "plugins/firstorder/instances.ml" 97 2913 2922
+type(
+  Formula.t list
+)
+"plugins/firstorder/instances.ml" 97 2913 2923 "plugins/firstorder/instances.ml" 97 2913 2926
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 90 2693 2720 "plugins/firstorder/instances.ml" 90 2693 2723
+)
+"plugins/firstorder/instances.ml" 97 2913 2920 "plugins/firstorder/instances.ml" 97 2913 2926
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/instances.ml" 93 2767 2773 "plugins/firstorder/instances.ml" 97 2913 2927
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/instances.ml" 92 2731 2735 "plugins/firstorder/instances.ml" 97 2913 2927
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/instances.ml" 98 2928 2935 "plugins/firstorder/instances.ml" 98 2928 2949
+type(
+  exn
+)
+"plugins/firstorder/instances.ml" 98 2928 2953 "plugins/firstorder/instances.ml" 98 2928 2955
+type(
+  Formula.t list
+)
+"plugins/firstorder/instances.ml" 98 2928 2956 "plugins/firstorder/instances.ml" 98 2928 2959
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 90 2693 2720 "plugins/firstorder/instances.ml" 90 2693 2723
+)
+"plugins/firstorder/instances.ml" 98 2928 2953 "plugins/firstorder/instances.ml" 98 2928 2959
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/instances.ml" 91 2725 2727 "plugins/firstorder/instances.ml" 98 2928 2959
+type(
+  Formula.t list * Sequent.t
+)
+"plugins/firstorder/instances.ml" 102 2993 2997 "plugins/firstorder/instances.ml" 102 2993 3009
+type(
+  Term.constr
+)
+ident(
+  def dummy_constr "plugins/firstorder/instances.ml" 104 3023 3023 --
+)
+"plugins/firstorder/instances.ml" 102 2993 3010 "plugins/firstorder/instances.ml" 102 2993 3016
+type(
+  Term.metavariable -> Term.constr
+)
+ident(
+  ext_ref Term.mkMeta
+)
+"plugins/firstorder/instances.ml" 102 2993 3017 "plugins/firstorder/instances.ml" 102 2993 3021
+type(
+  Term.metavariable
+)
+"plugins/firstorder/instances.ml" 102 2993 3010 "plugins/firstorder/instances.ml" 102 2993 3021
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 104 3023 3027 "plugins/firstorder/instances.ml" 104 3023 3037
+type(
+  Names.identifier
+)
+ident(
+  def dummy_bvid "plugins/firstorder/instances.ml" 106 3056 3056 --
+)
+"plugins/firstorder/instances.ml" 104 3023 3038 "plugins/firstorder/instances.ml" 104 3023 3050
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+"plugins/firstorder/instances.ml" 104 3023 3051 "plugins/firstorder/instances.ml" 104 3023 3054
+type(
+  string
+)
+"plugins/firstorder/instances.ml" 104 3023 3038 "plugins/firstorder/instances.ml" 104 3023 3054
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/firstorder/instances.ml" 106 3056 3060 "plugins/firstorder/instances.ml" 106 3056 3076
+type(
+  Libnames.global_reference ->
+  Proof_type.goal Tacmach.sigma ->
+  int -> Term.constr -> Term.rel_context * Term.constr
+)
+ident(
+  def mk_open_instance "plugins/firstorder/instances.ml" 140 4207 4207 --
+)
+"plugins/firstorder/instances.ml" 106 3056 3077 "plugins/firstorder/instances.ml" 106 3056 3079
+type(
+  Libnames.global_reference
+)
+ident(
+  def id "plugins/firstorder/instances.ml" 106 3056 3080 "plugins/firstorder/instances.ml" 136 4157 4188
+)
+"plugins/firstorder/instances.ml" 106 3056 3080 "plugins/firstorder/instances.ml" 106 3056 3082
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/instances.ml" 106 3056 3083 "plugins/firstorder/instances.ml" 136 4157 4188
+)
+"plugins/firstorder/instances.ml" 106 3056 3083 "plugins/firstorder/instances.ml" 106 3056 3084
+type(
+  int
+)
+ident(
+  def m "plugins/firstorder/instances.ml" 106 3056 3085 "plugins/firstorder/instances.ml" 136 4157 4188
+)
+"plugins/firstorder/instances.ml" 106 3056 3085 "plugins/firstorder/instances.ml" 106 3056 3086
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/instances.ml" 107 3088 3090 "plugins/firstorder/instances.ml" 136 4157 4188
+)
+"plugins/firstorder/instances.ml" 107 3088 3094 "plugins/firstorder/instances.ml" 107 3088 3097
+type(
+  Environ.env
+)
+"plugins/firstorder/instances.ml" 107 3088 3098 "plugins/firstorder/instances.ml" 107 3088 3104
+type(
+  Proof_type.goal Tacmach.sigma -> Environ.env
+)
+ident(
+  ext_ref Tacmach.pf_env
+)
+"plugins/firstorder/instances.ml" 107 3088 3105 "plugins/firstorder/instances.ml" 107 3088 3107
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/instances.ml" 106 3056 3080 "plugins/firstorder/instances.ml" 106 3056 3082
+)
+"plugins/firstorder/instances.ml" 107 3088 3098 "plugins/firstorder/instances.ml" 107 3088 3107
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/firstorder/instances.ml" 108 3111 3117 "plugins/firstorder/instances.ml" 108 3111 3122
+type(
+  Evd.evar_map
+)
+"plugins/firstorder/instances.ml" 108 3111 3123 "plugins/firstorder/instances.ml" 108 3111 3138
+type(
+  Proof_type.goal Tacmach.sigma -> Evd.evar_map
+)
+ident(
+  ext_ref Refiner.project
+)
+"plugins/firstorder/instances.ml" 108 3111 3139 "plugins/firstorder/instances.ml" 108 3111 3141
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/instances.ml" 106 3056 3080 "plugins/firstorder/instances.ml" 106 3056 3082
+)
+"plugins/firstorder/instances.ml" 108 3111 3123 "plugins/firstorder/instances.ml" 108 3111 3141
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/firstorder/instances.ml" 109 3145 3151 "plugins/firstorder/instances.ml" 109 3145 3157
+type(
+  Names.identifier
+)
+"plugins/firstorder/instances.ml" 110 3159 3166 "plugins/firstorder/instances.ml" 110 3159 3168
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 106 3056 3077 "plugins/firstorder/instances.ml" 106 3056 3079
+)
+"plugins/firstorder/instances.ml" 110 3159 3168 "plugins/firstorder/instances.ml" 110 3159 3170
+type(
+  Libnames.global_reference -> Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"plugins/firstorder/instances.ml" 110 3159 3170 "plugins/firstorder/instances.ml" 110 3159 3178
+type(
+  Libnames.global_reference
+)
+ident(
+  ext_ref Formula.dummy_id
+)
+"plugins/firstorder/instances.ml" 110 3159 3166 "plugins/firstorder/instances.ml" 110 3159 3178
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 110 3159 3184 "plugins/firstorder/instances.ml" 110 3159 3194
+type(
+  Names.identifier
+)
+ident(
+  int_ref dummy_bvid "plugins/firstorder/instances.ml" 104 3023 3027 "plugins/firstorder/instances.ml" 104 3023 3037
+)
+"plugins/firstorder/instances.ml" 111 3200 3210 "plugins/firstorder/instances.ml" 111 3200 3213
+type(
+  Term.types
+)
+"plugins/firstorder/instances.ml" 111 3200 3214 "plugins/firstorder/instances.ml" 111 3200 3224
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr -> Term.types
+)
+ident(
+  ext_ref Tacmach.pf_type_of
+)
+"plugins/firstorder/instances.ml" 111 3200 3225 "plugins/firstorder/instances.ml" 111 3200 3227
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/instances.ml" 106 3056 3080 "plugins/firstorder/instances.ml" 106 3056 3082
+)
+"plugins/firstorder/instances.ml" 111 3200 3229 "plugins/firstorder/instances.ml" 111 3200 3245
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/instances.ml" 111 3200 3246 "plugins/firstorder/instances.ml" 111 3200 3248
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 106 3056 3077 "plugins/firstorder/instances.ml" 106 3056 3079
+)
+"plugins/firstorder/instances.ml" 111 3200 3228 "plugins/firstorder/instances.ml" 111 3200 3249
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 111 3200 3214 "plugins/firstorder/instances.ml" 111 3200 3249
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/instances.ml" 114 3332 3343 "plugins/firstorder/instances.ml" 114 3332 3346
+type(
+  Names.name
+)
+"plugins/firstorder/instances.ml" 114 3332 3347 "plugins/firstorder/instances.ml" 114 3332 3348
+type(
+  Term.types
+)
+"plugins/firstorder/instances.ml" 114 3332 3349 "plugins/firstorder/instances.ml" 114 3332 3350
+type(
+  Term.types
+)
+"plugins/firstorder/instances.ml" 114 3332 3342 "plugins/firstorder/instances.ml" 114 3332 3351
+type(
+  Names.name * Term.types * Term.types
+)
+"plugins/firstorder/instances.ml" 114 3332 3352 "plugins/firstorder/instances.ml" 114 3332 3360
+type(
+  Term.types -> Names.name * Term.types * Term.types
+)
+ident(
+  ext_ref Term.destProd
+)
+"plugins/firstorder/instances.ml" 114 3332 3362 "plugins/firstorder/instances.ml" 114 3332 3379
+type(
+  Reductionops.contextual_reduction_function
+)
+ident(
+  ext_ref Reductionops.whd_betadeltaiota
+)
+"plugins/firstorder/instances.ml" 114 3332 3380 "plugins/firstorder/instances.ml" 114 3332 3383
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/firstorder/instances.ml" 107 3088 3094 "plugins/firstorder/instances.ml" 107 3088 3097
+)
+"plugins/firstorder/instances.ml" 114 3332 3384 "plugins/firstorder/instances.ml" 114 3332 3389
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evmap "plugins/firstorder/instances.ml" 108 3111 3117 "plugins/firstorder/instances.ml" 108 3111 3122
+)
+"plugins/firstorder/instances.ml" 114 3332 3390 "plugins/firstorder/instances.ml" 114 3332 3393
+type(
+  Term.types
+)
+ident(
+  int_ref typ "plugins/firstorder/instances.ml" 111 3200 3210 "plugins/firstorder/instances.ml" 111 3200 3213
+)
+"plugins/firstorder/instances.ml" 114 3332 3361 "plugins/firstorder/instances.ml" 114 3332 3394
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/instances.ml" 114 3332 3352 "plugins/firstorder/instances.ml" 114 3332 3394
+call(
+  stack
+)
+type(
+  Names.name * Term.types * Term.types
+)
+"plugins/firstorder/instances.ml" 115 3398 3405 "plugins/firstorder/instances.ml" 115 3398 3408
+type(
+  Names.name
+)
+ident(
+  int_ref nam "plugins/firstorder/instances.ml" 114 3332 3343 "plugins/firstorder/instances.ml" 114 3332 3346
+)
+"plugins/firstorder/instances.ml" 116 3414 3424 "plugins/firstorder/instances.ml" 116 3414 3426
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/firstorder/instances.ml" 116 3414 3430 "plugins/firstorder/instances.ml" 116 3414 3432
+)
+"plugins/firstorder/instances.ml" 116 3414 3419 "plugins/firstorder/instances.ml" 116 3414 3426
+type(
+  Names.name
+)
+"plugins/firstorder/instances.ml" 116 3414 3430 "plugins/firstorder/instances.ml" 116 3414 3432
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 116 3414 3424 "plugins/firstorder/instances.ml" 116 3414 3426
+)
+"plugins/firstorder/instances.ml" 117 3433 3438 "plugins/firstorder/instances.ml" 117 3433 3447
+type(
+  Names.name
+)
+"plugins/firstorder/instances.ml" 117 3433 3452 "plugins/firstorder/instances.ml" 117 3433 3462
+type(
+  Names.identifier
+)
+ident(
+  int_ref dummy_bvid "plugins/firstorder/instances.ml" 104 3023 3027 "plugins/firstorder/instances.ml" 104 3023 3037
+)
+"plugins/firstorder/instances.ml" 115 3398 3399 "plugins/firstorder/instances.ml" 117 3433 3462
+type(
+  Names.identifier
+)
+"plugins/firstorder/instances.ml" 114 3332 3338 "plugins/firstorder/instances.ml" 117 3433 3462
+type(
+  Names.identifier
+)
+"plugins/firstorder/instances.ml" 111 3200 3206 "plugins/firstorder/instances.ml" 117 3433 3462
+type(
+  Names.identifier
+)
+"plugins/firstorder/instances.ml" 110 3159 3163 "plugins/firstorder/instances.ml" 117 3433 3462
+type(
+  Names.identifier
+)
+"plugins/firstorder/instances.ml" 118 3466 3472 "plugins/firstorder/instances.ml" 118 3466 3476
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 118 3466 3477 "plugins/firstorder/instances.ml" 118 3466 3483
+type(
+  Term.constr list -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.substl
+)
+"plugins/firstorder/instances.ml" 118 3466 3485 "plugins/firstorder/instances.ml" 118 3466 3498
+type(
+  (int -> Term.constr) -> int -> Term.constr list
+)
+ident(
+  ext_ref Util.list_tabulate
+)
+"plugins/firstorder/instances.ml" 118 3466 3504 "plugins/firstorder/instances.ml" 118 3466 3505
+type(
+  int
+)
+ident(
+  def i "plugins/firstorder/instances.ml" 118 3466 3507 "plugins/firstorder/instances.ml" 118 3466 3518
+)
+"plugins/firstorder/instances.ml" 118 3466 3507 "plugins/firstorder/instances.ml" 118 3466 3512
+type(
+  int -> Term.constr
+)
+ident(
+  ext_ref Term.mkRel
+)
+"plugins/firstorder/instances.ml" 118 3466 3514 "plugins/firstorder/instances.ml" 118 3466 3515
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/instances.ml" 106 3056 3083 "plugins/firstorder/instances.ml" 106 3056 3084
+)
+"plugins/firstorder/instances.ml" 118 3466 3515 "plugins/firstorder/instances.ml" 118 3466 3516
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/instances.ml" 118 3466 3516 "plugins/firstorder/instances.ml" 118 3466 3517
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/instances.ml" 118 3466 3504 "plugins/firstorder/instances.ml" 118 3466 3505
+)
+"plugins/firstorder/instances.ml" 118 3466 3513 "plugins/firstorder/instances.ml" 118 3466 3518
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 118 3466 3507 "plugins/firstorder/instances.ml" 118 3466 3518
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 118 3466 3499 "plugins/firstorder/instances.ml" 118 3466 3519
+type(
+  int -> Term.constr
+)
+"plugins/firstorder/instances.ml" 118 3466 3520 "plugins/firstorder/instances.ml" 118 3466 3521
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/instances.ml" 106 3056 3083 "plugins/firstorder/instances.ml" 106 3056 3084
+)
+"plugins/firstorder/instances.ml" 118 3466 3484 "plugins/firstorder/instances.ml" 118 3466 3522
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 118 3466 3523 "plugins/firstorder/instances.ml" 118 3466 3524
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/instances.ml" 106 3056 3085 "plugins/firstorder/instances.ml" 106 3056 3086
+)
+"plugins/firstorder/instances.ml" 118 3466 3477 "plugins/firstorder/instances.ml" 118 3466 3524
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 119 3528 3538 "plugins/firstorder/instances.ml" 119 3528 3541
+type(
+  int -> Names.identifier list -> (Names.name * 'a option * Term.constr) list
+)
+"plugins/firstorder/instances.ml" 119 3528 3542 "plugins/firstorder/instances.ml" 119 3528 3543
+type(
+  int
+)
+ident(
+  def n "plugins/firstorder/instances.ml" 119 3528 3544 "plugins/firstorder/instances.ml" 122 3619 3674
+)
+"plugins/firstorder/instances.ml" 119 3528 3544 "plugins/firstorder/instances.ml" 119 3528 3549
+type(
+  Names.identifier list
+)
+ident(
+  def avoid "plugins/firstorder/instances.ml" 120 3551 3555 "plugins/firstorder/instances.ml" 122 3619 3674
+)
+"plugins/firstorder/instances.ml" 120 3551 3558 "plugins/firstorder/instances.ml" 120 3551 3559
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/instances.ml" 119 3528 3542 "plugins/firstorder/instances.ml" 119 3528 3543
+)
+"plugins/firstorder/instances.ml" 120 3551 3559 "plugins/firstorder/instances.ml" 120 3551 3560
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/firstorder/instances.ml" 120 3551 3560 "plugins/firstorder/instances.ml" 120 3551 3561
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 120 3551 3558 "plugins/firstorder/instances.ml" 120 3551 3561
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 120 3551 3567 "plugins/firstorder/instances.ml" 120 3551 3569
+type(
+  (Names.name * 'a option * Term.constr) list
+)
+"plugins/firstorder/instances.ml" 121 3575 3585 "plugins/firstorder/instances.ml" 121 3575 3588
+type(
+  Names.identifier
+)
+"plugins/firstorder/instances.ml" 121 3575 3590 "plugins/firstorder/instances.ml" 121 3575 3598
+type(
+  Names.identifier list ->
+  Names.identifier -> Proof_type.goal Tacmach.sigma -> Names.identifier
+)
+ident(
+  ext_ref Tactics.fresh_id
+)
+"plugins/firstorder/instances.ml" 121 3575 3599 "plugins/firstorder/instances.ml" 121 3575 3604
+type(
+  Names.identifier list
+)
+ident(
+  int_ref avoid "plugins/firstorder/instances.ml" 119 3528 3544 "plugins/firstorder/instances.ml" 119 3528 3549
+)
+"plugins/firstorder/instances.ml" 121 3575 3605 "plugins/firstorder/instances.ml" 121 3575 3611
+type(
+  Names.identifier
+)
+ident(
+  int_ref var_id "plugins/firstorder/instances.ml" 109 3145 3151 "plugins/firstorder/instances.ml" 109 3145 3157
+)
+"plugins/firstorder/instances.ml" 121 3575 3612 "plugins/firstorder/instances.ml" 121 3575 3614
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/instances.ml" 106 3056 3080 "plugins/firstorder/instances.ml" 106 3056 3082
+)
+"plugins/firstorder/instances.ml" 121 3575 3589 "plugins/firstorder/instances.ml" 121 3575 3615
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/firstorder/instances.ml" 122 3619 3626 "plugins/firstorder/instances.ml" 122 3619 3629
+type(
+  Names.identifier
+)
+ident(
+  int_ref nid "plugins/firstorder/instances.ml" 121 3575 3585 "plugins/firstorder/instances.ml" 121 3575 3588
+)
+"plugins/firstorder/instances.ml" 122 3619 3621 "plugins/firstorder/instances.ml" 122 3619 3629
+type(
+  Names.name
+)
+"plugins/firstorder/instances.ml" 122 3619 3630 "plugins/firstorder/instances.ml" 122 3619 3634
+type(
+  'a option
+)
+"plugins/firstorder/instances.ml" 122 3619 3635 "plugins/firstorder/instances.ml" 122 3619 3647
+type(
+  Term.constr
+)
+ident(
+  int_ref dummy_constr "plugins/firstorder/instances.ml" 102 2993 2997 "plugins/firstorder/instances.ml" 102 2993 3009
+)
+"plugins/firstorder/instances.ml" 122 3619 3620 "plugins/firstorder/instances.ml" 122 3619 3648
+type(
+  Names.name * 'a option * Term.constr
+)
+"plugins/firstorder/instances.ml" 122 3619 3651 "plugins/firstorder/instances.ml" 122 3619 3654
+type(
+  int -> Names.identifier list -> (Names.name * 'a option * Term.constr) list
+)
+ident(
+  int_ref aux "plugins/firstorder/instances.ml" 119 3528 3538 "plugins/firstorder/instances.ml" 119 3528 3541
+)
+"plugins/firstorder/instances.ml" 122 3619 3656 "plugins/firstorder/instances.ml" 122 3619 3657
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/instances.ml" 119 3528 3542 "plugins/firstorder/instances.ml" 119 3528 3543
+)
+"plugins/firstorder/instances.ml" 122 3619 3657 "plugins/firstorder/instances.ml" 122 3619 3658
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/instances.ml" 122 3619 3658 "plugins/firstorder/instances.ml" 122 3619 3659
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 122 3619 3655 "plugins/firstorder/instances.ml" 122 3619 3660
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 122 3619 3662 "plugins/firstorder/instances.ml" 122 3619 3665
+type(
+  Names.identifier
+)
+ident(
+  int_ref nid "plugins/firstorder/instances.ml" 121 3575 3585 "plugins/firstorder/instances.ml" 121 3575 3588
+)
+"plugins/firstorder/instances.ml" 122 3619 3667 "plugins/firstorder/instances.ml" 122 3619 3672
+type(
+  Names.identifier list
+)
+ident(
+  int_ref avoid "plugins/firstorder/instances.ml" 119 3528 3544 "plugins/firstorder/instances.ml" 119 3528 3549
+)
+"plugins/firstorder/instances.ml" 122 3619 3661 "plugins/firstorder/instances.ml" 122 3619 3673
+type(
+  Names.identifier list
+)
+"plugins/firstorder/instances.ml" 122 3619 3650 "plugins/firstorder/instances.ml" 122 3619 3674
+call(
+  stack
+)
+type(
+  (Names.name * 'a option * Term.constr) list
+)
+"plugins/firstorder/instances.ml" 122 3619 3620 "plugins/firstorder/instances.ml" 122 3619 3674
+type(
+  (Names.name * 'a option * Term.constr) list
+)
+"plugins/firstorder/instances.ml" 121 3575 3581 "plugins/firstorder/instances.ml" 122 3619 3674
+type(
+  (Names.name * 'a option * Term.constr) list
+)
+"plugins/firstorder/instances.ml" 120 3551 3555 "plugins/firstorder/instances.ml" 122 3619 3674
+type(
+  (Names.name * 'a option * Term.constr) list
+)
+"plugins/firstorder/instances.ml" 123 3678 3684 "plugins/firstorder/instances.ml" 123 3678 3686
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 123 3678 3687 "plugins/firstorder/instances.ml" 123 3678 3707
+type(
+  init:Term.constr -> Term.rel_context -> Term.constr
+)
+ident(
+  ext_ref Termops.it_mkLambda_or_LetIn
+)
+"plugins/firstorder/instances.ml" 123 3678 3708 "plugins/firstorder/instances.ml" 123 3678 3712
+type(
+  Term.constr
+)
+ident(
+  int_ref revt "plugins/firstorder/instances.ml" 118 3466 3472 "plugins/firstorder/instances.ml" 118 3466 3476
+)
+"plugins/firstorder/instances.ml" 123 3678 3714 "plugins/firstorder/instances.ml" 123 3678 3717
+type(
+  int -> Names.identifier list -> Term.rel_context
+)
+ident(
+  int_ref aux "plugins/firstorder/instances.ml" 119 3528 3538 "plugins/firstorder/instances.ml" 119 3528 3541
+)
+"plugins/firstorder/instances.ml" 123 3678 3718 "plugins/firstorder/instances.ml" 123 3678 3719
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/instances.ml" 106 3056 3083 "plugins/firstorder/instances.ml" 106 3056 3084
+)
+"plugins/firstorder/instances.ml" 123 3678 3720 "plugins/firstorder/instances.ml" 123 3678 3722
+type(
+  Names.identifier list
+)
+"plugins/firstorder/instances.ml" 123 3678 3713 "plugins/firstorder/instances.ml" 123 3678 3723
+call(
+  stack
+)
+type(
+  Term.rel_context
+)
+"plugins/firstorder/instances.ml" 123 3678 3687 "plugins/firstorder/instances.ml" 123 3678 3723
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 124 3727 3733 "plugins/firstorder/instances.ml" 124 3727 3737
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 124 3727 3738 "plugins/firstorder/instances.ml" 124 3727 3753
+type(
+  bool ->
+  Names.identifier list ->
+  Termops.names_context -> Term.constr -> Rawterm.rawconstr
+)
+ident(
+  ext_ref Detyping.detype
+)
+"plugins/firstorder/instances.ml" 124 3727 3754 "plugins/firstorder/instances.ml" 124 3727 3759
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 124 3727 3760 "plugins/firstorder/instances.ml" 124 3727 3762
+type(
+  Names.identifier list
+)
+"plugins/firstorder/instances.ml" 124 3727 3763 "plugins/firstorder/instances.ml" 124 3727 3765
+type(
+  Termops.names_context
+)
+"plugins/firstorder/instances.ml" 124 3727 3766 "plugins/firstorder/instances.ml" 124 3727 3768
+type(
+  Term.constr
+)
+ident(
+  int_ref nt "plugins/firstorder/instances.ml" 123 3678 3684 "plugins/firstorder/instances.ml" 123 3678 3686
+)
+"plugins/firstorder/instances.ml" 124 3727 3738 "plugins/firstorder/instances.ml" 124 3727 3768
+call(
+  stack
+)
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 125 3772 3782 "plugins/firstorder/instances.ml" 125 3772 3786
+type(
+  int -> Rawterm.rawconstr -> Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 125 3772 3787 "plugins/firstorder/instances.ml" 125 3772 3788
+type(
+  int
+)
+ident(
+  def n "plugins/firstorder/instances.ml" 125 3772 3789 "plugins/firstorder/instances.ml" 131 3961 3990
+)
+"plugins/firstorder/instances.ml" 125 3772 3789 "plugins/firstorder/instances.ml" 125 3772 3790
+type(
+  Rawterm.rawconstr
+)
+ident(
+  def t "plugins/firstorder/instances.ml" 126 3792 3796 "plugins/firstorder/instances.ml" 131 3961 3990
+)
+"plugins/firstorder/instances.ml" 126 3792 3799 "plugins/firstorder/instances.ml" 126 3792 3800
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/instances.ml" 125 3772 3787 "plugins/firstorder/instances.ml" 125 3772 3788
+)
+"plugins/firstorder/instances.ml" 126 3792 3800 "plugins/firstorder/instances.ml" 126 3792 3801
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/firstorder/instances.ml" 126 3792 3801 "plugins/firstorder/instances.ml" 126 3792 3802
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 126 3792 3799 "plugins/firstorder/instances.ml" 126 3792 3802
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 126 3792 3808 "plugins/firstorder/instances.ml" 126 3792 3809
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref t "plugins/firstorder/instances.ml" 125 3772 3789 "plugins/firstorder/instances.ml" 125 3772 3790
+)
+"plugins/firstorder/instances.ml" 127 3815 3827 "plugins/firstorder/instances.ml" 127 3815 3828
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref t "plugins/firstorder/instances.ml" 125 3772 3789 "plugins/firstorder/instances.ml" 125 3772 3790
+)
+"plugins/firstorder/instances.ml" 128 3834 3845 "plugins/firstorder/instances.ml" 128 3834 3848
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/firstorder/instances.ml" 129 3864 3869 "plugins/firstorder/instances.ml" 130 3893 3960
+)
+"plugins/firstorder/instances.ml" 128 3834 3849 "plugins/firstorder/instances.ml" 128 3834 3853
+type(
+  Names.name
+)
+ident(
+  def name "plugins/firstorder/instances.ml" 129 3864 3869 "plugins/firstorder/instances.ml" 130 3893 3960
+)
+"plugins/firstorder/instances.ml" 128 3834 3854 "plugins/firstorder/instances.ml" 128 3834 3855
+type(
+  Rawterm.binding_kind
+)
+ident(
+  def k "plugins/firstorder/instances.ml" 129 3864 3869 "plugins/firstorder/instances.ml" 130 3893 3960
+)
+"plugins/firstorder/instances.ml" 128 3834 3856 "plugins/firstorder/instances.ml" 128 3834 3857
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 128 3834 3858 "plugins/firstorder/instances.ml" 128 3834 3860
+type(
+  Rawterm.rawconstr
+)
+ident(
+  def t0 "plugins/firstorder/instances.ml" 129 3864 3869 "plugins/firstorder/instances.ml" 130 3893 3960
+)
+"plugins/firstorder/instances.ml" 128 3834 3837 "plugins/firstorder/instances.ml" 128 3834 3861
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 129 3864 3873 "plugins/firstorder/instances.ml" 129 3864 3875
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 129 3864 3876 "plugins/firstorder/instances.ml" 129 3864 3880
+type(
+  int -> Rawterm.rawconstr -> Rawterm.rawconstr
+)
+ident(
+  int_ref raux "plugins/firstorder/instances.ml" 125 3772 3782 "plugins/firstorder/instances.ml" 125 3772 3786
+)
+"plugins/firstorder/instances.ml" 129 3864 3882 "plugins/firstorder/instances.ml" 129 3864 3883
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/instances.ml" 125 3772 3787 "plugins/firstorder/instances.ml" 125 3772 3788
+)
+"plugins/firstorder/instances.ml" 129 3864 3883 "plugins/firstorder/instances.ml" 129 3864 3884
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/instances.ml" 129 3864 3884 "plugins/firstorder/instances.ml" 129 3864 3885
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 129 3864 3881 "plugins/firstorder/instances.ml" 129 3864 3886
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 129 3864 3887 "plugins/firstorder/instances.ml" 129 3864 3889
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref t0 "plugins/firstorder/instances.ml" 128 3834 3858 "plugins/firstorder/instances.ml" 128 3834 3860
+)
+"plugins/firstorder/instances.ml" 129 3864 3876 "plugins/firstorder/instances.ml" 129 3864 3889
+call(
+  stack
+)
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 130 3893 3908 "plugins/firstorder/instances.ml" 130 3893 3911
+type(
+  Util.loc
+)
+ident(
+  int_ref loc "plugins/firstorder/instances.ml" 128 3834 3845 "plugins/firstorder/instances.ml" 128 3834 3848
+)
+"plugins/firstorder/instances.ml" 130 3893 3912 "plugins/firstorder/instances.ml" 130 3893 3916
+type(
+  Names.name
+)
+ident(
+  int_ref name "plugins/firstorder/instances.ml" 128 3834 3849 "plugins/firstorder/instances.ml" 128 3834 3853
+)
+"plugins/firstorder/instances.ml" 130 3893 3917 "plugins/firstorder/instances.ml" 130 3893 3918
+type(
+  Rawterm.binding_kind
+)
+ident(
+  int_ref k "plugins/firstorder/instances.ml" 128 3834 3854 "plugins/firstorder/instances.ml" 128 3834 3855
+)
+"plugins/firstorder/instances.ml" 130 3893 3926 "plugins/firstorder/instances.ml" 130 3893 3935
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+"plugins/firstorder/instances.ml" 130 3893 3951 "plugins/firstorder/instances.ml" 130 3893 3955
+type(
+  Names.name
+)
+ident(
+  int_ref name "plugins/firstorder/instances.ml" 128 3834 3849 "plugins/firstorder/instances.ml" 128 3834 3853
+)
+"plugins/firstorder/instances.ml" 130 3893 3936 "plugins/firstorder/instances.ml" 130 3893 3955
+type(
+  Evd.hole_kind
+)
+"plugins/firstorder/instances.ml" 130 3893 3925 "plugins/firstorder/instances.ml" 130 3893 3956
+type(
+  Util.loc * Evd.hole_kind
+)
+"plugins/firstorder/instances.ml" 130 3893 3919 "plugins/firstorder/instances.ml" 130 3893 3956
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 130 3893 3957 "plugins/firstorder/instances.ml" 130 3893 3959
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref t1 "plugins/firstorder/instances.ml" 129 3864 3873 "plugins/firstorder/instances.ml" 129 3864 3875
+)
+"plugins/firstorder/instances.ml" 130 3893 3900 "plugins/firstorder/instances.ml" 130 3893 3960
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 129 3864 3869 "plugins/firstorder/instances.ml" 130 3893 3960
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 131 3961 3964 "plugins/firstorder/instances.ml" 131 3961 3965
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 131 3961 3968 "plugins/firstorder/instances.ml" 131 3961 3975
+type(
+  string -> Rawterm.rawconstr
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/firstorder/instances.ml" 131 3961 3976 "plugins/firstorder/instances.ml" 131 3961 3990
+type(
+  string
+)
+"plugins/firstorder/instances.ml" 131 3961 3968 "plugins/firstorder/instances.ml" 131 3961 3990
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 127 3815 3821 "plugins/firstorder/instances.ml" 131 3961 3990
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 126 3792 3796 "plugins/firstorder/instances.ml" 131 3961 3990
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 132 3994 4000 "plugins/firstorder/instances.ml" 132 3994 4003
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 133 4008 4012 "plugins/firstorder/instances.ml" 133 4008 4040
+type(
+  Evd.evar_map ->
+  Environ.env ->
+  ?expected_type:Term.types -> Rawterm.rawconstr -> Term.constr
+)
+ident(
+  ext_ref Pretyping.Default.understand
+)
+"plugins/firstorder/instances.ml" 133 4008 4041 "plugins/firstorder/instances.ml" 133 4008 4046
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evmap "plugins/firstorder/instances.ml" 108 3111 3117 "plugins/firstorder/instances.ml" 108 3111 3122
+)
+"plugins/firstorder/instances.ml" 133 4008 4047 "plugins/firstorder/instances.ml" 133 4008 4050
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/firstorder/instances.ml" 107 3088 3094 "plugins/firstorder/instances.ml" 107 3088 3097
+)
+"plugins/firstorder/instances.ml" 133 4008 4052 "plugins/firstorder/instances.ml" 133 4008 4056
+type(
+  int -> Rawterm.rawconstr -> Rawterm.rawconstr
+)
+ident(
+  int_ref raux "plugins/firstorder/instances.ml" 125 3772 3782 "plugins/firstorder/instances.ml" 125 3772 3786
+)
+"plugins/firstorder/instances.ml" 133 4008 4057 "plugins/firstorder/instances.ml" 133 4008 4058
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/instances.ml" 106 3056 3083 "plugins/firstorder/instances.ml" 106 3056 3084
+)
+"plugins/firstorder/instances.ml" 133 4008 4059 "plugins/firstorder/instances.ml" 133 4008 4063
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref rawt "plugins/firstorder/instances.ml" 124 3727 3733 "plugins/firstorder/instances.ml" 124 3727 3737
+)
+"plugins/firstorder/instances.ml" 133 4008 4051 "plugins/firstorder/instances.ml" 133 4008 4064
+call(
+  stack
+)
+type(
+  Rawterm.rawconstr
+)
+"plugins/firstorder/instances.ml" 133 4008 4012 "plugins/firstorder/instances.ml" 133 4008 4064
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 134 4065 4072 "plugins/firstorder/instances.ml" 134 4065 4073
+type(
+  exn
+)
+"plugins/firstorder/instances.ml" 135 4077 4081 "plugins/firstorder/instances.ml" 135 4077 4086
+type(
+  string -> Term.constr
+)
+ident(
+  ext_ref Util.error
+)
+"plugins/firstorder/instances.ml" 135 4077 4087 "plugins/firstorder/instances.ml" 135 4077 4153
+type(
+  string
+)
+"plugins/firstorder/instances.ml" 135 4077 4081 "plugins/firstorder/instances.ml" 135 4077 4153
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 132 3994 4004 "plugins/firstorder/instances.ml" 135 4077 4153
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 136 4157 4161 "plugins/firstorder/instances.ml" 136 4157 4182
+type(
+  int -> Term.constr -> Term.rel_context * Term.constr
+)
+ident(
+  ext_ref Term.decompose_lam_n_assum
+)
+"plugins/firstorder/instances.ml" 136 4157 4183 "plugins/firstorder/instances.ml" 136 4157 4184
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/instances.ml" 106 3056 3083 "plugins/firstorder/instances.ml" 106 3056 3084
+)
+"plugins/firstorder/instances.ml" 136 4157 4185 "plugins/firstorder/instances.ml" 136 4157 4188
+type(
+  Term.constr
+)
+ident(
+  int_ref ntt "plugins/firstorder/instances.ml" 132 3994 4000 "plugins/firstorder/instances.ml" 132 3994 4003
+)
+"plugins/firstorder/instances.ml" 136 4157 4161 "plugins/firstorder/instances.ml" 136 4157 4188
+call(
+  tail
+)
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 132 3994 3996 "plugins/firstorder/instances.ml" 136 4157 4188
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 125 3772 3774 "plugins/firstorder/instances.ml" 136 4157 4188
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 124 3727 3729 "plugins/firstorder/instances.ml" 136 4157 4188
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 123 3678 3680 "plugins/firstorder/instances.ml" 136 4157 4188
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 119 3528 3530 "plugins/firstorder/instances.ml" 136 4157 4188
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 118 3466 3468 "plugins/firstorder/instances.ml" 136 4157 4188
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 109 3145 3147 "plugins/firstorder/instances.ml" 136 4157 4188
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 108 3111 3113 "plugins/firstorder/instances.ml" 136 4157 4188
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 107 3088 3090 "plugins/firstorder/instances.ml" 136 4157 4188
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 140 4207 4211 "plugins/firstorder/instances.ml" 140 4207 4228
+type(
+  Unify.instance * Libnames.global_reference ->
+  (Sequent.t -> Tacmach.tactic) -> Sequent.t -> Proof_type.tactic
+)
+ident(
+  def left_instance_tac "plugins/firstorder/instances.ml" 177 5163 5163 --
+)
+"plugins/firstorder/instances.ml" 140 4207 4230 "plugins/firstorder/instances.ml" 140 4207 4234
+type(
+  Unify.instance
+)
+ident(
+  def inst "plugins/firstorder/instances.ml" 140 4207 4239 "plugins/firstorder/instances.ml" 175 5100 5161
+)
+"plugins/firstorder/instances.ml" 140 4207 4235 "plugins/firstorder/instances.ml" 140 4207 4237
+type(
+  Libnames.global_reference
+)
+ident(
+  def id "plugins/firstorder/instances.ml" 140 4207 4239 "plugins/firstorder/instances.ml" 175 5100 5161
+)
+"plugins/firstorder/instances.ml" 140 4207 4229 "plugins/firstorder/instances.ml" 140 4207 4238
+type(
+  Unify.instance * Libnames.global_reference
+)
+"plugins/firstorder/instances.ml" 140 4207 4239 "plugins/firstorder/instances.ml" 140 4207 4247
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  def continue "plugins/firstorder/instances.ml" 140 4207 4248 "plugins/firstorder/instances.ml" 175 5100 5161
+)
+"plugins/firstorder/instances.ml" 140 4207 4248 "plugins/firstorder/instances.ml" 140 4207 4251
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/instances.ml" 141 4253 4255 "plugins/firstorder/instances.ml" 175 5100 5161
+)
+"plugins/firstorder/instances.ml" 141 4253 4261 "plugins/firstorder/instances.ml" 141 4253 4265
+type(
+  Unify.instance
+)
+ident(
+  int_ref inst "plugins/firstorder/instances.ml" 140 4207 4230 "plugins/firstorder/instances.ml" 140 4207 4234
+)
+"plugins/firstorder/instances.ml" 142 4271 4285 "plugins/firstorder/instances.ml" 142 4271 4288
+type(
+  Term.constr
+)
+ident(
+  def dom "plugins/firstorder/instances.ml" 143 4291 4292 "plugins/firstorder/instances.ml" 155 4616 4639
+)
+"plugins/firstorder/instances.ml" 142 4271 4277 "plugins/firstorder/instances.ml" 142 4271 4288
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 143 4291 4295 "plugins/firstorder/instances.ml" 143 4291 4301
+type(
+  Sequent.h_item -> Sequent.t -> bool
+)
+ident(
+  ext_ref Sequent.lookup
+)
+"plugins/firstorder/instances.ml" 143 4291 4303 "plugins/firstorder/instances.ml" 143 4291 4305
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 140 4207 4235 "plugins/firstorder/instances.ml" 140 4207 4237
+)
+"plugins/firstorder/instances.ml" 143 4291 4306 "plugins/firstorder/instances.ml" 143 4291 4310
+type(
+  (int * Term.constr) option
+)
+"plugins/firstorder/instances.ml" 143 4291 4302 "plugins/firstorder/instances.ml" 143 4291 4311
+type(
+  Sequent.h_item
+)
+"plugins/firstorder/instances.ml" 143 4291 4312 "plugins/firstorder/instances.ml" 143 4291 4315
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 140 4207 4248 "plugins/firstorder/instances.ml" 140 4207 4251
+)
+"plugins/firstorder/instances.ml" 143 4291 4295 "plugins/firstorder/instances.ml" 143 4291 4315
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 144 4321 4324 "plugins/firstorder/instances.ml" 144 4321 4331
+type(
+  int -> Pp.std_ppcmds -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclFAIL
+)
+"plugins/firstorder/instances.ml" 144 4321 4332 "plugins/firstorder/instances.ml" 144 4321 4333
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 144 4321 4335 "plugins/firstorder/instances.ml" 144 4321 4341
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/firstorder/instances.ml" 144 4321 4342 "plugins/firstorder/instances.ml" 144 4321 4356
+type(
+  string
+)
+"plugins/firstorder/instances.ml" 144 4321 4334 "plugins/firstorder/instances.ml" 144 4321 4357
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/instances.ml" 144 4321 4324 "plugins/firstorder/instances.ml" 144 4321 4357
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 146 4364 4367 "plugins/firstorder/instances.ml" 146 4364 4375
+type(
+  Proof_type.tactic -> Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENS
+)
+"plugins/firstorder/instances.ml" 146 4364 4377 "plugins/firstorder/instances.ml" 146 4364 4380
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.cut
+)
+"plugins/firstorder/instances.ml" 146 4364 4381 "plugins/firstorder/instances.ml" 146 4364 4384
+type(
+  Term.constr
+)
+ident(
+  int_ref dom "plugins/firstorder/instances.ml" 142 4271 4285 "plugins/firstorder/instances.ml" 142 4271 4288
+)
+"plugins/firstorder/instances.ml" 146 4364 4376 "plugins/firstorder/instances.ml" 146 4364 4385
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 147 4386 4392 "plugins/firstorder/instances.ml" 147 4386 4403
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENLIST
+)
+"plugins/firstorder/instances.ml" 148 4404 4413 "plugins/firstorder/instances.ml" 148 4404 4419
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.introf
+)
+"plugins/firstorder/instances.ml" 149 4421 4428 "plugins/firstorder/instances.ml" 149 4421 4431
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gls "plugins/firstorder/instances.ml" 149 4421 4433 "plugins/firstorder/instances.ml" 151 4477 4527
+)
+"plugins/firstorder/instances.ml" 149 4421 4433 "plugins/firstorder/instances.ml" 149 4421 4443
+type(
+  Term.constr list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.generalize
+)
+"plugins/firstorder/instances.ml" 150 4444 4450 "plugins/firstorder/instances.ml" 150 4444 4455
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/firstorder/instances.ml" 150 4444 4456 "plugins/firstorder/instances.ml" 150 4444 4472
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/instances.ml" 150 4444 4473 "plugins/firstorder/instances.ml" 150 4444 4475
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 140 4207 4235 "plugins/firstorder/instances.ml" 140 4207 4237
+)
+"plugins/firstorder/instances.ml" 150 4444 4456 "plugins/firstorder/instances.ml" 150 4444 4475
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 151 4477 4484 "plugins/firstorder/instances.ml" 151 4477 4489
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Term.mkVar
+)
+"plugins/firstorder/instances.ml" 151 4477 4491 "plugins/firstorder/instances.ml" 151 4477 4512
+type(
+  Proof_type.goal Tacmach.sigma -> int -> Names.identifier
+)
+ident(
+  ext_ref Tacmach.pf_nth_hyp_id
+)
+"plugins/firstorder/instances.ml" 151 4477 4513 "plugins/firstorder/instances.ml" 151 4477 4516
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/instances.ml" 149 4421 4428 "plugins/firstorder/instances.ml" 149 4421 4431
+)
+"plugins/firstorder/instances.ml" 151 4477 4517 "plugins/firstorder/instances.ml" 151 4477 4518
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 151 4477 4490 "plugins/firstorder/instances.ml" 151 4477 4519
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/firstorder/instances.ml" 151 4477 4484 "plugins/firstorder/instances.ml" 151 4477 4519
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 151 4477 4482 "plugins/firstorder/instances.ml" 151 4477 4521
+type(
+  Term.constr array
+)
+"plugins/firstorder/instances.ml" 150 4444 4455 "plugins/firstorder/instances.ml" 151 4477 4522
+type(
+  Term.constr * Term.constr array
+)
+"plugins/firstorder/instances.ml" 150 4444 4450 "plugins/firstorder/instances.ml" 151 4477 4522
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 150 4444 4449 "plugins/firstorder/instances.ml" 151 4477 4523
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 151 4477 4524 "plugins/firstorder/instances.ml" 151 4477 4527
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/instances.ml" 149 4421 4428 "plugins/firstorder/instances.ml" 149 4421 4431
+)
+"plugins/firstorder/instances.ml" 149 4421 4433 "plugins/firstorder/instances.ml" 151 4477 4527
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/instances.ml" 149 4421 4423 "plugins/firstorder/instances.ml" 151 4477 4528
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/instances.ml" 152 4530 4532 "plugins/firstorder/instances.ml" 152 4530 4538
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.introf
+)
+"plugins/firstorder/instances.ml" 153 4540 4542 "plugins/firstorder/instances.ml" 153 4540 4550
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclSOLVE
+)
+"plugins/firstorder/instances.ml" 153 4540 4552 "plugins/firstorder/instances.ml" 153 4540 4556
+type(
+  int -> bool -> Rules.seqtac
+)
+ident(
+  ext_ref Rules.wrap
+)
+"plugins/firstorder/instances.ml" 153 4540 4557 "plugins/firstorder/instances.ml" 153 4540 4558
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 153 4540 4559 "plugins/firstorder/instances.ml" 153 4540 4564
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 153 4540 4565 "plugins/firstorder/instances.ml" 153 4540 4573
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/instances.ml" 140 4207 4239 "plugins/firstorder/instances.ml" 140 4207 4247
+)
+"plugins/firstorder/instances.ml" 154 4574 4582 "plugins/firstorder/instances.ml" 154 4574 4588
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  ext_ref Sequent.deepen
+)
+"plugins/firstorder/instances.ml" 154 4574 4590 "plugins/firstorder/instances.ml" 154 4574 4596
+type(
+  Sequent.h_item -> Sequent.t -> Sequent.t
+)
+ident(
+  ext_ref Sequent.record
+)
+"plugins/firstorder/instances.ml" 154 4574 4598 "plugins/firstorder/instances.ml" 154 4574 4600
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 140 4207 4235 "plugins/firstorder/instances.ml" 140 4207 4237
+)
+"plugins/firstorder/instances.ml" 154 4574 4601 "plugins/firstorder/instances.ml" 154 4574 4605
+type(
+  (int * Term.constr) option
+)
+"plugins/firstorder/instances.ml" 154 4574 4597 "plugins/firstorder/instances.ml" 154 4574 4606
+type(
+  Sequent.h_item
+)
+"plugins/firstorder/instances.ml" 154 4574 4607 "plugins/firstorder/instances.ml" 154 4574 4610
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 140 4207 4248 "plugins/firstorder/instances.ml" 140 4207 4251
+)
+"plugins/firstorder/instances.ml" 154 4574 4589 "plugins/firstorder/instances.ml" 154 4574 4611
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/instances.ml" 154 4574 4581 "plugins/firstorder/instances.ml" 154 4574 4612
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/instances.ml" 153 4540 4552 "plugins/firstorder/instances.ml" 154 4574 4612
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/instances.ml" 153 4540 4551 "plugins/firstorder/instances.ml" 154 4574 4613
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/instances.ml" 153 4540 4542 "plugins/firstorder/instances.ml" 154 4574 4613
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 148 4404 4412 "plugins/firstorder/instances.ml" 154 4574 4614
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/instances.ml" 147 4386 4392 "plugins/firstorder/instances.ml" 154 4574 4614
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 155 4616 4621 "plugins/firstorder/instances.ml" 155 4616 4627
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTRY
+)
+"plugins/firstorder/instances.ml" 155 4616 4628 "plugins/firstorder/instances.ml" 155 4616 4638
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.assumption
+)
+"plugins/firstorder/instances.ml" 155 4616 4621 "plugins/firstorder/instances.ml" 155 4616 4638
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 147 4386 4391 "plugins/firstorder/instances.ml" 155 4616 4639
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/instances.ml" 146 4364 4367 "plugins/firstorder/instances.ml" 155 4616 4639
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 143 4291 4292 "plugins/firstorder/instances.ml" 155 4616 4639
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 156 4640 4652 "plugins/firstorder/instances.ml" 156 4640 4653
+type(
+  int
+)
+ident(
+  def m "plugins/firstorder/instances.ml" 157 4667 4668 "plugins/firstorder/instances.ml" 175 5100 5161
+)
+"plugins/firstorder/instances.ml" 156 4640 4654 "plugins/firstorder/instances.ml" 156 4640 4655
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/instances.ml" 157 4667 4668 "plugins/firstorder/instances.ml" 175 5100 5161
+)
+"plugins/firstorder/instances.ml" 156 4640 4651 "plugins/firstorder/instances.ml" 156 4640 4656
+type(
+  int * Term.constr
+)
+"plugins/firstorder/instances.ml" 156 4640 4651 "plugins/firstorder/instances.ml" 156 4640 4661
+type(
+  int * Term.constr
+)
+ident(
+  def c "plugins/firstorder/instances.ml" 157 4667 4668 "plugins/firstorder/instances.ml" 175 5100 5161
+)
+"plugins/firstorder/instances.ml" 156 4640 4662 "plugins/firstorder/instances.ml" 156 4640 4663
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 156 4640 4646 "plugins/firstorder/instances.ml" 156 4640 4664
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 157 4667 4671 "plugins/firstorder/instances.ml" 157 4667 4677
+type(
+  Sequent.h_item -> Sequent.t -> bool
+)
+ident(
+  ext_ref Sequent.lookup
+)
+"plugins/firstorder/instances.ml" 157 4667 4679 "plugins/firstorder/instances.ml" 157 4667 4681
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 140 4207 4235 "plugins/firstorder/instances.ml" 140 4207 4237
+)
+"plugins/firstorder/instances.ml" 157 4667 4687 "plugins/firstorder/instances.ml" 157 4667 4688
+type(
+  int * Term.constr
+)
+ident(
+  int_ref c "plugins/firstorder/instances.ml" 156 4640 4651 "plugins/firstorder/instances.ml" 156 4640 4661
+)
+"plugins/firstorder/instances.ml" 157 4667 4682 "plugins/firstorder/instances.ml" 157 4667 4688
+type(
+  (int * Term.constr) option
+)
+"plugins/firstorder/instances.ml" 157 4667 4678 "plugins/firstorder/instances.ml" 157 4667 4689
+type(
+  Sequent.h_item
+)
+"plugins/firstorder/instances.ml" 157 4667 4690 "plugins/firstorder/instances.ml" 157 4667 4693
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 140 4207 4248 "plugins/firstorder/instances.ml" 140 4207 4251
+)
+"plugins/firstorder/instances.ml" 157 4667 4671 "plugins/firstorder/instances.ml" 157 4667 4693
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 158 4699 4702 "plugins/firstorder/instances.ml" 158 4699 4709
+type(
+  int -> Pp.std_ppcmds -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclFAIL
+)
+"plugins/firstorder/instances.ml" 158 4699 4710 "plugins/firstorder/instances.ml" 158 4699 4711
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 158 4699 4713 "plugins/firstorder/instances.ml" 158 4699 4719
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/firstorder/instances.ml" 158 4699 4720 "plugins/firstorder/instances.ml" 158 4699 4734
+type(
+  string
+)
+"plugins/firstorder/instances.ml" 158 4699 4712 "plugins/firstorder/instances.ml" 158 4699 4735
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/instances.ml" 158 4699 4702 "plugins/firstorder/instances.ml" 158 4699 4735
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 160 4742 4749 "plugins/firstorder/instances.ml" 160 4742 4767
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 161 4769 4777 "plugins/firstorder/instances.ml" 161 4769 4778
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/instances.ml" 156 4640 4652 "plugins/firstorder/instances.ml" 156 4640 4653
+)
+"plugins/firstorder/instances.ml" 161 4769 4778 "plugins/firstorder/instances.ml" 161 4769 4779
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"plugins/firstorder/instances.ml" 161 4769 4779 "plugins/firstorder/instances.ml" 161 4769 4780
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 161 4769 4777 "plugins/firstorder/instances.ml" 161 4769 4780
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 162 4786 4797 "plugins/firstorder/instances.ml" 162 4786 4799
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/instances.ml" 163 4802 4804 "plugins/firstorder/instances.ml" 167 4930 4952
+)
+"plugins/firstorder/instances.ml" 163 4802 4809 "plugins/firstorder/instances.ml" 163 4802 4811
+type(
+  Term.rel_context
+)
+"plugins/firstorder/instances.ml" 163 4802 4812 "plugins/firstorder/instances.ml" 163 4802 4814
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 163 4802 4808 "plugins/firstorder/instances.ml" 163 4802 4815
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 163 4802 4817 "plugins/firstorder/instances.ml" 163 4802 4833
+type(
+  Libnames.global_reference ->
+  Proof_type.goal Tacmach.sigma ->
+  int -> Term.constr -> Term.rel_context * Term.constr
+)
+ident(
+  int_ref mk_open_instance "plugins/firstorder/instances.ml" 106 3056 3060 "plugins/firstorder/instances.ml" 106 3056 3076
+)
+"plugins/firstorder/instances.ml" 163 4802 4834 "plugins/firstorder/instances.ml" 163 4802 4836
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 140 4207 4235 "plugins/firstorder/instances.ml" 140 4207 4237
+)
+"plugins/firstorder/instances.ml" 163 4802 4837 "plugins/firstorder/instances.ml" 163 4802 4839
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/instances.ml" 162 4786 4797 "plugins/firstorder/instances.ml" 162 4786 4799
+)
+"plugins/firstorder/instances.ml" 163 4802 4840 "plugins/firstorder/instances.ml" 163 4802 4841
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/instances.ml" 156 4640 4652 "plugins/firstorder/instances.ml" 156 4640 4653
+)
+"plugins/firstorder/instances.ml" 163 4802 4842 "plugins/firstorder/instances.ml" 163 4802 4843
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/instances.ml" 156 4640 4654 "plugins/firstorder/instances.ml" 156 4640 4655
+)
+"plugins/firstorder/instances.ml" 163 4802 4817 "plugins/firstorder/instances.ml" 163 4802 4843
+call(
+  stack
+)
+type(
+  Term.rel_context * Term.constr
+)
+"plugins/firstorder/instances.ml" 164 4847 4853 "plugins/firstorder/instances.ml" 164 4847 4855
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 165 4857 4861 "plugins/firstorder/instances.ml" 165 4857 4881
+type(
+  init:Term.constr -> Term.rel_context -> Term.constr
+)
+ident(
+  ext_ref Termops.it_mkLambda_or_LetIn
+)
+"plugins/firstorder/instances.ml" 166 4882 4889 "plugins/firstorder/instances.ml" 166 4882 4894
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/firstorder/instances.ml" 166 4882 4895 "plugins/firstorder/instances.ml" 166 4882 4911
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/instances.ml" 166 4882 4912 "plugins/firstorder/instances.ml" 166 4882 4914
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 140 4207 4235 "plugins/firstorder/instances.ml" 140 4207 4237
+)
+"plugins/firstorder/instances.ml" 166 4882 4895 "plugins/firstorder/instances.ml" 166 4882 4914
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 166 4882 4917 "plugins/firstorder/instances.ml" 166 4882 4919
+type(
+  Term.constr
+)
+ident(
+  int_ref ot "plugins/firstorder/instances.ml" 163 4802 4812 "plugins/firstorder/instances.ml" 163 4802 4814
+)
+"plugins/firstorder/instances.ml" 166 4882 4915 "plugins/firstorder/instances.ml" 166 4882 4921
+type(
+  Term.constr array
+)
+"plugins/firstorder/instances.ml" 166 4882 4894 "plugins/firstorder/instances.ml" 166 4882 4922
+type(
+  Term.constr * Term.constr array
+)
+"plugins/firstorder/instances.ml" 166 4882 4888 "plugins/firstorder/instances.ml" 166 4882 4923
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 166 4882 4924 "plugins/firstorder/instances.ml" 166 4882 4926
+type(
+  Term.rel_context
+)
+ident(
+  int_ref rc "plugins/firstorder/instances.ml" 163 4802 4809 "plugins/firstorder/instances.ml" 163 4802 4811
+)
+"plugins/firstorder/instances.ml" 165 4857 4861 "plugins/firstorder/instances.ml" 166 4882 4926
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 167 4930 4934 "plugins/firstorder/instances.ml" 167 4930 4944
+type(
+  Term.constr list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.generalize
+)
+"plugins/firstorder/instances.ml" 167 4930 4946 "plugins/firstorder/instances.ml" 167 4930 4948
+type(
+  Term.constr
+)
+ident(
+  int_ref gt "plugins/firstorder/instances.ml" 164 4847 4853 "plugins/firstorder/instances.ml" 164 4847 4855
+)
+"plugins/firstorder/instances.ml" 167 4930 4945 "plugins/firstorder/instances.ml" 167 4930 4949
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 167 4930 4950 "plugins/firstorder/instances.ml" 167 4930 4952
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/instances.ml" 162 4786 4797 "plugins/firstorder/instances.ml" 162 4786 4799
+)
+"plugins/firstorder/instances.ml" 167 4930 4934 "plugins/firstorder/instances.ml" 167 4930 4952
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/instances.ml" 164 4847 4849 "plugins/firstorder/instances.ml" 167 4930 4952
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/instances.ml" 163 4802 4804 "plugins/firstorder/instances.ml" 167 4930 4952
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/instances.ml" 162 4786 4793 "plugins/firstorder/instances.ml" 167 4930 4952
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 169 4963 4970 "plugins/firstorder/instances.ml" 169 4963 4980
+type(
+  Term.constr list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.generalize
+)
+"plugins/firstorder/instances.ml" 169 4963 4982 "plugins/firstorder/instances.ml" 169 4963 4987
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/firstorder/instances.ml" 169 4963 4988 "plugins/firstorder/instances.ml" 169 4963 5004
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/instances.ml" 169 4963 5005 "plugins/firstorder/instances.ml" 169 4963 5007
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 140 4207 4235 "plugins/firstorder/instances.ml" 140 4207 4237
+)
+"plugins/firstorder/instances.ml" 169 4963 4988 "plugins/firstorder/instances.ml" 169 4963 5007
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 169 4963 5010 "plugins/firstorder/instances.ml" 169 4963 5011
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/instances.ml" 156 4640 4654 "plugins/firstorder/instances.ml" 156 4640 4655
+)
+"plugins/firstorder/instances.ml" 169 4963 5008 "plugins/firstorder/instances.ml" 169 4963 5013
+type(
+  Term.constr array
+)
+"plugins/firstorder/instances.ml" 169 4963 4987 "plugins/firstorder/instances.ml" 169 4963 5014
+type(
+  Term.constr * Term.constr array
+)
+"plugins/firstorder/instances.ml" 169 4963 4982 "plugins/firstorder/instances.ml" 169 4963 5014
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 169 4963 4981 "plugins/firstorder/instances.ml" 169 4963 5015
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 169 4963 4970 "plugins/firstorder/instances.ml" 169 4963 5015
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 161 4769 4774 "plugins/firstorder/instances.ml" 169 4963 5015
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 171 5022 5027 "plugins/firstorder/instances.ml" 171 5022 5038
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENLIST
+)
+"plugins/firstorder/instances.ml" 172 5039 5047 "plugins/firstorder/instances.ml" 172 5039 5065
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref special_generalize "plugins/firstorder/instances.ml" 160 4742 4749 "plugins/firstorder/instances.ml" 160 4742 4767
+)
+"plugins/firstorder/instances.ml" 173 5067 5075 "plugins/firstorder/instances.ml" 173 5067 5081
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.introf
+)
+"plugins/firstorder/instances.ml" 174 5083 5091 "plugins/firstorder/instances.ml" 174 5083 5099
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclSOLVE
+)
+"plugins/firstorder/instances.ml" 175 5100 5104 "plugins/firstorder/instances.ml" 175 5100 5108
+type(
+  int -> bool -> Rules.seqtac
+)
+ident(
+  ext_ref Rules.wrap
+)
+"plugins/firstorder/instances.ml" 175 5100 5109 "plugins/firstorder/instances.ml" 175 5100 5110
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 175 5100 5111 "plugins/firstorder/instances.ml" 175 5100 5116
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 175 5100 5117 "plugins/firstorder/instances.ml" 175 5100 5125
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/instances.ml" 140 4207 4239 "plugins/firstorder/instances.ml" 140 4207 4247
+)
+"plugins/firstorder/instances.ml" 175 5100 5127 "plugins/firstorder/instances.ml" 175 5100 5133
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  ext_ref Sequent.deepen
+)
+"plugins/firstorder/instances.ml" 175 5100 5135 "plugins/firstorder/instances.ml" 175 5100 5141
+type(
+  Sequent.h_item -> Sequent.t -> Sequent.t
+)
+ident(
+  ext_ref Sequent.record
+)
+"plugins/firstorder/instances.ml" 175 5100 5143 "plugins/firstorder/instances.ml" 175 5100 5145
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/instances.ml" 140 4207 4235 "plugins/firstorder/instances.ml" 140 4207 4237
+)
+"plugins/firstorder/instances.ml" 175 5100 5151 "plugins/firstorder/instances.ml" 175 5100 5152
+type(
+  int * Term.constr
+)
+ident(
+  int_ref c "plugins/firstorder/instances.ml" 156 4640 4651 "plugins/firstorder/instances.ml" 156 4640 4661
+)
+"plugins/firstorder/instances.ml" 175 5100 5146 "plugins/firstorder/instances.ml" 175 5100 5152
+type(
+  (int * Term.constr) option
+)
+"plugins/firstorder/instances.ml" 175 5100 5142 "plugins/firstorder/instances.ml" 175 5100 5153
+type(
+  Sequent.h_item
+)
+"plugins/firstorder/instances.ml" 175 5100 5154 "plugins/firstorder/instances.ml" 175 5100 5157
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 140 4207 4248 "plugins/firstorder/instances.ml" 140 4207 4251
+)
+"plugins/firstorder/instances.ml" 175 5100 5134 "plugins/firstorder/instances.ml" 175 5100 5158
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/instances.ml" 175 5100 5126 "plugins/firstorder/instances.ml" 175 5100 5159
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/instances.ml" 175 5100 5104 "plugins/firstorder/instances.ml" 175 5100 5159
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/instances.ml" 175 5100 5103 "plugins/firstorder/instances.ml" 175 5100 5160
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/instances.ml" 174 5083 5091 "plugins/firstorder/instances.ml" 175 5100 5160
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 172 5039 5046 "plugins/firstorder/instances.ml" 175 5100 5161
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/instances.ml" 171 5022 5027 "plugins/firstorder/instances.ml" 175 5100 5161
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 160 4742 4745 "plugins/firstorder/instances.ml" 175 5100 5161
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 157 4667 4668 "plugins/firstorder/instances.ml" 175 5100 5161
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 141 4253 4255 "plugins/firstorder/instances.ml" 175 5100 5161
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 177 5163 5167 "plugins/firstorder/instances.ml" 177 5163 5185
+type(
+  Unify.instance ->
+  (Sequent.t -> Tacmach.tactic) -> Sequent.t -> Proof_type.tactic
+)
+ident(
+  def right_instance_tac "plugins/firstorder/instances.ml" 194 5664 5664 --
+)
+"plugins/firstorder/instances.ml" 177 5163 5186 "plugins/firstorder/instances.ml" 177 5163 5190
+type(
+  Unify.instance
+)
+ident(
+  def inst "plugins/firstorder/instances.ml" 177 5163 5191 "plugins/firstorder/instances.ml" 192 5617 5662
+)
+"plugins/firstorder/instances.ml" 177 5163 5191 "plugins/firstorder/instances.ml" 177 5163 5199
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  def continue "plugins/firstorder/instances.ml" 177 5163 5200 "plugins/firstorder/instances.ml" 192 5617 5662
+)
+"plugins/firstorder/instances.ml" 177 5163 5200 "plugins/firstorder/instances.ml" 177 5163 5203
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/instances.ml" 178 5205 5207 "plugins/firstorder/instances.ml" 192 5617 5662
+)
+"plugins/firstorder/instances.ml" 178 5205 5213 "plugins/firstorder/instances.ml" 178 5205 5217
+type(
+  Unify.instance
+)
+ident(
+  int_ref inst "plugins/firstorder/instances.ml" 177 5163 5186 "plugins/firstorder/instances.ml" 177 5163 5190
+)
+"plugins/firstorder/instances.ml" 179 5223 5237 "plugins/firstorder/instances.ml" 179 5223 5240
+type(
+  Term.constr
+)
+ident(
+  def dom "plugins/firstorder/instances.ml" 180 5244 5245 "plugins/firstorder/instances.ml" 187 5447 5467
+)
+"plugins/firstorder/instances.ml" 179 5223 5229 "plugins/firstorder/instances.ml" 179 5223 5240
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 180 5244 5245 "plugins/firstorder/instances.ml" 180 5244 5253
+type(
+  Proof_type.tactic -> Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENS
+)
+"plugins/firstorder/instances.ml" 180 5244 5255 "plugins/firstorder/instances.ml" 180 5244 5258
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.cut
+)
+"plugins/firstorder/instances.ml" 180 5244 5259 "plugins/firstorder/instances.ml" 180 5244 5262
+type(
+  Term.constr
+)
+ident(
+  int_ref dom "plugins/firstorder/instances.ml" 179 5223 5237 "plugins/firstorder/instances.ml" 179 5223 5240
+)
+"plugins/firstorder/instances.ml" 180 5244 5254 "plugins/firstorder/instances.ml" 180 5244 5263
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 181 5264 5266 "plugins/firstorder/instances.ml" 181 5264 5277
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENLIST
+)
+"plugins/firstorder/instances.ml" 182 5278 5283 "plugins/firstorder/instances.ml" 182 5278 5289
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.introf
+)
+"plugins/firstorder/instances.ml" 183 5291 5301 "plugins/firstorder/instances.ml" 183 5291 5304
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gls "plugins/firstorder/instances.ml" 184 5307 5315 "plugins/firstorder/instances.ml" 185 5347 5392
+)
+"plugins/firstorder/instances.ml" 184 5307 5315 "plugins/firstorder/instances.ml" 184 5307 5320
+type(
+  Term.constr Rawterm.bindings -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.split
+)
+"plugins/firstorder/instances.ml" 185 5347 5351 "plugins/firstorder/instances.ml" 185 5347 5356
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Term.mkVar
+)
+"plugins/firstorder/instances.ml" 185 5347 5358 "plugins/firstorder/instances.ml" 185 5347 5379
+type(
+  Proof_type.goal Tacmach.sigma -> int -> Names.identifier
+)
+ident(
+  ext_ref Tacmach.pf_nth_hyp_id
+)
+"plugins/firstorder/instances.ml" 185 5347 5380 "plugins/firstorder/instances.ml" 185 5347 5383
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/instances.ml" 183 5291 5301 "plugins/firstorder/instances.ml" 183 5291 5304
+)
+"plugins/firstorder/instances.ml" 185 5347 5384 "plugins/firstorder/instances.ml" 185 5347 5385
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 185 5347 5357 "plugins/firstorder/instances.ml" 185 5347 5386
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/firstorder/instances.ml" 185 5347 5351 "plugins/firstorder/instances.ml" 185 5347 5386
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/instances.ml" 185 5347 5350 "plugins/firstorder/instances.ml" 185 5347 5387
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 184 5307 5321 "plugins/firstorder/instances.ml" 185 5347 5388
+type(
+  Term.constr Rawterm.bindings
+)
+"plugins/firstorder/instances.ml" 185 5347 5389 "plugins/firstorder/instances.ml" 185 5347 5392
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/instances.ml" 183 5291 5301 "plugins/firstorder/instances.ml" 183 5291 5304
+)
+"plugins/firstorder/instances.ml" 184 5307 5315 "plugins/firstorder/instances.ml" 185 5347 5392
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/instances.ml" 183 5291 5296 "plugins/firstorder/instances.ml" 185 5347 5393
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/instances.ml" 186 5395 5400 "plugins/firstorder/instances.ml" 186 5395 5408
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclSOLVE
+)
+"plugins/firstorder/instances.ml" 186 5395 5410 "plugins/firstorder/instances.ml" 186 5395 5414
+type(
+  int -> bool -> Rules.seqtac
+)
+ident(
+  ext_ref Rules.wrap
+)
+"plugins/firstorder/instances.ml" 186 5395 5415 "plugins/firstorder/instances.ml" 186 5395 5416
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 186 5395 5417 "plugins/firstorder/instances.ml" 186 5395 5421
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 186 5395 5422 "plugins/firstorder/instances.ml" 186 5395 5430
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/instances.ml" 177 5163 5191 "plugins/firstorder/instances.ml" 177 5163 5199
+)
+"plugins/firstorder/instances.ml" 186 5395 5432 "plugins/firstorder/instances.ml" 186 5395 5438
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  ext_ref Sequent.deepen
+)
+"plugins/firstorder/instances.ml" 186 5395 5439 "plugins/firstorder/instances.ml" 186 5395 5442
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 177 5163 5200 "plugins/firstorder/instances.ml" 177 5163 5203
+)
+"plugins/firstorder/instances.ml" 186 5395 5431 "plugins/firstorder/instances.ml" 186 5395 5443
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/instances.ml" 186 5395 5410 "plugins/firstorder/instances.ml" 186 5395 5443
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/instances.ml" 186 5395 5409 "plugins/firstorder/instances.ml" 186 5395 5444
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/instances.ml" 186 5395 5400 "plugins/firstorder/instances.ml" 186 5395 5444
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 182 5278 5282 "plugins/firstorder/instances.ml" 186 5395 5445
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/instances.ml" 181 5264 5266 "plugins/firstorder/instances.ml" 186 5395 5445
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 187 5447 5449 "plugins/firstorder/instances.ml" 187 5447 5455
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTRY
+)
+"plugins/firstorder/instances.ml" 187 5447 5456 "plugins/firstorder/instances.ml" 187 5447 5466
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.assumption
+)
+"plugins/firstorder/instances.ml" 187 5447 5449 "plugins/firstorder/instances.ml" 187 5447 5466
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 181 5264 5265 "plugins/firstorder/instances.ml" 187 5447 5467
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/instances.ml" 180 5244 5245 "plugins/firstorder/instances.ml" 187 5447 5467
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 188 5468 5481 "plugins/firstorder/instances.ml" 188 5468 5482
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 188 5468 5483 "plugins/firstorder/instances.ml" 188 5468 5484
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/instances.ml" 189 5492 5493 "plugins/firstorder/instances.ml" 190 5541 5592
+)
+"plugins/firstorder/instances.ml" 188 5468 5480 "plugins/firstorder/instances.ml" 188 5468 5485
+type(
+  int * Term.constr
+)
+"plugins/firstorder/instances.ml" 188 5468 5486 "plugins/firstorder/instances.ml" 188 5468 5487
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 188 5468 5474 "plugins/firstorder/instances.ml" 188 5468 5488
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 189 5492 5494 "plugins/firstorder/instances.ml" 189 5492 5501
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHEN
+)
+"plugins/firstorder/instances.ml" 189 5492 5503 "plugins/firstorder/instances.ml" 189 5492 5508
+type(
+  Term.constr Rawterm.bindings -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.split
+)
+"plugins/firstorder/instances.ml" 189 5492 5536 "plugins/firstorder/instances.ml" 189 5492 5537
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/instances.ml" 188 5468 5483 "plugins/firstorder/instances.ml" 188 5468 5484
+)
+"plugins/firstorder/instances.ml" 189 5492 5535 "plugins/firstorder/instances.ml" 189 5492 5538
+type(
+  Term.constr list
+)
+"plugins/firstorder/instances.ml" 189 5492 5509 "plugins/firstorder/instances.ml" 189 5492 5539
+type(
+  Term.constr Rawterm.bindings
+)
+"plugins/firstorder/instances.ml" 189 5492 5502 "plugins/firstorder/instances.ml" 189 5492 5540
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 190 5541 5546 "plugins/firstorder/instances.ml" 190 5541 5554
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclSOLVE
+)
+"plugins/firstorder/instances.ml" 190 5541 5556 "plugins/firstorder/instances.ml" 190 5541 5560
+type(
+  int -> bool -> Rules.seqtac
+)
+ident(
+  ext_ref Rules.wrap
+)
+"plugins/firstorder/instances.ml" 190 5541 5561 "plugins/firstorder/instances.ml" 190 5541 5562
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 190 5541 5563 "plugins/firstorder/instances.ml" 190 5541 5567
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 190 5541 5568 "plugins/firstorder/instances.ml" 190 5541 5576
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/instances.ml" 177 5163 5191 "plugins/firstorder/instances.ml" 177 5163 5199
+)
+"plugins/firstorder/instances.ml" 190 5541 5578 "plugins/firstorder/instances.ml" 190 5541 5584
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  ext_ref Sequent.deepen
+)
+"plugins/firstorder/instances.ml" 190 5541 5585 "plugins/firstorder/instances.ml" 190 5541 5588
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 177 5163 5200 "plugins/firstorder/instances.ml" 177 5163 5203
+)
+"plugins/firstorder/instances.ml" 190 5541 5577 "plugins/firstorder/instances.ml" 190 5541 5589
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/instances.ml" 190 5541 5556 "plugins/firstorder/instances.ml" 190 5541 5589
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/firstorder/instances.ml" 190 5541 5555 "plugins/firstorder/instances.ml" 190 5541 5590
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/instances.ml" 190 5541 5545 "plugins/firstorder/instances.ml" 190 5541 5591
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 189 5492 5493 "plugins/firstorder/instances.ml" 190 5541 5592
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 191 5593 5606 "plugins/firstorder/instances.ml" 191 5593 5607
+type(
+  int
+)
+ident(
+  def m "plugins/firstorder/instances.ml" 192 5617 5618 "plugins/firstorder/instances.ml" 192 5617 5662
+)
+"plugins/firstorder/instances.ml" 191 5593 5608 "plugins/firstorder/instances.ml" 191 5593 5609
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/instances.ml" 192 5617 5618 "plugins/firstorder/instances.ml" 192 5617 5662
+)
+"plugins/firstorder/instances.ml" 191 5593 5605 "plugins/firstorder/instances.ml" 191 5593 5610
+type(
+  int * Term.constr
+)
+"plugins/firstorder/instances.ml" 191 5593 5611 "plugins/firstorder/instances.ml" 191 5593 5612
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 191 5593 5599 "plugins/firstorder/instances.ml" 191 5593 5613
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 192 5617 5618 "plugins/firstorder/instances.ml" 192 5617 5625
+type(
+  int -> Pp.std_ppcmds -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclFAIL
+)
+"plugins/firstorder/instances.ml" 192 5617 5626 "plugins/firstorder/instances.ml" 192 5617 5627
+type(
+  int
+)
+"plugins/firstorder/instances.ml" 192 5617 5629 "plugins/firstorder/instances.ml" 192 5617 5635
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/firstorder/instances.ml" 192 5617 5636 "plugins/firstorder/instances.ml" 192 5617 5661
+type(
+  string
+)
+"plugins/firstorder/instances.ml" 192 5617 5628 "plugins/firstorder/instances.ml" 192 5617 5662
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/instances.ml" 192 5617 5618 "plugins/firstorder/instances.ml" 192 5617 5662
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 178 5205 5207 "plugins/firstorder/instances.ml" 192 5617 5662
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 194 5664 5668 "plugins/firstorder/instances.ml" 194 5664 5680
+type(
+  Unify.instance * Libnames.global_reference ->
+  (Sequent.t -> Tacmach.tactic) -> Sequent.t -> Proof_type.tactic
+)
+ident(
+  def instance_tac "plugins/firstorder/instances.ml" 200 5787 5787 --
+)
+"plugins/firstorder/instances.ml" 194 5664 5681 "plugins/firstorder/instances.ml" 194 5664 5685
+type(
+  Unify.instance * Libnames.global_reference
+)
+ident(
+  def inst "plugins/firstorder/instances.ml" 195 5687 5689 "plugins/firstorder/instances.ml" 198 5759 5785
+)
+"plugins/firstorder/instances.ml" 195 5687 5693 "plugins/firstorder/instances.ml" 195 5687 5696
+type(
+  Unify.instance * Libnames.global_reference -> Libnames.global_reference
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/firstorder/instances.ml" 195 5687 5697 "plugins/firstorder/instances.ml" 195 5687 5701
+type(
+  Unify.instance * Libnames.global_reference
+)
+ident(
+  int_ref inst "plugins/firstorder/instances.ml" 194 5664 5681 "plugins/firstorder/instances.ml" 194 5664 5685
+)
+"plugins/firstorder/instances.ml" 195 5687 5692 "plugins/firstorder/instances.ml" 195 5687 5702
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/instances.ml" 195 5687 5702 "plugins/firstorder/instances.ml" 195 5687 5704
+type(
+  Libnames.global_reference -> Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"plugins/firstorder/instances.ml" 195 5687 5704 "plugins/firstorder/instances.ml" 195 5687 5712
+type(
+  Libnames.global_reference
+)
+ident(
+  ext_ref Formula.dummy_id
+)
+"plugins/firstorder/instances.ml" 195 5687 5692 "plugins/firstorder/instances.ml" 195 5687 5712
+type(
+  bool
+)
+"plugins/firstorder/instances.ml" 196 5718 5722 "plugins/firstorder/instances.ml" 196 5718 5740
+type(
+  Unify.instance ->
+  (Sequent.t -> Tacmach.tactic) -> Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref right_instance_tac "plugins/firstorder/instances.ml" 177 5163 5167 "plugins/firstorder/instances.ml" 177 5163 5185
+)
+"plugins/firstorder/instances.ml" 196 5718 5742 "plugins/firstorder/instances.ml" 196 5718 5745
+type(
+  Unify.instance * Libnames.global_reference -> Unify.instance
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"plugins/firstorder/instances.ml" 196 5718 5746 "plugins/firstorder/instances.ml" 196 5718 5750
+type(
+  Unify.instance * Libnames.global_reference
+)
+ident(
+  int_ref inst "plugins/firstorder/instances.ml" 194 5664 5681 "plugins/firstorder/instances.ml" 194 5664 5685
+)
+"plugins/firstorder/instances.ml" 196 5718 5741 "plugins/firstorder/instances.ml" 196 5718 5751
+type(
+  Unify.instance
+)
+"plugins/firstorder/instances.ml" 196 5718 5722 "plugins/firstorder/instances.ml" 196 5718 5751
+call(
+  tail
+)
+type(
+  (Sequent.t -> Tacmach.tactic) -> Sequent.t -> Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 198 5759 5763 "plugins/firstorder/instances.ml" 198 5759 5780
+type(
+  Unify.instance * Libnames.global_reference ->
+  (Sequent.t -> Tacmach.tactic) -> Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref left_instance_tac "plugins/firstorder/instances.ml" 140 4207 4211 "plugins/firstorder/instances.ml" 140 4207 4228
+)
+"plugins/firstorder/instances.ml" 198 5759 5781 "plugins/firstorder/instances.ml" 198 5759 5785
+type(
+  Unify.instance * Libnames.global_reference
+)
+ident(
+  int_ref inst "plugins/firstorder/instances.ml" 194 5664 5681 "plugins/firstorder/instances.ml" 194 5664 5685
+)
+"plugins/firstorder/instances.ml" 198 5759 5763 "plugins/firstorder/instances.ml" 198 5759 5785
+call(
+  tail
+)
+type(
+  (Sequent.t -> Tacmach.tactic) -> Sequent.t -> Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 195 5687 5689 "plugins/firstorder/instances.ml" 198 5759 5785
+type(
+  (Sequent.t -> Tacmach.tactic) -> Sequent.t -> Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 200 5787 5791 "plugins/firstorder/instances.ml" 200 5787 5805
+type(
+  Formula.t list ->
+  Proof_type.tactic ->
+  (Sequent.t -> Tacmach.tactic) ->
+  Sequent.t ->
+  Proof_type.goal Evd.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def quantified_tac "plugins/firstorder/instances.ml" 204 5964 5982 --
+)
+"plugins/firstorder/instances.ml" 200 5787 5806 "plugins/firstorder/instances.ml" 200 5787 5808
+type(
+  Formula.t list
+)
+ident(
+  def lf "plugins/firstorder/instances.ml" 200 5787 5809 "plugins/firstorder/instances.ml" 204 5964 5982
+)
+"plugins/firstorder/instances.ml" 200 5787 5809 "plugins/firstorder/instances.ml" 200 5787 5818
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/instances.ml" 200 5787 5819 "plugins/firstorder/instances.ml" 204 5964 5982
+)
+"plugins/firstorder/instances.ml" 200 5787 5819 "plugins/firstorder/instances.ml" 200 5787 5827
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  def continue "plugins/firstorder/instances.ml" 200 5787 5828 "plugins/firstorder/instances.ml" 204 5964 5982
+)
+"plugins/firstorder/instances.ml" 200 5787 5828 "plugins/firstorder/instances.ml" 200 5787 5831
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/instances.ml" 200 5787 5832 "plugins/firstorder/instances.ml" 204 5964 5982
+)
+"plugins/firstorder/instances.ml" 200 5787 5832 "plugins/firstorder/instances.ml" 200 5787 5834
+type(
+  Proof_type.goal Evd.sigma
+)
+ident(
+  def gl "plugins/firstorder/instances.ml" 201 5836 5838 "plugins/firstorder/instances.ml" 204 5964 5982
+)
+"plugins/firstorder/instances.ml" 201 5836 5842 "plugins/firstorder/instances.ml" 201 5836 5847
+type(
+  IS.elt list
+)
+"plugins/firstorder/instances.ml" 201 5836 5848 "plugins/firstorder/instances.ml" 201 5836 5862
+type(
+  Formula.t list -> Sequent.t -> IS.elt list
+)
+ident(
+  int_ref give_instances "plugins/firstorder/instances.ml" 83 2524 2528 "plugins/firstorder/instances.ml" 83 2524 2542
+)
+"plugins/firstorder/instances.ml" 201 5836 5863 "plugins/firstorder/instances.ml" 201 5836 5865
+type(
+  Formula.t list
+)
+ident(
+  int_ref lf "plugins/firstorder/instances.ml" 200 5787 5806 "plugins/firstorder/instances.ml" 200 5787 5808
+)
+"plugins/firstorder/instances.ml" 201 5836 5866 "plugins/firstorder/instances.ml" 201 5836 5869
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 200 5787 5828 "plugins/firstorder/instances.ml" 200 5787 5831
+)
+"plugins/firstorder/instances.ml" 201 5836 5848 "plugins/firstorder/instances.ml" 201 5836 5869
+call(
+  stack
+)
+type(
+  IS.elt list
+)
+"plugins/firstorder/instances.ml" 202 5873 5877 "plugins/firstorder/instances.ml" 202 5873 5886
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclORELSE
+)
+"plugins/firstorder/instances.ml" 203 5887 5894 "plugins/firstorder/instances.ml" 203 5887 5902
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclFIRST
+)
+"plugins/firstorder/instances.ml" 203 5887 5904 "plugins/firstorder/instances.ml" 203 5887 5912
+type(
+  (IS.elt -> Proof_type.tactic) -> IS.elt list -> Proof_type.tactic list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/firstorder/instances.ml" 203 5887 5918 "plugins/firstorder/instances.ml" 203 5887 5922
+type(
+  IS.elt
+)
+ident(
+  def inst "plugins/firstorder/instances.ml" 203 5887 5924 "plugins/firstorder/instances.ml" 203 5887 5954
+)
+"plugins/firstorder/instances.ml" 203 5887 5924 "plugins/firstorder/instances.ml" 203 5887 5936
+type(
+  IS.elt -> (Sequent.t -> Tacmach.tactic) -> Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref instance_tac "plugins/firstorder/instances.ml" 194 5664 5668 "plugins/firstorder/instances.ml" 194 5664 5680
+)
+"plugins/firstorder/instances.ml" 203 5887 5937 "plugins/firstorder/instances.ml" 203 5887 5941
+type(
+  IS.elt
+)
+ident(
+  int_ref inst "plugins/firstorder/instances.ml" 203 5887 5918 "plugins/firstorder/instances.ml" 203 5887 5922
+)
+"plugins/firstorder/instances.ml" 203 5887 5942 "plugins/firstorder/instances.ml" 203 5887 5950
+type(
+  Sequent.t -> Tacmach.tactic
+)
+ident(
+  int_ref continue "plugins/firstorder/instances.ml" 200 5787 5819 "plugins/firstorder/instances.ml" 200 5787 5827
+)
+"plugins/firstorder/instances.ml" 203 5887 5951 "plugins/firstorder/instances.ml" 203 5887 5954
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/instances.ml" 200 5787 5828 "plugins/firstorder/instances.ml" 200 5787 5831
+)
+"plugins/firstorder/instances.ml" 203 5887 5924 "plugins/firstorder/instances.ml" 203 5887 5954
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 203 5887 5913 "plugins/firstorder/instances.ml" 203 5887 5955
+type(
+  IS.elt -> Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 203 5887 5956 "plugins/firstorder/instances.ml" 203 5887 5961
+type(
+  IS.elt list
+)
+ident(
+  int_ref insts "plugins/firstorder/instances.ml" 201 5836 5842 "plugins/firstorder/instances.ml" 201 5836 5847
+)
+"plugins/firstorder/instances.ml" 203 5887 5903 "plugins/firstorder/instances.ml" 203 5887 5962
+call(
+  stack
+)
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/instances.ml" 203 5887 5893 "plugins/firstorder/instances.ml" 203 5887 5963
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/instances.ml" 204 5964 5970 "plugins/firstorder/instances.ml" 204 5964 5979
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/instances.ml" 200 5787 5809 "plugins/firstorder/instances.ml" 200 5787 5818
+)
+"plugins/firstorder/instances.ml" 204 5964 5980 "plugins/firstorder/instances.ml" 204 5964 5982
+type(
+  Proof_type.goal Evd.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/instances.ml" 200 5787 5832 "plugins/firstorder/instances.ml" 200 5787 5834
+)
+"plugins/firstorder/instances.ml" 202 5873 5877 "plugins/firstorder/instances.ml" 204 5964 5982
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/instances.ml" 201 5836 5838 "plugins/firstorder/instances.ml" 204 5964 5982
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)

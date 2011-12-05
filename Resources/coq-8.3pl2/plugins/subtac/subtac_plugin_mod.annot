@@ -1,0 +1,252 @@
+"plugins/subtac/subtac_plugin_mod.ml" 1 0 6 "plugins/subtac/subtac_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 1 0 28 "plugins/subtac/subtac_plugin_mod.ml" 1 0 42
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 1 0 6 "plugins/subtac/subtac_plugin_mod.ml" 1 0 42
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 2 44 50 "plugins/subtac/subtac_plugin_mod.ml" 2 44 72
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 2 44 72 "plugins/subtac/subtac_plugin_mod.ml" 2 44 79
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 2 44 50 "plugins/subtac/subtac_plugin_mod.ml" 2 44 79
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 3 81 87 "plugins/subtac/subtac_plugin_mod.ml" 3 81 109
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 3 81 109 "plugins/subtac/subtac_plugin_mod.ml" 3 81 124
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 3 81 87 "plugins/subtac/subtac_plugin_mod.ml" 3 81 124
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 4 126 132 "plugins/subtac/subtac_plugin_mod.ml" 4 126 154
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 4 126 154 "plugins/subtac/subtac_plugin_mod.ml" 4 126 171
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 4 126 132 "plugins/subtac/subtac_plugin_mod.ml" 4 126 171
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 5 173 179 "plugins/subtac/subtac_plugin_mod.ml" 5 173 201
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 5 173 201 "plugins/subtac/subtac_plugin_mod.ml" 5 173 221
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 5 173 179 "plugins/subtac/subtac_plugin_mod.ml" 5 173 221
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 6 223 229 "plugins/subtac/subtac_plugin_mod.ml" 6 223 251
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 6 223 251 "plugins/subtac/subtac_plugin_mod.ml" 6 223 265
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 6 223 229 "plugins/subtac/subtac_plugin_mod.ml" 6 223 265
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 7 267 273 "plugins/subtac/subtac_plugin_mod.ml" 7 267 295
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 7 267 295 "plugins/subtac/subtac_plugin_mod.ml" 7 267 315
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 7 267 273 "plugins/subtac/subtac_plugin_mod.ml" 7 267 315
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 8 317 323 "plugins/subtac/subtac_plugin_mod.ml" 8 317 345
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 8 317 345 "plugins/subtac/subtac_plugin_mod.ml" 8 317 363
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 8 317 323 "plugins/subtac/subtac_plugin_mod.ml" 8 317 363
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 9 365 371 "plugins/subtac/subtac_plugin_mod.ml" 9 365 393
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 9 365 393 "plugins/subtac/subtac_plugin_mod.ml" 9 365 409
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 9 365 371 "plugins/subtac/subtac_plugin_mod.ml" 9 365 409
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 10 411 417 "plugins/subtac/subtac_plugin_mod.ml" 10 411 439
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 10 411 439 "plugins/subtac/subtac_plugin_mod.ml" 10 411 455
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 10 411 417 "plugins/subtac/subtac_plugin_mod.ml" 10 411 455
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 11 457 463 "plugins/subtac/subtac_plugin_mod.ml" 11 457 485
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 11 457 485 "plugins/subtac/subtac_plugin_mod.ml" 11 457 493
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 11 457 463 "plugins/subtac/subtac_plugin_mod.ml" 11 457 493
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 12 495 501 "plugins/subtac/subtac_plugin_mod.ml" 12 495 523
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 12 495 523 "plugins/subtac/subtac_plugin_mod.ml" 12 495 533
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 12 495 501 "plugins/subtac/subtac_plugin_mod.ml" 12 495 533
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 13 535 541 "plugins/subtac/subtac_plugin_mod.ml" 13 535 563
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 13 535 563 "plugins/subtac/subtac_plugin_mod.ml" 13 535 582
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 13 535 541 "plugins/subtac/subtac_plugin_mod.ml" 13 535 582
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac_plugin_mod.ml" 14 584 590 "plugins/subtac/subtac_plugin_mod.ml" 14 584 612
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/subtac/subtac_plugin_mod.ml" 14 584 612 "plugins/subtac/subtac_plugin_mod.ml" 14 584 627
+type(
+  string
+)
+"plugins/subtac/subtac_plugin_mod.ml" 14 584 590 "plugins/subtac/subtac_plugin_mod.ml" 14 584 627
+call(
+  stack
+)
+type(
+  unit
+)

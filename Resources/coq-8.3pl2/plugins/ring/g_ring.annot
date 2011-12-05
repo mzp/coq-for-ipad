@@ -1,0 +1,6802 @@
+"plugins/ring/g_ring.ml4" 18 686 706 "plugins/ring/g_ring.ml4" 18 686 720
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Quote.ConstrSet.elt list -> Proof_type.tactic
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+type(
+  Quote.ConstrSet.elt list
+)
+ident(
+  int_ref l "plugins/ring/g_ring.ml4" 18 686 706 "plugins/ring/g_ring.ml4" 18 686 720
+)
+type(
+  (Quote.ConstrSet.elt list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  (Quote.ConstrSet.elt, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_constr
+)
+type(
+  (Quote.ConstrSet.elt, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Quote.ConstrSet.elt list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (Quote.ConstrSet.elt list, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Quote.ConstrSet.elt list -> Tacexpr.typed_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.typed_generic_argument list
+)
+type(
+  Quote.ConstrSet.elt list
+)
+ident(
+  def l "plugins/ring/g_ring.ml4" 17 667 667 "plugins/ring/g_ring.ml4" 17 667 743
+)
+"plugins/ring/g_ring.ml4" 18 686 728 "plugins/ring/g_ring.ml4" 18 686 735
+type(
+  Quote.ConstrSet.elt list -> Tacmach.tactic
+)
+ident(
+  ext_ref Ring.polynom
+)
+type(
+  Quote.ConstrSet.elt list -> Proof_type.tactic
+)
+ident(
+  ext_ref Ring.polynom
+)
+"plugins/ring/g_ring.ml4" 18 686 736 "plugins/ring/g_ring.ml4" 18 686 737
+type(
+  Quote.ConstrSet.elt list
+)
+ident(
+  int_ref l "plugins/ring/g_ring.ml4" 18 686 706 "plugins/ring/g_ring.ml4" 18 686 737
+)
+type(
+  Quote.ConstrSet.elt list
+)
+ident(
+  int_ref l "plugins/ring/g_ring.ml4" 18 686 706 "plugins/ring/g_ring.ml4" 18 686 720
+)
+"plugins/ring/g_ring.ml4" 18 686 728 "plugins/ring/g_ring.ml4" 18 686 737
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+type(
+  Proof_type.tactic
+)
+"plugins/ring/g_ring.ml4" 18 686 706 "plugins/ring/g_ring.ml4" 18 686 737
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Term.constr list
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Term.constr list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_constr
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Term.constr list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list0
+)
+type(
+  (Term.constr list, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Term.constr list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Term.constr list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 17 667 667 "plugins/ring/g_ring.ml4" 17 667 743
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/ring/g_ring.ml4" 17 667 667 "plugins/ring/g_ring.ml4" 17 667 743
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/ring/g_ring.ml4" 17 667 667 "plugins/ring/g_ring.ml4" 17 667 743
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/ring/g_ring.ml4" 17 667 667 "plugins/ring/g_ring.ml4" 17 667 743
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/ring/g_ring.ml4" 17 667 667 "plugins/ring/g_ring.ml4" 17 667 743
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/ring/g_ring.ml4" 17 667 667 "plugins/ring/g_ring.ml4" 17 667 743
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)
+type(
+  Proof_type.tactic
+)
+type(
+  ?dflt:bool ->
+  string ->
+  Tacexpr.typed_generic_argument list ->
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Refiner.abstract_extended_tactic
+)
+type(
+  Quote.ConstrSet.elt list -> Proof_type.tactic
+)
+ident(
+  def h_ring "plugins/ring/g_ring.ml4" 17 667 667 --
+)
+"plugins/ring/g_ring.ml4" 23 790 794 "plugins/ring/g_ring.ml4" 23 790 816
+type(
+  Topconstr.constr_expr list -> Quote.ConstrSet.t
+)
+ident(
+  def cset_of_constrarg_list "plugins/ring/g_ring.ml4" 26 893 893 --
+)
+"plugins/ring/g_ring.ml4" 23 790 817 "plugins/ring/g_ring.ml4" 23 790 818
+type(
+  Topconstr.constr_expr list
+)
+ident(
+  def l "plugins/ring/g_ring.ml4" 24 821 823 "plugins/ring/g_ring.ml4" 24 821 891
+)
+"plugins/ring/g_ring.ml4" 24 821 823 "plugins/ring/g_ring.ml4" 24 821 838
+type(
+  (Quote.ConstrSet.elt -> Quote.ConstrSet.t -> Quote.ConstrSet.t) ->
+  Quote.ConstrSet.elt list -> Quote.ConstrSet.t -> Quote.ConstrSet.t
+)
+ident(
+  ext_ref List.fold_right
+)
+"plugins/ring/g_ring.ml4" 24 821 839 "plugins/ring/g_ring.ml4" 24 821 852
+type(
+  Quote.ConstrSet.elt -> Quote.ConstrSet.t -> Quote.ConstrSet.t
+)
+ident(
+  ext_ref Quote.ConstrSet.add
+)
+"plugins/ring/g_ring.ml4" 24 821 854 "plugins/ring/g_ring.ml4" 24 821 862
+type(
+  (Topconstr.constr_expr -> Quote.ConstrSet.elt) ->
+  Topconstr.constr_expr list -> Quote.ConstrSet.elt list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/ring/g_ring.ml4" 24 821 863 "plugins/ring/g_ring.ml4" 24 821 872
+type(
+  Topconstr.constr_expr -> Quote.ConstrSet.elt
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 24 821 873 "plugins/ring/g_ring.ml4" 24 821 874
+type(
+  Topconstr.constr_expr list
+)
+ident(
+  int_ref l "plugins/ring/g_ring.ml4" 23 790 817 "plugins/ring/g_ring.ml4" 23 790 818
+)
+"plugins/ring/g_ring.ml4" 24 821 854 "plugins/ring/g_ring.ml4" 24 821 874
+call(
+  stack
+)
+type(
+  Quote.ConstrSet.elt list
+)
+"plugins/ring/g_ring.ml4" 24 821 876 "plugins/ring/g_ring.ml4" 24 821 891
+type(
+  Quote.ConstrSet.t
+)
+ident(
+  ext_ref Quote.ConstrSet.empty
+)
+"plugins/ring/g_ring.ml4" 24 821 823 "plugins/ring/g_ring.ml4" 24 821 891
+call(
+  tail
+)
+type(
+  Quote.ConstrSet.t
+)
+"plugins/ring/g_ring.ml4" 23 790 817 "plugins/ring/g_ring.ml4" 23 790 891
+type(
+  Topconstr.constr_expr list -> Quote.ConstrSet.t
+)
+"plugins/ring/g_ring.ml4" 28 949 959 "plugins/ring/g_ring.ml4" 28 949 968
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 28 949 969 "plugins/ring/g_ring.ml4" 28 949 982
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 28 949 983 "plugins/ring/g_ring.ml4" 28 949 996
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 28 949 997 "plugins/ring/g_ring.ml4" 28 949 1009
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 28 949 1010 "plugins/ring/g_ring.ml4" 28 949 1023
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 29 1024 1034 "plugins/ring/g_ring.ml4" 29 1024 1046
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 29 1024 1047 "plugins/ring/g_ring.ml4" 29 1024 1058
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 29 1024 1059 "plugins/ring/g_ring.ml4" 29 1024 1068
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 29 1024 1073 "plugins/ring/g_ring.ml4" 29 1024 1090
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 30 1097 1104 "plugins/ring/g_ring.ml4" 30 1097 1114
+type(
+  bool ->
+  bool ->
+  bool ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Term.constr option ->
+  Ring.morph option ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Ring.Cmap.key -> Term.constr -> Quote.ConstrSet.t -> unit
+)
+ident(
+  ext_ref Ring.add_theory
+)
+"plugins/ring/g_ring.ml4" 30 1097 1115 "plugins/ring/g_ring.ml4" 30 1097 1119
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 30 1097 1120 "plugins/ring/g_ring.ml4" 30 1097 1125
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 30 1097 1126 "plugins/ring/g_ring.ml4" 30 1097 1131
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 31 1132 1137 "plugins/ring/g_ring.ml4" 31 1132 1146
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 31 1132 1147 "plugins/ring/g_ring.ml4" 31 1132 1148
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref a "plugins/ring/g_ring.ml4" 28 949 925 "plugins/ring/g_ring.ml4" 28 949 1362
+)
+"plugins/ring/g_ring.ml4" 31 1132 1137 "plugins/ring/g_ring.ml4" 31 1132 1148
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 32 1150 1154 "plugins/ring/g_ring.ml4" 32 1150 1158
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 33 1159 1163 "plugins/ring/g_ring.ml4" 33 1159 1167
+type(
+  Term.constr option
+)
+"plugins/ring/g_ring.ml4" 34 1168 1172 "plugins/ring/g_ring.ml4" 34 1168 1176
+type(
+  Ring.morph option
+)
+"plugins/ring/g_ring.ml4" 35 1177 1182 "plugins/ring/g_ring.ml4" 35 1177 1191
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 35 1177 1192 "plugins/ring/g_ring.ml4" 35 1177 1197
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aplus "plugins/ring/g_ring.ml4" 28 949 925 "plugins/ring/g_ring.ml4" 28 949 1362
+)
+"plugins/ring/g_ring.ml4" 35 1177 1182 "plugins/ring/g_ring.ml4" 35 1177 1197
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 36 1199 1204 "plugins/ring/g_ring.ml4" 36 1199 1213
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 36 1199 1214 "plugins/ring/g_ring.ml4" 36 1199 1219
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref amult "plugins/ring/g_ring.ml4" 28 949 925 "plugins/ring/g_ring.ml4" 28 949 1362
+)
+"plugins/ring/g_ring.ml4" 36 1199 1204 "plugins/ring/g_ring.ml4" 36 1199 1219
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 37 1221 1226 "plugins/ring/g_ring.ml4" 37 1221 1235
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 37 1221 1236 "plugins/ring/g_ring.ml4" 37 1221 1240
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aone "plugins/ring/g_ring.ml4" 28 949 925 "plugins/ring/g_ring.ml4" 28 949 1362
+)
+"plugins/ring/g_ring.ml4" 37 1221 1226 "plugins/ring/g_ring.ml4" 37 1221 1240
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 38 1242 1247 "plugins/ring/g_ring.ml4" 38 1242 1256
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 38 1242 1257 "plugins/ring/g_ring.ml4" 38 1242 1262
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref azero "plugins/ring/g_ring.ml4" 28 949 925 "plugins/ring/g_ring.ml4" 28 949 1362
+)
+"plugins/ring/g_ring.ml4" 38 1242 1247 "plugins/ring/g_ring.ml4" 38 1242 1262
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 39 1264 1275 "plugins/ring/g_ring.ml4" 39 1264 1284
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 39 1264 1285 "plugins/ring/g_ring.ml4" 39 1264 1289
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aopp "plugins/ring/g_ring.ml4" 29 1024 925 "plugins/ring/g_ring.ml4" 29 1024 1362
+)
+"plugins/ring/g_ring.ml4" 39 1264 1275 "plugins/ring/g_ring.ml4" 39 1264 1289
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 39 1264 1269 "plugins/ring/g_ring.ml4" 39 1264 1290
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 40 1292 1297 "plugins/ring/g_ring.ml4" 40 1292 1306
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 40 1292 1307 "plugins/ring/g_ring.ml4" 40 1292 1310
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aeq "plugins/ring/g_ring.ml4" 29 1024 925 "plugins/ring/g_ring.ml4" 29 1024 1362
+)
+"plugins/ring/g_ring.ml4" 40 1292 1297 "plugins/ring/g_ring.ml4" 40 1292 1310
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 41 1312 1317 "plugins/ring/g_ring.ml4" 41 1312 1326
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 41 1312 1327 "plugins/ring/g_ring.ml4" 41 1312 1328
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/ring/g_ring.ml4" 29 1024 925 "plugins/ring/g_ring.ml4" 29 1024 1362
+)
+"plugins/ring/g_ring.ml4" 41 1312 1317 "plugins/ring/g_ring.ml4" 41 1312 1328
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 42 1330 1335 "plugins/ring/g_ring.ml4" 42 1330 1357
+type(
+  Topconstr.constr_expr list -> Quote.ConstrSet.t
+)
+ident(
+  int_ref cset_of_constrarg_list "plugins/ring/g_ring.ml4" 23 790 794 "plugins/ring/g_ring.ml4" 23 790 816
+)
+"plugins/ring/g_ring.ml4" 42 1330 1358 "plugins/ring/g_ring.ml4" 42 1330 1359
+type(
+  Topconstr.constr_expr list
+)
+ident(
+  int_ref l "plugins/ring/g_ring.ml4" 29 1024 925 "plugins/ring/g_ring.ml4" 29 1024 1362
+)
+"plugins/ring/g_ring.ml4" 42 1330 1335 "plugins/ring/g_ring.ml4" 42 1330 1359
+call(
+  stack
+)
+type(
+  Quote.ConstrSet.t
+)
+"plugins/ring/g_ring.ml4" 30 1097 1104 "plugins/ring/g_ring.ml4" 30 1097 1360
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 29 1024 925 "plugins/ring/g_ring.ml4" 29 1024 1362
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 28 949 925 "plugins/ring/g_ring.ml4" 28 949 1362
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 29 1024 925 "plugins/ring/g_ring.ml4" 29 1024 1362
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 28 949 925 "plugins/ring/g_ring.ml4" 28 949 1362
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 29 1024 925 "plugins/ring/g_ring.ml4" 29 1024 1362
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 27 923 925 "plugins/ring/g_ring.ml4" 27 923 1362
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 29 1024 925 "plugins/ring/g_ring.ml4" 29 1024 1362
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aopp "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/ring/g_ring.ml4" 28 949 925 "plugins/ring/g_ring.ml4" 28 949 1362
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 29 1024 925 "plugins/ring/g_ring.ml4" 29 1024 1362
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 27 923 925 "plugins/ring/g_ring.ml4" 27 923 1362
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 29 1024 925 "plugins/ring/g_ring.ml4" 29 1024 1362
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aopp "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 28 949 925 "plugins/ring/g_ring.ml4" 28 949 1362
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 45 1397 1406 "plugins/ring/g_ring.ml4" 45 1397 1415
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 45 1397 1416 "plugins/ring/g_ring.ml4" 45 1397 1429
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 45 1397 1430 "plugins/ring/g_ring.ml4" 45 1397 1443
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 45 1397 1444 "plugins/ring/g_ring.ml4" 45 1397 1456
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 45 1397 1457 "plugins/ring/g_ring.ml4" 45 1397 1470
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 46 1471 1481 "plugins/ring/g_ring.ml4" 46 1471 1492
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 46 1471 1493 "plugins/ring/g_ring.ml4" 46 1471 1502
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 46 1471 1507 "plugins/ring/g_ring.ml4" 46 1471 1524
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 47 1531 1538 "plugins/ring/g_ring.ml4" 47 1531 1548
+type(
+  bool ->
+  bool ->
+  bool ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Term.constr option ->
+  Ring.morph option ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Ring.Cmap.key -> Term.constr -> Quote.ConstrSet.t -> unit
+)
+ident(
+  ext_ref Ring.add_theory
+)
+"plugins/ring/g_ring.ml4" 47 1531 1549 "plugins/ring/g_ring.ml4" 47 1531 1554
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 47 1531 1555 "plugins/ring/g_ring.ml4" 47 1531 1560
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 47 1531 1561 "plugins/ring/g_ring.ml4" 47 1531 1566
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 48 1567 1572 "plugins/ring/g_ring.ml4" 48 1567 1581
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 48 1567 1582 "plugins/ring/g_ring.ml4" 48 1567 1583
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref a "plugins/ring/g_ring.ml4" 45 1397 1366 "plugins/ring/g_ring.ml4" 45 1397 1778
+)
+"plugins/ring/g_ring.ml4" 48 1567 1572 "plugins/ring/g_ring.ml4" 48 1567 1583
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 49 1585 1589 "plugins/ring/g_ring.ml4" 49 1585 1593
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 50 1594 1598 "plugins/ring/g_ring.ml4" 50 1594 1602
+type(
+  Term.constr option
+)
+"plugins/ring/g_ring.ml4" 51 1603 1607 "plugins/ring/g_ring.ml4" 51 1603 1611
+type(
+  Ring.morph option
+)
+"plugins/ring/g_ring.ml4" 52 1612 1617 "plugins/ring/g_ring.ml4" 52 1612 1626
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 52 1612 1627 "plugins/ring/g_ring.ml4" 52 1612 1632
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aplus "plugins/ring/g_ring.ml4" 45 1397 1366 "plugins/ring/g_ring.ml4" 45 1397 1778
+)
+"plugins/ring/g_ring.ml4" 52 1612 1617 "plugins/ring/g_ring.ml4" 52 1612 1632
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 53 1634 1639 "plugins/ring/g_ring.ml4" 53 1634 1648
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 53 1634 1649 "plugins/ring/g_ring.ml4" 53 1634 1654
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref amult "plugins/ring/g_ring.ml4" 45 1397 1366 "plugins/ring/g_ring.ml4" 45 1397 1778
+)
+"plugins/ring/g_ring.ml4" 53 1634 1639 "plugins/ring/g_ring.ml4" 53 1634 1654
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 54 1656 1661 "plugins/ring/g_ring.ml4" 54 1656 1670
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 54 1656 1671 "plugins/ring/g_ring.ml4" 54 1656 1675
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aone "plugins/ring/g_ring.ml4" 45 1397 1366 "plugins/ring/g_ring.ml4" 45 1397 1778
+)
+"plugins/ring/g_ring.ml4" 54 1656 1661 "plugins/ring/g_ring.ml4" 54 1656 1675
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 55 1677 1682 "plugins/ring/g_ring.ml4" 55 1677 1691
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 55 1677 1692 "plugins/ring/g_ring.ml4" 55 1677 1697
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref azero "plugins/ring/g_ring.ml4" 45 1397 1366 "plugins/ring/g_ring.ml4" 45 1397 1778
+)
+"plugins/ring/g_ring.ml4" 55 1677 1682 "plugins/ring/g_ring.ml4" 55 1677 1697
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 56 1699 1703 "plugins/ring/g_ring.ml4" 56 1699 1707
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 57 1708 1713 "plugins/ring/g_ring.ml4" 57 1708 1722
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 57 1708 1723 "plugins/ring/g_ring.ml4" 57 1708 1726
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aeq "plugins/ring/g_ring.ml4" 46 1471 1366 "plugins/ring/g_ring.ml4" 46 1471 1778
+)
+"plugins/ring/g_ring.ml4" 57 1708 1713 "plugins/ring/g_ring.ml4" 57 1708 1726
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 58 1728 1733 "plugins/ring/g_ring.ml4" 58 1728 1742
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 58 1728 1743 "plugins/ring/g_ring.ml4" 58 1728 1744
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/ring/g_ring.ml4" 46 1471 1366 "plugins/ring/g_ring.ml4" 46 1471 1778
+)
+"plugins/ring/g_ring.ml4" 58 1728 1733 "plugins/ring/g_ring.ml4" 58 1728 1744
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 59 1746 1751 "plugins/ring/g_ring.ml4" 59 1746 1773
+type(
+  Topconstr.constr_expr list -> Quote.ConstrSet.t
+)
+ident(
+  int_ref cset_of_constrarg_list "plugins/ring/g_ring.ml4" 23 790 794 "plugins/ring/g_ring.ml4" 23 790 816
+)
+"plugins/ring/g_ring.ml4" 59 1746 1774 "plugins/ring/g_ring.ml4" 59 1746 1775
+type(
+  Topconstr.constr_expr list
+)
+ident(
+  int_ref l "plugins/ring/g_ring.ml4" 46 1471 1366 "plugins/ring/g_ring.ml4" 46 1471 1778
+)
+"plugins/ring/g_ring.ml4" 59 1746 1751 "plugins/ring/g_ring.ml4" 59 1746 1775
+call(
+  stack
+)
+type(
+  Quote.ConstrSet.t
+)
+"plugins/ring/g_ring.ml4" 47 1531 1538 "plugins/ring/g_ring.ml4" 47 1531 1776
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 46 1471 1366 "plugins/ring/g_ring.ml4" 46 1471 1778
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 45 1397 1366 "plugins/ring/g_ring.ml4" 45 1397 1778
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 46 1471 1366 "plugins/ring/g_ring.ml4" 46 1471 1778
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 45 1397 1366 "plugins/ring/g_ring.ml4" 45 1397 1778
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 46 1471 1366 "plugins/ring/g_ring.ml4" 46 1471 1778
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 44 1364 1366 "plugins/ring/g_ring.ml4" 44 1364 1778
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 46 1471 1366 "plugins/ring/g_ring.ml4" 46 1471 1778
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/ring/g_ring.ml4" 45 1397 1366 "plugins/ring/g_ring.ml4" 45 1397 1778
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 46 1471 1366 "plugins/ring/g_ring.ml4" 46 1471 1778
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 44 1364 1366 "plugins/ring/g_ring.ml4" 44 1364 1778
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 46 1471 1366 "plugins/ring/g_ring.ml4" 46 1471 1778
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 45 1397 1366 "plugins/ring/g_ring.ml4" 45 1397 1778
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 62 1817 1824 "plugins/ring/g_ring.ml4" 62 1817 1833
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 62 1817 1834 "plugins/ring/g_ring.ml4" 62 1817 1847
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 62 1817 1848 "plugins/ring/g_ring.ml4" 62 1817 1861
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 62 1817 1862 "plugins/ring/g_ring.ml4" 62 1817 1874
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 63 1875 1885 "plugins/ring/g_ring.ml4" 63 1875 1898
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 63 1875 1899 "plugins/ring/g_ring.ml4" 63 1875 1911
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 63 1875 1912 "plugins/ring/g_ring.ml4" 63 1875 1923
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 63 1875 1924 "plugins/ring/g_ring.ml4" 63 1875 1933
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 64 1936 1943 "plugins/ring/g_ring.ml4" 64 1936 1953
+type(
+  bool ->
+  bool ->
+  bool ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Term.constr option ->
+  Ring.morph option ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Ring.Cmap.key -> Term.constr -> Quote.ConstrSet.t -> unit
+)
+ident(
+  ext_ref Ring.add_theory
+)
+"plugins/ring/g_ring.ml4" 64 1936 1954 "plugins/ring/g_ring.ml4" 64 1936 1958
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 64 1936 1959 "plugins/ring/g_ring.ml4" 64 1936 1963
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 64 1936 1964 "plugins/ring/g_ring.ml4" 64 1936 1969
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 65 1970 1975 "plugins/ring/g_ring.ml4" 65 1970 1984
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 65 1970 1985 "plugins/ring/g_ring.ml4" 65 1970 1986
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref a "plugins/ring/g_ring.ml4" 62 1817 1782 "plugins/ring/g_ring.ml4" 62 1817 2189
+)
+"plugins/ring/g_ring.ml4" 65 1970 1975 "plugins/ring/g_ring.ml4" 65 1970 1986
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 66 1988 1992 "plugins/ring/g_ring.ml4" 66 1988 1996
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 67 1997 2001 "plugins/ring/g_ring.ml4" 67 1997 2005
+type(
+  Term.constr option
+)
+"plugins/ring/g_ring.ml4" 68 2006 2010 "plugins/ring/g_ring.ml4" 68 2006 2014
+type(
+  Ring.morph option
+)
+"plugins/ring/g_ring.ml4" 69 2015 2020 "plugins/ring/g_ring.ml4" 69 2015 2029
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 69 2015 2030 "plugins/ring/g_ring.ml4" 69 2015 2035
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aplus "plugins/ring/g_ring.ml4" 62 1817 1782 "plugins/ring/g_ring.ml4" 62 1817 2189
+)
+"plugins/ring/g_ring.ml4" 69 2015 2020 "plugins/ring/g_ring.ml4" 69 2015 2035
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 70 2037 2042 "plugins/ring/g_ring.ml4" 70 2037 2051
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 70 2037 2052 "plugins/ring/g_ring.ml4" 70 2037 2057
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref amult "plugins/ring/g_ring.ml4" 62 1817 1782 "plugins/ring/g_ring.ml4" 62 1817 2189
+)
+"plugins/ring/g_ring.ml4" 70 2037 2042 "plugins/ring/g_ring.ml4" 70 2037 2057
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 71 2059 2064 "plugins/ring/g_ring.ml4" 71 2059 2073
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 71 2059 2074 "plugins/ring/g_ring.ml4" 71 2059 2078
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aone "plugins/ring/g_ring.ml4" 62 1817 1782 "plugins/ring/g_ring.ml4" 62 1817 2189
+)
+"plugins/ring/g_ring.ml4" 71 2059 2064 "plugins/ring/g_ring.ml4" 71 2059 2078
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 72 2080 2085 "plugins/ring/g_ring.ml4" 72 2080 2094
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 72 2080 2095 "plugins/ring/g_ring.ml4" 72 2080 2100
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref azero "plugins/ring/g_ring.ml4" 63 1875 1782 "plugins/ring/g_ring.ml4" 63 1875 2189
+)
+"plugins/ring/g_ring.ml4" 72 2080 2085 "plugins/ring/g_ring.ml4" 72 2080 2100
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 73 2102 2113 "plugins/ring/g_ring.ml4" 73 2102 2122
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 73 2102 2123 "plugins/ring/g_ring.ml4" 73 2102 2127
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aopp "plugins/ring/g_ring.ml4" 63 1875 1782 "plugins/ring/g_ring.ml4" 63 1875 2189
+)
+"plugins/ring/g_ring.ml4" 73 2102 2113 "plugins/ring/g_ring.ml4" 73 2102 2127
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 73 2102 2107 "plugins/ring/g_ring.ml4" 73 2102 2128
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 74 2130 2135 "plugins/ring/g_ring.ml4" 74 2130 2144
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 74 2130 2145 "plugins/ring/g_ring.ml4" 74 2130 2148
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aeq "plugins/ring/g_ring.ml4" 63 1875 1782 "plugins/ring/g_ring.ml4" 63 1875 2189
+)
+"plugins/ring/g_ring.ml4" 74 2130 2135 "plugins/ring/g_ring.ml4" 74 2130 2148
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 75 2150 2155 "plugins/ring/g_ring.ml4" 75 2150 2164
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 75 2150 2165 "plugins/ring/g_ring.ml4" 75 2150 2166
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/ring/g_ring.ml4" 63 1875 1782 "plugins/ring/g_ring.ml4" 63 1875 2189
+)
+"plugins/ring/g_ring.ml4" 75 2150 2155 "plugins/ring/g_ring.ml4" 75 2150 2166
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 76 2168 2172 "plugins/ring/g_ring.ml4" 76 2168 2187
+type(
+  Quote.ConstrSet.t
+)
+ident(
+  ext_ref Quote.ConstrSet.empty
+)
+"plugins/ring/g_ring.ml4" 64 1936 1943 "plugins/ring/g_ring.ml4" 64 1936 2187
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 63 1875 1782 "plugins/ring/g_ring.ml4" 63 1875 2189
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 62 1817 1782 "plugins/ring/g_ring.ml4" 62 1817 2189
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 63 1875 1782 "plugins/ring/g_ring.ml4" 63 1875 2189
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 62 1817 1782 "plugins/ring/g_ring.ml4" 62 1817 2189
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 63 1875 1782 "plugins/ring/g_ring.ml4" 63 1875 2189
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 61 1780 1782 "plugins/ring/g_ring.ml4" 61 1780 2189
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 63 1875 1782 "plugins/ring/g_ring.ml4" 63 1875 2189
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aopp "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/ring/g_ring.ml4" 62 1817 1782 "plugins/ring/g_ring.ml4" 62 1817 2189
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 63 1875 1782 "plugins/ring/g_ring.ml4" 63 1875 2189
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 61 1780 1782 "plugins/ring/g_ring.ml4" 61 1780 2189
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 63 1875 1782 "plugins/ring/g_ring.ml4" 63 1875 2189
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aopp "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 62 1817 1782 "plugins/ring/g_ring.ml4" 62 1817 2189
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 79 2235 2245 "plugins/ring/g_ring.ml4" 79 2235 2254
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 79 2235 2255 "plugins/ring/g_ring.ml4" 79 2235 2268
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 79 2235 2269 "plugins/ring/g_ring.ml4" 79 2235 2282
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 79 2235 2283 "plugins/ring/g_ring.ml4" 79 2235 2295
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 80 2296 2306 "plugins/ring/g_ring.ml4" 80 2296 2319
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 80 2296 2320 "plugins/ring/g_ring.ml4" 80 2296 2331
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 80 2296 2332 "plugins/ring/g_ring.ml4" 80 2296 2341
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 81 2344 2351 "plugins/ring/g_ring.ml4" 81 2344 2361
+type(
+  bool ->
+  bool ->
+  bool ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Term.constr option ->
+  Ring.morph option ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Ring.Cmap.key -> Term.constr -> Quote.ConstrSet.t -> unit
+)
+ident(
+  ext_ref Ring.add_theory
+)
+"plugins/ring/g_ring.ml4" 81 2344 2362 "plugins/ring/g_ring.ml4" 81 2344 2367
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 81 2344 2368 "plugins/ring/g_ring.ml4" 81 2344 2372
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 81 2344 2373 "plugins/ring/g_ring.ml4" 81 2344 2378
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 82 2379 2384 "plugins/ring/g_ring.ml4" 82 2379 2393
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 82 2379 2394 "plugins/ring/g_ring.ml4" 82 2379 2395
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref a "plugins/ring/g_ring.ml4" 79 2235 2193 "plugins/ring/g_ring.ml4" 79 2235 2579
+)
+"plugins/ring/g_ring.ml4" 82 2379 2384 "plugins/ring/g_ring.ml4" 82 2379 2395
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 83 2397 2401 "plugins/ring/g_ring.ml4" 83 2397 2405
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 84 2406 2410 "plugins/ring/g_ring.ml4" 84 2406 2414
+type(
+  Term.constr option
+)
+"plugins/ring/g_ring.ml4" 85 2415 2419 "plugins/ring/g_ring.ml4" 85 2415 2423
+type(
+  Ring.morph option
+)
+"plugins/ring/g_ring.ml4" 86 2424 2429 "plugins/ring/g_ring.ml4" 86 2424 2438
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 86 2424 2439 "plugins/ring/g_ring.ml4" 86 2424 2444
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aplus "plugins/ring/g_ring.ml4" 79 2235 2193 "plugins/ring/g_ring.ml4" 79 2235 2579
+)
+"plugins/ring/g_ring.ml4" 86 2424 2429 "plugins/ring/g_ring.ml4" 86 2424 2444
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 87 2446 2451 "plugins/ring/g_ring.ml4" 87 2446 2460
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 87 2446 2461 "plugins/ring/g_ring.ml4" 87 2446 2466
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref amult "plugins/ring/g_ring.ml4" 79 2235 2193 "plugins/ring/g_ring.ml4" 79 2235 2579
+)
+"plugins/ring/g_ring.ml4" 87 2446 2451 "plugins/ring/g_ring.ml4" 87 2446 2466
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 88 2468 2473 "plugins/ring/g_ring.ml4" 88 2468 2482
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 88 2468 2483 "plugins/ring/g_ring.ml4" 88 2468 2487
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aone "plugins/ring/g_ring.ml4" 79 2235 2193 "plugins/ring/g_ring.ml4" 79 2235 2579
+)
+"plugins/ring/g_ring.ml4" 88 2468 2473 "plugins/ring/g_ring.ml4" 88 2468 2487
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 89 2489 2494 "plugins/ring/g_ring.ml4" 89 2489 2503
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 89 2489 2504 "plugins/ring/g_ring.ml4" 89 2489 2509
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref azero "plugins/ring/g_ring.ml4" 80 2296 2193 "plugins/ring/g_ring.ml4" 80 2296 2579
+)
+"plugins/ring/g_ring.ml4" 89 2489 2494 "plugins/ring/g_ring.ml4" 89 2489 2509
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 90 2511 2515 "plugins/ring/g_ring.ml4" 90 2511 2519
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 91 2520 2525 "plugins/ring/g_ring.ml4" 91 2520 2534
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 91 2520 2535 "plugins/ring/g_ring.ml4" 91 2520 2538
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aeq "plugins/ring/g_ring.ml4" 80 2296 2193 "plugins/ring/g_ring.ml4" 80 2296 2579
+)
+"plugins/ring/g_ring.ml4" 91 2520 2525 "plugins/ring/g_ring.ml4" 91 2520 2538
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 92 2540 2545 "plugins/ring/g_ring.ml4" 92 2540 2554
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 92 2540 2555 "plugins/ring/g_ring.ml4" 92 2540 2556
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/ring/g_ring.ml4" 80 2296 2193 "plugins/ring/g_ring.ml4" 80 2296 2579
+)
+"plugins/ring/g_ring.ml4" 92 2540 2545 "plugins/ring/g_ring.ml4" 92 2540 2556
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 93 2558 2562 "plugins/ring/g_ring.ml4" 93 2558 2577
+type(
+  Quote.ConstrSet.t
+)
+ident(
+  ext_ref Quote.ConstrSet.empty
+)
+"plugins/ring/g_ring.ml4" 81 2344 2351 "plugins/ring/g_ring.ml4" 81 2344 2577
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 80 2296 2193 "plugins/ring/g_ring.ml4" 80 2296 2579
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 79 2235 2193 "plugins/ring/g_ring.ml4" 79 2235 2579
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 80 2296 2193 "plugins/ring/g_ring.ml4" 80 2296 2579
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 79 2235 2193 "plugins/ring/g_ring.ml4" 79 2235 2579
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 80 2296 2193 "plugins/ring/g_ring.ml4" 80 2296 2579
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 78 2191 2193 "plugins/ring/g_ring.ml4" 78 2191 2579
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 80 2296 2193 "plugins/ring/g_ring.ml4" 80 2296 2579
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/ring/g_ring.ml4" 79 2235 2193 "plugins/ring/g_ring.ml4" 79 2235 2579
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 80 2296 2193 "plugins/ring/g_ring.ml4" 80 2296 2579
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 78 2191 2193 "plugins/ring/g_ring.ml4" 78 2191 2579
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 80 2296 2193 "plugins/ring/g_ring.ml4" 80 2296 2579
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 79 2235 2193 "plugins/ring/g_ring.ml4" 79 2235 2579
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 96 2616 2625 "plugins/ring/g_ring.ml4" 96 2616 2634
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 96 2616 2635 "plugins/ring/g_ring.ml4" 96 2616 2649
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 96 2616 2650 "plugins/ring/g_ring.ml4" 96 2616 2664
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 96 2616 2665 "plugins/ring/g_ring.ml4" 96 2616 2678
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 96 2616 2679 "plugins/ring/g_ring.ml4" 96 2616 2692
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 97 2693 2696 "plugins/ring/g_ring.ml4" 97 2693 2708
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 97 2693 2709 "plugins/ring/g_ring.ml4" 97 2693 2722
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 97 2693 2723 "plugins/ring/g_ring.ml4" 97 2693 2735
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 97 2693 2736 "plugins/ring/g_ring.ml4" 97 2693 2747
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 97 2693 2748 "plugins/ring/g_ring.ml4" 97 2693 2758
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 98 2759 2762 "plugins/ring/g_ring.ml4" 98 2759 2772
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 98 2759 2773 "plugins/ring/g_ring.ml4" 98 2759 2783
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 98 2759 2784 "plugins/ring/g_ring.ml4" 98 2759 2793
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 98 2759 2798 "plugins/ring/g_ring.ml4" 98 2759 2815
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 99 2822 2829 "plugins/ring/g_ring.ml4" 99 2822 2839
+type(
+  bool ->
+  bool ->
+  bool ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Term.constr option ->
+  Ring.morph option ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Ring.Cmap.key -> Term.constr -> Quote.ConstrSet.t -> unit
+)
+ident(
+  ext_ref Ring.add_theory
+)
+"plugins/ring/g_ring.ml4" 99 2822 2840 "plugins/ring/g_ring.ml4" 99 2822 2844
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 99 2822 2845 "plugins/ring/g_ring.ml4" 99 2822 2850
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 99 2822 2851 "plugins/ring/g_ring.ml4" 99 2822 2855
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 100 2856 2861 "plugins/ring/g_ring.ml4" 100 2856 2870
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 100 2856 2871 "plugins/ring/g_ring.ml4" 100 2856 2872
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref a "plugins/ring/g_ring.ml4" 96 2616 2583 "plugins/ring/g_ring.ml4" 96 2616 3230
+)
+"plugins/ring/g_ring.ml4" 100 2856 2861 "plugins/ring/g_ring.ml4" 100 2856 2872
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 101 2874 2885 "plugins/ring/g_ring.ml4" 101 2874 2894
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 101 2874 2895 "plugins/ring/g_ring.ml4" 101 2874 2901
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aequiv "plugins/ring/g_ring.ml4" 96 2616 2583 "plugins/ring/g_ring.ml4" 96 2616 3230
+)
+"plugins/ring/g_ring.ml4" 101 2874 2885 "plugins/ring/g_ring.ml4" 101 2874 2901
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 101 2874 2879 "plugins/ring/g_ring.ml4" 101 2874 2902
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 102 2904 2915 "plugins/ring/g_ring.ml4" 102 2904 2924
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 102 2904 2925 "plugins/ring/g_ring.ml4" 102 2904 2931
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref asetth "plugins/ring/g_ring.ml4" 96 2616 2583 "plugins/ring/g_ring.ml4" 96 2616 3230
+)
+"plugins/ring/g_ring.ml4" 102 2904 2915 "plugins/ring/g_ring.ml4" 102 2904 2931
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 102 2904 2909 "plugins/ring/g_ring.ml4" 102 2904 2932
+type(
+  Term.constr option
+)
+"plugins/ring/g_ring.ml4" 104 2946 2962 "plugins/ring/g_ring.ml4" 104 2946 2971
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 104 2946 2972 "plugins/ring/g_ring.ml4" 104 2946 2974
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref pm "plugins/ring/g_ring.ml4" 97 2693 2583 "plugins/ring/g_ring.ml4" 97 2693 3230
+)
+"plugins/ring/g_ring.ml4" 104 2946 2962 "plugins/ring/g_ring.ml4" 104 2946 2974
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 105 2977 2993 "plugins/ring/g_ring.ml4" 105 2977 3002
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 105 2977 3003 "plugins/ring/g_ring.ml4" 105 2977 3005
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref mm "plugins/ring/g_ring.ml4" 98 2759 2583 "plugins/ring/g_ring.ml4" 98 2759 3230
+)
+"plugins/ring/g_ring.ml4" 105 2977 2993 "plugins/ring/g_ring.ml4" 105 2977 3005
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 106 3008 3028 "plugins/ring/g_ring.ml4" 106 3008 3037
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 106 3008 3038 "plugins/ring/g_ring.ml4" 106 3008 3040
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref om "plugins/ring/g_ring.ml4" 98 2759 2583 "plugins/ring/g_ring.ml4" 98 2759 3230
+)
+"plugins/ring/g_ring.ml4" 106 3008 3028 "plugins/ring/g_ring.ml4" 106 3008 3040
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 106 3008 3022 "plugins/ring/g_ring.ml4" 106 3008 3041
+type(
+  Term.constr option
+)
+"plugins/ring/g_ring.ml4" 103 2934 2944 "plugins/ring/g_ring.ml4" 103 2934 3043
+type(
+  Ring.morph
+)
+"plugins/ring/g_ring.ml4" 103 2934 2939 "plugins/ring/g_ring.ml4" 103 2934 3043
+type(
+  Ring.morph option
+)
+"plugins/ring/g_ring.ml4" 107 3045 3050 "plugins/ring/g_ring.ml4" 107 3045 3059
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 107 3045 3060 "plugins/ring/g_ring.ml4" 107 3045 3065
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aplus "plugins/ring/g_ring.ml4" 96 2616 2583 "plugins/ring/g_ring.ml4" 96 2616 3230
+)
+"plugins/ring/g_ring.ml4" 107 3045 3050 "plugins/ring/g_ring.ml4" 107 3045 3065
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 108 3067 3072 "plugins/ring/g_ring.ml4" 108 3067 3081
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 108 3067 3082 "plugins/ring/g_ring.ml4" 108 3067 3087
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref amult "plugins/ring/g_ring.ml4" 96 2616 2583 "plugins/ring/g_ring.ml4" 96 2616 3230
+)
+"plugins/ring/g_ring.ml4" 108 3067 3072 "plugins/ring/g_ring.ml4" 108 3067 3087
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 109 3089 3094 "plugins/ring/g_ring.ml4" 109 3089 3103
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 109 3089 3104 "plugins/ring/g_ring.ml4" 109 3089 3108
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aone "plugins/ring/g_ring.ml4" 97 2693 2583 "plugins/ring/g_ring.ml4" 97 2693 3230
+)
+"plugins/ring/g_ring.ml4" 109 3089 3094 "plugins/ring/g_ring.ml4" 109 3089 3108
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 110 3110 3115 "plugins/ring/g_ring.ml4" 110 3110 3124
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 110 3110 3125 "plugins/ring/g_ring.ml4" 110 3110 3130
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref azero "plugins/ring/g_ring.ml4" 97 2693 2583 "plugins/ring/g_ring.ml4" 97 2693 3230
+)
+"plugins/ring/g_ring.ml4" 110 3110 3115 "plugins/ring/g_ring.ml4" 110 3110 3130
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 111 3132 3143 "plugins/ring/g_ring.ml4" 111 3132 3152
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 111 3132 3153 "plugins/ring/g_ring.ml4" 111 3132 3157
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aopp "plugins/ring/g_ring.ml4" 97 2693 2583 "plugins/ring/g_ring.ml4" 97 2693 3230
+)
+"plugins/ring/g_ring.ml4" 111 3132 3143 "plugins/ring/g_ring.ml4" 111 3132 3157
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 111 3132 3137 "plugins/ring/g_ring.ml4" 111 3132 3158
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 112 3160 3165 "plugins/ring/g_ring.ml4" 112 3160 3174
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 112 3160 3175 "plugins/ring/g_ring.ml4" 112 3160 3178
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aeq "plugins/ring/g_ring.ml4" 97 2693 2583 "plugins/ring/g_ring.ml4" 97 2693 3230
+)
+"plugins/ring/g_ring.ml4" 112 3160 3165 "plugins/ring/g_ring.ml4" 112 3160 3178
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 113 3180 3185 "plugins/ring/g_ring.ml4" 113 3180 3194
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 113 3180 3195 "plugins/ring/g_ring.ml4" 113 3180 3196
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/ring/g_ring.ml4" 98 2759 2583 "plugins/ring/g_ring.ml4" 98 2759 3230
+)
+"plugins/ring/g_ring.ml4" 113 3180 3185 "plugins/ring/g_ring.ml4" 113 3180 3196
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 114 3198 3203 "plugins/ring/g_ring.ml4" 114 3198 3225
+type(
+  Topconstr.constr_expr list -> Quote.ConstrSet.t
+)
+ident(
+  int_ref cset_of_constrarg_list "plugins/ring/g_ring.ml4" 23 790 794 "plugins/ring/g_ring.ml4" 23 790 816
+)
+"plugins/ring/g_ring.ml4" 114 3198 3226 "plugins/ring/g_ring.ml4" 114 3198 3227
+type(
+  Topconstr.constr_expr list
+)
+ident(
+  int_ref l "plugins/ring/g_ring.ml4" 98 2759 2583 "plugins/ring/g_ring.ml4" 98 2759 3230
+)
+"plugins/ring/g_ring.ml4" 114 3198 3203 "plugins/ring/g_ring.ml4" 114 3198 3227
+call(
+  stack
+)
+type(
+  Quote.ConstrSet.t
+)
+"plugins/ring/g_ring.ml4" 99 2822 2829 "plugins/ring/g_ring.ml4" 99 2822 3228
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 98 2759 2583 "plugins/ring/g_ring.ml4" 98 2759 3230
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 97 2693 2583 "plugins/ring/g_ring.ml4" 97 2693 3230
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 96 2616 2583 "plugins/ring/g_ring.ml4" 96 2616 3230
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 98 2759 2583 "plugins/ring/g_ring.ml4" 98 2759 3230
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 97 2693 2583 "plugins/ring/g_ring.ml4" 97 2693 3230
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 96 2616 2583 "plugins/ring/g_ring.ml4" 96 2616 3230
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 97 2693 2583 "plugins/ring/g_ring.ml4" 97 2693 3230
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 98 2759 2583 "plugins/ring/g_ring.ml4" 98 2759 3230
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 95 2581 2583 "plugins/ring/g_ring.ml4" 95 2581 3230
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 98 2759 2583 "plugins/ring/g_ring.ml4" 98 2759 3230
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref om "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref mm "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/ring/g_ring.ml4" 97 2693 2583 "plugins/ring/g_ring.ml4" 97 2693 3230
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref pm "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aopp "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/ring/g_ring.ml4" 96 2616 2583 "plugins/ring/g_ring.ml4" 96 2616 3230
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref asetth "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aequiv "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 97 2693 2583 "plugins/ring/g_ring.ml4" 97 2693 3230
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 98 2759 2583 "plugins/ring/g_ring.ml4" 98 2759 3230
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 95 2581 2583 "plugins/ring/g_ring.ml4" 95 2581 3230
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 98 2759 2583 "plugins/ring/g_ring.ml4" 98 2759 3230
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref om "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref mm "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 97 2693 2583 "plugins/ring/g_ring.ml4" 97 2693 3230
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref pm "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aopp "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 96 2616 2583 "plugins/ring/g_ring.ml4" 96 2616 3230
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref asetth "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aequiv "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 117 3274 3284 "plugins/ring/g_ring.ml4" 117 3274 3293
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 117 3274 3294 "plugins/ring/g_ring.ml4" 117 3274 3308
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 117 3274 3309 "plugins/ring/g_ring.ml4" 117 3274 3323
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 117 3274 3324 "plugins/ring/g_ring.ml4" 117 3274 3337
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 118 3338 3341 "plugins/ring/g_ring.ml4" 118 3338 3354
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 118 3338 3355 "plugins/ring/g_ring.ml4" 118 3338 3367
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 118 3338 3368 "plugins/ring/g_ring.ml4" 118 3338 3381
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 118 3338 3382 "plugins/ring/g_ring.ml4" 118 3338 3393
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 119 3394 3404 "plugins/ring/g_ring.ml4" 119 3394 3414
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 119 3394 3415 "plugins/ring/g_ring.ml4" 119 3394 3425
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 119 3394 3426 "plugins/ring/g_ring.ml4" 119 3394 3435
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 119 3394 3440 "plugins/ring/g_ring.ml4" 119 3394 3457
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/ring/g_ring.ml4" 120 3464 3471 "plugins/ring/g_ring.ml4" 120 3464 3481
+type(
+  bool ->
+  bool ->
+  bool ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Term.constr option ->
+  Ring.morph option ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Ring.Cmap.key -> Term.constr -> Quote.ConstrSet.t -> unit
+)
+ident(
+  ext_ref Ring.add_theory
+)
+"plugins/ring/g_ring.ml4" 120 3464 3482 "plugins/ring/g_ring.ml4" 120 3464 3487
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 120 3464 3488 "plugins/ring/g_ring.ml4" 120 3464 3493
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 120 3464 3494 "plugins/ring/g_ring.ml4" 120 3464 3498
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 121 3499 3504 "plugins/ring/g_ring.ml4" 121 3499 3513
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 121 3499 3514 "plugins/ring/g_ring.ml4" 121 3499 3515
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref a "plugins/ring/g_ring.ml4" 117 3274 3234 "plugins/ring/g_ring.ml4" 117 3274 3839
+)
+"plugins/ring/g_ring.ml4" 121 3499 3504 "plugins/ring/g_ring.ml4" 121 3499 3515
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 122 3517 3528 "plugins/ring/g_ring.ml4" 122 3517 3537
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 122 3517 3538 "plugins/ring/g_ring.ml4" 122 3517 3544
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aequiv "plugins/ring/g_ring.ml4" 117 3274 3234 "plugins/ring/g_ring.ml4" 117 3274 3839
+)
+"plugins/ring/g_ring.ml4" 122 3517 3528 "plugins/ring/g_ring.ml4" 122 3517 3544
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 122 3517 3522 "plugins/ring/g_ring.ml4" 122 3517 3545
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 123 3547 3558 "plugins/ring/g_ring.ml4" 123 3547 3567
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 123 3547 3568 "plugins/ring/g_ring.ml4" 123 3547 3574
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref asetth "plugins/ring/g_ring.ml4" 117 3274 3234 "plugins/ring/g_ring.ml4" 117 3274 3839
+)
+"plugins/ring/g_ring.ml4" 123 3547 3558 "plugins/ring/g_ring.ml4" 123 3547 3574
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 123 3547 3552 "plugins/ring/g_ring.ml4" 123 3547 3575
+type(
+  Term.constr option
+)
+"plugins/ring/g_ring.ml4" 125 3589 3605 "plugins/ring/g_ring.ml4" 125 3589 3614
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 125 3589 3615 "plugins/ring/g_ring.ml4" 125 3589 3617
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref pm "plugins/ring/g_ring.ml4" 119 3394 3234 "plugins/ring/g_ring.ml4" 119 3394 3839
+)
+"plugins/ring/g_ring.ml4" 125 3589 3605 "plugins/ring/g_ring.ml4" 125 3589 3617
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 126 3620 3636 "plugins/ring/g_ring.ml4" 126 3620 3645
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 126 3620 3646 "plugins/ring/g_ring.ml4" 126 3620 3648
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref mm "plugins/ring/g_ring.ml4" 119 3394 3234 "plugins/ring/g_ring.ml4" 119 3394 3839
+)
+"plugins/ring/g_ring.ml4" 126 3620 3636 "plugins/ring/g_ring.ml4" 126 3620 3648
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 127 3651 3665 "plugins/ring/g_ring.ml4" 127 3651 3669
+type(
+  Term.constr option
+)
+"plugins/ring/g_ring.ml4" 124 3577 3587 "plugins/ring/g_ring.ml4" 124 3577 3671
+type(
+  Ring.morph
+)
+"plugins/ring/g_ring.ml4" 124 3577 3582 "plugins/ring/g_ring.ml4" 124 3577 3671
+type(
+  Ring.morph option
+)
+"plugins/ring/g_ring.ml4" 128 3673 3678 "plugins/ring/g_ring.ml4" 128 3673 3687
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 128 3673 3688 "plugins/ring/g_ring.ml4" 128 3673 3693
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aplus "plugins/ring/g_ring.ml4" 117 3274 3234 "plugins/ring/g_ring.ml4" 117 3274 3839
+)
+"plugins/ring/g_ring.ml4" 128 3673 3678 "plugins/ring/g_ring.ml4" 128 3673 3693
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 129 3695 3700 "plugins/ring/g_ring.ml4" 129 3695 3709
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 129 3695 3710 "plugins/ring/g_ring.ml4" 129 3695 3715
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref amult "plugins/ring/g_ring.ml4" 118 3338 3234 "plugins/ring/g_ring.ml4" 118 3338 3839
+)
+"plugins/ring/g_ring.ml4" 129 3695 3700 "plugins/ring/g_ring.ml4" 129 3695 3715
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 130 3717 3722 "plugins/ring/g_ring.ml4" 130 3717 3731
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 130 3717 3732 "plugins/ring/g_ring.ml4" 130 3717 3736
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aone "plugins/ring/g_ring.ml4" 118 3338 3234 "plugins/ring/g_ring.ml4" 118 3338 3839
+)
+"plugins/ring/g_ring.ml4" 130 3717 3722 "plugins/ring/g_ring.ml4" 130 3717 3736
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 131 3738 3743 "plugins/ring/g_ring.ml4" 131 3738 3752
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 131 3738 3753 "plugins/ring/g_ring.ml4" 131 3738 3758
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref azero "plugins/ring/g_ring.ml4" 118 3338 3234 "plugins/ring/g_ring.ml4" 118 3338 3839
+)
+"plugins/ring/g_ring.ml4" 131 3738 3743 "plugins/ring/g_ring.ml4" 131 3738 3758
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 132 3760 3764 "plugins/ring/g_ring.ml4" 132 3760 3768
+type(
+  Ring.Cmap.key option
+)
+"plugins/ring/g_ring.ml4" 133 3769 3774 "plugins/ring/g_ring.ml4" 133 3769 3783
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 133 3769 3784 "plugins/ring/g_ring.ml4" 133 3769 3787
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aeq "plugins/ring/g_ring.ml4" 118 3338 3234 "plugins/ring/g_ring.ml4" 118 3338 3839
+)
+"plugins/ring/g_ring.ml4" 133 3769 3774 "plugins/ring/g_ring.ml4" 133 3769 3787
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/ring/g_ring.ml4" 134 3789 3794 "plugins/ring/g_ring.ml4" 134 3789 3803
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Ring.constr_of
+)
+"plugins/ring/g_ring.ml4" 134 3789 3804 "plugins/ring/g_ring.ml4" 134 3789 3805
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/ring/g_ring.ml4" 119 3394 3234 "plugins/ring/g_ring.ml4" 119 3394 3839
+)
+"plugins/ring/g_ring.ml4" 134 3789 3794 "plugins/ring/g_ring.ml4" 134 3789 3805
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/ring/g_ring.ml4" 135 3807 3812 "plugins/ring/g_ring.ml4" 135 3807 3834
+type(
+  Topconstr.constr_expr list -> Quote.ConstrSet.t
+)
+ident(
+  int_ref cset_of_constrarg_list "plugins/ring/g_ring.ml4" 23 790 794 "plugins/ring/g_ring.ml4" 23 790 816
+)
+"plugins/ring/g_ring.ml4" 135 3807 3835 "plugins/ring/g_ring.ml4" 135 3807 3836
+type(
+  Topconstr.constr_expr list
+)
+ident(
+  int_ref l "plugins/ring/g_ring.ml4" 119 3394 3234 "plugins/ring/g_ring.ml4" 119 3394 3839
+)
+"plugins/ring/g_ring.ml4" 135 3807 3812 "plugins/ring/g_ring.ml4" 135 3807 3836
+call(
+  stack
+)
+type(
+  Quote.ConstrSet.t
+)
+"plugins/ring/g_ring.ml4" 120 3464 3471 "plugins/ring/g_ring.ml4" 120 3464 3837
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 119 3394 3234 "plugins/ring/g_ring.ml4" 119 3394 3839
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 118 3338 3234 "plugins/ring/g_ring.ml4" 118 3338 3839
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 117 3274 3234 "plugins/ring/g_ring.ml4" 117 3274 3839
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 119 3394 3234 "plugins/ring/g_ring.ml4" 119 3394 3839
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 118 3338 3234 "plugins/ring/g_ring.ml4" 118 3338 3839
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/ring/g_ring.ml4" 117 3274 3234 "plugins/ring/g_ring.ml4" 117 3274 3839
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 118 3338 3234 "plugins/ring/g_ring.ml4" 118 3338 3839
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 119 3394 3234 "plugins/ring/g_ring.ml4" 119 3394 3839
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/ring/g_ring.ml4" 116 3232 3234 "plugins/ring/g_ring.ml4" 116 3232 3839
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+"plugins/ring/g_ring.ml4" 119 3394 3234 "plugins/ring/g_ring.ml4" 119 3394 3839
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Topconstr.constr_expr list, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref mm "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref pm "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/ring/g_ring.ml4" 118 3338 3234 "plugins/ring/g_ring.ml4" 118 3338 3839
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/ring/g_ring.ml4" 117 3274 3234 "plugins/ring/g_ring.ml4" 117 3274 3839
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref asetth "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aequiv "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 118 3338 3234 "plugins/ring/g_ring.ml4" 118 3338 3839
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 119 3394 3234 "plugins/ring/g_ring.ml4" 119 3394 3839
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 116 3232 3234 "plugins/ring/g_ring.ml4" 116 3232 3839
+type(
+  bool
+)
+"plugins/ring/g_ring.ml4" 119 3394 3234 "plugins/ring/g_ring.ml4" 119 3394 3839
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref mm "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref pm "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 118 3338 3234 "plugins/ring/g_ring.ml4" 118 3338 3839
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 117 3274 3234 "plugins/ring/g_ring.ml4" 117 3274 3839
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref asetth "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aequiv "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/ring/g_ring.ml4" 26 893 893 "plugins/ring/g_ring.ml4" 26 893 3843
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/ring/g_ring.ml4" 26 893 893 "plugins/ring/g_ring.ml4" 26 893 3843
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/ring/g_ring.ml4" 26 893 893 "plugins/ring/g_ring.ml4" 26 893 3843
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)

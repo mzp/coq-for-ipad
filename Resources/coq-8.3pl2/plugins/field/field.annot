@@ -1,0 +1,7440 @@
+"plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  def constr_of "plugins/field/field.ml4" 31 937 937 --
+)
+"plugins/field/field.ml4" 28 832 846 "plugins/field/field.ml4" 28 832 847
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def c "plugins/field/field.ml4" 28 832 850 "plugins/field/field.ml4" 28 832 903
+)
+"plugins/field/field.ml4" 28 832 850 "plugins/field/field.ml4" 28 832 876
+type(
+  Evd.evar_map -> Environ.env -> Topconstr.constr_expr -> Term.constr
+)
+ident(
+  ext_ref Constrintern.interp_constr
+)
+"plugins/field/field.ml4" 28 832 877 "plugins/field/field.ml4" 28 832 886
+type(
+  Evd.evar_map
+)
+ident(
+  ext_ref Evd.empty
+)
+"plugins/field/field.ml4" 28 832 888 "plugins/field/field.ml4" 28 832 898
+type(
+  unit -> Environ.env
+)
+ident(
+  ext_ref Global.env
+)
+"plugins/field/field.ml4" 28 832 898 "plugins/field/field.ml4" 28 832 900
+type(
+  unit
+)
+"plugins/field/field.ml4" 28 832 888 "plugins/field/field.ml4" 28 832 900
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/field/field.ml4" 28 832 902 "plugins/field/field.ml4" 28 832 903
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref c "plugins/field/field.ml4" 28 832 846 "plugins/field/field.ml4" 28 832 847
+)
+"plugins/field/field.ml4" 28 832 850 "plugins/field/field.ml4" 28 832 903
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 28 832 846 "plugins/field/field.ml4" 28 832 903
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+"plugins/field/field.ml4" 31 937 941 "plugins/field/field.ml4" 31 937 949
+type(
+  string list -> string -> Term.constr
+)
+ident(
+  def constant "plugins/field/field.ml4" 32 996 996 --
+)
+"plugins/field/field.ml4" 31 937 950 "plugins/field/field.ml4" 31 937 953
+type(
+  string list
+)
+ident(
+  def dir "plugins/field/field.ml4" 31 937 954 "plugins/field/field.ml4" 31 937 995
+)
+"plugins/field/field.ml4" 31 937 954 "plugins/field/field.ml4" 31 937 955
+type(
+  string
+)
+ident(
+  def s "plugins/field/field.ml4" 31 937 958 "plugins/field/field.ml4" 31 937 995
+)
+"plugins/field/field.ml4" 31 937 958 "plugins/field/field.ml4" 31 937 970
+type(
+  Coqlib.message -> string list -> string -> Term.constr
+)
+ident(
+  ext_ref Coqlib.gen_constant
+)
+"plugins/field/field.ml4" 31 937 971 "plugins/field/field.ml4" 31 937 978
+type(
+  Coqlib.message
+)
+"plugins/field/field.ml4" 31 937 980 "plugins/field/field.ml4" 31 937 987
+type(
+  string
+)
+"plugins/field/field.ml4" 31 937 989 "plugins/field/field.ml4" 31 937 992
+type(
+  string list
+)
+ident(
+  int_ref dir "plugins/field/field.ml4" 31 937 950 "plugins/field/field.ml4" 31 937 953
+)
+"plugins/field/field.ml4" 31 937 980 "plugins/field/field.ml4" 31 937 992
+type(
+  string list
+)
+"plugins/field/field.ml4" 31 937 994 "plugins/field/field.ml4" 31 937 995
+type(
+  string
+)
+ident(
+  int_ref s "plugins/field/field.ml4" 31 937 954 "plugins/field/field.ml4" 31 937 955
+)
+"plugins/field/field.ml4" 31 937 958 "plugins/field/field.ml4" 31 937 995
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 31 937 954 "plugins/field/field.ml4" 31 937 995
+type(
+  string -> Term.constr
+)
+"plugins/field/field.ml4" 31 937 950 "plugins/field/field.ml4" 31 937 995
+type(
+  string list -> string -> Term.constr
+)
+"plugins/field/field.ml4" 32 996 1000 "plugins/field/field.ml4" 32 996 1013
+type(
+  string -> Term.constr
+)
+ident(
+  def init_constant "plugins/field/field.ml4" 35 1108 1108 --
+)
+"plugins/field/field.ml4" 32 996 1014 "plugins/field/field.ml4" 32 996 1015
+type(
+  string
+)
+ident(
+  def s "plugins/field/field.ml4" 32 996 1018 "plugins/field/field.ml4" 32 996 1064
+)
+"plugins/field/field.ml4" 32 996 1018 "plugins/field/field.ml4" 32 996 1041
+type(
+  string -> string list list -> string -> Term.constr
+)
+ident(
+  ext_ref Coqlib.gen_constant_in_modules
+)
+"plugins/field/field.ml4" 32 996 1042 "plugins/field/field.ml4" 32 996 1049
+type(
+  string
+)
+"plugins/field/field.ml4" 32 996 1050 "plugins/field/field.ml4" 32 996 1062
+type(
+  string list list
+)
+ident(
+  ext_ref Coqlib.init_modules
+)
+"plugins/field/field.ml4" 32 996 1063 "plugins/field/field.ml4" 32 996 1064
+type(
+  string
+)
+ident(
+  int_ref s "plugins/field/field.ml4" 32 996 1014 "plugins/field/field.ml4" 32 996 1015
+)
+"plugins/field/field.ml4" 32 996 1018 "plugins/field/field.ml4" 32 996 1064
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 32 996 1014 "plugins/field/field.ml4" 32 996 1064
+type(
+  string -> Term.constr
+)
+"plugins/field/field.ml4" 35 1108 1112 "plugins/field/field.ml4" 35 1108 1125
+type(
+  Topconstr.constr_expr -> Topconstr.constr_expr option -> Term.constr
+)
+ident(
+  def constr_of_opt "plugins/field/field.ml4" 43 1356 1356 --
+)
+"plugins/field/field.ml4" 35 1108 1126 "plugins/field/field.ml4" 35 1108 1127
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def a "plugins/field/field.ml4" 35 1108 1128 "plugins/field/field.ml4" 35 1108 1330
+)
+"plugins/field/field.ml4" 35 1108 1128 "plugins/field/field.ml4" 35 1108 1131
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  def opt "plugins/field/field.ml4" 36 1134 1136 "plugins/field/field.ml4" 36 1134 1330
+)
+"plugins/field/field.ml4" 36 1134 1140 "plugins/field/field.ml4" 36 1134 1142
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 36 1134 1145 "plugins/field/field.ml4" 36 1134 1154
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 36 1134 1155 "plugins/field/field.ml4" 36 1134 1156
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref a "plugins/field/field.ml4" 35 1108 1126 "plugins/field/field.ml4" 35 1108 1127
+)
+"plugins/field/field.ml4" 36 1134 1145 "plugins/field/field.ml4" 36 1134 1156
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 37 1160 1166 "plugins/field/field.ml4" 37 1160 1169
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 37 1160 1172 "plugins/field/field.ml4" 37 1160 1179
+type(
+  Term.types -> Term.types -> Term.constr
+)
+ident(
+  ext_ref Term.mkArrow
+)
+"plugins/field/field.ml4" 37 1160 1180 "plugins/field/field.ml4" 37 1160 1182
+type(
+  Term.types
+)
+ident(
+  int_ref ac "plugins/field/field.ml4" 36 1134 1140 "plugins/field/field.ml4" 36 1134 1142
+)
+"plugins/field/field.ml4" 37 1160 1184 "plugins/field/field.ml4" 37 1160 1191
+type(
+  Term.types -> Term.types -> Term.types
+)
+ident(
+  ext_ref Term.mkArrow
+)
+"plugins/field/field.ml4" 37 1160 1192 "plugins/field/field.ml4" 37 1160 1194
+type(
+  Term.types
+)
+ident(
+  int_ref ac "plugins/field/field.ml4" 36 1134 1140 "plugins/field/field.ml4" 36 1134 1142
+)
+"plugins/field/field.ml4" 37 1160 1195 "plugins/field/field.ml4" 37 1160 1197
+type(
+  Term.types
+)
+ident(
+  int_ref ac "plugins/field/field.ml4" 36 1134 1140 "plugins/field/field.ml4" 36 1134 1142
+)
+"plugins/field/field.ml4" 37 1160 1184 "plugins/field/field.ml4" 37 1160 1197
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/field/field.ml4" 37 1160 1172 "plugins/field/field.ml4" 37 1160 1198
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 38 1202 1210 "plugins/field/field.ml4" 38 1202 1213
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  int_ref opt "plugins/field/field.ml4" 35 1108 1128 "plugins/field/field.ml4" 35 1108 1131
+)
+"plugins/field/field.ml4" 39 1219 1223 "plugins/field/field.ml4" 39 1219 1227
+type(
+  Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 39 1219 1231 "plugins/field/field.ml4" 39 1219 1236
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/field/field.ml4" 39 1219 1238 "plugins/field/field.ml4" 39 1219 1251
+type(
+  string -> Term.constr
+)
+ident(
+  int_ref init_constant "plugins/field/field.ml4" 32 996 1000 "plugins/field/field.ml4" 32 996 1013
+)
+"plugins/field/field.ml4" 39 1219 1252 "plugins/field/field.ml4" 39 1219 1258
+type(
+  string
+)
+"plugins/field/field.ml4" 39 1219 1238 "plugins/field/field.ml4" 39 1219 1258
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 39 1219 1261 "plugins/field/field.ml4" 39 1219 1264
+type(
+  Term.constr
+)
+ident(
+  int_ref ac3 "plugins/field/field.ml4" 37 1160 1166 "plugins/field/field.ml4" 37 1160 1169
+)
+"plugins/field/field.ml4" 39 1219 1259 "plugins/field/field.ml4" 39 1219 1266
+type(
+  Term.constr array
+)
+"plugins/field/field.ml4" 39 1219 1238 "plugins/field/field.ml4" 39 1219 1266
+type(
+  Term.constr * Term.constr array
+)
+"plugins/field/field.ml4" 39 1219 1231 "plugins/field/field.ml4" 39 1219 1267
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 40 1268 1277 "plugins/field/field.ml4" 40 1268 1278
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def f "plugins/field/field.ml4" 40 1268 1282 "plugins/field/field.ml4" 40 1268 1330
+)
+"plugins/field/field.ml4" 40 1268 1272 "plugins/field/field.ml4" 40 1268 1278
+type(
+  Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 40 1268 1282 "plugins/field/field.ml4" 40 1268 1287
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/field/field.ml4" 40 1268 1289 "plugins/field/field.ml4" 40 1268 1302
+type(
+  string -> Term.constr
+)
+ident(
+  int_ref init_constant "plugins/field/field.ml4" 32 996 1000 "plugins/field/field.ml4" 32 996 1013
+)
+"plugins/field/field.ml4" 40 1268 1303 "plugins/field/field.ml4" 40 1268 1309
+type(
+  string
+)
+"plugins/field/field.ml4" 40 1268 1289 "plugins/field/field.ml4" 40 1268 1309
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 40 1268 1312 "plugins/field/field.ml4" 40 1268 1315
+type(
+  Term.constr
+)
+ident(
+  int_ref ac3 "plugins/field/field.ml4" 37 1160 1166 "plugins/field/field.ml4" 37 1160 1169
+)
+"plugins/field/field.ml4" 40 1268 1316 "plugins/field/field.ml4" 40 1268 1325
+type(
+  Topconstr.constr_expr -> Term.constr
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 40 1268 1326 "plugins/field/field.ml4" 40 1268 1327
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref f "plugins/field/field.ml4" 40 1268 1277 "plugins/field/field.ml4" 40 1268 1278
+)
+"plugins/field/field.ml4" 40 1268 1316 "plugins/field/field.ml4" 40 1268 1327
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 40 1268 1310 "plugins/field/field.ml4" 40 1268 1329
+type(
+  Term.constr array
+)
+"plugins/field/field.ml4" 40 1268 1289 "plugins/field/field.ml4" 40 1268 1329
+type(
+  Term.constr * Term.constr array
+)
+"plugins/field/field.ml4" 40 1268 1282 "plugins/field/field.ml4" 40 1268 1330
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 38 1202 1204 "plugins/field/field.ml4" 38 1202 1330
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 37 1160 1162 "plugins/field/field.ml4" 37 1160 1330
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 36 1134 1136 "plugins/field/field.ml4" 36 1134 1330
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 35 1108 1128 "plugins/field/field.ml4" 35 1108 1330
+type(
+  Topconstr.constr_expr option -> Term.constr
+)
+"plugins/field/field.ml4" 35 1108 1126 "plugins/field/field.ml4" 35 1108 1330
+type(
+  Topconstr.constr_expr -> Topconstr.constr_expr option -> Term.constr
+)
+"plugins/field/field.ml4" 43 1356 1360 "plugins/field/field.ml4" 43 1356 1366
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref
+)
+ident(
+  def th_tab "plugins/field/field.ml4" 45 1412 1412 --
+)
+"plugins/field/field.ml4" 43 1356 1369 "plugins/field/field.ml4" 43 1356 1372
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ->
+  (Ring.Cmap.key, Term.constr) Gmap.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/field/field.ml4" 43 1356 1374 "plugins/field/field.ml4" 43 1356 1384
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+ident(
+  ext_ref Gmap.empty
+)
+"plugins/field/field.ml4" 43 1356 1369 "plugins/field/field.ml4" 43 1356 1410
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref
+)
+"plugins/field/field.ml4" 45 1412 1416 "plugins/field/field.ml4" 45 1412 1422
+type(
+  Environ.env -> Ring.Cmap.key -> Term.constr
+)
+ident(
+  def lookup "plugins/field/field.ml4" 52 1600 1600 --
+)
+"plugins/field/field.ml4" 45 1412 1423 "plugins/field/field.ml4" 45 1412 1426
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/field/field.ml4" 45 1412 1427 "plugins/field/field.ml4" 45 1412 1598
+)
+"plugins/field/field.ml4" 45 1412 1427 "plugins/field/field.ml4" 45 1412 1430
+type(
+  Ring.Cmap.key
+)
+ident(
+  def typ "plugins/field/field.ml4" 46 1433 1435 "plugins/field/field.ml4" 46 1433 1598
+)
+"plugins/field/field.ml4" 46 1433 1439 "plugins/field/field.ml4" 46 1433 1448
+type(
+  Ring.Cmap.key -> (Ring.Cmap.key, Term.constr) Gmap.t -> Term.constr
+)
+ident(
+  ext_ref Gmap.find
+)
+"plugins/field/field.ml4" 46 1433 1449 "plugins/field/field.ml4" 46 1433 1452
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref typ "plugins/field/field.ml4" 45 1412 1427 "plugins/field/field.ml4" 45 1412 1430
+)
+"plugins/field/field.ml4" 46 1433 1454 "plugins/field/field.ml4" 46 1433 1460
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref
+)
+ident(
+  int_ref th_tab "plugins/field/field.ml4" 43 1356 1360 "plugins/field/field.ml4" 43 1356 1366
+)
+"plugins/field/field.ml4" 46 1433 1453 "plugins/field/field.ml4" 46 1433 1460
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref ->
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/field/field.ml4" 46 1433 1439 "plugins/field/field.ml4" 46 1433 1460
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 47 1461 1468 "plugins/field/field.ml4" 47 1461 1477
+type(
+  exn
+)
+"plugins/field/field.ml4" 48 1481 1485 "plugins/field/field.ml4" 48 1481 1497
+type(
+  string -> Pp.std_ppcmds -> Term.constr
+)
+ident(
+  ext_ref Util.errorlabstrm
+)
+"plugins/field/field.ml4" 48 1481 1498 "plugins/field/field.ml4" 48 1481 1505
+type(
+  string
+)
+"plugins/field/field.ml4" 49 1506 1513 "plugins/field/field.ml4" 49 1506 1516
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/field/field.ml4" 49 1506 1517 "plugins/field/field.ml4" 49 1506 1548
+type(
+  string
+)
+"plugins/field/field.ml4" 49 1506 1513 "plugins/field/field.ml4" 49 1506 1548
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 49 1506 1552 "plugins/field/field.ml4" 49 1506 1555
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/field/field.ml4" 49 1506 1555 "plugins/field/field.ml4" 49 1506 1557
+type(
+  unit
+)
+"plugins/field/field.ml4" 49 1506 1552 "plugins/field/field.ml4" 49 1506 1557
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 49 1506 1513 "plugins/field/field.ml4" 49 1506 1557
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/field/field.ml4" 50 1561 1567 "plugins/field/field.ml4" 50 1561 1589
+type(
+  Environ.env -> Ring.Cmap.key -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Printer.pr_lconstr_env
+)
+"plugins/field/field.ml4" 50 1561 1590 "plugins/field/field.ml4" 50 1561 1593
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/field/field.ml4" 45 1412 1423 "plugins/field/field.ml4" 45 1412 1426
+)
+"plugins/field/field.ml4" 50 1561 1594 "plugins/field/field.ml4" 50 1561 1597
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref typ "plugins/field/field.ml4" 45 1412 1427 "plugins/field/field.ml4" 45 1412 1430
+)
+"plugins/field/field.ml4" 50 1561 1567 "plugins/field/field.ml4" 50 1561 1597
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 49 1506 1513 "plugins/field/field.ml4" 49 1506 1597
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/field/field.ml4" 48 1481 1485 "plugins/field/field.ml4" 48 1481 1598
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 46 1433 1435 "plugins/field/field.ml4" 46 1433 1598
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 45 1412 1427 "plugins/field/field.ml4" 45 1412 1598
+type(
+  Ring.Cmap.key -> Term.constr
+)
+"plugins/field/field.ml4" 45 1412 1423 "plugins/field/field.ml4" 45 1412 1598
+type(
+  Environ.env -> Ring.Cmap.key -> Term.constr
+)
+"plugins/field/field.ml4" 53 1608 1614 "plugins/field/field.ml4" 53 1608 1618
+type(
+  unit -> unit
+)
+ident(
+  def init "plugins/field/field.ml4" 54 1648 1650 "plugins/field/field.ml4" 54 1648 1873
+)
+"plugins/field/field.ml4" 53 1608 1619 "plugins/field/field.ml4" 53 1608 1621
+type(
+  unit
+)
+"plugins/field/field.ml4" 53 1608 1624 "plugins/field/field.ml4" 53 1608 1630
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref
+)
+ident(
+  int_ref th_tab "plugins/field/field.ml4" 43 1356 1360 "plugins/field/field.ml4" 43 1356 1366
+)
+"plugins/field/field.ml4" 53 1608 1634 "plugins/field/field.ml4" 53 1608 1644
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+ident(
+  ext_ref Gmap.empty
+)
+"plugins/field/field.ml4" 53 1608 1624 "plugins/field/field.ml4" 53 1608 1644
+type(
+  unit
+)
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref ->
+  (Ring.Cmap.key, Term.constr) Gmap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/field/field.ml4" 53 1608 1619 "plugins/field/field.ml4" 53 1608 1644
+type(
+  unit -> unit
+)
+"plugins/field/field.ml4" 54 1648 1654 "plugins/field/field.ml4" 54 1648 1660
+type(
+  unit -> (Ring.Cmap.key, Term.constr) Gmap.t
+)
+ident(
+  def freeze "plugins/field/field.ml4" 55 1677 1679 "plugins/field/field.ml4" 55 1677 1873
+)
+"plugins/field/field.ml4" 54 1648 1661 "plugins/field/field.ml4" 54 1648 1663
+type(
+  unit
+)
+"plugins/field/field.ml4" 54 1648 1667 "plugins/field/field.ml4" 54 1648 1673
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref
+)
+ident(
+  int_ref th_tab "plugins/field/field.ml4" 43 1356 1360 "plugins/field/field.ml4" 43 1356 1366
+)
+"plugins/field/field.ml4" 54 1648 1666 "plugins/field/field.ml4" 54 1648 1673
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref ->
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/field/field.ml4" 54 1648 1661 "plugins/field/field.ml4" 54 1648 1673
+type(
+  unit -> (Ring.Cmap.key, Term.constr) Gmap.t
+)
+"plugins/field/field.ml4" 55 1677 1683 "plugins/field/field.ml4" 55 1677 1691
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t -> unit
+)
+ident(
+  def unfreeze "plugins/field/field.ml4" 56 1713 1715 "plugins/field/field.ml4" 56 1713 1873
+)
+"plugins/field/field.ml4" 55 1677 1692 "plugins/field/field.ml4" 55 1677 1694
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+ident(
+  def fs "plugins/field/field.ml4" 55 1677 1697 "plugins/field/field.ml4" 55 1677 1709
+)
+"plugins/field/field.ml4" 55 1677 1697 "plugins/field/field.ml4" 55 1677 1703
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref
+)
+ident(
+  int_ref th_tab "plugins/field/field.ml4" 43 1356 1360 "plugins/field/field.ml4" 43 1356 1366
+)
+"plugins/field/field.ml4" 55 1677 1707 "plugins/field/field.ml4" 55 1677 1709
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+ident(
+  int_ref fs "plugins/field/field.ml4" 55 1677 1692 "plugins/field/field.ml4" 55 1677 1694
+)
+"plugins/field/field.ml4" 55 1677 1697 "plugins/field/field.ml4" 55 1677 1709
+type(
+  unit
+)
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref ->
+  (Ring.Cmap.key, Term.constr) Gmap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/field/field.ml4" 55 1677 1692 "plugins/field/field.ml4" 55 1677 1709
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t -> unit
+)
+"plugins/field/field.ml4" 56 1713 1715 "plugins/field/field.ml4" 56 1713 1738
+type(
+  string ->
+  (Ring.Cmap.key, Term.constr) Gmap.t Summary.summary_declaration -> unit
+)
+ident(
+  ext_ref Summary.declare_summary
+)
+"plugins/field/field.ml4" 56 1713 1739 "plugins/field/field.ml4" 56 1713 1746
+type(
+  string
+)
+"plugins/field/field.ml4" 57 1747 1781 "plugins/field/field.ml4" 57 1747 1787
+type(
+  unit -> (Ring.Cmap.key, Term.constr) Gmap.t
+)
+ident(
+  int_ref freeze "plugins/field/field.ml4" 54 1648 1654 "plugins/field/field.ml4" 54 1648 1660
+)
+"plugins/field/field.ml4" 58 1789 1823 "plugins/field/field.ml4" 58 1789 1831
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t -> unit
+)
+ident(
+  int_ref unfreeze "plugins/field/field.ml4" 55 1677 1683 "plugins/field/field.ml4" 55 1677 1691
+)
+"plugins/field/field.ml4" 59 1833 1867 "plugins/field/field.ml4" 59 1833 1871
+type(
+  unit -> unit
+)
+ident(
+  int_ref init "plugins/field/field.ml4" 53 1608 1614 "plugins/field/field.ml4" 53 1608 1618
+)
+"plugins/field/field.ml4" 57 1747 1751 "plugins/field/field.ml4" 57 1747 1873
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t Summary.summary_declaration
+)
+"plugins/field/field.ml4" 56 1713 1715 "plugins/field/field.ml4" 56 1713 1873
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/field/field.ml4" 55 1677 1679 "plugins/field/field.ml4" 55 1677 1873
+type(
+  unit
+)
+"plugins/field/field.ml4" 54 1648 1650 "plugins/field/field.ml4" 54 1648 1873
+type(
+  unit
+)
+"plugins/field/field.ml4" 53 1608 1610 "plugins/field/field.ml4" 53 1608 1873
+type(
+  unit
+)
+"plugins/field/field.ml4" 61 1875 1879 "plugins/field/field.ml4" 61 1875 1892
+type(
+  'a -> unit
+)
+ident(
+  def load_addfield "plugins/field/field.ml4" 62 1900 1900 --
+)
+"plugins/field/field.ml4" 61 1875 1893 "plugins/field/field.ml4" 61 1875 1894
+type(
+  'a
+)
+"plugins/field/field.ml4" 61 1875 1897 "plugins/field/field.ml4" 61 1875 1899
+type(
+  unit
+)
+"plugins/field/field.ml4" 61 1875 1893 "plugins/field/field.ml4" 61 1875 1899
+type(
+  'a -> unit
+)
+"plugins/field/field.ml4" 62 1900 1904 "plugins/field/field.ml4" 62 1900 1918
+type(
+  'a * (Ring.Cmap.key * Term.constr) -> unit
+)
+ident(
+  def cache_addfield "plugins/field/field.ml4" 63 1968 1968 --
+)
+"plugins/field/field.ml4" 62 1900 1920 "plugins/field/field.ml4" 62 1900 1921
+type(
+  'a
+)
+"plugins/field/field.ml4" 62 1900 1923 "plugins/field/field.ml4" 62 1900 1926
+type(
+  Ring.Cmap.key
+)
+ident(
+  def typ "plugins/field/field.ml4" 62 1900 1934 "plugins/field/field.ml4" 62 1900 1967
+)
+"plugins/field/field.ml4" 62 1900 1927 "plugins/field/field.ml4" 62 1900 1929
+type(
+  Term.constr
+)
+ident(
+  def th "plugins/field/field.ml4" 62 1900 1934 "plugins/field/field.ml4" 62 1900 1967
+)
+"plugins/field/field.ml4" 62 1900 1923 "plugins/field/field.ml4" 62 1900 1929
+type(
+  Ring.Cmap.key * Term.constr
+)
+"plugins/field/field.ml4" 62 1900 1920 "plugins/field/field.ml4" 62 1900 1930
+type(
+  'a * (Ring.Cmap.key * Term.constr)
+)
+"plugins/field/field.ml4" 62 1900 1934 "plugins/field/field.ml4" 62 1900 1940
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref
+)
+ident(
+  int_ref th_tab "plugins/field/field.ml4" 43 1356 1360 "plugins/field/field.ml4" 43 1356 1366
+)
+"plugins/field/field.ml4" 62 1900 1944 "plugins/field/field.ml4" 62 1900 1952
+type(
+  Ring.Cmap.key ->
+  Term.constr ->
+  (Ring.Cmap.key, Term.constr) Gmap.t -> (Ring.Cmap.key, Term.constr) Gmap.t
+)
+ident(
+  ext_ref Gmap.add
+)
+"plugins/field/field.ml4" 62 1900 1953 "plugins/field/field.ml4" 62 1900 1956
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref typ "plugins/field/field.ml4" 62 1900 1923 "plugins/field/field.ml4" 62 1900 1926
+)
+"plugins/field/field.ml4" 62 1900 1957 "plugins/field/field.ml4" 62 1900 1959
+type(
+  Term.constr
+)
+ident(
+  int_ref th "plugins/field/field.ml4" 62 1900 1927 "plugins/field/field.ml4" 62 1900 1929
+)
+"plugins/field/field.ml4" 62 1900 1961 "plugins/field/field.ml4" 62 1900 1967
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref
+)
+ident(
+  int_ref th_tab "plugins/field/field.ml4" 43 1356 1360 "plugins/field/field.ml4" 43 1356 1366
+)
+"plugins/field/field.ml4" 62 1900 1960 "plugins/field/field.ml4" 62 1900 1967
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref ->
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/field/field.ml4" 62 1900 1944 "plugins/field/field.ml4" 62 1900 1967
+call(
+  stack
+)
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t
+)
+"plugins/field/field.ml4" 62 1900 1934 "plugins/field/field.ml4" 62 1900 1967
+type(
+  unit
+)
+type(
+  (Ring.Cmap.key, Term.constr) Gmap.t ref ->
+  (Ring.Cmap.key, Term.constr) Gmap.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/field/field.ml4" 62 1900 1919 "plugins/field/field.ml4" 62 1900 1967
+type(
+  'a * (Ring.Cmap.key * Term.constr) -> unit
+)
+"plugins/field/field.ml4" 63 1968 1972 "plugins/field/field.ml4" 63 1968 1986
+type(
+  Mod_subst.substitution * (Term.constr * Term.constr) ->
+  Term.constr * Term.constr
+)
+ident(
+  def subst_addfield "plugins/field/field.ml4" 70 2197 2197 --
+)
+"plugins/field/field.ml4" 63 1968 1988 "plugins/field/field.ml4" 63 1968 1993
+type(
+  Mod_subst.substitution
+)
+ident(
+  def subst "plugins/field/field.ml4" 64 2013 2015 "plugins/field/field.ml4" 64 2013 2145
+)
+"plugins/field/field.ml4" 63 1968 1995 "plugins/field/field.ml4" 63 1968 1998
+type(
+  Term.constr
+)
+ident(
+  def typ "plugins/field/field.ml4" 64 2013 2015 "plugins/field/field.ml4" 64 2013 2145
+)
+"plugins/field/field.ml4" 63 1968 1999 "plugins/field/field.ml4" 63 1968 2001
+type(
+  Term.constr
+)
+ident(
+  def th "plugins/field/field.ml4" 64 2013 2015 "plugins/field/field.ml4" 64 2013 2145
+)
+"plugins/field/field.ml4" 63 1968 1995 "plugins/field/field.ml4" 63 1968 2001
+type(
+  Term.constr * Term.constr
+)
+"plugins/field/field.ml4" 63 1968 1995 "plugins/field/field.ml4" 63 1968 2008
+type(
+  Term.constr * Term.constr
+)
+ident(
+  def obj "plugins/field/field.ml4" 64 2013 2015 "plugins/field/field.ml4" 64 2013 2145
+)
+"plugins/field/field.ml4" 63 1968 1988 "plugins/field/field.ml4" 63 1968 2009
+type(
+  Mod_subst.substitution * (Term.constr * Term.constr)
+)
+"plugins/field/field.ml4" 64 2013 2019 "plugins/field/field.ml4" 64 2013 2023
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 64 2013 2026 "plugins/field/field.ml4" 64 2013 2035
+type(
+  Mod_subst.substitution -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Mod_subst.subst_mps
+)
+"plugins/field/field.ml4" 64 2013 2036 "plugins/field/field.ml4" 64 2013 2041
+type(
+  Mod_subst.substitution
+)
+ident(
+  int_ref subst "plugins/field/field.ml4" 63 1968 1988 "plugins/field/field.ml4" 63 1968 1993
+)
+"plugins/field/field.ml4" 64 2013 2042 "plugins/field/field.ml4" 64 2013 2045
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/field/field.ml4" 63 1968 1995 "plugins/field/field.ml4" 63 1968 1998
+)
+"plugins/field/field.ml4" 64 2013 2026 "plugins/field/field.ml4" 64 2013 2045
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 65 2049 2055 "plugins/field/field.ml4" 65 2049 2058
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 65 2049 2061 "plugins/field/field.ml4" 65 2049 2070
+type(
+  Mod_subst.substitution -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Mod_subst.subst_mps
+)
+"plugins/field/field.ml4" 65 2049 2071 "plugins/field/field.ml4" 65 2049 2076
+type(
+  Mod_subst.substitution
+)
+ident(
+  int_ref subst "plugins/field/field.ml4" 63 1968 1988 "plugins/field/field.ml4" 63 1968 1993
+)
+"plugins/field/field.ml4" 65 2049 2077 "plugins/field/field.ml4" 65 2049 2079
+type(
+  Term.constr
+)
+ident(
+  int_ref th "plugins/field/field.ml4" 63 1968 1999 "plugins/field/field.ml4" 63 1968 2001
+)
+"plugins/field/field.ml4" 65 2049 2061 "plugins/field/field.ml4" 65 2049 2079
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 66 2083 2090 "plugins/field/field.ml4" 66 2083 2094
+type(
+  Term.constr
+)
+ident(
+  int_ref typ' "plugins/field/field.ml4" 64 2013 2019 "plugins/field/field.ml4" 64 2013 2023
+)
+"plugins/field/field.ml4" 66 2083 2098 "plugins/field/field.ml4" 66 2083 2101
+type(
+  Term.constr
+)
+ident(
+  int_ref typ "plugins/field/field.ml4" 63 1968 1995 "plugins/field/field.ml4" 63 1968 1998
+)
+"plugins/field/field.ml4" 66 2083 2090 "plugins/field/field.ml4" 66 2083 2101
+type(
+  bool
+)
+type(
+  Term.constr -> Term.constr -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"plugins/field/field.ml4" 66 2083 2105 "plugins/field/field.ml4" 66 2083 2108
+type(
+  Term.constr
+)
+ident(
+  int_ref th' "plugins/field/field.ml4" 65 2049 2055 "plugins/field/field.ml4" 65 2049 2058
+)
+"plugins/field/field.ml4" 66 2083 2112 "plugins/field/field.ml4" 66 2083 2114
+type(
+  Term.constr
+)
+ident(
+  int_ref th "plugins/field/field.ml4" 63 1968 1999 "plugins/field/field.ml4" 63 1968 2001
+)
+"plugins/field/field.ml4" 66 2083 2105 "plugins/field/field.ml4" 66 2083 2114
+type(
+  bool
+)
+type(
+  Term.constr -> Term.constr -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"plugins/field/field.ml4" 66 2083 2090 "plugins/field/field.ml4" 66 2083 2114
+type(
+  bool
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/field/field.ml4" 66 2083 2120 "plugins/field/field.ml4" 66 2083 2123
+type(
+  Term.constr * Term.constr
+)
+ident(
+  int_ref obj "plugins/field/field.ml4" 63 1968 1995 "plugins/field/field.ml4" 63 1968 2008
+)
+"plugins/field/field.ml4" 67 2129 2136 "plugins/field/field.ml4" 67 2129 2140
+type(
+  Term.constr
+)
+ident(
+  int_ref typ' "plugins/field/field.ml4" 64 2013 2019 "plugins/field/field.ml4" 64 2013 2023
+)
+"plugins/field/field.ml4" 67 2129 2141 "plugins/field/field.ml4" 67 2129 2144
+type(
+  Term.constr
+)
+ident(
+  int_ref th' "plugins/field/field.ml4" 65 2049 2055 "plugins/field/field.ml4" 65 2049 2058
+)
+"plugins/field/field.ml4" 67 2129 2136 "plugins/field/field.ml4" 67 2129 2144
+type(
+  Term.constr * Term.constr
+)
+"plugins/field/field.ml4" 66 2083 2087 "plugins/field/field.ml4" 66 2083 2145
+type(
+  Term.constr * Term.constr
+)
+"plugins/field/field.ml4" 65 2049 2051 "plugins/field/field.ml4" 65 2049 2145
+type(
+  Term.constr * Term.constr
+)
+"plugins/field/field.ml4" 64 2013 2015 "plugins/field/field.ml4" 64 2013 2145
+type(
+  Term.constr * Term.constr
+)
+"plugins/field/field.ml4" 63 1968 1987 "plugins/field/field.ml4" 63 1968 2145
+type(
+  Mod_subst.substitution * (Term.constr * Term.constr) ->
+  Term.constr * Term.constr
+)
+"plugins/field/field.ml4" 70 2197 2202 "plugins/field/field.ml4" 70 2197 2213
+type(
+  Ring.Cmap.key * Term.constr -> Libobject.obj
+)
+ident(
+  def in_addfield "plugins/field/field.ml4" 78 2583 2583 --
+)
+"plugins/field/field.ml4" 70 2197 2214 "plugins/field/field.ml4" 70 2197 2226
+type(
+  Libobject.obj -> Ring.Cmap.key * Term.constr
+)
+ident(
+  def out_addfield "plugins/field/field.ml4" 78 2583 2583 --
+)
+"plugins/field/field.ml4" 70 2197 2202 "plugins/field/field.ml4" 70 2197 2226
+type(
+  (Ring.Cmap.key * Term.constr -> Libobject.obj) *
+  (Libobject.obj -> Ring.Cmap.key * Term.constr)
+)
+"plugins/field/field.ml4" 71 2229 2231 "plugins/field/field.ml4" 71 2229 2255
+type(
+  (Ring.Cmap.key * Term.constr) Libobject.object_declaration ->
+  (Ring.Cmap.key * Term.constr -> Libobject.obj) *
+  (Libobject.obj -> Ring.Cmap.key * Term.constr)
+)
+ident(
+  ext_ref Libobject.declare_object
+)
+"plugins/field/field.ml4" 71 2229 2258 "plugins/field/field.ml4" 71 2229 2282
+type(
+  string -> (Ring.Cmap.key * Term.constr) Libobject.object_declaration
+)
+ident(
+  ext_ref Libobject.default_object
+)
+"plugins/field/field.ml4" 71 2229 2283 "plugins/field/field.ml4" 71 2229 2294
+type(
+  string
+)
+"plugins/field/field.ml4" 71 2229 2258 "plugins/field/field.ml4" 71 2229 2294
+call(
+  stack
+)
+type(
+  (Ring.Cmap.key * Term.constr) Libobject.object_declaration
+)
+"plugins/field/field.ml4" 72 2301 2339 "plugins/field/field.ml4" 72 2301 2340
+type(
+  int
+)
+ident(
+  def i "plugins/field/field.ml4" 72 2301 2341 "plugins/field/field.ml4" 72 2301 2374
+)
+"plugins/field/field.ml4" 72 2301 2341 "plugins/field/field.ml4" 72 2301 2342
+type(
+  Libnames.object_name * (Ring.Cmap.key * Term.constr)
+)
+ident(
+  def o "plugins/field/field.ml4" 72 2301 2346 "plugins/field/field.ml4" 72 2301 2374
+)
+"plugins/field/field.ml4" 72 2301 2349 "plugins/field/field.ml4" 72 2301 2350
+type(
+  int
+)
+ident(
+  int_ref i "plugins/field/field.ml4" 72 2301 2339 "plugins/field/field.ml4" 72 2301 2340
+)
+"plugins/field/field.ml4" 72 2301 2351 "plugins/field/field.ml4" 72 2301 2352
+type(
+  int
+)
+"plugins/field/field.ml4" 72 2301 2349 "plugins/field/field.ml4" 72 2301 2352
+type(
+  bool
+)
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/field/field.ml4" 72 2301 2358 "plugins/field/field.ml4" 72 2301 2372
+type(
+  Libnames.object_name * (Ring.Cmap.key * Term.constr) -> unit
+)
+ident(
+  int_ref cache_addfield "plugins/field/field.ml4" 62 1900 1904 "plugins/field/field.ml4" 62 1900 1918
+)
+"plugins/field/field.ml4" 72 2301 2373 "plugins/field/field.ml4" 72 2301 2374
+type(
+  Libnames.object_name * (Ring.Cmap.key * Term.constr)
+)
+ident(
+  int_ref o "plugins/field/field.ml4" 72 2301 2341 "plugins/field/field.ml4" 72 2301 2342
+)
+"plugins/field/field.ml4" 72 2301 2358 "plugins/field/field.ml4" 72 2301 2374
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/field/field.ml4" 72 2301 2346 "plugins/field/field.ml4" 72 2301 2374
+type(
+  unit
+)
+type(
+  unit
+)
+"plugins/field/field.ml4" 72 2301 2341 "plugins/field/field.ml4" 72 2301 2374
+type(
+  Libnames.object_name * (Ring.Cmap.key * Term.constr) -> unit
+)
+"plugins/field/field.ml4" 72 2301 2335 "plugins/field/field.ml4" 72 2301 2374
+type(
+  int -> Libnames.object_name * (Ring.Cmap.key * Term.constr) -> unit
+)
+"plugins/field/field.ml4" 73 2377 2411 "plugins/field/field.ml4" 73 2377 2425
+type(
+  Libnames.object_name * (Ring.Cmap.key * Term.constr) -> unit
+)
+ident(
+  int_ref cache_addfield "plugins/field/field.ml4" 62 1900 1904 "plugins/field/field.ml4" 62 1900 1918
+)
+"plugins/field/field.ml4" 74 2427 2461 "plugins/field/field.ml4" 74 2427 2475
+type(
+  Mod_subst.substitution * (Ring.Cmap.key * Term.constr) ->
+  Ring.Cmap.key * Term.constr
+)
+ident(
+  int_ref subst_addfield "plugins/field/field.ml4" 63 1968 1972 "plugins/field/field.ml4" 63 1968 1986
+)
+"plugins/field/field.ml4" 75 2477 2519 "plugins/field/field.ml4" 75 2477 2520
+type(
+  Ring.Cmap.key * Term.constr
+)
+ident(
+  def a "plugins/field/field.ml4" 75 2477 2524 "plugins/field/field.ml4" 75 2477 2546
+)
+"plugins/field/field.ml4" 75 2477 2545 "plugins/field/field.ml4" 75 2477 2546
+type(
+  Ring.Cmap.key * Term.constr
+)
+ident(
+  int_ref a "plugins/field/field.ml4" 75 2477 2519 "plugins/field/field.ml4" 75 2477 2520
+)
+"plugins/field/field.ml4" 75 2477 2524 "plugins/field/field.ml4" 75 2477 2546
+type(
+  (Ring.Cmap.key * Term.constr) Libobject.substitutivity
+)
+"plugins/field/field.ml4" 75 2477 2515 "plugins/field/field.ml4" 75 2477 2546
+type(
+  Ring.Cmap.key * Term.constr ->
+  (Ring.Cmap.key * Term.constr) Libobject.substitutivity
+)
+"plugins/field/field.ml4" 71 2229 2256 "plugins/field/field.ml4" 71 2229 2548
+type(
+  (Ring.Cmap.key * Term.constr) Libobject.object_declaration
+)
+"plugins/field/field.ml4" 71 2229 2231 "plugins/field/field.ml4" 71 2229 2548
+call(
+  stack
+)
+type(
+  (Ring.Cmap.key * Term.constr -> Libobject.obj) *
+  (Libobject.obj -> Ring.Cmap.key * Term.constr)
+)
+"plugins/field/field.ml4" 78 2583 2587 "plugins/field/field.ml4" 78 2583 2596
+type(
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+ident(
+  def add_field "plugins/field/field.ml4" 94 3183 3183 --
+)
+"plugins/field/field.ml4" 78 2583 2597 "plugins/field/field.ml4" 78 2583 2598
+type(
+  Ring.Cmap.key
+)
+ident(
+  def a "plugins/field/field.ml4" 78 2583 2599 "plugins/field/field.ml4" 78 2583 3148
+)
+"plugins/field/field.ml4" 78 2583 2599 "plugins/field/field.ml4" 78 2583 2604
+type(
+  Ring.Cmap.key
+)
+ident(
+  def aplus "plugins/field/field.ml4" 78 2583 2605 "plugins/field/field.ml4" 78 2583 3148
+)
+"plugins/field/field.ml4" 78 2583 2605 "plugins/field/field.ml4" 78 2583 2610
+type(
+  Ring.Cmap.key
+)
+ident(
+  def amult "plugins/field/field.ml4" 78 2583 2611 "plugins/field/field.ml4" 78 2583 3148
+)
+"plugins/field/field.ml4" 78 2583 2611 "plugins/field/field.ml4" 78 2583 2615
+type(
+  Ring.Cmap.key
+)
+ident(
+  def aone "plugins/field/field.ml4" 78 2583 2616 "plugins/field/field.ml4" 78 2583 3148
+)
+"plugins/field/field.ml4" 78 2583 2616 "plugins/field/field.ml4" 78 2583 2621
+type(
+  Ring.Cmap.key
+)
+ident(
+  def azero "plugins/field/field.ml4" 78 2583 2622 "plugins/field/field.ml4" 78 2583 3148
+)
+"plugins/field/field.ml4" 78 2583 2622 "plugins/field/field.ml4" 78 2583 2626
+type(
+  Ring.Cmap.key
+)
+ident(
+  def aopp "plugins/field/field.ml4" 78 2583 2627 "plugins/field/field.ml4" 78 2583 3148
+)
+"plugins/field/field.ml4" 78 2583 2627 "plugins/field/field.ml4" 78 2583 2630
+type(
+  Ring.Cmap.key
+)
+ident(
+  def aeq "plugins/field/field.ml4" 78 2583 2631 "plugins/field/field.ml4" 78 2583 3148
+)
+"plugins/field/field.ml4" 78 2583 2631 "plugins/field/field.ml4" 78 2583 2635
+type(
+  Ring.Cmap.key
+)
+ident(
+  def ainv "plugins/field/field.ml4" 78 2583 2636 "plugins/field/field.ml4" 78 2583 3148
+)
+"plugins/field/field.ml4" 78 2583 2636 "plugins/field/field.ml4" 78 2583 2644
+type(
+  Ring.Cmap.key
+)
+ident(
+  def aminus_o "plugins/field/field.ml4" 78 2583 2645 "plugins/field/field.ml4" 78 2583 3148
+)
+"plugins/field/field.ml4" 78 2583 2645 "plugins/field/field.ml4" 78 2583 2651
+type(
+  Ring.Cmap.key
+)
+ident(
+  def adiv_o "plugins/field/field.ml4" 78 2583 2652 "plugins/field/field.ml4" 78 2583 3148
+)
+"plugins/field/field.ml4" 78 2583 2652 "plugins/field/field.ml4" 78 2583 2655
+type(
+  Ring.Cmap.key
+)
+ident(
+  def rth "plugins/field/field.ml4" 79 2656 2658 "plugins/field/field.ml4" 79 2656 3148
+)
+"plugins/field/field.ml4" 79 2656 2658 "plugins/field/field.ml4" 79 2656 2664
+type(
+  Ring.Cmap.key
+)
+ident(
+  def ainv_l "plugins/field/field.ml4" 81 2675 2679 "plugins/field/field.ml4" 81 2675 3142
+)
+"plugins/field/field.ml4" 82 2684 2690 "plugins/field/field.ml4" 82 2684 2705
+type(
+  bool ->
+  bool ->
+  bool ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Term.constr option ->
+  Ring.morph option ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key option ->
+  Ring.Cmap.key -> Ring.Cmap.key -> Quote.ConstrSet.t -> unit
+)
+ident(
+  ext_ref Ring.add_theory
+)
+"plugins/field/field.ml4" 82 2684 2706 "plugins/field/field.ml4" 82 2684 2710
+type(
+  bool
+)
+"plugins/field/field.ml4" 82 2684 2711 "plugins/field/field.ml4" 82 2684 2715
+type(
+  bool
+)
+"plugins/field/field.ml4" 82 2684 2716 "plugins/field/field.ml4" 82 2684 2721
+type(
+  bool
+)
+"plugins/field/field.ml4" 82 2684 2722 "plugins/field/field.ml4" 82 2684 2723
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref a "plugins/field/field.ml4" 78 2583 2597 "plugins/field/field.ml4" 78 2583 2598
+)
+"plugins/field/field.ml4" 82 2684 2724 "plugins/field/field.ml4" 82 2684 2728
+type(
+  Ring.Cmap.key option
+)
+"plugins/field/field.ml4" 82 2684 2729 "plugins/field/field.ml4" 82 2684 2733
+type(
+  Term.constr option
+)
+"plugins/field/field.ml4" 82 2684 2734 "plugins/field/field.ml4" 82 2684 2738
+type(
+  Ring.morph option
+)
+"plugins/field/field.ml4" 82 2684 2739 "plugins/field/field.ml4" 82 2684 2744
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref aplus "plugins/field/field.ml4" 78 2583 2599 "plugins/field/field.ml4" 78 2583 2604
+)
+"plugins/field/field.ml4" 82 2684 2745 "plugins/field/field.ml4" 82 2684 2750
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref amult "plugins/field/field.ml4" 78 2583 2605 "plugins/field/field.ml4" 78 2583 2610
+)
+"plugins/field/field.ml4" 82 2684 2751 "plugins/field/field.ml4" 82 2684 2755
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref aone "plugins/field/field.ml4" 78 2583 2611 "plugins/field/field.ml4" 78 2583 2615
+)
+"plugins/field/field.ml4" 82 2684 2756 "plugins/field/field.ml4" 82 2684 2761
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref azero "plugins/field/field.ml4" 78 2583 2616 "plugins/field/field.ml4" 78 2583 2621
+)
+"plugins/field/field.ml4" 83 2762 2776 "plugins/field/field.ml4" 83 2762 2780
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref aopp "plugins/field/field.ml4" 78 2583 2622 "plugins/field/field.ml4" 78 2583 2626
+)
+"plugins/field/field.ml4" 83 2762 2771 "plugins/field/field.ml4" 83 2762 2780
+type(
+  Ring.Cmap.key option
+)
+"plugins/field/field.ml4" 83 2762 2782 "plugins/field/field.ml4" 83 2762 2785
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref aeq "plugins/field/field.ml4" 78 2583 2627 "plugins/field/field.ml4" 78 2583 2630
+)
+"plugins/field/field.ml4" 83 2762 2786 "plugins/field/field.ml4" 83 2762 2789
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref rth "plugins/field/field.ml4" 78 2583 2652 "plugins/field/field.ml4" 78 2583 2655
+)
+"plugins/field/field.ml4" 83 2762 2790 "plugins/field/field.ml4" 83 2762 2811
+type(
+  Quote.ConstrSet.t
+)
+ident(
+  ext_ref Quote.ConstrSet.empty
+)
+"plugins/field/field.ml4" 82 2684 2690 "plugins/field/field.ml4" 82 2684 2811
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/field/field.ml4" 84 2812 2834 "plugins/field/field.ml4" 84 2812 2849
+type(
+  string
+)
+"plugins/field/field.ml4" 84 2812 2850 "plugins/field/field.ml4" 84 2812 2851
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 84 2812 2824 "plugins/field/field.ml4" 84 2812 2852
+type(
+  exn
+)
+"plugins/field/field.ml4" 84 2812 2856 "plugins/field/field.ml4" 84 2812 2858
+type(
+  unit
+)
+"plugins/field/field.ml4" 81 2675 2680 "plugins/field/field.ml4" 81 2675 2858
+type(
+  unit
+)
+"plugins/field/field.ml4" 85 2861 2869 "plugins/field/field.ml4" 85 2861 2871
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 85 2861 2874 "plugins/field/field.ml4" 85 2861 2879
+type(
+  Term.constr * Ring.Cmap.key array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/field/field.ml4" 85 2861 2882 "plugins/field/field.ml4" 85 2861 2890
+type(
+  string list -> string -> Term.constr
+)
+ident(
+  int_ref constant "plugins/field/field.ml4" 31 937 941 "plugins/field/field.ml4" 31 937 949
+)
+"plugins/field/field.ml4" 85 2861 2892 "plugins/field/field.ml4" 85 2861 2912
+type(
+  string
+)
+"plugins/field/field.ml4" 85 2861 2891 "plugins/field/field.ml4" 85 2861 2913
+type(
+  string list
+)
+type(
+  string list
+)
+"plugins/field/field.ml4" 85 2861 2914 "plugins/field/field.ml4" 85 2861 2934
+type(
+  string
+)
+"plugins/field/field.ml4" 85 2861 2882 "plugins/field/field.ml4" 85 2861 2934
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 86 2937 2945 "plugins/field/field.ml4" 86 2937 2946
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref a "plugins/field/field.ml4" 78 2583 2597 "plugins/field/field.ml4" 78 2583 2598
+)
+"plugins/field/field.ml4" 86 2937 2947 "plugins/field/field.ml4" 86 2937 2952
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref aplus "plugins/field/field.ml4" 78 2583 2599 "plugins/field/field.ml4" 78 2583 2604
+)
+"plugins/field/field.ml4" 86 2937 2953 "plugins/field/field.ml4" 86 2937 2958
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref amult "plugins/field/field.ml4" 78 2583 2605 "plugins/field/field.ml4" 78 2583 2610
+)
+"plugins/field/field.ml4" 86 2937 2959 "plugins/field/field.ml4" 86 2937 2963
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref aone "plugins/field/field.ml4" 78 2583 2611 "plugins/field/field.ml4" 78 2583 2615
+)
+"plugins/field/field.ml4" 86 2937 2964 "plugins/field/field.ml4" 86 2937 2969
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref azero "plugins/field/field.ml4" 78 2583 2616 "plugins/field/field.ml4" 78 2583 2621
+)
+"plugins/field/field.ml4" 86 2937 2970 "plugins/field/field.ml4" 86 2937 2974
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref aopp "plugins/field/field.ml4" 78 2583 2622 "plugins/field/field.ml4" 78 2583 2626
+)
+"plugins/field/field.ml4" 86 2937 2975 "plugins/field/field.ml4" 86 2937 2978
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref aeq "plugins/field/field.ml4" 78 2583 2627 "plugins/field/field.ml4" 78 2583 2630
+)
+"plugins/field/field.ml4" 86 2937 2979 "plugins/field/field.ml4" 86 2937 2983
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref ainv "plugins/field/field.ml4" 78 2583 2631 "plugins/field/field.ml4" 78 2583 2635
+)
+"plugins/field/field.ml4" 86 2937 2984 "plugins/field/field.ml4" 86 2937 2992
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref aminus_o "plugins/field/field.ml4" 78 2583 2636 "plugins/field/field.ml4" 78 2583 2644
+)
+"plugins/field/field.ml4" 86 2937 2993 "plugins/field/field.ml4" 86 2937 2999
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref adiv_o "plugins/field/field.ml4" 78 2583 2645 "plugins/field/field.ml4" 78 2583 2651
+)
+"plugins/field/field.ml4" 86 2937 3000 "plugins/field/field.ml4" 86 2937 3003
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref rth "plugins/field/field.ml4" 78 2583 2652 "plugins/field/field.ml4" 78 2583 2655
+)
+"plugins/field/field.ml4" 86 2937 3004 "plugins/field/field.ml4" 86 2937 3010
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref ainv_l "plugins/field/field.ml4" 79 2656 2658 "plugins/field/field.ml4" 79 2656 2664
+)
+"plugins/field/field.ml4" 86 2937 2943 "plugins/field/field.ml4" 86 2937 3012
+type(
+  Ring.Cmap.key array
+)
+"plugins/field/field.ml4" 85 2861 2881 "plugins/field/field.ml4" 85 2861 3012
+type(
+  Term.constr * Ring.Cmap.key array
+)
+"plugins/field/field.ml4" 85 2861 2874 "plugins/field/field.ml4" 85 2861 3013
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 88 3027 3037 "plugins/field/field.ml4" 88 3027 3038
+type(
+  Term.types
+)
+"plugins/field/field.ml4" 88 3027 3041 "plugins/field/field.ml4" 88 3027 3048
+type(
+  Environ.env -> Evd.evar_map -> Term.constr -> Term.types
+)
+ident(
+  ext_ref Typing.type_of
+)
+"plugins/field/field.ml4" 88 3027 3050 "plugins/field/field.ml4" 88 3027 3060
+type(
+  unit -> Environ.env
+)
+ident(
+  ext_ref Global.env
+)
+"plugins/field/field.ml4" 88 3027 3061 "plugins/field/field.ml4" 88 3027 3063
+type(
+  unit
+)
+"plugins/field/field.ml4" 88 3027 3050 "plugins/field/field.ml4" 88 3027 3063
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/field/field.ml4" 88 3027 3065 "plugins/field/field.ml4" 88 3027 3074
+type(
+  Evd.evar_map
+)
+ident(
+  ext_ref Evd.empty
+)
+"plugins/field/field.ml4" 88 3027 3075 "plugins/field/field.ml4" 88 3027 3077
+type(
+  Term.constr
+)
+ident(
+  int_ref th "plugins/field/field.ml4" 85 2861 2869 "plugins/field/field.ml4" 85 2861 2871
+)
+"plugins/field/field.ml4" 88 3027 3041 "plugins/field/field.ml4" 88 3027 3077
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/field/field.ml4" 88 3027 3081 "plugins/field/field.ml4" 88 3027 3083
+type(
+  unit
+)
+"plugins/field/field.ml4" 89 3085 3091 "plugins/field/field.ml4" 89 3085 3113
+type(
+  Libobject.obj -> unit
+)
+ident(
+  ext_ref Lib.add_anonymous_leaf
+)
+"plugins/field/field.ml4" 89 3085 3115 "plugins/field/field.ml4" 89 3085 3126
+type(
+  Ring.Cmap.key * Term.constr -> Libobject.obj
+)
+ident(
+  int_ref in_addfield "plugins/field/field.ml4" 70 2197 2202 "plugins/field/field.ml4" 70 2197 2213
+)
+"plugins/field/field.ml4" 89 3085 3128 "plugins/field/field.ml4" 89 3085 3129
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref a "plugins/field/field.ml4" 78 2583 2597 "plugins/field/field.ml4" 78 2583 2598
+)
+"plugins/field/field.ml4" 89 3085 3130 "plugins/field/field.ml4" 89 3085 3132
+type(
+  Term.constr
+)
+ident(
+  int_ref th "plugins/field/field.ml4" 85 2861 2869 "plugins/field/field.ml4" 85 2861 2871
+)
+"plugins/field/field.ml4" 89 3085 3128 "plugins/field/field.ml4" 89 3085 3132
+type(
+  Ring.Cmap.key * Term.constr
+)
+"plugins/field/field.ml4" 89 3085 3115 "plugins/field/field.ml4" 89 3085 3133
+call(
+  stack
+)
+type(
+  Libobject.obj
+)
+"plugins/field/field.ml4" 89 3085 3091 "plugins/field/field.ml4" 89 3085 3134
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/field/field.ml4" 88 3027 3081 "plugins/field/field.ml4" 88 3027 3134
+type(
+  unit
+)
+"plugins/field/field.ml4" 88 3027 3033 "plugins/field/field.ml4" 88 3027 3134
+type(
+  unit
+)
+"plugins/field/field.ml4" 85 2861 2865 "plugins/field/field.ml4" 85 2861 3142
+type(
+  unit
+)
+"plugins/field/field.ml4" 81 2675 2679 "plugins/field/field.ml4" 81 2675 3142
+type(
+  unit
+)
+"plugins/field/field.ml4" 79 2656 2658 "plugins/field/field.ml4" 79 2656 3148
+type(
+  Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 78 2583 2652 "plugins/field/field.ml4" 78 2583 3148
+type(
+  Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 78 2583 2645 "plugins/field/field.ml4" 78 2583 3148
+type(
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 78 2583 2636 "plugins/field/field.ml4" 78 2583 3148
+type(
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 78 2583 2631 "plugins/field/field.ml4" 78 2583 3148
+type(
+  Ring.Cmap.key ->
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 78 2583 2627 "plugins/field/field.ml4" 78 2583 3148
+type(
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 78 2583 2622 "plugins/field/field.ml4" 78 2583 3148
+type(
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 78 2583 2616 "plugins/field/field.ml4" 78 2583 3148
+type(
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 78 2583 2611 "plugins/field/field.ml4" 78 2583 3148
+type(
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 78 2583 2605 "plugins/field/field.ml4" 78 2583 3148
+type(
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 78 2583 2599 "plugins/field/field.ml4" 78 2583 3148
+type(
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 78 2583 2597 "plugins/field/field.ml4" 78 2583 3148
+type(
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+"plugins/field/field.ml4" 99 3248 3283 "plugins/field/field.ml4" 99 3248 3287
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref adiv "plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+)
+"plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit Tacexpr.typed_abstract_argument_type *
+  unit Pptactic.extra_genarg_printer
+)
+type(
+  unit Pptactic.extra_genarg_printer
+)
+type(
+  (Term.constr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  unit -> Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  string
+)
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.anomaly
+)
+type(
+  unit
+)
+type(
+  Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Term.constr -> Pp.std_ppcmds
+)
+type(
+  Term.constr -> Pp.std_ppcmds
+)
+type(
+  unit Tacexpr.typed_abstract_argument_type
+)
+ident(
+  int_ref wit_divarg "plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+)
+type(
+  unit Tacexpr.glob_abstract_argument_type *
+  unit Pptactic.glob_extra_genarg_printer
+)
+type(
+  unit Pptactic.glob_extra_genarg_printer
+)
+type(
+  (Genarg.rawconstr_and_expr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  unit -> Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  string
+)
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.anomaly
+)
+type(
+  unit
+)
+type(
+  Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Genarg.rawconstr_and_expr -> Pp.std_ppcmds
+)
+type(
+  Genarg.rawconstr_and_expr -> Pp.std_ppcmds
+)
+type(
+  unit Tacexpr.glob_abstract_argument_type
+)
+ident(
+  int_ref globwit_divarg "plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+)
+type(
+  Topconstr.constr_expr Tacexpr.raw_abstract_argument_type *
+  Topconstr.constr_expr Pptactic.raw_extra_genarg_printer
+)
+type(
+  Topconstr.constr_expr Pptactic.raw_extra_genarg_printer
+)
+type(
+  (Topconstr.constr_expr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds) ->
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds) ->
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  string
+)
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr Tacexpr.raw_abstract_argument_type
+)
+ident(
+  int_ref rawwit_divarg "plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+)
+type(
+  Topconstr.constr_expr Tacexpr.raw_abstract_argument_type *
+  Topconstr.constr_expr Pptactic.raw_extra_genarg_printer ->
+  unit Tacexpr.glob_abstract_argument_type *
+  unit Pptactic.glob_extra_genarg_printer ->
+  unit Tacexpr.typed_abstract_argument_type *
+  unit Pptactic.extra_genarg_printer -> unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_genarg_pprule
+)
+type(
+  unit
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  string option * Gramext.g_assoc option *
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Topconstr.constr_expr -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_a -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_b -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_c -> Topconstr.constr_expr
+)
+type(
+  '_c
+)
+ident(
+  def loc "plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+)
+type(
+  ('_c -> Topconstr.constr_expr) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_b
+)
+type(
+  ('_b -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_a
+)
+type(
+  ('_a -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref adiv "plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Topconstr.constr_expr -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def adiv "plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+)
+type(
+  (Topconstr.constr_expr -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Gramext.g_assoc option
+)
+type(
+  string option
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  Gramext.position option
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+ident(
+  int_ref divarg "plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e ->
+  Gramext.position option ->
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list -> unit
+)
+ident(
+  ext_ref Pcoq.Gram.extend
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_divarg "plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+)
+type(
+  string ->
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.create_generic_entry
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+ident(
+  def divarg "plugins/field/field.ml4" 98 3218 3218 --
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  string ->
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.create_arg
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  def rawwit_divarg "plugins/field/field.ml4" 98 3218 3218 --
+)
+type(
+  (unit, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  def globwit_divarg "plugins/field/field.ml4" 98 3218 3218 --
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  def wit_divarg "plugins/field/field.ml4" 98 3218 3218 --
+)
+"plugins/field/field.ml4" 103 3327 3366 "plugins/field/field.ml4" 103 3327 3372
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aminus "plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+)
+"plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit Tacexpr.typed_abstract_argument_type *
+  unit Pptactic.extra_genarg_printer
+)
+type(
+  unit Pptactic.extra_genarg_printer
+)
+type(
+  (Term.constr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  unit -> Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  string
+)
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.anomaly
+)
+type(
+  unit
+)
+type(
+  Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Term.constr -> Pp.std_ppcmds
+)
+type(
+  Term.constr -> Pp.std_ppcmds
+)
+type(
+  unit Tacexpr.typed_abstract_argument_type
+)
+ident(
+  int_ref wit_minusarg "plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+)
+type(
+  unit Tacexpr.glob_abstract_argument_type *
+  unit Pptactic.glob_extra_genarg_printer
+)
+type(
+  unit Pptactic.glob_extra_genarg_printer
+)
+type(
+  (Genarg.rawconstr_and_expr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  unit -> Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  string
+)
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.anomaly
+)
+type(
+  unit
+)
+type(
+  Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Genarg.rawconstr_and_expr -> Pp.std_ppcmds
+)
+type(
+  Genarg.rawconstr_and_expr -> Pp.std_ppcmds
+)
+type(
+  unit Tacexpr.glob_abstract_argument_type
+)
+ident(
+  int_ref globwit_minusarg "plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+)
+type(
+  Topconstr.constr_expr Tacexpr.raw_abstract_argument_type *
+  Topconstr.constr_expr Pptactic.raw_extra_genarg_printer
+)
+type(
+  Topconstr.constr_expr Pptactic.raw_extra_genarg_printer
+)
+type(
+  (Topconstr.constr_expr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds) ->
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds) ->
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  string
+)
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr Tacexpr.raw_abstract_argument_type
+)
+ident(
+  int_ref rawwit_minusarg "plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+)
+type(
+  Topconstr.constr_expr Tacexpr.raw_abstract_argument_type *
+  Topconstr.constr_expr Pptactic.raw_extra_genarg_printer ->
+  unit Tacexpr.glob_abstract_argument_type *
+  unit Pptactic.glob_extra_genarg_printer ->
+  unit Tacexpr.typed_abstract_argument_type *
+  unit Pptactic.extra_genarg_printer -> unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_genarg_pprule
+)
+type(
+  unit
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  string option * Gramext.g_assoc option *
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Topconstr.constr_expr -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_a -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_b -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_c -> Topconstr.constr_expr
+)
+type(
+  '_c
+)
+ident(
+  def loc "plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+)
+type(
+  ('_c -> Topconstr.constr_expr) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_b
+)
+type(
+  ('_b -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_a
+)
+type(
+  ('_a -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aminus "plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Topconstr.constr_expr -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def aminus "plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+)
+type(
+  (Topconstr.constr_expr -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Gramext.g_assoc option
+)
+type(
+  string option
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  Gramext.position option
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+ident(
+  int_ref minusarg "plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e ->
+  Gramext.position option ->
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list -> unit
+)
+ident(
+  ext_ref Pcoq.Gram.extend
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_minusarg "plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+)
+type(
+  string ->
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.create_generic_entry
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+ident(
+  def minusarg "plugins/field/field.ml4" 102 3295 3295 --
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  string ->
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.create_arg
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  def rawwit_minusarg "plugins/field/field.ml4" 102 3295 3295 --
+)
+type(
+  (unit, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  def globwit_minusarg "plugins/field/field.ml4" 102 3295 3295 --
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  def wit_minusarg "plugins/field/field.ml4" 102 3295 3295 --
+)
+"plugins/field/field.ml4" 117 3716 3720 "plugins/field/field.ml4" 117 3716 3736
+type(
+  ('a -> Pp.std_ppcmds) -> 'b -> 'c -> 'a option * 'a option -> Pp.std_ppcmds
+)
+ident(
+  def pp_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 --
+)
+"plugins/field/field.ml4" 117 3716 3737 "plugins/field/field.ml4" 117 3716 3741
+type(
+  'a -> Pp.std_ppcmds
+)
+ident(
+  def _prc "plugins/field/field.ml4" 117 3716 3742 "plugins/field/field.ml4" 117 3716 3943
+)
+"plugins/field/field.ml4" 117 3716 3742 "plugins/field/field.ml4" 117 3716 3747
+type(
+  'b
+)
+ident(
+  def _prlc "plugins/field/field.ml4" 117 3716 3748 "plugins/field/field.ml4" 117 3716 3943
+)
+"plugins/field/field.ml4" 117 3716 3748 "plugins/field/field.ml4" 117 3716 3752
+type(
+  'c
+)
+ident(
+  def _prt "plugins/field/field.ml4" 117 3716 3753 "plugins/field/field.ml4" 117 3716 3943
+)
+"plugins/field/field.ml4" 117 3716 3754 "plugins/field/field.ml4" 117 3716 3758
+type(
+  'a option
+)
+ident(
+  def omin "plugins/field/field.ml4" 118 3767 3769 "plugins/field/field.ml4" 118 3767 3943
+)
+"plugins/field/field.ml4" 117 3716 3759 "plugins/field/field.ml4" 117 3716 3763
+type(
+  'a option
+)
+ident(
+  def odiv "plugins/field/field.ml4" 118 3767 3769 "plugins/field/field.ml4" 118 3767 3943
+)
+"plugins/field/field.ml4" 117 3716 3754 "plugins/field/field.ml4" 117 3716 3763
+type(
+  'a option * 'a option
+)
+"plugins/field/field.ml4" 118 3767 3772 "plugins/field/field.ml4" 118 3767 3776
+type(
+  'a option
+)
+ident(
+  int_ref omin "plugins/field/field.ml4" 117 3716 3754 "plugins/field/field.ml4" 117 3716 3758
+)
+"plugins/field/field.ml4" 118 3767 3777 "plugins/field/field.ml4" 118 3767 3781
+type(
+  'a option
+)
+"plugins/field/field.ml4" 118 3767 3772 "plugins/field/field.ml4" 118 3767 3781
+type(
+  bool
+)
+type(
+  'a option -> 'a option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/field/field.ml4" 118 3767 3785 "plugins/field/field.ml4" 118 3767 3789
+type(
+  'a option
+)
+ident(
+  int_ref odiv "plugins/field/field.ml4" 117 3716 3759 "plugins/field/field.ml4" 117 3716 3763
+)
+"plugins/field/field.ml4" 118 3767 3790 "plugins/field/field.ml4" 118 3767 3794
+type(
+  'a option
+)
+"plugins/field/field.ml4" 118 3767 3785 "plugins/field/field.ml4" 118 3767 3794
+type(
+  bool
+)
+type(
+  'a option -> 'a option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/field/field.ml4" 118 3767 3772 "plugins/field/field.ml4" 118 3767 3794
+type(
+  bool
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/field/field.ml4" 118 3767 3800 "plugins/field/field.ml4" 118 3767 3802
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/field/field.ml4" 118 3767 3802 "plugins/field/field.ml4" 118 3767 3804
+type(
+  unit
+)
+"plugins/field/field.ml4" 118 3767 3800 "plugins/field/field.ml4" 118 3767 3804
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 119 3810 3814 "plugins/field/field.ml4" 119 3810 3817
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/field/field.ml4" 119 3810 3817 "plugins/field/field.ml4" 119 3810 3819
+type(
+  unit
+)
+"plugins/field/field.ml4" 119 3810 3814 "plugins/field/field.ml4" 119 3810 3819
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 119 3810 3823 "plugins/field/field.ml4" 119 3810 3826
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/field/field.ml4" 119 3810 3827 "plugins/field/field.ml4" 119 3810 3833
+type(
+  string
+)
+"plugins/field/field.ml4" 119 3810 3823 "plugins/field/field.ml4" 119 3810 3833
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 119 3810 3814 "plugins/field/field.ml4" 119 3810 3833
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/field/field.ml4" 120 3837 3841 "plugins/field/field.ml4" 120 3837 3847
+type(
+  ('a -> Pp.std_ppcmds) -> 'a option -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.pr_opt
+)
+"plugins/field/field.ml4" 120 3837 3853 "plugins/field/field.ml4" 120 3837 3854
+type(
+  'a
+)
+ident(
+  def c "plugins/field/field.ml4" 120 3837 3858 "plugins/field/field.ml4" 120 3837 3883
+)
+"plugins/field/field.ml4" 120 3837 3858 "plugins/field/field.ml4" 120 3837 3861
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/field/field.ml4" 120 3837 3862 "plugins/field/field.ml4" 120 3837 3873
+type(
+  string
+)
+"plugins/field/field.ml4" 120 3837 3858 "plugins/field/field.ml4" 120 3837 3873
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 120 3837 3877 "plugins/field/field.ml4" 120 3837 3881
+type(
+  'a -> Pp.std_ppcmds
+)
+ident(
+  int_ref _prc "plugins/field/field.ml4" 117 3716 3737 "plugins/field/field.ml4" 117 3716 3741
+)
+"plugins/field/field.ml4" 120 3837 3882 "plugins/field/field.ml4" 120 3837 3883
+type(
+  'a
+)
+ident(
+  int_ref c "plugins/field/field.ml4" 120 3837 3853 "plugins/field/field.ml4" 120 3837 3854
+)
+"plugins/field/field.ml4" 120 3837 3877 "plugins/field/field.ml4" 120 3837 3883
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 120 3837 3858 "plugins/field/field.ml4" 120 3837 3883
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/field/field.ml4" 120 3837 3849 "plugins/field/field.ml4" 120 3837 3883
+type(
+  'a -> Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 120 3837 3885 "plugins/field/field.ml4" 120 3837 3889
+type(
+  'a option
+)
+ident(
+  int_ref omin "plugins/field/field.ml4" 117 3716 3754 "plugins/field/field.ml4" 117 3716 3758
+)
+"plugins/field/field.ml4" 120 3837 3841 "plugins/field/field.ml4" 120 3837 3889
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 119 3810 3814 "plugins/field/field.ml4" 119 3810 3889
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/field/field.ml4" 121 3893 3897 "plugins/field/field.ml4" 121 3893 3903
+type(
+  ('a -> Pp.std_ppcmds) -> 'a option -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.pr_opt
+)
+"plugins/field/field.ml4" 121 3893 3909 "plugins/field/field.ml4" 121 3893 3910
+type(
+  'a
+)
+ident(
+  def c "plugins/field/field.ml4" 121 3893 3914 "plugins/field/field.ml4" 121 3893 3937
+)
+"plugins/field/field.ml4" 121 3893 3914 "plugins/field/field.ml4" 121 3893 3917
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/field/field.ml4" 121 3893 3918 "plugins/field/field.ml4" 121 3893 3927
+type(
+  string
+)
+"plugins/field/field.ml4" 121 3893 3914 "plugins/field/field.ml4" 121 3893 3927
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 121 3893 3931 "plugins/field/field.ml4" 121 3893 3935
+type(
+  'a -> Pp.std_ppcmds
+)
+ident(
+  int_ref _prc "plugins/field/field.ml4" 117 3716 3737 "plugins/field/field.ml4" 117 3716 3741
+)
+"plugins/field/field.ml4" 121 3893 3936 "plugins/field/field.ml4" 121 3893 3937
+type(
+  'a
+)
+ident(
+  int_ref c "plugins/field/field.ml4" 121 3893 3909 "plugins/field/field.ml4" 121 3893 3910
+)
+"plugins/field/field.ml4" 121 3893 3931 "plugins/field/field.ml4" 121 3893 3937
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 121 3893 3914 "plugins/field/field.ml4" 121 3893 3937
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/field/field.ml4" 121 3893 3905 "plugins/field/field.ml4" 121 3893 3937
+type(
+  'a -> Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 121 3893 3939 "plugins/field/field.ml4" 121 3893 3943
+type(
+  'a option
+)
+ident(
+  int_ref odiv "plugins/field/field.ml4" 117 3716 3759 "plugins/field/field.ml4" 117 3716 3763
+)
+"plugins/field/field.ml4" 121 3893 3897 "plugins/field/field.ml4" 121 3893 3943
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 119 3810 3814 "plugins/field/field.ml4" 119 3810 3943
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/field/field.ml4" 118 3767 3769 "plugins/field/field.ml4" 118 3767 3943
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 117 3716 3753 "plugins/field/field.ml4" 117 3716 3943
+type(
+  'a option * 'a option -> Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 117 3716 3748 "plugins/field/field.ml4" 117 3716 3943
+type(
+  'c -> 'a option * 'a option -> Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 117 3716 3742 "plugins/field/field.ml4" 117 3716 3943
+type(
+  'b -> 'c -> 'a option * 'a option -> Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 117 3716 3737 "plugins/field/field.ml4" 117 3716 3943
+type(
+  ('a -> Pp.std_ppcmds) -> 'b -> 'c -> 'a option * 'a option -> Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 132 4228 4277 "plugins/field/field.ml4" 132 4228 4278
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref m "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+"plugins/field/field.ml4" 132 4228 4272 "plugins/field/field.ml4" 132 4228 4278
+type(
+  Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 132 4228 4280 "plugins/field/field.ml4" 132 4228 4281
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  int_ref d "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+"plugins/field/field.ml4" 132 4228 4272 "plugins/field/field.ml4" 132 4228 4281
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 133 4284 4328 "plugins/field/field.ml4" 133 4284 4329
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  int_ref m "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+"plugins/field/field.ml4" 133 4284 4336 "plugins/field/field.ml4" 133 4284 4337
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref d "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+"plugins/field/field.ml4" 133 4284 4331 "plugins/field/field.ml4" 133 4284 4337
+type(
+  Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 133 4284 4328 "plugins/field/field.ml4" 133 4284 4337
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 134 4340 4351 "plugins/field/field.ml4" 134 4340 4355
+type(
+  Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 134 4340 4357 "plugins/field/field.ml4" 134 4340 4361
+type(
+  Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 134 4340 4351 "plugins/field/field.ml4" 134 4340 4361
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  (Term.constr option * Term.constr option)
+  Tacexpr.typed_abstract_argument_type *
+  (Term.constr option * Term.constr option) Pptactic.extra_genarg_printer
+)
+type(
+  (Term.constr option * Term.constr option) Pptactic.extra_genarg_printer
+)
+ident(
+  int_ref pp_minus_div_arg "plugins/field/field.ml4" 117 3716 3720 "plugins/field/field.ml4" 117 3716 3736
+)
+type(
+  (Term.constr option * Term.constr option)
+  Tacexpr.typed_abstract_argument_type
+)
+ident(
+  int_ref wit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option)
+  Tacexpr.glob_abstract_argument_type *
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option)
+  Pptactic.glob_extra_genarg_printer
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option)
+  Pptactic.glob_extra_genarg_printer
+)
+ident(
+  int_ref pp_minus_div_arg "plugins/field/field.ml4" 117 3716 3720 "plugins/field/field.ml4" 117 3716 3736
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option)
+  Tacexpr.glob_abstract_argument_type
+)
+ident(
+  int_ref globwit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Tacexpr.raw_abstract_argument_type *
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Pptactic.raw_extra_genarg_printer
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Pptactic.raw_extra_genarg_printer
+)
+ident(
+  int_ref pp_minus_div_arg "plugins/field/field.ml4" 117 3716 3720 "plugins/field/field.ml4" 117 3716 3736
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Tacexpr.raw_abstract_argument_type
+)
+ident(
+  int_ref rawwit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Tacexpr.raw_abstract_argument_type *
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Pptactic.raw_extra_genarg_printer ->
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option)
+  Tacexpr.glob_abstract_argument_type *
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option)
+  Pptactic.glob_extra_genarg_printer ->
+  (Term.constr option * Term.constr option)
+  Tacexpr.typed_abstract_argument_type *
+  (Term.constr option * Term.constr option) Pptactic.extra_genarg_printer ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_genarg_pprule
+)
+type(
+  unit
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  string option * Gramext.g_assoc option *
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Topconstr.constr_expr option -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Topconstr.constr_expr -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_a -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_b -> Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+type(
+  '_b
+)
+ident(
+  def loc "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  ('_b -> Topconstr.constr_expr option * Topconstr.constr_expr option) ->
+  Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_a
+)
+type(
+  ('_a -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref m "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_minusarg "plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Topconstr.constr_expr -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def m "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  int_ref d "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_divarg "plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Topconstr.constr_expr option -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  def d "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr option -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Topconstr.constr_expr option -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Topconstr.constr_expr -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_c -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_d -> Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+type(
+  '_d
+)
+ident(
+  def loc "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  ('_d -> Topconstr.constr_expr option * Topconstr.constr_expr option) ->
+  Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_c
+)
+type(
+  ('_c -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref d "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_divarg "plugins/field/field.ml4" 98 3218 3218 "plugins/field/field.ml4" 98 3218 3293
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Topconstr.constr_expr -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def d "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  int_ref m "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_minusarg "plugins/field/field.ml4" 102 3295 3295 "plugins/field/field.ml4" 102 3295 3378
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Topconstr.constr_expr option -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  def m "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr option -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_e -> Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+type(
+  '_e
+)
+ident(
+  def loc "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  ('_e -> Topconstr.constr_expr option * Topconstr.constr_expr option) ->
+  Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Gramext.g_assoc option
+)
+type(
+  string option
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  Gramext.position option
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Pcoq.Gram.Entry.e
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Pcoq.Gram.Entry.e
+)
+ident(
+  int_ref minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Pcoq.Gram.Entry.e ->
+  Gramext.position option ->
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list -> unit
+)
+ident(
+  ext_ref Pcoq.Gram.extend
+)
+type(
+  unit
+)
+type(
+  (Tacinterp.glob_sign ->
+   Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument) *
+  (Tacinterp.interp_sign ->
+   Proof_type.goal Tacmach.sigma ->
+   Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument) *
+  (Mod_subst.substitution ->
+   Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument)
+)
+type(
+  Mod_subst.substitution ->
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  int_ref x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  int_ref subst "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Mod_subst.substitution ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+ident(
+  int_ref x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_constr
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_constr
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_pair
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option ->
+  Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  int_ref s "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Mod_subst.substitution ->
+  Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Tacinterp.subst_genarg
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_constr
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_constr
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_pair
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+ident(
+  def x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  def s "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option ->
+  Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  def x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Mod_subst.substitution
+)
+ident(
+  def subst "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.interp_sign ->
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+type(
+  Term.constr option * Term.constr option
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  int_ref x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  int_ref ist "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.interp_sign ->
+  Proof_type.goal Tacmach.sigma ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option ->
+  Term.constr option * Term.constr option
+)
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option ->
+  Term.constr option * Term.constr option
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option ->
+  Term.constr option * Term.constr option
+)
+type(
+  Term.constr option * Term.constr option
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+ident(
+  int_ref x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_constr
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_constr
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_pair
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option ->
+  Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  int_ref ist "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.interp_sign ->
+  Proof_type.goal Tacmach.sigma ->
+  Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument
+)
+ident(
+  ext_ref Tacinterp.interp_genarg
+)
+type(
+  (Term.constr option * Term.constr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Term.constr option, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_constr
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Term.constr option, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Term.constr option, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_constr
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Term.constr option, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Term.constr option, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Term.constr option, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Term.constr option * Term.constr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_pair
+)
+type(
+  (Term.constr option * Term.constr option, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Term.constr option * Term.constr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+ident(
+  def x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  def ist "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Term.constr option * Term.constr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref wit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Term.constr option * Term.constr option, Genarg.tlevel)
+  Genarg.abstract_argument_type ->
+  Term.constr option * Term.constr option -> Tacexpr.typed_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+ident(
+  def x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.interp_sign
+)
+ident(
+  def ist "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.glob_sign ->
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument ->
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  int_ref e "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.glob_sign ->
+  Topconstr.constr_expr option * Topconstr.constr_expr option ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+type(
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+type(
+  Tacexpr.glob_generic_argument
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+ident(
+  int_ref x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Topconstr.constr_expr option, Genarg.rlevel) Genarg.abstract_argument_type ->
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_pair
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type ->
+  Topconstr.constr_expr option * Topconstr.constr_expr option ->
+  Tacexpr.raw_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  int_ref e "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.glob_sign ->
+  Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Tacinterp.intern_genarg
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_constr
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.globwit_constr
+)
+type(
+  (Genarg.rawconstr_and_expr, Genarg.glevel) Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_opt
+)
+type(
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option, Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_pair
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.glob_generic_argument ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+ident(
+  def x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  def e "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref globwit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type ->
+  Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option ->
+  Tacexpr.glob_generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  def x "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  Tacinterp.glob_sign
+)
+ident(
+  def e "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  string ->
+  (Tacinterp.glob_sign ->
+   Tacexpr.raw_generic_argument -> Tacexpr.glob_generic_argument) *
+  (Tacinterp.interp_sign ->
+   Proof_type.goal Tacmach.sigma ->
+   Tacexpr.glob_generic_argument -> Tacexpr.typed_generic_argument) *
+  (Mod_subst.substitution ->
+   Tacexpr.glob_generic_argument -> Tacexpr.glob_generic_argument) ->
+  unit
+)
+ident(
+  ext_ref Tacinterp.add_interp_genarg
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Pcoq.Gram.Entry.e
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  string ->
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type ->
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.create_generic_entry
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option)
+  Pcoq.Gram.Entry.e
+)
+ident(
+  def minus_div_arg "plugins/field/field.ml4" 129 4133 4133 --
+)
+type(
+  (Term.constr option * Term.constr option, Genarg.tlevel)
+  Genarg.abstract_argument_type *
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type *
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type
+)
+type(
+  string ->
+  (Term.constr option * Term.constr option, Genarg.tlevel)
+  Genarg.abstract_argument_type *
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type *
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.create_arg
+)
+type(
+  (Term.constr option * Term.constr option, Genarg.tlevel)
+  Genarg.abstract_argument_type *
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type *
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  def rawwit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 --
+)
+type(
+  (Genarg.rawconstr_and_expr option * Genarg.rawconstr_and_expr option,
+   Genarg.glevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  def globwit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 --
+)
+type(
+  (Term.constr option * Term.constr option, Genarg.tlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  def wit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 --
+)
+"plugins/field/field.ml4" 139 4424 4430 "plugins/field/field.ml4" 139 4424 4439
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 139 4424 4440 "plugins/field/field.ml4" 139 4424 4453
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 139 4424 4454 "plugins/field/field.ml4" 139 4424 4467
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 139 4424 4468 "plugins/field/field.ml4" 139 4424 4480
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 140 4481 4487 "plugins/field/field.ml4" 140 4481 4500
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 140 4481 4501 "plugins/field/field.ml4" 140 4481 4513
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 140 4481 4514 "plugins/field/field.ml4" 140 4481 4525
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 141 4526 4532 "plugins/field/field.ml4" 141 4526 4544
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 141 4526 4545 "plugins/field/field.ml4" 141 4526 4556
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 141 4526 4557 "plugins/field/field.ml4" 141 4526 4571
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 141 4526 4572 "plugins/field/field.ml4" 141 4526 4589
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 142 4592 4606 "plugins/field/field.ml4" 142 4592 4614
+type(
+  Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 142 4592 4616 "plugins/field/field.ml4" 142 4592 4622
+type(
+  Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 142 4592 4606 "plugins/field/field.ml4" 142 4592 4622
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+"plugins/field/field.ml4" 142 4592 4626 "plugins/field/field.ml4" 142 4592 4628
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+ident(
+  int_ref md "plugins/field/field.ml4" 141 4526 4399 "plugins/field/field.ml4" 141 4526 4918
+)
+"plugins/field/field.ml4" 143 4632 4641 "plugins/field/field.ml4" 143 4632 4650
+type(
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key ->
+  Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> Ring.Cmap.key -> unit
+)
+ident(
+  int_ref add_field "plugins/field/field.ml4" 78 2583 2587 "plugins/field/field.ml4" 78 2583 2596
+)
+"plugins/field/field.ml4" 144 4651 4663 "plugins/field/field.ml4" 144 4651 4672
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 144 4651 4673 "plugins/field/field.ml4" 144 4651 4674
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref a "plugins/field/field.ml4" 139 4424 4399 "plugins/field/field.ml4" 139 4424 4918
+)
+"plugins/field/field.ml4" 144 4651 4663 "plugins/field/field.ml4" 144 4651 4674
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 144 4651 4677 "plugins/field/field.ml4" 144 4651 4686
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 144 4651 4687 "plugins/field/field.ml4" 144 4651 4692
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aplus "plugins/field/field.ml4" 139 4424 4399 "plugins/field/field.ml4" 139 4424 4918
+)
+"plugins/field/field.ml4" 144 4651 4677 "plugins/field/field.ml4" 144 4651 4692
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 144 4651 4695 "plugins/field/field.ml4" 144 4651 4704
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 144 4651 4705 "plugins/field/field.ml4" 144 4651 4710
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref amult "plugins/field/field.ml4" 139 4424 4399 "plugins/field/field.ml4" 139 4424 4918
+)
+"plugins/field/field.ml4" 144 4651 4695 "plugins/field/field.ml4" 144 4651 4710
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 145 4712 4724 "plugins/field/field.ml4" 145 4712 4733
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 145 4712 4734 "plugins/field/field.ml4" 145 4712 4738
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aone "plugins/field/field.ml4" 139 4424 4399 "plugins/field/field.ml4" 139 4424 4918
+)
+"plugins/field/field.ml4" 145 4712 4724 "plugins/field/field.ml4" 145 4712 4738
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 145 4712 4741 "plugins/field/field.ml4" 145 4712 4750
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 145 4712 4751 "plugins/field/field.ml4" 145 4712 4756
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref azero "plugins/field/field.ml4" 140 4481 4399 "plugins/field/field.ml4" 140 4481 4918
+)
+"plugins/field/field.ml4" 145 4712 4741 "plugins/field/field.ml4" 145 4712 4756
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 145 4712 4759 "plugins/field/field.ml4" 145 4712 4768
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 145 4712 4769 "plugins/field/field.ml4" 145 4712 4773
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aopp "plugins/field/field.ml4" 140 4481 4399 "plugins/field/field.ml4" 140 4481 4918
+)
+"plugins/field/field.ml4" 145 4712 4759 "plugins/field/field.ml4" 145 4712 4773
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 146 4775 4787 "plugins/field/field.ml4" 146 4775 4796
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 146 4775 4797 "plugins/field/field.ml4" 146 4775 4800
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref aeq "plugins/field/field.ml4" 140 4481 4399 "plugins/field/field.ml4" 140 4481 4918
+)
+"plugins/field/field.ml4" 146 4775 4787 "plugins/field/field.ml4" 146 4775 4800
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 146 4775 4803 "plugins/field/field.ml4" 146 4775 4812
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 146 4775 4813 "plugins/field/field.ml4" 146 4775 4817
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref ainv "plugins/field/field.ml4" 141 4526 4399 "plugins/field/field.ml4" 141 4526 4918
+)
+"plugins/field/field.ml4" 146 4775 4803 "plugins/field/field.ml4" 146 4775 4817
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 146 4775 4820 "plugins/field/field.ml4" 146 4775 4833
+type(
+  Topconstr.constr_expr -> Topconstr.constr_expr option -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of_opt "plugins/field/field.ml4" 35 1108 1112 "plugins/field/field.ml4" 35 1108 1125
+)
+"plugins/field/field.ml4" 146 4775 4834 "plugins/field/field.ml4" 146 4775 4835
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref a "plugins/field/field.ml4" 139 4424 4399 "plugins/field/field.ml4" 139 4424 4918
+)
+"plugins/field/field.ml4" 146 4775 4836 "plugins/field/field.ml4" 146 4775 4844
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  int_ref aminus_o "plugins/field/field.ml4" 142 4592 4606 "plugins/field/field.ml4" 142 4592 4614
+)
+"plugins/field/field.ml4" 146 4775 4820 "plugins/field/field.ml4" 146 4775 4844
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 147 4846 4858 "plugins/field/field.ml4" 147 4846 4871
+type(
+  Topconstr.constr_expr -> Topconstr.constr_expr option -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of_opt "plugins/field/field.ml4" 35 1108 1112 "plugins/field/field.ml4" 35 1108 1125
+)
+"plugins/field/field.ml4" 147 4846 4872 "plugins/field/field.ml4" 147 4846 4873
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref a "plugins/field/field.ml4" 139 4424 4399 "plugins/field/field.ml4" 139 4424 4918
+)
+"plugins/field/field.ml4" 147 4846 4874 "plugins/field/field.ml4" 147 4846 4880
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  int_ref adiv_o "plugins/field/field.ml4" 142 4592 4616 "plugins/field/field.ml4" 142 4592 4622
+)
+"plugins/field/field.ml4" 147 4846 4858 "plugins/field/field.ml4" 147 4846 4880
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 147 4846 4883 "plugins/field/field.ml4" 147 4846 4892
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 147 4846 4893 "plugins/field/field.ml4" 147 4846 4896
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref rth "plugins/field/field.ml4" 141 4526 4399 "plugins/field/field.ml4" 141 4526 4918
+)
+"plugins/field/field.ml4" 147 4846 4883 "plugins/field/field.ml4" 147 4846 4896
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 147 4846 4899 "plugins/field/field.ml4" 147 4846 4908
+type(
+  Topconstr.constr_expr -> Ring.Cmap.key
+)
+ident(
+  int_ref constr_of "plugins/field/field.ml4" 28 832 836 "plugins/field/field.ml4" 28 832 845
+)
+"plugins/field/field.ml4" 147 4846 4909 "plugins/field/field.ml4" 147 4846 4915
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref ainv_l "plugins/field/field.ml4" 141 4526 4399 "plugins/field/field.ml4" 141 4526 4918
+)
+"plugins/field/field.ml4" 147 4846 4899 "plugins/field/field.ml4" 147 4846 4915
+call(
+  stack
+)
+type(
+  Ring.Cmap.key
+)
+"plugins/field/field.ml4" 143 4632 4641 "plugins/field/field.ml4" 143 4632 4916
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/field/field.ml4" 142 4592 4601 "plugins/field/field.ml4" 142 4592 4916
+type(
+  unit
+)
+"plugins/field/field.ml4" 141 4526 4399 "plugins/field/field.ml4" 141 4526 4918
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/field/field.ml4" 140 4481 4399 "plugins/field/field.ml4" 140 4481 4918
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/field/field.ml4" 139 4424 4399 "plugins/field/field.ml4" 139 4424 4918
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/field/field.ml4" 141 4526 4399 "plugins/field/field.ml4" 141 4526 4918
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/field/field.ml4" 140 4481 4399 "plugins/field/field.ml4" 140 4481 4918
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+"plugins/field/field.ml4" 139 4424 4399 "plugins/field/field.ml4" 139 4424 4918
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/field/field.ml4" 140 4481 4399 "plugins/field/field.ml4" 140 4481 4918
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/field/field.ml4" 141 4526 4399 "plugins/field/field.ml4" 141 4526 4918
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+"plugins/field/field.ml4" 138 4397 4399 "plugins/field/field.ml4" 138 4397 4918
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+"plugins/field/field.ml4" 141 4526 4399 "plugins/field/field.ml4" 141 4526 4918
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref md "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_minus_div_arg "plugins/field/field.ml4" 129 4133 4133 "plugins/field/field.ml4" 129 4133 4367
+)
+type(
+  (Topconstr.constr_expr option * Topconstr.constr_expr option,
+   Genarg.rlevel)
+  Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument ->
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr option * Topconstr.constr_expr option
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref ainv_l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref rth "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref ainv "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/field/field.ml4" 140 4481 4399 "plugins/field/field.ml4" 140 4481 4918
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aopp "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/field/field.ml4" 139 4424 4399 "plugins/field/field.ml4" 139 4424 4918
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/field/field.ml4" 140 4481 4399 "plugins/field/field.ml4" 140 4481 4918
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/field/field.ml4" 141 4526 4399 "plugins/field/field.ml4" 141 4526 4918
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+"plugins/field/field.ml4" 138 4397 4399 "plugins/field/field.ml4" 138 4397 4918
+type(
+  bool
+)
+"plugins/field/field.ml4" 141 4526 4399 "plugins/field/field.ml4" 141 4526 4918
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref md "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref ainv_l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref rth "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref ainv "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/field/field.ml4" 140 4481 4399 "plugins/field/field.ml4" 140 4481 4918
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aeq "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aopp "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref azero "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/field/field.ml4" 139 4424 4399 "plugins/field/field.ml4" 139 4424 4918
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aone "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref amult "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref aplus "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref a "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/field/field.ml4" 137 4369 4369 "plugins/field/field.ml4" 137 4369 4922
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/field/field.ml4" 137 4369 4369 "plugins/field/field.ml4" 137 4369 4922
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/field/field.ml4" 137 4369 4369 "plugins/field/field.ml4" 137 4369 4922
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/field/field.ml4" 151 4989 4993 "plugins/field/field.ml4" 151 4989 4998
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def field "plugins/field/field.ml4" 164 5594 5594 --
+)
+"plugins/field/field.ml4" 151 4989 4999 "plugins/field/field.ml4" 151 4989 5000
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def g "plugins/field/field.ml4" 152 5003 5005 "plugins/field/field.ml4" 152 5003 5512
+)
+"plugins/field/field.ml4" 152 5003 5005 "plugins/field/field.ml4" 152 5003 5034
+type(
+  string list -> unit
+)
+ident(
+  ext_ref Coqlib.check_required_library
+)
+"plugins/field/field.ml4" 152 5003 5036 "plugins/field/field.ml4" 152 5003 5041
+type(
+  string
+)
+"plugins/field/field.ml4" 152 5003 5042 "plugins/field/field.ml4" 152 5003 5049
+type(
+  string
+)
+"plugins/field/field.ml4" 152 5003 5050 "plugins/field/field.ml4" 152 5003 5063
+type(
+  string
+)
+"plugins/field/field.ml4" 152 5003 5035 "plugins/field/field.ml4" 152 5003 5064
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list
+)
+"plugins/field/field.ml4" 152 5003 5005 "plugins/field/field.ml4" 152 5003 5064
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/field/field.ml4" 153 5066 5072 "plugins/field/field.ml4" 153 5066 5075
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 154 5078 5092 "plugins/field/field.ml4" 154 5078 5121
+type(
+  Term.types ->
+  Coqlib.coq_eq_data option * Term.constr * Hipattern.equation_kind
+)
+ident(
+  ext_ref Hipattern.match_with_equation
+)
+"plugins/field/field.ml4" 154 5078 5123 "plugins/field/field.ml4" 154 5078 5131
+type(
+  Proof_type.goal Tacmach.sigma -> Term.types
+)
+ident(
+  ext_ref Tacmach.pf_concl
+)
+"plugins/field/field.ml4" 154 5078 5132 "plugins/field/field.ml4" 154 5078 5133
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref g "plugins/field/field.ml4" 151 4989 4999 "plugins/field/field.ml4" 151 4989 5000
+)
+"plugins/field/field.ml4" 154 5078 5123 "plugins/field/field.ml4" 154 5078 5133
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/field/field.ml4" 154 5078 5092 "plugins/field/field.ml4" 154 5078 5134
+call(
+  stack
+)
+type(
+  Coqlib.coq_eq_data option * Term.constr * Hipattern.equation_kind
+)
+"plugins/field/field.ml4" 155 5140 5148 "plugins/field/field.ml4" 155 5140 5149
+type(
+  Coqlib.coq_eq_data option
+)
+"plugins/field/field.ml4" 155 5140 5150 "plugins/field/field.ml4" 155 5140 5151
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 155 5140 5184 "plugins/field/field.ml4" 155 5140 5185
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/field/field.ml4" 155 5140 5194 "plugins/field/field.ml4" 155 5140 5195
+)
+"plugins/field/field.ml4" 155 5140 5186 "plugins/field/field.ml4" 155 5140 5187
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 155 5140 5188 "plugins/field/field.ml4" 155 5140 5189
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 155 5140 5152 "plugins/field/field.ml4" 155 5140 5190
+type(
+  Hipattern.equation_kind
+)
+"plugins/field/field.ml4" 155 5140 5148 "plugins/field/field.ml4" 155 5140 5190
+type(
+  Coqlib.coq_eq_data option * Term.constr * Hipattern.equation_kind
+)
+"plugins/field/field.ml4" 155 5140 5194 "plugins/field/field.ml4" 155 5140 5195
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/field/field.ml4" 155 5140 5184 "plugins/field/field.ml4" 155 5140 5185
+)
+"plugins/field/field.ml4" 156 5196 5204 "plugins/field/field.ml4" 156 5196 5205
+type(
+  Coqlib.coq_eq_data option * Term.constr * Hipattern.equation_kind
+)
+"plugins/field/field.ml4" 156 5196 5209 "plugins/field/field.ml4" 156 5196 5214
+type(
+  exn -> Term.constr
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/field/field.ml4" 156 5196 5215 "plugins/field/field.ml4" 156 5196 5219
+type(
+  exn
+)
+"plugins/field/field.ml4" 156 5196 5209 "plugins/field/field.ml4" 156 5196 5219
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 154 5078 5086 "plugins/field/field.ml4" 154 5078 5219
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 157 5220 5229 "plugins/field/field.ml4" 157 5220 5254
+type(
+  exn
+)
+"plugins/field/field.ml4" 157 5220 5257 "plugins/field/field.ml4" 157 5220 5261
+type(
+  exn
+)
+"plugins/field/field.ml4" 157 5220 5229 "plugins/field/field.ml4" 157 5220 5261
+type(
+  exn
+)
+"plugins/field/field.ml4" 158 5265 5271 "plugins/field/field.ml4" 158 5265 5276
+type(
+  string -> Term.constr
+)
+ident(
+  ext_ref Util.error
+)
+"plugins/field/field.ml4" 158 5265 5277 "plugins/field/field.ml4" 158 5265 5328
+type(
+  string
+)
+"plugins/field/field.ml4" 158 5265 5271 "plugins/field/field.ml4" 158 5265 5328
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 154 5078 5082 "plugins/field/field.ml4" 154 5078 5328
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 159 5332 5338 "plugins/field/field.ml4" 159 5332 5340
+type(
+  Tacinterp.value
+)
+"plugins/field/field.ml4" 159 5332 5352 "plugins/field/field.ml4" 159 5332 5354
+type(
+  Names.identifier list
+)
+"plugins/field/field.ml4" 159 5332 5355 "plugins/field/field.ml4" 159 5332 5361
+type(
+  Environ.env -> Ring.Cmap.key -> Term.constr
+)
+ident(
+  int_ref lookup "plugins/field/field.ml4" 45 1412 1416 "plugins/field/field.ml4" 45 1412 1422
+)
+"plugins/field/field.ml4" 159 5332 5363 "plugins/field/field.ml4" 159 5332 5369
+type(
+  Proof_type.goal Tacmach.sigma -> Environ.env
+)
+ident(
+  ext_ref Tacmach.pf_env
+)
+"plugins/field/field.ml4" 159 5332 5370 "plugins/field/field.ml4" 159 5332 5371
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref g "plugins/field/field.ml4" 151 4989 4999 "plugins/field/field.ml4" 151 4989 5000
+)
+"plugins/field/field.ml4" 159 5332 5363 "plugins/field/field.ml4" 159 5332 5371
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/field/field.ml4" 159 5332 5373 "plugins/field/field.ml4" 159 5332 5376
+type(
+  Ring.Cmap.key
+)
+ident(
+  int_ref typ "plugins/field/field.ml4" 153 5066 5072 "plugins/field/field.ml4" 153 5066 5075
+)
+"plugins/field/field.ml4" 159 5332 5355 "plugins/field/field.ml4" 159 5332 5376
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 159 5332 5343 "plugins/field/field.ml4" 159 5332 5377
+type(
+  Pattern.constr_under_binders
+)
+type(
+  Tacinterp.value
+)
+"plugins/field/field.ml4" 160 5381 5384 "plugins/field/field.ml4" 160 5381 5398
+type(
+  (Names.identifier * Tacinterp.value) list ->
+  Names.identifier list ->
+  Tactic_debug.debug_info -> Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp_tac_gen
+)
+"plugins/field/field.ml4" 160 5381 5401 "plugins/field/field.ml4" 160 5381 5413
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+"plugins/field/field.ml4" 160 5381 5414 "plugins/field/field.ml4" 160 5381 5418
+type(
+  string
+)
+"plugins/field/field.ml4" 160 5381 5401 "plugins/field/field.ml4" 160 5381 5418
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/field/field.ml4" 160 5381 5419 "plugins/field/field.ml4" 160 5381 5421
+type(
+  Tacinterp.value
+)
+ident(
+  int_ref th "plugins/field/field.ml4" 159 5332 5338 "plugins/field/field.ml4" 159 5332 5340
+)
+"plugins/field/field.ml4" 160 5381 5401 "plugins/field/field.ml4" 160 5381 5421
+type(
+  Names.identifier * Tacinterp.value
+)
+"plugins/field/field.ml4" 160 5381 5399 "plugins/field/field.ml4" 160 5381 5423
+type(
+  (Names.identifier * Tacinterp.value) list
+)
+type(
+  (Names.identifier * Tacinterp.value) list
+)
+"plugins/field/field.ml4" 160 5381 5424 "plugins/field/field.ml4" 160 5381 5426
+type(
+  Names.identifier list
+)
+"plugins/field/field.ml4" 160 5381 5428 "plugins/field/field.ml4" 160 5381 5437
+type(
+  unit -> Tactic_debug.debug_info
+)
+ident(
+  ext_ref Tacinterp.get_debug
+)
+"plugins/field/field.ml4" 160 5381 5438 "plugins/field/field.ml4" 160 5381 5440
+type(
+  unit
+)
+"plugins/field/field.ml4" 160 5381 5428 "plugins/field/field.ml4" 160 5381 5440
+call(
+  stack
+)
+type(
+  Tactic_debug.debug_info
+)
+"plugins/field/field.ml4" 161 5442 5446 "plugins/field/field.ml4" 161 5442 5509
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  (Topconstr.constr_pattern_expr,
+   (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+    Libnames.reference Genarg.or_by_notation,
+    Libnames.reference Genarg.or_by_notation, Libnames.reference,
+    Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+    Genarg.rlevel)
+   Tacexpr.gen_tactic_expr)
+  Tacexpr.match_rule list
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_expr
+)
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Evd.hole_kind option
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Evd.hole_kind option
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Evd.hole_kind option
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Topconstr.proj_flag * Libnames.reference
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Topconstr.proj_flag
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Topconstr.constr_pattern_expr
+)
+type(
+  Topconstr.constr_pattern_expr Tacexpr.match_pattern
+)
+type(
+  Topconstr.constr_pattern_expr Tacexpr.match_context_hyps list
+)
+type(
+  (Topconstr.constr_pattern_expr,
+   (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+    Libnames.reference Genarg.or_by_notation,
+    Libnames.reference Genarg.or_by_notation, Libnames.reference,
+    Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+    Genarg.rlevel)
+   Tacexpr.gen_tactic_expr)
+  Tacexpr.match_rule
+)
+type(
+  (Topconstr.constr_pattern_expr,
+   (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+    Libnames.reference Genarg.or_by_notation,
+    Libnames.reference Genarg.or_by_notation, Libnames.reference,
+    Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+    Genarg.rlevel)
+   Tacexpr.gen_tactic_expr)
+  Tacexpr.match_rule list
+)
+type(
+  Tacexpr.direction_flag
+)
+type(
+  Tacexpr.lazy_flag
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+"plugins/field/field.ml4" 161 5442 5511 "plugins/field/field.ml4" 161 5442 5512
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref g "plugins/field/field.ml4" 151 4989 4999 "plugins/field/field.ml4" 151 4989 5000
+)
+"plugins/field/field.ml4" 160 5381 5383 "plugins/field/field.ml4" 160 5381 5512
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/field/field.ml4" 159 5332 5334 "plugins/field/field.ml4" 159 5332 5512
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/field/field.ml4" 153 5066 5068 "plugins/field/field.ml4" 153 5066 5512
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/field/field.ml4" 152 5003 5005 "plugins/field/field.ml4" 152 5003 5512
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/field/field.ml4" 151 4989 4999 "plugins/field/field.ml4" 151 4989 5512
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/field/field.ml4" 164 5594 5598 "plugins/field/field.ml4" 164 5594 5610
+type(
+  Environ.env -> Evd.evar_map -> Term.constr list -> Term.constr
+)
+ident(
+  def guess_theory "plugins/field/field.ml4" 175 6014 6014 --
+)
+"plugins/field/field.ml4" 164 5594 5611 "plugins/field/field.ml4" 164 5594 5614
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/field/field.ml4" 164 5594 5615 "plugins/field/field.ml4" 164 5594 5946
+)
+"plugins/field/field.ml4" 164 5594 5615 "plugins/field/field.ml4" 164 5594 5618
+type(
+  Evd.evar_map
+)
+ident(
+  def evc "plugins/field/field.ml4" 164 5594 5621 "plugins/field/field.ml4" 164 5594 5946
+)
+"plugins/field/field.ml4" 165 5630 5634 "plugins/field/field.ml4" 165 5630 5635
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/field/field.ml4" 166 5643 5647 "plugins/field/field.ml4" 166 5643 5880
+)
+"plugins/field/field.ml4" 165 5630 5637 "plugins/field/field.ml4" 165 5630 5639
+type(
+  Term.constr list
+)
+ident(
+  def tl "plugins/field/field.ml4" 166 5643 5647 "plugins/field/field.ml4" 166 5643 5880
+)
+"plugins/field/field.ml4" 165 5630 5634 "plugins/field/field.ml4" 165 5630 5639
+type(
+  Term.constr list
+)
+"plugins/field/field.ml4" 166 5643 5651 "plugins/field/field.ml4" 166 5643 5652
+type(
+  Term.types
+)
+"plugins/field/field.ml4" 166 5643 5655 "plugins/field/field.ml4" 166 5643 5662
+type(
+  Environ.env -> Evd.evar_map -> Term.constr -> Term.types
+)
+ident(
+  ext_ref Typing.type_of
+)
+"plugins/field/field.ml4" 166 5643 5663 "plugins/field/field.ml4" 166 5643 5666
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/field/field.ml4" 164 5594 5611 "plugins/field/field.ml4" 164 5594 5614
+)
+"plugins/field/field.ml4" 166 5643 5667 "plugins/field/field.ml4" 166 5643 5670
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evc "plugins/field/field.ml4" 164 5594 5615 "plugins/field/field.ml4" 164 5594 5618
+)
+"plugins/field/field.ml4" 166 5643 5671 "plugins/field/field.ml4" 166 5643 5672
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/field/field.ml4" 165 5630 5634 "plugins/field/field.ml4" 165 5630 5635
+)
+"plugins/field/field.ml4" 166 5643 5655 "plugins/field/field.ml4" 166 5643 5672
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/field/field.ml4" 167 5676 5683 "plugins/field/field.ml4" 167 5676 5694
+type(
+  (Term.constr -> bool) -> Term.constr list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"plugins/field/field.ml4" 167 5676 5700 "plugins/field/field.ml4" 167 5676 5702
+type(
+  Term.constr
+)
+ident(
+  def c1 "plugins/field/field.ml4" 168 5706 5712 "plugins/field/field.ml4" 168 5706 5769
+)
+"plugins/field/field.ml4" 168 5706 5712 "plugins/field/field.ml4" 168 5706 5715
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/field/field.ml4" 168 5706 5717 "plugins/field/field.ml4" 168 5706 5737
+type(
+  Environ.env -> Evd.evar_map -> Term.types -> Term.types -> bool
+)
+ident(
+  ext_ref Reductionops.is_conv
+)
+"plugins/field/field.ml4" 168 5706 5738 "plugins/field/field.ml4" 168 5706 5741
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/field/field.ml4" 164 5594 5611 "plugins/field/field.ml4" 164 5594 5614
+)
+"plugins/field/field.ml4" 168 5706 5742 "plugins/field/field.ml4" 168 5706 5745
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evc "plugins/field/field.ml4" 164 5594 5615 "plugins/field/field.ml4" 164 5594 5618
+)
+"plugins/field/field.ml4" 168 5706 5746 "plugins/field/field.ml4" 168 5706 5747
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/field/field.ml4" 166 5643 5651 "plugins/field/field.ml4" 166 5643 5652
+)
+"plugins/field/field.ml4" 168 5706 5749 "plugins/field/field.ml4" 168 5706 5756
+type(
+  Environ.env -> Evd.evar_map -> Term.constr -> Term.types
+)
+ident(
+  ext_ref Typing.type_of
+)
+"plugins/field/field.ml4" 168 5706 5757 "plugins/field/field.ml4" 168 5706 5760
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/field/field.ml4" 164 5594 5611 "plugins/field/field.ml4" 164 5594 5614
+)
+"plugins/field/field.ml4" 168 5706 5761 "plugins/field/field.ml4" 168 5706 5764
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evc "plugins/field/field.ml4" 164 5594 5615 "plugins/field/field.ml4" 164 5594 5618
+)
+"plugins/field/field.ml4" 168 5706 5765 "plugins/field/field.ml4" 168 5706 5767
+type(
+  Term.constr
+)
+ident(
+  int_ref c1 "plugins/field/field.ml4" 167 5676 5700 "plugins/field/field.ml4" 167 5676 5702
+)
+"plugins/field/field.ml4" 168 5706 5749 "plugins/field/field.ml4" 168 5706 5767
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/field/field.ml4" 168 5706 5717 "plugins/field/field.ml4" 168 5706 5768
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/field/field.ml4" 168 5706 5712 "plugins/field/field.ml4" 168 5706 5769
+type(
+  bool
+)
+"plugins/field/field.ml4" 167 5676 5696 "plugins/field/field.ml4" 167 5676 5769
+type(
+  Term.constr -> bool
+)
+"plugins/field/field.ml4" 168 5706 5771 "plugins/field/field.ml4" 168 5706 5773
+type(
+  Term.constr list
+)
+ident(
+  int_ref tl "plugins/field/field.ml4" 165 5630 5637 "plugins/field/field.ml4" 165 5630 5639
+)
+"plugins/field/field.ml4" 167 5676 5683 "plugins/field/field.ml4" 167 5676 5773
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/field/field.ml4" 169 5779 5785 "plugins/field/field.ml4" 169 5779 5797
+type(
+  string -> Pp.std_ppcmds -> Term.constr
+)
+ident(
+  ext_ref Util.errorlabstrm
+)
+"plugins/field/field.ml4" 169 5779 5798 "plugins/field/field.ml4" 169 5779 5806
+type(
+  string
+)
+"plugins/field/field.ml4" 169 5779 5808 "plugins/field/field.ml4" 169 5779 5811
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/field/field.ml4" 169 5779 5811 "plugins/field/field.ml4" 169 5779 5851
+type(
+  string
+)
+"plugins/field/field.ml4" 169 5779 5808 "plugins/field/field.ml4" 169 5779 5851
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/field/field.ml4" 169 5779 5785 "plugins/field/field.ml4" 169 5779 5852
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 171 5862 5868 "plugins/field/field.ml4" 171 5862 5874
+type(
+  Environ.env -> Ring.Cmap.key -> Term.constr
+)
+ident(
+  int_ref lookup "plugins/field/field.ml4" 45 1412 1416 "plugins/field/field.ml4" 45 1412 1422
+)
+"plugins/field/field.ml4" 171 5862 5875 "plugins/field/field.ml4" 171 5862 5878
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/field/field.ml4" 164 5594 5611 "plugins/field/field.ml4" 164 5594 5614
+)
+"plugins/field/field.ml4" 171 5862 5879 "plugins/field/field.ml4" 171 5862 5880
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/field/field.ml4" 166 5643 5651 "plugins/field/field.ml4" 166 5643 5652
+)
+"plugins/field/field.ml4" 171 5862 5868 "plugins/field/field.ml4" 171 5862 5880
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 167 5676 5680 "plugins/field/field.ml4" 167 5676 5880
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 166 5643 5647 "plugins/field/field.ml4" 166 5643 5880
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 172 5881 5885 "plugins/field/field.ml4" 172 5881 5887
+type(
+  Term.constr list
+)
+"plugins/field/field.ml4" 172 5881 5891 "plugins/field/field.ml4" 172 5881 5898
+type(
+  string -> Term.constr
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/field/field.ml4" 172 5881 5899 "plugins/field/field.ml4" 172 5881 5946
+type(
+  string
+)
+"plugins/field/field.ml4" 172 5881 5891 "plugins/field/field.ml4" 172 5881 5946
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 164 5594 5621 "plugins/field/field.ml4" 164 5594 5946
+type(
+  Term.constr list -> Term.constr
+)
+"plugins/field/field.ml4" 164 5594 5615 "plugins/field/field.ml4" 164 5594 5946
+type(
+  Evd.evar_map -> Term.constr list -> Term.constr
+)
+"plugins/field/field.ml4" 164 5594 5611 "plugins/field/field.ml4" 164 5594 5946
+type(
+  Environ.env -> Evd.evar_map -> Term.constr list -> Term.constr
+)
+"plugins/field/field.ml4" 175 6014 6018 "plugins/field/field.ml4" 175 6014 6028
+type(
+  Term.constr list ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def field_term "plugins/field/field.ml4" 188 6486 6486 --
+)
+"plugins/field/field.ml4" 175 6014 6029 "plugins/field/field.ml4" 175 6014 6030
+type(
+  Term.constr list
+)
+ident(
+  def l "plugins/field/field.ml4" 175 6014 6031 "plugins/field/field.ml4" 175 6014 6456
+)
+"plugins/field/field.ml4" 175 6014 6031 "plugins/field/field.ml4" 175 6014 6032
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def g "plugins/field/field.ml4" 176 6035 6037 "plugins/field/field.ml4" 176 6035 6456
+)
+"plugins/field/field.ml4" 176 6035 6037 "plugins/field/field.ml4" 176 6035 6066
+type(
+  string list -> unit
+)
+ident(
+  ext_ref Coqlib.check_required_library
+)
+"plugins/field/field.ml4" 176 6035 6068 "plugins/field/field.ml4" 176 6035 6073
+type(
+  string
+)
+"plugins/field/field.ml4" 176 6035 6074 "plugins/field/field.ml4" 176 6035 6081
+type(
+  string
+)
+"plugins/field/field.ml4" 176 6035 6082 "plugins/field/field.ml4" 176 6035 6095
+type(
+  string
+)
+"plugins/field/field.ml4" 176 6035 6067 "plugins/field/field.ml4" 176 6035 6096
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list
+)
+type(
+  string list
+)
+"plugins/field/field.ml4" 176 6035 6037 "plugins/field/field.ml4" 176 6035 6096
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/field/field.ml4" 177 6098 6104 "plugins/field/field.ml4" 177 6098 6107
+type(
+  Environ.env
+)
+"plugins/field/field.ml4" 177 6098 6111 "plugins/field/field.ml4" 177 6098 6117
+type(
+  Proof_type.goal Tacmach.sigma -> Environ.env
+)
+ident(
+  ext_ref Tacmach.pf_env
+)
+"plugins/field/field.ml4" 177 6098 6118 "plugins/field/field.ml4" 177 6098 6119
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref g "plugins/field/field.ml4" 175 6014 6031 "plugins/field/field.ml4" 175 6014 6032
+)
+"plugins/field/field.ml4" 177 6098 6111 "plugins/field/field.ml4" 177 6098 6119
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/field/field.ml4" 178 6121 6127 "plugins/field/field.ml4" 178 6121 6130
+type(
+  Evd.evar_map
+)
+"plugins/field/field.ml4" 178 6121 6134 "plugins/field/field.ml4" 178 6121 6141
+type(
+  Proof_type.goal Tacmach.sigma -> Evd.evar_map
+)
+ident(
+  ext_ref Tacmach.project
+)
+"plugins/field/field.ml4" 178 6121 6142 "plugins/field/field.ml4" 178 6121 6143
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref g "plugins/field/field.ml4" 175 6014 6031 "plugins/field/field.ml4" 175 6014 6032
+)
+"plugins/field/field.ml4" 178 6121 6134 "plugins/field/field.ml4" 178 6121 6143
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/field/field.ml4" 179 6148 6154 "plugins/field/field.ml4" 179 6148 6156
+type(
+  Tacexpr.raw_tactic_arg
+)
+"plugins/field/field.ml4" 179 6148 6159 "plugins/field/field.ml4" 179 6148 6166
+type(
+  Tacinterp.value -> Tacexpr.raw_tactic_arg
+)
+ident(
+  ext_ref Tacinterp.valueIn
+)
+"plugins/field/field.ml4" 179 6148 6177 "plugins/field/field.ml4" 179 6148 6179
+type(
+  Names.identifier list
+)
+"plugins/field/field.ml4" 179 6148 6180 "plugins/field/field.ml4" 179 6148 6192
+type(
+  Environ.env -> Evd.evar_map -> Term.constr list -> Term.constr
+)
+ident(
+  int_ref guess_theory "plugins/field/field.ml4" 164 5594 5598 "plugins/field/field.ml4" 164 5594 5610
+)
+"plugins/field/field.ml4" 179 6148 6193 "plugins/field/field.ml4" 179 6148 6196
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/field/field.ml4" 177 6098 6104 "plugins/field/field.ml4" 177 6098 6107
+)
+"plugins/field/field.ml4" 179 6148 6197 "plugins/field/field.ml4" 179 6148 6200
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evc "plugins/field/field.ml4" 178 6121 6127 "plugins/field/field.ml4" 178 6121 6130
+)
+"plugins/field/field.ml4" 179 6148 6201 "plugins/field/field.ml4" 179 6148 6202
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/field/field.ml4" 175 6014 6029 "plugins/field/field.ml4" 175 6014 6030
+)
+"plugins/field/field.ml4" 179 6148 6180 "plugins/field/field.ml4" 179 6148 6202
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/field/field.ml4" 179 6148 6168 "plugins/field/field.ml4" 179 6148 6203
+type(
+  Pattern.constr_under_binders
+)
+type(
+  Tacinterp.value
+)
+"plugins/field/field.ml4" 179 6148 6159 "plugins/field/field.ml4" 179 6148 6204
+call(
+  stack
+)
+type(
+  Tacexpr.raw_tactic_arg
+)
+"plugins/field/field.ml4" 180 6205 6211 "plugins/field/field.ml4" 180 6205 6213
+type(
+  Tacexpr.raw_tactic_arg list
+)
+"plugins/field/field.ml4" 180 6205 6216 "plugins/field/field.ml4" 180 6205 6224
+type(
+  (Term.constr -> Tacexpr.raw_tactic_arg) ->
+  Term.constr list -> Tacexpr.raw_tactic_arg list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/field/field.ml4" 180 6205 6230 "plugins/field/field.ml4" 180 6205 6231
+type(
+  Term.constr
+)
+ident(
+  def x "plugins/field/field.ml4" 180 6205 6235 "plugins/field/field.ml4" 180 6205 6259
+)
+"plugins/field/field.ml4" 180 6205 6235 "plugins/field/field.ml4" 180 6205 6242
+type(
+  Tacinterp.value -> Tacexpr.raw_tactic_arg
+)
+ident(
+  ext_ref Tacinterp.valueIn
+)
+"plugins/field/field.ml4" 180 6205 6253 "plugins/field/field.ml4" 180 6205 6255
+type(
+  Names.identifier list
+)
+"plugins/field/field.ml4" 180 6205 6256 "plugins/field/field.ml4" 180 6205 6257
+type(
+  Term.constr
+)
+ident(
+  int_ref x "plugins/field/field.ml4" 180 6205 6230 "plugins/field/field.ml4" 180 6205 6231
+)
+"plugins/field/field.ml4" 180 6205 6244 "plugins/field/field.ml4" 180 6205 6258
+type(
+  Pattern.constr_under_binders
+)
+type(
+  Tacinterp.value
+)
+"plugins/field/field.ml4" 180 6205 6235 "plugins/field/field.ml4" 180 6205 6259
+call(
+  tail
+)
+type(
+  Tacexpr.raw_tactic_arg
+)
+"plugins/field/field.ml4" 180 6205 6226 "plugins/field/field.ml4" 180 6205 6259
+type(
+  Term.constr -> Tacexpr.raw_tactic_arg
+)
+"plugins/field/field.ml4" 180 6205 6262 "plugins/field/field.ml4" 180 6205 6280
+type(
+  Proof_type.goal Tacmach.sigma -> Term.constr list -> Term.constr list
+)
+ident(
+  ext_ref Quote.sort_subterm
+)
+"plugins/field/field.ml4" 180 6205 6281 "plugins/field/field.ml4" 180 6205 6282
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref g "plugins/field/field.ml4" 175 6014 6031 "plugins/field/field.ml4" 175 6014 6032
+)
+"plugins/field/field.ml4" 180 6205 6283 "plugins/field/field.ml4" 180 6205 6284
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/field/field.ml4" 175 6014 6029 "plugins/field/field.ml4" 175 6014 6030
+)
+"plugins/field/field.ml4" 180 6205 6262 "plugins/field/field.ml4" 180 6205 6284
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/field/field.ml4" 180 6205 6216 "plugins/field/field.ml4" 180 6205 6285
+call(
+  stack
+)
+type(
+  Tacexpr.raw_tactic_arg list
+)
+"plugins/field/field.ml4" 181 6289 6292 "plugins/field/field.ml4" 181 6289 6307
+type(
+  (Tacexpr.raw_tactic_arg -> Proof_type.tactic -> Proof_type.tactic) ->
+  Tacexpr.raw_tactic_arg list -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref List.fold_right
+)
+"plugins/field/field.ml4" 182 6308 6317 "plugins/field/field.ml4" 182 6308 6318
+type(
+  Tacexpr.raw_tactic_arg
+)
+ident(
+  def c "plugins/field/field.ml4" 182 6308 6319 "plugins/field/field.ml4" 182 6308 6430
+)
+"plugins/field/field.ml4" 182 6308 6319 "plugins/field/field.ml4" 182 6308 6320
+type(
+  Proof_type.tactic
+)
+ident(
+  def a "plugins/field/field.ml4" 183 6324 6329 "plugins/field/field.ml4" 183 6324 6430
+)
+"plugins/field/field.ml4" 183 6324 6333 "plugins/field/field.ml4" 183 6324 6336
+type(
+  Tacmach.tactic
+)
+"plugins/field/field.ml4" 183 6324 6340 "plugins/field/field.ml4" 183 6324 6356
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/field/field.ml4" 183 6324 6357 "plugins/field/field.ml4" 183 6324 6387
+call(
+  stack
+)
+type(
+  Tacexpr.raw_tactic_arg list
+)
+type(
+  Tacexpr.raw_tactic_arg list
+)
+type(
+  Tacexpr.raw_tactic_arg list
+)
+type(
+  Names.identifier Util.located
+)
+type(
+  Names.identifier
+)
+type(
+  string
+)
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  Libnames.reference
+)
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+type(
+  (Topconstr.constr_expr, Topconstr.constr_pattern_expr,
+   Libnames.reference Genarg.or_by_notation,
+   Libnames.reference Genarg.or_by_notation, Libnames.reference,
+   Names.identifier Util.located Tacexpr.or_metaid, Tacexpr.raw_tactic_expr,
+   Genarg.rlevel)
+  Tacexpr.gen_tactic_arg
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+"plugins/field/field.ml4" 183 6324 6340 "plugins/field/field.ml4" 183 6324 6387
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"" -1 0 6396 "" -1 0 6393
+type(
+  Tacexpr.raw_tactic_arg
+)
+ident(
+  int_ref th "plugins/field/field.ml4" 179 6148 6154 "plugins/field/field.ml4" 179 6148 6156
+)
+"" -1 0 6402 "" -1 0 6400
+type(
+  Tacexpr.raw_tactic_arg
+)
+ident(
+  int_ref c "plugins/field/field.ml4" 182 6308 6317 "plugins/field/field.ml4" 182 6308 6318
+)
+"plugins/field/field.ml4" 184 6392 6397 "plugins/field/field.ml4" 184 6392 6420
+type(
+  Proof_type.tactic -> Proof_type.tactic array -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENFIRSTn
+)
+"plugins/field/field.ml4" 184 6392 6421 "plugins/field/field.ml4" 184 6392 6424
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref tac "plugins/field/field.ml4" 183 6324 6333 "plugins/field/field.ml4" 183 6324 6336
+)
+"plugins/field/field.ml4" 184 6392 6427 "plugins/field/field.ml4" 184 6392 6428
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref a "plugins/field/field.ml4" 182 6308 6319 "plugins/field/field.ml4" 182 6308 6320
+)
+"plugins/field/field.ml4" 184 6392 6425 "plugins/field/field.ml4" 184 6392 6430
+type(
+  Proof_type.tactic array
+)
+"plugins/field/field.ml4" 184 6392 6397 "plugins/field/field.ml4" 184 6392 6430
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/field/field.ml4" 183 6324 6329 "plugins/field/field.ml4" 183 6324 6430
+type(
+  Proof_type.tactic
+)
+"plugins/field/field.ml4" 182 6308 6319 "plugins/field/field.ml4" 182 6308 6430
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+"plugins/field/field.ml4" 182 6308 6313 "plugins/field/field.ml4" 182 6308 6430
+type(
+  Tacexpr.raw_tactic_arg -> Proof_type.tactic -> Proof_type.tactic
+)
+"plugins/field/field.ml4" 184 6392 6432 "plugins/field/field.ml4" 184 6392 6434
+type(
+  Tacexpr.raw_tactic_arg list
+)
+ident(
+  int_ref nl "plugins/field/field.ml4" 180 6205 6211 "plugins/field/field.ml4" 180 6205 6213
+)
+"plugins/field/field.ml4" 184 6392 6435 "plugins/field/field.ml4" 184 6392 6453
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIDTAC
+)
+"plugins/field/field.ml4" 184 6392 6455 "plugins/field/field.ml4" 184 6392 6456
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref g "plugins/field/field.ml4" 175 6014 6031 "plugins/field/field.ml4" 175 6014 6032
+)
+"plugins/field/field.ml4" 181 6289 6291 "plugins/field/field.ml4" 181 6289 6456
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/field/field.ml4" 179 6148 6150 "plugins/field/field.ml4" 179 6148 6456
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/field/field.ml4" 177 6098 6100 "plugins/field/field.ml4" 177 6098 6456
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/field/field.ml4" 176 6035 6037 "plugins/field/field.ml4" 176 6035 6456
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/field/field.ml4" 175 6014 6031 "plugins/field/field.ml4" 175 6014 6456
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/field/field.ml4" 175 6014 6029 "plugins/field/field.ml4" 175 6014 6456
+type(
+  Term.constr list ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/field/field.ml4" 189 6513 6541 "plugins/field/field.ml4" 189 6513 6546
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+ident(
+  int_ref field "plugins/field/field.ml4" 151 4989 4993 "plugins/field/field.ml4" 151 4989 4998
+)
+type(
+  bool
+)
+"plugins/field/field.ml4" 190 6549 6570 "plugins/field/field.ml4" 190 6549 6587
+type(
+  string option
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Genarg.argument_type
+)
+"plugins/field/field.ml4" 190 6549 6595 "plugins/field/field.ml4" 190 6549 6605
+type(
+  Term.constr list -> Tacmach.tactic
+)
+ident(
+  int_ref field_term "plugins/field/field.ml4" 175 6014 6018 "plugins/field/field.ml4" 175 6014 6028
+)
+"plugins/field/field.ml4" 190 6549 6606 "plugins/field/field.ml4" 190 6549 6607
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/field/field.ml4" 190 6549 6570 "plugins/field/field.ml4" 190 6549 6607
+)
+"plugins/field/field.ml4" 190 6549 6595 "plugins/field/field.ml4" 190 6549 6607
+call(
+  tail
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals)
+)
+type(
+  int * Pptactic.grammar_terminals
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  bool
+)
+"plugins/field/field.ml4" 190 6549 6570 "plugins/field/field.ml4" 190 6549 6607
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Genarg.argument_type list
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Tacmach.tactic
+)
+type(
+  Term.constr list
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  (Term.constr list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_constr
+)
+type(
+  (Term.constr, Genarg.tlevel) Genarg.abstract_argument_type ->
+  (Term.constr list, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.wit_list1
+)
+type(
+  (Term.constr list, Genarg.tlevel) Genarg.abstract_argument_type ->
+  Tacexpr.typed_generic_argument -> Term.constr list
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Term.constr list
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.typed_generic_argument
+)
+ident(
+  int_ref l "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.typed_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/field/field.ml4" 188 6486 6486 "plugins/field/field.ml4" 188 6486 6613
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+  unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_tactic_pprule
+)
+type(
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals) ->
+   unit) ->
+  (string * Genarg.argument_type list * (int * Pptactic.grammar_terminals))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_tactic_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/field/field.ml4" 188 6486 6486 "plugins/field/field.ml4" 188 6486 6613
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/field/field.ml4" 188 6486 6486 "plugins/field/field.ml4" 188 6486 6613
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string -> unit
+)
+type(
+  unit
+)
+type(
+  Genarg.glevel Genarg.generic_argument list
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/field/field.ml4" 188 6486 6486 "plugins/field/field.ml4" 188 6486 6613
+)
+type(
+  (Genarg.rawconstr_and_expr,
+   Genarg.rawconstr_and_expr * Pattern.constr_pattern,
+   Names.evaluable_global_reference Genarg.and_short_name Rawterm.or_var,
+   Names.inductive Rawterm.or_var,
+   Nametab.ltac_constant Util.located Rawterm.or_var,
+   Names.identifier Util.located, Tacexpr.glob_tactic_expr, Genarg.glevel)
+  Tacexpr.gen_atomic_tactic_expr
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+type(
+  string
+)
+ident(
+  int_ref s "plugins/field/field.ml4" 188 6486 6486 "plugins/field/field.ml4" 188 6486 6613
+)
+type(
+  string -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Tacinterp.add_primitive_tactic
+)
+type(
+  string
+)
+ident(
+  def s "plugins/field/field.ml4" 188 6486 6486 "plugins/field/field.ml4" 188 6486 6613
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  Tacexpr.typed_generic_argument list -> Tacmach.tactic
+)
+type(
+  string -> (Tacexpr.typed_generic_argument list -> Tacmach.tactic) -> unit
+)
+ident(
+  ext_ref Tacinterp.add_tactic
+)
+type(
+  unit
+)

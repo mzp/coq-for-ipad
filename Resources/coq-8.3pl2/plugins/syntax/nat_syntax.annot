@@ -1,0 +1,850 @@
+"plugins/syntax/nat_syntax.ml" 33 973 977 "plugins/syntax/nat_syntax.ml" 33 973 987
+type(
+  Util.loc -> Bigint.bigint -> Rawterm.rawconstr
+)
+ident(
+  def nat_of_int "plugins/syntax/nat_syntax.ml" 58 1814 1814 --
+)
+"plugins/syntax/nat_syntax.ml" 33 973 988 "plugins/syntax/nat_syntax.ml" 33 973 992
+type(
+  Util.loc
+)
+ident(
+  def dloc "plugins/syntax/nat_syntax.ml" 33 973 993 "plugins/syntax/nat_syntax.ml" 53 1637 1710
+)
+"plugins/syntax/nat_syntax.ml" 33 973 993 "plugins/syntax/nat_syntax.ml" 33 973 994
+type(
+  Bigint.bigint
+)
+ident(
+  def n "plugins/syntax/nat_syntax.ml" 34 997 999 "plugins/syntax/nat_syntax.ml" 53 1637 1710
+)
+"plugins/syntax/nat_syntax.ml" 34 997 1002 "plugins/syntax/nat_syntax.ml" 34 997 1016
+type(
+  Bigint.bigint -> bool
+)
+ident(
+  ext_ref Bigint.is_pos_or_zero
+)
+"plugins/syntax/nat_syntax.ml" 34 997 1017 "plugins/syntax/nat_syntax.ml" 34 997 1018
+type(
+  Bigint.bigint
+)
+ident(
+  int_ref n "plugins/syntax/nat_syntax.ml" 33 973 993 "plugins/syntax/nat_syntax.ml" 33 973 994
+)
+"plugins/syntax/nat_syntax.ml" 34 997 1002 "plugins/syntax/nat_syntax.ml" 34 997 1018
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/syntax/nat_syntax.ml" 35 1030 1039 "plugins/syntax/nat_syntax.ml" 35 1030 1048
+type(
+  Bigint.bigint -> Bigint.bigint -> bool
+)
+ident(
+  ext_ref Bigint.less_than
+)
+"plugins/syntax/nat_syntax.ml" 35 1030 1050 "plugins/syntax/nat_syntax.ml" 35 1030 1059
+type(
+  string -> Bigint.bigint
+)
+ident(
+  ext_ref Bigint.of_string
+)
+"plugins/syntax/nat_syntax.ml" 35 1030 1060 "plugins/syntax/nat_syntax.ml" 35 1030 1066
+type(
+  string
+)
+"plugins/syntax/nat_syntax.ml" 35 1030 1049 "plugins/syntax/nat_syntax.ml" 35 1030 1067
+call(
+  stack
+)
+type(
+  Bigint.bigint
+)
+"plugins/syntax/nat_syntax.ml" 35 1030 1068 "plugins/syntax/nat_syntax.ml" 35 1030 1069
+type(
+  Bigint.bigint
+)
+ident(
+  int_ref n "plugins/syntax/nat_syntax.ml" 33 973 993 "plugins/syntax/nat_syntax.ml" 33 973 994
+)
+"plugins/syntax/nat_syntax.ml" 35 1030 1039 "plugins/syntax/nat_syntax.ml" 35 1030 1069
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/syntax/nat_syntax.ml" 36 1075 1076 "plugins/syntax/nat_syntax.ml" 36 1075 1089
+type(
+  (Pp.std_ppcmds -> unit) -> Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Flags.if_warn
+)
+"plugins/syntax/nat_syntax.ml" 36 1075 1090 "plugins/syntax/nat_syntax.ml" 36 1075 1101
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msg_warning
+)
+"plugins/syntax/nat_syntax.ml" 37 1102 1106 "plugins/syntax/nat_syntax.ml" 37 1102 1112
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.strbrk
+)
+"plugins/syntax/nat_syntax.ml" 37 1102 1113 "plugins/syntax/nat_syntax.ml" 37 1102 1165
+type(
+  string
+)
+"plugins/syntax/nat_syntax.ml" 37 1102 1106 "plugins/syntax/nat_syntax.ml" 37 1102 1165
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/syntax/nat_syntax.ml" 37 1102 1166 "plugins/syntax/nat_syntax.ml" 37 1102 1168
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/syntax/nat_syntax.ml" 38 1169 1173 "plugins/syntax/nat_syntax.ml" 38 1169 1179
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.strbrk
+)
+"plugins/syntax/nat_syntax.ml" 38 1169 1180 "plugins/syntax/nat_syntax.ml" 38 1169 1236
+type(
+  string
+)
+"plugins/syntax/nat_syntax.ml" 38 1169 1173 "plugins/syntax/nat_syntax.ml" 38 1169 1236
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/syntax/nat_syntax.ml" 37 1102 1106 "plugins/syntax/nat_syntax.ml" 38 1169 1236
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/syntax/nat_syntax.ml" 38 1169 1237 "plugins/syntax/nat_syntax.ml" 38 1169 1239
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/syntax/nat_syntax.ml" 39 1240 1244 "plugins/syntax/nat_syntax.ml" 39 1240 1250
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.strbrk
+)
+"plugins/syntax/nat_syntax.ml" 39 1240 1251 "plugins/syntax/nat_syntax.ml" 39 1240 1306
+type(
+  string
+)
+"plugins/syntax/nat_syntax.ml" 39 1240 1244 "plugins/syntax/nat_syntax.ml" 39 1240 1306
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/syntax/nat_syntax.ml" 37 1102 1106 "plugins/syntax/nat_syntax.ml" 39 1240 1306
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/syntax/nat_syntax.ml" 39 1240 1307 "plugins/syntax/nat_syntax.ml" 39 1240 1309
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/syntax/nat_syntax.ml" 40 1310 1314 "plugins/syntax/nat_syntax.ml" 40 1310 1320
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.strbrk
+)
+"plugins/syntax/nat_syntax.ml" 40 1310 1321 "plugins/syntax/nat_syntax.ml" 40 1310 1359
+type(
+  string
+)
+"plugins/syntax/nat_syntax.ml" 40 1310 1314 "plugins/syntax/nat_syntax.ml" 40 1310 1359
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/syntax/nat_syntax.ml" 37 1102 1105 "plugins/syntax/nat_syntax.ml" 40 1310 1360
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/syntax/nat_syntax.ml" 36 1075 1076 "plugins/syntax/nat_syntax.ml" 40 1310 1360
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/syntax/nat_syntax.ml" 35 1030 1036 "plugins/syntax/nat_syntax.ml" 40 1310 1360
+type(
+  unit
+)
+"plugins/syntax/nat_syntax.ml" 41 1362 1372 "plugins/syntax/nat_syntax.ml" 41 1362 1377
+type(
+  Rawterm.rawconstr
+)
+ident(
+  def ref_O "plugins/syntax/nat_syntax.ml" 42 1403 1409 "plugins/syntax/nat_syntax.ml" 49 1561 1581
+)
+"plugins/syntax/nat_syntax.ml" 41 1362 1386 "plugins/syntax/nat_syntax.ml" 41 1362 1390
+type(
+  Util.loc
+)
+ident(
+  int_ref dloc "plugins/syntax/nat_syntax.ml" 33 973 988 "plugins/syntax/nat_syntax.ml" 33 973 992
+)
+"plugins/syntax/nat_syntax.ml" 41 1362 1392 "plugins/syntax/nat_syntax.ml" 41 1362 1398
+type(
+  Libnames.global_reference
+)
+ident(
+  ext_ref Coqlib.glob_O
+)
+"plugins/syntax/nat_syntax.ml" 41 1362 1385 "plugins/syntax/nat_syntax.ml" 41 1362 1399
+type(
+  Util.loc * Libnames.global_reference
+)
+"plugins/syntax/nat_syntax.ml" 41 1362 1380 "plugins/syntax/nat_syntax.ml" 41 1362 1399
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 42 1403 1413 "plugins/syntax/nat_syntax.ml" 42 1403 1418
+type(
+  Rawterm.rawconstr
+)
+ident(
+  def ref_S "plugins/syntax/nat_syntax.ml" 43 1444 1450 "plugins/syntax/nat_syntax.ml" 49 1561 1581
+)
+"plugins/syntax/nat_syntax.ml" 42 1403 1427 "plugins/syntax/nat_syntax.ml" 42 1403 1431
+type(
+  Util.loc
+)
+ident(
+  int_ref dloc "plugins/syntax/nat_syntax.ml" 33 973 988 "plugins/syntax/nat_syntax.ml" 33 973 992
+)
+"plugins/syntax/nat_syntax.ml" 42 1403 1433 "plugins/syntax/nat_syntax.ml" 42 1403 1439
+type(
+  Libnames.global_reference
+)
+ident(
+  ext_ref Coqlib.glob_S
+)
+"plugins/syntax/nat_syntax.ml" 42 1403 1426 "plugins/syntax/nat_syntax.ml" 42 1403 1440
+type(
+  Util.loc * Libnames.global_reference
+)
+"plugins/syntax/nat_syntax.ml" 42 1403 1421 "plugins/syntax/nat_syntax.ml" 42 1403 1440
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 43 1444 1458 "plugins/syntax/nat_syntax.ml" 43 1444 1464
+type(
+  Rawterm.rawconstr -> Bigint.bigint -> Rawterm.rawconstr
+)
+ident(
+  def mk_nat "plugins/syntax/nat_syntax.ml" 43 1444 1450 "plugins/syntax/nat_syntax.ml" 49 1561 1581
+)
+"plugins/syntax/nat_syntax.ml" 43 1444 1465 "plugins/syntax/nat_syntax.ml" 43 1444 1468
+type(
+  Rawterm.rawconstr
+)
+ident(
+  def acc "plugins/syntax/nat_syntax.ml" 43 1444 1469 "plugins/syntax/nat_syntax.ml" 47 1545 1551
+)
+"plugins/syntax/nat_syntax.ml" 43 1444 1469 "plugins/syntax/nat_syntax.ml" 43 1444 1470
+type(
+  Bigint.bigint
+)
+ident(
+  def n "plugins/syntax/nat_syntax.ml" 44 1473 1474 "plugins/syntax/nat_syntax.ml" 47 1545 1551
+)
+"plugins/syntax/nat_syntax.ml" 44 1473 1477 "plugins/syntax/nat_syntax.ml" 44 1473 1478
+type(
+  Bigint.bigint
+)
+ident(
+  int_ref n "plugins/syntax/nat_syntax.ml" 43 1444 1469 "plugins/syntax/nat_syntax.ml" 43 1444 1470
+)
+"plugins/syntax/nat_syntax.ml" 44 1473 1479 "plugins/syntax/nat_syntax.ml" 44 1473 1481
+type(
+  Bigint.bigint -> Bigint.bigint -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"plugins/syntax/nat_syntax.ml" 44 1473 1482 "plugins/syntax/nat_syntax.ml" 44 1473 1486
+type(
+  Bigint.bigint
+)
+ident(
+  ext_ref Bigint.zero
+)
+"plugins/syntax/nat_syntax.ml" 44 1473 1477 "plugins/syntax/nat_syntax.ml" 44 1473 1486
+type(
+  bool
+)
+"plugins/syntax/nat_syntax.ml" 45 1492 1495 "plugins/syntax/nat_syntax.ml" 45 1492 1501
+type(
+  Rawterm.rawconstr -> Bigint.bigint -> Rawterm.rawconstr
+)
+ident(
+  int_ref mk_nat "plugins/syntax/nat_syntax.ml" 43 1444 1458 "plugins/syntax/nat_syntax.ml" 43 1444 1464
+)
+"plugins/syntax/nat_syntax.ml" 45 1492 1509 "plugins/syntax/nat_syntax.ml" 45 1492 1513
+type(
+  Util.loc
+)
+ident(
+  int_ref dloc "plugins/syntax/nat_syntax.ml" 33 973 988 "plugins/syntax/nat_syntax.ml" 33 973 992
+)
+"plugins/syntax/nat_syntax.ml" 45 1492 1514 "plugins/syntax/nat_syntax.ml" 45 1492 1519
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref ref_S "plugins/syntax/nat_syntax.ml" 42 1403 1413 "plugins/syntax/nat_syntax.ml" 42 1403 1418
+)
+"plugins/syntax/nat_syntax.ml" 45 1492 1522 "plugins/syntax/nat_syntax.ml" 45 1492 1525
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref acc "plugins/syntax/nat_syntax.ml" 43 1444 1465 "plugins/syntax/nat_syntax.ml" 43 1444 1468
+)
+"plugins/syntax/nat_syntax.ml" 45 1492 1521 "plugins/syntax/nat_syntax.ml" 45 1492 1526
+type(
+  Rawterm.rawconstr list
+)
+"plugins/syntax/nat_syntax.ml" 45 1492 1502 "plugins/syntax/nat_syntax.ml" 45 1492 1528
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 45 1492 1530 "plugins/syntax/nat_syntax.ml" 45 1492 1535
+type(
+  Bigint.bigint -> Bigint.bigint
+)
+ident(
+  ext_ref Bigint.sub_1
+)
+"plugins/syntax/nat_syntax.ml" 45 1492 1536 "plugins/syntax/nat_syntax.ml" 45 1492 1537
+type(
+  Bigint.bigint
+)
+ident(
+  int_ref n "plugins/syntax/nat_syntax.ml" 43 1444 1469 "plugins/syntax/nat_syntax.ml" 43 1444 1470
+)
+"plugins/syntax/nat_syntax.ml" 45 1492 1529 "plugins/syntax/nat_syntax.ml" 45 1492 1538
+call(
+  stack
+)
+type(
+  Bigint.bigint
+)
+"plugins/syntax/nat_syntax.ml" 45 1492 1495 "plugins/syntax/nat_syntax.ml" 45 1492 1538
+call(
+  tail
+)
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 47 1545 1548 "plugins/syntax/nat_syntax.ml" 47 1545 1551
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref acc "plugins/syntax/nat_syntax.ml" 43 1444 1465 "plugins/syntax/nat_syntax.ml" 43 1444 1468
+)
+"plugins/syntax/nat_syntax.ml" 44 1473 1474 "plugins/syntax/nat_syntax.ml" 47 1545 1551
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 49 1561 1567 "plugins/syntax/nat_syntax.ml" 49 1561 1573
+type(
+  Rawterm.rawconstr -> Bigint.bigint -> Rawterm.rawconstr
+)
+ident(
+  int_ref mk_nat "plugins/syntax/nat_syntax.ml" 43 1444 1458 "plugins/syntax/nat_syntax.ml" 43 1444 1464
+)
+"plugins/syntax/nat_syntax.ml" 49 1561 1574 "plugins/syntax/nat_syntax.ml" 49 1561 1579
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref ref_O "plugins/syntax/nat_syntax.ml" 41 1362 1372 "plugins/syntax/nat_syntax.ml" 41 1362 1377
+)
+"plugins/syntax/nat_syntax.ml" 49 1561 1580 "plugins/syntax/nat_syntax.ml" 49 1561 1581
+type(
+  Bigint.bigint
+)
+ident(
+  int_ref n "plugins/syntax/nat_syntax.ml" 33 973 993 "plugins/syntax/nat_syntax.ml" 33 973 994
+)
+"plugins/syntax/nat_syntax.ml" 49 1561 1567 "plugins/syntax/nat_syntax.ml" 49 1561 1581
+call(
+  tail
+)
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 43 1444 1450 "plugins/syntax/nat_syntax.ml" 49 1561 1581
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 42 1403 1409 "plugins/syntax/nat_syntax.ml" 49 1561 1581
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 41 1362 1368 "plugins/syntax/nat_syntax.ml" 49 1561 1581
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 34 997 1024 "plugins/syntax/nat_syntax.ml" 50 1582 1589
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 52 1597 1603 "plugins/syntax/nat_syntax.ml" 52 1597 1615
+type(
+  Util.loc * string * Pp.std_ppcmds -> Rawterm.rawconstr
+)
+ident(
+  ext_ref Util.user_err_loc
+)
+"plugins/syntax/nat_syntax.ml" 52 1597 1617 "plugins/syntax/nat_syntax.ml" 52 1597 1621
+type(
+  Util.loc
+)
+ident(
+  int_ref dloc "plugins/syntax/nat_syntax.ml" 33 973 988 "plugins/syntax/nat_syntax.ml" 33 973 992
+)
+"plugins/syntax/nat_syntax.ml" 52 1597 1623 "plugins/syntax/nat_syntax.ml" 52 1597 1635
+type(
+  string
+)
+"plugins/syntax/nat_syntax.ml" 53 1637 1645 "plugins/syntax/nat_syntax.ml" 53 1637 1648
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/syntax/nat_syntax.ml" 53 1637 1649 "plugins/syntax/nat_syntax.ml" 53 1637 1709
+type(
+  string
+)
+"plugins/syntax/nat_syntax.ml" 53 1637 1645 "plugins/syntax/nat_syntax.ml" 53 1637 1709
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/syntax/nat_syntax.ml" 52 1597 1616 "plugins/syntax/nat_syntax.ml" 53 1637 1710
+type(
+  Util.loc * string * Pp.std_ppcmds
+)
+"plugins/syntax/nat_syntax.ml" 52 1597 1603 "plugins/syntax/nat_syntax.ml" 53 1637 1710
+call(
+  tail
+)
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 34 997 999 "plugins/syntax/nat_syntax.ml" 53 1637 1710
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 60 1843 1851 "plugins/syntax/nat_syntax.ml" 60 1843 1861
+type(
+  Rawterm.rawconstr -> Bigint.bigint
+)
+ident(
+  def int_of_nat "plugins/syntax/nat_syntax.ml" 60 1843 1843 --
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1883 "plugins/syntax/nat_syntax.ml" 61 1873 1884
+type(
+  Util.loc
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1891 "plugins/syntax/nat_syntax.ml" 61 1873 1892
+type(
+  Util.loc
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1893 "plugins/syntax/nat_syntax.ml" 61 1873 1894
+type(
+  Libnames.global_reference
+)
+ident(
+  def s "plugins/syntax/nat_syntax.ml" 61 1873 1901 "plugins/syntax/nat_syntax.ml" 61 1873 1940
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1890 "plugins/syntax/nat_syntax.ml" 61 1873 1895
+type(
+  Util.loc * Libnames.global_reference
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1885 "plugins/syntax/nat_syntax.ml" 61 1873 1895
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1897 "plugins/syntax/nat_syntax.ml" 61 1873 1898
+type(
+  Rawterm.rawconstr
+)
+ident(
+  def a "plugins/syntax/nat_syntax.ml" 61 1873 1901 "plugins/syntax/nat_syntax.ml" 61 1873 1940
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1896 "plugins/syntax/nat_syntax.ml" 61 1873 1899
+type(
+  Rawterm.rawconstr list
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1877 "plugins/syntax/nat_syntax.ml" 61 1873 1900
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1906 "plugins/syntax/nat_syntax.ml" 61 1873 1907
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref s "plugins/syntax/nat_syntax.ml" 61 1873 1893 "plugins/syntax/nat_syntax.ml" 61 1873 1894
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1908 "plugins/syntax/nat_syntax.ml" 61 1873 1909
+type(
+  Libnames.global_reference -> Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1910 "plugins/syntax/nat_syntax.ml" 61 1873 1916
+type(
+  Libnames.global_reference
+)
+ident(
+  ext_ref Coqlib.glob_S
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1906 "plugins/syntax/nat_syntax.ml" 61 1873 1916
+type(
+  bool
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1920 "plugins/syntax/nat_syntax.ml" 61 1873 1925
+type(
+  Bigint.bigint -> Bigint.bigint
+)
+ident(
+  ext_ref Bigint.add_1
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1927 "plugins/syntax/nat_syntax.ml" 61 1873 1937
+type(
+  Rawterm.rawconstr -> Bigint.bigint
+)
+ident(
+  int_ref int_of_nat "plugins/syntax/nat_syntax.ml" 60 1843 1851 "plugins/syntax/nat_syntax.ml" 60 1843 1861
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1938 "plugins/syntax/nat_syntax.ml" 61 1873 1939
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref a "plugins/syntax/nat_syntax.ml" 61 1873 1897 "plugins/syntax/nat_syntax.ml" 61 1873 1898
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1926 "plugins/syntax/nat_syntax.ml" 61 1873 1940
+call(
+  stack
+)
+type(
+  Bigint.bigint
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1920 "plugins/syntax/nat_syntax.ml" 61 1873 1940
+call(
+  tail
+)
+type(
+  Bigint.bigint
+)
+"plugins/syntax/nat_syntax.ml" 61 1873 1901 "plugins/syntax/nat_syntax.ml" 61 1873 1940
+type(
+  Bigint.bigint
+)
+"plugins/syntax/nat_syntax.ml" 62 1941 1951 "plugins/syntax/nat_syntax.ml" 62 1941 1952
+type(
+  Util.loc
+)
+"plugins/syntax/nat_syntax.ml" 62 1941 1953 "plugins/syntax/nat_syntax.ml" 62 1941 1954
+type(
+  Libnames.global_reference
+)
+ident(
+  def z "plugins/syntax/nat_syntax.ml" 62 1941 1956 "plugins/syntax/nat_syntax.ml" 62 1941 1979
+)
+"plugins/syntax/nat_syntax.ml" 62 1941 1950 "plugins/syntax/nat_syntax.ml" 62 1941 1955
+type(
+  Util.loc * Libnames.global_reference
+)
+"plugins/syntax/nat_syntax.ml" 62 1941 1945 "plugins/syntax/nat_syntax.ml" 62 1941 1955
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 62 1941 1961 "plugins/syntax/nat_syntax.ml" 62 1941 1962
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref z "plugins/syntax/nat_syntax.ml" 62 1941 1953 "plugins/syntax/nat_syntax.ml" 62 1941 1954
+)
+"plugins/syntax/nat_syntax.ml" 62 1941 1963 "plugins/syntax/nat_syntax.ml" 62 1941 1964
+type(
+  Libnames.global_reference -> Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/syntax/nat_syntax.ml" 62 1941 1965 "plugins/syntax/nat_syntax.ml" 62 1941 1971
+type(
+  Libnames.global_reference
+)
+ident(
+  ext_ref Coqlib.glob_O
+)
+"plugins/syntax/nat_syntax.ml" 62 1941 1961 "plugins/syntax/nat_syntax.ml" 62 1941 1971
+type(
+  bool
+)
+"plugins/syntax/nat_syntax.ml" 62 1941 1975 "plugins/syntax/nat_syntax.ml" 62 1941 1979
+type(
+  Bigint.bigint
+)
+ident(
+  ext_ref Bigint.zero
+)
+"plugins/syntax/nat_syntax.ml" 62 1941 1956 "plugins/syntax/nat_syntax.ml" 62 1941 1979
+type(
+  Bigint.bigint
+)
+"plugins/syntax/nat_syntax.ml" 63 1980 1984 "plugins/syntax/nat_syntax.ml" 63 1980 1985
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 63 1980 1989 "plugins/syntax/nat_syntax.ml" 63 1980 1994
+type(
+  exn -> Bigint.bigint
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/syntax/nat_syntax.ml" 63 1980 1995 "plugins/syntax/nat_syntax.ml" 63 1980 2012
+type(
+  exn
+)
+"plugins/syntax/nat_syntax.ml" 63 1980 1989 "plugins/syntax/nat_syntax.ml" 63 1980 2012
+type(
+  Bigint.bigint
+)
+"plugins/syntax/nat_syntax.ml" 60 1843 1864 "plugins/syntax/nat_syntax.ml" 63 1980 2012
+type(
+  Rawterm.rawconstr -> Bigint.bigint
+)
+"plugins/syntax/nat_syntax.ml" 65 2014 2018 "plugins/syntax/nat_syntax.ml" 65 2014 2030
+type(
+  Rawterm.rawconstr -> Bigint.bigint option
+)
+ident(
+  def uninterp_nat "plugins/syntax/nat_syntax.ml" 74 2228 2228 --
+)
+"plugins/syntax/nat_syntax.ml" 65 2014 2031 "plugins/syntax/nat_syntax.ml" 65 2014 2032
+type(
+  Rawterm.rawconstr
+)
+ident(
+  def p "plugins/syntax/nat_syntax.ml" 66 2035 2037 "plugins/syntax/nat_syntax.ml" 69 2072 2101
+)
+"plugins/syntax/nat_syntax.ml" 67 2041 2051 "plugins/syntax/nat_syntax.ml" 67 2041 2061
+type(
+  Rawterm.rawconstr -> Bigint.bigint
+)
+ident(
+  int_ref int_of_nat "plugins/syntax/nat_syntax.ml" 60 1843 1851 "plugins/syntax/nat_syntax.ml" 60 1843 1861
+)
+"plugins/syntax/nat_syntax.ml" 67 2041 2062 "plugins/syntax/nat_syntax.ml" 67 2041 2063
+type(
+  Rawterm.rawconstr
+)
+ident(
+  int_ref p "plugins/syntax/nat_syntax.ml" 65 2014 2031 "plugins/syntax/nat_syntax.ml" 65 2014 2032
+)
+"plugins/syntax/nat_syntax.ml" 67 2041 2050 "plugins/syntax/nat_syntax.ml" 67 2041 2064
+call(
+  stack
+)
+type(
+  Bigint.bigint
+)
+"plugins/syntax/nat_syntax.ml" 67 2041 2045 "plugins/syntax/nat_syntax.ml" 67 2041 2064
+type(
+  Bigint.bigint option
+)
+"plugins/syntax/nat_syntax.ml" 69 2072 2076 "plugins/syntax/nat_syntax.ml" 69 2072 2093
+type(
+  exn
+)
+"plugins/syntax/nat_syntax.ml" 69 2072 2097 "plugins/syntax/nat_syntax.ml" 69 2072 2101
+type(
+  Bigint.bigint option
+)
+"plugins/syntax/nat_syntax.ml" 66 2035 2037 "plugins/syntax/nat_syntax.ml" 69 2072 2101
+type(
+  Bigint.bigint option
+)
+"plugins/syntax/nat_syntax.ml" 75 2236 2238 "plugins/syntax/nat_syntax.ml" 75 2236 2274
+type(
+  Topconstr.scope_name ->
+  Notation.required_module ->
+  Bigint.bigint Notation.prim_token_interpreter ->
+  Bigint.bigint Notation.prim_token_uninterpreter -> unit
+)
+ident(
+  ext_ref Notation.declare_numeral_interpreter
+)
+"plugins/syntax/nat_syntax.ml" 75 2236 2275 "plugins/syntax/nat_syntax.ml" 75 2236 2286
+type(
+  Topconstr.scope_name
+)
+"plugins/syntax/nat_syntax.ml" 76 2287 2292 "plugins/syntax/nat_syntax.ml" 76 2287 2300
+type(
+  Libnames.full_path
+)
+ident(
+  ext_ref Coqlib.nat_path
+)
+"plugins/syntax/nat_syntax.ml" 76 2287 2302 "plugins/syntax/nat_syntax.ml" 76 2287 2307
+type(
+  string
+)
+"plugins/syntax/nat_syntax.ml" 76 2287 2308 "plugins/syntax/nat_syntax.ml" 76 2287 2314
+type(
+  string
+)
+"plugins/syntax/nat_syntax.ml" 76 2287 2315 "plugins/syntax/nat_syntax.ml" 76 2287 2326
+type(
+  string
+)
+"plugins/syntax/nat_syntax.ml" 76 2287 2301 "plugins/syntax/nat_syntax.ml" 76 2287 2327
+type(
+  string list
+)
+"plugins/syntax/nat_syntax.ml" 76 2287 2291 "plugins/syntax/nat_syntax.ml" 76 2287 2328
+type(
+  Notation.required_module
+)
+"plugins/syntax/nat_syntax.ml" 77 2329 2333 "plugins/syntax/nat_syntax.ml" 77 2329 2343
+type(
+  Bigint.bigint Notation.prim_token_interpreter
+)
+ident(
+  int_ref nat_of_int "plugins/syntax/nat_syntax.ml" 33 973 977 "plugins/syntax/nat_syntax.ml" 33 973 987
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2356 "plugins/syntax/nat_syntax.ml" 78 2344 2365
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2366 "plugins/syntax/nat_syntax.ml" 78 2344 2372
+type(
+  Libnames.global_reference
+)
+ident(
+  ext_ref Coqlib.glob_S
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2355 "plugins/syntax/nat_syntax.ml" 78 2344 2373
+type(
+  Util.loc * Libnames.global_reference
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2350 "plugins/syntax/nat_syntax.ml" 78 2344 2373
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2381 "plugins/syntax/nat_syntax.ml" 78 2344 2390
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2391 "plugins/syntax/nat_syntax.ml" 78 2344 2397
+type(
+  Libnames.global_reference
+)
+ident(
+  ext_ref Coqlib.glob_O
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2380 "plugins/syntax/nat_syntax.ml" 78 2344 2398
+type(
+  Util.loc * Libnames.global_reference
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2375 "plugins/syntax/nat_syntax.ml" 78 2344 2398
+type(
+  Rawterm.rawconstr
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2349 "plugins/syntax/nat_syntax.ml" 78 2344 2399
+type(
+  Rawterm.rawconstr list
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2401 "plugins/syntax/nat_syntax.ml" 78 2344 2413
+type(
+  Rawterm.rawconstr -> Bigint.bigint option
+)
+ident(
+  int_ref uninterp_nat "plugins/syntax/nat_syntax.ml" 65 2014 2018 "plugins/syntax/nat_syntax.ml" 65 2014 2030
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2415 "plugins/syntax/nat_syntax.ml" 78 2344 2419
+type(
+  Notation.cases_pattern_status
+)
+"plugins/syntax/nat_syntax.ml" 78 2344 2348 "plugins/syntax/nat_syntax.ml" 78 2344 2420
+type(
+  Bigint.bigint Notation.prim_token_uninterpreter
+)
+"plugins/syntax/nat_syntax.ml" 75 2236 2238 "plugins/syntax/nat_syntax.ml" 78 2344 2420
+call(
+  stack
+)
+type(
+  unit
+)

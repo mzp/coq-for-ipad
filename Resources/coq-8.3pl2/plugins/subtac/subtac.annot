@@ -1,0 +1,6248 @@
+"plugins/subtac/subtac.ml" 42 982 986 "plugins/subtac/subtac.ml" 42 982 1001
+type(
+  string -> unit
+)
+ident(
+  def require_library "plugins/subtac/subtac.ml" 46 1132 1132 --
+)
+"plugins/subtac/subtac.ml" 42 982 1002 "plugins/subtac/subtac.ml" 42 982 1009
+type(
+  string
+)
+ident(
+  def dirpath "plugins/subtac/subtac.ml" 43 1012 1014 "plugins/subtac/subtac.ml" 44 1089 1130
+)
+"plugins/subtac/subtac.ml" 43 1012 1018 "plugins/subtac/subtac.ml" 43 1012 1024
+type(
+  Util.loc * Libnames.qualid
+)
+"plugins/subtac/subtac.ml" 43 1012 1028 "plugins/subtac/subtac.ml" 43 1012 1037
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+"plugins/subtac/subtac.ml" 43 1012 1039 "plugins/subtac/subtac.ml" 43 1012 1056
+type(
+  Names.dir_path -> Libnames.qualid
+)
+ident(
+  ext_ref Libnames.qualid_of_dirpath
+)
+"plugins/subtac/subtac.ml" 43 1012 1058 "plugins/subtac/subtac.ml" 43 1012 1075
+type(
+  string -> Names.dir_path
+)
+ident(
+  ext_ref Libnames.dirpath_of_string
+)
+"plugins/subtac/subtac.ml" 43 1012 1076 "plugins/subtac/subtac.ml" 43 1012 1083
+type(
+  string
+)
+ident(
+  int_ref dirpath "plugins/subtac/subtac.ml" 42 982 1002 "plugins/subtac/subtac.ml" 42 982 1009
+)
+"plugins/subtac/subtac.ml" 43 1012 1057 "plugins/subtac/subtac.ml" 43 1012 1084
+call(
+  stack
+)
+type(
+  Names.dir_path
+)
+"plugins/subtac/subtac.ml" 43 1012 1039 "plugins/subtac/subtac.ml" 43 1012 1084
+call(
+  stack
+)
+type(
+  Libnames.qualid
+)
+"plugins/subtac/subtac.ml" 43 1012 1027 "plugins/subtac/subtac.ml" 43 1012 1085
+type(
+  Util.loc * Libnames.qualid
+)
+"plugins/subtac/subtac.ml" 44 1089 1093 "plugins/subtac/subtac.ml" 44 1089 1116
+type(
+  Libnames.qualid Util.located list -> bool option -> unit
+)
+ident(
+  ext_ref Library.require_library
+)
+"plugins/subtac/subtac.ml" 44 1089 1118 "plugins/subtac/subtac.ml" 44 1089 1124
+type(
+  Libnames.qualid Util.located
+)
+ident(
+  int_ref qualid "plugins/subtac/subtac.ml" 43 1012 1018 "plugins/subtac/subtac.ml" 43 1012 1024
+)
+"plugins/subtac/subtac.ml" 44 1089 1117 "plugins/subtac/subtac.ml" 44 1089 1125
+type(
+  Libnames.qualid Util.located list
+)
+"plugins/subtac/subtac.ml" 44 1089 1126 "plugins/subtac/subtac.ml" 44 1089 1130
+type(
+  bool option
+)
+"plugins/subtac/subtac.ml" 44 1089 1093 "plugins/subtac/subtac.ml" 44 1089 1130
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 43 1012 1014 "plugins/subtac/subtac.ml" 44 1089 1130
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 52 1199 1203 "plugins/subtac/subtac.ml" 52 1199 1221
+type(
+  Environ.env ->
+  Names.identifier ->
+  Evd.evar_map ref -> Evd.evar_map -> Term.types -> Term.types -> Term.types
+)
+ident(
+  def solve_tccs_in_type "plugins/subtac/subtac.ml" 67 1863 1863 --
+)
+"plugins/subtac/subtac.ml" 52 1199 1222 "plugins/subtac/subtac.ml" 52 1199 1225
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac.ml" 52 1199 1226 "plugins/subtac/subtac.ml" 64 1819 1860
+)
+"plugins/subtac/subtac.ml" 52 1199 1226 "plugins/subtac/subtac.ml" 52 1199 1228
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/subtac/subtac.ml" 52 1199 1229 "plugins/subtac/subtac.ml" 64 1819 1860
+)
+"plugins/subtac/subtac.ml" 52 1199 1229 "plugins/subtac/subtac.ml" 52 1199 1236
+type(
+  Evd.evar_map ref
+)
+ident(
+  def isevars "plugins/subtac/subtac.ml" 52 1199 1237 "plugins/subtac/subtac.ml" 64 1819 1860
+)
+"plugins/subtac/subtac.ml" 52 1199 1237 "plugins/subtac/subtac.ml" 52 1199 1240
+type(
+  Evd.evar_map
+)
+ident(
+  def evm "plugins/subtac/subtac.ml" 52 1199 1241 "plugins/subtac/subtac.ml" 64 1819 1860
+)
+"plugins/subtac/subtac.ml" 52 1199 1241 "plugins/subtac/subtac.ml" 52 1199 1242
+type(
+  Term.types
+)
+ident(
+  def c "plugins/subtac/subtac.ml" 52 1199 1243 "plugins/subtac/subtac.ml" 64 1819 1860
+)
+"plugins/subtac/subtac.ml" 52 1199 1243 "plugins/subtac/subtac.ml" 52 1199 1246
+type(
+  Term.types
+)
+ident(
+  def typ "plugins/subtac/subtac.ml" 53 1249 1251 "plugins/subtac/subtac.ml" 64 1819 1860
+)
+"plugins/subtac/subtac.ml" 53 1249 1254 "plugins/subtac/subtac.ml" 53 1249 1257
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/subtac/subtac.ml" 53 1249 1259 "plugins/subtac/subtac.ml" 53 1249 1262
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/subtac.ml" 52 1199 1237 "plugins/subtac/subtac.ml" 52 1199 1240
+)
+"plugins/subtac/subtac.ml" 53 1249 1263 "plugins/subtac/subtac.ml" 53 1249 1264
+type(
+  Evd.evar_map -> Evd.evar_map -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/subtac/subtac.ml" 53 1249 1265 "plugins/subtac/subtac.ml" 53 1249 1274
+type(
+  Evd.evar_map
+)
+ident(
+  ext_ref Evd.empty
+)
+"plugins/subtac/subtac.ml" 53 1249 1258 "plugins/subtac/subtac.ml" 53 1249 1275
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 53 1249 1254 "plugins/subtac/subtac.ml" 53 1249 1275
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 54 1281 1289 "plugins/subtac/subtac.ml" 54 1281 1296
+type(
+  Names.identifier
+)
+ident(
+  def stmt_id "plugins/subtac/subtac.ml" 55 1332 1336 "plugins/subtac/subtac.ml" 62 1767 1811
+)
+"plugins/subtac/subtac.ml" 54 1281 1299 "plugins/subtac/subtac.ml" 54 1281 1317
+type(
+  Names.identifier -> string -> Names.identifier
+)
+ident(
+  ext_ref Nameops.add_suffix
+)
+"plugins/subtac/subtac.ml" 54 1281 1318 "plugins/subtac/subtac.ml" 54 1281 1320
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 52 1199 1226 "plugins/subtac/subtac.ml" 52 1199 1228
+)
+"plugins/subtac/subtac.ml" 54 1281 1321 "plugins/subtac/subtac.ml" 54 1281 1328
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 54 1281 1299 "plugins/subtac/subtac.ml" 54 1281 1328
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/subtac/subtac.ml" 55 1332 1340 "plugins/subtac/subtac.ml" 55 1332 1344
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array
+)
+ident(
+  def obls "plugins/subtac/subtac.ml" 56 1427 1433 "plugins/subtac/subtac.ml" 62 1767 1811
+)
+"plugins/subtac/subtac.ml" 55 1332 1346 "plugins/subtac/subtac.ml" 55 1332 1347
+type(
+  (Term.existential_key * Names.identifier) list *
+  ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)
+)
+"plugins/subtac/subtac.ml" 55 1332 1349 "plugins/subtac/subtac.ml" 55 1332 1351
+type(
+  Term.constr
+)
+ident(
+  def c' "plugins/subtac/subtac.ml" 56 1427 1433 "plugins/subtac/subtac.ml" 62 1767 1811
+)
+"plugins/subtac/subtac.ml" 55 1332 1353 "plugins/subtac/subtac.ml" 55 1332 1355
+type(
+  Term.types
+)
+ident(
+  def t' "plugins/subtac/subtac.ml" 56 1427 1433 "plugins/subtac/subtac.ml" 62 1767 1811
+)
+"plugins/subtac/subtac.ml" 55 1332 1340 "plugins/subtac/subtac.ml" 55 1332 1355
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.types
+)
+"plugins/subtac/subtac.ml" 55 1332 1358 "plugins/subtac/subtac.ml" 55 1332 1375
+type(
+  Environ.env ->
+  Names.identifier ->
+  Evd.evar_map ->
+  Evd.evar_map ->
+  int ->
+  ?status:Evd.obligation_definition_status ->
+  Term.types ->
+  Term.types ->
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.types
+)
+ident(
+  ext_ref Eterm.eterm_obligations
+)
+"plugins/subtac/subtac.ml" 55 1332 1376 "plugins/subtac/subtac.ml" 55 1332 1379
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 52 1199 1222 "plugins/subtac/subtac.ml" 52 1199 1225
+)
+"plugins/subtac/subtac.ml" 55 1332 1380 "plugins/subtac/subtac.ml" 55 1332 1387
+type(
+  Names.identifier
+)
+ident(
+  int_ref stmt_id "plugins/subtac/subtac.ml" 54 1281 1289 "plugins/subtac/subtac.ml" 54 1281 1296
+)
+"plugins/subtac/subtac.ml" 55 1332 1388 "plugins/subtac/subtac.ml" 55 1332 1389
+type(
+  Evd.evar_map ref -> Evd.evar_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/subtac/subtac.ml" 55 1332 1389 "plugins/subtac/subtac.ml" 55 1332 1396
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac.ml" 52 1199 1229 "plugins/subtac/subtac.ml" 52 1199 1236
+)
+"plugins/subtac/subtac.ml" 55 1332 1388 "plugins/subtac/subtac.ml" 55 1332 1396
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac.ml" 55 1332 1397 "plugins/subtac/subtac.ml" 55 1332 1400
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/subtac.ml" 52 1199 1237 "plugins/subtac/subtac.ml" 52 1199 1240
+)
+"plugins/subtac/subtac.ml" 55 1332 1401 "plugins/subtac/subtac.ml" 55 1332 1402
+type(
+  int
+)
+"plugins/subtac/subtac.ml" 55 1332 1411 "plugins/subtac/subtac.ml" 55 1332 1417
+type(
+  Evd.obligation_definition_status
+)
+"plugins/subtac/subtac.ml" 55 1332 1418 "plugins/subtac/subtac.ml" 55 1332 1419
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/subtac/subtac.ml" 52 1199 1241 "plugins/subtac/subtac.ml" 52 1199 1242
+)
+"plugins/subtac/subtac.ml" 55 1332 1420 "plugins/subtac/subtac.ml" 55 1332 1423
+type(
+  Term.types
+)
+ident(
+  int_ref typ "plugins/subtac/subtac.ml" 52 1199 1243 "plugins/subtac/subtac.ml" 52 1199 1246
+)
+"plugins/subtac/subtac.ml" 55 1332 1358 "plugins/subtac/subtac.ml" 55 1332 1423
+call(
+  stack
+)
+type(
+  (Names.identifier * Term.types * Evd.hole_kind Util.located *
+   Evd.obligation_definition_status * Util.Intset.t *
+   Proof_type.tactic option)
+  array *
+  ((Term.existential_key * Names.identifier) list *
+   ((Names.identifier -> Term.constr) -> Term.constr -> Term.constr)) *
+  Term.constr * Term.types
+)
+"plugins/subtac/subtac.ml" 56 1427 1439 "plugins/subtac/subtac.ml" 56 1427 1472
+type(
+  Names.identifier ->
+  ?term:Term.constr ->
+  Term.types ->
+  ?implicits:(Topconstr.explicitation * (bool * bool * bool)) list ->
+  ?kind:Decl_kinds.definition_kind ->
+  ?tactic:Proof_type.tactic ->
+  ?reduce:(Term.constr -> Term.constr) ->
+  ?hook:Tacexpr.declaration_hook ->
+  Subtac_obligations.obligation_info -> Subtac_obligations.progress
+)
+ident(
+  ext_ref Subtac_obligations.add_definition
+)
+"plugins/subtac/subtac.ml" 56 1427 1473 "plugins/subtac/subtac.ml" 56 1427 1480
+type(
+  Names.identifier
+)
+ident(
+  int_ref stmt_id "plugins/subtac/subtac.ml" 54 1281 1289 "plugins/subtac/subtac.ml" 54 1281 1296
+)
+"plugins/subtac/subtac.ml" 56 1427 1487 "plugins/subtac/subtac.ml" 56 1427 1489
+type(
+  Term.constr
+)
+ident(
+  int_ref c' "plugins/subtac/subtac.ml" 55 1332 1349 "plugins/subtac/subtac.ml" 55 1332 1351
+)
+"plugins/subtac/subtac.ml" 56 1427 1490 "plugins/subtac/subtac.ml" 56 1427 1493
+type(
+  Term.types
+)
+ident(
+  int_ref typ "plugins/subtac/subtac.ml" 52 1199 1243 "plugins/subtac/subtac.ml" 52 1199 1246
+)
+"plugins/subtac/subtac.ml" 56 1427 1494 "plugins/subtac/subtac.ml" 56 1427 1498
+type(
+  Subtac_obligations.obligation_info
+)
+ident(
+  int_ref obls "plugins/subtac/subtac.ml" 55 1332 1340 "plugins/subtac/subtac.ml" 55 1332 1344
+)
+"plugins/subtac/subtac.ml" 56 1427 1439 "plugins/subtac/subtac.ml" 56 1427 1498
+call(
+  stack
+)
+type(
+  Subtac_obligations.progress
+)
+"plugins/subtac/subtac.ml" 57 1504 1539 "plugins/subtac/subtac.ml" 57 1504 1542
+type(
+  Libnames.global_reference
+)
+ident(
+  def cst "plugins/subtac/subtac.ml" 57 1504 1546 "plugins/subtac/subtac.ml" 58 1577 1634
+)
+"plugins/subtac/subtac.ml" 57 1504 1512 "plugins/subtac/subtac.ml" 57 1504 1542
+type(
+  Subtac_obligations.progress
+)
+"plugins/subtac/subtac.ml" 57 1504 1546 "plugins/subtac/subtac.ml" 57 1504 1560
+type(
+  Environ.env -> Names.constant -> Term.types
+)
+ident(
+  ext_ref Environ.constant_value
+)
+"plugins/subtac/subtac.ml" 57 1504 1562 "plugins/subtac/subtac.ml" 57 1504 1572
+type(
+  unit -> Environ.env
+)
+ident(
+  ext_ref Global.env
+)
+"plugins/subtac/subtac.ml" 57 1504 1572 "plugins/subtac/subtac.ml" 57 1504 1574
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 57 1504 1561 "plugins/subtac/subtac.ml" 57 1504 1575
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/subtac/subtac.ml" 58 1577 1587 "plugins/subtac/subtac.ml" 58 1577 1590
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref cst "plugins/subtac/subtac.ml" 57 1504 1539 "plugins/subtac/subtac.ml" 57 1504 1542
+)
+"plugins/subtac/subtac.ml" 58 1577 1605 "plugins/subtac/subtac.ml" 58 1577 1607
+type(
+  Names.constant
+)
+ident(
+  def kn "plugins/subtac/subtac.ml" 58 1577 1611 "plugins/subtac/subtac.ml" 58 1577 1613
+)
+"plugins/subtac/subtac.ml" 58 1577 1596 "plugins/subtac/subtac.ml" 58 1577 1607
+type(
+  Libnames.global_reference
+)
+"plugins/subtac/subtac.ml" 58 1577 1611 "plugins/subtac/subtac.ml" 58 1577 1613
+type(
+  Names.constant
+)
+ident(
+  int_ref kn "plugins/subtac/subtac.ml" 58 1577 1605 "plugins/subtac/subtac.ml" 58 1577 1607
+)
+"plugins/subtac/subtac.ml" 58 1577 1616 "plugins/subtac/subtac.ml" 58 1577 1617
+type(
+  Libnames.global_reference
+)
+"plugins/subtac/subtac.ml" 58 1577 1621 "plugins/subtac/subtac.ml" 58 1577 1633
+type(
+  Names.constant
+)
+"plugins/subtac/subtac.ml" 58 1577 1580 "plugins/subtac/subtac.ml" 58 1577 1634
+type(
+  Names.constant
+)
+"plugins/subtac/subtac.ml" 57 1504 1546 "plugins/subtac/subtac.ml" 58 1577 1634
+call(
+  tail
+)
+type(
+  Term.types
+)
+"plugins/subtac/subtac.ml" 59 1635 1643 "plugins/subtac/subtac.ml" 59 1635 1644
+type(
+  Subtac_obligations.progress
+)
+"plugins/subtac/subtac.ml" 60 1648 1651 "plugins/subtac/subtac.ml" 60 1648 1663
+type(
+  string -> Pp.std_ppcmds -> Term.types
+)
+ident(
+  ext_ref Util.errorlabstrm
+)
+"plugins/subtac/subtac.ml" 60 1648 1664 "plugins/subtac/subtac.ml" 60 1648 1677
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 61 1678 1684 "plugins/subtac/subtac.ml" 61 1678 1687
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 61 1678 1688 "plugins/subtac/subtac.ml" 61 1678 1753
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 61 1678 1684 "plugins/subtac/subtac.ml" 61 1678 1753
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 61 1678 1754 "plugins/subtac/subtac.ml" 61 1678 1756
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 61 1678 1757 "plugins/subtac/subtac.ml" 61 1678 1760
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 61 1678 1761 "plugins/subtac/subtac.ml" 61 1678 1763
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 61 1678 1757 "plugins/subtac/subtac.ml" 61 1678 1763
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 61 1678 1684 "plugins/subtac/subtac.ml" 61 1678 1763
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 61 1678 1764 "plugins/subtac/subtac.ml" 61 1678 1766
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 62 1767 1769 "plugins/subtac/subtac.ml" 62 1767 1772
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 62 1767 1773 "plugins/subtac/subtac.ml" 62 1767 1810
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 62 1767 1769 "plugins/subtac/subtac.ml" 62 1767 1810
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 61 1678 1683 "plugins/subtac/subtac.ml" 62 1767 1811
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 60 1648 1651 "plugins/subtac/subtac.ml" 62 1767 1811
+call(
+  tail
+)
+type(
+  Term.types
+)
+"plugins/subtac/subtac.ml" 56 1427 1433 "plugins/subtac/subtac.ml" 62 1767 1811
+type(
+  Term.types
+)
+"plugins/subtac/subtac.ml" 55 1332 1336 "plugins/subtac/subtac.ml" 62 1767 1811
+type(
+  Term.types
+)
+"plugins/subtac/subtac.ml" 54 1281 1285 "plugins/subtac/subtac.ml" 62 1767 1811
+type(
+  Term.types
+)
+"plugins/subtac/subtac.ml" 64 1819 1827 "plugins/subtac/subtac.ml" 64 1819 1828
+type(
+  Environ.unsafe_type_judgment * Univ.constraints
+)
+"plugins/subtac/subtac.ml" 64 1819 1831 "plugins/subtac/subtac.ml" 64 1819 1849
+type(
+  Environ.env ->
+  Term.types -> Environ.unsafe_type_judgment * Univ.constraints
+)
+ident(
+  ext_ref Typeops.infer_type
+)
+"plugins/subtac/subtac.ml" 64 1819 1850 "plugins/subtac/subtac.ml" 64 1819 1853
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 52 1199 1222 "plugins/subtac/subtac.ml" 52 1199 1225
+)
+"plugins/subtac/subtac.ml" 64 1819 1854 "plugins/subtac/subtac.ml" 64 1819 1855
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/subtac/subtac.ml" 52 1199 1241 "plugins/subtac/subtac.ml" 52 1199 1242
+)
+"plugins/subtac/subtac.ml" 64 1819 1831 "plugins/subtac/subtac.ml" 64 1819 1855
+call(
+  stack
+)
+type(
+  Environ.unsafe_type_judgment * Univ.constraints
+)
+"plugins/subtac/subtac.ml" 64 1819 1859 "plugins/subtac/subtac.ml" 64 1819 1860
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/subtac/subtac.ml" 52 1199 1241 "plugins/subtac/subtac.ml" 52 1199 1242
+)
+"plugins/subtac/subtac.ml" 64 1819 1823 "plugins/subtac/subtac.ml" 64 1819 1860
+type(
+  Term.types
+)
+"plugins/subtac/subtac.ml" 53 1249 1251 "plugins/subtac/subtac.ml" 64 1819 1860
+type(
+  Term.types
+)
+"plugins/subtac/subtac.ml" 67 1863 1867 "plugins/subtac/subtac.ml" 67 1863 1882
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  (Util.loc * Names.identifier) option ->
+  Decl_kinds.goal_kind ->
+  Topconstr.local_binder list * Topconstr.constr_expr ->
+  (Decl_kinds.locality -> Libnames.global_reference -> unit) -> unit
+)
+ident(
+  def start_proof_com "plugins/subtac/subtac.ml" 86 2656 2656 --
+)
+"plugins/subtac/subtac.ml" 67 1863 1883 "plugins/subtac/subtac.ml" 67 1863 1886
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac.ml" 67 1863 1887 "plugins/subtac/subtac.ml" 84 2636 2654
+)
+"plugins/subtac/subtac.ml" 67 1863 1887 "plugins/subtac/subtac.ml" 67 1863 1894
+type(
+  Evd.evar_map ref
+)
+ident(
+  def isevars "plugins/subtac/subtac.ml" 67 1863 1895 "plugins/subtac/subtac.ml" 84 2636 2654
+)
+"plugins/subtac/subtac.ml" 67 1863 1895 "plugins/subtac/subtac.ml" 67 1863 1899
+type(
+  (Util.loc * Names.identifier) option
+)
+ident(
+  def sopt "plugins/subtac/subtac.ml" 67 1863 1900 "plugins/subtac/subtac.ml" 84 2636 2654
+)
+"plugins/subtac/subtac.ml" 67 1863 1900 "plugins/subtac/subtac.ml" 67 1863 1904
+type(
+  Decl_kinds.goal_kind
+)
+ident(
+  def kind "plugins/subtac/subtac.ml" 67 1863 1905 "plugins/subtac/subtac.ml" 84 2636 2654
+)
+"plugins/subtac/subtac.ml" 67 1863 1906 "plugins/subtac/subtac.ml" 67 1863 1908
+type(
+  Topconstr.local_binder list
+)
+ident(
+  def bl "plugins/subtac/subtac.ml" 67 1863 1912 "plugins/subtac/subtac.ml" 84 2636 2654
+)
+"plugins/subtac/subtac.ml" 67 1863 1909 "plugins/subtac/subtac.ml" 67 1863 1910
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def t "plugins/subtac/subtac.ml" 67 1863 1912 "plugins/subtac/subtac.ml" 84 2636 2654
+)
+"plugins/subtac/subtac.ml" 67 1863 1905 "plugins/subtac/subtac.ml" 67 1863 1911
+type(
+  Topconstr.local_binder list * Topconstr.constr_expr
+)
+"plugins/subtac/subtac.ml" 67 1863 1912 "plugins/subtac/subtac.ml" 67 1863 1916
+type(
+  Decl_kinds.locality -> Libnames.global_reference -> unit
+)
+ident(
+  def hook "plugins/subtac/subtac.ml" 68 1919 1921 "plugins/subtac/subtac.ml" 84 2636 2654
+)
+"plugins/subtac/subtac.ml" 68 1919 1925 "plugins/subtac/subtac.ml" 68 1919 1927
+type(
+  Names.identifier
+)
+"plugins/subtac/subtac.ml" 68 1919 1936 "plugins/subtac/subtac.ml" 68 1919 1940
+type(
+  (Util.loc * Names.identifier) option
+)
+ident(
+  int_ref sopt "plugins/subtac/subtac.ml" 67 1863 1895 "plugins/subtac/subtac.ml" 67 1863 1899
+)
+"plugins/subtac/subtac.ml" 69 1946 1958 "plugins/subtac/subtac.ml" 69 1946 1961
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 71 2036 2044 "plugins/subtac/subtac.ml" 73 2194 2204
+)
+"plugins/subtac/subtac.ml" 69 1946 1962 "plugins/subtac/subtac.ml" 69 1946 1964
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/subtac/subtac.ml" 71 2036 2044 "plugins/subtac/subtac.ml" 73 2194 2204
+)
+"plugins/subtac/subtac.ml" 69 1946 1957 "plugins/subtac/subtac.ml" 69 1946 1965
+type(
+  Util.loc * Names.identifier
+)
+"plugins/subtac/subtac.ml" 69 1946 1952 "plugins/subtac/subtac.ml" 69 1946 1965
+type(
+  (Util.loc * Names.identifier) option
+)
+"plugins/subtac/subtac.ml" 71 2036 2047 "plugins/subtac/subtac.ml" 71 2036 2065
+type(
+  Libnames.full_path -> bool
+)
+ident(
+  ext_ref Nametab.exists_cci
+)
+"plugins/subtac/subtac.ml" 71 2036 2067 "plugins/subtac/subtac.ml" 71 2036 2080
+type(
+  Names.identifier -> Libnames.full_path
+)
+ident(
+  ext_ref Lib.make_path
+)
+"plugins/subtac/subtac.ml" 71 2036 2081 "plugins/subtac/subtac.ml" 71 2036 2083
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 69 1946 1962 "plugins/subtac/subtac.ml" 69 1946 1964
+)
+"plugins/subtac/subtac.ml" 71 2036 2066 "plugins/subtac/subtac.ml" 71 2036 2084
+call(
+  stack
+)
+type(
+  Libnames.full_path
+)
+"plugins/subtac/subtac.ml" 71 2036 2047 "plugins/subtac/subtac.ml" 71 2036 2084
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 71 2036 2085 "plugins/subtac/subtac.ml" 71 2036 2087
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( or )
+)
+"plugins/subtac/subtac.ml" 71 2036 2088 "plugins/subtac/subtac.ml" 71 2036 2107
+type(
+  Names.identifier -> bool
+)
+ident(
+  ext_ref Termops.is_section_variable
+)
+"plugins/subtac/subtac.ml" 71 2036 2108 "plugins/subtac/subtac.ml" 71 2036 2110
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 69 1946 1962 "plugins/subtac/subtac.ml" 69 1946 1964
+)
+"plugins/subtac/subtac.ml" 71 2036 2088 "plugins/subtac/subtac.ml" 71 2036 2110
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 71 2036 2047 "plugins/subtac/subtac.ml" 71 2036 2110
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 72 2116 2126 "plugins/subtac/subtac.ml" 72 2116 2138
+type(
+  Util.loc * string * Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Util.user_err_loc
+)
+"plugins/subtac/subtac.ml" 72 2116 2140 "plugins/subtac/subtac.ml" 72 2116 2143
+type(
+  Util.loc
+)
+ident(
+  int_ref loc "plugins/subtac/subtac.ml" 69 1946 1958 "plugins/subtac/subtac.ml" 69 1946 1961
+)
+"plugins/subtac/subtac.ml" 72 2116 2144 "plugins/subtac/subtac.ml" 72 2116 2157
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 72 2116 2158 "plugins/subtac/subtac.ml" 72 2116 2163
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Ppconstr.pr_id
+)
+"plugins/subtac/subtac.ml" 72 2116 2164 "plugins/subtac/subtac.ml" 72 2116 2166
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 69 1946 1962 "plugins/subtac/subtac.ml" 69 1946 1964
+)
+"plugins/subtac/subtac.ml" 72 2116 2158 "plugins/subtac/subtac.ml" 72 2116 2166
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 72 2116 2167 "plugins/subtac/subtac.ml" 72 2116 2169
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 72 2116 2170 "plugins/subtac/subtac.ml" 72 2116 2173
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 72 2116 2174 "plugins/subtac/subtac.ml" 72 2116 2191
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 72 2116 2170 "plugins/subtac/subtac.ml" 72 2116 2191
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 72 2116 2158 "plugins/subtac/subtac.ml" 72 2116 2191
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 72 2116 2139 "plugins/subtac/subtac.ml" 72 2116 2192
+type(
+  Util.loc * string * Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 72 2116 2126 "plugins/subtac/subtac.ml" 72 2116 2192
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 71 2036 2044 "plugins/subtac/subtac.ml" 72 2116 2192
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 73 2194 2202 "plugins/subtac/subtac.ml" 73 2194 2204
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 69 1946 1962 "plugins/subtac/subtac.ml" 69 1946 1964
+)
+"plugins/subtac/subtac.ml" 71 2036 2044 "plugins/subtac/subtac.ml" 73 2194 2204
+type(
+  Names.identifier
+)
+"plugins/subtac/subtac.ml" 74 2205 2211 "plugins/subtac/subtac.ml" 74 2205 2215
+type(
+  (Util.loc * Names.identifier) option
+)
+"plugins/subtac/subtac.ml" 75 2219 2220 "plugins/subtac/subtac.ml" 75 2219 2242
+type(
+  Names.identifier -> Names.identifier list -> Names.identifier
+)
+ident(
+  ext_ref Namegen.next_global_ident_away
+)
+"plugins/subtac/subtac.ml" 75 2219 2244 "plugins/subtac/subtac.ml" 75 2219 2256
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+"plugins/subtac/subtac.ml" 75 2219 2257 "plugins/subtac/subtac.ml" 75 2219 2270
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 75 2219 2243 "plugins/subtac/subtac.ml" 75 2219 2271
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/subtac/subtac.ml" 76 2272 2277 "plugins/subtac/subtac.ml" 76 2272 2303
+type(
+  unit -> Names.identifier list
+)
+ident(
+  ext_ref Pfedit.get_all_proof_names
+)
+"plugins/subtac/subtac.ml" 76 2272 2304 "plugins/subtac/subtac.ml" 76 2272 2306
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 76 2272 2276 "plugins/subtac/subtac.ml" 76 2272 2307
+call(
+  stack
+)
+type(
+  Names.identifier list
+)
+"plugins/subtac/subtac.ml" 75 2219 2220 "plugins/subtac/subtac.ml" 76 2272 2307
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/subtac/subtac.ml" 68 1919 1930 "plugins/subtac/subtac.ml" 76 2272 2307
+type(
+  Names.identifier
+)
+"plugins/subtac/subtac.ml" 78 2313 2319 "plugins/subtac/subtac.ml" 78 2313 2322
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac.ml" 78 2313 2324 "plugins/subtac/subtac.ml" 78 2313 2325
+type(
+  Term.constr
+)
+"plugins/subtac/subtac.ml" 78 2313 2327 "plugins/subtac/subtac.ml" 78 2313 2330
+type(
+  Term.types
+)
+"plugins/subtac/subtac.ml" 78 2313 2332 "plugins/subtac/subtac.ml" 78 2313 2336
+type(
+  Impargs.manual_explicitation list
+)
+"plugins/subtac/subtac.ml" 78 2313 2319 "plugins/subtac/subtac.ml" 78 2313 2336
+type(
+  Evd.evar_map * Term.constr * Term.types * Impargs.manual_explicitation list
+)
+"plugins/subtac/subtac.ml" 79 2339 2343 "plugins/subtac/subtac.ml" 79 2339 2374
+type(
+  ?is_type:bool ->
+  Environ.env ->
+  Evd.evar_map ref ->
+  Names.identifier ->
+  Topconstr.local_binder list ->
+  Topconstr.constr_expr ->
+  Topconstr.constr_expr option ->
+  Evd.evar_map * Term.constr * Term.types * Impargs.manual_explicitation list
+)
+ident(
+  ext_ref Subtac_pretyping.subtac_process
+)
+"plugins/subtac/subtac.ml" 79 2339 2384 "plugins/subtac/subtac.ml" 79 2339 2388
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 79 2339 2389 "plugins/subtac/subtac.ml" 79 2339 2392
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 67 1863 1883 "plugins/subtac/subtac.ml" 67 1863 1886
+)
+"plugins/subtac/subtac.ml" 79 2339 2393 "plugins/subtac/subtac.ml" 79 2339 2400
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac.ml" 67 1863 1887 "plugins/subtac/subtac.ml" 67 1863 1894
+)
+"plugins/subtac/subtac.ml" 79 2339 2401 "plugins/subtac/subtac.ml" 79 2339 2403
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 68 1919 1925 "plugins/subtac/subtac.ml" 68 1919 1927
+)
+"plugins/subtac/subtac.ml" 79 2339 2404 "plugins/subtac/subtac.ml" 79 2339 2406
+type(
+  Topconstr.local_binder list
+)
+"plugins/subtac/subtac.ml" 79 2339 2408 "plugins/subtac/subtac.ml" 79 2339 2434
+type(
+  Topconstr.constr_expr ->
+  Topconstr.local_binder list -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Topconstr.prod_constr_expr
+)
+"plugins/subtac/subtac.ml" 79 2339 2435 "plugins/subtac/subtac.ml" 79 2339 2436
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/subtac/subtac.ml" 67 1863 1909 "plugins/subtac/subtac.ml" 67 1863 1910
+)
+"plugins/subtac/subtac.ml" 79 2339 2437 "plugins/subtac/subtac.ml" 79 2339 2439
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref bl "plugins/subtac/subtac.ml" 67 1863 1906 "plugins/subtac/subtac.ml" 67 1863 1908
+)
+"plugins/subtac/subtac.ml" 79 2339 2407 "plugins/subtac/subtac.ml" 79 2339 2440
+call(
+  stack
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/subtac.ml" 79 2339 2441 "plugins/subtac/subtac.ml" 79 2339 2445
+type(
+  Topconstr.constr_expr option
+)
+"plugins/subtac/subtac.ml" 79 2339 2343 "plugins/subtac/subtac.ml" 79 2339 2445
+call(
+  stack
+)
+type(
+  Evd.evar_map * Term.constr * Term.types * Impargs.manual_explicitation list
+)
+"plugins/subtac/subtac.ml" 81 2451 2457 "plugins/subtac/subtac.ml" 81 2451 2458
+type(
+  Term.types
+)
+"plugins/subtac/subtac.ml" 81 2451 2461 "plugins/subtac/subtac.ml" 81 2451 2479
+type(
+  Environ.env ->
+  Names.identifier ->
+  Evd.evar_map ref -> Evd.evar_map -> Term.types -> Term.types -> Term.types
+)
+ident(
+  int_ref solve_tccs_in_type "plugins/subtac/subtac.ml" 52 1199 1203 "plugins/subtac/subtac.ml" 52 1199 1221
+)
+"plugins/subtac/subtac.ml" 81 2451 2480 "plugins/subtac/subtac.ml" 81 2451 2483
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 67 1863 1883 "plugins/subtac/subtac.ml" 67 1863 1886
+)
+"plugins/subtac/subtac.ml" 81 2451 2484 "plugins/subtac/subtac.ml" 81 2451 2486
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 68 1919 1925 "plugins/subtac/subtac.ml" 68 1919 1927
+)
+"plugins/subtac/subtac.ml" 81 2451 2487 "plugins/subtac/subtac.ml" 81 2451 2494
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac.ml" 67 1863 1887 "plugins/subtac/subtac.ml" 67 1863 1894
+)
+"plugins/subtac/subtac.ml" 81 2451 2495 "plugins/subtac/subtac.ml" 81 2451 2498
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/subtac.ml" 78 2313 2319 "plugins/subtac/subtac.ml" 78 2313 2322
+)
+"plugins/subtac/subtac.ml" 81 2451 2499 "plugins/subtac/subtac.ml" 81 2451 2500
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/subtac/subtac.ml" 78 2313 2324 "plugins/subtac/subtac.ml" 78 2313 2325
+)
+"plugins/subtac/subtac.ml" 81 2451 2501 "plugins/subtac/subtac.ml" 81 2451 2504
+type(
+  Term.types
+)
+ident(
+  int_ref typ "plugins/subtac/subtac.ml" 78 2313 2327 "plugins/subtac/subtac.ml" 78 2313 2330
+)
+"plugins/subtac/subtac.ml" 81 2451 2461 "plugins/subtac/subtac.ml" 81 2451 2504
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/subtac/subtac.ml" 82 2508 2512 "plugins/subtac/subtac.ml" 82 2508 2530
+type(
+  Names.identifier ->
+  Decl_kinds.goal_kind ->
+  Term.types ->
+  ?init_tac:Proof_type.tactic ->
+  ?compute_guard:Pfedit.lemma_possible_guards ->
+  Tacexpr.declaration_hook -> unit
+)
+ident(
+  ext_ref Lemmas.start_proof
+)
+"plugins/subtac/subtac.ml" 82 2508 2531 "plugins/subtac/subtac.ml" 82 2508 2533
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 68 1919 1925 "plugins/subtac/subtac.ml" 68 1919 1927
+)
+"plugins/subtac/subtac.ml" 82 2508 2534 "plugins/subtac/subtac.ml" 82 2508 2538
+type(
+  Decl_kinds.goal_kind
+)
+ident(
+  int_ref kind "plugins/subtac/subtac.ml" 67 1863 1900 "plugins/subtac/subtac.ml" 67 1863 1904
+)
+"plugins/subtac/subtac.ml" 82 2508 2539 "plugins/subtac/subtac.ml" 82 2508 2540
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/subtac/subtac.ml" 81 2451 2457 "plugins/subtac/subtac.ml" 81 2451 2458
+)
+"plugins/subtac/subtac.ml" 82 2508 2546 "plugins/subtac/subtac.ml" 82 2508 2549
+type(
+  Decl_kinds.locality
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 82 2508 2550 "plugins/subtac/subtac.ml" 84 2636 2653
+)
+"plugins/subtac/subtac.ml" 82 2508 2550 "plugins/subtac/subtac.ml" 82 2508 2552
+type(
+  Libnames.global_reference
+)
+ident(
+  def gr "plugins/subtac/subtac.ml" 83 2556 2562 "plugins/subtac/subtac.ml" 84 2636 2653
+)
+"plugins/subtac/subtac.ml" 83 2556 2562 "plugins/subtac/subtac.ml" 83 2556 2594
+type(
+  bool ->
+  Libnames.global_reference ->
+  ?enriching:bool -> Impargs.manual_explicitation list list -> unit
+)
+ident(
+  ext_ref Impargs.declare_manual_implicits
+)
+"plugins/subtac/subtac.ml" 83 2556 2596 "plugins/subtac/subtac.ml" 83 2556 2599
+type(
+  Decl_kinds.locality
+)
+ident(
+  int_ref loc "plugins/subtac/subtac.ml" 82 2508 2546 "plugins/subtac/subtac.ml" 82 2508 2549
+)
+"plugins/subtac/subtac.ml" 83 2556 2600 "plugins/subtac/subtac.ml" 83 2556 2601
+type(
+  Decl_kinds.locality -> Decl_kinds.locality -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/subtac/subtac.ml" 83 2556 2602 "plugins/subtac/subtac.ml" 83 2556 2607
+type(
+  Decl_kinds.locality
+)
+"plugins/subtac/subtac.ml" 83 2556 2595 "plugins/subtac/subtac.ml" 83 2556 2608
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 83 2556 2609 "plugins/subtac/subtac.ml" 83 2556 2611
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref gr "plugins/subtac/subtac.ml" 82 2508 2550 "plugins/subtac/subtac.ml" 82 2508 2552
+)
+"plugins/subtac/subtac.ml" 83 2556 2623 "plugins/subtac/subtac.ml" 83 2556 2627
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 83 2556 2629 "plugins/subtac/subtac.ml" 83 2556 2633
+type(
+  Impargs.manual_explicitation list
+)
+ident(
+  int_ref imps "plugins/subtac/subtac.ml" 78 2313 2332 "plugins/subtac/subtac.ml" 78 2313 2336
+)
+"plugins/subtac/subtac.ml" 83 2556 2628 "plugins/subtac/subtac.ml" 83 2556 2634
+type(
+  Impargs.manual_explicitation list list
+)
+"plugins/subtac/subtac.ml" 83 2556 2562 "plugins/subtac/subtac.ml" 83 2556 2634
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 84 2636 2642 "plugins/subtac/subtac.ml" 84 2636 2646
+type(
+  Decl_kinds.locality -> Libnames.global_reference -> unit
+)
+ident(
+  int_ref hook "plugins/subtac/subtac.ml" 67 1863 1912 "plugins/subtac/subtac.ml" 67 1863 1916
+)
+"plugins/subtac/subtac.ml" 84 2636 2647 "plugins/subtac/subtac.ml" 84 2636 2650
+type(
+  Decl_kinds.locality
+)
+ident(
+  int_ref loc "plugins/subtac/subtac.ml" 82 2508 2546 "plugins/subtac/subtac.ml" 82 2508 2549
+)
+"plugins/subtac/subtac.ml" 84 2636 2651 "plugins/subtac/subtac.ml" 84 2636 2653
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref gr "plugins/subtac/subtac.ml" 82 2508 2550 "plugins/subtac/subtac.ml" 82 2508 2552
+)
+"plugins/subtac/subtac.ml" 84 2636 2642 "plugins/subtac/subtac.ml" 84 2636 2653
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 83 2556 2562 "plugins/subtac/subtac.ml" 84 2636 2653
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 82 2508 2541 "plugins/subtac/subtac.ml" 84 2636 2654
+type(
+  Decl_kinds.locality -> Libnames.global_reference -> unit
+)
+"plugins/subtac/subtac.ml" 82 2508 2512 "plugins/subtac/subtac.ml" 84 2636 2654
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 81 2451 2453 "plugins/subtac/subtac.ml" 84 2636 2654
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 78 2313 2315 "plugins/subtac/subtac.ml" 84 2636 2654
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 68 1919 1921 "plugins/subtac/subtac.ml" 84 2636 2654
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 86 2656 2660 "plugins/subtac/subtac.ml" 86 2656 2674
+type(
+  unit -> unit
+)
+ident(
+  def print_subgoals "plugins/subtac/subtac.ml" 88 2747 2747 --
+)
+"plugins/subtac/subtac.ml" 86 2656 2675 "plugins/subtac/subtac.ml" 86 2656 2677
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 86 2656 2680 "plugins/subtac/subtac.ml" 86 2656 2696
+type(
+  (unit -> unit) -> unit -> unit
+)
+ident(
+  ext_ref Flags.if_verbose
+)
+"plugins/subtac/subtac.ml" 86 2656 2702 "plugins/subtac/subtac.ml" 86 2656 2704
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 86 2656 2708 "plugins/subtac/subtac.ml" 86 2656 2711
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msg
+)
+"plugins/subtac/subtac.ml" 86 2656 2713 "plugins/subtac/subtac.ml" 86 2656 2737
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Printer.pr_open_subgoals
+)
+"plugins/subtac/subtac.ml" 86 2656 2738 "plugins/subtac/subtac.ml" 86 2656 2740
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 86 2656 2712 "plugins/subtac/subtac.ml" 86 2656 2741
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 86 2656 2708 "plugins/subtac/subtac.ml" 86 2656 2741
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 86 2656 2697 "plugins/subtac/subtac.ml" 86 2656 2742
+type(
+  unit -> unit
+)
+"plugins/subtac/subtac.ml" 86 2656 2743 "plugins/subtac/subtac.ml" 86 2656 2745
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 86 2656 2680 "plugins/subtac/subtac.ml" 86 2656 2745
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 88 2747 2751 "plugins/subtac/subtac.ml" 88 2747 2772
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  (Util.loc * Names.identifier) option ->
+  Decl_kinds.goal_kind ->
+  Topconstr.local_binder list * Topconstr.constr_expr ->
+  (Decl_kinds.locality -> Libnames.global_reference -> unit) -> unit
+)
+ident(
+  def start_proof_and_print "plugins/subtac/subtac.ml" 92 2869 2869 --
+)
+"plugins/subtac/subtac.ml" 88 2747 2773 "plugins/subtac/subtac.ml" 88 2747 2776
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac.ml" 88 2747 2777 "plugins/subtac/subtac.ml" 90 2848 2867
+)
+"plugins/subtac/subtac.ml" 88 2747 2777 "plugins/subtac/subtac.ml" 88 2747 2784
+type(
+  Evd.evar_map ref
+)
+ident(
+  def isevars "plugins/subtac/subtac.ml" 88 2747 2785 "plugins/subtac/subtac.ml" 90 2848 2867
+)
+"plugins/subtac/subtac.ml" 88 2747 2785 "plugins/subtac/subtac.ml" 88 2747 2790
+type(
+  (Util.loc * Names.identifier) option
+)
+ident(
+  def idopt "plugins/subtac/subtac.ml" 88 2747 2791 "plugins/subtac/subtac.ml" 90 2848 2867
+)
+"plugins/subtac/subtac.ml" 88 2747 2791 "plugins/subtac/subtac.ml" 88 2747 2792
+type(
+  Decl_kinds.goal_kind
+)
+ident(
+  def k "plugins/subtac/subtac.ml" 88 2747 2793 "plugins/subtac/subtac.ml" 90 2848 2867
+)
+"plugins/subtac/subtac.ml" 88 2747 2793 "plugins/subtac/subtac.ml" 88 2747 2794
+type(
+  Topconstr.local_binder list * Topconstr.constr_expr
+)
+ident(
+  def t "plugins/subtac/subtac.ml" 88 2747 2795 "plugins/subtac/subtac.ml" 90 2848 2867
+)
+"plugins/subtac/subtac.ml" 88 2747 2795 "plugins/subtac/subtac.ml" 88 2747 2799
+type(
+  Decl_kinds.locality -> Libnames.global_reference -> unit
+)
+ident(
+  def hook "plugins/subtac/subtac.ml" 89 2802 2804 "plugins/subtac/subtac.ml" 90 2848 2867
+)
+"plugins/subtac/subtac.ml" 89 2802 2804 "plugins/subtac/subtac.ml" 89 2802 2819
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  (Util.loc * Names.identifier) option ->
+  Decl_kinds.goal_kind ->
+  Topconstr.local_binder list * Topconstr.constr_expr ->
+  (Decl_kinds.locality -> Libnames.global_reference -> unit) -> unit
+)
+ident(
+  int_ref start_proof_com "plugins/subtac/subtac.ml" 67 1863 1867 "plugins/subtac/subtac.ml" 67 1863 1882
+)
+"plugins/subtac/subtac.ml" 89 2802 2820 "plugins/subtac/subtac.ml" 89 2802 2823
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 88 2747 2773 "plugins/subtac/subtac.ml" 88 2747 2776
+)
+"plugins/subtac/subtac.ml" 89 2802 2824 "plugins/subtac/subtac.ml" 89 2802 2831
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac.ml" 88 2747 2777 "plugins/subtac/subtac.ml" 88 2747 2784
+)
+"plugins/subtac/subtac.ml" 89 2802 2832 "plugins/subtac/subtac.ml" 89 2802 2837
+type(
+  (Util.loc * Names.identifier) option
+)
+ident(
+  int_ref idopt "plugins/subtac/subtac.ml" 88 2747 2785 "plugins/subtac/subtac.ml" 88 2747 2790
+)
+"plugins/subtac/subtac.ml" 89 2802 2838 "plugins/subtac/subtac.ml" 89 2802 2839
+type(
+  Decl_kinds.goal_kind
+)
+ident(
+  int_ref k "plugins/subtac/subtac.ml" 88 2747 2791 "plugins/subtac/subtac.ml" 88 2747 2792
+)
+"plugins/subtac/subtac.ml" 89 2802 2840 "plugins/subtac/subtac.ml" 89 2802 2841
+type(
+  Topconstr.local_binder list * Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/subtac/subtac.ml" 88 2747 2793 "plugins/subtac/subtac.ml" 88 2747 2794
+)
+"plugins/subtac/subtac.ml" 89 2802 2842 "plugins/subtac/subtac.ml" 89 2802 2846
+type(
+  Decl_kinds.locality -> Libnames.global_reference -> unit
+)
+ident(
+  int_ref hook "plugins/subtac/subtac.ml" 88 2747 2795 "plugins/subtac/subtac.ml" 88 2747 2799
+)
+"plugins/subtac/subtac.ml" 89 2802 2804 "plugins/subtac/subtac.ml" 89 2802 2846
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 90 2848 2850 "plugins/subtac/subtac.ml" 90 2848 2864
+type(
+  unit -> unit
+)
+ident(
+  int_ref print_subgoals "plugins/subtac/subtac.ml" 86 2656 2660 "plugins/subtac/subtac.ml" 86 2656 2674
+)
+"plugins/subtac/subtac.ml" 90 2848 2865 "plugins/subtac/subtac.ml" 90 2848 2867
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 90 2848 2850 "plugins/subtac/subtac.ml" 90 2848 2867
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 89 2802 2804 "plugins/subtac/subtac.ml" 90 2848 2867
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 92 2869 2877 "plugins/subtac/subtac.ml" 92 2869 2906
+type(
+  (Util.loc -> int -> Rawterm.rawconstr) -> unit
+)
+ident(
+  ext_ref Detyping.set_detype_anonymous
+)
+"plugins/subtac/subtac.ml" 92 2869 2912 "plugins/subtac/subtac.ml" 92 2869 2915
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 92 2869 2916 "plugins/subtac/subtac.ml" 92 2869 2982
+)
+"plugins/subtac/subtac.ml" 92 2869 2916 "plugins/subtac/subtac.ml" 92 2869 2917
+type(
+  int
+)
+ident(
+  def n "plugins/subtac/subtac.ml" 92 2869 2921 "plugins/subtac/subtac.ml" 92 2869 2982
+)
+"plugins/subtac/subtac.ml" 92 2869 2927 "plugins/subtac/subtac.ml" 92 2869 2930
+type(
+  Util.loc
+)
+ident(
+  int_ref loc "plugins/subtac/subtac.ml" 92 2869 2912 "plugins/subtac/subtac.ml" 92 2869 2915
+)
+"plugins/subtac/subtac.ml" 92 2869 2932 "plugins/subtac/subtac.ml" 92 2869 2944
+type(
+  string -> Names.identifier
+)
+ident(
+  ext_ref Names.id_of_string
+)
+"plugins/subtac/subtac.ml" 92 2869 2946 "plugins/subtac/subtac.ml" 92 2869 2962
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 92 2869 2963 "plugins/subtac/subtac.ml" 92 2869 2964
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/subtac/subtac.ml" 92 2869 2965 "plugins/subtac/subtac.ml" 92 2869 2978
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"plugins/subtac/subtac.ml" 92 2869 2979 "plugins/subtac/subtac.ml" 92 2869 2980
+type(
+  int
+)
+ident(
+  int_ref n "plugins/subtac/subtac.ml" 92 2869 2916 "plugins/subtac/subtac.ml" 92 2869 2917
+)
+"plugins/subtac/subtac.ml" 92 2869 2965 "plugins/subtac/subtac.ml" 92 2869 2980
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 92 2869 2945 "plugins/subtac/subtac.ml" 92 2869 2981
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 92 2869 2932 "plugins/subtac/subtac.ml" 92 2869 2981
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/subtac/subtac.ml" 92 2869 2926 "plugins/subtac/subtac.ml" 92 2869 2982
+type(
+  Util.loc * Names.identifier
+)
+"plugins/subtac/subtac.ml" 92 2869 2921 "plugins/subtac/subtac.ml" 92 2869 2982
+type(
+  Rawterm.rawconstr
+)
+"plugins/subtac/subtac.ml" 92 2869 2907 "plugins/subtac/subtac.ml" 92 2869 2983
+type(
+  Util.loc -> int -> Rawterm.rawconstr
+)
+"plugins/subtac/subtac.ml" 92 2869 2877 "plugins/subtac/subtac.ml" 92 2869 2983
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 94 2985 2989 "plugins/subtac/subtac.ml" 94 2985 3007
+type(
+  Names.identifier -> unit
+)
+ident(
+  def assumption_message "plugins/subtac/subtac.ml" 97 3077 3077 --
+)
+"plugins/subtac/subtac.ml" 94 2985 3008 "plugins/subtac/subtac.ml" 94 2985 3010
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/subtac/subtac.ml" 95 3013 3015 "plugins/subtac/subtac.ml" 95 3013 3075
+)
+"plugins/subtac/subtac.ml" 95 3013 3015 "plugins/subtac/subtac.ml" 95 3013 3031
+type(
+  (string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Flags.if_verbose
+)
+"plugins/subtac/subtac.ml" 95 3013 3032 "plugins/subtac/subtac.ml" 95 3013 3039
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pp.message
+)
+"plugins/subtac/subtac.ml" 95 3013 3042 "plugins/subtac/subtac.ml" 95 3013 3054
+type(
+  Names.identifier -> string
+)
+ident(
+  ext_ref Names.string_of_id
+)
+"plugins/subtac/subtac.ml" 95 3013 3055 "plugins/subtac/subtac.ml" 95 3013 3057
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 94 2985 3008 "plugins/subtac/subtac.ml" 94 2985 3010
+)
+"plugins/subtac/subtac.ml" 95 3013 3041 "plugins/subtac/subtac.ml" 95 3013 3058
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 95 3013 3059 "plugins/subtac/subtac.ml" 95 3013 3060
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/subtac/subtac.ml" 95 3013 3061 "plugins/subtac/subtac.ml" 95 3013 3074
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 95 3013 3040 "plugins/subtac/subtac.ml" 95 3013 3075
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 95 3013 3015 "plugins/subtac/subtac.ml" 95 3013 3075
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 97 3077 3081 "plugins/subtac/subtac.ml" 97 3077 3100
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  Names.variable Util.located list ->
+  Vernacexpr.coercion_flag ->
+  Decl_kinds.assumption_kind ->
+  Topconstr.local_binder list -> Topconstr.constr_expr -> bool -> unit
+)
+ident(
+  def declare_assumptions "plugins/subtac/subtac.ml" 109 3581 3581 --
+)
+"plugins/subtac/subtac.ml" 97 3077 3101 "plugins/subtac/subtac.ml" 97 3077 3104
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac.ml" 97 3077 3105 "plugins/subtac/subtac.ml" 107 3513 3579
+)
+"plugins/subtac/subtac.ml" 97 3077 3105 "plugins/subtac/subtac.ml" 97 3077 3112
+type(
+  Evd.evar_map ref
+)
+ident(
+  def isevars "plugins/subtac/subtac.ml" 97 3077 3113 "plugins/subtac/subtac.ml" 107 3513 3579
+)
+"plugins/subtac/subtac.ml" 97 3077 3113 "plugins/subtac/subtac.ml" 97 3077 3116
+type(
+  Names.variable Util.located list
+)
+ident(
+  def idl "plugins/subtac/subtac.ml" 97 3077 3117 "plugins/subtac/subtac.ml" 107 3513 3579
+)
+"plugins/subtac/subtac.ml" 97 3077 3117 "plugins/subtac/subtac.ml" 97 3077 3123
+type(
+  Vernacexpr.coercion_flag
+)
+ident(
+  def is_coe "plugins/subtac/subtac.ml" 97 3077 3124 "plugins/subtac/subtac.ml" 107 3513 3579
+)
+"plugins/subtac/subtac.ml" 97 3077 3124 "plugins/subtac/subtac.ml" 97 3077 3125
+type(
+  Decl_kinds.assumption_kind
+)
+ident(
+  def k "plugins/subtac/subtac.ml" 97 3077 3126 "plugins/subtac/subtac.ml" 107 3513 3579
+)
+"plugins/subtac/subtac.ml" 97 3077 3126 "plugins/subtac/subtac.ml" 97 3077 3128
+type(
+  Topconstr.local_binder list
+)
+ident(
+  def bl "plugins/subtac/subtac.ml" 97 3077 3129 "plugins/subtac/subtac.ml" 107 3513 3579
+)
+"plugins/subtac/subtac.ml" 97 3077 3129 "plugins/subtac/subtac.ml" 97 3077 3130
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def c "plugins/subtac/subtac.ml" 97 3077 3131 "plugins/subtac/subtac.ml" 107 3513 3579
+)
+"plugins/subtac/subtac.ml" 97 3077 3131 "plugins/subtac/subtac.ml" 97 3077 3133
+type(
+  bool
+)
+ident(
+  def nl "plugins/subtac/subtac.ml" 98 3136 3138 "plugins/subtac/subtac.ml" 107 3513 3579
+)
+"plugins/subtac/subtac.ml" 98 3136 3141 "plugins/subtac/subtac.ml" 98 3136 3144
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/subtac/subtac.ml" 98 3136 3146 "plugins/subtac/subtac.ml" 98 3136 3161
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Pfedit.refining
+)
+"plugins/subtac/subtac.ml" 98 3136 3162 "plugins/subtac/subtac.ml" 98 3136 3164
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 98 3136 3145 "plugins/subtac/subtac.ml" 98 3136 3165
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 98 3136 3141 "plugins/subtac/subtac.ml" 98 3136 3165
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 99 3171 3179 "plugins/subtac/subtac.ml" 99 3171 3181
+type(
+  Names.variable
+)
+ident(
+  def id "plugins/subtac/subtac.ml" 100 3205 3209 "plugins/subtac/subtac.ml" 104 3394 3467
+)
+"plugins/subtac/subtac.ml" 99 3171 3184 "plugins/subtac/subtac.ml" 99 3171 3187
+type(
+  Names.variable Util.located -> Names.variable
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/subtac/subtac.ml" 99 3171 3189 "plugins/subtac/subtac.ml" 99 3171 3196
+type(
+  Names.variable Util.located list -> Names.variable Util.located
+)
+ident(
+  ext_ref List.hd
+)
+"plugins/subtac/subtac.ml" 99 3171 3197 "plugins/subtac/subtac.ml" 99 3171 3200
+type(
+  Names.variable Util.located list
+)
+ident(
+  int_ref idl "plugins/subtac/subtac.ml" 97 3077 3113 "plugins/subtac/subtac.ml" 97 3077 3116
+)
+"plugins/subtac/subtac.ml" 99 3171 3188 "plugins/subtac/subtac.ml" 99 3171 3201
+call(
+  stack
+)
+type(
+  Names.variable Util.located
+)
+"plugins/subtac/subtac.ml" 99 3171 3184 "plugins/subtac/subtac.ml" 99 3171 3201
+type(
+  Names.variable
+)
+"plugins/subtac/subtac.ml" 100 3205 3213 "plugins/subtac/subtac.ml" 100 3205 3216
+type(
+  Evd.evar_map
+)
+ident(
+  def evm "plugins/subtac/subtac.ml" 103 3335 3339 "plugins/subtac/subtac.ml" 104 3394 3467
+)
+"plugins/subtac/subtac.ml" 100 3205 3218 "plugins/subtac/subtac.ml" 100 3205 3219
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/subtac/subtac.ml" 103 3335 3339 "plugins/subtac/subtac.ml" 104 3394 3467
+)
+"plugins/subtac/subtac.ml" 100 3205 3221 "plugins/subtac/subtac.ml" 100 3205 3224
+type(
+  Term.types
+)
+ident(
+  def typ "plugins/subtac/subtac.ml" 103 3335 3339 "plugins/subtac/subtac.ml" 104 3394 3467
+)
+"plugins/subtac/subtac.ml" 100 3205 3226 "plugins/subtac/subtac.ml" 100 3205 3230
+type(
+  Impargs.manual_explicitation list
+)
+ident(
+  def imps "plugins/subtac/subtac.ml" 103 3335 3339 "plugins/subtac/subtac.ml" 104 3394 3467
+)
+"plugins/subtac/subtac.ml" 100 3205 3213 "plugins/subtac/subtac.ml" 100 3205 3230
+type(
+  Evd.evar_map * Term.constr * Term.types * Impargs.manual_explicitation list
+)
+"plugins/subtac/subtac.ml" 101 3233 3239 "plugins/subtac/subtac.ml" 101 3233 3270
+type(
+  ?is_type:bool ->
+  Environ.env ->
+  Evd.evar_map ref ->
+  Names.variable ->
+  Topconstr.local_binder list ->
+  Topconstr.constr_expr ->
+  Topconstr.constr_expr option ->
+  Evd.evar_map * Term.constr * Term.types * Impargs.manual_explicitation list
+)
+ident(
+  ext_ref Subtac_pretyping.subtac_process
+)
+"plugins/subtac/subtac.ml" 101 3233 3271 "plugins/subtac/subtac.ml" 101 3233 3274
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 97 3077 3101 "plugins/subtac/subtac.ml" 97 3077 3104
+)
+"plugins/subtac/subtac.ml" 101 3233 3275 "plugins/subtac/subtac.ml" 101 3233 3282
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac.ml" 97 3077 3105 "plugins/subtac/subtac.ml" 97 3077 3112
+)
+"plugins/subtac/subtac.ml" 101 3233 3283 "plugins/subtac/subtac.ml" 101 3233 3285
+type(
+  Names.variable
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 99 3171 3179 "plugins/subtac/subtac.ml" 99 3171 3181
+)
+"plugins/subtac/subtac.ml" 101 3233 3286 "plugins/subtac/subtac.ml" 101 3233 3288
+type(
+  Topconstr.local_binder list
+)
+"plugins/subtac/subtac.ml" 101 3233 3290 "plugins/subtac/subtac.ml" 101 3233 3316
+type(
+  Topconstr.constr_expr ->
+  Topconstr.local_binder list -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Topconstr.prod_constr_expr
+)
+"plugins/subtac/subtac.ml" 101 3233 3317 "plugins/subtac/subtac.ml" 101 3233 3318
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref c "plugins/subtac/subtac.ml" 97 3077 3129 "plugins/subtac/subtac.ml" 97 3077 3130
+)
+"plugins/subtac/subtac.ml" 101 3233 3319 "plugins/subtac/subtac.ml" 101 3233 3321
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref bl "plugins/subtac/subtac.ml" 97 3077 3126 "plugins/subtac/subtac.ml" 97 3077 3128
+)
+"plugins/subtac/subtac.ml" 101 3233 3289 "plugins/subtac/subtac.ml" 101 3233 3322
+call(
+  stack
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/subtac.ml" 101 3233 3323 "plugins/subtac/subtac.ml" 101 3233 3327
+type(
+  Topconstr.constr_expr option
+)
+"plugins/subtac/subtac.ml" 101 3233 3239 "plugins/subtac/subtac.ml" 101 3233 3327
+call(
+  stack
+)
+type(
+  Evd.evar_map * Term.constr * Term.types * Impargs.manual_explicitation list
+)
+"plugins/subtac/subtac.ml" 103 3335 3343 "plugins/subtac/subtac.ml" 103 3335 3344
+type(
+  Term.types
+)
+ident(
+  def c "plugins/subtac/subtac.ml" 104 3394 3400 "plugins/subtac/subtac.ml" 104 3394 3467
+)
+"plugins/subtac/subtac.ml" 103 3335 3347 "plugins/subtac/subtac.ml" 103 3335 3365
+type(
+  Environ.env ->
+  Names.variable ->
+  Evd.evar_map ref -> Evd.evar_map -> Term.types -> Term.types -> Term.types
+)
+ident(
+  int_ref solve_tccs_in_type "plugins/subtac/subtac.ml" 52 1199 1203 "plugins/subtac/subtac.ml" 52 1199 1221
+)
+"plugins/subtac/subtac.ml" 103 3335 3366 "plugins/subtac/subtac.ml" 103 3335 3369
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 97 3077 3101 "plugins/subtac/subtac.ml" 97 3077 3104
+)
+"plugins/subtac/subtac.ml" 103 3335 3370 "plugins/subtac/subtac.ml" 103 3335 3372
+type(
+  Names.variable
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 99 3171 3179 "plugins/subtac/subtac.ml" 99 3171 3181
+)
+"plugins/subtac/subtac.ml" 103 3335 3373 "plugins/subtac/subtac.ml" 103 3335 3380
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac.ml" 97 3077 3105 "plugins/subtac/subtac.ml" 97 3077 3112
+)
+"plugins/subtac/subtac.ml" 103 3335 3381 "plugins/subtac/subtac.ml" 103 3335 3384
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref evm "plugins/subtac/subtac.ml" 100 3205 3213 "plugins/subtac/subtac.ml" 100 3205 3216
+)
+"plugins/subtac/subtac.ml" 103 3335 3385 "plugins/subtac/subtac.ml" 103 3335 3386
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/subtac/subtac.ml" 100 3205 3218 "plugins/subtac/subtac.ml" 100 3205 3219
+)
+"plugins/subtac/subtac.ml" 103 3335 3387 "plugins/subtac/subtac.ml" 103 3335 3390
+type(
+  Term.types
+)
+ident(
+  int_ref typ "plugins/subtac/subtac.ml" 100 3205 3221 "plugins/subtac/subtac.ml" 100 3205 3224
+)
+"plugins/subtac/subtac.ml" 103 3335 3347 "plugins/subtac/subtac.ml" 103 3335 3390
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/subtac/subtac.ml" 104 3394 3400 "plugins/subtac/subtac.ml" 104 3394 3409
+type(
+  (Names.variable Util.located -> unit) ->
+  Names.variable Util.located list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/subtac/subtac.ml" 104 3394 3411 "plugins/subtac/subtac.ml" 104 3394 3437
+type(
+  Vernacexpr.coercion_flag ->
+  Decl_kinds.assumption_kind ->
+  Term.types ->
+  Constrintern.manual_implicits ->
+  bool -> bool -> Names.variable Util.located -> unit
+)
+ident(
+  ext_ref Command.declare_assumption
+)
+"plugins/subtac/subtac.ml" 104 3394 3438 "plugins/subtac/subtac.ml" 104 3394 3444
+type(
+  Vernacexpr.coercion_flag
+)
+ident(
+  int_ref is_coe "plugins/subtac/subtac.ml" 97 3077 3117 "plugins/subtac/subtac.ml" 97 3077 3123
+)
+"plugins/subtac/subtac.ml" 104 3394 3445 "plugins/subtac/subtac.ml" 104 3394 3446
+type(
+  Decl_kinds.assumption_kind
+)
+ident(
+  int_ref k "plugins/subtac/subtac.ml" 97 3077 3124 "plugins/subtac/subtac.ml" 97 3077 3125
+)
+"plugins/subtac/subtac.ml" 104 3394 3447 "plugins/subtac/subtac.ml" 104 3394 3448
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/subtac/subtac.ml" 103 3335 3343 "plugins/subtac/subtac.ml" 103 3335 3344
+)
+"plugins/subtac/subtac.ml" 104 3394 3449 "plugins/subtac/subtac.ml" 104 3394 3453
+type(
+  Constrintern.manual_implicits
+)
+ident(
+  int_ref imps "plugins/subtac/subtac.ml" 100 3205 3226 "plugins/subtac/subtac.ml" 100 3205 3230
+)
+"plugins/subtac/subtac.ml" 104 3394 3454 "plugins/subtac/subtac.ml" 104 3394 3459
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 104 3394 3460 "plugins/subtac/subtac.ml" 104 3394 3462
+type(
+  bool
+)
+ident(
+  int_ref nl "plugins/subtac/subtac.ml" 97 3077 3131 "plugins/subtac/subtac.ml" 97 3077 3133
+)
+"plugins/subtac/subtac.ml" 104 3394 3410 "plugins/subtac/subtac.ml" 104 3394 3463
+call(
+  stack
+)
+type(
+  Names.variable Util.located -> unit
+)
+"plugins/subtac/subtac.ml" 104 3394 3464 "plugins/subtac/subtac.ml" 104 3394 3467
+type(
+  Names.variable Util.located list
+)
+ident(
+  int_ref idl "plugins/subtac/subtac.ml" 97 3077 3113 "plugins/subtac/subtac.ml" 97 3077 3116
+)
+"plugins/subtac/subtac.ml" 104 3394 3400 "plugins/subtac/subtac.ml" 104 3394 3467
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 103 3335 3339 "plugins/subtac/subtac.ml" 104 3394 3467
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 100 3205 3209 "plugins/subtac/subtac.ml" 104 3394 3467
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 99 3171 3175 "plugins/subtac/subtac.ml" 104 3394 3467
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 106 3475 3479 "plugins/subtac/subtac.ml" 106 3475 3491
+type(
+  string -> Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Util.errorlabstrm
+)
+"plugins/subtac/subtac.ml" 106 3475 3492 "plugins/subtac/subtac.ml" 106 3475 3512
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 107 3513 3515 "plugins/subtac/subtac.ml" 107 3513 3518
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 107 3513 3519 "plugins/subtac/subtac.ml" 107 3513 3578
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 107 3513 3514 "plugins/subtac/subtac.ml" 107 3513 3579
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 106 3475 3479 "plugins/subtac/subtac.ml" 107 3513 3579
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 98 3136 3138 "plugins/subtac/subtac.ml" 107 3513 3579
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 109 3581 3585 "plugins/subtac/subtac.ml" 109 3581 3600
+type(
+  string -> (Util.loc * Names.name) * 'a * 'b -> unit
+)
+ident(
+  def dump_constraint "plugins/subtac/subtac.ml" 114 3722 3722 --
+)
+"plugins/subtac/subtac.ml" 109 3581 3601 "plugins/subtac/subtac.ml" 109 3581 3603
+type(
+  string
+)
+ident(
+  def ty "plugins/subtac/subtac.ml" 109 3581 3604 "plugins/subtac/subtac.ml" 112 3699 3720
+)
+"plugins/subtac/subtac.ml" 109 3581 3606 "plugins/subtac/subtac.ml" 109 3581 3609
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 110 3623 3625 "plugins/subtac/subtac.ml" 112 3699 3720
+)
+"plugins/subtac/subtac.ml" 109 3581 3611 "plugins/subtac/subtac.ml" 109 3581 3612
+type(
+  Names.name
+)
+ident(
+  def n "plugins/subtac/subtac.ml" 110 3623 3625 "plugins/subtac/subtac.ml" 112 3699 3720
+)
+"plugins/subtac/subtac.ml" 109 3581 3605 "plugins/subtac/subtac.ml" 109 3581 3613
+type(
+  Util.loc * Names.name
+)
+"plugins/subtac/subtac.ml" 109 3581 3615 "plugins/subtac/subtac.ml" 109 3581 3616
+type(
+  'a
+)
+"plugins/subtac/subtac.ml" 109 3581 3618 "plugins/subtac/subtac.ml" 109 3581 3619
+type(
+  'b
+)
+"plugins/subtac/subtac.ml" 109 3581 3604 "plugins/subtac/subtac.ml" 109 3581 3620
+type(
+  (Util.loc * Names.name) * 'a * 'b
+)
+"plugins/subtac/subtac.ml" 110 3623 3631 "plugins/subtac/subtac.ml" 110 3623 3632
+type(
+  Names.name
+)
+ident(
+  int_ref n "plugins/subtac/subtac.ml" 109 3581 3611 "plugins/subtac/subtac.ml" 109 3581 3612
+)
+"plugins/subtac/subtac.ml" 111 3638 3649 "plugins/subtac/subtac.ml" 111 3638 3651
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/subtac/subtac.ml" 111 3638 3655 "plugins/subtac/subtac.ml" 111 3638 3698
+)
+"plugins/subtac/subtac.ml" 111 3638 3644 "plugins/subtac/subtac.ml" 111 3638 3651
+type(
+  Names.name
+)
+"plugins/subtac/subtac.ml" 111 3638 3655 "plugins/subtac/subtac.ml" 111 3638 3679
+type(
+  Util.loc * Names.identifier -> bool -> string -> unit
+)
+ident(
+  ext_ref Dumpglob.dump_definition
+)
+"plugins/subtac/subtac.ml" 111 3638 3681 "plugins/subtac/subtac.ml" 111 3638 3684
+type(
+  Util.loc
+)
+ident(
+  int_ref loc "plugins/subtac/subtac.ml" 109 3581 3606 "plugins/subtac/subtac.ml" 109 3581 3609
+)
+"plugins/subtac/subtac.ml" 111 3638 3686 "plugins/subtac/subtac.ml" 111 3638 3688
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 111 3638 3649 "plugins/subtac/subtac.ml" 111 3638 3651
+)
+"plugins/subtac/subtac.ml" 111 3638 3680 "plugins/subtac/subtac.ml" 111 3638 3689
+type(
+  Util.loc * Names.identifier
+)
+"plugins/subtac/subtac.ml" 111 3638 3690 "plugins/subtac/subtac.ml" 111 3638 3695
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 111 3638 3696 "plugins/subtac/subtac.ml" 111 3638 3698
+type(
+  string
+)
+ident(
+  int_ref ty "plugins/subtac/subtac.ml" 109 3581 3601 "plugins/subtac/subtac.ml" 109 3581 3603
+)
+"plugins/subtac/subtac.ml" 111 3638 3655 "plugins/subtac/subtac.ml" 111 3638 3698
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 112 3699 3705 "plugins/subtac/subtac.ml" 112 3699 3714
+type(
+  Names.name
+)
+"plugins/subtac/subtac.ml" 112 3699 3718 "plugins/subtac/subtac.ml" 112 3699 3720
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 110 3623 3625 "plugins/subtac/subtac.ml" 112 3699 3720
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 114 3722 3726 "plugins/subtac/subtac.ml" 114 3722 3739
+type(
+  'a -> unit
+)
+ident(
+  def dump_variable "plugins/subtac/subtac.ml" 116 3750 3750 --
+)
+"plugins/subtac/subtac.ml" 114 3722 3740 "plugins/subtac/subtac.ml" 114 3722 3743
+type(
+  'a
+)
+ident(
+  def lid "plugins/subtac/subtac.ml" 114 3722 3746 "plugins/subtac/subtac.ml" 114 3722 3748
+)
+"plugins/subtac/subtac.ml" 114 3722 3746 "plugins/subtac/subtac.ml" 114 3722 3748
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 116 3750 3754 "plugins/subtac/subtac.ml" 116 3750 3771
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  Decl_kinds.assumption_kind ->
+  (Vernacexpr.coercion_flag *
+   (Names.variable Util.located list * Topconstr.constr_expr))
+  list -> bool -> unit
+)
+ident(
+  def vernac_assumption "plugins/subtac/subtac.ml" 125 4088 4088 --
+)
+"plugins/subtac/subtac.ml" 116 3750 3772 "plugins/subtac/subtac.ml" 116 3750 3775
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac.ml" 116 3750 3776 "plugins/subtac/subtac.ml" 123 4022 4086
+)
+"plugins/subtac/subtac.ml" 116 3750 3776 "plugins/subtac/subtac.ml" 116 3750 3783
+type(
+  Evd.evar_map ref
+)
+ident(
+  def isevars "plugins/subtac/subtac.ml" 116 3750 3784 "plugins/subtac/subtac.ml" 123 4022 4086
+)
+"plugins/subtac/subtac.ml" 116 3750 3784 "plugins/subtac/subtac.ml" 116 3750 3788
+type(
+  Decl_kinds.assumption_kind
+)
+ident(
+  def kind "plugins/subtac/subtac.ml" 116 3750 3789 "plugins/subtac/subtac.ml" 123 4022 4086
+)
+"plugins/subtac/subtac.ml" 116 3750 3789 "plugins/subtac/subtac.ml" 116 3750 3790
+type(
+  (Vernacexpr.coercion_flag *
+   (Names.variable Util.located list * Topconstr.constr_expr))
+  list
+)
+ident(
+  def l "plugins/subtac/subtac.ml" 116 3750 3791 "plugins/subtac/subtac.ml" 123 4022 4086
+)
+"plugins/subtac/subtac.ml" 116 3750 3791 "plugins/subtac/subtac.ml" 116 3750 3793
+type(
+  bool
+)
+ident(
+  def nl "plugins/subtac/subtac.ml" 117 3796 3798 "plugins/subtac/subtac.ml" 123 4022 4086
+)
+"plugins/subtac/subtac.ml" 117 3796 3802 "plugins/subtac/subtac.ml" 117 3796 3808
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 117 3796 3811 "plugins/subtac/subtac.ml" 117 3796 3814
+type(
+  Decl_kinds.assumption_kind -> Decl_kinds.locality
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"plugins/subtac/subtac.ml" 117 3796 3815 "plugins/subtac/subtac.ml" 117 3796 3819
+type(
+  Decl_kinds.assumption_kind
+)
+ident(
+  int_ref kind "plugins/subtac/subtac.ml" 116 3750 3784 "plugins/subtac/subtac.ml" 116 3750 3788
+)
+"plugins/subtac/subtac.ml" 117 3796 3811 "plugins/subtac/subtac.ml" 117 3796 3819
+type(
+  Decl_kinds.locality
+)
+"plugins/subtac/subtac.ml" 117 3796 3820 "plugins/subtac/subtac.ml" 117 3796 3821
+type(
+  Decl_kinds.locality -> Decl_kinds.locality -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/subtac/subtac.ml" 117 3796 3822 "plugins/subtac/subtac.ml" 117 3796 3828
+type(
+  Decl_kinds.locality
+)
+"plugins/subtac/subtac.ml" 117 3796 3811 "plugins/subtac/subtac.ml" 117 3796 3828
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 118 3832 3836 "plugins/subtac/subtac.ml" 118 3832 3845
+type(
+  (Vernacexpr.coercion_flag *
+   (Names.variable Util.located list * Topconstr.constr_expr) -> unit) ->
+  (Vernacexpr.coercion_flag *
+   (Names.variable Util.located list * Topconstr.constr_expr))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/subtac/subtac.ml" 118 3832 3852 "plugins/subtac/subtac.ml" 118 3832 3858
+type(
+  Vernacexpr.coercion_flag
+)
+ident(
+  def is_coe "plugins/subtac/subtac.ml" 119 3871 3877 "plugins/subtac/subtac.ml" 123 4022 4083
+)
+"plugins/subtac/subtac.ml" 118 3832 3860 "plugins/subtac/subtac.ml" 118 3832 3863
+type(
+  Names.variable Util.located list
+)
+ident(
+  def idl "plugins/subtac/subtac.ml" 119 3871 3877 "plugins/subtac/subtac.ml" 123 4022 4083
+)
+"plugins/subtac/subtac.ml" 118 3832 3864 "plugins/subtac/subtac.ml" 118 3832 3865
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def c "plugins/subtac/subtac.ml" 119 3871 3877 "plugins/subtac/subtac.ml" 123 4022 4083
+)
+"plugins/subtac/subtac.ml" 118 3832 3859 "plugins/subtac/subtac.ml" 118 3832 3866
+type(
+  Names.variable Util.located list * Topconstr.constr_expr
+)
+"plugins/subtac/subtac.ml" 118 3832 3851 "plugins/subtac/subtac.ml" 118 3832 3867
+type(
+  Vernacexpr.coercion_flag *
+  (Names.variable Util.located list * Topconstr.constr_expr)
+)
+"plugins/subtac/subtac.ml" 119 3871 3880 "plugins/subtac/subtac.ml" 119 3871 3893
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Dumpglob.dump
+)
+"plugins/subtac/subtac.ml" 119 3871 3894 "plugins/subtac/subtac.ml" 119 3871 3896
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 119 3871 3880 "plugins/subtac/subtac.ml" 119 3871 3896
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 120 3902 3903 "plugins/subtac/subtac.ml" 120 3902 3912
+type(
+  (Names.variable Util.located -> unit) ->
+  Names.variable Util.located list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/subtac/subtac.ml" 120 3902 3918 "plugins/subtac/subtac.ml" 120 3902 3921
+type(
+  Names.variable Util.located
+)
+ident(
+  def lid "plugins/subtac/subtac.ml" 121 3925 3928 "plugins/subtac/subtac.ml" 122 3990 4015
+)
+"plugins/subtac/subtac.ml" 121 3925 3931 "plugins/subtac/subtac.ml" 121 3925 3937
+type(
+  bool
+)
+ident(
+  int_ref global "plugins/subtac/subtac.ml" 117 3796 3802 "plugins/subtac/subtac.ml" 117 3796 3808
+)
+"plugins/subtac/subtac.ml" 121 3925 3943 "plugins/subtac/subtac.ml" 121 3925 3967
+type(
+  Names.variable Util.located -> bool -> string -> unit
+)
+ident(
+  ext_ref Dumpglob.dump_definition
+)
+"plugins/subtac/subtac.ml" 121 3925 3968 "plugins/subtac/subtac.ml" 121 3925 3971
+type(
+  Names.variable Util.located
+)
+ident(
+  int_ref lid "plugins/subtac/subtac.ml" 120 3902 3918 "plugins/subtac/subtac.ml" 120 3902 3921
+)
+"plugins/subtac/subtac.ml" 121 3925 3973 "plugins/subtac/subtac.ml" 121 3925 3976
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/subtac/subtac.ml" 121 3925 3977 "plugins/subtac/subtac.ml" 121 3925 3983
+type(
+  bool
+)
+ident(
+  int_ref global "plugins/subtac/subtac.ml" 117 3796 3802 "plugins/subtac/subtac.ml" 117 3796 3808
+)
+"plugins/subtac/subtac.ml" 121 3925 3972 "plugins/subtac/subtac.ml" 121 3925 3984
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 121 3925 3985 "plugins/subtac/subtac.ml" 121 3925 3989
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 121 3925 3943 "plugins/subtac/subtac.ml" 121 3925 3989
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 122 3990 3998 "plugins/subtac/subtac.ml" 122 3990 4011
+type(
+  Names.variable Util.located -> unit
+)
+ident(
+  int_ref dump_variable "plugins/subtac/subtac.ml" 114 3722 3726 "plugins/subtac/subtac.ml" 114 3722 3739
+)
+"plugins/subtac/subtac.ml" 122 3990 4012 "plugins/subtac/subtac.ml" 122 3990 4015
+type(
+  Names.variable Util.located
+)
+ident(
+  int_ref lid "plugins/subtac/subtac.ml" 120 3902 3918 "plugins/subtac/subtac.ml" 120 3902 3921
+)
+"plugins/subtac/subtac.ml" 122 3990 3998 "plugins/subtac/subtac.ml" 122 3990 4015
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 121 3925 3928 "plugins/subtac/subtac.ml" 122 3990 4015
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 120 3902 3913 "plugins/subtac/subtac.ml" 122 3990 4016
+type(
+  Names.variable Util.located -> unit
+)
+"plugins/subtac/subtac.ml" 122 3990 4017 "plugins/subtac/subtac.ml" 122 3990 4020
+type(
+  Names.variable Util.located list
+)
+ident(
+  int_ref idl "plugins/subtac/subtac.ml" 118 3832 3860 "plugins/subtac/subtac.ml" 118 3832 3863
+)
+"plugins/subtac/subtac.ml" 120 3902 3903 "plugins/subtac/subtac.ml" 122 3990 4020
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 119 3871 3877 "plugins/subtac/subtac.ml" 122 3990 4020
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 123 4022 4028 "plugins/subtac/subtac.ml" 123 4022 4047
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  Names.variable Util.located list ->
+  Vernacexpr.coercion_flag ->
+  Decl_kinds.assumption_kind ->
+  Topconstr.local_binder list -> Topconstr.constr_expr -> bool -> unit
+)
+ident(
+  int_ref declare_assumptions "plugins/subtac/subtac.ml" 97 3077 3081 "plugins/subtac/subtac.ml" 97 3077 3100
+)
+"plugins/subtac/subtac.ml" 123 4022 4048 "plugins/subtac/subtac.ml" 123 4022 4051
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 116 3750 3772 "plugins/subtac/subtac.ml" 116 3750 3775
+)
+"plugins/subtac/subtac.ml" 123 4022 4052 "plugins/subtac/subtac.ml" 123 4022 4059
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac.ml" 116 3750 3776 "plugins/subtac/subtac.ml" 116 3750 3783
+)
+"plugins/subtac/subtac.ml" 123 4022 4060 "plugins/subtac/subtac.ml" 123 4022 4063
+type(
+  Names.variable Util.located list
+)
+ident(
+  int_ref idl "plugins/subtac/subtac.ml" 118 3832 3860 "plugins/subtac/subtac.ml" 118 3832 3863
+)
+"plugins/subtac/subtac.ml" 123 4022 4064 "plugins/subtac/subtac.ml" 123 4022 4070
+type(
+  Vernacexpr.coercion_flag
+)
+ident(
+  int_ref is_coe "plugins/subtac/subtac.ml" 118 3832 3852 "plugins/subtac/subtac.ml" 118 3832 3858
+)
+"plugins/subtac/subtac.ml" 123 4022 4071 "plugins/subtac/subtac.ml" 123 4022 4075
+type(
+  Decl_kinds.assumption_kind
+)
+ident(
+  int_ref kind "plugins/subtac/subtac.ml" 116 3750 3784 "plugins/subtac/subtac.ml" 116 3750 3788
+)
+"plugins/subtac/subtac.ml" 123 4022 4076 "plugins/subtac/subtac.ml" 123 4022 4078
+type(
+  Topconstr.local_binder list
+)
+"plugins/subtac/subtac.ml" 123 4022 4079 "plugins/subtac/subtac.ml" 123 4022 4080
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref c "plugins/subtac/subtac.ml" 118 3832 3864 "plugins/subtac/subtac.ml" 118 3832 3865
+)
+"plugins/subtac/subtac.ml" 123 4022 4081 "plugins/subtac/subtac.ml" 123 4022 4083
+type(
+  bool
+)
+ident(
+  int_ref nl "plugins/subtac/subtac.ml" 116 3750 3791 "plugins/subtac/subtac.ml" 116 3750 3793
+)
+"plugins/subtac/subtac.ml" 123 4022 4028 "plugins/subtac/subtac.ml" 123 4022 4083
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 119 3871 3877 "plugins/subtac/subtac.ml" 123 4022 4083
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 118 3832 3846 "plugins/subtac/subtac.ml" 123 4022 4084
+type(
+  Vernacexpr.coercion_flag *
+  (Names.variable Util.located list * Topconstr.constr_expr) -> unit
+)
+"plugins/subtac/subtac.ml" 123 4022 4085 "plugins/subtac/subtac.ml" 123 4022 4086
+type(
+  (Vernacexpr.coercion_flag *
+   (Names.variable Util.located list * Topconstr.constr_expr))
+  list
+)
+ident(
+  int_ref l "plugins/subtac/subtac.ml" 116 3750 3789 "plugins/subtac/subtac.ml" 116 3750 3790
+)
+"plugins/subtac/subtac.ml" 118 3832 3836 "plugins/subtac/subtac.ml" 123 4022 4086
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 117 3796 3798 "plugins/subtac/subtac.ml" 123 4022 4086
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 125 4088 4092 "plugins/subtac/subtac.ml" 125 4088 4103
+type(
+  Util.loc * Names.identifier -> unit
+)
+ident(
+  def check_fresh "plugins/subtac/subtac.ml" 129 4250 4250 --
+)
+"plugins/subtac/subtac.ml" 125 4088 4105 "plugins/subtac/subtac.ml" 125 4088 4108
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 126 4115 4117 "plugins/subtac/subtac.ml" 127 4189 4248
+)
+"plugins/subtac/subtac.ml" 125 4088 4109 "plugins/subtac/subtac.ml" 125 4088 4111
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/subtac/subtac.ml" 126 4115 4117 "plugins/subtac/subtac.ml" 127 4189 4248
+)
+"plugins/subtac/subtac.ml" 125 4088 4104 "plugins/subtac/subtac.ml" 125 4088 4112
+type(
+  Util.loc * Names.identifier
+)
+"plugins/subtac/subtac.ml" 126 4115 4120 "plugins/subtac/subtac.ml" 126 4115 4138
+type(
+  Libnames.full_path -> bool
+)
+ident(
+  ext_ref Nametab.exists_cci
+)
+"plugins/subtac/subtac.ml" 126 4115 4140 "plugins/subtac/subtac.ml" 126 4115 4153
+type(
+  Names.identifier -> Libnames.full_path
+)
+ident(
+  ext_ref Lib.make_path
+)
+"plugins/subtac/subtac.ml" 126 4115 4154 "plugins/subtac/subtac.ml" 126 4115 4156
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 125 4088 4109 "plugins/subtac/subtac.ml" 125 4088 4111
+)
+"plugins/subtac/subtac.ml" 126 4115 4139 "plugins/subtac/subtac.ml" 126 4115 4157
+call(
+  stack
+)
+type(
+  Libnames.full_path
+)
+"plugins/subtac/subtac.ml" 126 4115 4120 "plugins/subtac/subtac.ml" 126 4115 4157
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 126 4115 4158 "plugins/subtac/subtac.ml" 126 4115 4160
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( or )
+)
+"plugins/subtac/subtac.ml" 126 4115 4161 "plugins/subtac/subtac.ml" 126 4115 4180
+type(
+  Names.identifier -> bool
+)
+ident(
+  ext_ref Termops.is_section_variable
+)
+"plugins/subtac/subtac.ml" 126 4115 4181 "plugins/subtac/subtac.ml" 126 4115 4183
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 125 4088 4109 "plugins/subtac/subtac.ml" 125 4088 4111
+)
+"plugins/subtac/subtac.ml" 126 4115 4161 "plugins/subtac/subtac.ml" 126 4115 4183
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 126 4115 4120 "plugins/subtac/subtac.ml" 126 4115 4183
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 127 4189 4193 "plugins/subtac/subtac.ml" 127 4189 4205
+type(
+  Util.loc * string * Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Util.user_err_loc
+)
+"plugins/subtac/subtac.ml" 127 4189 4207 "plugins/subtac/subtac.ml" 127 4189 4210
+type(
+  Util.loc
+)
+ident(
+  int_ref loc "plugins/subtac/subtac.ml" 125 4088 4105 "plugins/subtac/subtac.ml" 125 4088 4108
+)
+"plugins/subtac/subtac.ml" 127 4189 4211 "plugins/subtac/subtac.ml" 127 4189 4213
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 127 4189 4214 "plugins/subtac/subtac.ml" 127 4189 4219
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Ppconstr.pr_id
+)
+"plugins/subtac/subtac.ml" 127 4189 4220 "plugins/subtac/subtac.ml" 127 4189 4222
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 125 4088 4109 "plugins/subtac/subtac.ml" 125 4088 4111
+)
+"plugins/subtac/subtac.ml" 127 4189 4214 "plugins/subtac/subtac.ml" 127 4189 4222
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 127 4189 4223 "plugins/subtac/subtac.ml" 127 4189 4225
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 127 4189 4226 "plugins/subtac/subtac.ml" 127 4189 4229
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 127 4189 4230 "plugins/subtac/subtac.ml" 127 4189 4247
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 127 4189 4226 "plugins/subtac/subtac.ml" 127 4189 4247
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 127 4189 4214 "plugins/subtac/subtac.ml" 127 4189 4247
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 127 4189 4206 "plugins/subtac/subtac.ml" 127 4189 4248
+type(
+  Util.loc * string * Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 127 4189 4193 "plugins/subtac/subtac.ml" 127 4189 4248
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 126 4115 4117 "plugins/subtac/subtac.ml" 127 4189 4248
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 129 4250 4254 "plugins/subtac/subtac.ml" 129 4250 4260
+type(
+  Util.loc * Vernacexpr.vernac_expr -> unit
+)
+ident(
+  def subtac "plugins/subtac/subtac.ml" 224 7786 7802 --
+)
+"plugins/subtac/subtac.ml" 129 4250 4262 "plugins/subtac/subtac.ml" 129 4250 4265
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 130 4278 4280 "plugins/subtac/subtac.ml" 224 7786 7802
+)
+"plugins/subtac/subtac.ml" 129 4250 4267 "plugins/subtac/subtac.ml" 129 4250 4274
+type(
+  Vernacexpr.vernac_expr
+)
+ident(
+  def command "plugins/subtac/subtac.ml" 130 4278 4280 "plugins/subtac/subtac.ml" 224 7786 7802
+)
+"plugins/subtac/subtac.ml" 129 4250 4261 "plugins/subtac/subtac.ml" 129 4250 4275
+type(
+  Util.loc * Vernacexpr.vernac_expr
+)
+"plugins/subtac/subtac.ml" 130 4278 4280 "plugins/subtac/subtac.ml" 130 4278 4302
+type(
+  string list -> unit
+)
+ident(
+  ext_ref Coqlib.check_required_library
+)
+"plugins/subtac/subtac.ml" 130 4278 4304 "plugins/subtac/subtac.ml" 130 4278 4309
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 130 4278 4310 "plugins/subtac/subtac.ml" 130 4278 4316
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 130 4278 4317 "plugins/subtac/subtac.ml" 130 4278 4328
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 130 4278 4303 "plugins/subtac/subtac.ml" 130 4278 4329
+type(
+  string list
+)
+"plugins/subtac/subtac.ml" 130 4278 4280 "plugins/subtac/subtac.ml" 130 4278 4329
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 131 4331 4333 "plugins/subtac/subtac.ml" 131 4331 4355
+type(
+  string list -> unit
+)
+ident(
+  ext_ref Coqlib.check_required_library
+)
+"plugins/subtac/subtac.ml" 131 4331 4357 "plugins/subtac/subtac.ml" 131 4331 4362
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 131 4331 4363 "plugins/subtac/subtac.ml" 131 4331 4369
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 131 4331 4370 "plugins/subtac/subtac.ml" 131 4331 4378
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 131 4331 4356 "plugins/subtac/subtac.ml" 131 4331 4379
+type(
+  string list
+)
+"plugins/subtac/subtac.ml" 131 4331 4333 "plugins/subtac/subtac.ml" 131 4331 4379
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 132 4381 4387 "plugins/subtac/subtac.ml" 132 4381 4390
+type(
+  Environ.env
+)
+"plugins/subtac/subtac.ml" 132 4381 4393 "plugins/subtac/subtac.ml" 132 4381 4403
+type(
+  unit -> Environ.env
+)
+ident(
+  ext_ref Global.env
+)
+"plugins/subtac/subtac.ml" 132 4381 4404 "plugins/subtac/subtac.ml" 132 4381 4406
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 132 4381 4393 "plugins/subtac/subtac.ml" 132 4381 4406
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/subtac/subtac.ml" 133 4410 4416 "plugins/subtac/subtac.ml" 133 4410 4423
+type(
+  Evd.evar_map ref
+)
+"plugins/subtac/subtac.ml" 133 4410 4426 "plugins/subtac/subtac.ml" 133 4410 4429
+type(
+  Evd.evar_map -> Evd.evar_map ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/subtac/subtac.ml" 133 4410 4431 "plugins/subtac/subtac.ml" 133 4410 4447
+type(
+  Evd.evar_map -> Evd.evar_map
+)
+ident(
+  ext_ref Evd.create_evar_defs
+)
+"plugins/subtac/subtac.ml" 133 4410 4448 "plugins/subtac/subtac.ml" 133 4410 4457
+type(
+  Evd.evar_map
+)
+ident(
+  ext_ref Evd.empty
+)
+"plugins/subtac/subtac.ml" 133 4410 4430 "plugins/subtac/subtac.ml" 133 4410 4458
+call(
+  stack
+)
+type(
+  Evd.evar_map
+)
+"plugins/subtac/subtac.ml" 133 4410 4426 "plugins/subtac/subtac.ml" 133 4410 4458
+type(
+  Evd.evar_map ref
+)
+"plugins/subtac/subtac.ml" 135 4468 4476 "plugins/subtac/subtac.ml" 135 4468 4483
+type(
+  Vernacexpr.vernac_expr
+)
+ident(
+  int_ref command "plugins/subtac/subtac.ml" 129 4250 4267 "plugins/subtac/subtac.ml" 129 4250 4274
+)
+"plugins/subtac/subtac.ml" 136 4489 4511 "plugins/subtac/subtac.ml" 136 4489 4518
+type(
+  Decl_kinds.definition_kind
+)
+ident(
+  def defkind "plugins/subtac/subtac.ml" 137 4551 4557 "plugins/subtac/subtac.ml" 144 4826 4906
+)
+"plugins/subtac/subtac.ml" 136 4489 4521 "plugins/subtac/subtac.ml" 136 4489 4522
+type(
+  Util.loc
+)
+"plugins/subtac/subtac.ml" 136 4489 4524 "plugins/subtac/subtac.ml" 136 4489 4526
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/subtac/subtac.ml" 137 4551 4557 "plugins/subtac/subtac.ml" 144 4826 4906
+)
+"plugins/subtac/subtac.ml" 136 4489 4521 "plugins/subtac/subtac.ml" 136 4489 4526
+type(
+  Vernacexpr.lident
+)
+"plugins/subtac/subtac.ml" 136 4489 4520 "plugins/subtac/subtac.ml" 136 4489 4534
+type(
+  Vernacexpr.lident
+)
+ident(
+  def lid "plugins/subtac/subtac.ml" 137 4551 4557 "plugins/subtac/subtac.ml" 144 4826 4906
+)
+"plugins/subtac/subtac.ml" 136 4489 4536 "plugins/subtac/subtac.ml" 136 4489 4540
+type(
+  Vernacexpr.definition_expr
+)
+ident(
+  def expr "plugins/subtac/subtac.ml" 137 4551 4557 "plugins/subtac/subtac.ml" 144 4826 4906
+)
+"plugins/subtac/subtac.ml" 136 4489 4542 "plugins/subtac/subtac.ml" 136 4489 4546
+type(
+  Tacexpr.declaration_hook
+)
+ident(
+  def hook "plugins/subtac/subtac.ml" 137 4551 4557 "plugins/subtac/subtac.ml" 144 4826 4906
+)
+"plugins/subtac/subtac.ml" 136 4489 4493 "plugins/subtac/subtac.ml" 136 4489 4547
+type(
+  Vernacexpr.vernac_expr
+)
+"plugins/subtac/subtac.ml" 137 4551 4557 "plugins/subtac/subtac.ml" 137 4551 4568
+type(
+  Util.loc * Names.identifier -> unit
+)
+ident(
+  int_ref check_fresh "plugins/subtac/subtac.ml" 125 4088 4092 "plugins/subtac/subtac.ml" 125 4088 4103
+)
+"plugins/subtac/subtac.ml" 137 4551 4569 "plugins/subtac/subtac.ml" 137 4551 4572
+type(
+  Util.loc * Names.identifier
+)
+ident(
+  int_ref lid "plugins/subtac/subtac.ml" 136 4489 4520 "plugins/subtac/subtac.ml" 136 4489 4534
+)
+"plugins/subtac/subtac.ml" 137 4551 4557 "plugins/subtac/subtac.ml" 137 4551 4572
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 138 4574 4580 "plugins/subtac/subtac.ml" 138 4574 4604
+type(
+  Util.loc * Names.identifier -> bool -> string -> unit
+)
+ident(
+  ext_ref Dumpglob.dump_definition
+)
+"plugins/subtac/subtac.ml" 138 4574 4605 "plugins/subtac/subtac.ml" 138 4574 4608
+type(
+  Util.loc * Names.identifier
+)
+ident(
+  int_ref lid "plugins/subtac/subtac.ml" 136 4489 4520 "plugins/subtac/subtac.ml" 136 4489 4534
+)
+"plugins/subtac/subtac.ml" 138 4574 4609 "plugins/subtac/subtac.ml" 138 4574 4614
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 138 4574 4615 "plugins/subtac/subtac.ml" 138 4574 4620
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 138 4574 4580 "plugins/subtac/subtac.ml" 138 4574 4620
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 139 4622 4635 "plugins/subtac/subtac.ml" 139 4622 4639
+type(
+  Vernacexpr.definition_expr
+)
+ident(
+  int_ref expr "plugins/subtac/subtac.ml" 136 4489 4536 "plugins/subtac/subtac.ml" 136 4489 4540
+)
+"plugins/subtac/subtac.ml" 140 4645 4664 "plugins/subtac/subtac.ml" 140 4645 4666
+type(
+  Topconstr.local_binder list
+)
+ident(
+  def bl "plugins/subtac/subtac.ml" 141 4674 4677 "plugins/subtac/subtac.ml" 142 4765 4785
+)
+"plugins/subtac/subtac.ml" 140 4645 4668 "plugins/subtac/subtac.ml" 140 4645 4669
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def t "plugins/subtac/subtac.ml" 141 4674 4677 "plugins/subtac/subtac.ml" 142 4765 4785
+)
+"plugins/subtac/subtac.ml" 140 4645 4653 "plugins/subtac/subtac.ml" 140 4645 4670
+type(
+  Vernacexpr.definition_expr
+)
+"plugins/subtac/subtac.ml" 141 4674 4677 "plugins/subtac/subtac.ml" 141 4674 4698
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  (Util.loc * Names.identifier) option ->
+  Decl_kinds.goal_kind ->
+  Topconstr.local_binder list * Topconstr.constr_expr ->
+  (Decl_kinds.locality -> Libnames.global_reference -> unit) -> unit
+)
+ident(
+  int_ref start_proof_and_print "plugins/subtac/subtac.ml" 88 2747 2751 "plugins/subtac/subtac.ml" 88 2747 2772
+)
+"plugins/subtac/subtac.ml" 141 4674 4699 "plugins/subtac/subtac.ml" 141 4674 4702
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 132 4381 4387 "plugins/subtac/subtac.ml" 132 4381 4390
+)
+"plugins/subtac/subtac.ml" 141 4674 4703 "plugins/subtac/subtac.ml" 141 4674 4710
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac.ml" 133 4410 4416 "plugins/subtac/subtac.ml" 133 4410 4423
+)
+"plugins/subtac/subtac.ml" 141 4674 4717 "plugins/subtac/subtac.ml" 141 4674 4720
+type(
+  Util.loc * Names.identifier
+)
+ident(
+  int_ref lid "plugins/subtac/subtac.ml" 136 4489 4520 "plugins/subtac/subtac.ml" 136 4489 4534
+)
+"plugins/subtac/subtac.ml" 141 4674 4711 "plugins/subtac/subtac.ml" 141 4674 4721
+type(
+  (Util.loc * Names.identifier) option
+)
+"plugins/subtac/subtac.ml" 141 4674 4723 "plugins/subtac/subtac.ml" 141 4674 4729
+type(
+  Decl_kinds.locality
+)
+"plugins/subtac/subtac.ml" 141 4674 4746 "plugins/subtac/subtac.ml" 141 4674 4756
+type(
+  Decl_kinds.definition_object_kind
+)
+"plugins/subtac/subtac.ml" 141 4674 4731 "plugins/subtac/subtac.ml" 141 4674 4756
+type(
+  Decl_kinds.goal_object_kind
+)
+"plugins/subtac/subtac.ml" 141 4674 4722 "plugins/subtac/subtac.ml" 141 4674 4757
+type(
+  Decl_kinds.goal_kind
+)
+"plugins/subtac/subtac.ml" 141 4674 4759 "plugins/subtac/subtac.ml" 141 4674 4761
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref bl "plugins/subtac/subtac.ml" 140 4645 4664 "plugins/subtac/subtac.ml" 140 4645 4666
+)
+"plugins/subtac/subtac.ml" 141 4674 4762 "plugins/subtac/subtac.ml" 141 4674 4763
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/subtac/subtac.ml" 140 4645 4668 "plugins/subtac/subtac.ml" 140 4645 4669
+)
+"plugins/subtac/subtac.ml" 141 4674 4758 "plugins/subtac/subtac.ml" 141 4674 4764
+type(
+  Topconstr.local_binder list * Topconstr.constr_expr
+)
+"plugins/subtac/subtac.ml" 142 4765 4775 "plugins/subtac/subtac.ml" 142 4765 4776
+type(
+  Decl_kinds.locality
+)
+"plugins/subtac/subtac.ml" 142 4765 4777 "plugins/subtac/subtac.ml" 142 4765 4778
+type(
+  Libnames.global_reference
+)
+"plugins/subtac/subtac.ml" 142 4765 4782 "plugins/subtac/subtac.ml" 142 4765 4784
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 142 4765 4770 "plugins/subtac/subtac.ml" 142 4765 4785
+type(
+  Decl_kinds.locality -> Libnames.global_reference -> unit
+)
+"plugins/subtac/subtac.ml" 141 4674 4677 "plugins/subtac/subtac.ml" 142 4765 4785
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 143 4786 4806 "plugins/subtac/subtac.ml" 143 4786 4808
+type(
+  Topconstr.local_binder list
+)
+ident(
+  def bl "plugins/subtac/subtac.ml" 144 4826 4829 "plugins/subtac/subtac.ml" 144 4826 4905
+)
+"plugins/subtac/subtac.ml" 143 4786 4810 "plugins/subtac/subtac.ml" 143 4786 4811
+type(
+  Tacexpr.raw_red_expr option
+)
+"plugins/subtac/subtac.ml" 143 4786 4813 "plugins/subtac/subtac.ml" 143 4786 4814
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def c "plugins/subtac/subtac.ml" 144 4826 4829 "plugins/subtac/subtac.ml" 144 4826 4905
+)
+"plugins/subtac/subtac.ml" 143 4786 4816 "plugins/subtac/subtac.ml" 143 4786 4821
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  def tycon "plugins/subtac/subtac.ml" 144 4826 4829 "plugins/subtac/subtac.ml" 144 4826 4905
+)
+"plugins/subtac/subtac.ml" 143 4786 4794 "plugins/subtac/subtac.ml" 143 4786 4822
+type(
+  Vernacexpr.definition_expr
+)
+"plugins/subtac/subtac.ml" 144 4826 4829 "plugins/subtac/subtac.ml" 144 4826 4835
+type(
+  Subtac_obligations.progress -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"plugins/subtac/subtac.ml" 144 4826 4836 "plugins/subtac/subtac.ml" 144 4826 4865
+type(
+  Decl_kinds.definition_kind ->
+  Tacexpr.declaration_hook ->
+  Environ.env ->
+  Evd.evar_map ref ->
+  Names.identifier ->
+  Topconstr.local_binder list ->
+  Topconstr.constr_expr ->
+  Topconstr.constr_expr option -> Subtac_obligations.progress
+)
+ident(
+  ext_ref Subtac_pretyping.subtac_proof
+)
+"plugins/subtac/subtac.ml" 144 4826 4866 "plugins/subtac/subtac.ml" 144 4826 4873
+type(
+  Decl_kinds.definition_kind
+)
+ident(
+  int_ref defkind "plugins/subtac/subtac.ml" 136 4489 4511 "plugins/subtac/subtac.ml" 136 4489 4518
+)
+"plugins/subtac/subtac.ml" 144 4826 4874 "plugins/subtac/subtac.ml" 144 4826 4878
+type(
+  Tacexpr.declaration_hook
+)
+ident(
+  int_ref hook "plugins/subtac/subtac.ml" 136 4489 4542 "plugins/subtac/subtac.ml" 136 4489 4546
+)
+"plugins/subtac/subtac.ml" 144 4826 4879 "plugins/subtac/subtac.ml" 144 4826 4882
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 132 4381 4387 "plugins/subtac/subtac.ml" 132 4381 4390
+)
+"plugins/subtac/subtac.ml" 144 4826 4883 "plugins/subtac/subtac.ml" 144 4826 4890
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac.ml" 133 4410 4416 "plugins/subtac/subtac.ml" 133 4410 4423
+)
+"plugins/subtac/subtac.ml" 144 4826 4891 "plugins/subtac/subtac.ml" 144 4826 4893
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 136 4489 4524 "plugins/subtac/subtac.ml" 136 4489 4526
+)
+"plugins/subtac/subtac.ml" 144 4826 4894 "plugins/subtac/subtac.ml" 144 4826 4896
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref bl "plugins/subtac/subtac.ml" 143 4786 4806 "plugins/subtac/subtac.ml" 143 4786 4808
+)
+"plugins/subtac/subtac.ml" 144 4826 4897 "plugins/subtac/subtac.ml" 144 4826 4898
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref c "plugins/subtac/subtac.ml" 143 4786 4813 "plugins/subtac/subtac.ml" 143 4786 4814
+)
+"plugins/subtac/subtac.ml" 144 4826 4899 "plugins/subtac/subtac.ml" 144 4826 4904
+type(
+  Topconstr.constr_expr option
+)
+ident(
+  int_ref tycon "plugins/subtac/subtac.ml" 143 4786 4816 "plugins/subtac/subtac.ml" 143 4786 4821
+)
+"plugins/subtac/subtac.ml" 144 4826 4835 "plugins/subtac/subtac.ml" 144 4826 4905
+call(
+  stack
+)
+type(
+  Subtac_obligations.progress
+)
+"plugins/subtac/subtac.ml" 144 4826 4829 "plugins/subtac/subtac.ml" 144 4826 4905
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 139 4622 4628 "plugins/subtac/subtac.ml" 144 4826 4906
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 138 4574 4580 "plugins/subtac/subtac.ml" 144 4826 4906
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 137 4551 4557 "plugins/subtac/subtac.ml" 144 4826 4906
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 145 4907 4927 "plugins/subtac/subtac.ml" 145 4907 4928
+type(
+  (Vernacexpr.fixpoint_expr * Vernacexpr.decl_notation list) list
+)
+ident(
+  def l "plugins/subtac/subtac.ml" 146 4936 4942 "plugins/subtac/subtac.ml" 150 5096 5139
+)
+"plugins/subtac/subtac.ml" 145 4907 4930 "plugins/subtac/subtac.ml" 145 4907 4931
+type(
+  bool
+)
+ident(
+  def b "plugins/subtac/subtac.ml" 146 4936 4942 "plugins/subtac/subtac.ml" 150 5096 5139
+)
+"plugins/subtac/subtac.ml" 145 4907 4911 "plugins/subtac/subtac.ml" 145 4907 4932
+type(
+  Vernacexpr.vernac_expr
+)
+"plugins/subtac/subtac.ml" 146 4936 4942 "plugins/subtac/subtac.ml" 146 4936 4951
+type(
+  (Vernacexpr.fixpoint_expr * Vernacexpr.decl_notation list -> unit) ->
+  (Vernacexpr.fixpoint_expr * Vernacexpr.decl_notation list) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/subtac/subtac.ml" 146 4936 4959 "plugins/subtac/subtac.ml" 146 4936 4962
+type(
+  Names.identifier Util.located
+)
+ident(
+  def lid "plugins/subtac/subtac.ml" 147 4983 4984 "plugins/subtac/subtac.ml" 148 5001 5042
+)
+"plugins/subtac/subtac.ml" 146 4936 4964 "plugins/subtac/subtac.ml" 146 4936 4965
+type(
+  Names.identifier Util.located option * Topconstr.recursion_order_expr
+)
+"plugins/subtac/subtac.ml" 146 4936 4967 "plugins/subtac/subtac.ml" 146 4936 4968
+type(
+  Topconstr.local_binder list
+)
+"plugins/subtac/subtac.ml" 146 4936 4970 "plugins/subtac/subtac.ml" 146 4936 4971
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/subtac.ml" 146 4936 4973 "plugins/subtac/subtac.ml" 146 4936 4974
+type(
+  Topconstr.constr_expr option
+)
+"plugins/subtac/subtac.ml" 146 4936 4958 "plugins/subtac/subtac.ml" 146 4936 4975
+type(
+  Vernacexpr.fixpoint_expr
+)
+"plugins/subtac/subtac.ml" 146 4936 4977 "plugins/subtac/subtac.ml" 146 4936 4978
+type(
+  Vernacexpr.decl_notation list
+)
+"plugins/subtac/subtac.ml" 146 4936 4957 "plugins/subtac/subtac.ml" 146 4936 4979
+type(
+  Vernacexpr.fixpoint_expr * Vernacexpr.decl_notation list
+)
+"plugins/subtac/subtac.ml" 147 4983 4984 "plugins/subtac/subtac.ml" 147 4983 4995
+type(
+  Names.identifier Util.located -> unit
+)
+ident(
+  int_ref check_fresh "plugins/subtac/subtac.ml" 125 4088 4092 "plugins/subtac/subtac.ml" 125 4088 4103
+)
+"plugins/subtac/subtac.ml" 147 4983 4996 "plugins/subtac/subtac.ml" 147 4983 4999
+type(
+  Names.identifier Util.located
+)
+ident(
+  int_ref lid "plugins/subtac/subtac.ml" 146 4936 4959 "plugins/subtac/subtac.ml" 146 4936 4962
+)
+"plugins/subtac/subtac.ml" 147 4983 4984 "plugins/subtac/subtac.ml" 147 4983 4999
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 148 5001 5002 "plugins/subtac/subtac.ml" 148 5001 5026
+type(
+  Names.identifier Util.located -> bool -> string -> unit
+)
+ident(
+  ext_ref Dumpglob.dump_definition
+)
+"plugins/subtac/subtac.ml" 148 5001 5027 "plugins/subtac/subtac.ml" 148 5001 5030
+type(
+  Names.identifier Util.located
+)
+ident(
+  int_ref lid "plugins/subtac/subtac.ml" 146 4936 4959 "plugins/subtac/subtac.ml" 146 4936 4962
+)
+"plugins/subtac/subtac.ml" 148 5001 5031 "plugins/subtac/subtac.ml" 148 5001 5036
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 148 5001 5037 "plugins/subtac/subtac.ml" 148 5001 5042
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 148 5001 5002 "plugins/subtac/subtac.ml" 148 5001 5042
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 147 4983 4984 "plugins/subtac/subtac.ml" 148 5001 5042
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 146 4936 4952 "plugins/subtac/subtac.ml" 148 5001 5043
+type(
+  Vernacexpr.fixpoint_expr * Vernacexpr.decl_notation list -> unit
+)
+"plugins/subtac/subtac.ml" 148 5001 5044 "plugins/subtac/subtac.ml" 148 5001 5045
+type(
+  (Vernacexpr.fixpoint_expr * Vernacexpr.decl_notation list) list
+)
+ident(
+  int_ref l "plugins/subtac/subtac.ml" 145 4907 4927 "plugins/subtac/subtac.ml" 145 4907 4928
+)
+"plugins/subtac/subtac.ml" 146 4936 4942 "plugins/subtac/subtac.ml" 148 5001 5045
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 149 5047 5057 "plugins/subtac/subtac.ml" 149 5047 5058
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 149 5047 5061 "plugins/subtac/subtac.ml" 149 5047 5066
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Subtac_utils.trace
+)
+"plugins/subtac/subtac.ml" 149 5047 5068 "plugins/subtac/subtac.ml" 149 5047 5071
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 149 5047 5072 "plugins/subtac/subtac.ml" 149 5047 5091
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 149 5047 5067 "plugins/subtac/subtac.ml" 149 5047 5092
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 149 5047 5061 "plugins/subtac/subtac.ml" 149 5047 5092
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 150 5096 5097 "plugins/subtac/subtac.ml" 150 5096 5103
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"plugins/subtac/subtac.ml" 150 5096 5104 "plugins/subtac/subtac.ml" 150 5096 5134
+type(
+  (Vernacexpr.fixpoint_expr * Vernacexpr.decl_notation list) list ->
+  bool -> unit
+)
+ident(
+  ext_ref Subtac_command.build_recursive
+)
+"plugins/subtac/subtac.ml" 150 5096 5135 "plugins/subtac/subtac.ml" 150 5096 5136
+type(
+  (Vernacexpr.fixpoint_expr * Vernacexpr.decl_notation list) list
+)
+ident(
+  int_ref l "plugins/subtac/subtac.ml" 145 4907 4927 "plugins/subtac/subtac.ml" 145 4907 4928
+)
+"plugins/subtac/subtac.ml" 150 5096 5137 "plugins/subtac/subtac.ml" 150 5096 5138
+type(
+  bool
+)
+ident(
+  int_ref b "plugins/subtac/subtac.ml" 145 4907 4930 "plugins/subtac/subtac.ml" 145 4907 4931
+)
+"plugins/subtac/subtac.ml" 150 5096 5103 "plugins/subtac/subtac.ml" 150 5096 5139
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 150 5096 5097 "plugins/subtac/subtac.ml" 150 5096 5139
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 149 5047 5053 "plugins/subtac/subtac.ml" 150 5096 5139
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 146 4936 4942 "plugins/subtac/subtac.ml" 150 5096 5139
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 152 5141 5170 "plugins/subtac/subtac.ml" 152 5141 5176
+type(
+  Decl_kinds.theorem_kind
+)
+ident(
+  def thkind "plugins/subtac/subtac.ml" 153 5220 5226 "plugins/subtac/subtac.ml" 164 5686 5770
+)
+"plugins/subtac/subtac.ml" 152 5141 5184 "plugins/subtac/subtac.ml" 152 5141 5186
+type(
+  Vernacexpr.lident
+)
+ident(
+  def id "plugins/subtac/subtac.ml" 153 5220 5226 "plugins/subtac/subtac.ml" 164 5686 5770
+)
+"plugins/subtac/subtac.ml" 152 5141 5179 "plugins/subtac/subtac.ml" 152 5141 5186
+type(
+  Vernacexpr.lident option
+)
+"plugins/subtac/subtac.ml" 152 5141 5189 "plugins/subtac/subtac.ml" 152 5141 5191
+type(
+  Topconstr.local_binder list
+)
+ident(
+  def bl "plugins/subtac/subtac.ml" 153 5220 5226 "plugins/subtac/subtac.ml" 164 5686 5770
+)
+"plugins/subtac/subtac.ml" 152 5141 5192 "plugins/subtac/subtac.ml" 152 5141 5193
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def t "plugins/subtac/subtac.ml" 153 5220 5226 "plugins/subtac/subtac.ml" 164 5686 5770
+)
+"plugins/subtac/subtac.ml" 152 5141 5194 "plugins/subtac/subtac.ml" 152 5141 5199
+type(
+  (Vernacexpr.lident option * Topconstr.recursion_order_expr) option
+)
+ident(
+  def guard "plugins/subtac/subtac.ml" 153 5220 5226 "plugins/subtac/subtac.ml" 164 5686 5770
+)
+"plugins/subtac/subtac.ml" 152 5141 5188 "plugins/subtac/subtac.ml" 152 5141 5200
+type(
+  Topconstr.local_binder list * Topconstr.constr_expr *
+  (Vernacexpr.lident option * Topconstr.recursion_order_expr) option
+)
+"plugins/subtac/subtac.ml" 152 5141 5179 "plugins/subtac/subtac.ml" 152 5141 5200
+type(
+  Vernacexpr.lident option *
+  (Topconstr.local_binder list * Topconstr.constr_expr *
+   (Vernacexpr.lident option * Topconstr.recursion_order_expr) option)
+)
+"plugins/subtac/subtac.ml" 152 5141 5178 "plugins/subtac/subtac.ml" 152 5141 5201
+type(
+  (Vernacexpr.lident option *
+   (Topconstr.local_binder list * Topconstr.constr_expr *
+    (Vernacexpr.lident option * Topconstr.recursion_order_expr) option))
+  list
+)
+"plugins/subtac/subtac.ml" 152 5141 5203 "plugins/subtac/subtac.ml" 152 5141 5209
+type(
+  bool
+)
+ident(
+  def lettop "plugins/subtac/subtac.ml" 153 5220 5226 "plugins/subtac/subtac.ml" 164 5686 5770
+)
+"plugins/subtac/subtac.ml" 152 5141 5211 "plugins/subtac/subtac.ml" 152 5141 5215
+type(
+  Tacexpr.declaration_hook
+)
+ident(
+  def hook "plugins/subtac/subtac.ml" 153 5220 5226 "plugins/subtac/subtac.ml" 164 5686 5770
+)
+"plugins/subtac/subtac.ml" 152 5141 5145 "plugins/subtac/subtac.ml" 152 5141 5216
+type(
+  Vernacexpr.vernac_expr
+)
+"plugins/subtac/subtac.ml" 153 5220 5229 "plugins/subtac/subtac.ml" 153 5220 5234
+type(
+  (Vernacexpr.lident option * Topconstr.recursion_order_expr) option
+)
+ident(
+  int_ref guard "plugins/subtac/subtac.ml" 152 5141 5194 "plugins/subtac/subtac.ml" 152 5141 5199
+)
+"plugins/subtac/subtac.ml" 153 5220 5235 "plugins/subtac/subtac.ml" 153 5220 5237
+type(
+  (Vernacexpr.lident option * Topconstr.recursion_order_expr) option ->
+  (Vernacexpr.lident option * Topconstr.recursion_order_expr) option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"plugins/subtac/subtac.ml" 153 5220 5238 "plugins/subtac/subtac.ml" 153 5220 5242
+type(
+  (Vernacexpr.lident option * Topconstr.recursion_order_expr) option
+)
+"plugins/subtac/subtac.ml" 153 5220 5229 "plugins/subtac/subtac.ml" 153 5220 5242
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 154 5249 5257 "plugins/subtac/subtac.ml" 154 5249 5262
+type(
+  string -> unit
+)
+ident(
+  ext_ref Util.error
+)
+"plugins/subtac/subtac.ml" 154 5249 5263 "plugins/subtac/subtac.ml" 154 5249 5312
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 154 5249 5257 "plugins/subtac/subtac.ml" 154 5249 5312
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 153 5220 5226 "plugins/subtac/subtac.ml" 154 5249 5312
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 155 5314 5320 "plugins/subtac/subtac.ml" 155 5314 5344
+type(
+  Vernacexpr.lident -> bool -> string -> unit
+)
+ident(
+  ext_ref Dumpglob.dump_definition
+)
+"plugins/subtac/subtac.ml" 155 5314 5345 "plugins/subtac/subtac.ml" 155 5314 5347
+type(
+  Vernacexpr.lident
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 152 5141 5184 "plugins/subtac/subtac.ml" 152 5141 5186
+)
+"plugins/subtac/subtac.ml" 155 5314 5348 "plugins/subtac/subtac.ml" 155 5314 5353
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 155 5314 5354 "plugins/subtac/subtac.ml" 155 5314 5359
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 155 5314 5320 "plugins/subtac/subtac.ml" 155 5314 5359
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 156 5361 5370 "plugins/subtac/subtac.ml" 156 5361 5373
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/subtac/subtac.ml" 156 5361 5374 "plugins/subtac/subtac.ml" 156 5361 5389
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Pfedit.refining
+)
+"plugins/subtac/subtac.ml" 156 5361 5390 "plugins/subtac/subtac.ml" 156 5361 5392
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 156 5361 5373 "plugins/subtac/subtac.ml" 156 5361 5393
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 156 5361 5370 "plugins/subtac/subtac.ml" 156 5361 5393
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 157 5399 5403 "plugins/subtac/subtac.ml" 157 5399 5409
+type(
+  bool
+)
+ident(
+  int_ref lettop "plugins/subtac/subtac.ml" 152 5141 5203 "plugins/subtac/subtac.ml" 152 5141 5209
+)
+"plugins/subtac/subtac.ml" 158 5415 5418 "plugins/subtac/subtac.ml" 158 5415 5430
+type(
+  string -> Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Util.errorlabstrm
+)
+"plugins/subtac/subtac.ml" 158 5415 5431 "plugins/subtac/subtac.ml" 158 5415 5458
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 159 5459 5465 "plugins/subtac/subtac.ml" 159 5459 5468
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 159 5459 5469 "plugins/subtac/subtac.ml" 159 5459 5526
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 159 5459 5464 "plugins/subtac/subtac.ml" 159 5459 5527
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 158 5415 5418 "plugins/subtac/subtac.ml" 159 5459 5527
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 157 5399 5400 "plugins/subtac/subtac.ml" 159 5459 5527
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 156 5361 5367 "plugins/subtac/subtac.ml" 159 5459 5527
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 160 5529 5538 "plugins/subtac/subtac.ml" 160 5529 5552
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Lib.is_modtype
+)
+"plugins/subtac/subtac.ml" 160 5529 5553 "plugins/subtac/subtac.ml" 160 5529 5555
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 160 5529 5538 "plugins/subtac/subtac.ml" 160 5529 5555
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 161 5561 5562 "plugins/subtac/subtac.ml" 161 5561 5574
+type(
+  string -> Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Util.errorlabstrm
+)
+"plugins/subtac/subtac.ml" 161 5561 5575 "plugins/subtac/subtac.ml" 161 5561 5602
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 162 5603 5607 "plugins/subtac/subtac.ml" 162 5603 5610
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 162 5603 5611 "plugins/subtac/subtac.ml" 162 5603 5661
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 162 5603 5606 "plugins/subtac/subtac.ml" 162 5603 5662
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 161 5561 5562 "plugins/subtac/subtac.ml" 162 5603 5662
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 160 5529 5535 "plugins/subtac/subtac.ml" 162 5603 5662
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 163 5664 5670 "plugins/subtac/subtac.ml" 163 5664 5681
+type(
+  Vernacexpr.lident -> unit
+)
+ident(
+  int_ref check_fresh "plugins/subtac/subtac.ml" 125 4088 4092 "plugins/subtac/subtac.ml" 125 4088 4103
+)
+"plugins/subtac/subtac.ml" 163 5664 5682 "plugins/subtac/subtac.ml" 163 5664 5684
+type(
+  Vernacexpr.lident
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 152 5141 5184 "plugins/subtac/subtac.ml" 152 5141 5186
+)
+"plugins/subtac/subtac.ml" 163 5664 5670 "plugins/subtac/subtac.ml" 163 5664 5684
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 164 5686 5692 "plugins/subtac/subtac.ml" 164 5686 5713
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  Vernacexpr.lident option ->
+  Decl_kinds.goal_kind ->
+  Topconstr.local_binder list * Topconstr.constr_expr ->
+  Tacexpr.declaration_hook -> unit
+)
+ident(
+  int_ref start_proof_and_print "plugins/subtac/subtac.ml" 88 2747 2751 "plugins/subtac/subtac.ml" 88 2747 2772
+)
+"plugins/subtac/subtac.ml" 164 5686 5714 "plugins/subtac/subtac.ml" 164 5686 5717
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 132 4381 4387 "plugins/subtac/subtac.ml" 132 4381 4390
+)
+"plugins/subtac/subtac.ml" 164 5686 5718 "plugins/subtac/subtac.ml" 164 5686 5725
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac.ml" 133 4410 4416 "plugins/subtac/subtac.ml" 133 4410 4423
+)
+"plugins/subtac/subtac.ml" 164 5686 5732 "plugins/subtac/subtac.ml" 164 5686 5734
+type(
+  Vernacexpr.lident
+)
+ident(
+  int_ref id "plugins/subtac/subtac.ml" 152 5141 5184 "plugins/subtac/subtac.ml" 152 5141 5186
+)
+"plugins/subtac/subtac.ml" 164 5686 5726 "plugins/subtac/subtac.ml" 164 5686 5735
+type(
+  Vernacexpr.lident option
+)
+"plugins/subtac/subtac.ml" 164 5686 5737 "plugins/subtac/subtac.ml" 164 5686 5743
+type(
+  Decl_kinds.locality
+)
+"plugins/subtac/subtac.ml" 164 5686 5751 "plugins/subtac/subtac.ml" 164 5686 5757
+type(
+  Decl_kinds.theorem_kind
+)
+ident(
+  int_ref thkind "plugins/subtac/subtac.ml" 152 5141 5170 "plugins/subtac/subtac.ml" 152 5141 5176
+)
+"plugins/subtac/subtac.ml" 164 5686 5745 "plugins/subtac/subtac.ml" 164 5686 5757
+type(
+  Decl_kinds.goal_object_kind
+)
+"plugins/subtac/subtac.ml" 164 5686 5736 "plugins/subtac/subtac.ml" 164 5686 5758
+type(
+  Decl_kinds.goal_kind
+)
+"plugins/subtac/subtac.ml" 164 5686 5760 "plugins/subtac/subtac.ml" 164 5686 5762
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref bl "plugins/subtac/subtac.ml" 152 5141 5189 "plugins/subtac/subtac.ml" 152 5141 5191
+)
+"plugins/subtac/subtac.ml" 164 5686 5763 "plugins/subtac/subtac.ml" 164 5686 5764
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/subtac/subtac.ml" 152 5141 5192 "plugins/subtac/subtac.ml" 152 5141 5193
+)
+"plugins/subtac/subtac.ml" 164 5686 5759 "plugins/subtac/subtac.ml" 164 5686 5765
+type(
+  Topconstr.local_binder list * Topconstr.constr_expr
+)
+"plugins/subtac/subtac.ml" 164 5686 5766 "plugins/subtac/subtac.ml" 164 5686 5770
+type(
+  Tacexpr.declaration_hook
+)
+ident(
+  int_ref hook "plugins/subtac/subtac.ml" 152 5141 5211 "plugins/subtac/subtac.ml" 152 5141 5215
+)
+"plugins/subtac/subtac.ml" 164 5686 5692 "plugins/subtac/subtac.ml" 164 5686 5770
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 163 5664 5670 "plugins/subtac/subtac.ml" 164 5686 5770
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 160 5529 5535 "plugins/subtac/subtac.ml" 164 5686 5770
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 156 5361 5367 "plugins/subtac/subtac.ml" 164 5686 5770
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 155 5314 5320 "plugins/subtac/subtac.ml" 164 5686 5770
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 153 5220 5226 "plugins/subtac/subtac.ml" 164 5686 5770
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 166 5772 5794 "plugins/subtac/subtac.ml" 166 5772 5798
+type(
+  Decl_kinds.assumption_kind
+)
+ident(
+  def stre "plugins/subtac/subtac.ml" 167 5808 5814 "plugins/subtac/subtac.ml" 167 5808 5853
+)
+"plugins/subtac/subtac.ml" 166 5772 5799 "plugins/subtac/subtac.ml" 166 5772 5801
+type(
+  bool
+)
+ident(
+  def nl "plugins/subtac/subtac.ml" 167 5808 5814 "plugins/subtac/subtac.ml" 167 5808 5853
+)
+"plugins/subtac/subtac.ml" 166 5772 5802 "plugins/subtac/subtac.ml" 166 5772 5803
+type(
+  Vernacexpr.simple_binder Vernacexpr.with_coercion list
+)
+ident(
+  def l "plugins/subtac/subtac.ml" 167 5808 5814 "plugins/subtac/subtac.ml" 167 5808 5853
+)
+"plugins/subtac/subtac.ml" 166 5772 5776 "plugins/subtac/subtac.ml" 166 5772 5804
+type(
+  Vernacexpr.vernac_expr
+)
+"plugins/subtac/subtac.ml" 167 5808 5814 "plugins/subtac/subtac.ml" 167 5808 5831
+type(
+  Environ.env ->
+  Evd.evar_map ref ->
+  Decl_kinds.assumption_kind ->
+  Vernacexpr.simple_binder Vernacexpr.with_coercion list -> bool -> unit
+)
+ident(
+  int_ref vernac_assumption "plugins/subtac/subtac.ml" 116 3750 3754 "plugins/subtac/subtac.ml" 116 3750 3771
+)
+"plugins/subtac/subtac.ml" 167 5808 5832 "plugins/subtac/subtac.ml" 167 5808 5835
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/subtac/subtac.ml" 132 4381 4387 "plugins/subtac/subtac.ml" 132 4381 4390
+)
+"plugins/subtac/subtac.ml" 167 5808 5836 "plugins/subtac/subtac.ml" 167 5808 5843
+type(
+  Evd.evar_map ref
+)
+ident(
+  int_ref isevars "plugins/subtac/subtac.ml" 133 4410 4416 "plugins/subtac/subtac.ml" 133 4410 4423
+)
+"plugins/subtac/subtac.ml" 167 5808 5844 "plugins/subtac/subtac.ml" 167 5808 5848
+type(
+  Decl_kinds.assumption_kind
+)
+ident(
+  int_ref stre "plugins/subtac/subtac.ml" 166 5772 5794 "plugins/subtac/subtac.ml" 166 5772 5798
+)
+"plugins/subtac/subtac.ml" 167 5808 5849 "plugins/subtac/subtac.ml" 167 5808 5850
+type(
+  Vernacexpr.simple_binder Vernacexpr.with_coercion list
+)
+ident(
+  int_ref l "plugins/subtac/subtac.ml" 166 5772 5802 "plugins/subtac/subtac.ml" 166 5772 5803
+)
+"plugins/subtac/subtac.ml" 167 5808 5851 "plugins/subtac/subtac.ml" 167 5808 5853
+type(
+  bool
+)
+ident(
+  int_ref nl "plugins/subtac/subtac.ml" 166 5772 5799 "plugins/subtac/subtac.ml" 166 5772 5801
+)
+"plugins/subtac/subtac.ml" 167 5808 5814 "plugins/subtac/subtac.ml" 167 5808 5853
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 169 5855 5875 "plugins/subtac/subtac.ml" 169 5855 5879
+type(
+  bool
+)
+ident(
+  def abst "plugins/subtac/subtac.ml" 170 5911 5917 "plugins/subtac/subtac.ml" 173 6010 6081
+)
+"plugins/subtac/subtac.ml" 169 5855 5881 "plugins/subtac/subtac.ml" 169 5855 5885
+type(
+  bool
+)
+ident(
+  def glob "plugins/subtac/subtac.ml" 170 5911 5917 "plugins/subtac/subtac.ml" 173 6010 6081
+)
+"plugins/subtac/subtac.ml" 169 5855 5887 "plugins/subtac/subtac.ml" 169 5855 5890
+type(
+  Topconstr.local_binder list
+)
+ident(
+  def sup "plugins/subtac/subtac.ml" 170 5911 5917 "plugins/subtac/subtac.ml" 173 6010 6081
+)
+"plugins/subtac/subtac.ml" 169 5855 5892 "plugins/subtac/subtac.ml" 169 5855 5894
+type(
+  Topconstr.typeclass_constraint
+)
+ident(
+  def is "plugins/subtac/subtac.ml" 170 5911 5917 "plugins/subtac/subtac.ml" 173 6010 6081
+)
+"plugins/subtac/subtac.ml" 169 5855 5896 "plugins/subtac/subtac.ml" 169 5855 5901
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def props "plugins/subtac/subtac.ml" 170 5911 5917 "plugins/subtac/subtac.ml" 173 6010 6081
+)
+"plugins/subtac/subtac.ml" 169 5855 5903 "plugins/subtac/subtac.ml" 169 5855 5906
+type(
+  int option
+)
+ident(
+  def pri "plugins/subtac/subtac.ml" 170 5911 5917 "plugins/subtac/subtac.ml" 173 6010 6081
+)
+"plugins/subtac/subtac.ml" 169 5855 5859 "plugins/subtac/subtac.ml" 169 5855 5907
+type(
+  Vernacexpr.vernac_expr
+)
+"plugins/subtac/subtac.ml" 170 5911 5917 "plugins/subtac/subtac.ml" 170 5911 5932
+type(
+  string -> Topconstr.typeclass_constraint -> unit
+)
+ident(
+  int_ref dump_constraint "plugins/subtac/subtac.ml" 109 3581 3585 "plugins/subtac/subtac.ml" 109 3581 3600
+)
+"plugins/subtac/subtac.ml" 170 5911 5933 "plugins/subtac/subtac.ml" 170 5911 5939
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 170 5911 5940 "plugins/subtac/subtac.ml" 170 5911 5942
+type(
+  Topconstr.typeclass_constraint
+)
+ident(
+  int_ref is "plugins/subtac/subtac.ml" 169 5855 5892 "plugins/subtac/subtac.ml" 169 5855 5894
+)
+"plugins/subtac/subtac.ml" 170 5911 5917 "plugins/subtac/subtac.ml" 170 5911 5942
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 171 5944 5953 "plugins/subtac/subtac.ml" 171 5944 5957
+type(
+  bool
+)
+ident(
+  int_ref abst "plugins/subtac/subtac.ml" 169 5855 5875 "plugins/subtac/subtac.ml" 169 5855 5879
+)
+"plugins/subtac/subtac.ml" 172 5963 5964 "plugins/subtac/subtac.ml" 172 5963 5969
+type(
+  string -> unit
+)
+ident(
+  ext_ref Util.error
+)
+"plugins/subtac/subtac.ml" 172 5963 5970 "plugins/subtac/subtac.ml" 172 5963 6008
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 172 5963 5964 "plugins/subtac/subtac.ml" 172 5963 6008
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 171 5944 5950 "plugins/subtac/subtac.ml" 172 5963 6008
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 173 6010 6016 "plugins/subtac/subtac.ml" 173 6010 6022
+type(
+  Names.identifier * Subtac_obligations.progress -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"plugins/subtac/subtac.ml" 173 6010 6023 "plugins/subtac/subtac.ml" 173 6010 6050
+type(
+  ?global:bool ->
+  Topconstr.local_binder list ->
+  Topconstr.typeclass_constraint ->
+  Topconstr.constr_expr ->
+  ?generalize:bool ->
+  int option -> Names.identifier * Subtac_obligations.progress
+)
+ident(
+  ext_ref Subtac_classes.new_instance
+)
+"plugins/subtac/subtac.ml" 173 6010 6059 "plugins/subtac/subtac.ml" 173 6010 6063
+type(
+  bool
+)
+ident(
+  int_ref glob "plugins/subtac/subtac.ml" 169 5855 5881 "plugins/subtac/subtac.ml" 169 5855 5885
+)
+"plugins/subtac/subtac.ml" 173 6010 6064 "plugins/subtac/subtac.ml" 173 6010 6067
+type(
+  Topconstr.local_binder list
+)
+ident(
+  int_ref sup "plugins/subtac/subtac.ml" 169 5855 5887 "plugins/subtac/subtac.ml" 169 5855 5890
+)
+"plugins/subtac/subtac.ml" 173 6010 6068 "plugins/subtac/subtac.ml" 173 6010 6070
+type(
+  Topconstr.typeclass_constraint
+)
+ident(
+  int_ref is "plugins/subtac/subtac.ml" 169 5855 5892 "plugins/subtac/subtac.ml" 169 5855 5894
+)
+"plugins/subtac/subtac.ml" 173 6010 6071 "plugins/subtac/subtac.ml" 173 6010 6076
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref props "plugins/subtac/subtac.ml" 169 5855 5896 "plugins/subtac/subtac.ml" 169 5855 5901
+)
+"plugins/subtac/subtac.ml" 173 6010 6077 "plugins/subtac/subtac.ml" 173 6010 6080
+type(
+  int option
+)
+ident(
+  int_ref pri "plugins/subtac/subtac.ml" 169 5855 5903 "plugins/subtac/subtac.ml" 169 5855 5906
+)
+"plugins/subtac/subtac.ml" 173 6010 6022 "plugins/subtac/subtac.ml" 173 6010 6081
+call(
+  stack
+)
+type(
+  Names.identifier * Subtac_obligations.progress
+)
+"plugins/subtac/subtac.ml" 173 6010 6016 "plugins/subtac/subtac.ml" 173 6010 6081
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 171 5944 5950 "plugins/subtac/subtac.ml" 173 6010 6081
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 170 5911 5917 "plugins/subtac/subtac.ml" 173 6010 6081
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 175 6083 6105 "plugins/subtac/subtac.ml" 175 6083 6106
+type(
+  (Vernacexpr.cofixpoint_expr * Vernacexpr.decl_notation list) list
+)
+ident(
+  def l "plugins/subtac/subtac.ml" 176 6114 6120 "plugins/subtac/subtac.ml" 178 6231 6281
+)
+"plugins/subtac/subtac.ml" 175 6083 6108 "plugins/subtac/subtac.ml" 175 6083 6109
+type(
+  bool
+)
+ident(
+  def b "plugins/subtac/subtac.ml" 176 6114 6120 "plugins/subtac/subtac.ml" 178 6231 6281
+)
+"plugins/subtac/subtac.ml" 175 6083 6087 "plugins/subtac/subtac.ml" 175 6083 6110
+type(
+  Vernacexpr.vernac_expr
+)
+"plugins/subtac/subtac.ml" 176 6114 6123 "plugins/subtac/subtac.ml" 176 6114 6136
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Dumpglob.dump
+)
+"plugins/subtac/subtac.ml" 176 6114 6137 "plugins/subtac/subtac.ml" 176 6114 6139
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 176 6114 6123 "plugins/subtac/subtac.ml" 176 6114 6139
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 177 6145 6146 "plugins/subtac/subtac.ml" 177 6145 6155
+type(
+  (Vernacexpr.cofixpoint_expr * Vernacexpr.decl_notation list -> unit) ->
+  (Vernacexpr.cofixpoint_expr * Vernacexpr.decl_notation list) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/subtac/subtac.ml" 177 6145 6163 "plugins/subtac/subtac.ml" 177 6145 6166
+type(
+  Names.identifier Util.located
+)
+ident(
+  def lid "plugins/subtac/subtac.ml" 177 6145 6184 "plugins/subtac/subtac.ml" 177 6145 6226
+)
+"plugins/subtac/subtac.ml" 177 6145 6168 "plugins/subtac/subtac.ml" 177 6145 6169
+type(
+  Topconstr.local_binder list
+)
+"plugins/subtac/subtac.ml" 177 6145 6171 "plugins/subtac/subtac.ml" 177 6145 6172
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/subtac.ml" 177 6145 6174 "plugins/subtac/subtac.ml" 177 6145 6175
+type(
+  Topconstr.constr_expr option
+)
+"plugins/subtac/subtac.ml" 177 6145 6162 "plugins/subtac/subtac.ml" 177 6145 6176
+type(
+  Vernacexpr.cofixpoint_expr
+)
+"plugins/subtac/subtac.ml" 177 6145 6178 "plugins/subtac/subtac.ml" 177 6145 6179
+type(
+  Vernacexpr.decl_notation list
+)
+"plugins/subtac/subtac.ml" 177 6145 6161 "plugins/subtac/subtac.ml" 177 6145 6180
+type(
+  Vernacexpr.cofixpoint_expr * Vernacexpr.decl_notation list
+)
+"plugins/subtac/subtac.ml" 177 6145 6184 "plugins/subtac/subtac.ml" 177 6145 6208
+type(
+  Names.identifier Util.located -> bool -> string -> unit
+)
+ident(
+  ext_ref Dumpglob.dump_definition
+)
+"plugins/subtac/subtac.ml" 177 6145 6209 "plugins/subtac/subtac.ml" 177 6145 6212
+type(
+  Names.identifier Util.located
+)
+ident(
+  int_ref lid "plugins/subtac/subtac.ml" 177 6145 6163 "plugins/subtac/subtac.ml" 177 6145 6166
+)
+"plugins/subtac/subtac.ml" 177 6145 6213 "plugins/subtac/subtac.ml" 177 6145 6218
+type(
+  bool
+)
+"plugins/subtac/subtac.ml" 177 6145 6219 "plugins/subtac/subtac.ml" 177 6145 6226
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 177 6145 6184 "plugins/subtac/subtac.ml" 177 6145 6226
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 177 6145 6156 "plugins/subtac/subtac.ml" 177 6145 6227
+type(
+  Vernacexpr.cofixpoint_expr * Vernacexpr.decl_notation list -> unit
+)
+"plugins/subtac/subtac.ml" 177 6145 6228 "plugins/subtac/subtac.ml" 177 6145 6229
+type(
+  (Vernacexpr.cofixpoint_expr * Vernacexpr.decl_notation list) list
+)
+ident(
+  int_ref l "plugins/subtac/subtac.ml" 175 6083 6105 "plugins/subtac/subtac.ml" 175 6083 6106
+)
+"plugins/subtac/subtac.ml" 177 6145 6146 "plugins/subtac/subtac.ml" 177 6145 6229
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 176 6114 6120 "plugins/subtac/subtac.ml" 177 6145 6229
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 178 6231 6237 "plugins/subtac/subtac.ml" 178 6231 6243
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"plugins/subtac/subtac.ml" 178 6231 6244 "plugins/subtac/subtac.ml" 178 6231 6276
+type(
+  (Vernacexpr.cofixpoint_expr * Vernacexpr.decl_notation list) list ->
+  bool -> unit
+)
+ident(
+  ext_ref Subtac_command.build_corecursive
+)
+"plugins/subtac/subtac.ml" 178 6231 6277 "plugins/subtac/subtac.ml" 178 6231 6278
+type(
+  (Vernacexpr.cofixpoint_expr * Vernacexpr.decl_notation list) list
+)
+ident(
+  int_ref l "plugins/subtac/subtac.ml" 175 6083 6105 "plugins/subtac/subtac.ml" 175 6083 6106
+)
+"plugins/subtac/subtac.ml" 178 6231 6279 "plugins/subtac/subtac.ml" 178 6231 6280
+type(
+  bool
+)
+ident(
+  int_ref b "plugins/subtac/subtac.ml" 175 6083 6108 "plugins/subtac/subtac.ml" 175 6083 6109
+)
+"plugins/subtac/subtac.ml" 178 6231 6243 "plugins/subtac/subtac.ml" 178 6231 6281
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 178 6231 6237 "plugins/subtac/subtac.ml" 178 6231 6281
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 176 6114 6120 "plugins/subtac/subtac.ml" 178 6231 6281
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 183 6335 6339 "plugins/subtac/subtac.ml" 183 6335 6340
+type(
+  Vernacexpr.vernac_expr
+)
+"plugins/subtac/subtac.ml" 183 6335 6344 "plugins/subtac/subtac.ml" 183 6335 6356
+type(
+  Util.loc * string * Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Util.user_err_loc
+)
+"plugins/subtac/subtac.ml" 183 6335 6358 "plugins/subtac/subtac.ml" 183 6335 6361
+type(
+  Util.loc
+)
+ident(
+  int_ref loc "plugins/subtac/subtac.ml" 129 4250 4262 "plugins/subtac/subtac.ml" 129 4250 4265
+)
+"plugins/subtac/subtac.ml" 183 6335 6362 "plugins/subtac/subtac.ml" 183 6335 6364
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 183 6335 6366 "plugins/subtac/subtac.ml" 183 6335 6369
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 183 6335 6370 "plugins/subtac/subtac.ml" 183 6335 6397
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 183 6335 6366 "plugins/subtac/subtac.ml" 183 6335 6397
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 183 6335 6357 "plugins/subtac/subtac.ml" 183 6335 6398
+type(
+  Util.loc * string * Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 183 6335 6344 "plugins/subtac/subtac.ml" 183 6335 6398
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 135 4468 4470 "plugins/subtac/subtac.ml" 183 6335 6398
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 185 6406 6423 "plugins/subtac/subtac.ml" 185 6406 6424
+type(
+  Subtac_errors.typing_error
+)
+ident(
+  def e "plugins/subtac/subtac.ml" 186 6428 6434 "plugins/subtac/subtac.ml" 200 6942 6967
+)
+"plugins/subtac/subtac.ml" 185 6406 6410 "plugins/subtac/subtac.ml" 185 6406 6424
+type(
+  exn
+)
+"plugins/subtac/subtac.ml" 186 6428 6434 "plugins/subtac/subtac.ml" 186 6428 6445
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msg_warning
+)
+"plugins/subtac/subtac.ml" 186 6428 6447 "plugins/subtac/subtac.ml" 186 6428 6450
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 186 6428 6451 "plugins/subtac/subtac.ml" 186 6428 6482
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 186 6428 6446 "plugins/subtac/subtac.ml" 186 6428 6483
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 186 6428 6434 "plugins/subtac/subtac.ml" 186 6428 6483
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 187 6485 6495 "plugins/subtac/subtac.ml" 187 6485 6499
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 188 6502 6510 "plugins/subtac/subtac.ml" 188 6502 6511
+type(
+  Subtac_errors.typing_error
+)
+ident(
+  int_ref e "plugins/subtac/subtac.ml" 185 6406 6423 "plugins/subtac/subtac.ml" 185 6406 6424
+)
+"plugins/subtac/subtac.ml" 189 6517 6538 "plugins/subtac/subtac.ml" 189 6517 6541
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 190 6557 6562 "plugins/subtac/subtac.ml" 191 6607 6674
+)
+"plugins/subtac/subtac.ml" 189 6517 6543 "plugins/subtac/subtac.ml" 189 6517 6544
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def x "plugins/subtac/subtac.ml" 190 6557 6562 "plugins/subtac/subtac.ml" 191 6607 6674
+)
+"plugins/subtac/subtac.ml" 189 6517 6546 "plugins/subtac/subtac.ml" 189 6517 6549
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def mux "plugins/subtac/subtac.ml" 190 6557 6562 "plugins/subtac/subtac.ml" 191 6607 6674
+)
+"plugins/subtac/subtac.ml" 189 6517 6551 "plugins/subtac/subtac.ml" 189 6517 6552
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def e "plugins/subtac/subtac.ml" 190 6557 6562 "plugins/subtac/subtac.ml" 191 6607 6674
+)
+"plugins/subtac/subtac.ml" 189 6517 6520 "plugins/subtac/subtac.ml" 189 6517 6553
+type(
+  Subtac_errors.typing_error
+)
+"plugins/subtac/subtac.ml" 190 6557 6562 "plugins/subtac/subtac.ml" 190 6557 6565
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 190 6557 6566 "plugins/subtac/subtac.ml" 190 6557 6603
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 190 6557 6562 "plugins/subtac/subtac.ml" 190 6557 6603
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 190 6557 6604 "plugins/subtac/subtac.ml" 190 6557 6606
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 191 6607 6614 "plugins/subtac/subtac.ml" 191 6607 6615
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref e "plugins/subtac/subtac.ml" 189 6517 6551 "plugins/subtac/subtac.ml" 189 6517 6552
+)
+"plugins/subtac/subtac.ml" 190 6557 6562 "plugins/subtac/subtac.ml" 191 6607 6615
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 191 6607 6616 "plugins/subtac/subtac.ml" 191 6607 6618
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 191 6607 6619 "plugins/subtac/subtac.ml" 191 6607 6622
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 191 6607 6623 "plugins/subtac/subtac.ml" 191 6607 6638
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 191 6607 6619 "plugins/subtac/subtac.ml" 191 6607 6638
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 190 6557 6562 "plugins/subtac/subtac.ml" 191 6607 6638
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 191 6607 6639 "plugins/subtac/subtac.ml" 191 6607 6641
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 191 6607 6642 "plugins/subtac/subtac.ml" 191 6607 6643
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref x "plugins/subtac/subtac.ml" 189 6517 6543 "plugins/subtac/subtac.ml" 189 6517 6544
+)
+"plugins/subtac/subtac.ml" 190 6557 6562 "plugins/subtac/subtac.ml" 191 6607 6643
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 191 6607 6644 "plugins/subtac/subtac.ml" 191 6607 6646
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 191 6607 6647 "plugins/subtac/subtac.ml" 191 6607 6650
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 191 6607 6651 "plugins/subtac/subtac.ml" 191 6607 6667
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 191 6607 6647 "plugins/subtac/subtac.ml" 191 6607 6667
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 190 6557 6562 "plugins/subtac/subtac.ml" 191 6607 6667
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 191 6607 6668 "plugins/subtac/subtac.ml" 191 6607 6670
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 191 6607 6671 "plugins/subtac/subtac.ml" 191 6607 6674
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref mux "plugins/subtac/subtac.ml" 189 6517 6546 "plugins/subtac/subtac.ml" 189 6517 6549
+)
+"plugins/subtac/subtac.ml" 190 6557 6562 "plugins/subtac/subtac.ml" 191 6607 6674
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 192 6675 6688 "plugins/subtac/subtac.ml" 192 6675 6691
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 193 6699 6704 "plugins/subtac/subtac.ml" 193 6699 6742
+)
+"plugins/subtac/subtac.ml" 192 6675 6693 "plugins/subtac/subtac.ml" 192 6675 6694
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def t "plugins/subtac/subtac.ml" 193 6699 6704 "plugins/subtac/subtac.ml" 193 6699 6742
+)
+"plugins/subtac/subtac.ml" 192 6675 6678 "plugins/subtac/subtac.ml" 192 6675 6695
+type(
+  Subtac_errors.typing_error
+)
+"plugins/subtac/subtac.ml" 193 6699 6704 "plugins/subtac/subtac.ml" 193 6699 6707
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 193 6699 6708 "plugins/subtac/subtac.ml" 193 6699 6737
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 193 6699 6704 "plugins/subtac/subtac.ml" 193 6699 6737
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 193 6699 6738 "plugins/subtac/subtac.ml" 193 6699 6740
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 193 6699 6741 "plugins/subtac/subtac.ml" 193 6699 6742
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref t "plugins/subtac/subtac.ml" 192 6675 6693 "plugins/subtac/subtac.ml" 192 6675 6694
+)
+"plugins/subtac/subtac.ml" 193 6699 6704 "plugins/subtac/subtac.ml" 193 6699 6742
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 194 6743 6762 "plugins/subtac/subtac.ml" 194 6743 6765
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 195 6776 6781 "plugins/subtac/subtac.ml" 196 6821 6867
+)
+"plugins/subtac/subtac.ml" 194 6743 6767 "plugins/subtac/subtac.ml" 194 6743 6768
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def x "plugins/subtac/subtac.ml" 195 6776 6781 "plugins/subtac/subtac.ml" 196 6821 6867
+)
+"plugins/subtac/subtac.ml" 194 6743 6770 "plugins/subtac/subtac.ml" 194 6743 6771
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def y "plugins/subtac/subtac.ml" 195 6776 6781 "plugins/subtac/subtac.ml" 196 6821 6867
+)
+"plugins/subtac/subtac.ml" 194 6743 6746 "plugins/subtac/subtac.ml" 194 6743 6772
+type(
+  Subtac_errors.typing_error
+)
+"plugins/subtac/subtac.ml" 195 6776 6781 "plugins/subtac/subtac.ml" 195 6776 6784
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 195 6776 6785 "plugins/subtac/subtac.ml" 195 6776 6807
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 195 6776 6781 "plugins/subtac/subtac.ml" 195 6776 6807
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 195 6776 6808 "plugins/subtac/subtac.ml" 195 6776 6810
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 195 6776 6811 "plugins/subtac/subtac.ml" 195 6776 6814
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 195 6776 6815 "plugins/subtac/subtac.ml" 195 6776 6817
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 195 6776 6811 "plugins/subtac/subtac.ml" 195 6776 6817
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 195 6776 6781 "plugins/subtac/subtac.ml" 195 6776 6817
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 195 6776 6818 "plugins/subtac/subtac.ml" 195 6776 6820
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 196 6821 6828 "plugins/subtac/subtac.ml" 196 6821 6829
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref x "plugins/subtac/subtac.ml" 194 6743 6767 "plugins/subtac/subtac.ml" 194 6743 6768
+)
+"plugins/subtac/subtac.ml" 195 6776 6781 "plugins/subtac/subtac.ml" 196 6821 6829
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 196 6821 6830 "plugins/subtac/subtac.ml" 196 6821 6832
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 196 6821 6833 "plugins/subtac/subtac.ml" 196 6821 6836
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 196 6821 6837 "plugins/subtac/subtac.ml" 196 6821 6839
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 196 6821 6833 "plugins/subtac/subtac.ml" 196 6821 6839
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 195 6776 6781 "plugins/subtac/subtac.ml" 196 6821 6839
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 196 6821 6840 "plugins/subtac/subtac.ml" 196 6821 6842
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 196 6821 6843 "plugins/subtac/subtac.ml" 196 6821 6846
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 196 6821 6847 "plugins/subtac/subtac.ml" 196 6821 6852
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 196 6821 6843 "plugins/subtac/subtac.ml" 196 6821 6852
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 195 6776 6781 "plugins/subtac/subtac.ml" 196 6821 6852
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 196 6821 6853 "plugins/subtac/subtac.ml" 196 6821 6855
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 196 6821 6856 "plugins/subtac/subtac.ml" 196 6821 6859
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 196 6821 6860 "plugins/subtac/subtac.ml" 196 6821 6862
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 196 6821 6856 "plugins/subtac/subtac.ml" 196 6821 6862
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 195 6776 6781 "plugins/subtac/subtac.ml" 196 6821 6862
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 196 6821 6863 "plugins/subtac/subtac.ml" 196 6821 6865
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 196 6821 6866 "plugins/subtac/subtac.ml" 196 6821 6867
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref y "plugins/subtac/subtac.ml" 194 6743 6770 "plugins/subtac/subtac.ml" 194 6743 6771
+)
+"plugins/subtac/subtac.ml" 195 6776 6781 "plugins/subtac/subtac.ml" 196 6821 6867
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 197 6868 6882 "plugins/subtac/subtac.ml" 197 6868 6885
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 198 6893 6898 "plugins/subtac/subtac.ml" 198 6893 6938
+)
+"plugins/subtac/subtac.ml" 197 6868 6887 "plugins/subtac/subtac.ml" 197 6868 6888
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def t "plugins/subtac/subtac.ml" 198 6893 6898 "plugins/subtac/subtac.ml" 198 6893 6938
+)
+"plugins/subtac/subtac.ml" 197 6868 6871 "plugins/subtac/subtac.ml" 197 6868 6889
+type(
+  Subtac_errors.typing_error
+)
+"plugins/subtac/subtac.ml" 198 6893 6898 "plugins/subtac/subtac.ml" 198 6893 6901
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 198 6893 6902 "plugins/subtac/subtac.ml" 198 6893 6923
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 198 6893 6898 "plugins/subtac/subtac.ml" 198 6893 6923
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 198 6893 6924 "plugins/subtac/subtac.ml" 198 6893 6926
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 198 6893 6927 "plugins/subtac/subtac.ml" 198 6893 6930
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 198 6893 6931 "plugins/subtac/subtac.ml" 198 6893 6933
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 198 6893 6927 "plugins/subtac/subtac.ml" 198 6893 6933
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 198 6893 6898 "plugins/subtac/subtac.ml" 198 6893 6933
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 198 6893 6934 "plugins/subtac/subtac.ml" 198 6893 6936
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 198 6893 6937 "plugins/subtac/subtac.ml" 198 6893 6938
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref t "plugins/subtac/subtac.ml" 197 6868 6887 "plugins/subtac/subtac.ml" 197 6868 6888
+)
+"plugins/subtac/subtac.ml" 198 6893 6898 "plugins/subtac/subtac.ml" 198 6893 6938
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 188 6502 6503 "plugins/subtac/subtac.ml" 199 6939 6941
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 200 6942 6951 "plugins/subtac/subtac.ml" 200 6942 6962
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msg_warning
+)
+"plugins/subtac/subtac.ml" 200 6942 6963 "plugins/subtac/subtac.ml" 200 6942 6967
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref cmds "plugins/subtac/subtac.ml" 187 6485 6495 "plugins/subtac/subtac.ml" 187 6485 6499
+)
+"plugins/subtac/subtac.ml" 200 6942 6951 "plugins/subtac/subtac.ml" 200 6942 6967
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 187 6485 6491 "plugins/subtac/subtac.ml" 200 6942 6967
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 186 6428 6434 "plugins/subtac/subtac.ml" 200 6942 6967
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 202 6969 6989 "plugins/subtac/subtac.ml" 202 6969 6990
+type(
+  Subtac_errors.subtyping_error
+)
+ident(
+  def e "plugins/subtac/subtac.ml" 203 6994 7000 "plugins/subtac/subtac.ml" 216 7586 7611
+)
+"plugins/subtac/subtac.ml" 202 6969 6973 "plugins/subtac/subtac.ml" 202 6969 6990
+type(
+  exn
+)
+"plugins/subtac/subtac.ml" 203 6994 7000 "plugins/subtac/subtac.ml" 203 6994 7011
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msg_warning
+)
+"plugins/subtac/subtac.ml" 203 6994 7013 "plugins/subtac/subtac.ml" 203 6994 7016
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 203 6994 7017 "plugins/subtac/subtac.ml" 203 6994 7052
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 203 6994 7012 "plugins/subtac/subtac.ml" 203 6994 7053
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 203 6994 7000 "plugins/subtac/subtac.ml" 203 6994 7053
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 204 7055 7065 "plugins/subtac/subtac.ml" 204 7055 7069
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 205 7072 7079 "plugins/subtac/subtac.ml" 205 7072 7080
+type(
+  Subtac_errors.subtyping_error
+)
+ident(
+  int_ref e "plugins/subtac/subtac.ml" 202 6969 6989 "plugins/subtac/subtac.ml" 202 6969 6990
+)
+"plugins/subtac/subtac.ml" 206 7086 7111 "plugins/subtac/subtac.ml" 206 7086 7114
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 207 7125 7130 "plugins/subtac/subtac.ml" 208 7165 7212
+)
+"plugins/subtac/subtac.ml" 206 7086 7116 "plugins/subtac/subtac.ml" 206 7086 7117
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def x "plugins/subtac/subtac.ml" 207 7125 7130 "plugins/subtac/subtac.ml" 208 7165 7212
+)
+"plugins/subtac/subtac.ml" 206 7086 7119 "plugins/subtac/subtac.ml" 206 7086 7120
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def y "plugins/subtac/subtac.ml" 207 7125 7130 "plugins/subtac/subtac.ml" 208 7165 7212
+)
+"plugins/subtac/subtac.ml" 206 7086 7089 "plugins/subtac/subtac.ml" 206 7086 7121
+type(
+  Subtac_errors.subtyping_error
+)
+"plugins/subtac/subtac.ml" 207 7125 7130 "plugins/subtac/subtac.ml" 207 7125 7133
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 207 7125 7134 "plugins/subtac/subtac.ml" 207 7125 7154
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 207 7125 7130 "plugins/subtac/subtac.ml" 207 7125 7154
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 207 7125 7155 "plugins/subtac/subtac.ml" 207 7125 7157
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 207 7125 7158 "plugins/subtac/subtac.ml" 207 7125 7161
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 207 7125 7162 "plugins/subtac/subtac.ml" 207 7125 7164
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 207 7125 7158 "plugins/subtac/subtac.ml" 207 7125 7164
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 207 7125 7130 "plugins/subtac/subtac.ml" 207 7125 7164
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 208 7165 7170 "plugins/subtac/subtac.ml" 208 7165 7172
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 208 7165 7173 "plugins/subtac/subtac.ml" 208 7165 7174
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref x "plugins/subtac/subtac.ml" 206 7086 7116 "plugins/subtac/subtac.ml" 206 7086 7117
+)
+"plugins/subtac/subtac.ml" 207 7125 7130 "plugins/subtac/subtac.ml" 208 7165 7174
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 208 7165 7175 "plugins/subtac/subtac.ml" 208 7165 7177
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 208 7165 7178 "plugins/subtac/subtac.ml" 208 7165 7181
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 208 7165 7182 "plugins/subtac/subtac.ml" 208 7165 7184
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 208 7165 7178 "plugins/subtac/subtac.ml" 208 7165 7184
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 207 7125 7130 "plugins/subtac/subtac.ml" 208 7165 7184
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 208 7165 7185 "plugins/subtac/subtac.ml" 208 7165 7187
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 208 7165 7188 "plugins/subtac/subtac.ml" 208 7165 7191
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 208 7165 7192 "plugins/subtac/subtac.ml" 208 7165 7197
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 208 7165 7188 "plugins/subtac/subtac.ml" 208 7165 7197
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 207 7125 7130 "plugins/subtac/subtac.ml" 208 7165 7197
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 208 7165 7198 "plugins/subtac/subtac.ml" 208 7165 7200
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 208 7165 7201 "plugins/subtac/subtac.ml" 208 7165 7204
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 208 7165 7205 "plugins/subtac/subtac.ml" 208 7165 7207
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 208 7165 7201 "plugins/subtac/subtac.ml" 208 7165 7207
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 207 7125 7130 "plugins/subtac/subtac.ml" 208 7165 7207
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 208 7165 7208 "plugins/subtac/subtac.ml" 208 7165 7210
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 208 7165 7211 "plugins/subtac/subtac.ml" 208 7165 7212
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref y "plugins/subtac/subtac.ml" 206 7086 7119 "plugins/subtac/subtac.ml" 206 7086 7120
+)
+"plugins/subtac/subtac.ml" 207 7125 7130 "plugins/subtac/subtac.ml" 208 7165 7212
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 209 7213 7238 "plugins/subtac/subtac.ml" 209 7213 7241
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7465
+)
+"plugins/subtac/subtac.ml" 209 7213 7243 "plugins/subtac/subtac.ml" 209 7213 7244
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def x "plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7465
+)
+"plugins/subtac/subtac.ml" 209 7213 7246 "plugins/subtac/subtac.ml" 209 7213 7247
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def y "plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7465
+)
+"plugins/subtac/subtac.ml" 209 7213 7249 "plugins/subtac/subtac.ml" 209 7213 7251
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def tx "plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7465
+)
+"plugins/subtac/subtac.ml" 209 7213 7253 "plugins/subtac/subtac.ml" 209 7213 7255
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def ty "plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7465
+)
+"plugins/subtac/subtac.ml" 209 7213 7216 "plugins/subtac/subtac.ml" 209 7213 7256
+type(
+  Subtac_errors.subtyping_error
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 210 7260 7268
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 210 7260 7269 "plugins/subtac/subtac.ml" 210 7260 7289
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 210 7260 7289
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7290 "plugins/subtac/subtac.ml" 210 7260 7292
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 210 7260 7293 "plugins/subtac/subtac.ml" 210 7260 7296
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 210 7260 7297 "plugins/subtac/subtac.ml" 210 7260 7299
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 210 7260 7293 "plugins/subtac/subtac.ml" 210 7260 7299
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 210 7260 7299
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 211 7300 7305 "plugins/subtac/subtac.ml" 211 7300 7307
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 211 7300 7308 "plugins/subtac/subtac.ml" 211 7300 7310
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref tx "plugins/subtac/subtac.ml" 209 7213 7249 "plugins/subtac/subtac.ml" 209 7213 7251
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 211 7300 7310
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 211 7300 7311 "plugins/subtac/subtac.ml" 211 7300 7313
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 211 7300 7314 "plugins/subtac/subtac.ml" 211 7300 7317
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 211 7300 7318 "plugins/subtac/subtac.ml" 211 7300 7320
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 211 7300 7314 "plugins/subtac/subtac.ml" 211 7300 7320
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 211 7300 7320
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 211 7300 7321 "plugins/subtac/subtac.ml" 211 7300 7323
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 211 7300 7324 "plugins/subtac/subtac.ml" 211 7300 7327
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 211 7300 7328 "plugins/subtac/subtac.ml" 211 7300 7332
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 211 7300 7324 "plugins/subtac/subtac.ml" 211 7300 7332
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 211 7300 7332
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 211 7300 7333 "plugins/subtac/subtac.ml" 211 7300 7335
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 211 7300 7336 "plugins/subtac/subtac.ml" 211 7300 7339
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 211 7300 7340 "plugins/subtac/subtac.ml" 211 7300 7342
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 211 7300 7336 "plugins/subtac/subtac.ml" 211 7300 7342
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 211 7300 7342
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 211 7300 7343 "plugins/subtac/subtac.ml" 211 7300 7345
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 211 7300 7346 "plugins/subtac/subtac.ml" 211 7300 7349
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 211 7300 7350 "plugins/subtac/subtac.ml" 211 7300 7356
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 211 7300 7346 "plugins/subtac/subtac.ml" 211 7300 7356
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 211 7300 7356
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 211 7300 7357 "plugins/subtac/subtac.ml" 211 7300 7359
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 211 7300 7360 "plugins/subtac/subtac.ml" 211 7300 7363
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 211 7300 7364 "plugins/subtac/subtac.ml" 211 7300 7366
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 211 7300 7360 "plugins/subtac/subtac.ml" 211 7300 7366
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 211 7300 7366
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 211 7300 7367 "plugins/subtac/subtac.ml" 211 7300 7369
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 211 7300 7370 "plugins/subtac/subtac.ml" 211 7300 7371
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref x "plugins/subtac/subtac.ml" 209 7213 7243 "plugins/subtac/subtac.ml" 209 7213 7244
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 211 7300 7371
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 212 7372 7377 "plugins/subtac/subtac.ml" 212 7372 7379
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 212 7372 7380 "plugins/subtac/subtac.ml" 212 7372 7383
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 212 7372 7384 "plugins/subtac/subtac.ml" 212 7372 7389
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 212 7372 7380 "plugins/subtac/subtac.ml" 212 7372 7389
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7389
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 212 7372 7390 "plugins/subtac/subtac.ml" 212 7372 7392
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 212 7372 7393 "plugins/subtac/subtac.ml" 212 7372 7396
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 212 7372 7396 "plugins/subtac/subtac.ml" 212 7372 7398
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 212 7372 7393 "plugins/subtac/subtac.ml" 212 7372 7398
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7398
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 212 7372 7399 "plugins/subtac/subtac.ml" 212 7372 7401
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 212 7372 7402 "plugins/subtac/subtac.ml" 212 7372 7404
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref ty "plugins/subtac/subtac.ml" 209 7213 7253 "plugins/subtac/subtac.ml" 209 7213 7255
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7404
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 212 7372 7405 "plugins/subtac/subtac.ml" 212 7372 7407
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 212 7372 7408 "plugins/subtac/subtac.ml" 212 7372 7411
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 212 7372 7412 "plugins/subtac/subtac.ml" 212 7372 7414
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 212 7372 7408 "plugins/subtac/subtac.ml" 212 7372 7414
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7414
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 212 7372 7415 "plugins/subtac/subtac.ml" 212 7372 7417
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 212 7372 7418 "plugins/subtac/subtac.ml" 212 7372 7421
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 212 7372 7422 "plugins/subtac/subtac.ml" 212 7372 7426
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 212 7372 7418 "plugins/subtac/subtac.ml" 212 7372 7426
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7426
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 212 7372 7427 "plugins/subtac/subtac.ml" 212 7372 7429
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 212 7372 7430 "plugins/subtac/subtac.ml" 212 7372 7433
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 212 7372 7434 "plugins/subtac/subtac.ml" 212 7372 7436
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 212 7372 7430 "plugins/subtac/subtac.ml" 212 7372 7436
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7436
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 212 7372 7437 "plugins/subtac/subtac.ml" 212 7372 7439
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 212 7372 7440 "plugins/subtac/subtac.ml" 212 7372 7443
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 212 7372 7444 "plugins/subtac/subtac.ml" 212 7372 7450
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 212 7372 7440 "plugins/subtac/subtac.ml" 212 7372 7450
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7450
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 212 7372 7451 "plugins/subtac/subtac.ml" 212 7372 7453
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 212 7372 7454 "plugins/subtac/subtac.ml" 212 7372 7457
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 212 7372 7458 "plugins/subtac/subtac.ml" 212 7372 7460
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 212 7372 7454 "plugins/subtac/subtac.ml" 212 7372 7460
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7460
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 212 7372 7461 "plugins/subtac/subtac.ml" 212 7372 7463
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 212 7372 7464 "plugins/subtac/subtac.ml" 212 7372 7465
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref y "plugins/subtac/subtac.ml" 209 7213 7246 "plugins/subtac/subtac.ml" 209 7213 7247
+)
+"plugins/subtac/subtac.ml" 210 7260 7265 "plugins/subtac/subtac.ml" 212 7372 7465
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 213 7466 7489 "plugins/subtac/subtac.ml" 213 7466 7490
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def x "plugins/subtac/subtac.ml" 214 7498 7503 "plugins/subtac/subtac.ml" 215 7538 7585
+)
+"plugins/subtac/subtac.ml" 213 7466 7492 "plugins/subtac/subtac.ml" 213 7466 7493
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  def y "plugins/subtac/subtac.ml" 214 7498 7503 "plugins/subtac/subtac.ml" 215 7538 7585
+)
+"plugins/subtac/subtac.ml" 213 7466 7469 "plugins/subtac/subtac.ml" 213 7466 7494
+type(
+  Subtac_errors.subtyping_error
+)
+"plugins/subtac/subtac.ml" 214 7498 7503 "plugins/subtac/subtac.ml" 214 7498 7506
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 214 7498 7507 "plugins/subtac/subtac.ml" 214 7498 7527
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 214 7498 7503 "plugins/subtac/subtac.ml" 214 7498 7527
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 214 7498 7528 "plugins/subtac/subtac.ml" 214 7498 7530
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 214 7498 7531 "plugins/subtac/subtac.ml" 214 7498 7534
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 214 7498 7535 "plugins/subtac/subtac.ml" 214 7498 7537
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 214 7498 7531 "plugins/subtac/subtac.ml" 214 7498 7537
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 214 7498 7503 "plugins/subtac/subtac.ml" 214 7498 7537
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 215 7538 7543 "plugins/subtac/subtac.ml" 215 7538 7545
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 215 7538 7546 "plugins/subtac/subtac.ml" 215 7538 7547
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref x "plugins/subtac/subtac.ml" 213 7466 7489 "plugins/subtac/subtac.ml" 213 7466 7490
+)
+"plugins/subtac/subtac.ml" 214 7498 7503 "plugins/subtac/subtac.ml" 215 7538 7547
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 215 7538 7548 "plugins/subtac/subtac.ml" 215 7538 7550
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 215 7538 7551 "plugins/subtac/subtac.ml" 215 7538 7554
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 215 7538 7555 "plugins/subtac/subtac.ml" 215 7538 7557
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 215 7538 7551 "plugins/subtac/subtac.ml" 215 7538 7557
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 214 7498 7503 "plugins/subtac/subtac.ml" 215 7538 7557
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 215 7538 7558 "plugins/subtac/subtac.ml" 215 7538 7560
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 215 7538 7561 "plugins/subtac/subtac.ml" 215 7538 7564
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/subtac.ml" 215 7538 7565 "plugins/subtac/subtac.ml" 215 7538 7570
+type(
+  string
+)
+"plugins/subtac/subtac.ml" 215 7538 7561 "plugins/subtac/subtac.ml" 215 7538 7570
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 214 7498 7503 "plugins/subtac/subtac.ml" 215 7538 7570
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 215 7538 7571 "plugins/subtac/subtac.ml" 215 7538 7573
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 215 7538 7574 "plugins/subtac/subtac.ml" 215 7538 7577
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/subtac/subtac.ml" 215 7538 7578 "plugins/subtac/subtac.ml" 215 7538 7580
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 215 7538 7574 "plugins/subtac/subtac.ml" 215 7538 7580
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 214 7498 7503 "plugins/subtac/subtac.ml" 215 7538 7580
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 215 7538 7581 "plugins/subtac/subtac.ml" 215 7538 7583
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/subtac.ml" 215 7538 7584 "plugins/subtac/subtac.ml" 215 7538 7585
+type(
+  Subtac_errors.term_pp
+)
+ident(
+  int_ref y "plugins/subtac/subtac.ml" 213 7466 7492 "plugins/subtac/subtac.ml" 213 7466 7493
+)
+"plugins/subtac/subtac.ml" 214 7498 7503 "plugins/subtac/subtac.ml" 215 7538 7585
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 205 7072 7073 "plugins/subtac/subtac.ml" 215 7538 7585
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/subtac.ml" 216 7586 7595 "plugins/subtac/subtac.ml" 216 7586 7606
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msg_warning
+)
+"plugins/subtac/subtac.ml" 216 7586 7607 "plugins/subtac/subtac.ml" 216 7586 7611
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref cmds "plugins/subtac/subtac.ml" 204 7055 7065 "plugins/subtac/subtac.ml" 204 7055 7069
+)
+"plugins/subtac/subtac.ml" 216 7586 7595 "plugins/subtac/subtac.ml" 216 7586 7611
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 204 7055 7061 "plugins/subtac/subtac.ml" 216 7586 7611
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 203 6994 7000 "plugins/subtac/subtac.ml" 216 7586 7611
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 218 7613 7645 "plugins/subtac/subtac.ml" 218 7613 7648
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac.ml" 218 7613 7663 "plugins/subtac/subtac.ml" 218 7613 7670
+)
+"plugins/subtac/subtac.ml" 218 7613 7650 "plugins/subtac/subtac.ml" 218 7613 7653
+type(
+  Cases.pattern_matching_error
+)
+ident(
+  def exn "plugins/subtac/subtac.ml" 218 7613 7663 "plugins/subtac/subtac.ml" 218 7613 7670
+)
+"plugins/subtac/subtac.ml" 218 7613 7617 "plugins/subtac/subtac.ml" 218 7613 7654
+type(
+  exn
+)
+"plugins/subtac/subtac.ml" 218 7613 7617 "plugins/subtac/subtac.ml" 218 7613 7659
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/subtac.ml" 218 7613 7663 "plugins/subtac/subtac.ml" 218 7613 7670
+)
+"plugins/subtac/subtac.ml" 218 7613 7663 "plugins/subtac/subtac.ml" 218 7613 7668
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/subtac/subtac.ml" 218 7613 7669 "plugins/subtac/subtac.ml" 218 7613 7670
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/subtac.ml" 218 7613 7617 "plugins/subtac/subtac.ml" 218 7613 7659
+)
+"plugins/subtac/subtac.ml" 218 7613 7663 "plugins/subtac/subtac.ml" 218 7613 7670
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 220 7672 7699 "plugins/subtac/subtac.ml" 220 7672 7702
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac.ml" 220 7672 7717 "plugins/subtac/subtac.ml" 220 7672 7724
+)
+"plugins/subtac/subtac.ml" 220 7672 7704 "plugins/subtac/subtac.ml" 220 7672 7707
+type(
+  Type_errors.type_error
+)
+ident(
+  def exn "plugins/subtac/subtac.ml" 220 7672 7717 "plugins/subtac/subtac.ml" 220 7672 7724
+)
+"plugins/subtac/subtac.ml" 220 7672 7676 "plugins/subtac/subtac.ml" 220 7672 7708
+type(
+  exn
+)
+"plugins/subtac/subtac.ml" 220 7672 7676 "plugins/subtac/subtac.ml" 220 7672 7713
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/subtac.ml" 220 7672 7717 "plugins/subtac/subtac.ml" 220 7672 7724
+)
+"plugins/subtac/subtac.ml" 220 7672 7717 "plugins/subtac/subtac.ml" 220 7672 7722
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/subtac/subtac.ml" 220 7672 7723 "plugins/subtac/subtac.ml" 220 7672 7724
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/subtac.ml" 220 7672 7676 "plugins/subtac/subtac.ml" 220 7672 7713
+)
+"plugins/subtac/subtac.ml" 220 7672 7717 "plugins/subtac/subtac.ml" 220 7672 7724
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 222 7726 7759 "plugins/subtac/subtac.ml" 222 7726 7762
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/subtac/subtac.ml" 222 7726 7777 "plugins/subtac/subtac.ml" 222 7726 7784
+)
+"plugins/subtac/subtac.ml" 222 7726 7764 "plugins/subtac/subtac.ml" 222 7726 7767
+type(
+  Pretype_errors.pretype_error
+)
+ident(
+  def exn "plugins/subtac/subtac.ml" 222 7726 7777 "plugins/subtac/subtac.ml" 222 7726 7784
+)
+"plugins/subtac/subtac.ml" 222 7726 7730 "plugins/subtac/subtac.ml" 222 7726 7768
+type(
+  exn
+)
+"plugins/subtac/subtac.ml" 222 7726 7730 "plugins/subtac/subtac.ml" 222 7726 7773
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/subtac.ml" 222 7726 7777 "plugins/subtac/subtac.ml" 222 7726 7784
+)
+"plugins/subtac/subtac.ml" 222 7726 7777 "plugins/subtac/subtac.ml" 222 7726 7782
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/subtac/subtac.ml" 222 7726 7783 "plugins/subtac/subtac.ml" 222 7726 7784
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/subtac.ml" 222 7726 7730 "plugins/subtac/subtac.ml" 222 7726 7773
+)
+"plugins/subtac/subtac.ml" 222 7726 7777 "plugins/subtac/subtac.ml" 222 7726 7784
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 224 7786 7790 "plugins/subtac/subtac.ml" 224 7786 7791
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/subtac.ml" 224 7786 7795 "plugins/subtac/subtac.ml" 224 7786 7802
+)
+"plugins/subtac/subtac.ml" 224 7786 7795 "plugins/subtac/subtac.ml" 224 7786 7800
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/subtac/subtac.ml" 224 7786 7801 "plugins/subtac/subtac.ml" 224 7786 7802
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/subtac.ml" 224 7786 7790 "plugins/subtac/subtac.ml" 224 7786 7791
+)
+"plugins/subtac/subtac.ml" 224 7786 7795 "plugins/subtac/subtac.ml" 224 7786 7802
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 134 4462 4464 "plugins/subtac/subtac.ml" 224 7786 7802
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 133 4410 4412 "plugins/subtac/subtac.ml" 224 7786 7802
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 132 4381 4383 "plugins/subtac/subtac.ml" 224 7786 7802
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 131 4331 4333 "plugins/subtac/subtac.ml" 224 7786 7802
+type(
+  unit
+)
+"plugins/subtac/subtac.ml" 130 4278 4280 "plugins/subtac/subtac.ml" 224 7786 7802
+type(
+  unit
+)

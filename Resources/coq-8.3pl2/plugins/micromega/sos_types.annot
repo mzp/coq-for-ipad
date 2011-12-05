@@ -1,0 +1,1323 @@
+"plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+type(
+  out_channel -> term -> unit
+)
+ident(
+  def output_term "plugins/micromega/sos_types.ml" 27 827 827 --
+)
+"plugins/micromega/sos_types.ml" 27 827 847 "plugins/micromega/sos_types.ml" 27 827 848
+type(
+  out_channel
+)
+ident(
+  def o "plugins/micromega/sos_types.ml" 27 827 849 "plugins/micromega/sos_types.ml" 38 1426 1490
+)
+"plugins/micromega/sos_types.ml" 27 827 849 "plugins/micromega/sos_types.ml" 27 827 850
+type(
+  term
+)
+ident(
+  def t "plugins/micromega/sos_types.ml" 28 853 855 "plugins/micromega/sos_types.ml" 38 1426 1490
+)
+"plugins/micromega/sos_types.ml" 28 853 861 "plugins/micromega/sos_types.ml" 28 853 862
+type(
+  term
+)
+ident(
+  int_ref t "plugins/micromega/sos_types.ml" 27 827 849 "plugins/micromega/sos_types.ml" 27 827 850
+)
+"plugins/micromega/sos_types.ml" 29 868 874 "plugins/micromega/sos_types.ml" 29 868 878
+type(
+  term
+)
+"plugins/micromega/sos_types.ml" 29 868 882 "plugins/micromega/sos_types.ml" 29 868 895
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"plugins/micromega/sos_types.ml" 29 868 896 "plugins/micromega/sos_types.ml" 29 868 897
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 27 827 847 "plugins/micromega/sos_types.ml" 27 827 848
+)
+"plugins/micromega/sos_types.ml" 29 868 898 "plugins/micromega/sos_types.ml" 29 868 901
+type(
+  string
+)
+"plugins/micromega/sos_types.ml" 29 868 882 "plugins/micromega/sos_types.ml" 29 868 901
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 30 902 914 "plugins/micromega/sos_types.ml" 30 902 915
+type(
+  Num.num
+)
+ident(
+  def n "plugins/micromega/sos_types.ml" 30 902 919 "plugins/micromega/sos_types.ml" 30 902 952
+)
+"plugins/micromega/sos_types.ml" 30 902 908 "plugins/micromega/sos_types.ml" 30 902 915
+type(
+  term
+)
+"plugins/micromega/sos_types.ml" 30 902 919 "plugins/micromega/sos_types.ml" 30 902 932
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"plugins/micromega/sos_types.ml" 30 902 933 "plugins/micromega/sos_types.ml" 30 902 934
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 27 827 847 "plugins/micromega/sos_types.ml" 27 827 848
+)
+"plugins/micromega/sos_types.ml" 30 902 936 "plugins/micromega/sos_types.ml" 30 902 949
+type(
+  Num.num -> string
+)
+ident(
+  ext_ref Num.string_of_num
+)
+"plugins/micromega/sos_types.ml" 30 902 950 "plugins/micromega/sos_types.ml" 30 902 951
+type(
+  Num.num
+)
+ident(
+  int_ref n "plugins/micromega/sos_types.ml" 30 902 914 "plugins/micromega/sos_types.ml" 30 902 915
+)
+"plugins/micromega/sos_types.ml" 30 902 935 "plugins/micromega/sos_types.ml" 30 902 952
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/micromega/sos_types.ml" 30 902 919 "plugins/micromega/sos_types.ml" 30 902 952
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 31 953 963 "plugins/micromega/sos_types.ml" 31 953 964
+type(
+  vname
+)
+ident(
+  def n "plugins/micromega/sos_types.ml" 31 953 970 "plugins/micromega/sos_types.ml" 31 953 994
+)
+"plugins/micromega/sos_types.ml" 31 953 959 "plugins/micromega/sos_types.ml" 31 953 964
+type(
+  term
+)
+"plugins/micromega/sos_types.ml" 31 953 970 "plugins/micromega/sos_types.ml" 31 953 984
+type(
+  out_channel -> (vname -> unit, out_channel, unit) format -> vname -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 31 953 985 "plugins/micromega/sos_types.ml" 31 953 986
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 27 827 847 "plugins/micromega/sos_types.ml" 27 827 848
+)
+"plugins/micromega/sos_types.ml" 31 953 987 "plugins/micromega/sos_types.ml" 31 953 992
+type(
+  (vname -> unit, out_channel, unit) format
+)
+"plugins/micromega/sos_types.ml" 31 953 993 "plugins/micromega/sos_types.ml" 31 953 994
+type(
+  vname
+)
+ident(
+  int_ref n "plugins/micromega/sos_types.ml" 31 953 963 "plugins/micromega/sos_types.ml" 31 953 964
+)
+"plugins/micromega/sos_types.ml" 31 953 970 "plugins/micromega/sos_types.ml" 31 953 994
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 32 995 1005 "plugins/micromega/sos_types.ml" 32 995 1006
+type(
+  term
+)
+ident(
+  def t "plugins/micromega/sos_types.ml" 32 995 1012 "plugins/micromega/sos_types.ml" 32 995 1051
+)
+"plugins/micromega/sos_types.ml" 32 995 1001 "plugins/micromega/sos_types.ml" 32 995 1006
+type(
+  term
+)
+"plugins/micromega/sos_types.ml" 32 995 1012 "plugins/micromega/sos_types.ml" 32 995 1026
+type(
+  out_channel ->
+  ((out_channel -> term -> unit) -> term -> unit, out_channel, unit) format ->
+  (out_channel -> term -> unit) -> term -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 32 995 1027 "plugins/micromega/sos_types.ml" 32 995 1028
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 27 827 847 "plugins/micromega/sos_types.ml" 27 827 848
+)
+"plugins/micromega/sos_types.ml" 32 995 1029 "plugins/micromega/sos_types.ml" 32 995 1037
+type(
+  ((out_channel -> term -> unit) -> term -> unit, out_channel, unit) format
+)
+"plugins/micromega/sos_types.ml" 32 995 1038 "plugins/micromega/sos_types.ml" 32 995 1049
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 32 995 1050 "plugins/micromega/sos_types.ml" 32 995 1051
+type(
+  term
+)
+ident(
+  int_ref t "plugins/micromega/sos_types.ml" 32 995 1005 "plugins/micromega/sos_types.ml" 32 995 1006
+)
+"plugins/micromega/sos_types.ml" 32 995 1012 "plugins/micromega/sos_types.ml" 32 995 1051
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 33 1052 1062 "plugins/micromega/sos_types.ml" 33 1052 1063
+type(
+  term
+)
+ident(
+  def t "plugins/micromega/sos_types.ml" 33 1052 1070 "plugins/micromega/sos_types.ml" 33 1052 1109
+)
+"plugins/micromega/sos_types.ml" 33 1052 1058 "plugins/micromega/sos_types.ml" 33 1052 1063
+type(
+  term
+)
+"plugins/micromega/sos_types.ml" 33 1052 1070 "plugins/micromega/sos_types.ml" 33 1052 1084
+type(
+  out_channel ->
+  ((out_channel -> term -> unit) -> term -> unit, out_channel, unit) format ->
+  (out_channel -> term -> unit) -> term -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 33 1052 1085 "plugins/micromega/sos_types.ml" 33 1052 1086
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 27 827 847 "plugins/micromega/sos_types.ml" 27 827 848
+)
+"plugins/micromega/sos_types.ml" 33 1052 1087 "plugins/micromega/sos_types.ml" 33 1052 1095
+type(
+  ((out_channel -> term -> unit) -> term -> unit, out_channel, unit) format
+)
+"plugins/micromega/sos_types.ml" 33 1052 1096 "plugins/micromega/sos_types.ml" 33 1052 1107
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 33 1052 1108 "plugins/micromega/sos_types.ml" 33 1052 1109
+type(
+  term
+)
+ident(
+  int_ref t "plugins/micromega/sos_types.ml" 33 1052 1062 "plugins/micromega/sos_types.ml" 33 1052 1063
+)
+"plugins/micromega/sos_types.ml" 33 1052 1070 "plugins/micromega/sos_types.ml" 33 1052 1109
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 34 1110 1120 "plugins/micromega/sos_types.ml" 34 1110 1122
+type(
+  term
+)
+ident(
+  def t1 "plugins/micromega/sos_types.ml" 34 1110 1130 "plugins/micromega/sos_types.ml" 34 1110 1188
+)
+"plugins/micromega/sos_types.ml" 34 1110 1123 "plugins/micromega/sos_types.ml" 34 1110 1125
+type(
+  term
+)
+ident(
+  def t2 "plugins/micromega/sos_types.ml" 34 1110 1130 "plugins/micromega/sos_types.ml" 34 1110 1188
+)
+"plugins/micromega/sos_types.ml" 34 1110 1119 "plugins/micromega/sos_types.ml" 34 1110 1126
+type(
+  term * term
+)
+"plugins/micromega/sos_types.ml" 34 1110 1116 "plugins/micromega/sos_types.ml" 34 1110 1126
+type(
+  term
+)
+"plugins/micromega/sos_types.ml" 34 1110 1130 "plugins/micromega/sos_types.ml" 34 1110 1144
+type(
+  out_channel ->
+  ((out_channel -> term -> unit) ->
+   term -> (out_channel -> term -> unit) -> term -> unit, out_channel, 
+   unit)
+  format ->
+  (out_channel -> term -> unit) ->
+  term -> (out_channel -> term -> unit) -> term -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 34 1110 1145 "plugins/micromega/sos_types.ml" 34 1110 1146
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 27 827 847 "plugins/micromega/sos_types.ml" 27 827 848
+)
+"plugins/micromega/sos_types.ml" 34 1110 1147 "plugins/micromega/sos_types.ml" 34 1110 1158
+type(
+  ((out_channel -> term -> unit) ->
+   term -> (out_channel -> term -> unit) -> term -> unit, out_channel, 
+   unit)
+  format
+)
+"plugins/micromega/sos_types.ml" 34 1110 1159 "plugins/micromega/sos_types.ml" 34 1110 1170
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 34 1110 1171 "plugins/micromega/sos_types.ml" 34 1110 1173
+type(
+  term
+)
+ident(
+  int_ref t1 "plugins/micromega/sos_types.ml" 34 1110 1120 "plugins/micromega/sos_types.ml" 34 1110 1122
+)
+"plugins/micromega/sos_types.ml" 34 1110 1174 "plugins/micromega/sos_types.ml" 34 1110 1185
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 34 1110 1186 "plugins/micromega/sos_types.ml" 34 1110 1188
+type(
+  term
+)
+ident(
+  int_ref t2 "plugins/micromega/sos_types.ml" 34 1110 1123 "plugins/micromega/sos_types.ml" 34 1110 1125
+)
+"plugins/micromega/sos_types.ml" 34 1110 1130 "plugins/micromega/sos_types.ml" 34 1110 1188
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 35 1189 1199 "plugins/micromega/sos_types.ml" 35 1189 1201
+type(
+  term
+)
+ident(
+  def t1 "plugins/micromega/sos_types.ml" 35 1189 1209 "plugins/micromega/sos_types.ml" 35 1189 1267
+)
+"plugins/micromega/sos_types.ml" 35 1189 1202 "plugins/micromega/sos_types.ml" 35 1189 1204
+type(
+  term
+)
+ident(
+  def t2 "plugins/micromega/sos_types.ml" 35 1189 1209 "plugins/micromega/sos_types.ml" 35 1189 1267
+)
+"plugins/micromega/sos_types.ml" 35 1189 1198 "plugins/micromega/sos_types.ml" 35 1189 1205
+type(
+  term * term
+)
+"plugins/micromega/sos_types.ml" 35 1189 1195 "plugins/micromega/sos_types.ml" 35 1189 1205
+type(
+  term
+)
+"plugins/micromega/sos_types.ml" 35 1189 1209 "plugins/micromega/sos_types.ml" 35 1189 1223
+type(
+  out_channel ->
+  ((out_channel -> term -> unit) ->
+   term -> (out_channel -> term -> unit) -> term -> unit, out_channel, 
+   unit)
+  format ->
+  (out_channel -> term -> unit) ->
+  term -> (out_channel -> term -> unit) -> term -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 35 1189 1224 "plugins/micromega/sos_types.ml" 35 1189 1225
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 27 827 847 "plugins/micromega/sos_types.ml" 27 827 848
+)
+"plugins/micromega/sos_types.ml" 35 1189 1226 "plugins/micromega/sos_types.ml" 35 1189 1237
+type(
+  ((out_channel -> term -> unit) ->
+   term -> (out_channel -> term -> unit) -> term -> unit, out_channel, 
+   unit)
+  format
+)
+"plugins/micromega/sos_types.ml" 35 1189 1238 "plugins/micromega/sos_types.ml" 35 1189 1249
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 35 1189 1250 "plugins/micromega/sos_types.ml" 35 1189 1252
+type(
+  term
+)
+ident(
+  int_ref t1 "plugins/micromega/sos_types.ml" 35 1189 1199 "plugins/micromega/sos_types.ml" 35 1189 1201
+)
+"plugins/micromega/sos_types.ml" 35 1189 1253 "plugins/micromega/sos_types.ml" 35 1189 1264
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 35 1189 1265 "plugins/micromega/sos_types.ml" 35 1189 1267
+type(
+  term
+)
+ident(
+  int_ref t2 "plugins/micromega/sos_types.ml" 35 1189 1202 "plugins/micromega/sos_types.ml" 35 1189 1204
+)
+"plugins/micromega/sos_types.ml" 35 1189 1209 "plugins/micromega/sos_types.ml" 35 1189 1267
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 36 1268 1278 "plugins/micromega/sos_types.ml" 36 1268 1280
+type(
+  term
+)
+ident(
+  def t1 "plugins/micromega/sos_types.ml" 36 1268 1288 "plugins/micromega/sos_types.ml" 36 1268 1346
+)
+"plugins/micromega/sos_types.ml" 36 1268 1281 "plugins/micromega/sos_types.ml" 36 1268 1283
+type(
+  term
+)
+ident(
+  def t2 "plugins/micromega/sos_types.ml" 36 1268 1288 "plugins/micromega/sos_types.ml" 36 1268 1346
+)
+"plugins/micromega/sos_types.ml" 36 1268 1277 "plugins/micromega/sos_types.ml" 36 1268 1284
+type(
+  term * term
+)
+"plugins/micromega/sos_types.ml" 36 1268 1274 "plugins/micromega/sos_types.ml" 36 1268 1284
+type(
+  term
+)
+"plugins/micromega/sos_types.ml" 36 1268 1288 "plugins/micromega/sos_types.ml" 36 1268 1302
+type(
+  out_channel ->
+  ((out_channel -> term -> unit) ->
+   term -> (out_channel -> term -> unit) -> term -> unit, out_channel, 
+   unit)
+  format ->
+  (out_channel -> term -> unit) ->
+  term -> (out_channel -> term -> unit) -> term -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 36 1268 1303 "plugins/micromega/sos_types.ml" 36 1268 1304
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 27 827 847 "plugins/micromega/sos_types.ml" 27 827 848
+)
+"plugins/micromega/sos_types.ml" 36 1268 1305 "plugins/micromega/sos_types.ml" 36 1268 1316
+type(
+  ((out_channel -> term -> unit) ->
+   term -> (out_channel -> term -> unit) -> term -> unit, out_channel, 
+   unit)
+  format
+)
+"plugins/micromega/sos_types.ml" 36 1268 1317 "plugins/micromega/sos_types.ml" 36 1268 1328
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 36 1268 1329 "plugins/micromega/sos_types.ml" 36 1268 1331
+type(
+  term
+)
+ident(
+  int_ref t1 "plugins/micromega/sos_types.ml" 36 1268 1278 "plugins/micromega/sos_types.ml" 36 1268 1280
+)
+"plugins/micromega/sos_types.ml" 36 1268 1332 "plugins/micromega/sos_types.ml" 36 1268 1343
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 36 1268 1344 "plugins/micromega/sos_types.ml" 36 1268 1346
+type(
+  term
+)
+ident(
+  int_ref t2 "plugins/micromega/sos_types.ml" 36 1268 1281 "plugins/micromega/sos_types.ml" 36 1268 1283
+)
+"plugins/micromega/sos_types.ml" 36 1268 1288 "plugins/micromega/sos_types.ml" 36 1268 1346
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 37 1347 1357 "plugins/micromega/sos_types.ml" 37 1347 1359
+type(
+  term
+)
+ident(
+  def t1 "plugins/micromega/sos_types.ml" 37 1347 1367 "plugins/micromega/sos_types.ml" 37 1347 1425
+)
+"plugins/micromega/sos_types.ml" 37 1347 1360 "plugins/micromega/sos_types.ml" 37 1347 1362
+type(
+  term
+)
+ident(
+  def t2 "plugins/micromega/sos_types.ml" 37 1347 1367 "plugins/micromega/sos_types.ml" 37 1347 1425
+)
+"plugins/micromega/sos_types.ml" 37 1347 1356 "plugins/micromega/sos_types.ml" 37 1347 1363
+type(
+  term * term
+)
+"plugins/micromega/sos_types.ml" 37 1347 1353 "plugins/micromega/sos_types.ml" 37 1347 1363
+type(
+  term
+)
+"plugins/micromega/sos_types.ml" 37 1347 1367 "plugins/micromega/sos_types.ml" 37 1347 1381
+type(
+  out_channel ->
+  ((out_channel -> term -> unit) ->
+   term -> (out_channel -> term -> unit) -> term -> unit, out_channel, 
+   unit)
+  format ->
+  (out_channel -> term -> unit) ->
+  term -> (out_channel -> term -> unit) -> term -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 37 1347 1382 "plugins/micromega/sos_types.ml" 37 1347 1383
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 27 827 847 "plugins/micromega/sos_types.ml" 27 827 848
+)
+"plugins/micromega/sos_types.ml" 37 1347 1384 "plugins/micromega/sos_types.ml" 37 1347 1395
+type(
+  ((out_channel -> term -> unit) ->
+   term -> (out_channel -> term -> unit) -> term -> unit, out_channel, 
+   unit)
+  format
+)
+"plugins/micromega/sos_types.ml" 37 1347 1396 "plugins/micromega/sos_types.ml" 37 1347 1407
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 37 1347 1408 "plugins/micromega/sos_types.ml" 37 1347 1410
+type(
+  term
+)
+ident(
+  int_ref t1 "plugins/micromega/sos_types.ml" 37 1347 1357 "plugins/micromega/sos_types.ml" 37 1347 1359
+)
+"plugins/micromega/sos_types.ml" 37 1347 1411 "plugins/micromega/sos_types.ml" 37 1347 1422
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 37 1347 1423 "plugins/micromega/sos_types.ml" 37 1347 1425
+type(
+  term
+)
+ident(
+  int_ref t2 "plugins/micromega/sos_types.ml" 37 1347 1360 "plugins/micromega/sos_types.ml" 37 1347 1362
+)
+"plugins/micromega/sos_types.ml" 37 1347 1367 "plugins/micromega/sos_types.ml" 37 1347 1425
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 38 1426 1436 "plugins/micromega/sos_types.ml" 38 1426 1438
+type(
+  term
+)
+ident(
+  def t1 "plugins/micromega/sos_types.ml" 38 1426 1445 "plugins/micromega/sos_types.ml" 38 1426 1490
+)
+"plugins/micromega/sos_types.ml" 38 1426 1439 "plugins/micromega/sos_types.ml" 38 1426 1440
+type(
+  int
+)
+ident(
+  def i "plugins/micromega/sos_types.ml" 38 1426 1445 "plugins/micromega/sos_types.ml" 38 1426 1490
+)
+"plugins/micromega/sos_types.ml" 38 1426 1435 "plugins/micromega/sos_types.ml" 38 1426 1441
+type(
+  term * int
+)
+"plugins/micromega/sos_types.ml" 38 1426 1432 "plugins/micromega/sos_types.ml" 38 1426 1441
+type(
+  term
+)
+"plugins/micromega/sos_types.ml" 38 1426 1445 "plugins/micromega/sos_types.ml" 38 1426 1459
+type(
+  out_channel ->
+  ((out_channel -> term -> unit) -> term -> int -> unit, out_channel, unit)
+  format -> (out_channel -> term -> unit) -> term -> int -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 38 1426 1460 "plugins/micromega/sos_types.ml" 38 1426 1461
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 27 827 847 "plugins/micromega/sos_types.ml" 27 827 848
+)
+"plugins/micromega/sos_types.ml" 38 1426 1462 "plugins/micromega/sos_types.ml" 38 1426 1473
+type(
+  ((out_channel -> term -> unit) -> term -> int -> unit, out_channel, unit)
+  format
+)
+"plugins/micromega/sos_types.ml" 38 1426 1474 "plugins/micromega/sos_types.ml" 38 1426 1485
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 38 1426 1486 "plugins/micromega/sos_types.ml" 38 1426 1488
+type(
+  term
+)
+ident(
+  int_ref t1 "plugins/micromega/sos_types.ml" 38 1426 1436 "plugins/micromega/sos_types.ml" 38 1426 1438
+)
+"plugins/micromega/sos_types.ml" 38 1426 1489 "plugins/micromega/sos_types.ml" 38 1426 1490
+type(
+  int
+)
+ident(
+  int_ref i "plugins/micromega/sos_types.ml" 38 1426 1439 "plugins/micromega/sos_types.ml" 38 1426 1440
+)
+"plugins/micromega/sos_types.ml" 38 1426 1445 "plugins/micromega/sos_types.ml" 38 1426 1490
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 28 853 855 "plugins/micromega/sos_types.ml" 38 1426 1490
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 57 2067 2075 "plugins/micromega/sos_types.ml" 57 2067 2087
+type(
+  out_channel -> positivstellensatz -> unit
+)
+ident(
+  def output_psatz "plugins/micromega/sos_types.ml" 57 2067 2067 --
+)
+"plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+type(
+  out_channel
+)
+ident(
+  def o "plugins/micromega/sos_types.ml" 57 2067 2092 "plugins/micromega/sos_types.ml" 68 2711 2795
+)
+"plugins/micromega/sos_types.ml" 58 2101 2114 "plugins/micromega/sos_types.ml" 58 2101 2115
+type(
+  int
+)
+ident(
+  def i "plugins/micromega/sos_types.ml" 58 2101 2119 "plugins/micromega/sos_types.ml" 58 2101 2147
+)
+"plugins/micromega/sos_types.ml" 58 2101 2105 "plugins/micromega/sos_types.ml" 58 2101 2115
+type(
+  positivstellensatz
+)
+"plugins/micromega/sos_types.ml" 58 2101 2119 "plugins/micromega/sos_types.ml" 58 2101 2133
+type(
+  out_channel -> (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 58 2101 2134 "plugins/micromega/sos_types.ml" 58 2101 2135
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+)
+"plugins/micromega/sos_types.ml" 58 2101 2136 "plugins/micromega/sos_types.ml" 58 2101 2145
+type(
+  (int -> unit, out_channel, unit) format
+)
+"plugins/micromega/sos_types.ml" 58 2101 2146 "plugins/micromega/sos_types.ml" 58 2101 2147
+type(
+  int
+)
+ident(
+  int_ref i "plugins/micromega/sos_types.ml" 58 2101 2114 "plugins/micromega/sos_types.ml" 58 2101 2115
+)
+"plugins/micromega/sos_types.ml" 58 2101 2119 "plugins/micromega/sos_types.ml" 58 2101 2147
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 59 2148 2161 "plugins/micromega/sos_types.ml" 59 2148 2162
+type(
+  int
+)
+ident(
+  def i "plugins/micromega/sos_types.ml" 59 2148 2166 "plugins/micromega/sos_types.ml" 59 2148 2194
+)
+"plugins/micromega/sos_types.ml" 59 2148 2152 "plugins/micromega/sos_types.ml" 59 2148 2162
+type(
+  positivstellensatz
+)
+"plugins/micromega/sos_types.ml" 59 2148 2166 "plugins/micromega/sos_types.ml" 59 2148 2180
+type(
+  out_channel -> (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 59 2148 2181 "plugins/micromega/sos_types.ml" 59 2148 2182
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+)
+"plugins/micromega/sos_types.ml" 59 2148 2183 "plugins/micromega/sos_types.ml" 59 2148 2192
+type(
+  (int -> unit, out_channel, unit) format
+)
+"plugins/micromega/sos_types.ml" 59 2148 2193 "plugins/micromega/sos_types.ml" 59 2148 2194
+type(
+  int
+)
+ident(
+  int_ref i "plugins/micromega/sos_types.ml" 59 2148 2161 "plugins/micromega/sos_types.ml" 59 2148 2162
+)
+"plugins/micromega/sos_types.ml" 59 2148 2166 "plugins/micromega/sos_types.ml" 59 2148 2194
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 60 2195 2208 "plugins/micromega/sos_types.ml" 60 2195 2209
+type(
+  int
+)
+ident(
+  def i "plugins/micromega/sos_types.ml" 60 2195 2213 "plugins/micromega/sos_types.ml" 60 2195 2241
+)
+"plugins/micromega/sos_types.ml" 60 2195 2199 "plugins/micromega/sos_types.ml" 60 2195 2209
+type(
+  positivstellensatz
+)
+"plugins/micromega/sos_types.ml" 60 2195 2213 "plugins/micromega/sos_types.ml" 60 2195 2227
+type(
+  out_channel -> (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 60 2195 2228 "plugins/micromega/sos_types.ml" 60 2195 2229
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+)
+"plugins/micromega/sos_types.ml" 60 2195 2230 "plugins/micromega/sos_types.ml" 60 2195 2239
+type(
+  (int -> unit, out_channel, unit) format
+)
+"plugins/micromega/sos_types.ml" 60 2195 2240 "plugins/micromega/sos_types.ml" 60 2195 2241
+type(
+  int
+)
+ident(
+  int_ref i "plugins/micromega/sos_types.ml" 60 2195 2208 "plugins/micromega/sos_types.ml" 60 2195 2209
+)
+"plugins/micromega/sos_types.ml" 60 2195 2213 "plugins/micromega/sos_types.ml" 60 2195 2241
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 61 2242 2259 "plugins/micromega/sos_types.ml" 61 2242 2260
+type(
+  Num.num
+)
+ident(
+  def n "plugins/micromega/sos_types.ml" 61 2242 2264 "plugins/micromega/sos_types.ml" 61 2242 2307
+)
+"plugins/micromega/sos_types.ml" 61 2242 2246 "plugins/micromega/sos_types.ml" 61 2242 2260
+type(
+  positivstellensatz
+)
+"plugins/micromega/sos_types.ml" 61 2242 2264 "plugins/micromega/sos_types.ml" 61 2242 2278
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 61 2242 2279 "plugins/micromega/sos_types.ml" 61 2242 2280
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+)
+"plugins/micromega/sos_types.ml" 61 2242 2281 "plugins/micromega/sos_types.ml" 61 2242 2289
+type(
+  (string -> unit, out_channel, unit) format
+)
+"plugins/micromega/sos_types.ml" 61 2242 2291 "plugins/micromega/sos_types.ml" 61 2242 2304
+type(
+  Num.num -> string
+)
+ident(
+  ext_ref Num.string_of_num
+)
+"plugins/micromega/sos_types.ml" 61 2242 2305 "plugins/micromega/sos_types.ml" 61 2242 2306
+type(
+  Num.num
+)
+ident(
+  int_ref n "plugins/micromega/sos_types.ml" 61 2242 2259 "plugins/micromega/sos_types.ml" 61 2242 2260
+)
+"plugins/micromega/sos_types.ml" 61 2242 2290 "plugins/micromega/sos_types.ml" 61 2242 2307
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/micromega/sos_types.ml" 61 2242 2264 "plugins/micromega/sos_types.ml" 61 2242 2307
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 62 2308 2325 "plugins/micromega/sos_types.ml" 62 2308 2326
+type(
+  Num.num
+)
+ident(
+  def n "plugins/micromega/sos_types.ml" 62 2308 2330 "plugins/micromega/sos_types.ml" 62 2308 2373
+)
+"plugins/micromega/sos_types.ml" 62 2308 2312 "plugins/micromega/sos_types.ml" 62 2308 2326
+type(
+  positivstellensatz
+)
+"plugins/micromega/sos_types.ml" 62 2308 2330 "plugins/micromega/sos_types.ml" 62 2308 2344
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 62 2308 2345 "plugins/micromega/sos_types.ml" 62 2308 2346
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+)
+"plugins/micromega/sos_types.ml" 62 2308 2347 "plugins/micromega/sos_types.ml" 62 2308 2355
+type(
+  (string -> unit, out_channel, unit) format
+)
+"plugins/micromega/sos_types.ml" 62 2308 2357 "plugins/micromega/sos_types.ml" 62 2308 2370
+type(
+  Num.num -> string
+)
+ident(
+  ext_ref Num.string_of_num
+)
+"plugins/micromega/sos_types.ml" 62 2308 2371 "plugins/micromega/sos_types.ml" 62 2308 2372
+type(
+  Num.num
+)
+ident(
+  int_ref n "plugins/micromega/sos_types.ml" 62 2308 2325 "plugins/micromega/sos_types.ml" 62 2308 2326
+)
+"plugins/micromega/sos_types.ml" 62 2308 2356 "plugins/micromega/sos_types.ml" 62 2308 2373
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/micromega/sos_types.ml" 62 2308 2330 "plugins/micromega/sos_types.ml" 62 2308 2373
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 63 2374 2390 "plugins/micromega/sos_types.ml" 63 2374 2391
+type(
+  Num.num
+)
+ident(
+  def n "plugins/micromega/sos_types.ml" 63 2374 2397 "plugins/micromega/sos_types.ml" 63 2374 2440
+)
+"plugins/micromega/sos_types.ml" 63 2374 2378 "plugins/micromega/sos_types.ml" 63 2374 2391
+type(
+  positivstellensatz
+)
+"plugins/micromega/sos_types.ml" 63 2374 2397 "plugins/micromega/sos_types.ml" 63 2374 2411
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 63 2374 2412 "plugins/micromega/sos_types.ml" 63 2374 2413
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+)
+"plugins/micromega/sos_types.ml" 63 2374 2414 "plugins/micromega/sos_types.ml" 63 2374 2422
+type(
+  (string -> unit, out_channel, unit) format
+)
+"plugins/micromega/sos_types.ml" 63 2374 2424 "plugins/micromega/sos_types.ml" 63 2374 2437
+type(
+  Num.num -> string
+)
+ident(
+  ext_ref Num.string_of_num
+)
+"plugins/micromega/sos_types.ml" 63 2374 2438 "plugins/micromega/sos_types.ml" 63 2374 2439
+type(
+  Num.num
+)
+ident(
+  int_ref n "plugins/micromega/sos_types.ml" 63 2374 2390 "plugins/micromega/sos_types.ml" 63 2374 2391
+)
+"plugins/micromega/sos_types.ml" 63 2374 2423 "plugins/micromega/sos_types.ml" 63 2374 2440
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/micromega/sos_types.ml" 63 2374 2397 "plugins/micromega/sos_types.ml" 63 2374 2440
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 64 2441 2452 "plugins/micromega/sos_types.ml" 64 2441 2453
+type(
+  term
+)
+ident(
+  def t "plugins/micromega/sos_types.ml" 64 2441 2463 "plugins/micromega/sos_types.ml" 64 2441 2502
+)
+"plugins/micromega/sos_types.ml" 64 2441 2445 "plugins/micromega/sos_types.ml" 64 2441 2453
+type(
+  positivstellensatz
+)
+"plugins/micromega/sos_types.ml" 64 2441 2463 "plugins/micromega/sos_types.ml" 64 2441 2477
+type(
+  out_channel ->
+  ((out_channel -> term -> unit) -> term -> unit, out_channel, unit) format ->
+  (out_channel -> term -> unit) -> term -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 64 2441 2478 "plugins/micromega/sos_types.ml" 64 2441 2479
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+)
+"plugins/micromega/sos_types.ml" 64 2441 2480 "plugins/micromega/sos_types.ml" 64 2441 2488
+type(
+  ((out_channel -> term -> unit) -> term -> unit, out_channel, unit) format
+)
+"plugins/micromega/sos_types.ml" 64 2441 2489 "plugins/micromega/sos_types.ml" 64 2441 2500
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 64 2441 2501 "plugins/micromega/sos_types.ml" 64 2441 2502
+type(
+  term
+)
+ident(
+  int_ref t "plugins/micromega/sos_types.ml" 64 2441 2452 "plugins/micromega/sos_types.ml" 64 2441 2453
+)
+"plugins/micromega/sos_types.ml" 64 2441 2463 "plugins/micromega/sos_types.ml" 64 2441 2502
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 65 2503 2514 "plugins/micromega/sos_types.ml" 65 2503 2515
+type(
+  int list
+)
+ident(
+  def l "plugins/micromega/sos_types.ml" 65 2503 2525 "plugins/micromega/sos_types.ml" 65 2503 2550
+)
+"plugins/micromega/sos_types.ml" 65 2503 2507 "plugins/micromega/sos_types.ml" 65 2503 2515
+type(
+  positivstellensatz
+)
+"plugins/micromega/sos_types.ml" 65 2503 2525 "plugins/micromega/sos_types.ml" 65 2503 2539
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 65 2503 2540 "plugins/micromega/sos_types.ml" 65 2503 2541
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+)
+"plugins/micromega/sos_types.ml" 65 2503 2542 "plugins/micromega/sos_types.ml" 65 2503 2550
+type(
+  (unit, out_channel, unit) format
+)
+"plugins/micromega/sos_types.ml" 65 2503 2525 "plugins/micromega/sos_types.ml" 65 2503 2550
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 66 2551 2562 "plugins/micromega/sos_types.ml" 66 2551 2563
+type(
+  term
+)
+ident(
+  def t "plugins/micromega/sos_types.ml" 66 2551 2573 "plugins/micromega/sos_types.ml" 66 2551 2629
+)
+"plugins/micromega/sos_types.ml" 66 2551 2564 "plugins/micromega/sos_types.ml" 66 2551 2566
+type(
+  positivstellensatz
+)
+ident(
+  def ps "plugins/micromega/sos_types.ml" 66 2551 2573 "plugins/micromega/sos_types.ml" 66 2551 2629
+)
+"plugins/micromega/sos_types.ml" 66 2551 2555 "plugins/micromega/sos_types.ml" 66 2551 2567
+type(
+  positivstellensatz
+)
+"plugins/micromega/sos_types.ml" 66 2551 2573 "plugins/micromega/sos_types.ml" 66 2551 2587
+type(
+  out_channel ->
+  ((out_channel -> term -> unit) ->
+   term ->
+   (out_channel -> positivstellensatz -> unit) -> positivstellensatz -> unit,
+   out_channel, unit)
+  format ->
+  (out_channel -> term -> unit) ->
+  term ->
+  (out_channel -> positivstellensatz -> unit) -> positivstellensatz -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 66 2551 2588 "plugins/micromega/sos_types.ml" 66 2551 2589
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+)
+"plugins/micromega/sos_types.ml" 66 2551 2590 "plugins/micromega/sos_types.ml" 66 2551 2599
+type(
+  ((out_channel -> term -> unit) ->
+   term ->
+   (out_channel -> positivstellensatz -> unit) -> positivstellensatz -> unit,
+   out_channel, unit)
+  format
+)
+"plugins/micromega/sos_types.ml" 66 2551 2600 "plugins/micromega/sos_types.ml" 66 2551 2611
+type(
+  out_channel -> term -> unit
+)
+ident(
+  int_ref output_term "plugins/micromega/sos_types.ml" 27 827 835 "plugins/micromega/sos_types.ml" 27 827 846
+)
+"plugins/micromega/sos_types.ml" 66 2551 2612 "plugins/micromega/sos_types.ml" 66 2551 2613
+type(
+  term
+)
+ident(
+  int_ref t "plugins/micromega/sos_types.ml" 66 2551 2562 "plugins/micromega/sos_types.ml" 66 2551 2563
+)
+"plugins/micromega/sos_types.ml" 66 2551 2614 "plugins/micromega/sos_types.ml" 66 2551 2626
+type(
+  out_channel -> positivstellensatz -> unit
+)
+ident(
+  int_ref output_psatz "plugins/micromega/sos_types.ml" 57 2067 2075 "plugins/micromega/sos_types.ml" 57 2067 2087
+)
+"plugins/micromega/sos_types.ml" 66 2551 2627 "plugins/micromega/sos_types.ml" 66 2551 2629
+type(
+  positivstellensatz
+)
+ident(
+  int_ref ps "plugins/micromega/sos_types.ml" 66 2551 2564 "plugins/micromega/sos_types.ml" 66 2551 2566
+)
+"plugins/micromega/sos_types.ml" 66 2551 2573 "plugins/micromega/sos_types.ml" 66 2551 2629
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 67 2630 2639 "plugins/micromega/sos_types.ml" 67 2630 2641
+type(
+  positivstellensatz
+)
+ident(
+  def t1 "plugins/micromega/sos_types.ml" 67 2630 2652 "plugins/micromega/sos_types.ml" 67 2630 2710
+)
+"plugins/micromega/sos_types.ml" 67 2630 2642 "plugins/micromega/sos_types.ml" 67 2630 2644
+type(
+  positivstellensatz
+)
+ident(
+  def t2 "plugins/micromega/sos_types.ml" 67 2630 2652 "plugins/micromega/sos_types.ml" 67 2630 2710
+)
+"plugins/micromega/sos_types.ml" 67 2630 2634 "plugins/micromega/sos_types.ml" 67 2630 2645
+type(
+  positivstellensatz
+)
+"plugins/micromega/sos_types.ml" 67 2630 2652 "plugins/micromega/sos_types.ml" 67 2630 2666
+type(
+  out_channel ->
+  ((out_channel -> positivstellensatz -> unit) ->
+   positivstellensatz ->
+   (out_channel -> positivstellensatz -> unit) -> positivstellensatz -> unit,
+   out_channel, unit)
+  format ->
+  (out_channel -> positivstellensatz -> unit) ->
+  positivstellensatz ->
+  (out_channel -> positivstellensatz -> unit) -> positivstellensatz -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 67 2630 2667 "plugins/micromega/sos_types.ml" 67 2630 2668
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+)
+"plugins/micromega/sos_types.ml" 67 2630 2669 "plugins/micromega/sos_types.ml" 67 2630 2678
+type(
+  ((out_channel -> positivstellensatz -> unit) ->
+   positivstellensatz ->
+   (out_channel -> positivstellensatz -> unit) -> positivstellensatz -> unit,
+   out_channel, unit)
+  format
+)
+"plugins/micromega/sos_types.ml" 67 2630 2679 "plugins/micromega/sos_types.ml" 67 2630 2691
+type(
+  out_channel -> positivstellensatz -> unit
+)
+ident(
+  int_ref output_psatz "plugins/micromega/sos_types.ml" 57 2067 2075 "plugins/micromega/sos_types.ml" 57 2067 2087
+)
+"plugins/micromega/sos_types.ml" 67 2630 2692 "plugins/micromega/sos_types.ml" 67 2630 2694
+type(
+  positivstellensatz
+)
+ident(
+  int_ref t1 "plugins/micromega/sos_types.ml" 67 2630 2639 "plugins/micromega/sos_types.ml" 67 2630 2641
+)
+"plugins/micromega/sos_types.ml" 67 2630 2695 "plugins/micromega/sos_types.ml" 67 2630 2707
+type(
+  out_channel -> positivstellensatz -> unit
+)
+ident(
+  int_ref output_psatz "plugins/micromega/sos_types.ml" 57 2067 2075 "plugins/micromega/sos_types.ml" 57 2067 2087
+)
+"plugins/micromega/sos_types.ml" 67 2630 2708 "plugins/micromega/sos_types.ml" 67 2630 2710
+type(
+  positivstellensatz
+)
+ident(
+  int_ref t2 "plugins/micromega/sos_types.ml" 67 2630 2642 "plugins/micromega/sos_types.ml" 67 2630 2644
+)
+"plugins/micromega/sos_types.ml" 67 2630 2652 "plugins/micromega/sos_types.ml" 67 2630 2710
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 68 2711 2724 "plugins/micromega/sos_types.ml" 68 2711 2726
+type(
+  positivstellensatz
+)
+ident(
+  def t1 "plugins/micromega/sos_types.ml" 68 2711 2737 "plugins/micromega/sos_types.ml" 68 2711 2795
+)
+"plugins/micromega/sos_types.ml" 68 2711 2727 "plugins/micromega/sos_types.ml" 68 2711 2729
+type(
+  positivstellensatz
+)
+ident(
+  def t2 "plugins/micromega/sos_types.ml" 68 2711 2737 "plugins/micromega/sos_types.ml" 68 2711 2795
+)
+"plugins/micromega/sos_types.ml" 68 2711 2715 "plugins/micromega/sos_types.ml" 68 2711 2730
+type(
+  positivstellensatz
+)
+"plugins/micromega/sos_types.ml" 68 2711 2737 "plugins/micromega/sos_types.ml" 68 2711 2751
+type(
+  out_channel ->
+  ((out_channel -> positivstellensatz -> unit) ->
+   positivstellensatz ->
+   (out_channel -> positivstellensatz -> unit) -> positivstellensatz -> unit,
+   out_channel, unit)
+  format ->
+  (out_channel -> positivstellensatz -> unit) ->
+  positivstellensatz ->
+  (out_channel -> positivstellensatz -> unit) -> positivstellensatz -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"plugins/micromega/sos_types.ml" 68 2711 2752 "plugins/micromega/sos_types.ml" 68 2711 2753
+type(
+  out_channel
+)
+ident(
+  int_ref o "plugins/micromega/sos_types.ml" 57 2067 2088 "plugins/micromega/sos_types.ml" 57 2067 2089
+)
+"plugins/micromega/sos_types.ml" 68 2711 2754 "plugins/micromega/sos_types.ml" 68 2711 2763
+type(
+  ((out_channel -> positivstellensatz -> unit) ->
+   positivstellensatz ->
+   (out_channel -> positivstellensatz -> unit) -> positivstellensatz -> unit,
+   out_channel, unit)
+  format
+)
+"plugins/micromega/sos_types.ml" 68 2711 2764 "plugins/micromega/sos_types.ml" 68 2711 2776
+type(
+  out_channel -> positivstellensatz -> unit
+)
+ident(
+  int_ref output_psatz "plugins/micromega/sos_types.ml" 57 2067 2075 "plugins/micromega/sos_types.ml" 57 2067 2087
+)
+"plugins/micromega/sos_types.ml" 68 2711 2777 "plugins/micromega/sos_types.ml" 68 2711 2779
+type(
+  positivstellensatz
+)
+ident(
+  int_ref t1 "plugins/micromega/sos_types.ml" 68 2711 2724 "plugins/micromega/sos_types.ml" 68 2711 2726
+)
+"plugins/micromega/sos_types.ml" 68 2711 2780 "plugins/micromega/sos_types.ml" 68 2711 2792
+type(
+  out_channel -> positivstellensatz -> unit
+)
+ident(
+  int_ref output_psatz "plugins/micromega/sos_types.ml" 57 2067 2075 "plugins/micromega/sos_types.ml" 57 2067 2087
+)
+"plugins/micromega/sos_types.ml" 68 2711 2793 "plugins/micromega/sos_types.ml" 68 2711 2795
+type(
+  positivstellensatz
+)
+ident(
+  int_ref t2 "plugins/micromega/sos_types.ml" 68 2711 2727 "plugins/micromega/sos_types.ml" 68 2711 2729
+)
+"plugins/micromega/sos_types.ml" 68 2711 2737 "plugins/micromega/sos_types.ml" 68 2711 2795
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/micromega/sos_types.ml" 57 2067 2092 "plugins/micromega/sos_types.ml" 68 2711 2795
+type(
+  positivstellensatz -> unit
+)

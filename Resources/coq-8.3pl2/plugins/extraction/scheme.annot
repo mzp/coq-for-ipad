@@ -1,0 +1,6675 @@
+"plugins/extraction/scheme.ml" 25 761 765 "plugins/extraction/scheme.ml" 25 761 773
+type(
+  Names.Idset.t
+)
+ident(
+  def keywords "plugins/extraction/scheme.ml" 32 975 975 --
+)
+"plugins/extraction/scheme.ml" 26 776 778 "plugins/extraction/scheme.ml" 26 776 793
+type(
+  (string -> Names.Idset.t -> Names.Idset.t) ->
+  string list -> Names.Idset.t -> Names.Idset.t
+)
+ident(
+  ext_ref List.fold_right
+)
+"plugins/extraction/scheme.ml" 26 776 799 "plugins/extraction/scheme.ml" 26 776 800
+type(
+  string
+)
+ident(
+  def s "plugins/extraction/scheme.ml" 26 776 804 "plugins/extraction/scheme.ml" 26 776 830
+)
+"plugins/extraction/scheme.ml" 26 776 804 "plugins/extraction/scheme.ml" 26 776 813
+type(
+  Names.Idset.elt -> Names.Idset.t -> Names.Idset.t
+)
+ident(
+  ext_ref Names.Idset.add
+)
+"plugins/extraction/scheme.ml" 26 776 815 "plugins/extraction/scheme.ml" 26 776 827
+type(
+  string -> Names.Idset.elt
+)
+ident(
+  ext_ref Names.id_of_string
+)
+"plugins/extraction/scheme.ml" 26 776 828 "plugins/extraction/scheme.ml" 26 776 829
+type(
+  string
+)
+ident(
+  int_ref s "plugins/extraction/scheme.ml" 26 776 799 "plugins/extraction/scheme.ml" 26 776 800
+)
+"plugins/extraction/scheme.ml" 26 776 814 "plugins/extraction/scheme.ml" 26 776 830
+call(
+  stack
+)
+type(
+  Names.Idset.elt
+)
+"plugins/extraction/scheme.ml" 26 776 804 "plugins/extraction/scheme.ml" 26 776 830
+call(
+  tail
+)
+type(
+  Names.Idset.t -> Names.Idset.t
+)
+"plugins/extraction/scheme.ml" 26 776 794 "plugins/extraction/scheme.ml" 26 776 831
+type(
+  string -> Names.Idset.t -> Names.Idset.t
+)
+"plugins/extraction/scheme.ml" 27 832 838 "plugins/extraction/scheme.ml" 27 832 846
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 27 832 848 "plugins/extraction/scheme.ml" 27 832 853
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 27 832 855 "plugins/extraction/scheme.ml" 27 832 863
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 27 832 865 "plugins/extraction/scheme.ml" 27 832 874
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 27 832 876 "plugins/extraction/scheme.ml" 27 832 883
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 28 885 891 "plugins/extraction/scheme.ml" 28 885 898
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 28 885 900 "plugins/extraction/scheme.ml" 28 885 905
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 28 885 907 "plugins/extraction/scheme.ml" 28 885 912
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 29 914 920 "plugins/extraction/scheme.ml" 29 914 927
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 29 914 929 "plugins/extraction/scheme.ml" 29 914 936
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 29 914 938 "plugins/extraction/scheme.ml" 29 914 945
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 29 914 947 "plugins/extraction/scheme.ml" 29 914 950
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 29 914 952 "plugins/extraction/scheme.ml" 29 914 956
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 27 832 836 "plugins/extraction/scheme.ml" 29 914 957
+type(
+  string list
+)
+"plugins/extraction/scheme.ml" 30 958 962 "plugins/extraction/scheme.ml" 30 958 973
+type(
+  Names.Idset.t
+)
+ident(
+  ext_ref Names.Idset.empty
+)
+"plugins/extraction/scheme.ml" 26 776 778 "plugins/extraction/scheme.ml" 30 958 973
+call(
+  stack
+)
+type(
+  Names.Idset.t
+)
+"plugins/extraction/scheme.ml" 32 975 979 "plugins/extraction/scheme.ml" 32 975 987
+type(
+  'a -> 'b -> Miniml.unsafe_needs -> Pp.std_ppcmds
+)
+ident(
+  def preamble "plugins/extraction/scheme.ml" 38 1262 1262 --
+)
+"plugins/extraction/scheme.ml" 32 975 988 "plugins/extraction/scheme.ml" 32 975 989
+type(
+  'a
+)
+"plugins/extraction/scheme.ml" 32 975 990 "plugins/extraction/scheme.ml" 32 975 991
+type(
+  'b
+)
+"plugins/extraction/scheme.ml" 32 975 992 "plugins/extraction/scheme.ml" 32 975 995
+type(
+  Miniml.unsafe_needs
+)
+ident(
+  def usf "plugins/extraction/scheme.ml" 33 998 1000 "plugins/extraction/scheme.ml" 36 1188 1260
+)
+"plugins/extraction/scheme.ml" 33 998 1000 "plugins/extraction/scheme.ml" 33 998 1003
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 33 998 1004 "plugins/extraction/scheme.ml" 33 998 1070
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 33 998 1000 "plugins/extraction/scheme.ml" 33 998 1070
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 33 998 1071 "plugins/extraction/scheme.ml" 33 998 1073
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 34 1074 1076 "plugins/extraction/scheme.ml" 34 1074 1079
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 34 1074 1080 "plugins/extraction/scheme.ml" 34 1074 1142
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 34 1074 1076 "plugins/extraction/scheme.ml" 34 1074 1142
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 33 998 1000 "plugins/extraction/scheme.ml" 34 1074 1142
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 34 1074 1143 "plugins/extraction/scheme.ml" 34 1074 1145
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 35 1146 1148 "plugins/extraction/scheme.ml" 35 1146 1151
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 35 1146 1152 "plugins/extraction/scheme.ml" 35 1146 1184
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 35 1146 1148 "plugins/extraction/scheme.ml" 35 1146 1184
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 33 998 1000 "plugins/extraction/scheme.ml" 35 1146 1184
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 35 1146 1185 "plugins/extraction/scheme.ml" 35 1146 1187
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 36 1188 1194 "plugins/extraction/scheme.ml" 36 1188 1197
+type(
+  Miniml.unsafe_needs
+)
+ident(
+  int_ref usf "plugins/extraction/scheme.ml" 32 975 992 "plugins/extraction/scheme.ml" 32 975 995
+)
+"plugins/extraction/scheme.ml" 36 1188 1194 "plugins/extraction/scheme.ml" 36 1188 1205
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 36 1188 1211 "plugins/extraction/scheme.ml" 36 1188 1214
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 36 1188 1215 "plugins/extraction/scheme.ml" 36 1188 1248
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 36 1188 1211 "plugins/extraction/scheme.ml" 36 1188 1248
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 36 1188 1254 "plugins/extraction/scheme.ml" 36 1188 1256
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 36 1188 1257 "plugins/extraction/scheme.ml" 36 1188 1259
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 36 1188 1254 "plugins/extraction/scheme.ml" 36 1188 1259
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 36 1188 1190 "plugins/extraction/scheme.ml" 36 1188 1260
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 33 998 1000 "plugins/extraction/scheme.ml" 36 1188 1260
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 38 1262 1266 "plugins/extraction/scheme.ml" 38 1262 1271
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  def pr_id "plugins/extraction/scheme.ml" 45 1399 1399 --
+)
+"plugins/extraction/scheme.ml" 38 1262 1272 "plugins/extraction/scheme.ml" 38 1262 1274
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/extraction/scheme.ml" 39 1277 1279 "plugins/extraction/scheme.ml" 43 1390 1397
+)
+"plugins/extraction/scheme.ml" 39 1277 1283 "plugins/extraction/scheme.ml" 39 1277 1284
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 39 1277 1287 "plugins/extraction/scheme.ml" 39 1277 1299
+type(
+  Names.identifier -> string
+)
+ident(
+  ext_ref Names.string_of_id
+)
+"plugins/extraction/scheme.ml" 39 1277 1300 "plugins/extraction/scheme.ml" 39 1277 1302
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/extraction/scheme.ml" 38 1262 1272 "plugins/extraction/scheme.ml" 38 1262 1274
+)
+"plugins/extraction/scheme.ml" 39 1277 1287 "plugins/extraction/scheme.ml" 39 1277 1302
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 40 1306 1316 "plugins/extraction/scheme.ml" 40 1306 1317
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 40 1306 1321 "plugins/extraction/scheme.ml" 40 1306 1334
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"plugins/extraction/scheme.ml" 40 1306 1335 "plugins/extraction/scheme.ml" 40 1306 1336
+type(
+  string
+)
+ident(
+  int_ref s "plugins/extraction/scheme.ml" 39 1277 1283 "plugins/extraction/scheme.ml" 39 1277 1284
+)
+"plugins/extraction/scheme.ml" 40 1306 1321 "plugins/extraction/scheme.ml" 40 1306 1336
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 40 1306 1337 "plugins/extraction/scheme.ml" 40 1306 1338
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/extraction/scheme.ml" 40 1306 1339 "plugins/extraction/scheme.ml" 40 1306 1340
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 40 1306 1321 "plugins/extraction/scheme.ml" 40 1306 1340
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 41 1344 1351 "plugins/extraction/scheme.ml" 41 1344 1352
+type(
+  string
+)
+ident(
+  int_ref s "plugins/extraction/scheme.ml" 39 1277 1283 "plugins/extraction/scheme.ml" 39 1277 1284
+)
+"plugins/extraction/scheme.ml" 41 1344 1354 "plugins/extraction/scheme.ml" 41 1344 1355
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 41 1344 1351 "plugins/extraction/scheme.ml" 41 1344 1356
+type(
+  char
+)
+"plugins/extraction/scheme.ml" 41 1344 1357 "plugins/extraction/scheme.ml" 41 1344 1358
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/extraction/scheme.ml" 41 1344 1359 "plugins/extraction/scheme.ml" 41 1344 1363
+type(
+  char
+)
+"plugins/extraction/scheme.ml" 41 1344 1351 "plugins/extraction/scheme.ml" 41 1344 1363
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 41 1344 1369 "plugins/extraction/scheme.ml" 41 1344 1370
+type(
+  string
+)
+ident(
+  int_ref s "plugins/extraction/scheme.ml" 39 1277 1283 "plugins/extraction/scheme.ml" 39 1277 1284
+)
+"plugins/extraction/scheme.ml" 41 1344 1372 "plugins/extraction/scheme.ml" 41 1344 1373
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 41 1344 1378 "plugins/extraction/scheme.ml" 41 1344 1381
+type(
+  char
+)
+"plugins/extraction/scheme.ml" 41 1344 1369 "plugins/extraction/scheme.ml" 41 1344 1381
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 41 1344 1348 "plugins/extraction/scheme.ml" 41 1344 1381
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 40 1306 1308 "plugins/extraction/scheme.ml" 42 1382 1388
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 43 1390 1392 "plugins/extraction/scheme.ml" 43 1390 1395
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 43 1390 1396 "plugins/extraction/scheme.ml" 43 1390 1397
+type(
+  string
+)
+ident(
+  int_ref s "plugins/extraction/scheme.ml" 39 1277 1283 "plugins/extraction/scheme.ml" 39 1277 1284
+)
+"plugins/extraction/scheme.ml" 43 1390 1392 "plugins/extraction/scheme.ml" 43 1390 1397
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 40 1306 1308 "plugins/extraction/scheme.ml" 43 1390 1397
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 39 1277 1279 "plugins/extraction/scheme.ml" 43 1390 1397
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  def paren "plugins/extraction/scheme.ml" 47 1424 1424 --
+)
+"plugins/extraction/scheme.ml" 45 1399 1411 "plugins/extraction/scheme.ml" 45 1399 1417
+type(
+  bool -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Common.pp_par
+)
+"plugins/extraction/scheme.ml" 45 1399 1418 "plugins/extraction/scheme.ml" 45 1399 1422
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 45 1399 1411 "plugins/extraction/scheme.ml" 45 1399 1422
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 47 1424 1428 "plugins/extraction/scheme.ml" 47 1424 1435
+type(
+  Pp.std_ppcmds -> Names.identifier list -> Pp.std_ppcmds
+)
+ident(
+  def pp_abst "plugins/extraction/scheme.ml" 53 1632 1632 --
+)
+"plugins/extraction/scheme.ml" 47 1424 1436 "plugins/extraction/scheme.ml" 47 1424 1438
+type(
+  Pp.std_ppcmds
+)
+ident(
+  def st "plugins/extraction/scheme.ml" 47 1424 1441 "plugins/extraction/scheme.ml" 51 1558 1630
+)
+"plugins/extraction/scheme.ml" 48 1450 1454 "plugins/extraction/scheme.ml" 48 1450 1456
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 48 1450 1460 "plugins/extraction/scheme.ml" 48 1450 1472
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 49 1473 1478 "plugins/extraction/scheme.ml" 49 1473 1480
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/extraction/scheme.ml" 49 1473 1485 "plugins/extraction/scheme.ml" 49 1473 1542
+)
+"plugins/extraction/scheme.ml" 49 1473 1477 "plugins/extraction/scheme.ml" 49 1473 1481
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 49 1473 1485 "plugins/extraction/scheme.ml" 49 1473 1490
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 49 1473 1492 "plugins/extraction/scheme.ml" 49 1473 1495
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 49 1473 1496 "plugins/extraction/scheme.ml" 49 1473 1505
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 49 1473 1492 "plugins/extraction/scheme.ml" 49 1473 1505
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 49 1473 1506 "plugins/extraction/scheme.ml" 49 1473 1508
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 49 1473 1509 "plugins/extraction/scheme.ml" 49 1473 1514
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 49 1473 1516 "plugins/extraction/scheme.ml" 49 1473 1521
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_id "plugins/extraction/scheme.ml" 38 1262 1266 "plugins/extraction/scheme.ml" 38 1262 1271
+)
+"plugins/extraction/scheme.ml" 49 1473 1522 "plugins/extraction/scheme.ml" 49 1473 1524
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/extraction/scheme.ml" 49 1473 1478 "plugins/extraction/scheme.ml" 49 1473 1480
+)
+"plugins/extraction/scheme.ml" 49 1473 1515 "plugins/extraction/scheme.ml" 49 1473 1525
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 49 1473 1509 "plugins/extraction/scheme.ml" 49 1473 1525
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 49 1473 1492 "plugins/extraction/scheme.ml" 49 1473 1525
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 49 1473 1526 "plugins/extraction/scheme.ml" 49 1473 1528
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 49 1473 1529 "plugins/extraction/scheme.ml" 49 1473 1532
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 49 1473 1533 "plugins/extraction/scheme.ml" 49 1473 1535
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 49 1473 1529 "plugins/extraction/scheme.ml" 49 1473 1535
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 49 1473 1492 "plugins/extraction/scheme.ml" 49 1473 1535
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 49 1473 1536 "plugins/extraction/scheme.ml" 49 1473 1538
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 49 1473 1539 "plugins/extraction/scheme.ml" 49 1473 1541
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref st "plugins/extraction/scheme.ml" 47 1424 1436 "plugins/extraction/scheme.ml" 47 1424 1438
+)
+"plugins/extraction/scheme.ml" 49 1473 1491 "plugins/extraction/scheme.ml" 49 1473 1542
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 49 1473 1485 "plugins/extraction/scheme.ml" 49 1473 1542
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 50 1543 1547 "plugins/extraction/scheme.ml" 50 1543 1548
+type(
+  Names.identifier list
+)
+ident(
+  def l "plugins/extraction/scheme.ml" 50 1543 1552 "plugins/extraction/scheme.ml" 51 1558 1630
+)
+"plugins/extraction/scheme.ml" 50 1543 1552 "plugins/extraction/scheme.ml" 50 1543 1557
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 51 1558 1560 "plugins/extraction/scheme.ml" 51 1558 1563
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 51 1558 1564 "plugins/extraction/scheme.ml" 51 1558 1574
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 51 1558 1560 "plugins/extraction/scheme.ml" 51 1558 1574
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 51 1558 1575 "plugins/extraction/scheme.ml" 51 1558 1577
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 51 1558 1578 "plugins/extraction/scheme.ml" 51 1558 1583
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 51 1558 1585 "plugins/extraction/scheme.ml" 51 1558 1600
+type(
+  (unit -> Pp.std_ppcmds) ->
+  (Names.identifier -> Pp.std_ppcmds) ->
+  Names.identifier list -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prlist_with_sep
+)
+"plugins/extraction/scheme.ml" 51 1558 1601 "plugins/extraction/scheme.ml" 51 1558 1604
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 51 1558 1605 "plugins/extraction/scheme.ml" 51 1558 1610
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_id "plugins/extraction/scheme.ml" 38 1262 1266 "plugins/extraction/scheme.ml" 38 1262 1271
+)
+"plugins/extraction/scheme.ml" 51 1558 1611 "plugins/extraction/scheme.ml" 51 1558 1612
+type(
+  Names.identifier list
+)
+ident(
+  int_ref l "plugins/extraction/scheme.ml" 50 1543 1547 "plugins/extraction/scheme.ml" 50 1543 1548
+)
+"plugins/extraction/scheme.ml" 51 1558 1584 "plugins/extraction/scheme.ml" 51 1558 1613
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 51 1558 1578 "plugins/extraction/scheme.ml" 51 1558 1613
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 51 1558 1560 "plugins/extraction/scheme.ml" 51 1558 1613
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 51 1558 1614 "plugins/extraction/scheme.ml" 51 1558 1616
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 51 1558 1617 "plugins/extraction/scheme.ml" 51 1558 1620
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 51 1558 1621 "plugins/extraction/scheme.ml" 51 1558 1623
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 51 1558 1617 "plugins/extraction/scheme.ml" 51 1558 1623
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 51 1558 1560 "plugins/extraction/scheme.ml" 51 1558 1623
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 51 1558 1624 "plugins/extraction/scheme.ml" 51 1558 1626
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 51 1558 1627 "plugins/extraction/scheme.ml" 51 1558 1629
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref st "plugins/extraction/scheme.ml" 47 1424 1436 "plugins/extraction/scheme.ml" 47 1424 1438
+)
+"plugins/extraction/scheme.ml" 51 1558 1559 "plugins/extraction/scheme.ml" 51 1558 1630
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 50 1543 1552 "plugins/extraction/scheme.ml" 51 1558 1630
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 47 1424 1441 "plugins/extraction/scheme.ml" 51 1558 1630
+type(
+  Names.identifier list -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 53 1632 1636 "plugins/extraction/scheme.ml" 53 1632 1644
+type(
+  Pp.std_ppcmds -> 'a -> Pp.std_ppcmds list -> Pp.std_ppcmds
+)
+ident(
+  def pp_apply "plugins/extraction/scheme.ml" 61 1860 1860 --
+)
+"plugins/extraction/scheme.ml" 53 1632 1645 "plugins/extraction/scheme.ml" 53 1632 1647
+type(
+  Pp.std_ppcmds
+)
+ident(
+  def st "plugins/extraction/scheme.ml" 53 1632 1648 "plugins/extraction/scheme.ml" 57 1763 1813
+)
+"plugins/extraction/scheme.ml" 53 1632 1648 "plugins/extraction/scheme.ml" 53 1632 1649
+type(
+  'a
+)
+"plugins/extraction/scheme.ml" 54 1661 1665 "plugins/extraction/scheme.ml" 54 1661 1667
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 54 1661 1671 "plugins/extraction/scheme.ml" 54 1661 1673
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref st "plugins/extraction/scheme.ml" 53 1632 1645 "plugins/extraction/scheme.ml" 53 1632 1647
+)
+"plugins/extraction/scheme.ml" 55 1674 1679 "plugins/extraction/scheme.ml" 55 1674 1680
+type(
+  Pp.std_ppcmds
+)
+ident(
+  def a "plugins/extraction/scheme.ml" 55 1674 1685 "plugins/extraction/scheme.ml" 55 1674 1718
+)
+"plugins/extraction/scheme.ml" 55 1674 1678 "plugins/extraction/scheme.ml" 55 1674 1681
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 55 1674 1685 "plugins/extraction/scheme.ml" 55 1674 1688
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/extraction/scheme.ml" 55 1674 1689 "plugins/extraction/scheme.ml" 55 1674 1690
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 55 1674 1692 "plugins/extraction/scheme.ml" 55 1674 1697
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 55 1674 1699 "plugins/extraction/scheme.ml" 55 1674 1701
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref st "plugins/extraction/scheme.ml" 53 1632 1645 "plugins/extraction/scheme.ml" 53 1632 1647
+)
+"plugins/extraction/scheme.ml" 55 1674 1702 "plugins/extraction/scheme.ml" 55 1674 1704
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 55 1674 1705 "plugins/extraction/scheme.ml" 55 1674 1708
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 55 1674 1709 "plugins/extraction/scheme.ml" 55 1674 1711
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 55 1674 1705 "plugins/extraction/scheme.ml" 55 1674 1711
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 55 1674 1699 "plugins/extraction/scheme.ml" 55 1674 1711
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 55 1674 1712 "plugins/extraction/scheme.ml" 55 1674 1714
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 55 1674 1715 "plugins/extraction/scheme.ml" 55 1674 1716
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref a "plugins/extraction/scheme.ml" 55 1674 1679 "plugins/extraction/scheme.ml" 55 1674 1680
+)
+"plugins/extraction/scheme.ml" 55 1674 1698 "plugins/extraction/scheme.ml" 55 1674 1717
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 55 1674 1691 "plugins/extraction/scheme.ml" 55 1674 1718
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 55 1674 1685 "plugins/extraction/scheme.ml" 55 1674 1718
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 56 1719 1723 "plugins/extraction/scheme.ml" 56 1719 1727
+type(
+  Pp.std_ppcmds list
+)
+ident(
+  def args "plugins/extraction/scheme.ml" 56 1719 1731 "plugins/extraction/scheme.ml" 57 1763 1813
+)
+"plugins/extraction/scheme.ml" 56 1719 1731 "plugins/extraction/scheme.ml" 56 1719 1734
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/extraction/scheme.ml" 56 1719 1735 "plugins/extraction/scheme.ml" 56 1719 1736
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 56 1719 1738 "plugins/extraction/scheme.ml" 56 1719 1743
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 56 1719 1745 "plugins/extraction/scheme.ml" 56 1719 1748
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 56 1719 1749 "plugins/extraction/scheme.ml" 56 1719 1753
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 56 1719 1745 "plugins/extraction/scheme.ml" 56 1719 1753
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 56 1719 1754 "plugins/extraction/scheme.ml" 56 1719 1756
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 56 1719 1757 "plugins/extraction/scheme.ml" 56 1719 1759
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref st "plugins/extraction/scheme.ml" 53 1632 1645 "plugins/extraction/scheme.ml" 53 1632 1647
+)
+"plugins/extraction/scheme.ml" 56 1719 1745 "plugins/extraction/scheme.ml" 56 1719 1759
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 56 1719 1760 "plugins/extraction/scheme.ml" 56 1719 1762
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 57 1763 1769 "plugins/extraction/scheme.ml" 57 1763 1782
+type(
+  (Pp.std_ppcmds -> Pp.std_ppcmds) -> Pp.std_ppcmds list -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prlist_strict
+)
+"plugins/extraction/scheme.ml" 57 1763 1788 "plugins/extraction/scheme.ml" 57 1763 1789
+type(
+  Pp.std_ppcmds
+)
+ident(
+  def x "plugins/extraction/scheme.ml" 57 1763 1793 "plugins/extraction/scheme.ml" 57 1763 1804
+)
+"plugins/extraction/scheme.ml" 57 1763 1793 "plugins/extraction/scheme.ml" 57 1763 1796
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 57 1763 1797 "plugins/extraction/scheme.ml" 57 1763 1799
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 57 1763 1793 "plugins/extraction/scheme.ml" 57 1763 1799
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 57 1763 1800 "plugins/extraction/scheme.ml" 57 1763 1802
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 57 1763 1803 "plugins/extraction/scheme.ml" 57 1763 1804
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref x "plugins/extraction/scheme.ml" 57 1763 1788 "plugins/extraction/scheme.ml" 57 1763 1789
+)
+"plugins/extraction/scheme.ml" 57 1763 1793 "plugins/extraction/scheme.ml" 57 1763 1804
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 57 1763 1783 "plugins/extraction/scheme.ml" 57 1763 1805
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 57 1763 1806 "plugins/extraction/scheme.ml" 57 1763 1810
+type(
+  Pp.std_ppcmds list
+)
+ident(
+  int_ref args "plugins/extraction/scheme.ml" 56 1719 1723 "plugins/extraction/scheme.ml" 56 1719 1727
+)
+"plugins/extraction/scheme.ml" 57 1763 1768 "plugins/extraction/scheme.ml" 57 1763 1811
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 56 1719 1744 "plugins/extraction/scheme.ml" 57 1763 1812
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 56 1719 1737 "plugins/extraction/scheme.ml" 57 1763 1813
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 56 1719 1731 "plugins/extraction/scheme.ml" 57 1763 1813
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 53 1632 1652 "plugins/extraction/scheme.ml" 57 1763 1813
+type(
+  Pp.std_ppcmds list -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 61 1860 1864 "plugins/extraction/scheme.ml" 61 1860 1873
+type(
+  Common.kind -> Libnames.global_reference -> Pp.std_ppcmds
+)
+ident(
+  def pp_global "plugins/extraction/scheme.ml" 65 1949 1949 --
+)
+"plugins/extraction/scheme.ml" 61 1860 1874 "plugins/extraction/scheme.ml" 61 1860 1875
+type(
+  Common.kind
+)
+ident(
+  def k "plugins/extraction/scheme.ml" 61 1860 1876 "plugins/extraction/scheme.ml" 61 1860 1906
+)
+"plugins/extraction/scheme.ml" 61 1860 1876 "plugins/extraction/scheme.ml" 61 1860 1877
+type(
+  Libnames.global_reference
+)
+ident(
+  def r "plugins/extraction/scheme.ml" 61 1860 1880 "plugins/extraction/scheme.ml" 61 1860 1906
+)
+"plugins/extraction/scheme.ml" 61 1860 1880 "plugins/extraction/scheme.ml" 61 1860 1883
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 61 1860 1885 "plugins/extraction/scheme.ml" 61 1860 1901
+type(
+  Common.kind -> Libnames.global_reference -> string
+)
+ident(
+  ext_ref Common.pp_global
+)
+"plugins/extraction/scheme.ml" 61 1860 1902 "plugins/extraction/scheme.ml" 61 1860 1903
+type(
+  Common.kind
+)
+ident(
+  int_ref k "plugins/extraction/scheme.ml" 61 1860 1874 "plugins/extraction/scheme.ml" 61 1860 1875
+)
+"plugins/extraction/scheme.ml" 61 1860 1904 "plugins/extraction/scheme.ml" 61 1860 1905
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 61 1860 1876 "plugins/extraction/scheme.ml" 61 1860 1877
+)
+"plugins/extraction/scheme.ml" 61 1860 1884 "plugins/extraction/scheme.ml" 61 1860 1906
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 61 1860 1880 "plugins/extraction/scheme.ml" 61 1860 1906
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  def pp_expr "plugins/extraction/scheme.ml" 65 1949 1949 --
+)
+"plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+type(
+  Common.env
+)
+ident(
+  def env "plugins/extraction/scheme.ml" 65 1949 1969 "plugins/extraction/scheme.ml" 126 3892 3953
+)
+"plugins/extraction/scheme.ml" 65 1949 1969 "plugins/extraction/scheme.ml" 65 1949 1973
+type(
+  Pp.std_ppcmds list
+)
+ident(
+  def args "plugins/extraction/scheme.ml" 66 1976 1978 "plugins/extraction/scheme.ml" 126 3892 3953
+)
+"plugins/extraction/scheme.ml" 66 1976 1982 "plugins/extraction/scheme.ml" 66 1976 1987
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 66 1976 1988 "plugins/extraction/scheme.ml" 66 1976 1990
+type(
+  Pp.std_ppcmds
+)
+ident(
+  def st "plugins/extraction/scheme.ml" 66 1976 1993 "plugins/extraction/scheme.ml" 66 1976 2014
+)
+"plugins/extraction/scheme.ml" 66 1976 1993 "plugins/extraction/scheme.ml" 66 1976 2001
+type(
+  Pp.std_ppcmds -> bool -> Pp.std_ppcmds list -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_apply "plugins/extraction/scheme.ml" 53 1632 1636 "plugins/extraction/scheme.ml" 53 1632 1644
+)
+"plugins/extraction/scheme.ml" 66 1976 2002 "plugins/extraction/scheme.ml" 66 1976 2004
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref st "plugins/extraction/scheme.ml" 66 1976 1988 "plugins/extraction/scheme.ml" 66 1976 1990
+)
+"plugins/extraction/scheme.ml" 66 1976 2005 "plugins/extraction/scheme.ml" 66 1976 2009
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 66 1976 2010 "plugins/extraction/scheme.ml" 66 1976 2014
+type(
+  Pp.std_ppcmds list
+)
+ident(
+  int_ref args "plugins/extraction/scheme.ml" 65 1949 1969 "plugins/extraction/scheme.ml" 65 1949 1973
+)
+"plugins/extraction/scheme.ml" 66 1976 1993 "plugins/extraction/scheme.ml" 66 1976 2014
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 68 2029 2041 "plugins/extraction/scheme.ml" 68 2029 2042
+type(
+  int
+)
+ident(
+  def n "plugins/extraction/scheme.ml" 69 2046 2047 "plugins/extraction/scheme.ml" 69 2046 2093
+)
+"plugins/extraction/scheme.ml" 68 2029 2035 "plugins/extraction/scheme.ml" 68 2029 2042
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 69 2046 2051 "plugins/extraction/scheme.ml" 69 2046 2053
+type(
+  Names.identifier
+)
+"plugins/extraction/scheme.ml" 69 2046 2056 "plugins/extraction/scheme.ml" 69 2046 2067
+type(
+  int -> Common.env -> Names.identifier
+)
+ident(
+  ext_ref Common.get_db_name
+)
+"plugins/extraction/scheme.ml" 69 2046 2068 "plugins/extraction/scheme.ml" 69 2046 2069
+type(
+  int
+)
+ident(
+  int_ref n "plugins/extraction/scheme.ml" 68 2029 2041 "plugins/extraction/scheme.ml" 68 2029 2042
+)
+"plugins/extraction/scheme.ml" 69 2046 2070 "plugins/extraction/scheme.ml" 69 2046 2073
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 69 2046 2056 "plugins/extraction/scheme.ml" 69 2046 2073
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/extraction/scheme.ml" 69 2046 2077 "plugins/extraction/scheme.ml" 69 2046 2082
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref apply "plugins/extraction/scheme.ml" 66 1976 1982 "plugins/extraction/scheme.ml" 66 1976 1987
+)
+"plugins/extraction/scheme.ml" 69 2046 2084 "plugins/extraction/scheme.ml" 69 2046 2089
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_id "plugins/extraction/scheme.ml" 38 1262 1266 "plugins/extraction/scheme.ml" 38 1262 1271
+)
+"plugins/extraction/scheme.ml" 69 2046 2090 "plugins/extraction/scheme.ml" 69 2046 2092
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/extraction/scheme.ml" 69 2046 2051 "plugins/extraction/scheme.ml" 69 2046 2053
+)
+"plugins/extraction/scheme.ml" 69 2046 2083 "plugins/extraction/scheme.ml" 69 2046 2093
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 69 2046 2077 "plugins/extraction/scheme.ml" 69 2046 2093
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 69 2046 2047 "plugins/extraction/scheme.ml" 69 2046 2093
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 70 2094 2107 "plugins/extraction/scheme.ml" 70 2094 2108
+type(
+  Miniml.ml_ast
+)
+ident(
+  def f "plugins/extraction/scheme.ml" 71 2119 2120 "plugins/extraction/scheme.ml" 72 2165 2199
+)
+"plugins/extraction/scheme.ml" 70 2094 2109 "plugins/extraction/scheme.ml" 70 2094 2114
+type(
+  Miniml.ml_ast list
+)
+ident(
+  def args' "plugins/extraction/scheme.ml" 71 2119 2120 "plugins/extraction/scheme.ml" 72 2165 2199
+)
+"plugins/extraction/scheme.ml" 70 2094 2100 "plugins/extraction/scheme.ml" 70 2094 2115
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 71 2119 2124 "plugins/extraction/scheme.ml" 71 2119 2127
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 71 2119 2130 "plugins/extraction/scheme.ml" 71 2119 2138
+type(
+  (Miniml.ml_ast -> Pp.std_ppcmds) ->
+  Miniml.ml_ast list -> Pp.std_ppcmds list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/extraction/scheme.ml" 71 2119 2140 "plugins/extraction/scheme.ml" 71 2119 2147
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 71 2119 2148 "plugins/extraction/scheme.ml" 71 2119 2151
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 71 2119 2152 "plugins/extraction/scheme.ml" 71 2119 2154
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 71 2119 2139 "plugins/extraction/scheme.ml" 71 2119 2155
+call(
+  stack
+)
+type(
+  Miniml.ml_ast -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 71 2119 2156 "plugins/extraction/scheme.ml" 71 2119 2161
+type(
+  Miniml.ml_ast list
+)
+ident(
+  int_ref args' "plugins/extraction/scheme.ml" 70 2094 2109 "plugins/extraction/scheme.ml" 70 2094 2114
+)
+"plugins/extraction/scheme.ml" 71 2119 2130 "plugins/extraction/scheme.ml" 71 2119 2161
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 72 2165 2173 "plugins/extraction/scheme.ml" 72 2165 2180
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 72 2165 2181 "plugins/extraction/scheme.ml" 72 2165 2184
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 72 2165 2186 "plugins/extraction/scheme.ml" 72 2165 2189
+type(
+  Pp.std_ppcmds list
+)
+ident(
+  int_ref stl "plugins/extraction/scheme.ml" 71 2119 2124 "plugins/extraction/scheme.ml" 71 2119 2127
+)
+"plugins/extraction/scheme.ml" 72 2165 2190 "plugins/extraction/scheme.ml" 72 2165 2191
+type(
+  Pp.std_ppcmds list -> Pp.std_ppcmds list -> Pp.std_ppcmds list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"plugins/extraction/scheme.ml" 72 2165 2192 "plugins/extraction/scheme.ml" 72 2165 2196
+type(
+  Pp.std_ppcmds list
+)
+ident(
+  int_ref args "plugins/extraction/scheme.ml" 65 1949 1969 "plugins/extraction/scheme.ml" 65 1949 1973
+)
+"plugins/extraction/scheme.ml" 72 2165 2185 "plugins/extraction/scheme.ml" 72 2165 2197
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 72 2165 2198 "plugins/extraction/scheme.ml" 72 2165 2199
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref f "plugins/extraction/scheme.ml" 70 2094 2107 "plugins/extraction/scheme.ml" 70 2094 2108
+)
+"plugins/extraction/scheme.ml" 72 2165 2173 "plugins/extraction/scheme.ml" 72 2165 2199
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 71 2119 2120 "plugins/extraction/scheme.ml" 72 2165 2199
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 73 2200 2212 "plugins/extraction/scheme.ml" 73 2200 2213
+type(
+  Miniml.ml_ast
+)
+type(
+  Miniml.ml_ident
+)
+"plugins/extraction/scheme.ml" 73 2200 2206 "plugins/extraction/scheme.ml" 73 2200 2213
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 73 2200 2206 "plugins/extraction/scheme.ml" 73 2200 2218
+type(
+  Miniml.ml_ast
+)
+ident(
+  def a "plugins/extraction/scheme.ml" 74 2222 2229 "plugins/extraction/scheme.ml" 76 2316 2367
+)
+"plugins/extraction/scheme.ml" 74 2222 2233 "plugins/extraction/scheme.ml" 74 2222 2235
+type(
+  Miniml.ml_ident list
+)
+"plugins/extraction/scheme.ml" 74 2222 2236 "plugins/extraction/scheme.ml" 74 2222 2238
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 74 2222 2233 "plugins/extraction/scheme.ml" 74 2222 2238
+type(
+  Miniml.ml_ident list * Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 74 2222 2241 "plugins/extraction/scheme.ml" 74 2222 2253
+type(
+  Miniml.ml_ast -> Miniml.ml_ident list * Miniml.ml_ast
+)
+ident(
+  ext_ref Mlutil.collect_lams
+)
+"plugins/extraction/scheme.ml" 74 2222 2254 "plugins/extraction/scheme.ml" 74 2222 2255
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref a "plugins/extraction/scheme.ml" 73 2200 2206 "plugins/extraction/scheme.ml" 73 2200 2218
+)
+"plugins/extraction/scheme.ml" 74 2222 2241 "plugins/extraction/scheme.ml" 74 2222 2255
+call(
+  stack
+)
+type(
+  Miniml.ml_ident list * Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 75 2259 2264 "plugins/extraction/scheme.ml" 75 2259 2266
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 75 2259 2267 "plugins/extraction/scheme.ml" 75 2259 2271
+type(
+  Common.env
+)
+"plugins/extraction/scheme.ml" 75 2259 2264 "plugins/extraction/scheme.ml" 75 2259 2271
+type(
+  Names.identifier list * Common.env
+)
+"plugins/extraction/scheme.ml" 75 2259 2274 "plugins/extraction/scheme.ml" 75 2259 2283
+type(
+  Names.identifier list -> Common.env -> Names.identifier list * Common.env
+)
+ident(
+  ext_ref Common.push_vars
+)
+"plugins/extraction/scheme.ml" 75 2259 2285 "plugins/extraction/scheme.ml" 75 2259 2293
+type(
+  (Miniml.ml_ident -> Names.identifier) ->
+  Miniml.ml_ident list -> Names.identifier list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/extraction/scheme.ml" 75 2259 2294 "plugins/extraction/scheme.ml" 75 2259 2304
+type(
+  Miniml.ml_ident -> Names.identifier
+)
+ident(
+  ext_ref Mlutil.id_of_mlid
+)
+"plugins/extraction/scheme.ml" 75 2259 2305 "plugins/extraction/scheme.ml" 75 2259 2307
+type(
+  Miniml.ml_ident list
+)
+ident(
+  int_ref fl "plugins/extraction/scheme.ml" 74 2222 2233 "plugins/extraction/scheme.ml" 74 2222 2235
+)
+"plugins/extraction/scheme.ml" 75 2259 2284 "plugins/extraction/scheme.ml" 75 2259 2308
+call(
+  stack
+)
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 75 2259 2309 "plugins/extraction/scheme.ml" 75 2259 2312
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 75 2259 2274 "plugins/extraction/scheme.ml" 75 2259 2312
+call(
+  stack
+)
+type(
+  Names.identifier list * Common.env
+)
+"plugins/extraction/scheme.ml" 76 2316 2317 "plugins/extraction/scheme.ml" 76 2316 2322
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref apply "plugins/extraction/scheme.ml" 66 1976 1982 "plugins/extraction/scheme.ml" 66 1976 1987
+)
+"plugins/extraction/scheme.ml" 76 2316 2324 "plugins/extraction/scheme.ml" 76 2316 2331
+type(
+  Pp.std_ppcmds -> Names.identifier list -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_abst "plugins/extraction/scheme.ml" 47 1424 1428 "plugins/extraction/scheme.ml" 47 1424 1435
+)
+"plugins/extraction/scheme.ml" 76 2316 2333 "plugins/extraction/scheme.ml" 76 2316 2340
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 76 2316 2341 "plugins/extraction/scheme.ml" 76 2316 2345
+type(
+  Common.env
+)
+ident(
+  int_ref env' "plugins/extraction/scheme.ml" 75 2259 2267 "plugins/extraction/scheme.ml" 75 2259 2271
+)
+"plugins/extraction/scheme.ml" 76 2316 2346 "plugins/extraction/scheme.ml" 76 2316 2348
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 76 2316 2349 "plugins/extraction/scheme.ml" 76 2316 2351
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref a' "plugins/extraction/scheme.ml" 74 2222 2236 "plugins/extraction/scheme.ml" 74 2222 2238
+)
+"plugins/extraction/scheme.ml" 76 2316 2332 "plugins/extraction/scheme.ml" 76 2316 2352
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 76 2316 2354 "plugins/extraction/scheme.ml" 76 2316 2362
+type(
+  Names.identifier list -> Names.identifier list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/extraction/scheme.ml" 76 2316 2363 "plugins/extraction/scheme.ml" 76 2316 2365
+type(
+  Names.identifier list
+)
+ident(
+  int_ref fl "plugins/extraction/scheme.ml" 75 2259 2264 "plugins/extraction/scheme.ml" 75 2259 2266
+)
+"plugins/extraction/scheme.ml" 76 2316 2353 "plugins/extraction/scheme.ml" 76 2316 2366
+call(
+  stack
+)
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 76 2316 2323 "plugins/extraction/scheme.ml" 76 2316 2367
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 76 2316 2317 "plugins/extraction/scheme.ml" 76 2316 2367
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 75 2259 2260 "plugins/extraction/scheme.ml" 76 2316 2367
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 74 2222 2229 "plugins/extraction/scheme.ml" 76 2316 2367
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 77 2368 2383 "plugins/extraction/scheme.ml" 77 2368 2385
+type(
+  Miniml.ml_ident
+)
+ident(
+  def id "plugins/extraction/scheme.ml" 78 2396 2397 "plugins/extraction/scheme.ml" 87 2584 2633
+)
+"plugins/extraction/scheme.ml" 77 2368 2386 "plugins/extraction/scheme.ml" 77 2368 2388
+type(
+  Miniml.ml_ast
+)
+ident(
+  def a1 "plugins/extraction/scheme.ml" 78 2396 2397 "plugins/extraction/scheme.ml" 87 2584 2633
+)
+"plugins/extraction/scheme.ml" 77 2368 2389 "plugins/extraction/scheme.ml" 77 2368 2391
+type(
+  Miniml.ml_ast
+)
+ident(
+  def a2 "plugins/extraction/scheme.ml" 78 2396 2397 "plugins/extraction/scheme.ml" 87 2584 2633
+)
+"plugins/extraction/scheme.ml" 77 2368 2374 "plugins/extraction/scheme.ml" 77 2368 2392
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 78 2396 2401 "plugins/extraction/scheme.ml" 78 2396 2402
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 78 2396 2403 "plugins/extraction/scheme.ml" 78 2396 2407
+type(
+  Common.env
+)
+"plugins/extraction/scheme.ml" 78 2396 2401 "plugins/extraction/scheme.ml" 78 2396 2407
+type(
+  Names.identifier list * Common.env
+)
+"plugins/extraction/scheme.ml" 78 2396 2410 "plugins/extraction/scheme.ml" 78 2396 2419
+type(
+  Names.identifier list -> Common.env -> Names.identifier list * Common.env
+)
+ident(
+  ext_ref Common.push_vars
+)
+"plugins/extraction/scheme.ml" 78 2396 2421 "plugins/extraction/scheme.ml" 78 2396 2431
+type(
+  Miniml.ml_ident -> Names.identifier
+)
+ident(
+  ext_ref Mlutil.id_of_mlid
+)
+"plugins/extraction/scheme.ml" 78 2396 2432 "plugins/extraction/scheme.ml" 78 2396 2434
+type(
+  Miniml.ml_ident
+)
+ident(
+  int_ref id "plugins/extraction/scheme.ml" 77 2368 2383 "plugins/extraction/scheme.ml" 77 2368 2385
+)
+"plugins/extraction/scheme.ml" 78 2396 2421 "plugins/extraction/scheme.ml" 78 2396 2434
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/extraction/scheme.ml" 78 2396 2420 "plugins/extraction/scheme.ml" 78 2396 2435
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 78 2396 2436 "plugins/extraction/scheme.ml" 78 2396 2439
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 78 2396 2410 "plugins/extraction/scheme.ml" 78 2396 2439
+call(
+  stack
+)
+type(
+  Names.identifier list * Common.env
+)
+"plugins/extraction/scheme.ml" 79 2443 2444 "plugins/extraction/scheme.ml" 79 2443 2449
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref apply "plugins/extraction/scheme.ml" 66 1976 1982 "plugins/extraction/scheme.ml" 66 1976 1987
+)
+"plugins/extraction/scheme.ml" 80 2450 2454 "plugins/extraction/scheme.ml" 80 2450 2456
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hv
+)
+"plugins/extraction/scheme.ml" 80 2450 2457 "plugins/extraction/scheme.ml" 80 2450 2458
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 81 2459 2466 "plugins/extraction/scheme.ml" 81 2459 2469
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/extraction/scheme.ml" 81 2459 2470 "plugins/extraction/scheme.ml" 81 2459 2471
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 82 2472 2475 "plugins/extraction/scheme.ml" 82 2472 2480
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 83 2481 2487 "plugins/extraction/scheme.ml" 83 2481 2490
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 83 2481 2491 "plugins/extraction/scheme.ml" 83 2481 2497
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 83 2481 2487 "plugins/extraction/scheme.ml" 83 2481 2497
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 83 2481 2498 "plugins/extraction/scheme.ml" 83 2481 2500
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 84 2501 2507 "plugins/extraction/scheme.ml" 84 2501 2512
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 85 2513 2522 "plugins/extraction/scheme.ml" 85 2513 2527
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 86 2528 2533 "plugins/extraction/scheme.ml" 86 2528 2538
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_id "plugins/extraction/scheme.ml" 38 1262 1266 "plugins/extraction/scheme.ml" 38 1262 1271
+)
+"plugins/extraction/scheme.ml" 86 2528 2540 "plugins/extraction/scheme.ml" 86 2528 2547
+type(
+  Names.identifier list -> Names.identifier
+)
+ident(
+  ext_ref List.hd
+)
+"plugins/extraction/scheme.ml" 86 2528 2548 "plugins/extraction/scheme.ml" 86 2528 2549
+type(
+  Names.identifier list
+)
+ident(
+  int_ref i "plugins/extraction/scheme.ml" 78 2396 2401 "plugins/extraction/scheme.ml" 78 2396 2402
+)
+"plugins/extraction/scheme.ml" 86 2528 2539 "plugins/extraction/scheme.ml" 86 2528 2550
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/extraction/scheme.ml" 86 2528 2533 "plugins/extraction/scheme.ml" 86 2528 2550
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 86 2528 2551 "plugins/extraction/scheme.ml" 86 2528 2553
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 86 2528 2554 "plugins/extraction/scheme.ml" 86 2528 2557
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 86 2528 2558 "plugins/extraction/scheme.ml" 86 2528 2560
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 86 2528 2554 "plugins/extraction/scheme.ml" 86 2528 2560
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 86 2528 2533 "plugins/extraction/scheme.ml" 86 2528 2560
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 86 2528 2561 "plugins/extraction/scheme.ml" 86 2528 2563
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 86 2528 2564 "plugins/extraction/scheme.ml" 86 2528 2571
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 86 2528 2572 "plugins/extraction/scheme.ml" 86 2528 2575
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 86 2528 2576 "plugins/extraction/scheme.ml" 86 2528 2578
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 86 2528 2579 "plugins/extraction/scheme.ml" 86 2528 2581
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref a1 "plugins/extraction/scheme.ml" 77 2368 2386 "plugins/extraction/scheme.ml" 77 2368 2388
+)
+"plugins/extraction/scheme.ml" 86 2528 2564 "plugins/extraction/scheme.ml" 86 2528 2581
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 86 2528 2532 "plugins/extraction/scheme.ml" 86 2528 2582
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 85 2513 2521 "plugins/extraction/scheme.ml" 86 2528 2583
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 84 2501 2507 "plugins/extraction/scheme.ml" 86 2528 2583
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 83 2481 2487 "plugins/extraction/scheme.ml" 86 2528 2583
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 87 2584 2590 "plugins/extraction/scheme.ml" 87 2584 2592
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 87 2584 2593 "plugins/extraction/scheme.ml" 87 2584 2596
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 87 2584 2597 "plugins/extraction/scheme.ml" 87 2584 2599
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 87 2584 2593 "plugins/extraction/scheme.ml" 87 2584 2599
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 83 2481 2487 "plugins/extraction/scheme.ml" 87 2584 2599
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 87 2584 2600 "plugins/extraction/scheme.ml" 87 2584 2602
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 87 2584 2603 "plugins/extraction/scheme.ml" 87 2584 2606
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/extraction/scheme.ml" 87 2584 2607 "plugins/extraction/scheme.ml" 87 2584 2608
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 87 2584 2610 "plugins/extraction/scheme.ml" 87 2584 2617
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 87 2584 2618 "plugins/extraction/scheme.ml" 87 2584 2622
+type(
+  Common.env
+)
+ident(
+  int_ref env' "plugins/extraction/scheme.ml" 78 2396 2403 "plugins/extraction/scheme.ml" 78 2396 2407
+)
+"plugins/extraction/scheme.ml" 87 2584 2623 "plugins/extraction/scheme.ml" 87 2584 2625
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 87 2584 2626 "plugins/extraction/scheme.ml" 87 2584 2628
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref a2 "plugins/extraction/scheme.ml" 77 2368 2389 "plugins/extraction/scheme.ml" 77 2368 2391
+)
+"plugins/extraction/scheme.ml" 87 2584 2609 "plugins/extraction/scheme.ml" 87 2584 2629
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 87 2584 2603 "plugins/extraction/scheme.ml" 87 2584 2629
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 83 2481 2486 "plugins/extraction/scheme.ml" 87 2584 2630
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 82 2472 2474 "plugins/extraction/scheme.ml" 87 2584 2631
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 81 2459 2465 "plugins/extraction/scheme.ml" 87 2584 2632
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 80 2450 2453 "plugins/extraction/scheme.ml" 87 2584 2633
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 79 2443 2444 "plugins/extraction/scheme.ml" 87 2584 2633
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 78 2396 2397 "plugins/extraction/scheme.ml" 87 2584 2633
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 88 2634 2647 "plugins/extraction/scheme.ml" 88 2634 2648
+type(
+  Libnames.global_reference
+)
+ident(
+  def r "plugins/extraction/scheme.ml" 89 2652 2653 "plugins/extraction/scheme.ml" 89 2652 2677
+)
+"plugins/extraction/scheme.ml" 88 2634 2640 "plugins/extraction/scheme.ml" 88 2634 2648
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 89 2652 2653 "plugins/extraction/scheme.ml" 89 2652 2658
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref apply "plugins/extraction/scheme.ml" 66 1976 1982 "plugins/extraction/scheme.ml" 66 1976 1987
+)
+"plugins/extraction/scheme.ml" 89 2652 2660 "plugins/extraction/scheme.ml" 89 2652 2669
+type(
+  Common.kind -> Libnames.global_reference -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_global "plugins/extraction/scheme.ml" 61 1860 1864 "plugins/extraction/scheme.ml" 61 1860 1873
+)
+"plugins/extraction/scheme.ml" 89 2652 2670 "plugins/extraction/scheme.ml" 89 2652 2674
+type(
+  Common.kind
+)
+"plugins/extraction/scheme.ml" 89 2652 2675 "plugins/extraction/scheme.ml" 89 2652 2676
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 88 2634 2647 "plugins/extraction/scheme.ml" 88 2634 2648
+)
+"plugins/extraction/scheme.ml" 89 2652 2659 "plugins/extraction/scheme.ml" 89 2652 2677
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 89 2652 2653 "plugins/extraction/scheme.ml" 89 2652 2677
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 90 2678 2692 "plugins/extraction/scheme.ml" 90 2678 2696
+type(
+  Miniml.constructor_info
+)
+ident(
+  def info "plugins/extraction/scheme.ml" 91 2709 2710 "plugins/extraction/scheme.ml" 98 2880 2949
+)
+"plugins/extraction/scheme.ml" 90 2678 2697 "plugins/extraction/scheme.ml" 90 2678 2698
+type(
+  Libnames.global_reference
+)
+ident(
+  def r "plugins/extraction/scheme.ml" 91 2709 2710 "plugins/extraction/scheme.ml" 98 2880 2949
+)
+"plugins/extraction/scheme.ml" 90 2678 2699 "plugins/extraction/scheme.ml" 90 2678 2704
+type(
+  Miniml.ml_ast list
+)
+ident(
+  def args' "plugins/extraction/scheme.ml" 91 2709 2710 "plugins/extraction/scheme.ml" 98 2880 2949
+)
+"plugins/extraction/scheme.ml" 90 2678 2684 "plugins/extraction/scheme.ml" 90 2678 2705
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 91 2709 2718 "plugins/extraction/scheme.ml" 91 2709 2722
+type(
+  Pp.std_ppcmds list
+)
+ident(
+  int_ref args "plugins/extraction/scheme.ml" 65 1949 1969 "plugins/extraction/scheme.ml" 65 1949 1973
+)
+"plugins/extraction/scheme.ml" 91 2709 2722 "plugins/extraction/scheme.ml" 91 2709 2723
+type(
+  Pp.std_ppcmds list -> Pp.std_ppcmds list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/extraction/scheme.ml" 91 2709 2723 "plugins/extraction/scheme.ml" 91 2709 2725
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 91 2709 2717 "plugins/extraction/scheme.ml" 91 2709 2726
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 91 2709 2710 "plugins/extraction/scheme.ml" 91 2709 2726
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 92 2728 2733 "plugins/extraction/scheme.ml" 92 2728 2735
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 93 2738 2741 "plugins/extraction/scheme.ml" 93 2738 2744
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 93 2738 2745 "plugins/extraction/scheme.ml" 93 2738 2748
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 93 2738 2741 "plugins/extraction/scheme.ml" 93 2738 2748
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 93 2738 2749 "plugins/extraction/scheme.ml" 93 2738 2751
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 94 2752 2755 "plugins/extraction/scheme.ml" 94 2752 2760
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 94 2752 2762 "plugins/extraction/scheme.ml" 94 2752 2771
+type(
+  Common.kind -> Libnames.global_reference -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_global "plugins/extraction/scheme.ml" 61 1860 1864 "plugins/extraction/scheme.ml" 61 1860 1873
+)
+"plugins/extraction/scheme.ml" 94 2752 2772 "plugins/extraction/scheme.ml" 94 2752 2776
+type(
+  Common.kind
+)
+"plugins/extraction/scheme.ml" 94 2752 2777 "plugins/extraction/scheme.ml" 94 2752 2778
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 90 2678 2697 "plugins/extraction/scheme.ml" 90 2678 2698
+)
+"plugins/extraction/scheme.ml" 94 2752 2762 "plugins/extraction/scheme.ml" 94 2752 2778
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 94 2752 2779 "plugins/extraction/scheme.ml" 94 2752 2781
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 95 2782 2789 "plugins/extraction/scheme.ml" 95 2782 2794
+type(
+  Miniml.ml_ast list
+)
+ident(
+  int_ref args' "plugins/extraction/scheme.ml" 90 2678 2699 "plugins/extraction/scheme.ml" 90 2678 2704
+)
+"plugins/extraction/scheme.ml" 95 2782 2795 "plugins/extraction/scheme.ml" 95 2782 2796
+type(
+  Miniml.ml_ast list -> Miniml.ml_ast list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/extraction/scheme.ml" 95 2782 2797 "plugins/extraction/scheme.ml" 95 2782 2799
+type(
+  Miniml.ml_ast list
+)
+"plugins/extraction/scheme.ml" 95 2782 2789 "plugins/extraction/scheme.ml" 95 2782 2799
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 95 2782 2805 "plugins/extraction/scheme.ml" 95 2782 2807
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 95 2782 2808 "plugins/extraction/scheme.ml" 95 2782 2810
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 95 2782 2805 "plugins/extraction/scheme.ml" 95 2782 2810
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 95 2782 2816 "plugins/extraction/scheme.ml" 95 2782 2819
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 95 2782 2820 "plugins/extraction/scheme.ml" 95 2782 2822
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 95 2782 2816 "plugins/extraction/scheme.ml" 95 2782 2822
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 95 2782 2785 "plugins/extraction/scheme.ml" 95 2782 2823
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 94 2752 2762 "plugins/extraction/scheme.ml" 95 2782 2823
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 95 2782 2824 "plugins/extraction/scheme.ml" 95 2782 2826
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 96 2827 2830 "plugins/extraction/scheme.ml" 96 2827 2845
+type(
+  (unit -> Pp.std_ppcmds) ->
+  (Miniml.ml_ast -> Pp.std_ppcmds) -> Miniml.ml_ast list -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prlist_with_sep
+)
+"plugins/extraction/scheme.ml" 96 2827 2846 "plugins/extraction/scheme.ml" 96 2827 2849
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 96 2827 2851 "plugins/extraction/scheme.ml" 96 2827 2863
+type(
+  Common.env -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_cons_args "plugins/extraction/scheme.ml" 128 3955 3959 "plugins/extraction/scheme.ml" 128 3955 3971
+)
+"plugins/extraction/scheme.ml" 96 2827 2864 "plugins/extraction/scheme.ml" 96 2827 2867
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 96 2827 2850 "plugins/extraction/scheme.ml" 96 2827 2868
+call(
+  stack
+)
+type(
+  Miniml.ml_ast -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 96 2827 2869 "plugins/extraction/scheme.ml" 96 2827 2874
+type(
+  Miniml.ml_ast list
+)
+ident(
+  int_ref args' "plugins/extraction/scheme.ml" 90 2678 2699 "plugins/extraction/scheme.ml" 90 2678 2704
+)
+"plugins/extraction/scheme.ml" 96 2827 2830 "plugins/extraction/scheme.ml" 96 2827 2874
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 94 2752 2761 "plugins/extraction/scheme.ml" 96 2827 2875
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 94 2752 2755 "plugins/extraction/scheme.ml" 96 2827 2875
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 93 2738 2741 "plugins/extraction/scheme.ml" 96 2827 2875
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 98 2880 2884 "plugins/extraction/scheme.ml" 98 2880 2888
+type(
+  Miniml.constructor_info
+)
+ident(
+  int_ref info "plugins/extraction/scheme.ml" 90 2678 2692 "plugins/extraction/scheme.ml" 90 2678 2696
+)
+"plugins/extraction/scheme.ml" 98 2880 2884 "plugins/extraction/scheme.ml" 98 2880 2895
+type(
+  Miniml.inductive_kind
+)
+"plugins/extraction/scheme.ml" 98 2880 2896 "plugins/extraction/scheme.ml" 98 2880 2897
+type(
+  Miniml.inductive_kind -> Miniml.inductive_kind -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/extraction/scheme.ml" 98 2880 2898 "plugins/extraction/scheme.ml" 98 2880 2909
+type(
+  Miniml.inductive_kind
+)
+"plugins/extraction/scheme.ml" 98 2880 2884 "plugins/extraction/scheme.ml" 98 2880 2909
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 98 2880 2915 "plugins/extraction/scheme.ml" 98 2880 2920
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 98 2880 2922 "plugins/extraction/scheme.ml" 98 2880 2925
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 98 2880 2926 "plugins/extraction/scheme.ml" 98 2880 2934
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 98 2880 2922 "plugins/extraction/scheme.ml" 98 2880 2934
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 98 2880 2935 "plugins/extraction/scheme.ml" 98 2880 2937
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 98 2880 2938 "plugins/extraction/scheme.ml" 98 2880 2940
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref st "plugins/extraction/scheme.ml" 92 2728 2733 "plugins/extraction/scheme.ml" 92 2728 2735
+)
+"plugins/extraction/scheme.ml" 98 2880 2921 "plugins/extraction/scheme.ml" 98 2880 2941
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 98 2880 2915 "plugins/extraction/scheme.ml" 98 2880 2941
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 98 2880 2947 "plugins/extraction/scheme.ml" 98 2880 2949
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref st "plugins/extraction/scheme.ml" 92 2728 2733 "plugins/extraction/scheme.ml" 92 2728 2735
+)
+"plugins/extraction/scheme.ml" 98 2880 2881 "plugins/extraction/scheme.ml" 98 2880 2949
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 92 2728 2729 "plugins/extraction/scheme.ml" 98 2880 2949
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 91 2709 2710 "plugins/extraction/scheme.ml" 98 2880 2949
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 99 2950 2964 "plugins/extraction/scheme.ml" 99 2950 2965
+type(
+  Miniml.match_info
+)
+"plugins/extraction/scheme.ml" 99 2950 2966 "plugins/extraction/scheme.ml" 99 2950 2967
+type(
+  Miniml.ml_ast
+)
+ident(
+  def t "plugins/extraction/scheme.ml" 99 2950 2972 "plugins/extraction/scheme.ml" 109 3245 3270
+)
+"plugins/extraction/scheme.ml" 99 2950 2968 "plugins/extraction/scheme.ml" 99 2950 2970
+type(
+  Miniml.ml_branch array
+)
+ident(
+  def pv "plugins/extraction/scheme.ml" 99 2950 2972 "plugins/extraction/scheme.ml" 109 3245 3270
+)
+"plugins/extraction/scheme.ml" 99 2950 2956 "plugins/extraction/scheme.ml" 99 2950 2971
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 99 2950 2977 "plugins/extraction/scheme.ml" 99 2950 2992
+type(
+  Miniml.ml_branch array -> bool
+)
+ident(
+  ext_ref Table.is_custom_match
+)
+"plugins/extraction/scheme.ml" 99 2950 2993 "plugins/extraction/scheme.ml" 99 2950 2995
+type(
+  Miniml.ml_branch array
+)
+ident(
+  int_ref pv "plugins/extraction/scheme.ml" 99 2950 2968 "plugins/extraction/scheme.ml" 99 2950 2970
+)
+"plugins/extraction/scheme.ml" 99 2950 2977 "plugins/extraction/scheme.ml" 99 2950 2995
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 100 2999 3004 "plugins/extraction/scheme.ml" 100 2999 3009
+type(
+  'a * Miniml.ml_ident list * Miniml.ml_ast -> Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 100 2999 3011 "plugins/extraction/scheme.ml" 100 2999 3012
+type(
+  'a
+)
+"plugins/extraction/scheme.ml" 100 2999 3013 "plugins/extraction/scheme.ml" 100 2999 3016
+type(
+  Miniml.ml_ident list
+)
+ident(
+  def ids "plugins/extraction/scheme.ml" 101 3022 3025 "plugins/extraction/scheme.ml" 102 3071 3106
+)
+"plugins/extraction/scheme.ml" 100 2999 3017 "plugins/extraction/scheme.ml" 100 2999 3018
+type(
+  Miniml.ml_ast
+)
+ident(
+  def e "plugins/extraction/scheme.ml" 101 3022 3025 "plugins/extraction/scheme.ml" 102 3071 3106
+)
+"plugins/extraction/scheme.ml" 100 2999 3010 "plugins/extraction/scheme.ml" 100 2999 3019
+type(
+  'a * Miniml.ml_ident list * Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 101 3022 3028 "plugins/extraction/scheme.ml" 101 3022 3031
+type(
+  Miniml.ml_ident list
+)
+ident(
+  int_ref ids "plugins/extraction/scheme.ml" 100 2999 3013 "plugins/extraction/scheme.ml" 100 2999 3016
+)
+"plugins/extraction/scheme.ml" 101 3022 3032 "plugins/extraction/scheme.ml" 101 3022 3034
+type(
+  Miniml.ml_ident list -> Miniml.ml_ident list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"plugins/extraction/scheme.ml" 101 3022 3035 "plugins/extraction/scheme.ml" 101 3022 3037
+type(
+  Miniml.ml_ident list
+)
+"plugins/extraction/scheme.ml" 101 3022 3028 "plugins/extraction/scheme.ml" 101 3022 3037
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 101 3022 3043 "plugins/extraction/scheme.ml" 101 3022 3053
+type(
+  Miniml.ml_ident list -> Miniml.ml_ast -> Miniml.ml_ast
+)
+ident(
+  ext_ref Mlutil.named_lams
+)
+"plugins/extraction/scheme.ml" 101 3022 3055 "plugins/extraction/scheme.ml" 101 3022 3063
+type(
+  Miniml.ml_ident list -> Miniml.ml_ident list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/extraction/scheme.ml" 101 3022 3064 "plugins/extraction/scheme.ml" 101 3022 3067
+type(
+  Miniml.ml_ident list
+)
+ident(
+  int_ref ids "plugins/extraction/scheme.ml" 100 2999 3013 "plugins/extraction/scheme.ml" 100 2999 3016
+)
+"plugins/extraction/scheme.ml" 101 3022 3054 "plugins/extraction/scheme.ml" 101 3022 3068
+call(
+  stack
+)
+type(
+  Miniml.ml_ident list
+)
+"plugins/extraction/scheme.ml" 101 3022 3069 "plugins/extraction/scheme.ml" 101 3022 3070
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref e "plugins/extraction/scheme.ml" 100 2999 3017 "plugins/extraction/scheme.ml" 100 2999 3018
+)
+"plugins/extraction/scheme.ml" 101 3022 3043 "plugins/extraction/scheme.ml" 101 3022 3070
+call(
+  tail
+)
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 102 3071 3079 "plugins/extraction/scheme.ml" 102 3071 3089
+type(
+  Miniml.ml_ast -> int -> Miniml.ml_ast
+)
+ident(
+  ext_ref Mlutil.dummy_lams
+)
+"plugins/extraction/scheme.ml" 102 3071 3091 "plugins/extraction/scheme.ml" 102 3071 3099
+type(
+  int -> Miniml.ml_ast -> Miniml.ml_ast
+)
+ident(
+  ext_ref Mlutil.ast_lift
+)
+"plugins/extraction/scheme.ml" 102 3071 3100 "plugins/extraction/scheme.ml" 102 3071 3101
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 102 3071 3102 "plugins/extraction/scheme.ml" 102 3071 3103
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref e "plugins/extraction/scheme.ml" 100 2999 3017 "plugins/extraction/scheme.ml" 100 2999 3018
+)
+"plugins/extraction/scheme.ml" 102 3071 3090 "plugins/extraction/scheme.ml" 102 3071 3104
+call(
+  stack
+)
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 102 3071 3105 "plugins/extraction/scheme.ml" 102 3071 3106
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 102 3071 3079 "plugins/extraction/scheme.ml" 102 3071 3106
+call(
+  tail
+)
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 101 3022 3025 "plugins/extraction/scheme.ml" 102 3071 3106
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 104 3111 3112 "plugins/extraction/scheme.ml" 104 3111 3117
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref apply "plugins/extraction/scheme.ml" 66 1976 1982 "plugins/extraction/scheme.ml" 66 1976 1987
+)
+"plugins/extraction/scheme.ml" 105 3118 3122 "plugins/extraction/scheme.ml" 105 3118 3127
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 106 3128 3135 "plugins/extraction/scheme.ml" 106 3128 3138
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/extraction/scheme.ml" 106 3128 3139 "plugins/extraction/scheme.ml" 106 3128 3140
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 107 3141 3144 "plugins/extraction/scheme.ml" 107 3141 3147
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 107 3141 3149 "plugins/extraction/scheme.ml" 107 3141 3166
+type(
+  Miniml.ml_branch array -> string
+)
+ident(
+  ext_ref Table.find_custom_match
+)
+"plugins/extraction/scheme.ml" 107 3141 3167 "plugins/extraction/scheme.ml" 107 3141 3169
+type(
+  Miniml.ml_branch array
+)
+ident(
+  int_ref pv "plugins/extraction/scheme.ml" 99 2950 2968 "plugins/extraction/scheme.ml" 99 2950 2970
+)
+"plugins/extraction/scheme.ml" 107 3141 3148 "plugins/extraction/scheme.ml" 107 3141 3170
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 107 3141 3144 "plugins/extraction/scheme.ml" 107 3141 3170
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 107 3141 3171 "plugins/extraction/scheme.ml" 107 3141 3173
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 107 3141 3174 "plugins/extraction/scheme.ml" 107 3141 3177
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Common.fnl
+)
+"plugins/extraction/scheme.ml" 107 3141 3178 "plugins/extraction/scheme.ml" 107 3141 3180
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 107 3141 3174 "plugins/extraction/scheme.ml" 107 3141 3180
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 107 3141 3144 "plugins/extraction/scheme.ml" 107 3141 3180
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 107 3141 3181 "plugins/extraction/scheme.ml" 107 3141 3183
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 108 3184 3187 "plugins/extraction/scheme.ml" 108 3184 3193
+type(
+  (Miniml.ml_branch -> Pp.std_ppcmds) ->
+  Miniml.ml_branch array -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prvect
+)
+"plugins/extraction/scheme.ml" 108 3184 3199 "plugins/extraction/scheme.ml" 108 3184 3201
+type(
+  Miniml.ml_branch
+)
+ident(
+  def tr "plugins/extraction/scheme.ml" 108 3184 3205 "plugins/extraction/scheme.ml" 108 3184 3240
+)
+"plugins/extraction/scheme.ml" 108 3184 3205 "plugins/extraction/scheme.ml" 108 3184 3212
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 108 3184 3213 "plugins/extraction/scheme.ml" 108 3184 3216
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 108 3184 3217 "plugins/extraction/scheme.ml" 108 3184 3219
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 108 3184 3221 "plugins/extraction/scheme.ml" 108 3184 3226
+type(
+  Miniml.ml_branch -> Miniml.ml_ast
+)
+ident(
+  int_ref mkfun "plugins/extraction/scheme.ml" 100 2999 3004 "plugins/extraction/scheme.ml" 100 2999 3009
+)
+"plugins/extraction/scheme.ml" 108 3184 3227 "plugins/extraction/scheme.ml" 108 3184 3229
+type(
+  Miniml.ml_branch
+)
+ident(
+  int_ref tr "plugins/extraction/scheme.ml" 108 3184 3199 "plugins/extraction/scheme.ml" 108 3184 3201
+)
+"plugins/extraction/scheme.ml" 108 3184 3220 "plugins/extraction/scheme.ml" 108 3184 3230
+call(
+  stack
+)
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 108 3184 3205 "plugins/extraction/scheme.ml" 108 3184 3230
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 108 3184 3231 "plugins/extraction/scheme.ml" 108 3184 3233
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 108 3184 3234 "plugins/extraction/scheme.ml" 108 3184 3237
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Common.fnl
+)
+"plugins/extraction/scheme.ml" 108 3184 3238 "plugins/extraction/scheme.ml" 108 3184 3240
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 108 3184 3234 "plugins/extraction/scheme.ml" 108 3184 3240
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 108 3184 3205 "plugins/extraction/scheme.ml" 108 3184 3240
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 108 3184 3194 "plugins/extraction/scheme.ml" 108 3184 3241
+type(
+  Miniml.ml_branch -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 108 3184 3242 "plugins/extraction/scheme.ml" 108 3184 3244
+type(
+  Miniml.ml_branch array
+)
+ident(
+  int_ref pv "plugins/extraction/scheme.ml" 99 2950 2968 "plugins/extraction/scheme.ml" 99 2950 2970
+)
+"plugins/extraction/scheme.ml" 108 3184 3187 "plugins/extraction/scheme.ml" 108 3184 3244
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 107 3141 3144 "plugins/extraction/scheme.ml" 108 3184 3244
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 109 3245 3248 "plugins/extraction/scheme.ml" 109 3245 3250
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 109 3245 3251 "plugins/extraction/scheme.ml" 109 3245 3258
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 109 3245 3259 "plugins/extraction/scheme.ml" 109 3245 3262
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 109 3245 3263 "plugins/extraction/scheme.ml" 109 3245 3265
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 109 3245 3266 "plugins/extraction/scheme.ml" 109 3245 3267
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref t "plugins/extraction/scheme.ml" 99 2950 2966 "plugins/extraction/scheme.ml" 99 2950 2967
+)
+"plugins/extraction/scheme.ml" 109 3245 3251 "plugins/extraction/scheme.ml" 109 3245 3267
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 107 3141 3143 "plugins/extraction/scheme.ml" 109 3245 3268
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 106 3128 3134 "plugins/extraction/scheme.ml" 109 3245 3269
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 105 3118 3121 "plugins/extraction/scheme.ml" 109 3245 3270
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 104 3111 3112 "plugins/extraction/scheme.ml" 109 3245 3270
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 100 2999 3000 "plugins/extraction/scheme.ml" 109 3245 3270
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 99 2950 2972 "plugins/extraction/scheme.ml" 109 3245 3270
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 110 3271 3286 "plugins/extraction/scheme.ml" 110 3271 3290
+type(
+  Miniml.match_info
+)
+ident(
+  def info "plugins/extraction/scheme.ml" 111 3301 3302 "plugins/extraction/scheme.ml" 115 3427 3494
+)
+"plugins/extraction/scheme.ml" 110 3271 3291 "plugins/extraction/scheme.ml" 110 3271 3292
+type(
+  Miniml.ml_ast
+)
+ident(
+  def t "plugins/extraction/scheme.ml" 111 3301 3302 "plugins/extraction/scheme.ml" 115 3427 3494
+)
+"plugins/extraction/scheme.ml" 110 3271 3294 "plugins/extraction/scheme.ml" 110 3271 3296
+type(
+  Miniml.ml_branch array
+)
+ident(
+  def pv "plugins/extraction/scheme.ml" 111 3301 3302 "plugins/extraction/scheme.ml" 115 3427 3494
+)
+"plugins/extraction/scheme.ml" 110 3271 3278 "plugins/extraction/scheme.ml" 110 3271 3297
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 111 3301 3306 "plugins/extraction/scheme.ml" 111 3301 3307
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 112 3310 3316 "plugins/extraction/scheme.ml" 112 3310 3320
+type(
+  Miniml.match_info
+)
+ident(
+  int_ref info "plugins/extraction/scheme.ml" 110 3271 3286 "plugins/extraction/scheme.ml" 110 3271 3290
+)
+"plugins/extraction/scheme.ml" 112 3310 3316 "plugins/extraction/scheme.ml" 112 3310 3327
+type(
+  Miniml.inductive_kind
+)
+"plugins/extraction/scheme.ml" 112 3310 3328 "plugins/extraction/scheme.ml" 112 3310 3330
+type(
+  Miniml.inductive_kind -> Miniml.inductive_kind -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"plugins/extraction/scheme.ml" 112 3310 3331 "plugins/extraction/scheme.ml" 112 3310 3342
+type(
+  Miniml.inductive_kind
+)
+"plugins/extraction/scheme.ml" 112 3310 3316 "plugins/extraction/scheme.ml" 112 3310 3342
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 112 3310 3348 "plugins/extraction/scheme.ml" 112 3310 3355
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 112 3310 3356 "plugins/extraction/scheme.ml" 112 3310 3359
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 112 3310 3360 "plugins/extraction/scheme.ml" 112 3310 3362
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 112 3310 3363 "plugins/extraction/scheme.ml" 112 3310 3364
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref t "plugins/extraction/scheme.ml" 110 3271 3291 "plugins/extraction/scheme.ml" 110 3271 3292
+)
+"plugins/extraction/scheme.ml" 112 3310 3348 "plugins/extraction/scheme.ml" 112 3310 3364
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 113 3365 3373 "plugins/extraction/scheme.ml" 113 3365 3378
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 113 3365 3380 "plugins/extraction/scheme.ml" 113 3365 3383
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 113 3365 3384 "plugins/extraction/scheme.ml" 113 3365 3391
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 113 3365 3380 "plugins/extraction/scheme.ml" 113 3365 3391
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 113 3365 3392 "plugins/extraction/scheme.ml" 113 3365 3394
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 113 3365 3395 "plugins/extraction/scheme.ml" 113 3365 3398
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 113 3365 3399 "plugins/extraction/scheme.ml" 113 3365 3401
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 113 3365 3395 "plugins/extraction/scheme.ml" 113 3365 3401
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 113 3365 3380 "plugins/extraction/scheme.ml" 113 3365 3401
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 113 3365 3402 "plugins/extraction/scheme.ml" 113 3365 3404
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 113 3365 3405 "plugins/extraction/scheme.ml" 113 3365 3412
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 113 3365 3413 "plugins/extraction/scheme.ml" 113 3365 3416
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 113 3365 3417 "plugins/extraction/scheme.ml" 113 3365 3419
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 113 3365 3420 "plugins/extraction/scheme.ml" 113 3365 3421
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref t "plugins/extraction/scheme.ml" 110 3271 3291 "plugins/extraction/scheme.ml" 110 3271 3292
+)
+"plugins/extraction/scheme.ml" 113 3365 3405 "plugins/extraction/scheme.ml" 113 3365 3421
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 113 3365 3379 "plugins/extraction/scheme.ml" 113 3365 3422
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 113 3365 3373 "plugins/extraction/scheme.ml" 113 3365 3422
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 112 3310 3313 "plugins/extraction/scheme.ml" 113 3365 3422
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 115 3427 3428 "plugins/extraction/scheme.ml" 115 3427 3433
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref apply "plugins/extraction/scheme.ml" 66 1976 1982 "plugins/extraction/scheme.ml" 66 1976 1987
+)
+"plugins/extraction/scheme.ml" 115 3427 3435 "plugins/extraction/scheme.ml" 115 3427 3436
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.v
+)
+"plugins/extraction/scheme.ml" 115 3427 3437 "plugins/extraction/scheme.ml" 115 3427 3438
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 115 3427 3440 "plugins/extraction/scheme.ml" 115 3427 3445
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 115 3427 3447 "plugins/extraction/scheme.ml" 115 3427 3450
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 115 3427 3451 "plugins/extraction/scheme.ml" 115 3427 3459
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 115 3427 3447 "plugins/extraction/scheme.ml" 115 3427 3459
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 115 3427 3460 "plugins/extraction/scheme.ml" 115 3427 3462
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 115 3427 3463 "plugins/extraction/scheme.ml" 115 3427 3464
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref e "plugins/extraction/scheme.ml" 111 3301 3306 "plugins/extraction/scheme.ml" 111 3301 3307
+)
+"plugins/extraction/scheme.ml" 115 3427 3447 "plugins/extraction/scheme.ml" 115 3427 3464
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 115 3427 3465 "plugins/extraction/scheme.ml" 115 3427 3467
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 115 3427 3468 "plugins/extraction/scheme.ml" 115 3427 3471
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Common.fnl
+)
+"plugins/extraction/scheme.ml" 115 3427 3472 "plugins/extraction/scheme.ml" 115 3427 3474
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 115 3427 3468 "plugins/extraction/scheme.ml" 115 3427 3474
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 115 3427 3447 "plugins/extraction/scheme.ml" 115 3427 3474
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 115 3427 3475 "plugins/extraction/scheme.ml" 115 3427 3477
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 115 3427 3478 "plugins/extraction/scheme.ml" 115 3427 3484
+type(
+  Common.env -> Miniml.ml_branch array -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_pat "plugins/extraction/scheme.ml" 144 4469 4473 "plugins/extraction/scheme.ml" 144 4469 4479
+)
+"plugins/extraction/scheme.ml" 115 3427 3485 "plugins/extraction/scheme.ml" 115 3427 3488
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 115 3427 3489 "plugins/extraction/scheme.ml" 115 3427 3491
+type(
+  Miniml.ml_branch array
+)
+ident(
+  int_ref pv "plugins/extraction/scheme.ml" 110 3271 3294 "plugins/extraction/scheme.ml" 110 3271 3296
+)
+"plugins/extraction/scheme.ml" 115 3427 3478 "plugins/extraction/scheme.ml" 115 3427 3491
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 115 3427 3446 "plugins/extraction/scheme.ml" 115 3427 3492
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 115 3427 3439 "plugins/extraction/scheme.ml" 115 3427 3493
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 115 3427 3434 "plugins/extraction/scheme.ml" 115 3427 3494
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 115 3427 3428 "plugins/extraction/scheme.ml" 115 3427 3494
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 111 3301 3302 "plugins/extraction/scheme.ml" 115 3427 3494
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 116 3495 3508 "plugins/extraction/scheme.ml" 116 3495 3509
+type(
+  int
+)
+ident(
+  def i "plugins/extraction/scheme.ml" 117 3523 3524 "plugins/extraction/scheme.ml" 118 3588 3650
+)
+"plugins/extraction/scheme.ml" 116 3495 3510 "plugins/extraction/scheme.ml" 116 3495 3513
+type(
+  Names.identifier array
+)
+ident(
+  def ids "plugins/extraction/scheme.ml" 117 3523 3524 "plugins/extraction/scheme.ml" 118 3588 3650
+)
+"plugins/extraction/scheme.ml" 116 3495 3514 "plugins/extraction/scheme.ml" 116 3495 3518
+type(
+  Miniml.ml_ast array
+)
+ident(
+  def defs "plugins/extraction/scheme.ml" 117 3523 3524 "plugins/extraction/scheme.ml" 118 3588 3650
+)
+"plugins/extraction/scheme.ml" 116 3495 3501 "plugins/extraction/scheme.ml" 116 3495 3519
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 117 3523 3528 "plugins/extraction/scheme.ml" 117 3523 3532
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 117 3523 3533 "plugins/extraction/scheme.ml" 117 3523 3537
+type(
+  Common.env
+)
+"plugins/extraction/scheme.ml" 117 3523 3528 "plugins/extraction/scheme.ml" 117 3523 3537
+type(
+  Names.identifier list * Common.env
+)
+"plugins/extraction/scheme.ml" 117 3523 3540 "plugins/extraction/scheme.ml" 117 3523 3549
+type(
+  Names.identifier list -> Common.env -> Names.identifier list * Common.env
+)
+ident(
+  ext_ref Common.push_vars
+)
+"plugins/extraction/scheme.ml" 117 3523 3551 "plugins/extraction/scheme.ml" 117 3523 3559
+type(
+  Names.identifier list -> Names.identifier list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/extraction/scheme.ml" 117 3523 3561 "plugins/extraction/scheme.ml" 117 3523 3574
+type(
+  Names.identifier array -> Names.identifier list
+)
+ident(
+  ext_ref Array.to_list
+)
+"plugins/extraction/scheme.ml" 117 3523 3575 "plugins/extraction/scheme.ml" 117 3523 3578
+type(
+  Names.identifier array
+)
+ident(
+  int_ref ids "plugins/extraction/scheme.ml" 116 3495 3510 "plugins/extraction/scheme.ml" 116 3495 3513
+)
+"plugins/extraction/scheme.ml" 117 3523 3560 "plugins/extraction/scheme.ml" 117 3523 3579
+call(
+  stack
+)
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 117 3523 3550 "plugins/extraction/scheme.ml" 117 3523 3580
+call(
+  stack
+)
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 117 3523 3581 "plugins/extraction/scheme.ml" 117 3523 3584
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 117 3523 3540 "plugins/extraction/scheme.ml" 117 3523 3584
+call(
+  stack
+)
+type(
+  Names.identifier list * Common.env
+)
+"plugins/extraction/scheme.ml" 118 3588 3595 "plugins/extraction/scheme.ml" 118 3588 3601
+type(
+  Common.env ->
+  int ->
+  Names.identifier array * Miniml.ml_ast array ->
+  Pp.std_ppcmds list -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_fix "plugins/extraction/scheme.ml" 152 4738 4742 "plugins/extraction/scheme.ml" 152 4738 4748
+)
+"plugins/extraction/scheme.ml" 118 3588 3602 "plugins/extraction/scheme.ml" 118 3588 3606
+type(
+  Common.env
+)
+ident(
+  int_ref env' "plugins/extraction/scheme.ml" 117 3523 3533 "plugins/extraction/scheme.ml" 117 3523 3537
+)
+"plugins/extraction/scheme.ml" 118 3588 3607 "plugins/extraction/scheme.ml" 118 3588 3608
+type(
+  int
+)
+ident(
+  int_ref i "plugins/extraction/scheme.ml" 116 3495 3508 "plugins/extraction/scheme.ml" 116 3495 3509
+)
+"plugins/extraction/scheme.ml" 118 3588 3610 "plugins/extraction/scheme.ml" 118 3588 3623
+type(
+  Names.identifier list -> Names.identifier array
+)
+ident(
+  ext_ref Array.of_list
+)
+"plugins/extraction/scheme.ml" 118 3588 3625 "plugins/extraction/scheme.ml" 118 3588 3633
+type(
+  Names.identifier list -> Names.identifier list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/extraction/scheme.ml" 118 3588 3634 "plugins/extraction/scheme.ml" 118 3588 3638
+type(
+  Names.identifier list
+)
+ident(
+  int_ref ids' "plugins/extraction/scheme.ml" 117 3523 3528 "plugins/extraction/scheme.ml" 117 3523 3532
+)
+"plugins/extraction/scheme.ml" 118 3588 3624 "plugins/extraction/scheme.ml" 118 3588 3639
+call(
+  stack
+)
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 118 3588 3610 "plugins/extraction/scheme.ml" 118 3588 3639
+call(
+  stack
+)
+type(
+  Names.identifier array
+)
+"plugins/extraction/scheme.ml" 118 3588 3640 "plugins/extraction/scheme.ml" 118 3588 3644
+type(
+  Miniml.ml_ast array
+)
+ident(
+  int_ref defs "plugins/extraction/scheme.ml" 116 3495 3514 "plugins/extraction/scheme.ml" 116 3495 3518
+)
+"plugins/extraction/scheme.ml" 118 3588 3609 "plugins/extraction/scheme.ml" 118 3588 3645
+type(
+  Names.identifier array * Miniml.ml_ast array
+)
+"plugins/extraction/scheme.ml" 118 3588 3646 "plugins/extraction/scheme.ml" 118 3588 3650
+type(
+  Pp.std_ppcmds list
+)
+ident(
+  int_ref args "plugins/extraction/scheme.ml" 65 1949 1969 "plugins/extraction/scheme.ml" 65 1949 1973
+)
+"plugins/extraction/scheme.ml" 118 3588 3595 "plugins/extraction/scheme.ml" 118 3588 3650
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 117 3523 3524 "plugins/extraction/scheme.ml" 118 3588 3650
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 119 3651 3663 "plugins/extraction/scheme.ml" 119 3651 3664
+type(
+  string
+)
+ident(
+  def s "plugins/extraction/scheme.ml" 121 3727 3728 "plugins/extraction/scheme.ml" 121 3727 3765
+)
+"plugins/extraction/scheme.ml" 119 3651 3657 "plugins/extraction/scheme.ml" 119 3651 3664
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 121 3727 3728 "plugins/extraction/scheme.ml" 121 3727 3733
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 121 3727 3735 "plugins/extraction/scheme.ml" 121 3727 3738
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 121 3727 3739 "plugins/extraction/scheme.ml" 121 3727 3746
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 121 3727 3735 "plugins/extraction/scheme.ml" 121 3727 3746
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 121 3727 3747 "plugins/extraction/scheme.ml" 121 3727 3749
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 121 3727 3750 "plugins/extraction/scheme.ml" 121 3727 3753
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 121 3727 3754 "plugins/extraction/scheme.ml" 121 3727 3756
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 121 3727 3750 "plugins/extraction/scheme.ml" 121 3727 3756
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 121 3727 3735 "plugins/extraction/scheme.ml" 121 3727 3756
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 121 3727 3757 "plugins/extraction/scheme.ml" 121 3727 3759
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 121 3727 3760 "plugins/extraction/scheme.ml" 121 3727 3762
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.qs
+)
+"plugins/extraction/scheme.ml" 121 3727 3763 "plugins/extraction/scheme.ml" 121 3727 3764
+type(
+  string
+)
+ident(
+  int_ref s "plugins/extraction/scheme.ml" 119 3651 3663 "plugins/extraction/scheme.ml" 119 3651 3664
+)
+"plugins/extraction/scheme.ml" 121 3727 3760 "plugins/extraction/scheme.ml" 121 3727 3764
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 121 3727 3734 "plugins/extraction/scheme.ml" 121 3727 3765
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 121 3727 3728 "plugins/extraction/scheme.ml" 121 3727 3765
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 122 3766 3772 "plugins/extraction/scheme.ml" 122 3766 3779
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 123 3783 3784 "plugins/extraction/scheme.ml" 123 3783 3787
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 123 3783 3788 "plugins/extraction/scheme.ml" 123 3783 3792
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 123 3783 3784 "plugins/extraction/scheme.ml" 123 3783 3792
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 124 3853 3867 "plugins/extraction/scheme.ml" 124 3853 3868
+type(
+  Miniml.ml_ast
+)
+ident(
+  def a "plugins/extraction/scheme.ml" 125 3872 3873 "plugins/extraction/scheme.ml" 125 3872 3891
+)
+"plugins/extraction/scheme.ml" 124 3853 3859 "plugins/extraction/scheme.ml" 124 3853 3868
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 125 3872 3873 "plugins/extraction/scheme.ml" 125 3872 3880
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 125 3872 3881 "plugins/extraction/scheme.ml" 125 3872 3884
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 65 1949 1965 "plugins/extraction/scheme.ml" 65 1949 1968
+)
+"plugins/extraction/scheme.ml" 125 3872 3885 "plugins/extraction/scheme.ml" 125 3872 3889
+type(
+  Pp.std_ppcmds list
+)
+ident(
+  int_ref args "plugins/extraction/scheme.ml" 65 1949 1969 "plugins/extraction/scheme.ml" 65 1949 1973
+)
+"plugins/extraction/scheme.ml" 125 3872 3890 "plugins/extraction/scheme.ml" 125 3872 3891
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref a "plugins/extraction/scheme.ml" 124 3853 3867 "plugins/extraction/scheme.ml" 124 3853 3868
+)
+"plugins/extraction/scheme.ml" 125 3872 3873 "plugins/extraction/scheme.ml" 125 3872 3891
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 126 3892 3898 "plugins/extraction/scheme.ml" 126 3892 3905
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 126 3892 3909 "plugins/extraction/scheme.ml" 126 3892 3914
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 126 3892 3916 "plugins/extraction/scheme.ml" 126 3892 3919
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 126 3892 3920 "plugins/extraction/scheme.ml" 126 3892 3952
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 126 3892 3915 "plugins/extraction/scheme.ml" 126 3892 3953
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 126 3892 3909 "plugins/extraction/scheme.ml" 126 3892 3953
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 67 2018 2020 "plugins/extraction/scheme.ml" 126 3892 3953
+type(
+  Miniml.ml_ast -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 66 1976 1978 "plugins/extraction/scheme.ml" 126 3892 3953
+type(
+  Miniml.ml_ast -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 128 3955 3959 "plugins/extraction/scheme.ml" 128 3955 3971
+type(
+  Common.env -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  def pp_cons_args "plugins/extraction/scheme.ml" 65 1949 1949 --
+)
+"plugins/extraction/scheme.ml" 128 3955 3972 "plugins/extraction/scheme.ml" 128 3955 3975
+type(
+  Common.env
+)
+ident(
+  def env "plugins/extraction/scheme.ml" 128 3955 3978 "plugins/extraction/scheme.ml" 133 4176 4212
+)
+"plugins/extraction/scheme.ml" 129 3987 3999 "plugins/extraction/scheme.ml" 129 3987 4003
+type(
+  Miniml.constructor_info
+)
+ident(
+  def info "plugins/extraction/scheme.ml" 129 3987 4012 "plugins/extraction/scheme.ml" 132 4125 4175
+)
+"plugins/extraction/scheme.ml" 129 3987 4004 "plugins/extraction/scheme.ml" 129 3987 4005
+type(
+  Libnames.global_reference
+)
+ident(
+  def r "plugins/extraction/scheme.ml" 129 3987 4012 "plugins/extraction/scheme.ml" 132 4125 4175
+)
+"plugins/extraction/scheme.ml" 129 3987 4006 "plugins/extraction/scheme.ml" 129 3987 4010
+type(
+  Miniml.ml_ast list
+)
+ident(
+  def args "plugins/extraction/scheme.ml" 129 3987 4012 "plugins/extraction/scheme.ml" 132 4125 4175
+)
+"plugins/extraction/scheme.ml" 129 3987 3991 "plugins/extraction/scheme.ml" 129 3987 4011
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 129 3987 4017 "plugins/extraction/scheme.ml" 129 3987 4021
+type(
+  Miniml.constructor_info
+)
+ident(
+  int_ref info "plugins/extraction/scheme.ml" 129 3987 3999 "plugins/extraction/scheme.ml" 129 3987 4003
+)
+"plugins/extraction/scheme.ml" 129 3987 4017 "plugins/extraction/scheme.ml" 129 3987 4028
+type(
+  Miniml.inductive_kind
+)
+"plugins/extraction/scheme.ml" 129 3987 4028 "plugins/extraction/scheme.ml" 129 3987 4030
+type(
+  Miniml.inductive_kind -> Miniml.inductive_kind -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"plugins/extraction/scheme.ml" 129 3987 4030 "plugins/extraction/scheme.ml" 129 3987 4041
+type(
+  Miniml.inductive_kind
+)
+"plugins/extraction/scheme.ml" 129 3987 4017 "plugins/extraction/scheme.ml" 129 3987 4041
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 130 4045 4051 "plugins/extraction/scheme.ml" 130 4045 4056
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 130 4045 4058 "plugins/extraction/scheme.ml" 130 4045 4067
+type(
+  Common.kind -> Libnames.global_reference -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_global "plugins/extraction/scheme.ml" 61 1860 1864 "plugins/extraction/scheme.ml" 61 1860 1873
+)
+"plugins/extraction/scheme.ml" 130 4045 4068 "plugins/extraction/scheme.ml" 130 4045 4072
+type(
+  Common.kind
+)
+"plugins/extraction/scheme.ml" 130 4045 4073 "plugins/extraction/scheme.ml" 130 4045 4074
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 129 3987 4004 "plugins/extraction/scheme.ml" 129 3987 4005
+)
+"plugins/extraction/scheme.ml" 130 4045 4058 "plugins/extraction/scheme.ml" 130 4045 4074
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 130 4045 4075 "plugins/extraction/scheme.ml" 130 4045 4077
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 131 4078 4088 "plugins/extraction/scheme.ml" 131 4078 4092
+type(
+  Miniml.ml_ast list
+)
+ident(
+  int_ref args "plugins/extraction/scheme.ml" 129 3987 4006 "plugins/extraction/scheme.ml" 129 3987 4010
+)
+"plugins/extraction/scheme.ml" 131 4078 4093 "plugins/extraction/scheme.ml" 131 4078 4094
+type(
+  Miniml.ml_ast list -> Miniml.ml_ast list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/extraction/scheme.ml" 131 4078 4095 "plugins/extraction/scheme.ml" 131 4078 4097
+type(
+  Miniml.ml_ast list
+)
+"plugins/extraction/scheme.ml" 131 4078 4088 "plugins/extraction/scheme.ml" 131 4078 4097
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 131 4078 4103 "plugins/extraction/scheme.ml" 131 4078 4105
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 131 4078 4106 "plugins/extraction/scheme.ml" 131 4078 4108
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 131 4078 4103 "plugins/extraction/scheme.ml" 131 4078 4108
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 131 4078 4114 "plugins/extraction/scheme.ml" 131 4078 4117
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 131 4078 4118 "plugins/extraction/scheme.ml" 131 4078 4120
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 131 4078 4114 "plugins/extraction/scheme.ml" 131 4078 4120
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 131 4078 4084 "plugins/extraction/scheme.ml" 131 4078 4121
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 130 4045 4058 "plugins/extraction/scheme.ml" 131 4078 4121
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 131 4078 4122 "plugins/extraction/scheme.ml" 131 4078 4124
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 132 4125 4131 "plugins/extraction/scheme.ml" 132 4125 4146
+type(
+  (unit -> Pp.std_ppcmds) ->
+  (Miniml.ml_ast -> Pp.std_ppcmds) -> Miniml.ml_ast list -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prlist_with_sep
+)
+"plugins/extraction/scheme.ml" 132 4125 4147 "plugins/extraction/scheme.ml" 132 4125 4150
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 132 4125 4152 "plugins/extraction/scheme.ml" 132 4125 4164
+type(
+  Common.env -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_cons_args "plugins/extraction/scheme.ml" 128 3955 3959 "plugins/extraction/scheme.ml" 128 3955 3971
+)
+"plugins/extraction/scheme.ml" 132 4125 4165 "plugins/extraction/scheme.ml" 132 4125 4168
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 128 3955 3972 "plugins/extraction/scheme.ml" 128 3955 3975
+)
+"plugins/extraction/scheme.ml" 132 4125 4151 "plugins/extraction/scheme.ml" 132 4125 4169
+call(
+  stack
+)
+type(
+  Miniml.ml_ast -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 132 4125 4170 "plugins/extraction/scheme.ml" 132 4125 4174
+type(
+  Miniml.ml_ast list
+)
+ident(
+  int_ref args "plugins/extraction/scheme.ml" 129 3987 4006 "plugins/extraction/scheme.ml" 129 3987 4010
+)
+"plugins/extraction/scheme.ml" 132 4125 4131 "plugins/extraction/scheme.ml" 132 4125 4174
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 130 4045 4057 "plugins/extraction/scheme.ml" 132 4125 4175
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 130 4045 4051 "plugins/extraction/scheme.ml" 132 4125 4175
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 129 3987 4012 "plugins/extraction/scheme.ml" 132 4125 4175
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 133 4176 4180 "plugins/extraction/scheme.ml" 133 4176 4181
+type(
+  Miniml.ml_ast
+)
+ident(
+  def e "plugins/extraction/scheme.ml" 133 4176 4185 "plugins/extraction/scheme.ml" 133 4176 4212
+)
+"plugins/extraction/scheme.ml" 133 4176 4185 "plugins/extraction/scheme.ml" 133 4176 4188
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 133 4176 4189 "plugins/extraction/scheme.ml" 133 4176 4192
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 133 4176 4185 "plugins/extraction/scheme.ml" 133 4176 4192
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 133 4176 4193 "plugins/extraction/scheme.ml" 133 4176 4195
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 133 4176 4196 "plugins/extraction/scheme.ml" 133 4176 4203
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 133 4176 4204 "plugins/extraction/scheme.ml" 133 4176 4207
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 128 3955 3972 "plugins/extraction/scheme.ml" 128 3955 3975
+)
+"plugins/extraction/scheme.ml" 133 4176 4208 "plugins/extraction/scheme.ml" 133 4176 4210
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 133 4176 4211 "plugins/extraction/scheme.ml" 133 4176 4212
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref e "plugins/extraction/scheme.ml" 133 4176 4180 "plugins/extraction/scheme.ml" 133 4176 4181
+)
+"plugins/extraction/scheme.ml" 133 4176 4196 "plugins/extraction/scheme.ml" 133 4176 4212
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 133 4176 4185 "plugins/extraction/scheme.ml" 133 4176 4212
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 128 3955 3978 "plugins/extraction/scheme.ml" 133 4176 4212
+type(
+  Miniml.ml_ast -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 136 4215 4219 "plugins/extraction/scheme.ml" 136 4215 4229
+type(
+  Common.env -> Miniml.ml_branch -> Pp.std_ppcmds * Pp.std_ppcmds
+)
+ident(
+  def pp_one_pat "plugins/extraction/scheme.ml" 65 1949 1949 --
+)
+"plugins/extraction/scheme.ml" 136 4215 4230 "plugins/extraction/scheme.ml" 136 4215 4233
+type(
+  Common.env
+)
+ident(
+  def env "plugins/extraction/scheme.ml" 136 4215 4234 "plugins/extraction/scheme.ml" 142 4418 4467
+)
+"plugins/extraction/scheme.ml" 136 4215 4235 "plugins/extraction/scheme.ml" 136 4215 4236
+type(
+  Libnames.global_reference
+)
+ident(
+  def r "plugins/extraction/scheme.ml" 137 4246 4248 "plugins/extraction/scheme.ml" 142 4418 4467
+)
+"plugins/extraction/scheme.ml" 136 4215 4237 "plugins/extraction/scheme.ml" 136 4215 4240
+type(
+  Miniml.ml_ident list
+)
+ident(
+  def ids "plugins/extraction/scheme.ml" 137 4246 4248 "plugins/extraction/scheme.ml" 142 4418 4467
+)
+"plugins/extraction/scheme.ml" 136 4215 4241 "plugins/extraction/scheme.ml" 136 4215 4242
+type(
+  Miniml.ml_ast
+)
+ident(
+  def t "plugins/extraction/scheme.ml" 137 4246 4248 "plugins/extraction/scheme.ml" 142 4418 4467
+)
+"plugins/extraction/scheme.ml" 136 4215 4234 "plugins/extraction/scheme.ml" 136 4215 4243
+type(
+  Miniml.ml_branch
+)
+"plugins/extraction/scheme.ml" 137 4246 4252 "plugins/extraction/scheme.ml" 137 4246 4255
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 137 4246 4256 "plugins/extraction/scheme.ml" 137 4246 4260
+type(
+  Common.env
+)
+"plugins/extraction/scheme.ml" 137 4246 4252 "plugins/extraction/scheme.ml" 137 4246 4260
+type(
+  Names.identifier list * Common.env
+)
+"plugins/extraction/scheme.ml" 137 4246 4263 "plugins/extraction/scheme.ml" 137 4246 4272
+type(
+  Names.identifier list -> Common.env -> Names.identifier list * Common.env
+)
+ident(
+  ext_ref Common.push_vars
+)
+"plugins/extraction/scheme.ml" 137 4246 4274 "plugins/extraction/scheme.ml" 137 4246 4286
+type(
+  (Miniml.ml_ident -> Names.identifier) ->
+  Miniml.ml_ident list -> Names.identifier list
+)
+ident(
+  ext_ref List.rev_map
+)
+"plugins/extraction/scheme.ml" 137 4246 4287 "plugins/extraction/scheme.ml" 137 4246 4297
+type(
+  Miniml.ml_ident -> Names.identifier
+)
+ident(
+  ext_ref Mlutil.id_of_mlid
+)
+"plugins/extraction/scheme.ml" 137 4246 4298 "plugins/extraction/scheme.ml" 137 4246 4301
+type(
+  Miniml.ml_ident list
+)
+ident(
+  int_ref ids "plugins/extraction/scheme.ml" 136 4215 4237 "plugins/extraction/scheme.ml" 136 4215 4240
+)
+"plugins/extraction/scheme.ml" 137 4246 4273 "plugins/extraction/scheme.ml" 137 4246 4302
+call(
+  stack
+)
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 137 4246 4303 "plugins/extraction/scheme.ml" 137 4246 4306
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 136 4215 4230 "plugins/extraction/scheme.ml" 136 4215 4233
+)
+"plugins/extraction/scheme.ml" 137 4246 4263 "plugins/extraction/scheme.ml" 137 4246 4306
+call(
+  stack
+)
+type(
+  Names.identifier list * Common.env
+)
+"plugins/extraction/scheme.ml" 138 4310 4316 "plugins/extraction/scheme.ml" 138 4310 4320
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 139 4323 4330 "plugins/extraction/scheme.ml" 139 4323 4333
+type(
+  Names.identifier list
+)
+ident(
+  int_ref ids "plugins/extraction/scheme.ml" 137 4246 4252 "plugins/extraction/scheme.ml" 137 4246 4255
+)
+"plugins/extraction/scheme.ml" 139 4323 4334 "plugins/extraction/scheme.ml" 139 4323 4335
+type(
+  Names.identifier list -> Names.identifier list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/extraction/scheme.ml" 139 4323 4336 "plugins/extraction/scheme.ml" 139 4323 4338
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 139 4323 4330 "plugins/extraction/scheme.ml" 139 4323 4338
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 139 4323 4344 "plugins/extraction/scheme.ml" 139 4323 4346
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 139 4323 4347 "plugins/extraction/scheme.ml" 139 4323 4349
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 139 4323 4344 "plugins/extraction/scheme.ml" 139 4323 4349
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 140 4350 4360 "plugins/extraction/scheme.ml" 140 4350 4363
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 140 4350 4364 "plugins/extraction/scheme.ml" 140 4350 4367
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 140 4350 4360 "plugins/extraction/scheme.ml" 140 4350 4367
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 140 4350 4368 "plugins/extraction/scheme.ml" 140 4350 4370
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 140 4350 4371 "plugins/extraction/scheme.ml" 140 4350 4386
+type(
+  (unit -> Pp.std_ppcmds) ->
+  (Names.identifier -> Pp.std_ppcmds) ->
+  Names.identifier list -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prlist_with_sep
+)
+"plugins/extraction/scheme.ml" 140 4350 4387 "plugins/extraction/scheme.ml" 140 4350 4390
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 140 4350 4391 "plugins/extraction/scheme.ml" 140 4350 4396
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_id "plugins/extraction/scheme.ml" 38 1262 1266 "plugins/extraction/scheme.ml" 38 1262 1271
+)
+"plugins/extraction/scheme.ml" 140 4350 4398 "plugins/extraction/scheme.ml" 140 4350 4406
+type(
+  Names.identifier list -> Names.identifier list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/extraction/scheme.ml" 140 4350 4407 "plugins/extraction/scheme.ml" 140 4350 4410
+type(
+  Names.identifier list
+)
+ident(
+  int_ref ids "plugins/extraction/scheme.ml" 137 4246 4252 "plugins/extraction/scheme.ml" 137 4246 4255
+)
+"plugins/extraction/scheme.ml" 140 4350 4397 "plugins/extraction/scheme.ml" 140 4350 4411
+call(
+  stack
+)
+type(
+  Names.identifier list
+)
+"plugins/extraction/scheme.ml" 140 4350 4371 "plugins/extraction/scheme.ml" 140 4350 4411
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 140 4350 4359 "plugins/extraction/scheme.ml" 140 4350 4412
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 139 4323 4327 "plugins/extraction/scheme.ml" 140 4350 4412
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 142 4418 4421 "plugins/extraction/scheme.ml" 142 4418 4430
+type(
+  Common.kind -> Libnames.global_reference -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_global "plugins/extraction/scheme.ml" 61 1860 1864 "plugins/extraction/scheme.ml" 61 1860 1873
+)
+"plugins/extraction/scheme.ml" 142 4418 4431 "plugins/extraction/scheme.ml" 142 4418 4435
+type(
+  Common.kind
+)
+"plugins/extraction/scheme.ml" 142 4418 4436 "plugins/extraction/scheme.ml" 142 4418 4437
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 136 4215 4235 "plugins/extraction/scheme.ml" 136 4215 4236
+)
+"plugins/extraction/scheme.ml" 142 4418 4421 "plugins/extraction/scheme.ml" 142 4418 4437
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 142 4418 4438 "plugins/extraction/scheme.ml" 142 4418 4440
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 142 4418 4441 "plugins/extraction/scheme.ml" 142 4418 4445
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref args "plugins/extraction/scheme.ml" 138 4310 4316 "plugins/extraction/scheme.ml" 138 4310 4320
+)
+"plugins/extraction/scheme.ml" 142 4418 4420 "plugins/extraction/scheme.ml" 142 4418 4446
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 142 4418 4449 "plugins/extraction/scheme.ml" 142 4418 4456
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 142 4418 4457 "plugins/extraction/scheme.ml" 142 4418 4461
+type(
+  Common.env
+)
+ident(
+  int_ref env' "plugins/extraction/scheme.ml" 137 4246 4256 "plugins/extraction/scheme.ml" 137 4246 4260
+)
+"plugins/extraction/scheme.ml" 142 4418 4462 "plugins/extraction/scheme.ml" 142 4418 4464
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 142 4418 4465 "plugins/extraction/scheme.ml" 142 4418 4466
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref t "plugins/extraction/scheme.ml" 136 4215 4241 "plugins/extraction/scheme.ml" 136 4215 4242
+)
+"plugins/extraction/scheme.ml" 142 4418 4448 "plugins/extraction/scheme.ml" 142 4418 4467
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 142 4418 4420 "plugins/extraction/scheme.ml" 142 4418 4467
+type(
+  Pp.std_ppcmds * Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 138 4310 4312 "plugins/extraction/scheme.ml" 142 4418 4467
+type(
+  Pp.std_ppcmds * Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 137 4246 4248 "plugins/extraction/scheme.ml" 142 4418 4467
+type(
+  Pp.std_ppcmds * Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 144 4469 4473 "plugins/extraction/scheme.ml" 144 4469 4479
+type(
+  Common.env -> Miniml.ml_branch array -> Pp.std_ppcmds
+)
+ident(
+  def pp_pat "plugins/extraction/scheme.ml" 65 1949 1949 --
+)
+"plugins/extraction/scheme.ml" 144 4469 4480 "plugins/extraction/scheme.ml" 144 4469 4483
+type(
+  Common.env
+)
+ident(
+  def env "plugins/extraction/scheme.ml" 144 4469 4484 "plugins/extraction/scheme.ml" 147 4557 4626
+)
+"plugins/extraction/scheme.ml" 144 4469 4484 "plugins/extraction/scheme.ml" 144 4469 4486
+type(
+  Miniml.ml_branch array
+)
+ident(
+  def pv "plugins/extraction/scheme.ml" 145 4489 4491 "plugins/extraction/scheme.ml" 147 4557 4626
+)
+"plugins/extraction/scheme.ml" 145 4489 4491 "plugins/extraction/scheme.ml" 145 4489 4506
+type(
+  (unit -> Pp.std_ppcmds) ->
+  (Miniml.ml_branch -> Pp.std_ppcmds) ->
+  Miniml.ml_branch array -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prvect_with_sep
+)
+"plugins/extraction/scheme.ml" 145 4489 4507 "plugins/extraction/scheme.ml" 145 4489 4510
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Common.fnl
+)
+"plugins/extraction/scheme.ml" 146 4511 4520 "plugins/extraction/scheme.ml" 146 4511 4521
+type(
+  Miniml.ml_branch
+)
+ident(
+  def x "plugins/extraction/scheme.ml" 146 4511 4525 "plugins/extraction/scheme.ml" 147 4557 4622
+)
+"plugins/extraction/scheme.ml" 146 4511 4529 "plugins/extraction/scheme.ml" 146 4511 4531
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 146 4511 4532 "plugins/extraction/scheme.ml" 146 4511 4534
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 146 4511 4529 "plugins/extraction/scheme.ml" 146 4511 4534
+type(
+  Pp.std_ppcmds * Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 146 4511 4537 "plugins/extraction/scheme.ml" 146 4511 4547
+type(
+  Common.env -> Miniml.ml_branch -> Pp.std_ppcmds * Pp.std_ppcmds
+)
+ident(
+  int_ref pp_one_pat "plugins/extraction/scheme.ml" 136 4215 4219 "plugins/extraction/scheme.ml" 136 4215 4229
+)
+"plugins/extraction/scheme.ml" 146 4511 4548 "plugins/extraction/scheme.ml" 146 4511 4551
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 144 4469 4480 "plugins/extraction/scheme.ml" 144 4469 4483
+)
+"plugins/extraction/scheme.ml" 146 4511 4552 "plugins/extraction/scheme.ml" 146 4511 4553
+type(
+  Miniml.ml_branch
+)
+ident(
+  int_ref x "plugins/extraction/scheme.ml" 146 4511 4520 "plugins/extraction/scheme.ml" 146 4511 4521
+)
+"plugins/extraction/scheme.ml" 146 4511 4537 "plugins/extraction/scheme.ml" 146 4511 4553
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds * Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 147 4557 4562 "plugins/extraction/scheme.ml" 147 4557 4565
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/extraction/scheme.ml" 147 4557 4566 "plugins/extraction/scheme.ml" 147 4557 4567
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 147 4557 4569 "plugins/extraction/scheme.ml" 147 4557 4572
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 147 4557 4573 "plugins/extraction/scheme.ml" 147 4557 4577
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 147 4557 4569 "plugins/extraction/scheme.ml" 147 4557 4577
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 147 4557 4578 "plugins/extraction/scheme.ml" 147 4557 4580
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 147 4557 4581 "plugins/extraction/scheme.ml" 147 4557 4583
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref s1 "plugins/extraction/scheme.ml" 146 4511 4529 "plugins/extraction/scheme.ml" 146 4511 4531
+)
+"plugins/extraction/scheme.ml" 147 4557 4569 "plugins/extraction/scheme.ml" 147 4557 4583
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 147 4557 4584 "plugins/extraction/scheme.ml" 147 4557 4586
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 147 4557 4587 "plugins/extraction/scheme.ml" 147 4557 4590
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 147 4557 4591 "plugins/extraction/scheme.ml" 147 4557 4594
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 147 4557 4587 "plugins/extraction/scheme.ml" 147 4557 4594
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 147 4557 4569 "plugins/extraction/scheme.ml" 147 4557 4594
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 147 4557 4595 "plugins/extraction/scheme.ml" 147 4557 4597
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 147 4557 4598 "plugins/extraction/scheme.ml" 147 4557 4601
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 147 4557 4602 "plugins/extraction/scheme.ml" 147 4557 4604
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 147 4557 4598 "plugins/extraction/scheme.ml" 147 4557 4604
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 147 4557 4569 "plugins/extraction/scheme.ml" 147 4557 4604
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 147 4557 4605 "plugins/extraction/scheme.ml" 147 4557 4607
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 147 4557 4608 "plugins/extraction/scheme.ml" 147 4557 4610
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref s2 "plugins/extraction/scheme.ml" 146 4511 4532 "plugins/extraction/scheme.ml" 146 4511 4534
+)
+"plugins/extraction/scheme.ml" 147 4557 4569 "plugins/extraction/scheme.ml" 147 4557 4610
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 147 4557 4611 "plugins/extraction/scheme.ml" 147 4557 4613
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 147 4557 4614 "plugins/extraction/scheme.ml" 147 4557 4617
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 147 4557 4618 "plugins/extraction/scheme.ml" 147 4557 4621
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 147 4557 4614 "plugins/extraction/scheme.ml" 147 4557 4621
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 147 4557 4568 "plugins/extraction/scheme.ml" 147 4557 4622
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 147 4557 4562 "plugins/extraction/scheme.ml" 147 4557 4622
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 146 4511 4525 "plugins/extraction/scheme.ml" 147 4557 4622
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 146 4511 4515 "plugins/extraction/scheme.ml" 147 4557 4623
+type(
+  Miniml.ml_branch -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 147 4557 4624 "plugins/extraction/scheme.ml" 147 4557 4626
+type(
+  Miniml.ml_branch array
+)
+ident(
+  int_ref pv "plugins/extraction/scheme.ml" 144 4469 4484 "plugins/extraction/scheme.ml" 144 4469 4486
+)
+"plugins/extraction/scheme.ml" 145 4489 4491 "plugins/extraction/scheme.ml" 147 4557 4626
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 152 4738 4742 "plugins/extraction/scheme.ml" 152 4738 4748
+type(
+  Common.env ->
+  int ->
+  Names.identifier array * Miniml.ml_ast array ->
+  Pp.std_ppcmds list -> Pp.std_ppcmds
+)
+ident(
+  def pp_fix "plugins/extraction/scheme.ml" 65 1949 1949 --
+)
+"plugins/extraction/scheme.ml" 152 4738 4749 "plugins/extraction/scheme.ml" 152 4738 4752
+type(
+  Common.env
+)
+ident(
+  def env "plugins/extraction/scheme.ml" 152 4738 4753 "plugins/extraction/scheme.ml" 161 4998 5057
+)
+"plugins/extraction/scheme.ml" 152 4738 4753 "plugins/extraction/scheme.ml" 152 4738 4754
+type(
+  int
+)
+ident(
+  def j "plugins/extraction/scheme.ml" 152 4738 4755 "plugins/extraction/scheme.ml" 161 4998 5057
+)
+"plugins/extraction/scheme.ml" 152 4738 4756 "plugins/extraction/scheme.ml" 152 4738 4759
+type(
+  Names.identifier array
+)
+ident(
+  def ids "plugins/extraction/scheme.ml" 152 4738 4764 "plugins/extraction/scheme.ml" 161 4998 5057
+)
+"plugins/extraction/scheme.ml" 152 4738 4760 "plugins/extraction/scheme.ml" 152 4738 4762
+type(
+  Miniml.ml_ast array
+)
+ident(
+  def bl "plugins/extraction/scheme.ml" 152 4738 4764 "plugins/extraction/scheme.ml" 161 4998 5057
+)
+"plugins/extraction/scheme.ml" 152 4738 4755 "plugins/extraction/scheme.ml" 152 4738 4763
+type(
+  Names.identifier array * Miniml.ml_ast array
+)
+"plugins/extraction/scheme.ml" 152 4738 4764 "plugins/extraction/scheme.ml" 152 4738 4768
+type(
+  Pp.std_ppcmds list
+)
+ident(
+  def args "plugins/extraction/scheme.ml" 153 4771 4775 "plugins/extraction/scheme.ml" 161 4998 5057
+)
+"plugins/extraction/scheme.ml" 153 4771 4775 "plugins/extraction/scheme.ml" 153 4771 4780
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 154 4781 4788 "plugins/extraction/scheme.ml" 154 4781 4791
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 154 4781 4792 "plugins/extraction/scheme.ml" 154 4781 4801
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 154 4781 4788 "plugins/extraction/scheme.ml" 154 4781 4801
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 154 4781 4802 "plugins/extraction/scheme.ml" 154 4781 4804
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 155 4805 4813 "plugins/extraction/scheme.ml" 155 4805 4814
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.v
+)
+"plugins/extraction/scheme.ml" 155 4805 4815 "plugins/extraction/scheme.ml" 155 4805 4816
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 155 4805 4818 "plugins/extraction/scheme.ml" 155 4805 4823
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 156 4824 4833 "plugins/extraction/scheme.ml" 156 4824 4848
+type(
+  (unit -> Pp.std_ppcmds) ->
+  (Names.identifier * Miniml.ml_ast -> Pp.std_ppcmds) ->
+  (Names.identifier * Miniml.ml_ast) array -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prvect_with_sep
+)
+"plugins/extraction/scheme.ml" 156 4824 4849 "plugins/extraction/scheme.ml" 156 4824 4852
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Common.fnl
+)
+"plugins/extraction/scheme.ml" 157 4853 4863 "plugins/extraction/scheme.ml" 157 4853 4865
+type(
+  Names.identifier
+)
+ident(
+  def fi "plugins/extraction/scheme.ml" 158 4873 4880 "plugins/extraction/scheme.ml" 158 4873 4931
+)
+"plugins/extraction/scheme.ml" 157 4853 4866 "plugins/extraction/scheme.ml" 157 4853 4868
+type(
+  Miniml.ml_ast
+)
+ident(
+  def ti "plugins/extraction/scheme.ml" 158 4873 4880 "plugins/extraction/scheme.ml" 158 4873 4931
+)
+"plugins/extraction/scheme.ml" 157 4853 4862 "plugins/extraction/scheme.ml" 157 4853 4869
+type(
+  Names.identifier * Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 158 4873 4880 "plugins/extraction/scheme.ml" 158 4873 4885
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 158 4873 4888 "plugins/extraction/scheme.ml" 158 4873 4893
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_id "plugins/extraction/scheme.ml" 38 1262 1266 "plugins/extraction/scheme.ml" 38 1262 1271
+)
+"plugins/extraction/scheme.ml" 158 4873 4894 "plugins/extraction/scheme.ml" 158 4873 4896
+type(
+  Names.identifier
+)
+ident(
+  int_ref fi "plugins/extraction/scheme.ml" 157 4853 4863 "plugins/extraction/scheme.ml" 157 4853 4865
+)
+"plugins/extraction/scheme.ml" 158 4873 4887 "plugins/extraction/scheme.ml" 158 4873 4897
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 158 4873 4898 "plugins/extraction/scheme.ml" 158 4873 4900
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 158 4873 4901 "plugins/extraction/scheme.ml" 158 4873 4904
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 158 4873 4905 "plugins/extraction/scheme.ml" 158 4873 4907
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 158 4873 4901 "plugins/extraction/scheme.ml" 158 4873 4907
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 158 4873 4887 "plugins/extraction/scheme.ml" 158 4873 4907
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 158 4873 4908 "plugins/extraction/scheme.ml" 158 4873 4910
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 158 4873 4912 "plugins/extraction/scheme.ml" 158 4873 4919
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 158 4873 4920 "plugins/extraction/scheme.ml" 158 4873 4923
+type(
+  Common.env
+)
+ident(
+  int_ref env "plugins/extraction/scheme.ml" 152 4738 4749 "plugins/extraction/scheme.ml" 152 4738 4752
+)
+"plugins/extraction/scheme.ml" 158 4873 4924 "plugins/extraction/scheme.ml" 158 4873 4926
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 158 4873 4927 "plugins/extraction/scheme.ml" 158 4873 4929
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref ti "plugins/extraction/scheme.ml" 157 4853 4866 "plugins/extraction/scheme.ml" 157 4853 4868
+)
+"plugins/extraction/scheme.ml" 158 4873 4911 "plugins/extraction/scheme.ml" 158 4873 4930
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 158 4873 4886 "plugins/extraction/scheme.ml" 158 4873 4931
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 158 4873 4880 "plugins/extraction/scheme.ml" 158 4873 4931
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 157 4853 4857 "plugins/extraction/scheme.ml" 158 4873 4932
+type(
+  Names.identifier * Miniml.ml_ast -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 159 4933 4938 "plugins/extraction/scheme.ml" 159 4933 4948
+type(
+  (Names.identifier -> Miniml.ml_ast -> Names.identifier * Miniml.ml_ast) ->
+  Names.identifier array ->
+  Miniml.ml_ast array -> (Names.identifier * Miniml.ml_ast) array
+)
+ident(
+  ext_ref Util.array_map2
+)
+"plugins/extraction/scheme.ml" 159 4933 4954 "plugins/extraction/scheme.ml" 159 4933 4956
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/extraction/scheme.ml" 159 4933 4957 "plugins/extraction/scheme.ml" 159 4933 4968
+)
+"plugins/extraction/scheme.ml" 159 4933 4957 "plugins/extraction/scheme.ml" 159 4933 4958
+type(
+  Miniml.ml_ast
+)
+ident(
+  def b "plugins/extraction/scheme.ml" 159 4933 4962 "plugins/extraction/scheme.ml" 159 4933 4968
+)
+"plugins/extraction/scheme.ml" 159 4933 4963 "plugins/extraction/scheme.ml" 159 4933 4965
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/extraction/scheme.ml" 159 4933 4954 "plugins/extraction/scheme.ml" 159 4933 4956
+)
+"plugins/extraction/scheme.ml" 159 4933 4966 "plugins/extraction/scheme.ml" 159 4933 4967
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref b "plugins/extraction/scheme.ml" 159 4933 4957 "plugins/extraction/scheme.ml" 159 4933 4958
+)
+"plugins/extraction/scheme.ml" 159 4933 4962 "plugins/extraction/scheme.ml" 159 4933 4968
+type(
+  Names.identifier * Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 159 4933 4949 "plugins/extraction/scheme.ml" 159 4933 4969
+type(
+  Names.identifier -> Miniml.ml_ast -> Names.identifier * Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 159 4933 4970 "plugins/extraction/scheme.ml" 159 4933 4973
+type(
+  Names.identifier array
+)
+ident(
+  int_ref ids "plugins/extraction/scheme.ml" 152 4738 4756 "plugins/extraction/scheme.ml" 152 4738 4759
+)
+"plugins/extraction/scheme.ml" 159 4933 4974 "plugins/extraction/scheme.ml" 159 4933 4976
+type(
+  Miniml.ml_ast array
+)
+ident(
+  int_ref bl "plugins/extraction/scheme.ml" 152 4738 4760 "plugins/extraction/scheme.ml" 152 4738 4762
+)
+"plugins/extraction/scheme.ml" 159 4933 4937 "plugins/extraction/scheme.ml" 159 4933 4977
+call(
+  stack
+)
+type(
+  (Names.identifier * Miniml.ml_ast) array
+)
+"plugins/extraction/scheme.ml" 156 4824 4832 "plugins/extraction/scheme.ml" 159 4933 4978
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 155 4805 4818 "plugins/extraction/scheme.ml" 159 4933 4978
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 159 4933 4979 "plugins/extraction/scheme.ml" 159 4933 4981
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 160 4982 4988 "plugins/extraction/scheme.ml" 160 4982 4991
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Common.fnl
+)
+"plugins/extraction/scheme.ml" 160 4982 4992 "plugins/extraction/scheme.ml" 160 4982 4994
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 160 4982 4988 "plugins/extraction/scheme.ml" 160 4982 4994
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 155 4805 4818 "plugins/extraction/scheme.ml" 160 4982 4994
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 160 4982 4995 "plugins/extraction/scheme.ml" 160 4982 4997
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 161 4998 5010 "plugins/extraction/scheme.ml" 161 4998 5013
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/extraction/scheme.ml" 161 4998 5014 "plugins/extraction/scheme.ml" 161 4998 5015
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 161 4998 5017 "plugins/extraction/scheme.ml" 161 4998 5025
+type(
+  Pp.std_ppcmds -> bool -> Pp.std_ppcmds list -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_apply "plugins/extraction/scheme.ml" 53 1632 1636 "plugins/extraction/scheme.ml" 53 1632 1644
+)
+"plugins/extraction/scheme.ml" 161 4998 5027 "plugins/extraction/scheme.ml" 161 4998 5032
+type(
+  Names.identifier -> Pp.std_ppcmds
+)
+ident(
+  int_ref pr_id "plugins/extraction/scheme.ml" 38 1262 1266 "plugins/extraction/scheme.ml" 38 1262 1271
+)
+"plugins/extraction/scheme.ml" 161 4998 5034 "plugins/extraction/scheme.ml" 161 4998 5037
+type(
+  Names.identifier array
+)
+ident(
+  int_ref ids "plugins/extraction/scheme.ml" 152 4738 4756 "plugins/extraction/scheme.ml" 152 4738 4759
+)
+"plugins/extraction/scheme.ml" 161 4998 5039 "plugins/extraction/scheme.ml" 161 4998 5040
+type(
+  int
+)
+ident(
+  int_ref j "plugins/extraction/scheme.ml" 152 4738 4753 "plugins/extraction/scheme.ml" 152 4738 4754
+)
+"plugins/extraction/scheme.ml" 161 4998 5033 "plugins/extraction/scheme.ml" 161 4998 5042
+type(
+  Names.identifier
+)
+"plugins/extraction/scheme.ml" 161 4998 5026 "plugins/extraction/scheme.ml" 161 4998 5043
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 161 4998 5044 "plugins/extraction/scheme.ml" 161 4998 5048
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 161 4998 5049 "plugins/extraction/scheme.ml" 161 4998 5053
+type(
+  Pp.std_ppcmds list
+)
+ident(
+  int_ref args "plugins/extraction/scheme.ml" 152 4738 4764 "plugins/extraction/scheme.ml" 152 4738 4768
+)
+"plugins/extraction/scheme.ml" 161 4998 5016 "plugins/extraction/scheme.ml" 161 4998 5054
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 161 4998 5010 "plugins/extraction/scheme.ml" 161 4998 5054
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 155 4805 4817 "plugins/extraction/scheme.ml" 161 4998 5055
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 155 4805 4812 "plugins/extraction/scheme.ml" 161 4998 5056
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 154 4781 4787 "plugins/extraction/scheme.ml" 161 4998 5057
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 153 4771 4775 "plugins/extraction/scheme.ml" 161 4998 5057
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 165 5101 5105 "plugins/extraction/scheme.ml" 165 5101 5112
+type(
+  Miniml.ml_decl -> Pp.std_ppcmds
+)
+ident(
+  def pp_decl "plugins/extraction/scheme.ml" 193 5872 5872 --
+)
+"plugins/extraction/scheme.ml" 166 5124 5133 "plugins/extraction/scheme.ml" 166 5124 5134
+type(
+  Miniml.ml_ind
+)
+type(
+  Names.kernel_name
+)
+"plugins/extraction/scheme.ml" 166 5124 5128 "plugins/extraction/scheme.ml" 166 5124 5134
+type(
+  Miniml.ml_decl
+)
+"plugins/extraction/scheme.ml" 166 5124 5138 "plugins/extraction/scheme.ml" 166 5124 5140
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 166 5124 5141 "plugins/extraction/scheme.ml" 166 5124 5143
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 166 5124 5138 "plugins/extraction/scheme.ml" 166 5124 5143
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 167 5144 5154 "plugins/extraction/scheme.ml" 167 5144 5155
+type(
+  Miniml.ml_type
+)
+type(
+  Names.identifier list
+)
+type(
+  Libnames.global_reference
+)
+"plugins/extraction/scheme.ml" 167 5144 5148 "plugins/extraction/scheme.ml" 167 5144 5155
+type(
+  Miniml.ml_decl
+)
+"plugins/extraction/scheme.ml" 167 5144 5159 "plugins/extraction/scheme.ml" 167 5144 5161
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 167 5144 5162 "plugins/extraction/scheme.ml" 167 5144 5164
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 167 5144 5159 "plugins/extraction/scheme.ml" 167 5144 5164
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 168 5165 5175 "plugins/extraction/scheme.ml" 168 5165 5177
+type(
+  Libnames.global_reference array
+)
+ident(
+  def rv "plugins/extraction/scheme.ml" 169 5190 5196 "plugins/extraction/scheme.ml" 184 5636 5639
+)
+"plugins/extraction/scheme.ml" 168 5165 5179 "plugins/extraction/scheme.ml" 168 5165 5183
+type(
+  Miniml.ml_ast array
+)
+ident(
+  def defs "plugins/extraction/scheme.ml" 169 5190 5196 "plugins/extraction/scheme.ml" 184 5636 5639
+)
+"plugins/extraction/scheme.ml" 168 5165 5184 "plugins/extraction/scheme.ml" 168 5165 5185
+type(
+  Miniml.ml_type array
+)
+"plugins/extraction/scheme.ml" 168 5165 5169 "plugins/extraction/scheme.ml" 168 5165 5186
+type(
+  Miniml.ml_decl
+)
+"plugins/extraction/scheme.ml" 169 5190 5200 "plugins/extraction/scheme.ml" 169 5190 5205
+type(
+  Pp.std_ppcmds array
+)
+"plugins/extraction/scheme.ml" 169 5190 5208 "plugins/extraction/scheme.ml" 169 5190 5217
+type(
+  (Libnames.global_reference -> Pp.std_ppcmds) ->
+  Libnames.global_reference array -> Pp.std_ppcmds array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/extraction/scheme.ml" 170 5218 5224 "plugins/extraction/scheme.ml" 170 5218 5225
+type(
+  Libnames.global_reference
+)
+ident(
+  def r "plugins/extraction/scheme.ml" 170 5218 5229 "plugins/extraction/scheme.ml" 170 5218 5283
+)
+"plugins/extraction/scheme.ml" 170 5218 5232 "plugins/extraction/scheme.ml" 170 5218 5248
+type(
+  Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Table.is_inline_custom
+)
+"plugins/extraction/scheme.ml" 170 5218 5249 "plugins/extraction/scheme.ml" 170 5218 5250
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 170 5218 5224 "plugins/extraction/scheme.ml" 170 5218 5225
+)
+"plugins/extraction/scheme.ml" 170 5218 5232 "plugins/extraction/scheme.ml" 170 5218 5250
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 170 5218 5256 "plugins/extraction/scheme.ml" 170 5218 5258
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 170 5218 5259 "plugins/extraction/scheme.ml" 170 5218 5261
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 170 5218 5256 "plugins/extraction/scheme.ml" 170 5218 5261
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 170 5218 5267 "plugins/extraction/scheme.ml" 170 5218 5276
+type(
+  Common.kind -> Libnames.global_reference -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_global "plugins/extraction/scheme.ml" 61 1860 1864 "plugins/extraction/scheme.ml" 61 1860 1873
+)
+"plugins/extraction/scheme.ml" 170 5218 5277 "plugins/extraction/scheme.ml" 170 5218 5281
+type(
+  Common.kind
+)
+"plugins/extraction/scheme.ml" 170 5218 5282 "plugins/extraction/scheme.ml" 170 5218 5283
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 170 5218 5224 "plugins/extraction/scheme.ml" 170 5218 5225
+)
+"plugins/extraction/scheme.ml" 170 5218 5267 "plugins/extraction/scheme.ml" 170 5218 5283
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 170 5218 5229 "plugins/extraction/scheme.ml" 170 5218 5283
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 170 5218 5219 "plugins/extraction/scheme.ml" 170 5218 5284
+type(
+  Libnames.global_reference -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 170 5218 5285 "plugins/extraction/scheme.ml" 170 5218 5287
+type(
+  Libnames.global_reference array
+)
+ident(
+  int_ref rv "plugins/extraction/scheme.ml" 168 5165 5175 "plugins/extraction/scheme.ml" 168 5165 5177
+)
+"plugins/extraction/scheme.ml" 169 5190 5208 "plugins/extraction/scheme.ml" 170 5218 5287
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds array
+)
+"plugins/extraction/scheme.ml" 172 5297 5303 "plugins/extraction/scheme.ml" 172 5297 5310
+type(
+  (int -> Libnames.global_reference -> Pp.std_ppcmds) ->
+  Libnames.global_reference array -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prvecti
+)
+"plugins/extraction/scheme.ml" 173 5311 5317 "plugins/extraction/scheme.ml" 173 5311 5318
+type(
+  int
+)
+ident(
+  def i "plugins/extraction/scheme.ml" 173 5311 5319 "plugins/extraction/scheme.ml" 183 5606 5634
+)
+"plugins/extraction/scheme.ml" 173 5311 5319 "plugins/extraction/scheme.ml" 173 5311 5320
+type(
+  Libnames.global_reference
+)
+ident(
+  def r "plugins/extraction/scheme.ml" 174 5324 5327 "plugins/extraction/scheme.ml" 183 5606 5634
+)
+"plugins/extraction/scheme.ml" 174 5324 5331 "plugins/extraction/scheme.ml" 174 5324 5335
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 174 5324 5338 "plugins/extraction/scheme.ml" 174 5324 5354
+type(
+  Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Table.is_inline_custom
+)
+"plugins/extraction/scheme.ml" 174 5324 5355 "plugins/extraction/scheme.ml" 174 5324 5356
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 173 5311 5319 "plugins/extraction/scheme.ml" 173 5311 5320
+)
+"plugins/extraction/scheme.ml" 174 5324 5338 "plugins/extraction/scheme.ml" 174 5324 5356
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 174 5324 5357 "plugins/extraction/scheme.ml" 174 5324 5359
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"plugins/extraction/scheme.ml" 175 5360 5366 "plugins/extraction/scheme.ml" 175 5360 5369
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/extraction/scheme.ml" 175 5360 5371 "plugins/extraction/scheme.ml" 175 5360 5380
+type(
+  Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Table.is_custom
+)
+"plugins/extraction/scheme.ml" 175 5360 5381 "plugins/extraction/scheme.ml" 175 5360 5382
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 173 5311 5319 "plugins/extraction/scheme.ml" 173 5311 5320
+)
+"plugins/extraction/scheme.ml" 175 5360 5370 "plugins/extraction/scheme.ml" 175 5360 5383
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 175 5360 5366 "plugins/extraction/scheme.ml" 175 5360 5383
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 175 5360 5384 "plugins/extraction/scheme.ml" 175 5360 5386
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/extraction/scheme.ml" 175 5360 5387 "plugins/extraction/scheme.ml" 175 5360 5391
+type(
+  Miniml.ml_ast array
+)
+ident(
+  int_ref defs "plugins/extraction/scheme.ml" 168 5165 5179 "plugins/extraction/scheme.ml" 168 5165 5183
+)
+"plugins/extraction/scheme.ml" 175 5360 5393 "plugins/extraction/scheme.ml" 175 5360 5394
+type(
+  int
+)
+ident(
+  int_ref i "plugins/extraction/scheme.ml" 173 5311 5317 "plugins/extraction/scheme.ml" 173 5311 5318
+)
+"plugins/extraction/scheme.ml" 175 5360 5387 "plugins/extraction/scheme.ml" 175 5360 5395
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 175 5360 5396 "plugins/extraction/scheme.ml" 175 5360 5397
+type(
+  Miniml.ml_ast -> Miniml.ml_ast -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/extraction/scheme.ml" 175 5360 5404 "plugins/extraction/scheme.ml" 175 5360 5412
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 175 5360 5398 "plugins/extraction/scheme.ml" 175 5360 5412
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 175 5360 5387 "plugins/extraction/scheme.ml" 175 5360 5412
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 175 5360 5365 "plugins/extraction/scheme.ml" 175 5360 5413
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 174 5324 5338 "plugins/extraction/scheme.ml" 175 5360 5413
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 177 5420 5426 "plugins/extraction/scheme.ml" 177 5420 5430
+type(
+  bool
+)
+ident(
+  int_ref void "plugins/extraction/scheme.ml" 174 5324 5331 "plugins/extraction/scheme.ml" 174 5324 5335
+)
+"plugins/extraction/scheme.ml" 177 5420 5436 "plugins/extraction/scheme.ml" 177 5420 5438
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 177 5420 5439 "plugins/extraction/scheme.ml" 177 5420 5441
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 177 5420 5436 "plugins/extraction/scheme.ml" 177 5420 5441
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 179 5450 5455 "plugins/extraction/scheme.ml" 179 5450 5458
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/extraction/scheme.ml" 179 5450 5459 "plugins/extraction/scheme.ml" 179 5450 5460
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 180 5461 5469 "plugins/extraction/scheme.ml" 180 5461 5474
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 180 5461 5476 "plugins/extraction/scheme.ml" 180 5461 5479
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 180 5461 5480 "plugins/extraction/scheme.ml" 180 5461 5489
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 180 5461 5476 "plugins/extraction/scheme.ml" 180 5461 5489
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 180 5461 5490 "plugins/extraction/scheme.ml" 180 5461 5492
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 180 5461 5493 "plugins/extraction/scheme.ml" 180 5461 5498
+type(
+  Pp.std_ppcmds array
+)
+ident(
+  int_ref names "plugins/extraction/scheme.ml" 169 5190 5200 "plugins/extraction/scheme.ml" 169 5190 5205
+)
+"plugins/extraction/scheme.ml" 180 5461 5500 "plugins/extraction/scheme.ml" 180 5461 5501
+type(
+  int
+)
+ident(
+  int_ref i "plugins/extraction/scheme.ml" 173 5311 5317 "plugins/extraction/scheme.ml" 173 5311 5318
+)
+"plugins/extraction/scheme.ml" 180 5461 5493 "plugins/extraction/scheme.ml" 180 5461 5502
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 180 5461 5476 "plugins/extraction/scheme.ml" 180 5461 5502
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 180 5461 5503 "plugins/extraction/scheme.ml" 180 5461 5505
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 180 5461 5506 "plugins/extraction/scheme.ml" 180 5461 5509
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 180 5461 5510 "plugins/extraction/scheme.ml" 180 5461 5512
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 180 5461 5506 "plugins/extraction/scheme.ml" 180 5461 5512
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 180 5461 5476 "plugins/extraction/scheme.ml" 180 5461 5512
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 180 5461 5513 "plugins/extraction/scheme.ml" 180 5461 5515
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 181 5516 5523 "plugins/extraction/scheme.ml" 181 5516 5532
+type(
+  Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Table.is_custom
+)
+"plugins/extraction/scheme.ml" 181 5516 5533 "plugins/extraction/scheme.ml" 181 5516 5534
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 173 5311 5319 "plugins/extraction/scheme.ml" 173 5311 5320
+)
+"plugins/extraction/scheme.ml" 181 5516 5523 "plugins/extraction/scheme.ml" 181 5516 5534
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 181 5516 5540 "plugins/extraction/scheme.ml" 181 5516 5543
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 181 5516 5545 "plugins/extraction/scheme.ml" 181 5516 5556
+type(
+  Libnames.global_reference -> string
+)
+ident(
+  ext_ref Table.find_custom
+)
+"plugins/extraction/scheme.ml" 181 5516 5557 "plugins/extraction/scheme.ml" 181 5516 5558
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 173 5311 5319 "plugins/extraction/scheme.ml" 173 5311 5320
+)
+"plugins/extraction/scheme.ml" 181 5516 5544 "plugins/extraction/scheme.ml" 181 5516 5559
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 181 5516 5540 "plugins/extraction/scheme.ml" 181 5516 5559
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 182 5560 5569 "plugins/extraction/scheme.ml" 182 5560 5576
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 182 5560 5578 "plugins/extraction/scheme.ml" 182 5560 5587
+type(
+  unit -> Common.env
+)
+ident(
+  ext_ref Common.empty_env
+)
+"plugins/extraction/scheme.ml" 182 5560 5588 "plugins/extraction/scheme.ml" 182 5560 5590
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 182 5560 5577 "plugins/extraction/scheme.ml" 182 5560 5591
+call(
+  stack
+)
+type(
+  Common.env
+)
+"plugins/extraction/scheme.ml" 182 5560 5592 "plugins/extraction/scheme.ml" 182 5560 5594
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 182 5560 5595 "plugins/extraction/scheme.ml" 182 5560 5599
+type(
+  Miniml.ml_ast array
+)
+ident(
+  int_ref defs "plugins/extraction/scheme.ml" 168 5165 5179 "plugins/extraction/scheme.ml" 168 5165 5183
+)
+"plugins/extraction/scheme.ml" 182 5560 5601 "plugins/extraction/scheme.ml" 182 5560 5602
+type(
+  int
+)
+ident(
+  int_ref i "plugins/extraction/scheme.ml" 173 5311 5317 "plugins/extraction/scheme.ml" 173 5311 5318
+)
+"plugins/extraction/scheme.ml" 182 5560 5595 "plugins/extraction/scheme.ml" 182 5560 5603
+type(
+  Miniml.ml_ast
+)
+"plugins/extraction/scheme.ml" 182 5560 5569 "plugins/extraction/scheme.ml" 182 5560 5603
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 181 5516 5519 "plugins/extraction/scheme.ml" 182 5560 5604
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 180 5461 5475 "plugins/extraction/scheme.ml" 182 5560 5605
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 180 5461 5469 "plugins/extraction/scheme.ml" 182 5560 5605
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 183 5606 5614 "plugins/extraction/scheme.ml" 183 5606 5616
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 183 5606 5617 "plugins/extraction/scheme.ml" 183 5606 5620
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Common.fnl
+)
+"plugins/extraction/scheme.ml" 183 5606 5621 "plugins/extraction/scheme.ml" 183 5606 5623
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 183 5606 5617 "plugins/extraction/scheme.ml" 183 5606 5623
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 180 5461 5468 "plugins/extraction/scheme.ml" 183 5606 5624
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 179 5450 5455 "plugins/extraction/scheme.ml" 183 5606 5624
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 183 5606 5625 "plugins/extraction/scheme.ml" 183 5606 5627
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 183 5606 5628 "plugins/extraction/scheme.ml" 183 5606 5631
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Common.fnl
+)
+"plugins/extraction/scheme.ml" 183 5606 5632 "plugins/extraction/scheme.ml" 183 5606 5634
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 183 5606 5628 "plugins/extraction/scheme.ml" 183 5606 5634
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 179 5450 5455 "plugins/extraction/scheme.ml" 183 5606 5634
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 177 5420 5423 "plugins/extraction/scheme.ml" 183 5606 5634
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 174 5324 5327 "plugins/extraction/scheme.ml" 183 5606 5634
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 173 5311 5312 "plugins/extraction/scheme.ml" 183 5606 5635
+type(
+  int -> Libnames.global_reference -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 184 5636 5637 "plugins/extraction/scheme.ml" 184 5636 5639
+type(
+  Libnames.global_reference array
+)
+ident(
+  int_ref rv "plugins/extraction/scheme.ml" 168 5165 5175 "plugins/extraction/scheme.ml" 168 5165 5177
+)
+"plugins/extraction/scheme.ml" 172 5297 5303 "plugins/extraction/scheme.ml" 184 5636 5639
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 169 5190 5196 "plugins/extraction/scheme.ml" 184 5636 5639
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 185 5640 5651 "plugins/extraction/scheme.ml" 185 5640 5652
+type(
+  Libnames.global_reference
+)
+ident(
+  def r "plugins/extraction/scheme.ml" 186 5663 5669 "plugins/extraction/scheme.ml" 191 5859 5870
+)
+"plugins/extraction/scheme.ml" 185 5640 5654 "plugins/extraction/scheme.ml" 185 5640 5655
+type(
+  Miniml.ml_ast
+)
+ident(
+  def a "plugins/extraction/scheme.ml" 186 5663 5669 "plugins/extraction/scheme.ml" 191 5859 5870
+)
+"plugins/extraction/scheme.ml" 185 5640 5657 "plugins/extraction/scheme.ml" 185 5640 5658
+type(
+  Miniml.ml_type
+)
+"plugins/extraction/scheme.ml" 185 5640 5644 "plugins/extraction/scheme.ml" 185 5640 5659
+type(
+  Miniml.ml_decl
+)
+"plugins/extraction/scheme.ml" 186 5663 5672 "plugins/extraction/scheme.ml" 186 5663 5688
+type(
+  Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Table.is_inline_custom
+)
+"plugins/extraction/scheme.ml" 186 5663 5689 "plugins/extraction/scheme.ml" 186 5663 5690
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 185 5640 5651 "plugins/extraction/scheme.ml" 185 5640 5652
+)
+"plugins/extraction/scheme.ml" 186 5663 5672 "plugins/extraction/scheme.ml" 186 5663 5690
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 186 5663 5696 "plugins/extraction/scheme.ml" 186 5663 5698
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 186 5663 5699 "plugins/extraction/scheme.ml" 186 5663 5701
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 186 5663 5696 "plugins/extraction/scheme.ml" 186 5663 5701
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 188 5713 5714 "plugins/extraction/scheme.ml" 188 5713 5717
+type(
+  int -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.hov
+)
+"plugins/extraction/scheme.ml" 188 5713 5718 "plugins/extraction/scheme.ml" 188 5713 5719
+type(
+  int
+)
+"plugins/extraction/scheme.ml" 188 5713 5721 "plugins/extraction/scheme.ml" 188 5713 5726
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  int_ref paren "plugins/extraction/scheme.ml" 45 1399 1403 "plugins/extraction/scheme.ml" 45 1399 1408
+)
+"plugins/extraction/scheme.ml" 188 5713 5728 "plugins/extraction/scheme.ml" 188 5713 5731
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 188 5713 5732 "plugins/extraction/scheme.ml" 188 5713 5741
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 188 5713 5728 "plugins/extraction/scheme.ml" 188 5713 5741
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 188 5713 5742 "plugins/extraction/scheme.ml" 188 5713 5744
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 188 5713 5745 "plugins/extraction/scheme.ml" 188 5713 5754
+type(
+  Common.kind -> Libnames.global_reference -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_global "plugins/extraction/scheme.ml" 61 1860 1864 "plugins/extraction/scheme.ml" 61 1860 1873
+)
+"plugins/extraction/scheme.ml" 188 5713 5755 "plugins/extraction/scheme.ml" 188 5713 5759
+type(
+  Common.kind
+)
+"plugins/extraction/scheme.ml" 188 5713 5760 "plugins/extraction/scheme.ml" 188 5713 5761
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 185 5640 5651 "plugins/extraction/scheme.ml" 185 5640 5652
+)
+"plugins/extraction/scheme.ml" 188 5713 5745 "plugins/extraction/scheme.ml" 188 5713 5761
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 188 5713 5728 "plugins/extraction/scheme.ml" 188 5713 5761
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 188 5713 5762 "plugins/extraction/scheme.ml" 188 5713 5764
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 188 5713 5765 "plugins/extraction/scheme.ml" 188 5713 5768
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.spc
+)
+"plugins/extraction/scheme.ml" 188 5713 5769 "plugins/extraction/scheme.ml" 188 5713 5771
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 188 5713 5765 "plugins/extraction/scheme.ml" 188 5713 5771
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 188 5713 5728 "plugins/extraction/scheme.ml" 188 5713 5771
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 188 5713 5772 "plugins/extraction/scheme.ml" 188 5713 5774
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 189 5775 5782 "plugins/extraction/scheme.ml" 189 5775 5791
+type(
+  Libnames.global_reference -> bool
+)
+ident(
+  ext_ref Table.is_custom
+)
+"plugins/extraction/scheme.ml" 189 5775 5792 "plugins/extraction/scheme.ml" 189 5775 5793
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 185 5640 5651 "plugins/extraction/scheme.ml" 185 5640 5652
+)
+"plugins/extraction/scheme.ml" 189 5775 5782 "plugins/extraction/scheme.ml" 189 5775 5793
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/extraction/scheme.ml" 189 5775 5799 "plugins/extraction/scheme.ml" 189 5775 5802
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/extraction/scheme.ml" 189 5775 5804 "plugins/extraction/scheme.ml" 189 5775 5815
+type(
+  Libnames.global_reference -> string
+)
+ident(
+  ext_ref Table.find_custom
+)
+"plugins/extraction/scheme.ml" 189 5775 5816 "plugins/extraction/scheme.ml" 189 5775 5817
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref r "plugins/extraction/scheme.ml" 185 5640 5651 "plugins/extraction/scheme.ml" 185 5640 5652
+)
+"plugins/extraction/scheme.ml" 189 5775 5803 "plugins/extraction/scheme.ml" 189 5775 5818
+call(
+  stack
+)
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 189 5775 5799 "plugins/extraction/scheme.ml" 189 5775 5818
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 190 5819 5828 "plugins/extraction/scheme.ml" 190 5819 5835
+type(
+  Common.env -> Pp.std_ppcmds list -> Miniml.ml_ast -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_expr "plugins/extraction/scheme.ml" 65 1949 1957 "plugins/extraction/scheme.ml" 65 1949 1964
+)
+"plugins/extraction/scheme.ml" 190 5819 5837 "plugins/extraction/scheme.ml" 190 5819 5846
+type(
+  unit -> Common.env
+)
+ident(
+  ext_ref Common.empty_env
+)
+"plugins/extraction/scheme.ml" 190 5819 5847 "plugins/extraction/scheme.ml" 190 5819 5849
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 190 5819 5836 "plugins/extraction/scheme.ml" 190 5819 5850
+call(
+  stack
+)
+type(
+  Common.env
+)
+"plugins/extraction/scheme.ml" 190 5819 5851 "plugins/extraction/scheme.ml" 190 5819 5853
+type(
+  Pp.std_ppcmds list
+)
+"plugins/extraction/scheme.ml" 190 5819 5854 "plugins/extraction/scheme.ml" 190 5819 5855
+type(
+  Miniml.ml_ast
+)
+ident(
+  int_ref a "plugins/extraction/scheme.ml" 185 5640 5654 "plugins/extraction/scheme.ml" 185 5640 5655
+)
+"plugins/extraction/scheme.ml" 190 5819 5828 "plugins/extraction/scheme.ml" 190 5819 5855
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 189 5775 5778 "plugins/extraction/scheme.ml" 190 5819 5856
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 188 5713 5727 "plugins/extraction/scheme.ml" 190 5819 5857
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 188 5713 5720 "plugins/extraction/scheme.ml" 190 5819 5858
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 188 5713 5714 "plugins/extraction/scheme.ml" 190 5819 5858
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 191 5859 5860 "plugins/extraction/scheme.ml" 191 5859 5862
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/extraction/scheme.ml" 191 5859 5863 "plugins/extraction/scheme.ml" 191 5859 5867
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Common.fnl2
+)
+"plugins/extraction/scheme.ml" 191 5859 5868 "plugins/extraction/scheme.ml" 191 5859 5870
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 191 5859 5863 "plugins/extraction/scheme.ml" 191 5859 5870
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 188 5713 5714 "plugins/extraction/scheme.ml" 191 5859 5870
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 186 5663 5669 "plugins/extraction/scheme.ml" 191 5859 5870
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 165 5101 5115 "plugins/extraction/scheme.ml" 191 5859 5870
+type(
+  Miniml.ml_decl -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 193 5872 5880 "plugins/extraction/scheme.ml" 193 5872 5897
+type(
+  Names.label * Miniml.ml_structure_elem -> Pp.std_ppcmds
+)
+ident(
+  def pp_structure_elem "plugins/extraction/scheme.ml" 193 5872 5872 --
+)
+"plugins/extraction/scheme.ml" 194 5909 5914 "plugins/extraction/scheme.ml" 194 5909 5915
+type(
+  Names.label
+)
+ident(
+  def l "plugins/extraction/scheme.ml" 194 5909 5929 "plugins/extraction/scheme.ml" 194 5909 5938
+)
+"plugins/extraction/scheme.ml" 194 5909 5923 "plugins/extraction/scheme.ml" 194 5909 5924
+type(
+  Miniml.ml_decl
+)
+ident(
+  def d "plugins/extraction/scheme.ml" 194 5909 5929 "plugins/extraction/scheme.ml" 194 5909 5938
+)
+"plugins/extraction/scheme.ml" 194 5909 5916 "plugins/extraction/scheme.ml" 194 5909 5924
+type(
+  Miniml.ml_structure_elem
+)
+"plugins/extraction/scheme.ml" 194 5909 5913 "plugins/extraction/scheme.ml" 194 5909 5925
+type(
+  Names.label * Miniml.ml_structure_elem
+)
+"plugins/extraction/scheme.ml" 194 5909 5929 "plugins/extraction/scheme.ml" 194 5909 5936
+type(
+  Miniml.ml_decl -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_decl "plugins/extraction/scheme.ml" 165 5101 5105 "plugins/extraction/scheme.ml" 165 5101 5112
+)
+"plugins/extraction/scheme.ml" 194 5909 5937 "plugins/extraction/scheme.ml" 194 5909 5938
+type(
+  Miniml.ml_decl
+)
+ident(
+  int_ref d "plugins/extraction/scheme.ml" 194 5909 5923 "plugins/extraction/scheme.ml" 194 5909 5924
+)
+"plugins/extraction/scheme.ml" 194 5909 5929 "plugins/extraction/scheme.ml" 194 5909 5938
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 195 5939 5944 "plugins/extraction/scheme.ml" 195 5939 5945
+type(
+  Names.label
+)
+ident(
+  def l "plugins/extraction/scheme.ml" 195 5939 5961 "plugins/extraction/scheme.ml" 195 5939 5989
+)
+"plugins/extraction/scheme.ml" 195 5939 5955 "plugins/extraction/scheme.ml" 195 5939 5956
+type(
+  Miniml.ml_module
+)
+ident(
+  def m "plugins/extraction/scheme.ml" 195 5939 5961 "plugins/extraction/scheme.ml" 195 5939 5989
+)
+"plugins/extraction/scheme.ml" 195 5939 5946 "plugins/extraction/scheme.ml" 195 5939 5956
+type(
+  Miniml.ml_structure_elem
+)
+"plugins/extraction/scheme.ml" 195 5939 5943 "plugins/extraction/scheme.ml" 195 5939 5957
+type(
+  Names.label * Miniml.ml_structure_elem
+)
+"plugins/extraction/scheme.ml" 195 5939 5961 "plugins/extraction/scheme.ml" 195 5939 5975
+type(
+  Miniml.ml_module_expr -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_module_expr "plugins/extraction/scheme.ml" 199 6077 6081 "plugins/extraction/scheme.ml" 199 6077 6095
+)
+"plugins/extraction/scheme.ml" 195 5939 5976 "plugins/extraction/scheme.ml" 195 5939 5977
+type(
+  Miniml.ml_module
+)
+ident(
+  int_ref m "plugins/extraction/scheme.ml" 195 5939 5955 "plugins/extraction/scheme.ml" 195 5939 5956
+)
+"plugins/extraction/scheme.ml" 195 5939 5976 "plugins/extraction/scheme.ml" 195 5939 5989
+type(
+  Miniml.ml_module_expr
+)
+"plugins/extraction/scheme.ml" 195 5939 5961 "plugins/extraction/scheme.ml" 195 5939 5989
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 196 5990 5995 "plugins/extraction/scheme.ml" 196 5990 5996
+type(
+  Names.label
+)
+ident(
+  def l "plugins/extraction/scheme.ml" 196 5990 6013 "plugins/extraction/scheme.ml" 196 5990 6018
+)
+"plugins/extraction/scheme.ml" 196 5990 6007 "plugins/extraction/scheme.ml" 196 5990 6008
+type(
+  Miniml.ml_module_type
+)
+ident(
+  def m "plugins/extraction/scheme.ml" 196 5990 6013 "plugins/extraction/scheme.ml" 196 5990 6018
+)
+"plugins/extraction/scheme.ml" 196 5990 5997 "plugins/extraction/scheme.ml" 196 5990 6008
+type(
+  Miniml.ml_structure_elem
+)
+"plugins/extraction/scheme.ml" 196 5990 5994 "plugins/extraction/scheme.ml" 196 5990 6009
+type(
+  Names.label * Miniml.ml_structure_elem
+)
+"plugins/extraction/scheme.ml" 196 5990 6013 "plugins/extraction/scheme.ml" 196 5990 6015
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 196 5990 6016 "plugins/extraction/scheme.ml" 196 5990 6018
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 196 5990 6013 "plugins/extraction/scheme.ml" 196 5990 6018
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 193 5872 5900 "plugins/extraction/scheme.ml" 196 5990 6018
+type(
+  Names.label * Miniml.ml_structure_elem -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 199 6077 6081 "plugins/extraction/scheme.ml" 199 6077 6095
+type(
+  Miniml.ml_module_expr -> Pp.std_ppcmds
+)
+ident(
+  def pp_module_expr "plugins/extraction/scheme.ml" 193 5872 5872 --
+)
+"plugins/extraction/scheme.ml" 200 6107 6121 "plugins/extraction/scheme.ml" 200 6107 6123
+type(
+  Names.module_path
+)
+ident(
+  def mp "plugins/extraction/scheme.ml" 200 6107 6132 "plugins/extraction/scheme.ml" 200 6107 6167
+)
+"plugins/extraction/scheme.ml" 200 6107 6124 "plugins/extraction/scheme.ml" 200 6107 6127
+type(
+  Miniml.ml_module_structure
+)
+ident(
+  def sel "plugins/extraction/scheme.ml" 200 6107 6132 "plugins/extraction/scheme.ml" 200 6107 6167
+)
+"plugins/extraction/scheme.ml" 200 6107 6111 "plugins/extraction/scheme.ml" 200 6107 6128
+type(
+  Miniml.ml_module_expr
+)
+"plugins/extraction/scheme.ml" 200 6107 6132 "plugins/extraction/scheme.ml" 200 6107 6145
+type(
+  (Names.label * Miniml.ml_structure_elem -> Pp.std_ppcmds) ->
+  Miniml.ml_module_structure -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prlist_strict
+)
+"plugins/extraction/scheme.ml" 200 6107 6146 "plugins/extraction/scheme.ml" 200 6107 6163
+type(
+  Names.label * Miniml.ml_structure_elem -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_structure_elem "plugins/extraction/scheme.ml" 193 5872 5880 "plugins/extraction/scheme.ml" 193 5872 5897
+)
+"plugins/extraction/scheme.ml" 200 6107 6164 "plugins/extraction/scheme.ml" 200 6107 6167
+type(
+  Miniml.ml_module_structure
+)
+ident(
+  int_ref sel "plugins/extraction/scheme.ml" 200 6107 6124 "plugins/extraction/scheme.ml" 200 6107 6127
+)
+"plugins/extraction/scheme.ml" 200 6107 6132 "plugins/extraction/scheme.ml" 200 6107 6167
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 201 6168 6182 "plugins/extraction/scheme.ml" 201 6168 6183
+type(
+  Miniml.ml_module_expr
+)
+type(
+  Miniml.ml_module_type
+)
+type(
+  Names.mod_bound_id
+)
+"plugins/extraction/scheme.ml" 201 6168 6172 "plugins/extraction/scheme.ml" 201 6168 6183
+type(
+  Miniml.ml_module_expr
+)
+"plugins/extraction/scheme.ml" 201 6168 6187 "plugins/extraction/scheme.ml" 201 6168 6189
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 201 6168 6190 "plugins/extraction/scheme.ml" 201 6168 6192
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 201 6168 6187 "plugins/extraction/scheme.ml" 201 6168 6192
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 203 6257 6269 "plugins/extraction/scheme.ml" 203 6257 6270
+type(
+  Names.module_path
+)
+"plugins/extraction/scheme.ml" 203 6257 6261 "plugins/extraction/scheme.ml" 203 6257 6270
+type(
+  Miniml.ml_module_expr
+)
+"plugins/extraction/scheme.ml" 203 6257 6281 "plugins/extraction/scheme.ml" 203 6257 6282
+type(
+  Miniml.ml_module_expr
+)
+type(
+  Miniml.ml_module_expr
+)
+"plugins/extraction/scheme.ml" 203 6257 6273 "plugins/extraction/scheme.ml" 203 6257 6282
+type(
+  Miniml.ml_module_expr
+)
+"plugins/extraction/scheme.ml" 203 6257 6261 "plugins/extraction/scheme.ml" 203 6257 6282
+type(
+  Miniml.ml_module_expr
+)
+"plugins/extraction/scheme.ml" 203 6257 6286 "plugins/extraction/scheme.ml" 203 6257 6298
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 199 6077 6098 "plugins/extraction/scheme.ml" 203 6257 6298
+type(
+  Miniml.ml_module_expr -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 206 6346 6350 "plugins/extraction/scheme.ml" 206 6346 6359
+type(
+  Miniml.ml_structure -> Pp.std_ppcmds
+)
+ident(
+  def pp_struct "plugins/extraction/scheme.ml" 214 6512 6512 --
+)
+"plugins/extraction/scheme.ml" 207 6362 6368 "plugins/extraction/scheme.ml" 207 6362 6374
+type(
+  Names.module_path * (Names.label * Miniml.ml_structure_elem) list ->
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 207 6362 6376 "plugins/extraction/scheme.ml" 207 6362 6378
+type(
+  Names.module_path
+)
+ident(
+  def mp "plugins/extraction/scheme.ml" 208 6386 6390 "plugins/extraction/scheme.ml" 210 6461 6482
+)
+"plugins/extraction/scheme.ml" 207 6362 6379 "plugins/extraction/scheme.ml" 207 6362 6382
+type(
+  (Names.label * Miniml.ml_structure_elem) list
+)
+ident(
+  def sel "plugins/extraction/scheme.ml" 208 6386 6390 "plugins/extraction/scheme.ml" 210 6461 6482
+)
+"plugins/extraction/scheme.ml" 207 6362 6375 "plugins/extraction/scheme.ml" 207 6362 6383
+type(
+  Names.module_path * (Names.label * Miniml.ml_structure_elem) list
+)
+"plugins/extraction/scheme.ml" 208 6386 6390 "plugins/extraction/scheme.ml" 208 6386 6402
+type(
+  Names.module_path -> Names.module_path list -> unit
+)
+ident(
+  ext_ref Common.push_visible
+)
+"plugins/extraction/scheme.ml" 208 6386 6403 "plugins/extraction/scheme.ml" 208 6386 6405
+type(
+  Names.module_path
+)
+ident(
+  int_ref mp "plugins/extraction/scheme.ml" 207 6362 6376 "plugins/extraction/scheme.ml" 207 6362 6378
+)
+"plugins/extraction/scheme.ml" 208 6386 6406 "plugins/extraction/scheme.ml" 208 6386 6408
+type(
+  Names.module_path list
+)
+"plugins/extraction/scheme.ml" 208 6386 6390 "plugins/extraction/scheme.ml" 208 6386 6408
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 209 6410 6418 "plugins/extraction/scheme.ml" 209 6410 6419
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 209 6410 6422 "plugins/extraction/scheme.ml" 209 6410 6435
+type(
+  (Names.label * Miniml.ml_structure_elem -> Pp.std_ppcmds) ->
+  (Names.label * Miniml.ml_structure_elem) list -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prlist_strict
+)
+"plugins/extraction/scheme.ml" 209 6410 6436 "plugins/extraction/scheme.ml" 209 6410 6453
+type(
+  Names.label * Miniml.ml_structure_elem -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_structure_elem "plugins/extraction/scheme.ml" 193 5872 5880 "plugins/extraction/scheme.ml" 193 5872 5897
+)
+"plugins/extraction/scheme.ml" 209 6410 6454 "plugins/extraction/scheme.ml" 209 6410 6457
+type(
+  (Names.label * Miniml.ml_structure_elem) list
+)
+ident(
+  int_ref sel "plugins/extraction/scheme.ml" 207 6362 6379 "plugins/extraction/scheme.ml" 207 6362 6382
+)
+"plugins/extraction/scheme.ml" 209 6410 6422 "plugins/extraction/scheme.ml" 209 6410 6457
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 210 6461 6465 "plugins/extraction/scheme.ml" 210 6461 6476
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Common.pop_visible
+)
+"plugins/extraction/scheme.ml" 210 6461 6477 "plugins/extraction/scheme.ml" 210 6461 6479
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 210 6461 6465 "plugins/extraction/scheme.ml" 210 6461 6479
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 210 6461 6481 "plugins/extraction/scheme.ml" 210 6461 6482
+type(
+  Pp.std_ppcmds
+)
+ident(
+  int_ref p "plugins/extraction/scheme.ml" 209 6410 6418 "plugins/extraction/scheme.ml" 209 6410 6419
+)
+"plugins/extraction/scheme.ml" 210 6461 6465 "plugins/extraction/scheme.ml" 210 6461 6482
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 209 6410 6414 "plugins/extraction/scheme.ml" 210 6461 6482
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 208 6386 6390 "plugins/extraction/scheme.ml" 210 6461 6482
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 212 6488 6490 "plugins/extraction/scheme.ml" 212 6488 6503
+type(
+  (Names.module_path * Miniml.ml_module_structure -> Pp.std_ppcmds) ->
+  Miniml.ml_structure -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.prlist_strict
+)
+"plugins/extraction/scheme.ml" 212 6488 6504 "plugins/extraction/scheme.ml" 212 6488 6510
+type(
+  Names.module_path * Miniml.ml_module_structure -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_sel "plugins/extraction/scheme.ml" 207 6362 6368 "plugins/extraction/scheme.ml" 207 6362 6374
+)
+"plugins/extraction/scheme.ml" 212 6488 6490 "plugins/extraction/scheme.ml" 212 6488 6510
+call(
+  stack
+)
+type(
+  Miniml.ml_structure -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 207 6362 6364 "plugins/extraction/scheme.ml" 212 6488 6510
+type(
+  Miniml.ml_structure -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 214 6512 6516 "plugins/extraction/scheme.ml" 214 6512 6528
+type(
+  Miniml.language_descr
+)
+ident(
+  def scheme_descr "plugins/extraction/scheme.ml" 223 6738 6739 --
+)
+"plugins/extraction/scheme.ml" 215 6533 6546 "plugins/extraction/scheme.ml" 215 6533 6554
+type(
+  Names.Idset.t
+)
+ident(
+  int_ref keywords "plugins/extraction/scheme.ml" 25 761 765 "plugins/extraction/scheme.ml" 25 761 773
+)
+"plugins/extraction/scheme.ml" 216 6556 6572 "plugins/extraction/scheme.ml" 216 6556 6578
+type(
+  string
+)
+"plugins/extraction/scheme.ml" 217 6580 6593 "plugins/extraction/scheme.ml" 217 6580 6601
+type(
+  Names.identifier ->
+  Names.module_path list -> Miniml.unsafe_needs -> Pp.std_ppcmds
+)
+ident(
+  int_ref preamble "plugins/extraction/scheme.ml" 32 975 979 "plugins/extraction/scheme.ml" 32 975 987
+)
+"plugins/extraction/scheme.ml" 218 6603 6617 "plugins/extraction/scheme.ml" 218 6603 6626
+type(
+  Miniml.ml_structure -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_struct "plugins/extraction/scheme.ml" 206 6346 6350 "plugins/extraction/scheme.ml" 206 6346 6359
+)
+"plugins/extraction/scheme.ml" 219 6628 6643 "plugins/extraction/scheme.ml" 219 6628 6647
+type(
+  string option
+)
+"plugins/extraction/scheme.ml" 220 6649 6671 "plugins/extraction/scheme.ml" 220 6649 6672
+type(
+  Names.identifier
+)
+"plugins/extraction/scheme.ml" 220 6649 6673 "plugins/extraction/scheme.ml" 220 6649 6674
+type(
+  Names.module_path list
+)
+"plugins/extraction/scheme.ml" 220 6649 6675 "plugins/extraction/scheme.ml" 220 6649 6676
+type(
+  Miniml.unsafe_needs
+)
+"plugins/extraction/scheme.ml" 220 6649 6680 "plugins/extraction/scheme.ml" 220 6649 6682
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 220 6649 6683 "plugins/extraction/scheme.ml" 220 6649 6685
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 220 6649 6680 "plugins/extraction/scheme.ml" 220 6649 6685
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 220 6649 6666 "plugins/extraction/scheme.ml" 220 6649 6686
+type(
+  Names.identifier ->
+  Names.module_path list -> Miniml.unsafe_needs -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 221 6688 6704 "plugins/extraction/scheme.ml" 221 6688 6705
+type(
+  Miniml.ml_signature
+)
+"plugins/extraction/scheme.ml" 221 6688 6709 "plugins/extraction/scheme.ml" 221 6688 6711
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.mt
+)
+"plugins/extraction/scheme.ml" 221 6688 6712 "plugins/extraction/scheme.ml" 221 6688 6714
+type(
+  unit
+)
+"plugins/extraction/scheme.ml" 221 6688 6709 "plugins/extraction/scheme.ml" 221 6688 6714
+call(
+  tail
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 221 6688 6699 "plugins/extraction/scheme.ml" 221 6688 6715
+type(
+  Miniml.ml_signature -> Pp.std_ppcmds
+)
+"plugins/extraction/scheme.ml" 222 6717 6729 "plugins/extraction/scheme.ml" 222 6717 6736
+type(
+  Miniml.ml_decl -> Pp.std_ppcmds
+)
+ident(
+  int_ref pp_decl "plugins/extraction/scheme.ml" 165 5101 5105 "plugins/extraction/scheme.ml" 165 5101 5112
+)
+"plugins/extraction/scheme.ml" 214 6512 6531 "plugins/extraction/scheme.ml" 223 6738 6739
+type(
+  Miniml.language_descr
+)

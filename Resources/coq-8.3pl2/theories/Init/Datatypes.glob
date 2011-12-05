@@ -1,0 +1,284 @@
+FCoq.Init.Datatypes
+R630 Coq.Init.Notations <> <> lib
+R656 Coq.Init.Logic <> <> lib
+ind 779 <> unit
+constr 797 <> tt
+R802 Coq.Init.Datatypes <> unit ind
+ind 891 <> bool
+constr 909 <> true
+constr 925 <> false
+R916 Coq.Init.Datatypes <> bool ind
+R933 Coq.Init.Datatypes <> bool ind
+def 1077 <> andb
+R1089 Coq.Init.Datatypes <> bool ind
+R1097 Coq.Init.Datatypes <> bool ind
+R1124 Coq.Init.Datatypes <> false constr
+def 1143 <> orb
+R1154 Coq.Init.Datatypes <> bool ind
+R1162 Coq.Init.Datatypes <> bool ind
+R1181 Coq.Init.Datatypes <> true constr
+def 1207 <> implb
+R1220 Coq.Init.Datatypes <> bool ind
+R1228 Coq.Init.Datatypes <> bool ind
+R1255 Coq.Init.Datatypes <> true constr
+def 1273 <> xorb
+R1285 Coq.Init.Datatypes <> bool ind
+R1293 Coq.Init.Datatypes <> bool ind
+R1327 Coq.Init.Datatypes <> true constr
+R1333 Coq.Init.Datatypes <> true constr
+R1341 Coq.Init.Datatypes <> false constr
+R1353 Coq.Init.Datatypes <> true constr
+R1359 Coq.Init.Datatypes <> false constr
+R1368 Coq.Init.Datatypes <> true constr
+R1379 Coq.Init.Datatypes <> false constr
+R1386 Coq.Init.Datatypes <> true constr
+R1394 Coq.Init.Datatypes <> true constr
+R1405 Coq.Init.Datatypes <> false constr
+R1412 Coq.Init.Datatypes <> false constr
+R1421 Coq.Init.Datatypes <> false constr
+def 1446 <> negb
+R1454 Coq.Init.Datatypes <> bool ind
+R1484 Coq.Init.Datatypes <> true constr
+R1473 Coq.Init.Datatypes <> false constr
+R1505 Coq.Init.Datatypes <> orb def
+not 1497 <> :bool_scope:x_'||'_x
+R1537 Coq.Init.Datatypes <> andb def
+not 1529 <> :bool_scope:x_'&&'_x
+prf 1666 <> andb_prop
+R1722:1725 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1715:1717 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1718 Coq.Init.Datatypes <> true constr
+R1727:1729 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1730 Coq.Init.Datatypes <> true constr
+R1703:1705 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1695 Coq.Init.Datatypes <> andb def
+R1706 Coq.Init.Datatypes <> true constr
+R1689 Coq.Init.Datatypes <> bool ind
+R1689 Coq.Init.Datatypes <> bool ind
+R1837 Coq.Init.Datatypes <> andb_prop thm
+prf 1861 <> andb_true_intro
+R1936:1938 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1926 Coq.Init.Datatypes <> andb def
+R1939 Coq.Init.Datatypes <> true constr
+R1909:1912 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1902:1904 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1905 Coq.Init.Datatypes <> true constr
+R1915:1917 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1918 Coq.Init.Datatypes <> true constr
+R1894 Coq.Init.Datatypes <> bool ind
+R1894 Coq.Init.Datatypes <> bool ind
+R2038 Coq.Init.Datatypes <> andb_true_intro thm
+ind 2123 <> eq_true
+constr 2149 <> is_eq_true
+R2133 Coq.Init.Datatypes <> bool ind
+R2162 Coq.Init.Datatypes <> eq_true ind
+R2170 Coq.Init.Datatypes <> true constr
+def 2287 <> is_true
+R2301:2303 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2304 Coq.Init.Datatypes <> true constr
+prf 2466 <> eq_true_ind_r
+R2544 Coq.Init.Datatypes <> true constr
+R2529 Coq.Init.Datatypes <> eq_true ind
+R2515 Coq.Init.Datatypes <> bool ind
+R2496 Coq.Init.Datatypes <> bool ind
+prf 2622 <> eq_true_rec_r
+R2699 Coq.Init.Datatypes <> true constr
+R2684 Coq.Init.Datatypes <> eq_true ind
+R2670 Coq.Init.Datatypes <> bool ind
+R2652 Coq.Init.Datatypes <> bool ind
+prf 2777 <> eq_true_rect_r
+R2856 Coq.Init.Datatypes <> true constr
+R2841 Coq.Init.Datatypes <> eq_true ind
+R2827 Coq.Init.Datatypes <> bool ind
+R2808 Coq.Init.Datatypes <> bool ind
+ind 3178 <> nat
+constr 3195 <> O
+constr 3207 <> S
+R3199 Coq.Init.Datatypes <> nat ind
+R3218 Coq.Init.Datatypes <> nat ind
+R3211 Coq.Init.Datatypes <> nat ind
+R3305 Coq.Init.Datatypes <> S constr
+ind 3369 <> Empty_set
+ind 3589 <> identity
+constr 3630 <> identity_refl
+R3646 Coq.Init.Datatypes <> identity ind
+R3673 Coq.Init.Datatypes <> identity_refl constr
+R3714 Coq.Init.Datatypes <> identity_ind scheme
+R3751 Coq.Init.Datatypes <> identity_rec scheme
+R3788 Coq.Init.Datatypes <> identity_rect scheme
+ind 3890 <> option
+constr 3920 <> Some
+constr 3945 <> None
+R3932 Coq.Init.Datatypes <> option ind
+R3952 Coq.Init.Datatypes <> option ind
+R3982 Coq.Init.Datatypes <> None constr
+def 4004 <> option_map
+R4061 Coq.Init.Datatypes <> Some constr
+R4071 Coq.Init.Datatypes <> Some constr
+R4088 Coq.Init.Datatypes <> None constr
+R4096 Coq.Init.Datatypes <> None constr
+ind 4190 <> sum
+constr 4219 <> inl
+constr 4242 <> inr
+R4230 Coq.Init.Datatypes <> sum ind
+R4253 Coq.Init.Datatypes <> sum ind
+R4284 Coq.Init.Datatypes <> sum ind
+not 4272 <> :type_scope:x_'+'_x
+ind 4452 <> prod
+constr 4480 <> pair
+R4497 Coq.Init.Datatypes <> prod ind
+R4553 Coq.Init.Datatypes <> prod ind
+not 4541 <> :type_scope:x_'*'_x
+R4611 Coq.Init.Datatypes <> pair constr
+R4620 Coq.Init.Datatypes <> pair constr
+not 4586 <> :core_scope:'('_x_','_x_','_'..'_','_x_')'
+sec 4659 <> projections
+var 4684 projections A
+var 4686 projections B
+def 4709 <> fst
+R4717:4719 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4716 Coq.Init.Datatypes <> projections.A var
+R4720 Coq.Init.Datatypes <> projections.B var
+R4745:4745 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4747:4748 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4750:4750 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 4805 <> snd
+R4813:4815 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4812 Coq.Init.Datatypes <> projections.A var
+R4816 Coq.Init.Datatypes <> projections.B var
+R4841:4841 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4843:4844 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4846:4846 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4892 Coq.Init.Datatypes projections <> sec
+R4919 Coq.Init.Datatypes <> pair constr
+R4924 Coq.Init.Datatypes <> inl constr
+R4928 Coq.Init.Datatypes <> inr constr
+prf 4946 <> surjective_pairing
+R4999:5001 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5002 Coq.Init.Datatypes <> pair constr
+R5016 Coq.Init.Datatypes <> snd def
+R5008 Coq.Init.Datatypes <> fst def
+R4991:4993 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+prf 5070 <> injective_projections
+R5173:5175 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5158:5160 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5152 Coq.Init.Datatypes <> snd def
+R5161 Coq.Init.Datatypes <> snd def
+R5139:5141 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5133 Coq.Init.Datatypes <> fst def
+R5142 Coq.Init.Datatypes <> fst def
+R5122:5124 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R5122:5124 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+def 5308 <> prod_uncurry
+R5337 Coq.Init.Datatypes <> prod ind
+R5376 Coq.Init.Datatypes <> pair constr
+def 5399 <> prod_curry
+R5444 Coq.Init.Datatypes <> prod ind
+R5499 Coq.Init.Datatypes <> pair constr
+ind 5575 <> comparison
+constr 5599 <> Eq
+constr 5619 <> Lt
+constr 5639 <> Gt
+R5604 Coq.Init.Datatypes <> comparison ind
+R5624 Coq.Init.Datatypes <> comparison ind
+R5644 Coq.Init.Datatypes <> comparison ind
+def 5668 <> CompOpp
+R5679 Coq.Init.Datatypes <> comparison ind
+R5715 Coq.Init.Datatypes <> Eq constr
+R5721 Coq.Init.Datatypes <> Eq constr
+R5730 Coq.Init.Datatypes <> Lt constr
+R5736 Coq.Init.Datatypes <> Gt constr
+R5745 Coq.Init.Datatypes <> Gt constr
+R5751 Coq.Init.Datatypes <> Lt constr
+prf 5768 <> CompOpp_involutive
+R5818:5820 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5799 Coq.Init.Datatypes <> CompOpp def
+R5808 Coq.Init.Datatypes <> CompOpp def
+prf 5870 <> CompOpp_inj
+R5924:5926 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5906:5908 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5897 Coq.Init.Datatypes <> CompOpp def
+R5909 Coq.Init.Datatypes <> CompOpp def
+prf 5997 <> CompOpp_iff
+R6038:6042 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6033:6035 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6024 Coq.Init.Datatypes <> CompOpp def
+R6044:6046 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6047 Coq.Init.Datatypes <> CompOpp def
+R6089 Coq.Init.Datatypes <> CompOpp_inj thm
+R6110 Coq.Init.Datatypes <> CompOpp_involutive thm
+R6089 Coq.Init.Datatypes <> CompOpp_inj thm
+R6089 Coq.Init.Datatypes <> CompOpp_inj thm
+R6110 Coq.Init.Datatypes <> CompOpp_involutive thm
+R6110 Coq.Init.Datatypes <> CompOpp_involutive thm
+ind 6372 <> CompSpec
+constr 6440 <> CompEq
+constr 6484 <> CompLt
+constr 6528 <> CompGt
+R6415 Coq.Init.Datatypes <> comparison ind
+R6459 Coq.Init.Datatypes <> CompSpec ind
+R6478 Coq.Init.Datatypes <> Eq constr
+R6503 Coq.Init.Datatypes <> CompSpec ind
+R6522 Coq.Init.Datatypes <> Lt constr
+R6547 Coq.Init.Datatypes <> CompSpec ind
+R6566 Coq.Init.Datatypes <> Gt constr
+ind 6826 <> CompSpecT
+constr 6895 <> CompEqT
+constr 6941 <> CompLtT
+constr 6987 <> CompGtT
+R6870 Coq.Init.Datatypes <> comparison ind
+R6915 Coq.Init.Datatypes <> CompSpecT ind
+R6935 Coq.Init.Datatypes <> Eq constr
+R6961 Coq.Init.Datatypes <> CompSpecT ind
+R6981 Coq.Init.Datatypes <> Lt constr
+R7007 Coq.Init.Datatypes <> CompSpecT ind
+R7027 Coq.Init.Datatypes <> Gt constr
+prf 7067 <> CompSpec2Type
+R7143 Coq.Init.Datatypes <> CompSpecT ind
+R7119 Coq.Init.Datatypes <> CompSpec ind
+def 7272 <> ID
+def 7312 <> id
+R7317 Coq.Init.Datatypes <> ID def
+ind 7394 <> list
+constr 7423 <> nil
+constr 7439 <> cons
+R7429 Coq.Init.Datatypes <> list ind
+R7461 Coq.Init.Datatypes <> list ind
+R7451 Coq.Init.Datatypes <> list ind
+R7489 Coq.Init.Datatypes <> nil constr
+R7512 Coq.Init.Datatypes <> cons constr
+not 7504 <> :list_scope:x_'::'_x
+def 7677 <> length
+R7707 Coq.Init.Datatypes <> nat ind
+R7697 Coq.Init.Datatypes <> list ind
+R7752 Coq.Init.Datatypes <> nil constr
+R7759 Coq.Init.Datatypes <> O constr
+R7767:7770 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7777 Coq.Init.Datatypes <> S constr
+def 7845 <> app
+R7882 Coq.Init.Datatypes <> list ind
+R7872 Coq.Init.Datatypes <> list ind
+R7862 Coq.Init.Datatypes <> list ind
+R7929 Coq.Init.Datatypes <> nil constr
+R7944:7947 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7955:7958 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7990 Coq.Init.Datatypes <> app def
+not 7982 <> :list_scope:x_'++'_x
+syndef 8092 <> prodT
+R8101 Coq.Init.Datatypes <> prod ind
+syndef 8131 <> pairT
+R8140 Coq.Init.Datatypes <> pair constr
+syndef 8170 <> prodT_rect
+R8184 Coq.Init.Datatypes <> prod_rect scheme
+syndef 8219 <> prodT_rec
+R8232 Coq.Init.Datatypes <> prod_rec scheme
+syndef 8266 <> prodT_ind
+R8279 Coq.Init.Datatypes <> prod_ind scheme
+syndef 8313 <> fstT
+R8321 Coq.Init.Datatypes <> fst def
+syndef 8350 <> sndT
+R8358 Coq.Init.Datatypes <> snd def
+syndef 8387 <> prodT_uncurry
+R8404 Coq.Init.Datatypes <> prod_uncurry def
+syndef 8442 <> prodT_curry
+R8457 Coq.Init.Datatypes <> prod_curry def

@@ -1,0 +1,5064 @@
+"plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+type(
+  int ->
+  bool ->
+  (Sequent.t -> Proof_type.goal Tacmach.sigma -> 'a) ->
+  Sequent.t -> Proof_type.goal Tacmach.sigma -> 'a
+)
+ident(
+  def wrap "plugins/firstorder/rules.ml" 48 1465 1465 --
+)
+"plugins/firstorder/rules.ml" 29 872 881 "plugins/firstorder/rules.ml" 29 872 882
+type(
+  int
+)
+ident(
+  def n "plugins/firstorder/rules.ml" 29 872 883 "plugins/firstorder/rules.ml" 46 1442 1463
+)
+"plugins/firstorder/rules.ml" 29 872 883 "plugins/firstorder/rules.ml" 29 872 884
+type(
+  bool
+)
+ident(
+  def b "plugins/firstorder/rules.ml" 29 872 885 "plugins/firstorder/rules.ml" 46 1442 1463
+)
+"plugins/firstorder/rules.ml" 29 872 885 "plugins/firstorder/rules.ml" 29 872 893
+type(
+  Sequent.t -> Proof_type.goal Tacmach.sigma -> 'a
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 29 872 894 "plugins/firstorder/rules.ml" 46 1442 1463
+)
+"plugins/firstorder/rules.ml" 29 872 894 "plugins/firstorder/rules.ml" 29 872 897
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 29 872 898 "plugins/firstorder/rules.ml" 46 1442 1463
+)
+"plugins/firstorder/rules.ml" 29 872 898 "plugins/firstorder/rules.ml" 29 872 901
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gls "plugins/firstorder/rules.ml" 30 903 905 "plugins/firstorder/rules.ml" 46 1442 1463
+)
+"plugins/firstorder/rules.ml" 30 903 905 "plugins/firstorder/rules.ml" 30 903 924
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Util.check_for_interrupt
+)
+"plugins/firstorder/rules.ml" 30 903 925 "plugins/firstorder/rules.ml" 30 903 927
+type(
+  unit
+)
+"plugins/firstorder/rules.ml" 30 903 905 "plugins/firstorder/rules.ml" 30 903 927
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/rules.ml" 31 929 935 "plugins/firstorder/rules.ml" 31 929 937
+type(
+  Sign.named_context
+)
+"plugins/firstorder/rules.ml" 31 929 938 "plugins/firstorder/rules.ml" 31 929 945
+type(
+  Proof_type.goal Tacmach.sigma -> Sign.named_context
+)
+ident(
+  ext_ref Tacmach.pf_hyps
+)
+"plugins/firstorder/rules.ml" 31 929 946 "plugins/firstorder/rules.ml" 31 929 949
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 29 872 898 "plugins/firstorder/rules.ml" 29 872 901
+)
+"plugins/firstorder/rules.ml" 31 929 938 "plugins/firstorder/rules.ml" 31 929 949
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/firstorder/rules.ml" 32 953 959 "plugins/firstorder/rules.ml" 32 953 962
+type(
+  Environ.env
+)
+"plugins/firstorder/rules.ml" 32 953 963 "plugins/firstorder/rules.ml" 32 953 969
+type(
+  Proof_type.goal Tacmach.sigma -> Environ.env
+)
+ident(
+  ext_ref Tacmach.pf_env
+)
+"plugins/firstorder/rules.ml" 32 953 970 "plugins/firstorder/rules.ml" 32 953 973
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 29 872 898 "plugins/firstorder/rules.ml" 29 872 901
+)
+"plugins/firstorder/rules.ml" 32 953 963 "plugins/firstorder/rules.ml" 32 953 973
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/firstorder/rules.ml" 33 977 987 "plugins/firstorder/rules.ml" 33 977 990
+type(
+  int ->
+  (Names.variable * Term.types option * Term.types) list ->
+  (Names.variable * Term.types option * Term.types) list -> Sequent.t
+)
+"plugins/firstorder/rules.ml" 33 977 991 "plugins/firstorder/rules.ml" 33 977 992
+type(
+  int
+)
+ident(
+  def i "plugins/firstorder/rules.ml" 33 977 993 "plugins/firstorder/rules.ml" 42 1257 1323
+)
+"plugins/firstorder/rules.ml" 33 977 993 "plugins/firstorder/rules.ml" 33 977 995
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+ident(
+  def nc "plugins/firstorder/rules.ml" 33 977 996 "plugins/firstorder/rules.ml" 42 1257 1323
+)
+"plugins/firstorder/rules.ml" 33 977 996 "plugins/firstorder/rules.ml" 33 977 999
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+ident(
+  def ctx "plugins/firstorder/rules.ml" 34 1001 1005 "plugins/firstorder/rules.ml" 42 1257 1323
+)
+"plugins/firstorder/rules.ml" 34 1001 1008 "plugins/firstorder/rules.ml" 34 1001 1009
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/rules.ml" 33 977 991 "plugins/firstorder/rules.ml" 33 977 992
+)
+"plugins/firstorder/rules.ml" 34 1001 1009 "plugins/firstorder/rules.ml" 34 1001 1011
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"plugins/firstorder/rules.ml" 34 1001 1011 "plugins/firstorder/rules.ml" 34 1001 1012
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 34 1001 1008 "plugins/firstorder/rules.ml" 34 1001 1012
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 34 1001 1018 "plugins/firstorder/rules.ml" 34 1001 1021
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 29 872 894 "plugins/firstorder/rules.ml" 29 872 897
+)
+"plugins/firstorder/rules.ml" 35 1027 1039 "plugins/firstorder/rules.ml" 35 1027 1041
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+ident(
+  int_ref nc "plugins/firstorder/rules.ml" 33 977 993 "plugins/firstorder/rules.ml" 33 977 995
+)
+"plugins/firstorder/rules.ml" 36 1047 1050 "plugins/firstorder/rules.ml" 36 1047 1052
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+"plugins/firstorder/rules.ml" 36 1047 1054 "plugins/firstorder/rules.ml" 36 1047 1061
+type(
+  string -> Sequent.t
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/firstorder/rules.ml" 36 1047 1062 "plugins/firstorder/rules.ml" 36 1047 1095
+type(
+  string
+)
+"plugins/firstorder/rules.ml" 36 1047 1054 "plugins/firstorder/rules.ml" 36 1047 1095
+call(
+  tail
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 37 1096 1101 "plugins/firstorder/rules.ml" 37 1096 1103
+type(
+  Names.variable
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 38 1123 1128 "plugins/firstorder/rules.ml" 42 1257 1323
+)
+"plugins/firstorder/rules.ml" 37 1096 1104 "plugins/firstorder/rules.ml" 37 1096 1105
+type(
+  Term.types option
+)
+"plugins/firstorder/rules.ml" 37 1096 1106 "plugins/firstorder/rules.ml" 37 1096 1109
+type(
+  Term.types
+)
+ident(
+  def typ "plugins/firstorder/rules.ml" 38 1123 1128 "plugins/firstorder/rules.ml" 42 1257 1323
+)
+"plugins/firstorder/rules.ml" 37 1096 1100 "plugins/firstorder/rules.ml" 37 1096 1110
+type(
+  Names.variable * Term.types option * Term.types
+)
+"plugins/firstorder/rules.ml" 37 1096 1099 "plugins/firstorder/rules.ml" 37 1096 1117
+type(
+  Names.variable * Term.types option * Term.types
+)
+ident(
+  def nd "plugins/firstorder/rules.ml" 38 1123 1128 "plugins/firstorder/rules.ml" 42 1257 1323
+)
+"plugins/firstorder/rules.ml" 37 1096 1119 "plugins/firstorder/rules.ml" 37 1096 1120
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+ident(
+  def q "plugins/firstorder/rules.ml" 38 1123 1128 "plugins/firstorder/rules.ml" 42 1257 1323
+)
+"plugins/firstorder/rules.ml" 37 1096 1099 "plugins/firstorder/rules.ml" 37 1096 1120
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+"plugins/firstorder/rules.ml" 38 1123 1131 "plugins/firstorder/rules.ml" 38 1123 1140
+type(
+  Environ.env -> Names.variable -> Term.types -> bool
+)
+ident(
+  ext_ref Termops.occur_var
+)
+"plugins/firstorder/rules.ml" 38 1123 1141 "plugins/firstorder/rules.ml" 38 1123 1144
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/firstorder/rules.ml" 32 953 959 "plugins/firstorder/rules.ml" 32 953 962
+)
+"plugins/firstorder/rules.ml" 38 1123 1145 "plugins/firstorder/rules.ml" 38 1123 1147
+type(
+  Names.variable
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 37 1096 1101 "plugins/firstorder/rules.ml" 37 1096 1103
+)
+"plugins/firstorder/rules.ml" 38 1123 1149 "plugins/firstorder/rules.ml" 38 1123 1157
+type(
+  Proof_type.goal Tacmach.sigma -> Term.types
+)
+ident(
+  ext_ref Tacmach.pf_concl
+)
+"plugins/firstorder/rules.ml" 38 1123 1158 "plugins/firstorder/rules.ml" 38 1123 1161
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 29 872 898 "plugins/firstorder/rules.ml" 29 872 901
+)
+"plugins/firstorder/rules.ml" 38 1123 1148 "plugins/firstorder/rules.ml" 38 1123 1162
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/rules.ml" 38 1123 1131 "plugins/firstorder/rules.ml" 38 1123 1162
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 38 1123 1163 "plugins/firstorder/rules.ml" 38 1123 1165
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"plugins/firstorder/rules.ml" 39 1166 1173 "plugins/firstorder/rules.ml" 39 1166 1184
+type(
+  (Names.variable * Term.types option * Term.types -> bool) ->
+  (Names.variable * Term.types option * Term.types) list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"plugins/firstorder/rules.ml" 39 1166 1186 "plugins/firstorder/rules.ml" 39 1166 1203
+type(
+  Environ.env ->
+  Names.variable -> Names.variable * Term.types option * Term.types -> bool
+)
+ident(
+  ext_ref Termops.occur_var_in_decl
+)
+"plugins/firstorder/rules.ml" 39 1166 1204 "plugins/firstorder/rules.ml" 39 1166 1207
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/firstorder/rules.ml" 32 953 959 "plugins/firstorder/rules.ml" 32 953 962
+)
+"plugins/firstorder/rules.ml" 39 1166 1208 "plugins/firstorder/rules.ml" 39 1166 1210
+type(
+  Names.variable
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 37 1096 1101 "plugins/firstorder/rules.ml" 37 1096 1103
+)
+"plugins/firstorder/rules.ml" 39 1166 1185 "plugins/firstorder/rules.ml" 39 1166 1211
+call(
+  stack
+)
+type(
+  Names.variable * Term.types option * Term.types -> bool
+)
+"plugins/firstorder/rules.ml" 39 1166 1212 "plugins/firstorder/rules.ml" 39 1166 1215
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+ident(
+  int_ref ctx "plugins/firstorder/rules.ml" 33 977 996 "plugins/firstorder/rules.ml" 33 977 999
+)
+"plugins/firstorder/rules.ml" 39 1166 1173 "plugins/firstorder/rules.ml" 39 1166 1215
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 38 1123 1131 "plugins/firstorder/rules.ml" 39 1166 1215
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 40 1221 1224 "plugins/firstorder/rules.ml" 40 1221 1227
+type(
+  int ->
+  (Names.variable * Term.types option * Term.types) list ->
+  (Names.variable * Term.types option * Term.types) list -> Sequent.t
+)
+ident(
+  int_ref aux "plugins/firstorder/rules.ml" 33 977 987 "plugins/firstorder/rules.ml" 33 977 990
+)
+"plugins/firstorder/rules.ml" 40 1221 1229 "plugins/firstorder/rules.ml" 40 1221 1230
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/rules.ml" 33 977 991 "plugins/firstorder/rules.ml" 33 977 992
+)
+"plugins/firstorder/rules.ml" 40 1221 1230 "plugins/firstorder/rules.ml" 40 1221 1231
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/rules.ml" 40 1221 1231 "plugins/firstorder/rules.ml" 40 1221 1232
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 40 1221 1228 "plugins/firstorder/rules.ml" 40 1221 1233
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 40 1221 1234 "plugins/firstorder/rules.ml" 40 1221 1235
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+ident(
+  int_ref q "plugins/firstorder/rules.ml" 37 1096 1119 "plugins/firstorder/rules.ml" 37 1096 1120
+)
+"plugins/firstorder/rules.ml" 40 1221 1237 "plugins/firstorder/rules.ml" 40 1221 1239
+type(
+  Names.variable * Term.types option * Term.types
+)
+ident(
+  int_ref nd "plugins/firstorder/rules.ml" 37 1096 1099 "plugins/firstorder/rules.ml" 37 1096 1117
+)
+"plugins/firstorder/rules.ml" 40 1221 1241 "plugins/firstorder/rules.ml" 40 1221 1244
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+ident(
+  int_ref ctx "plugins/firstorder/rules.ml" 33 977 996 "plugins/firstorder/rules.ml" 33 977 999
+)
+"plugins/firstorder/rules.ml" 40 1221 1236 "plugins/firstorder/rules.ml" 40 1221 1245
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+"plugins/firstorder/rules.ml" 40 1221 1223 "plugins/firstorder/rules.ml" 40 1221 1246
+call(
+  tail
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 42 1257 1264 "plugins/firstorder/rules.ml" 42 1257 1275
+type(
+  Formula.side ->
+  Libnames.global_reference ->
+  Term.types -> Sequent.t -> Proof_type.goal Tacmach.sigma -> Sequent.t
+)
+ident(
+  ext_ref Sequent.add_formula
+)
+"plugins/firstorder/rules.ml" 42 1257 1276 "plugins/firstorder/rules.ml" 42 1257 1279
+type(
+  Formula.side
+)
+"plugins/firstorder/rules.ml" 42 1257 1288 "plugins/firstorder/rules.ml" 42 1257 1290
+type(
+  Names.variable
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 37 1096 1101 "plugins/firstorder/rules.ml" 37 1096 1103
+)
+"plugins/firstorder/rules.ml" 42 1257 1280 "plugins/firstorder/rules.ml" 42 1257 1291
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/rules.ml" 42 1257 1292 "plugins/firstorder/rules.ml" 42 1257 1295
+type(
+  Term.types
+)
+ident(
+  int_ref typ "plugins/firstorder/rules.ml" 37 1096 1106 "plugins/firstorder/rules.ml" 37 1096 1109
+)
+"plugins/firstorder/rules.ml" 42 1257 1297 "plugins/firstorder/rules.ml" 42 1257 1300
+type(
+  int ->
+  (Names.variable * Term.types option * Term.types) list ->
+  (Names.variable * Term.types option * Term.types) list -> Sequent.t
+)
+ident(
+  int_ref aux "plugins/firstorder/rules.ml" 33 977 987 "plugins/firstorder/rules.ml" 33 977 990
+)
+"plugins/firstorder/rules.ml" 42 1257 1302 "plugins/firstorder/rules.ml" 42 1257 1303
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/rules.ml" 33 977 991 "plugins/firstorder/rules.ml" 33 977 992
+)
+"plugins/firstorder/rules.ml" 42 1257 1303 "plugins/firstorder/rules.ml" 42 1257 1304
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/rules.ml" 42 1257 1304 "plugins/firstorder/rules.ml" 42 1257 1305
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 42 1257 1301 "plugins/firstorder/rules.ml" 42 1257 1306
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 42 1257 1307 "plugins/firstorder/rules.ml" 42 1257 1308
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+ident(
+  int_ref q "plugins/firstorder/rules.ml" 37 1096 1119 "plugins/firstorder/rules.ml" 37 1096 1120
+)
+"plugins/firstorder/rules.ml" 42 1257 1310 "plugins/firstorder/rules.ml" 42 1257 1312
+type(
+  Names.variable * Term.types option * Term.types
+)
+ident(
+  int_ref nd "plugins/firstorder/rules.ml" 37 1096 1099 "plugins/firstorder/rules.ml" 37 1096 1117
+)
+"plugins/firstorder/rules.ml" 42 1257 1314 "plugins/firstorder/rules.ml" 42 1257 1317
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+ident(
+  int_ref ctx "plugins/firstorder/rules.ml" 33 977 996 "plugins/firstorder/rules.ml" 33 977 999
+)
+"plugins/firstorder/rules.ml" 42 1257 1309 "plugins/firstorder/rules.ml" 42 1257 1318
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+"plugins/firstorder/rules.ml" 42 1257 1296 "plugins/firstorder/rules.ml" 42 1257 1319
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 42 1257 1320 "plugins/firstorder/rules.ml" 42 1257 1323
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 29 872 898 "plugins/firstorder/rules.ml" 29 872 901
+)
+"plugins/firstorder/rules.ml" 42 1257 1264 "plugins/firstorder/rules.ml" 42 1257 1323
+call(
+  tail
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 38 1123 1128 "plugins/firstorder/rules.ml" 42 1257 1323
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 35 1027 1033 "plugins/firstorder/rules.ml" 42 1257 1323
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 34 1001 1005 "plugins/firstorder/rules.ml" 42 1257 1323
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 43 1327 1333 "plugins/firstorder/rules.ml" 43 1327 1337
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 43 1327 1338 "plugins/firstorder/rules.ml" 43 1327 1341
+type(
+  int ->
+  Sign.named_context ->
+  (Names.variable * Term.types option * Term.types) list -> Sequent.t
+)
+ident(
+  int_ref aux "plugins/firstorder/rules.ml" 33 977 987 "plugins/firstorder/rules.ml" 33 977 990
+)
+"plugins/firstorder/rules.ml" 43 1327 1342 "plugins/firstorder/rules.ml" 43 1327 1343
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/rules.ml" 29 872 881 "plugins/firstorder/rules.ml" 29 872 882
+)
+"plugins/firstorder/rules.ml" 43 1327 1344 "plugins/firstorder/rules.ml" 43 1327 1346
+type(
+  Sign.named_context
+)
+ident(
+  int_ref nc "plugins/firstorder/rules.ml" 31 929 935 "plugins/firstorder/rules.ml" 31 929 937
+)
+"plugins/firstorder/rules.ml" 43 1327 1347 "plugins/firstorder/rules.ml" 43 1327 1349
+type(
+  (Names.variable * Term.types option * Term.types) list
+)
+"plugins/firstorder/rules.ml" 43 1327 1338 "plugins/firstorder/rules.ml" 43 1327 1349
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 44 1353 1359 "plugins/firstorder/rules.ml" 44 1353 1363
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 44 1353 1367 "plugins/firstorder/rules.ml" 44 1353 1368
+type(
+  bool
+)
+ident(
+  int_ref b "plugins/firstorder/rules.ml" 29 872 883 "plugins/firstorder/rules.ml" 29 872 884
+)
+"plugins/firstorder/rules.ml" 45 1374 1378 "plugins/firstorder/rules.ml" 45 1374 1389
+type(
+  Formula.side ->
+  Libnames.global_reference ->
+  Term.types -> Sequent.t -> Proof_type.goal Tacmach.sigma -> Sequent.t
+)
+ident(
+  ext_ref Sequent.add_formula
+)
+"plugins/firstorder/rules.ml" 45 1374 1390 "plugins/firstorder/rules.ml" 45 1374 1395
+type(
+  Formula.side
+)
+"plugins/firstorder/rules.ml" 45 1374 1396 "plugins/firstorder/rules.ml" 45 1374 1404
+type(
+  Libnames.global_reference
+)
+ident(
+  ext_ref Formula.dummy_id
+)
+"plugins/firstorder/rules.ml" 45 1374 1406 "plugins/firstorder/rules.ml" 45 1374 1414
+type(
+  Proof_type.goal Tacmach.sigma -> Term.types
+)
+ident(
+  ext_ref Tacmach.pf_concl
+)
+"plugins/firstorder/rules.ml" 45 1374 1415 "plugins/firstorder/rules.ml" 45 1374 1418
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 29 872 898 "plugins/firstorder/rules.ml" 29 872 901
+)
+"plugins/firstorder/rules.ml" 45 1374 1405 "plugins/firstorder/rules.ml" 45 1374 1419
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/rules.ml" 45 1374 1420 "plugins/firstorder/rules.ml" 45 1374 1424
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/rules.ml" 43 1327 1333 "plugins/firstorder/rules.ml" 43 1327 1337
+)
+"plugins/firstorder/rules.ml" 45 1374 1425 "plugins/firstorder/rules.ml" 45 1374 1428
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 29 872 898 "plugins/firstorder/rules.ml" 29 872 901
+)
+"plugins/firstorder/rules.ml" 45 1374 1378 "plugins/firstorder/rules.ml" 45 1374 1428
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 45 1374 1434 "plugins/firstorder/rules.ml" 45 1374 1438
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq1 "plugins/firstorder/rules.ml" 43 1327 1333 "plugins/firstorder/rules.ml" 43 1327 1337
+)
+"plugins/firstorder/rules.ml" 44 1353 1364 "plugins/firstorder/rules.ml" 45 1374 1438
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 46 1442 1446 "plugins/firstorder/rules.ml" 46 1442 1454
+type(
+  Sequent.t -> Proof_type.goal Tacmach.sigma -> 'a
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 29 872 885 "plugins/firstorder/rules.ml" 29 872 893
+)
+"plugins/firstorder/rules.ml" 46 1442 1455 "plugins/firstorder/rules.ml" 46 1442 1459
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq2 "plugins/firstorder/rules.ml" 44 1353 1359 "plugins/firstorder/rules.ml" 44 1353 1363
+)
+"plugins/firstorder/rules.ml" 46 1442 1460 "plugins/firstorder/rules.ml" 46 1442 1463
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 29 872 898 "plugins/firstorder/rules.ml" 29 872 901
+)
+"plugins/firstorder/rules.ml" 46 1442 1446 "plugins/firstorder/rules.ml" 46 1442 1463
+call(
+  tail
+)
+type(
+  'a
+)
+"plugins/firstorder/rules.ml" 44 1353 1355 "plugins/firstorder/rules.ml" 46 1442 1463
+type(
+  'a
+)
+"plugins/firstorder/rules.ml" 43 1327 1329 "plugins/firstorder/rules.ml" 46 1442 1463
+type(
+  'a
+)
+"plugins/firstorder/rules.ml" 33 977 979 "plugins/firstorder/rules.ml" 46 1442 1463
+type(
+  'a
+)
+"plugins/firstorder/rules.ml" 32 953 955 "plugins/firstorder/rules.ml" 46 1442 1463
+type(
+  'a
+)
+"plugins/firstorder/rules.ml" 31 929 931 "plugins/firstorder/rules.ml" 46 1442 1463
+type(
+  'a
+)
+"plugins/firstorder/rules.ml" 30 903 905 "plugins/firstorder/rules.ml" 46 1442 1463
+type(
+  'a
+)
+"plugins/firstorder/rules.ml" 48 1465 1469 "plugins/firstorder/rules.ml" 48 1465 1487
+type(
+  Libnames.global_reference -> Names.variable
+)
+ident(
+  def basename_of_global "plugins/firstorder/rules.ml" 52 1536 1536 --
+)
+"plugins/firstorder/rules.ml" 49 1497 1508 "plugins/firstorder/rules.ml" 49 1497 1510
+type(
+  Names.variable
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 49 1497 1512 "plugins/firstorder/rules.ml" 49 1497 1514
+)
+"plugins/firstorder/rules.ml" 49 1497 1501 "plugins/firstorder/rules.ml" 49 1497 1510
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/rules.ml" 49 1497 1512 "plugins/firstorder/rules.ml" 49 1497 1514
+type(
+  Names.variable
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 49 1497 1508 "plugins/firstorder/rules.ml" 49 1497 1510
+)
+"plugins/firstorder/rules.ml" 50 1515 1519 "plugins/firstorder/rules.ml" 50 1515 1520
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/rules.ml" 50 1515 1522 "plugins/firstorder/rules.ml" 50 1515 1534
+type(
+  Names.variable
+)
+"plugins/firstorder/rules.ml" 48 1465 1488 "plugins/firstorder/rules.ml" 50 1515 1534
+type(
+  Libnames.global_reference -> Names.variable
+)
+"plugins/firstorder/rules.ml" 52 1536 1540 "plugins/firstorder/rules.ml" 52 1536 1552
+type(
+  Libnames.global_reference -> Proof_type.tactic
+)
+ident(
+  def clear_global "plugins/firstorder/rules.ml" 59 1630 1630 --
+)
+"plugins/firstorder/rules.ml" 53 1562 1573 "plugins/firstorder/rules.ml" 53 1562 1575
+type(
+  Names.variable
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 53 1562 1577 "plugins/firstorder/rules.ml" 53 1562 1587
+)
+"plugins/firstorder/rules.ml" 53 1562 1566 "plugins/firstorder/rules.ml" 53 1562 1575
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/rules.ml" 53 1562 1577 "plugins/firstorder/rules.ml" 53 1562 1582
+type(
+  Names.variable list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.clear
+)
+"plugins/firstorder/rules.ml" 53 1562 1584 "plugins/firstorder/rules.ml" 53 1562 1586
+type(
+  Names.variable
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 53 1562 1573 "plugins/firstorder/rules.ml" 53 1562 1575
+)
+"plugins/firstorder/rules.ml" 53 1562 1583 "plugins/firstorder/rules.ml" 53 1562 1587
+type(
+  Names.variable list
+)
+"plugins/firstorder/rules.ml" 53 1562 1577 "plugins/firstorder/rules.ml" 53 1562 1587
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 54 1588 1592 "plugins/firstorder/rules.ml" 54 1588 1593
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/rules.ml" 54 1588 1595 "plugins/firstorder/rules.ml" 54 1588 1603
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIDTAC
+)
+"plugins/firstorder/rules.ml" 52 1536 1553 "plugins/firstorder/rules.ml" 54 1588 1603
+type(
+  Libnames.global_reference -> Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 59 1630 1634 "plugins/firstorder/rules.ml" 59 1630 1643
+type(
+  Term.constr -> Sequent.t -> Proof_type.tactic
+)
+ident(
+  def axiom_tac "plugins/firstorder/rules.ml" 63 1763 1763 --
+)
+"plugins/firstorder/rules.ml" 59 1630 1644 "plugins/firstorder/rules.ml" 59 1630 1645
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/rules.ml" 59 1630 1646 "plugins/firstorder/rules.ml" 61 1709 1761
+)
+"plugins/firstorder/rules.ml" 59 1630 1646 "plugins/firstorder/rules.ml" 59 1630 1649
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 60 1651 1653 "plugins/firstorder/rules.ml" 61 1709 1761
+)
+"plugins/firstorder/rules.ml" 60 1651 1657 "plugins/firstorder/rules.ml" 60 1651 1671
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.exact_no_check
+)
+"plugins/firstorder/rules.ml" 60 1651 1673 "plugins/firstorder/rules.ml" 60 1651 1689
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/rules.ml" 60 1651 1691 "plugins/firstorder/rules.ml" 60 1651 1700
+type(
+  Term.constr -> Sequent.t -> Libnames.global_reference
+)
+ident(
+  ext_ref Sequent.find_left
+)
+"plugins/firstorder/rules.ml" 60 1651 1701 "plugins/firstorder/rules.ml" 60 1651 1702
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/rules.ml" 59 1630 1644 "plugins/firstorder/rules.ml" 59 1630 1645
+)
+"plugins/firstorder/rules.ml" 60 1651 1703 "plugins/firstorder/rules.ml" 60 1651 1706
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 59 1630 1646 "plugins/firstorder/rules.ml" 59 1630 1649
+)
+"plugins/firstorder/rules.ml" 60 1651 1690 "plugins/firstorder/rules.ml" 60 1651 1707
+call(
+  stack
+)
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/rules.ml" 60 1651 1672 "plugins/firstorder/rules.ml" 60 1651 1708
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 60 1651 1657 "plugins/firstorder/rules.ml" 60 1651 1708
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 61 1709 1716 "plugins/firstorder/rules.ml" 61 1709 1725
+type(
+  exn
+)
+"plugins/firstorder/rules.ml" 61 1709 1727 "plugins/firstorder/rules.ml" 61 1709 1734
+type(
+  int -> Pp.std_ppcmds -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclFAIL
+)
+"plugins/firstorder/rules.ml" 61 1709 1735 "plugins/firstorder/rules.ml" 61 1709 1736
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 61 1709 1738 "plugins/firstorder/rules.ml" 61 1709 1744
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/firstorder/rules.ml" 61 1709 1745 "plugins/firstorder/rules.ml" 61 1709 1760
+type(
+  string
+)
+"plugins/firstorder/rules.ml" 61 1709 1737 "plugins/firstorder/rules.ml" 61 1709 1761
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/rules.ml" 61 1709 1727 "plugins/firstorder/rules.ml" 61 1709 1761
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 60 1651 1653 "plugins/firstorder/rules.ml" 61 1709 1761
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 63 1763 1767 "plugins/firstorder/rules.ml" 63 1763 1778
+type(
+  Term.constr ->
+  Proof_type.tactic ->
+  Libnames.global_reference ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  def ll_atom_tac "plugins/firstorder/rules.ml" 76 2092 2092 --
+)
+"plugins/firstorder/rules.ml" 63 1763 1779 "plugins/firstorder/rules.ml" 63 1763 1780
+type(
+  Term.constr
+)
+ident(
+  def a "plugins/firstorder/rules.ml" 63 1763 1781 "plugins/firstorder/rules.ml" 72 2018 2059
+)
+"plugins/firstorder/rules.ml" 63 1763 1781 "plugins/firstorder/rules.ml" 63 1763 1790
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/rules.ml" 63 1763 1791 "plugins/firstorder/rules.ml" 72 2018 2059
+)
+"plugins/firstorder/rules.ml" 63 1763 1791 "plugins/firstorder/rules.ml" 63 1763 1793
+type(
+  Libnames.global_reference
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 63 1763 1794 "plugins/firstorder/rules.ml" 72 2018 2059
+)
+"plugins/firstorder/rules.ml" 63 1763 1794 "plugins/firstorder/rules.ml" 63 1763 1802
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 63 1763 1803 "plugins/firstorder/rules.ml" 72 2018 2059
+)
+"plugins/firstorder/rules.ml" 63 1763 1803 "plugins/firstorder/rules.ml" 63 1763 1806
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 64 1808 1810 "plugins/firstorder/rules.ml" 72 2018 2059
+)
+"plugins/firstorder/rules.ml" 64 1808 1810 "plugins/firstorder/rules.ml" 64 1808 1823
+type(
+  Proof_type.tactic ->
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIFTHENELSE
+)
+"plugins/firstorder/rules.ml" 66 1833 1839 "plugins/firstorder/rules.ml" 66 1833 1850
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENLIST
+)
+"plugins/firstorder/rules.ml" 67 1851 1853 "plugins/firstorder/rules.ml" 67 1851 1863
+type(
+  Term.constr list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.generalize
+)
+"plugins/firstorder/rules.ml" 67 1851 1865 "plugins/firstorder/rules.ml" 67 1851 1870
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/firstorder/rules.ml" 67 1851 1871 "plugins/firstorder/rules.ml" 67 1851 1887
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/rules.ml" 67 1851 1888 "plugins/firstorder/rules.ml" 67 1851 1890
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 63 1763 1791 "plugins/firstorder/rules.ml" 63 1763 1793
+)
+"plugins/firstorder/rules.ml" 67 1851 1871 "plugins/firstorder/rules.ml" 67 1851 1890
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 68 1892 1900 "plugins/firstorder/rules.ml" 68 1892 1916
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/rules.ml" 68 1892 1918 "plugins/firstorder/rules.ml" 68 1892 1927
+type(
+  Term.constr -> Sequent.t -> Libnames.global_reference
+)
+ident(
+  ext_ref Sequent.find_left
+)
+"plugins/firstorder/rules.ml" 68 1892 1928 "plugins/firstorder/rules.ml" 68 1892 1929
+type(
+  Term.constr
+)
+ident(
+  int_ref a "plugins/firstorder/rules.ml" 63 1763 1779 "plugins/firstorder/rules.ml" 63 1763 1780
+)
+"plugins/firstorder/rules.ml" 68 1892 1930 "plugins/firstorder/rules.ml" 68 1892 1933
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 63 1763 1803 "plugins/firstorder/rules.ml" 63 1763 1806
+)
+"plugins/firstorder/rules.ml" 68 1892 1917 "plugins/firstorder/rules.ml" 68 1892 1934
+call(
+  stack
+)
+type(
+  Libnames.global_reference
+)
+"plugins/firstorder/rules.ml" 68 1892 1900 "plugins/firstorder/rules.ml" 68 1892 1934
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 68 1892 1898 "plugins/firstorder/rules.ml" 68 1892 1936
+type(
+  Term.constr array
+)
+"plugins/firstorder/rules.ml" 67 1851 1870 "plugins/firstorder/rules.ml" 68 1892 1937
+type(
+  Term.constr * Term.constr array
+)
+"plugins/firstorder/rules.ml" 67 1851 1865 "plugins/firstorder/rules.ml" 68 1892 1937
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 67 1851 1864 "plugins/firstorder/rules.ml" 68 1892 1938
+type(
+  Term.constr list
+)
+"plugins/firstorder/rules.ml" 67 1851 1853 "plugins/firstorder/rules.ml" 68 1892 1938
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 69 1940 1942 "plugins/firstorder/rules.ml" 69 1940 1954
+type(
+  Libnames.global_reference -> Proof_type.tactic
+)
+ident(
+  int_ref clear_global "plugins/firstorder/rules.ml" 52 1536 1540 "plugins/firstorder/rules.ml" 52 1536 1552
+)
+"plugins/firstorder/rules.ml" 69 1940 1955 "plugins/firstorder/rules.ml" 69 1940 1957
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 63 1763 1791 "plugins/firstorder/rules.ml" 63 1763 1793
+)
+"plugins/firstorder/rules.ml" 69 1940 1942 "plugins/firstorder/rules.ml" 69 1940 1957
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 70 1959 1961 "plugins/firstorder/rules.ml" 70 1959 1966
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.intro
+)
+"plugins/firstorder/rules.ml" 67 1851 1852 "plugins/firstorder/rules.ml" 70 1959 1967
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/rules.ml" 66 1833 1839 "plugins/firstorder/rules.ml" 70 1959 1967
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 71 1968 1977 "plugins/firstorder/rules.ml" 71 1968 1986
+type(
+  exn
+)
+"plugins/firstorder/rules.ml" 71 1968 1988 "plugins/firstorder/rules.ml" 71 1968 1995
+type(
+  int -> Pp.std_ppcmds -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclFAIL
+)
+"plugins/firstorder/rules.ml" 71 1968 1996 "plugins/firstorder/rules.ml" 71 1968 1997
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 71 1968 1999 "plugins/firstorder/rules.ml" 71 1968 2005
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/firstorder/rules.ml" 71 1968 2006 "plugins/firstorder/rules.ml" 71 1968 2015
+type(
+  string
+)
+"plugins/firstorder/rules.ml" 71 1968 1998 "plugins/firstorder/rules.ml" 71 1968 2016
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/rules.ml" 71 1968 1988 "plugins/firstorder/rules.ml" 71 1968 2016
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 65 1824 1828 "plugins/firstorder/rules.ml" 71 1968 2017
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 72 2018 2023 "plugins/firstorder/rules.ml" 72 2018 2027
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 72 2018 2028 "plugins/firstorder/rules.ml" 72 2018 2029
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 72 2018 2030 "plugins/firstorder/rules.ml" 72 2018 2035
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 72 2018 2036 "plugins/firstorder/rules.ml" 72 2018 2044
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 63 1763 1794 "plugins/firstorder/rules.ml" 63 1763 1802
+)
+"plugins/firstorder/rules.ml" 72 2018 2045 "plugins/firstorder/rules.ml" 72 2018 2048
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 63 1763 1803 "plugins/firstorder/rules.ml" 63 1763 1806
+)
+"plugins/firstorder/rules.ml" 72 2018 2022 "plugins/firstorder/rules.ml" 72 2018 2049
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 72 2018 2050 "plugins/firstorder/rules.ml" 72 2018 2059
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 63 1763 1781 "plugins/firstorder/rules.ml" 63 1763 1790
+)
+"plugins/firstorder/rules.ml" 64 1808 1810 "plugins/firstorder/rules.ml" 72 2018 2059
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 76 2092 2096 "plugins/firstorder/rules.ml" 76 2092 2103
+type(
+  Proof_type.tactic ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  def and_tac "plugins/firstorder/rules.ml" 79 2197 2197 --
+)
+"plugins/firstorder/rules.ml" 76 2092 2104 "plugins/firstorder/rules.ml" 76 2092 2113
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/rules.ml" 76 2092 2114 "plugins/firstorder/rules.ml" 77 2128 2195
+)
+"plugins/firstorder/rules.ml" 76 2092 2114 "plugins/firstorder/rules.ml" 76 2092 2122
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 76 2092 2123 "plugins/firstorder/rules.ml" 77 2128 2195
+)
+"plugins/firstorder/rules.ml" 76 2092 2123 "plugins/firstorder/rules.ml" 76 2092 2126
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 77 2128 2130 "plugins/firstorder/rules.ml" 77 2128 2195
+)
+"plugins/firstorder/rules.ml" 77 2128 2130 "plugins/firstorder/rules.ml" 77 2128 2143
+type(
+  Proof_type.tactic ->
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIFTHENELSE
+)
+"plugins/firstorder/rules.ml" 77 2128 2144 "plugins/firstorder/rules.ml" 77 2128 2158
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.simplest_split
+)
+"plugins/firstorder/rules.ml" 77 2128 2160 "plugins/firstorder/rules.ml" 77 2128 2164
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 77 2128 2165 "plugins/firstorder/rules.ml" 77 2128 2166
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 77 2128 2167 "plugins/firstorder/rules.ml" 77 2128 2171
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 77 2128 2172 "plugins/firstorder/rules.ml" 77 2128 2180
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 76 2092 2114 "plugins/firstorder/rules.ml" 76 2092 2122
+)
+"plugins/firstorder/rules.ml" 77 2128 2181 "plugins/firstorder/rules.ml" 77 2128 2184
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 76 2092 2123 "plugins/firstorder/rules.ml" 76 2092 2126
+)
+"plugins/firstorder/rules.ml" 77 2128 2159 "plugins/firstorder/rules.ml" 77 2128 2185
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 77 2128 2186 "plugins/firstorder/rules.ml" 77 2128 2195
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 76 2092 2104 "plugins/firstorder/rules.ml" 76 2092 2113
+)
+"plugins/firstorder/rules.ml" 77 2128 2130 "plugins/firstorder/rules.ml" 77 2128 2195
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 79 2197 2201 "plugins/firstorder/rules.ml" 79 2197 2207
+type(
+  Proof_type.tactic ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  def or_tac "plugins/firstorder/rules.ml" 84 2335 2335 --
+)
+"plugins/firstorder/rules.ml" 79 2197 2208 "plugins/firstorder/rules.ml" 79 2197 2217
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/rules.ml" 79 2197 2218 "plugins/firstorder/rules.ml" 82 2320 2333
+)
+"plugins/firstorder/rules.ml" 79 2197 2218 "plugins/firstorder/rules.ml" 79 2197 2226
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 79 2197 2227 "plugins/firstorder/rules.ml" 82 2320 2333
+)
+"plugins/firstorder/rules.ml" 79 2197 2227 "plugins/firstorder/rules.ml" 79 2197 2230
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 80 2232 2234 "plugins/firstorder/rules.ml" 82 2320 2333
+)
+"plugins/firstorder/rules.ml" 80 2232 2234 "plugins/firstorder/rules.ml" 80 2232 2243
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclORELSE
+)
+"plugins/firstorder/rules.ml" 81 2244 2249 "plugins/firstorder/rules.ml" 81 2244 2264
+type(
+  Tacexpr.evars_flag -> Proof_type.tactic option -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.any_constructor
+)
+"plugins/firstorder/rules.ml" 81 2244 2265 "plugins/firstorder/rules.ml" 81 2244 2270
+type(
+  Tacexpr.evars_flag
+)
+"plugins/firstorder/rules.ml" 81 2244 2278 "plugins/firstorder/rules.ml" 81 2244 2289
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclCOMPLETE
+)
+"plugins/firstorder/rules.ml" 81 2244 2291 "plugins/firstorder/rules.ml" 81 2244 2295
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 81 2244 2296 "plugins/firstorder/rules.ml" 81 2244 2297
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 81 2244 2298 "plugins/firstorder/rules.ml" 81 2244 2302
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 81 2244 2303 "plugins/firstorder/rules.ml" 81 2244 2311
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 79 2197 2218 "plugins/firstorder/rules.ml" 79 2197 2226
+)
+"plugins/firstorder/rules.ml" 81 2244 2312 "plugins/firstorder/rules.ml" 81 2244 2315
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 79 2197 2227 "plugins/firstorder/rules.ml" 79 2197 2230
+)
+"plugins/firstorder/rules.ml" 81 2244 2290 "plugins/firstorder/rules.ml" 81 2244 2316
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 81 2244 2277 "plugins/firstorder/rules.ml" 81 2244 2317
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 81 2244 2271 "plugins/firstorder/rules.ml" 81 2244 2318
+type(
+  Proof_type.tactic option
+)
+"plugins/firstorder/rules.ml" 81 2244 2248 "plugins/firstorder/rules.ml" 81 2244 2319
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 82 2320 2324 "plugins/firstorder/rules.ml" 82 2320 2333
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 79 2197 2208 "plugins/firstorder/rules.ml" 79 2197 2217
+)
+"plugins/firstorder/rules.ml" 80 2232 2234 "plugins/firstorder/rules.ml" 82 2320 2333
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 84 2335 2339 "plugins/firstorder/rules.ml" 84 2335 2348
+type(
+  Proof_type.tactic ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  def arrow_tac "plugins/firstorder/rules.ml" 91 2550 2550 --
+)
+"plugins/firstorder/rules.ml" 84 2335 2349 "plugins/firstorder/rules.ml" 84 2335 2358
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/rules.ml" 84 2335 2359 "plugins/firstorder/rules.ml" 88 2502 2519
+)
+"plugins/firstorder/rules.ml" 84 2335 2359 "plugins/firstorder/rules.ml" 84 2335 2367
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 84 2335 2368 "plugins/firstorder/rules.ml" 88 2502 2519
+)
+"plugins/firstorder/rules.ml" 84 2335 2368 "plugins/firstorder/rules.ml" 84 2335 2371
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 85 2373 2375 "plugins/firstorder/rules.ml" 88 2502 2519
+)
+"plugins/firstorder/rules.ml" 85 2373 2375 "plugins/firstorder/rules.ml" 85 2373 2388
+type(
+  Proof_type.tactic ->
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIFTHENELSE
+)
+"plugins/firstorder/rules.ml" 85 2373 2389 "plugins/firstorder/rules.ml" 85 2373 2394
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.intro
+)
+"plugins/firstorder/rules.ml" 85 2373 2396 "plugins/firstorder/rules.ml" 85 2373 2400
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 85 2373 2401 "plugins/firstorder/rules.ml" 85 2373 2402
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 85 2373 2403 "plugins/firstorder/rules.ml" 85 2373 2407
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 85 2373 2408 "plugins/firstorder/rules.ml" 85 2373 2416
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 84 2335 2359 "plugins/firstorder/rules.ml" 84 2335 2367
+)
+"plugins/firstorder/rules.ml" 85 2373 2417 "plugins/firstorder/rules.ml" 85 2373 2420
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 84 2335 2368 "plugins/firstorder/rules.ml" 84 2335 2371
+)
+"plugins/firstorder/rules.ml" 85 2373 2395 "plugins/firstorder/rules.ml" 85 2373 2421
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 86 2422 2427 "plugins/firstorder/rules.ml" 86 2422 2436
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclORELSE
+)
+"plugins/firstorder/rules.ml" 87 2437 2445 "plugins/firstorder/rules.ml" 87 2437 2452
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHEN
+)
+"plugins/firstorder/rules.ml" 87 2437 2453 "plugins/firstorder/rules.ml" 87 2437 2459
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.introf
+)
+"plugins/firstorder/rules.ml" 87 2437 2461 "plugins/firstorder/rules.ml" 87 2437 2472
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclCOMPLETE
+)
+"plugins/firstorder/rules.ml" 87 2437 2474 "plugins/firstorder/rules.ml" 87 2437 2478
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 87 2437 2479 "plugins/firstorder/rules.ml" 87 2437 2480
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 87 2437 2481 "plugins/firstorder/rules.ml" 87 2437 2485
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 87 2437 2486 "plugins/firstorder/rules.ml" 87 2437 2494
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 84 2335 2359 "plugins/firstorder/rules.ml" 84 2335 2367
+)
+"plugins/firstorder/rules.ml" 87 2437 2495 "plugins/firstorder/rules.ml" 87 2437 2498
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 84 2335 2368 "plugins/firstorder/rules.ml" 84 2335 2371
+)
+"plugins/firstorder/rules.ml" 87 2437 2473 "plugins/firstorder/rules.ml" 87 2437 2499
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 87 2437 2460 "plugins/firstorder/rules.ml" 87 2437 2500
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 87 2437 2444 "plugins/firstorder/rules.ml" 87 2437 2501
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 88 2502 2509 "plugins/firstorder/rules.ml" 88 2502 2518
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 84 2335 2349 "plugins/firstorder/rules.ml" 84 2335 2358
+)
+"plugins/firstorder/rules.ml" 86 2422 2426 "plugins/firstorder/rules.ml" 88 2502 2519
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 85 2373 2375 "plugins/firstorder/rules.ml" 88 2502 2519
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 91 2550 2554 "plugins/firstorder/rules.ml" 91 2550 2566
+type(
+  Names.inductive ->
+  Proof_type.tactic ->
+  Libnames.global_reference ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def left_and_tac "plugins/firstorder/rules.ml" 101 2821 2821 --
+)
+"plugins/firstorder/rules.ml" 91 2550 2567 "plugins/firstorder/rules.ml" 91 2550 2570
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/rules.ml" 91 2550 2571 "plugins/firstorder/rules.ml" 99 2801 2819
+)
+"plugins/firstorder/rules.ml" 91 2550 2571 "plugins/firstorder/rules.ml" 91 2550 2580
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/rules.ml" 91 2550 2581 "plugins/firstorder/rules.ml" 99 2801 2819
+)
+"plugins/firstorder/rules.ml" 91 2550 2581 "plugins/firstorder/rules.ml" 91 2550 2583
+type(
+  Libnames.global_reference
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 91 2550 2584 "plugins/firstorder/rules.ml" 99 2801 2819
+)
+"plugins/firstorder/rules.ml" 91 2550 2584 "plugins/firstorder/rules.ml" 91 2550 2592
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 91 2550 2593 "plugins/firstorder/rules.ml" 99 2801 2819
+)
+"plugins/firstorder/rules.ml" 91 2550 2593 "plugins/firstorder/rules.ml" 91 2550 2596
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 91 2550 2597 "plugins/firstorder/rules.ml" 99 2801 2819
+)
+"plugins/firstorder/rules.ml" 91 2550 2597 "plugins/firstorder/rules.ml" 91 2550 2600
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gls "plugins/firstorder/rules.ml" 92 2602 2603 "plugins/firstorder/rules.ml" 99 2801 2819
+)
+"plugins/firstorder/rules.ml" 92 2602 2607 "plugins/firstorder/rules.ml" 92 2602 2608
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 92 2602 2610 "plugins/firstorder/rules.ml" 92 2602 2625
+type(
+  Names.inductive -> Proof_type.goal Tacmach.sigma -> int array
+)
+ident(
+  ext_ref Formula.construct_nhyps
+)
+"plugins/firstorder/rules.ml" 92 2602 2626 "plugins/firstorder/rules.ml" 92 2602 2629
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/rules.ml" 91 2550 2567 "plugins/firstorder/rules.ml" 91 2550 2570
+)
+"plugins/firstorder/rules.ml" 92 2602 2630 "plugins/firstorder/rules.ml" 92 2602 2633
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 91 2550 2597 "plugins/firstorder/rules.ml" 91 2550 2600
+)
+"plugins/firstorder/rules.ml" 92 2602 2609 "plugins/firstorder/rules.ml" 92 2602 2634
+call(
+  stack
+)
+type(
+  int array
+)
+"plugins/firstorder/rules.ml" 92 2602 2636 "plugins/firstorder/rules.ml" 92 2602 2637
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 92 2602 2609 "plugins/firstorder/rules.ml" 92 2602 2638
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 93 2642 2645 "plugins/firstorder/rules.ml" 93 2642 2658
+type(
+  Proof_type.tactic ->
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIFTHENELSE
+)
+"plugins/firstorder/rules.ml" 94 2659 2665 "plugins/firstorder/rules.ml" 94 2659 2676
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENLIST
+)
+"plugins/firstorder/rules.ml" 95 2677 2684 "plugins/firstorder/rules.ml" 95 2677 2697
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.simplest_elim
+)
+"plugins/firstorder/rules.ml" 95 2677 2699 "plugins/firstorder/rules.ml" 95 2677 2715
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/rules.ml" 95 2677 2716 "plugins/firstorder/rules.ml" 95 2677 2718
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 91 2550 2581 "plugins/firstorder/rules.ml" 91 2550 2583
+)
+"plugins/firstorder/rules.ml" 95 2677 2698 "plugins/firstorder/rules.ml" 95 2677 2719
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 95 2677 2684 "plugins/firstorder/rules.ml" 95 2677 2719
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 96 2721 2728 "plugins/firstorder/rules.ml" 96 2721 2740
+type(
+  Libnames.global_reference -> Proof_type.tactic
+)
+ident(
+  int_ref clear_global "plugins/firstorder/rules.ml" 52 1536 1540 "plugins/firstorder/rules.ml" 52 1536 1552
+)
+"plugins/firstorder/rules.ml" 96 2721 2741 "plugins/firstorder/rules.ml" 96 2721 2743
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 91 2550 2581 "plugins/firstorder/rules.ml" 91 2550 2583
+)
+"plugins/firstorder/rules.ml" 96 2721 2728 "plugins/firstorder/rules.ml" 96 2721 2743
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 97 2745 2752 "plugins/firstorder/rules.ml" 97 2745 2757
+type(
+  int -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclDO
+)
+"plugins/firstorder/rules.ml" 97 2745 2758 "plugins/firstorder/rules.ml" 97 2745 2759
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/rules.ml" 92 2602 2607 "plugins/firstorder/rules.ml" 92 2602 2608
+)
+"plugins/firstorder/rules.ml" 97 2745 2760 "plugins/firstorder/rules.ml" 97 2745 2765
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.intro
+)
+"plugins/firstorder/rules.ml" 97 2745 2752 "plugins/firstorder/rules.ml" 97 2745 2765
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 95 2677 2683 "plugins/firstorder/rules.ml" 97 2745 2766
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/rules.ml" 94 2659 2664 "plugins/firstorder/rules.ml" 97 2745 2767
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 98 2768 2774 "plugins/firstorder/rules.ml" 98 2768 2778
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 98 2768 2779 "plugins/firstorder/rules.ml" 98 2768 2780
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/rules.ml" 92 2602 2607 "plugins/firstorder/rules.ml" 92 2602 2608
+)
+"plugins/firstorder/rules.ml" 98 2768 2781 "plugins/firstorder/rules.ml" 98 2768 2786
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 98 2768 2787 "plugins/firstorder/rules.ml" 98 2768 2795
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 91 2550 2584 "plugins/firstorder/rules.ml" 91 2550 2592
+)
+"plugins/firstorder/rules.ml" 98 2768 2796 "plugins/firstorder/rules.ml" 98 2768 2799
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 91 2550 2593 "plugins/firstorder/rules.ml" 91 2550 2596
+)
+"plugins/firstorder/rules.ml" 98 2768 2773 "plugins/firstorder/rules.ml" 98 2768 2800
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 99 2801 2806 "plugins/firstorder/rules.ml" 99 2801 2815
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 91 2550 2571 "plugins/firstorder/rules.ml" 91 2550 2580
+)
+"plugins/firstorder/rules.ml" 99 2801 2816 "plugins/firstorder/rules.ml" 99 2801 2819
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 91 2550 2597 "plugins/firstorder/rules.ml" 91 2550 2600
+)
+"plugins/firstorder/rules.ml" 93 2642 2645 "plugins/firstorder/rules.ml" 99 2801 2819
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 92 2602 2603 "plugins/firstorder/rules.ml" 99 2801 2819
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 101 2821 2825 "plugins/firstorder/rules.ml" 101 2821 2836
+type(
+  Names.inductive ->
+  Proof_type.tactic ->
+  Libnames.global_reference ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def left_or_tac "plugins/firstorder/rules.ml" 113 3124 3124 --
+)
+"plugins/firstorder/rules.ml" 101 2821 2837 "plugins/firstorder/rules.ml" 101 2821 2840
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/rules.ml" 101 2821 2841 "plugins/firstorder/rules.ml" 111 3103 3122
+)
+"plugins/firstorder/rules.ml" 101 2821 2841 "plugins/firstorder/rules.ml" 101 2821 2850
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/rules.ml" 101 2821 2851 "plugins/firstorder/rules.ml" 111 3103 3122
+)
+"plugins/firstorder/rules.ml" 101 2821 2851 "plugins/firstorder/rules.ml" 101 2821 2853
+type(
+  Libnames.global_reference
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 101 2821 2854 "plugins/firstorder/rules.ml" 111 3103 3122
+)
+"plugins/firstorder/rules.ml" 101 2821 2854 "plugins/firstorder/rules.ml" 101 2821 2862
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 101 2821 2863 "plugins/firstorder/rules.ml" 111 3103 3122
+)
+"plugins/firstorder/rules.ml" 101 2821 2863 "plugins/firstorder/rules.ml" 101 2821 2866
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 101 2821 2867 "plugins/firstorder/rules.ml" 111 3103 3122
+)
+"plugins/firstorder/rules.ml" 101 2821 2867 "plugins/firstorder/rules.ml" 101 2821 2870
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gls "plugins/firstorder/rules.ml" 102 2872 2874 "plugins/firstorder/rules.ml" 111 3103 3122
+)
+"plugins/firstorder/rules.ml" 102 2872 2878 "plugins/firstorder/rules.ml" 102 2872 2879
+type(
+  int array
+)
+"plugins/firstorder/rules.ml" 102 2872 2880 "plugins/firstorder/rules.ml" 102 2872 2895
+type(
+  Names.inductive -> Proof_type.goal Tacmach.sigma -> int array
+)
+ident(
+  ext_ref Formula.construct_nhyps
+)
+"plugins/firstorder/rules.ml" 102 2872 2896 "plugins/firstorder/rules.ml" 102 2872 2899
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/rules.ml" 101 2821 2837 "plugins/firstorder/rules.ml" 101 2821 2840
+)
+"plugins/firstorder/rules.ml" 102 2872 2900 "plugins/firstorder/rules.ml" 102 2872 2903
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 101 2821 2867 "plugins/firstorder/rules.ml" 101 2821 2870
+)
+"plugins/firstorder/rules.ml" 102 2872 2880 "plugins/firstorder/rules.ml" 102 2872 2903
+call(
+  stack
+)
+type(
+  int array
+)
+"plugins/firstorder/rules.ml" 103 2907 2913 "plugins/firstorder/rules.ml" 103 2907 2914
+type(
+  int -> Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 103 2907 2915 "plugins/firstorder/rules.ml" 103 2907 2916
+type(
+  int
+)
+ident(
+  def n "plugins/firstorder/rules.ml" 104 2918 2922 "plugins/firstorder/rules.ml" 107 2980 3013
+)
+"plugins/firstorder/rules.ml" 104 2918 2922 "plugins/firstorder/rules.ml" 104 2918 2933
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENLIST
+)
+"plugins/firstorder/rules.ml" 105 2934 2941 "plugins/firstorder/rules.ml" 105 2934 2953
+type(
+  Libnames.global_reference -> Proof_type.tactic
+)
+ident(
+  int_ref clear_global "plugins/firstorder/rules.ml" 52 1536 1540 "plugins/firstorder/rules.ml" 52 1536 1552
+)
+"plugins/firstorder/rules.ml" 105 2934 2954 "plugins/firstorder/rules.ml" 105 2934 2956
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 101 2821 2851 "plugins/firstorder/rules.ml" 101 2821 2853
+)
+"plugins/firstorder/rules.ml" 105 2934 2941 "plugins/firstorder/rules.ml" 105 2934 2956
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 106 2958 2965 "plugins/firstorder/rules.ml" 106 2958 2970
+type(
+  int -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclDO
+)
+"plugins/firstorder/rules.ml" 106 2958 2971 "plugins/firstorder/rules.ml" 106 2958 2972
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/rules.ml" 103 2907 2915 "plugins/firstorder/rules.ml" 103 2907 2916
+)
+"plugins/firstorder/rules.ml" 106 2958 2973 "plugins/firstorder/rules.ml" 106 2958 2978
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.intro
+)
+"plugins/firstorder/rules.ml" 106 2958 2965 "plugins/firstorder/rules.ml" 106 2958 2978
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 107 2980 2987 "plugins/firstorder/rules.ml" 107 2980 2991
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 107 2980 2992 "plugins/firstorder/rules.ml" 107 2980 2993
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/rules.ml" 103 2907 2915 "plugins/firstorder/rules.ml" 103 2907 2916
+)
+"plugins/firstorder/rules.ml" 107 2980 2994 "plugins/firstorder/rules.ml" 107 2980 2999
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 107 2980 3000 "plugins/firstorder/rules.ml" 107 2980 3008
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 101 2821 2854 "plugins/firstorder/rules.ml" 101 2821 2862
+)
+"plugins/firstorder/rules.ml" 107 2980 3009 "plugins/firstorder/rules.ml" 107 2980 3012
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 101 2821 2863 "plugins/firstorder/rules.ml" 101 2821 2866
+)
+"plugins/firstorder/rules.ml" 107 2980 2987 "plugins/firstorder/rules.ml" 107 2980 3012
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 105 2934 2940 "plugins/firstorder/rules.ml" 107 2980 3013
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/rules.ml" 104 2918 2922 "plugins/firstorder/rules.ml" 107 2980 3013
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 108 3017 3021 "plugins/firstorder/rules.ml" 108 3017 3036
+type(
+  Proof_type.tactic ->
+  Proof_type.tactic array -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIFTHENSVELSE
+)
+"plugins/firstorder/rules.ml" 109 3037 3044 "plugins/firstorder/rules.ml" 109 3037 3057
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.simplest_elim
+)
+"plugins/firstorder/rules.ml" 109 3037 3059 "plugins/firstorder/rules.ml" 109 3037 3075
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/rules.ml" 109 3037 3076 "plugins/firstorder/rules.ml" 109 3037 3078
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 101 2821 2851 "plugins/firstorder/rules.ml" 101 2821 2853
+)
+"plugins/firstorder/rules.ml" 109 3037 3058 "plugins/firstorder/rules.ml" 109 3037 3079
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 109 3037 3043 "plugins/firstorder/rules.ml" 109 3037 3080
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 110 3081 3088 "plugins/firstorder/rules.ml" 110 3081 3097
+type(
+  (int -> Proof_type.tactic) -> int array -> Proof_type.tactic array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/firstorder/rules.ml" 110 3081 3098 "plugins/firstorder/rules.ml" 110 3081 3099
+type(
+  int -> Proof_type.tactic
+)
+ident(
+  int_ref f "plugins/firstorder/rules.ml" 103 2907 2913 "plugins/firstorder/rules.ml" 103 2907 2914
+)
+"plugins/firstorder/rules.ml" 110 3081 3100 "plugins/firstorder/rules.ml" 110 3081 3101
+type(
+  int array
+)
+ident(
+  int_ref v "plugins/firstorder/rules.ml" 102 2872 2878 "plugins/firstorder/rules.ml" 102 2872 2879
+)
+"plugins/firstorder/rules.ml" 110 3081 3087 "plugins/firstorder/rules.ml" 110 3081 3102
+call(
+  stack
+)
+type(
+  Proof_type.tactic array
+)
+"plugins/firstorder/rules.ml" 111 3103 3109 "plugins/firstorder/rules.ml" 111 3103 3118
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 101 2821 2841 "plugins/firstorder/rules.ml" 101 2821 2850
+)
+"plugins/firstorder/rules.ml" 111 3103 3119 "plugins/firstorder/rules.ml" 111 3103 3122
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 101 2821 2867 "plugins/firstorder/rules.ml" 101 2821 2870
+)
+"plugins/firstorder/rules.ml" 108 3017 3021 "plugins/firstorder/rules.ml" 111 3103 3122
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 103 2907 2909 "plugins/firstorder/rules.ml" 111 3103 3122
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 102 2872 2874 "plugins/firstorder/rules.ml" 111 3103 3122
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 113 3124 3128 "plugins/firstorder/rules.ml" 113 3124 3142
+type(
+  Libnames.global_reference -> Proof_type.tactic
+)
+ident(
+  def left_false_tac "plugins/firstorder/rules.ml" 120 3276 3276 --
+)
+"plugins/firstorder/rules.ml" 113 3124 3143 "plugins/firstorder/rules.ml" 113 3124 3145
+type(
+  Libnames.global_reference
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 114 3147 3149 "plugins/firstorder/rules.ml" 114 3147 3184
+)
+"plugins/firstorder/rules.ml" 114 3147 3149 "plugins/firstorder/rules.ml" 114 3147 3162
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.simplest_elim
+)
+"plugins/firstorder/rules.ml" 114 3147 3164 "plugins/firstorder/rules.ml" 114 3147 3180
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/rules.ml" 114 3147 3181 "plugins/firstorder/rules.ml" 114 3147 3183
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 113 3124 3143 "plugins/firstorder/rules.ml" 113 3124 3145
+)
+"plugins/firstorder/rules.ml" 114 3147 3163 "plugins/firstorder/rules.ml" 114 3147 3184
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 114 3147 3149 "plugins/firstorder/rules.ml" 114 3147 3184
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 120 3276 3280 "plugins/firstorder/rules.ml" 120 3276 3290
+type(
+  Names.inductive ->
+  Term.constr list ->
+  Proof_type.tactic ->
+  Libnames.global_reference ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def ll_ind_tac "plugins/firstorder/rules.ml" 141 4043 4043 --
+)
+"plugins/firstorder/rules.ml" 120 3276 3291 "plugins/firstorder/rules.ml" 120 3276 3294
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/rules.ml" 120 3276 3295 "plugins/firstorder/rules.ml" 139 3996 4041
+)
+"plugins/firstorder/rules.ml" 120 3276 3295 "plugins/firstorder/rules.ml" 120 3276 3300
+type(
+  Term.constr list
+)
+ident(
+  def largs "plugins/firstorder/rules.ml" 120 3276 3301 "plugins/firstorder/rules.ml" 139 3996 4041
+)
+"plugins/firstorder/rules.ml" 120 3276 3301 "plugins/firstorder/rules.ml" 120 3276 3310
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/rules.ml" 120 3276 3311 "plugins/firstorder/rules.ml" 139 3996 4041
+)
+"plugins/firstorder/rules.ml" 120 3276 3311 "plugins/firstorder/rules.ml" 120 3276 3313
+type(
+  Libnames.global_reference
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 120 3276 3314 "plugins/firstorder/rules.ml" 139 3996 4041
+)
+"plugins/firstorder/rules.ml" 120 3276 3314 "plugins/firstorder/rules.ml" 120 3276 3322
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 120 3276 3323 "plugins/firstorder/rules.ml" 139 3996 4041
+)
+"plugins/firstorder/rules.ml" 120 3276 3323 "plugins/firstorder/rules.ml" 120 3276 3326
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 120 3276 3327 "plugins/firstorder/rules.ml" 139 3996 4041
+)
+"plugins/firstorder/rules.ml" 120 3276 3327 "plugins/firstorder/rules.ml" 120 3276 3329
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gl "plugins/firstorder/rules.ml" 121 3331 3336 "plugins/firstorder/rules.ml" 139 3996 4041
+)
+"plugins/firstorder/rules.ml" 121 3331 3340 "plugins/firstorder/rules.ml" 121 3331 3343
+type(
+  Term.rel_context array
+)
+"plugins/firstorder/rules.ml" 121 3331 3344 "plugins/firstorder/rules.ml" 121 3331 3352
+type(
+  int ->
+  Names.inductive ->
+  Term.constr list -> Proof_type.goal Tacmach.sigma -> Term.rel_context array
+)
+ident(
+  ext_ref Formula.ind_hyps
+)
+"plugins/firstorder/rules.ml" 121 3331 3353 "plugins/firstorder/rules.ml" 121 3331 3354
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 121 3331 3355 "plugins/firstorder/rules.ml" 121 3331 3358
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/rules.ml" 120 3276 3291 "plugins/firstorder/rules.ml" 120 3276 3294
+)
+"plugins/firstorder/rules.ml" 121 3331 3359 "plugins/firstorder/rules.ml" 121 3331 3364
+type(
+  Term.constr list
+)
+ident(
+  int_ref largs "plugins/firstorder/rules.ml" 120 3276 3295 "plugins/firstorder/rules.ml" 120 3276 3300
+)
+"plugins/firstorder/rules.ml" 121 3331 3365 "plugins/firstorder/rules.ml" 121 3331 3367
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/rules.ml" 120 3276 3327 "plugins/firstorder/rules.ml" 120 3276 3329
+)
+"plugins/firstorder/rules.ml" 121 3331 3344 "plugins/firstorder/rules.ml" 121 3331 3367
+call(
+  stack
+)
+type(
+  Term.rel_context array
+)
+"plugins/firstorder/rules.ml" 122 3371 3380 "plugins/firstorder/rules.ml" 122 3371 3385
+type(
+  Term.constr array
+)
+"plugins/firstorder/rules.ml" 122 3371 3386 "plugins/firstorder/rules.ml" 122 3371 3399
+type(
+  Term.constr list -> Term.constr array
+)
+ident(
+  ext_ref Array.of_list
+)
+"plugins/firstorder/rules.ml" 122 3371 3400 "plugins/firstorder/rules.ml" 122 3371 3405
+type(
+  Term.constr list
+)
+ident(
+  int_ref largs "plugins/firstorder/rules.ml" 120 3276 3295 "plugins/firstorder/rules.ml" 120 3276 3300
+)
+"plugins/firstorder/rules.ml" 122 3371 3386 "plugins/firstorder/rules.ml" 122 3371 3405
+call(
+  stack
+)
+type(
+  Term.constr array
+)
+"plugins/firstorder/rules.ml" 124 3467 3476 "plugins/firstorder/rules.ml" 124 3467 3482
+type(
+  int -> Term.constr
+)
+"plugins/firstorder/rules.ml" 124 3467 3483 "plugins/firstorder/rules.ml" 124 3467 3484
+type(
+  int
+)
+ident(
+  def i "plugins/firstorder/rules.ml" 125 3486 3493 "plugins/firstorder/rules.ml" 131 3771 3801
+)
+"plugins/firstorder/rules.ml" 125 3486 3497 "plugins/firstorder/rules.ml" 125 3486 3499
+type(
+  Term.rel_context
+)
+"plugins/firstorder/rules.ml" 125 3486 3500 "plugins/firstorder/rules.ml" 125 3486 3503
+type(
+  Term.rel_context array
+)
+ident(
+  int_ref rcs "plugins/firstorder/rules.ml" 121 3331 3340 "plugins/firstorder/rules.ml" 121 3331 3343
+)
+"plugins/firstorder/rules.ml" 125 3486 3505 "plugins/firstorder/rules.ml" 125 3486 3506
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/rules.ml" 124 3467 3483 "plugins/firstorder/rules.ml" 124 3467 3484
+)
+"plugins/firstorder/rules.ml" 125 3486 3500 "plugins/firstorder/rules.ml" 125 3486 3507
+type(
+  Term.rel_context
+)
+"plugins/firstorder/rules.ml" 126 3511 3522 "plugins/firstorder/rules.ml" 126 3511 3523
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 126 3511 3524 "plugins/firstorder/rules.ml" 126 3511 3535
+type(
+  Term.rel_context -> int
+)
+ident(
+  ext_ref List.length
+)
+"plugins/firstorder/rules.ml" 126 3511 3536 "plugins/firstorder/rules.ml" 126 3511 3538
+type(
+  Term.rel_context
+)
+ident(
+  int_ref rc "plugins/firstorder/rules.ml" 125 3486 3497 "plugins/firstorder/rules.ml" 125 3486 3499
+)
+"plugins/firstorder/rules.ml" 126 3511 3524 "plugins/firstorder/rules.ml" 126 3511 3538
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 127 3542 3553 "plugins/firstorder/rules.ml" 127 3542 3557
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 127 3542 3558 "plugins/firstorder/rules.ml" 127 3542 3563
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/firstorder/rules.ml" 127 3542 3566 "plugins/firstorder/rules.ml" 127 3542 3577
+type(
+  Names.constructor -> Term.constr
+)
+ident(
+  ext_ref Term.mkConstruct
+)
+"plugins/firstorder/rules.ml" 127 3542 3579 "plugins/firstorder/rules.ml" 127 3542 3582
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/rules.ml" 120 3276 3291 "plugins/firstorder/rules.ml" 120 3276 3294
+)
+"plugins/firstorder/rules.ml" 127 3542 3584 "plugins/firstorder/rules.ml" 127 3542 3585
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/rules.ml" 124 3467 3483 "plugins/firstorder/rules.ml" 124 3467 3484
+)
+"plugins/firstorder/rules.ml" 127 3542 3585 "plugins/firstorder/rules.ml" 127 3542 3586
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/firstorder/rules.ml" 127 3542 3586 "plugins/firstorder/rules.ml" 127 3542 3587
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 127 3542 3583 "plugins/firstorder/rules.ml" 127 3542 3588
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 127 3542 3578 "plugins/firstorder/rules.ml" 127 3542 3589
+type(
+  Names.constructor
+)
+"plugins/firstorder/rules.ml" 127 3542 3565 "plugins/firstorder/rules.ml" 127 3542 3590
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 127 3542 3591 "plugins/firstorder/rules.ml" 127 3542 3596
+type(
+  Term.constr array
+)
+ident(
+  int_ref vargs "plugins/firstorder/rules.ml" 122 3371 3380 "plugins/firstorder/rules.ml" 122 3371 3385
+)
+"plugins/firstorder/rules.ml" 127 3542 3564 "plugins/firstorder/rules.ml" 127 3542 3597
+type(
+  Term.constr * Term.constr array
+)
+"plugins/firstorder/rules.ml" 127 3542 3558 "plugins/firstorder/rules.ml" 127 3542 3597
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 128 3601 3612 "plugins/firstorder/rules.ml" 128 3601 3616
+type(
+  Term.constr array
+)
+"plugins/firstorder/rules.ml" 128 3601 3617 "plugins/firstorder/rules.ml" 128 3601 3627
+type(
+  int -> (int -> Term.constr) -> Term.constr array
+)
+ident(
+  ext_ref Array.init
+)
+"plugins/firstorder/rules.ml" 128 3601 3628 "plugins/firstorder/rules.ml" 128 3601 3629
+type(
+  int
+)
+ident(
+  int_ref p "plugins/firstorder/rules.ml" 126 3511 3522 "plugins/firstorder/rules.ml" 126 3511 3523
+)
+"plugins/firstorder/rules.ml" 128 3601 3635 "plugins/firstorder/rules.ml" 128 3601 3636
+type(
+  int
+)
+ident(
+  def j "plugins/firstorder/rules.ml" 128 3601 3638 "plugins/firstorder/rules.ml" 128 3601 3649
+)
+"plugins/firstorder/rules.ml" 128 3601 3638 "plugins/firstorder/rules.ml" 128 3601 3643
+type(
+  int -> Term.constr
+)
+ident(
+  ext_ref Term.mkRel
+)
+"plugins/firstorder/rules.ml" 128 3601 3645 "plugins/firstorder/rules.ml" 128 3601 3646
+type(
+  int
+)
+ident(
+  int_ref p "plugins/firstorder/rules.ml" 126 3511 3522 "plugins/firstorder/rules.ml" 126 3511 3523
+)
+"plugins/firstorder/rules.ml" 128 3601 3646 "plugins/firstorder/rules.ml" 128 3601 3647
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/rules.ml" 128 3601 3647 "plugins/firstorder/rules.ml" 128 3601 3648
+type(
+  int
+)
+ident(
+  int_ref j "plugins/firstorder/rules.ml" 128 3601 3635 "plugins/firstorder/rules.ml" 128 3601 3636
+)
+"plugins/firstorder/rules.ml" 128 3601 3644 "plugins/firstorder/rules.ml" 128 3601 3649
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 128 3601 3638 "plugins/firstorder/rules.ml" 128 3601 3649
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 128 3601 3630 "plugins/firstorder/rules.ml" 128 3601 3650
+type(
+  int -> Term.constr
+)
+"plugins/firstorder/rules.ml" 128 3601 3617 "plugins/firstorder/rules.ml" 128 3601 3650
+call(
+  stack
+)
+type(
+  Term.constr array
+)
+"plugins/firstorder/rules.ml" 129 3654 3665 "plugins/firstorder/rules.ml" 129 3654 3671
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 129 3654 3672 "plugins/firstorder/rules.ml" 129 3654 3677
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/firstorder/rules.ml" 129 3654 3680 "plugins/firstorder/rules.ml" 129 3654 3684
+type(
+  int -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.lift
+)
+"plugins/firstorder/rules.ml" 129 3654 3685 "plugins/firstorder/rules.ml" 129 3654 3686
+type(
+  int
+)
+ident(
+  int_ref p "plugins/firstorder/rules.ml" 126 3511 3522 "plugins/firstorder/rules.ml" 126 3511 3523
+)
+"plugins/firstorder/rules.ml" 129 3654 3687 "plugins/firstorder/rules.ml" 129 3654 3691
+type(
+  Term.constr
+)
+ident(
+  int_ref cstr "plugins/firstorder/rules.ml" 127 3542 3553 "plugins/firstorder/rules.ml" 127 3542 3557
+)
+"plugins/firstorder/rules.ml" 129 3654 3679 "plugins/firstorder/rules.ml" 129 3654 3692
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 129 3654 3693 "plugins/firstorder/rules.ml" 129 3654 3697
+type(
+  Term.constr array
+)
+ident(
+  int_ref vars "plugins/firstorder/rules.ml" 128 3601 3612 "plugins/firstorder/rules.ml" 128 3601 3616
+)
+"plugins/firstorder/rules.ml" 129 3654 3678 "plugins/firstorder/rules.ml" 129 3654 3698
+type(
+  Term.constr * Term.constr array
+)
+"plugins/firstorder/rules.ml" 129 3654 3672 "plugins/firstorder/rules.ml" 129 3654 3698
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 130 3702 3713 "plugins/firstorder/rules.ml" 130 3702 3717
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 130 3702 3718 "plugins/firstorder/rules.ml" 130 3702 3723
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/firstorder/rules.ml" 130 3702 3726 "plugins/firstorder/rules.ml" 130 3702 3730
+type(
+  int -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.lift
+)
+"plugins/firstorder/rules.ml" 130 3702 3731 "plugins/firstorder/rules.ml" 130 3702 3732
+type(
+  int
+)
+ident(
+  int_ref p "plugins/firstorder/rules.ml" 126 3511 3522 "plugins/firstorder/rules.ml" 126 3511 3523
+)
+"plugins/firstorder/rules.ml" 130 3702 3734 "plugins/firstorder/rules.ml" 130 3702 3750
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/rules.ml" 130 3702 3751 "plugins/firstorder/rules.ml" 130 3702 3753
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 120 3276 3311 "plugins/firstorder/rules.ml" 120 3276 3313
+)
+"plugins/firstorder/rules.ml" 130 3702 3733 "plugins/firstorder/rules.ml" 130 3702 3754
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 130 3702 3725 "plugins/firstorder/rules.ml" 130 3702 3755
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 130 3702 3758 "plugins/firstorder/rules.ml" 130 3702 3764
+type(
+  Term.constr
+)
+ident(
+  int_ref capply "plugins/firstorder/rules.ml" 129 3654 3665 "plugins/firstorder/rules.ml" 129 3654 3671
+)
+"plugins/firstorder/rules.ml" 130 3702 3756 "plugins/firstorder/rules.ml" 130 3702 3766
+type(
+  Term.constr array
+)
+"plugins/firstorder/rules.ml" 130 3702 3724 "plugins/firstorder/rules.ml" 130 3702 3767
+type(
+  Term.constr * Term.constr array
+)
+"plugins/firstorder/rules.ml" 130 3702 3718 "plugins/firstorder/rules.ml" 130 3702 3767
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 131 3771 3773 "plugins/firstorder/rules.ml" 131 3771 3793
+type(
+  init:Term.constr -> Term.rel_context -> Term.constr
+)
+ident(
+  ext_ref Termops.it_mkLambda_or_LetIn
+)
+"plugins/firstorder/rules.ml" 131 3771 3794 "plugins/firstorder/rules.ml" 131 3771 3798
+type(
+  Term.constr
+)
+ident(
+  int_ref head "plugins/firstorder/rules.ml" 130 3702 3713 "plugins/firstorder/rules.ml" 130 3702 3717
+)
+"plugins/firstorder/rules.ml" 131 3771 3799 "plugins/firstorder/rules.ml" 131 3771 3801
+type(
+  Term.rel_context
+)
+ident(
+  int_ref rc "plugins/firstorder/rules.ml" 125 3486 3497 "plugins/firstorder/rules.ml" 125 3486 3499
+)
+"plugins/firstorder/rules.ml" 131 3771 3773 "plugins/firstorder/rules.ml" 131 3771 3801
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 130 3702 3709 "plugins/firstorder/rules.ml" 131 3771 3801
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 129 3654 3661 "plugins/firstorder/rules.ml" 131 3771 3801
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 128 3601 3608 "plugins/firstorder/rules.ml" 131 3771 3801
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 127 3542 3549 "plugins/firstorder/rules.ml" 131 3771 3801
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 126 3511 3518 "plugins/firstorder/rules.ml" 131 3771 3801
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 125 3486 3493 "plugins/firstorder/rules.ml" 131 3771 3801
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 132 3805 3816 "plugins/firstorder/rules.ml" 132 3805 3818
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 132 3805 3819 "plugins/firstorder/rules.ml" 132 3805 3831
+type(
+  Term.rel_context array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"plugins/firstorder/rules.ml" 132 3805 3832 "plugins/firstorder/rules.ml" 132 3805 3835
+type(
+  Term.rel_context array
+)
+ident(
+  int_ref rcs "plugins/firstorder/rules.ml" 121 3331 3340 "plugins/firstorder/rules.ml" 121 3331 3343
+)
+"plugins/firstorder/rules.ml" 132 3805 3819 "plugins/firstorder/rules.ml" 132 3805 3835
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 133 3839 3850 "plugins/firstorder/rules.ml" 133 3839 3857
+type(
+  Term.constr list
+)
+"plugins/firstorder/rules.ml" 133 3839 3858 "plugins/firstorder/rules.ml" 133 3839 3871
+type(
+  (int -> Term.constr) -> int -> Term.constr list
+)
+ident(
+  ext_ref Util.list_tabulate
+)
+"plugins/firstorder/rules.ml" 133 3839 3872 "plugins/firstorder/rules.ml" 133 3839 3878
+type(
+  int -> Term.constr
+)
+ident(
+  int_ref myterm "plugins/firstorder/rules.ml" 124 3467 3476 "plugins/firstorder/rules.ml" 124 3467 3482
+)
+"plugins/firstorder/rules.ml" 133 3839 3879 "plugins/firstorder/rules.ml" 133 3839 3881
+type(
+  int
+)
+ident(
+  int_ref lp "plugins/firstorder/rules.ml" 132 3805 3816 "plugins/firstorder/rules.ml" 132 3805 3818
+)
+"plugins/firstorder/rules.ml" 133 3839 3858 "plugins/firstorder/rules.ml" 133 3839 3881
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/firstorder/rules.ml" 134 3885 3887 "plugins/firstorder/rules.ml" 134 3885 3900
+type(
+  Proof_type.tactic ->
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIFTHENELSE
+)
+"plugins/firstorder/rules.ml" 135 3901 3906 "plugins/firstorder/rules.ml" 135 3901 3917
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENLIST
+)
+"plugins/firstorder/rules.ml" 136 3918 3926 "plugins/firstorder/rules.ml" 136 3918 3936
+type(
+  Term.constr list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.generalize
+)
+"plugins/firstorder/rules.ml" 136 3918 3937 "plugins/firstorder/rules.ml" 136 3918 3944
+type(
+  Term.constr list
+)
+ident(
+  int_ref newhyps "plugins/firstorder/rules.ml" 133 3839 3850 "plugins/firstorder/rules.ml" 133 3839 3857
+)
+"plugins/firstorder/rules.ml" 136 3918 3926 "plugins/firstorder/rules.ml" 136 3918 3944
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 137 3946 3954 "plugins/firstorder/rules.ml" 137 3946 3966
+type(
+  Libnames.global_reference -> Proof_type.tactic
+)
+ident(
+  int_ref clear_global "plugins/firstorder/rules.ml" 52 1536 1540 "plugins/firstorder/rules.ml" 52 1536 1552
+)
+"plugins/firstorder/rules.ml" 137 3946 3967 "plugins/firstorder/rules.ml" 137 3946 3969
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 120 3276 3311 "plugins/firstorder/rules.ml" 120 3276 3313
+)
+"plugins/firstorder/rules.ml" 137 3946 3954 "plugins/firstorder/rules.ml" 137 3946 3969
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 138 3971 3979 "plugins/firstorder/rules.ml" 138 3971 3984
+type(
+  int -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclDO
+)
+"plugins/firstorder/rules.ml" 138 3971 3985 "plugins/firstorder/rules.ml" 138 3971 3987
+type(
+  int
+)
+ident(
+  int_ref lp "plugins/firstorder/rules.ml" 132 3805 3816 "plugins/firstorder/rules.ml" 132 3805 3818
+)
+"plugins/firstorder/rules.ml" 138 3971 3988 "plugins/firstorder/rules.ml" 138 3971 3993
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.intro
+)
+"plugins/firstorder/rules.ml" 138 3971 3979 "plugins/firstorder/rules.ml" 138 3971 3993
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 136 3918 3925 "plugins/firstorder/rules.ml" 138 3971 3994
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/rules.ml" 135 3901 3905 "plugins/firstorder/rules.ml" 138 3971 3995
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 139 3996 4001 "plugins/firstorder/rules.ml" 139 3996 4005
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 139 3996 4006 "plugins/firstorder/rules.ml" 139 3996 4008
+type(
+  int
+)
+ident(
+  int_ref lp "plugins/firstorder/rules.ml" 132 3805 3816 "plugins/firstorder/rules.ml" 132 3805 3818
+)
+"plugins/firstorder/rules.ml" 139 3996 4009 "plugins/firstorder/rules.ml" 139 3996 4014
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 139 3996 4015 "plugins/firstorder/rules.ml" 139 3996 4023
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 120 3276 3314 "plugins/firstorder/rules.ml" 120 3276 3322
+)
+"plugins/firstorder/rules.ml" 139 3996 4024 "plugins/firstorder/rules.ml" 139 3996 4027
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 120 3276 3323 "plugins/firstorder/rules.ml" 120 3276 3326
+)
+"plugins/firstorder/rules.ml" 139 3996 4000 "plugins/firstorder/rules.ml" 139 3996 4028
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 139 3996 4029 "plugins/firstorder/rules.ml" 139 3996 4038
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 120 3276 3301 "plugins/firstorder/rules.ml" 120 3276 3310
+)
+"plugins/firstorder/rules.ml" 139 3996 4039 "plugins/firstorder/rules.ml" 139 3996 4041
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gl "plugins/firstorder/rules.ml" 120 3276 3327 "plugins/firstorder/rules.ml" 120 3276 3329
+)
+"plugins/firstorder/rules.ml" 134 3885 3887 "plugins/firstorder/rules.ml" 139 3996 4041
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 133 3839 3846 "plugins/firstorder/rules.ml" 139 3996 4041
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 132 3805 3812 "plugins/firstorder/rules.ml" 139 3996 4041
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 124 3467 3472 "plugins/firstorder/rules.ml" 139 3996 4041
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 122 3371 3376 "plugins/firstorder/rules.ml" 139 3996 4041
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 121 3331 3336 "plugins/firstorder/rules.ml" 139 3996 4041
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 141 4043 4047 "plugins/firstorder/rules.ml" 141 4043 4059
+type(
+  Term.types ->
+  Term.types ->
+  Term.constr ->
+  Proof_type.tactic ->
+  Libnames.global_reference ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  def ll_arrow_tac "plugins/firstorder/rules.ml" 164 4632 4632 --
+)
+"plugins/firstorder/rules.ml" 141 4043 4060 "plugins/firstorder/rules.ml" 141 4043 4061
+type(
+  Term.types
+)
+ident(
+  def a "plugins/firstorder/rules.ml" 141 4043 4062 "plugins/firstorder/rules.ml" 160 4579 4594
+)
+"plugins/firstorder/rules.ml" 141 4043 4062 "plugins/firstorder/rules.ml" 141 4043 4063
+type(
+  Term.types
+)
+ident(
+  def b "plugins/firstorder/rules.ml" 141 4043 4064 "plugins/firstorder/rules.ml" 160 4579 4594
+)
+"plugins/firstorder/rules.ml" 141 4043 4064 "plugins/firstorder/rules.ml" 141 4043 4065
+type(
+  Term.constr
+)
+ident(
+  def c "plugins/firstorder/rules.ml" 141 4043 4066 "plugins/firstorder/rules.ml" 160 4579 4594
+)
+"plugins/firstorder/rules.ml" 141 4043 4066 "plugins/firstorder/rules.ml" 141 4043 4075
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/rules.ml" 141 4043 4076 "plugins/firstorder/rules.ml" 160 4579 4594
+)
+"plugins/firstorder/rules.ml" 141 4043 4076 "plugins/firstorder/rules.ml" 141 4043 4078
+type(
+  Libnames.global_reference
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 141 4043 4079 "plugins/firstorder/rules.ml" 160 4579 4594
+)
+"plugins/firstorder/rules.ml" 141 4043 4079 "plugins/firstorder/rules.ml" 141 4043 4087
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 141 4043 4088 "plugins/firstorder/rules.ml" 160 4579 4594
+)
+"plugins/firstorder/rules.ml" 141 4043 4088 "plugins/firstorder/rules.ml" 141 4043 4091
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 142 4093 4095 "plugins/firstorder/rules.ml" 160 4579 4594
+)
+"plugins/firstorder/rules.ml" 142 4093 4099 "plugins/firstorder/rules.ml" 142 4093 4101
+type(
+  Term.types
+)
+"plugins/firstorder/rules.ml" 142 4093 4102 "plugins/firstorder/rules.ml" 142 4093 4108
+type(
+  Names.name * Term.types * Term.types -> Term.types
+)
+ident(
+  ext_ref Term.mkProd
+)
+"plugins/firstorder/rules.ml" 142 4093 4109 "plugins/firstorder/rules.ml" 142 4093 4118
+type(
+  Names.name
+)
+"plugins/firstorder/rules.ml" 142 4093 4119 "plugins/firstorder/rules.ml" 142 4093 4120
+type(
+  Term.types
+)
+ident(
+  int_ref a "plugins/firstorder/rules.ml" 141 4043 4060 "plugins/firstorder/rules.ml" 141 4043 4061
+)
+"plugins/firstorder/rules.ml" 142 4093 4122 "plugins/firstorder/rules.ml" 142 4093 4126
+type(
+  int -> Term.types -> Term.types
+)
+ident(
+  ext_ref Term.lift
+)
+"plugins/firstorder/rules.ml" 142 4093 4127 "plugins/firstorder/rules.ml" 142 4093 4128
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 142 4093 4129 "plugins/firstorder/rules.ml" 142 4093 4130
+type(
+  Term.types
+)
+ident(
+  int_ref b "plugins/firstorder/rules.ml" 141 4043 4062 "plugins/firstorder/rules.ml" 141 4043 4063
+)
+"plugins/firstorder/rules.ml" 142 4093 4121 "plugins/firstorder/rules.ml" 142 4093 4131
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/rules.ml" 142 4093 4108 "plugins/firstorder/rules.ml" 142 4093 4132
+type(
+  Names.name * Term.types * Term.types
+)
+"plugins/firstorder/rules.ml" 142 4093 4102 "plugins/firstorder/rules.ml" 142 4093 4132
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/rules.ml" 143 4136 4142 "plugins/firstorder/rules.ml" 143 4136 4143
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 143 4136 4144 "plugins/firstorder/rules.ml" 143 4136 4152
+type(
+  Names.name * Term.types * Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.mkLambda
+)
+"plugins/firstorder/rules.ml" 143 4136 4154 "plugins/firstorder/rules.ml" 143 4136 4163
+type(
+  Names.name
+)
+"plugins/firstorder/rules.ml" 143 4136 4164 "plugins/firstorder/rules.ml" 143 4136 4165
+type(
+  Term.types
+)
+ident(
+  int_ref b "plugins/firstorder/rules.ml" 141 4043 4062 "plugins/firstorder/rules.ml" 141 4043 4063
+)
+"plugins/firstorder/rules.ml" 144 4167 4171 "plugins/firstorder/rules.ml" 144 4167 4176
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/firstorder/rules.ml" 144 4167 4179 "plugins/firstorder/rules.ml" 144 4167 4195
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/rules.ml" 144 4167 4196 "plugins/firstorder/rules.ml" 144 4167 4198
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 141 4043 4076 "plugins/firstorder/rules.ml" 141 4043 4078
+)
+"plugins/firstorder/rules.ml" 144 4167 4178 "plugins/firstorder/rules.ml" 144 4167 4199
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 145 4201 4207 "plugins/firstorder/rules.ml" 145 4201 4215
+type(
+  Names.name * Term.types * Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.mkLambda
+)
+"plugins/firstorder/rules.ml" 145 4201 4217 "plugins/firstorder/rules.ml" 145 4201 4226
+type(
+  Names.name
+)
+"plugins/firstorder/rules.ml" 145 4201 4228 "plugins/firstorder/rules.ml" 145 4201 4232
+type(
+  int -> Term.types -> Term.types
+)
+ident(
+  ext_ref Term.lift
+)
+"plugins/firstorder/rules.ml" 145 4201 4233 "plugins/firstorder/rules.ml" 145 4201 4234
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 145 4201 4235 "plugins/firstorder/rules.ml" 145 4201 4236
+type(
+  Term.types
+)
+ident(
+  int_ref a "plugins/firstorder/rules.ml" 141 4043 4060 "plugins/firstorder/rules.ml" 141 4043 4061
+)
+"plugins/firstorder/rules.ml" 145 4201 4227 "plugins/firstorder/rules.ml" 145 4201 4237
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/rules.ml" 145 4201 4239 "plugins/firstorder/rules.ml" 145 4201 4244
+type(
+  int -> Term.constr
+)
+ident(
+  ext_ref Term.mkRel
+)
+"plugins/firstorder/rules.ml" 145 4201 4245 "plugins/firstorder/rules.ml" 145 4201 4246
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 145 4201 4238 "plugins/firstorder/rules.ml" 145 4201 4247
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 145 4201 4216 "plugins/firstorder/rules.ml" 145 4201 4248
+type(
+  Names.name * Term.types * Term.constr
+)
+"plugins/firstorder/rules.ml" 145 4201 4207 "plugins/firstorder/rules.ml" 145 4201 4248
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 145 4201 4205 "plugins/firstorder/rules.ml" 145 4201 4250
+type(
+  Term.constr array
+)
+"plugins/firstorder/rules.ml" 144 4167 4177 "plugins/firstorder/rules.ml" 145 4201 4251
+type(
+  Term.constr * Term.constr array
+)
+"plugins/firstorder/rules.ml" 144 4167 4171 "plugins/firstorder/rules.ml" 145 4201 4251
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 143 4136 4153 "plugins/firstorder/rules.ml" 145 4201 4252
+type(
+  Names.name * Term.types * Term.constr
+)
+"plugins/firstorder/rules.ml" 143 4136 4144 "plugins/firstorder/rules.ml" 145 4201 4252
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 146 4256 4260 "plugins/firstorder/rules.ml" 146 4256 4269
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclORELSE
+)
+"plugins/firstorder/rules.ml" 147 4270 4277 "plugins/firstorder/rules.ml" 147 4270 4285
+type(
+  Proof_type.tactic -> Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENS
+)
+"plugins/firstorder/rules.ml" 147 4270 4287 "plugins/firstorder/rules.ml" 147 4270 4290
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.cut
+)
+"plugins/firstorder/rules.ml" 147 4270 4291 "plugins/firstorder/rules.ml" 147 4270 4292
+type(
+  Term.constr
+)
+ident(
+  int_ref c "plugins/firstorder/rules.ml" 141 4043 4064 "plugins/firstorder/rules.ml" 141 4043 4065
+)
+"plugins/firstorder/rules.ml" 147 4270 4286 "plugins/firstorder/rules.ml" 147 4270 4293
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 148 4294 4297 "plugins/firstorder/rules.ml" 148 4294 4308
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENLIST
+)
+"plugins/firstorder/rules.ml" 149 4309 4315 "plugins/firstorder/rules.ml" 149 4309 4321
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.introf
+)
+"plugins/firstorder/rules.ml" 150 4323 4329 "plugins/firstorder/rules.ml" 150 4323 4341
+type(
+  Libnames.global_reference -> Proof_type.tactic
+)
+ident(
+  int_ref clear_global "plugins/firstorder/rules.ml" 52 1536 1540 "plugins/firstorder/rules.ml" 52 1536 1552
+)
+"plugins/firstorder/rules.ml" 150 4323 4342 "plugins/firstorder/rules.ml" 150 4323 4344
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 141 4043 4076 "plugins/firstorder/rules.ml" 141 4043 4078
+)
+"plugins/firstorder/rules.ml" 150 4323 4329 "plugins/firstorder/rules.ml" 150 4323 4344
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 151 4346 4352 "plugins/firstorder/rules.ml" 151 4346 4356
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 151 4346 4357 "plugins/firstorder/rules.ml" 151 4346 4358
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 151 4346 4359 "plugins/firstorder/rules.ml" 151 4346 4364
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 151 4346 4365 "plugins/firstorder/rules.ml" 151 4346 4373
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 141 4043 4079 "plugins/firstorder/rules.ml" 141 4043 4087
+)
+"plugins/firstorder/rules.ml" 151 4346 4374 "plugins/firstorder/rules.ml" 151 4346 4377
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 141 4043 4088 "plugins/firstorder/rules.ml" 141 4043 4091
+)
+"plugins/firstorder/rules.ml" 151 4346 4352 "plugins/firstorder/rules.ml" 151 4346 4377
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 149 4309 4314 "plugins/firstorder/rules.ml" 151 4346 4378
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/rules.ml" 148 4294 4297 "plugins/firstorder/rules.ml" 151 4346 4378
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 152 4380 4383 "plugins/firstorder/rules.ml" 152 4380 4391
+type(
+  Proof_type.tactic -> Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENS
+)
+"plugins/firstorder/rules.ml" 152 4380 4393 "plugins/firstorder/rules.ml" 152 4380 4396
+type(
+  Term.types -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.cut
+)
+"plugins/firstorder/rules.ml" 152 4380 4397 "plugins/firstorder/rules.ml" 152 4380 4399
+type(
+  Term.types
+)
+ident(
+  int_ref cc "plugins/firstorder/rules.ml" 142 4093 4099 "plugins/firstorder/rules.ml" 142 4093 4101
+)
+"plugins/firstorder/rules.ml" 152 4380 4392 "plugins/firstorder/rules.ml" 152 4380 4400
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 153 4401 4414 "plugins/firstorder/rules.ml" 153 4401 4428
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.exact_no_check
+)
+"plugins/firstorder/rules.ml" 153 4401 4430 "plugins/firstorder/rules.ml" 153 4401 4446
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/rules.ml" 153 4401 4447 "plugins/firstorder/rules.ml" 153 4401 4449
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 141 4043 4076 "plugins/firstorder/rules.ml" 141 4043 4078
+)
+"plugins/firstorder/rules.ml" 153 4401 4429 "plugins/firstorder/rules.ml" 153 4401 4450
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 153 4401 4414 "plugins/firstorder/rules.ml" 153 4401 4450
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 154 4452 4458 "plugins/firstorder/rules.ml" 154 4452 4469
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENLIST
+)
+"plugins/firstorder/rules.ml" 155 4470 4479 "plugins/firstorder/rules.ml" 155 4470 4489
+type(
+  Term.constr list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.generalize
+)
+"plugins/firstorder/rules.ml" 155 4470 4491 "plugins/firstorder/rules.ml" 155 4470 4492
+type(
+  Term.constr
+)
+ident(
+  int_ref d "plugins/firstorder/rules.ml" 143 4136 4142 "plugins/firstorder/rules.ml" 143 4136 4143
+)
+"plugins/firstorder/rules.ml" 155 4470 4490 "plugins/firstorder/rules.ml" 155 4470 4493
+type(
+  Term.constr list
+)
+"plugins/firstorder/rules.ml" 155 4470 4479 "plugins/firstorder/rules.ml" 155 4470 4493
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 156 4495 4497 "plugins/firstorder/rules.ml" 156 4495 4509
+type(
+  Libnames.global_reference -> Proof_type.tactic
+)
+ident(
+  int_ref clear_global "plugins/firstorder/rules.ml" 52 1536 1540 "plugins/firstorder/rules.ml" 52 1536 1552
+)
+"plugins/firstorder/rules.ml" 156 4495 4510 "plugins/firstorder/rules.ml" 156 4495 4512
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 141 4043 4076 "plugins/firstorder/rules.ml" 141 4043 4078
+)
+"plugins/firstorder/rules.ml" 156 4495 4497 "plugins/firstorder/rules.ml" 156 4495 4512
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 157 4514 4516 "plugins/firstorder/rules.ml" 157 4514 4522
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.introf
+)
+"plugins/firstorder/rules.ml" 158 4524 4526 "plugins/firstorder/rules.ml" 158 4524 4532
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.introf
+)
+"plugins/firstorder/rules.ml" 159 4534 4536 "plugins/firstorder/rules.ml" 159 4534 4547
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclCOMPLETE
+)
+"plugins/firstorder/rules.ml" 159 4534 4549 "plugins/firstorder/rules.ml" 159 4534 4553
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 159 4534 4554 "plugins/firstorder/rules.ml" 159 4534 4555
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 159 4534 4556 "plugins/firstorder/rules.ml" 159 4534 4560
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 159 4534 4561 "plugins/firstorder/rules.ml" 159 4534 4569
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 141 4043 4079 "plugins/firstorder/rules.ml" 141 4043 4087
+)
+"plugins/firstorder/rules.ml" 159 4534 4570 "plugins/firstorder/rules.ml" 159 4534 4573
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 141 4043 4088 "plugins/firstorder/rules.ml" 141 4043 4091
+)
+"plugins/firstorder/rules.ml" 159 4534 4548 "plugins/firstorder/rules.ml" 159 4534 4574
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 159 4534 4536 "plugins/firstorder/rules.ml" 159 4534 4574
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 155 4470 4478 "plugins/firstorder/rules.ml" 159 4534 4575
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/rules.ml" 154 4452 4458 "plugins/firstorder/rules.ml" 159 4534 4575
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 153 4401 4413 "plugins/firstorder/rules.ml" 159 4534 4576
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/rules.ml" 152 4380 4383 "plugins/firstorder/rules.ml" 159 4534 4576
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 148 4294 4296 "plugins/firstorder/rules.ml" 159 4534 4577
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/rules.ml" 147 4270 4276 "plugins/firstorder/rules.ml" 159 4534 4578
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 160 4579 4585 "plugins/firstorder/rules.ml" 160 4579 4594
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 141 4043 4066 "plugins/firstorder/rules.ml" 141 4043 4075
+)
+"plugins/firstorder/rules.ml" 146 4256 4260 "plugins/firstorder/rules.ml" 160 4579 4594
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 143 4136 4138 "plugins/firstorder/rules.ml" 160 4579 4594
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 142 4093 4095 "plugins/firstorder/rules.ml" 160 4579 4594
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 164 4632 4636 "plugins/firstorder/rules.ml" 164 4632 4646
+type(
+  Proof_type.tactic ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  def forall_tac "plugins/firstorder/rules.ml" 175 4935 4935 --
+)
+"plugins/firstorder/rules.ml" 164 4632 4647 "plugins/firstorder/rules.ml" 164 4632 4656
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/rules.ml" 164 4632 4657 "plugins/firstorder/rules.ml" 173 4916 4933
+)
+"plugins/firstorder/rules.ml" 164 4632 4657 "plugins/firstorder/rules.ml" 164 4632 4665
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 164 4632 4666 "plugins/firstorder/rules.ml" 173 4916 4933
+)
+"plugins/firstorder/rules.ml" 164 4632 4666 "plugins/firstorder/rules.ml" 164 4632 4669
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 165 4671 4673 "plugins/firstorder/rules.ml" 173 4916 4933
+)
+"plugins/firstorder/rules.ml" 165 4671 4673 "plugins/firstorder/rules.ml" 165 4671 4682
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclORELSE
+)
+"plugins/firstorder/rules.ml" 166 4683 4688 "plugins/firstorder/rules.ml" 166 4683 4701
+type(
+  Proof_type.tactic ->
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIFTHENELSE
+)
+"plugins/firstorder/rules.ml" 166 4683 4702 "plugins/firstorder/rules.ml" 166 4683 4707
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.intro
+)
+"plugins/firstorder/rules.ml" 166 4683 4709 "plugins/firstorder/rules.ml" 166 4683 4713
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 166 4683 4714 "plugins/firstorder/rules.ml" 166 4683 4715
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 166 4683 4716 "plugins/firstorder/rules.ml" 166 4683 4720
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 166 4683 4721 "plugins/firstorder/rules.ml" 166 4683 4729
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 164 4632 4657 "plugins/firstorder/rules.ml" 164 4632 4665
+)
+"plugins/firstorder/rules.ml" 166 4683 4730 "plugins/firstorder/rules.ml" 166 4683 4733
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 164 4632 4666 "plugins/firstorder/rules.ml" 164 4632 4669
+)
+"plugins/firstorder/rules.ml" 166 4683 4708 "plugins/firstorder/rules.ml" 166 4683 4734
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 167 4735 4743 "plugins/firstorder/rules.ml" 167 4735 4752
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclORELSE
+)
+"plugins/firstorder/rules.ml" 168 4753 4757 "plugins/firstorder/rules.ml" 168 4753 4764
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHEN
+)
+"plugins/firstorder/rules.ml" 168 4753 4765 "plugins/firstorder/rules.ml" 168 4753 4771
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.introf
+)
+"plugins/firstorder/rules.ml" 168 4753 4773 "plugins/firstorder/rules.ml" 168 4753 4784
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclCOMPLETE
+)
+"plugins/firstorder/rules.ml" 168 4753 4786 "plugins/firstorder/rules.ml" 168 4753 4790
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 168 4753 4791 "plugins/firstorder/rules.ml" 168 4753 4792
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 168 4753 4793 "plugins/firstorder/rules.ml" 168 4753 4797
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 168 4753 4798 "plugins/firstorder/rules.ml" 168 4753 4806
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 164 4632 4657 "plugins/firstorder/rules.ml" 164 4632 4665
+)
+"plugins/firstorder/rules.ml" 168 4753 4807 "plugins/firstorder/rules.ml" 168 4753 4810
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 164 4632 4666 "plugins/firstorder/rules.ml" 164 4632 4669
+)
+"plugins/firstorder/rules.ml" 168 4753 4785 "plugins/firstorder/rules.ml" 168 4753 4811
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 168 4753 4772 "plugins/firstorder/rules.ml" 168 4753 4812
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 168 4753 4756 "plugins/firstorder/rules.ml" 168 4753 4813
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 169 4814 4817 "plugins/firstorder/rules.ml" 169 4814 4826
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 164 4632 4647 "plugins/firstorder/rules.ml" 164 4632 4656
+)
+"plugins/firstorder/rules.ml" 167 4735 4742 "plugins/firstorder/rules.ml" 169 4814 4827
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 166 4683 4687 "plugins/firstorder/rules.ml" 169 4814 4828
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 170 4829 4837 "plugins/firstorder/rules.ml" 170 4829 4838
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/rules.ml" 170 4829 4838 "plugins/firstorder/rules.ml" 170 4829 4843
+type(
+  bool ref
+)
+ident(
+  ext_ref Formula.qflag
+)
+"plugins/firstorder/rules.ml" 170 4829 4837 "plugins/firstorder/rules.ml" 170 4829 4843
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 171 4849 4856 "plugins/firstorder/rules.ml" 171 4849 4863
+type(
+  int -> Pp.std_ppcmds -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclFAIL
+)
+"plugins/firstorder/rules.ml" 171 4849 4864 "plugins/firstorder/rules.ml" 171 4849 4865
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 171 4849 4867 "plugins/firstorder/rules.ml" 171 4849 4873
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/firstorder/rules.ml" 171 4849 4874 "plugins/firstorder/rules.ml" 171 4849 4904
+type(
+  string
+)
+"plugins/firstorder/rules.ml" 171 4849 4866 "plugins/firstorder/rules.ml" 171 4849 4905
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/firstorder/rules.ml" 171 4849 4856 "plugins/firstorder/rules.ml" 171 4849 4905
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 173 4916 4923 "plugins/firstorder/rules.ml" 173 4916 4932
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 164 4632 4647 "plugins/firstorder/rules.ml" 164 4632 4656
+)
+"plugins/firstorder/rules.ml" 170 4829 4833 "plugins/firstorder/rules.ml" 173 4916 4933
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 165 4671 4673 "plugins/firstorder/rules.ml" 173 4916 4933
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 175 4935 4939 "plugins/firstorder/rules.ml" 175 4935 4954
+type(
+  Names.inductive ->
+  Proof_type.tactic ->
+  Libnames.global_reference ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def left_exists_tac "plugins/firstorder/rules.ml" 185 5246 5246 --
+)
+"plugins/firstorder/rules.ml" 175 4935 4955 "plugins/firstorder/rules.ml" 175 4935 4958
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/firstorder/rules.ml" 175 4935 4959 "plugins/firstorder/rules.ml" 183 5235 5244
+)
+"plugins/firstorder/rules.ml" 175 4935 4959 "plugins/firstorder/rules.ml" 175 4935 4968
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/rules.ml" 175 4935 4969 "plugins/firstorder/rules.ml" 183 5235 5244
+)
+"plugins/firstorder/rules.ml" 175 4935 4969 "plugins/firstorder/rules.ml" 175 4935 4971
+type(
+  Libnames.global_reference
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 175 4935 4972 "plugins/firstorder/rules.ml" 183 5235 5244
+)
+"plugins/firstorder/rules.ml" 175 4935 4972 "plugins/firstorder/rules.ml" 175 4935 4980
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 175 4935 4981 "plugins/firstorder/rules.ml" 183 5235 5244
+)
+"plugins/firstorder/rules.ml" 175 4935 4981 "plugins/firstorder/rules.ml" 175 4935 4984
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 175 4935 4985 "plugins/firstorder/rules.ml" 183 5235 5244
+)
+"plugins/firstorder/rules.ml" 175 4935 4985 "plugins/firstorder/rules.ml" 175 4935 4988
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gls "plugins/firstorder/rules.ml" 176 4990 4992 "plugins/firstorder/rules.ml" 183 5235 5244
+)
+"plugins/firstorder/rules.ml" 176 4990 4996 "plugins/firstorder/rules.ml" 176 4990 4997
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 176 4990 4999 "plugins/firstorder/rules.ml" 176 4990 5014
+type(
+  Names.inductive -> Proof_type.goal Tacmach.sigma -> int array
+)
+ident(
+  ext_ref Formula.construct_nhyps
+)
+"plugins/firstorder/rules.ml" 176 4990 5015 "plugins/firstorder/rules.ml" 176 4990 5018
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/firstorder/rules.ml" 175 4935 4955 "plugins/firstorder/rules.ml" 175 4935 4958
+)
+"plugins/firstorder/rules.ml" 176 4990 5019 "plugins/firstorder/rules.ml" 176 4990 5022
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 175 4935 4985 "plugins/firstorder/rules.ml" 175 4935 4988
+)
+"plugins/firstorder/rules.ml" 176 4990 4998 "plugins/firstorder/rules.ml" 176 4990 5023
+call(
+  stack
+)
+type(
+  int array
+)
+"plugins/firstorder/rules.ml" 176 4990 5025 "plugins/firstorder/rules.ml" 176 4990 5026
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 176 4990 4998 "plugins/firstorder/rules.ml" 176 4990 5027
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 177 5031 5035 "plugins/firstorder/rules.ml" 177 5031 5048
+type(
+  Proof_type.tactic ->
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclIFTHENELSE
+)
+"plugins/firstorder/rules.ml" 178 5049 5056 "plugins/firstorder/rules.ml" 178 5049 5069
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.simplest_elim
+)
+"plugins/firstorder/rules.ml" 178 5049 5071 "plugins/firstorder/rules.ml" 178 5049 5087
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/rules.ml" 178 5049 5088 "plugins/firstorder/rules.ml" 178 5049 5090
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 175 4935 4969 "plugins/firstorder/rules.ml" 175 4935 4971
+)
+"plugins/firstorder/rules.ml" 178 5049 5070 "plugins/firstorder/rules.ml" 178 5049 5091
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 178 5049 5055 "plugins/firstorder/rules.ml" 178 5049 5092
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 179 5093 5100 "plugins/firstorder/rules.ml" 179 5093 5111
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENLIST
+)
+"plugins/firstorder/rules.ml" 179 5093 5113 "plugins/firstorder/rules.ml" 179 5093 5125
+type(
+  Libnames.global_reference -> Proof_type.tactic
+)
+ident(
+  int_ref clear_global "plugins/firstorder/rules.ml" 52 1536 1540 "plugins/firstorder/rules.ml" 52 1536 1552
+)
+"plugins/firstorder/rules.ml" 179 5093 5126 "plugins/firstorder/rules.ml" 179 5093 5128
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 175 4935 4969 "plugins/firstorder/rules.ml" 175 4935 4971
+)
+"plugins/firstorder/rules.ml" 179 5093 5113 "plugins/firstorder/rules.ml" 179 5093 5128
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 180 5130 5150 "plugins/firstorder/rules.ml" 180 5130 5155
+type(
+  int -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclDO
+)
+"plugins/firstorder/rules.ml" 180 5130 5156 "plugins/firstorder/rules.ml" 180 5130 5157
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/rules.ml" 176 4990 4996 "plugins/firstorder/rules.ml" 176 4990 4997
+)
+"plugins/firstorder/rules.ml" 180 5130 5158 "plugins/firstorder/rules.ml" 180 5130 5163
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.intro
+)
+"plugins/firstorder/rules.ml" 180 5130 5150 "plugins/firstorder/rules.ml" 180 5130 5163
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 181 5165 5186 "plugins/firstorder/rules.ml" 181 5165 5190
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 181 5165 5192 "plugins/firstorder/rules.ml" 181 5165 5193
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/rules.ml" 176 4990 4996 "plugins/firstorder/rules.ml" 176 4990 4997
+)
+"plugins/firstorder/rules.ml" 181 5165 5193 "plugins/firstorder/rules.ml" 181 5165 5194
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/rules.ml" 181 5165 5194 "plugins/firstorder/rules.ml" 181 5165 5195
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 181 5165 5191 "plugins/firstorder/rules.ml" 181 5165 5196
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 181 5165 5197 "plugins/firstorder/rules.ml" 181 5165 5202
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 181 5165 5203 "plugins/firstorder/rules.ml" 181 5165 5211
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 175 4935 4972 "plugins/firstorder/rules.ml" 175 4935 4980
+)
+"plugins/firstorder/rules.ml" 181 5165 5212 "plugins/firstorder/rules.ml" 181 5165 5215
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 175 4935 4981 "plugins/firstorder/rules.ml" 175 4935 4984
+)
+"plugins/firstorder/rules.ml" 181 5165 5185 "plugins/firstorder/rules.ml" 181 5165 5216
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 179 5093 5112 "plugins/firstorder/rules.ml" 181 5165 5217
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/rules.ml" 179 5093 5099 "plugins/firstorder/rules.ml" 181 5165 5218
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 182 5219 5225 "plugins/firstorder/rules.ml" 182 5219 5234
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 175 4935 4959 "plugins/firstorder/rules.ml" 175 4935 4968
+)
+"plugins/firstorder/rules.ml" 183 5235 5241 "plugins/firstorder/rules.ml" 183 5235 5244
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 175 4935 4985 "plugins/firstorder/rules.ml" 175 4935 4988
+)
+"plugins/firstorder/rules.ml" 177 5031 5035 "plugins/firstorder/rules.ml" 183 5235 5244
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 176 4990 4992 "plugins/firstorder/rules.ml" 183 5235 5244
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 185 5246 5250 "plugins/firstorder/rules.ml" 185 5246 5263
+type(
+  Term.constr ->
+  Proof_type.tactic ->
+  Libnames.global_reference ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  def ll_forall_tac "plugins/firstorder/rules.ml" 204 5805 5805 --
+)
+"plugins/firstorder/rules.ml" 185 5246 5264 "plugins/firstorder/rules.ml" 185 5246 5268
+type(
+  Term.constr
+)
+ident(
+  def prod "plugins/firstorder/rules.ml" 185 5246 5269 "plugins/firstorder/rules.ml" 198 5668 5681
+)
+"plugins/firstorder/rules.ml" 185 5246 5269 "plugins/firstorder/rules.ml" 185 5246 5278
+type(
+  Proof_type.tactic
+)
+ident(
+  def backtrack "plugins/firstorder/rules.ml" 185 5246 5279 "plugins/firstorder/rules.ml" 198 5668 5681
+)
+"plugins/firstorder/rules.ml" 185 5246 5279 "plugins/firstorder/rules.ml" 185 5246 5281
+type(
+  Libnames.global_reference
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 185 5246 5282 "plugins/firstorder/rules.ml" 198 5668 5681
+)
+"plugins/firstorder/rules.ml" 185 5246 5282 "plugins/firstorder/rules.ml" 185 5246 5290
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  def continue "plugins/firstorder/rules.ml" 185 5246 5291 "plugins/firstorder/rules.ml" 198 5668 5681
+)
+"plugins/firstorder/rules.ml" 185 5246 5291 "plugins/firstorder/rules.ml" 185 5246 5294
+type(
+  Sequent.t
+)
+ident(
+  def seq "plugins/firstorder/rules.ml" 186 5296 5298 "plugins/firstorder/rules.ml" 198 5668 5681
+)
+"plugins/firstorder/rules.ml" 186 5296 5298 "plugins/firstorder/rules.ml" 186 5296 5307
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclORELSE
+)
+"plugins/firstorder/rules.ml" 187 5308 5313 "plugins/firstorder/rules.ml" 187 5308 5321
+type(
+  Proof_type.tactic -> Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENS
+)
+"plugins/firstorder/rules.ml" 187 5308 5323 "plugins/firstorder/rules.ml" 187 5308 5326
+type(
+  Term.constr -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.cut
+)
+"plugins/firstorder/rules.ml" 187 5308 5327 "plugins/firstorder/rules.ml" 187 5308 5331
+type(
+  Term.constr
+)
+ident(
+  int_ref prod "plugins/firstorder/rules.ml" 185 5246 5264 "plugins/firstorder/rules.ml" 185 5246 5268
+)
+"plugins/firstorder/rules.ml" 187 5308 5322 "plugins/firstorder/rules.ml" 187 5308 5332
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 188 5333 5341 "plugins/firstorder/rules.ml" 188 5333 5352
+type(
+  Proof_type.tactic list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHENLIST
+)
+"plugins/firstorder/rules.ml" 189 5353 5357 "plugins/firstorder/rules.ml" 189 5353 5362
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.intro
+)
+"plugins/firstorder/rules.ml" 190 5364 5373 "plugins/firstorder/rules.ml" 190 5364 5376
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  def gls "plugins/firstorder/rules.ml" 191 5379 5386 "plugins/firstorder/rules.ml" 193 5480 5527
+)
+"plugins/firstorder/rules.ml" 191 5379 5390 "plugins/firstorder/rules.ml" 191 5379 5393
+type(
+  Names.identifier
+)
+"plugins/firstorder/rules.ml" 191 5379 5394 "plugins/firstorder/rules.ml" 191 5379 5407
+type(
+  Proof_type.goal Tacmach.sigma -> int -> Names.identifier
+)
+ident(
+  ext_ref Tacmach.pf_nth_hyp_id
+)
+"plugins/firstorder/rules.ml" 191 5379 5408 "plugins/firstorder/rules.ml" 191 5379 5411
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 190 5364 5373 "plugins/firstorder/rules.ml" 190 5364 5376
+)
+"plugins/firstorder/rules.ml" 191 5379 5412 "plugins/firstorder/rules.ml" 191 5379 5413
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 191 5379 5394 "plugins/firstorder/rules.ml" 191 5379 5413
+call(
+  stack
+)
+type(
+  Names.identifier
+)
+"plugins/firstorder/rules.ml" 192 5417 5428 "plugins/firstorder/rules.ml" 192 5417 5432
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 192 5417 5433 "plugins/firstorder/rules.ml" 192 5417 5438
+type(
+  Term.constr * Term.constr array -> Term.constr
+)
+ident(
+  ext_ref Term.mkApp
+)
+"plugins/firstorder/rules.ml" 192 5417 5440 "plugins/firstorder/rules.ml" 192 5417 5456
+type(
+  Libnames.global_reference -> Term.constr
+)
+ident(
+  ext_ref Libnames.constr_of_global
+)
+"plugins/firstorder/rules.ml" 192 5417 5457 "plugins/firstorder/rules.ml" 192 5417 5459
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 185 5246 5279 "plugins/firstorder/rules.ml" 185 5246 5281
+)
+"plugins/firstorder/rules.ml" 192 5417 5439 "plugins/firstorder/rules.ml" 192 5417 5460
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 192 5417 5463 "plugins/firstorder/rules.ml" 192 5417 5468
+type(
+  Names.identifier -> Term.constr
+)
+ident(
+  ext_ref Term.mkVar
+)
+"plugins/firstorder/rules.ml" 192 5417 5468 "plugins/firstorder/rules.ml" 192 5417 5473
+type(
+  Names.identifier
+)
+ident(
+  int_ref id0 "plugins/firstorder/rules.ml" 191 5379 5390 "plugins/firstorder/rules.ml" 191 5379 5393
+)
+"plugins/firstorder/rules.ml" 192 5417 5463 "plugins/firstorder/rules.ml" 192 5417 5473
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 192 5417 5461 "plugins/firstorder/rules.ml" 192 5417 5475
+type(
+  Term.constr array
+)
+"plugins/firstorder/rules.ml" 192 5417 5438 "plugins/firstorder/rules.ml" 192 5417 5476
+type(
+  Term.constr * Term.constr array
+)
+"plugins/firstorder/rules.ml" 192 5417 5433 "plugins/firstorder/rules.ml" 192 5417 5476
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 193 5480 5482 "plugins/firstorder/rules.ml" 193 5480 5489
+type(
+  Proof_type.tactic -> Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclTHEN
+)
+"plugins/firstorder/rules.ml" 193 5480 5491 "plugins/firstorder/rules.ml" 193 5480 5501
+type(
+  Term.constr list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.generalize
+)
+"plugins/firstorder/rules.ml" 193 5480 5503 "plugins/firstorder/rules.ml" 193 5480 5507
+type(
+  Term.constr
+)
+ident(
+  int_ref term "plugins/firstorder/rules.ml" 192 5417 5428 "plugins/firstorder/rules.ml" 192 5417 5432
+)
+"plugins/firstorder/rules.ml" 193 5480 5502 "plugins/firstorder/rules.ml" 193 5480 5508
+type(
+  Term.constr list
+)
+"plugins/firstorder/rules.ml" 193 5480 5490 "plugins/firstorder/rules.ml" 193 5480 5509
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 193 5480 5511 "plugins/firstorder/rules.ml" 193 5480 5516
+type(
+  Names.identifier list -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.clear
+)
+"plugins/firstorder/rules.ml" 193 5480 5518 "plugins/firstorder/rules.ml" 193 5480 5521
+type(
+  Names.identifier
+)
+ident(
+  int_ref id0 "plugins/firstorder/rules.ml" 191 5379 5390 "plugins/firstorder/rules.ml" 191 5379 5393
+)
+"plugins/firstorder/rules.ml" 193 5480 5517 "plugins/firstorder/rules.ml" 193 5480 5522
+type(
+  Names.identifier list
+)
+"plugins/firstorder/rules.ml" 193 5480 5510 "plugins/firstorder/rules.ml" 193 5480 5523
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 193 5480 5524 "plugins/firstorder/rules.ml" 193 5480 5527
+type(
+  Proof_type.goal Tacmach.sigma
+)
+ident(
+  int_ref gls "plugins/firstorder/rules.ml" 190 5364 5373 "plugins/firstorder/rules.ml" 190 5364 5376
+)
+"plugins/firstorder/rules.ml" 193 5480 5482 "plugins/firstorder/rules.ml" 193 5480 5527
+call(
+  tail
+)
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 192 5417 5424 "plugins/firstorder/rules.ml" 193 5480 5527
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 191 5379 5386 "plugins/firstorder/rules.ml" 193 5480 5527
+type(
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 190 5364 5368 "plugins/firstorder/rules.ml" 193 5480 5528
+type(
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+"plugins/firstorder/rules.ml" 194 5530 5534 "plugins/firstorder/rules.ml" 194 5530 5546
+type(
+  Libnames.global_reference -> Proof_type.tactic
+)
+ident(
+  int_ref clear_global "plugins/firstorder/rules.ml" 52 1536 1540 "plugins/firstorder/rules.ml" 52 1536 1552
+)
+"plugins/firstorder/rules.ml" 194 5530 5547 "plugins/firstorder/rules.ml" 194 5530 5549
+type(
+  Libnames.global_reference
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 185 5246 5279 "plugins/firstorder/rules.ml" 185 5246 5281
+)
+"plugins/firstorder/rules.ml" 194 5530 5534 "plugins/firstorder/rules.ml" 194 5530 5549
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 195 5551 5555 "plugins/firstorder/rules.ml" 195 5551 5560
+type(
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.intro
+)
+"plugins/firstorder/rules.ml" 196 5562 5566 "plugins/firstorder/rules.ml" 196 5562 5577
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclCOMPLETE
+)
+"plugins/firstorder/rules.ml" 196 5562 5579 "plugins/firstorder/rules.ml" 196 5562 5583
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 196 5562 5584 "plugins/firstorder/rules.ml" 196 5562 5585
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 196 5562 5586 "plugins/firstorder/rules.ml" 196 5562 5591
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 196 5562 5592 "plugins/firstorder/rules.ml" 196 5562 5600
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 185 5246 5282 "plugins/firstorder/rules.ml" 185 5246 5290
+)
+"plugins/firstorder/rules.ml" 196 5562 5602 "plugins/firstorder/rules.ml" 196 5562 5608
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  ext_ref Sequent.deepen
+)
+"plugins/firstorder/rules.ml" 196 5562 5609 "plugins/firstorder/rules.ml" 196 5562 5612
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 185 5246 5291 "plugins/firstorder/rules.ml" 185 5246 5294
+)
+"plugins/firstorder/rules.ml" 196 5562 5601 "plugins/firstorder/rules.ml" 196 5562 5613
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 196 5562 5578 "plugins/firstorder/rules.ml" 196 5562 5614
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 196 5562 5566 "plugins/firstorder/rules.ml" 196 5562 5614
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 189 5353 5356 "plugins/firstorder/rules.ml" 196 5562 5615
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/rules.ml" 188 5333 5341 "plugins/firstorder/rules.ml" 196 5562 5615
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 197 5617 5618 "plugins/firstorder/rules.ml" 197 5617 5629
+type(
+  Proof_type.tactic -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.tclCOMPLETE
+)
+"plugins/firstorder/rules.ml" 197 5617 5631 "plugins/firstorder/rules.ml" 197 5617 5635
+type(
+  int ->
+  bool ->
+  (Sequent.t ->
+   Proof_type.goal Tacmach.sigma ->
+   Proof_type.goal list Evd.sigma * Proof_type.validation) ->
+  Sequent.t -> Proof_type.tactic
+)
+ident(
+  int_ref wrap "plugins/firstorder/rules.ml" 29 872 876 "plugins/firstorder/rules.ml" 29 872 880
+)
+"plugins/firstorder/rules.ml" 197 5617 5636 "plugins/firstorder/rules.ml" 197 5617 5637
+type(
+  int
+)
+"plugins/firstorder/rules.ml" 197 5617 5638 "plugins/firstorder/rules.ml" 197 5617 5642
+type(
+  bool
+)
+"plugins/firstorder/rules.ml" 197 5617 5643 "plugins/firstorder/rules.ml" 197 5617 5651
+type(
+  Sequent.t ->
+  Proof_type.goal Tacmach.sigma ->
+  Proof_type.goal list Evd.sigma * Proof_type.validation
+)
+ident(
+  int_ref continue "plugins/firstorder/rules.ml" 185 5246 5282 "plugins/firstorder/rules.ml" 185 5246 5290
+)
+"plugins/firstorder/rules.ml" 197 5617 5653 "plugins/firstorder/rules.ml" 197 5617 5659
+type(
+  Sequent.t -> Sequent.t
+)
+ident(
+  ext_ref Sequent.deepen
+)
+"plugins/firstorder/rules.ml" 197 5617 5660 "plugins/firstorder/rules.ml" 197 5617 5663
+type(
+  Sequent.t
+)
+ident(
+  int_ref seq "plugins/firstorder/rules.ml" 185 5246 5291 "plugins/firstorder/rules.ml" 185 5246 5294
+)
+"plugins/firstorder/rules.ml" 197 5617 5652 "plugins/firstorder/rules.ml" 197 5617 5664
+call(
+  stack
+)
+type(
+  Sequent.t
+)
+"plugins/firstorder/rules.ml" 197 5617 5630 "plugins/firstorder/rules.ml" 197 5617 5665
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 197 5617 5618 "plugins/firstorder/rules.ml" 197 5617 5665
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 188 5333 5340 "plugins/firstorder/rules.ml" 197 5617 5666
+type(
+  Proof_type.tactic list
+)
+"plugins/firstorder/rules.ml" 187 5308 5312 "plugins/firstorder/rules.ml" 197 5617 5667
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 198 5668 5672 "plugins/firstorder/rules.ml" 198 5668 5681
+type(
+  Proof_type.tactic
+)
+ident(
+  int_ref backtrack "plugins/firstorder/rules.ml" 185 5246 5269 "plugins/firstorder/rules.ml" 185 5246 5278
+)
+"plugins/firstorder/rules.ml" 186 5296 5298 "plugins/firstorder/rules.ml" 198 5668 5681
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 204 5805 5809 "plugins/firstorder/rules.ml" 204 5805 5817
+type(
+  string -> Term.constr
+)
+ident(
+  def constant "plugins/firstorder/rules.ml" 206 5873 5873 --
+)
+"plugins/firstorder/rules.ml" 204 5805 5818 "plugins/firstorder/rules.ml" 204 5805 5821
+type(
+  string
+)
+ident(
+  def str "plugins/firstorder/rules.ml" 204 5805 5824 "plugins/firstorder/rules.ml" 204 5805 5871
+)
+"plugins/firstorder/rules.ml" 204 5805 5824 "plugins/firstorder/rules.ml" 204 5805 5843
+type(
+  Coqlib.message -> string list -> string -> Term.constr
+)
+ident(
+  ext_ref Coqlib.gen_constant
+)
+"plugins/firstorder/rules.ml" 204 5805 5844 "plugins/firstorder/rules.ml" 204 5805 5850
+type(
+  Coqlib.message
+)
+"plugins/firstorder/rules.ml" 204 5805 5852 "plugins/firstorder/rules.ml" 204 5805 5858
+type(
+  string
+)
+"plugins/firstorder/rules.ml" 204 5805 5859 "plugins/firstorder/rules.ml" 204 5805 5866
+type(
+  string
+)
+"plugins/firstorder/rules.ml" 204 5805 5851 "plugins/firstorder/rules.ml" 204 5805 5867
+type(
+  string list
+)
+"plugins/firstorder/rules.ml" 204 5805 5868 "plugins/firstorder/rules.ml" 204 5805 5871
+type(
+  string
+)
+ident(
+  int_ref str "plugins/firstorder/rules.ml" 204 5805 5818 "plugins/firstorder/rules.ml" 204 5805 5821
+)
+"plugins/firstorder/rules.ml" 204 5805 5824 "plugins/firstorder/rules.ml" 204 5805 5871
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 206 5873 5877 "plugins/firstorder/rules.ml" 206 5873 5896
+type(
+  (Termops.occurrences * Names.evaluable_global_reference) list lazy_t
+)
+ident(
+  def defined_connectives "plugins/firstorder/rules.ml" 210 6027 6027 --
+)
+"plugins/firstorder/rules.ml" 207 5902 5905 "plugins/firstorder/rules.ml" 207 5902 5920
+type(
+  Termops.occurrences
+)
+ident(
+  ext_ref Termops.all_occurrences
+)
+"plugins/firstorder/rules.ml" 207 5902 5935 "plugins/firstorder/rules.ml" 207 5902 5944
+type(
+  Term.constr -> Names.constant
+)
+ident(
+  ext_ref Term.destConst
+)
+"plugins/firstorder/rules.ml" 207 5902 5946 "plugins/firstorder/rules.ml" 207 5902 5954
+type(
+  string -> Term.constr
+)
+ident(
+  int_ref constant "plugins/firstorder/rules.ml" 204 5805 5809 "plugins/firstorder/rules.ml" 204 5805 5817
+)
+"plugins/firstorder/rules.ml" 207 5902 5955 "plugins/firstorder/rules.ml" 207 5902 5960
+type(
+  string
+)
+"plugins/firstorder/rules.ml" 207 5902 5945 "plugins/firstorder/rules.ml" 207 5902 5961
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 207 5902 5934 "plugins/firstorder/rules.ml" 207 5902 5962
+call(
+  stack
+)
+type(
+  Names.constant
+)
+"plugins/firstorder/rules.ml" 207 5902 5921 "plugins/firstorder/rules.ml" 207 5902 5962
+type(
+  Names.evaluable_global_reference
+)
+"plugins/firstorder/rules.ml" 207 5902 5905 "plugins/firstorder/rules.ml" 207 5902 5962
+type(
+  Termops.occurrences * Names.evaluable_global_reference
+)
+"plugins/firstorder/rules.ml" 208 5964 5967 "plugins/firstorder/rules.ml" 208 5964 5982
+type(
+  Termops.occurrences
+)
+ident(
+  ext_ref Termops.all_occurrences
+)
+"plugins/firstorder/rules.ml" 208 5964 5997 "plugins/firstorder/rules.ml" 208 5964 6006
+type(
+  Term.constr -> Names.constant
+)
+ident(
+  ext_ref Term.destConst
+)
+"plugins/firstorder/rules.ml" 208 5964 6008 "plugins/firstorder/rules.ml" 208 5964 6016
+type(
+  string -> Term.constr
+)
+ident(
+  int_ref constant "plugins/firstorder/rules.ml" 204 5805 5809 "plugins/firstorder/rules.ml" 204 5805 5817
+)
+"plugins/firstorder/rules.ml" 208 5964 6017 "plugins/firstorder/rules.ml" 208 5964 6022
+type(
+  string
+)
+"plugins/firstorder/rules.ml" 208 5964 6007 "plugins/firstorder/rules.ml" 208 5964 6023
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/rules.ml" 208 5964 5996 "plugins/firstorder/rules.ml" 208 5964 6024
+call(
+  stack
+)
+type(
+  Names.constant
+)
+"plugins/firstorder/rules.ml" 208 5964 5983 "plugins/firstorder/rules.ml" 208 5964 6024
+type(
+  Names.evaluable_global_reference
+)
+"plugins/firstorder/rules.ml" 208 5964 5967 "plugins/firstorder/rules.ml" 208 5964 6024
+type(
+  Termops.occurrences * Names.evaluable_global_reference
+)
+"plugins/firstorder/rules.ml" 207 5902 5904 "plugins/firstorder/rules.ml" 208 5964 6025
+type(
+  (Termops.occurrences * Names.evaluable_global_reference) list
+)
+"plugins/firstorder/rules.ml" 206 5873 5897 "plugins/firstorder/rules.ml" 208 5964 6025
+type(
+  (Termops.occurrences * Names.evaluable_global_reference) list lazy_t
+)
+"plugins/firstorder/rules.ml" 210 6027 6031 "plugins/firstorder/rules.ml" 210 6027 6051
+type(
+  Proof_type.tactic
+)
+ident(
+  def normalize_evaluables "plugins/firstorder/rules.ml" 215 6164 6234 --
+)
+"plugins/firstorder/rules.ml" 211 6053 6055 "plugins/firstorder/rules.ml" 211 6053 6072
+type(
+  (Names.identifier option -> Proof_type.tactic) -> Proof_type.tactic
+)
+ident(
+  ext_ref Tacticals.onAllHypsAndConcl
+)
+"plugins/firstorder/rules.ml" 213 6087 6089 "plugins/firstorder/rules.ml" 213 6087 6093
+type(
+  Names.identifier option
+)
+"plugins/firstorder/rules.ml" 213 6087 6095 "plugins/firstorder/rules.ml" 213 6087 6110
+type(
+  (Termops.occurrences * Names.evaluable_global_reference) list ->
+  Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.unfold_in_concl
+)
+"plugins/firstorder/rules.ml" 213 6087 6112 "plugins/firstorder/rules.ml" 213 6087 6122
+type(
+  (Termops.occurrences * Names.evaluable_global_reference) list Lazy.t ->
+  (Termops.occurrences * Names.evaluable_global_reference) list
+)
+ident(
+  ext_ref Lazy.force
+)
+"plugins/firstorder/rules.ml" 213 6087 6123 "plugins/firstorder/rules.ml" 213 6087 6142
+type(
+  (Termops.occurrences * Names.evaluable_global_reference) list Lazy.t
+)
+ident(
+  int_ref defined_connectives "plugins/firstorder/rules.ml" 206 5873 5877 "plugins/firstorder/rules.ml" 206 5873 5896
+)
+"plugins/firstorder/rules.ml" 213 6087 6111 "plugins/firstorder/rules.ml" 213 6087 6143
+call(
+  stack
+)
+type(
+  (Termops.occurrences * Names.evaluable_global_reference) list
+)
+"plugins/firstorder/rules.ml" 213 6087 6095 "plugins/firstorder/rules.ml" 213 6087 6143
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 214 6144 6158 "plugins/firstorder/rules.ml" 214 6144 6160
+type(
+  Names.identifier
+)
+ident(
+  def id "plugins/firstorder/rules.ml" 215 6164 6168 "plugins/firstorder/rules.ml" 215 6164 6233
+)
+"plugins/firstorder/rules.ml" 214 6144 6153 "plugins/firstorder/rules.ml" 214 6144 6160
+type(
+  Names.identifier option
+)
+"plugins/firstorder/rules.ml" 215 6164 6168 "plugins/firstorder/rules.ml" 215 6164 6181
+type(
+  (Termops.occurrences * Names.evaluable_global_reference) list ->
+  Tacticals.hyp_location -> Proof_type.tactic
+)
+ident(
+  ext_ref Tactics.unfold_in_hyp
+)
+"plugins/firstorder/rules.ml" 215 6164 6183 "plugins/firstorder/rules.ml" 215 6164 6193
+type(
+  (Termops.occurrences * Names.evaluable_global_reference) list Lazy.t ->
+  (Termops.occurrences * Names.evaluable_global_reference) list
+)
+ident(
+  ext_ref Lazy.force
+)
+"plugins/firstorder/rules.ml" 215 6164 6194 "plugins/firstorder/rules.ml" 215 6164 6213
+type(
+  (Termops.occurrences * Names.evaluable_global_reference) list Lazy.t
+)
+ident(
+  int_ref defined_connectives "plugins/firstorder/rules.ml" 206 5873 5877 "plugins/firstorder/rules.ml" 206 5873 5896
+)
+"plugins/firstorder/rules.ml" 215 6164 6182 "plugins/firstorder/rules.ml" 215 6164 6214
+call(
+  stack
+)
+type(
+  (Termops.occurrences * Names.evaluable_global_reference) list
+)
+"plugins/firstorder/rules.ml" 215 6164 6216 "plugins/firstorder/rules.ml" 215 6164 6218
+type(
+  Names.identifier
+)
+ident(
+  int_ref id "plugins/firstorder/rules.ml" 214 6144 6158 "plugins/firstorder/rules.ml" 214 6144 6160
+)
+"plugins/firstorder/rules.ml" 215 6164 6219 "plugins/firstorder/rules.ml" 215 6164 6232
+type(
+  Termops.hyp_location_flag
+)
+"plugins/firstorder/rules.ml" 215 6164 6215 "plugins/firstorder/rules.ml" 215 6164 6233
+type(
+  Tacticals.hyp_location
+)
+"plugins/firstorder/rules.ml" 215 6164 6168 "plugins/firstorder/rules.ml" 215 6164 6233
+call(
+  tail
+)
+type(
+  Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 212 6073 6077 "plugins/firstorder/rules.ml" 215 6164 6234
+type(
+  Names.identifier option -> Proof_type.tactic
+)
+"plugins/firstorder/rules.ml" 211 6053 6055 "plugins/firstorder/rules.ml" 215 6164 6234
+call(
+  stack
+)
+type(
+  Proof_type.tactic
+)

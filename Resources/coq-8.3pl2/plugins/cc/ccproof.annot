@@ -1,0 +1,3526 @@
+"plugins/cc/ccproof.ml" 29 990 994 "plugins/cc/ccproof.ml" 29 990 999
+type(
+  Ccalgo.term -> proof
+)
+ident(
+  def prefl "plugins/cc/ccproof.ml" 31 1037 1037 --
+)
+"plugins/cc/ccproof.ml" 29 990 1000 "plugins/cc/ccproof.ml" 29 990 1001
+type(
+  Ccalgo.term
+)
+ident(
+  def t "plugins/cc/ccproof.ml" 29 990 1004 "plugins/cc/ccproof.ml" 29 990 1035
+)
+"plugins/cc/ccproof.ml" 29 990 1011 "plugins/cc/ccproof.ml" 29 990 1012
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref t "plugins/cc/ccproof.ml" 29 990 1000 "plugins/cc/ccproof.ml" 29 990 1001
+)
+"plugins/cc/ccproof.ml" 29 990 1019 "plugins/cc/ccproof.ml" 29 990 1020
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref t "plugins/cc/ccproof.ml" 29 990 1000 "plugins/cc/ccproof.ml" 29 990 1001
+)
+"plugins/cc/ccproof.ml" 29 990 1033 "plugins/cc/ccproof.ml" 29 990 1034
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref t "plugins/cc/ccproof.ml" 29 990 1000 "plugins/cc/ccproof.ml" 29 990 1001
+)
+"plugins/cc/ccproof.ml" 29 990 1028 "plugins/cc/ccproof.ml" 29 990 1034
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 29 990 1004 "plugins/cc/ccproof.ml" 29 990 1035
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 31 1037 1041 "plugins/cc/ccproof.ml" 31 1037 1047
+type(
+  proof -> proof -> proof
+)
+ident(
+  def pcongr "plugins/cc/ccproof.ml" 39 1257 1257 --
+)
+"plugins/cc/ccproof.ml" 31 1037 1048 "plugins/cc/ccproof.ml" 31 1037 1050
+type(
+  proof
+)
+ident(
+  def p1 "plugins/cc/ccproof.ml" 31 1037 1051 "plugins/cc/ccproof.ml" 37 1227 1255
+)
+"plugins/cc/ccproof.ml" 31 1037 1051 "plugins/cc/ccproof.ml" 31 1037 1053
+type(
+  proof
+)
+ident(
+  def p2 "plugins/cc/ccproof.ml" 32 1056 1058 "plugins/cc/ccproof.ml" 37 1227 1255
+)
+"plugins/cc/ccproof.ml" 32 1056 1064 "plugins/cc/ccproof.ml" 32 1056 1066
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 31 1037 1048 "plugins/cc/ccproof.ml" 31 1037 1050
+)
+"plugins/cc/ccproof.ml" 32 1056 1064 "plugins/cc/ccproof.ml" 32 1056 1073
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 32 1056 1074 "plugins/cc/ccproof.ml" 32 1056 1076
+type(
+  proof
+)
+ident(
+  int_ref p2 "plugins/cc/ccproof.ml" 31 1037 1051 "plugins/cc/ccproof.ml" 31 1037 1053
+)
+"plugins/cc/ccproof.ml" 32 1056 1074 "plugins/cc/ccproof.ml" 32 1056 1083
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 32 1056 1064 "plugins/cc/ccproof.ml" 32 1056 1083
+type(
+  rule * rule
+)
+"plugins/cc/ccproof.ml" 33 1089 1098 "plugins/cc/ccproof.ml" 33 1089 1100
+type(
+  Ccalgo.term
+)
+ident(
+  def t1 "plugins/cc/ccproof.ml" 33 1089 1113 "plugins/cc/ccproof.ml" 33 1089 1134
+)
+"plugins/cc/ccproof.ml" 33 1089 1093 "plugins/cc/ccproof.ml" 33 1089 1100
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 33 1089 1107 "plugins/cc/ccproof.ml" 33 1089 1109
+type(
+  Ccalgo.term
+)
+ident(
+  def t2 "plugins/cc/ccproof.ml" 33 1089 1113 "plugins/cc/ccproof.ml" 33 1089 1134
+)
+"plugins/cc/ccproof.ml" 33 1089 1102 "plugins/cc/ccproof.ml" 33 1089 1109
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 33 1089 1093 "plugins/cc/ccproof.ml" 33 1089 1109
+type(
+  rule * rule
+)
+"plugins/cc/ccproof.ml" 33 1089 1113 "plugins/cc/ccproof.ml" 33 1089 1118
+type(
+  Ccalgo.term -> proof
+)
+ident(
+  int_ref prefl "plugins/cc/ccproof.ml" 29 990 994 "plugins/cc/ccproof.ml" 29 990 999
+)
+"plugins/cc/ccproof.ml" 33 1089 1127 "plugins/cc/ccproof.ml" 33 1089 1129
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref t1 "plugins/cc/ccproof.ml" 33 1089 1098 "plugins/cc/ccproof.ml" 33 1089 1100
+)
+"plugins/cc/ccproof.ml" 33 1089 1130 "plugins/cc/ccproof.ml" 33 1089 1132
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref t2 "plugins/cc/ccproof.ml" 33 1089 1107 "plugins/cc/ccproof.ml" 33 1089 1109
+)
+"plugins/cc/ccproof.ml" 33 1089 1119 "plugins/cc/ccproof.ml" 33 1089 1134
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 33 1089 1113 "plugins/cc/ccproof.ml" 33 1089 1134
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 34 1135 1139 "plugins/cc/ccproof.ml" 34 1135 1140
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 34 1135 1142 "plugins/cc/ccproof.ml" 34 1135 1143
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 34 1135 1139 "plugins/cc/ccproof.ml" 34 1135 1143
+type(
+  rule * rule
+)
+"plugins/cc/ccproof.ml" 35 1147 1167 "plugins/cc/ccproof.ml" 35 1147 1169
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 31 1037 1048 "plugins/cc/ccproof.ml" 31 1037 1050
+)
+"plugins/cc/ccproof.ml" 35 1147 1167 "plugins/cc/ccproof.ml" 35 1147 1175
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 35 1147 1176 "plugins/cc/ccproof.ml" 35 1147 1178
+type(
+  proof
+)
+ident(
+  int_ref p2 "plugins/cc/ccproof.ml" 31 1037 1051 "plugins/cc/ccproof.ml" 31 1037 1053
+)
+"plugins/cc/ccproof.ml" 35 1147 1176 "plugins/cc/ccproof.ml" 35 1147 1184
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 35 1147 1160 "plugins/cc/ccproof.ml" 35 1147 1185
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 36 1187 1207 "plugins/cc/ccproof.ml" 36 1187 1209
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 31 1037 1048 "plugins/cc/ccproof.ml" 31 1037 1050
+)
+"plugins/cc/ccproof.ml" 36 1187 1207 "plugins/cc/ccproof.ml" 36 1187 1215
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 36 1187 1216 "plugins/cc/ccproof.ml" 36 1187 1218
+type(
+  proof
+)
+ident(
+  int_ref p2 "plugins/cc/ccproof.ml" 31 1037 1051 "plugins/cc/ccproof.ml" 31 1037 1053
+)
+"plugins/cc/ccproof.ml" 36 1187 1216 "plugins/cc/ccproof.ml" 36 1187 1224
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 36 1187 1200 "plugins/cc/ccproof.ml" 36 1187 1225
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 37 1227 1248 "plugins/cc/ccproof.ml" 37 1227 1250
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 31 1037 1048 "plugins/cc/ccproof.ml" 31 1037 1050
+)
+"plugins/cc/ccproof.ml" 37 1227 1251 "plugins/cc/ccproof.ml" 37 1227 1253
+type(
+  proof
+)
+ident(
+  int_ref p2 "plugins/cc/ccproof.ml" 31 1037 1051 "plugins/cc/ccproof.ml" 31 1037 1053
+)
+"plugins/cc/ccproof.ml" 37 1227 1241 "plugins/cc/ccproof.ml" 37 1227 1254
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 35 1147 1153 "plugins/cc/ccproof.ml" 37 1227 1255
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 32 1056 1058 "plugins/cc/ccproof.ml" 37 1227 1255
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+type(
+  proof -> proof -> proof
+)
+ident(
+  def ptrans "plugins/cc/ccproof.ml" 39 1257 1257 --
+)
+"plugins/cc/ccproof.ml" 39 1257 1272 "plugins/cc/ccproof.ml" 39 1257 1274
+type(
+  proof
+)
+ident(
+  def p1 "plugins/cc/ccproof.ml" 39 1257 1275 "plugins/cc/ccproof.ml" 52 1686 1730
+)
+"plugins/cc/ccproof.ml" 39 1257 1275 "plugins/cc/ccproof.ml" 39 1257 1277
+type(
+  proof
+)
+ident(
+  def p3 "plugins/cc/ccproof.ml" 40 1279 1281 "plugins/cc/ccproof.ml" 52 1686 1730
+)
+"plugins/cc/ccproof.ml" 40 1279 1287 "plugins/cc/ccproof.ml" 40 1279 1289
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 39 1257 1272 "plugins/cc/ccproof.ml" 39 1257 1274
+)
+"plugins/cc/ccproof.ml" 40 1279 1287 "plugins/cc/ccproof.ml" 40 1279 1296
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 40 1279 1297 "plugins/cc/ccproof.ml" 40 1279 1299
+type(
+  proof
+)
+ident(
+  int_ref p3 "plugins/cc/ccproof.ml" 39 1257 1275 "plugins/cc/ccproof.ml" 39 1257 1277
+)
+"plugins/cc/ccproof.ml" 40 1279 1297 "plugins/cc/ccproof.ml" 40 1279 1306
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 40 1279 1287 "plugins/cc/ccproof.ml" 40 1279 1306
+type(
+  rule * rule
+)
+"plugins/cc/ccproof.ml" 41 1312 1323 "plugins/cc/ccproof.ml" 41 1312 1324
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 41 1312 1318 "plugins/cc/ccproof.ml" 41 1312 1324
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 41 1312 1326 "plugins/cc/ccproof.ml" 41 1312 1327
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 41 1312 1318 "plugins/cc/ccproof.ml" 41 1312 1327
+type(
+  rule * rule
+)
+"plugins/cc/ccproof.ml" 41 1312 1330 "plugins/cc/ccproof.ml" 41 1312 1332
+type(
+  proof
+)
+ident(
+  int_ref p3 "plugins/cc/ccproof.ml" 39 1257 1275 "plugins/cc/ccproof.ml" 39 1257 1277
+)
+"plugins/cc/ccproof.ml" 42 1333 1339 "plugins/cc/ccproof.ml" 42 1333 1340
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 42 1333 1347 "plugins/cc/ccproof.ml" 42 1333 1348
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 42 1333 1342 "plugins/cc/ccproof.ml" 42 1333 1348
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 42 1333 1339 "plugins/cc/ccproof.ml" 42 1333 1348
+type(
+  rule * rule
+)
+"plugins/cc/ccproof.ml" 42 1333 1351 "plugins/cc/ccproof.ml" 42 1333 1353
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 39 1257 1272 "plugins/cc/ccproof.ml" 39 1257 1274
+)
+"plugins/cc/ccproof.ml" 43 1354 1366 "plugins/cc/ccproof.ml" 43 1354 1368
+type(
+  proof
+)
+ident(
+  def p1 "plugins/cc/ccproof.ml" 43 1354 1378 "plugins/cc/ccproof.ml" 43 1354 1402
+)
+"plugins/cc/ccproof.ml" 43 1354 1369 "plugins/cc/ccproof.ml" 43 1354 1371
+type(
+  proof
+)
+ident(
+  def p2 "plugins/cc/ccproof.ml" 43 1354 1378 "plugins/cc/ccproof.ml" 43 1354 1402
+)
+"plugins/cc/ccproof.ml" 43 1354 1360 "plugins/cc/ccproof.ml" 43 1354 1372
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 43 1354 1374 "plugins/cc/ccproof.ml" 43 1354 1375
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 43 1354 1360 "plugins/cc/ccproof.ml" 43 1354 1375
+type(
+  rule * rule
+)
+"plugins/cc/ccproof.ml" 43 1354 1378 "plugins/cc/ccproof.ml" 43 1354 1384
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 43 1354 1385 "plugins/cc/ccproof.ml" 43 1354 1387
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 43 1354 1366 "plugins/cc/ccproof.ml" 43 1354 1368
+)
+"plugins/cc/ccproof.ml" 43 1354 1389 "plugins/cc/ccproof.ml" 43 1354 1395
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 43 1354 1396 "plugins/cc/ccproof.ml" 43 1354 1398
+type(
+  proof
+)
+ident(
+  int_ref p2 "plugins/cc/ccproof.ml" 43 1354 1369 "plugins/cc/ccproof.ml" 43 1354 1371
+)
+"plugins/cc/ccproof.ml" 43 1354 1399 "plugins/cc/ccproof.ml" 43 1354 1401
+type(
+  proof
+)
+ident(
+  int_ref p3 "plugins/cc/ccproof.ml" 39 1257 1275 "plugins/cc/ccproof.ml" 39 1257 1277
+)
+"plugins/cc/ccproof.ml" 43 1354 1388 "plugins/cc/ccproof.ml" 43 1354 1402
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 43 1354 1378 "plugins/cc/ccproof.ml" 43 1354 1402
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 44 1403 1415 "plugins/cc/ccproof.ml" 44 1403 1417
+type(
+  proof
+)
+ident(
+  def p1 "plugins/cc/ccproof.ml" 44 1403 1438 "plugins/cc/ccproof.ml" 44 1403 1474
+)
+"plugins/cc/ccproof.ml" 44 1403 1418 "plugins/cc/ccproof.ml" 44 1403 1420
+type(
+  proof
+)
+ident(
+  def p2 "plugins/cc/ccproof.ml" 44 1403 1438 "plugins/cc/ccproof.ml" 44 1403 1474
+)
+"plugins/cc/ccproof.ml" 44 1403 1409 "plugins/cc/ccproof.ml" 44 1403 1421
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 44 1403 1429 "plugins/cc/ccproof.ml" 44 1403 1431
+type(
+  proof
+)
+ident(
+  def p3 "plugins/cc/ccproof.ml" 44 1403 1438 "plugins/cc/ccproof.ml" 44 1403 1474
+)
+"plugins/cc/ccproof.ml" 44 1403 1432 "plugins/cc/ccproof.ml" 44 1403 1434
+type(
+  proof
+)
+ident(
+  def p4 "plugins/cc/ccproof.ml" 44 1403 1438 "plugins/cc/ccproof.ml" 44 1403 1474
+)
+"plugins/cc/ccproof.ml" 44 1403 1423 "plugins/cc/ccproof.ml" 44 1403 1435
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 44 1403 1409 "plugins/cc/ccproof.ml" 44 1403 1435
+type(
+  rule * rule
+)
+"plugins/cc/ccproof.ml" 44 1403 1438 "plugins/cc/ccproof.ml" 44 1403 1444
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref pcongr "plugins/cc/ccproof.ml" 31 1037 1041 "plugins/cc/ccproof.ml" 31 1037 1047
+)
+"plugins/cc/ccproof.ml" 44 1403 1446 "plugins/cc/ccproof.ml" 44 1403 1452
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 44 1403 1453 "plugins/cc/ccproof.ml" 44 1403 1455
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 44 1403 1415 "plugins/cc/ccproof.ml" 44 1403 1417
+)
+"plugins/cc/ccproof.ml" 44 1403 1456 "plugins/cc/ccproof.ml" 44 1403 1458
+type(
+  proof
+)
+ident(
+  int_ref p3 "plugins/cc/ccproof.ml" 44 1403 1429 "plugins/cc/ccproof.ml" 44 1403 1431
+)
+"plugins/cc/ccproof.ml" 44 1403 1445 "plugins/cc/ccproof.ml" 44 1403 1459
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 44 1403 1461 "plugins/cc/ccproof.ml" 44 1403 1467
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 44 1403 1468 "plugins/cc/ccproof.ml" 44 1403 1470
+type(
+  proof
+)
+ident(
+  int_ref p2 "plugins/cc/ccproof.ml" 44 1403 1418 "plugins/cc/ccproof.ml" 44 1403 1420
+)
+"plugins/cc/ccproof.ml" 44 1403 1471 "plugins/cc/ccproof.ml" 44 1403 1473
+type(
+  proof
+)
+ident(
+  int_ref p4 "plugins/cc/ccproof.ml" 44 1403 1432 "plugins/cc/ccproof.ml" 44 1403 1434
+)
+"plugins/cc/ccproof.ml" 44 1403 1460 "plugins/cc/ccproof.ml" 44 1403 1474
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 44 1403 1438 "plugins/cc/ccproof.ml" 44 1403 1474
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 45 1475 1487 "plugins/cc/ccproof.ml" 45 1475 1489
+type(
+  proof
+)
+ident(
+  def p1 "plugins/cc/ccproof.ml" 46 1530 1531 "plugins/cc/ccproof.ml" 46 1530 1579
+)
+"plugins/cc/ccproof.ml" 45 1475 1490 "plugins/cc/ccproof.ml" 45 1475 1492
+type(
+  proof
+)
+ident(
+  def p2 "plugins/cc/ccproof.ml" 46 1530 1531 "plugins/cc/ccproof.ml" 46 1530 1579
+)
+"plugins/cc/ccproof.ml" 45 1475 1481 "plugins/cc/ccproof.ml" 45 1475 1493
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 45 1475 1515 "plugins/cc/ccproof.ml" 45 1475 1517
+type(
+  proof
+)
+ident(
+  def p3 "plugins/cc/ccproof.ml" 46 1530 1531 "plugins/cc/ccproof.ml" 46 1530 1579
+)
+"plugins/cc/ccproof.ml" 45 1475 1518 "plugins/cc/ccproof.ml" 45 1475 1520
+type(
+  proof
+)
+ident(
+  def p4 "plugins/cc/ccproof.ml" 46 1530 1531 "plugins/cc/ccproof.ml" 46 1530 1579
+)
+"plugins/cc/ccproof.ml" 45 1475 1509 "plugins/cc/ccproof.ml" 45 1475 1521
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 45 1475 1501 "plugins/cc/ccproof.ml" 45 1475 1522
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 45 1475 1523 "plugins/cc/ccproof.ml" 45 1475 1525
+type(
+  proof
+)
+ident(
+  def p5 "plugins/cc/ccproof.ml" 46 1530 1531 "plugins/cc/ccproof.ml" 46 1530 1579
+)
+"plugins/cc/ccproof.ml" 45 1475 1495 "plugins/cc/ccproof.ml" 45 1475 1526
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 45 1475 1481 "plugins/cc/ccproof.ml" 45 1475 1526
+type(
+  rule * rule
+)
+"plugins/cc/ccproof.ml" 46 1530 1531 "plugins/cc/ccproof.ml" 46 1530 1537
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 46 1530 1539 "plugins/cc/ccproof.ml" 46 1530 1545
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref pcongr "plugins/cc/ccproof.ml" 31 1037 1041 "plugins/cc/ccproof.ml" 31 1037 1047
+)
+"plugins/cc/ccproof.ml" 46 1530 1547 "plugins/cc/ccproof.ml" 46 1530 1553
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 46 1530 1554 "plugins/cc/ccproof.ml" 46 1530 1556
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 45 1475 1487 "plugins/cc/ccproof.ml" 45 1475 1489
+)
+"plugins/cc/ccproof.ml" 46 1530 1557 "plugins/cc/ccproof.ml" 46 1530 1559
+type(
+  proof
+)
+ident(
+  int_ref p3 "plugins/cc/ccproof.ml" 45 1475 1515 "plugins/cc/ccproof.ml" 45 1475 1517
+)
+"plugins/cc/ccproof.ml" 46 1530 1546 "plugins/cc/ccproof.ml" 46 1530 1560
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 46 1530 1562 "plugins/cc/ccproof.ml" 46 1530 1568
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 46 1530 1569 "plugins/cc/ccproof.ml" 46 1530 1571
+type(
+  proof
+)
+ident(
+  int_ref p2 "plugins/cc/ccproof.ml" 45 1475 1490 "plugins/cc/ccproof.ml" 45 1475 1492
+)
+"plugins/cc/ccproof.ml" 46 1530 1572 "plugins/cc/ccproof.ml" 46 1530 1574
+type(
+  proof
+)
+ident(
+  int_ref p4 "plugins/cc/ccproof.ml" 45 1475 1518 "plugins/cc/ccproof.ml" 45 1475 1520
+)
+"plugins/cc/ccproof.ml" 46 1530 1561 "plugins/cc/ccproof.ml" 46 1530 1575
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 46 1530 1538 "plugins/cc/ccproof.ml" 46 1530 1576
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 46 1530 1577 "plugins/cc/ccproof.ml" 46 1530 1579
+type(
+  proof
+)
+ident(
+  int_ref p5 "plugins/cc/ccproof.ml" 45 1475 1523 "plugins/cc/ccproof.ml" 45 1475 1525
+)
+"plugins/cc/ccproof.ml" 46 1530 1531 "plugins/cc/ccproof.ml" 46 1530 1579
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 47 1580 1584 "plugins/cc/ccproof.ml" 47 1580 1585
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 47 1580 1587 "plugins/cc/ccproof.ml" 47 1580 1588
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 47 1580 1584 "plugins/cc/ccproof.ml" 47 1580 1588
+type(
+  rule * rule
+)
+"plugins/cc/ccproof.ml" 48 1592 1601 "plugins/cc/ccproof.ml" 48 1592 1603
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 39 1257 1272 "plugins/cc/ccproof.ml" 39 1257 1274
+)
+"plugins/cc/ccproof.ml" 48 1592 1601 "plugins/cc/ccproof.ml" 48 1592 1609
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 48 1592 1610 "plugins/cc/ccproof.ml" 48 1592 1611
+type(
+  Ccalgo.term -> Ccalgo.term -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/cc/ccproof.ml" 48 1592 1612 "plugins/cc/ccproof.ml" 48 1592 1614
+type(
+  proof
+)
+ident(
+  int_ref p3 "plugins/cc/ccproof.ml" 39 1257 1275 "plugins/cc/ccproof.ml" 39 1257 1277
+)
+"plugins/cc/ccproof.ml" 48 1592 1612 "plugins/cc/ccproof.ml" 48 1592 1620
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 48 1592 1601 "plugins/cc/ccproof.ml" 48 1592 1620
+type(
+  bool
+)
+"plugins/cc/ccproof.ml" 49 1626 1634 "plugins/cc/ccproof.ml" 49 1626 1636
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 39 1257 1272 "plugins/cc/ccproof.ml" 39 1257 1274
+)
+"plugins/cc/ccproof.ml" 49 1626 1634 "plugins/cc/ccproof.ml" 49 1626 1642
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 50 1644 1652 "plugins/cc/ccproof.ml" 50 1644 1654
+type(
+  proof
+)
+ident(
+  int_ref p3 "plugins/cc/ccproof.ml" 39 1257 1275 "plugins/cc/ccproof.ml" 39 1257 1277
+)
+"plugins/cc/ccproof.ml" 50 1644 1652 "plugins/cc/ccproof.ml" 50 1644 1660
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 51 1662 1678 "plugins/cc/ccproof.ml" 51 1662 1680
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 39 1257 1272 "plugins/cc/ccproof.ml" 39 1257 1274
+)
+"plugins/cc/ccproof.ml" 51 1662 1681 "plugins/cc/ccproof.ml" 51 1662 1683
+type(
+  proof
+)
+ident(
+  int_ref p3 "plugins/cc/ccproof.ml" 39 1257 1275 "plugins/cc/ccproof.ml" 39 1257 1277
+)
+"plugins/cc/ccproof.ml" 51 1662 1671 "plugins/cc/ccproof.ml" 51 1662 1684
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 49 1626 1627 "plugins/cc/ccproof.ml" 51 1662 1685
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 52 1686 1697 "plugins/cc/ccproof.ml" 52 1686 1704
+type(
+  string -> proof
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/cc/ccproof.ml" 52 1686 1705 "plugins/cc/ccproof.ml" 52 1686 1730
+type(
+  string
+)
+"plugins/cc/ccproof.ml" 52 1686 1697 "plugins/cc/ccproof.ml" 52 1686 1730
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 48 1592 1598 "plugins/cc/ccproof.ml" 52 1686 1730
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 40 1279 1281 "plugins/cc/ccproof.ml" 52 1686 1730
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 54 1732 1740 "plugins/cc/ccproof.ml" 54 1732 1744
+type(
+  proof -> proof
+)
+ident(
+  def psym "plugins/cc/ccproof.ml" 54 1732 1732 --
+)
+"plugins/cc/ccproof.ml" 54 1732 1745 "plugins/cc/ccproof.ml" 54 1732 1746
+type(
+  proof
+)
+ident(
+  def p "plugins/cc/ccproof.ml" 55 1749 1751 "plugins/cc/ccproof.ml" 70 2073 2119
+)
+"plugins/cc/ccproof.ml" 55 1749 1757 "plugins/cc/ccproof.ml" 55 1749 1758
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 54 1732 1745 "plugins/cc/ccproof.ml" 54 1732 1746
+)
+"plugins/cc/ccproof.ml" 55 1749 1757 "plugins/cc/ccproof.ml" 55 1749 1765
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 56 1771 1782 "plugins/cc/ccproof.ml" 56 1771 1783
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 56 1771 1777 "plugins/cc/ccproof.ml" 56 1771 1783
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 56 1771 1787 "plugins/cc/ccproof.ml" 56 1771 1788
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 54 1732 1745 "plugins/cc/ccproof.ml" 54 1732 1746
+)
+"plugins/cc/ccproof.ml" 57 1789 1801 "plugins/cc/ccproof.ml" 57 1789 1802
+type(
+  Term.constr
+)
+ident(
+  def s "plugins/cc/ccproof.ml" 58 1806 1807 "plugins/cc/ccproof.ml" 60 1840 1854
+)
+"plugins/cc/ccproof.ml" 57 1789 1795 "plugins/cc/ccproof.ml" 57 1789 1802
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 58 1806 1814 "plugins/cc/ccproof.ml" 58 1806 1815
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 54 1732 1745 "plugins/cc/ccproof.ml" 54 1732 1746
+)
+"plugins/cc/ccproof.ml" 58 1806 1814 "plugins/cc/ccproof.ml" 58 1806 1821
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 59 1823 1831 "plugins/cc/ccproof.ml" 59 1823 1832
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 54 1732 1745 "plugins/cc/ccproof.ml" 54 1732 1746
+)
+"plugins/cc/ccproof.ml" 59 1823 1831 "plugins/cc/ccproof.ml" 59 1823 1838
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 60 1840 1852 "plugins/cc/ccproof.ml" 60 1840 1853
+type(
+  Term.constr
+)
+ident(
+  int_ref s "plugins/cc/ccproof.ml" 57 1789 1801 "plugins/cc/ccproof.ml" 57 1789 1802
+)
+"plugins/cc/ccproof.ml" 60 1840 1849 "plugins/cc/ccproof.ml" 60 1840 1853
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 58 1806 1807 "plugins/cc/ccproof.ml" 60 1840 1854
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 61 1855 1864 "plugins/cc/ccproof.ml" 61 1855 1865
+type(
+  Term.constr
+)
+ident(
+  def s "plugins/cc/ccproof.ml" 62 1868 1869 "plugins/cc/ccproof.ml" 64 1902 1919
+)
+"plugins/cc/ccproof.ml" 61 1855 1861 "plugins/cc/ccproof.ml" 61 1855 1865
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 62 1868 1876 "plugins/cc/ccproof.ml" 62 1868 1877
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 54 1732 1745 "plugins/cc/ccproof.ml" 54 1732 1746
+)
+"plugins/cc/ccproof.ml" 62 1868 1876 "plugins/cc/ccproof.ml" 62 1868 1883
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 63 1885 1893 "plugins/cc/ccproof.ml" 63 1885 1894
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 54 1732 1745 "plugins/cc/ccproof.ml" 54 1732 1746
+)
+"plugins/cc/ccproof.ml" 63 1885 1893 "plugins/cc/ccproof.ml" 63 1885 1900
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 64 1902 1917 "plugins/cc/ccproof.ml" 64 1902 1918
+type(
+  Term.constr
+)
+ident(
+  int_ref s "plugins/cc/ccproof.ml" 61 1855 1864 "plugins/cc/ccproof.ml" 61 1855 1865
+)
+"plugins/cc/ccproof.ml" 64 1902 1911 "plugins/cc/ccproof.ml" 64 1902 1918
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 62 1868 1869 "plugins/cc/ccproof.ml" 64 1902 1919
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 65 1920 1932 "plugins/cc/ccproof.ml" 65 1920 1934
+type(
+  proof
+)
+ident(
+  def p0 "plugins/cc/ccproof.ml" 66 1944 1950 "plugins/cc/ccproof.ml" 68 1988 2025
+)
+"plugins/cc/ccproof.ml" 65 1920 1935 "plugins/cc/ccproof.ml" 65 1920 1936
+type(
+  Names.constructor
+)
+ident(
+  def c "plugins/cc/ccproof.ml" 66 1944 1950 "plugins/cc/ccproof.ml" 68 1988 2025
+)
+"plugins/cc/ccproof.ml" 65 1920 1937 "plugins/cc/ccproof.ml" 65 1920 1938
+type(
+  int
+)
+ident(
+  def n "plugins/cc/ccproof.ml" 66 1944 1950 "plugins/cc/ccproof.ml" 68 1988 2025
+)
+"plugins/cc/ccproof.ml" 65 1920 1939 "plugins/cc/ccproof.ml" 65 1920 1940
+type(
+  int
+)
+ident(
+  def a "plugins/cc/ccproof.ml" 66 1944 1950 "plugins/cc/ccproof.ml" 68 1988 2025
+)
+"plugins/cc/ccproof.ml" 65 1920 1924 "plugins/cc/ccproof.ml" 65 1920 1941
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 66 1944 1957 "plugins/cc/ccproof.ml" 66 1944 1958
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 54 1732 1745 "plugins/cc/ccproof.ml" 54 1732 1746
+)
+"plugins/cc/ccproof.ml" 66 1944 1957 "plugins/cc/ccproof.ml" 66 1944 1964
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 67 1966 1979 "plugins/cc/ccproof.ml" 67 1966 1980
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 54 1732 1745 "plugins/cc/ccproof.ml" 54 1732 1746
+)
+"plugins/cc/ccproof.ml" 67 1966 1979 "plugins/cc/ccproof.ml" 67 1966 1986
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 68 1988 2010 "plugins/cc/ccproof.ml" 68 1988 2014
+type(
+  proof -> proof
+)
+ident(
+  int_ref psym "plugins/cc/ccproof.ml" 54 1732 1740 "plugins/cc/ccproof.ml" 54 1732 1744
+)
+"plugins/cc/ccproof.ml" 68 1988 2015 "plugins/cc/ccproof.ml" 68 1988 2017
+type(
+  proof
+)
+ident(
+  int_ref p0 "plugins/cc/ccproof.ml" 65 1920 1932 "plugins/cc/ccproof.ml" 65 1920 1934
+)
+"plugins/cc/ccproof.ml" 68 1988 2010 "plugins/cc/ccproof.ml" 68 1988 2017
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 68 1988 2018 "plugins/cc/ccproof.ml" 68 1988 2019
+type(
+  Names.constructor
+)
+ident(
+  int_ref c "plugins/cc/ccproof.ml" 65 1920 1935 "plugins/cc/ccproof.ml" 65 1920 1936
+)
+"plugins/cc/ccproof.ml" 68 1988 2020 "plugins/cc/ccproof.ml" 68 1988 2021
+type(
+  int
+)
+ident(
+  int_ref n "plugins/cc/ccproof.ml" 65 1920 1937 "plugins/cc/ccproof.ml" 65 1920 1938
+)
+"plugins/cc/ccproof.ml" 68 1988 2022 "plugins/cc/ccproof.ml" 68 1988 2023
+type(
+  int
+)
+ident(
+  int_ref a "plugins/cc/ccproof.ml" 65 1920 1939 "plugins/cc/ccproof.ml" 65 1920 1940
+)
+"plugins/cc/ccproof.ml" 68 1988 2002 "plugins/cc/ccproof.ml" 68 1988 2024
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 66 1944 1950 "plugins/cc/ccproof.ml" 68 1988 2025
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 69 2026 2037 "plugins/cc/ccproof.ml" 69 2026 2039
+type(
+  proof
+)
+ident(
+  def p1 "plugins/cc/ccproof.ml" 69 2026 2046 "plugins/cc/ccproof.ml" 69 2026 2072
+)
+"plugins/cc/ccproof.ml" 69 2026 2040 "plugins/cc/ccproof.ml" 69 2026 2042
+type(
+  proof
+)
+ident(
+  def p2 "plugins/cc/ccproof.ml" 69 2026 2046 "plugins/cc/ccproof.ml" 69 2026 2072
+)
+"plugins/cc/ccproof.ml" 69 2026 2030 "plugins/cc/ccproof.ml" 69 2026 2043
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 69 2026 2046 "plugins/cc/ccproof.ml" 69 2026 2052
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 69 2026 2054 "plugins/cc/ccproof.ml" 69 2026 2058
+type(
+  proof -> proof
+)
+ident(
+  int_ref psym "plugins/cc/ccproof.ml" 54 1732 1740 "plugins/cc/ccproof.ml" 54 1732 1744
+)
+"plugins/cc/ccproof.ml" 69 2026 2059 "plugins/cc/ccproof.ml" 69 2026 2061
+type(
+  proof
+)
+ident(
+  int_ref p2 "plugins/cc/ccproof.ml" 69 2026 2040 "plugins/cc/ccproof.ml" 69 2026 2042
+)
+"plugins/cc/ccproof.ml" 69 2026 2053 "plugins/cc/ccproof.ml" 69 2026 2062
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 69 2026 2064 "plugins/cc/ccproof.ml" 69 2026 2068
+type(
+  proof -> proof
+)
+ident(
+  int_ref psym "plugins/cc/ccproof.ml" 54 1732 1740 "plugins/cc/ccproof.ml" 54 1732 1744
+)
+"plugins/cc/ccproof.ml" 69 2026 2069 "plugins/cc/ccproof.ml" 69 2026 2071
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 69 2026 2037 "plugins/cc/ccproof.ml" 69 2026 2039
+)
+"plugins/cc/ccproof.ml" 69 2026 2063 "plugins/cc/ccproof.ml" 69 2026 2072
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 69 2026 2046 "plugins/cc/ccproof.ml" 69 2026 2072
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 70 2073 2084 "plugins/cc/ccproof.ml" 70 2073 2086
+type(
+  proof
+)
+ident(
+  def p1 "plugins/cc/ccproof.ml" 70 2073 2093 "plugins/cc/ccproof.ml" 70 2073 2119
+)
+"plugins/cc/ccproof.ml" 70 2073 2087 "plugins/cc/ccproof.ml" 70 2073 2089
+type(
+  proof
+)
+ident(
+  def p2 "plugins/cc/ccproof.ml" 70 2073 2093 "plugins/cc/ccproof.ml" 70 2073 2119
+)
+"plugins/cc/ccproof.ml" 70 2073 2077 "plugins/cc/ccproof.ml" 70 2073 2090
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 70 2073 2093 "plugins/cc/ccproof.ml" 70 2073 2099
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref pcongr "plugins/cc/ccproof.ml" 31 1037 1041 "plugins/cc/ccproof.ml" 31 1037 1047
+)
+"plugins/cc/ccproof.ml" 70 2073 2101 "plugins/cc/ccproof.ml" 70 2073 2105
+type(
+  proof -> proof
+)
+ident(
+  int_ref psym "plugins/cc/ccproof.ml" 54 1732 1740 "plugins/cc/ccproof.ml" 54 1732 1744
+)
+"plugins/cc/ccproof.ml" 70 2073 2106 "plugins/cc/ccproof.ml" 70 2073 2108
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 70 2073 2084 "plugins/cc/ccproof.ml" 70 2073 2086
+)
+"plugins/cc/ccproof.ml" 70 2073 2100 "plugins/cc/ccproof.ml" 70 2073 2109
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 70 2073 2111 "plugins/cc/ccproof.ml" 70 2073 2115
+type(
+  proof -> proof
+)
+ident(
+  int_ref psym "plugins/cc/ccproof.ml" 54 1732 1740 "plugins/cc/ccproof.ml" 54 1732 1744
+)
+"plugins/cc/ccproof.ml" 70 2073 2116 "plugins/cc/ccproof.ml" 70 2073 2118
+type(
+  proof
+)
+ident(
+  int_ref p2 "plugins/cc/ccproof.ml" 70 2073 2087 "plugins/cc/ccproof.ml" 70 2073 2089
+)
+"plugins/cc/ccproof.ml" 70 2073 2110 "plugins/cc/ccproof.ml" 70 2073 2119
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 70 2073 2093 "plugins/cc/ccproof.ml" 70 2073 2119
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 55 1749 1751 "plugins/cc/ccproof.ml" 70 2073 2119
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 72 2121 2125 "plugins/cc/ccproof.ml" 72 2121 2128
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t -> Term.constr -> proof
+)
+ident(
+  def pax "plugins/cc/ccproof.ml" 78 2224 2224 --
+)
+"plugins/cc/ccproof.ml" 72 2121 2129 "plugins/cc/ccproof.ml" 72 2121 2135
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t
+)
+ident(
+  def axioms "plugins/cc/ccproof.ml" 72 2121 2136 "plugins/cc/ccproof.ml" 76 2205 2222
+)
+"plugins/cc/ccproof.ml" 72 2121 2136 "plugins/cc/ccproof.ml" 72 2121 2137
+type(
+  Term.constr
+)
+ident(
+  def s "plugins/cc/ccproof.ml" 73 2140 2142 "plugins/cc/ccproof.ml" 76 2205 2222
+)
+"plugins/cc/ccproof.ml" 73 2140 2146 "plugins/cc/ccproof.ml" 73 2140 2147
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 73 2140 2148 "plugins/cc/ccproof.ml" 73 2140 2149
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 73 2140 2146 "plugins/cc/ccproof.ml" 73 2140 2149
+type(
+  Ccalgo.term * Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 73 2140 2152 "plugins/cc/ccproof.ml" 73 2140 2164
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t ->
+  Term.constr -> Ccalgo.term * Ccalgo.term
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"plugins/cc/ccproof.ml" 73 2140 2165 "plugins/cc/ccproof.ml" 73 2140 2171
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t
+)
+ident(
+  int_ref axioms "plugins/cc/ccproof.ml" 72 2121 2129 "plugins/cc/ccproof.ml" 72 2121 2135
+)
+"plugins/cc/ccproof.ml" 73 2140 2172 "plugins/cc/ccproof.ml" 73 2140 2173
+type(
+  Term.constr
+)
+ident(
+  int_ref s "plugins/cc/ccproof.ml" 72 2121 2136 "plugins/cc/ccproof.ml" 72 2121 2137
+)
+"plugins/cc/ccproof.ml" 73 2140 2152 "plugins/cc/ccproof.ml" 73 2140 2173
+call(
+  stack
+)
+type(
+  Ccalgo.term * Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 74 2177 2188 "plugins/cc/ccproof.ml" 74 2177 2189
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref l "plugins/cc/ccproof.ml" 73 2140 2146 "plugins/cc/ccproof.ml" 73 2140 2147
+)
+"plugins/cc/ccproof.ml" 75 2191 2202 "plugins/cc/ccproof.ml" 75 2191 2203
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref r "plugins/cc/ccproof.ml" 73 2140 2148 "plugins/cc/ccproof.ml" 73 2140 2149
+)
+"plugins/cc/ccproof.ml" 76 2205 2220 "plugins/cc/ccproof.ml" 76 2205 2221
+type(
+  Term.constr
+)
+ident(
+  int_ref s "plugins/cc/ccproof.ml" 72 2121 2136 "plugins/cc/ccproof.ml" 72 2121 2137
+)
+"plugins/cc/ccproof.ml" 76 2205 2217 "plugins/cc/ccproof.ml" 76 2205 2221
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 74 2177 2181 "plugins/cc/ccproof.ml" 76 2205 2222
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 73 2140 2142 "plugins/cc/ccproof.ml" 76 2205 2222
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 78 2224 2228 "plugins/cc/ccproof.ml" 78 2224 2234
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t -> Term.constr -> proof
+)
+ident(
+  def psymax "plugins/cc/ccproof.ml" 84 2333 2333 --
+)
+"plugins/cc/ccproof.ml" 78 2224 2235 "plugins/cc/ccproof.ml" 78 2224 2241
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t
+)
+ident(
+  def axioms "plugins/cc/ccproof.ml" 78 2224 2242 "plugins/cc/ccproof.ml" 82 2311 2331
+)
+"plugins/cc/ccproof.ml" 78 2224 2242 "plugins/cc/ccproof.ml" 78 2224 2243
+type(
+  Term.constr
+)
+ident(
+  def s "plugins/cc/ccproof.ml" 79 2246 2248 "plugins/cc/ccproof.ml" 82 2311 2331
+)
+"plugins/cc/ccproof.ml" 79 2246 2252 "plugins/cc/ccproof.ml" 79 2246 2253
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 79 2246 2254 "plugins/cc/ccproof.ml" 79 2246 2255
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 79 2246 2252 "plugins/cc/ccproof.ml" 79 2246 2255
+type(
+  Ccalgo.term * Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 79 2246 2258 "plugins/cc/ccproof.ml" 79 2246 2270
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t ->
+  Term.constr -> Ccalgo.term * Ccalgo.term
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"plugins/cc/ccproof.ml" 79 2246 2271 "plugins/cc/ccproof.ml" 79 2246 2277
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t
+)
+ident(
+  int_ref axioms "plugins/cc/ccproof.ml" 78 2224 2235 "plugins/cc/ccproof.ml" 78 2224 2241
+)
+"plugins/cc/ccproof.ml" 79 2246 2278 "plugins/cc/ccproof.ml" 79 2246 2279
+type(
+  Term.constr
+)
+ident(
+  int_ref s "plugins/cc/ccproof.ml" 78 2224 2242 "plugins/cc/ccproof.ml" 78 2224 2243
+)
+"plugins/cc/ccproof.ml" 79 2246 2258 "plugins/cc/ccproof.ml" 79 2246 2279
+call(
+  stack
+)
+type(
+  Ccalgo.term * Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 80 2283 2294 "plugins/cc/ccproof.ml" 80 2283 2295
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref r "plugins/cc/ccproof.ml" 79 2246 2254 "plugins/cc/ccproof.ml" 79 2246 2255
+)
+"plugins/cc/ccproof.ml" 81 2297 2308 "plugins/cc/ccproof.ml" 81 2297 2309
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref l "plugins/cc/ccproof.ml" 79 2246 2252 "plugins/cc/ccproof.ml" 79 2246 2253
+)
+"plugins/cc/ccproof.ml" 82 2311 2329 "plugins/cc/ccproof.ml" 82 2311 2330
+type(
+  Term.constr
+)
+ident(
+  int_ref s "plugins/cc/ccproof.ml" 78 2224 2242 "plugins/cc/ccproof.ml" 78 2224 2243
+)
+"plugins/cc/ccproof.ml" 82 2311 2323 "plugins/cc/ccproof.ml" 82 2311 2330
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 80 2283 2287 "plugins/cc/ccproof.ml" 82 2311 2331
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 79 2246 2248 "plugins/cc/ccproof.ml" 82 2311 2331
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 84 2333 2341 "plugins/cc/ccproof.ml" 84 2333 2348
+type(
+  Ccalgo.term -> int -> Ccalgo.term
+)
+ident(
+  def nth_arg "plugins/cc/ccproof.ml" 84 2333 2333 --
+)
+"plugins/cc/ccproof.ml" 84 2333 2349 "plugins/cc/ccproof.ml" 84 2333 2350
+type(
+  Ccalgo.term
+)
+ident(
+  def t "plugins/cc/ccproof.ml" 84 2333 2351 "plugins/cc/ccproof.ml" 90 2433 2478
+)
+"plugins/cc/ccproof.ml" 84 2333 2351 "plugins/cc/ccproof.ml" 84 2333 2352
+type(
+  int
+)
+ident(
+  def n "plugins/cc/ccproof.ml" 85 2354 2356 "plugins/cc/ccproof.ml" 90 2433 2478
+)
+"plugins/cc/ccproof.ml" 85 2354 2362 "plugins/cc/ccproof.ml" 85 2354 2363
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref t "plugins/cc/ccproof.ml" 84 2333 2349 "plugins/cc/ccproof.ml" 84 2333 2350
+)
+"plugins/cc/ccproof.ml" 86 2369 2382 "plugins/cc/ccproof.ml" 86 2369 2384
+type(
+  Ccalgo.term
+)
+ident(
+  def t1 "plugins/cc/ccproof.ml" 87 2391 2392 "plugins/cc/ccproof.ml" 89 2424 2432
+)
+"plugins/cc/ccproof.ml" 86 2369 2385 "plugins/cc/ccproof.ml" 86 2369 2387
+type(
+  Ccalgo.term
+)
+ident(
+  def t2 "plugins/cc/ccproof.ml" 87 2391 2392 "plugins/cc/ccproof.ml" 89 2424 2432
+)
+"plugins/cc/ccproof.ml" 86 2369 2375 "plugins/cc/ccproof.ml" 86 2369 2388
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 87 2391 2395 "plugins/cc/ccproof.ml" 87 2391 2396
+type(
+  int
+)
+ident(
+  int_ref n "plugins/cc/ccproof.ml" 84 2333 2351 "plugins/cc/ccproof.ml" 84 2333 2352
+)
+"plugins/cc/ccproof.ml" 87 2391 2396 "plugins/cc/ccproof.ml" 87 2391 2397
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"plugins/cc/ccproof.ml" 87 2391 2397 "plugins/cc/ccproof.ml" 87 2391 2398
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 87 2391 2395 "plugins/cc/ccproof.ml" 87 2391 2398
+type(
+  bool
+)
+"plugins/cc/ccproof.ml" 88 2404 2407 "plugins/cc/ccproof.ml" 88 2404 2414
+type(
+  Ccalgo.term -> int -> Ccalgo.term
+)
+ident(
+  int_ref nth_arg "plugins/cc/ccproof.ml" 84 2333 2341 "plugins/cc/ccproof.ml" 84 2333 2348
+)
+"plugins/cc/ccproof.ml" 88 2404 2415 "plugins/cc/ccproof.ml" 88 2404 2417
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref t1 "plugins/cc/ccproof.ml" 86 2369 2382 "plugins/cc/ccproof.ml" 86 2369 2384
+)
+"plugins/cc/ccproof.ml" 88 2404 2419 "plugins/cc/ccproof.ml" 88 2404 2420
+type(
+  int
+)
+ident(
+  int_ref n "plugins/cc/ccproof.ml" 84 2333 2351 "plugins/cc/ccproof.ml" 84 2333 2352
+)
+"plugins/cc/ccproof.ml" 88 2404 2420 "plugins/cc/ccproof.ml" 88 2404 2421
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/cc/ccproof.ml" 88 2404 2421 "plugins/cc/ccproof.ml" 88 2404 2422
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 88 2404 2418 "plugins/cc/ccproof.ml" 88 2404 2423
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 88 2404 2407 "plugins/cc/ccproof.ml" 88 2404 2423
+call(
+  tail
+)
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 89 2424 2430 "plugins/cc/ccproof.ml" 89 2424 2432
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref t2 "plugins/cc/ccproof.ml" 86 2369 2385 "plugins/cc/ccproof.ml" 86 2369 2387
+)
+"plugins/cc/ccproof.ml" 87 2391 2392 "plugins/cc/ccproof.ml" 89 2424 2432
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 90 2433 2439 "plugins/cc/ccproof.ml" 90 2433 2440
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 90 2433 2444 "plugins/cc/ccproof.ml" 90 2433 2451
+type(
+  string -> Ccalgo.term
+)
+ident(
+  ext_ref Util.anomaly
+)
+"plugins/cc/ccproof.ml" 90 2433 2452 "plugins/cc/ccproof.ml" 90 2433 2478
+type(
+  string
+)
+"plugins/cc/ccproof.ml" 90 2433 2444 "plugins/cc/ccproof.ml" 90 2433 2478
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 85 2354 2356 "plugins/cc/ccproof.ml" 90 2433 2478
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 92 2480 2484 "plugins/cc/ccproof.ml" 92 2480 2491
+type(
+  proof -> Names.constructor -> int -> int -> proof
+)
+ident(
+  def pinject "plugins/cc/ccproof.ml" 97 2594 2594 --
+)
+"plugins/cc/ccproof.ml" 92 2480 2492 "plugins/cc/ccproof.ml" 92 2480 2493
+type(
+  proof
+)
+ident(
+  def p "plugins/cc/ccproof.ml" 92 2480 2494 "plugins/cc/ccproof.ml" 95 2566 2592
+)
+"plugins/cc/ccproof.ml" 92 2480 2494 "plugins/cc/ccproof.ml" 92 2480 2495
+type(
+  Names.constructor
+)
+ident(
+  def c "plugins/cc/ccproof.ml" 92 2480 2496 "plugins/cc/ccproof.ml" 95 2566 2592
+)
+"plugins/cc/ccproof.ml" 92 2480 2496 "plugins/cc/ccproof.ml" 92 2480 2497
+type(
+  int
+)
+ident(
+  def n "plugins/cc/ccproof.ml" 92 2480 2498 "plugins/cc/ccproof.ml" 95 2566 2592
+)
+"plugins/cc/ccproof.ml" 92 2480 2498 "plugins/cc/ccproof.ml" 92 2480 2499
+type(
+  int
+)
+ident(
+  def a "plugins/cc/ccproof.ml" 93 2502 2504 "plugins/cc/ccproof.ml" 95 2566 2592
+)
+"plugins/cc/ccproof.ml" 93 2502 2511 "plugins/cc/ccproof.ml" 93 2502 2518
+type(
+  Ccalgo.term -> int -> Ccalgo.term
+)
+ident(
+  int_ref nth_arg "plugins/cc/ccproof.ml" 84 2333 2341 "plugins/cc/ccproof.ml" 84 2333 2348
+)
+"plugins/cc/ccproof.ml" 93 2502 2519 "plugins/cc/ccproof.ml" 93 2502 2520
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 92 2480 2492 "plugins/cc/ccproof.ml" 92 2480 2493
+)
+"plugins/cc/ccproof.ml" 93 2502 2519 "plugins/cc/ccproof.ml" 93 2502 2526
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 93 2502 2528 "plugins/cc/ccproof.ml" 93 2502 2529
+type(
+  int
+)
+ident(
+  int_ref n "plugins/cc/ccproof.ml" 92 2480 2496 "plugins/cc/ccproof.ml" 92 2480 2497
+)
+"plugins/cc/ccproof.ml" 93 2502 2529 "plugins/cc/ccproof.ml" 93 2502 2530
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/cc/ccproof.ml" 93 2502 2530 "plugins/cc/ccproof.ml" 93 2502 2531
+type(
+  int
+)
+ident(
+  int_ref a "plugins/cc/ccproof.ml" 92 2480 2498 "plugins/cc/ccproof.ml" 92 2480 2499
+)
+"plugins/cc/ccproof.ml" 93 2502 2527 "plugins/cc/ccproof.ml" 93 2502 2532
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 93 2502 2511 "plugins/cc/ccproof.ml" 93 2502 2532
+call(
+  stack
+)
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 94 2534 2543 "plugins/cc/ccproof.ml" 94 2534 2550
+type(
+  Ccalgo.term -> int -> Ccalgo.term
+)
+ident(
+  int_ref nth_arg "plugins/cc/ccproof.ml" 84 2333 2341 "plugins/cc/ccproof.ml" 84 2333 2348
+)
+"plugins/cc/ccproof.ml" 94 2534 2551 "plugins/cc/ccproof.ml" 94 2534 2552
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 92 2480 2492 "plugins/cc/ccproof.ml" 92 2480 2493
+)
+"plugins/cc/ccproof.ml" 94 2534 2551 "plugins/cc/ccproof.ml" 94 2534 2558
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 94 2534 2560 "plugins/cc/ccproof.ml" 94 2534 2561
+type(
+  int
+)
+ident(
+  int_ref n "plugins/cc/ccproof.ml" 92 2480 2496 "plugins/cc/ccproof.ml" 92 2480 2497
+)
+"plugins/cc/ccproof.ml" 94 2534 2561 "plugins/cc/ccproof.ml" 94 2534 2562
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/cc/ccproof.ml" 94 2534 2562 "plugins/cc/ccproof.ml" 94 2534 2563
+type(
+  int
+)
+ident(
+  int_ref a "plugins/cc/ccproof.ml" 92 2480 2498 "plugins/cc/ccproof.ml" 92 2480 2499
+)
+"plugins/cc/ccproof.ml" 94 2534 2559 "plugins/cc/ccproof.ml" 94 2534 2564
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 94 2534 2543 "plugins/cc/ccproof.ml" 94 2534 2564
+call(
+  stack
+)
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 95 2566 2583 "plugins/cc/ccproof.ml" 95 2566 2584
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 92 2480 2492 "plugins/cc/ccproof.ml" 92 2480 2493
+)
+"plugins/cc/ccproof.ml" 95 2566 2585 "plugins/cc/ccproof.ml" 95 2566 2586
+type(
+  Names.constructor
+)
+ident(
+  int_ref c "plugins/cc/ccproof.ml" 92 2480 2494 "plugins/cc/ccproof.ml" 92 2480 2495
+)
+"plugins/cc/ccproof.ml" 95 2566 2587 "plugins/cc/ccproof.ml" 95 2566 2588
+type(
+  int
+)
+ident(
+  int_ref n "plugins/cc/ccproof.ml" 92 2480 2496 "plugins/cc/ccproof.ml" 92 2480 2497
+)
+"plugins/cc/ccproof.ml" 95 2566 2589 "plugins/cc/ccproof.ml" 95 2566 2590
+type(
+  int
+)
+ident(
+  int_ref a "plugins/cc/ccproof.ml" 92 2480 2498 "plugins/cc/ccproof.ml" 92 2480 2499
+)
+"plugins/cc/ccproof.ml" 95 2566 2576 "plugins/cc/ccproof.ml" 95 2566 2591
+type(
+  rule
+)
+"plugins/cc/ccproof.ml" 93 2502 2504 "plugins/cc/ccproof.ml" 95 2566 2592
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 97 2594 2598 "plugins/cc/ccproof.ml" 97 2594 2609
+type(
+  Ccalgo.forest ->
+  [< `Discr of int * Ccalgo.pa_constructor * int * Ccalgo.pa_constructor
+   | `Prove of int * int ] ->
+  proof
+)
+ident(
+  def build_proof "plugins/cc/ccproof.ml" 150 4097 4145 --
+)
+"plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+type(
+  Ccalgo.forest
+)
+ident(
+  def uf "plugins/cc/ccproof.ml" 99 2615 2617 "plugins/cc/ccproof.ml" 150 4097 4145
+)
+"plugins/cc/ccproof.ml" 99 2615 2621 "plugins/cc/ccproof.ml" 99 2615 2627
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t
+)
+"plugins/cc/ccproof.ml" 99 2615 2630 "plugins/cc/ccproof.ml" 99 2615 2636
+type(
+  Ccalgo.forest -> (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t
+)
+ident(
+  ext_ref Ccalgo.axioms
+)
+"plugins/cc/ccproof.ml" 99 2615 2637 "plugins/cc/ccproof.ml" 99 2615 2639
+type(
+  Ccalgo.forest
+)
+ident(
+  int_ref uf "plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+)
+"plugins/cc/ccproof.ml" 99 2615 2630 "plugins/cc/ccproof.ml" 99 2615 2639
+call(
+  stack
+)
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t
+)
+"plugins/cc/ccproof.ml" 101 2644 2654 "plugins/cc/ccproof.ml" 101 2644 2665
+type(
+  int -> int -> proof
+)
+"plugins/cc/ccproof.ml" 101 2644 2666 "plugins/cc/ccproof.ml" 101 2644 2667
+type(
+  int
+)
+ident(
+  def i "plugins/cc/ccproof.ml" 101 2644 2668 "plugins/cc/ccproof.ml" 104 2748 2798
+)
+"plugins/cc/ccproof.ml" 101 2644 2668 "plugins/cc/ccproof.ml" 101 2644 2669
+type(
+  int
+)
+ident(
+  def j "plugins/cc/ccproof.ml" 102 2671 2675 "plugins/cc/ccproof.ml" 104 2748 2798
+)
+"plugins/cc/ccproof.ml" 102 2671 2678 "plugins/cc/ccproof.ml" 102 2671 2679
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 101 2644 2666 "plugins/cc/ccproof.ml" 101 2644 2667
+)
+"plugins/cc/ccproof.ml" 102 2671 2679 "plugins/cc/ccproof.ml" 102 2671 2680
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/cc/ccproof.ml" 102 2671 2680 "plugins/cc/ccproof.ml" 102 2671 2681
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 101 2644 2668 "plugins/cc/ccproof.ml" 101 2644 2669
+)
+"plugins/cc/ccproof.ml" 102 2671 2678 "plugins/cc/ccproof.ml" 102 2671 2681
+type(
+  bool
+)
+"plugins/cc/ccproof.ml" 102 2671 2687 "plugins/cc/ccproof.ml" 102 2671 2692
+type(
+  Ccalgo.term -> proof
+)
+ident(
+  int_ref prefl "plugins/cc/ccproof.ml" 29 990 994 "plugins/cc/ccproof.ml" 29 990 999
+)
+"plugins/cc/ccproof.ml" 102 2671 2694 "plugins/cc/ccproof.ml" 102 2671 2698
+type(
+  Ccalgo.forest -> int -> Ccalgo.term
+)
+ident(
+  ext_ref Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 102 2671 2699 "plugins/cc/ccproof.ml" 102 2671 2701
+type(
+  Ccalgo.forest
+)
+ident(
+  int_ref uf "plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+)
+"plugins/cc/ccproof.ml" 102 2671 2702 "plugins/cc/ccproof.ml" 102 2671 2703
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 101 2644 2666 "plugins/cc/ccproof.ml" 101 2644 2667
+)
+"plugins/cc/ccproof.ml" 102 2671 2693 "plugins/cc/ccproof.ml" 102 2671 2704
+call(
+  stack
+)
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 102 2671 2687 "plugins/cc/ccproof.ml" 102 2671 2704
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 103 2710 2721 "plugins/cc/ccproof.ml" 103 2710 2723
+type(
+  ((int * int) * Ccalgo.equality) list
+)
+"plugins/cc/ccproof.ml" 103 2710 2724 "plugins/cc/ccproof.ml" 103 2710 2726
+type(
+  ((int * int) * Ccalgo.equality) list
+)
+"plugins/cc/ccproof.ml" 103 2710 2720 "plugins/cc/ccproof.ml" 103 2710 2727
+type(
+  ((int * int) * Ccalgo.equality) list * ((int * int) * Ccalgo.equality) list
+)
+"plugins/cc/ccproof.ml" 103 2710 2728 "plugins/cc/ccproof.ml" 103 2710 2737
+type(
+  Ccalgo.forest ->
+  int ->
+  int ->
+  ((int * int) * Ccalgo.equality) list * ((int * int) * Ccalgo.equality) list
+)
+ident(
+  ext_ref Ccalgo.join_path
+)
+"plugins/cc/ccproof.ml" 103 2710 2738 "plugins/cc/ccproof.ml" 103 2710 2740
+type(
+  Ccalgo.forest
+)
+ident(
+  int_ref uf "plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+)
+"plugins/cc/ccproof.ml" 103 2710 2741 "plugins/cc/ccproof.ml" 103 2710 2742
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 101 2644 2666 "plugins/cc/ccproof.ml" 101 2644 2667
+)
+"plugins/cc/ccproof.ml" 103 2710 2743 "plugins/cc/ccproof.ml" 103 2710 2744
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 101 2644 2668 "plugins/cc/ccproof.ml" 101 2644 2669
+)
+"plugins/cc/ccproof.ml" 103 2710 2728 "plugins/cc/ccproof.ml" 103 2710 2744
+call(
+  stack
+)
+type(
+  ((int * int) * Ccalgo.equality) list * ((int * int) * Ccalgo.equality) list
+)
+"plugins/cc/ccproof.ml" 104 2748 2749 "plugins/cc/ccproof.ml" 104 2748 2755
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 104 2748 2757 "plugins/cc/ccproof.ml" 104 2748 2767
+type(
+  int -> ((int * int) * Ccalgo.equality) list -> proof
+)
+ident(
+  int_ref path_proof "plugins/cc/ccproof.ml" 133 3617 3623 "plugins/cc/ccproof.ml" 133 3617 3633
+)
+"plugins/cc/ccproof.ml" 104 2748 2768 "plugins/cc/ccproof.ml" 104 2748 2769
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 101 2644 2666 "plugins/cc/ccproof.ml" 101 2644 2667
+)
+"plugins/cc/ccproof.ml" 104 2748 2770 "plugins/cc/ccproof.ml" 104 2748 2772
+type(
+  ((int * int) * Ccalgo.equality) list
+)
+ident(
+  int_ref li "plugins/cc/ccproof.ml" 103 2710 2721 "plugins/cc/ccproof.ml" 103 2710 2723
+)
+"plugins/cc/ccproof.ml" 104 2748 2756 "plugins/cc/ccproof.ml" 104 2748 2773
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 104 2748 2775 "plugins/cc/ccproof.ml" 104 2748 2779
+type(
+  proof -> proof
+)
+ident(
+  int_ref psym "plugins/cc/ccproof.ml" 54 1732 1740 "plugins/cc/ccproof.ml" 54 1732 1744
+)
+"plugins/cc/ccproof.ml" 104 2748 2781 "plugins/cc/ccproof.ml" 104 2748 2791
+type(
+  int -> ((int * int) * Ccalgo.equality) list -> proof
+)
+ident(
+  int_ref path_proof "plugins/cc/ccproof.ml" 133 3617 3623 "plugins/cc/ccproof.ml" 133 3617 3633
+)
+"plugins/cc/ccproof.ml" 104 2748 2792 "plugins/cc/ccproof.ml" 104 2748 2793
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 101 2644 2668 "plugins/cc/ccproof.ml" 101 2644 2669
+)
+"plugins/cc/ccproof.ml" 104 2748 2794 "plugins/cc/ccproof.ml" 104 2748 2796
+type(
+  ((int * int) * Ccalgo.equality) list
+)
+ident(
+  int_ref lj "plugins/cc/ccproof.ml" 103 2710 2724 "plugins/cc/ccproof.ml" 103 2710 2726
+)
+"plugins/cc/ccproof.ml" 104 2748 2780 "plugins/cc/ccproof.ml" 104 2748 2797
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 104 2748 2774 "plugins/cc/ccproof.ml" 104 2748 2798
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 104 2748 2749 "plugins/cc/ccproof.ml" 104 2748 2798
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 103 2710 2716 "plugins/cc/ccproof.ml" 104 2748 2798
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 102 2671 2675 "plugins/cc/ccproof.ml" 104 2748 2798
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 106 2800 2806 "plugins/cc/ccproof.ml" 106 2800 2816
+type(
+  (int * int) * Ccalgo.equality -> proof
+)
+"plugins/cc/ccproof.ml" 106 2800 2819 "plugins/cc/ccproof.ml" 106 2800 2820
+type(
+  int
+)
+ident(
+  def i "plugins/cc/ccproof.ml" 107 2829 2833 "plugins/cc/ccproof.ml" 119 3251 3284
+)
+"plugins/cc/ccproof.ml" 106 2800 2821 "plugins/cc/ccproof.ml" 106 2800 2822
+type(
+  int
+)
+ident(
+  def j "plugins/cc/ccproof.ml" 107 2829 2833 "plugins/cc/ccproof.ml" 119 3251 3284
+)
+"plugins/cc/ccproof.ml" 106 2800 2818 "plugins/cc/ccproof.ml" 106 2800 2823
+type(
+  int * int
+)
+"plugins/cc/ccproof.ml" 106 2800 2824 "plugins/cc/ccproof.ml" 106 2800 2826
+type(
+  Ccalgo.equality
+)
+ident(
+  def eq "plugins/cc/ccproof.ml" 107 2829 2833 "plugins/cc/ccproof.ml" 119 3251 3284
+)
+"plugins/cc/ccproof.ml" 106 2800 2817 "plugins/cc/ccproof.ml" 106 2800 2827
+type(
+  (int * int) * Ccalgo.equality
+)
+"plugins/cc/ccproof.ml" 107 2829 2837 "plugins/cc/ccproof.ml" 107 2829 2839
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 107 2829 2840 "plugins/cc/ccproof.ml" 107 2829 2851
+type(
+  int -> int -> proof
+)
+ident(
+  int_ref equal_proof "plugins/cc/ccproof.ml" 101 2644 2654 "plugins/cc/ccproof.ml" 101 2644 2665
+)
+"plugins/cc/ccproof.ml" 107 2829 2852 "plugins/cc/ccproof.ml" 107 2829 2853
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 106 2800 2819 "plugins/cc/ccproof.ml" 106 2800 2820
+)
+"plugins/cc/ccproof.ml" 107 2829 2854 "plugins/cc/ccproof.ml" 107 2829 2856
+type(
+  Ccalgo.equality
+)
+ident(
+  int_ref eq "plugins/cc/ccproof.ml" 106 2800 2824 "plugins/cc/ccproof.ml" 106 2800 2826
+)
+"plugins/cc/ccproof.ml" 107 2829 2854 "plugins/cc/ccproof.ml" 107 2829 2860
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 107 2829 2840 "plugins/cc/ccproof.ml" 107 2829 2860
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 108 2864 2872 "plugins/cc/ccproof.ml" 108 2864 2874
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 108 2864 2875 "plugins/cc/ccproof.ml" 108 2864 2879
+type(
+  proof -> proof
+)
+ident(
+  int_ref psym "plugins/cc/ccproof.ml" 54 1732 1740 "plugins/cc/ccproof.ml" 54 1732 1744
+)
+"plugins/cc/ccproof.ml" 108 2864 2881 "plugins/cc/ccproof.ml" 108 2864 2892
+type(
+  int -> int -> proof
+)
+ident(
+  int_ref equal_proof "plugins/cc/ccproof.ml" 101 2644 2654 "plugins/cc/ccproof.ml" 101 2644 2665
+)
+"plugins/cc/ccproof.ml" 108 2864 2893 "plugins/cc/ccproof.ml" 108 2864 2894
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 106 2800 2821 "plugins/cc/ccproof.ml" 106 2800 2822
+)
+"plugins/cc/ccproof.ml" 108 2864 2895 "plugins/cc/ccproof.ml" 108 2864 2897
+type(
+  Ccalgo.equality
+)
+ident(
+  int_ref eq "plugins/cc/ccproof.ml" 106 2800 2824 "plugins/cc/ccproof.ml" 106 2800 2826
+)
+"plugins/cc/ccproof.ml" 108 2864 2895 "plugins/cc/ccproof.ml" 108 2864 2901
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 108 2864 2880 "plugins/cc/ccproof.ml" 108 2864 2902
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 108 2864 2875 "plugins/cc/ccproof.ml" 108 2864 2902
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 109 2906 2914 "plugins/cc/ccproof.ml" 109 2906 2917
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 110 2919 2931 "plugins/cc/ccproof.ml" 110 2919 2933
+type(
+  Ccalgo.equality
+)
+ident(
+  int_ref eq "plugins/cc/ccproof.ml" 106 2800 2824 "plugins/cc/ccproof.ml" 106 2800 2826
+)
+"plugins/cc/ccproof.ml" 110 2919 2931 "plugins/cc/ccproof.ml" 110 2919 2938
+type(
+  Ccalgo.rule
+)
+"plugins/cc/ccproof.ml" 111 2944 2954 "plugins/cc/ccproof.ml" 111 2944 2955
+type(
+  Term.constr
+)
+ident(
+  def s "plugins/cc/ccproof.ml" 112 2968 2973 "plugins/cc/ccproof.ml" 113 3006 3028
+)
+"plugins/cc/ccproof.ml" 111 2944 2956 "plugins/cc/ccproof.ml" 111 2944 2964
+type(
+  bool
+)
+ident(
+  def reversed "plugins/cc/ccproof.ml" 112 2968 2973 "plugins/cc/ccproof.ml" 113 3006 3028
+)
+"plugins/cc/ccproof.ml" 111 2944 2947 "plugins/cc/ccproof.ml" 111 2944 2965
+type(
+  Ccalgo.rule
+)
+"plugins/cc/ccproof.ml" 112 2968 2976 "plugins/cc/ccproof.ml" 112 2968 2984
+type(
+  bool
+)
+ident(
+  int_ref reversed "plugins/cc/ccproof.ml" 111 2944 2956 "plugins/cc/ccproof.ml" 111 2944 2964
+)
+"plugins/cc/ccproof.ml" 112 2968 2990 "plugins/cc/ccproof.ml" 112 2968 2996
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t -> Term.constr -> proof
+)
+ident(
+  int_ref psymax "plugins/cc/ccproof.ml" 78 2224 2228 "plugins/cc/ccproof.ml" 78 2224 2234
+)
+"plugins/cc/ccproof.ml" 112 2968 2997 "plugins/cc/ccproof.ml" 112 2968 3003
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t
+)
+ident(
+  int_ref axioms "plugins/cc/ccproof.ml" 99 2615 2621 "plugins/cc/ccproof.ml" 99 2615 2627
+)
+"plugins/cc/ccproof.ml" 112 2968 3004 "plugins/cc/ccproof.ml" 112 2968 3005
+type(
+  Term.constr
+)
+ident(
+  int_ref s "plugins/cc/ccproof.ml" 111 2944 2954 "plugins/cc/ccproof.ml" 111 2944 2955
+)
+"plugins/cc/ccproof.ml" 112 2968 2990 "plugins/cc/ccproof.ml" 112 2968 3005
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 113 3006 3016 "plugins/cc/ccproof.ml" 113 3006 3019
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t -> Term.constr -> proof
+)
+ident(
+  int_ref pax "plugins/cc/ccproof.ml" 72 2121 2125 "plugins/cc/ccproof.ml" 72 2121 2128
+)
+"plugins/cc/ccproof.ml" 113 3006 3020 "plugins/cc/ccproof.ml" 113 3006 3026
+type(
+  (Term.constr, Ccalgo.term * Ccalgo.term) Hashtbl.t
+)
+ident(
+  int_ref axioms "plugins/cc/ccproof.ml" 99 2615 2621 "plugins/cc/ccproof.ml" 99 2615 2627
+)
+"plugins/cc/ccproof.ml" 113 3006 3027 "plugins/cc/ccproof.ml" 113 3006 3028
+type(
+  Term.constr
+)
+ident(
+  int_ref s "plugins/cc/ccproof.ml" 111 2944 2954 "plugins/cc/ccproof.ml" 111 2944 2955
+)
+"plugins/cc/ccproof.ml" 113 3006 3016 "plugins/cc/ccproof.ml" 113 3006 3028
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 112 2968 2973 "plugins/cc/ccproof.ml" 113 3006 3028
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 114 3029 3032 "plugins/cc/ccproof.ml" 114 3029 3042
+type(
+  Ccalgo.rule
+)
+"plugins/cc/ccproof.ml" 114 3029 3045 "plugins/cc/ccproof.ml" 114 3029 3056
+type(
+  int -> int -> proof
+)
+ident(
+  int_ref congr_proof "plugins/cc/ccproof.ml" 137 3739 3745 "plugins/cc/ccproof.ml" 137 3739 3756
+)
+"plugins/cc/ccproof.ml" 114 3029 3057 "plugins/cc/ccproof.ml" 114 3029 3059
+type(
+  Ccalgo.equality
+)
+ident(
+  int_ref eq "plugins/cc/ccproof.ml" 106 2800 2824 "plugins/cc/ccproof.ml" 106 2800 2826
+)
+"plugins/cc/ccproof.ml" 114 3029 3057 "plugins/cc/ccproof.ml" 114 3029 3063
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 114 3029 3064 "plugins/cc/ccproof.ml" 114 3029 3066
+type(
+  Ccalgo.equality
+)
+ident(
+  int_ref eq "plugins/cc/ccproof.ml" 106 2800 2824 "plugins/cc/ccproof.ml" 106 2800 2826
+)
+"plugins/cc/ccproof.ml" 114 3029 3064 "plugins/cc/ccproof.ml" 114 3029 3070
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 114 3029 3045 "plugins/cc/ccproof.ml" 114 3029 3070
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 115 3071 3085 "plugins/cc/ccproof.ml" 115 3071 3087
+type(
+  int
+)
+ident(
+  def ti "plugins/cc/ccproof.ml" 116 3107 3112 "plugins/cc/ccproof.ml" 118 3201 3250
+)
+"plugins/cc/ccproof.ml" 115 3071 3088 "plugins/cc/ccproof.ml" 115 3071 3092
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  def ipac "plugins/cc/ccproof.ml" 116 3107 3112 "plugins/cc/ccproof.ml" 118 3201 3250
+)
+"plugins/cc/ccproof.ml" 115 3071 3093 "plugins/cc/ccproof.ml" 115 3071 3095
+type(
+  int
+)
+ident(
+  def tj "plugins/cc/ccproof.ml" 116 3107 3112 "plugins/cc/ccproof.ml" 118 3201 3250
+)
+"plugins/cc/ccproof.ml" 115 3071 3096 "plugins/cc/ccproof.ml" 115 3071 3100
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  def jpac "plugins/cc/ccproof.ml" 116 3107 3112 "plugins/cc/ccproof.ml" 118 3201 3250
+)
+"plugins/cc/ccproof.ml" 115 3071 3101 "plugins/cc/ccproof.ml" 115 3071 3102
+type(
+  int
+)
+ident(
+  def k "plugins/cc/ccproof.ml" 116 3107 3112 "plugins/cc/ccproof.ml" 118 3201 3250
+)
+"plugins/cc/ccproof.ml" 115 3071 3074 "plugins/cc/ccproof.ml" 115 3071 3103
+type(
+  Ccalgo.rule
+)
+"plugins/cc/ccproof.ml" 116 3107 3116 "plugins/cc/ccproof.ml" 116 3107 3117
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 116 3107 3118 "plugins/cc/ccproof.ml" 116 3107 3127
+type(
+  int -> Ccalgo.pa_constructor -> int -> Ccalgo.pa_constructor -> proof
+)
+ident(
+  int_ref ind_proof "plugins/cc/ccproof.ml" 142 3883 3889 "plugins/cc/ccproof.ml" 142 3883 3898
+)
+"plugins/cc/ccproof.ml" 116 3107 3128 "plugins/cc/ccproof.ml" 116 3107 3130
+type(
+  int
+)
+ident(
+  int_ref ti "plugins/cc/ccproof.ml" 115 3071 3085 "plugins/cc/ccproof.ml" 115 3071 3087
+)
+"plugins/cc/ccproof.ml" 116 3107 3131 "plugins/cc/ccproof.ml" 116 3107 3135
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  int_ref ipac "plugins/cc/ccproof.ml" 115 3071 3088 "plugins/cc/ccproof.ml" 115 3071 3092
+)
+"plugins/cc/ccproof.ml" 116 3107 3136 "plugins/cc/ccproof.ml" 116 3107 3138
+type(
+  int
+)
+ident(
+  int_ref tj "plugins/cc/ccproof.ml" 115 3071 3093 "plugins/cc/ccproof.ml" 115 3071 3095
+)
+"plugins/cc/ccproof.ml" 116 3107 3139 "plugins/cc/ccproof.ml" 116 3107 3143
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  int_ref jpac "plugins/cc/ccproof.ml" 115 3071 3096 "plugins/cc/ccproof.ml" 115 3071 3100
+)
+"plugins/cc/ccproof.ml" 116 3107 3118 "plugins/cc/ccproof.ml" 116 3107 3143
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 117 3147 3156 "plugins/cc/ccproof.ml" 117 3147 3161
+type(
+  Ccalgo.cinfo
+)
+"plugins/cc/ccproof.ml" 117 3147 3163 "plugins/cc/ccproof.ml" 117 3147 3183
+type(
+  Ccalgo.forest -> int -> Ccalgo.cinfo
+)
+ident(
+  ext_ref Ccalgo.get_constructor_info
+)
+"plugins/cc/ccproof.ml" 117 3147 3184 "plugins/cc/ccproof.ml" 117 3147 3186
+type(
+  Ccalgo.forest
+)
+ident(
+  int_ref uf "plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+)
+"plugins/cc/ccproof.ml" 117 3147 3187 "plugins/cc/ccproof.ml" 117 3147 3191
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  int_ref ipac "plugins/cc/ccproof.ml" 115 3071 3088 "plugins/cc/ccproof.ml" 115 3071 3092
+)
+"plugins/cc/ccproof.ml" 117 3147 3187 "plugins/cc/ccproof.ml" 117 3147 3197
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 117 3147 3163 "plugins/cc/ccproof.ml" 117 3147 3197
+call(
+  stack
+)
+type(
+  Ccalgo.cinfo
+)
+"plugins/cc/ccproof.ml" 118 3201 3208 "plugins/cc/ccproof.ml" 118 3201 3215
+type(
+  proof -> Names.constructor -> int -> int -> proof
+)
+ident(
+  int_ref pinject "plugins/cc/ccproof.ml" 92 2480 2484 "plugins/cc/ccproof.ml" 92 2480 2491
+)
+"plugins/cc/ccproof.ml" 118 3201 3216 "plugins/cc/ccproof.ml" 118 3201 3217
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 116 3107 3116 "plugins/cc/ccproof.ml" 116 3107 3117
+)
+"plugins/cc/ccproof.ml" 118 3201 3218 "plugins/cc/ccproof.ml" 118 3201 3223
+type(
+  Ccalgo.cinfo
+)
+ident(
+  int_ref cinfo "plugins/cc/ccproof.ml" 117 3147 3156 "plugins/cc/ccproof.ml" 117 3147 3161
+)
+"plugins/cc/ccproof.ml" 118 3201 3218 "plugins/cc/ccproof.ml" 118 3201 3233
+type(
+  Names.constructor
+)
+"plugins/cc/ccproof.ml" 118 3201 3234 "plugins/cc/ccproof.ml" 118 3201 3239
+type(
+  Ccalgo.cinfo
+)
+ident(
+  int_ref cinfo "plugins/cc/ccproof.ml" 117 3147 3156 "plugins/cc/ccproof.ml" 117 3147 3161
+)
+"plugins/cc/ccproof.ml" 118 3201 3234 "plugins/cc/ccproof.ml" 118 3201 3248
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 118 3201 3249 "plugins/cc/ccproof.ml" 118 3201 3250
+type(
+  int
+)
+ident(
+  int_ref k "plugins/cc/ccproof.ml" 115 3071 3101 "plugins/cc/ccproof.ml" 115 3071 3102
+)
+"plugins/cc/ccproof.ml" 118 3201 3208 "plugins/cc/ccproof.ml" 118 3201 3250
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 117 3147 3152 "plugins/cc/ccproof.ml" 118 3201 3250
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 116 3107 3112 "plugins/cc/ccproof.ml" 118 3201 3250
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 110 2919 2925 "plugins/cc/ccproof.ml" 118 3201 3250
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 119 3251 3259 "plugins/cc/ccproof.ml" 119 3251 3265
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 119 3251 3267 "plugins/cc/ccproof.ml" 119 3251 3273
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 119 3251 3274 "plugins/cc/ccproof.ml" 119 3251 3276
+type(
+  proof
+)
+ident(
+  int_ref pi "plugins/cc/ccproof.ml" 107 2829 2837 "plugins/cc/ccproof.ml" 107 2829 2839
+)
+"plugins/cc/ccproof.ml" 119 3251 3277 "plugins/cc/ccproof.ml" 119 3251 3280
+type(
+  proof
+)
+ident(
+  int_ref pij "plugins/cc/ccproof.ml" 109 2906 2914 "plugins/cc/ccproof.ml" 109 2906 2917
+)
+"plugins/cc/ccproof.ml" 119 3251 3266 "plugins/cc/ccproof.ml" 119 3251 3281
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 119 3251 3282 "plugins/cc/ccproof.ml" 119 3251 3284
+type(
+  proof
+)
+ident(
+  int_ref pj "plugins/cc/ccproof.ml" 108 2864 2872 "plugins/cc/ccproof.ml" 108 2864 2874
+)
+"plugins/cc/ccproof.ml" 119 3251 3259 "plugins/cc/ccproof.ml" 119 3251 3284
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 109 2906 2910 "plugins/cc/ccproof.ml" 119 3251 3284
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 108 2864 2868 "plugins/cc/ccproof.ml" 119 3251 3284
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 107 2829 2833 "plugins/cc/ccproof.ml" 119 3251 3284
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 121 3286 3292 "plugins/cc/ccproof.ml" 121 3286 3304
+type(
+  int -> int -> Ccalgo.pa_constructor -> proof
+)
+"plugins/cc/ccproof.ml" 121 3286 3305 "plugins/cc/ccproof.ml" 121 3286 3306
+type(
+  int
+)
+ident(
+  def i "plugins/cc/ccproof.ml" 121 3286 3307 "plugins/cc/ccproof.ml" 131 3566 3615
+)
+"plugins/cc/ccproof.ml" 121 3286 3307 "plugins/cc/ccproof.ml" 121 3286 3308
+type(
+  int
+)
+ident(
+  def t "plugins/cc/ccproof.ml" 121 3286 3309 "plugins/cc/ccproof.ml" 131 3566 3615
+)
+"plugins/cc/ccproof.ml" 121 3286 3309 "plugins/cc/ccproof.ml" 121 3286 3313
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  def ipac "plugins/cc/ccproof.ml" 122 3315 3319 "plugins/cc/ccproof.ml" 131 3566 3615
+)
+"plugins/cc/ccproof.ml" 122 3315 3322 "plugins/cc/ccproof.ml" 122 3315 3326
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  int_ref ipac "plugins/cc/ccproof.ml" 121 3286 3309 "plugins/cc/ccproof.ml" 121 3286 3313
+)
+"plugins/cc/ccproof.ml" 122 3315 3322 "plugins/cc/ccproof.ml" 122 3315 3331
+type(
+  int list
+)
+"plugins/cc/ccproof.ml" 122 3315 3331 "plugins/cc/ccproof.ml" 122 3315 3332
+type(
+  int list -> int list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/cc/ccproof.ml" 122 3315 3332 "plugins/cc/ccproof.ml" 122 3315 3334
+type(
+  int list
+)
+"plugins/cc/ccproof.ml" 122 3315 3322 "plugins/cc/ccproof.ml" 122 3315 3334
+type(
+  bool
+)
+"plugins/cc/ccproof.ml" 123 3340 3346 "plugins/cc/ccproof.ml" 123 3340 3357
+type(
+  int -> int -> proof
+)
+ident(
+  int_ref equal_proof "plugins/cc/ccproof.ml" 101 2644 2654 "plugins/cc/ccproof.ml" 101 2644 2665
+)
+"plugins/cc/ccproof.ml" 123 3340 3358 "plugins/cc/ccproof.ml" 123 3340 3359
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 121 3286 3305 "plugins/cc/ccproof.ml" 121 3286 3306
+)
+"plugins/cc/ccproof.ml" 123 3340 3360 "plugins/cc/ccproof.ml" 123 3340 3361
+type(
+  int
+)
+ident(
+  int_ref t "plugins/cc/ccproof.ml" 121 3286 3307 "plugins/cc/ccproof.ml" 121 3286 3308
+)
+"plugins/cc/ccproof.ml" 123 3340 3346 "plugins/cc/ccproof.ml" 123 3340 3361
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 125 3371 3381 "plugins/cc/ccproof.ml" 125 3371 3385
+type(
+  Ccalgo.pa_constructor
+)
+"plugins/cc/ccproof.ml" 125 3371 3386 "plugins/cc/ccproof.ml" 125 3371 3394
+type(
+  Ccalgo.pa_constructor -> Ccalgo.pa_constructor
+)
+ident(
+  ext_ref Ccalgo.tail_pac
+)
+"plugins/cc/ccproof.ml" 125 3371 3395 "plugins/cc/ccproof.ml" 125 3371 3399
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  int_ref ipac "plugins/cc/ccproof.ml" 121 3286 3309 "plugins/cc/ccproof.ml" 121 3286 3313
+)
+"plugins/cc/ccproof.ml" 125 3371 3386 "plugins/cc/ccproof.ml" 125 3371 3399
+call(
+  stack
+)
+type(
+  Ccalgo.pa_constructor
+)
+"plugins/cc/ccproof.ml" 126 3403 3414 "plugins/cc/ccproof.ml" 126 3403 3415
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 126 3403 3416 "plugins/cc/ccproof.ml" 126 3403 3419
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 126 3403 3413 "plugins/cc/ccproof.ml" 126 3403 3420
+type(
+  int * int
+)
+"plugins/cc/ccproof.ml" 126 3403 3421 "plugins/cc/ccproof.ml" 126 3403 3429
+type(
+  Ccalgo.forest -> int -> int * int
+)
+ident(
+  ext_ref Ccalgo.subterms
+)
+"plugins/cc/ccproof.ml" 126 3403 3430 "plugins/cc/ccproof.ml" 126 3403 3432
+type(
+  Ccalgo.forest
+)
+ident(
+  int_ref uf "plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+)
+"plugins/cc/ccproof.ml" 126 3403 3433 "plugins/cc/ccproof.ml" 126 3403 3434
+type(
+  int
+)
+ident(
+  int_ref t "plugins/cc/ccproof.ml" 121 3286 3307 "plugins/cc/ccproof.ml" 121 3286 3308
+)
+"plugins/cc/ccproof.ml" 126 3403 3421 "plugins/cc/ccproof.ml" 126 3403 3434
+call(
+  stack
+)
+type(
+  int * int
+)
+"plugins/cc/ccproof.ml" 127 3438 3448 "plugins/cc/ccproof.ml" 127 3438 3452
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 127 3438 3453 "plugins/cc/ccproof.ml" 127 3438 3457
+type(
+  Ccalgo.forest -> int -> Ccalgo.term
+)
+ident(
+  ext_ref Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 127 3438 3458 "plugins/cc/ccproof.ml" 127 3438 3460
+type(
+  Ccalgo.forest
+)
+ident(
+  int_ref uf "plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+)
+"plugins/cc/ccproof.ml" 127 3438 3461 "plugins/cc/ccproof.ml" 127 3438 3464
+type(
+  int
+)
+ident(
+  int_ref arg "plugins/cc/ccproof.ml" 126 3403 3416 "plugins/cc/ccproof.ml" 126 3403 3419
+)
+"plugins/cc/ccproof.ml" 127 3438 3453 "plugins/cc/ccproof.ml" 127 3438 3464
+call(
+  stack
+)
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 128 3468 3478 "plugins/cc/ccproof.ml" 128 3468 3480
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 128 3468 3481 "plugins/cc/ccproof.ml" 128 3468 3485
+type(
+  Ccalgo.forest -> int -> int
+)
+ident(
+  ext_ref Ccalgo.find
+)
+"plugins/cc/ccproof.ml" 128 3468 3486 "plugins/cc/ccproof.ml" 128 3468 3488
+type(
+  Ccalgo.forest
+)
+ident(
+  int_ref uf "plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+)
+"plugins/cc/ccproof.ml" 128 3468 3489 "plugins/cc/ccproof.ml" 128 3468 3490
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 126 3403 3414 "plugins/cc/ccproof.ml" 126 3403 3415
+)
+"plugins/cc/ccproof.ml" 128 3468 3481 "plugins/cc/ccproof.ml" 128 3468 3490
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 129 3494 3504 "plugins/cc/ccproof.ml" 129 3494 3505
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 129 3494 3506 "plugins/cc/ccproof.ml" 129 3494 3514
+type(
+  Ccalgo.forest -> int -> Ccalgo.pa_constructor -> int
+)
+ident(
+  ext_ref Ccalgo.find_pac
+)
+"plugins/cc/ccproof.ml" 129 3494 3515 "plugins/cc/ccproof.ml" 129 3494 3517
+type(
+  Ccalgo.forest
+)
+ident(
+  int_ref uf "plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+)
+"plugins/cc/ccproof.ml" 129 3494 3518 "plugins/cc/ccproof.ml" 129 3494 3520
+type(
+  int
+)
+ident(
+  int_ref rj "plugins/cc/ccproof.ml" 128 3468 3478 "plugins/cc/ccproof.ml" 128 3468 3480
+)
+"plugins/cc/ccproof.ml" 129 3494 3521 "plugins/cc/ccproof.ml" 129 3494 3525
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  int_ref npac "plugins/cc/ccproof.ml" 125 3371 3381 "plugins/cc/ccproof.ml" 125 3371 3385
+)
+"plugins/cc/ccproof.ml" 129 3494 3506 "plugins/cc/ccproof.ml" 129 3494 3525
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 130 3529 3539 "plugins/cc/ccproof.ml" 130 3529 3540
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 130 3529 3541 "plugins/cc/ccproof.ml" 130 3529 3553
+type(
+  int -> int -> Ccalgo.pa_constructor -> proof
+)
+ident(
+  int_ref constr_proof "plugins/cc/ccproof.ml" 121 3286 3292 "plugins/cc/ccproof.ml" 121 3286 3304
+)
+"plugins/cc/ccproof.ml" 130 3529 3554 "plugins/cc/ccproof.ml" 130 3529 3555
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 126 3403 3414 "plugins/cc/ccproof.ml" 126 3403 3415
+)
+"plugins/cc/ccproof.ml" 130 3529 3556 "plugins/cc/ccproof.ml" 130 3529 3557
+type(
+  int
+)
+ident(
+  int_ref u "plugins/cc/ccproof.ml" 129 3494 3504 "plugins/cc/ccproof.ml" 129 3494 3505
+)
+"plugins/cc/ccproof.ml" 130 3529 3558 "plugins/cc/ccproof.ml" 130 3529 3562
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  int_ref npac "plugins/cc/ccproof.ml" 125 3371 3381 "plugins/cc/ccproof.ml" 125 3371 3385
+)
+"plugins/cc/ccproof.ml" 130 3529 3541 "plugins/cc/ccproof.ml" 130 3529 3562
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 131 3566 3567 "plugins/cc/ccproof.ml" 131 3566 3573
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 131 3566 3575 "plugins/cc/ccproof.ml" 131 3566 3586
+type(
+  int -> int -> proof
+)
+ident(
+  int_ref equal_proof "plugins/cc/ccproof.ml" 101 2644 2654 "plugins/cc/ccproof.ml" 101 2644 2665
+)
+"plugins/cc/ccproof.ml" 131 3566 3587 "plugins/cc/ccproof.ml" 131 3566 3588
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 121 3286 3305 "plugins/cc/ccproof.ml" 121 3286 3306
+)
+"plugins/cc/ccproof.ml" 131 3566 3589 "plugins/cc/ccproof.ml" 131 3566 3590
+type(
+  int
+)
+ident(
+  int_ref t "plugins/cc/ccproof.ml" 121 3286 3307 "plugins/cc/ccproof.ml" 121 3286 3308
+)
+"plugins/cc/ccproof.ml" 131 3566 3574 "plugins/cc/ccproof.ml" 131 3566 3591
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 131 3566 3593 "plugins/cc/ccproof.ml" 131 3566 3599
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref pcongr "plugins/cc/ccproof.ml" 31 1037 1041 "plugins/cc/ccproof.ml" 31 1037 1047
+)
+"plugins/cc/ccproof.ml" 131 3566 3600 "plugins/cc/ccproof.ml" 131 3566 3601
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 130 3529 3539 "plugins/cc/ccproof.ml" 130 3529 3540
+)
+"plugins/cc/ccproof.ml" 131 3566 3603 "plugins/cc/ccproof.ml" 131 3566 3608
+type(
+  Ccalgo.term -> proof
+)
+ident(
+  int_ref prefl "plugins/cc/ccproof.ml" 29 990 994 "plugins/cc/ccproof.ml" 29 990 999
+)
+"plugins/cc/ccproof.ml" 131 3566 3609 "plugins/cc/ccproof.ml" 131 3566 3613
+type(
+  Ccalgo.term
+)
+ident(
+  int_ref targ "plugins/cc/ccproof.ml" 127 3438 3448 "plugins/cc/ccproof.ml" 127 3438 3452
+)
+"plugins/cc/ccproof.ml" 131 3566 3602 "plugins/cc/ccproof.ml" 131 3566 3614
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 131 3566 3592 "plugins/cc/ccproof.ml" 131 3566 3615
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 131 3566 3567 "plugins/cc/ccproof.ml" 131 3566 3615
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 130 3529 3535 "plugins/cc/ccproof.ml" 131 3566 3615
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 129 3494 3500 "plugins/cc/ccproof.ml" 131 3566 3615
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 128 3468 3474 "plugins/cc/ccproof.ml" 131 3566 3615
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 127 3438 3444 "plugins/cc/ccproof.ml" 131 3566 3615
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 126 3403 3409 "plugins/cc/ccproof.ml" 131 3566 3615
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 125 3371 3377 "plugins/cc/ccproof.ml" 131 3566 3615
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 122 3315 3319 "plugins/cc/ccproof.ml" 131 3566 3615
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 133 3617 3623 "plugins/cc/ccproof.ml" 133 3617 3633
+type(
+  int -> ((int * int) * Ccalgo.equality) list -> proof
+)
+"plugins/cc/ccproof.ml" 133 3617 3634 "plugins/cc/ccproof.ml" 133 3617 3635
+type(
+  int
+)
+ident(
+  def i "plugins/cc/ccproof.ml" 133 3617 3636 "plugins/cc/ccproof.ml" 135 3675 3737
+)
+"plugins/cc/ccproof.ml" 134 3645 3651 "plugins/cc/ccproof.ml" 134 3645 3653
+type(
+  ((int * int) * Ccalgo.equality) list
+)
+"plugins/cc/ccproof.ml" 134 3645 3657 "plugins/cc/ccproof.ml" 134 3645 3662
+type(
+  Ccalgo.term -> proof
+)
+ident(
+  int_ref prefl "plugins/cc/ccproof.ml" 29 990 994 "plugins/cc/ccproof.ml" 29 990 999
+)
+"plugins/cc/ccproof.ml" 134 3645 3664 "plugins/cc/ccproof.ml" 134 3645 3668
+type(
+  Ccalgo.forest -> int -> Ccalgo.term
+)
+ident(
+  ext_ref Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 134 3645 3669 "plugins/cc/ccproof.ml" 134 3645 3671
+type(
+  Ccalgo.forest
+)
+ident(
+  int_ref uf "plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+)
+"plugins/cc/ccproof.ml" 134 3645 3672 "plugins/cc/ccproof.ml" 134 3645 3673
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 133 3617 3634 "plugins/cc/ccproof.ml" 133 3617 3635
+)
+"plugins/cc/ccproof.ml" 134 3645 3663 "plugins/cc/ccproof.ml" 134 3645 3674
+call(
+  stack
+)
+type(
+  Ccalgo.term
+)
+"plugins/cc/ccproof.ml" 134 3645 3657 "plugins/cc/ccproof.ml" 134 3645 3674
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 135 3675 3681 "plugins/cc/ccproof.ml" 135 3675 3682
+type(
+  (int * int) * Ccalgo.equality
+)
+ident(
+  def x "plugins/cc/ccproof.ml" 135 3675 3687 "plugins/cc/ccproof.ml" 135 3675 3737
+)
+"plugins/cc/ccproof.ml" 135 3675 3684 "plugins/cc/ccproof.ml" 135 3675 3685
+type(
+  ((int * int) * Ccalgo.equality) list
+)
+ident(
+  def q "plugins/cc/ccproof.ml" 135 3675 3687 "plugins/cc/ccproof.ml" 135 3675 3737
+)
+"plugins/cc/ccproof.ml" 135 3675 3681 "plugins/cc/ccproof.ml" 135 3675 3685
+type(
+  ((int * int) * Ccalgo.equality) list
+)
+"plugins/cc/ccproof.ml" 135 3675 3687 "plugins/cc/ccproof.ml" 135 3675 3693
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 135 3675 3695 "plugins/cc/ccproof.ml" 135 3675 3705
+type(
+  int -> ((int * int) * Ccalgo.equality) list -> proof
+)
+ident(
+  int_ref path_proof "plugins/cc/ccproof.ml" 133 3617 3623 "plugins/cc/ccproof.ml" 133 3617 3633
+)
+"plugins/cc/ccproof.ml" 135 3675 3707 "plugins/cc/ccproof.ml" 135 3675 3710
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"plugins/cc/ccproof.ml" 135 3675 3712 "plugins/cc/ccproof.ml" 135 3675 3715
+type(
+  (int * int) * Ccalgo.equality -> int * int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"plugins/cc/ccproof.ml" 135 3675 3716 "plugins/cc/ccproof.ml" 135 3675 3717
+type(
+  (int * int) * Ccalgo.equality
+)
+ident(
+  int_ref x "plugins/cc/ccproof.ml" 135 3675 3681 "plugins/cc/ccproof.ml" 135 3675 3682
+)
+"plugins/cc/ccproof.ml" 135 3675 3711 "plugins/cc/ccproof.ml" 135 3675 3718
+type(
+  int * int
+)
+"plugins/cc/ccproof.ml" 135 3675 3706 "plugins/cc/ccproof.ml" 135 3675 3719
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 135 3675 3720 "plugins/cc/ccproof.ml" 135 3675 3721
+type(
+  ((int * int) * Ccalgo.equality) list
+)
+ident(
+  int_ref q "plugins/cc/ccproof.ml" 135 3675 3684 "plugins/cc/ccproof.ml" 135 3675 3685
+)
+"plugins/cc/ccproof.ml" 135 3675 3694 "plugins/cc/ccproof.ml" 135 3675 3722
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 135 3675 3724 "plugins/cc/ccproof.ml" 135 3675 3734
+type(
+  (int * int) * Ccalgo.equality -> proof
+)
+ident(
+  int_ref edge_proof "plugins/cc/ccproof.ml" 106 2800 2806 "plugins/cc/ccproof.ml" 106 2800 2816
+)
+"plugins/cc/ccproof.ml" 135 3675 3735 "plugins/cc/ccproof.ml" 135 3675 3736
+type(
+  (int * int) * Ccalgo.equality
+)
+ident(
+  int_ref x "plugins/cc/ccproof.ml" 135 3675 3681 "plugins/cc/ccproof.ml" 135 3675 3682
+)
+"plugins/cc/ccproof.ml" 135 3675 3723 "plugins/cc/ccproof.ml" 135 3675 3737
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 135 3675 3687 "plugins/cc/ccproof.ml" 135 3675 3737
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 133 3617 3636 "plugins/cc/ccproof.ml" 135 3675 3737
+type(
+  ((int * int) * Ccalgo.equality) list -> proof
+)
+"plugins/cc/ccproof.ml" 137 3739 3745 "plugins/cc/ccproof.ml" 137 3739 3756
+type(
+  int -> int -> proof
+)
+"plugins/cc/ccproof.ml" 137 3739 3757 "plugins/cc/ccproof.ml" 137 3739 3758
+type(
+  int
+)
+ident(
+  def i "plugins/cc/ccproof.ml" 137 3739 3759 "plugins/cc/ccproof.ml" 140 3829 3881
+)
+"plugins/cc/ccproof.ml" 137 3739 3759 "plugins/cc/ccproof.ml" 137 3739 3760
+type(
+  int
+)
+ident(
+  def j "plugins/cc/ccproof.ml" 138 3762 3766 "plugins/cc/ccproof.ml" 140 3829 3881
+)
+"plugins/cc/ccproof.ml" 138 3762 3771 "plugins/cc/ccproof.ml" 138 3762 3773
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 138 3762 3774 "plugins/cc/ccproof.ml" 138 3762 3776
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 138 3762 3770 "plugins/cc/ccproof.ml" 138 3762 3777
+type(
+  int * int
+)
+"plugins/cc/ccproof.ml" 138 3762 3780 "plugins/cc/ccproof.ml" 138 3762 3788
+type(
+  Ccalgo.forest -> int -> int * int
+)
+ident(
+  ext_ref Ccalgo.subterms
+)
+"plugins/cc/ccproof.ml" 138 3762 3789 "plugins/cc/ccproof.ml" 138 3762 3791
+type(
+  Ccalgo.forest
+)
+ident(
+  int_ref uf "plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+)
+"plugins/cc/ccproof.ml" 138 3762 3792 "plugins/cc/ccproof.ml" 138 3762 3793
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 137 3739 3757 "plugins/cc/ccproof.ml" 137 3739 3758
+)
+"plugins/cc/ccproof.ml" 138 3762 3780 "plugins/cc/ccproof.ml" 138 3762 3793
+call(
+  stack
+)
+type(
+  int * int
+)
+"plugins/cc/ccproof.ml" 139 3794 3803 "plugins/cc/ccproof.ml" 139 3794 3805
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 139 3794 3806 "plugins/cc/ccproof.ml" 139 3794 3808
+type(
+  int
+)
+"plugins/cc/ccproof.ml" 139 3794 3802 "plugins/cc/ccproof.ml" 139 3794 3809
+type(
+  int * int
+)
+"plugins/cc/ccproof.ml" 139 3794 3812 "plugins/cc/ccproof.ml" 139 3794 3820
+type(
+  Ccalgo.forest -> int -> int * int
+)
+ident(
+  ext_ref Ccalgo.subterms
+)
+"plugins/cc/ccproof.ml" 139 3794 3821 "plugins/cc/ccproof.ml" 139 3794 3823
+type(
+  Ccalgo.forest
+)
+ident(
+  int_ref uf "plugins/cc/ccproof.ml" 97 2594 2610 "plugins/cc/ccproof.ml" 97 2594 2612
+)
+"plugins/cc/ccproof.ml" 139 3794 3824 "plugins/cc/ccproof.ml" 139 3794 3825
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 137 3739 3759 "plugins/cc/ccproof.ml" 137 3739 3760
+)
+"plugins/cc/ccproof.ml" 139 3794 3812 "plugins/cc/ccproof.ml" 139 3794 3825
+call(
+  stack
+)
+type(
+  int * int
+)
+"plugins/cc/ccproof.ml" 140 3829 3835 "plugins/cc/ccproof.ml" 140 3829 3841
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref pcongr "plugins/cc/ccproof.ml" 31 1037 1041 "plugins/cc/ccproof.ml" 31 1037 1047
+)
+"plugins/cc/ccproof.ml" 140 3829 3843 "plugins/cc/ccproof.ml" 140 3829 3854
+type(
+  int -> int -> proof
+)
+ident(
+  int_ref equal_proof "plugins/cc/ccproof.ml" 101 2644 2654 "plugins/cc/ccproof.ml" 101 2644 2665
+)
+"plugins/cc/ccproof.ml" 140 3829 3855 "plugins/cc/ccproof.ml" 140 3829 3857
+type(
+  int
+)
+ident(
+  int_ref i1 "plugins/cc/ccproof.ml" 138 3762 3771 "plugins/cc/ccproof.ml" 138 3762 3773
+)
+"plugins/cc/ccproof.ml" 140 3829 3858 "plugins/cc/ccproof.ml" 140 3829 3860
+type(
+  int
+)
+ident(
+  int_ref j1 "plugins/cc/ccproof.ml" 139 3794 3803 "plugins/cc/ccproof.ml" 139 3794 3805
+)
+"plugins/cc/ccproof.ml" 140 3829 3842 "plugins/cc/ccproof.ml" 140 3829 3861
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 140 3829 3863 "plugins/cc/ccproof.ml" 140 3829 3874
+type(
+  int -> int -> proof
+)
+ident(
+  int_ref equal_proof "plugins/cc/ccproof.ml" 101 2644 2654 "plugins/cc/ccproof.ml" 101 2644 2665
+)
+"plugins/cc/ccproof.ml" 140 3829 3875 "plugins/cc/ccproof.ml" 140 3829 3877
+type(
+  int
+)
+ident(
+  int_ref i2 "plugins/cc/ccproof.ml" 138 3762 3774 "plugins/cc/ccproof.ml" 138 3762 3776
+)
+"plugins/cc/ccproof.ml" 140 3829 3878 "plugins/cc/ccproof.ml" 140 3829 3880
+type(
+  int
+)
+ident(
+  int_ref j2 "plugins/cc/ccproof.ml" 139 3794 3806 "plugins/cc/ccproof.ml" 139 3794 3808
+)
+"plugins/cc/ccproof.ml" 140 3829 3862 "plugins/cc/ccproof.ml" 140 3829 3881
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 140 3829 3835 "plugins/cc/ccproof.ml" 140 3829 3881
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 138 3762 3766 "plugins/cc/ccproof.ml" 140 3829 3881
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 142 3883 3889 "plugins/cc/ccproof.ml" 142 3883 3898
+type(
+  int -> Ccalgo.pa_constructor -> int -> Ccalgo.pa_constructor -> proof
+)
+"plugins/cc/ccproof.ml" 142 3883 3899 "plugins/cc/ccproof.ml" 142 3883 3900
+type(
+  int
+)
+ident(
+  def i "plugins/cc/ccproof.ml" 142 3883 3901 "plugins/cc/ccproof.ml" 146 4009 4045
+)
+"plugins/cc/ccproof.ml" 142 3883 3901 "plugins/cc/ccproof.ml" 142 3883 3905
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  def ipac "plugins/cc/ccproof.ml" 142 3883 3906 "plugins/cc/ccproof.ml" 146 4009 4045
+)
+"plugins/cc/ccproof.ml" 142 3883 3906 "plugins/cc/ccproof.ml" 142 3883 3907
+type(
+  int
+)
+ident(
+  def j "plugins/cc/ccproof.ml" 142 3883 3908 "plugins/cc/ccproof.ml" 146 4009 4045
+)
+"plugins/cc/ccproof.ml" 142 3883 3908 "plugins/cc/ccproof.ml" 142 3883 3912
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  def jpac "plugins/cc/ccproof.ml" 143 3914 3918 "plugins/cc/ccproof.ml" 146 4009 4045
+)
+"plugins/cc/ccproof.ml" 143 3914 3922 "plugins/cc/ccproof.ml" 143 3914 3923
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 143 3914 3924 "plugins/cc/ccproof.ml" 143 3914 3935
+type(
+  int -> int -> proof
+)
+ident(
+  int_ref equal_proof "plugins/cc/ccproof.ml" 101 2644 2654 "plugins/cc/ccproof.ml" 101 2644 2665
+)
+"plugins/cc/ccproof.ml" 143 3914 3936 "plugins/cc/ccproof.ml" 143 3914 3937
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 142 3883 3899 "plugins/cc/ccproof.ml" 142 3883 3900
+)
+"plugins/cc/ccproof.ml" 143 3914 3938 "plugins/cc/ccproof.ml" 143 3914 3939
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 142 3883 3906 "plugins/cc/ccproof.ml" 142 3883 3907
+)
+"plugins/cc/ccproof.ml" 143 3914 3924 "plugins/cc/ccproof.ml" 143 3914 3939
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 144 3940 3948 "plugins/cc/ccproof.ml" 144 3940 3950
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 144 3940 3951 "plugins/cc/ccproof.ml" 144 3940 3963
+type(
+  int -> int -> Ccalgo.pa_constructor -> proof
+)
+ident(
+  int_ref constr_proof "plugins/cc/ccproof.ml" 121 3286 3292 "plugins/cc/ccproof.ml" 121 3286 3304
+)
+"plugins/cc/ccproof.ml" 144 3940 3964 "plugins/cc/ccproof.ml" 144 3940 3965
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 142 3883 3899 "plugins/cc/ccproof.ml" 142 3883 3900
+)
+"plugins/cc/ccproof.ml" 144 3940 3966 "plugins/cc/ccproof.ml" 144 3940 3967
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 142 3883 3899 "plugins/cc/ccproof.ml" 142 3883 3900
+)
+"plugins/cc/ccproof.ml" 144 3940 3968 "plugins/cc/ccproof.ml" 144 3940 3972
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  int_ref ipac "plugins/cc/ccproof.ml" 142 3883 3901 "plugins/cc/ccproof.ml" 142 3883 3905
+)
+"plugins/cc/ccproof.ml" 144 3940 3951 "plugins/cc/ccproof.ml" 144 3940 3972
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 145 3973 3981 "plugins/cc/ccproof.ml" 145 3973 3983
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 145 3973 3984 "plugins/cc/ccproof.ml" 145 3973 3996
+type(
+  int -> int -> Ccalgo.pa_constructor -> proof
+)
+ident(
+  int_ref constr_proof "plugins/cc/ccproof.ml" 121 3286 3292 "plugins/cc/ccproof.ml" 121 3286 3304
+)
+"plugins/cc/ccproof.ml" 145 3973 3997 "plugins/cc/ccproof.ml" 145 3973 3998
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 142 3883 3906 "plugins/cc/ccproof.ml" 142 3883 3907
+)
+"plugins/cc/ccproof.ml" 145 3973 3999 "plugins/cc/ccproof.ml" 145 3973 4000
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 142 3883 3906 "plugins/cc/ccproof.ml" 142 3883 3907
+)
+"plugins/cc/ccproof.ml" 145 3973 4001 "plugins/cc/ccproof.ml" 145 3973 4005
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  int_ref jpac "plugins/cc/ccproof.ml" 142 3883 3908 "plugins/cc/ccproof.ml" 142 3883 3912
+)
+"plugins/cc/ccproof.ml" 145 3973 3984 "plugins/cc/ccproof.ml" 145 3973 4005
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 146 4009 4015 "plugins/cc/ccproof.ml" 146 4009 4021
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 146 4009 4023 "plugins/cc/ccproof.ml" 146 4009 4027
+type(
+  proof -> proof
+)
+ident(
+  int_ref psym "plugins/cc/ccproof.ml" 54 1732 1740 "plugins/cc/ccproof.ml" 54 1732 1744
+)
+"plugins/cc/ccproof.ml" 146 4009 4028 "plugins/cc/ccproof.ml" 146 4009 4030
+type(
+  proof
+)
+ident(
+  int_ref p1 "plugins/cc/ccproof.ml" 144 3940 3948 "plugins/cc/ccproof.ml" 144 3940 3950
+)
+"plugins/cc/ccproof.ml" 146 4009 4022 "plugins/cc/ccproof.ml" 146 4009 4031
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 146 4009 4033 "plugins/cc/ccproof.ml" 146 4009 4039
+type(
+  proof -> proof -> proof
+)
+ident(
+  int_ref ptrans "plugins/cc/ccproof.ml" 39 1257 1265 "plugins/cc/ccproof.ml" 39 1257 1271
+)
+"plugins/cc/ccproof.ml" 146 4009 4040 "plugins/cc/ccproof.ml" 146 4009 4041
+type(
+  proof
+)
+ident(
+  int_ref p "plugins/cc/ccproof.ml" 143 3914 3922 "plugins/cc/ccproof.ml" 143 3914 3923
+)
+"plugins/cc/ccproof.ml" 146 4009 4042 "plugins/cc/ccproof.ml" 146 4009 4044
+type(
+  proof
+)
+ident(
+  int_ref p2 "plugins/cc/ccproof.ml" 145 3973 3981 "plugins/cc/ccproof.ml" 145 3973 3983
+)
+"plugins/cc/ccproof.ml" 146 4009 4032 "plugins/cc/ccproof.ml" 146 4009 4045
+call(
+  stack
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 146 4009 4015 "plugins/cc/ccproof.ml" 146 4009 4045
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 143 3914 3918 "plugins/cc/ccproof.ml" 146 4009 4045
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 149 4064 4073 "plugins/cc/ccproof.ml" 149 4064 4074
+type(
+  int
+)
+ident(
+  def i "plugins/cc/ccproof.ml" 149 4064 4081 "plugins/cc/ccproof.ml" 149 4064 4096
+)
+"plugins/cc/ccproof.ml" 149 4064 4075 "plugins/cc/ccproof.ml" 149 4064 4076
+type(
+  int
+)
+ident(
+  def j "plugins/cc/ccproof.ml" 149 4064 4081 "plugins/cc/ccproof.ml" 149 4064 4096
+)
+"plugins/cc/ccproof.ml" 149 4064 4072 "plugins/cc/ccproof.ml" 149 4064 4077
+type(
+  int * int
+)
+"plugins/cc/ccproof.ml" 149 4064 4065 "plugins/cc/ccproof.ml" 149 4064 4077
+type(
+  [< `Discr of int * Ccalgo.pa_constructor * int * Ccalgo.pa_constructor
+   | `Prove of int * int ]
+  as 'a
+)
+"plugins/cc/ccproof.ml" 149 4064 4081 "plugins/cc/ccproof.ml" 149 4064 4092
+type(
+  int -> int -> proof
+)
+ident(
+  int_ref equal_proof "plugins/cc/ccproof.ml" 101 2644 2654 "plugins/cc/ccproof.ml" 101 2644 2665
+)
+"plugins/cc/ccproof.ml" 149 4064 4093 "plugins/cc/ccproof.ml" 149 4064 4094
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 149 4064 4073 "plugins/cc/ccproof.ml" 149 4064 4074
+)
+"plugins/cc/ccproof.ml" 149 4064 4095 "plugins/cc/ccproof.ml" 149 4064 4096
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 149 4064 4075 "plugins/cc/ccproof.ml" 149 4064 4076
+)
+"plugins/cc/ccproof.ml" 149 4064 4081 "plugins/cc/ccproof.ml" 149 4064 4096
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 150 4097 4113 "plugins/cc/ccproof.ml" 150 4097 4114
+type(
+  int
+)
+ident(
+  def i "plugins/cc/ccproof.ml" 150 4097 4126 "plugins/cc/ccproof.ml" 150 4097 4145
+)
+"plugins/cc/ccproof.ml" 150 4097 4115 "plugins/cc/ccproof.ml" 150 4097 4117
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  def ci "plugins/cc/ccproof.ml" 150 4097 4126 "plugins/cc/ccproof.ml" 150 4097 4145
+)
+"plugins/cc/ccproof.ml" 150 4097 4118 "plugins/cc/ccproof.ml" 150 4097 4119
+type(
+  int
+)
+ident(
+  def j "plugins/cc/ccproof.ml" 150 4097 4126 "plugins/cc/ccproof.ml" 150 4097 4145
+)
+"plugins/cc/ccproof.ml" 150 4097 4120 "plugins/cc/ccproof.ml" 150 4097 4122
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  def cj "plugins/cc/ccproof.ml" 150 4097 4126 "plugins/cc/ccproof.ml" 150 4097 4145
+)
+"plugins/cc/ccproof.ml" 150 4097 4112 "plugins/cc/ccproof.ml" 150 4097 4123
+type(
+  int * Ccalgo.pa_constructor * int * Ccalgo.pa_constructor
+)
+"plugins/cc/ccproof.ml" 150 4097 4105 "plugins/cc/ccproof.ml" 150 4097 4123
+type(
+  'a
+)
+"plugins/cc/ccproof.ml" 150 4097 4126 "plugins/cc/ccproof.ml" 150 4097 4135
+type(
+  int -> Ccalgo.pa_constructor -> int -> Ccalgo.pa_constructor -> proof
+)
+ident(
+  int_ref ind_proof "plugins/cc/ccproof.ml" 142 3883 3889 "plugins/cc/ccproof.ml" 142 3883 3898
+)
+"plugins/cc/ccproof.ml" 150 4097 4136 "plugins/cc/ccproof.ml" 150 4097 4137
+type(
+  int
+)
+ident(
+  int_ref i "plugins/cc/ccproof.ml" 150 4097 4113 "plugins/cc/ccproof.ml" 150 4097 4114
+)
+"plugins/cc/ccproof.ml" 150 4097 4138 "plugins/cc/ccproof.ml" 150 4097 4140
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  int_ref ci "plugins/cc/ccproof.ml" 150 4097 4115 "plugins/cc/ccproof.ml" 150 4097 4117
+)
+"plugins/cc/ccproof.ml" 150 4097 4141 "plugins/cc/ccproof.ml" 150 4097 4142
+type(
+  int
+)
+ident(
+  int_ref j "plugins/cc/ccproof.ml" 150 4097 4118 "plugins/cc/ccproof.ml" 150 4097 4119
+)
+"plugins/cc/ccproof.ml" 150 4097 4143 "plugins/cc/ccproof.ml" 150 4097 4145
+type(
+  Ccalgo.pa_constructor
+)
+ident(
+  int_ref cj "plugins/cc/ccproof.ml" 150 4097 4120 "plugins/cc/ccproof.ml" 150 4097 4122
+)
+"plugins/cc/ccproof.ml" 150 4097 4126 "plugins/cc/ccproof.ml" 150 4097 4145
+call(
+  tail
+)
+type(
+  proof
+)
+"plugins/cc/ccproof.ml" 148 4051 4055 "plugins/cc/ccproof.ml" 150 4097 4145
+type(
+  'a -> proof
+)
+"plugins/cc/ccproof.ml" 101 2644 2646 "plugins/cc/ccproof.ml" 150 4097 4145
+type(
+  'a -> proof
+)
+"plugins/cc/ccproof.ml" 99 2615 2617 "plugins/cc/ccproof.ml" 150 4097 4145
+type(
+  'a -> proof
+)

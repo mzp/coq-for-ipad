@@ -1,0 +1,3776 @@
+"plugins/firstorder/unify.ml" 28 969 973 "plugins/firstorder/unify.ml" 28 969 977
+type(
+  Term.types -> Term.types -> Termops.meta_value_map
+)
+ident(
+  def unif "plugins/firstorder/unify.ml" 91 2968 2968 --
+)
+"plugins/firstorder/unify.ml" 28 969 978 "plugins/firstorder/unify.ml" 28 969 980
+type(
+  Term.types
+)
+ident(
+  def t1 "plugins/firstorder/unify.ml" 28 969 981 "plugins/firstorder/unify.ml" 89 2937 2966
+)
+"plugins/firstorder/unify.ml" 28 969 981 "plugins/firstorder/unify.ml" 28 969 983
+type(
+  Term.types
+)
+ident(
+  def t2 "plugins/firstorder/unify.ml" 29 985 987 "plugins/firstorder/unify.ml" 89 2937 2966
+)
+"plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+type(
+  (Term.types * Term.types) Queue.t
+)
+"plugins/firstorder/unify.ml" 29 985 996 "plugins/firstorder/unify.ml" 29 985 1008
+type(
+  unit -> (Term.types * Term.types) Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"plugins/firstorder/unify.ml" 29 985 1009 "plugins/firstorder/unify.ml" 29 985 1011
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 29 985 996 "plugins/firstorder/unify.ml" 29 985 1011
+call(
+  stack
+)
+type(
+  (Term.types * Term.types) Queue.t
+)
+"plugins/firstorder/unify.ml" 30 1012 1018 "plugins/firstorder/unify.ml" 30 1012 1023
+type(
+  Termops.meta_value_map ref
+)
+"plugins/firstorder/unify.ml" 30 1012 1024 "plugins/firstorder/unify.ml" 30 1012 1027
+type(
+  Termops.meta_value_map -> Termops.meta_value_map ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/unify.ml" 30 1012 1028 "plugins/firstorder/unify.ml" 30 1012 1030
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 30 1012 1024 "plugins/firstorder/unify.ml" 30 1012 1030
+type(
+  Termops.meta_value_map ref
+)
+"plugins/firstorder/unify.ml" 31 1034 1040 "plugins/firstorder/unify.ml" 31 1034 1044
+type(
+  Term.metavariable -> Term.types -> unit
+)
+"plugins/firstorder/unify.ml" 31 1034 1045 "plugins/firstorder/unify.ml" 31 1034 1046
+type(
+  Term.metavariable
+)
+ident(
+  def i "plugins/firstorder/unify.ml" 31 1034 1047 "plugins/firstorder/unify.ml" 33 1069 1135
+)
+"plugins/firstorder/unify.ml" 31 1034 1047 "plugins/firstorder/unify.ml" 31 1034 1048
+type(
+  Term.types
+)
+ident(
+  def t "plugins/firstorder/unify.ml" 32 1050 1054 "plugins/firstorder/unify.ml" 33 1069 1135
+)
+"plugins/firstorder/unify.ml" 32 1050 1054 "plugins/firstorder/unify.ml" 32 1050 1059
+type(
+  Termops.meta_value_map ref
+)
+ident(
+  int_ref sigma "plugins/firstorder/unify.ml" 30 1012 1018 "plugins/firstorder/unify.ml" 30 1012 1023
+)
+"plugins/firstorder/unify.ml" 32 1050 1059 "plugins/firstorder/unify.ml" 32 1050 1061
+type(
+  Termops.meta_value_map ref -> Termops.meta_value_map -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/unify.ml" 32 1050 1062 "plugins/firstorder/unify.ml" 32 1050 1063
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 31 1034 1045 "plugins/firstorder/unify.ml" 31 1034 1046
+)
+"plugins/firstorder/unify.ml" 32 1050 1064 "plugins/firstorder/unify.ml" 32 1050 1065
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 31 1034 1047 "plugins/firstorder/unify.ml" 31 1034 1048
+)
+"plugins/firstorder/unify.ml" 32 1050 1061 "plugins/firstorder/unify.ml" 32 1050 1066
+type(
+  Term.metavariable * Term.types
+)
+"plugins/firstorder/unify.ml" 33 1069 1076 "plugins/firstorder/unify.ml" 33 1069 1084
+type(
+  (Term.metavariable * Term.types -> Term.metavariable * Term.types) ->
+  Termops.meta_value_map -> (Term.metavariable * Term.types) list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/firstorder/unify.ml" 33 1069 1096 "plugins/firstorder/unify.ml" 33 1069 1097
+type(
+  Term.metavariable
+)
+ident(
+  def n "plugins/firstorder/unify.ml" 33 1069 1103 "plugins/firstorder/unify.ml" 33 1069 1126
+)
+"plugins/firstorder/unify.ml" 33 1069 1098 "plugins/firstorder/unify.ml" 33 1069 1100
+type(
+  Term.types
+)
+ident(
+  def tn "plugins/firstorder/unify.ml" 33 1069 1103 "plugins/firstorder/unify.ml" 33 1069 1126
+)
+"plugins/firstorder/unify.ml" 33 1069 1095 "plugins/firstorder/unify.ml" 33 1069 1101
+type(
+  Term.metavariable * Term.types
+)
+"plugins/firstorder/unify.ml" 33 1069 1104 "plugins/firstorder/unify.ml" 33 1069 1105
+type(
+  Term.metavariable
+)
+ident(
+  int_ref n "plugins/firstorder/unify.ml" 33 1069 1096 "plugins/firstorder/unify.ml" 33 1069 1097
+)
+"plugins/firstorder/unify.ml" 33 1069 1106 "plugins/firstorder/unify.ml" 33 1069 1116
+type(
+  Termops.meta_value_map -> Term.types -> Term.types
+)
+ident(
+  ext_ref Termops.subst_meta
+)
+"plugins/firstorder/unify.ml" 33 1069 1118 "plugins/firstorder/unify.ml" 33 1069 1119
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 31 1034 1045 "plugins/firstorder/unify.ml" 31 1034 1046
+)
+"plugins/firstorder/unify.ml" 33 1069 1120 "plugins/firstorder/unify.ml" 33 1069 1121
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 31 1034 1047 "plugins/firstorder/unify.ml" 31 1034 1048
+)
+"plugins/firstorder/unify.ml" 33 1069 1118 "plugins/firstorder/unify.ml" 33 1069 1121
+type(
+  Term.metavariable * Term.types
+)
+"plugins/firstorder/unify.ml" 33 1069 1117 "plugins/firstorder/unify.ml" 33 1069 1122
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 33 1069 1123 "plugins/firstorder/unify.ml" 33 1069 1125
+type(
+  Term.types
+)
+ident(
+  int_ref tn "plugins/firstorder/unify.ml" 33 1069 1098 "plugins/firstorder/unify.ml" 33 1069 1100
+)
+"plugins/firstorder/unify.ml" 33 1069 1106 "plugins/firstorder/unify.ml" 33 1069 1125
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 33 1069 1103 "plugins/firstorder/unify.ml" 33 1069 1126
+type(
+  Term.metavariable * Term.types
+)
+"plugins/firstorder/unify.ml" 33 1069 1085 "plugins/firstorder/unify.ml" 33 1069 1127
+type(
+  Term.metavariable * Term.types -> Term.metavariable * Term.types
+)
+"plugins/firstorder/unify.ml" 33 1069 1128 "plugins/firstorder/unify.ml" 33 1069 1129
+type(
+  Termops.meta_value_map ref -> Termops.meta_value_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/unify.ml" 33 1069 1129 "plugins/firstorder/unify.ml" 33 1069 1134
+type(
+  Termops.meta_value_map ref
+)
+ident(
+  int_ref sigma "plugins/firstorder/unify.ml" 30 1012 1018 "plugins/firstorder/unify.ml" 30 1012 1023
+)
+"plugins/firstorder/unify.ml" 33 1069 1128 "plugins/firstorder/unify.ml" 33 1069 1134
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 33 1069 1075 "plugins/firstorder/unify.ml" 33 1069 1135
+call(
+  stack
+)
+type(
+  (Term.metavariable * Term.types) list
+)
+"plugins/firstorder/unify.ml" 32 1050 1061 "plugins/firstorder/unify.ml" 33 1069 1135
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 32 1050 1054 "plugins/firstorder/unify.ml" 33 1069 1135
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 34 1139 1149 "plugins/firstorder/unify.ml" 34 1139 1160
+type(
+  Term.types -> Term.types
+)
+"plugins/firstorder/unify.ml" 34 1139 1161 "plugins/firstorder/unify.ml" 34 1139 1162
+type(
+  Term.types
+)
+ident(
+  def t "plugins/firstorder/unify.ml" 36 1220 1224 "plugins/firstorder/unify.ml" 41 1331 1343
+)
+"plugins/firstorder/unify.ml" 36 1220 1230 "plugins/firstorder/unify.ml" 36 1220 1242
+type(
+  Term.types -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 36 1220 1243 "plugins/firstorder/unify.ml" 36 1220 1244
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 34 1139 1161 "plugins/firstorder/unify.ml" 34 1139 1162
+)
+"plugins/firstorder/unify.ml" 36 1220 1230 "plugins/firstorder/unify.ml" 36 1220 1244
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 37 1250 1256 "plugins/firstorder/unify.ml" 37 1250 1257
+type(
+  Term.metavariable
+)
+ident(
+  def i "plugins/firstorder/unify.ml" 38 1260 1263 "plugins/firstorder/unify.ml" 40 1308 1330
+)
+"plugins/firstorder/unify.ml" 37 1250 1251 "plugins/firstorder/unify.ml" 37 1250 1257
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 39 1268 1274 "plugins/firstorder/unify.ml" 39 1268 1285
+type(
+  Term.types -> Term.types
+)
+ident(
+  int_ref head_reduce "plugins/firstorder/unify.ml" 34 1139 1149 "plugins/firstorder/unify.ml" 34 1139 1160
+)
+"plugins/firstorder/unify.ml" 39 1268 1287 "plugins/firstorder/unify.ml" 39 1268 1297
+type(
+  Term.metavariable -> Termops.meta_value_map -> Term.types
+)
+ident(
+  ext_ref List.assoc
+)
+"plugins/firstorder/unify.ml" 39 1268 1298 "plugins/firstorder/unify.ml" 39 1268 1299
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 37 1250 1256 "plugins/firstorder/unify.ml" 37 1250 1257
+)
+"plugins/firstorder/unify.ml" 39 1268 1300 "plugins/firstorder/unify.ml" 39 1268 1301
+type(
+  Termops.meta_value_map ref -> Termops.meta_value_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/unify.ml" 39 1268 1301 "plugins/firstorder/unify.ml" 39 1268 1306
+type(
+  Termops.meta_value_map ref
+)
+ident(
+  int_ref sigma "plugins/firstorder/unify.ml" 30 1012 1018 "plugins/firstorder/unify.ml" 30 1012 1023
+)
+"plugins/firstorder/unify.ml" 39 1268 1300 "plugins/firstorder/unify.ml" 39 1268 1306
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 39 1268 1286 "plugins/firstorder/unify.ml" 39 1268 1307
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 39 1268 1274 "plugins/firstorder/unify.ml" 39 1268 1307
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 40 1308 1317 "plugins/firstorder/unify.ml" 40 1308 1326
+type(
+  exn
+)
+"plugins/firstorder/unify.ml" 40 1308 1328 "plugins/firstorder/unify.ml" 40 1308 1329
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 34 1139 1161 "plugins/firstorder/unify.ml" 34 1139 1162
+)
+"plugins/firstorder/unify.ml" 38 1260 1263 "plugins/firstorder/unify.ml" 40 1308 1330
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 41 1331 1339 "plugins/firstorder/unify.ml" 41 1331 1340
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 41 1331 1342 "plugins/firstorder/unify.ml" 41 1331 1343
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 34 1139 1161 "plugins/firstorder/unify.ml" 34 1139 1162
+)
+"plugins/firstorder/unify.ml" 36 1220 1224 "plugins/firstorder/unify.ml" 41 1331 1343
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 42 1347 1351 "plugins/firstorder/unify.ml" 42 1347 1360
+type(
+  Term.types * Term.types -> (Term.types * Term.types) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"plugins/firstorder/unify.ml" 42 1347 1362 "plugins/firstorder/unify.ml" 42 1347 1364
+type(
+  Term.types
+)
+ident(
+  int_ref t1 "plugins/firstorder/unify.ml" 28 969 978 "plugins/firstorder/unify.ml" 28 969 980
+)
+"plugins/firstorder/unify.ml" 42 1347 1365 "plugins/firstorder/unify.ml" 42 1347 1367
+type(
+  Term.types
+)
+ident(
+  int_ref t2 "plugins/firstorder/unify.ml" 28 969 981 "plugins/firstorder/unify.ml" 28 969 983
+)
+"plugins/firstorder/unify.ml" 42 1347 1361 "plugins/firstorder/unify.ml" 42 1347 1368
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 42 1347 1369 "plugins/firstorder/unify.ml" 42 1347 1373
+type(
+  (Term.types * Term.types) Queue.t
+)
+ident(
+  int_ref bige "plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+)
+"plugins/firstorder/unify.ml" 42 1347 1351 "plugins/firstorder/unify.ml" 42 1347 1373
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 43 1375 1389 "plugins/firstorder/unify.ml" 43 1375 1393
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 44 1397 1407 "plugins/firstorder/unify.ml" 44 1397 1409
+type(
+  Term.types
+)
+ident(
+  def t1 "plugins/firstorder/unify.ml" 45 1432 1438 "plugins/firstorder/unify.ml" 85 2777 2840
+)
+"plugins/firstorder/unify.ml" 44 1397 1410 "plugins/firstorder/unify.ml" 44 1397 1412
+type(
+  Term.types
+)
+ident(
+  def t2 "plugins/firstorder/unify.ml" 45 1432 1438 "plugins/firstorder/unify.ml" 85 2777 2840
+)
+"plugins/firstorder/unify.ml" 44 1397 1407 "plugins/firstorder/unify.ml" 44 1397 1412
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 44 1397 1413 "plugins/firstorder/unify.ml" 44 1397 1423
+type(
+  (Term.types * Term.types) Queue.t -> Term.types * Term.types
+)
+ident(
+  ext_ref Queue.take
+)
+"plugins/firstorder/unify.ml" 44 1397 1424 "plugins/firstorder/unify.ml" 44 1397 1428
+type(
+  (Term.types * Term.types) Queue.t
+)
+ident(
+  int_ref bige "plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+)
+"plugins/firstorder/unify.ml" 44 1397 1413 "plugins/firstorder/unify.ml" 44 1397 1428
+call(
+  stack
+)
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+type(
+  Term.types
+)
+ident(
+  def nt1 "plugins/firstorder/unify.ml" 47 1551 1552 "plugins/firstorder/unify.ml" 85 2777 2840
+)
+"plugins/firstorder/unify.ml" 45 1432 1446 "plugins/firstorder/unify.ml" 45 1432 1457
+type(
+  Term.types -> Term.types
+)
+ident(
+  int_ref head_reduce "plugins/firstorder/unify.ml" 34 1139 1149 "plugins/firstorder/unify.ml" 34 1139 1160
+)
+"plugins/firstorder/unify.ml" 45 1432 1459 "plugins/firstorder/unify.ml" 45 1432 1475
+type(
+  Reductionops.local_reduction_function
+)
+ident(
+  ext_ref Reductionops.whd_betaiotazeta
+)
+"plugins/firstorder/unify.ml" 45 1432 1476 "plugins/firstorder/unify.ml" 45 1432 1485
+type(
+  Evd.evar_map
+)
+ident(
+  ext_ref Evd.empty
+)
+"plugins/firstorder/unify.ml" 45 1432 1486 "plugins/firstorder/unify.ml" 45 1432 1488
+type(
+  Term.types
+)
+ident(
+  int_ref t1 "plugins/firstorder/unify.ml" 44 1397 1407 "plugins/firstorder/unify.ml" 44 1397 1409
+)
+"plugins/firstorder/unify.ml" 45 1432 1458 "plugins/firstorder/unify.ml" 45 1432 1489
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 45 1432 1446 "plugins/firstorder/unify.ml" 45 1432 1489
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+type(
+  Term.types
+)
+ident(
+  def nt2 "plugins/firstorder/unify.ml" 47 1551 1552 "plugins/firstorder/unify.ml" 85 2777 2840
+)
+"plugins/firstorder/unify.ml" 46 1490 1504 "plugins/firstorder/unify.ml" 46 1490 1515
+type(
+  Term.types -> Term.types
+)
+ident(
+  int_ref head_reduce "plugins/firstorder/unify.ml" 34 1139 1149 "plugins/firstorder/unify.ml" 34 1139 1160
+)
+"plugins/firstorder/unify.ml" 46 1490 1517 "plugins/firstorder/unify.ml" 46 1490 1533
+type(
+  Reductionops.local_reduction_function
+)
+ident(
+  ext_ref Reductionops.whd_betaiotazeta
+)
+"plugins/firstorder/unify.ml" 46 1490 1534 "plugins/firstorder/unify.ml" 46 1490 1543
+type(
+  Evd.evar_map
+)
+ident(
+  ext_ref Evd.empty
+)
+"plugins/firstorder/unify.ml" 46 1490 1544 "plugins/firstorder/unify.ml" 46 1490 1546
+type(
+  Term.types
+)
+ident(
+  int_ref t2 "plugins/firstorder/unify.ml" 44 1397 1410 "plugins/firstorder/unify.ml" 44 1397 1412
+)
+"plugins/firstorder/unify.ml" 46 1490 1516 "plugins/firstorder/unify.ml" 46 1490 1547
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 46 1490 1504 "plugins/firstorder/unify.ml" 46 1490 1547
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 47 1551 1559 "plugins/firstorder/unify.ml" 47 1551 1571
+type(
+  Term.types -> (Term.types, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 47 1551 1572 "plugins/firstorder/unify.ml" 47 1551 1575
+type(
+  Term.types
+)
+ident(
+  int_ref nt1 "plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+)
+"plugins/firstorder/unify.ml" 47 1551 1558 "plugins/firstorder/unify.ml" 47 1551 1576
+call(
+  stack
+)
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 47 1551 1578 "plugins/firstorder/unify.ml" 47 1551 1590
+type(
+  Term.types -> (Term.types, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 47 1551 1591 "plugins/firstorder/unify.ml" 47 1551 1594
+type(
+  Term.types
+)
+ident(
+  int_ref nt2 "plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+)
+"plugins/firstorder/unify.ml" 47 1551 1577 "plugins/firstorder/unify.ml" 47 1551 1595
+call(
+  stack
+)
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 47 1551 1558 "plugins/firstorder/unify.ml" 47 1551 1595
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 48 1601 1611 "plugins/firstorder/unify.ml" 48 1601 1612
+type(
+  Term.metavariable
+)
+ident(
+  def i "plugins/firstorder/unify.ml" 49 1622 1629 "plugins/firstorder/unify.ml" 51 1667 1684
+)
+"plugins/firstorder/unify.ml" 48 1601 1606 "plugins/firstorder/unify.ml" 48 1601 1612
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 48 1601 1618 "plugins/firstorder/unify.ml" 48 1601 1619
+type(
+  Term.metavariable
+)
+ident(
+  def j "plugins/firstorder/unify.ml" 49 1622 1629 "plugins/firstorder/unify.ml" 51 1667 1684
+)
+"plugins/firstorder/unify.ml" 48 1601 1613 "plugins/firstorder/unify.ml" 48 1601 1619
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 48 1601 1606 "plugins/firstorder/unify.ml" 48 1601 1619
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 49 1622 1632 "plugins/firstorder/unify.ml" 49 1622 1633
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 48 1601 1611 "plugins/firstorder/unify.ml" 48 1601 1612
+)
+"plugins/firstorder/unify.ml" 49 1622 1633 "plugins/firstorder/unify.ml" 49 1622 1635
+type(
+  Term.metavariable -> Term.metavariable -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"plugins/firstorder/unify.ml" 49 1622 1635 "plugins/firstorder/unify.ml" 49 1622 1636
+type(
+  Term.metavariable
+)
+ident(
+  int_ref j "plugins/firstorder/unify.ml" 48 1601 1618 "plugins/firstorder/unify.ml" 48 1601 1619
+)
+"plugins/firstorder/unify.ml" 49 1622 1632 "plugins/firstorder/unify.ml" 49 1622 1636
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 50 1642 1647 "plugins/firstorder/unify.ml" 50 1642 1648
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 48 1601 1611 "plugins/firstorder/unify.ml" 48 1601 1612
+)
+"plugins/firstorder/unify.ml" 50 1642 1648 "plugins/firstorder/unify.ml" 50 1642 1649
+type(
+  Term.metavariable -> Term.metavariable -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"plugins/firstorder/unify.ml" 50 1642 1649 "plugins/firstorder/unify.ml" 50 1642 1650
+type(
+  Term.metavariable
+)
+ident(
+  int_ref j "plugins/firstorder/unify.ml" 48 1601 1618 "plugins/firstorder/unify.ml" 48 1601 1619
+)
+"plugins/firstorder/unify.ml" 50 1642 1647 "plugins/firstorder/unify.ml" 50 1642 1650
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 50 1642 1656 "plugins/firstorder/unify.ml" 50 1642 1660
+type(
+  Term.metavariable -> Term.types -> unit
+)
+ident(
+  int_ref bind "plugins/firstorder/unify.ml" 31 1034 1040 "plugins/firstorder/unify.ml" 31 1034 1044
+)
+"plugins/firstorder/unify.ml" 50 1642 1661 "plugins/firstorder/unify.ml" 50 1642 1662
+type(
+  Term.metavariable
+)
+ident(
+  int_ref j "plugins/firstorder/unify.ml" 48 1601 1618 "plugins/firstorder/unify.ml" 48 1601 1619
+)
+"plugins/firstorder/unify.ml" 50 1642 1663 "plugins/firstorder/unify.ml" 50 1642 1666
+type(
+  Term.types
+)
+ident(
+  int_ref nt1 "plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+)
+"plugins/firstorder/unify.ml" 50 1642 1656 "plugins/firstorder/unify.ml" 50 1642 1666
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 51 1667 1674 "plugins/firstorder/unify.ml" 51 1667 1678
+type(
+  Term.metavariable -> Term.types -> unit
+)
+ident(
+  int_ref bind "plugins/firstorder/unify.ml" 31 1034 1040 "plugins/firstorder/unify.ml" 31 1034 1044
+)
+"plugins/firstorder/unify.ml" 51 1667 1679 "plugins/firstorder/unify.ml" 51 1667 1680
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 48 1601 1611 "plugins/firstorder/unify.ml" 48 1601 1612
+)
+"plugins/firstorder/unify.ml" 51 1667 1681 "plugins/firstorder/unify.ml" 51 1667 1684
+type(
+  Term.types
+)
+ident(
+  int_ref nt2 "plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+)
+"plugins/firstorder/unify.ml" 51 1667 1674 "plugins/firstorder/unify.ml" 51 1667 1684
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 50 1642 1644 "plugins/firstorder/unify.ml" 51 1667 1684
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 49 1622 1629 "plugins/firstorder/unify.ml" 51 1667 1684
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 52 1685 1695 "plugins/firstorder/unify.ml" 52 1685 1696
+type(
+  Term.metavariable
+)
+ident(
+  def i "plugins/firstorder/unify.ml" 53 1702 1709 "plugins/firstorder/unify.ml" 56 1817 1859
+)
+"plugins/firstorder/unify.ml" 52 1685 1690 "plugins/firstorder/unify.ml" 52 1685 1696
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 52 1685 1697 "plugins/firstorder/unify.ml" 52 1685 1698
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 52 1685 1690 "plugins/firstorder/unify.ml" 52 1685 1698
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 53 1702 1713 "plugins/firstorder/unify.ml" 53 1702 1714
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 53 1702 1715 "plugins/firstorder/unify.ml" 53 1702 1725
+type(
+  Termops.meta_value_map -> Term.types -> Term.constr
+)
+ident(
+  ext_ref Termops.subst_meta
+)
+"plugins/firstorder/unify.ml" 53 1702 1726 "plugins/firstorder/unify.ml" 53 1702 1727
+type(
+  Termops.meta_value_map ref -> Termops.meta_value_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/unify.ml" 53 1702 1727 "plugins/firstorder/unify.ml" 53 1702 1732
+type(
+  Termops.meta_value_map ref
+)
+ident(
+  int_ref sigma "plugins/firstorder/unify.ml" 30 1012 1018 "plugins/firstorder/unify.ml" 30 1012 1023
+)
+"plugins/firstorder/unify.ml" 53 1702 1726 "plugins/firstorder/unify.ml" 53 1702 1732
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 53 1702 1733 "plugins/firstorder/unify.ml" 53 1702 1736
+type(
+  Term.types
+)
+ident(
+  int_ref nt2 "plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+)
+"plugins/firstorder/unify.ml" 53 1702 1715 "plugins/firstorder/unify.ml" 53 1702 1736
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 54 1740 1745 "plugins/firstorder/unify.ml" 54 1740 1760
+type(
+  Util.Intset.t -> bool
+)
+ident(
+  ext_ref Util.Intset.is_empty
+)
+"plugins/firstorder/unify.ml" 54 1740 1762 "plugins/firstorder/unify.ml" 54 1740 1771
+type(
+  Term.constr -> Util.Intset.t
+)
+ident(
+  ext_ref Termops.free_rels
+)
+"plugins/firstorder/unify.ml" 54 1740 1772 "plugins/firstorder/unify.ml" 54 1740 1773
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 53 1702 1713 "plugins/firstorder/unify.ml" 53 1702 1714
+)
+"plugins/firstorder/unify.ml" 54 1740 1761 "plugins/firstorder/unify.ml" 54 1740 1774
+type(
+  Util.Intset.t
+)
+"plugins/firstorder/unify.ml" 54 1740 1745 "plugins/firstorder/unify.ml" 54 1740 1774
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 54 1740 1775 "plugins/firstorder/unify.ml" 54 1740 1777
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/unify.ml" 55 1778 1782 "plugins/firstorder/unify.ml" 55 1778 1785
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/firstorder/unify.ml" 55 1778 1787 "plugins/firstorder/unify.ml" 55 1778 1797
+type(
+  Term.constr -> Term.constr -> bool
+)
+ident(
+  ext_ref Termops.occur_term
+)
+"plugins/firstorder/unify.ml" 55 1778 1799 "plugins/firstorder/unify.ml" 55 1778 1805
+type(
+  Term.metavariable -> Term.constr
+)
+ident(
+  ext_ref Term.mkMeta
+)
+"plugins/firstorder/unify.ml" 55 1778 1806 "plugins/firstorder/unify.ml" 55 1778 1807
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 52 1685 1695 "plugins/firstorder/unify.ml" 52 1685 1696
+)
+"plugins/firstorder/unify.ml" 55 1778 1798 "plugins/firstorder/unify.ml" 55 1778 1808
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 55 1778 1809 "plugins/firstorder/unify.ml" 55 1778 1810
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 53 1702 1713 "plugins/firstorder/unify.ml" 53 1702 1714
+)
+"plugins/firstorder/unify.ml" 55 1778 1786 "plugins/firstorder/unify.ml" 55 1778 1811
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 55 1778 1782 "plugins/firstorder/unify.ml" 55 1778 1811
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 54 1740 1745 "plugins/firstorder/unify.ml" 55 1778 1811
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 56 1817 1823 "plugins/firstorder/unify.ml" 56 1817 1827
+type(
+  Term.metavariable -> Term.types -> unit
+)
+ident(
+  int_ref bind "plugins/firstorder/unify.ml" 31 1034 1040 "plugins/firstorder/unify.ml" 31 1034 1044
+)
+"plugins/firstorder/unify.ml" 56 1817 1828 "plugins/firstorder/unify.ml" 56 1817 1829
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 52 1685 1695 "plugins/firstorder/unify.ml" 52 1685 1696
+)
+"plugins/firstorder/unify.ml" 56 1817 1830 "plugins/firstorder/unify.ml" 56 1817 1831
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 53 1702 1713 "plugins/firstorder/unify.ml" 53 1702 1714
+)
+"plugins/firstorder/unify.ml" 56 1817 1823 "plugins/firstorder/unify.ml" 56 1817 1831
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 56 1817 1837 "plugins/firstorder/unify.ml" 56 1817 1842
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/firstorder/unify.ml" 56 1817 1850 "plugins/firstorder/unify.ml" 56 1817 1853
+type(
+  Term.types
+)
+ident(
+  int_ref nt1 "plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+)
+"plugins/firstorder/unify.ml" 56 1817 1854 "plugins/firstorder/unify.ml" 56 1817 1857
+type(
+  Term.types
+)
+ident(
+  int_ref nt2 "plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+)
+"plugins/firstorder/unify.ml" 56 1817 1843 "plugins/firstorder/unify.ml" 56 1817 1859
+type(
+  exn
+)
+"plugins/firstorder/unify.ml" 56 1817 1837 "plugins/firstorder/unify.ml" 56 1817 1859
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 54 1740 1742 "plugins/firstorder/unify.ml" 56 1817 1859
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 53 1702 1709 "plugins/firstorder/unify.ml" 56 1817 1859
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 57 1860 1865 "plugins/firstorder/unify.ml" 57 1860 1866
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 57 1860 1872 "plugins/firstorder/unify.ml" 57 1860 1873
+type(
+  Term.metavariable
+)
+ident(
+  def i "plugins/firstorder/unify.ml" 58 1877 1884 "plugins/firstorder/unify.ml" 61 1992 2034
+)
+"plugins/firstorder/unify.ml" 57 1860 1867 "plugins/firstorder/unify.ml" 57 1860 1873
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 57 1860 1865 "plugins/firstorder/unify.ml" 57 1860 1873
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 58 1877 1888 "plugins/firstorder/unify.ml" 58 1877 1889
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 58 1877 1890 "plugins/firstorder/unify.ml" 58 1877 1900
+type(
+  Termops.meta_value_map -> Term.types -> Term.constr
+)
+ident(
+  ext_ref Termops.subst_meta
+)
+"plugins/firstorder/unify.ml" 58 1877 1901 "plugins/firstorder/unify.ml" 58 1877 1902
+type(
+  Termops.meta_value_map ref -> Termops.meta_value_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/unify.ml" 58 1877 1902 "plugins/firstorder/unify.ml" 58 1877 1907
+type(
+  Termops.meta_value_map ref
+)
+ident(
+  int_ref sigma "plugins/firstorder/unify.ml" 30 1012 1018 "plugins/firstorder/unify.ml" 30 1012 1023
+)
+"plugins/firstorder/unify.ml" 58 1877 1901 "plugins/firstorder/unify.ml" 58 1877 1907
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 58 1877 1908 "plugins/firstorder/unify.ml" 58 1877 1911
+type(
+  Term.types
+)
+ident(
+  int_ref nt1 "plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+)
+"plugins/firstorder/unify.ml" 58 1877 1890 "plugins/firstorder/unify.ml" 58 1877 1911
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 59 1915 1920 "plugins/firstorder/unify.ml" 59 1915 1935
+type(
+  Util.Intset.t -> bool
+)
+ident(
+  ext_ref Util.Intset.is_empty
+)
+"plugins/firstorder/unify.ml" 59 1915 1937 "plugins/firstorder/unify.ml" 59 1915 1946
+type(
+  Term.constr -> Util.Intset.t
+)
+ident(
+  ext_ref Termops.free_rels
+)
+"plugins/firstorder/unify.ml" 59 1915 1947 "plugins/firstorder/unify.ml" 59 1915 1948
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 58 1877 1888 "plugins/firstorder/unify.ml" 58 1877 1889
+)
+"plugins/firstorder/unify.ml" 59 1915 1936 "plugins/firstorder/unify.ml" 59 1915 1949
+call(
+  stack
+)
+type(
+  Util.Intset.t
+)
+"plugins/firstorder/unify.ml" 59 1915 1920 "plugins/firstorder/unify.ml" 59 1915 1949
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 59 1915 1950 "plugins/firstorder/unify.ml" 59 1915 1952
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/firstorder/unify.ml" 60 1953 1957 "plugins/firstorder/unify.ml" 60 1953 1960
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/firstorder/unify.ml" 60 1953 1962 "plugins/firstorder/unify.ml" 60 1953 1972
+type(
+  Term.constr -> Term.constr -> bool
+)
+ident(
+  ext_ref Termops.occur_term
+)
+"plugins/firstorder/unify.ml" 60 1953 1974 "plugins/firstorder/unify.ml" 60 1953 1980
+type(
+  Term.metavariable -> Term.constr
+)
+ident(
+  ext_ref Term.mkMeta
+)
+"plugins/firstorder/unify.ml" 60 1953 1981 "plugins/firstorder/unify.ml" 60 1953 1982
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 57 1860 1872 "plugins/firstorder/unify.ml" 57 1860 1873
+)
+"plugins/firstorder/unify.ml" 60 1953 1973 "plugins/firstorder/unify.ml" 60 1953 1983
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 60 1953 1984 "plugins/firstorder/unify.ml" 60 1953 1985
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 58 1877 1888 "plugins/firstorder/unify.ml" 58 1877 1889
+)
+"plugins/firstorder/unify.ml" 60 1953 1961 "plugins/firstorder/unify.ml" 60 1953 1986
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 60 1953 1957 "plugins/firstorder/unify.ml" 60 1953 1986
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 59 1915 1920 "plugins/firstorder/unify.ml" 60 1953 1986
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 61 1992 1998 "plugins/firstorder/unify.ml" 61 1992 2002
+type(
+  Term.metavariable -> Term.types -> unit
+)
+ident(
+  int_ref bind "plugins/firstorder/unify.ml" 31 1034 1040 "plugins/firstorder/unify.ml" 31 1034 1044
+)
+"plugins/firstorder/unify.ml" 61 1992 2003 "plugins/firstorder/unify.ml" 61 1992 2004
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 57 1860 1872 "plugins/firstorder/unify.ml" 57 1860 1873
+)
+"plugins/firstorder/unify.ml" 61 1992 2005 "plugins/firstorder/unify.ml" 61 1992 2006
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 58 1877 1888 "plugins/firstorder/unify.ml" 58 1877 1889
+)
+"plugins/firstorder/unify.ml" 61 1992 1998 "plugins/firstorder/unify.ml" 61 1992 2006
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 61 1992 2012 "plugins/firstorder/unify.ml" 61 1992 2017
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/firstorder/unify.ml" 61 1992 2025 "plugins/firstorder/unify.ml" 61 1992 2028
+type(
+  Term.types
+)
+ident(
+  int_ref nt1 "plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+)
+"plugins/firstorder/unify.ml" 61 1992 2029 "plugins/firstorder/unify.ml" 61 1992 2032
+type(
+  Term.types
+)
+ident(
+  int_ref nt2 "plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+)
+"plugins/firstorder/unify.ml" 61 1992 2018 "plugins/firstorder/unify.ml" 61 1992 2034
+type(
+  exn
+)
+"plugins/firstorder/unify.ml" 61 1992 2012 "plugins/firstorder/unify.ml" 61 1992 2034
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 59 1915 1917 "plugins/firstorder/unify.ml" 61 1992 2034
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 58 1877 1884 "plugins/firstorder/unify.ml" 61 1992 2034
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 62 2035 2045 "plugins/firstorder/unify.ml" 62 2035 2046
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 62 2035 2047 "plugins/firstorder/unify.ml" 62 2035 2048
+type(
+  Term.cast_kind
+)
+"plugins/firstorder/unify.ml" 62 2035 2049 "plugins/firstorder/unify.ml" 62 2035 2050
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 62 2035 2040 "plugins/firstorder/unify.ml" 62 2035 2051
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 62 2035 2052 "plugins/firstorder/unify.ml" 62 2035 2053
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 62 2035 2040 "plugins/firstorder/unify.ml" 62 2035 2053
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 62 2035 2055 "plugins/firstorder/unify.ml" 62 2035 2064
+type(
+  Term.types * Term.types -> (Term.types * Term.types) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"plugins/firstorder/unify.ml" 62 2035 2066 "plugins/firstorder/unify.ml" 62 2035 2082
+type(
+  Term.types -> Term.types
+)
+ident(
+  ext_ref Term.strip_outer_cast
+)
+"plugins/firstorder/unify.ml" 62 2035 2083 "plugins/firstorder/unify.ml" 62 2035 2086
+type(
+  Term.types
+)
+ident(
+  int_ref nt1 "plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+)
+"plugins/firstorder/unify.ml" 62 2035 2066 "plugins/firstorder/unify.ml" 62 2035 2086
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 62 2035 2087 "plugins/firstorder/unify.ml" 62 2035 2090
+type(
+  Term.types
+)
+ident(
+  int_ref nt2 "plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+)
+"plugins/firstorder/unify.ml" 62 2035 2065 "plugins/firstorder/unify.ml" 62 2035 2091
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 62 2035 2092 "plugins/firstorder/unify.ml" 62 2035 2096
+type(
+  (Term.types * Term.types) Queue.t
+)
+ident(
+  int_ref bige "plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+)
+"plugins/firstorder/unify.ml" 62 2035 2055 "plugins/firstorder/unify.ml" 62 2035 2096
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 63 2097 2103 "plugins/firstorder/unify.ml" 63 2097 2104
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 63 2097 2110 "plugins/firstorder/unify.ml" 63 2097 2111
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 63 2097 2112 "plugins/firstorder/unify.ml" 63 2097 2113
+type(
+  Term.cast_kind
+)
+"plugins/firstorder/unify.ml" 63 2097 2114 "plugins/firstorder/unify.ml" 63 2097 2115
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 63 2097 2105 "plugins/firstorder/unify.ml" 63 2097 2116
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 63 2097 2103 "plugins/firstorder/unify.ml" 63 2097 2116
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 63 2097 2118 "plugins/firstorder/unify.ml" 63 2097 2127
+type(
+  Term.types * Term.types -> (Term.types * Term.types) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"plugins/firstorder/unify.ml" 63 2097 2129 "plugins/firstorder/unify.ml" 63 2097 2132
+type(
+  Term.types
+)
+ident(
+  int_ref nt1 "plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+)
+"plugins/firstorder/unify.ml" 63 2097 2133 "plugins/firstorder/unify.ml" 63 2097 2149
+type(
+  Term.types -> Term.types
+)
+ident(
+  ext_ref Term.strip_outer_cast
+)
+"plugins/firstorder/unify.ml" 63 2097 2150 "plugins/firstorder/unify.ml" 63 2097 2153
+type(
+  Term.types
+)
+ident(
+  int_ref nt2 "plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+)
+"plugins/firstorder/unify.ml" 63 2097 2133 "plugins/firstorder/unify.ml" 63 2097 2153
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 63 2097 2128 "plugins/firstorder/unify.ml" 63 2097 2154
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 63 2097 2155 "plugins/firstorder/unify.ml" 63 2097 2159
+type(
+  (Term.types * Term.types) Queue.t
+)
+ident(
+  int_ref bige "plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+)
+"plugins/firstorder/unify.ml" 63 2097 2118 "plugins/firstorder/unify.ml" 63 2097 2159
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 64 2160 2171 "plugins/firstorder/unify.ml" 64 2160 2172
+type(
+  Names.name
+)
+"plugins/firstorder/unify.ml" 64 2160 2173 "plugins/firstorder/unify.ml" 64 2160 2174
+type(
+  Term.types
+)
+ident(
+  def a "plugins/firstorder/unify.ml" 65 2223 2230 "plugins/firstorder/unify.ml" 65 2223 2279
+)
+"plugins/firstorder/unify.ml" 64 2160 2175 "plugins/firstorder/unify.ml" 64 2160 2176
+type(
+  Term.types
+)
+ident(
+  def b "plugins/firstorder/unify.ml" 65 2223 2230 "plugins/firstorder/unify.ml" 65 2223 2279
+)
+"plugins/firstorder/unify.ml" 64 2160 2166 "plugins/firstorder/unify.ml" 64 2160 2177
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 64 2160 2183 "plugins/firstorder/unify.ml" 64 2160 2184
+type(
+  Names.name
+)
+"plugins/firstorder/unify.ml" 64 2160 2185 "plugins/firstorder/unify.ml" 64 2160 2186
+type(
+  Term.types
+)
+ident(
+  def c "plugins/firstorder/unify.ml" 65 2223 2230 "plugins/firstorder/unify.ml" 65 2223 2279
+)
+"plugins/firstorder/unify.ml" 64 2160 2187 "plugins/firstorder/unify.ml" 64 2160 2188
+type(
+  Term.types
+)
+ident(
+  def d "plugins/firstorder/unify.ml" 65 2223 2230 "plugins/firstorder/unify.ml" 65 2223 2279
+)
+"plugins/firstorder/unify.ml" 64 2160 2178 "plugins/firstorder/unify.ml" 64 2160 2189
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 64 2160 2165 "plugins/firstorder/unify.ml" 64 2160 2190
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 64 2160 2199 "plugins/firstorder/unify.ml" 64 2160 2200
+type(
+  Names.name
+)
+"plugins/firstorder/unify.ml" 64 2160 2201 "plugins/firstorder/unify.ml" 64 2160 2202
+type(
+  Term.types
+)
+ident(
+  def a "plugins/firstorder/unify.ml" 65 2223 2230 "plugins/firstorder/unify.ml" 65 2223 2279
+)
+"plugins/firstorder/unify.ml" 64 2160 2203 "plugins/firstorder/unify.ml" 64 2160 2204
+type(
+  Term.types
+)
+ident(
+  def b "plugins/firstorder/unify.ml" 65 2223 2230 "plugins/firstorder/unify.ml" 65 2223 2279
+)
+"plugins/firstorder/unify.ml" 64 2160 2192 "plugins/firstorder/unify.ml" 64 2160 2205
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 64 2160 2213 "plugins/firstorder/unify.ml" 64 2160 2214
+type(
+  Names.name
+)
+"plugins/firstorder/unify.ml" 64 2160 2215 "plugins/firstorder/unify.ml" 64 2160 2216
+type(
+  Term.types
+)
+ident(
+  def c "plugins/firstorder/unify.ml" 65 2223 2230 "plugins/firstorder/unify.ml" 65 2223 2279
+)
+"plugins/firstorder/unify.ml" 64 2160 2217 "plugins/firstorder/unify.ml" 64 2160 2218
+type(
+  Term.types
+)
+ident(
+  def d "plugins/firstorder/unify.ml" 65 2223 2230 "plugins/firstorder/unify.ml" 65 2223 2279
+)
+"plugins/firstorder/unify.ml" 64 2160 2206 "plugins/firstorder/unify.ml" 64 2160 2219
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 64 2160 2191 "plugins/firstorder/unify.ml" 64 2160 2220
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 64 2160 2165 "plugins/firstorder/unify.ml" 64 2160 2220
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 65 2223 2230 "plugins/firstorder/unify.ml" 65 2223 2239
+type(
+  Term.types * Term.types -> (Term.types * Term.types) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"plugins/firstorder/unify.ml" 65 2223 2241 "plugins/firstorder/unify.ml" 65 2223 2242
+type(
+  Term.types
+)
+ident(
+  int_ref a "plugins/firstorder/unify.ml" 64 2160 2173 "plugins/firstorder/unify.ml" 64 2160 2174
+)
+"plugins/firstorder/unify.ml" 65 2223 2243 "plugins/firstorder/unify.ml" 65 2223 2244
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/firstorder/unify.ml" 64 2160 2185 "plugins/firstorder/unify.ml" 64 2160 2186
+)
+"plugins/firstorder/unify.ml" 65 2223 2240 "plugins/firstorder/unify.ml" 65 2223 2245
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 65 2223 2246 "plugins/firstorder/unify.ml" 65 2223 2250
+type(
+  (Term.types * Term.types) Queue.t
+)
+ident(
+  int_ref bige "plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+)
+"plugins/firstorder/unify.ml" 65 2223 2230 "plugins/firstorder/unify.ml" 65 2223 2250
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 65 2223 2251 "plugins/firstorder/unify.ml" 65 2223 2260
+type(
+  Term.types * Term.types -> (Term.types * Term.types) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"plugins/firstorder/unify.ml" 65 2223 2262 "plugins/firstorder/unify.ml" 65 2223 2265
+type(
+  Term.types -> Term.types
+)
+ident(
+  ext_ref Termops.pop
+)
+"plugins/firstorder/unify.ml" 65 2223 2266 "plugins/firstorder/unify.ml" 65 2223 2267
+type(
+  Term.types
+)
+ident(
+  int_ref b "plugins/firstorder/unify.ml" 64 2160 2175 "plugins/firstorder/unify.ml" 64 2160 2176
+)
+"plugins/firstorder/unify.ml" 65 2223 2262 "plugins/firstorder/unify.ml" 65 2223 2267
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 65 2223 2268 "plugins/firstorder/unify.ml" 65 2223 2271
+type(
+  Term.types -> Term.types
+)
+ident(
+  ext_ref Termops.pop
+)
+"plugins/firstorder/unify.ml" 65 2223 2272 "plugins/firstorder/unify.ml" 65 2223 2273
+type(
+  Term.types
+)
+ident(
+  int_ref d "plugins/firstorder/unify.ml" 64 2160 2187 "plugins/firstorder/unify.ml" 64 2160 2188
+)
+"plugins/firstorder/unify.ml" 65 2223 2268 "plugins/firstorder/unify.ml" 65 2223 2273
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 65 2223 2261 "plugins/firstorder/unify.ml" 65 2223 2274
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 65 2223 2275 "plugins/firstorder/unify.ml" 65 2223 2279
+type(
+  (Term.types * Term.types) Queue.t
+)
+ident(
+  int_ref bige "plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+)
+"plugins/firstorder/unify.ml" 65 2223 2251 "plugins/firstorder/unify.ml" 65 2223 2279
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 65 2223 2230 "plugins/firstorder/unify.ml" 65 2223 2279
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 66 2280 2291 "plugins/firstorder/unify.ml" 66 2280 2292
+type(
+  Term.case_info
+)
+"plugins/firstorder/unify.ml" 66 2280 2293 "plugins/firstorder/unify.ml" 66 2280 2295
+type(
+  Term.types
+)
+ident(
+  def pa "plugins/firstorder/unify.ml" 67 2323 2330 "plugins/firstorder/unify.ml" 75 2542 2550
+)
+"plugins/firstorder/unify.ml" 66 2280 2296 "plugins/firstorder/unify.ml" 66 2280 2298
+type(
+  Term.types
+)
+ident(
+  def ca "plugins/firstorder/unify.ml" 67 2323 2330 "plugins/firstorder/unify.ml" 75 2542 2550
+)
+"plugins/firstorder/unify.ml" 66 2280 2299 "plugins/firstorder/unify.ml" 66 2280 2301
+type(
+  Term.types array
+)
+ident(
+  def va "plugins/firstorder/unify.ml" 67 2323 2330 "plugins/firstorder/unify.ml" 75 2542 2550
+)
+"plugins/firstorder/unify.ml" 66 2280 2285 "plugins/firstorder/unify.ml" 66 2280 2302
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 66 2280 2309 "plugins/firstorder/unify.ml" 66 2280 2310
+type(
+  Term.case_info
+)
+"plugins/firstorder/unify.ml" 66 2280 2311 "plugins/firstorder/unify.ml" 66 2280 2313
+type(
+  Term.types
+)
+ident(
+  def pb "plugins/firstorder/unify.ml" 67 2323 2330 "plugins/firstorder/unify.ml" 75 2542 2550
+)
+"plugins/firstorder/unify.ml" 66 2280 2314 "plugins/firstorder/unify.ml" 66 2280 2316
+type(
+  Term.types
+)
+ident(
+  def cb "plugins/firstorder/unify.ml" 67 2323 2330 "plugins/firstorder/unify.ml" 75 2542 2550
+)
+"plugins/firstorder/unify.ml" 66 2280 2317 "plugins/firstorder/unify.ml" 66 2280 2319
+type(
+  Term.types array
+)
+ident(
+  def vb "plugins/firstorder/unify.ml" 67 2323 2330 "plugins/firstorder/unify.ml" 75 2542 2550
+)
+"plugins/firstorder/unify.ml" 66 2280 2303 "plugins/firstorder/unify.ml" 66 2280 2320
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 66 2280 2285 "plugins/firstorder/unify.ml" 66 2280 2320
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 67 2323 2330 "plugins/firstorder/unify.ml" 67 2323 2339
+type(
+  Term.types * Term.types -> (Term.types * Term.types) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"plugins/firstorder/unify.ml" 67 2323 2341 "plugins/firstorder/unify.ml" 67 2323 2343
+type(
+  Term.types
+)
+ident(
+  int_ref pa "plugins/firstorder/unify.ml" 66 2280 2293 "plugins/firstorder/unify.ml" 66 2280 2295
+)
+"plugins/firstorder/unify.ml" 67 2323 2344 "plugins/firstorder/unify.ml" 67 2323 2346
+type(
+  Term.types
+)
+ident(
+  int_ref pb "plugins/firstorder/unify.ml" 66 2280 2311 "plugins/firstorder/unify.ml" 66 2280 2313
+)
+"plugins/firstorder/unify.ml" 67 2323 2340 "plugins/firstorder/unify.ml" 67 2323 2347
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 67 2323 2348 "plugins/firstorder/unify.ml" 67 2323 2352
+type(
+  (Term.types * Term.types) Queue.t
+)
+ident(
+  int_ref bige "plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+)
+"plugins/firstorder/unify.ml" 67 2323 2330 "plugins/firstorder/unify.ml" 67 2323 2352
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 68 2354 2361 "plugins/firstorder/unify.ml" 68 2354 2370
+type(
+  Term.types * Term.types -> (Term.types * Term.types) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"plugins/firstorder/unify.ml" 68 2354 2372 "plugins/firstorder/unify.ml" 68 2354 2374
+type(
+  Term.types
+)
+ident(
+  int_ref ca "plugins/firstorder/unify.ml" 66 2280 2296 "plugins/firstorder/unify.ml" 66 2280 2298
+)
+"plugins/firstorder/unify.ml" 68 2354 2375 "plugins/firstorder/unify.ml" 68 2354 2377
+type(
+  Term.types
+)
+ident(
+  int_ref cb "plugins/firstorder/unify.ml" 66 2280 2314 "plugins/firstorder/unify.ml" 66 2280 2316
+)
+"plugins/firstorder/unify.ml" 68 2354 2371 "plugins/firstorder/unify.ml" 68 2354 2378
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 68 2354 2379 "plugins/firstorder/unify.ml" 68 2354 2383
+type(
+  (Term.types * Term.types) Queue.t
+)
+ident(
+  int_ref bige "plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+)
+"plugins/firstorder/unify.ml" 68 2354 2361 "plugins/firstorder/unify.ml" 68 2354 2383
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 69 2385 2396 "plugins/firstorder/unify.ml" 69 2385 2397
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 69 2385 2398 "plugins/firstorder/unify.ml" 69 2385 2410
+type(
+  Term.types array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"plugins/firstorder/unify.ml" 69 2385 2411 "plugins/firstorder/unify.ml" 69 2385 2413
+type(
+  Term.types array
+)
+ident(
+  int_ref va "plugins/firstorder/unify.ml" 66 2280 2299 "plugins/firstorder/unify.ml" 66 2280 2301
+)
+"plugins/firstorder/unify.ml" 69 2385 2398 "plugins/firstorder/unify.ml" 69 2385 2413
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 70 2417 2422 "plugins/firstorder/unify.ml" 70 2417 2423
+type(
+  int
+)
+ident(
+  int_ref l "plugins/firstorder/unify.ml" 69 2385 2396 "plugins/firstorder/unify.ml" 69 2385 2397
+)
+"plugins/firstorder/unify.ml" 70 2417 2423 "plugins/firstorder/unify.ml" 70 2417 2425
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"plugins/firstorder/unify.ml" 70 2417 2426 "plugins/firstorder/unify.ml" 70 2417 2438
+type(
+  Term.types array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"plugins/firstorder/unify.ml" 70 2417 2439 "plugins/firstorder/unify.ml" 70 2417 2441
+type(
+  Term.types array
+)
+ident(
+  int_ref vb "plugins/firstorder/unify.ml" 66 2280 2317 "plugins/firstorder/unify.ml" 66 2280 2319
+)
+"plugins/firstorder/unify.ml" 70 2417 2425 "plugins/firstorder/unify.ml" 70 2417 2442
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 70 2417 2422 "plugins/firstorder/unify.ml" 70 2417 2442
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 71 2448 2452 "plugins/firstorder/unify.ml" 71 2448 2457
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/firstorder/unify.ml" 71 2448 2466 "plugins/firstorder/unify.ml" 71 2448 2469
+type(
+  Term.types
+)
+ident(
+  int_ref nt1 "plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+)
+"plugins/firstorder/unify.ml" 71 2448 2470 "plugins/firstorder/unify.ml" 71 2448 2473
+type(
+  Term.types
+)
+ident(
+  int_ref nt2 "plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+)
+"plugins/firstorder/unify.ml" 71 2448 2458 "plugins/firstorder/unify.ml" 71 2448 2475
+type(
+  exn
+)
+"plugins/firstorder/unify.ml" 71 2448 2452 "plugins/firstorder/unify.ml" 71 2448 2475
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 73 2483 2493 "plugins/firstorder/unify.ml" 73 2483 2494
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 73 2483 2498 "plugins/firstorder/unify.ml" 73 2483 2499
+type(
+  int
+)
+ident(
+  int_ref l "plugins/firstorder/unify.ml" 69 2385 2396 "plugins/firstorder/unify.ml" 69 2385 2397
+)
+"plugins/firstorder/unify.ml" 73 2483 2499 "plugins/firstorder/unify.ml" 73 2483 2500
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/unify.ml" 73 2483 2500 "plugins/firstorder/unify.ml" 73 2483 2501
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 73 2483 2498 "plugins/firstorder/unify.ml" 73 2483 2501
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 74 2505 2511 "plugins/firstorder/unify.ml" 74 2505 2520
+type(
+  Term.types * Term.types -> (Term.types * Term.types) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"plugins/firstorder/unify.ml" 74 2505 2522 "plugins/firstorder/unify.ml" 74 2505 2524
+type(
+  Term.types array
+)
+ident(
+  int_ref va "plugins/firstorder/unify.ml" 66 2280 2299 "plugins/firstorder/unify.ml" 66 2280 2301
+)
+"plugins/firstorder/unify.ml" 74 2505 2526 "plugins/firstorder/unify.ml" 74 2505 2527
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 74 2505 2522 "plugins/firstorder/unify.ml" 74 2505 2528
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 74 2505 2529 "plugins/firstorder/unify.ml" 74 2505 2531
+type(
+  Term.types array
+)
+ident(
+  int_ref vb "plugins/firstorder/unify.ml" 66 2280 2317 "plugins/firstorder/unify.ml" 66 2280 2319
+)
+"plugins/firstorder/unify.ml" 74 2505 2533 "plugins/firstorder/unify.ml" 74 2505 2534
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 74 2505 2529 "plugins/firstorder/unify.ml" 74 2505 2535
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 74 2505 2521 "plugins/firstorder/unify.ml" 74 2505 2536
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 74 2505 2537 "plugins/firstorder/unify.ml" 74 2505 2541
+type(
+  (Term.types * Term.types) Queue.t
+)
+ident(
+  int_ref bige "plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+)
+"plugins/firstorder/unify.ml" 74 2505 2511 "plugins/firstorder/unify.ml" 74 2505 2541
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 73 2483 2487 "plugins/firstorder/unify.ml" 75 2542 2550
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 70 2417 2419 "plugins/firstorder/unify.ml" 75 2542 2550
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 69 2385 2392 "plugins/firstorder/unify.ml" 75 2542 2550
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 68 2354 2361 "plugins/firstorder/unify.ml" 75 2542 2550
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 67 2323 2330 "plugins/firstorder/unify.ml" 75 2542 2550
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 76 2551 2560 "plugins/firstorder/unify.ml" 76 2551 2562
+type(
+  Term.types
+)
+ident(
+  def ha "plugins/firstorder/unify.ml" 77 2580 2587 "plugins/firstorder/unify.ml" 84 2768 2776
+)
+"plugins/firstorder/unify.ml" 76 2551 2563 "plugins/firstorder/unify.ml" 76 2551 2565
+type(
+  Term.types array
+)
+ident(
+  def va "plugins/firstorder/unify.ml" 77 2580 2587 "plugins/firstorder/unify.ml" 84 2768 2776
+)
+"plugins/firstorder/unify.ml" 76 2551 2556 "plugins/firstorder/unify.ml" 76 2551 2566
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 76 2551 2571 "plugins/firstorder/unify.ml" 76 2551 2573
+type(
+  Term.types
+)
+ident(
+  def hb "plugins/firstorder/unify.ml" 77 2580 2587 "plugins/firstorder/unify.ml" 84 2768 2776
+)
+"plugins/firstorder/unify.ml" 76 2551 2574 "plugins/firstorder/unify.ml" 76 2551 2576
+type(
+  Term.types array
+)
+ident(
+  def vb "plugins/firstorder/unify.ml" 77 2580 2587 "plugins/firstorder/unify.ml" 84 2768 2776
+)
+"plugins/firstorder/unify.ml" 76 2551 2567 "plugins/firstorder/unify.ml" 76 2551 2577
+type(
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 76 2551 2556 "plugins/firstorder/unify.ml" 76 2551 2577
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 77 2580 2587 "plugins/firstorder/unify.ml" 77 2580 2596
+type(
+  Term.types * Term.types -> (Term.types * Term.types) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"plugins/firstorder/unify.ml" 77 2580 2598 "plugins/firstorder/unify.ml" 77 2580 2600
+type(
+  Term.types
+)
+ident(
+  int_ref ha "plugins/firstorder/unify.ml" 76 2551 2560 "plugins/firstorder/unify.ml" 76 2551 2562
+)
+"plugins/firstorder/unify.ml" 77 2580 2601 "plugins/firstorder/unify.ml" 77 2580 2603
+type(
+  Term.types
+)
+ident(
+  int_ref hb "plugins/firstorder/unify.ml" 76 2551 2571 "plugins/firstorder/unify.ml" 76 2551 2573
+)
+"plugins/firstorder/unify.ml" 77 2580 2597 "plugins/firstorder/unify.ml" 77 2580 2604
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 77 2580 2605 "plugins/firstorder/unify.ml" 77 2580 2609
+type(
+  (Term.types * Term.types) Queue.t
+)
+ident(
+  int_ref bige "plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+)
+"plugins/firstorder/unify.ml" 77 2580 2587 "plugins/firstorder/unify.ml" 77 2580 2609
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 78 2611 2622 "plugins/firstorder/unify.ml" 78 2611 2623
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 78 2611 2624 "plugins/firstorder/unify.ml" 78 2611 2636
+type(
+  Term.types array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"plugins/firstorder/unify.ml" 78 2611 2637 "plugins/firstorder/unify.ml" 78 2611 2639
+type(
+  Term.types array
+)
+ident(
+  int_ref va "plugins/firstorder/unify.ml" 76 2551 2563 "plugins/firstorder/unify.ml" 76 2551 2565
+)
+"plugins/firstorder/unify.ml" 78 2611 2624 "plugins/firstorder/unify.ml" 78 2611 2639
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 79 2643 2648 "plugins/firstorder/unify.ml" 79 2643 2649
+type(
+  int
+)
+ident(
+  int_ref l "plugins/firstorder/unify.ml" 78 2611 2622 "plugins/firstorder/unify.ml" 78 2611 2623
+)
+"plugins/firstorder/unify.ml" 79 2643 2649 "plugins/firstorder/unify.ml" 79 2643 2651
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"plugins/firstorder/unify.ml" 79 2643 2652 "plugins/firstorder/unify.ml" 79 2643 2664
+type(
+  Term.types array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"plugins/firstorder/unify.ml" 79 2643 2665 "plugins/firstorder/unify.ml" 79 2643 2667
+type(
+  Term.types array
+)
+ident(
+  int_ref vb "plugins/firstorder/unify.ml" 76 2551 2574 "plugins/firstorder/unify.ml" 76 2551 2576
+)
+"plugins/firstorder/unify.ml" 79 2643 2651 "plugins/firstorder/unify.ml" 79 2643 2668
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 79 2643 2648 "plugins/firstorder/unify.ml" 79 2643 2668
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 80 2674 2678 "plugins/firstorder/unify.ml" 80 2674 2683
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/firstorder/unify.ml" 80 2674 2692 "plugins/firstorder/unify.ml" 80 2674 2695
+type(
+  Term.types
+)
+ident(
+  int_ref nt1 "plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+)
+"plugins/firstorder/unify.ml" 80 2674 2696 "plugins/firstorder/unify.ml" 80 2674 2699
+type(
+  Term.types
+)
+ident(
+  int_ref nt2 "plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+)
+"plugins/firstorder/unify.ml" 80 2674 2684 "plugins/firstorder/unify.ml" 80 2674 2701
+type(
+  exn
+)
+"plugins/firstorder/unify.ml" 80 2674 2678 "plugins/firstorder/unify.ml" 80 2674 2701
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 82 2709 2719 "plugins/firstorder/unify.ml" 82 2709 2720
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 82 2709 2724 "plugins/firstorder/unify.ml" 82 2709 2725
+type(
+  int
+)
+ident(
+  int_ref l "plugins/firstorder/unify.ml" 78 2611 2622 "plugins/firstorder/unify.ml" 78 2611 2623
+)
+"plugins/firstorder/unify.ml" 82 2709 2725 "plugins/firstorder/unify.ml" 82 2709 2726
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/unify.ml" 82 2709 2726 "plugins/firstorder/unify.ml" 82 2709 2727
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 82 2709 2724 "plugins/firstorder/unify.ml" 82 2709 2727
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 83 2731 2737 "plugins/firstorder/unify.ml" 83 2731 2746
+type(
+  Term.types * Term.types -> (Term.types * Term.types) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"plugins/firstorder/unify.ml" 83 2731 2748 "plugins/firstorder/unify.ml" 83 2731 2750
+type(
+  Term.types array
+)
+ident(
+  int_ref va "plugins/firstorder/unify.ml" 76 2551 2563 "plugins/firstorder/unify.ml" 76 2551 2565
+)
+"plugins/firstorder/unify.ml" 83 2731 2752 "plugins/firstorder/unify.ml" 83 2731 2753
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 83 2731 2748 "plugins/firstorder/unify.ml" 83 2731 2754
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 83 2731 2755 "plugins/firstorder/unify.ml" 83 2731 2757
+type(
+  Term.types array
+)
+ident(
+  int_ref vb "plugins/firstorder/unify.ml" 76 2551 2574 "plugins/firstorder/unify.ml" 76 2551 2576
+)
+"plugins/firstorder/unify.ml" 83 2731 2759 "plugins/firstorder/unify.ml" 83 2731 2760
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 83 2731 2755 "plugins/firstorder/unify.ml" 83 2731 2761
+type(
+  Term.types
+)
+"plugins/firstorder/unify.ml" 83 2731 2747 "plugins/firstorder/unify.ml" 83 2731 2762
+type(
+  Term.types * Term.types
+)
+"plugins/firstorder/unify.ml" 83 2731 2763 "plugins/firstorder/unify.ml" 83 2731 2767
+type(
+  (Term.types * Term.types) Queue.t
+)
+ident(
+  int_ref bige "plugins/firstorder/unify.ml" 29 985 991 "plugins/firstorder/unify.ml" 29 985 995
+)
+"plugins/firstorder/unify.ml" 83 2731 2737 "plugins/firstorder/unify.ml" 83 2731 2767
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 82 2709 2713 "plugins/firstorder/unify.ml" 84 2768 2776
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 79 2643 2645 "plugins/firstorder/unify.ml" 84 2768 2776
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 78 2611 2618 "plugins/firstorder/unify.ml" 84 2768 2776
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 77 2580 2587 "plugins/firstorder/unify.ml" 84 2768 2776
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 85 2777 2782 "plugins/firstorder/unify.ml" 85 2777 2783
+type(
+  (Term.types, Term.types) Term.kind_of_term *
+  (Term.types, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 85 2777 2788 "plugins/firstorder/unify.ml" 85 2777 2791
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"plugins/firstorder/unify.ml" 85 2777 2793 "plugins/firstorder/unify.ml" 85 2777 2802
+type(
+  Term.types -> Term.types -> bool
+)
+ident(
+  ext_ref Termops.eq_constr
+)
+"plugins/firstorder/unify.ml" 85 2777 2803 "plugins/firstorder/unify.ml" 85 2777 2806
+type(
+  Term.types
+)
+ident(
+  int_ref nt1 "plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+)
+"plugins/firstorder/unify.ml" 85 2777 2807 "plugins/firstorder/unify.ml" 85 2777 2810
+type(
+  Term.types
+)
+ident(
+  int_ref nt2 "plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+)
+"plugins/firstorder/unify.ml" 85 2777 2792 "plugins/firstorder/unify.ml" 85 2777 2811
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 85 2777 2788 "plugins/firstorder/unify.ml" 85 2777 2811
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 85 2777 2817 "plugins/firstorder/unify.ml" 85 2777 2822
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"plugins/firstorder/unify.ml" 85 2777 2831 "plugins/firstorder/unify.ml" 85 2777 2834
+type(
+  Term.types
+)
+ident(
+  int_ref nt1 "plugins/firstorder/unify.ml" 45 1432 1442 "plugins/firstorder/unify.ml" 45 1432 1445
+)
+"plugins/firstorder/unify.ml" 85 2777 2835 "plugins/firstorder/unify.ml" 85 2777 2838
+type(
+  Term.types
+)
+ident(
+  int_ref nt2 "plugins/firstorder/unify.ml" 46 1490 1500 "plugins/firstorder/unify.ml" 46 1490 1503
+)
+"plugins/firstorder/unify.ml" 85 2777 2823 "plugins/firstorder/unify.ml" 85 2777 2840
+type(
+  exn
+)
+"plugins/firstorder/unify.ml" 85 2777 2817 "plugins/firstorder/unify.ml" 85 2777 2840
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 85 2777 2785 "plugins/firstorder/unify.ml" 85 2777 2840
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 47 1551 1552 "plugins/firstorder/unify.ml" 85 2777 2840
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 45 1432 1438 "plugins/firstorder/unify.ml" 85 2777 2840
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 44 1397 1403 "plugins/firstorder/unify.ml" 85 2777 2840
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 43 1375 1383 "plugins/firstorder/unify.ml" 86 2841 2849
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 87 2851 2857 "plugins/firstorder/unify.ml" 87 2851 2869
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 43 1375 1383 "plugins/firstorder/unify.ml" 87 2851 2869
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 89 2937 2946 "plugins/firstorder/unify.ml" 89 2937 2957
+type(
+  exn
+)
+"plugins/firstorder/unify.ml" 89 2937 2960 "plugins/firstorder/unify.ml" 89 2937 2961
+type(
+  Termops.meta_value_map ref -> Termops.meta_value_map
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/unify.ml" 89 2937 2961 "plugins/firstorder/unify.ml" 89 2937 2966
+type(
+  Termops.meta_value_map ref
+)
+ident(
+  int_ref sigma "plugins/firstorder/unify.ml" 30 1012 1018 "plugins/firstorder/unify.ml" 30 1012 1023
+)
+"plugins/firstorder/unify.ml" 89 2937 2960 "plugins/firstorder/unify.ml" 89 2937 2966
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 43 1375 1379 "plugins/firstorder/unify.ml" 89 2937 2966
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 42 1347 1351 "plugins/firstorder/unify.ml" 89 2937 2966
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 34 1139 1141 "plugins/firstorder/unify.ml" 89 2937 2966
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 31 1034 1036 "plugins/firstorder/unify.ml" 89 2937 2966
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 29 985 987 "plugins/firstorder/unify.ml" 89 2937 2966
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 91 2968 2972 "plugins/firstorder/unify.ml" 91 2968 2977
+type(
+  Term.metavariable -> Term.constr -> int
+)
+ident(
+  def value "plugins/firstorder/unify.ml" 102 3236 3236 --
+)
+"plugins/firstorder/unify.ml" 91 2968 2978 "plugins/firstorder/unify.ml" 91 2968 2979
+type(
+  Term.metavariable
+)
+ident(
+  def i "plugins/firstorder/unify.ml" 91 2968 2980 "plugins/firstorder/unify.ml" 100 3224 3234
+)
+"plugins/firstorder/unify.ml" 91 2968 2980 "plugins/firstorder/unify.ml" 91 2968 2981
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/unify.ml" 92 2983 2985 "plugins/firstorder/unify.ml" 100 3224 3234
+)
+"plugins/firstorder/unify.ml" 92 2983 2989 "plugins/firstorder/unify.ml" 92 2983 2992
+type(
+  int -> int -> int
+)
+"plugins/firstorder/unify.ml" 92 2983 2993 "plugins/firstorder/unify.ml" 92 2983 2994
+type(
+  int
+)
+ident(
+  def x "plugins/firstorder/unify.ml" 92 2983 2995 "plugins/firstorder/unify.ml" 93 2998 3043
+)
+"plugins/firstorder/unify.ml" 92 2983 2995 "plugins/firstorder/unify.ml" 92 2983 2996
+type(
+  int
+)
+ident(
+  def y "plugins/firstorder/unify.ml" 93 2998 3002 "plugins/firstorder/unify.ml" 93 2998 3043
+)
+"plugins/firstorder/unify.ml" 93 2998 3005 "plugins/firstorder/unify.ml" 93 2998 3006
+type(
+  int
+)
+ident(
+  int_ref x "plugins/firstorder/unify.ml" 92 2983 2993 "plugins/firstorder/unify.ml" 92 2983 2994
+)
+"plugins/firstorder/unify.ml" 93 2998 3006 "plugins/firstorder/unify.ml" 93 2998 3007
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"plugins/firstorder/unify.ml" 93 2998 3007 "plugins/firstorder/unify.ml" 93 2998 3008
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 93 2998 3005 "plugins/firstorder/unify.ml" 93 2998 3008
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 93 2998 3014 "plugins/firstorder/unify.ml" 93 2998 3015
+type(
+  int
+)
+ident(
+  int_ref y "plugins/firstorder/unify.ml" 92 2983 2995 "plugins/firstorder/unify.ml" 92 2983 2996
+)
+"plugins/firstorder/unify.ml" 93 2998 3024 "plugins/firstorder/unify.ml" 93 2998 3025
+type(
+  int
+)
+ident(
+  int_ref y "plugins/firstorder/unify.ml" 92 2983 2995 "plugins/firstorder/unify.ml" 92 2983 2996
+)
+"plugins/firstorder/unify.ml" 93 2998 3025 "plugins/firstorder/unify.ml" 93 2998 3026
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"plugins/firstorder/unify.ml" 93 2998 3026 "plugins/firstorder/unify.ml" 93 2998 3027
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 93 2998 3024 "plugins/firstorder/unify.ml" 93 2998 3027
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 93 2998 3033 "plugins/firstorder/unify.ml" 93 2998 3034
+type(
+  int
+)
+ident(
+  int_ref x "plugins/firstorder/unify.ml" 92 2983 2993 "plugins/firstorder/unify.ml" 92 2983 2994
+)
+"plugins/firstorder/unify.ml" 93 2998 3040 "plugins/firstorder/unify.ml" 93 2998 3041
+type(
+  int
+)
+ident(
+  int_ref x "plugins/firstorder/unify.ml" 92 2983 2993 "plugins/firstorder/unify.ml" 92 2983 2994
+)
+"plugins/firstorder/unify.ml" 93 2998 3041 "plugins/firstorder/unify.ml" 93 2998 3042
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/firstorder/unify.ml" 93 2998 3042 "plugins/firstorder/unify.ml" 93 2998 3043
+type(
+  int
+)
+ident(
+  int_ref y "plugins/firstorder/unify.ml" 92 2983 2995 "plugins/firstorder/unify.ml" 92 2983 2996
+)
+"plugins/firstorder/unify.ml" 93 2998 3040 "plugins/firstorder/unify.ml" 93 2998 3043
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 93 2998 3021 "plugins/firstorder/unify.ml" 93 2998 3043
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 93 2998 3002 "plugins/firstorder/unify.ml" 93 2998 3043
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 94 3047 3053 "plugins/firstorder/unify.ml" 94 3047 3057
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 94 3047 3058 "plugins/firstorder/unify.ml" 94 3047 3064
+type(
+  Term.metavariable -> Term.constr
+)
+ident(
+  ext_ref Term.mkMeta
+)
+"plugins/firstorder/unify.ml" 94 3047 3065 "plugins/firstorder/unify.ml" 94 3047 3066
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 91 2968 2978 "plugins/firstorder/unify.ml" 91 2968 2979
+)
+"plugins/firstorder/unify.ml" 94 3047 3058 "plugins/firstorder/unify.ml" 94 3047 3066
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 95 3070 3080 "plugins/firstorder/unify.ml" 95 3070 3084
+type(
+  Term.constr -> int
+)
+"plugins/firstorder/unify.ml" 95 3070 3085 "plugins/firstorder/unify.ml" 95 3070 3089
+type(
+  Term.constr
+)
+ident(
+  def term "plugins/firstorder/unify.ml" 96 3091 3095 "plugins/firstorder/unify.ml" 99 3194 3220
+)
+"plugins/firstorder/unify.ml" 96 3091 3098 "plugins/firstorder/unify.ml" 96 3091 3102
+type(
+  Term.constr
+)
+ident(
+  int_ref term "plugins/firstorder/unify.ml" 95 3070 3085 "plugins/firstorder/unify.ml" 95 3070 3089
+)
+"plugins/firstorder/unify.ml" 96 3091 3102 "plugins/firstorder/unify.ml" 96 3091 3103
+type(
+  Term.constr -> Term.constr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"plugins/firstorder/unify.ml" 96 3091 3103 "plugins/firstorder/unify.ml" 96 3091 3107
+type(
+  Term.constr
+)
+ident(
+  int_ref tref "plugins/firstorder/unify.ml" 94 3047 3053 "plugins/firstorder/unify.ml" 94 3047 3057
+)
+"plugins/firstorder/unify.ml" 96 3091 3098 "plugins/firstorder/unify.ml" 96 3091 3107
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 96 3091 3113 "plugins/firstorder/unify.ml" 96 3091 3114
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 97 3120 3130 "plugins/firstorder/unify.ml" 97 3120 3131
+type(
+  int -> Term.constr -> int
+)
+"plugins/firstorder/unify.ml" 97 3120 3132 "plugins/firstorder/unify.ml" 97 3120 3133
+type(
+  int
+)
+ident(
+  def v "plugins/firstorder/unify.ml" 97 3120 3134 "plugins/firstorder/unify.ml" 97 3120 3150
+)
+"plugins/firstorder/unify.ml" 97 3120 3134 "plugins/firstorder/unify.ml" 97 3120 3135
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/unify.ml" 97 3120 3136 "plugins/firstorder/unify.ml" 97 3120 3150
+)
+"plugins/firstorder/unify.ml" 97 3120 3136 "plugins/firstorder/unify.ml" 97 3120 3139
+type(
+  int -> int -> int
+)
+ident(
+  int_ref add "plugins/firstorder/unify.ml" 92 2983 2989 "plugins/firstorder/unify.ml" 92 2983 2992
+)
+"plugins/firstorder/unify.ml" 97 3120 3140 "plugins/firstorder/unify.ml" 97 3120 3141
+type(
+  int
+)
+ident(
+  int_ref v "plugins/firstorder/unify.ml" 97 3120 3132 "plugins/firstorder/unify.ml" 97 3120 3133
+)
+"plugins/firstorder/unify.ml" 97 3120 3143 "plugins/firstorder/unify.ml" 97 3120 3147
+type(
+  Term.constr -> int
+)
+ident(
+  int_ref vaux "plugins/firstorder/unify.ml" 95 3070 3080 "plugins/firstorder/unify.ml" 95 3070 3084
+)
+"plugins/firstorder/unify.ml" 97 3120 3148 "plugins/firstorder/unify.ml" 97 3120 3149
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 97 3120 3134 "plugins/firstorder/unify.ml" 97 3120 3135
+)
+"plugins/firstorder/unify.ml" 97 3120 3142 "plugins/firstorder/unify.ml" 97 3120 3150
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 97 3120 3136 "plugins/firstorder/unify.ml" 97 3120 3150
+call(
+  tail
+)
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 98 3154 3164 "plugins/firstorder/unify.ml" 98 3154 3166
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 98 3154 3167 "plugins/firstorder/unify.ml" 98 3154 3178
+type(
+  (int -> Term.constr -> int) -> int -> Term.constr -> int
+)
+ident(
+  ext_ref Term.fold_constr
+)
+"plugins/firstorder/unify.ml" 98 3154 3179 "plugins/firstorder/unify.ml" 98 3154 3180
+type(
+  int -> Term.constr -> int
+)
+ident(
+  int_ref f "plugins/firstorder/unify.ml" 97 3120 3130 "plugins/firstorder/unify.ml" 97 3120 3131
+)
+"plugins/firstorder/unify.ml" 98 3154 3181 "plugins/firstorder/unify.ml" 98 3154 3185
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 98 3154 3186 "plugins/firstorder/unify.ml" 98 3154 3190
+type(
+  Term.constr
+)
+ident(
+  int_ref term "plugins/firstorder/unify.ml" 95 3070 3085 "plugins/firstorder/unify.ml" 95 3070 3089
+)
+"plugins/firstorder/unify.ml" 98 3154 3167 "plugins/firstorder/unify.ml" 98 3154 3190
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 99 3194 3198 "plugins/firstorder/unify.ml" 99 3194 3200
+type(
+  int
+)
+ident(
+  int_ref vr "plugins/firstorder/unify.ml" 98 3154 3164 "plugins/firstorder/unify.ml" 98 3154 3166
+)
+"plugins/firstorder/unify.ml" 99 3194 3200 "plugins/firstorder/unify.ml" 99 3194 3201
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"plugins/firstorder/unify.ml" 99 3194 3201 "plugins/firstorder/unify.ml" 99 3194 3202
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 99 3194 3198 "plugins/firstorder/unify.ml" 99 3194 3202
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 99 3194 3208 "plugins/firstorder/unify.ml" 99 3194 3210
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 99 3194 3216 "plugins/firstorder/unify.ml" 99 3194 3218
+type(
+  int
+)
+ident(
+  int_ref vr "plugins/firstorder/unify.ml" 98 3154 3164 "plugins/firstorder/unify.ml" 98 3154 3166
+)
+"plugins/firstorder/unify.ml" 99 3194 3218 "plugins/firstorder/unify.ml" 99 3194 3219
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/firstorder/unify.ml" 99 3194 3219 "plugins/firstorder/unify.ml" 99 3194 3220
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 99 3194 3216 "plugins/firstorder/unify.ml" 99 3194 3220
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 99 3194 3195 "plugins/firstorder/unify.ml" 99 3194 3220
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 98 3154 3160 "plugins/firstorder/unify.ml" 99 3194 3220
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 97 3120 3126 "plugins/firstorder/unify.ml" 99 3194 3220
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 96 3091 3095 "plugins/firstorder/unify.ml" 99 3194 3220
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 100 3224 3228 "plugins/firstorder/unify.ml" 100 3224 3232
+type(
+  Term.constr -> int
+)
+ident(
+  int_ref vaux "plugins/firstorder/unify.ml" 95 3070 3080 "plugins/firstorder/unify.ml" 95 3070 3084
+)
+"plugins/firstorder/unify.ml" 100 3224 3233 "plugins/firstorder/unify.ml" 100 3224 3234
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 91 2968 2980 "plugins/firstorder/unify.ml" 91 2968 2981
+)
+"plugins/firstorder/unify.ml" 100 3224 3228 "plugins/firstorder/unify.ml" 100 3224 3234
+call(
+  tail
+)
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 95 3070 3072 "plugins/firstorder/unify.ml" 100 3224 3234
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 94 3047 3049 "plugins/firstorder/unify.ml" 100 3224 3234
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 92 2983 2985 "plugins/firstorder/unify.ml" 100 3224 3234
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 106 3303 3307 "plugins/firstorder/unify.ml" 106 3303 3318
+type(
+  Term.constr -> int * Term.constr
+)
+ident(
+  def mk_rel_inst "plugins/firstorder/unify.ml" 123 3713 3713 --
+)
+"plugins/firstorder/unify.ml" 106 3303 3319 "plugins/firstorder/unify.ml" 106 3303 3320
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/unify.ml" 107 3322 3324 "plugins/firstorder/unify.ml" 121 3668 3711
+)
+"plugins/firstorder/unify.ml" 107 3322 3328 "plugins/firstorder/unify.ml" 107 3322 3335
+type(
+  int ref
+)
+"plugins/firstorder/unify.ml" 107 3322 3336 "plugins/firstorder/unify.ml" 107 3322 3339
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/unify.ml" 107 3322 3340 "plugins/firstorder/unify.ml" 107 3322 3341
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 107 3322 3336 "plugins/firstorder/unify.ml" 107 3322 3341
+type(
+  int ref
+)
+"plugins/firstorder/unify.ml" 108 3345 3351 "plugins/firstorder/unify.ml" 108 3345 3358
+type(
+  (Term.metavariable * int) list ref
+)
+"plugins/firstorder/unify.ml" 108 3345 3359 "plugins/firstorder/unify.ml" 108 3345 3362
+type(
+  (Term.metavariable * int) list -> (Term.metavariable * int) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"plugins/firstorder/unify.ml" 108 3345 3363 "plugins/firstorder/unify.ml" 108 3345 3365
+type(
+  (Term.metavariable * int) list
+)
+"plugins/firstorder/unify.ml" 108 3345 3359 "plugins/firstorder/unify.ml" 108 3345 3365
+type(
+  (Term.metavariable * int) list ref
+)
+"plugins/firstorder/unify.ml" 109 3369 3379 "plugins/firstorder/unify.ml" 109 3369 3388
+type(
+  int -> Term.constr -> Term.constr
+)
+"plugins/firstorder/unify.ml" 109 3369 3389 "plugins/firstorder/unify.ml" 109 3369 3390
+type(
+  int
+)
+ident(
+  def d "plugins/firstorder/unify.ml" 109 3369 3391 "plugins/firstorder/unify.ml" 119 3607 3662
+)
+"plugins/firstorder/unify.ml" 109 3369 3391 "plugins/firstorder/unify.ml" 109 3369 3392
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/unify.ml" 110 3394 3398 "plugins/firstorder/unify.ml" 119 3607 3662
+)
+"plugins/firstorder/unify.ml" 110 3394 3404 "plugins/firstorder/unify.ml" 110 3394 3416
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 110 3394 3417 "plugins/firstorder/unify.ml" 110 3394 3418
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 109 3369 3391 "plugins/firstorder/unify.ml" 109 3369 3392
+)
+"plugins/firstorder/unify.ml" 110 3394 3404 "plugins/firstorder/unify.ml" 110 3394 3418
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 111 3424 3430 "plugins/firstorder/unify.ml" 111 3424 3431
+type(
+  Term.metavariable
+)
+ident(
+  def n "plugins/firstorder/unify.ml" 112 3434 3437 "plugins/firstorder/unify.ml" 118 3586 3606
+)
+"plugins/firstorder/unify.ml" 111 3424 3425 "plugins/firstorder/unify.ml" 111 3424 3431
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 113 3442 3448 "plugins/firstorder/unify.ml" 113 3442 3453
+type(
+  int -> Term.constr
+)
+ident(
+  ext_ref Term.mkRel
+)
+"plugins/firstorder/unify.ml" 113 3442 3455 "plugins/firstorder/unify.ml" 113 3442 3456
+type(
+  int
+)
+ident(
+  int_ref d "plugins/firstorder/unify.ml" 109 3369 3389 "plugins/firstorder/unify.ml" 109 3369 3390
+)
+"plugins/firstorder/unify.ml" 113 3442 3456 "plugins/firstorder/unify.ml" 113 3442 3457
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/firstorder/unify.ml" 113 3442 3458 "plugins/firstorder/unify.ml" 113 3442 3468
+type(
+  Term.metavariable -> (Term.metavariable * int) list -> int
+)
+ident(
+  ext_ref List.assoc
+)
+"plugins/firstorder/unify.ml" 113 3442 3469 "plugins/firstorder/unify.ml" 113 3442 3470
+type(
+  Term.metavariable
+)
+ident(
+  int_ref n "plugins/firstorder/unify.ml" 111 3424 3430 "plugins/firstorder/unify.ml" 111 3424 3431
+)
+"plugins/firstorder/unify.ml" 113 3442 3471 "plugins/firstorder/unify.ml" 113 3442 3472
+type(
+  (Term.metavariable * int) list ref -> (Term.metavariable * int) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/unify.ml" 113 3442 3472 "plugins/firstorder/unify.ml" 113 3442 3479
+type(
+  (Term.metavariable * int) list ref
+)
+ident(
+  int_ref rel_env "plugins/firstorder/unify.ml" 108 3345 3351 "plugins/firstorder/unify.ml" 108 3345 3358
+)
+"plugins/firstorder/unify.ml" 113 3442 3471 "plugins/firstorder/unify.ml" 113 3442 3479
+type(
+  (Term.metavariable * int) list
+)
+"plugins/firstorder/unify.ml" 113 3442 3457 "plugins/firstorder/unify.ml" 113 3442 3480
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 113 3442 3454 "plugins/firstorder/unify.ml" 113 3442 3481
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 113 3442 3448 "plugins/firstorder/unify.ml" 113 3442 3481
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 114 3482 3491 "plugins/firstorder/unify.ml" 114 3482 3500
+type(
+  exn
+)
+"plugins/firstorder/unify.ml" 115 3503 3513 "plugins/firstorder/unify.ml" 115 3503 3514
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 115 3503 3516 "plugins/firstorder/unify.ml" 115 3503 3517
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/unify.ml" 115 3503 3517 "plugins/firstorder/unify.ml" 115 3503 3524
+type(
+  int ref
+)
+ident(
+  int_ref new_rel "plugins/firstorder/unify.ml" 107 3322 3328 "plugins/firstorder/unify.ml" 107 3322 3335
+)
+"plugins/firstorder/unify.ml" 115 3503 3516 "plugins/firstorder/unify.ml" 115 3503 3524
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 116 3528 3536 "plugins/firstorder/unify.ml" 116 3528 3540
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"plugins/firstorder/unify.ml" 116 3528 3541 "plugins/firstorder/unify.ml" 116 3528 3548
+type(
+  int ref
+)
+ident(
+  int_ref new_rel "plugins/firstorder/unify.ml" 107 3322 3328 "plugins/firstorder/unify.ml" 107 3322 3335
+)
+"plugins/firstorder/unify.ml" 116 3528 3536 "plugins/firstorder/unify.ml" 116 3528 3548
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 117 3550 3558 "plugins/firstorder/unify.ml" 117 3550 3565
+type(
+  (Term.metavariable * int) list ref
+)
+ident(
+  int_ref rel_env "plugins/firstorder/unify.ml" 108 3345 3351 "plugins/firstorder/unify.ml" 108 3345 3358
+)
+"plugins/firstorder/unify.ml" 117 3550 3565 "plugins/firstorder/unify.ml" 117 3550 3567
+type(
+  (Term.metavariable * int) list ref ->
+  (Term.metavariable * int) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"plugins/firstorder/unify.ml" 117 3550 3568 "plugins/firstorder/unify.ml" 117 3550 3569
+type(
+  Term.metavariable
+)
+ident(
+  int_ref n "plugins/firstorder/unify.ml" 111 3424 3430 "plugins/firstorder/unify.ml" 111 3424 3431
+)
+"plugins/firstorder/unify.ml" 117 3550 3570 "plugins/firstorder/unify.ml" 117 3550 3571
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/unify.ml" 115 3503 3513 "plugins/firstorder/unify.ml" 115 3503 3514
+)
+"plugins/firstorder/unify.ml" 117 3550 3567 "plugins/firstorder/unify.ml" 117 3550 3572
+type(
+  Term.metavariable * int
+)
+"plugins/firstorder/unify.ml" 117 3550 3576 "plugins/firstorder/unify.ml" 117 3550 3577
+type(
+  (Term.metavariable * int) list ref -> (Term.metavariable * int) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/unify.ml" 117 3550 3577 "plugins/firstorder/unify.ml" 117 3550 3584
+type(
+  (Term.metavariable * int) list ref
+)
+ident(
+  int_ref rel_env "plugins/firstorder/unify.ml" 108 3345 3351 "plugins/firstorder/unify.ml" 108 3345 3358
+)
+"plugins/firstorder/unify.ml" 117 3550 3576 "plugins/firstorder/unify.ml" 117 3550 3584
+type(
+  (Term.metavariable * int) list
+)
+"plugins/firstorder/unify.ml" 117 3550 3567 "plugins/firstorder/unify.ml" 117 3550 3584
+type(
+  (Term.metavariable * int) list
+)
+"plugins/firstorder/unify.ml" 117 3550 3558 "plugins/firstorder/unify.ml" 117 3550 3584
+type(
+  unit
+)
+"plugins/firstorder/unify.ml" 118 3586 3594 "plugins/firstorder/unify.ml" 118 3586 3599
+type(
+  int -> Term.constr
+)
+ident(
+  ext_ref Term.mkRel
+)
+"plugins/firstorder/unify.ml" 118 3586 3601 "plugins/firstorder/unify.ml" 118 3586 3602
+type(
+  int
+)
+ident(
+  int_ref m "plugins/firstorder/unify.ml" 115 3503 3513 "plugins/firstorder/unify.ml" 115 3503 3514
+)
+"plugins/firstorder/unify.ml" 118 3586 3602 "plugins/firstorder/unify.ml" 118 3586 3603
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/firstorder/unify.ml" 118 3586 3603 "plugins/firstorder/unify.ml" 118 3586 3604
+type(
+  int
+)
+ident(
+  int_ref d "plugins/firstorder/unify.ml" 109 3369 3389 "plugins/firstorder/unify.ml" 109 3369 3390
+)
+"plugins/firstorder/unify.ml" 118 3586 3600 "plugins/firstorder/unify.ml" 118 3586 3605
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 118 3586 3594 "plugins/firstorder/unify.ml" 118 3586 3605
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 117 3550 3558 "plugins/firstorder/unify.ml" 118 3586 3605
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 116 3528 3536 "plugins/firstorder/unify.ml" 118 3586 3605
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 115 3503 3509 "plugins/firstorder/unify.ml" 118 3586 3605
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 112 3434 3437 "plugins/firstorder/unify.ml" 118 3586 3606
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 119 3607 3615 "plugins/firstorder/unify.ml" 119 3607 3616
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/firstorder/unify.ml" 119 3607 3620 "plugins/firstorder/unify.ml" 119 3607 3643
+type(
+  (int -> int) ->
+  (int -> Term.constr -> Term.constr) -> int -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.map_constr_with_binders
+)
+"plugins/firstorder/unify.ml" 119 3607 3644 "plugins/firstorder/unify.ml" 119 3607 3648
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"plugins/firstorder/unify.ml" 119 3607 3649 "plugins/firstorder/unify.ml" 119 3607 3658
+type(
+  int -> Term.constr -> Term.constr
+)
+ident(
+  int_ref renum_rec "plugins/firstorder/unify.ml" 109 3369 3379 "plugins/firstorder/unify.ml" 109 3369 3388
+)
+"plugins/firstorder/unify.ml" 119 3607 3659 "plugins/firstorder/unify.ml" 119 3607 3660
+type(
+  int
+)
+ident(
+  int_ref d "plugins/firstorder/unify.ml" 109 3369 3389 "plugins/firstorder/unify.ml" 109 3369 3390
+)
+"plugins/firstorder/unify.ml" 119 3607 3661 "plugins/firstorder/unify.ml" 119 3607 3662
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 109 3369 3391 "plugins/firstorder/unify.ml" 109 3369 3392
+)
+"plugins/firstorder/unify.ml" 119 3607 3620 "plugins/firstorder/unify.ml" 119 3607 3662
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 110 3394 3398 "plugins/firstorder/unify.ml" 119 3607 3662
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 121 3668 3674 "plugins/firstorder/unify.ml" 121 3668 3676
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 121 3668 3677 "plugins/firstorder/unify.ml" 121 3668 3686
+type(
+  int -> Term.constr -> Term.constr
+)
+ident(
+  int_ref renum_rec "plugins/firstorder/unify.ml" 109 3369 3379 "plugins/firstorder/unify.ml" 109 3369 3388
+)
+"plugins/firstorder/unify.ml" 121 3668 3687 "plugins/firstorder/unify.ml" 121 3668 3688
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 121 3668 3689 "plugins/firstorder/unify.ml" 121 3668 3690
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 106 3303 3319 "plugins/firstorder/unify.ml" 106 3303 3320
+)
+"plugins/firstorder/unify.ml" 121 3668 3677 "plugins/firstorder/unify.ml" 121 3668 3690
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 121 3668 3695 "plugins/firstorder/unify.ml" 121 3668 3696
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"plugins/firstorder/unify.ml" 121 3668 3696 "plugins/firstorder/unify.ml" 121 3668 3703
+type(
+  int ref
+)
+ident(
+  int_ref new_rel "plugins/firstorder/unify.ml" 107 3322 3328 "plugins/firstorder/unify.ml" 107 3322 3335
+)
+"plugins/firstorder/unify.ml" 121 3668 3695 "plugins/firstorder/unify.ml" 121 3668 3703
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 121 3668 3704 "plugins/firstorder/unify.ml" 121 3668 3705
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"plugins/firstorder/unify.ml" 121 3668 3706 "plugins/firstorder/unify.ml" 121 3668 3707
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 121 3668 3695 "plugins/firstorder/unify.ml" 121 3668 3707
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 121 3668 3708 "plugins/firstorder/unify.ml" 121 3668 3710
+type(
+  Term.constr
+)
+ident(
+  int_ref nt "plugins/firstorder/unify.ml" 121 3668 3674 "plugins/firstorder/unify.ml" 121 3668 3676
+)
+"plugins/firstorder/unify.ml" 121 3668 3694 "plugins/firstorder/unify.ml" 121 3668 3711
+type(
+  int * Term.constr
+)
+"plugins/firstorder/unify.ml" 121 3668 3670 "plugins/firstorder/unify.ml" 121 3668 3711
+type(
+  int * Term.constr
+)
+"plugins/firstorder/unify.ml" 109 3369 3371 "plugins/firstorder/unify.ml" 121 3668 3711
+type(
+  int * Term.constr
+)
+"plugins/firstorder/unify.ml" 108 3345 3347 "plugins/firstorder/unify.ml" 121 3668 3711
+type(
+  int * Term.constr
+)
+"plugins/firstorder/unify.ml" 107 3322 3324 "plugins/firstorder/unify.ml" 121 3668 3711
+type(
+  int * Term.constr
+)
+"plugins/firstorder/unify.ml" 123 3713 3717 "plugins/firstorder/unify.ml" 123 3713 3727
+type(
+  Term.metavariable ->
+  Term.constr -> Term.types -> Term.types -> instance option
+)
+ident(
+  def unif_atoms "plugins/firstorder/unify.ml" 132 3946 3946 --
+)
+"plugins/firstorder/unify.ml" 123 3713 3728 "plugins/firstorder/unify.ml" 123 3713 3729
+type(
+  Term.metavariable
+)
+ident(
+  def i "plugins/firstorder/unify.ml" 123 3713 3730 "plugins/firstorder/unify.ml" 130 3908 3944
+)
+"plugins/firstorder/unify.ml" 123 3713 3730 "plugins/firstorder/unify.ml" 123 3713 3733
+type(
+  Term.constr
+)
+ident(
+  def dom "plugins/firstorder/unify.ml" 123 3713 3734 "plugins/firstorder/unify.ml" 130 3908 3944
+)
+"plugins/firstorder/unify.ml" 123 3713 3734 "plugins/firstorder/unify.ml" 123 3713 3736
+type(
+  Term.types
+)
+ident(
+  def t1 "plugins/firstorder/unify.ml" 123 3713 3737 "plugins/firstorder/unify.ml" 130 3908 3944
+)
+"plugins/firstorder/unify.ml" 123 3713 3737 "plugins/firstorder/unify.ml" 123 3713 3739
+type(
+  Term.types
+)
+ident(
+  def t2 "plugins/firstorder/unify.ml" 124 3741 3743 "plugins/firstorder/unify.ml" 130 3908 3944
+)
+"plugins/firstorder/unify.ml" 125 3747 3755 "plugins/firstorder/unify.ml" 125 3747 3756
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/unify.ml" 126 3786 3792 "plugins/firstorder/unify.ml" 127 3828 3876
+)
+"plugins/firstorder/unify.ml" 125 3747 3757 "plugins/firstorder/unify.ml" 125 3747 3767
+type(
+  Term.metavariable -> Termops.meta_value_map -> Term.constr
+)
+ident(
+  ext_ref List.assoc
+)
+"plugins/firstorder/unify.ml" 125 3747 3768 "plugins/firstorder/unify.ml" 125 3747 3769
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 123 3713 3728 "plugins/firstorder/unify.ml" 123 3713 3729
+)
+"plugins/firstorder/unify.ml" 125 3747 3771 "plugins/firstorder/unify.ml" 125 3747 3775
+type(
+  Term.types -> Term.types -> Termops.meta_value_map
+)
+ident(
+  int_ref unif "plugins/firstorder/unify.ml" 28 969 973 "plugins/firstorder/unify.ml" 28 969 977
+)
+"plugins/firstorder/unify.ml" 125 3747 3776 "plugins/firstorder/unify.ml" 125 3747 3778
+type(
+  Term.types
+)
+ident(
+  int_ref t1 "plugins/firstorder/unify.ml" 123 3713 3734 "plugins/firstorder/unify.ml" 123 3713 3736
+)
+"plugins/firstorder/unify.ml" 125 3747 3779 "plugins/firstorder/unify.ml" 125 3747 3781
+type(
+  Term.types
+)
+ident(
+  int_ref t2 "plugins/firstorder/unify.ml" 123 3713 3737 "plugins/firstorder/unify.ml" 123 3713 3739
+)
+"plugins/firstorder/unify.ml" 125 3747 3770 "plugins/firstorder/unify.ml" 125 3747 3782
+call(
+  stack
+)
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 125 3747 3757 "plugins/firstorder/unify.ml" 125 3747 3782
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 126 3786 3795 "plugins/firstorder/unify.ml" 126 3786 3801
+type(
+  Term.constr -> bool
+)
+ident(
+  ext_ref Term.isMeta
+)
+"plugins/firstorder/unify.ml" 126 3786 3802 "plugins/firstorder/unify.ml" 126 3786 3803
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 125 3747 3755 "plugins/firstorder/unify.ml" 125 3747 3756
+)
+"plugins/firstorder/unify.ml" 126 3786 3795 "plugins/firstorder/unify.ml" 126 3786 3803
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 126 3786 3823 "plugins/firstorder/unify.ml" 126 3786 3826
+type(
+  Term.constr
+)
+ident(
+  int_ref dom "plugins/firstorder/unify.ml" 123 3713 3730 "plugins/firstorder/unify.ml" 123 3713 3733
+)
+"plugins/firstorder/unify.ml" 126 3786 3814 "plugins/firstorder/unify.ml" 126 3786 3827
+type(
+  instance
+)
+"plugins/firstorder/unify.ml" 126 3786 3809 "plugins/firstorder/unify.ml" 126 3786 3827
+type(
+  instance option
+)
+"plugins/firstorder/unify.ml" 127 3828 3850 "plugins/firstorder/unify.ml" 127 3828 3861
+type(
+  Term.constr -> int * Term.constr
+)
+ident(
+  int_ref mk_rel_inst "plugins/firstorder/unify.ml" 106 3303 3307 "plugins/firstorder/unify.ml" 106 3303 3318
+)
+"plugins/firstorder/unify.ml" 127 3828 3862 "plugins/firstorder/unify.ml" 127 3828 3863
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 125 3747 3755 "plugins/firstorder/unify.ml" 125 3747 3756
+)
+"plugins/firstorder/unify.ml" 127 3828 3850 "plugins/firstorder/unify.ml" 127 3828 3863
+call(
+  stack
+)
+type(
+  int * Term.constr
+)
+"plugins/firstorder/unify.ml" 127 3828 3864 "plugins/firstorder/unify.ml" 127 3828 3869
+type(
+  Term.metavariable -> Term.types -> int
+)
+ident(
+  int_ref value "plugins/firstorder/unify.ml" 91 2968 2972 "plugins/firstorder/unify.ml" 91 2968 2977
+)
+"plugins/firstorder/unify.ml" 127 3828 3870 "plugins/firstorder/unify.ml" 127 3828 3871
+type(
+  Term.metavariable
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 123 3713 3728 "plugins/firstorder/unify.ml" 123 3713 3729
+)
+"plugins/firstorder/unify.ml" 127 3828 3872 "plugins/firstorder/unify.ml" 127 3828 3874
+type(
+  Term.types
+)
+ident(
+  int_ref t1 "plugins/firstorder/unify.ml" 123 3713 3734 "plugins/firstorder/unify.ml" 123 3713 3736
+)
+"plugins/firstorder/unify.ml" 127 3828 3864 "plugins/firstorder/unify.ml" 127 3828 3874
+call(
+  stack
+)
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 127 3828 3844 "plugins/firstorder/unify.ml" 127 3828 3876
+type(
+  instance
+)
+"plugins/firstorder/unify.ml" 127 3828 3839 "plugins/firstorder/unify.ml" 127 3828 3876
+type(
+  instance option
+)
+"plugins/firstorder/unify.ml" 126 3786 3792 "plugins/firstorder/unify.ml" 127 3828 3876
+type(
+  instance option
+)
+"plugins/firstorder/unify.ml" 125 3747 3751 "plugins/firstorder/unify.ml" 127 3828 3876
+type(
+  instance option
+)
+"plugins/firstorder/unify.ml" 129 3884 3896 "plugins/firstorder/unify.ml" 129 3884 3897
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 129 3884 3898 "plugins/firstorder/unify.ml" 129 3884 3899
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 129 3884 3890 "plugins/firstorder/unify.ml" 129 3884 3900
+type(
+  exn
+)
+"plugins/firstorder/unify.ml" 129 3884 3903 "plugins/firstorder/unify.ml" 129 3884 3907
+type(
+  instance option
+)
+"plugins/firstorder/unify.ml" 130 3908 3914 "plugins/firstorder/unify.ml" 130 3908 3923
+type(
+  exn
+)
+"plugins/firstorder/unify.ml" 130 3908 3940 "plugins/firstorder/unify.ml" 130 3908 3943
+type(
+  Term.constr
+)
+ident(
+  int_ref dom "plugins/firstorder/unify.ml" 123 3713 3730 "plugins/firstorder/unify.ml" 123 3713 3733
+)
+"plugins/firstorder/unify.ml" 130 3908 3931 "plugins/firstorder/unify.ml" 130 3908 3944
+type(
+  instance
+)
+"plugins/firstorder/unify.ml" 130 3908 3926 "plugins/firstorder/unify.ml" 130 3908 3944
+type(
+  instance option
+)
+"plugins/firstorder/unify.ml" 124 3741 3743 "plugins/firstorder/unify.ml" 130 3908 3944
+type(
+  instance option
+)
+"plugins/firstorder/unify.ml" 132 3946 3950 "plugins/firstorder/unify.ml" 132 3946 3966
+type(
+  int -> int -> Term.constr -> Term.constr
+)
+ident(
+  def renum_metas_from "plugins/firstorder/unify.ml" 136 4076 4076 --
+)
+"plugins/firstorder/unify.ml" 132 3946 3967 "plugins/firstorder/unify.ml" 132 3946 3968
+type(
+  int
+)
+ident(
+  def k "plugins/firstorder/unify.ml" 132 3946 3969 "plugins/firstorder/unify.ml" 134 4060 4074
+)
+"plugins/firstorder/unify.ml" 132 3946 3969 "plugins/firstorder/unify.ml" 132 3946 3970
+type(
+  int
+)
+ident(
+  def n "plugins/firstorder/unify.ml" 132 3946 3971 "plugins/firstorder/unify.ml" 134 4060 4074
+)
+"plugins/firstorder/unify.ml" 132 3946 3971 "plugins/firstorder/unify.ml" 132 3946 3972
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/unify.ml" 133 4011 4013 "plugins/firstorder/unify.ml" 134 4060 4074
+)
+"plugins/firstorder/unify.ml" 133 4011 4017 "plugins/firstorder/unify.ml" 133 4011 4018
+type(
+  Term.constr list
+)
+"plugins/firstorder/unify.ml" 133 4011 4019 "plugins/firstorder/unify.ml" 133 4011 4032
+type(
+  (int -> Term.constr) -> int -> Term.constr list
+)
+ident(
+  ext_ref Util.list_tabulate
+)
+"plugins/firstorder/unify.ml" 133 4011 4038 "plugins/firstorder/unify.ml" 133 4011 4039
+type(
+  int
+)
+ident(
+  def i "plugins/firstorder/unify.ml" 133 4011 4041 "plugins/firstorder/unify.ml" 133 4011 4053
+)
+"plugins/firstorder/unify.ml" 133 4011 4041 "plugins/firstorder/unify.ml" 133 4011 4047
+type(
+  Term.metavariable -> Term.constr
+)
+ident(
+  ext_ref Term.mkMeta
+)
+"plugins/firstorder/unify.ml" 133 4011 4049 "plugins/firstorder/unify.ml" 133 4011 4050
+type(
+  int
+)
+ident(
+  int_ref k "plugins/firstorder/unify.ml" 132 3946 3967 "plugins/firstorder/unify.ml" 132 3946 3968
+)
+"plugins/firstorder/unify.ml" 133 4011 4050 "plugins/firstorder/unify.ml" 133 4011 4051
+type(
+  int -> int -> Term.metavariable
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/firstorder/unify.ml" 133 4011 4051 "plugins/firstorder/unify.ml" 133 4011 4052
+type(
+  int
+)
+ident(
+  int_ref i "plugins/firstorder/unify.ml" 133 4011 4038 "plugins/firstorder/unify.ml" 133 4011 4039
+)
+"plugins/firstorder/unify.ml" 133 4011 4048 "plugins/firstorder/unify.ml" 133 4011 4053
+type(
+  Term.metavariable
+)
+"plugins/firstorder/unify.ml" 133 4011 4041 "plugins/firstorder/unify.ml" 133 4011 4053
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 133 4011 4033 "plugins/firstorder/unify.ml" 133 4011 4054
+type(
+  int -> Term.constr
+)
+"plugins/firstorder/unify.ml" 133 4011 4055 "plugins/firstorder/unify.ml" 133 4011 4056
+type(
+  int
+)
+ident(
+  int_ref n "plugins/firstorder/unify.ml" 132 3946 3969 "plugins/firstorder/unify.ml" 132 3946 3970
+)
+"plugins/firstorder/unify.ml" 133 4011 4019 "plugins/firstorder/unify.ml" 133 4011 4056
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/firstorder/unify.ml" 134 4060 4064 "plugins/firstorder/unify.ml" 134 4060 4070
+type(
+  Term.constr list -> Term.constr -> Term.constr
+)
+ident(
+  ext_ref Term.substl
+)
+"plugins/firstorder/unify.ml" 134 4060 4071 "plugins/firstorder/unify.ml" 134 4060 4072
+type(
+  Term.constr list
+)
+ident(
+  int_ref l "plugins/firstorder/unify.ml" 133 4011 4017 "plugins/firstorder/unify.ml" 133 4011 4018
+)
+"plugins/firstorder/unify.ml" 134 4060 4073 "plugins/firstorder/unify.ml" 134 4060 4074
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 132 3946 3971 "plugins/firstorder/unify.ml" 132 3946 3972
+)
+"plugins/firstorder/unify.ml" 134 4060 4064 "plugins/firstorder/unify.ml" 134 4060 4074
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 133 4011 4013 "plugins/firstorder/unify.ml" 134 4060 4074
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 136 4076 4080 "plugins/firstorder/unify.ml" 136 4076 4092
+type(
+  Term.metavariable * Term.constr -> int * Term.constr -> bool
+)
+ident(
+  def more_general "plugins/firstorder/unify.ml" 143 4285 4311 --
+)
+"plugins/firstorder/unify.ml" 136 4076 4094 "plugins/firstorder/unify.ml" 136 4076 4096
+type(
+  Term.metavariable
+)
+ident(
+  def m1 "plugins/firstorder/unify.ml" 136 4076 4101 "plugins/firstorder/unify.ml" 143 4285 4311
+)
+"plugins/firstorder/unify.ml" 136 4076 4097 "plugins/firstorder/unify.ml" 136 4076 4099
+type(
+  Term.constr
+)
+ident(
+  def t1 "plugins/firstorder/unify.ml" 136 4076 4101 "plugins/firstorder/unify.ml" 143 4285 4311
+)
+"plugins/firstorder/unify.ml" 136 4076 4093 "plugins/firstorder/unify.ml" 136 4076 4100
+type(
+  Term.metavariable * Term.constr
+)
+"plugins/firstorder/unify.ml" 136 4076 4102 "plugins/firstorder/unify.ml" 136 4076 4104
+type(
+  int
+)
+ident(
+  def m2 "plugins/firstorder/unify.ml" 137 4110 4112 "plugins/firstorder/unify.ml" 143 4285 4311
+)
+"plugins/firstorder/unify.ml" 136 4076 4105 "plugins/firstorder/unify.ml" 136 4076 4107
+type(
+  Term.constr
+)
+ident(
+  def t2 "plugins/firstorder/unify.ml" 137 4110 4112 "plugins/firstorder/unify.ml" 143 4285 4311
+)
+"plugins/firstorder/unify.ml" 136 4076 4101 "plugins/firstorder/unify.ml" 136 4076 4108
+type(
+  int * Term.constr
+)
+"plugins/firstorder/unify.ml" 137 4110 4116 "plugins/firstorder/unify.ml" 137 4110 4119
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 137 4110 4120 "plugins/firstorder/unify.ml" 137 4110 4136
+type(
+  int -> Term.metavariable -> Term.constr -> Term.constr
+)
+ident(
+  int_ref renum_metas_from "plugins/firstorder/unify.ml" 132 3946 3950 "plugins/firstorder/unify.ml" 132 3946 3966
+)
+"plugins/firstorder/unify.ml" 137 4110 4137 "plugins/firstorder/unify.ml" 137 4110 4138
+type(
+  int
+)
+"plugins/firstorder/unify.ml" 137 4110 4139 "plugins/firstorder/unify.ml" 137 4110 4141
+type(
+  Term.metavariable
+)
+ident(
+  int_ref m1 "plugins/firstorder/unify.ml" 136 4076 4094 "plugins/firstorder/unify.ml" 136 4076 4096
+)
+"plugins/firstorder/unify.ml" 137 4110 4142 "plugins/firstorder/unify.ml" 137 4110 4144
+type(
+  Term.constr
+)
+ident(
+  int_ref t1 "plugins/firstorder/unify.ml" 136 4076 4097 "plugins/firstorder/unify.ml" 136 4076 4099
+)
+"plugins/firstorder/unify.ml" 137 4110 4120 "plugins/firstorder/unify.ml" 137 4110 4144
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 138 4145 4151 "plugins/firstorder/unify.ml" 138 4145 4154
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 138 4145 4155 "plugins/firstorder/unify.ml" 138 4145 4171
+type(
+  Term.metavariable -> int -> Term.constr -> Term.constr
+)
+ident(
+  int_ref renum_metas_from "plugins/firstorder/unify.ml" 132 3946 3950 "plugins/firstorder/unify.ml" 132 3946 3966
+)
+"plugins/firstorder/unify.ml" 138 4145 4172 "plugins/firstorder/unify.ml" 138 4145 4174
+type(
+  Term.metavariable
+)
+ident(
+  int_ref m1 "plugins/firstorder/unify.ml" 136 4076 4094 "plugins/firstorder/unify.ml" 136 4076 4096
+)
+"plugins/firstorder/unify.ml" 138 4145 4175 "plugins/firstorder/unify.ml" 138 4145 4177
+type(
+  int
+)
+ident(
+  int_ref m2 "plugins/firstorder/unify.ml" 136 4076 4102 "plugins/firstorder/unify.ml" 136 4076 4104
+)
+"plugins/firstorder/unify.ml" 138 4145 4178 "plugins/firstorder/unify.ml" 138 4145 4180
+type(
+  Term.constr
+)
+ident(
+  int_ref t2 "plugins/firstorder/unify.ml" 136 4076 4105 "plugins/firstorder/unify.ml" 136 4076 4107
+)
+"plugins/firstorder/unify.ml" 138 4145 4155 "plugins/firstorder/unify.ml" 138 4145 4180
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 140 4192 4202 "plugins/firstorder/unify.ml" 140 4192 4207
+type(
+  Termops.meta_value_map
+)
+ident(
+  def sigma "plugins/firstorder/unify.ml" 141 4224 4230 "plugins/firstorder/unify.ml" 142 4263 4284
+)
+"plugins/firstorder/unify.ml" 140 4192 4208 "plugins/firstorder/unify.ml" 140 4192 4212
+type(
+  Term.types -> Term.types -> Termops.meta_value_map
+)
+ident(
+  int_ref unif "plugins/firstorder/unify.ml" 28 969 973 "plugins/firstorder/unify.ml" 28 969 977
+)
+"plugins/firstorder/unify.ml" 140 4192 4213 "plugins/firstorder/unify.ml" 140 4192 4216
+type(
+  Term.types
+)
+ident(
+  int_ref mt1 "plugins/firstorder/unify.ml" 137 4110 4116 "plugins/firstorder/unify.ml" 137 4110 4119
+)
+"plugins/firstorder/unify.ml" 140 4192 4217 "plugins/firstorder/unify.ml" 140 4192 4220
+type(
+  Term.types
+)
+ident(
+  int_ref mt2 "plugins/firstorder/unify.ml" 138 4145 4151 "plugins/firstorder/unify.ml" 138 4145 4154
+)
+"plugins/firstorder/unify.ml" 140 4192 4208 "plugins/firstorder/unify.ml" 140 4192 4220
+call(
+  stack
+)
+type(
+  Termops.meta_value_map
+)
+"plugins/firstorder/unify.ml" 141 4224 4234 "plugins/firstorder/unify.ml" 141 4224 4235
+type(
+  Term.metavariable * Term.constr -> bool
+)
+ident(
+  def p "plugins/firstorder/unify.ml" 142 4263 4264 "plugins/firstorder/unify.ml" 142 4263 4284
+)
+"plugins/firstorder/unify.ml" 141 4224 4237 "plugins/firstorder/unify.ml" 141 4224 4238
+type(
+  Term.metavariable
+)
+ident(
+  def n "plugins/firstorder/unify.ml" 141 4224 4243 "plugins/firstorder/unify.ml" 141 4224 4259
+)
+"plugins/firstorder/unify.ml" 141 4224 4239 "plugins/firstorder/unify.ml" 141 4224 4240
+type(
+  Term.constr
+)
+ident(
+  def t "plugins/firstorder/unify.ml" 141 4224 4243 "plugins/firstorder/unify.ml" 141 4224 4259
+)
+"plugins/firstorder/unify.ml" 141 4224 4236 "plugins/firstorder/unify.ml" 141 4224 4241
+type(
+  Term.metavariable * Term.constr
+)
+"plugins/firstorder/unify.ml" 141 4224 4243 "plugins/firstorder/unify.ml" 141 4224 4244
+type(
+  Term.metavariable
+)
+ident(
+  int_ref n "plugins/firstorder/unify.ml" 141 4224 4237 "plugins/firstorder/unify.ml" 141 4224 4238
+)
+"plugins/firstorder/unify.ml" 141 4224 4244 "plugins/firstorder/unify.ml" 141 4224 4245
+type(
+  Term.metavariable -> Term.metavariable -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"plugins/firstorder/unify.ml" 141 4224 4245 "plugins/firstorder/unify.ml" 141 4224 4247
+type(
+  Term.metavariable
+)
+ident(
+  int_ref m1 "plugins/firstorder/unify.ml" 136 4076 4094 "plugins/firstorder/unify.ml" 136 4076 4096
+)
+"plugins/firstorder/unify.ml" 141 4224 4243 "plugins/firstorder/unify.ml" 141 4224 4247
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 141 4224 4248 "plugins/firstorder/unify.ml" 141 4224 4250
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"plugins/firstorder/unify.ml" 141 4224 4251 "plugins/firstorder/unify.ml" 141 4224 4257
+type(
+  Term.constr -> bool
+)
+ident(
+  ext_ref Term.isMeta
+)
+"plugins/firstorder/unify.ml" 141 4224 4258 "plugins/firstorder/unify.ml" 141 4224 4259
+type(
+  Term.constr
+)
+ident(
+  int_ref t "plugins/firstorder/unify.ml" 141 4224 4239 "plugins/firstorder/unify.ml" 141 4224 4240
+)
+"plugins/firstorder/unify.ml" 141 4224 4251 "plugins/firstorder/unify.ml" 141 4224 4259
+call(
+  tail
+)
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 141 4224 4243 "plugins/firstorder/unify.ml" 141 4224 4259
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 142 4263 4264 "plugins/firstorder/unify.ml" 142 4263 4276
+type(
+  (Term.metavariable * Term.constr -> bool) -> Termops.meta_value_map -> bool
+)
+ident(
+  ext_ref List.for_all
+)
+"plugins/firstorder/unify.ml" 142 4263 4277 "plugins/firstorder/unify.ml" 142 4263 4278
+type(
+  Term.metavariable * Term.constr -> bool
+)
+ident(
+  int_ref p "plugins/firstorder/unify.ml" 141 4224 4234 "plugins/firstorder/unify.ml" 141 4224 4235
+)
+"plugins/firstorder/unify.ml" 142 4263 4279 "plugins/firstorder/unify.ml" 142 4263 4284
+type(
+  Termops.meta_value_map
+)
+ident(
+  int_ref sigma "plugins/firstorder/unify.ml" 140 4192 4202 "plugins/firstorder/unify.ml" 140 4192 4207
+)
+"plugins/firstorder/unify.ml" 142 4263 4264 "plugins/firstorder/unify.ml" 142 4263 4284
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 141 4224 4230 "plugins/firstorder/unify.ml" 142 4263 4284
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 140 4192 4198 "plugins/firstorder/unify.ml" 142 4263 4284
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 143 4285 4300 "plugins/firstorder/unify.ml" 143 4285 4301
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 143 4285 4302 "plugins/firstorder/unify.ml" 143 4285 4303
+type(
+  Term.constr
+)
+"plugins/firstorder/unify.ml" 143 4285 4294 "plugins/firstorder/unify.ml" 143 4285 4304
+type(
+  exn
+)
+"plugins/firstorder/unify.ml" 143 4285 4306 "plugins/firstorder/unify.ml" 143 4285 4311
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 139 4184 4188 "plugins/firstorder/unify.ml" 143 4285 4311
+type(
+  bool
+)
+"plugins/firstorder/unify.ml" 137 4110 4112 "plugins/firstorder/unify.ml" 143 4285 4311
+type(
+  bool
+)

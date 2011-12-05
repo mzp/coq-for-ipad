@@ -1,0 +1,1568 @@
+"plugins/xml/xml.ml4" 27 1653 1657 "plugins/xml/xml.ml4" 27 1653 1666
+type(
+  string -> (string * string) list -> token Stream.t
+)
+ident(
+  def xml_empty "plugins/xml/xml.ml4" 28 1705 1705 --
+)
+"plugins/xml/xml.ml4" 27 1653 1667 "plugins/xml/xml.ml4" 27 1653 1671
+type(
+  string
+)
+ident(
+  def name "plugins/xml/xml.ml4" 27 1653 1672 "plugins/xml/xml.ml4" 27 1653 1704
+)
+"plugins/xml/xml.ml4" 27 1653 1672 "plugins/xml/xml.ml4" 27 1653 1677
+type(
+  (string * string) list
+)
+ident(
+  def attrs "plugins/xml/xml.ml4" 27 1653 1683 "plugins/xml/xml.ml4" 27 1653 1701
+)
+"plugins/xml/xml.ml4" 27 1653 1690 "plugins/xml/xml.ml4" 27 1653 1694
+type(
+  string
+)
+ident(
+  int_ref name "plugins/xml/xml.ml4" 27 1653 1667 "plugins/xml/xml.ml4" 27 1653 1671
+)
+"plugins/xml/xml.ml4" 27 1653 1695 "plugins/xml/xml.ml4" 27 1653 1700
+type(
+  (string * string) list
+)
+ident(
+  int_ref attrs "plugins/xml/xml.ml4" 27 1653 1672 "plugins/xml/xml.ml4" 27 1653 1677
+)
+"plugins/xml/xml.ml4" 27 1653 1684 "plugins/xml/xml.ml4" 27 1653 1701
+type(
+  token
+)
+"plugins/xml/xml.ml4" 27 1653 1683 "plugins/xml/xml.ml4" 27 1653 1701
+call(
+  tail
+)
+type(
+  token Stream.t
+)
+type(
+  token -> token Stream.t
+)
+ident(
+  ext_ref Stream.ising
+)
+"plugins/xml/xml.ml4" 27 1653 1672 "plugins/xml/xml.ml4" 27 1653 1704
+type(
+  (string * string) list -> token Stream.t
+)
+"plugins/xml/xml.ml4" 27 1653 1667 "plugins/xml/xml.ml4" 27 1653 1704
+type(
+  string -> (string * string) list -> token Stream.t
+)
+"plugins/xml/xml.ml4" 28 1705 1709 "plugins/xml/xml.ml4" 28 1705 1719
+type(
+  string -> (string * string) list -> token Stream.t -> token Stream.t
+)
+ident(
+  def xml_nempty "plugins/xml/xml.ml4" 29 1775 1775 --
+)
+"plugins/xml/xml.ml4" 28 1705 1720 "plugins/xml/xml.ml4" 28 1705 1724
+type(
+  string
+)
+ident(
+  def name "plugins/xml/xml.ml4" 28 1705 1725 "plugins/xml/xml.ml4" 28 1705 1774
+)
+"plugins/xml/xml.ml4" 28 1705 1725 "plugins/xml/xml.ml4" 28 1705 1730
+type(
+  (string * string) list
+)
+ident(
+  def attrs "plugins/xml/xml.ml4" 28 1705 1731 "plugins/xml/xml.ml4" 28 1705 1774
+)
+"plugins/xml/xml.ml4" 28 1705 1731 "plugins/xml/xml.ml4" 28 1705 1738
+type(
+  token Stream.t
+)
+ident(
+  def content "plugins/xml/xml.ml4" 28 1705 1744 "plugins/xml/xml.ml4" 28 1705 1771
+)
+"plugins/xml/xml.ml4" 28 1705 1752 "plugins/xml/xml.ml4" 28 1705 1756
+type(
+  string
+)
+ident(
+  int_ref name "plugins/xml/xml.ml4" 28 1705 1720 "plugins/xml/xml.ml4" 28 1705 1724
+)
+"plugins/xml/xml.ml4" 28 1705 1757 "plugins/xml/xml.ml4" 28 1705 1762
+type(
+  (string * string) list
+)
+ident(
+  int_ref attrs "plugins/xml/xml.ml4" 28 1705 1725 "plugins/xml/xml.ml4" 28 1705 1730
+)
+"plugins/xml/xml.ml4" 28 1705 1763 "plugins/xml/xml.ml4" 28 1705 1770
+type(
+  token Stream.t
+)
+ident(
+  int_ref content "plugins/xml/xml.ml4" 28 1705 1731 "plugins/xml/xml.ml4" 28 1705 1738
+)
+"plugins/xml/xml.ml4" 28 1705 1745 "plugins/xml/xml.ml4" 28 1705 1771
+type(
+  token
+)
+"plugins/xml/xml.ml4" 28 1705 1744 "plugins/xml/xml.ml4" 28 1705 1771
+call(
+  tail
+)
+type(
+  token Stream.t
+)
+type(
+  token -> token Stream.t
+)
+ident(
+  ext_ref Stream.ising
+)
+"plugins/xml/xml.ml4" 28 1705 1731 "plugins/xml/xml.ml4" 28 1705 1774
+type(
+  token Stream.t -> token Stream.t
+)
+"plugins/xml/xml.ml4" 28 1705 1725 "plugins/xml/xml.ml4" 28 1705 1774
+type(
+  (string * string) list -> token Stream.t -> token Stream.t
+)
+"plugins/xml/xml.ml4" 28 1705 1720 "plugins/xml/xml.ml4" 28 1705 1774
+type(
+  string -> (string * string) list -> token Stream.t -> token Stream.t
+)
+"plugins/xml/xml.ml4" 29 1775 1779 "plugins/xml/xml.ml4" 29 1775 1788
+type(
+  string -> token Stream.t
+)
+ident(
+  def xml_cdata "plugins/xml/xml.ml4" 34 2048 2048 --
+)
+"plugins/xml/xml.ml4" 29 1775 1789 "plugins/xml/xml.ml4" 29 1775 1792
+type(
+  string
+)
+ident(
+  def str "plugins/xml/xml.ml4" 29 1775 1798 "plugins/xml/xml.ml4" 29 1775 1806
+)
+"plugins/xml/xml.ml4" 29 1775 1803 "plugins/xml/xml.ml4" 29 1775 1806
+type(
+  string
+)
+ident(
+  int_ref str "plugins/xml/xml.ml4" 29 1775 1789 "plugins/xml/xml.ml4" 29 1775 1792
+)
+"plugins/xml/xml.ml4" 29 1775 1799 "plugins/xml/xml.ml4" 29 1775 1806
+type(
+  token
+)
+"plugins/xml/xml.ml4" 29 1775 1798 "plugins/xml/xml.ml4" 29 1775 1806
+call(
+  tail
+)
+type(
+  token Stream.t
+)
+type(
+  token -> token Stream.t
+)
+ident(
+  ext_ref Stream.ising
+)
+"plugins/xml/xml.ml4" 29 1775 1789 "plugins/xml/xml.ml4" 29 1775 1809
+type(
+  string -> token Stream.t
+)
+"plugins/xml/xml.ml4" 34 2048 2052 "plugins/xml/xml.ml4" 34 2048 2057
+type(
+  token Stream.t -> out_channel -> unit
+)
+ident(
+  def pp_ch "plugins/xml/xml.ml4" 66 2860 2860 --
+)
+"plugins/xml/xml.ml4" 34 2048 2058 "plugins/xml/xml.ml4" 34 2048 2062
+type(
+  token Stream.t
+)
+ident(
+  def strm "plugins/xml/xml.ml4" 34 2048 2063 "plugins/xml/xml.ml4" 34 2048 2854
+)
+"plugins/xml/xml.ml4" 34 2048 2063 "plugins/xml/xml.ml4" 34 2048 2070
+type(
+  out_channel
+)
+ident(
+  def channel "plugins/xml/xml.ml4" 35 2073 2074 "plugins/xml/xml.ml4" 35 2073 2854
+)
+"plugins/xml/xml.ml4" 35 2073 2082 "plugins/xml/xml.ml4" 35 2073 2086
+type(
+  int -> token Stream.t -> unit
+)
+"plugins/xml/xml.ml4" 35 2073 2087 "plugins/xml/xml.ml4" 35 2073 2088
+type(
+  int
+)
+ident(
+  def m "plugins/xml/xml.ml4" 36 2091 2093 "plugins/xml/xml.ml4" 36 2091 2717
+)
+"plugins/xml/xml.ml4" 37 2100 2112 "plugins/xml/xml.ml4" 37 2100 2113
+type(
+  string
+)
+ident(
+  def a "plugins/xml/xml.ml4" 37 2100 2107 "plugins/xml/xml.ml4" 37 2100 2113
+)
+"plugins/xml/xml.ml4" 37 2100 2108 "plugins/xml/xml.ml4" 37 2100 2113
+type(
+  token
+)
+"plugins/xml/xml.ml4" 37 2100 2107 "plugins/xml/xml.ml4" 37 2100 2113
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  token Stream.t
+)
+ident(
+  int_ref strm__ "plugins/xml/xml.ml4" 36 2091 2093 "plugins/xml/xml.ml4" 36 2091 2717
+)
+type(
+  token Stream.t -> unit
+)
+ident(
+  ext_ref Stream.junk
+)
+type(
+  token option
+)
+"plugins/xml/xml.ml4" 37 2100 2116 "plugins/xml/xml.ml4" 37 2100 2117
+type(
+  unit
+)
+type(
+  token Stream.t
+)
+ident(
+  int_ref strm__ "plugins/xml/xml.ml4" 36 2091 2093 "plugins/xml/xml.ml4" 36 2091 2717
+)
+type(
+  token Stream.t
+)
+"plugins/xml/xml.ml4" 38 2124 2130 "plugins/xml/xml.ml4" 38 2124 2142
+type(
+  int -> unit
+)
+ident(
+  int_ref print_spaces "plugins/xml/xml.ml4" 57 2718 2723 "plugins/xml/xml.ml4" 57 2718 2735
+)
+"plugins/xml/xml.ml4" 38 2124 2143 "plugins/xml/xml.ml4" 38 2124 2144
+type(
+  int
+)
+ident(
+  int_ref m "plugins/xml/xml.ml4" 35 2073 2087 "plugins/xml/xml.ml4" 35 2073 2088
+)
+"plugins/xml/xml.ml4" 38 2124 2130 "plugins/xml/xml.ml4" 38 2124 2144
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 39 2147 2153 "plugins/xml/xml.ml4" 39 2147 2166
+type(
+  string -> unit
+)
+ident(
+  int_ref fprint_string "plugins/xml/xml.ml4" 59 2784 2789 "plugins/xml/xml.ml4" 59 2784 2802
+)
+"plugins/xml/xml.ml4" 39 2147 2168 "plugins/xml/xml.ml4" 39 2147 2169
+type(
+  string
+)
+ident(
+  int_ref a "plugins/xml/xml.ml4" 37 2100 2112 "plugins/xml/xml.ml4" 37 2100 2113
+)
+"plugins/xml/xml.ml4" 39 2147 2172 "plugins/xml/xml.ml4" 39 2147 2176
+type(
+  string
+)
+"plugins/xml/xml.ml4" 39 2147 2168 "plugins/xml/xml.ml4" 39 2147 2176
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 39 2147 2153 "plugins/xml/xml.ml4" 39 2147 2177
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 40 2180 2186 "plugins/xml/xml.ml4" 40 2180 2190
+type(
+  int -> token Stream.t -> unit
+)
+ident(
+  int_ref pp_r "plugins/xml/xml.ml4" 35 2073 2082 "plugins/xml/xml.ml4" 35 2073 2086
+)
+"plugins/xml/xml.ml4" 40 2180 2191 "plugins/xml/xml.ml4" 40 2180 2192
+type(
+  int
+)
+ident(
+  int_ref m "plugins/xml/xml.ml4" 35 2073 2087 "plugins/xml/xml.ml4" 35 2073 2088
+)
+"plugins/xml/xml.ml4" 40 2180 2193 "plugins/xml/xml.ml4" 40 2180 2194
+type(
+  token Stream.t
+)
+ident(
+  int_ref s "plugins/xml/xml.ml4" 37 2100 2116 "plugins/xml/xml.ml4" 37 2100 2117
+)
+"plugins/xml/xml.ml4" 40 2180 2186 "plugins/xml/xml.ml4" 40 2180 2194
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 38 2124 2130 "plugins/xml/xml.ml4" 38 2124 2194
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 39 2147 2130 "plugins/xml/xml.ml4" 39 2147 2194
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 41 2195 2209 "plugins/xml/xml.ml4" 41 2195 2210
+type(
+  string
+)
+ident(
+  def n "plugins/xml/xml.ml4" 41 2195 2202 "plugins/xml/xml.ml4" 41 2195 2213
+)
+"plugins/xml/xml.ml4" 41 2195 2211 "plugins/xml/xml.ml4" 41 2195 2212
+type(
+  (string * string) list
+)
+ident(
+  def l "plugins/xml/xml.ml4" 41 2195 2202 "plugins/xml/xml.ml4" 41 2195 2213
+)
+"plugins/xml/xml.ml4" 41 2195 2203 "plugins/xml/xml.ml4" 41 2195 2213
+type(
+  token
+)
+"plugins/xml/xml.ml4" 41 2195 2202 "plugins/xml/xml.ml4" 41 2195 2213
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  token Stream.t
+)
+ident(
+  int_ref strm__ "plugins/xml/xml.ml4" 36 2091 2093 "plugins/xml/xml.ml4" 36 2091 2717
+)
+type(
+  token Stream.t -> unit
+)
+ident(
+  ext_ref Stream.junk
+)
+type(
+  token option
+)
+"plugins/xml/xml.ml4" 41 2195 2216 "plugins/xml/xml.ml4" 41 2195 2217
+type(
+  unit
+)
+type(
+  token Stream.t
+)
+ident(
+  int_ref strm__ "plugins/xml/xml.ml4" 36 2091 2093 "plugins/xml/xml.ml4" 36 2091 2717
+)
+type(
+  token Stream.t
+)
+"plugins/xml/xml.ml4" 42 2224 2230 "plugins/xml/xml.ml4" 42 2224 2242
+type(
+  int -> unit
+)
+ident(
+  int_ref print_spaces "plugins/xml/xml.ml4" 57 2718 2723 "plugins/xml/xml.ml4" 57 2718 2735
+)
+"plugins/xml/xml.ml4" 42 2224 2243 "plugins/xml/xml.ml4" 42 2224 2244
+type(
+  int
+)
+ident(
+  int_ref m "plugins/xml/xml.ml4" 35 2073 2087 "plugins/xml/xml.ml4" 35 2073 2088
+)
+"plugins/xml/xml.ml4" 42 2224 2230 "plugins/xml/xml.ml4" 42 2224 2244
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 43 2247 2253 "plugins/xml/xml.ml4" 43 2247 2266
+type(
+  string -> unit
+)
+ident(
+  int_ref fprint_string "plugins/xml/xml.ml4" 59 2784 2789 "plugins/xml/xml.ml4" 59 2784 2802
+)
+"plugins/xml/xml.ml4" 43 2247 2268 "plugins/xml/xml.ml4" 43 2247 2271
+type(
+  string
+)
+"plugins/xml/xml.ml4" 43 2247 2274 "plugins/xml/xml.ml4" 43 2247 2275
+type(
+  string
+)
+ident(
+  int_ref n "plugins/xml/xml.ml4" 41 2195 2209 "plugins/xml/xml.ml4" 41 2195 2210
+)
+"plugins/xml/xml.ml4" 43 2247 2268 "plugins/xml/xml.ml4" 43 2247 2275
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 43 2247 2253 "plugins/xml/xml.ml4" 43 2247 2276
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 44 2279 2285 "plugins/xml/xml.ml4" 44 2279 2294
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/xml/xml.ml4" 44 2279 2306 "plugins/xml/xml.ml4" 44 2279 2307
+type(
+  string
+)
+ident(
+  def n "plugins/xml/xml.ml4" 44 2279 2314 "plugins/xml/xml.ml4" 44 2279 2356
+)
+"plugins/xml/xml.ml4" 44 2279 2308 "plugins/xml/xml.ml4" 44 2279 2309
+type(
+  string
+)
+ident(
+  def v "plugins/xml/xml.ml4" 44 2279 2314 "plugins/xml/xml.ml4" 44 2279 2356
+)
+"plugins/xml/xml.ml4" 44 2279 2306 "plugins/xml/xml.ml4" 44 2279 2309
+type(
+  string * string
+)
+"plugins/xml/xml.ml4" 44 2279 2314 "plugins/xml/xml.ml4" 44 2279 2327
+type(
+  string -> unit
+)
+ident(
+  int_ref fprint_string "plugins/xml/xml.ml4" 59 2784 2789 "plugins/xml/xml.ml4" 59 2784 2802
+)
+"plugins/xml/xml.ml4" 44 2279 2329 "plugins/xml/xml.ml4" 44 2279 2332
+type(
+  string
+)
+"plugins/xml/xml.ml4" 44 2279 2335 "plugins/xml/xml.ml4" 44 2279 2336
+type(
+  string
+)
+ident(
+  int_ref n "plugins/xml/xml.ml4" 44 2279 2306 "plugins/xml/xml.ml4" 44 2279 2307
+)
+"plugins/xml/xml.ml4" 44 2279 2339 "plugins/xml/xml.ml4" 44 2279 2344
+type(
+  string
+)
+"plugins/xml/xml.ml4" 44 2279 2347 "plugins/xml/xml.ml4" 44 2279 2348
+type(
+  string
+)
+ident(
+  int_ref v "plugins/xml/xml.ml4" 44 2279 2308 "plugins/xml/xml.ml4" 44 2279 2309
+)
+"plugins/xml/xml.ml4" 44 2279 2351 "plugins/xml/xml.ml4" 44 2279 2355
+type(
+  string
+)
+"plugins/xml/xml.ml4" 44 2279 2347 "plugins/xml/xml.ml4" 44 2279 2355
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 44 2279 2339 "plugins/xml/xml.ml4" 44 2279 2355
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 44 2279 2335 "plugins/xml/xml.ml4" 44 2279 2355
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 44 2279 2329 "plugins/xml/xml.ml4" 44 2279 2355
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 44 2279 2314 "plugins/xml/xml.ml4" 44 2279 2356
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 44 2279 2296 "plugins/xml/xml.ml4" 44 2279 2356
+type(
+  string * string -> unit
+)
+"plugins/xml/xml.ml4" 44 2279 2358 "plugins/xml/xml.ml4" 44 2279 2359
+type(
+  (string * string) list
+)
+ident(
+  int_ref l "plugins/xml/xml.ml4" 41 2195 2211 "plugins/xml/xml.ml4" 41 2195 2212
+)
+"plugins/xml/xml.ml4" 44 2279 2285 "plugins/xml/xml.ml4" 44 2279 2359
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 45 2361 2367 "plugins/xml/xml.ml4" 45 2361 2380
+type(
+  string -> unit
+)
+ident(
+  int_ref fprint_string "plugins/xml/xml.ml4" 59 2784 2789 "plugins/xml/xml.ml4" 59 2784 2802
+)
+"plugins/xml/xml.ml4" 45 2361 2381 "plugins/xml/xml.ml4" 45 2361 2387
+type(
+  string
+)
+"plugins/xml/xml.ml4" 45 2361 2367 "plugins/xml/xml.ml4" 45 2361 2387
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 46 2390 2396 "plugins/xml/xml.ml4" 46 2390 2400
+type(
+  int -> token Stream.t -> unit
+)
+ident(
+  int_ref pp_r "plugins/xml/xml.ml4" 35 2073 2082 "plugins/xml/xml.ml4" 35 2073 2086
+)
+"plugins/xml/xml.ml4" 46 2390 2401 "plugins/xml/xml.ml4" 46 2390 2402
+type(
+  int
+)
+ident(
+  int_ref m "plugins/xml/xml.ml4" 35 2073 2087 "plugins/xml/xml.ml4" 35 2073 2088
+)
+"plugins/xml/xml.ml4" 46 2390 2403 "plugins/xml/xml.ml4" 46 2390 2404
+type(
+  token Stream.t
+)
+ident(
+  int_ref s "plugins/xml/xml.ml4" 41 2195 2216 "plugins/xml/xml.ml4" 41 2195 2217
+)
+"plugins/xml/xml.ml4" 46 2390 2396 "plugins/xml/xml.ml4" 46 2390 2404
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 42 2224 2230 "plugins/xml/xml.ml4" 42 2224 2404
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 43 2247 2230 "plugins/xml/xml.ml4" 43 2247 2404
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 44 2279 2230 "plugins/xml/xml.ml4" 44 2279 2404
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 45 2361 2230 "plugins/xml/xml.ml4" 45 2361 2404
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 47 2405 2420 "plugins/xml/xml.ml4" 47 2405 2421
+type(
+  string
+)
+ident(
+  def n "plugins/xml/xml.ml4" 47 2405 2412 "plugins/xml/xml.ml4" 47 2405 2426
+)
+"plugins/xml/xml.ml4" 47 2405 2422 "plugins/xml/xml.ml4" 47 2405 2423
+type(
+  (string * string) list
+)
+ident(
+  def l "plugins/xml/xml.ml4" 47 2405 2412 "plugins/xml/xml.ml4" 47 2405 2426
+)
+"plugins/xml/xml.ml4" 47 2405 2424 "plugins/xml/xml.ml4" 47 2405 2425
+type(
+  token Stream.t
+)
+ident(
+  def c "plugins/xml/xml.ml4" 47 2405 2412 "plugins/xml/xml.ml4" 47 2405 2426
+)
+"plugins/xml/xml.ml4" 47 2405 2413 "plugins/xml/xml.ml4" 47 2405 2426
+type(
+  token
+)
+"plugins/xml/xml.ml4" 47 2405 2412 "plugins/xml/xml.ml4" 47 2405 2426
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  token Stream.t
+)
+ident(
+  int_ref strm__ "plugins/xml/xml.ml4" 36 2091 2093 "plugins/xml/xml.ml4" 36 2091 2717
+)
+type(
+  token Stream.t -> unit
+)
+ident(
+  ext_ref Stream.junk
+)
+type(
+  token option
+)
+"plugins/xml/xml.ml4" 47 2405 2429 "plugins/xml/xml.ml4" 47 2405 2430
+type(
+  unit
+)
+type(
+  token Stream.t
+)
+ident(
+  int_ref strm__ "plugins/xml/xml.ml4" 36 2091 2093 "plugins/xml/xml.ml4" 36 2091 2717
+)
+type(
+  token Stream.t
+)
+"plugins/xml/xml.ml4" 48 2437 2443 "plugins/xml/xml.ml4" 48 2437 2455
+type(
+  int -> unit
+)
+ident(
+  int_ref print_spaces "plugins/xml/xml.ml4" 57 2718 2723 "plugins/xml/xml.ml4" 57 2718 2735
+)
+"plugins/xml/xml.ml4" 48 2437 2456 "plugins/xml/xml.ml4" 48 2437 2457
+type(
+  int
+)
+ident(
+  int_ref m "plugins/xml/xml.ml4" 35 2073 2087 "plugins/xml/xml.ml4" 35 2073 2088
+)
+"plugins/xml/xml.ml4" 48 2437 2443 "plugins/xml/xml.ml4" 48 2437 2457
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 49 2460 2466 "plugins/xml/xml.ml4" 49 2460 2479
+type(
+  string -> unit
+)
+ident(
+  int_ref fprint_string "plugins/xml/xml.ml4" 59 2784 2789 "plugins/xml/xml.ml4" 59 2784 2802
+)
+"plugins/xml/xml.ml4" 49 2460 2481 "plugins/xml/xml.ml4" 49 2460 2484
+type(
+  string
+)
+"plugins/xml/xml.ml4" 49 2460 2487 "plugins/xml/xml.ml4" 49 2460 2488
+type(
+  string
+)
+ident(
+  int_ref n "plugins/xml/xml.ml4" 47 2405 2420 "plugins/xml/xml.ml4" 47 2405 2421
+)
+"plugins/xml/xml.ml4" 49 2460 2481 "plugins/xml/xml.ml4" 49 2460 2488
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 49 2460 2466 "plugins/xml/xml.ml4" 49 2460 2489
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 50 2492 2498 "plugins/xml/xml.ml4" 50 2492 2507
+type(
+  (string * string -> unit) -> (string * string) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"plugins/xml/xml.ml4" 50 2492 2519 "plugins/xml/xml.ml4" 50 2492 2520
+type(
+  string
+)
+ident(
+  def n "plugins/xml/xml.ml4" 50 2492 2527 "plugins/xml/xml.ml4" 50 2492 2569
+)
+"plugins/xml/xml.ml4" 50 2492 2521 "plugins/xml/xml.ml4" 50 2492 2522
+type(
+  string
+)
+ident(
+  def v "plugins/xml/xml.ml4" 50 2492 2527 "plugins/xml/xml.ml4" 50 2492 2569
+)
+"plugins/xml/xml.ml4" 50 2492 2519 "plugins/xml/xml.ml4" 50 2492 2522
+type(
+  string * string
+)
+"plugins/xml/xml.ml4" 50 2492 2527 "plugins/xml/xml.ml4" 50 2492 2540
+type(
+  string -> unit
+)
+ident(
+  int_ref fprint_string "plugins/xml/xml.ml4" 59 2784 2789 "plugins/xml/xml.ml4" 59 2784 2802
+)
+"plugins/xml/xml.ml4" 50 2492 2542 "plugins/xml/xml.ml4" 50 2492 2545
+type(
+  string
+)
+"plugins/xml/xml.ml4" 50 2492 2548 "plugins/xml/xml.ml4" 50 2492 2549
+type(
+  string
+)
+ident(
+  int_ref n "plugins/xml/xml.ml4" 50 2492 2519 "plugins/xml/xml.ml4" 50 2492 2520
+)
+"plugins/xml/xml.ml4" 50 2492 2552 "plugins/xml/xml.ml4" 50 2492 2557
+type(
+  string
+)
+"plugins/xml/xml.ml4" 50 2492 2560 "plugins/xml/xml.ml4" 50 2492 2561
+type(
+  string
+)
+ident(
+  int_ref v "plugins/xml/xml.ml4" 50 2492 2521 "plugins/xml/xml.ml4" 50 2492 2522
+)
+"plugins/xml/xml.ml4" 50 2492 2564 "plugins/xml/xml.ml4" 50 2492 2568
+type(
+  string
+)
+"plugins/xml/xml.ml4" 50 2492 2560 "plugins/xml/xml.ml4" 50 2492 2568
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 50 2492 2552 "plugins/xml/xml.ml4" 50 2492 2568
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 50 2492 2548 "plugins/xml/xml.ml4" 50 2492 2568
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 50 2492 2542 "plugins/xml/xml.ml4" 50 2492 2568
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 50 2492 2527 "plugins/xml/xml.ml4" 50 2492 2569
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 50 2492 2509 "plugins/xml/xml.ml4" 50 2492 2569
+type(
+  string * string -> unit
+)
+"plugins/xml/xml.ml4" 50 2492 2571 "plugins/xml/xml.ml4" 50 2492 2572
+type(
+  (string * string) list
+)
+ident(
+  int_ref l "plugins/xml/xml.ml4" 47 2405 2422 "plugins/xml/xml.ml4" 47 2405 2423
+)
+"plugins/xml/xml.ml4" 50 2492 2498 "plugins/xml/xml.ml4" 50 2492 2572
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 51 2574 2580 "plugins/xml/xml.ml4" 51 2574 2593
+type(
+  string -> unit
+)
+ident(
+  int_ref fprint_string "plugins/xml/xml.ml4" 59 2784 2789 "plugins/xml/xml.ml4" 59 2784 2802
+)
+"plugins/xml/xml.ml4" 51 2574 2594 "plugins/xml/xml.ml4" 51 2574 2599
+type(
+  string
+)
+"plugins/xml/xml.ml4" 51 2574 2580 "plugins/xml/xml.ml4" 51 2574 2599
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 52 2602 2608 "plugins/xml/xml.ml4" 52 2602 2612
+type(
+  int -> token Stream.t -> unit
+)
+ident(
+  int_ref pp_r "plugins/xml/xml.ml4" 35 2073 2082 "plugins/xml/xml.ml4" 35 2073 2086
+)
+"plugins/xml/xml.ml4" 52 2602 2614 "plugins/xml/xml.ml4" 52 2602 2615
+type(
+  int
+)
+ident(
+  int_ref m "plugins/xml/xml.ml4" 35 2073 2087 "plugins/xml/xml.ml4" 35 2073 2088
+)
+"plugins/xml/xml.ml4" 52 2602 2616 "plugins/xml/xml.ml4" 52 2602 2617
+type(
+  int
+)
+"plugins/xml/xml.ml4" 52 2602 2614 "plugins/xml/xml.ml4" 52 2602 2617
+type(
+  int
+)
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"plugins/xml/xml.ml4" 52 2602 2619 "plugins/xml/xml.ml4" 52 2602 2620
+type(
+  token Stream.t
+)
+ident(
+  int_ref c "plugins/xml/xml.ml4" 47 2405 2424 "plugins/xml/xml.ml4" 47 2405 2425
+)
+"plugins/xml/xml.ml4" 52 2602 2608 "plugins/xml/xml.ml4" 52 2602 2620
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 53 2623 2629 "plugins/xml/xml.ml4" 53 2623 2641
+type(
+  int -> unit
+)
+ident(
+  int_ref print_spaces "plugins/xml/xml.ml4" 57 2718 2723 "plugins/xml/xml.ml4" 57 2718 2735
+)
+"plugins/xml/xml.ml4" 53 2623 2642 "plugins/xml/xml.ml4" 53 2623 2643
+type(
+  int
+)
+ident(
+  int_ref m "plugins/xml/xml.ml4" 35 2073 2087 "plugins/xml/xml.ml4" 35 2073 2088
+)
+"plugins/xml/xml.ml4" 53 2623 2629 "plugins/xml/xml.ml4" 53 2623 2643
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 54 2646 2652 "plugins/xml/xml.ml4" 54 2646 2665
+type(
+  string -> unit
+)
+ident(
+  int_ref fprint_string "plugins/xml/xml.ml4" 59 2784 2789 "plugins/xml/xml.ml4" 59 2784 2802
+)
+"plugins/xml/xml.ml4" 54 2646 2667 "plugins/xml/xml.ml4" 54 2646 2671
+type(
+  string
+)
+"plugins/xml/xml.ml4" 54 2646 2674 "plugins/xml/xml.ml4" 54 2646 2675
+type(
+  string
+)
+ident(
+  int_ref n "plugins/xml/xml.ml4" 47 2405 2420 "plugins/xml/xml.ml4" 47 2405 2421
+)
+"plugins/xml/xml.ml4" 54 2646 2678 "plugins/xml/xml.ml4" 54 2646 2683
+type(
+  string
+)
+"plugins/xml/xml.ml4" 54 2646 2674 "plugins/xml/xml.ml4" 54 2646 2683
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 54 2646 2667 "plugins/xml/xml.ml4" 54 2646 2683
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 54 2646 2652 "plugins/xml/xml.ml4" 54 2646 2684
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 55 2687 2693 "plugins/xml/xml.ml4" 55 2687 2697
+type(
+  int -> token Stream.t -> unit
+)
+ident(
+  int_ref pp_r "plugins/xml/xml.ml4" 35 2073 2082 "plugins/xml/xml.ml4" 35 2073 2086
+)
+"plugins/xml/xml.ml4" 55 2687 2698 "plugins/xml/xml.ml4" 55 2687 2699
+type(
+  int
+)
+ident(
+  int_ref m "plugins/xml/xml.ml4" 35 2073 2087 "plugins/xml/xml.ml4" 35 2073 2088
+)
+"plugins/xml/xml.ml4" 55 2687 2700 "plugins/xml/xml.ml4" 55 2687 2701
+type(
+  token Stream.t
+)
+ident(
+  int_ref s "plugins/xml/xml.ml4" 47 2405 2429 "plugins/xml/xml.ml4" 47 2405 2430
+)
+"plugins/xml/xml.ml4" 55 2687 2693 "plugins/xml/xml.ml4" 55 2687 2701
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 48 2437 2443 "plugins/xml/xml.ml4" 48 2437 2701
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 49 2460 2443 "plugins/xml/xml.ml4" 49 2460 2701
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 50 2492 2443 "plugins/xml/xml.ml4" 50 2492 2701
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 51 2574 2443 "plugins/xml/xml.ml4" 51 2574 2701
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 52 2602 2443 "plugins/xml/xml.ml4" 52 2602 2701
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 53 2623 2443 "plugins/xml/xml.ml4" 53 2623 2701
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 54 2646 2443 "plugins/xml/xml.ml4" 54 2646 2701
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 56 2702 2715 "plugins/xml/xml.ml4" 56 2702 2717
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 36 2091 2093 "plugins/xml/xml.ml4" 36 2091 2717
+call(
+  stack
+)
+type(
+  token Stream.t -> unit
+)
+type(
+  unit
+)
+type(
+  token option
+)
+type(
+  token option
+)
+type(
+  token Stream.t
+)
+ident(
+  int_ref strm__ "plugins/xml/xml.ml4" 36 2091 2093 "plugins/xml/xml.ml4" 36 2091 2717
+)
+type(
+  token Stream.t -> token option
+)
+ident(
+  ext_ref Stream.peek
+)
+type(
+  token Stream.t
+)
+ident(
+  def strm__ "plugins/xml/xml.ml4" 36 2091 2093 "plugins/xml/xml.ml4" 36 2091 2717
+)
+"plugins/xml/xml.ml4" 35 2073 2087 "plugins/xml/xml.ml4" 35 2073 2717
+type(
+  int -> token Stream.t -> unit
+)
+"plugins/xml/xml.ml4" 57 2718 2723 "plugins/xml/xml.ml4" 57 2718 2735
+type(
+  int -> unit
+)
+"plugins/xml/xml.ml4" 57 2718 2736 "plugins/xml/xml.ml4" 57 2718 2737
+type(
+  int
+)
+ident(
+  def m "plugins/xml/xml.ml4" 58 2740 2742 "plugins/xml/xml.ml4" 58 2740 2783
+)
+"plugins/xml/xml.ml4" 58 2740 2750 "plugins/xml/xml.ml4" 58 2740 2751
+type(
+  int
+)
+"plugins/xml/xml.ml4" 58 2740 2755 "plugins/xml/xml.ml4" 58 2740 2756
+type(
+  int
+)
+ident(
+  int_ref m "plugins/xml/xml.ml4" 57 2718 2736 "plugins/xml/xml.ml4" 57 2718 2737
+)
+"plugins/xml/xml.ml4" 58 2740 2760 "plugins/xml/xml.ml4" 58 2740 2773
+type(
+  string -> unit
+)
+ident(
+  int_ref fprint_string "plugins/xml/xml.ml4" 59 2784 2789 "plugins/xml/xml.ml4" 59 2784 2802
+)
+"plugins/xml/xml.ml4" 58 2740 2774 "plugins/xml/xml.ml4" 58 2740 2778
+type(
+  string
+)
+"plugins/xml/xml.ml4" 58 2740 2760 "plugins/xml/xml.ml4" 58 2740 2778
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 58 2740 2742 "plugins/xml/xml.ml4" 58 2740 2783
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 57 2718 2736 "plugins/xml/xml.ml4" 57 2718 2783
+type(
+  int -> unit
+)
+"plugins/xml/xml.ml4" 59 2784 2789 "plugins/xml/xml.ml4" 59 2784 2802
+type(
+  string -> unit
+)
+"plugins/xml/xml.ml4" 59 2784 2803 "plugins/xml/xml.ml4" 59 2784 2806
+type(
+  string
+)
+ident(
+  def str "plugins/xml/xml.ml4" 60 2809 2811 "plugins/xml/xml.ml4" 60 2809 2836
+)
+"plugins/xml/xml.ml4" 60 2809 2811 "plugins/xml/xml.ml4" 60 2809 2824
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"plugins/xml/xml.ml4" 60 2809 2825 "plugins/xml/xml.ml4" 60 2809 2832
+type(
+  out_channel
+)
+ident(
+  int_ref channel "plugins/xml/xml.ml4" 34 2048 2063 "plugins/xml/xml.ml4" 34 2048 2070
+)
+"plugins/xml/xml.ml4" 60 2809 2833 "plugins/xml/xml.ml4" 60 2809 2836
+type(
+  string
+)
+ident(
+  int_ref str "plugins/xml/xml.ml4" 59 2784 2803 "plugins/xml/xml.ml4" 59 2784 2806
+)
+"plugins/xml/xml.ml4" 60 2809 2811 "plugins/xml/xml.ml4" 60 2809 2836
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 59 2784 2803 "plugins/xml/xml.ml4" 59 2784 2836
+type(
+  string -> unit
+)
+"plugins/xml/xml.ml4" 62 2841 2843 "plugins/xml/xml.ml4" 62 2841 2847
+type(
+  int -> token Stream.t -> unit
+)
+ident(
+  int_ref pp_r "plugins/xml/xml.ml4" 35 2073 2082 "plugins/xml/xml.ml4" 35 2073 2086
+)
+"plugins/xml/xml.ml4" 62 2841 2848 "plugins/xml/xml.ml4" 62 2841 2849
+type(
+  int
+)
+"plugins/xml/xml.ml4" 62 2841 2850 "plugins/xml/xml.ml4" 62 2841 2854
+type(
+  token Stream.t
+)
+ident(
+  int_ref strm "plugins/xml/xml.ml4" 34 2048 2058 "plugins/xml/xml.ml4" 34 2048 2062
+)
+"plugins/xml/xml.ml4" 62 2841 2843 "plugins/xml/xml.ml4" 62 2841 2854
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 35 2073 2074 "plugins/xml/xml.ml4" 35 2073 2854
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 34 2048 2063 "plugins/xml/xml.ml4" 34 2048 2854
+type(
+  out_channel -> unit
+)
+"plugins/xml/xml.ml4" 34 2048 2058 "plugins/xml/xml.ml4" 34 2048 2854
+type(
+  token Stream.t -> out_channel -> unit
+)
+"plugins/xml/xml.ml4" 66 2860 2864 "plugins/xml/xml.ml4" 66 2860 2866
+type(
+  token Stream.t -> string option -> unit
+)
+ident(
+  def pp "plugins/xml/xml.ml4" 66 2860 3175 --
+)
+"plugins/xml/xml.ml4" 66 2860 2867 "plugins/xml/xml.ml4" 66 2860 2871
+type(
+  token Stream.t
+)
+ident(
+  def strm "plugins/xml/xml.ml4" 66 2860 2872 "plugins/xml/xml.ml4" 66 2860 3175
+)
+"plugins/xml/xml.ml4" 66 2860 2872 "plugins/xml/xml.ml4" 66 2860 2874
+type(
+  string option
+)
+ident(
+  def fn "plugins/xml/xml.ml4" 67 2877 2879 "plugins/xml/xml.ml4" 67 2877 3175
+)
+"plugins/xml/xml.ml4" 67 2877 2885 "plugins/xml/xml.ml4" 67 2877 2887
+type(
+  string option
+)
+ident(
+  int_ref fn "plugins/xml/xml.ml4" 66 2860 2872 "plugins/xml/xml.ml4" 66 2860 2874
+)
+"plugins/xml/xml.ml4" 68 2893 2903 "plugins/xml/xml.ml4" 68 2893 2911
+type(
+  string
+)
+ident(
+  def filename "plugins/xml/xml.ml4" 69 2915 2921 "plugins/xml/xml.ml4" 69 2915 3137
+)
+"plugins/xml/xml.ml4" 68 2893 2898 "plugins/xml/xml.ml4" 68 2893 2911
+type(
+  string option
+)
+"plugins/xml/xml.ml4" 69 2915 2925 "plugins/xml/xml.ml4" 69 2915 2933
+type(
+  string
+)
+"plugins/xml/xml.ml4" 69 2915 2936 "plugins/xml/xml.ml4" 69 2915 2944
+type(
+  string
+)
+ident(
+  int_ref filename "plugins/xml/xml.ml4" 68 2893 2903 "plugins/xml/xml.ml4" 68 2893 2911
+)
+"plugins/xml/xml.ml4" 69 2915 2947 "plugins/xml/xml.ml4" 69 2915 2953
+type(
+  string
+)
+"plugins/xml/xml.ml4" 69 2915 2936 "plugins/xml/xml.ml4" 69 2915 2953
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 70 2957 2967 "plugins/xml/xml.ml4" 70 2957 2969
+type(
+  out_channel
+)
+"plugins/xml/xml.ml4" 70 2957 2972 "plugins/xml/xml.ml4" 70 2957 2980
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"plugins/xml/xml.ml4" 70 2957 2981 "plugins/xml/xml.ml4" 70 2957 2989
+type(
+  string
+)
+ident(
+  int_ref filename "plugins/xml/xml.ml4" 69 2915 2925 "plugins/xml/xml.ml4" 69 2915 2933
+)
+"plugins/xml/xml.ml4" 70 2957 2972 "plugins/xml/xml.ml4" 70 2957 2989
+call(
+  stack
+)
+type(
+  out_channel
+)
+"plugins/xml/xml.ml4" 71 2993 3000 "plugins/xml/xml.ml4" 71 2993 3005
+type(
+  token Stream.t -> out_channel -> unit
+)
+ident(
+  int_ref pp_ch "plugins/xml/xml.ml4" 34 2048 2052 "plugins/xml/xml.ml4" 34 2048 2057
+)
+"plugins/xml/xml.ml4" 71 2993 3006 "plugins/xml/xml.ml4" 71 2993 3010
+type(
+  token Stream.t
+)
+ident(
+  int_ref strm "plugins/xml/xml.ml4" 66 2860 2867 "plugins/xml/xml.ml4" 66 2860 2871
+)
+"plugins/xml/xml.ml4" 71 2993 3011 "plugins/xml/xml.ml4" 71 2993 3013
+type(
+  out_channel
+)
+ident(
+  int_ref ch "plugins/xml/xml.ml4" 70 2957 2967 "plugins/xml/xml.ml4" 70 2957 2969
+)
+"plugins/xml/xml.ml4" 71 2993 3000 "plugins/xml/xml.ml4" 71 2993 3013
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 72 3015 3022 "plugins/xml/xml.ml4" 72 3015 3031
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"plugins/xml/xml.ml4" 72 3015 3032 "plugins/xml/xml.ml4" 72 3015 3034
+type(
+  out_channel
+)
+ident(
+  int_ref ch "plugins/xml/xml.ml4" 70 2957 2967 "plugins/xml/xml.ml4" 70 2957 2969
+)
+"plugins/xml/xml.ml4" 72 3015 3022 "plugins/xml/xml.ml4" 72 3015 3034
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 73 3037 3044 "plugins/xml/xml.ml4" 73 3037 3056
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"plugins/xml/xml.ml4" 73 3037 3058 "plugins/xml/xml.ml4" 73 3037 3080
+type(
+  string
+)
+"plugins/xml/xml.ml4" 73 3037 3083 "plugins/xml/xml.ml4" 73 3037 3091
+type(
+  string
+)
+ident(
+  int_ref filename "plugins/xml/xml.ml4" 69 2915 2925 "plugins/xml/xml.ml4" 69 2915 2933
+)
+"plugins/xml/xml.ml4" 73 3037 3094 "plugins/xml/xml.ml4" 73 3037 3115
+type(
+  string
+)
+"plugins/xml/xml.ml4" 73 3037 3083 "plugins/xml/xml.ml4" 73 3037 3115
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 73 3037 3058 "plugins/xml/xml.ml4" 73 3037 3115
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/xml/xml.ml4" 73 3037 3044 "plugins/xml/xml.ml4" 73 3037 3116
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 74 3118 3125 "plugins/xml/xml.ml4" 74 3118 3130
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"plugins/xml/xml.ml4" 74 3118 3131 "plugins/xml/xml.ml4" 74 3118 3137
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"plugins/xml/xml.ml4" 74 3118 3125 "plugins/xml/xml.ml4" 74 3118 3137
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 71 2993 3000 "plugins/xml/xml.ml4" 71 2993 3137
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 72 3015 3000 "plugins/xml/xml.ml4" 72 3015 3137
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 73 3037 3000 "plugins/xml/xml.ml4" 73 3037 3137
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 70 2957 2963 "plugins/xml/xml.ml4" 70 2957 3137
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 69 2915 2921 "plugins/xml/xml.ml4" 69 2915 3137
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 75 3138 3143 "plugins/xml/xml.ml4" 75 3138 3147
+type(
+  string option
+)
+"plugins/xml/xml.ml4" 76 3151 3158 "plugins/xml/xml.ml4" 76 3151 3163
+type(
+  token Stream.t -> out_channel -> unit
+)
+ident(
+  int_ref pp_ch "plugins/xml/xml.ml4" 34 2048 2052 "plugins/xml/xml.ml4" 34 2048 2057
+)
+"plugins/xml/xml.ml4" 76 3151 3164 "plugins/xml/xml.ml4" 76 3151 3168
+type(
+  token Stream.t
+)
+ident(
+  int_ref strm "plugins/xml/xml.ml4" 66 2860 2867 "plugins/xml/xml.ml4" 66 2860 2871
+)
+"plugins/xml/xml.ml4" 76 3151 3169 "plugins/xml/xml.ml4" 76 3151 3175
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"plugins/xml/xml.ml4" 76 3151 3158 "plugins/xml/xml.ml4" 76 3151 3175
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 67 2877 2879 "plugins/xml/xml.ml4" 67 2877 3175
+type(
+  unit
+)
+"plugins/xml/xml.ml4" 66 2860 2872 "plugins/xml/xml.ml4" 66 2860 3175
+type(
+  string option -> unit
+)
+"plugins/xml/xml.ml4" 66 2860 2867 "plugins/xml/xml.ml4" 66 2860 3175
+type(
+  token Stream.t -> string option -> unit
+)

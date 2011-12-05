@@ -1,0 +1,148 @@
+FCoq.Arith.Lt
+R752 Coq.Arith.Le <> <> lib
+R808 Coq.Init.Datatypes <> nat ind
+prf 846 <> lt_irrefl
+R868:869 Coq.Init.Logic <> :type_scope:'~'_x not
+R871:873 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R883 Coq.Arith.Le <> le_Sn_n thm
+R905 Coq.Arith.Lt <> lt_irrefl thm
+prf 981 <> lt_le_S
+R1015:1018 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R1012 Coq.Init.Datatypes <> S constr
+R1004:1006 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1068 Coq.Arith.Lt <> lt_le_S thm
+prf 1097 <> lt_n_Sm_le
+R1134:1137 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R1123:1125 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1126 Coq.Init.Datatypes <> S constr
+R1187 Coq.Arith.Lt <> lt_n_Sm_le thm
+prf 1219 <> le_lt_n_Sm
+R1255:1257 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1258 Coq.Init.Datatypes <> S constr
+R1245:1248 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R1309 Coq.Arith.Lt <> le_lt_n_Sm thm
+prf 1341 <> le_not_lt
+R1375:1376 Coq.Init.Logic <> :type_scope:'~'_x not
+R1378:1380 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1366:1369 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+prf 1437 <> lt_not_le
+R1470:1471 Coq.Init.Logic <> :type_scope:'~'_x not
+R1473:1476 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R1462:1464 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1527 Coq.Arith.Lt <> le_not_lt thm
+R1527 Coq.Arith.Lt <> le_not_lt thm
+R1569 Coq.Arith.Lt <> le_not_lt thm
+R1579 Coq.Arith.Lt <> lt_not_le thm
+prf 1630 <> lt_asym
+R1661:1662 Coq.Init.Logic <> :type_scope:'~'_x not
+R1664:1666 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1653:1655 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+prf 1753 <> lt_n_Sn
+R1774:1776 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1777 Coq.Init.Datatypes <> S constr
+R1826 Coq.Arith.Lt <> lt_n_Sn thm
+prf 1855 <> lt_S
+R1884:1886 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1887 Coq.Init.Datatypes <> S constr
+R1875:1877 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1936 Coq.Arith.Lt <> lt_S thm
+prf 1962 <> lt_n_S
+R1995:1997 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1992 Coq.Init.Datatypes <> S constr
+R1998 Coq.Init.Datatypes <> S constr
+R1984:1986 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2047 Coq.Arith.Lt <> lt_n_S thm
+prf 2075 <> lt_S_n
+R2110:2112 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2099:2101 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2096 Coq.Init.Datatypes <> S constr
+R2102 Coq.Init.Datatypes <> S constr
+R2162 Coq.Arith.Lt <> lt_S_n thm
+prf 2190 <> lt_0_Sn
+R2211:2213 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2214 Coq.Init.Datatypes <> S constr
+R2263 Coq.Arith.Lt <> lt_0_Sn thm
+prf 2292 <> lt_n_O
+R2311:2312 Coq.Init.Logic <> :type_scope:'~'_x not
+R2314:2316 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2326 Coq.Arith.Le <> le_Sn_O syndef
+R2348 Coq.Arith.Lt <> lt_n_O thm
+prf 2396 <> S_pred
+R2427:2429 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2430 Coq.Init.Datatypes <> S constr
+R2433 Coq.Init.Peano <> pred def
+R2418:2420 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+prf 2491 <> lt_pred
+R2525:2527 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2528 Coq.Init.Peano <> pred def
+R2516:2518 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2513 Coq.Init.Datatypes <> S constr
+R2608 Coq.Arith.Lt <> lt_pred thm
+prf 2635 <> lt_pred_n_n
+R2674:2676 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2668 Coq.Init.Peano <> pred def
+R2660:2662 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2742 Coq.Arith.Lt <> lt_pred_n_n thm
+prf 2809 <> lt_trans
+R2853:2855 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2844:2846 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2835:2837 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+prf 2912 <> lt_le_trans
+R2960:2962 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2950:2953 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R2941:2943 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+prf 3019 <> le_lt_trans
+R3067:3069 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R3058:3060 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R3048:3051 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R3131 Coq.Arith.Lt <> lt_trans thm
+R3140 Coq.Arith.Lt <> lt_le_trans thm
+R3152 Coq.Arith.Lt <> le_lt_trans thm
+prf 3219 <> le_lt_or_eq
+R3260:3263 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R3256:3258 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R3265:3267 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3246:3249 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+prf 3324 <> le_lt_or_eq_iff
+R3360:3364 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R3355:3358 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R3370:3373 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R3366:3368 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R3375:3377 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3413 Coq.Arith.Lt <> le_lt_or_eq thm
+R3413 Coq.Arith.Lt <> le_lt_or_eq thm
+prf 3484 <> lt_le_weak
+R3519:3522 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R3510:3512 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R3572 Coq.Arith.Lt <> lt_le_weak thm
+prf 3624 <> le_or_lt
+R3653:3656 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R3648:3651 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R3658:3660 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R3713 Coq.Init.Peano <> nat_double_ind thm
+R3713 Coq.Init.Peano <> nat_double_ind thm
+prf 3792 <> nat_total_order
+R3837:3840 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R3833:3835 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R3842:3844 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R3823:3826 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R3882 Coq.Arith.Lt <> le_or_lt thm
+R3882 Coq.Arith.Lt <> le_or_lt thm
+R3938 Coq.Arith.Lt <> le_lt_or_eq thm
+R3938 Coq.Arith.Lt <> le_lt_or_eq thm
+prf 4053 <> neq_0_lt
+R4085:4087 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R4075:4078 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R4149:4151 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4149:4151 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4196 Coq.Arith.Lt <> neq_0_lt thm
+prf 4226 <> lt_0_neq
+R4257:4260 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R4248:4250 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R4323 Coq.Arith.Lt <> lt_0_neq thm
+syndef 4371 <> lt_O_Sn
+R4382 Coq.Arith.Lt <> lt_0_Sn thm
+syndef 4415 <> neq_O_lt
+R4427 Coq.Arith.Lt <> neq_0_lt thm
+syndef 4461 <> lt_O_neq
+R4473 Coq.Arith.Lt <> lt_0_neq thm

@@ -1,0 +1,5637 @@
+"plugins/subtac/g_subtac.ml4" 40 1135 1141 "plugins/subtac/g_subtac.ml4" 40 1135 1144
+type(
+  string -> 'a Gram.Entry.e
+)
+ident(
+  def gec "plugins/subtac/g_subtac.ml4" 42 1195 1197 "plugins/subtac/g_subtac.ml4" 39 1128 1387
+)
+"plugins/subtac/g_subtac.ml4" 40 1135 1145 "plugins/subtac/g_subtac.ml4" 40 1135 1146
+type(
+  string
+)
+ident(
+  def s "plugins/subtac/g_subtac.ml4" 40 1135 1149 "plugins/subtac/g_subtac.ml4" 40 1135 1180
+)
+"plugins/subtac/g_subtac.ml4" 40 1135 1149 "plugins/subtac/g_subtac.ml4" 40 1135 1166
+type(
+  string -> 'a Gram.Entry.e
+)
+ident(
+  ext_ref Gram.Entry.create
+)
+"plugins/subtac/g_subtac.ml4" 40 1135 1168 "plugins/subtac/g_subtac.ml4" 40 1135 1177
+type(
+  string
+)
+"plugins/subtac/g_subtac.ml4" 40 1135 1178 "plugins/subtac/g_subtac.ml4" 40 1135 1179
+type(
+  string
+)
+ident(
+  int_ref s "plugins/subtac/g_subtac.ml4" 40 1135 1145 "plugins/subtac/g_subtac.ml4" 40 1135 1146
+)
+"plugins/subtac/g_subtac.ml4" 40 1135 1168 "plugins/subtac/g_subtac.ml4" 40 1135 1179
+call(
+  stack
+)
+type(
+  string
+)
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"plugins/subtac/g_subtac.ml4" 40 1135 1149 "plugins/subtac/g_subtac.ml4" 40 1135 1180
+call(
+  tail
+)
+type(
+  'a Gram.Entry.e
+)
+"plugins/subtac/g_subtac.ml4" 40 1135 1145 "plugins/subtac/g_subtac.ml4" 40 1135 1180
+type(
+  string -> 'a Gram.Entry.e
+)
+"plugins/subtac/g_subtac.ml4" 42 1195 1201 "plugins/subtac/g_subtac.ml4" 42 1195 1219
+type(
+  Vernacexpr.vernac_expr Util.located Gram.Entry.e
+)
+ident(
+  def subtac_gallina_loc "plugins/subtac/g_subtac.ml4" 44 1294 1296 "plugins/subtac/g_subtac.ml4" 39 1128 1387
+)
+"plugins/subtac/g_subtac.ml4" 42 1195 1268 "plugins/subtac/g_subtac.ml4" 42 1195 1271
+type(
+  string -> Vernacexpr.vernac_expr Util.located Gram.Entry.e
+)
+ident(
+  int_ref gec "plugins/subtac/g_subtac.ml4" 40 1135 1141 "plugins/subtac/g_subtac.ml4" 40 1135 1144
+)
+"plugins/subtac/g_subtac.ml4" 42 1195 1272 "plugins/subtac/g_subtac.ml4" 42 1195 1292
+type(
+  string
+)
+"plugins/subtac/g_subtac.ml4" 42 1195 1268 "plugins/subtac/g_subtac.ml4" 42 1195 1292
+call(
+  stack
+)
+type(
+  Vernacexpr.vernac_expr Util.located Gram.Entry.e
+)
+type(
+  Vernacexpr.vernac_expr Util.located Gram.Entry.e
+)
+"plugins/subtac/g_subtac.ml4" 44 1294 1300 "plugins/subtac/g_subtac.ml4" 44 1294 1314
+type(
+  Tacexpr.raw_tactic_expr option Gram.Entry.e
+)
+ident(
+  def subtac_withtac "plugins/subtac/g_subtac.ml4" 44 1294 1383 "plugins/subtac/g_subtac.ml4" 39 1128 1387
+)
+"plugins/subtac/g_subtac.ml4" 44 1294 1363 "plugins/subtac/g_subtac.ml4" 44 1294 1366
+type(
+  string -> Tacexpr.raw_tactic_expr option Gram.Entry.e
+)
+ident(
+  int_ref gec "plugins/subtac/g_subtac.ml4" 40 1135 1141 "plugins/subtac/g_subtac.ml4" 40 1135 1144
+)
+"plugins/subtac/g_subtac.ml4" 44 1294 1367 "plugins/subtac/g_subtac.ml4" 44 1294 1383
+type(
+  string
+)
+"plugins/subtac/g_subtac.ml4" 44 1294 1363 "plugins/subtac/g_subtac.ml4" 44 1294 1383
+call(
+  stack
+)
+type(
+  Tacexpr.raw_tactic_expr option Gram.Entry.e
+)
+type(
+  Tacexpr.raw_tactic_expr option Gram.Entry.e
+)
+"plugins/subtac/g_subtac.ml4" 53 1460 1464 "plugins/subtac/g_subtac.ml4" 53 1460 1470
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def sigref "plugins/subtac/g_subtac.ml4" 55 1551 1551 --
+)
+"plugins/subtac/g_subtac.ml4" 53 1460 1473 "plugins/subtac/g_subtac.ml4" 53 1460 1479
+type(
+  Libnames.reference -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Topconstr.mkRefC
+)
+"plugins/subtac/g_subtac.ml4" 53 1460 1489 "plugins/subtac/g_subtac.ml4" 53 1460 1498
+type(
+  Util.loc
+)
+ident(
+  ext_ref Util.dummy_loc
+)
+"plugins/subtac/g_subtac.ml4" 53 1460 1500 "plugins/subtac/g_subtac.ml4" 53 1460 1525
+type(
+  string -> Libnames.qualid
+)
+ident(
+  ext_ref Libnames.qualid_of_string
+)
+"plugins/subtac/g_subtac.ml4" 53 1460 1526 "plugins/subtac/g_subtac.ml4" 53 1460 1547
+type(
+  string
+)
+"plugins/subtac/g_subtac.ml4" 53 1460 1500 "plugins/subtac/g_subtac.ml4" 53 1460 1547
+call(
+  stack
+)
+type(
+  Libnames.qualid
+)
+"plugins/subtac/g_subtac.ml4" 53 1460 1481 "plugins/subtac/g_subtac.ml4" 53 1460 1548
+type(
+  Libnames.qualid Util.located
+)
+type(
+  Libnames.reference
+)
+"plugins/subtac/g_subtac.ml4" 53 1460 1473 "plugins/subtac/g_subtac.ml4" 53 1460 1549
+call(
+  stack
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/g_subtac.ml4" 56 1564 1574 "plugins/subtac/g_subtac.ml4" 56 1564 1592
+type(
+  Vernacexpr.vernac_expr Util.located Gram.Entry.e
+)
+type(
+  Vernacexpr.vernac_expr Util.located Gram.Entry.e
+)
+ident(
+  ext_ref SubtacGram.subtac_gallina_loc
+)
+type(
+  Vernacexpr.vernac_expr Util.located Gram.Entry.e
+)
+"plugins/subtac/g_subtac.ml4" 56 1564 1593 "plugins/subtac/g_subtac.ml4" 56 1564 1613
+type(
+  (Names.name Util.located * bool * Topconstr.constr_expr) Pcoq.Gram.Entry.e
+)
+type(
+  (Names.name Util.located * bool * Topconstr.constr_expr) Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.Constr.typeclass_constraint
+)
+type(
+  (Names.name Util.located * bool * Topconstr.constr_expr) Pcoq.Gram.Entry.e
+)
+"plugins/subtac/g_subtac.ml4" 56 1564 1614 "plugins/subtac/g_subtac.ml4" 56 1564 1628
+type(
+  Tacexpr.raw_tactic_expr option Gram.Entry.e
+)
+type(
+  Tacexpr.raw_tactic_expr option Gram.Entry.e
+)
+ident(
+  ext_ref SubtacGram.subtac_withtac
+)
+type(
+  Tacexpr.raw_tactic_expr option Gram.Entry.e
+)
+"plugins/subtac/g_subtac.ml4" 58 1631 1633 "plugins/subtac/g_subtac.ml4" 58 1631 1651
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  string option * Gramext.g_assoc option *
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Vernacexpr.vernac_expr -> Util.loc -> Vernacexpr.vernac_expr Util.located
+)
+type(
+  Util.loc -> Vernacexpr.vernac_expr Util.located
+)
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/g_subtac.ml4" 58 1631 1633 "plugins/subtac/g_subtac.ml4" 58 1631 1651
+)
+type(
+  (Vernacexpr.vernac_expr -> Util.loc -> Vernacexpr.vernac_expr Util.located) ->
+  Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Vernacexpr.vernac_expr -> Util.loc -> Vernacexpr.vernac_expr Util.located
+)
+type(
+  Util.loc -> Vernacexpr.vernac_expr Util.located
+)
+type(
+  Util.loc
+)
+ident(
+  def loc "plugins/subtac/g_subtac.ml4" 58 1631 1633 "plugins/subtac/g_subtac.ml4" 58 1631 1651
+)
+type(
+  (Vernacexpr.vernac_expr -> Util.loc -> Vernacexpr.vernac_expr Util.located) ->
+  Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Gramext.g_assoc option
+)
+type(
+  string option
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  Gramext.position option
+)
+type(
+  Vernacexpr.vernac_expr Util.located Gram.Entry.e
+)
+type(
+  Vernacexpr.vernac_expr Util.located Gram.Entry.e
+)
+ident(
+  ext_ref SubtacGram.subtac_gallina_loc
+)
+"plugins/subtac/g_subtac.ml4" 59 1653 1665 "plugins/subtac/g_subtac.ml4" 59 1653 1679
+type(
+  Pcoq.Gram.te Gramext.g_entry
+)
+type(
+  Vernacexpr.vernac_expr Pcoq.Gram.Entry.e
+)
+type(
+  Vernacexpr.vernac_expr Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Vernac.gallina
+)
+type(
+  Vernacexpr.vernac_expr Pcoq.Gram.Entry.e -> Pcoq.Gram.te Gramext.g_entry
+)
+ident(
+  ext_ref Pcoq.Gram.Entry.obj
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol
+)
+"plugins/subtac/g_subtac.ml4" 59 1653 1661 "plugins/subtac/g_subtac.ml4" 59 1653 1679
+type(
+  Vernacexpr.vernac_expr
+)
+ident(
+  def g "plugins/subtac/g_subtac.ml4" 58 1631 1633 "plugins/subtac/g_subtac.ml4" 58 1631 1651
+)
+"plugins/subtac/g_subtac.ml4" 59 1653 1683 "plugins/subtac/g_subtac.ml4" 59 1653 1686
+type(
+  Util.loc
+)
+ident(
+  int_ref loc "plugins/subtac/g_subtac.ml4" 58 1631 1633 "plugins/subtac/g_subtac.ml4" 58 1631 1651
+)
+"plugins/subtac/g_subtac.ml4" 59 1653 1688 "plugins/subtac/g_subtac.ml4" 59 1653 1689
+type(
+  Vernacexpr.vernac_expr
+)
+ident(
+  int_ref g "plugins/subtac/g_subtac.ml4" 59 1653 1661 "plugins/subtac/g_subtac.ml4" 59 1653 1679
+)
+"plugins/subtac/g_subtac.ml4" 59 1653 1683 "plugins/subtac/g_subtac.ml4" 59 1653 1689
+type(
+  Vernacexpr.vernac_expr Util.located
+)
+type(
+  Vernacexpr.vernac_expr Util.located
+)
+"plugins/subtac/g_subtac.ml4" 60 1690 1700 "plugins/subtac/g_subtac.ml4" 60 1690 1718
+type(
+  Pcoq.Gram.te Gramext.g_entry
+)
+type(
+  Vernacexpr.vernac_expr Pcoq.Gram.Entry.e
+)
+type(
+  Vernacexpr.vernac_expr Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Vernac.gallina_ext
+)
+type(
+  Vernacexpr.vernac_expr Pcoq.Gram.Entry.e -> Pcoq.Gram.te Gramext.g_entry
+)
+ident(
+  ext_ref Pcoq.Gram.Entry.obj
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol
+)
+"plugins/subtac/g_subtac.ml4" 60 1690 1696 "plugins/subtac/g_subtac.ml4" 60 1690 1718
+type(
+  Vernacexpr.vernac_expr
+)
+ident(
+  def g "plugins/subtac/g_subtac.ml4" 58 1631 1633 "plugins/subtac/g_subtac.ml4" 58 1631 1651
+)
+"plugins/subtac/g_subtac.ml4" 60 1690 1722 "plugins/subtac/g_subtac.ml4" 60 1690 1725
+type(
+  Util.loc
+)
+ident(
+  int_ref loc "plugins/subtac/g_subtac.ml4" 58 1631 1633 "plugins/subtac/g_subtac.ml4" 58 1631 1651
+)
+"plugins/subtac/g_subtac.ml4" 60 1690 1727 "plugins/subtac/g_subtac.ml4" 60 1690 1728
+type(
+  Vernacexpr.vernac_expr
+)
+ident(
+  int_ref g "plugins/subtac/g_subtac.ml4" 60 1690 1696 "plugins/subtac/g_subtac.ml4" 60 1690 1718
+)
+"plugins/subtac/g_subtac.ml4" 60 1690 1722 "plugins/subtac/g_subtac.ml4" 60 1690 1728
+type(
+  Vernacexpr.vernac_expr Util.located
+)
+type(
+  Vernacexpr.vernac_expr Util.located
+)
+"plugins/subtac/g_subtac.ml4" 63 1740 1742 "plugins/subtac/g_subtac.ml4" 63 1740 1756
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  string option * Gramext.g_assoc option *
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Tacexpr.raw_tactic_expr -> '_a -> Ploc.t -> Tacexpr.raw_tactic_expr option
+)
+type(
+  '_a -> Ploc.t -> Tacexpr.raw_tactic_expr option
+)
+type(
+  Ploc.t -> Tacexpr.raw_tactic_expr option
+)
+type(
+  Ploc.t
+)
+ident(
+  def loc "plugins/subtac/g_subtac.ml4" 63 1740 1742 "plugins/subtac/g_subtac.ml4" 63 1740 1756
+)
+type(
+  '_a
+)
+type(
+  (Tacexpr.raw_tactic_expr -> '_a -> Ploc.t -> Tacexpr.raw_tactic_expr option) ->
+  Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Ploc.t -> Tacexpr.raw_tactic_expr option
+)
+type(
+  Ploc.t
+)
+ident(
+  def loc "plugins/subtac/g_subtac.ml4" 63 1740 1742 "plugins/subtac/g_subtac.ml4" 63 1740 1756
+)
+type(
+  (Ploc.t -> Tacexpr.raw_tactic_expr option) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Gramext.g_assoc option
+)
+type(
+  string option
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  Gramext.position option
+)
+type(
+  Tacexpr.raw_tactic_expr option Gram.Entry.e
+)
+type(
+  Tacexpr.raw_tactic_expr option Gram.Entry.e
+)
+ident(
+  ext_ref SubtacGram.subtac_withtac
+)
+"plugins/subtac/g_subtac.ml4" 64 1758 1766 "plugins/subtac/g_subtac.ml4" 64 1758 1772
+type(
+  Plexing.pattern
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol
+)
+"plugins/subtac/g_subtac.ml4" 64 1758 1778 "plugins/subtac/g_subtac.ml4" 64 1758 1791
+type(
+  Pcoq.Gram.te Gramext.g_entry
+)
+type(
+  Tacexpr.raw_tactic_expr Pcoq.Gram.Entry.e
+)
+type(
+  Tacexpr.raw_tactic_expr Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.Tactic.tactic
+)
+type(
+  Tacexpr.raw_tactic_expr Pcoq.Gram.Entry.e -> Pcoq.Gram.te Gramext.g_entry
+)
+ident(
+  ext_ref Pcoq.Gram.Entry.obj
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol
+)
+"plugins/subtac/g_subtac.ml4" 64 1758 1774 "plugins/subtac/g_subtac.ml4" 64 1758 1791
+type(
+  Tacexpr.raw_tactic_expr
+)
+ident(
+  def t "plugins/subtac/g_subtac.ml4" 63 1740 1742 "plugins/subtac/g_subtac.ml4" 63 1740 1756
+)
+"plugins/subtac/g_subtac.ml4" 64 1758 1800 "plugins/subtac/g_subtac.ml4" 64 1758 1801
+type(
+  Tacexpr.raw_tactic_expr
+)
+ident(
+  int_ref t "plugins/subtac/g_subtac.ml4" 64 1758 1774 "plugins/subtac/g_subtac.ml4" 64 1758 1791
+)
+"plugins/subtac/g_subtac.ml4" 64 1758 1795 "plugins/subtac/g_subtac.ml4" 64 1758 1801
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+"plugins/subtac/g_subtac.ml4" 65 1802 1813 "plugins/subtac/g_subtac.ml4" 65 1802 1817
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+"plugins/subtac/g_subtac.ml4" 68 1827 1829 "plugins/subtac/g_subtac.ml4" 68 1827 1849
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  string option * Gramext.g_assoc option *
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_b ->
+  Topconstr.constr_expr ->
+  '_c ->
+  Topconstr.constr_expr ->
+  '_d ->
+  Names.name Util.located -> '_e -> Ploc.t -> Topconstr.local_binder list
+)
+type(
+  Topconstr.constr_expr ->
+  '_c ->
+  Topconstr.constr_expr ->
+  '_d ->
+  Names.name Util.located -> '_e -> Ploc.t -> Topconstr.local_binder list
+)
+type(
+  '_c ->
+  Topconstr.constr_expr ->
+  '_d ->
+  Names.name Util.located -> '_e -> Ploc.t -> Topconstr.local_binder list
+)
+type(
+  Topconstr.constr_expr ->
+  '_d ->
+  Names.name Util.located -> '_e -> Ploc.t -> Topconstr.local_binder list
+)
+type(
+  '_d ->
+  Names.name Util.located -> '_e -> Ploc.t -> Topconstr.local_binder list
+)
+type(
+  Names.name Util.located -> '_e -> Ploc.t -> Topconstr.local_binder list
+)
+type(
+  '_e -> Ploc.t -> Topconstr.local_binder list
+)
+type(
+  Ploc.t -> Topconstr.local_binder list
+)
+type(
+  Ploc.t
+)
+ident(
+  def loc "plugins/subtac/g_subtac.ml4" 68 1827 1829 "plugins/subtac/g_subtac.ml4" 68 1827 1849
+)
+type(
+  '_e
+)
+type(
+  '_d
+)
+type(
+  '_c
+)
+type(
+  '_b
+)
+type(
+  ('_b ->
+   Topconstr.constr_expr ->
+   '_c ->
+   Topconstr.constr_expr ->
+   '_d ->
+   Names.name Util.located -> '_e -> Ploc.t -> Topconstr.local_binder list) ->
+  Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list
+)
+type(
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Gramext.g_assoc option
+)
+type(
+  string option
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  Gramext.position option
+)
+type(
+  Topconstr.local_binder list Pcoq.Gram.Entry.e
+)
+type(
+  Topconstr.local_binder list Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.Constr.closed_binder
+)
+"plugins/subtac/g_subtac.ml4" 69 1851 1858 "plugins/subtac/g_subtac.ml4" 69 1851 1861
+type(
+  Plexing.pattern
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol
+)
+"plugins/subtac/g_subtac.ml4" 69 1851 1866 "plugins/subtac/g_subtac.ml4" 69 1851 1875
+type(
+  Pcoq.Gram.te Gramext.g_entry
+)
+type(
+  Names.name Util.located Pcoq.Gram.Entry.e
+)
+type(
+  Names.name Util.located Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.Prim.name
+)
+type(
+  Names.name Util.located Pcoq.Gram.Entry.e -> Pcoq.Gram.te Gramext.g_entry
+)
+ident(
+  ext_ref Pcoq.Gram.Entry.obj
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol
+)
+"plugins/subtac/g_subtac.ml4" 69 1851 1863 "plugins/subtac/g_subtac.ml4" 69 1851 1875
+type(
+  Names.name Util.located
+)
+ident(
+  def id "plugins/subtac/g_subtac.ml4" 68 1827 1829 "plugins/subtac/g_subtac.ml4" 68 1827 1849
+)
+"plugins/subtac/g_subtac.ml4" 69 1851 1877 "plugins/subtac/g_subtac.ml4" 69 1851 1880
+type(
+  Plexing.pattern
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol
+)
+"plugins/subtac/g_subtac.ml4" 69 1851 1884 "plugins/subtac/g_subtac.ml4" 69 1851 1898
+type(
+  Pcoq.Gram.te Gramext.g_entry
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.Constr.lconstr
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e -> Pcoq.Gram.te Gramext.g_entry
+)
+ident(
+  ext_ref Pcoq.Gram.Entry.obj
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol
+)
+"plugins/subtac/g_subtac.ml4" 69 1851 1882 "plugins/subtac/g_subtac.ml4" 69 1851 1898
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def t "plugins/subtac/g_subtac.ml4" 68 1827 1829 "plugins/subtac/g_subtac.ml4" 68 1827 1849
+)
+"plugins/subtac/g_subtac.ml4" 69 1851 1900 "plugins/subtac/g_subtac.ml4" 69 1851 1903
+type(
+  Plexing.pattern
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol
+)
+"plugins/subtac/g_subtac.ml4" 69 1851 1907 "plugins/subtac/g_subtac.ml4" 69 1851 1921
+type(
+  Pcoq.Gram.te Gramext.g_entry
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.Constr.lconstr
+)
+type(
+  Topconstr.constr_expr Pcoq.Gram.Entry.e -> Pcoq.Gram.te Gramext.g_entry
+)
+ident(
+  ext_ref Pcoq.Gram.Entry.obj
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol
+)
+"plugins/subtac/g_subtac.ml4" 69 1851 1905 "plugins/subtac/g_subtac.ml4" 69 1851 1921
+type(
+  Topconstr.constr_expr
+)
+ident(
+  def c "plugins/subtac/g_subtac.ml4" 68 1827 1829 "plugins/subtac/g_subtac.ml4" 68 1827 1849
+)
+"plugins/subtac/g_subtac.ml4" 69 1851 1923 "plugins/subtac/g_subtac.ml4" 69 1851 1926
+type(
+  Plexing.pattern
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1937 "plugins/subtac/g_subtac.ml4" 70 1930 1940
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1943 "plugins/subtac/g_subtac.ml4" 70 1930 1949
+type(
+  Topconstr.constr_expr * Topconstr.constr_expr list -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Topconstr.mkAppC
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1951 "plugins/subtac/g_subtac.ml4" 70 1930 1957
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref sigref "plugins/subtac/g_subtac.ml4" 53 1460 1464 "plugins/subtac/g_subtac.ml4" 53 1460 1470
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1960 "plugins/subtac/g_subtac.ml4" 70 1930 1969
+type(
+  Names.name Util.located list * Topconstr.binder_kind *
+  Topconstr.constr_expr * Topconstr.constr_expr -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Topconstr.mkLambdaC
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1972 "plugins/subtac/g_subtac.ml4" 70 1930 1974
+type(
+  Names.name Util.located
+)
+ident(
+  int_ref id "plugins/subtac/g_subtac.ml4" 69 1851 1863 "plugins/subtac/g_subtac.ml4" 69 1851 1875
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1971 "plugins/subtac/g_subtac.ml4" 70 1930 1975
+type(
+  Names.name Util.located list
+)
+type(
+  Names.name Util.located list
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1977 "plugins/subtac/g_subtac.ml4" 70 1930 1996
+type(
+  Topconstr.binder_kind
+)
+ident(
+  ext_ref Topconstr.default_binder_kind
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1998 "plugins/subtac/g_subtac.ml4" 70 1930 1999
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/subtac/g_subtac.ml4" 69 1851 1882 "plugins/subtac/g_subtac.ml4" 69 1851 1898
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 2001 "plugins/subtac/g_subtac.ml4" 70 1930 2002
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref c "plugins/subtac/g_subtac.ml4" 69 1851 1905 "plugins/subtac/g_subtac.ml4" 69 1851 1921
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1971 "plugins/subtac/g_subtac.ml4" 70 1930 2002
+type(
+  Names.name Util.located list * Topconstr.binder_kind *
+  Topconstr.constr_expr * Topconstr.constr_expr
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1960 "plugins/subtac/g_subtac.ml4" 70 1930 2003
+call(
+  stack
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1959 "plugins/subtac/g_subtac.ml4" 70 1930 2004
+type(
+  Topconstr.constr_expr list
+)
+type(
+  Topconstr.constr_expr list
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1951 "plugins/subtac/g_subtac.ml4" 70 1930 2004
+type(
+  Topconstr.constr_expr * Topconstr.constr_expr list
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1943 "plugins/subtac/g_subtac.ml4" 70 1930 2005
+call(
+  stack
+)
+type(
+  Topconstr.constr_expr
+)
+"plugins/subtac/g_subtac.ml4" 71 2009 2036 "plugins/subtac/g_subtac.ml4" 71 2009 2038
+type(
+  Names.name Util.located
+)
+ident(
+  int_ref id "plugins/subtac/g_subtac.ml4" 69 1851 1863 "plugins/subtac/g_subtac.ml4" 69 1851 1875
+)
+"plugins/subtac/g_subtac.ml4" 71 2009 2035 "plugins/subtac/g_subtac.ml4" 71 2009 2039
+type(
+  Names.name Util.located list
+)
+type(
+  Names.name Util.located list
+)
+"plugins/subtac/g_subtac.ml4" 71 2009 2041 "plugins/subtac/g_subtac.ml4" 71 2009 2060
+type(
+  Topconstr.binder_kind
+)
+ident(
+  ext_ref Topconstr.default_binder_kind
+)
+"plugins/subtac/g_subtac.ml4" 71 2009 2062 "plugins/subtac/g_subtac.ml4" 71 2009 2065
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref typ "plugins/subtac/g_subtac.ml4" 70 1930 1937 "plugins/subtac/g_subtac.ml4" 70 1930 1940
+)
+"plugins/subtac/g_subtac.ml4" 71 2009 2020 "plugins/subtac/g_subtac.ml4" 71 2009 2066
+type(
+  Topconstr.local_binder
+)
+"plugins/subtac/g_subtac.ml4" 71 2009 2019 "plugins/subtac/g_subtac.ml4" 71 2009 2067
+type(
+  Topconstr.local_binder list
+)
+type(
+  Topconstr.local_binder list
+)
+"plugins/subtac/g_subtac.ml4" 70 1930 1933 "plugins/subtac/g_subtac.ml4" 70 1930 2067
+type(
+  Topconstr.local_binder list
+)
+type(
+  Topconstr.local_binder list
+)
+"plugins/subtac/g_subtac.ml4" 55 1551 1559 "plugins/subtac/g_subtac.ml4" 55 1551 2076
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Topconstr.local_binder list Pcoq.Gram.Entry.e ->
+  Gramext.position option ->
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list -> unit
+)
+ident(
+  ext_ref Pcoq.Gram.extend
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr option Gram.Entry.e ->
+  Gramext.position option ->
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list -> unit
+)
+ident(
+  ext_ref Pcoq.Gram.extend
+)
+type(
+  unit
+)
+type(
+  Vernacexpr.vernac_expr Util.located Gram.Entry.e ->
+  Gramext.position option ->
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list -> unit
+)
+ident(
+  ext_ref Pcoq.Gram.extend
+)
+"plugins/subtac/g_subtac.ml4" 79 2184 2189 "plugins/subtac/g_subtac.ml4" 79 2184 2211
+type(
+  Genarg.tlevel gallina_loc_argtype
+)
+ident(
+  def wit_subtac_gallina_loc "plugins/subtac/g_subtac.ml4" 84 2428 2428 --
+)
+"plugins/subtac/g_subtac.ml4" 80 2250 2253 "plugins/subtac/g_subtac.ml4" 80 2250 2279
+type(
+  Genarg.glevel gallina_loc_argtype
+)
+ident(
+  def globwit_subtac_gallina_loc "plugins/subtac/g_subtac.ml4" 84 2428 2428 --
+)
+"plugins/subtac/g_subtac.ml4" 81 2318 2321 "plugins/subtac/g_subtac.ml4" 81 2318 2346
+type(
+  Genarg.rlevel gallina_loc_argtype
+)
+ident(
+  def rawwit_subtac_gallina_loc "plugins/subtac/g_subtac.ml4" 84 2428 2428 --
+)
+"plugins/subtac/g_subtac.ml4" 79 2184 2188 "plugins/subtac/g_subtac.ml4" 79 2184 2383
+type(
+  Genarg.tlevel gallina_loc_argtype * Genarg.glevel gallina_loc_argtype *
+  Genarg.rlevel gallina_loc_argtype
+)
+"plugins/subtac/g_subtac.ml4" 82 2386 2388 "plugins/subtac/g_subtac.ml4" 82 2386 2405
+type(
+  string ->
+  Genarg.tlevel gallina_loc_argtype * Genarg.glevel gallina_loc_argtype *
+  Genarg.rlevel gallina_loc_argtype
+)
+ident(
+  ext_ref Genarg.create_arg
+)
+"plugins/subtac/g_subtac.ml4" 82 2386 2406 "plugins/subtac/g_subtac.ml4" 82 2386 2426
+type(
+  string
+)
+"plugins/subtac/g_subtac.ml4" 82 2386 2388 "plugins/subtac/g_subtac.ml4" 82 2386 2426
+call(
+  stack
+)
+type(
+  Genarg.tlevel gallina_loc_argtype * Genarg.glevel gallina_loc_argtype *
+  Genarg.rlevel gallina_loc_argtype
+)
+"plugins/subtac/g_subtac.ml4" 86 2522 2527 "plugins/subtac/g_subtac.ml4" 86 2522 2545
+type(
+  Genarg.tlevel withtac_argtype
+)
+ident(
+  def wit_subtac_withtac "plugins/subtac/g_subtac.ml4" 91 2738 2738 --
+)
+"plugins/subtac/g_subtac.ml4" 87 2580 2583 "plugins/subtac/g_subtac.ml4" 87 2580 2605
+type(
+  Genarg.glevel withtac_argtype
+)
+ident(
+  def globwit_subtac_withtac "plugins/subtac/g_subtac.ml4" 91 2738 2738 --
+)
+"plugins/subtac/g_subtac.ml4" 88 2640 2643 "plugins/subtac/g_subtac.ml4" 88 2640 2664
+type(
+  Genarg.rlevel withtac_argtype
+)
+ident(
+  def rawwit_subtac_withtac "plugins/subtac/g_subtac.ml4" 91 2738 2738 --
+)
+"plugins/subtac/g_subtac.ml4" 86 2522 2526 "plugins/subtac/g_subtac.ml4" 86 2522 2697
+type(
+  Genarg.tlevel withtac_argtype * Genarg.glevel withtac_argtype *
+  Genarg.rlevel withtac_argtype
+)
+"plugins/subtac/g_subtac.ml4" 89 2700 2702 "plugins/subtac/g_subtac.ml4" 89 2700 2719
+type(
+  string ->
+  Genarg.tlevel withtac_argtype * Genarg.glevel withtac_argtype *
+  Genarg.rlevel withtac_argtype
+)
+ident(
+  ext_ref Genarg.create_arg
+)
+"plugins/subtac/g_subtac.ml4" 89 2700 2720 "plugins/subtac/g_subtac.ml4" 89 2700 2736
+type(
+  string
+)
+"plugins/subtac/g_subtac.ml4" 89 2700 2702 "plugins/subtac/g_subtac.ml4" 89 2700 2736
+call(
+  stack
+)
+type(
+  Genarg.tlevel withtac_argtype * Genarg.glevel withtac_argtype *
+  Genarg.rlevel withtac_argtype
+)
+"plugins/subtac/g_subtac.ml4" 92 2767 2779 "plugins/subtac/g_subtac.ml4" 92 2767 2800
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 92 2767 2808 "plugins/subtac/g_subtac.ml4" 92 2767 2821
+type(
+  Vernacexpr.vernac_expr Util.located -> unit
+)
+ident(
+  ext_ref Subtac.subtac
+)
+"plugins/subtac/g_subtac.ml4" 92 2767 2822 "plugins/subtac/g_subtac.ml4" 92 2767 2823
+type(
+  Vernacexpr.vernac_expr Util.located
+)
+ident(
+  int_ref g "plugins/subtac/g_subtac.ml4" 92 2767 2767 "plugins/subtac/g_subtac.ml4" 92 2767 2825
+)
+"plugins/subtac/g_subtac.ml4" 92 2767 2808 "plugins/subtac/g_subtac.ml4" 92 2767 2823
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 92 2767 2767 "plugins/subtac/g_subtac.ml4" 92 2767 2825
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Vernacexpr.vernac_expr Util.located
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref g "" -1 0 0 "" -1 0 0
+)
+type(
+  Genarg.rlevel gallina_loc_argtype
+)
+ident(
+  int_ref rawwit_subtac_gallina_loc "plugins/subtac/g_subtac.ml4" 81 2318 2321 "plugins/subtac/g_subtac.ml4" 81 2318 2346
+)
+type(
+  Genarg.rlevel gallina_loc_argtype ->
+  Tacexpr.raw_generic_argument -> Vernacexpr.vernac_expr Util.located
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Vernacexpr.vernac_expr Util.located
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref g "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 91 2738 2738 "plugins/subtac/g_subtac.ml4" 91 2738 2831
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 91 2738 2738 "plugins/subtac/g_subtac.ml4" 91 2738 2831
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 91 2738 2738 "plugins/subtac/g_subtac.ml4" 91 2738 2831
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/subtac/g_subtac.ml4" 95 2833 2837 "plugins/subtac/g_subtac.ml4" 95 2833 2850
+type(
+  ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def try_catch_exn "plugins/subtac/g_subtac.ml4" 99 2931 2931 --
+)
+"plugins/subtac/g_subtac.ml4" 95 2833 2851 "plugins/subtac/g_subtac.ml4" 95 2833 2852
+type(
+  'a -> 'b
+)
+ident(
+  def f "plugins/subtac/g_subtac.ml4" 95 2833 2853 "plugins/subtac/g_subtac.ml4" 95 2833 2929
+)
+"plugins/subtac/g_subtac.ml4" 95 2833 2853 "plugins/subtac/g_subtac.ml4" 95 2833 2854
+type(
+  'a
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 96 2857 2859 "plugins/subtac/g_subtac.ml4" 96 2857 2929
+)
+"plugins/subtac/g_subtac.ml4" 96 2857 2863 "plugins/subtac/g_subtac.ml4" 96 2857 2864
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "plugins/subtac/g_subtac.ml4" 95 2833 2851 "plugins/subtac/g_subtac.ml4" 95 2833 2852
+)
+"plugins/subtac/g_subtac.ml4" 96 2857 2865 "plugins/subtac/g_subtac.ml4" 96 2857 2866
+type(
+  'a
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 95 2833 2853 "plugins/subtac/g_subtac.ml4" 95 2833 2854
+)
+"plugins/subtac/g_subtac.ml4" 96 2857 2863 "plugins/subtac/g_subtac.ml4" 96 2857 2866
+call(
+  stack
+)
+type(
+  'b
+)
+"plugins/subtac/g_subtac.ml4" 97 2867 2874 "plugins/subtac/g_subtac.ml4" 97 2867 2877
+type(
+  exn
+)
+ident(
+  def exn "plugins/subtac/g_subtac.ml4" 97 2867 2881 "plugins/subtac/g_subtac.ml4" 97 2867 2929
+)
+"plugins/subtac/g_subtac.ml4" 97 2867 2881 "plugins/subtac/g_subtac.ml4" 97 2867 2893
+type(
+  string -> Pp.std_ppcmds -> 'b
+)
+ident(
+  ext_ref Util.errorlabstrm
+)
+"plugins/subtac/g_subtac.ml4" 97 2867 2894 "plugins/subtac/g_subtac.ml4" 97 2867 2903
+type(
+  string
+)
+"plugins/subtac/g_subtac.ml4" 97 2867 2905 "plugins/subtac/g_subtac.ml4" 97 2867 2924
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+"plugins/subtac/g_subtac.ml4" 97 2867 2925 "plugins/subtac/g_subtac.ml4" 97 2867 2928
+type(
+  exn
+)
+ident(
+  int_ref exn "plugins/subtac/g_subtac.ml4" 97 2867 2874 "plugins/subtac/g_subtac.ml4" 97 2867 2877
+)
+"plugins/subtac/g_subtac.ml4" 97 2867 2905 "plugins/subtac/g_subtac.ml4" 97 2867 2928
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/g_subtac.ml4" 97 2867 2881 "plugins/subtac/g_subtac.ml4" 97 2867 2929
+call(
+  tail
+)
+type(
+  'b
+)
+"plugins/subtac/g_subtac.ml4" 96 2857 2859 "plugins/subtac/g_subtac.ml4" 96 2857 2929
+type(
+  'b
+)
+"plugins/subtac/g_subtac.ml4" 95 2833 2853 "plugins/subtac/g_subtac.ml4" 95 2833 2929
+type(
+  'a -> 'b
+)
+"plugins/subtac/g_subtac.ml4" 95 2833 2851 "plugins/subtac/g_subtac.ml4" 95 2833 2929
+type(
+  ('a -> 'b) -> 'a -> 'b
+)
+"plugins/subtac/g_subtac.ml4" 99 2931 2935 "plugins/subtac/g_subtac.ml4" 99 2931 2952
+type(
+  int * Names.identifier option * Topconstr.constr_expr option ->
+  Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  def subtac_obligation "plugins/subtac/g_subtac.ml4" 100 3010 3010 --
+)
+"plugins/subtac/g_subtac.ml4" 99 2931 2953 "plugins/subtac/g_subtac.ml4" 99 2931 2954
+type(
+  int * Names.identifier option * Topconstr.constr_expr option
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 99 2931 2957 "plugins/subtac/g_subtac.ml4" 99 2931 3009
+)
+"plugins/subtac/g_subtac.ml4" 99 2931 2957 "plugins/subtac/g_subtac.ml4" 99 2931 2970
+type(
+  (int * Names.identifier option * Topconstr.constr_expr option ->
+   Tacexpr.raw_tactic_expr option -> unit) ->
+  int * Names.identifier option * Topconstr.constr_expr option ->
+  Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  int_ref try_catch_exn "plugins/subtac/g_subtac.ml4" 95 2833 2837 "plugins/subtac/g_subtac.ml4" 95 2833 2850
+)
+"plugins/subtac/g_subtac.ml4" 99 2931 2971 "plugins/subtac/g_subtac.ml4" 99 2931 3007
+type(
+  int * Names.identifier option * Topconstr.constr_expr option ->
+  Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  ext_ref Subtac_obligations.subtac_obligation
+)
+"plugins/subtac/g_subtac.ml4" 99 2931 3008 "plugins/subtac/g_subtac.ml4" 99 2931 3009
+type(
+  int * Names.identifier option * Topconstr.constr_expr option
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 99 2931 2953 "plugins/subtac/g_subtac.ml4" 99 2931 2954
+)
+"plugins/subtac/g_subtac.ml4" 99 2931 2957 "plugins/subtac/g_subtac.ml4" 99 2931 3009
+call(
+  tail
+)
+type(
+  Tacexpr.raw_tactic_expr option -> unit
+)
+"plugins/subtac/g_subtac.ml4" 99 2931 2953 "plugins/subtac/g_subtac.ml4" 99 2931 3009
+type(
+  int * Names.identifier option * Topconstr.constr_expr option ->
+  Tacexpr.raw_tactic_expr option -> unit
+)
+"plugins/subtac/g_subtac.ml4" 100 3010 3014 "plugins/subtac/g_subtac.ml4" 100 3010 3029
+type(
+  Names.identifier option -> Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  def next_obligation "plugins/subtac/g_subtac.ml4" 101 3085 3085 --
+)
+"plugins/subtac/g_subtac.ml4" 100 3010 3030 "plugins/subtac/g_subtac.ml4" 100 3010 3031
+type(
+  Names.identifier option
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 100 3010 3034 "plugins/subtac/g_subtac.ml4" 100 3010 3084
+)
+"plugins/subtac/g_subtac.ml4" 100 3010 3034 "plugins/subtac/g_subtac.ml4" 100 3010 3047
+type(
+  (Names.identifier option -> Tacexpr.raw_tactic_expr option -> unit) ->
+  Names.identifier option -> Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  int_ref try_catch_exn "plugins/subtac/g_subtac.ml4" 95 2833 2837 "plugins/subtac/g_subtac.ml4" 95 2833 2850
+)
+"plugins/subtac/g_subtac.ml4" 100 3010 3048 "plugins/subtac/g_subtac.ml4" 100 3010 3082
+type(
+  Names.identifier option -> Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  ext_ref Subtac_obligations.next_obligation
+)
+"plugins/subtac/g_subtac.ml4" 100 3010 3083 "plugins/subtac/g_subtac.ml4" 100 3010 3084
+type(
+  Names.identifier option
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 100 3010 3030 "plugins/subtac/g_subtac.ml4" 100 3010 3031
+)
+"plugins/subtac/g_subtac.ml4" 100 3010 3034 "plugins/subtac/g_subtac.ml4" 100 3010 3084
+call(
+  tail
+)
+type(
+  Tacexpr.raw_tactic_expr option -> unit
+)
+"plugins/subtac/g_subtac.ml4" 100 3010 3030 "plugins/subtac/g_subtac.ml4" 100 3010 3084
+type(
+  Names.identifier option -> Tacexpr.raw_tactic_expr option -> unit
+)
+"plugins/subtac/g_subtac.ml4" 101 3085 3089 "plugins/subtac/g_subtac.ml4" 101 3085 3109
+type(
+  int -> Names.identifier option -> Proof_type.tactic option -> unit
+)
+ident(
+  def try_solve_obligation "plugins/subtac/g_subtac.ml4" 102 3170 3170 --
+)
+"plugins/subtac/g_subtac.ml4" 101 3085 3110 "plugins/subtac/g_subtac.ml4" 101 3085 3111
+type(
+  int
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 101 3085 3114 "plugins/subtac/g_subtac.ml4" 101 3085 3169
+)
+"plugins/subtac/g_subtac.ml4" 101 3085 3114 "plugins/subtac/g_subtac.ml4" 101 3085 3127
+type(
+  (int -> Names.identifier option -> Proof_type.tactic option -> unit) ->
+  int -> Names.identifier option -> Proof_type.tactic option -> unit
+)
+ident(
+  int_ref try_catch_exn "plugins/subtac/g_subtac.ml4" 95 2833 2837 "plugins/subtac/g_subtac.ml4" 95 2833 2850
+)
+"plugins/subtac/g_subtac.ml4" 101 3085 3128 "plugins/subtac/g_subtac.ml4" 101 3085 3167
+type(
+  int -> Names.identifier option -> Proof_type.tactic option -> unit
+)
+ident(
+  ext_ref Subtac_obligations.try_solve_obligation
+)
+"plugins/subtac/g_subtac.ml4" 101 3085 3168 "plugins/subtac/g_subtac.ml4" 101 3085 3169
+type(
+  int
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 101 3085 3110 "plugins/subtac/g_subtac.ml4" 101 3085 3111
+)
+"plugins/subtac/g_subtac.ml4" 101 3085 3114 "plugins/subtac/g_subtac.ml4" 101 3085 3169
+call(
+  tail
+)
+type(
+  Names.identifier option -> Proof_type.tactic option -> unit
+)
+"plugins/subtac/g_subtac.ml4" 101 3085 3110 "plugins/subtac/g_subtac.ml4" 101 3085 3169
+type(
+  int -> Names.identifier option -> Proof_type.tactic option -> unit
+)
+"plugins/subtac/g_subtac.ml4" 102 3170 3174 "plugins/subtac/g_subtac.ml4" 102 3170 3195
+type(
+  Names.identifier option -> Proof_type.tactic option -> unit
+)
+ident(
+  def try_solve_obligations "plugins/subtac/g_subtac.ml4" 103 3257 3257 --
+)
+"plugins/subtac/g_subtac.ml4" 102 3170 3196 "plugins/subtac/g_subtac.ml4" 102 3170 3197
+type(
+  Names.identifier option
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 102 3170 3200 "plugins/subtac/g_subtac.ml4" 102 3170 3256
+)
+"plugins/subtac/g_subtac.ml4" 102 3170 3200 "plugins/subtac/g_subtac.ml4" 102 3170 3213
+type(
+  (Names.identifier option -> Proof_type.tactic option -> unit) ->
+  Names.identifier option -> Proof_type.tactic option -> unit
+)
+ident(
+  int_ref try_catch_exn "plugins/subtac/g_subtac.ml4" 95 2833 2837 "plugins/subtac/g_subtac.ml4" 95 2833 2850
+)
+"plugins/subtac/g_subtac.ml4" 102 3170 3214 "plugins/subtac/g_subtac.ml4" 102 3170 3254
+type(
+  Names.identifier option -> Proof_type.tactic option -> unit
+)
+ident(
+  ext_ref Subtac_obligations.try_solve_obligations
+)
+"plugins/subtac/g_subtac.ml4" 102 3170 3255 "plugins/subtac/g_subtac.ml4" 102 3170 3256
+type(
+  Names.identifier option
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 102 3170 3196 "plugins/subtac/g_subtac.ml4" 102 3170 3197
+)
+"plugins/subtac/g_subtac.ml4" 102 3170 3200 "plugins/subtac/g_subtac.ml4" 102 3170 3256
+call(
+  tail
+)
+type(
+  Proof_type.tactic option -> unit
+)
+"plugins/subtac/g_subtac.ml4" 102 3170 3196 "plugins/subtac/g_subtac.ml4" 102 3170 3256
+type(
+  Names.identifier option -> Proof_type.tactic option -> unit
+)
+"plugins/subtac/g_subtac.ml4" 103 3257 3261 "plugins/subtac/g_subtac.ml4" 103 3257 3282
+type(
+  Proof_type.tactic option -> unit
+)
+ident(
+  def solve_all_obligations "plugins/subtac/g_subtac.ml4" 104 3344 3344 --
+)
+"plugins/subtac/g_subtac.ml4" 103 3257 3283 "plugins/subtac/g_subtac.ml4" 103 3257 3284
+type(
+  Proof_type.tactic option
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 103 3257 3287 "plugins/subtac/g_subtac.ml4" 103 3257 3343
+)
+"plugins/subtac/g_subtac.ml4" 103 3257 3287 "plugins/subtac/g_subtac.ml4" 103 3257 3300
+type(
+  (Proof_type.tactic option -> unit) -> Proof_type.tactic option -> unit
+)
+ident(
+  int_ref try_catch_exn "plugins/subtac/g_subtac.ml4" 95 2833 2837 "plugins/subtac/g_subtac.ml4" 95 2833 2850
+)
+"plugins/subtac/g_subtac.ml4" 103 3257 3301 "plugins/subtac/g_subtac.ml4" 103 3257 3341
+type(
+  Proof_type.tactic option -> unit
+)
+ident(
+  ext_ref Subtac_obligations.solve_all_obligations
+)
+"plugins/subtac/g_subtac.ml4" 103 3257 3342 "plugins/subtac/g_subtac.ml4" 103 3257 3343
+type(
+  Proof_type.tactic option
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 103 3257 3283 "plugins/subtac/g_subtac.ml4" 103 3257 3284
+)
+"plugins/subtac/g_subtac.ml4" 103 3257 3287 "plugins/subtac/g_subtac.ml4" 103 3257 3343
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 103 3257 3283 "plugins/subtac/g_subtac.ml4" 103 3257 3343
+type(
+  Proof_type.tactic option -> unit
+)
+"plugins/subtac/g_subtac.ml4" 104 3344 3348 "plugins/subtac/g_subtac.ml4" 104 3344 3365
+type(
+  Names.identifier option -> unit
+)
+ident(
+  def admit_obligations "plugins/subtac/g_subtac.ml4" 106 3424 3424 --
+)
+"plugins/subtac/g_subtac.ml4" 104 3344 3366 "plugins/subtac/g_subtac.ml4" 104 3344 3367
+type(
+  Names.identifier option
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 104 3344 3370 "plugins/subtac/g_subtac.ml4" 104 3344 3422
+)
+"plugins/subtac/g_subtac.ml4" 104 3344 3370 "plugins/subtac/g_subtac.ml4" 104 3344 3383
+type(
+  (Names.identifier option -> unit) -> Names.identifier option -> unit
+)
+ident(
+  int_ref try_catch_exn "plugins/subtac/g_subtac.ml4" 95 2833 2837 "plugins/subtac/g_subtac.ml4" 95 2833 2850
+)
+"plugins/subtac/g_subtac.ml4" 104 3344 3384 "plugins/subtac/g_subtac.ml4" 104 3344 3420
+type(
+  Names.identifier option -> unit
+)
+ident(
+  ext_ref Subtac_obligations.admit_obligations
+)
+"plugins/subtac/g_subtac.ml4" 104 3344 3421 "plugins/subtac/g_subtac.ml4" 104 3344 3422
+type(
+  Names.identifier option
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 104 3344 3366 "plugins/subtac/g_subtac.ml4" 104 3344 3367
+)
+"plugins/subtac/g_subtac.ml4" 104 3344 3370 "plugins/subtac/g_subtac.ml4" 104 3344 3422
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 104 3344 3366 "plugins/subtac/g_subtac.ml4" 104 3344 3422
+type(
+  Names.identifier option -> unit
+)
+"plugins/subtac/g_subtac.ml4" 107 3465 3482 "plugins/subtac/g_subtac.ml4" 107 3465 3494
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 107 3465 3500 "plugins/subtac/g_subtac.ml4" 107 3465 3511
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 107 3465 3516 "plugins/subtac/g_subtac.ml4" 107 3465 3526
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 107 3465 3527 "plugins/subtac/g_subtac.ml4" 107 3465 3546
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 108 3553 3559 "plugins/subtac/g_subtac.ml4" 108 3553 3576
+type(
+  int * Names.identifier option * Topconstr.constr_expr option ->
+  Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  int_ref subtac_obligation "plugins/subtac/g_subtac.ml4" 99 2931 2935 "plugins/subtac/g_subtac.ml4" 99 2931 2952
+)
+"plugins/subtac/g_subtac.ml4" 108 3553 3578 "plugins/subtac/g_subtac.ml4" 108 3553 3581
+type(
+  int
+)
+ident(
+  int_ref num "plugins/subtac/g_subtac.ml4" 107 3465 3467 "plugins/subtac/g_subtac.ml4" 107 3465 3607
+)
+"plugins/subtac/g_subtac.ml4" 108 3553 3588 "plugins/subtac/g_subtac.ml4" 108 3553 3592
+type(
+  Names.identifier
+)
+ident(
+  int_ref name "plugins/subtac/g_subtac.ml4" 107 3465 3467 "plugins/subtac/g_subtac.ml4" 107 3465 3607
+)
+"plugins/subtac/g_subtac.ml4" 108 3553 3583 "plugins/subtac/g_subtac.ml4" 108 3553 3592
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 108 3553 3599 "plugins/subtac/g_subtac.ml4" 108 3553 3600
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/subtac/g_subtac.ml4" 107 3465 3467 "plugins/subtac/g_subtac.ml4" 107 3465 3607
+)
+"plugins/subtac/g_subtac.ml4" 108 3553 3594 "plugins/subtac/g_subtac.ml4" 108 3553 3600
+type(
+  Topconstr.constr_expr option
+)
+"plugins/subtac/g_subtac.ml4" 108 3553 3578 "plugins/subtac/g_subtac.ml4" 108 3553 3600
+type(
+  int * Names.identifier option * Topconstr.constr_expr option
+)
+"plugins/subtac/g_subtac.ml4" 108 3553 3602 "plugins/subtac/g_subtac.ml4" 108 3553 3605
+type(
+  Tacexpr.raw_tactic_expr option
+)
+ident(
+  int_ref tac "plugins/subtac/g_subtac.ml4" 107 3465 3467 "plugins/subtac/g_subtac.ml4" 107 3465 3607
+)
+"plugins/subtac/g_subtac.ml4" 108 3553 3559 "plugins/subtac/g_subtac.ml4" 108 3553 3605
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 107 3465 3467 "plugins/subtac/g_subtac.ml4" 107 3465 3607
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Genarg.rlevel withtac_argtype
+)
+ident(
+  int_ref rawwit_subtac_withtac "plugins/subtac/g_subtac.ml4" 88 2640 2643 "plugins/subtac/g_subtac.ml4" 88 2640 2664
+)
+type(
+  Genarg.rlevel withtac_argtype ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  int
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_int
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> int
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  int
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 109 3608 3625 "plugins/subtac/g_subtac.ml4" 109 3608 3637
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 109 3608 3643 "plugins/subtac/g_subtac.ml4" 109 3608 3654
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 109 3608 3655 "plugins/subtac/g_subtac.ml4" 109 3608 3674
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 110 3681 3687 "plugins/subtac/g_subtac.ml4" 110 3681 3704
+type(
+  int * Names.identifier option * Topconstr.constr_expr option ->
+  Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  int_ref subtac_obligation "plugins/subtac/g_subtac.ml4" 99 2931 2935 "plugins/subtac/g_subtac.ml4" 99 2931 2952
+)
+"plugins/subtac/g_subtac.ml4" 110 3681 3706 "plugins/subtac/g_subtac.ml4" 110 3681 3709
+type(
+  int
+)
+ident(
+  int_ref num "plugins/subtac/g_subtac.ml4" 109 3608 3610 "plugins/subtac/g_subtac.ml4" 109 3608 3733
+)
+"plugins/subtac/g_subtac.ml4" 110 3681 3716 "plugins/subtac/g_subtac.ml4" 110 3681 3720
+type(
+  Names.identifier
+)
+ident(
+  int_ref name "plugins/subtac/g_subtac.ml4" 109 3608 3610 "plugins/subtac/g_subtac.ml4" 109 3608 3733
+)
+"plugins/subtac/g_subtac.ml4" 110 3681 3711 "plugins/subtac/g_subtac.ml4" 110 3681 3720
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 110 3681 3722 "plugins/subtac/g_subtac.ml4" 110 3681 3726
+type(
+  Topconstr.constr_expr option
+)
+"plugins/subtac/g_subtac.ml4" 110 3681 3706 "plugins/subtac/g_subtac.ml4" 110 3681 3726
+type(
+  int * Names.identifier option * Topconstr.constr_expr option
+)
+"plugins/subtac/g_subtac.ml4" 110 3681 3728 "plugins/subtac/g_subtac.ml4" 110 3681 3731
+type(
+  Tacexpr.raw_tactic_expr option
+)
+ident(
+  int_ref tac "plugins/subtac/g_subtac.ml4" 109 3608 3610 "plugins/subtac/g_subtac.ml4" 109 3608 3733
+)
+"plugins/subtac/g_subtac.ml4" 110 3681 3687 "plugins/subtac/g_subtac.ml4" 110 3681 3731
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 109 3608 3610 "plugins/subtac/g_subtac.ml4" 109 3608 3733
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Genarg.rlevel withtac_argtype
+)
+ident(
+  int_ref rawwit_subtac_withtac "plugins/subtac/g_subtac.ml4" 88 2640 2643 "plugins/subtac/g_subtac.ml4" 88 2640 2664
+)
+type(
+  Genarg.rlevel withtac_argtype ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  int
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_int
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> int
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  int
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 111 3734 3751 "plugins/subtac/g_subtac.ml4" 111 3734 3763
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 111 3734 3768 "plugins/subtac/g_subtac.ml4" 111 3734 3778
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 111 3734 3779 "plugins/subtac/g_subtac.ml4" 111 3734 3798
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 112 3805 3811 "plugins/subtac/g_subtac.ml4" 112 3805 3828
+type(
+  int * Names.identifier option * Topconstr.constr_expr option ->
+  Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  int_ref subtac_obligation "plugins/subtac/g_subtac.ml4" 99 2931 2935 "plugins/subtac/g_subtac.ml4" 99 2931 2952
+)
+"plugins/subtac/g_subtac.ml4" 112 3805 3830 "plugins/subtac/g_subtac.ml4" 112 3805 3833
+type(
+  int
+)
+ident(
+  int_ref num "plugins/subtac/g_subtac.ml4" 111 3734 3736 "plugins/subtac/g_subtac.ml4" 111 3734 3854
+)
+"plugins/subtac/g_subtac.ml4" 112 3805 3835 "plugins/subtac/g_subtac.ml4" 112 3805 3839
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 112 3805 3846 "plugins/subtac/g_subtac.ml4" 112 3805 3847
+type(
+  Topconstr.constr_expr
+)
+ident(
+  int_ref t "plugins/subtac/g_subtac.ml4" 111 3734 3736 "plugins/subtac/g_subtac.ml4" 111 3734 3854
+)
+"plugins/subtac/g_subtac.ml4" 112 3805 3841 "plugins/subtac/g_subtac.ml4" 112 3805 3847
+type(
+  Topconstr.constr_expr option
+)
+"plugins/subtac/g_subtac.ml4" 112 3805 3830 "plugins/subtac/g_subtac.ml4" 112 3805 3847
+type(
+  int * Names.identifier option * Topconstr.constr_expr option
+)
+"plugins/subtac/g_subtac.ml4" 112 3805 3849 "plugins/subtac/g_subtac.ml4" 112 3805 3852
+type(
+  Tacexpr.raw_tactic_expr option
+)
+ident(
+  int_ref tac "plugins/subtac/g_subtac.ml4" 111 3734 3736 "plugins/subtac/g_subtac.ml4" 111 3734 3854
+)
+"plugins/subtac/g_subtac.ml4" 112 3805 3811 "plugins/subtac/g_subtac.ml4" 112 3805 3852
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 111 3734 3736 "plugins/subtac/g_subtac.ml4" 111 3734 3854
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Genarg.rlevel withtac_argtype
+)
+ident(
+  int_ref rawwit_subtac_withtac "plugins/subtac/g_subtac.ml4" 88 2640 2643 "plugins/subtac/g_subtac.ml4" 88 2640 2664
+)
+type(
+  Genarg.rlevel withtac_argtype ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_constr
+)
+type(
+  (Topconstr.constr_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Topconstr.constr_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Topconstr.constr_expr
+)
+type(
+  int
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_int
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> int
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  int
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 113 3855 3872 "plugins/subtac/g_subtac.ml4" 113 3855 3884
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 113 3855 3885 "plugins/subtac/g_subtac.ml4" 113 3855 3904
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 114 3911 3917 "plugins/subtac/g_subtac.ml4" 114 3911 3934
+type(
+  int * Names.identifier option * Topconstr.constr_expr option ->
+  Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  int_ref subtac_obligation "plugins/subtac/g_subtac.ml4" 99 2931 2935 "plugins/subtac/g_subtac.ml4" 99 2931 2952
+)
+"plugins/subtac/g_subtac.ml4" 114 3911 3936 "plugins/subtac/g_subtac.ml4" 114 3911 3939
+type(
+  int
+)
+ident(
+  int_ref num "plugins/subtac/g_subtac.ml4" 113 3855 3857 "plugins/subtac/g_subtac.ml4" 113 3855 3958
+)
+"plugins/subtac/g_subtac.ml4" 114 3911 3941 "plugins/subtac/g_subtac.ml4" 114 3911 3945
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 114 3911 3947 "plugins/subtac/g_subtac.ml4" 114 3911 3951
+type(
+  Topconstr.constr_expr option
+)
+"plugins/subtac/g_subtac.ml4" 114 3911 3936 "plugins/subtac/g_subtac.ml4" 114 3911 3951
+type(
+  int * Names.identifier option * Topconstr.constr_expr option
+)
+"plugins/subtac/g_subtac.ml4" 114 3911 3953 "plugins/subtac/g_subtac.ml4" 114 3911 3956
+type(
+  Tacexpr.raw_tactic_expr option
+)
+ident(
+  int_ref tac "plugins/subtac/g_subtac.ml4" 113 3855 3857 "plugins/subtac/g_subtac.ml4" 113 3855 3958
+)
+"plugins/subtac/g_subtac.ml4" 114 3911 3917 "plugins/subtac/g_subtac.ml4" 114 3911 3956
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 113 3855 3857 "plugins/subtac/g_subtac.ml4" 113 3855 3958
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Genarg.rlevel withtac_argtype
+)
+ident(
+  int_ref rawwit_subtac_withtac "plugins/subtac/g_subtac.ml4" 88 2640 2643 "plugins/subtac/g_subtac.ml4" 88 2640 2664
+)
+type(
+  Genarg.rlevel withtac_argtype ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  int
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_int
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> int
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  int
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 115 3959 3988 "plugins/subtac/g_subtac.ml4" 115 3959 3999
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 115 3959 4000 "plugins/subtac/g_subtac.ml4" 115 3959 4019
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 116 4026 4032 "plugins/subtac/g_subtac.ml4" 116 4026 4047
+type(
+  Names.identifier option -> Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  int_ref next_obligation "plugins/subtac/g_subtac.ml4" 100 3010 3014 "plugins/subtac/g_subtac.ml4" 100 3010 3029
+)
+"plugins/subtac/g_subtac.ml4" 116 4026 4054 "plugins/subtac/g_subtac.ml4" 116 4026 4058
+type(
+  Names.identifier
+)
+ident(
+  int_ref name "plugins/subtac/g_subtac.ml4" 115 3959 3961 "plugins/subtac/g_subtac.ml4" 115 3959 4065
+)
+"plugins/subtac/g_subtac.ml4" 116 4026 4049 "plugins/subtac/g_subtac.ml4" 116 4026 4058
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 116 4026 4060 "plugins/subtac/g_subtac.ml4" 116 4026 4063
+type(
+  Tacexpr.raw_tactic_expr option
+)
+ident(
+  int_ref tac "plugins/subtac/g_subtac.ml4" 115 3959 3961 "plugins/subtac/g_subtac.ml4" 115 3959 4065
+)
+"plugins/subtac/g_subtac.ml4" 116 4026 4032 "plugins/subtac/g_subtac.ml4" 116 4026 4063
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 115 3959 3961 "plugins/subtac/g_subtac.ml4" 115 3959 4065
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Genarg.rlevel withtac_argtype
+)
+ident(
+  int_ref rawwit_subtac_withtac "plugins/subtac/g_subtac.ml4" 88 2640 2643 "plugins/subtac/g_subtac.ml4" 88 2640 2664
+)
+type(
+  Genarg.rlevel withtac_argtype ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 117 4066 4090 "plugins/subtac/g_subtac.ml4" 117 4066 4109
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 117 4066 4117 "plugins/subtac/g_subtac.ml4" 117 4066 4132
+type(
+  Names.identifier option -> Tacexpr.raw_tactic_expr option -> unit
+)
+ident(
+  int_ref next_obligation "plugins/subtac/g_subtac.ml4" 100 3010 3014 "plugins/subtac/g_subtac.ml4" 100 3010 3029
+)
+"plugins/subtac/g_subtac.ml4" 117 4066 4133 "plugins/subtac/g_subtac.ml4" 117 4066 4137
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 117 4066 4138 "plugins/subtac/g_subtac.ml4" 117 4066 4141
+type(
+  Tacexpr.raw_tactic_expr option
+)
+ident(
+  int_ref tac "plugins/subtac/g_subtac.ml4" 117 4066 4068 "plugins/subtac/g_subtac.ml4" 117 4066 4143
+)
+"plugins/subtac/g_subtac.ml4" 117 4066 4117 "plugins/subtac/g_subtac.ml4" 117 4066 4141
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 117 4066 4068 "plugins/subtac/g_subtac.ml4" 117 4066 4143
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Genarg.rlevel withtac_argtype
+)
+ident(
+  int_ref rawwit_subtac_withtac "plugins/subtac/g_subtac.ml4" 88 2640 2643 "plugins/subtac/g_subtac.ml4" 88 2640 2664
+)
+type(
+  Genarg.rlevel withtac_argtype ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr option
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref tac "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 106 3424 3424 "plugins/subtac/g_subtac.ml4" 106 3424 4147
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 106 3424 3424 "plugins/subtac/g_subtac.ml4" 106 3424 4147
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 106 3424 3424 "plugins/subtac/g_subtac.ml4" 106 3424 4147
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/subtac/g_subtac.ml4" 121 4195 4220 "plugins/subtac/g_subtac.ml4" 121 4195 4232
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 121 4195 4238 "plugins/subtac/g_subtac.ml4" 121 4195 4249
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 121 4195 4258 "plugins/subtac/g_subtac.ml4" 121 4195 4267
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 122 4273 4279 "plugins/subtac/g_subtac.ml4" 122 4273 4299
+type(
+  int -> Names.identifier option -> Proof_type.tactic option -> unit
+)
+ident(
+  int_ref try_solve_obligation "plugins/subtac/g_subtac.ml4" 101 3085 3089 "plugins/subtac/g_subtac.ml4" 101 3085 3109
+)
+"plugins/subtac/g_subtac.ml4" 122 4273 4300 "plugins/subtac/g_subtac.ml4" 122 4273 4303
+type(
+  int
+)
+ident(
+  int_ref num "plugins/subtac/g_subtac.ml4" 121 4195 4197 "plugins/subtac/g_subtac.ml4" 121 4195 4345
+)
+"plugins/subtac/g_subtac.ml4" 122 4273 4310 "plugins/subtac/g_subtac.ml4" 122 4273 4314
+type(
+  Names.identifier
+)
+ident(
+  int_ref name "plugins/subtac/g_subtac.ml4" 121 4195 4197 "plugins/subtac/g_subtac.ml4" 121 4195 4345
+)
+"plugins/subtac/g_subtac.ml4" 122 4273 4305 "plugins/subtac/g_subtac.ml4" 122 4273 4314
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 122 4273 4323 "plugins/subtac/g_subtac.ml4" 122 4273 4339
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/subtac/g_subtac.ml4" 122 4273 4340 "plugins/subtac/g_subtac.ml4" 122 4273 4341
+type(
+  Tacexpr.raw_tactic_expr
+)
+ident(
+  int_ref t "plugins/subtac/g_subtac.ml4" 121 4195 4197 "plugins/subtac/g_subtac.ml4" 121 4195 4345
+)
+"plugins/subtac/g_subtac.ml4" 122 4273 4323 "plugins/subtac/g_subtac.ml4" 122 4273 4341
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/subtac/g_subtac.ml4" 122 4273 4317 "plugins/subtac/g_subtac.ml4" 122 4273 4342
+type(
+  Proof_type.tactic option
+)
+"plugins/subtac/g_subtac.ml4" 122 4273 4279 "plugins/subtac/g_subtac.ml4" 122 4273 4343
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 121 4195 4197 "plugins/subtac/g_subtac.ml4" 121 4195 4345
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.rawwit_tactic5
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  int
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_int
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> int
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  int
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 123 4346 4371 "plugins/subtac/g_subtac.ml4" 123 4346 4383
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 123 4346 4392 "plugins/subtac/g_subtac.ml4" 123 4346 4401
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 124 4407 4413 "plugins/subtac/g_subtac.ml4" 124 4407 4433
+type(
+  int -> Names.identifier option -> Proof_type.tactic option -> unit
+)
+ident(
+  int_ref try_solve_obligation "plugins/subtac/g_subtac.ml4" 101 3085 3089 "plugins/subtac/g_subtac.ml4" 101 3085 3109
+)
+"plugins/subtac/g_subtac.ml4" 124 4407 4434 "plugins/subtac/g_subtac.ml4" 124 4407 4437
+type(
+  int
+)
+ident(
+  int_ref num "plugins/subtac/g_subtac.ml4" 123 4346 4348 "plugins/subtac/g_subtac.ml4" 123 4346 4472
+)
+"plugins/subtac/g_subtac.ml4" 124 4407 4438 "plugins/subtac/g_subtac.ml4" 124 4407 4442
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 124 4407 4450 "plugins/subtac/g_subtac.ml4" 124 4407 4466
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/subtac/g_subtac.ml4" 124 4407 4467 "plugins/subtac/g_subtac.ml4" 124 4407 4468
+type(
+  Tacexpr.raw_tactic_expr
+)
+ident(
+  int_ref t "plugins/subtac/g_subtac.ml4" 123 4346 4348 "plugins/subtac/g_subtac.ml4" 123 4346 4472
+)
+"plugins/subtac/g_subtac.ml4" 124 4407 4450 "plugins/subtac/g_subtac.ml4" 124 4407 4468
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/subtac/g_subtac.ml4" 124 4407 4444 "plugins/subtac/g_subtac.ml4" 124 4407 4469
+type(
+  Proof_type.tactic option
+)
+"plugins/subtac/g_subtac.ml4" 124 4407 4413 "plugins/subtac/g_subtac.ml4" 124 4407 4470
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 123 4346 4348 "plugins/subtac/g_subtac.ml4" 123 4346 4472
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.rawwit_tactic5
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  int
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_int
+)
+type(
+  (int, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> int
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  int
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref num "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 120 4149 4149 "plugins/subtac/g_subtac.ml4" 120 4149 4482
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 120 4149 4149 "plugins/subtac/g_subtac.ml4" 120 4149 4482
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 120 4149 4149 "plugins/subtac/g_subtac.ml4" 120 4149 4482
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/subtac/g_subtac.ml4" 128 4531 4562 "plugins/subtac/g_subtac.ml4" 128 4531 4573
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 128 4531 4582 "plugins/subtac/g_subtac.ml4" 128 4531 4591
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 129 4597 4603 "plugins/subtac/g_subtac.ml4" 129 4597 4624
+type(
+  Names.identifier option -> Proof_type.tactic option -> unit
+)
+ident(
+  int_ref try_solve_obligations "plugins/subtac/g_subtac.ml4" 102 3170 3174 "plugins/subtac/g_subtac.ml4" 102 3170 3195
+)
+"plugins/subtac/g_subtac.ml4" 129 4597 4631 "plugins/subtac/g_subtac.ml4" 129 4597 4635
+type(
+  Names.identifier
+)
+ident(
+  int_ref name "plugins/subtac/g_subtac.ml4" 128 4531 4533 "plugins/subtac/g_subtac.ml4" 128 4531 4666
+)
+"plugins/subtac/g_subtac.ml4" 129 4597 4626 "plugins/subtac/g_subtac.ml4" 129 4597 4635
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 129 4597 4644 "plugins/subtac/g_subtac.ml4" 129 4597 4660
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/subtac/g_subtac.ml4" 129 4597 4661 "plugins/subtac/g_subtac.ml4" 129 4597 4662
+type(
+  Tacexpr.raw_tactic_expr
+)
+ident(
+  int_ref t "plugins/subtac/g_subtac.ml4" 128 4531 4533 "plugins/subtac/g_subtac.ml4" 128 4531 4666
+)
+"plugins/subtac/g_subtac.ml4" 129 4597 4644 "plugins/subtac/g_subtac.ml4" 129 4597 4662
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/subtac/g_subtac.ml4" 129 4597 4638 "plugins/subtac/g_subtac.ml4" 129 4597 4663
+type(
+  Proof_type.tactic option
+)
+"plugins/subtac/g_subtac.ml4" 129 4597 4603 "plugins/subtac/g_subtac.ml4" 129 4597 4664
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 128 4531 4533 "plugins/subtac/g_subtac.ml4" 128 4531 4666
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.rawwit_tactic5
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 130 4667 4701 "plugins/subtac/g_subtac.ml4" 130 4667 4710
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 131 4716 4722 "plugins/subtac/g_subtac.ml4" 131 4716 4743
+type(
+  Names.identifier option -> Proof_type.tactic option -> unit
+)
+ident(
+  int_ref try_solve_obligations "plugins/subtac/g_subtac.ml4" 102 3170 3174 "plugins/subtac/g_subtac.ml4" 102 3170 3195
+)
+"plugins/subtac/g_subtac.ml4" 131 4716 4744 "plugins/subtac/g_subtac.ml4" 131 4716 4748
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 131 4716 4756 "plugins/subtac/g_subtac.ml4" 131 4716 4772
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/subtac/g_subtac.ml4" 131 4716 4773 "plugins/subtac/g_subtac.ml4" 131 4716 4774
+type(
+  Tacexpr.raw_tactic_expr
+)
+ident(
+  int_ref t "plugins/subtac/g_subtac.ml4" 130 4667 4669 "plugins/subtac/g_subtac.ml4" 130 4667 4778
+)
+"plugins/subtac/g_subtac.ml4" 131 4716 4756 "plugins/subtac/g_subtac.ml4" 131 4716 4774
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/subtac/g_subtac.ml4" 131 4716 4750 "plugins/subtac/g_subtac.ml4" 131 4716 4775
+type(
+  Proof_type.tactic option
+)
+"plugins/subtac/g_subtac.ml4" 131 4716 4722 "plugins/subtac/g_subtac.ml4" 131 4716 4776
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 130 4667 4669 "plugins/subtac/g_subtac.ml4" 130 4667 4778
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.rawwit_tactic5
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 133 4810 4816 "plugins/subtac/g_subtac.ml4" 133 4810 4837
+type(
+  Names.identifier option -> Proof_type.tactic option -> unit
+)
+ident(
+  int_ref try_solve_obligations "plugins/subtac/g_subtac.ml4" 102 3170 3174 "plugins/subtac/g_subtac.ml4" 102 3170 3195
+)
+"plugins/subtac/g_subtac.ml4" 133 4810 4838 "plugins/subtac/g_subtac.ml4" 133 4810 4842
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 133 4810 4843 "plugins/subtac/g_subtac.ml4" 133 4810 4847
+type(
+  Proof_type.tactic option
+)
+"plugins/subtac/g_subtac.ml4" 133 4810 4816 "plugins/subtac/g_subtac.ml4" 133 4810 4847
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 132 4779 4781 "plugins/subtac/g_subtac.ml4" 132 4779 4849
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/subtac/g_subtac.ml4" 127 4484 4484 "plugins/subtac/g_subtac.ml4" 127 4484 4859
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 127 4484 4484 "plugins/subtac/g_subtac.ml4" 127 4484 4859
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 127 4484 4484 "plugins/subtac/g_subtac.ml4" 127 4484 4859
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/subtac/g_subtac.ml4" 137 4912 4952 "plugins/subtac/g_subtac.ml4" 137 4912 4961
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 138 4967 4973 "plugins/subtac/g_subtac.ml4" 138 4967 4994
+type(
+  Proof_type.tactic option -> unit
+)
+ident(
+  int_ref solve_all_obligations "plugins/subtac/g_subtac.ml4" 103 3257 3261 "plugins/subtac/g_subtac.ml4" 103 3257 3282
+)
+"plugins/subtac/g_subtac.ml4" 138 4967 5002 "plugins/subtac/g_subtac.ml4" 138 4967 5018
+type(
+  Tacexpr.raw_tactic_expr -> Tacmach.tactic
+)
+ident(
+  ext_ref Tacinterp.interp
+)
+"plugins/subtac/g_subtac.ml4" 138 4967 5019 "plugins/subtac/g_subtac.ml4" 138 4967 5020
+type(
+  Tacexpr.raw_tactic_expr
+)
+ident(
+  int_ref t "plugins/subtac/g_subtac.ml4" 137 4912 4914 "plugins/subtac/g_subtac.ml4" 137 4912 5024
+)
+"plugins/subtac/g_subtac.ml4" 138 4967 5002 "plugins/subtac/g_subtac.ml4" 138 4967 5020
+call(
+  stack
+)
+type(
+  Tacmach.tactic
+)
+"plugins/subtac/g_subtac.ml4" 138 4967 4996 "plugins/subtac/g_subtac.ml4" 138 4967 5021
+type(
+  Proof_type.tactic option
+)
+"plugins/subtac/g_subtac.ml4" 138 4967 4973 "plugins/subtac/g_subtac.ml4" 138 4967 5022
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 137 4912 4914 "plugins/subtac/g_subtac.ml4" 137 4912 5024
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.rawwit_tactic5
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 140 5062 5068 "plugins/subtac/g_subtac.ml4" 140 5062 5089
+type(
+  Proof_type.tactic option -> unit
+)
+ident(
+  int_ref solve_all_obligations "plugins/subtac/g_subtac.ml4" 103 3257 3261 "plugins/subtac/g_subtac.ml4" 103 3257 3282
+)
+"plugins/subtac/g_subtac.ml4" 140 5062 5090 "plugins/subtac/g_subtac.ml4" 140 5062 5094
+type(
+  Proof_type.tactic option
+)
+"plugins/subtac/g_subtac.ml4" 140 5062 5068 "plugins/subtac/g_subtac.ml4" 140 5062 5094
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 139 5025 5027 "plugins/subtac/g_subtac.ml4" 139 5025 5096
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/subtac/g_subtac.ml4" 136 4861 4861 "plugins/subtac/g_subtac.ml4" 136 4861 5106
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 136 4861 4861 "plugins/subtac/g_subtac.ml4" 136 4861 5106
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 136 4861 4861 "plugins/subtac/g_subtac.ml4" 136 4861 5106
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/subtac/g_subtac.ml4" 144 5155 5186 "plugins/subtac/g_subtac.ml4" 144 5155 5197
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 144 5155 5205 "plugins/subtac/g_subtac.ml4" 144 5155 5222
+type(
+  Names.identifier option -> unit
+)
+ident(
+  int_ref admit_obligations "plugins/subtac/g_subtac.ml4" 104 3344 3348 "plugins/subtac/g_subtac.ml4" 104 3344 3365
+)
+"plugins/subtac/g_subtac.ml4" 144 5155 5229 "plugins/subtac/g_subtac.ml4" 144 5155 5233
+type(
+  Names.identifier
+)
+ident(
+  int_ref name "plugins/subtac/g_subtac.ml4" 144 5155 5157 "plugins/subtac/g_subtac.ml4" 144 5155 5236
+)
+"plugins/subtac/g_subtac.ml4" 144 5155 5224 "plugins/subtac/g_subtac.ml4" 144 5155 5233
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 144 5155 5205 "plugins/subtac/g_subtac.ml4" 144 5155 5234
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 144 5155 5157 "plugins/subtac/g_subtac.ml4" 144 5155 5236
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 145 5237 5270 "plugins/subtac/g_subtac.ml4" 145 5237 5287
+type(
+  Names.identifier option -> unit
+)
+ident(
+  int_ref admit_obligations "plugins/subtac/g_subtac.ml4" 104 3344 3348 "plugins/subtac/g_subtac.ml4" 104 3344 3365
+)
+"plugins/subtac/g_subtac.ml4" 145 5237 5288 "plugins/subtac/g_subtac.ml4" 145 5237 5292
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 145 5237 5270 "plugins/subtac/g_subtac.ml4" 145 5237 5292
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 145 5237 5239 "plugins/subtac/g_subtac.ml4" 145 5237 5294
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/subtac/g_subtac.ml4" 143 5108 5108 "plugins/subtac/g_subtac.ml4" 143 5108 5302
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 143 5108 5108 "plugins/subtac/g_subtac.ml4" 143 5108 5302
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 143 5108 5108 "plugins/subtac/g_subtac.ml4" 143 5108 5302
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/subtac/g_subtac.ml4" 149 5344 5375 "plugins/subtac/g_subtac.ml4" 149 5344 5384
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 150 5392 5396 "plugins/subtac/g_subtac.ml4" 150 5392 5433
+type(
+  bool -> Tacexpr.glob_tactic_expr -> unit
+)
+ident(
+  ext_ref Subtac_obligations.set_default_tactic
+)
+"plugins/subtac/g_subtac.ml4" 151 5435 5442 "plugins/subtac/g_subtac.ml4" 151 5435 5473
+type(
+  unit -> bool
+)
+ident(
+  ext_ref Vernacexpr.use_section_locality
+)
+"plugins/subtac/g_subtac.ml4" 151 5435 5474 "plugins/subtac/g_subtac.ml4" 151 5435 5476
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 151 5435 5442 "plugins/subtac/g_subtac.ml4" 151 5435 5476
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/subtac/g_subtac.ml4" 152 5478 5485 "plugins/subtac/g_subtac.ml4" 152 5478 5506
+type(
+  Tacexpr.raw_tactic_expr -> Tacexpr.glob_tactic_expr
+)
+ident(
+  ext_ref Tacinterp.glob_tactic
+)
+"plugins/subtac/g_subtac.ml4" 152 5478 5507 "plugins/subtac/g_subtac.ml4" 152 5478 5508
+type(
+  Tacexpr.raw_tactic_expr
+)
+ident(
+  int_ref t "plugins/subtac/g_subtac.ml4" 149 5344 5346 "plugins/subtac/g_subtac.ml4" 149 5344 5511
+)
+"plugins/subtac/g_subtac.ml4" 152 5478 5485 "plugins/subtac/g_subtac.ml4" 152 5478 5508
+call(
+  stack
+)
+type(
+  Tacexpr.glob_tactic_expr
+)
+"plugins/subtac/g_subtac.ml4" 150 5392 5396 "plugins/subtac/g_subtac.ml4" 150 5392 5509
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 149 5344 5346 "plugins/subtac/g_subtac.ml4" 149 5344 5511
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Extrawit.rawwit_tactic5
+)
+type(
+  (Tacexpr.raw_tactic_expr, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Tacexpr.raw_tactic_expr
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Tacexpr.raw_tactic_expr
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref t "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 148 5304 5304 "plugins/subtac/g_subtac.ml4" 148 5304 5515
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 148 5304 5304 "plugins/subtac/g_subtac.ml4" 148 5304 5515
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 148 5304 5304 "plugins/subtac/g_subtac.ml4" 148 5304 5515
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/subtac/g_subtac.ml4" 159 5607 5611 "plugins/subtac/g_subtac.ml4" 159 5607 5616
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.msgnl
+)
+"plugins/subtac/g_subtac.ml4" 159 5607 5618 "plugins/subtac/g_subtac.ml4" 159 5607 5621
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/subtac/g_subtac.ml4" 159 5607 5621 "plugins/subtac/g_subtac.ml4" 159 5607 5652
+type(
+  string
+)
+"plugins/subtac/g_subtac.ml4" 159 5607 5618 "plugins/subtac/g_subtac.ml4" 159 5607 5652
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/g_subtac.ml4" 159 5607 5656 "plugins/subtac/g_subtac.ml4" 159 5607 5695
+type(
+  unit -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Subtac_obligations.print_default_tactic
+)
+"plugins/subtac/g_subtac.ml4" 159 5607 5696 "plugins/subtac/g_subtac.ml4" 159 5607 5698
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 159 5607 5656 "plugins/subtac/g_subtac.ml4" 159 5607 5698
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/subtac/g_subtac.ml4" 159 5607 5618 "plugins/subtac/g_subtac.ml4" 159 5607 5698
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/subtac/g_subtac.ml4" 159 5607 5611 "plugins/subtac/g_subtac.ml4" 159 5607 5699
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 158 5567 5569 "plugins/subtac/g_subtac.ml4" 158 5567 5701
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/subtac/g_subtac.ml4" 157 5526 5526 "plugins/subtac/g_subtac.ml4" 157 5526 5705
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 157 5526 5526 "plugins/subtac/g_subtac.ml4" 157 5526 5705
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 157 5526 5526 "plugins/subtac/g_subtac.ml4" 157 5526 5705
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/subtac/g_subtac.ml4" 163 5753 5776 "plugins/subtac/g_subtac.ml4" 163 5753 5787
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 163 5753 5795 "plugins/subtac/g_subtac.ml4" 163 5753 5830
+type(
+  ?msg:bool -> Names.identifier option -> unit
+)
+ident(
+  ext_ref Subtac_obligations.show_obligations
+)
+"plugins/subtac/g_subtac.ml4" 163 5753 5837 "plugins/subtac/g_subtac.ml4" 163 5753 5841
+type(
+  Names.identifier
+)
+ident(
+  int_ref name "plugins/subtac/g_subtac.ml4" 163 5753 5755 "plugins/subtac/g_subtac.ml4" 163 5753 5844
+)
+"plugins/subtac/g_subtac.ml4" 163 5753 5832 "plugins/subtac/g_subtac.ml4" 163 5753 5841
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 163 5753 5795 "plugins/subtac/g_subtac.ml4" 163 5753 5842
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 163 5753 5755 "plugins/subtac/g_subtac.ml4" 163 5753 5844
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 164 5845 5870 "plugins/subtac/g_subtac.ml4" 164 5845 5905
+type(
+  ?msg:bool -> Names.identifier option -> unit
+)
+ident(
+  ext_ref Subtac_obligations.show_obligations
+)
+"plugins/subtac/g_subtac.ml4" 164 5845 5906 "plugins/subtac/g_subtac.ml4" 164 5845 5910
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 164 5845 5870 "plugins/subtac/g_subtac.ml4" 164 5845 5910
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 164 5845 5847 "plugins/subtac/g_subtac.ml4" 164 5845 5912
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/subtac/g_subtac.ml4" 162 5707 5707 "plugins/subtac/g_subtac.ml4" 162 5707 5916
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 162 5707 5707 "plugins/subtac/g_subtac.ml4" 162 5707 5916
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 162 5707 5707 "plugins/subtac/g_subtac.ml4" 162 5707 5916
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)
+"plugins/subtac/g_subtac.ml4" 168 5960 5979 "plugins/subtac/g_subtac.ml4" 168 5960 5990
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/subtac/g_subtac.ml4" 168 5960 5998 "plugins/subtac/g_subtac.ml4" 168 5960 6026
+type(
+  Names.identifier option -> unit
+)
+ident(
+  ext_ref Subtac_obligations.show_term
+)
+"plugins/subtac/g_subtac.ml4" 168 5960 6033 "plugins/subtac/g_subtac.ml4" 168 5960 6037
+type(
+  Names.identifier
+)
+ident(
+  int_ref name "plugins/subtac/g_subtac.ml4" 168 5960 5962 "plugins/subtac/g_subtac.ml4" 168 5960 6040
+)
+"plugins/subtac/g_subtac.ml4" 168 5960 6028 "plugins/subtac/g_subtac.ml4" 168 5960 6037
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 168 5960 5998 "plugins/subtac/g_subtac.ml4" 168 5960 6038
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 168 5960 5962 "plugins/subtac/g_subtac.ml4" 168 5960 6040
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Names.identifier
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  bool -> (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ident_gen
+)
+type(
+  (Names.identifier, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Names.identifier
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Names.identifier
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref name "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/subtac/g_subtac.ml4" 169 6041 6062 "plugins/subtac/g_subtac.ml4" 169 6041 6090
+type(
+  Names.identifier option -> unit
+)
+ident(
+  ext_ref Subtac_obligations.show_term
+)
+"plugins/subtac/g_subtac.ml4" 169 6041 6091 "plugins/subtac/g_subtac.ml4" 169 6041 6095
+type(
+  Names.identifier option
+)
+"plugins/subtac/g_subtac.ml4" 169 6041 6062 "plugins/subtac/g_subtac.ml4" 169 6041 6095
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/subtac/g_subtac.ml4" 169 6041 6043 "plugins/subtac/g_subtac.ml4" 169 6041 6097
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  bool
+)
+"plugins/subtac/g_subtac.ml4" 167 5918 5918 "plugins/subtac/g_subtac.ml4" 167 5918 6101
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/subtac/g_subtac.ml4" 167 5918 5918 "plugins/subtac/g_subtac.ml4" 167 5918 6101
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/subtac/g_subtac.ml4" 167 5918 5918 "plugins/subtac/g_subtac.ml4" 167 5918 6101
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)

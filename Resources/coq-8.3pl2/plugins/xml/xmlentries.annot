@@ -1,0 +1,800 @@
+"plugins/xml/xmlentries.ml4" 30 1217 1251 "plugins/xml/xmlentries.ml4" 30 1217 1253
+type(
+  string
+)
+ident(
+  int_ref fn "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+"plugins/xml/xmlentries.ml4" 30 1217 1246 "plugins/xml/xmlentries.ml4" 30 1217 1253
+type(
+  string option
+)
+type(
+  string option
+)
+"plugins/xml/xmlentries.ml4" 31 1256 1267 "plugins/xml/xmlentries.ml4" 31 1256 1271
+type(
+  string option
+)
+type(
+  string option
+)
+"plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  unit Tacexpr.typed_abstract_argument_type *
+  unit Pptactic.extra_genarg_printer
+)
+type(
+  unit Pptactic.extra_genarg_printer
+)
+type(
+  (Term.constr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  unit -> Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  string
+)
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.anomaly
+)
+type(
+  unit
+)
+type(
+  Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Term.constr -> Pp.std_ppcmds
+)
+type(
+  Term.constr -> Pp.std_ppcmds
+)
+type(
+  unit Tacexpr.typed_abstract_argument_type
+)
+ident(
+  int_ref wit_filename "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+type(
+  unit Tacexpr.glob_abstract_argument_type *
+  unit Pptactic.glob_extra_genarg_printer
+)
+type(
+  unit Pptactic.glob_extra_genarg_printer
+)
+type(
+  (Genarg.rawconstr_and_expr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds) ->
+  unit -> Pp.std_ppcmds
+)
+type(
+  unit -> Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  string
+)
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Util.anomaly
+)
+type(
+  unit
+)
+type(
+  Ppextend.tolerability -> Tacexpr.glob_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Genarg.rawconstr_and_expr -> Pp.std_ppcmds
+)
+type(
+  Genarg.rawconstr_and_expr -> Pp.std_ppcmds
+)
+type(
+  unit Tacexpr.glob_abstract_argument_type
+)
+ident(
+  int_ref globwit_filename "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+type(
+  string option Tacexpr.raw_abstract_argument_type *
+  string option Pptactic.raw_extra_genarg_printer
+)
+type(
+  string option Pptactic.raw_extra_genarg_printer
+)
+type(
+  (Topconstr.constr_expr -> Pp.std_ppcmds) ->
+  (Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds) ->
+  string option -> Pp.std_ppcmds
+)
+type(
+  (Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds) ->
+  string option -> Pp.std_ppcmds
+)
+type(
+  string option -> Pp.std_ppcmds
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  string
+)
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+type(
+  string option
+)
+type(
+  Ppextend.tolerability -> Tacexpr.raw_tactic_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  Topconstr.constr_expr -> Pp.std_ppcmds
+)
+type(
+  string option Tacexpr.raw_abstract_argument_type
+)
+ident(
+  int_ref rawwit_filename "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+type(
+  string option Tacexpr.raw_abstract_argument_type *
+  string option Pptactic.raw_extra_genarg_printer ->
+  unit Tacexpr.glob_abstract_argument_type *
+  unit Pptactic.glob_extra_genarg_printer ->
+  unit Tacexpr.typed_abstract_argument_type *
+  unit Pptactic.extra_genarg_printer -> unit
+)
+ident(
+  ext_ref Pptactic.declare_extra_genarg_pprule
+)
+type(
+  unit
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  string option * Gramext.g_assoc option *
+  (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  string -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_a -> Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_b -> string option
+)
+type(
+  '_b
+)
+ident(
+  def loc "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+type(
+  ('_b -> string option) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  '_a
+)
+type(
+  ('_a -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  string
+)
+ident(
+  int_ref fn "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_string
+)
+type(
+  (string, Genarg.rlevel) Genarg.abstract_argument_type ->
+  string -> Genarg.rlevel Genarg.generic_argument
+)
+ident(
+  ext_ref Genarg.in_gen
+)
+type(
+  Genarg.rlevel Genarg.generic_argument
+)
+type(
+  string
+)
+ident(
+  def fn "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+type(
+  (string -> Gramext.g_action) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action
+)
+type(
+  Gramext.g_action
+)
+type(
+  '_c -> string option
+)
+type(
+  '_c
+)
+ident(
+  def loc "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+type(
+  ('_c -> string option) -> Gramext.g_action
+)
+ident(
+  ext_ref Gramext.action
+)
+type(
+  Gramext.g_assoc option
+)
+type(
+  string option
+)
+type(
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list
+)
+type(
+  Gramext.position option
+)
+type(
+  string option Pcoq.Gram.Entry.e
+)
+type(
+  string option Pcoq.Gram.Entry.e
+)
+ident(
+  int_ref filename "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+type(
+  string option Pcoq.Gram.Entry.e ->
+  Gramext.position option ->
+  (string option * Gramext.g_assoc option *
+   (Pcoq.Gram.te Gramext.g_symbol list * Gramext.g_action) list)
+  list -> unit
+)
+ident(
+  ext_ref Pcoq.Gram.extend
+)
+type(
+  string option Pcoq.Gram.Entry.e
+)
+type(
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_filename "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+type(
+  string ->
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type ->
+  string option Pcoq.Gram.Entry.e
+)
+ident(
+  ext_ref Pcoq.create_generic_entry
+)
+type(
+  string option Pcoq.Gram.Entry.e
+)
+ident(
+  def filename "plugins/xml/xmlentries.ml4" 29 1185 1185 --
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  string ->
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.create_arg
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type *
+  (unit, Genarg.glevel) Genarg.abstract_argument_type *
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+type(
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  def rawwit_filename "plugins/xml/xmlentries.ml4" 29 1185 1185 --
+)
+type(
+  (unit, Genarg.glevel) Genarg.abstract_argument_type
+)
+ident(
+  def globwit_filename "plugins/xml/xmlentries.ml4" 29 1185 1185 --
+)
+type(
+  (unit, Genarg.tlevel) Genarg.abstract_argument_type
+)
+ident(
+  def wit_filename "plugins/xml/xmlentries.ml4" 29 1185 1185 --
+)
+"plugins/xml/xmlentries.ml4" 37 1335 1353 "plugins/xml/xmlentries.ml4" 37 1335 1365
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/xml/xmlentries.ml4" 37 1335 1366 "plugins/xml/xmlentries.ml4" 37 1335 1377
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  Genarg.argument_type
+)
+"plugins/xml/xmlentries.ml4" 37 1335 1385 "plugins/xml/xmlentries.ml4" 37 1335 1405
+type(
+  Libnames.reference -> string option -> unit
+)
+ident(
+  ext_ref Xmlcommand.print_ref
+)
+"plugins/xml/xmlentries.ml4" 37 1335 1406 "plugins/xml/xmlentries.ml4" 37 1335 1409
+type(
+  Libnames.reference
+)
+ident(
+  int_ref qid "plugins/xml/xmlentries.ml4" 37 1335 1337 "plugins/xml/xmlentries.ml4" 37 1335 1414
+)
+"plugins/xml/xmlentries.ml4" 37 1335 1410 "plugins/xml/xmlentries.ml4" 37 1335 1412
+type(
+  string option
+)
+ident(
+  int_ref fn "plugins/xml/xmlentries.ml4" 37 1335 1337 "plugins/xml/xmlentries.ml4" 37 1335 1414
+)
+"plugins/xml/xmlentries.ml4" 37 1335 1385 "plugins/xml/xmlentries.ml4" 37 1335 1412
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/xmlentries.ml4" 37 1335 1337 "plugins/xml/xmlentries.ml4" 37 1335 1414
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  Libnames.reference
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref qid "" -1 0 0 "" -1 0 0
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  ext_ref Genarg.rawwit_ref
+)
+type(
+  (Libnames.reference, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> Libnames.reference
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  Libnames.reference
+)
+type(
+  string option
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref fn "" -1 0 0 "" -1 0 0
+)
+type(
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_filename "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+type(
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string option
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref qid "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref fn "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/xml/xmlentries.ml4" 39 1416 1433 "plugins/xml/xmlentries.ml4" 39 1416 1445
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Egrammar.grammar_prod_item
+)
+type(
+  string
+)
+type(
+  Genarg.argument_type
+)
+"plugins/xml/xmlentries.ml4" 39 1416 1461 "plugins/xml/xmlentries.ml4" 39 1416 1476
+type(
+  string option -> unit
+)
+ident(
+  ext_ref Xmlcommand.show
+)
+"plugins/xml/xmlentries.ml4" 39 1416 1477 "plugins/xml/xmlentries.ml4" 39 1416 1479
+type(
+  string option
+)
+ident(
+  int_ref fn "plugins/xml/xmlentries.ml4" 39 1416 1418 "plugins/xml/xmlentries.ml4" 39 1416 1481
+)
+"plugins/xml/xmlentries.ml4" 39 1416 1461 "plugins/xml/xmlentries.ml4" 39 1416 1479
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/xmlentries.ml4" 39 1416 1418 "plugins/xml/xmlentries.ml4" 39 1416 1481
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+type(
+  unit
+)
+type(
+  string option
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref fn "" -1 0 0 "" -1 0 0
+)
+type(
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type
+)
+ident(
+  int_ref rawwit_filename "plugins/xml/xmlentries.ml4" 29 1185 1185 "plugins/xml/xmlentries.ml4" 29 1185 1277
+)
+type(
+  (string option, Genarg.rlevel) Genarg.abstract_argument_type ->
+  Tacexpr.raw_generic_argument -> string option
+)
+ident(
+  ext_ref Genarg.out_gen
+)
+type(
+  string option
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Genarg.argument_type
+)
+type(
+  Tacexpr.raw_generic_argument
+)
+ident(
+  int_ref fn "" -1 0 0 "" -1 0 0
+)
+type(
+  Tacexpr.raw_generic_argument -> Genarg.argument_type
+)
+ident(
+  ext_ref Genarg.genarg_tag
+)
+type(
+  Genarg.argument_type -> Genarg.argument_type -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"plugins/xml/xmlentries.ml4" 36 1309 1309 "plugins/xml/xmlentries.ml4" 36 1309 1485
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  unit
+)
+type(
+  string -> Egrammar.grammar_prod_item list list -> unit
+)
+ident(
+  ext_ref Egrammar.extend_vernac_command_grammar
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Pp.std_ppcmds
+)
+type(
+  exn
+)
+ident(
+  int_ref e "plugins/xml/xmlentries.ml4" 36 1309 1309 "plugins/xml/xmlentries.ml4" 36 1309 1485
+)
+type(
+  exn -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Cerrors.explain_exn
+)
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.pp
+)
+type(
+  exn
+)
+ident(
+  def e "plugins/xml/xmlentries.ml4" 36 1309 1309 "plugins/xml/xmlentries.ml4" 36 1309 1485
+)
+type(
+  unit
+)
+type(
+  Tacexpr.raw_generic_argument list -> unit -> unit
+)
+type(
+  string -> (Tacexpr.raw_generic_argument list -> unit -> unit) -> unit
+)
+ident(
+  ext_ref Vernacinterp.vinterp_add
+)

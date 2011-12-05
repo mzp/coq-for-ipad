@@ -11,6 +11,7 @@
 		1317502A148CF9EE00E40B4C /* coq_interp.c in Sources */ = {isa = PBXBuildFile; fileRef = 13175020148CF9EE00E40B4C /* coq_interp.c */; };
 		1317502B148CF9EE00E40B4C /* coq_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 13175023148CF9EE00E40B4C /* coq_memory.c */; };
 		1317502C148CF9EE00E40B4C /* coq_values.c in Sources */ = {isa = PBXBuildFile; fileRef = 13175025148CF9EE00E40B4C /* coq_values.c */; };
+		138D6A21148D0A7B00B08577 /* coq-8.3pl2 in Resources */ = {isa = PBXBuildFile; fileRef = 138D6A20148D0A7B00B08577 /* coq-8.3pl2 */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F3B9A2D0EF2145700286867 /* ocaml_cocosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */; };
 		504DFBCE10AF12E9006D82FE /* CLScoreServerPost.h in Headers */ = {isa = PBXBuildFile; fileRef = 504DFBC810AF12E9006D82FE /* CLScoreServerPost.h */; };
@@ -426,6 +427,7 @@
 		13175026148CF9EE00E40B4C /* coq_values.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coq_values.h; sourceTree = "<group>"; };
 		13175027148CF9EE00E40B4C /* int64_emul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = int64_emul.h; sourceTree = "<group>"; };
 		13175028148CF9EE00E40B4C /* int64_native.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = int64_native.h; sourceTree = "<group>"; };
+		138D6A20148D0A7B00B08577 /* coq-8.3pl2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "coq-8.3pl2"; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* OcamlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OcamlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3B9A2B0EF2145700286867 /* ocaml_cocosAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ocaml_cocosAppDelegate.m; path = Classes/ocaml_cocosAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		1F3B9A2C0EF2145700286867 /* ocaml_cocosAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ocaml_cocosAppDelegate.h; path = Classes/ocaml_cocosAppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -1244,6 +1246,7 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				138D6A20148D0A7B00B08577 /* coq-8.3pl2 */,
 				6AD8EC111278009C00803EA7 /* Default-LandscapeRight.png */,
 				6AD8EC121278009C00803EA7 /* Default-Portrait.png */,
 				6AD8EC131278009C00803EA7 /* Default-PortraitUpsideDown.png */,
@@ -2107,6 +2110,7 @@
 				6AD8EC151278009C00803EA7 /* Default-Portrait.png in Resources */,
 				6AD8EC161278009C00803EA7 /* Default-PortraitUpsideDown.png in Resources */,
 				6AE94816127B599E00555492 /* Default.png in Resources */,
+				138D6A21148D0A7B00B08577 /* coq-8.3pl2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

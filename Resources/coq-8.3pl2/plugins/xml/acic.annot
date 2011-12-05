@@ -1,0 +1,32 @@
+"plugins/xml/acic.ml" 23 1112 1120 "plugins/xml/acic.ml" 23 1112 1125
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def equal "plugins/xml/acic.ml" 24 1133 1137 "plugins/xml/acic.ml" 25 1161 1167
+)
+"plugins/xml/acic.ml" 23 1112 1128 "plugins/xml/acic.ml" 23 1112 1132
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"plugins/xml/acic.ml" 24 1133 1141 "plugins/xml/acic.ml" 24 1133 1145
+type(
+  'b -> int
+)
+ident(
+  def hash "plugins/xml/acic.ml" 24 1133 1160 "plugins/xml/acic.ml" 25 1161 1167
+)
+"plugins/xml/acic.ml" 24 1133 1148 "plugins/xml/acic.ml" 24 1133 1160
+type(
+  'b -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"plugins/xml/acic.ml" 20 1063 1064 "plugins/xml/acic.ml" 25 1161 1168
+call(
+  stack
+)

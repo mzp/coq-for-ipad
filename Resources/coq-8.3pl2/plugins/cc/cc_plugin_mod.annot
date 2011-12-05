@@ -1,0 +1,108 @@
+"plugins/cc/cc_plugin_mod.ml" 1 0 6 "plugins/cc/cc_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/cc/cc_plugin_mod.ml" 1 0 28 "plugins/cc/cc_plugin_mod.ml" 1 0 36
+type(
+  string
+)
+"plugins/cc/cc_plugin_mod.ml" 1 0 6 "plugins/cc/cc_plugin_mod.ml" 1 0 36
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/cc/cc_plugin_mod.ml" 2 38 44 "plugins/cc/cc_plugin_mod.ml" 2 38 66
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/cc/cc_plugin_mod.ml" 2 38 66 "plugins/cc/cc_plugin_mod.ml" 2 38 75
+type(
+  string
+)
+"plugins/cc/cc_plugin_mod.ml" 2 38 44 "plugins/cc/cc_plugin_mod.ml" 2 38 75
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/cc/cc_plugin_mod.ml" 3 77 83 "plugins/cc/cc_plugin_mod.ml" 3 77 105
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/cc/cc_plugin_mod.ml" 3 77 105 "plugins/cc/cc_plugin_mod.ml" 3 77 112
+type(
+  string
+)
+"plugins/cc/cc_plugin_mod.ml" 3 77 83 "plugins/cc/cc_plugin_mod.ml" 3 77 112
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/cc/cc_plugin_mod.ml" 4 114 120 "plugins/cc/cc_plugin_mod.ml" 4 114 142
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/cc/cc_plugin_mod.ml" 4 114 142 "plugins/cc/cc_plugin_mod.ml" 4 114 156
+type(
+  string
+)
+"plugins/cc/cc_plugin_mod.ml" 4 114 120 "plugins/cc/cc_plugin_mod.ml" 4 114 156
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/cc/cc_plugin_mod.ml" 5 158 164 "plugins/cc/cc_plugin_mod.ml" 5 158 186
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/cc/cc_plugin_mod.ml" 5 158 186 "plugins/cc/cc_plugin_mod.ml" 5 158 201
+type(
+  string
+)
+"plugins/cc/cc_plugin_mod.ml" 5 158 164 "plugins/cc/cc_plugin_mod.ml" 5 158 201
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/cc/cc_plugin_mod.ml" 6 203 209 "plugins/cc/cc_plugin_mod.ml" 6 203 231
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/cc/cc_plugin_mod.ml" 6 203 231 "plugins/cc/cc_plugin_mod.ml" 6 203 242
+type(
+  string
+)
+"plugins/cc/cc_plugin_mod.ml" 6 203 209 "plugins/cc/cc_plugin_mod.ml" 6 203 242
+call(
+  stack
+)
+type(
+  unit
+)

@@ -1,0 +1,5685 @@
+"plugins/xml/doubleTypeInference.ml" 18 1120 1124 "plugins/xml/doubleTypeInference.ml" 18 1120 1137
+type(
+  'a -> unit
+)
+ident(
+  def prerr_endline "plugins/xml/doubleTypeInference.ml" 20 1148 1148 --
+)
+"plugins/xml/doubleTypeInference.ml" 18 1120 1138 "plugins/xml/doubleTypeInference.ml" 18 1120 1139
+type(
+  'a
+)
+"plugins/xml/doubleTypeInference.ml" 18 1120 1142 "plugins/xml/doubleTypeInference.ml" 18 1120 1144
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 20 1148 1152 "plugins/xml/doubleTypeInference.ml" 20 1148 1157
+type(
+  Names.constant
+)
+ident(
+  def cprop "plugins/xml/doubleTypeInference.ml" 29 1319 1319 --
+)
+"plugins/xml/doubleTypeInference.ml" 22 1185 1187 "plugins/xml/doubleTypeInference.ml" 22 1185 1197
+type(
+  N.module_path -> N.dir_path -> N.label -> Names.constant
+)
+ident(
+  ext_ref N.make_con
+)
+"plugins/xml/doubleTypeInference.ml" 24 1211 1217 "plugins/xml/doubleTypeInference.ml" 24 1211 1243
+type(
+  string -> N.dir_path
+)
+ident(
+  ext_ref Libnames.dirpath_of_string
+)
+"plugins/xml/doubleTypeInference.ml" 24 1211 1244 "plugins/xml/doubleTypeInference.ml" 24 1211 1265
+type(
+  string
+)
+"plugins/xml/doubleTypeInference.ml" 24 1211 1216 "plugins/xml/doubleTypeInference.ml" 24 1211 1266
+call(
+  stack
+)
+type(
+  N.dir_path
+)
+"plugins/xml/doubleTypeInference.ml" 23 1198 1201 "plugins/xml/doubleTypeInference.ml" 24 1211 1267
+type(
+  N.module_path
+)
+"plugins/xml/doubleTypeInference.ml" 25 1268 1272 "plugins/xml/doubleTypeInference.ml" 25 1268 1286
+type(
+  N.module_ident list -> N.dir_path
+)
+ident(
+  ext_ref N.make_dirpath
+)
+"plugins/xml/doubleTypeInference.ml" 25 1268 1287 "plugins/xml/doubleTypeInference.ml" 25 1268 1289
+type(
+  N.module_ident list
+)
+"plugins/xml/doubleTypeInference.ml" 25 1268 1271 "plugins/xml/doubleTypeInference.ml" 25 1268 1290
+call(
+  stack
+)
+type(
+  N.dir_path
+)
+"plugins/xml/doubleTypeInference.ml" 26 1291 1295 "plugins/xml/doubleTypeInference.ml" 26 1291 1305
+type(
+  string -> N.label
+)
+ident(
+  ext_ref N.mk_label
+)
+"plugins/xml/doubleTypeInference.ml" 26 1291 1306 "plugins/xml/doubleTypeInference.ml" 26 1291 1313
+type(
+  string
+)
+"plugins/xml/doubleTypeInference.ml" 26 1291 1294 "plugins/xml/doubleTypeInference.ml" 26 1291 1314
+call(
+  stack
+)
+type(
+  N.label
+)
+"plugins/xml/doubleTypeInference.ml" 22 1185 1187 "plugins/xml/doubleTypeInference.ml" 26 1291 1314
+call(
+  stack
+)
+type(
+  Names.constant
+)
+"plugins/xml/doubleTypeInference.ml" 21 1160 1161 "plugins/xml/doubleTypeInference.ml" 26 1291 1314
+type(
+  Names.constant
+)
+"plugins/xml/doubleTypeInference.ml" 29 1319 1323 "plugins/xml/doubleTypeInference.ml" 29 1319 1345
+type(
+  Environ.env -> 'a -> Term.constr -> Term.constr
+)
+ident(
+  def whd_betadeltaiotacprop "plugins/xml/doubleTypeInference.ml" 45 1906 1906 --
+)
+"plugins/xml/doubleTypeInference.ml" 29 1319 1346 "plugins/xml/doubleTypeInference.ml" 29 1319 1349
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/doubleTypeInference.ml" 29 1319 1350 "plugins/xml/doubleTypeInference.ml" 35 1543 1599
+)
+"plugins/xml/doubleTypeInference.ml" 29 1319 1350 "plugins/xml/doubleTypeInference.ml" 29 1319 1359
+type(
+  'a
+)
+ident(
+  def _evar_map "plugins/xml/doubleTypeInference.ml" 29 1319 1360 "plugins/xml/doubleTypeInference.ml" 35 1543 1599
+)
+"plugins/xml/doubleTypeInference.ml" 29 1319 1360 "plugins/xml/doubleTypeInference.ml" 29 1319 1362
+type(
+  Term.constr
+)
+ident(
+  def ty "plugins/xml/doubleTypeInference.ml" 30 1365 1366 "plugins/xml/doubleTypeInference.ml" 35 1543 1599
+)
+"plugins/xml/doubleTypeInference.ml" 34 1482 1487 "plugins/xml/doubleTypeInference.ml" 34 1482 1492
+type(
+  CR.reds
+)
+ident(
+  def flags "plugins/xml/doubleTypeInference.ml" 35 1543 1544 "plugins/xml/doubleTypeInference.ml" 35 1543 1599
+)
+"plugins/xml/doubleTypeInference.ml" 34 1482 1495 "plugins/xml/doubleTypeInference.ml" 34 1482 1505
+type(
+  CR.reds -> CR.red_kind -> CR.reds
+)
+ident(
+  ext_ref CR.red_sub
+)
+"plugins/xml/doubleTypeInference.ml" 34 1482 1506 "plugins/xml/doubleTypeInference.ml" 34 1482 1521
+type(
+  C.RedFlags.reds
+)
+ident(
+  ext_ref C.betadeltaiota
+)
+"plugins/xml/doubleTypeInference.ml" 34 1482 1523 "plugins/xml/doubleTypeInference.ml" 34 1482 1532
+type(
+  Names.constant -> CR.red_kind
+)
+ident(
+  ext_ref CR.fCONST
+)
+"plugins/xml/doubleTypeInference.ml" 34 1482 1533 "plugins/xml/doubleTypeInference.ml" 34 1482 1538
+type(
+  Names.constant
+)
+ident(
+  int_ref cprop "plugins/xml/doubleTypeInference.ml" 20 1148 1152 "plugins/xml/doubleTypeInference.ml" 20 1148 1157
+)
+"plugins/xml/doubleTypeInference.ml" 34 1482 1522 "plugins/xml/doubleTypeInference.ml" 34 1482 1539
+call(
+  stack
+)
+type(
+  CR.red_kind
+)
+"plugins/xml/doubleTypeInference.ml" 34 1482 1495 "plugins/xml/doubleTypeInference.ml" 34 1482 1539
+call(
+  stack
+)
+type(
+  CR.reds
+)
+"plugins/xml/doubleTypeInference.ml" 35 1543 1544 "plugins/xml/doubleTypeInference.ml" 35 1543 1553
+type(
+  C.clos_infos -> C.fconstr -> Term.constr
+)
+ident(
+  ext_ref C.whd_val
+)
+"plugins/xml/doubleTypeInference.ml" 35 1543 1555 "plugins/xml/doubleTypeInference.ml" 35 1543 1574
+type(
+  ?evars:(Term.existential -> Term.constr option) ->
+  C.RedFlags.reds -> Environ.env -> C.clos_infos
+)
+ident(
+  ext_ref C.create_clos_infos
+)
+"plugins/xml/doubleTypeInference.ml" 35 1543 1575 "plugins/xml/doubleTypeInference.ml" 35 1543 1580
+type(
+  CR.reds
+)
+ident(
+  int_ref flags "plugins/xml/doubleTypeInference.ml" 34 1482 1487 "plugins/xml/doubleTypeInference.ml" 34 1482 1492
+)
+"plugins/xml/doubleTypeInference.ml" 35 1543 1581 "plugins/xml/doubleTypeInference.ml" 35 1543 1584
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 29 1319 1346 "plugins/xml/doubleTypeInference.ml" 29 1319 1349
+)
+"plugins/xml/doubleTypeInference.ml" 35 1543 1554 "plugins/xml/doubleTypeInference.ml" 35 1543 1585
+call(
+  stack
+)
+type(
+  C.clos_infos
+)
+"plugins/xml/doubleTypeInference.ml" 35 1543 1587 "plugins/xml/doubleTypeInference.ml" 35 1543 1595
+type(
+  Term.constr -> C.fconstr
+)
+ident(
+  ext_ref C.inject
+)
+"plugins/xml/doubleTypeInference.ml" 35 1543 1596 "plugins/xml/doubleTypeInference.ml" 35 1543 1598
+type(
+  Term.constr
+)
+ident(
+  int_ref ty "plugins/xml/doubleTypeInference.ml" 29 1319 1360 "plugins/xml/doubleTypeInference.ml" 29 1319 1362
+)
+"plugins/xml/doubleTypeInference.ml" 35 1543 1586 "plugins/xml/doubleTypeInference.ml" 35 1543 1599
+call(
+  stack
+)
+type(
+  C.fconstr
+)
+"plugins/xml/doubleTypeInference.ml" 35 1543 1544 "plugins/xml/doubleTypeInference.ml" 35 1543 1599
+call(
+  tail
+)
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 34 1482 1483 "plugins/xml/doubleTypeInference.ml" 35 1543 1599
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 32 1419 1420 "plugins/xml/doubleTypeInference.ml" 35 1543 1599
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 31 1392 1393 "plugins/xml/doubleTypeInference.ml" 35 1543 1599
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 30 1365 1366 "plugins/xml/doubleTypeInference.ml" 35 1543 1599
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 45 1906 1910 "plugins/xml/doubleTypeInference.ml" 45 1906 1932
+type(
+  Environ.env -> Evd.evar_map -> Environ.unsafe_judgment -> Term.types
+)
+ident(
+  def assumption_of_judgment "plugins/xml/doubleTypeInference.ml" 49 2017 2017 --
+)
+"plugins/xml/doubleTypeInference.ml" 45 1906 1933 "plugins/xml/doubleTypeInference.ml" 45 1906 1936
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/doubleTypeInference.ml" 45 1906 1937 "plugins/xml/doubleTypeInference.ml" 46 1947 2012
+)
+"plugins/xml/doubleTypeInference.ml" 45 1906 1937 "plugins/xml/doubleTypeInference.ml" 45 1906 1942
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/doubleTypeInference.ml" 45 1906 1943 "plugins/xml/doubleTypeInference.ml" 46 1947 2012
+)
+"plugins/xml/doubleTypeInference.ml" 45 1906 1943 "plugins/xml/doubleTypeInference.ml" 45 1906 1944
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  def j "plugins/xml/doubleTypeInference.ml" 46 1947 1949 "plugins/xml/doubleTypeInference.ml" 46 1947 2012
+)
+"plugins/xml/doubleTypeInference.ml" 46 1947 1949 "plugins/xml/doubleTypeInference.ml" 46 1947 1979
+type(
+  Environ.env -> Environ.unsafe_judgment -> Term.types
+)
+ident(
+  ext_ref Typeops.assumption_of_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 46 1947 1980 "plugins/xml/doubleTypeInference.ml" 46 1947 1983
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 45 1906 1933 "plugins/xml/doubleTypeInference.ml" 45 1906 1936
+)
+"plugins/xml/doubleTypeInference.ml" 46 1947 1985 "plugins/xml/doubleTypeInference.ml" 46 1947 2003
+type(
+  Evd.evar_map -> Environ.unsafe_judgment -> Environ.unsafe_judgment
+)
+ident(
+  ext_ref Evarutil.j_nf_evar
+)
+"plugins/xml/doubleTypeInference.ml" 46 1947 2004 "plugins/xml/doubleTypeInference.ml" 46 1947 2009
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 45 1906 1937 "plugins/xml/doubleTypeInference.ml" 45 1906 1942
+)
+"plugins/xml/doubleTypeInference.ml" 46 1947 2010 "plugins/xml/doubleTypeInference.ml" 46 1947 2011
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 45 1906 1943 "plugins/xml/doubleTypeInference.ml" 45 1906 1944
+)
+"plugins/xml/doubleTypeInference.ml" 46 1947 1984 "plugins/xml/doubleTypeInference.ml" 46 1947 2012
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 46 1947 1949 "plugins/xml/doubleTypeInference.ml" 46 1947 2012
+call(
+  tail
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 49 2017 2021 "plugins/xml/doubleTypeInference.ml" 49 2017 2034
+type(
+  Environ.env ->
+  Evd.evar_map -> Environ.unsafe_judgment -> Environ.unsafe_type_judgment
+)
+ident(
+  def type_judgment "plugins/xml/doubleTypeInference.ml" 53 2110 2110 --
+)
+"plugins/xml/doubleTypeInference.ml" 49 2017 2035 "plugins/xml/doubleTypeInference.ml" 49 2017 2038
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/doubleTypeInference.ml" 49 2017 2039 "plugins/xml/doubleTypeInference.ml" 50 2049 2105
+)
+"plugins/xml/doubleTypeInference.ml" 49 2017 2039 "plugins/xml/doubleTypeInference.ml" 49 2017 2044
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/doubleTypeInference.ml" 49 2017 2045 "plugins/xml/doubleTypeInference.ml" 50 2049 2105
+)
+"plugins/xml/doubleTypeInference.ml" 49 2017 2045 "plugins/xml/doubleTypeInference.ml" 49 2017 2046
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  def j "plugins/xml/doubleTypeInference.ml" 50 2049 2051 "plugins/xml/doubleTypeInference.ml" 50 2049 2105
+)
+"plugins/xml/doubleTypeInference.ml" 50 2049 2051 "plugins/xml/doubleTypeInference.ml" 50 2049 2072
+type(
+  Environ.env -> Environ.unsafe_judgment -> Environ.unsafe_type_judgment
+)
+ident(
+  ext_ref Typeops.type_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 50 2049 2073 "plugins/xml/doubleTypeInference.ml" 50 2049 2076
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 49 2017 2035 "plugins/xml/doubleTypeInference.ml" 49 2017 2038
+)
+"plugins/xml/doubleTypeInference.ml" 50 2049 2078 "plugins/xml/doubleTypeInference.ml" 50 2049 2096
+type(
+  Evd.evar_map -> Environ.unsafe_judgment -> Environ.unsafe_judgment
+)
+ident(
+  ext_ref Evarutil.j_nf_evar
+)
+"plugins/xml/doubleTypeInference.ml" 50 2049 2097 "plugins/xml/doubleTypeInference.ml" 50 2049 2102
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 49 2017 2039 "plugins/xml/doubleTypeInference.ml" 49 2017 2044
+)
+"plugins/xml/doubleTypeInference.ml" 50 2049 2103 "plugins/xml/doubleTypeInference.ml" 50 2049 2104
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 49 2017 2045 "plugins/xml/doubleTypeInference.ml" 49 2017 2046
+)
+"plugins/xml/doubleTypeInference.ml" 50 2049 2077 "plugins/xml/doubleTypeInference.ml" 50 2049 2105
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 50 2049 2051 "plugins/xml/doubleTypeInference.ml" 50 2049 2105
+call(
+  tail
+)
+type(
+  Environ.unsafe_type_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 53 2110 2114 "plugins/xml/doubleTypeInference.ml" 53 2110 2133
+type(
+  Environ.env ->
+  'a -> Environ.unsafe_judgment -> Environ.unsafe_type_judgment option
+)
+ident(
+  def type_judgment_cprop "plugins/xml/doubleTypeInference.ml" 59 2374 2374 --
+)
+"plugins/xml/doubleTypeInference.ml" 53 2110 2134 "plugins/xml/doubleTypeInference.ml" 53 2110 2137
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/doubleTypeInference.ml" 53 2110 2138 "plugins/xml/doubleTypeInference.ml" 56 2317 2332
+)
+"plugins/xml/doubleTypeInference.ml" 53 2110 2138 "plugins/xml/doubleTypeInference.ml" 53 2110 2143
+type(
+  'a
+)
+ident(
+  def sigma "plugins/xml/doubleTypeInference.ml" 53 2110 2144 "plugins/xml/doubleTypeInference.ml" 56 2317 2332
+)
+"plugins/xml/doubleTypeInference.ml" 53 2110 2144 "plugins/xml/doubleTypeInference.ml" 53 2110 2145
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  def j "plugins/xml/doubleTypeInference.ml" 54 2148 2150 "plugins/xml/doubleTypeInference.ml" 56 2317 2332
+)
+"plugins/xml/doubleTypeInference.ml" 54 2148 2156 "plugins/xml/doubleTypeInference.ml" 54 2148 2173
+type(
+  Term.constr -> (Term.constr, Term.types) Term.kind_of_term
+)
+ident(
+  ext_ref Term.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 54 2148 2174 "plugins/xml/doubleTypeInference.ml" 54 2148 2196
+type(
+  Environ.env -> 'a -> Term.types -> Term.constr
+)
+ident(
+  int_ref whd_betadeltaiotacprop "plugins/xml/doubleTypeInference.ml" 29 1319 1323 "plugins/xml/doubleTypeInference.ml" 29 1319 1345
+)
+"plugins/xml/doubleTypeInference.ml" 54 2148 2197 "plugins/xml/doubleTypeInference.ml" 54 2148 2200
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 53 2110 2134 "plugins/xml/doubleTypeInference.ml" 53 2110 2137
+)
+"plugins/xml/doubleTypeInference.ml" 54 2148 2201 "plugins/xml/doubleTypeInference.ml" 54 2148 2206
+type(
+  'a
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 53 2110 2138 "plugins/xml/doubleTypeInference.ml" 53 2110 2143
+)
+"plugins/xml/doubleTypeInference.ml" 54 2148 2207 "plugins/xml/doubleTypeInference.ml" 54 2148 2208
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 53 2110 2144 "plugins/xml/doubleTypeInference.ml" 53 2110 2145
+)
+"plugins/xml/doubleTypeInference.ml" 54 2148 2207 "plugins/xml/doubleTypeInference.ml" 54 2148 2224
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 54 2148 2173 "plugins/xml/doubleTypeInference.ml" 54 2148 2225
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 54 2148 2156 "plugins/xml/doubleTypeInference.ml" 54 2148 2225
+call(
+  stack
+)
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 55 2231 2247 "plugins/xml/doubleTypeInference.ml" 55 2231 2248
+type(
+  Term.sorts
+)
+ident(
+  def s "plugins/xml/doubleTypeInference.ml" 55 2231 2252 "plugins/xml/doubleTypeInference.ml" 55 2231 2316
+)
+"plugins/xml/doubleTypeInference.ml" 55 2231 2237 "plugins/xml/doubleTypeInference.ml" 55 2231 2248
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 55 2231 2276 "plugins/xml/doubleTypeInference.ml" 55 2231 2277
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 53 2110 2144 "plugins/xml/doubleTypeInference.ml" 53 2110 2145
+)
+"plugins/xml/doubleTypeInference.ml" 55 2231 2276 "plugins/xml/doubleTypeInference.ml" 55 2231 2292
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 55 2231 2313 "plugins/xml/doubleTypeInference.ml" 55 2231 2314
+type(
+  Term.sorts
+)
+ident(
+  int_ref s "plugins/xml/doubleTypeInference.ml" 55 2231 2247 "plugins/xml/doubleTypeInference.ml" 55 2231 2248
+)
+"plugins/xml/doubleTypeInference.ml" 55 2231 2257 "plugins/xml/doubleTypeInference.ml" 55 2231 2316
+type(
+  Environ.unsafe_type_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 55 2231 2252 "plugins/xml/doubleTypeInference.ml" 55 2231 2316
+type(
+  Environ.unsafe_type_judgment option
+)
+"plugins/xml/doubleTypeInference.ml" 56 2317 2323 "plugins/xml/doubleTypeInference.ml" 56 2317 2324
+type(
+  (Term.constr, Term.types) Term.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 56 2317 2328 "plugins/xml/doubleTypeInference.ml" 56 2317 2332
+type(
+  Environ.unsafe_type_judgment option
+)
+"plugins/xml/doubleTypeInference.ml" 54 2148 2150 "plugins/xml/doubleTypeInference.ml" 56 2317 2332
+type(
+  Environ.unsafe_type_judgment option
+)
+"plugins/xml/doubleTypeInference.ml" 59 2374 2378 "plugins/xml/doubleTypeInference.ml" 59 2374 2392
+type(
+  Environ.env ->
+  Evd.evar_map ->
+  Term.types -> Term.types option -> types Acic.CicHash.t -> unit
+)
+ident(
+  def double_type_of "plugins/xml/doubleTypeInference.ml" 271 10758 10801 --
+)
+"plugins/xml/doubleTypeInference.ml" 59 2374 2393 "plugins/xml/doubleTypeInference.ml" 59 2374 2396
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/doubleTypeInference.ml" 59 2374 2397 "plugins/xml/doubleTypeInference.ml" 271 10758 10801
+)
+"plugins/xml/doubleTypeInference.ml" 59 2374 2397 "plugins/xml/doubleTypeInference.ml" 59 2374 2402
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/doubleTypeInference.ml" 59 2374 2403 "plugins/xml/doubleTypeInference.ml" 271 10758 10801
+)
+"plugins/xml/doubleTypeInference.ml" 59 2374 2403 "plugins/xml/doubleTypeInference.ml" 59 2374 2407
+type(
+  Term.types
+)
+ident(
+  def cstr "plugins/xml/doubleTypeInference.ml" 59 2374 2408 "plugins/xml/doubleTypeInference.ml" 271 10758 10801
+)
+"plugins/xml/doubleTypeInference.ml" 59 2374 2408 "plugins/xml/doubleTypeInference.ml" 59 2374 2418
+type(
+  Term.types option
+)
+ident(
+  def expectedty "plugins/xml/doubleTypeInference.ml" 59 2374 2419 "plugins/xml/doubleTypeInference.ml" 271 10758 10801
+)
+"plugins/xml/doubleTypeInference.ml" 59 2374 2419 "plugins/xml/doubleTypeInference.ml" 59 2374 2436
+type(
+  types Acic.CicHash.t
+)
+ident(
+  def subterms_to_types "plugins/xml/doubleTypeInference.ml" 63 2673 2674 "plugins/xml/doubleTypeInference.ml" 271 10758 10801
+)
+"plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+)
+"plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2700 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+)
+"plugins/xml/doubleTypeInference.ml" 63 2673 2700 "plugins/xml/doubleTypeInference.ml" 63 2673 2704
+type(
+  Term.types
+)
+ident(
+  def cstr "plugins/xml/doubleTypeInference.ml" 63 2673 2705 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+)
+"plugins/xml/doubleTypeInference.ml" 63 2673 2705 "plugins/xml/doubleTypeInference.ml" 63 2673 2715
+type(
+  Term.types option
+)
+ident(
+  def expectedty "plugins/xml/doubleTypeInference.ml" 64 2718 2720 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+)
+"plugins/xml/doubleTypeInference.ml" 67 2818 2825 "plugins/xml/doubleTypeInference.ml" 67 2818 2834
+type(
+  E.unsafe_judgment
+)
+ident(
+  def judgement "plugins/xml/doubleTypeInference.ml" 223 8876 8881 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+)
+"plugins/xml/doubleTypeInference.ml" 68 2837 2847 "plugins/xml/doubleTypeInference.ml" 68 2837 2861
+type(
+  Term.types -> (Term.types, Term.types) T.kind_of_term
+)
+ident(
+  ext_ref T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 68 2837 2862 "plugins/xml/doubleTypeInference.ml" 68 2837 2866
+type(
+  Term.types
+)
+ident(
+  int_ref cstr "plugins/xml/doubleTypeInference.ml" 63 2673 2700 "plugins/xml/doubleTypeInference.ml" 63 2673 2704
+)
+"plugins/xml/doubleTypeInference.ml" 68 2837 2847 "plugins/xml/doubleTypeInference.ml" 68 2837 2866
+call(
+  stack
+)
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 69 2872 2886 "plugins/xml/doubleTypeInference.ml" 69 2872 2887
+type(
+  T.metavariable
+)
+ident(
+  def n "plugins/xml/doubleTypeInference.ml" 70 2891 2899 "plugins/xml/doubleTypeInference.ml" 71 2910 2986
+)
+"plugins/xml/doubleTypeInference.ml" 69 2872 2879 "plugins/xml/doubleTypeInference.ml" 69 2872 2887
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 70 2891 2899 "plugins/xml/doubleTypeInference.ml" 70 2891 2909
+type(
+  string -> E.unsafe_judgment
+)
+ident(
+  ext_ref Util.error
+)
+"plugins/xml/doubleTypeInference.ml" 71 2910 2919 "plugins/xml/doubleTypeInference.ml" 71 2910 2986
+type(
+  string
+)
+"plugins/xml/doubleTypeInference.ml" 70 2891 2899 "plugins/xml/doubleTypeInference.ml" 71 2910 2986
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 73 2988 3004 "plugins/xml/doubleTypeInference.ml" 73 2988 3005
+type(
+  T.existential_key
+)
+ident(
+  def n "plugins/xml/doubleTypeInference.ml" 74 3019 3027 "plugins/xml/doubleTypeInference.ml" 98 4074 4105
+)
+"plugins/xml/doubleTypeInference.ml" 73 2988 3006 "plugins/xml/doubleTypeInference.ml" 73 2988 3007
+type(
+  Term.types array
+)
+ident(
+  def l "plugins/xml/doubleTypeInference.ml" 74 3019 3027 "plugins/xml/doubleTypeInference.ml" 98 4074 4105
+)
+"plugins/xml/doubleTypeInference.ml" 73 2988 3003 "plugins/xml/doubleTypeInference.ml" 73 2988 3008
+type(
+  Term.types T.pexistential
+)
+"plugins/xml/doubleTypeInference.ml" 73 2988 3002 "plugins/xml/doubleTypeInference.ml" 73 2988 3015
+type(
+  Term.types T.pexistential
+)
+ident(
+  def ev "plugins/xml/doubleTypeInference.ml" 74 3019 3027 "plugins/xml/doubleTypeInference.ml" 98 4074 4105
+)
+"plugins/xml/doubleTypeInference.ml" 73 2988 2995 "plugins/xml/doubleTypeInference.ml" 73 2988 3015
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 74 3019 3031 "plugins/xml/doubleTypeInference.ml" 74 3019 3033
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 74 3019 3036 "plugins/xml/doubleTypeInference.ml" 74 3019 3051
+type(
+  ?already_unshared:(Term.types -> bool) -> Term.types -> Term.types
+)
+ident(
+  ext_ref Unshare.unshare
+)
+"plugins/xml/doubleTypeInference.ml" 74 3019 3053 "plugins/xml/doubleTypeInference.ml" 74 3019 3073
+type(
+  Evd.evar_map -> Term.existential -> Term.types
+)
+ident(
+  ext_ref Evd.existential_type
+)
+"plugins/xml/doubleTypeInference.ml" 74 3019 3074 "plugins/xml/doubleTypeInference.ml" 74 3019 3079
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 74 3019 3080 "plugins/xml/doubleTypeInference.ml" 74 3019 3082
+type(
+  Term.existential
+)
+ident(
+  int_ref ev "plugins/xml/doubleTypeInference.ml" 73 2988 3002 "plugins/xml/doubleTypeInference.ml" 73 2988 3015
+)
+"plugins/xml/doubleTypeInference.ml" 74 3019 3052 "plugins/xml/doubleTypeInference.ml" 74 3019 3083
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 74 3019 3036 "plugins/xml/doubleTypeInference.ml" 74 3019 3083
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 75 3087 3099 "plugins/xml/doubleTypeInference.ml" 75 3087 3102
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 75 3087 3105 "plugins/xml/doubleTypeInference.ml" 75 3087 3112
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 75 3087 3113 "plugins/xml/doubleTypeInference.ml" 75 3087 3116
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 75 3087 3117 "plugins/xml/doubleTypeInference.ml" 75 3087 3122
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 75 3087 3123 "plugins/xml/doubleTypeInference.ml" 75 3087 3125
+type(
+  Term.types
+)
+ident(
+  int_ref ty "plugins/xml/doubleTypeInference.ml" 74 3019 3031 "plugins/xml/doubleTypeInference.ml" 74 3019 3033
+)
+"plugins/xml/doubleTypeInference.ml" 75 3087 3126 "plugins/xml/doubleTypeInference.ml" 75 3087 3130
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 75 3087 3105 "plugins/xml/doubleTypeInference.ml" 75 3087 3130
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 76 3134 3146 "plugins/xml/doubleTypeInference.ml" 76 3134 3149
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 76 3134 3152 "plugins/xml/doubleTypeInference.ml" 76 3134 3174
+type(
+  Environ.env -> Evd.evar_map -> Environ.unsafe_judgment -> Term.types
+)
+ident(
+  int_ref assumption_of_judgment "plugins/xml/doubleTypeInference.ml" 45 1906 1910 "plugins/xml/doubleTypeInference.ml" 45 1906 1932
+)
+"plugins/xml/doubleTypeInference.ml" 76 3134 3175 "plugins/xml/doubleTypeInference.ml" 76 3134 3178
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 76 3134 3179 "plugins/xml/doubleTypeInference.ml" 76 3134 3184
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 76 3134 3185 "plugins/xml/doubleTypeInference.ml" 76 3134 3188
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref jty "plugins/xml/doubleTypeInference.ml" 75 3087 3099 "plugins/xml/doubleTypeInference.ml" 75 3087 3102
+)
+"plugins/xml/doubleTypeInference.ml" 76 3134 3152 "plugins/xml/doubleTypeInference.ml" 76 3134 3188
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 77 3192 3204 "plugins/xml/doubleTypeInference.ml" 77 3192 3216
+type(
+  Sign.named_context
+)
+"plugins/xml/doubleTypeInference.ml" 78 3219 3222 "plugins/xml/doubleTypeInference.ml" 78 3219 3244
+type(
+  E.named_context_val -> Sign.named_context
+)
+ident(
+  ext_ref E.named_context_of_val
+)
+"plugins/xml/doubleTypeInference.ml" 78 3219 3246 "plugins/xml/doubleTypeInference.ml" 78 3219 3254
+type(
+  Evd.evar_map -> Evd.evar -> Evd.evar_info
+)
+ident(
+  ext_ref Evd.find
+)
+"plugins/xml/doubleTypeInference.ml" 78 3219 3255 "plugins/xml/doubleTypeInference.ml" 78 3219 3260
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 78 3219 3261 "plugins/xml/doubleTypeInference.ml" 78 3219 3262
+type(
+  T.existential_key
+)
+ident(
+  int_ref n "plugins/xml/doubleTypeInference.ml" 73 2988 3004 "plugins/xml/doubleTypeInference.ml" 73 2988 3005
+)
+"plugins/xml/doubleTypeInference.ml" 78 3219 3245 "plugins/xml/doubleTypeInference.ml" 78 3219 3263
+call(
+  stack
+)
+type(
+  Evd.evar_info
+)
+"plugins/xml/doubleTypeInference.ml" 78 3219 3245 "plugins/xml/doubleTypeInference.ml" 78 3219 3277
+type(
+  E.named_context_val
+)
+"plugins/xml/doubleTypeInference.ml" 78 3219 3222 "plugins/xml/doubleTypeInference.ml" 78 3219 3277
+call(
+  stack
+)
+type(
+  Sign.named_context
+)
+"plugins/xml/doubleTypeInference.ml" 79 3281 3298 "plugins/xml/doubleTypeInference.ml" 79 3281 3302
+type(
+  Term.types list -> (Names.identifier * 'a * Term.types) list -> unit
+)
+"plugins/xml/doubleTypeInference.ml" 79 3281 3303 "plugins/xml/doubleTypeInference.ml" 79 3281 3314
+type(
+  Term.types list
+)
+ident(
+  def actual_args "plugins/xml/doubleTypeInference.ml" 79 3281 3315 "plugins/xml/doubleTypeInference.ml" 94 3921 3953
+)
+"plugins/xml/doubleTypeInference.ml" 79 3281 3315 "plugins/xml/doubleTypeInference.ml" 79 3281 3327
+type(
+  (Names.identifier * 'a * Term.types) list
+)
+ident(
+  def evar_context "plugins/xml/doubleTypeInference.ml" 80 3330 3340 "plugins/xml/doubleTypeInference.ml" 94 3921 3953
+)
+"plugins/xml/doubleTypeInference.ml" 80 3330 3346 "plugins/xml/doubleTypeInference.ml" 80 3330 3357
+type(
+  Term.types list
+)
+ident(
+  int_ref actual_args "plugins/xml/doubleTypeInference.ml" 79 3281 3303 "plugins/xml/doubleTypeInference.ml" 79 3281 3314
+)
+"plugins/xml/doubleTypeInference.ml" 80 3330 3358 "plugins/xml/doubleTypeInference.ml" 80 3330 3370
+type(
+  (Names.identifier * 'a * Term.types) list
+)
+ident(
+  int_ref evar_context "plugins/xml/doubleTypeInference.ml" 79 3281 3315 "plugins/xml/doubleTypeInference.ml" 79 3281 3327
+)
+"plugins/xml/doubleTypeInference.ml" 80 3330 3346 "plugins/xml/doubleTypeInference.ml" 80 3330 3370
+type(
+  Term.types list * (Names.identifier * 'a * Term.types) list
+)
+"plugins/xml/doubleTypeInference.ml" 81 3376 3389 "plugins/xml/doubleTypeInference.ml" 81 3376 3391
+type(
+  Term.types list
+)
+"plugins/xml/doubleTypeInference.ml" 81 3376 3392 "plugins/xml/doubleTypeInference.ml" 81 3376 3394
+type(
+  (Names.identifier * 'a * Term.types) list
+)
+"plugins/xml/doubleTypeInference.ml" 81 3376 3389 "plugins/xml/doubleTypeInference.ml" 81 3376 3394
+type(
+  Term.types list * (Names.identifier * 'a * Term.types) list
+)
+"plugins/xml/doubleTypeInference.ml" 81 3376 3398 "plugins/xml/doubleTypeInference.ml" 81 3376 3400
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 82 3401 3414 "plugins/xml/doubleTypeInference.ml" 82 3401 3417
+type(
+  Term.types
+)
+ident(
+  def he1 "plugins/xml/doubleTypeInference.ml" 84 3477 3491 "plugins/xml/doubleTypeInference.ml" 93 3892 3920
+)
+"plugins/xml/doubleTypeInference.ml" 82 3401 3419 "plugins/xml/doubleTypeInference.ml" 82 3401 3422
+type(
+  Term.types list
+)
+ident(
+  def tl1 "plugins/xml/doubleTypeInference.ml" 84 3477 3491 "plugins/xml/doubleTypeInference.ml" 93 3892 3920
+)
+"plugins/xml/doubleTypeInference.ml" 82 3401 3414 "plugins/xml/doubleTypeInference.ml" 82 3401 3422
+type(
+  Term.types list
+)
+"plugins/xml/doubleTypeInference.ml" 82 3401 3424 "plugins/xml/doubleTypeInference.ml" 82 3401 3425
+type(
+  Names.identifier
+)
+ident(
+  def n "plugins/xml/doubleTypeInference.ml" 84 3477 3491 "plugins/xml/doubleTypeInference.ml" 93 3892 3920
+)
+"plugins/xml/doubleTypeInference.ml" 82 3401 3426 "plugins/xml/doubleTypeInference.ml" 82 3401 3427
+type(
+  'a
+)
+"plugins/xml/doubleTypeInference.ml" 82 3401 3428 "plugins/xml/doubleTypeInference.ml" 82 3401 3430
+type(
+  Term.types
+)
+ident(
+  def ty "plugins/xml/doubleTypeInference.ml" 84 3477 3491 "plugins/xml/doubleTypeInference.ml" 93 3892 3920
+)
+"plugins/xml/doubleTypeInference.ml" 82 3401 3423 "plugins/xml/doubleTypeInference.ml" 82 3401 3431
+type(
+  Names.identifier * 'a * Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 82 3401 3433 "plugins/xml/doubleTypeInference.ml" 82 3401 3436
+type(
+  (Names.identifier * 'a * Term.types) list
+)
+ident(
+  def tl2 "plugins/xml/doubleTypeInference.ml" 84 3477 3491 "plugins/xml/doubleTypeInference.ml" 93 3892 3920
+)
+"plugins/xml/doubleTypeInference.ml" 82 3401 3423 "plugins/xml/doubleTypeInference.ml" 82 3401 3436
+type(
+  (Names.identifier * 'a * Term.types) list
+)
+"plugins/xml/doubleTypeInference.ml" 82 3401 3414 "plugins/xml/doubleTypeInference.ml" 82 3401 3436
+type(
+  Term.types list * (Names.identifier * 'a * Term.types) list
+)
+"plugins/xml/doubleTypeInference.ml" 84 3477 3495 "plugins/xml/doubleTypeInference.ml" 84 3477 3496
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 84 3477 3499 "plugins/xml/doubleTypeInference.ml" 84 3477 3506
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 84 3477 3507 "plugins/xml/doubleTypeInference.ml" 84 3477 3510
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 84 3477 3511 "plugins/xml/doubleTypeInference.ml" 84 3477 3516
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 84 3477 3517 "plugins/xml/doubleTypeInference.ml" 84 3477 3520
+type(
+  Term.types
+)
+ident(
+  int_ref he1 "plugins/xml/doubleTypeInference.ml" 82 3401 3414 "plugins/xml/doubleTypeInference.ml" 82 3401 3417
+)
+"plugins/xml/doubleTypeInference.ml" 84 3477 3527 "plugins/xml/doubleTypeInference.ml" 84 3477 3529
+type(
+  Term.types
+)
+ident(
+  int_ref ty "plugins/xml/doubleTypeInference.ml" 82 3401 3428 "plugins/xml/doubleTypeInference.ml" 82 3401 3430
+)
+"plugins/xml/doubleTypeInference.ml" 84 3477 3521 "plugins/xml/doubleTypeInference.ml" 84 3477 3530
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 84 3477 3499 "plugins/xml/doubleTypeInference.ml" 84 3477 3530
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 85 3534 3552 "plugins/xml/doubleTypeInference.ml" 85 3534 3556
+type(
+  (Names.identifier * 'a * T.constr) list
+)
+"plugins/xml/doubleTypeInference.ml" 86 3559 3574 "plugins/xml/doubleTypeInference.ml" 86 3559 3582
+type(
+  (Names.identifier * 'a * Term.types -> Names.identifier * 'a * T.constr) ->
+  (Names.identifier * 'a * Term.types) list ->
+  (Names.identifier * 'a * T.constr) list
+)
+ident(
+  ext_ref List.map
+)
+"plugins/xml/doubleTypeInference.ml" 87 3583 3610 "plugins/xml/doubleTypeInference.ml" 87 3583 3611
+type(
+  Names.identifier
+)
+ident(
+  def m "plugins/xml/doubleTypeInference.ml" 90 3784 3802 "plugins/xml/doubleTypeInference.ml" 90 3784 3852
+)
+"plugins/xml/doubleTypeInference.ml" 87 3583 3612 "plugins/xml/doubleTypeInference.ml" 87 3583 3614
+type(
+  'a
+)
+ident(
+  def bo "plugins/xml/doubleTypeInference.ml" 90 3784 3802 "plugins/xml/doubleTypeInference.ml" 90 3784 3852
+)
+"plugins/xml/doubleTypeInference.ml" 87 3583 3615 "plugins/xml/doubleTypeInference.ml" 87 3583 3617
+type(
+  Term.types
+)
+ident(
+  def ty "plugins/xml/doubleTypeInference.ml" 90 3784 3802 "plugins/xml/doubleTypeInference.ml" 90 3784 3852
+)
+"plugins/xml/doubleTypeInference.ml" 87 3583 3609 "plugins/xml/doubleTypeInference.ml" 87 3583 3618
+type(
+  Names.identifier * 'a * Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3803 "plugins/xml/doubleTypeInference.ml" 90 3784 3804
+type(
+  Names.identifier
+)
+ident(
+  int_ref m "plugins/xml/doubleTypeInference.ml" 87 3583 3610 "plugins/xml/doubleTypeInference.ml" 87 3583 3611
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3805 "plugins/xml/doubleTypeInference.ml" 90 3784 3807
+type(
+  'a
+)
+ident(
+  int_ref bo "plugins/xml/doubleTypeInference.ml" 87 3583 3612 "plugins/xml/doubleTypeInference.ml" 87 3583 3614
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3808 "plugins/xml/doubleTypeInference.ml" 90 3784 3823
+type(
+  ?already_unshared:(T.constr -> bool) -> T.constr -> T.constr
+)
+ident(
+  ext_ref Unshare.unshare
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3825 "plugins/xml/doubleTypeInference.ml" 90 3784 3839
+type(
+  (Names.identifier * Term.constr) list -> Term.types -> T.constr
+)
+ident(
+  ext_ref T.replace_vars
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3841 "plugins/xml/doubleTypeInference.ml" 90 3784 3842
+type(
+  Names.identifier
+)
+ident(
+  int_ref n "plugins/xml/doubleTypeInference.ml" 82 3401 3424 "plugins/xml/doubleTypeInference.ml" 82 3401 3425
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3843 "plugins/xml/doubleTypeInference.ml" 90 3784 3846
+type(
+  Term.types
+)
+ident(
+  int_ref he1 "plugins/xml/doubleTypeInference.ml" 82 3401 3414 "plugins/xml/doubleTypeInference.ml" 82 3401 3417
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3841 "plugins/xml/doubleTypeInference.ml" 90 3784 3846
+type(
+  Names.identifier * Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3840 "plugins/xml/doubleTypeInference.ml" 90 3784 3847
+type(
+  (Names.identifier * Term.constr) list
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3848 "plugins/xml/doubleTypeInference.ml" 90 3784 3850
+type(
+  Term.types
+)
+ident(
+  int_ref ty "plugins/xml/doubleTypeInference.ml" 87 3583 3615 "plugins/xml/doubleTypeInference.ml" 87 3583 3617
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3824 "plugins/xml/doubleTypeInference.ml" 90 3784 3851
+call(
+  stack
+)
+type(
+  T.constr
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3808 "plugins/xml/doubleTypeInference.ml" 90 3784 3851
+call(
+  stack
+)
+type(
+  T.constr
+)
+"plugins/xml/doubleTypeInference.ml" 90 3784 3802 "plugins/xml/doubleTypeInference.ml" 90 3784 3852
+type(
+  Names.identifier * 'a * T.constr
+)
+"plugins/xml/doubleTypeInference.ml" 87 3583 3599 "plugins/xml/doubleTypeInference.ml" 91 3853 3870
+type(
+  Names.identifier * 'a * Term.types -> Names.identifier * 'a * T.constr
+)
+"plugins/xml/doubleTypeInference.ml" 91 3853 3871 "plugins/xml/doubleTypeInference.ml" 91 3853 3874
+type(
+  (Names.identifier * 'a * Term.types) list
+)
+ident(
+  int_ref tl2 "plugins/xml/doubleTypeInference.ml" 82 3401 3433 "plugins/xml/doubleTypeInference.ml" 82 3401 3436
+)
+"plugins/xml/doubleTypeInference.ml" 86 3559 3574 "plugins/xml/doubleTypeInference.ml" 91 3853 3874
+call(
+  stack
+)
+type(
+  (Names.identifier * 'a * T.constr) list
+)
+"plugins/xml/doubleTypeInference.ml" 93 3892 3907 "plugins/xml/doubleTypeInference.ml" 93 3892 3911
+type(
+  Term.types list -> (Names.identifier * 'a * Term.types) list -> unit
+)
+ident(
+  int_ref iter "plugins/xml/doubleTypeInference.ml" 79 3281 3298 "plugins/xml/doubleTypeInference.ml" 79 3281 3302
+)
+"plugins/xml/doubleTypeInference.ml" 93 3892 3912 "plugins/xml/doubleTypeInference.ml" 93 3892 3915
+type(
+  Term.types list
+)
+ident(
+  int_ref tl1 "plugins/xml/doubleTypeInference.ml" 82 3401 3419 "plugins/xml/doubleTypeInference.ml" 82 3401 3422
+)
+"plugins/xml/doubleTypeInference.ml" 93 3892 3916 "plugins/xml/doubleTypeInference.ml" 93 3892 3920
+type(
+  (Names.identifier * 'a * Term.types) list
+)
+ident(
+  int_ref tl2' "plugins/xml/doubleTypeInference.ml" 85 3534 3552 "plugins/xml/doubleTypeInference.ml" 85 3534 3556
+)
+"plugins/xml/doubleTypeInference.ml" 93 3892 3907 "plugins/xml/doubleTypeInference.ml" 93 3892 3920
+call(
+  tail
+)
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 85 3534 3548 "plugins/xml/doubleTypeInference.ml" 93 3892 3920
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 84 3477 3491 "plugins/xml/doubleTypeInference.ml" 93 3892 3920
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 94 3921 3934 "plugins/xml/doubleTypeInference.ml" 94 3921 3935
+type(
+  Term.types list
+)
+"plugins/xml/doubleTypeInference.ml" 94 3921 3936 "plugins/xml/doubleTypeInference.ml" 94 3921 3937
+type(
+  (Names.identifier * 'a * Term.types) list
+)
+"plugins/xml/doubleTypeInference.ml" 94 3921 3934 "plugins/xml/doubleTypeInference.ml" 94 3921 3937
+type(
+  Term.types list * (Names.identifier * 'a * Term.types) list
+)
+"plugins/xml/doubleTypeInference.ml" 94 3921 3941 "plugins/xml/doubleTypeInference.ml" 94 3921 3953
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 80 3330 3340 "plugins/xml/doubleTypeInference.ml" 94 3921 3953
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 97 4004 4014 "plugins/xml/doubleTypeInference.ml" 97 4004 4018
+type(
+  Term.types list -> Term.named_declaration list -> unit
+)
+ident(
+  int_ref iter "plugins/xml/doubleTypeInference.ml" 79 3281 3298 "plugins/xml/doubleTypeInference.ml" 79 3281 3302
+)
+"plugins/xml/doubleTypeInference.ml" 97 4004 4020 "plugins/xml/doubleTypeInference.ml" 97 4004 4028
+type(
+  Term.types list -> Term.types list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/xml/doubleTypeInference.ml" 97 4004 4030 "plugins/xml/doubleTypeInference.ml" 97 4004 4043
+type(
+  Term.types array -> Term.types list
+)
+ident(
+  ext_ref Array.to_list
+)
+"plugins/xml/doubleTypeInference.ml" 97 4004 4044 "plugins/xml/doubleTypeInference.ml" 97 4004 4045
+type(
+  Term.types array
+)
+ident(
+  int_ref l "plugins/xml/doubleTypeInference.ml" 73 2988 3006 "plugins/xml/doubleTypeInference.ml" 73 2988 3007
+)
+"plugins/xml/doubleTypeInference.ml" 97 4004 4029 "plugins/xml/doubleTypeInference.ml" 97 4004 4046
+call(
+  stack
+)
+type(
+  Term.types list
+)
+"plugins/xml/doubleTypeInference.ml" 97 4004 4019 "plugins/xml/doubleTypeInference.ml" 97 4004 4047
+call(
+  stack
+)
+type(
+  Term.types list
+)
+"plugins/xml/doubleTypeInference.ml" 97 4004 4049 "plugins/xml/doubleTypeInference.ml" 97 4004 4057
+type(
+  Sign.named_context -> Term.named_declaration list
+)
+ident(
+  ext_ref List.rev
+)
+"plugins/xml/doubleTypeInference.ml" 97 4004 4058 "plugins/xml/doubleTypeInference.ml" 97 4004 4070
+type(
+  Sign.named_context
+)
+ident(
+  int_ref evar_context "plugins/xml/doubleTypeInference.ml" 77 3192 3204 "plugins/xml/doubleTypeInference.ml" 77 3192 3216
+)
+"plugins/xml/doubleTypeInference.ml" 97 4004 4048 "plugins/xml/doubleTypeInference.ml" 97 4004 4071
+call(
+  stack
+)
+type(
+  Term.named_declaration list
+)
+"plugins/xml/doubleTypeInference.ml" 97 4004 4014 "plugins/xml/doubleTypeInference.ml" 97 4004 4071
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 98 4074 4084 "plugins/xml/doubleTypeInference.ml" 98 4074 4096
+type(
+  Term.types -> Term.types -> E.unsafe_judgment
+)
+ident(
+  ext_ref E.make_judge
+)
+"plugins/xml/doubleTypeInference.ml" 98 4074 4097 "plugins/xml/doubleTypeInference.ml" 98 4074 4101
+type(
+  Term.types
+)
+ident(
+  int_ref cstr "plugins/xml/doubleTypeInference.ml" 63 2673 2700 "plugins/xml/doubleTypeInference.ml" 63 2673 2704
+)
+"plugins/xml/doubleTypeInference.ml" 98 4074 4102 "plugins/xml/doubleTypeInference.ml" 98 4074 4105
+type(
+  Term.types
+)
+ident(
+  int_ref jty "plugins/xml/doubleTypeInference.ml" 76 3134 3146 "plugins/xml/doubleTypeInference.ml" 76 3134 3149
+)
+"plugins/xml/doubleTypeInference.ml" 98 4074 4084 "plugins/xml/doubleTypeInference.ml" 98 4074 4105
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 97 4004 4014 "plugins/xml/doubleTypeInference.ml" 98 4074 4105
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 79 3281 3290 "plugins/xml/doubleTypeInference.ml" 98 4074 4105
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 77 3192 3200 "plugins/xml/doubleTypeInference.ml" 98 4074 4105
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 76 3134 3142 "plugins/xml/doubleTypeInference.ml" 98 4074 4105
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 75 3087 3095 "plugins/xml/doubleTypeInference.ml" 98 4074 4105
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 74 3019 3027 "plugins/xml/doubleTypeInference.ml" 98 4074 4105
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 100 4107 4120 "plugins/xml/doubleTypeInference.ml" 100 4107 4121
+type(
+  int
+)
+ident(
+  def n "plugins/xml/doubleTypeInference.ml" 101 4125 4133 "plugins/xml/doubleTypeInference.ml" 101 4125 4164
+)
+"plugins/xml/doubleTypeInference.ml" 100 4107 4114 "plugins/xml/doubleTypeInference.ml" 100 4107 4121
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 101 4125 4133 "plugins/xml/doubleTypeInference.ml" 101 4125 4158
+type(
+  Environ.env -> int -> E.unsafe_judgment
+)
+ident(
+  ext_ref Typeops.judge_of_relative
+)
+"plugins/xml/doubleTypeInference.ml" 101 4125 4159 "plugins/xml/doubleTypeInference.ml" 101 4125 4162
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 101 4125 4163 "plugins/xml/doubleTypeInference.ml" 101 4125 4164
+type(
+  int
+)
+ident(
+  int_ref n "plugins/xml/doubleTypeInference.ml" 100 4107 4120 "plugins/xml/doubleTypeInference.ml" 100 4107 4121
+)
+"plugins/xml/doubleTypeInference.ml" 101 4125 4133 "plugins/xml/doubleTypeInference.ml" 101 4125 4164
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 103 4166 4179 "plugins/xml/doubleTypeInference.ml" 103 4166 4181
+type(
+  Names.variable
+)
+ident(
+  def id "plugins/xml/doubleTypeInference.ml" 104 4185 4193 "plugins/xml/doubleTypeInference.ml" 104 4185 4225
+)
+"plugins/xml/doubleTypeInference.ml" 103 4166 4173 "plugins/xml/doubleTypeInference.ml" 103 4166 4181
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 104 4185 4193 "plugins/xml/doubleTypeInference.ml" 104 4185 4218
+type(
+  Environ.env -> Names.variable -> E.unsafe_judgment
+)
+ident(
+  ext_ref Typeops.judge_of_variable
+)
+"plugins/xml/doubleTypeInference.ml" 104 4185 4219 "plugins/xml/doubleTypeInference.ml" 104 4185 4222
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 104 4185 4223 "plugins/xml/doubleTypeInference.ml" 104 4185 4225
+type(
+  Names.variable
+)
+ident(
+  int_ref id "plugins/xml/doubleTypeInference.ml" 103 4166 4179 "plugins/xml/doubleTypeInference.ml" 103 4166 4181
+)
+"plugins/xml/doubleTypeInference.ml" 104 4185 4193 "plugins/xml/doubleTypeInference.ml" 104 4185 4225
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 106 4227 4242 "plugins/xml/doubleTypeInference.ml" 106 4227 4243
+type(
+  Names.constant
+)
+ident(
+  def c "plugins/xml/doubleTypeInference.ml" 107 4247 4255 "plugins/xml/doubleTypeInference.ml" 107 4247 4305
+)
+"plugins/xml/doubleTypeInference.ml" 106 4227 4234 "plugins/xml/doubleTypeInference.ml" 106 4227 4243
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 107 4247 4255 "plugins/xml/doubleTypeInference.ml" 107 4247 4267
+type(
+  Term.types -> Term.types -> E.unsafe_judgment
+)
+ident(
+  ext_ref E.make_judge
+)
+"plugins/xml/doubleTypeInference.ml" 107 4247 4268 "plugins/xml/doubleTypeInference.ml" 107 4247 4272
+type(
+  Term.types
+)
+ident(
+  int_ref cstr "plugins/xml/doubleTypeInference.ml" 63 2673 2700 "plugins/xml/doubleTypeInference.ml" 63 2673 2704
+)
+"plugins/xml/doubleTypeInference.ml" 107 4247 4274 "plugins/xml/doubleTypeInference.ml" 107 4247 4298
+type(
+  Environ.env -> Names.constant -> Term.types
+)
+ident(
+  ext_ref Typeops.type_of_constant
+)
+"plugins/xml/doubleTypeInference.ml" 107 4247 4299 "plugins/xml/doubleTypeInference.ml" 107 4247 4302
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 107 4247 4303 "plugins/xml/doubleTypeInference.ml" 107 4247 4304
+type(
+  Names.constant
+)
+ident(
+  int_ref c "plugins/xml/doubleTypeInference.ml" 106 4227 4242 "plugins/xml/doubleTypeInference.ml" 106 4227 4243
+)
+"plugins/xml/doubleTypeInference.ml" 107 4247 4273 "plugins/xml/doubleTypeInference.ml" 107 4247 4305
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 107 4247 4255 "plugins/xml/doubleTypeInference.ml" 107 4247 4305
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 109 4307 4320 "plugins/xml/doubleTypeInference.ml" 109 4307 4323
+type(
+  Names.inductive
+)
+ident(
+  def ind "plugins/xml/doubleTypeInference.ml" 110 4327 4335 "plugins/xml/doubleTypeInference.ml" 110 4327 4393
+)
+"plugins/xml/doubleTypeInference.ml" 109 4307 4314 "plugins/xml/doubleTypeInference.ml" 109 4307 4323
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 110 4327 4335 "plugins/xml/doubleTypeInference.ml" 110 4327 4347
+type(
+  Term.types -> Term.types -> E.unsafe_judgment
+)
+ident(
+  ext_ref E.make_judge
+)
+"plugins/xml/doubleTypeInference.ml" 110 4327 4348 "plugins/xml/doubleTypeInference.ml" 110 4327 4352
+type(
+  Term.types
+)
+ident(
+  int_ref cstr "plugins/xml/doubleTypeInference.ml" 63 2673 2700 "plugins/xml/doubleTypeInference.ml" 63 2673 2704
+)
+"plugins/xml/doubleTypeInference.ml" 110 4327 4354 "plugins/xml/doubleTypeInference.ml" 110 4327 4384
+type(
+  Environ.env -> Names.inductive -> Term.types
+)
+ident(
+  ext_ref Inductiveops.type_of_inductive
+)
+"plugins/xml/doubleTypeInference.ml" 110 4327 4385 "plugins/xml/doubleTypeInference.ml" 110 4327 4388
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 110 4327 4389 "plugins/xml/doubleTypeInference.ml" 110 4327 4392
+type(
+  Names.inductive
+)
+ident(
+  int_ref ind "plugins/xml/doubleTypeInference.ml" 109 4307 4320 "plugins/xml/doubleTypeInference.ml" 109 4307 4323
+)
+"plugins/xml/doubleTypeInference.ml" 110 4327 4353 "plugins/xml/doubleTypeInference.ml" 110 4327 4393
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 110 4327 4335 "plugins/xml/doubleTypeInference.ml" 110 4327 4393
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 112 4395 4414 "plugins/xml/doubleTypeInference.ml" 112 4395 4421
+type(
+  Names.constructor
+)
+ident(
+  def cstruct "plugins/xml/doubleTypeInference.ml" 113 4425 4433 "plugins/xml/doubleTypeInference.ml" 113 4425 4497
+)
+"plugins/xml/doubleTypeInference.ml" 112 4395 4402 "plugins/xml/doubleTypeInference.ml" 112 4395 4421
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 113 4425 4433 "plugins/xml/doubleTypeInference.ml" 113 4425 4445
+type(
+  Term.types -> Term.types -> E.unsafe_judgment
+)
+ident(
+  ext_ref E.make_judge
+)
+"plugins/xml/doubleTypeInference.ml" 113 4425 4446 "plugins/xml/doubleTypeInference.ml" 113 4425 4450
+type(
+  Term.types
+)
+ident(
+  int_ref cstr "plugins/xml/doubleTypeInference.ml" 63 2673 2700 "plugins/xml/doubleTypeInference.ml" 63 2673 2704
+)
+"plugins/xml/doubleTypeInference.ml" 113 4425 4452 "plugins/xml/doubleTypeInference.ml" 113 4425 4484
+type(
+  Environ.env -> Names.constructor -> Term.types
+)
+ident(
+  ext_ref Inductiveops.type_of_constructor
+)
+"plugins/xml/doubleTypeInference.ml" 113 4425 4485 "plugins/xml/doubleTypeInference.ml" 113 4425 4488
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 113 4425 4489 "plugins/xml/doubleTypeInference.ml" 113 4425 4496
+type(
+  Names.constructor
+)
+ident(
+  int_ref cstruct "plugins/xml/doubleTypeInference.ml" 112 4395 4414 "plugins/xml/doubleTypeInference.ml" 112 4395 4421
+)
+"plugins/xml/doubleTypeInference.ml" 113 4425 4451 "plugins/xml/doubleTypeInference.ml" 113 4425 4497
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 113 4425 4433 "plugins/xml/doubleTypeInference.ml" 113 4425 4497
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 115 4499 4514 "plugins/xml/doubleTypeInference.ml" 115 4499 4516
+type(
+  T.case_info
+)
+ident(
+  def ci "plugins/xml/doubleTypeInference.ml" 116 4528 4536 "plugins/xml/doubleTypeInference.ml" 128 5106 5116
+)
+"plugins/xml/doubleTypeInference.ml" 115 4499 4517 "plugins/xml/doubleTypeInference.ml" 115 4499 4518
+type(
+  Term.types
+)
+ident(
+  def p "plugins/xml/doubleTypeInference.ml" 116 4528 4536 "plugins/xml/doubleTypeInference.ml" 128 5106 5116
+)
+"plugins/xml/doubleTypeInference.ml" 115 4499 4519 "plugins/xml/doubleTypeInference.ml" 115 4499 4520
+type(
+  Term.types
+)
+ident(
+  def c "plugins/xml/doubleTypeInference.ml" 116 4528 4536 "plugins/xml/doubleTypeInference.ml" 128 5106 5116
+)
+"plugins/xml/doubleTypeInference.ml" 115 4499 4521 "plugins/xml/doubleTypeInference.ml" 115 4499 4523
+type(
+  Term.types array
+)
+ident(
+  def lf "plugins/xml/doubleTypeInference.ml" 116 4528 4536 "plugins/xml/doubleTypeInference.ml" 128 5106 5116
+)
+"plugins/xml/doubleTypeInference.ml" 115 4499 4506 "plugins/xml/doubleTypeInference.ml" 115 4499 4524
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 116 4528 4540 "plugins/xml/doubleTypeInference.ml" 116 4528 4552
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 117 4555 4564 "plugins/xml/doubleTypeInference.ml" 117 4555 4591
+type(
+  Environ.env -> Term.types -> Term.constr
+)
+ident(
+  ext_ref Reduction.whd_betadeltaiota
+)
+"plugins/xml/doubleTypeInference.ml" 117 4555 4592 "plugins/xml/doubleTypeInference.ml" 117 4555 4595
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 117 4555 4597 "plugins/xml/doubleTypeInference.ml" 117 4555 4617
+type(
+  ?refresh:bool -> Environ.env -> Evd.evar_map -> Term.types -> Term.types
+)
+ident(
+  ext_ref Retyping.get_type_of
+)
+"plugins/xml/doubleTypeInference.ml" 117 4555 4618 "plugins/xml/doubleTypeInference.ml" 117 4555 4621
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 117 4555 4622 "plugins/xml/doubleTypeInference.ml" 117 4555 4627
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 117 4555 4628 "plugins/xml/doubleTypeInference.ml" 117 4555 4629
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/xml/doubleTypeInference.ml" 115 4499 4519 "plugins/xml/doubleTypeInference.ml" 115 4499 4520
+)
+"plugins/xml/doubleTypeInference.ml" 117 4555 4596 "plugins/xml/doubleTypeInference.ml" 117 4555 4630
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 117 4555 4564 "plugins/xml/doubleTypeInference.ml" 117 4555 4630
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 118 4634 4646 "plugins/xml/doubleTypeInference.ml" 118 4634 4648
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 118 4634 4651 "plugins/xml/doubleTypeInference.ml" 118 4634 4658
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 118 4634 4659 "plugins/xml/doubleTypeInference.ml" 118 4634 4662
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 118 4634 4663 "plugins/xml/doubleTypeInference.ml" 118 4634 4668
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 118 4634 4669 "plugins/xml/doubleTypeInference.ml" 118 4634 4670
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/xml/doubleTypeInference.ml" 115 4499 4519 "plugins/xml/doubleTypeInference.ml" 115 4499 4520
+)
+"plugins/xml/doubleTypeInference.ml" 118 4634 4677 "plugins/xml/doubleTypeInference.ml" 118 4634 4689
+type(
+  Term.types
+)
+ident(
+  int_ref expectedtype "plugins/xml/doubleTypeInference.ml" 116 4528 4540 "plugins/xml/doubleTypeInference.ml" 116 4528 4552
+)
+"plugins/xml/doubleTypeInference.ml" 118 4634 4671 "plugins/xml/doubleTypeInference.ml" 118 4634 4690
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 118 4634 4651 "plugins/xml/doubleTypeInference.ml" 118 4634 4690
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 119 4694 4706 "plugins/xml/doubleTypeInference.ml" 119 4694 4708
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 119 4694 4711 "plugins/xml/doubleTypeInference.ml" 119 4694 4718
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 119 4694 4719 "plugins/xml/doubleTypeInference.ml" 119 4694 4722
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 119 4694 4723 "plugins/xml/doubleTypeInference.ml" 119 4694 4728
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 119 4694 4729 "plugins/xml/doubleTypeInference.ml" 119 4694 4730
+type(
+  Term.types
+)
+ident(
+  int_ref p "plugins/xml/doubleTypeInference.ml" 115 4499 4517 "plugins/xml/doubleTypeInference.ml" 115 4499 4518
+)
+"plugins/xml/doubleTypeInference.ml" 119 4694 4731 "plugins/xml/doubleTypeInference.ml" 119 4694 4735
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 119 4694 4711 "plugins/xml/doubleTypeInference.ml" 119 4694 4735
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 120 4739 4752 "plugins/xml/doubleTypeInference.ml" 120 4739 4765
+type(
+  Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 120 4739 4766 "plugins/xml/doubleTypeInference.ml" 120 4739 4767
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 120 4739 4768 "plugins/xml/doubleTypeInference.ml" 120 4739 4769
+type(
+  Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 120 4739 4751 "plugins/xml/doubleTypeInference.ml" 120 4739 4770
+type(
+  Term.types array * Term.types * Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 121 4773 4786 "plugins/xml/doubleTypeInference.ml" 121 4773 4793
+type(
+  Names.inductive * Term.constr list
+)
+"plugins/xml/doubleTypeInference.ml" 121 4773 4796 "plugins/xml/doubleTypeInference.ml" 121 4773 4818
+type(
+  Environ.env -> Term.types -> Names.inductive * Term.constr list
+)
+ident(
+  ext_ref Inductive.find_rectype
+)
+"plugins/xml/doubleTypeInference.ml" 121 4773 4819 "plugins/xml/doubleTypeInference.ml" 121 4773 4822
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 121 4773 4823 "plugins/xml/doubleTypeInference.ml" 121 4773 4825
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref cj "plugins/xml/doubleTypeInference.ml" 118 4634 4646 "plugins/xml/doubleTypeInference.ml" 118 4634 4648
+)
+"plugins/xml/doubleTypeInference.ml" 121 4773 4823 "plugins/xml/doubleTypeInference.ml" 121 4773 4841
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 121 4773 4796 "plugins/xml/doubleTypeInference.ml" 121 4773 4841
+call(
+  stack
+)
+type(
+  Names.inductive * Term.constr list
+)
+"plugins/xml/doubleTypeInference.ml" 122 4845 4855 "plugins/xml/doubleTypeInference.ml" 122 4845 4883
+type(
+  Environ.env ->
+  Names.inductive * Term.constr list ->
+  Environ.unsafe_judgment ->
+  Term.constr -> Term.types array * Term.types * Univ.constraints
+)
+ident(
+  ext_ref Inductive.type_case_branches
+)
+"plugins/xml/doubleTypeInference.ml" 122 4845 4884 "plugins/xml/doubleTypeInference.ml" 122 4845 4887
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 122 4845 4888 "plugins/xml/doubleTypeInference.ml" 122 4845 4895
+type(
+  Names.inductive * Term.constr list
+)
+ident(
+  int_ref indspec "plugins/xml/doubleTypeInference.ml" 121 4773 4786 "plugins/xml/doubleTypeInference.ml" 121 4773 4793
+)
+"plugins/xml/doubleTypeInference.ml" 122 4845 4896 "plugins/xml/doubleTypeInference.ml" 122 4845 4898
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref pj "plugins/xml/doubleTypeInference.ml" 119 4694 4706 "plugins/xml/doubleTypeInference.ml" 119 4694 4708
+)
+"plugins/xml/doubleTypeInference.ml" 122 4845 4899 "plugins/xml/doubleTypeInference.ml" 122 4845 4901
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref cj "plugins/xml/doubleTypeInference.ml" 118 4634 4646 "plugins/xml/doubleTypeInference.ml" 118 4634 4648
+)
+"plugins/xml/doubleTypeInference.ml" 122 4845 4899 "plugins/xml/doubleTypeInference.ml" 122 4845 4916
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 122 4845 4855 "plugins/xml/doubleTypeInference.ml" 122 4845 4916
+call(
+  stack
+)
+type(
+  Term.types array * Term.types * Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 121 4773 4782 "plugins/xml/doubleTypeInference.ml" 122 4845 4916
+type(
+  Term.types array * Term.types * Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 124 4928 4940 "plugins/xml/doubleTypeInference.ml" 124 4928 4943
+type(
+  Environ.unsafe_judgment array
+)
+"plugins/xml/doubleTypeInference.ml" 125 4946 4955 "plugins/xml/doubleTypeInference.ml" 125 4946 4968
+type(
+  Environ.env ->
+  Evd.evar_map ->
+  Term.types array ->
+  Term.types option array -> Environ.unsafe_judgment array
+)
+ident(
+  int_ref execute_array "plugins/xml/doubleTypeInference.ml" 261 10530 10535 "plugins/xml/doubleTypeInference.ml" 261 10530 10548
+)
+"plugins/xml/doubleTypeInference.ml" 125 4946 4969 "plugins/xml/doubleTypeInference.ml" 125 4946 4972
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 125 4946 4973 "plugins/xml/doubleTypeInference.ml" 125 4946 4978
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 125 4946 4979 "plugins/xml/doubleTypeInference.ml" 125 4946 4981
+type(
+  Term.types array
+)
+ident(
+  int_ref lf "plugins/xml/doubleTypeInference.ml" 115 4499 4521 "plugins/xml/doubleTypeInference.ml" 115 4499 4523
+)
+"plugins/xml/doubleTypeInference.ml" 126 4982 4993 "plugins/xml/doubleTypeInference.ml" 126 4982 5002
+type(
+  (Term.types -> Term.types option) ->
+  Term.types array -> Term.types option array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/xml/doubleTypeInference.ml" 126 4982 5013 "plugins/xml/doubleTypeInference.ml" 126 4982 5014
+type(
+  Term.types
+)
+ident(
+  def x "plugins/xml/doubleTypeInference.ml" 126 4982 5018 "plugins/xml/doubleTypeInference.ml" 126 4982 5024
+)
+"plugins/xml/doubleTypeInference.ml" 126 4982 5023 "plugins/xml/doubleTypeInference.ml" 126 4982 5024
+type(
+  Term.types
+)
+ident(
+  int_ref x "plugins/xml/doubleTypeInference.ml" 126 4982 5013 "plugins/xml/doubleTypeInference.ml" 126 4982 5014
+)
+"plugins/xml/doubleTypeInference.ml" 126 4982 5018 "plugins/xml/doubleTypeInference.ml" 126 4982 5024
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 126 4982 5003 "plugins/xml/doubleTypeInference.ml" 126 4982 5025
+type(
+  Term.types -> Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 126 4982 5026 "plugins/xml/doubleTypeInference.ml" 126 4982 5039
+type(
+  Term.types array
+)
+ident(
+  int_ref expectedtypes "plugins/xml/doubleTypeInference.ml" 120 4739 4752 "plugins/xml/doubleTypeInference.ml" 120 4739 4765
+)
+"plugins/xml/doubleTypeInference.ml" 126 4982 4992 "plugins/xml/doubleTypeInference.ml" 126 4982 5040
+call(
+  stack
+)
+type(
+  Term.types option array
+)
+"plugins/xml/doubleTypeInference.ml" 125 4946 4955 "plugins/xml/doubleTypeInference.ml" 126 4982 5040
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment array
+)
+"plugins/xml/doubleTypeInference.ml" 127 5044 5057 "plugins/xml/doubleTypeInference.ml" 127 5044 5058
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 127 5044 5059 "plugins/xml/doubleTypeInference.ml" 127 5044 5060
+type(
+  Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 127 5044 5056 "plugins/xml/doubleTypeInference.ml" 127 5044 5061
+type(
+  Environ.unsafe_judgment * Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 127 5044 5064 "plugins/xml/doubleTypeInference.ml" 127 5044 5085
+type(
+  Environ.env ->
+  T.case_info ->
+  Environ.unsafe_judgment ->
+  Environ.unsafe_judgment ->
+  Environ.unsafe_judgment array -> Environ.unsafe_judgment * Univ.constraints
+)
+ident(
+  ext_ref Typeops.judge_of_case
+)
+"plugins/xml/doubleTypeInference.ml" 127 5044 5086 "plugins/xml/doubleTypeInference.ml" 127 5044 5089
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 127 5044 5090 "plugins/xml/doubleTypeInference.ml" 127 5044 5092
+type(
+  T.case_info
+)
+ident(
+  int_ref ci "plugins/xml/doubleTypeInference.ml" 115 4499 4514 "plugins/xml/doubleTypeInference.ml" 115 4499 4516
+)
+"plugins/xml/doubleTypeInference.ml" 127 5044 5093 "plugins/xml/doubleTypeInference.ml" 127 5044 5095
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref pj "plugins/xml/doubleTypeInference.ml" 119 4694 4706 "plugins/xml/doubleTypeInference.ml" 119 4694 4708
+)
+"plugins/xml/doubleTypeInference.ml" 127 5044 5096 "plugins/xml/doubleTypeInference.ml" 127 5044 5098
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref cj "plugins/xml/doubleTypeInference.ml" 118 4634 4646 "plugins/xml/doubleTypeInference.ml" 118 4634 4648
+)
+"plugins/xml/doubleTypeInference.ml" 127 5044 5099 "plugins/xml/doubleTypeInference.ml" 127 5044 5102
+type(
+  Environ.unsafe_judgment array
+)
+ident(
+  int_ref lfj "plugins/xml/doubleTypeInference.ml" 124 4928 4940 "plugins/xml/doubleTypeInference.ml" 124 4928 4943
+)
+"plugins/xml/doubleTypeInference.ml" 127 5044 5064 "plugins/xml/doubleTypeInference.ml" 127 5044 5102
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment * Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 128 5106 5115 "plugins/xml/doubleTypeInference.ml" 128 5106 5116
+type(
+  E.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 127 5044 5057 "plugins/xml/doubleTypeInference.ml" 127 5044 5058
+)
+"plugins/xml/doubleTypeInference.ml" 127 5044 5052 "plugins/xml/doubleTypeInference.ml" 128 5106 5116
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 124 4928 4936 "plugins/xml/doubleTypeInference.ml" 128 5106 5116
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 120 4739 4747 "plugins/xml/doubleTypeInference.ml" 128 5106 5116
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 119 4694 4702 "plugins/xml/doubleTypeInference.ml" 128 5106 5116
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 118 4634 4642 "plugins/xml/doubleTypeInference.ml" 128 5106 5116
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 116 4528 4536 "plugins/xml/doubleTypeInference.ml" 128 5106 5116
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 130 5118 5133 "plugins/xml/doubleTypeInference.ml" 130 5118 5135
+type(
+  int array
+)
+ident(
+  def vn "plugins/xml/doubleTypeInference.ml" 131 5157 5165 "plugins/xml/doubleTypeInference.ml" 133 5262 5304
+)
+"plugins/xml/doubleTypeInference.ml" 130 5118 5136 "plugins/xml/doubleTypeInference.ml" 130 5118 5137
+type(
+  int
+)
+ident(
+  def i "plugins/xml/doubleTypeInference.ml" 131 5157 5165 "plugins/xml/doubleTypeInference.ml" 133 5262 5304
+)
+"plugins/xml/doubleTypeInference.ml" 130 5118 5133 "plugins/xml/doubleTypeInference.ml" 130 5118 5137
+type(
+  int array * int
+)
+"plugins/xml/doubleTypeInference.ml" 130 5118 5132 "plugins/xml/doubleTypeInference.ml" 130 5118 5145
+type(
+  int array * int
+)
+ident(
+  def vni "plugins/xml/doubleTypeInference.ml" 131 5157 5165 "plugins/xml/doubleTypeInference.ml" 133 5262 5304
+)
+"plugins/xml/doubleTypeInference.ml" 130 5118 5146 "plugins/xml/doubleTypeInference.ml" 130 5118 5152
+type(
+  Names.name array * Term.types array * Term.types array
+)
+ident(
+  def recdef "plugins/xml/doubleTypeInference.ml" 131 5157 5165 "plugins/xml/doubleTypeInference.ml" 133 5262 5304
+)
+"plugins/xml/doubleTypeInference.ml" 130 5118 5131 "plugins/xml/doubleTypeInference.ml" 130 5118 5153
+type(
+  (Term.types, Term.types) T.pfixpoint
+)
+"plugins/xml/doubleTypeInference.ml" 130 5118 5125 "plugins/xml/doubleTypeInference.ml" 130 5118 5153
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 131 5157 5170 "plugins/xml/doubleTypeInference.ml" 131 5157 5171
+type(
+  Names.name array
+)
+"plugins/xml/doubleTypeInference.ml" 131 5157 5172 "plugins/xml/doubleTypeInference.ml" 131 5157 5175
+type(
+  Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 131 5157 5176 "plugins/xml/doubleTypeInference.ml" 131 5157 5177
+type(
+  Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 131 5157 5170 "plugins/xml/doubleTypeInference.ml" 131 5157 5177
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 131 5157 5169 "plugins/xml/doubleTypeInference.ml" 131 5157 5189
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 131 5157 5192 "plugins/xml/doubleTypeInference.ml" 131 5157 5206
+type(
+  Environ.env ->
+  Evd.evar_map ->
+  Names.name array * Term.types array * Term.types array ->
+  Names.name array * Term.types array * Term.types array
+)
+ident(
+  int_ref execute_recdef "plugins/xml/doubleTypeInference.ml" 248 10020 10025 "plugins/xml/doubleTypeInference.ml" 248 10020 10039
+)
+"plugins/xml/doubleTypeInference.ml" 131 5157 5207 "plugins/xml/doubleTypeInference.ml" 131 5157 5210
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 131 5157 5211 "plugins/xml/doubleTypeInference.ml" 131 5157 5216
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 131 5157 5217 "plugins/xml/doubleTypeInference.ml" 131 5157 5223
+type(
+  Names.name array * Term.types array * Term.types array
+)
+ident(
+  int_ref recdef "plugins/xml/doubleTypeInference.ml" 130 5118 5146 "plugins/xml/doubleTypeInference.ml" 130 5118 5152
+)
+"plugins/xml/doubleTypeInference.ml" 131 5157 5192 "plugins/xml/doubleTypeInference.ml" 131 5157 5223
+call(
+  stack
+)
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 132 5227 5239 "plugins/xml/doubleTypeInference.ml" 132 5227 5242
+type(
+  (int array * int) *
+  (Names.name array * Term.types array * Term.types array)
+)
+"plugins/xml/doubleTypeInference.ml" 132 5227 5246 "plugins/xml/doubleTypeInference.ml" 132 5227 5249
+type(
+  int array * int
+)
+ident(
+  int_ref vni "plugins/xml/doubleTypeInference.ml" 130 5118 5132 "plugins/xml/doubleTypeInference.ml" 130 5118 5145
+)
+"plugins/xml/doubleTypeInference.ml" 132 5227 5250 "plugins/xml/doubleTypeInference.ml" 132 5227 5257
+type(
+  Names.name array * Term.types array * Term.types array
+)
+ident(
+  int_ref recdef' "plugins/xml/doubleTypeInference.ml" 131 5157 5169 "plugins/xml/doubleTypeInference.ml" 131 5157 5189
+)
+"plugins/xml/doubleTypeInference.ml" 132 5227 5245 "plugins/xml/doubleTypeInference.ml" 132 5227 5258
+type(
+  (int array * int) *
+  (Names.name array * Term.types array * Term.types array)
+)
+"plugins/xml/doubleTypeInference.ml" 133 5262 5270 "plugins/xml/doubleTypeInference.ml" 133 5262 5282
+type(
+  Term.types -> Term.types -> E.unsafe_judgment
+)
+ident(
+  ext_ref E.make_judge
+)
+"plugins/xml/doubleTypeInference.ml" 133 5262 5284 "plugins/xml/doubleTypeInference.ml" 133 5262 5291
+type(
+  T.fixpoint -> Term.types
+)
+ident(
+  ext_ref T.mkFix
+)
+"plugins/xml/doubleTypeInference.ml" 133 5262 5292 "plugins/xml/doubleTypeInference.ml" 133 5262 5295
+type(
+  T.fixpoint
+)
+ident(
+  int_ref fix "plugins/xml/doubleTypeInference.ml" 132 5227 5239 "plugins/xml/doubleTypeInference.ml" 132 5227 5242
+)
+"plugins/xml/doubleTypeInference.ml" 133 5262 5283 "plugins/xml/doubleTypeInference.ml" 133 5262 5296
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 133 5262 5297 "plugins/xml/doubleTypeInference.ml" 133 5262 5300
+type(
+  Term.types array
+)
+ident(
+  int_ref tys "plugins/xml/doubleTypeInference.ml" 131 5157 5172 "plugins/xml/doubleTypeInference.ml" 131 5157 5175
+)
+"plugins/xml/doubleTypeInference.ml" 133 5262 5302 "plugins/xml/doubleTypeInference.ml" 133 5262 5303
+type(
+  int
+)
+ident(
+  int_ref i "plugins/xml/doubleTypeInference.ml" 130 5118 5136 "plugins/xml/doubleTypeInference.ml" 130 5118 5137
+)
+"plugins/xml/doubleTypeInference.ml" 133 5262 5297 "plugins/xml/doubleTypeInference.ml" 133 5262 5304
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 133 5262 5270 "plugins/xml/doubleTypeInference.ml" 133 5262 5304
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 132 5227 5235 "plugins/xml/doubleTypeInference.ml" 133 5262 5304
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 131 5157 5165 "plugins/xml/doubleTypeInference.ml" 133 5262 5304
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 135 5306 5322 "plugins/xml/doubleTypeInference.ml" 135 5306 5323
+type(
+  int
+)
+ident(
+  def i "plugins/xml/doubleTypeInference.ml" 136 5335 5343 "plugins/xml/doubleTypeInference.ml" 138 5440 5486
+)
+"plugins/xml/doubleTypeInference.ml" 135 5306 5324 "plugins/xml/doubleTypeInference.ml" 135 5306 5330
+type(
+  Names.name array * Term.types array * Term.types array
+)
+ident(
+  def recdef "plugins/xml/doubleTypeInference.ml" 136 5335 5343 "plugins/xml/doubleTypeInference.ml" 138 5440 5486
+)
+"plugins/xml/doubleTypeInference.ml" 135 5306 5321 "plugins/xml/doubleTypeInference.ml" 135 5306 5331
+type(
+  (Term.types, Term.types) T.pcofixpoint
+)
+"plugins/xml/doubleTypeInference.ml" 135 5306 5313 "plugins/xml/doubleTypeInference.ml" 135 5306 5331
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 136 5335 5348 "plugins/xml/doubleTypeInference.ml" 136 5335 5349
+type(
+  Names.name array
+)
+"plugins/xml/doubleTypeInference.ml" 136 5335 5350 "plugins/xml/doubleTypeInference.ml" 136 5335 5353
+type(
+  Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 136 5335 5354 "plugins/xml/doubleTypeInference.ml" 136 5335 5355
+type(
+  Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 136 5335 5348 "plugins/xml/doubleTypeInference.ml" 136 5335 5355
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 136 5335 5347 "plugins/xml/doubleTypeInference.ml" 136 5335 5367
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 136 5335 5370 "plugins/xml/doubleTypeInference.ml" 136 5335 5384
+type(
+  Environ.env ->
+  Evd.evar_map ->
+  Names.name array * Term.types array * Term.types array ->
+  Names.name array * Term.types array * Term.types array
+)
+ident(
+  int_ref execute_recdef "plugins/xml/doubleTypeInference.ml" 248 10020 10025 "plugins/xml/doubleTypeInference.ml" 248 10020 10039
+)
+"plugins/xml/doubleTypeInference.ml" 136 5335 5385 "plugins/xml/doubleTypeInference.ml" 136 5335 5388
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 136 5335 5389 "plugins/xml/doubleTypeInference.ml" 136 5335 5394
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 136 5335 5395 "plugins/xml/doubleTypeInference.ml" 136 5335 5401
+type(
+  Names.name array * Term.types array * Term.types array
+)
+ident(
+  int_ref recdef "plugins/xml/doubleTypeInference.ml" 135 5306 5324 "plugins/xml/doubleTypeInference.ml" 135 5306 5330
+)
+"plugins/xml/doubleTypeInference.ml" 136 5335 5370 "plugins/xml/doubleTypeInference.ml" 136 5335 5401
+call(
+  stack
+)
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 137 5405 5417 "plugins/xml/doubleTypeInference.ml" 137 5405 5422
+type(
+  int * (Names.name array * Term.types array * Term.types array)
+)
+"plugins/xml/doubleTypeInference.ml" 137 5405 5426 "plugins/xml/doubleTypeInference.ml" 137 5405 5427
+type(
+  int
+)
+ident(
+  int_ref i "plugins/xml/doubleTypeInference.ml" 135 5306 5322 "plugins/xml/doubleTypeInference.ml" 135 5306 5323
+)
+"plugins/xml/doubleTypeInference.ml" 137 5405 5428 "plugins/xml/doubleTypeInference.ml" 137 5405 5435
+type(
+  Names.name array * Term.types array * Term.types array
+)
+ident(
+  int_ref recdef' "plugins/xml/doubleTypeInference.ml" 136 5335 5347 "plugins/xml/doubleTypeInference.ml" 136 5335 5367
+)
+"plugins/xml/doubleTypeInference.ml" 137 5405 5425 "plugins/xml/doubleTypeInference.ml" 137 5405 5436
+type(
+  int * (Names.name array * Term.types array * Term.types array)
+)
+"plugins/xml/doubleTypeInference.ml" 138 5440 5448 "plugins/xml/doubleTypeInference.ml" 138 5440 5460
+type(
+  Term.types -> Term.types -> E.unsafe_judgment
+)
+ident(
+  ext_ref E.make_judge
+)
+"plugins/xml/doubleTypeInference.ml" 138 5440 5462 "plugins/xml/doubleTypeInference.ml" 138 5440 5471
+type(
+  T.cofixpoint -> Term.types
+)
+ident(
+  ext_ref T.mkCoFix
+)
+"plugins/xml/doubleTypeInference.ml" 138 5440 5472 "plugins/xml/doubleTypeInference.ml" 138 5440 5477
+type(
+  T.cofixpoint
+)
+ident(
+  int_ref cofix "plugins/xml/doubleTypeInference.ml" 137 5405 5417 "plugins/xml/doubleTypeInference.ml" 137 5405 5422
+)
+"plugins/xml/doubleTypeInference.ml" 138 5440 5461 "plugins/xml/doubleTypeInference.ml" 138 5440 5478
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 138 5440 5479 "plugins/xml/doubleTypeInference.ml" 138 5440 5482
+type(
+  Term.types array
+)
+ident(
+  int_ref tys "plugins/xml/doubleTypeInference.ml" 136 5335 5350 "plugins/xml/doubleTypeInference.ml" 136 5335 5353
+)
+"plugins/xml/doubleTypeInference.ml" 138 5440 5484 "plugins/xml/doubleTypeInference.ml" 138 5440 5485
+type(
+  int
+)
+ident(
+  int_ref i "plugins/xml/doubleTypeInference.ml" 135 5306 5322 "plugins/xml/doubleTypeInference.ml" 135 5306 5323
+)
+"plugins/xml/doubleTypeInference.ml" 138 5440 5479 "plugins/xml/doubleTypeInference.ml" 138 5440 5486
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 138 5440 5448 "plugins/xml/doubleTypeInference.ml" 138 5440 5486
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 137 5405 5413 "plugins/xml/doubleTypeInference.ml" 138 5440 5486
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 136 5335 5343 "plugins/xml/doubleTypeInference.ml" 138 5440 5486
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 140 5488 5510 "plugins/xml/doubleTypeInference.ml" 140 5488 5511
+type(
+  T.contents
+)
+ident(
+  def c "plugins/xml/doubleTypeInference.ml" 141 5516 5524 "plugins/xml/doubleTypeInference.ml" 141 5516 5556
+)
+"plugins/xml/doubleTypeInference.ml" 140 5488 5502 "plugins/xml/doubleTypeInference.ml" 140 5488 5512
+type(
+  T.sorts
+)
+"plugins/xml/doubleTypeInference.ml" 140 5488 5495 "plugins/xml/doubleTypeInference.ml" 140 5488 5512
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 141 5516 5524 "plugins/xml/doubleTypeInference.ml" 141 5516 5554
+type(
+  T.contents -> E.unsafe_judgment
+)
+ident(
+  ext_ref Typeops.judge_of_prop_contents
+)
+"plugins/xml/doubleTypeInference.ml" 141 5516 5555 "plugins/xml/doubleTypeInference.ml" 141 5516 5556
+type(
+  T.contents
+)
+ident(
+  int_ref c "plugins/xml/doubleTypeInference.ml" 140 5488 5510 "plugins/xml/doubleTypeInference.ml" 140 5488 5511
+)
+"plugins/xml/doubleTypeInference.ml" 141 5516 5524 "plugins/xml/doubleTypeInference.ml" 141 5516 5556
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 143 5558 5580 "plugins/xml/doubleTypeInference.ml" 143 5558 5581
+type(
+  Univ.universe
+)
+ident(
+  def u "plugins/xml/doubleTypeInference.ml" 148 5890 5890 "plugins/xml/doubleTypeInference.ml" 153 6123 6124
+)
+"plugins/xml/doubleTypeInference.ml" 143 5558 5572 "plugins/xml/doubleTypeInference.ml" 143 5558 5582
+type(
+  T.sorts
+)
+"plugins/xml/doubleTypeInference.ml" 143 5558 5565 "plugins/xml/doubleTypeInference.ml" 143 5558 5582
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 149 5895 5903 "plugins/xml/doubleTypeInference.ml" 149 5895 5924
+type(
+  Univ.universe -> E.unsafe_judgment
+)
+ident(
+  ext_ref Typeops.judge_of_type
+)
+"plugins/xml/doubleTypeInference.ml" 149 5895 5925 "plugins/xml/doubleTypeInference.ml" 149 5895 5926
+type(
+  Univ.universe
+)
+ident(
+  int_ref u "plugins/xml/doubleTypeInference.ml" 143 5558 5580 "plugins/xml/doubleTypeInference.ml" 143 5558 5581
+)
+"plugins/xml/doubleTypeInference.ml" 149 5895 5903 "plugins/xml/doubleTypeInference.ml" 149 5895 5926
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 150 5927 5933 "plugins/xml/doubleTypeInference.ml" 150 5927 5934
+type(
+  exn
+)
+"plugins/xml/doubleTypeInference.ml" 151 5998 6000 "plugins/xml/doubleTypeInference.ml" 151 5998 6007
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.ppnl
+)
+"plugins/xml/doubleTypeInference.ml" 151 5998 6009 "plugins/xml/doubleTypeInference.ml" 151 5998 6015
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/doubleTypeInference.ml" 151 5998 6016 "plugins/xml/doubleTypeInference.ml" 151 5998 6056
+type(
+  string
+)
+"plugins/xml/doubleTypeInference.ml" 151 5998 6008 "plugins/xml/doubleTypeInference.ml" 151 5998 6057
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/doubleTypeInference.ml" 151 5998 6000 "plugins/xml/doubleTypeInference.ml" 151 5998 6057
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 151 5998 6060 "plugins/xml/doubleTypeInference.ml" 151 5998 6065
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"plugins/xml/doubleTypeInference.ml" 151 5998 6066 "plugins/xml/doubleTypeInference.ml" 151 5998 6072
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"plugins/xml/doubleTypeInference.ml" 151 5998 6060 "plugins/xml/doubleTypeInference.ml" 151 5998 6072
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 151 5998 5999 "plugins/xml/doubleTypeInference.ml" 151 5998 6074
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 152 6077 6079 "plugins/xml/doubleTypeInference.ml" 152 6077 6100
+type(
+  Univ.universe -> E.unsafe_judgment
+)
+ident(
+  ext_ref Typeops.judge_of_type
+)
+"plugins/xml/doubleTypeInference.ml" 152 6077 6102 "plugins/xml/doubleTypeInference.ml" 152 6077 6118
+type(
+  unit -> Univ.universe
+)
+ident(
+  ext_ref Termops.new_univ
+)
+"plugins/xml/doubleTypeInference.ml" 152 6077 6119 "plugins/xml/doubleTypeInference.ml" 152 6077 6121
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 152 6077 6101 "plugins/xml/doubleTypeInference.ml" 152 6077 6122
+call(
+  stack
+)
+type(
+  Univ.universe
+)
+"plugins/xml/doubleTypeInference.ml" 152 6077 6079 "plugins/xml/doubleTypeInference.ml" 152 6077 6122
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 151 5998 5999 "plugins/xml/doubleTypeInference.ml" 152 6077 6122
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 148 5890 5890 "plugins/xml/doubleTypeInference.ml" 153 6123 6124
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 155 6126 6140 "plugins/xml/doubleTypeInference.ml" 155 6126 6141
+type(
+  Term.types
+)
+ident(
+  def f "plugins/xml/doubleTypeInference.ml" 156 6151 6159 "plugins/xml/doubleTypeInference.ml" 174 6910 6920
+)
+"plugins/xml/doubleTypeInference.ml" 155 6126 6142 "plugins/xml/doubleTypeInference.ml" 155 6126 6146
+type(
+  Term.types array
+)
+ident(
+  def args "plugins/xml/doubleTypeInference.ml" 156 6151 6159 "plugins/xml/doubleTypeInference.ml" 174 6910 6920
+)
+"plugins/xml/doubleTypeInference.ml" 155 6126 6133 "plugins/xml/doubleTypeInference.ml" 155 6126 6147
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 156 6151 6163 "plugins/xml/doubleTypeInference.ml" 156 6151 6176
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 157 6179 6188 "plugins/xml/doubleTypeInference.ml" 157 6179 6215
+type(
+  Environ.env -> Term.types -> Term.constr
+)
+ident(
+  ext_ref Reduction.whd_betadeltaiota
+)
+"plugins/xml/doubleTypeInference.ml" 157 6179 6216 "plugins/xml/doubleTypeInference.ml" 157 6179 6219
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 157 6179 6221 "plugins/xml/doubleTypeInference.ml" 157 6179 6241
+type(
+  ?refresh:bool -> Environ.env -> Evd.evar_map -> Term.types -> Term.types
+)
+ident(
+  ext_ref Retyping.get_type_of
+)
+"plugins/xml/doubleTypeInference.ml" 157 6179 6242 "plugins/xml/doubleTypeInference.ml" 157 6179 6245
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 157 6179 6246 "plugins/xml/doubleTypeInference.ml" 157 6179 6251
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 157 6179 6252 "plugins/xml/doubleTypeInference.ml" 157 6179 6253
+type(
+  Term.types
+)
+ident(
+  int_ref f "plugins/xml/doubleTypeInference.ml" 155 6126 6140 "plugins/xml/doubleTypeInference.ml" 155 6126 6141
+)
+"plugins/xml/doubleTypeInference.ml" 157 6179 6220 "plugins/xml/doubleTypeInference.ml" 157 6179 6254
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 157 6179 6188 "plugins/xml/doubleTypeInference.ml" 157 6179 6254
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 158 6258 6270 "plugins/xml/doubleTypeInference.ml" 158 6258 6271
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 158 6258 6274 "plugins/xml/doubleTypeInference.ml" 158 6258 6281
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 158 6258 6282 "plugins/xml/doubleTypeInference.ml" 158 6258 6285
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 158 6258 6286 "plugins/xml/doubleTypeInference.ml" 158 6258 6291
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 158 6258 6292 "plugins/xml/doubleTypeInference.ml" 158 6258 6293
+type(
+  Term.types
+)
+ident(
+  int_ref f "plugins/xml/doubleTypeInference.ml" 155 6126 6140 "plugins/xml/doubleTypeInference.ml" 155 6126 6141
+)
+"plugins/xml/doubleTypeInference.ml" 158 6258 6300 "plugins/xml/doubleTypeInference.ml" 158 6258 6313
+type(
+  Term.types
+)
+ident(
+  int_ref expected_head "plugins/xml/doubleTypeInference.ml" 156 6151 6163 "plugins/xml/doubleTypeInference.ml" 156 6151 6176
+)
+"plugins/xml/doubleTypeInference.ml" 158 6258 6294 "plugins/xml/doubleTypeInference.ml" 158 6258 6314
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 158 6258 6274 "plugins/xml/doubleTypeInference.ml" 158 6258 6314
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 159 6318 6330 "plugins/xml/doubleTypeInference.ml" 159 6318 6343
+type(
+  Term.types option array
+)
+"plugins/xml/doubleTypeInference.ml" 160 6346 6363 "plugins/xml/doubleTypeInference.ml" 160 6346 6366
+type(
+  T.constr -> T.constr list -> Term.constr option list
+)
+"plugins/xml/doubleTypeInference.ml" 160 6346 6367 "plugins/xml/doubleTypeInference.ml" 160 6346 6370
+type(
+  T.constr
+)
+ident(
+  def typ "plugins/xml/doubleTypeInference.ml" 161 6373 6383 "plugins/xml/doubleTypeInference.ml" 168 6665 6699
+)
+"plugins/xml/doubleTypeInference.ml" 162 6392 6405 "plugins/xml/doubleTypeInference.ml" 162 6392 6407
+type(
+  T.constr list
+)
+"plugins/xml/doubleTypeInference.ml" 162 6392 6411 "plugins/xml/doubleTypeInference.ml" 162 6392 6413
+type(
+  Term.constr option list
+)
+"plugins/xml/doubleTypeInference.ml" 163 6414 6427 "plugins/xml/doubleTypeInference.ml" 163 6414 6429
+type(
+  T.constr
+)
+ident(
+  def hj "plugins/xml/doubleTypeInference.ml" 164 6441 6455 "plugins/xml/doubleTypeInference.ml" 168 6665 6699
+)
+"plugins/xml/doubleTypeInference.ml" 163 6414 6431 "plugins/xml/doubleTypeInference.ml" 163 6414 6437
+type(
+  T.constr list
+)
+ident(
+  def restjl "plugins/xml/doubleTypeInference.ml" 164 6441 6455 "plugins/xml/doubleTypeInference.ml" 168 6665 6699
+)
+"plugins/xml/doubleTypeInference.ml" 163 6414 6427 "plugins/xml/doubleTypeInference.ml" 163 6414 6437
+type(
+  T.constr list
+)
+"plugins/xml/doubleTypeInference.ml" 164 6441 6461 "plugins/xml/doubleTypeInference.ml" 164 6441 6475
+type(
+  T.constr -> (T.constr, T.types) T.kind_of_term
+)
+ident(
+  ext_ref T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 164 6441 6477 "plugins/xml/doubleTypeInference.ml" 164 6441 6504
+type(
+  Environ.env -> T.constr -> T.constr
+)
+ident(
+  ext_ref Reduction.whd_betadeltaiota
+)
+"plugins/xml/doubleTypeInference.ml" 164 6441 6505 "plugins/xml/doubleTypeInference.ml" 164 6441 6508
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 164 6441 6509 "plugins/xml/doubleTypeInference.ml" 164 6441 6512
+type(
+  T.constr
+)
+ident(
+  int_ref typ "plugins/xml/doubleTypeInference.ml" 160 6346 6367 "plugins/xml/doubleTypeInference.ml" 160 6346 6370
+)
+"plugins/xml/doubleTypeInference.ml" 164 6441 6476 "plugins/xml/doubleTypeInference.ml" 164 6441 6513
+call(
+  stack
+)
+type(
+  T.constr
+)
+"plugins/xml/doubleTypeInference.ml" 164 6441 6461 "plugins/xml/doubleTypeInference.ml" 164 6441 6513
+call(
+  stack
+)
+type(
+  (T.constr, T.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 165 6519 6544 "plugins/xml/doubleTypeInference.ml" 165 6519 6545
+type(
+  Names.name
+)
+"plugins/xml/doubleTypeInference.ml" 165 6519 6546 "plugins/xml/doubleTypeInference.ml" 165 6519 6548
+type(
+  T.types
+)
+ident(
+  def c1 "plugins/xml/doubleTypeInference.ml" 166 6556 6574 "plugins/xml/doubleTypeInference.ml" 167 6616 6664
+)
+"plugins/xml/doubleTypeInference.ml" 165 6519 6549 "plugins/xml/doubleTypeInference.ml" 165 6519 6551
+type(
+  T.types
+)
+ident(
+  def c2 "plugins/xml/doubleTypeInference.ml" 166 6556 6574 "plugins/xml/doubleTypeInference.ml" 167 6616 6664
+)
+"plugins/xml/doubleTypeInference.ml" 165 6519 6536 "plugins/xml/doubleTypeInference.ml" 165 6519 6552
+type(
+  (T.constr, T.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 166 6556 6581 "plugins/xml/doubleTypeInference.ml" 166 6556 6601
+type(
+  Reductionops.local_reduction_function
+)
+ident(
+  ext_ref Reductionops.nf_beta
+)
+"plugins/xml/doubleTypeInference.ml" 166 6556 6602 "plugins/xml/doubleTypeInference.ml" 166 6556 6607
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 166 6556 6608 "plugins/xml/doubleTypeInference.ml" 166 6556 6610
+type(
+  T.types
+)
+ident(
+  int_ref c1 "plugins/xml/doubleTypeInference.ml" 165 6519 6546 "plugins/xml/doubleTypeInference.ml" 165 6519 6548
+)
+"plugins/xml/doubleTypeInference.ml" 166 6556 6580 "plugins/xml/doubleTypeInference.ml" 166 6556 6611
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 166 6556 6574 "plugins/xml/doubleTypeInference.ml" 166 6556 6612
+type(
+  Term.constr option
+)
+"plugins/xml/doubleTypeInference.ml" 167 6616 6636 "plugins/xml/doubleTypeInference.ml" 167 6616 6639
+type(
+  T.constr -> T.constr list -> Term.constr option list
+)
+ident(
+  int_ref aux "plugins/xml/doubleTypeInference.ml" 160 6346 6363 "plugins/xml/doubleTypeInference.ml" 160 6346 6366
+)
+"plugins/xml/doubleTypeInference.ml" 167 6616 6641 "plugins/xml/doubleTypeInference.ml" 167 6616 6649
+type(
+  T.constr -> T.constr -> T.constr
+)
+ident(
+  ext_ref T.subst1
+)
+"plugins/xml/doubleTypeInference.ml" 167 6616 6650 "plugins/xml/doubleTypeInference.ml" 167 6616 6652
+type(
+  T.constr
+)
+ident(
+  int_ref hj "plugins/xml/doubleTypeInference.ml" 163 6414 6427 "plugins/xml/doubleTypeInference.ml" 163 6414 6429
+)
+"plugins/xml/doubleTypeInference.ml" 167 6616 6653 "plugins/xml/doubleTypeInference.ml" 167 6616 6655
+type(
+  T.types
+)
+ident(
+  int_ref c2 "plugins/xml/doubleTypeInference.ml" 165 6519 6549 "plugins/xml/doubleTypeInference.ml" 165 6519 6551
+)
+"plugins/xml/doubleTypeInference.ml" 167 6616 6640 "plugins/xml/doubleTypeInference.ml" 167 6616 6656
+call(
+  stack
+)
+type(
+  T.constr
+)
+"plugins/xml/doubleTypeInference.ml" 167 6616 6657 "plugins/xml/doubleTypeInference.ml" 167 6616 6663
+type(
+  T.constr list
+)
+ident(
+  int_ref restjl "plugins/xml/doubleTypeInference.ml" 163 6414 6431 "plugins/xml/doubleTypeInference.ml" 163 6414 6437
+)
+"plugins/xml/doubleTypeInference.ml" 167 6616 6635 "plugins/xml/doubleTypeInference.ml" 167 6616 6664
+call(
+  stack
+)
+type(
+  Term.constr option list
+)
+"plugins/xml/doubleTypeInference.ml" 166 6556 6574 "plugins/xml/doubleTypeInference.ml" 167 6616 6664
+type(
+  Term.constr option list
+)
+"plugins/xml/doubleTypeInference.ml" 168 6665 6682 "plugins/xml/doubleTypeInference.ml" 168 6665 6683
+type(
+  (T.constr, T.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 168 6665 6687 "plugins/xml/doubleTypeInference.ml" 168 6665 6699
+type(
+  Term.constr option list
+)
+"plugins/xml/doubleTypeInference.ml" 164 6441 6455 "plugins/xml/doubleTypeInference.ml" 168 6665 6699
+type(
+  Term.constr option list
+)
+"plugins/xml/doubleTypeInference.ml" 161 6373 6383 "plugins/xml/doubleTypeInference.ml" 168 6665 6699
+type(
+  T.constr list -> Term.constr option list
+)
+"plugins/xml/doubleTypeInference.ml" 170 6712 6722 "plugins/xml/doubleTypeInference.ml" 170 6712 6735
+type(
+  Term.types option list -> Term.types option array
+)
+ident(
+  ext_ref Array.of_list
+)
+"plugins/xml/doubleTypeInference.ml" 170 6712 6737 "plugins/xml/doubleTypeInference.ml" 170 6712 6740
+type(
+  Term.constr -> Term.constr list -> Term.types option list
+)
+ident(
+  int_ref aux "plugins/xml/doubleTypeInference.ml" 160 6346 6363 "plugins/xml/doubleTypeInference.ml" 160 6346 6366
+)
+"plugins/xml/doubleTypeInference.ml" 170 6712 6741 "plugins/xml/doubleTypeInference.ml" 170 6712 6742
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 158 6258 6270 "plugins/xml/doubleTypeInference.ml" 158 6258 6271
+)
+"plugins/xml/doubleTypeInference.ml" 170 6712 6741 "plugins/xml/doubleTypeInference.ml" 170 6712 6758
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 170 6712 6760 "plugins/xml/doubleTypeInference.ml" 170 6712 6773
+type(
+  Term.types array -> Term.constr list
+)
+ident(
+  ext_ref Array.to_list
+)
+"plugins/xml/doubleTypeInference.ml" 170 6712 6774 "plugins/xml/doubleTypeInference.ml" 170 6712 6778
+type(
+  Term.types array
+)
+ident(
+  int_ref args "plugins/xml/doubleTypeInference.ml" 155 6126 6142 "plugins/xml/doubleTypeInference.ml" 155 6126 6146
+)
+"plugins/xml/doubleTypeInference.ml" 170 6712 6759 "plugins/xml/doubleTypeInference.ml" 170 6712 6779
+call(
+  stack
+)
+type(
+  Term.constr list
+)
+"plugins/xml/doubleTypeInference.ml" 170 6712 6736 "plugins/xml/doubleTypeInference.ml" 170 6712 6780
+call(
+  stack
+)
+type(
+  Term.types option list
+)
+"plugins/xml/doubleTypeInference.ml" 170 6712 6722 "plugins/xml/doubleTypeInference.ml" 170 6712 6780
+call(
+  stack
+)
+type(
+  Term.types option array
+)
+"plugins/xml/doubleTypeInference.ml" 160 6346 6355 "plugins/xml/doubleTypeInference.ml" 170 6712 6780
+type(
+  Term.types option array
+)
+"plugins/xml/doubleTypeInference.ml" 172 6792 6804 "plugins/xml/doubleTypeInference.ml" 172 6792 6806
+type(
+  Environ.unsafe_judgment array
+)
+"plugins/xml/doubleTypeInference.ml" 172 6792 6809 "plugins/xml/doubleTypeInference.ml" 172 6792 6822
+type(
+  Environ.env ->
+  Evd.evar_map ->
+  Term.types array ->
+  Term.types option array -> Environ.unsafe_judgment array
+)
+ident(
+  int_ref execute_array "plugins/xml/doubleTypeInference.ml" 261 10530 10535 "plugins/xml/doubleTypeInference.ml" 261 10530 10548
+)
+"plugins/xml/doubleTypeInference.ml" 172 6792 6823 "plugins/xml/doubleTypeInference.ml" 172 6792 6826
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 172 6792 6827 "plugins/xml/doubleTypeInference.ml" 172 6792 6832
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 172 6792 6833 "plugins/xml/doubleTypeInference.ml" 172 6792 6837
+type(
+  Term.types array
+)
+ident(
+  int_ref args "plugins/xml/doubleTypeInference.ml" 155 6126 6142 "plugins/xml/doubleTypeInference.ml" 155 6126 6146
+)
+"plugins/xml/doubleTypeInference.ml" 172 6792 6838 "plugins/xml/doubleTypeInference.ml" 172 6792 6851
+type(
+  Term.types option array
+)
+ident(
+  int_ref expected_args "plugins/xml/doubleTypeInference.ml" 159 6318 6330 "plugins/xml/doubleTypeInference.ml" 159 6318 6343
+)
+"plugins/xml/doubleTypeInference.ml" 172 6792 6809 "plugins/xml/doubleTypeInference.ml" 172 6792 6851
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment array
+)
+"plugins/xml/doubleTypeInference.ml" 173 6855 6868 "plugins/xml/doubleTypeInference.ml" 173 6855 6869
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 173 6855 6870 "plugins/xml/doubleTypeInference.ml" 173 6855 6871
+type(
+  Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 173 6855 6867 "plugins/xml/doubleTypeInference.ml" 173 6855 6872
+type(
+  Environ.unsafe_judgment * Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 173 6855 6875 "plugins/xml/doubleTypeInference.ml" 173 6855 6897
+type(
+  Environ.env ->
+  Environ.unsafe_judgment ->
+  Environ.unsafe_judgment array -> Environ.unsafe_judgment * Univ.constraints
+)
+ident(
+  ext_ref Typeops.judge_of_apply
+)
+"plugins/xml/doubleTypeInference.ml" 173 6855 6898 "plugins/xml/doubleTypeInference.ml" 173 6855 6901
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 173 6855 6902 "plugins/xml/doubleTypeInference.ml" 173 6855 6903
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 158 6258 6270 "plugins/xml/doubleTypeInference.ml" 158 6258 6271
+)
+"plugins/xml/doubleTypeInference.ml" 173 6855 6904 "plugins/xml/doubleTypeInference.ml" 173 6855 6906
+type(
+  Environ.unsafe_judgment array
+)
+ident(
+  int_ref jl "plugins/xml/doubleTypeInference.ml" 172 6792 6804 "plugins/xml/doubleTypeInference.ml" 172 6792 6806
+)
+"plugins/xml/doubleTypeInference.ml" 173 6855 6875 "plugins/xml/doubleTypeInference.ml" 173 6855 6906
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment * Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 174 6910 6919 "plugins/xml/doubleTypeInference.ml" 174 6910 6920
+type(
+  E.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 173 6855 6868 "plugins/xml/doubleTypeInference.ml" 173 6855 6869
+)
+"plugins/xml/doubleTypeInference.ml" 173 6855 6863 "plugins/xml/doubleTypeInference.ml" 174 6910 6920
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 172 6792 6800 "plugins/xml/doubleTypeInference.ml" 174 6910 6920
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 159 6318 6326 "plugins/xml/doubleTypeInference.ml" 174 6910 6920
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 158 6258 6266 "plugins/xml/doubleTypeInference.ml" 174 6910 6920
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 156 6151 6159 "plugins/xml/doubleTypeInference.ml" 174 6910 6920
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 176 6922 6939 "plugins/xml/doubleTypeInference.ml" 176 6922 6943
+type(
+  Names.name
+)
+ident(
+  def name "plugins/xml/doubleTypeInference.ml" 177 6954 6962 "plugins/xml/doubleTypeInference.ml" 190 7526 7580
+)
+"plugins/xml/doubleTypeInference.ml" 176 6922 6944 "plugins/xml/doubleTypeInference.ml" 176 6922 6946
+type(
+  Term.types
+)
+ident(
+  def c1 "plugins/xml/doubleTypeInference.ml" 177 6954 6962 "plugins/xml/doubleTypeInference.ml" 190 7526 7580
+)
+"plugins/xml/doubleTypeInference.ml" 176 6922 6947 "plugins/xml/doubleTypeInference.ml" 176 6922 6949
+type(
+  Term.types
+)
+ident(
+  def c2 "plugins/xml/doubleTypeInference.ml" 177 6954 6962 "plugins/xml/doubleTypeInference.ml" 190 7526 7580
+)
+"plugins/xml/doubleTypeInference.ml" 176 6922 6929 "plugins/xml/doubleTypeInference.ml" 176 6922 6950
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 177 6954 6966 "plugins/xml/doubleTypeInference.ml" 177 6954 6967
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 177 6954 6970 "plugins/xml/doubleTypeInference.ml" 177 6954 6977
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 177 6954 6978 "plugins/xml/doubleTypeInference.ml" 177 6954 6981
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 177 6954 6982 "plugins/xml/doubleTypeInference.ml" 177 6954 6987
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 177 6954 6988 "plugins/xml/doubleTypeInference.ml" 177 6954 6990
+type(
+  Term.types
+)
+ident(
+  int_ref c1 "plugins/xml/doubleTypeInference.ml" 176 6922 6944 "plugins/xml/doubleTypeInference.ml" 176 6922 6946
+)
+"plugins/xml/doubleTypeInference.ml" 177 6954 6991 "plugins/xml/doubleTypeInference.ml" 177 6954 6995
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 177 6954 6970 "plugins/xml/doubleTypeInference.ml" 177 6954 6995
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 178 6999 7011 "plugins/xml/doubleTypeInference.ml" 178 6999 7014
+type(
+  Environ.unsafe_type_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 178 6999 7017 "plugins/xml/doubleTypeInference.ml" 178 6999 7030
+type(
+  Environ.env ->
+  Evd.evar_map -> Environ.unsafe_judgment -> Environ.unsafe_type_judgment
+)
+ident(
+  int_ref type_judgment "plugins/xml/doubleTypeInference.ml" 49 2017 2021 "plugins/xml/doubleTypeInference.ml" 49 2017 2034
+)
+"plugins/xml/doubleTypeInference.ml" 178 6999 7031 "plugins/xml/doubleTypeInference.ml" 178 6999 7034
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 178 6999 7035 "plugins/xml/doubleTypeInference.ml" 178 6999 7040
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 178 6999 7041 "plugins/xml/doubleTypeInference.ml" 178 6999 7042
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 177 6954 6966 "plugins/xml/doubleTypeInference.ml" 177 6954 6967
+)
+"plugins/xml/doubleTypeInference.ml" 178 6999 7017 "plugins/xml/doubleTypeInference.ml" 178 6999 7042
+call(
+  stack
+)
+type(
+  Environ.unsafe_type_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 179 7046 7058 "plugins/xml/doubleTypeInference.ml" 179 7046 7062
+type(
+  E.env
+)
+"plugins/xml/doubleTypeInference.ml" 179 7046 7065 "plugins/xml/doubleTypeInference.ml" 179 7046 7075
+type(
+  Term.rel_declaration -> Environ.env -> E.env
+)
+ident(
+  ext_ref E.push_rel
+)
+"plugins/xml/doubleTypeInference.ml" 179 7046 7077 "plugins/xml/doubleTypeInference.ml" 179 7046 7081
+type(
+  Names.name
+)
+ident(
+  int_ref name "plugins/xml/doubleTypeInference.ml" 176 6922 6939 "plugins/xml/doubleTypeInference.ml" 176 6922 6943
+)
+"plugins/xml/doubleTypeInference.ml" 179 7046 7082 "plugins/xml/doubleTypeInference.ml" 179 7046 7086
+type(
+  Term.constr option
+)
+"plugins/xml/doubleTypeInference.ml" 179 7046 7087 "plugins/xml/doubleTypeInference.ml" 179 7046 7090
+type(
+  E.unsafe_type_judgment
+)
+ident(
+  int_ref var "plugins/xml/doubleTypeInference.ml" 178 6999 7011 "plugins/xml/doubleTypeInference.ml" 178 6999 7014
+)
+"plugins/xml/doubleTypeInference.ml" 179 7046 7087 "plugins/xml/doubleTypeInference.ml" 179 7046 7100
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 179 7046 7076 "plugins/xml/doubleTypeInference.ml" 179 7046 7101
+type(
+  Term.rel_declaration
+)
+"plugins/xml/doubleTypeInference.ml" 179 7046 7102 "plugins/xml/doubleTypeInference.ml" 179 7046 7105
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 179 7046 7065 "plugins/xml/doubleTypeInference.ml" 179 7046 7105
+call(
+  stack
+)
+type(
+  E.env
+)
+"plugins/xml/doubleTypeInference.ml" 180 7109 7121 "plugins/xml/doubleTypeInference.ml" 180 7109 7135
+type(
+  Term.constr option
+)
+"plugins/xml/doubleTypeInference.ml" 181 7138 7153 "plugins/xml/doubleTypeInference.ml" 181 7138 7163
+type(
+  Term.types option
+)
+ident(
+  int_ref expectedty "plugins/xml/doubleTypeInference.ml" 63 2673 2705 "plugins/xml/doubleTypeInference.ml" 63 2673 2715
+)
+"plugins/xml/doubleTypeInference.ml" 182 7169 7181 "plugins/xml/doubleTypeInference.ml" 182 7169 7185
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 182 7169 7189 "plugins/xml/doubleTypeInference.ml" 182 7169 7193
+type(
+  Term.constr option
+)
+"plugins/xml/doubleTypeInference.ml" 183 7194 7211 "plugins/xml/doubleTypeInference.ml" 183 7194 7214
+type(
+  Term.types
+)
+ident(
+  def ety "plugins/xml/doubleTypeInference.ml" 184 7218 7232 "plugins/xml/doubleTypeInference.ml" 187 7423 7457
+)
+"plugins/xml/doubleTypeInference.ml" 183 7194 7206 "plugins/xml/doubleTypeInference.ml" 183 7194 7214
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 184 7218 7238 "plugins/xml/doubleTypeInference.ml" 184 7218 7252
+type(
+  T.constr -> (T.constr, T.types) T.kind_of_term
+)
+ident(
+  ext_ref T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 184 7218 7254 "plugins/xml/doubleTypeInference.ml" 184 7218 7281
+type(
+  Environ.env -> Term.types -> T.constr
+)
+ident(
+  ext_ref Reduction.whd_betadeltaiota
+)
+"plugins/xml/doubleTypeInference.ml" 184 7218 7282 "plugins/xml/doubleTypeInference.ml" 184 7218 7285
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 184 7218 7286 "plugins/xml/doubleTypeInference.ml" 184 7218 7289
+type(
+  Term.types
+)
+ident(
+  int_ref ety "plugins/xml/doubleTypeInference.ml" 183 7194 7211 "plugins/xml/doubleTypeInference.ml" 183 7194 7214
+)
+"plugins/xml/doubleTypeInference.ml" 184 7218 7253 "plugins/xml/doubleTypeInference.ml" 184 7218 7290
+call(
+  stack
+)
+type(
+  T.constr
+)
+"plugins/xml/doubleTypeInference.ml" 184 7218 7238 "plugins/xml/doubleTypeInference.ml" 184 7218 7290
+call(
+  stack
+)
+type(
+  (T.constr, T.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 185 7296 7321 "plugins/xml/doubleTypeInference.ml" 185 7296 7322
+type(
+  Names.name
+)
+"plugins/xml/doubleTypeInference.ml" 185 7296 7323 "plugins/xml/doubleTypeInference.ml" 185 7296 7324
+type(
+  T.types
+)
+"plugins/xml/doubleTypeInference.ml" 185 7296 7325 "plugins/xml/doubleTypeInference.ml" 185 7296 7345
+type(
+  T.types
+)
+ident(
+  def expected_target_type "plugins/xml/doubleTypeInference.ml" 186 7350 7368 "plugins/xml/doubleTypeInference.ml" 186 7350 7422
+)
+"plugins/xml/doubleTypeInference.ml" 185 7296 7313 "plugins/xml/doubleTypeInference.ml" 185 7296 7346
+type(
+  (T.constr, T.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 186 7350 7374 "plugins/xml/doubleTypeInference.ml" 186 7350 7394
+type(
+  Reductionops.local_reduction_function
+)
+ident(
+  ext_ref Reductionops.nf_beta
+)
+"plugins/xml/doubleTypeInference.ml" 186 7350 7395 "plugins/xml/doubleTypeInference.ml" 186 7350 7400
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 186 7350 7401 "plugins/xml/doubleTypeInference.ml" 186 7350 7421
+type(
+  T.types
+)
+ident(
+  int_ref expected_target_type "plugins/xml/doubleTypeInference.ml" 185 7296 7325 "plugins/xml/doubleTypeInference.ml" 185 7296 7345
+)
+"plugins/xml/doubleTypeInference.ml" 186 7350 7373 "plugins/xml/doubleTypeInference.ml" 186 7350 7422
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 186 7350 7368 "plugins/xml/doubleTypeInference.ml" 186 7350 7422
+type(
+  Term.constr option
+)
+"plugins/xml/doubleTypeInference.ml" 187 7423 7440 "plugins/xml/doubleTypeInference.ml" 187 7423 7441
+type(
+  (T.constr, T.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 187 7423 7445 "plugins/xml/doubleTypeInference.ml" 187 7423 7457
+type(
+  Term.constr option
+)
+"plugins/xml/doubleTypeInference.ml" 184 7218 7232 "plugins/xml/doubleTypeInference.ml" 187 7423 7457
+type(
+  Term.constr option
+)
+"plugins/xml/doubleTypeInference.ml" 181 7138 7147 "plugins/xml/doubleTypeInference.ml" 187 7423 7457
+type(
+  Term.constr option
+)
+"plugins/xml/doubleTypeInference.ml" 189 7469 7481 "plugins/xml/doubleTypeInference.ml" 189 7469 7483
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 189 7469 7486 "plugins/xml/doubleTypeInference.ml" 189 7469 7493
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 189 7469 7494 "plugins/xml/doubleTypeInference.ml" 189 7469 7498
+type(
+  Environ.env
+)
+ident(
+  int_ref env1 "plugins/xml/doubleTypeInference.ml" 179 7046 7058 "plugins/xml/doubleTypeInference.ml" 179 7046 7062
+)
+"plugins/xml/doubleTypeInference.ml" 189 7469 7499 "plugins/xml/doubleTypeInference.ml" 189 7469 7504
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 189 7469 7505 "plugins/xml/doubleTypeInference.ml" 189 7469 7507
+type(
+  Term.types
+)
+ident(
+  int_ref c2 "plugins/xml/doubleTypeInference.ml" 176 6922 6947 "plugins/xml/doubleTypeInference.ml" 176 6922 6949
+)
+"plugins/xml/doubleTypeInference.ml" 189 7469 7508 "plugins/xml/doubleTypeInference.ml" 189 7469 7522
+type(
+  Term.types option
+)
+ident(
+  int_ref expectedc2type "plugins/xml/doubleTypeInference.ml" 180 7109 7121 "plugins/xml/doubleTypeInference.ml" 180 7109 7135
+)
+"plugins/xml/doubleTypeInference.ml" 189 7469 7486 "plugins/xml/doubleTypeInference.ml" 189 7469 7522
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 190 7526 7535 "plugins/xml/doubleTypeInference.ml" 190 7526 7563
+type(
+  E.env ->
+  Names.name ->
+  Environ.unsafe_type_judgment ->
+  Environ.unsafe_judgment -> E.unsafe_judgment
+)
+ident(
+  ext_ref Typeops.judge_of_abstraction
+)
+"plugins/xml/doubleTypeInference.ml" 190 7526 7564 "plugins/xml/doubleTypeInference.ml" 190 7526 7568
+type(
+  E.env
+)
+ident(
+  int_ref env1 "plugins/xml/doubleTypeInference.ml" 179 7046 7058 "plugins/xml/doubleTypeInference.ml" 179 7046 7062
+)
+"plugins/xml/doubleTypeInference.ml" 190 7526 7569 "plugins/xml/doubleTypeInference.ml" 190 7526 7573
+type(
+  Names.name
+)
+ident(
+  int_ref name "plugins/xml/doubleTypeInference.ml" 176 6922 6939 "plugins/xml/doubleTypeInference.ml" 176 6922 6943
+)
+"plugins/xml/doubleTypeInference.ml" 190 7526 7574 "plugins/xml/doubleTypeInference.ml" 190 7526 7577
+type(
+  Environ.unsafe_type_judgment
+)
+ident(
+  int_ref var "plugins/xml/doubleTypeInference.ml" 178 6999 7011 "plugins/xml/doubleTypeInference.ml" 178 6999 7014
+)
+"plugins/xml/doubleTypeInference.ml" 190 7526 7578 "plugins/xml/doubleTypeInference.ml" 190 7526 7580
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j' "plugins/xml/doubleTypeInference.ml" 189 7469 7481 "plugins/xml/doubleTypeInference.ml" 189 7469 7483
+)
+"plugins/xml/doubleTypeInference.ml" 190 7526 7535 "plugins/xml/doubleTypeInference.ml" 190 7526 7580
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 189 7469 7477 "plugins/xml/doubleTypeInference.ml" 190 7526 7580
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 180 7109 7117 "plugins/xml/doubleTypeInference.ml" 190 7526 7580
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 179 7046 7054 "plugins/xml/doubleTypeInference.ml" 190 7526 7580
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 178 6999 7007 "plugins/xml/doubleTypeInference.ml" 190 7526 7580
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 177 6954 6962 "plugins/xml/doubleTypeInference.ml" 190 7526 7580
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 192 7582 7597 "plugins/xml/doubleTypeInference.ml" 192 7582 7601
+type(
+  Names.name
+)
+ident(
+  def name "plugins/xml/doubleTypeInference.ml" 193 7612 7620 "plugins/xml/doubleTypeInference.ml" 202 8078 8129
+)
+"plugins/xml/doubleTypeInference.ml" 192 7582 7602 "plugins/xml/doubleTypeInference.ml" 192 7582 7604
+type(
+  Term.types
+)
+ident(
+  def c1 "plugins/xml/doubleTypeInference.ml" 193 7612 7620 "plugins/xml/doubleTypeInference.ml" 202 8078 8129
+)
+"plugins/xml/doubleTypeInference.ml" 192 7582 7605 "plugins/xml/doubleTypeInference.ml" 192 7582 7607
+type(
+  Term.types
+)
+ident(
+  def c2 "plugins/xml/doubleTypeInference.ml" 193 7612 7620 "plugins/xml/doubleTypeInference.ml" 202 8078 8129
+)
+"plugins/xml/doubleTypeInference.ml" 192 7582 7589 "plugins/xml/doubleTypeInference.ml" 192 7582 7608
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 193 7612 7624 "plugins/xml/doubleTypeInference.ml" 193 7612 7625
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 193 7612 7628 "plugins/xml/doubleTypeInference.ml" 193 7612 7635
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 193 7612 7636 "plugins/xml/doubleTypeInference.ml" 193 7612 7639
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 193 7612 7640 "plugins/xml/doubleTypeInference.ml" 193 7612 7645
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 193 7612 7646 "plugins/xml/doubleTypeInference.ml" 193 7612 7648
+type(
+  Term.types
+)
+ident(
+  int_ref c1 "plugins/xml/doubleTypeInference.ml" 192 7582 7602 "plugins/xml/doubleTypeInference.ml" 192 7582 7604
+)
+"plugins/xml/doubleTypeInference.ml" 193 7612 7649 "plugins/xml/doubleTypeInference.ml" 193 7612 7653
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 193 7612 7628 "plugins/xml/doubleTypeInference.ml" 193 7612 7653
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 194 7657 7669 "plugins/xml/doubleTypeInference.ml" 194 7657 7673
+type(
+  Environ.unsafe_type_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 194 7657 7676 "plugins/xml/doubleTypeInference.ml" 194 7657 7689
+type(
+  Environ.env ->
+  Evd.evar_map -> Environ.unsafe_judgment -> Environ.unsafe_type_judgment
+)
+ident(
+  int_ref type_judgment "plugins/xml/doubleTypeInference.ml" 49 2017 2021 "plugins/xml/doubleTypeInference.ml" 49 2017 2034
+)
+"plugins/xml/doubleTypeInference.ml" 194 7657 7690 "plugins/xml/doubleTypeInference.ml" 194 7657 7693
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 194 7657 7694 "plugins/xml/doubleTypeInference.ml" 194 7657 7699
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 194 7657 7700 "plugins/xml/doubleTypeInference.ml" 194 7657 7701
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 193 7612 7624 "plugins/xml/doubleTypeInference.ml" 193 7612 7625
+)
+"plugins/xml/doubleTypeInference.ml" 194 7657 7676 "plugins/xml/doubleTypeInference.ml" 194 7657 7701
+call(
+  stack
+)
+type(
+  Environ.unsafe_type_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 195 7705 7717 "plugins/xml/doubleTypeInference.ml" 195 7705 7721
+type(
+  E.env
+)
+"plugins/xml/doubleTypeInference.ml" 195 7705 7724 "plugins/xml/doubleTypeInference.ml" 195 7705 7734
+type(
+  Term.rel_declaration -> Environ.env -> E.env
+)
+ident(
+  ext_ref E.push_rel
+)
+"plugins/xml/doubleTypeInference.ml" 195 7705 7736 "plugins/xml/doubleTypeInference.ml" 195 7705 7740
+type(
+  Names.name
+)
+ident(
+  int_ref name "plugins/xml/doubleTypeInference.ml" 192 7582 7597 "plugins/xml/doubleTypeInference.ml" 192 7582 7601
+)
+"plugins/xml/doubleTypeInference.ml" 195 7705 7741 "plugins/xml/doubleTypeInference.ml" 195 7705 7745
+type(
+  Term.constr option
+)
+"plugins/xml/doubleTypeInference.ml" 195 7705 7746 "plugins/xml/doubleTypeInference.ml" 195 7705 7750
+type(
+  E.unsafe_type_judgment
+)
+ident(
+  int_ref varj "plugins/xml/doubleTypeInference.ml" 194 7657 7669 "plugins/xml/doubleTypeInference.ml" 194 7657 7673
+)
+"plugins/xml/doubleTypeInference.ml" 195 7705 7746 "plugins/xml/doubleTypeInference.ml" 195 7705 7760
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 195 7705 7735 "plugins/xml/doubleTypeInference.ml" 195 7705 7761
+type(
+  Term.rel_declaration
+)
+"plugins/xml/doubleTypeInference.ml" 195 7705 7762 "plugins/xml/doubleTypeInference.ml" 195 7705 7765
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 195 7705 7724 "plugins/xml/doubleTypeInference.ml" 195 7705 7765
+call(
+  stack
+)
+type(
+  E.env
+)
+"plugins/xml/doubleTypeInference.ml" 196 7769 7781 "plugins/xml/doubleTypeInference.ml" 196 7769 7783
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 196 7769 7786 "plugins/xml/doubleTypeInference.ml" 196 7769 7793
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 196 7769 7794 "plugins/xml/doubleTypeInference.ml" 196 7769 7798
+type(
+  Environ.env
+)
+ident(
+  int_ref env1 "plugins/xml/doubleTypeInference.ml" 195 7705 7717 "plugins/xml/doubleTypeInference.ml" 195 7705 7721
+)
+"plugins/xml/doubleTypeInference.ml" 196 7769 7799 "plugins/xml/doubleTypeInference.ml" 196 7769 7804
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 196 7769 7805 "plugins/xml/doubleTypeInference.ml" 196 7769 7807
+type(
+  Term.types
+)
+ident(
+  int_ref c2 "plugins/xml/doubleTypeInference.ml" 192 7582 7605 "plugins/xml/doubleTypeInference.ml" 192 7582 7607
+)
+"plugins/xml/doubleTypeInference.ml" 196 7769 7808 "plugins/xml/doubleTypeInference.ml" 196 7769 7812
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 196 7769 7786 "plugins/xml/doubleTypeInference.ml" 196 7769 7812
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 197 7816 7831 "plugins/xml/doubleTypeInference.ml" 197 7816 7850
+type(
+  E.env ->
+  Evd.evar_map ->
+  Environ.unsafe_judgment -> Environ.unsafe_type_judgment option
+)
+ident(
+  int_ref type_judgment_cprop "plugins/xml/doubleTypeInference.ml" 53 2110 2114 "plugins/xml/doubleTypeInference.ml" 53 2110 2133
+)
+"plugins/xml/doubleTypeInference.ml" 197 7816 7851 "plugins/xml/doubleTypeInference.ml" 197 7816 7855
+type(
+  E.env
+)
+ident(
+  int_ref env1 "plugins/xml/doubleTypeInference.ml" 195 7705 7717 "plugins/xml/doubleTypeInference.ml" 195 7705 7721
+)
+"plugins/xml/doubleTypeInference.ml" 197 7816 7856 "plugins/xml/doubleTypeInference.ml" 197 7816 7861
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 197 7816 7862 "plugins/xml/doubleTypeInference.ml" 197 7816 7864
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j' "plugins/xml/doubleTypeInference.ml" 196 7769 7781 "plugins/xml/doubleTypeInference.ml" 196 7769 7783
+)
+"plugins/xml/doubleTypeInference.ml" 197 7816 7831 "plugins/xml/doubleTypeInference.ml" 197 7816 7864
+call(
+  stack
+)
+type(
+  Environ.unsafe_type_judgment option
+)
+"plugins/xml/doubleTypeInference.ml" 198 7870 7887 "plugins/xml/doubleTypeInference.ml" 198 7870 7892
+type(
+  Environ.unsafe_type_judgment
+)
+ident(
+  def varj' "plugins/xml/doubleTypeInference.ml" 198 7870 7896 "plugins/xml/doubleTypeInference.ml" 198 7870 7940
+)
+"plugins/xml/doubleTypeInference.ml" 198 7870 7882 "plugins/xml/doubleTypeInference.ml" 198 7870 7892
+type(
+  Environ.unsafe_type_judgment option
+)
+"plugins/xml/doubleTypeInference.ml" 198 7870 7896 "plugins/xml/doubleTypeInference.ml" 198 7870 7920
+type(
+  Environ.env ->
+  Names.name ->
+  Environ.unsafe_type_judgment ->
+  Environ.unsafe_type_judgment -> E.unsafe_judgment
+)
+ident(
+  ext_ref Typeops.judge_of_product
+)
+"plugins/xml/doubleTypeInference.ml" 198 7870 7921 "plugins/xml/doubleTypeInference.ml" 198 7870 7924
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 198 7870 7925 "plugins/xml/doubleTypeInference.ml" 198 7870 7929
+type(
+  Names.name
+)
+ident(
+  int_ref name "plugins/xml/doubleTypeInference.ml" 192 7582 7597 "plugins/xml/doubleTypeInference.ml" 192 7582 7601
+)
+"plugins/xml/doubleTypeInference.ml" 198 7870 7930 "plugins/xml/doubleTypeInference.ml" 198 7870 7934
+type(
+  Environ.unsafe_type_judgment
+)
+ident(
+  int_ref varj "plugins/xml/doubleTypeInference.ml" 194 7657 7669 "plugins/xml/doubleTypeInference.ml" 194 7657 7673
+)
+"plugins/xml/doubleTypeInference.ml" 198 7870 7935 "plugins/xml/doubleTypeInference.ml" 198 7870 7940
+type(
+  Environ.unsafe_type_judgment
+)
+ident(
+  int_ref varj' "plugins/xml/doubleTypeInference.ml" 198 7870 7887 "plugins/xml/doubleTypeInference.ml" 198 7870 7892
+)
+"plugins/xml/doubleTypeInference.ml" 198 7870 7896 "plugins/xml/doubleTypeInference.ml" 198 7870 7940
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 199 7941 7953 "plugins/xml/doubleTypeInference.ml" 199 7941 7957
+type(
+  Environ.unsafe_type_judgment option
+)
+"plugins/xml/doubleTypeInference.ml" 201 7992 8024 "plugins/xml/doubleTypeInference.ml" 201 7992 8032
+type(
+  Names.name * T.types * T.types -> T.types
+)
+ident(
+  ext_ref T.mkProd
+)
+"plugins/xml/doubleTypeInference.ml" 201 7992 8034 "plugins/xml/doubleTypeInference.ml" 201 7992 8038
+type(
+  Names.name
+)
+ident(
+  int_ref name "plugins/xml/doubleTypeInference.ml" 192 7582 7597 "plugins/xml/doubleTypeInference.ml" 192 7582 7601
+)
+"plugins/xml/doubleTypeInference.ml" 201 7992 8040 "plugins/xml/doubleTypeInference.ml" 201 7992 8041
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 193 7612 7624 "plugins/xml/doubleTypeInference.ml" 193 7612 7625
+)
+"plugins/xml/doubleTypeInference.ml" 201 7992 8040 "plugins/xml/doubleTypeInference.ml" 201 7992 8056
+type(
+  T.types
+)
+"plugins/xml/doubleTypeInference.ml" 201 7992 8058 "plugins/xml/doubleTypeInference.ml" 201 7992 8060
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j' "plugins/xml/doubleTypeInference.ml" 196 7769 7781 "plugins/xml/doubleTypeInference.ml" 196 7769 7783
+)
+"plugins/xml/doubleTypeInference.ml" 201 7992 8058 "plugins/xml/doubleTypeInference.ml" 201 7992 8075
+type(
+  T.types
+)
+"plugins/xml/doubleTypeInference.ml" 201 7992 8033 "plugins/xml/doubleTypeInference.ml" 201 7992 8076
+type(
+  Names.name * T.types * T.types
+)
+"plugins/xml/doubleTypeInference.ml" 201 7992 8024 "plugins/xml/doubleTypeInference.ml" 201 7992 8076
+call(
+  stack
+)
+type(
+  T.types
+)
+"plugins/xml/doubleTypeInference.ml" 202 8078 8111 "plugins/xml/doubleTypeInference.ml" 202 8078 8120
+type(
+  Names.constant -> T.constr
+)
+ident(
+  ext_ref T.mkConst
+)
+"plugins/xml/doubleTypeInference.ml" 202 8078 8121 "plugins/xml/doubleTypeInference.ml" 202 8078 8126
+type(
+  Names.constant
+)
+ident(
+  int_ref cprop "plugins/xml/doubleTypeInference.ml" 20 1148 1152 "plugins/xml/doubleTypeInference.ml" 20 1148 1157
+)
+"plugins/xml/doubleTypeInference.ml" 202 8078 8111 "plugins/xml/doubleTypeInference.ml" 202 8078 8126
+call(
+  stack
+)
+type(
+  T.constr
+)
+"plugins/xml/doubleTypeInference.ml" 201 7992 8005 "plugins/xml/doubleTypeInference.ml" 202 8078 8128
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 197 7816 7824 "plugins/xml/doubleTypeInference.ml" 202 8078 8129
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 196 7769 7777 "plugins/xml/doubleTypeInference.ml" 202 8078 8129
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 195 7705 7713 "plugins/xml/doubleTypeInference.ml" 202 8078 8129
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 194 7657 7665 "plugins/xml/doubleTypeInference.ml" 202 8078 8129
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 193 7612 7620 "plugins/xml/doubleTypeInference.ml" 202 8078 8129
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 204 8131 8147 "plugins/xml/doubleTypeInference.ml" 204 8131 8151
+type(
+  Names.name
+)
+ident(
+  def name "plugins/xml/doubleTypeInference.ml" 207 8291 8299 "plugins/xml/doubleTypeInference.ml" 214 8569 8619
+)
+"plugins/xml/doubleTypeInference.ml" 204 8131 8152 "plugins/xml/doubleTypeInference.ml" 204 8131 8154
+type(
+  Term.types
+)
+ident(
+  def c1 "plugins/xml/doubleTypeInference.ml" 207 8291 8299 "plugins/xml/doubleTypeInference.ml" 214 8569 8619
+)
+"plugins/xml/doubleTypeInference.ml" 204 8131 8155 "plugins/xml/doubleTypeInference.ml" 204 8131 8157
+type(
+  Term.types
+)
+ident(
+  def c2 "plugins/xml/doubleTypeInference.ml" 207 8291 8299 "plugins/xml/doubleTypeInference.ml" 214 8569 8619
+)
+"plugins/xml/doubleTypeInference.ml" 204 8131 8158 "plugins/xml/doubleTypeInference.ml" 204 8131 8160
+type(
+  Term.types
+)
+ident(
+  def c3 "plugins/xml/doubleTypeInference.ml" 207 8291 8299 "plugins/xml/doubleTypeInference.ml" 214 8569 8619
+)
+"plugins/xml/doubleTypeInference.ml" 204 8131 8138 "plugins/xml/doubleTypeInference.ml" 204 8131 8161
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 207 8291 8303 "plugins/xml/doubleTypeInference.ml" 207 8291 8305
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 207 8291 8308 "plugins/xml/doubleTypeInference.ml" 207 8291 8315
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 207 8291 8316 "plugins/xml/doubleTypeInference.ml" 207 8291 8319
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 207 8291 8320 "plugins/xml/doubleTypeInference.ml" 207 8291 8325
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 207 8291 8326 "plugins/xml/doubleTypeInference.ml" 207 8291 8328
+type(
+  Term.types
+)
+ident(
+  int_ref c1 "plugins/xml/doubleTypeInference.ml" 204 8131 8152 "plugins/xml/doubleTypeInference.ml" 204 8131 8154
+)
+"plugins/xml/doubleTypeInference.ml" 207 8291 8329 "plugins/xml/doubleTypeInference.ml" 207 8291 8333
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 207 8291 8308 "plugins/xml/doubleTypeInference.ml" 207 8291 8333
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 208 8337 8349 "plugins/xml/doubleTypeInference.ml" 208 8337 8351
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 208 8337 8354 "plugins/xml/doubleTypeInference.ml" 208 8337 8361
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 208 8337 8362 "plugins/xml/doubleTypeInference.ml" 208 8337 8365
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 208 8337 8366 "plugins/xml/doubleTypeInference.ml" 208 8337 8371
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 208 8337 8372 "plugins/xml/doubleTypeInference.ml" 208 8337 8374
+type(
+  Term.types
+)
+ident(
+  int_ref c2 "plugins/xml/doubleTypeInference.ml" 204 8131 8155 "plugins/xml/doubleTypeInference.ml" 204 8131 8157
+)
+"plugins/xml/doubleTypeInference.ml" 208 8337 8375 "plugins/xml/doubleTypeInference.ml" 208 8337 8379
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 208 8337 8354 "plugins/xml/doubleTypeInference.ml" 208 8337 8379
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 209 8383 8395 "plugins/xml/doubleTypeInference.ml" 209 8383 8397
+type(
+  Environ.unsafe_type_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 209 8383 8400 "plugins/xml/doubleTypeInference.ml" 209 8383 8413
+type(
+  Environ.env ->
+  Evd.evar_map -> Environ.unsafe_judgment -> Environ.unsafe_type_judgment
+)
+ident(
+  int_ref type_judgment "plugins/xml/doubleTypeInference.ml" 49 2017 2021 "plugins/xml/doubleTypeInference.ml" 49 2017 2034
+)
+"plugins/xml/doubleTypeInference.ml" 209 8383 8414 "plugins/xml/doubleTypeInference.ml" 209 8383 8417
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 209 8383 8418 "plugins/xml/doubleTypeInference.ml" 209 8383 8423
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 209 8383 8424 "plugins/xml/doubleTypeInference.ml" 209 8383 8426
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j2 "plugins/xml/doubleTypeInference.ml" 208 8337 8349 "plugins/xml/doubleTypeInference.ml" 208 8337 8351
+)
+"plugins/xml/doubleTypeInference.ml" 209 8383 8400 "plugins/xml/doubleTypeInference.ml" 209 8383 8426
+call(
+  stack
+)
+type(
+  Environ.unsafe_type_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 210 8430 8442 "plugins/xml/doubleTypeInference.ml" 210 8430 8446
+type(
+  E.env
+)
+"plugins/xml/doubleTypeInference.ml" 211 8449 8458 "plugins/xml/doubleTypeInference.ml" 211 8449 8468
+type(
+  Term.rel_declaration -> Environ.env -> E.env
+)
+ident(
+  ext_ref E.push_rel
+)
+"plugins/xml/doubleTypeInference.ml" 211 8449 8470 "plugins/xml/doubleTypeInference.ml" 211 8449 8474
+type(
+  Names.name
+)
+ident(
+  int_ref name "plugins/xml/doubleTypeInference.ml" 204 8131 8147 "plugins/xml/doubleTypeInference.ml" 204 8131 8151
+)
+"plugins/xml/doubleTypeInference.ml" 211 8449 8480 "plugins/xml/doubleTypeInference.ml" 211 8449 8482
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j1 "plugins/xml/doubleTypeInference.ml" 207 8291 8303 "plugins/xml/doubleTypeInference.ml" 207 8291 8305
+)
+"plugins/xml/doubleTypeInference.ml" 211 8449 8480 "plugins/xml/doubleTypeInference.ml" 211 8449 8491
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 211 8449 8475 "plugins/xml/doubleTypeInference.ml" 211 8449 8491
+type(
+  Term.constr option
+)
+"plugins/xml/doubleTypeInference.ml" 211 8449 8492 "plugins/xml/doubleTypeInference.ml" 211 8449 8494
+type(
+  E.unsafe_type_judgment
+)
+ident(
+  int_ref j2 "plugins/xml/doubleTypeInference.ml" 209 8383 8395 "plugins/xml/doubleTypeInference.ml" 209 8383 8397
+)
+"plugins/xml/doubleTypeInference.ml" 211 8449 8492 "plugins/xml/doubleTypeInference.ml" 211 8449 8504
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 211 8449 8469 "plugins/xml/doubleTypeInference.ml" 211 8449 8505
+type(
+  Term.rel_declaration
+)
+"plugins/xml/doubleTypeInference.ml" 211 8449 8506 "plugins/xml/doubleTypeInference.ml" 211 8449 8509
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 211 8449 8458 "plugins/xml/doubleTypeInference.ml" 211 8449 8509
+call(
+  stack
+)
+type(
+  E.env
+)
+"plugins/xml/doubleTypeInference.ml" 213 8521 8534 "plugins/xml/doubleTypeInference.ml" 213 8521 8536
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 213 8521 8539 "plugins/xml/doubleTypeInference.ml" 213 8521 8546
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 213 8521 8547 "plugins/xml/doubleTypeInference.ml" 213 8521 8551
+type(
+  Environ.env
+)
+ident(
+  int_ref env1 "plugins/xml/doubleTypeInference.ml" 210 8430 8442 "plugins/xml/doubleTypeInference.ml" 210 8430 8446
+)
+"plugins/xml/doubleTypeInference.ml" 213 8521 8552 "plugins/xml/doubleTypeInference.ml" 213 8521 8557
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 213 8521 8558 "plugins/xml/doubleTypeInference.ml" 213 8521 8560
+type(
+  Term.types
+)
+ident(
+  int_ref c3 "plugins/xml/doubleTypeInference.ml" 204 8131 8158 "plugins/xml/doubleTypeInference.ml" 204 8131 8160
+)
+"plugins/xml/doubleTypeInference.ml" 213 8521 8561 "plugins/xml/doubleTypeInference.ml" 213 8521 8565
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 213 8521 8539 "plugins/xml/doubleTypeInference.ml" 213 8521 8565
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 214 8569 8579 "plugins/xml/doubleTypeInference.ml" 214 8569 8601
+type(
+  Environ.env ->
+  Names.name ->
+  Environ.unsafe_judgment ->
+  Environ.unsafe_type_judgment ->
+  Environ.unsafe_judgment -> E.unsafe_judgment
+)
+ident(
+  ext_ref Typeops.judge_of_letin
+)
+"plugins/xml/doubleTypeInference.ml" 214 8569 8602 "plugins/xml/doubleTypeInference.ml" 214 8569 8605
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 214 8569 8606 "plugins/xml/doubleTypeInference.ml" 214 8569 8610
+type(
+  Names.name
+)
+ident(
+  int_ref name "plugins/xml/doubleTypeInference.ml" 204 8131 8147 "plugins/xml/doubleTypeInference.ml" 204 8131 8151
+)
+"plugins/xml/doubleTypeInference.ml" 214 8569 8611 "plugins/xml/doubleTypeInference.ml" 214 8569 8613
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j1 "plugins/xml/doubleTypeInference.ml" 207 8291 8303 "plugins/xml/doubleTypeInference.ml" 207 8291 8305
+)
+"plugins/xml/doubleTypeInference.ml" 214 8569 8614 "plugins/xml/doubleTypeInference.ml" 214 8569 8616
+type(
+  Environ.unsafe_type_judgment
+)
+ident(
+  int_ref j2 "plugins/xml/doubleTypeInference.ml" 209 8383 8395 "plugins/xml/doubleTypeInference.ml" 209 8383 8397
+)
+"plugins/xml/doubleTypeInference.ml" 214 8569 8617 "plugins/xml/doubleTypeInference.ml" 214 8569 8619
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref j3 "plugins/xml/doubleTypeInference.ml" 213 8521 8534 "plugins/xml/doubleTypeInference.ml" 213 8521 8536
+)
+"plugins/xml/doubleTypeInference.ml" 214 8569 8579 "plugins/xml/doubleTypeInference.ml" 214 8569 8619
+call(
+  stack
+)
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 213 8521 8530 "plugins/xml/doubleTypeInference.ml" 214 8569 8619
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 210 8430 8438 "plugins/xml/doubleTypeInference.ml" 214 8569 8619
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 209 8383 8391 "plugins/xml/doubleTypeInference.ml" 214 8569 8619
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 208 8337 8345 "plugins/xml/doubleTypeInference.ml" 214 8569 8619
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 207 8291 8299 "plugins/xml/doubleTypeInference.ml" 214 8569 8619
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 216 8621 8636 "plugins/xml/doubleTypeInference.ml" 216 8621 8637
+type(
+  Term.types
+)
+ident(
+  def c "plugins/xml/doubleTypeInference.ml" 217 8646 8654 "plugins/xml/doubleTypeInference.ml" 221 8865 8868
+)
+"plugins/xml/doubleTypeInference.ml" 216 8621 8638 "plugins/xml/doubleTypeInference.ml" 216 8621 8639
+type(
+  T.cast_kind
+)
+ident(
+  def k "plugins/xml/doubleTypeInference.ml" 217 8646 8654 "plugins/xml/doubleTypeInference.ml" 221 8865 8868
+)
+"plugins/xml/doubleTypeInference.ml" 216 8621 8640 "plugins/xml/doubleTypeInference.ml" 216 8621 8641
+type(
+  Term.types
+)
+ident(
+  def t "plugins/xml/doubleTypeInference.ml" 217 8646 8654 "plugins/xml/doubleTypeInference.ml" 221 8865 8868
+)
+"plugins/xml/doubleTypeInference.ml" 216 8621 8628 "plugins/xml/doubleTypeInference.ml" 216 8621 8642
+type(
+  (Term.types, Term.types) T.kind_of_term
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8658 "plugins/xml/doubleTypeInference.ml" 217 8646 8660
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8663 "plugins/xml/doubleTypeInference.ml" 217 8646 8670
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8671 "plugins/xml/doubleTypeInference.ml" 217 8646 8674
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8675 "plugins/xml/doubleTypeInference.ml" 217 8646 8680
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8681 "plugins/xml/doubleTypeInference.ml" 217 8646 8682
+type(
+  Term.types
+)
+ident(
+  int_ref c "plugins/xml/doubleTypeInference.ml" 216 8621 8636 "plugins/xml/doubleTypeInference.ml" 216 8621 8637
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8690 "plugins/xml/doubleTypeInference.ml" 217 8646 8710
+type(
+  Reductionops.local_reduction_function
+)
+ident(
+  ext_ref Reductionops.nf_beta
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8711 "plugins/xml/doubleTypeInference.ml" 217 8646 8716
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8717 "plugins/xml/doubleTypeInference.ml" 217 8646 8718
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/xml/doubleTypeInference.ml" 216 8621 8640 "plugins/xml/doubleTypeInference.ml" 216 8621 8641
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8689 "plugins/xml/doubleTypeInference.ml" 217 8646 8719
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8683 "plugins/xml/doubleTypeInference.ml" 217 8646 8720
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8663 "plugins/xml/doubleTypeInference.ml" 217 8646 8720
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 218 8724 8736 "plugins/xml/doubleTypeInference.ml" 218 8724 8738
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 218 8724 8741 "plugins/xml/doubleTypeInference.ml" 218 8724 8748
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 218 8724 8749 "plugins/xml/doubleTypeInference.ml" 218 8724 8752
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 218 8724 8753 "plugins/xml/doubleTypeInference.ml" 218 8724 8758
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 218 8724 8759 "plugins/xml/doubleTypeInference.ml" 218 8724 8760
+type(
+  Term.types
+)
+ident(
+  int_ref t "plugins/xml/doubleTypeInference.ml" 216 8621 8640 "plugins/xml/doubleTypeInference.ml" 216 8621 8641
+)
+"plugins/xml/doubleTypeInference.ml" 218 8724 8761 "plugins/xml/doubleTypeInference.ml" 218 8724 8765
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 218 8724 8741 "plugins/xml/doubleTypeInference.ml" 218 8724 8765
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 219 8769 8774 "plugins/xml/doubleTypeInference.ml" 219 8769 8776
+type(
+  Environ.unsafe_type_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 219 8769 8779 "plugins/xml/doubleTypeInference.ml" 219 8769 8792
+type(
+  Environ.env ->
+  Evd.evar_map -> Environ.unsafe_judgment -> Environ.unsafe_type_judgment
+)
+ident(
+  int_ref type_judgment "plugins/xml/doubleTypeInference.ml" 49 2017 2021 "plugins/xml/doubleTypeInference.ml" 49 2017 2034
+)
+"plugins/xml/doubleTypeInference.ml" 219 8769 8793 "plugins/xml/doubleTypeInference.ml" 219 8769 8796
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 219 8769 8797 "plugins/xml/doubleTypeInference.ml" 219 8769 8802
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 219 8769 8803 "plugins/xml/doubleTypeInference.ml" 219 8769 8805
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref tj "plugins/xml/doubleTypeInference.ml" 218 8724 8736 "plugins/xml/doubleTypeInference.ml" 218 8724 8738
+)
+"plugins/xml/doubleTypeInference.ml" 219 8769 8779 "plugins/xml/doubleTypeInference.ml" 219 8769 8805
+call(
+  stack
+)
+type(
+  Environ.unsafe_type_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 220 8809 8821 "plugins/xml/doubleTypeInference.ml" 220 8809 8822
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 220 8809 8824 "plugins/xml/doubleTypeInference.ml" 220 8809 8825
+type(
+  Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 220 8809 8821 "plugins/xml/doubleTypeInference.ml" 220 8809 8825
+type(
+  Environ.unsafe_judgment * Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 220 8809 8828 "plugins/xml/doubleTypeInference.ml" 220 8809 8849
+type(
+  Environ.env ->
+  Environ.unsafe_judgment ->
+  T.cast_kind ->
+  Environ.unsafe_type_judgment -> Environ.unsafe_judgment * Univ.constraints
+)
+ident(
+  ext_ref Typeops.judge_of_cast
+)
+"plugins/xml/doubleTypeInference.ml" 220 8809 8850 "plugins/xml/doubleTypeInference.ml" 220 8809 8853
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 63 2673 2690 "plugins/xml/doubleTypeInference.ml" 63 2673 2693
+)
+"plugins/xml/doubleTypeInference.ml" 220 8809 8854 "plugins/xml/doubleTypeInference.ml" 220 8809 8856
+type(
+  Environ.unsafe_judgment
+)
+ident(
+  int_ref cj "plugins/xml/doubleTypeInference.ml" 217 8646 8658 "plugins/xml/doubleTypeInference.ml" 217 8646 8660
+)
+"plugins/xml/doubleTypeInference.ml" 220 8809 8857 "plugins/xml/doubleTypeInference.ml" 220 8809 8858
+type(
+  T.cast_kind
+)
+ident(
+  int_ref k "plugins/xml/doubleTypeInference.ml" 216 8621 8638 "plugins/xml/doubleTypeInference.ml" 216 8621 8639
+)
+"plugins/xml/doubleTypeInference.ml" 220 8809 8859 "plugins/xml/doubleTypeInference.ml" 220 8809 8861
+type(
+  Environ.unsafe_type_judgment
+)
+ident(
+  int_ref tj "plugins/xml/doubleTypeInference.ml" 219 8769 8774 "plugins/xml/doubleTypeInference.ml" 219 8769 8776
+)
+"plugins/xml/doubleTypeInference.ml" 220 8809 8828 "plugins/xml/doubleTypeInference.ml" 220 8809 8861
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment * Univ.constraints
+)
+"plugins/xml/doubleTypeInference.ml" 221 8865 8867 "plugins/xml/doubleTypeInference.ml" 221 8865 8868
+type(
+  E.unsafe_judgment
+)
+ident(
+  int_ref j "plugins/xml/doubleTypeInference.ml" 220 8809 8821 "plugins/xml/doubleTypeInference.ml" 220 8809 8822
+)
+"plugins/xml/doubleTypeInference.ml" 220 8809 8817 "plugins/xml/doubleTypeInference.ml" 221 8865 8868
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 219 8769 8770 "plugins/xml/doubleTypeInference.ml" 221 8865 8868
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 218 8724 8732 "plugins/xml/doubleTypeInference.ml" 221 8865 8868
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 217 8646 8654 "plugins/xml/doubleTypeInference.ml" 221 8865 8868
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 68 2837 2841 "plugins/xml/doubleTypeInference.ml" 221 8865 8868
+type(
+  E.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 223 8876 8885 "plugins/xml/doubleTypeInference.ml" 223 8876 8896
+type(
+  Term.types
+)
+ident(
+  def synthesized "plugins/xml/doubleTypeInference.ml" 224 8921 8926 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+)
+"plugins/xml/doubleTypeInference.ml" 223 8876 8899 "plugins/xml/doubleTypeInference.ml" 223 8876 8907
+type(
+  E.unsafe_judgment -> Term.types
+)
+ident(
+  ext_ref E.j_type
+)
+"plugins/xml/doubleTypeInference.ml" 223 8876 8908 "plugins/xml/doubleTypeInference.ml" 223 8876 8917
+type(
+  E.unsafe_judgment
+)
+ident(
+  int_ref judgement "plugins/xml/doubleTypeInference.ml" 67 2818 2825 "plugins/xml/doubleTypeInference.ml" 67 2818 2834
+)
+"plugins/xml/doubleTypeInference.ml" 223 8876 8899 "plugins/xml/doubleTypeInference.ml" 223 8876 8917
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 224 8921 8930 "plugins/xml/doubleTypeInference.ml" 224 8921 8942
+type(
+  Term.constr
+)
+ident(
+  def synthesized' "plugins/xml/doubleTypeInference.ml" 225 8987 8993 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+)
+"plugins/xml/doubleTypeInference.ml" 224 8921 8945 "plugins/xml/doubleTypeInference.ml" 224 8921 8965
+type(
+  Reductionops.local_reduction_function
+)
+ident(
+  ext_ref Reductionops.nf_beta
+)
+"plugins/xml/doubleTypeInference.ml" 224 8921 8966 "plugins/xml/doubleTypeInference.ml" 224 8921 8971
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 63 2673 2694 "plugins/xml/doubleTypeInference.ml" 63 2673 2699
+)
+"plugins/xml/doubleTypeInference.ml" 224 8921 8972 "plugins/xml/doubleTypeInference.ml" 224 8921 8983
+type(
+  Term.types
+)
+ident(
+  int_ref synthesized "plugins/xml/doubleTypeInference.ml" 223 8876 8885 "plugins/xml/doubleTypeInference.ml" 223 8876 8896
+)
+"plugins/xml/doubleTypeInference.ml" 224 8921 8945 "plugins/xml/doubleTypeInference.ml" 224 8921 8983
+call(
+  stack
+)
+type(
+  Term.constr
+)
+"plugins/xml/doubleTypeInference.ml" 225 8987 8997 "plugins/xml/doubleTypeInference.ml" 225 8987 9002
+type(
+  types
+)
+ident(
+  def types "plugins/xml/doubleTypeInference.ml" 242 9788 9788 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+)
+"plugins/xml/doubleTypeInference.ml" 225 8987 9003 "plugins/xml/doubleTypeInference.ml" 225 8987 9006
+type(
+  Term.types
+)
+ident(
+  def res "plugins/xml/doubleTypeInference.ml" 242 9788 9788 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+)
+"plugins/xml/doubleTypeInference.ml" 225 8987 8997 "plugins/xml/doubleTypeInference.ml" 225 8987 9006
+type(
+  types * Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 226 9009 9022 "plugins/xml/doubleTypeInference.ml" 226 9009 9032
+type(
+  Term.types option
+)
+ident(
+  int_ref expectedty "plugins/xml/doubleTypeInference.ml" 63 2673 2705 "plugins/xml/doubleTypeInference.ml" 63 2673 2715
+)
+"plugins/xml/doubleTypeInference.ml" 227 9038 9048 "plugins/xml/doubleTypeInference.ml" 227 9038 9052
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 229 9090 9116 "plugins/xml/doubleTypeInference.ml" 229 9090 9128
+type(
+  Term.types
+)
+ident(
+  int_ref synthesized' "plugins/xml/doubleTypeInference.ml" 224 8921 8930 "plugins/xml/doubleTypeInference.ml" 224 8921 8942
+)
+"plugins/xml/doubleTypeInference.ml" 229 9090 9142 "plugins/xml/doubleTypeInference.ml" 229 9090 9146
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 229 9090 9101 "plugins/xml/doubleTypeInference.ml" 229 9090 9147
+type(
+  types
+)
+"plugins/xml/doubleTypeInference.ml" 229 9090 9149 "plugins/xml/doubleTypeInference.ml" 229 9090 9160
+type(
+  Term.types
+)
+ident(
+  int_ref synthesized "plugins/xml/doubleTypeInference.ml" 223 8876 8885 "plugins/xml/doubleTypeInference.ml" 223 8876 8896
+)
+"plugins/xml/doubleTypeInference.ml" 229 9090 9101 "plugins/xml/doubleTypeInference.ml" 229 9090 9160
+type(
+  types * Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 230 9161 9176 "plugins/xml/doubleTypeInference.ml" 230 9161 9178
+type(
+  Term.types
+)
+ident(
+  def ty "plugins/xml/doubleTypeInference.ml" 230 9161 9179 "plugins/xml/doubleTypeInference.ml" 236 9563 9614
+)
+"plugins/xml/doubleTypeInference.ml" 230 9161 9171 "plugins/xml/doubleTypeInference.ml" 230 9161 9178
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 230 9161 9184 "plugins/xml/doubleTypeInference.ml" 230 9161 9198
+type(
+  Term.constr -> Term.types -> bool
+)
+ident(
+  ext_ref Term.eq_constr
+)
+"plugins/xml/doubleTypeInference.ml" 230 9161 9199 "plugins/xml/doubleTypeInference.ml" 230 9161 9211
+type(
+  Term.constr
+)
+ident(
+  int_ref synthesized' "plugins/xml/doubleTypeInference.ml" 224 8921 8930 "plugins/xml/doubleTypeInference.ml" 224 8921 8942
+)
+"plugins/xml/doubleTypeInference.ml" 230 9161 9212 "plugins/xml/doubleTypeInference.ml" 230 9161 9214
+type(
+  Term.types
+)
+ident(
+  int_ref ty "plugins/xml/doubleTypeInference.ml" 230 9161 9176 "plugins/xml/doubleTypeInference.ml" 230 9161 9178
+)
+"plugins/xml/doubleTypeInference.ml" 230 9161 9184 "plugins/xml/doubleTypeInference.ml" 230 9161 9214
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/xml/doubleTypeInference.ml" 236 9563 9589 "plugins/xml/doubleTypeInference.ml" 236 9563 9591
+type(
+  Term.types
+)
+ident(
+  int_ref ty "plugins/xml/doubleTypeInference.ml" 230 9161 9176 "plugins/xml/doubleTypeInference.ml" 230 9161 9178
+)
+"plugins/xml/doubleTypeInference.ml" 236 9563 9605 "plugins/xml/doubleTypeInference.ml" 236 9563 9609
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 236 9563 9574 "plugins/xml/doubleTypeInference.ml" 236 9563 9610
+type(
+  types
+)
+"plugins/xml/doubleTypeInference.ml" 236 9563 9612 "plugins/xml/doubleTypeInference.ml" 236 9563 9614
+type(
+  Term.types
+)
+ident(
+  int_ref ty "plugins/xml/doubleTypeInference.ml" 230 9161 9176 "plugins/xml/doubleTypeInference.ml" 230 9161 9178
+)
+"plugins/xml/doubleTypeInference.ml" 236 9563 9574 "plugins/xml/doubleTypeInference.ml" 236 9563 9614
+type(
+  types * Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 230 9161 9179 "plugins/xml/doubleTypeInference.ml" 236 9563 9614
+type(
+  types * Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 237 9615 9630 "plugins/xml/doubleTypeInference.ml" 237 9615 9641
+type(
+  Term.types
+)
+ident(
+  def expectedty' "plugins/xml/doubleTypeInference.ml" 238 9645 9656 "plugins/xml/doubleTypeInference.ml" 239 9716 9738
+)
+"plugins/xml/doubleTypeInference.ml" 237 9615 9625 "plugins/xml/doubleTypeInference.ml" 237 9615 9641
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 238 9645 9671 "plugins/xml/doubleTypeInference.ml" 238 9645 9683
+type(
+  Term.types
+)
+ident(
+  int_ref synthesized' "plugins/xml/doubleTypeInference.ml" 224 8921 8930 "plugins/xml/doubleTypeInference.ml" 224 8921 8942
+)
+"plugins/xml/doubleTypeInference.ml" 238 9645 9702 "plugins/xml/doubleTypeInference.ml" 238 9645 9713
+type(
+  Term.types
+)
+ident(
+  int_ref expectedty' "plugins/xml/doubleTypeInference.ml" 237 9615 9630 "plugins/xml/doubleTypeInference.ml" 237 9615 9641
+)
+"plugins/xml/doubleTypeInference.ml" 238 9645 9697 "plugins/xml/doubleTypeInference.ml" 238 9645 9713
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 238 9645 9656 "plugins/xml/doubleTypeInference.ml" 238 9645 9714
+type(
+  types
+)
+"plugins/xml/doubleTypeInference.ml" 239 9716 9727 "plugins/xml/doubleTypeInference.ml" 239 9716 9738
+type(
+  Term.types
+)
+ident(
+  int_ref expectedty' "plugins/xml/doubleTypeInference.ml" 237 9615 9630 "plugins/xml/doubleTypeInference.ml" 237 9615 9641
+)
+"plugins/xml/doubleTypeInference.ml" 238 9645 9656 "plugins/xml/doubleTypeInference.ml" 239 9716 9738
+type(
+  types * Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 226 9009 9016 "plugins/xml/doubleTypeInference.ml" 239 9716 9738
+type(
+  types * Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 242 9788 9791 "plugins/xml/doubleTypeInference.ml" 242 9788 9807
+type(
+  types Acic.CicHash.t -> Acic.CicHash.key -> bool
+)
+ident(
+  ext_ref Acic.CicHash.mem
+)
+"plugins/xml/doubleTypeInference.ml" 242 9788 9808 "plugins/xml/doubleTypeInference.ml" 242 9788 9825
+type(
+  types Acic.CicHash.t
+)
+ident(
+  int_ref subterms_to_types "plugins/xml/doubleTypeInference.ml" 59 2374 2419 "plugins/xml/doubleTypeInference.ml" 59 2374 2436
+)
+"plugins/xml/doubleTypeInference.ml" 242 9788 9826 "plugins/xml/doubleTypeInference.ml" 242 9788 9830
+type(
+  Term.types
+)
+ident(
+  int_ref cstr "plugins/xml/doubleTypeInference.ml" 63 2673 2700 "plugins/xml/doubleTypeInference.ml" 63 2673 2704
+)
+"plugins/xml/doubleTypeInference.ml" 242 9788 9791 "plugins/xml/doubleTypeInference.ml" 242 9788 9830
+call(
+  stack
+)
+type(
+  bool
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9838 "plugins/xml/doubleTypeInference.ml" 243 9836 9845
+type(
+  Pp.std_ppcmds -> unit
+)
+ident(
+  ext_ref Pp.ppnl
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9847 "plugins/xml/doubleTypeInference.ml" 243 9836 9854
+type(
+  Pp.std_ppcmds -> Pp.std_ppcmds -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.( ++ )
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9856 "plugins/xml/doubleTypeInference.ml" 243 9836 9862
+type(
+  string -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Pp.str
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9863 "plugins/xml/doubleTypeInference.ml" 243 9836 9886
+type(
+  string
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9855 "plugins/xml/doubleTypeInference.ml" 243 9836 9887
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9889 "plugins/xml/doubleTypeInference.ml" 243 9836 9907
+type(
+  Term.types -> Pp.std_ppcmds
+)
+ident(
+  ext_ref Printer.pr_lconstr
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9908 "plugins/xml/doubleTypeInference.ml" 243 9836 9912
+type(
+  Term.types
+)
+ident(
+  int_ref cstr "plugins/xml/doubleTypeInference.ml" 63 2673 2700 "plugins/xml/doubleTypeInference.ml" 63 2673 2704
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9888 "plugins/xml/doubleTypeInference.ml" 243 9836 9913
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9846 "plugins/xml/doubleTypeInference.ml" 243 9836 9914
+call(
+  stack
+)
+type(
+  Pp.std_ppcmds
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9838 "plugins/xml/doubleTypeInference.ml" 243 9836 9914
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9917 "plugins/xml/doubleTypeInference.ml" 243 9836 9922
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9923 "plugins/xml/doubleTypeInference.ml" 243 9836 9929
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9917 "plugins/xml/doubleTypeInference.ml" 243 9836 9929
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 243 9836 9837 "plugins/xml/doubleTypeInference.ml" 243 9836 9931
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 242 9788 9788 "plugins/xml/doubleTypeInference.ml" 243 9836 9931
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 244 9934 9941 "plugins/xml/doubleTypeInference.ml" 244 9934 9957
+type(
+  types Acic.CicHash.t -> Acic.CicHash.key -> types -> unit
+)
+ident(
+  ext_ref Acic.CicHash.add
+)
+"plugins/xml/doubleTypeInference.ml" 244 9934 9958 "plugins/xml/doubleTypeInference.ml" 244 9934 9975
+type(
+  types Acic.CicHash.t
+)
+ident(
+  int_ref subterms_to_types "plugins/xml/doubleTypeInference.ml" 59 2374 2419 "plugins/xml/doubleTypeInference.ml" 59 2374 2436
+)
+"plugins/xml/doubleTypeInference.ml" 244 9934 9976 "plugins/xml/doubleTypeInference.ml" 244 9934 9980
+type(
+  Term.types
+)
+ident(
+  int_ref cstr "plugins/xml/doubleTypeInference.ml" 63 2673 2700 "plugins/xml/doubleTypeInference.ml" 63 2673 2704
+)
+"plugins/xml/doubleTypeInference.ml" 244 9934 9981 "plugins/xml/doubleTypeInference.ml" 244 9934 9986
+type(
+  types
+)
+ident(
+  int_ref types "plugins/xml/doubleTypeInference.ml" 225 8987 8997 "plugins/xml/doubleTypeInference.ml" 225 8987 9002
+)
+"plugins/xml/doubleTypeInference.ml" 244 9934 9941 "plugins/xml/doubleTypeInference.ml" 244 9934 9986
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 245 9989 9996 "plugins/xml/doubleTypeInference.ml" 245 9989 10008
+type(
+  Term.types -> Term.types -> Environ.unsafe_judgment
+)
+ident(
+  ext_ref E.make_judge
+)
+"plugins/xml/doubleTypeInference.ml" 245 9989 10009 "plugins/xml/doubleTypeInference.ml" 245 9989 10013
+type(
+  Term.types
+)
+ident(
+  int_ref cstr "plugins/xml/doubleTypeInference.ml" 63 2673 2700 "plugins/xml/doubleTypeInference.ml" 63 2673 2704
+)
+"plugins/xml/doubleTypeInference.ml" 245 9989 10014 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+type(
+  Term.types
+)
+ident(
+  int_ref res "plugins/xml/doubleTypeInference.ml" 225 8987 9003 "plugins/xml/doubleTypeInference.ml" 225 8987 9006
+)
+"plugins/xml/doubleTypeInference.ml" 245 9989 9996 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+call(
+  tail
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 244 9934 9941 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 242 9788 9788 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 225 8987 8993 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 224 8921 8926 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 223 8876 8881 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 67 2818 2821 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 65 2743 2745 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 64 2718 2720 "plugins/xml/doubleTypeInference.ml" 245 9989 10017
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 248 10020 10025 "plugins/xml/doubleTypeInference.ml" 248 10020 10039
+type(
+  Environ.env ->
+  Evd.evar_map ->
+  Names.name array * Term.types array * Term.types array ->
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 248 10020 10040 "plugins/xml/doubleTypeInference.ml" 248 10020 10043
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/doubleTypeInference.ml" 248 10020 10044 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+)
+"plugins/xml/doubleTypeInference.ml" 248 10020 10044 "plugins/xml/doubleTypeInference.ml" 248 10020 10049
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/doubleTypeInference.ml" 248 10020 10050 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+)
+"plugins/xml/doubleTypeInference.ml" 248 10020 10051 "plugins/xml/doubleTypeInference.ml" 248 10020 10056
+type(
+  Names.name array
+)
+ident(
+  def names "plugins/xml/doubleTypeInference.ml" 249 10069 10072 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+)
+"plugins/xml/doubleTypeInference.ml" 248 10020 10057 "plugins/xml/doubleTypeInference.ml" 248 10020 10060
+type(
+  Term.types array
+)
+ident(
+  def lar "plugins/xml/doubleTypeInference.ml" 249 10069 10072 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+)
+"plugins/xml/doubleTypeInference.ml" 248 10020 10061 "plugins/xml/doubleTypeInference.ml" 248 10020 10065
+type(
+  Term.types array
+)
+ident(
+  def vdef "plugins/xml/doubleTypeInference.ml" 249 10069 10072 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+)
+"plugins/xml/doubleTypeInference.ml" 248 10020 10050 "plugins/xml/doubleTypeInference.ml" 248 10020 10066
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 249 10069 10076 "plugins/xml/doubleTypeInference.ml" 249 10069 10082
+type(
+  int
+)
+"plugins/xml/doubleTypeInference.ml" 249 10069 10085 "plugins/xml/doubleTypeInference.ml" 249 10069 10097
+type(
+  Term.types array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"plugins/xml/doubleTypeInference.ml" 249 10069 10098 "plugins/xml/doubleTypeInference.ml" 249 10069 10101
+type(
+  Term.types array
+)
+ident(
+  int_ref lar "plugins/xml/doubleTypeInference.ml" 248 10020 10057 "plugins/xml/doubleTypeInference.ml" 248 10020 10060
+)
+"plugins/xml/doubleTypeInference.ml" 249 10069 10085 "plugins/xml/doubleTypeInference.ml" 249 10069 10101
+type(
+  int
+)
+"plugins/xml/doubleTypeInference.ml" 250 10105 10112 "plugins/xml/doubleTypeInference.ml" 250 10105 10116
+type(
+  Environ.unsafe_judgment array
+)
+"plugins/xml/doubleTypeInference.ml" 251 10119 10123 "plugins/xml/doubleTypeInference.ml" 251 10119 10136
+type(
+  Environ.env ->
+  Evd.evar_map ->
+  Term.types array ->
+  Term.types option array -> Environ.unsafe_judgment array
+)
+ident(
+  int_ref execute_array "plugins/xml/doubleTypeInference.ml" 261 10530 10535 "plugins/xml/doubleTypeInference.ml" 261 10530 10548
+)
+"plugins/xml/doubleTypeInference.ml" 251 10119 10137 "plugins/xml/doubleTypeInference.ml" 251 10119 10140
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 248 10020 10040 "plugins/xml/doubleTypeInference.ml" 248 10020 10043
+)
+"plugins/xml/doubleTypeInference.ml" 251 10119 10141 "plugins/xml/doubleTypeInference.ml" 251 10119 10146
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 248 10020 10044 "plugins/xml/doubleTypeInference.ml" 248 10020 10049
+)
+"plugins/xml/doubleTypeInference.ml" 251 10119 10147 "plugins/xml/doubleTypeInference.ml" 251 10119 10150
+type(
+  Term.types array
+)
+ident(
+  int_ref lar "plugins/xml/doubleTypeInference.ml" 248 10020 10057 "plugins/xml/doubleTypeInference.ml" 248 10020 10060
+)
+"plugins/xml/doubleTypeInference.ml" 251 10119 10152 "plugins/xml/doubleTypeInference.ml" 251 10119 10162
+type(
+  int -> Term.types option -> Term.types option array
+)
+ident(
+  ext_ref Array.make
+)
+"plugins/xml/doubleTypeInference.ml" 251 10119 10163 "plugins/xml/doubleTypeInference.ml" 251 10119 10169
+type(
+  int
+)
+ident(
+  int_ref length "plugins/xml/doubleTypeInference.ml" 249 10069 10076 "plugins/xml/doubleTypeInference.ml" 249 10069 10082
+)
+"plugins/xml/doubleTypeInference.ml" 251 10119 10170 "plugins/xml/doubleTypeInference.ml" 251 10119 10174
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 251 10119 10151 "plugins/xml/doubleTypeInference.ml" 251 10119 10175
+type(
+  Term.types option array
+)
+"plugins/xml/doubleTypeInference.ml" 251 10119 10123 "plugins/xml/doubleTypeInference.ml" 251 10119 10175
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment array
+)
+"plugins/xml/doubleTypeInference.ml" 252 10179 10186 "plugins/xml/doubleTypeInference.ml" 252 10179 10190
+type(
+  Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 252 10179 10193 "plugins/xml/doubleTypeInference.ml" 252 10179 10202
+type(
+  (Environ.unsafe_judgment -> Term.types) ->
+  Environ.unsafe_judgment array -> Term.types array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/xml/doubleTypeInference.ml" 252 10179 10204 "plugins/xml/doubleTypeInference.ml" 252 10179 10226
+type(
+  Environ.env -> Evd.evar_map -> Environ.unsafe_judgment -> Term.types
+)
+ident(
+  int_ref assumption_of_judgment "plugins/xml/doubleTypeInference.ml" 45 1906 1910 "plugins/xml/doubleTypeInference.ml" 45 1906 1932
+)
+"plugins/xml/doubleTypeInference.ml" 252 10179 10227 "plugins/xml/doubleTypeInference.ml" 252 10179 10230
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 248 10020 10040 "plugins/xml/doubleTypeInference.ml" 248 10020 10043
+)
+"plugins/xml/doubleTypeInference.ml" 252 10179 10231 "plugins/xml/doubleTypeInference.ml" 252 10179 10236
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 248 10020 10044 "plugins/xml/doubleTypeInference.ml" 248 10020 10049
+)
+"plugins/xml/doubleTypeInference.ml" 252 10179 10203 "plugins/xml/doubleTypeInference.ml" 252 10179 10237
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment -> Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 252 10179 10238 "plugins/xml/doubleTypeInference.ml" 252 10179 10242
+type(
+  Environ.unsafe_judgment array
+)
+ident(
+  int_ref larj "plugins/xml/doubleTypeInference.ml" 250 10105 10112 "plugins/xml/doubleTypeInference.ml" 250 10105 10116
+)
+"plugins/xml/doubleTypeInference.ml" 252 10179 10193 "plugins/xml/doubleTypeInference.ml" 252 10179 10242
+call(
+  stack
+)
+type(
+  Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 253 10246 10253 "plugins/xml/doubleTypeInference.ml" 253 10246 10257
+type(
+  Environ.env
+)
+"plugins/xml/doubleTypeInference.ml" 253 10246 10260 "plugins/xml/doubleTypeInference.ml" 253 10246 10282
+type(
+  Term.rec_declaration -> Environ.env -> Environ.env
+)
+ident(
+  ext_ref Environ.push_rec_types
+)
+"plugins/xml/doubleTypeInference.ml" 253 10246 10284 "plugins/xml/doubleTypeInference.ml" 253 10246 10289
+type(
+  Names.name array
+)
+ident(
+  int_ref names "plugins/xml/doubleTypeInference.ml" 248 10020 10051 "plugins/xml/doubleTypeInference.ml" 248 10020 10056
+)
+"plugins/xml/doubleTypeInference.ml" 253 10246 10290 "plugins/xml/doubleTypeInference.ml" 253 10246 10294
+type(
+  Term.types array
+)
+ident(
+  int_ref lara "plugins/xml/doubleTypeInference.ml" 252 10179 10186 "plugins/xml/doubleTypeInference.ml" 252 10179 10190
+)
+"plugins/xml/doubleTypeInference.ml" 253 10246 10295 "plugins/xml/doubleTypeInference.ml" 253 10246 10299
+type(
+  Term.types array
+)
+ident(
+  int_ref vdef "plugins/xml/doubleTypeInference.ml" 248 10020 10061 "plugins/xml/doubleTypeInference.ml" 248 10020 10065
+)
+"plugins/xml/doubleTypeInference.ml" 253 10246 10283 "plugins/xml/doubleTypeInference.ml" 253 10246 10300
+type(
+  Term.rec_declaration
+)
+"plugins/xml/doubleTypeInference.ml" 253 10246 10301 "plugins/xml/doubleTypeInference.ml" 253 10246 10304
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 248 10020 10040 "plugins/xml/doubleTypeInference.ml" 248 10020 10043
+)
+"plugins/xml/doubleTypeInference.ml" 253 10246 10260 "plugins/xml/doubleTypeInference.ml" 253 10246 10304
+call(
+  stack
+)
+type(
+  Environ.env
+)
+"plugins/xml/doubleTypeInference.ml" 254 10308 10315 "plugins/xml/doubleTypeInference.ml" 254 10308 10328
+type(
+  Term.types option array
+)
+"plugins/xml/doubleTypeInference.ml" 255 10331 10335 "plugins/xml/doubleTypeInference.ml" 255 10331 10344
+type(
+  (Term.types -> Term.types option) ->
+  Term.types array -> Term.types option array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/xml/doubleTypeInference.ml" 255 10331 10355 "plugins/xml/doubleTypeInference.ml" 255 10331 10356
+type(
+  Term.types
+)
+ident(
+  def i "plugins/xml/doubleTypeInference.ml" 255 10331 10360 "plugins/xml/doubleTypeInference.ml" 255 10331 10385
+)
+"plugins/xml/doubleTypeInference.ml" 255 10331 10366 "plugins/xml/doubleTypeInference.ml" 255 10331 10375
+type(
+  int -> Term.types -> Term.types
+)
+ident(
+  ext_ref Term.lift
+)
+"plugins/xml/doubleTypeInference.ml" 255 10331 10376 "plugins/xml/doubleTypeInference.ml" 255 10331 10382
+type(
+  int
+)
+ident(
+  int_ref length "plugins/xml/doubleTypeInference.ml" 249 10069 10076 "plugins/xml/doubleTypeInference.ml" 249 10069 10082
+)
+"plugins/xml/doubleTypeInference.ml" 255 10331 10383 "plugins/xml/doubleTypeInference.ml" 255 10331 10384
+type(
+  Term.types
+)
+ident(
+  int_ref i "plugins/xml/doubleTypeInference.ml" 255 10331 10355 "plugins/xml/doubleTypeInference.ml" 255 10331 10356
+)
+"plugins/xml/doubleTypeInference.ml" 255 10331 10365 "plugins/xml/doubleTypeInference.ml" 255 10331 10385
+call(
+  stack
+)
+type(
+  Term.types
+)
+"plugins/xml/doubleTypeInference.ml" 255 10331 10360 "plugins/xml/doubleTypeInference.ml" 255 10331 10385
+type(
+  Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 255 10331 10345 "plugins/xml/doubleTypeInference.ml" 255 10331 10386
+type(
+  Term.types -> Term.types option
+)
+"plugins/xml/doubleTypeInference.ml" 255 10331 10387 "plugins/xml/doubleTypeInference.ml" 255 10331 10390
+type(
+  Term.types array
+)
+ident(
+  int_ref lar "plugins/xml/doubleTypeInference.ml" 248 10020 10057 "plugins/xml/doubleTypeInference.ml" 248 10020 10060
+)
+"plugins/xml/doubleTypeInference.ml" 255 10331 10335 "plugins/xml/doubleTypeInference.ml" 255 10331 10390
+call(
+  stack
+)
+type(
+  Term.types option array
+)
+"plugins/xml/doubleTypeInference.ml" 257 10397 10404 "plugins/xml/doubleTypeInference.ml" 257 10397 10409
+type(
+  Environ.unsafe_judgment array
+)
+"plugins/xml/doubleTypeInference.ml" 257 10397 10412 "plugins/xml/doubleTypeInference.ml" 257 10397 10425
+type(
+  Environ.env ->
+  Evd.evar_map ->
+  Term.types array ->
+  Term.types option array -> Environ.unsafe_judgment array
+)
+ident(
+  int_ref execute_array "plugins/xml/doubleTypeInference.ml" 261 10530 10535 "plugins/xml/doubleTypeInference.ml" 261 10530 10548
+)
+"plugins/xml/doubleTypeInference.ml" 257 10397 10426 "plugins/xml/doubleTypeInference.ml" 257 10397 10430
+type(
+  Environ.env
+)
+ident(
+  int_ref env1 "plugins/xml/doubleTypeInference.ml" 253 10246 10253 "plugins/xml/doubleTypeInference.ml" 253 10246 10257
+)
+"plugins/xml/doubleTypeInference.ml" 257 10397 10431 "plugins/xml/doubleTypeInference.ml" 257 10397 10436
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 248 10020 10044 "plugins/xml/doubleTypeInference.ml" 248 10020 10049
+)
+"plugins/xml/doubleTypeInference.ml" 257 10397 10437 "plugins/xml/doubleTypeInference.ml" 257 10397 10441
+type(
+  Term.types array
+)
+ident(
+  int_ref vdef "plugins/xml/doubleTypeInference.ml" 248 10020 10061 "plugins/xml/doubleTypeInference.ml" 248 10020 10065
+)
+"plugins/xml/doubleTypeInference.ml" 257 10397 10442 "plugins/xml/doubleTypeInference.ml" 257 10397 10455
+type(
+  Term.types option array
+)
+ident(
+  int_ref expectedtypes "plugins/xml/doubleTypeInference.ml" 254 10308 10315 "plugins/xml/doubleTypeInference.ml" 254 10308 10328
+)
+"plugins/xml/doubleTypeInference.ml" 257 10397 10412 "plugins/xml/doubleTypeInference.ml" 257 10397 10455
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment array
+)
+"plugins/xml/doubleTypeInference.ml" 258 10459 10466 "plugins/xml/doubleTypeInference.ml" 258 10459 10471
+type(
+  Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 258 10459 10474 "plugins/xml/doubleTypeInference.ml" 258 10459 10483
+type(
+  (Environ.unsafe_judgment -> Term.types) ->
+  Environ.unsafe_judgment array -> Term.types array
+)
+ident(
+  ext_ref Array.map
+)
+"plugins/xml/doubleTypeInference.ml" 258 10459 10484 "plugins/xml/doubleTypeInference.ml" 258 10459 10497
+type(
+  Environ.unsafe_judgment -> Term.types
+)
+ident(
+  ext_ref Environ.j_val
+)
+"plugins/xml/doubleTypeInference.ml" 258 10459 10498 "plugins/xml/doubleTypeInference.ml" 258 10459 10503
+type(
+  Environ.unsafe_judgment array
+)
+ident(
+  int_ref vdefj "plugins/xml/doubleTypeInference.ml" 257 10397 10404 "plugins/xml/doubleTypeInference.ml" 257 10397 10409
+)
+"plugins/xml/doubleTypeInference.ml" 258 10459 10474 "plugins/xml/doubleTypeInference.ml" 258 10459 10503
+call(
+  stack
+)
+type(
+  Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 259 10507 10511 "plugins/xml/doubleTypeInference.ml" 259 10507 10516
+type(
+  Names.name array
+)
+ident(
+  int_ref names "plugins/xml/doubleTypeInference.ml" 248 10020 10051 "plugins/xml/doubleTypeInference.ml" 248 10020 10056
+)
+"plugins/xml/doubleTypeInference.ml" 259 10507 10517 "plugins/xml/doubleTypeInference.ml" 259 10507 10521
+type(
+  Term.types array
+)
+ident(
+  int_ref lara "plugins/xml/doubleTypeInference.ml" 252 10179 10186 "plugins/xml/doubleTypeInference.ml" 252 10179 10190
+)
+"plugins/xml/doubleTypeInference.ml" 259 10507 10522 "plugins/xml/doubleTypeInference.ml" 259 10507 10527
+type(
+  Term.types array
+)
+ident(
+  int_ref vdefv "plugins/xml/doubleTypeInference.ml" 258 10459 10466 "plugins/xml/doubleTypeInference.ml" 258 10459 10471
+)
+"plugins/xml/doubleTypeInference.ml" 259 10507 10510 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 258 10459 10462 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 257 10397 10400 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 254 10308 10311 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 253 10246 10249 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 252 10179 10182 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 250 10105 10108 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 249 10069 10072 "plugins/xml/doubleTypeInference.ml" 259 10507 10528
+type(
+  Names.name array * Term.types array * Term.types array
+)
+"plugins/xml/doubleTypeInference.ml" 261 10530 10535 "plugins/xml/doubleTypeInference.ml" 261 10530 10548
+type(
+  Environ.env ->
+  Evd.evar_map ->
+  Term.types array ->
+  Term.types option array -> Environ.unsafe_judgment array
+)
+"plugins/xml/doubleTypeInference.ml" 261 10530 10549 "plugins/xml/doubleTypeInference.ml" 261 10530 10552
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/doubleTypeInference.ml" 261 10530 10553 "plugins/xml/doubleTypeInference.ml" 265 10670 10690
+)
+"plugins/xml/doubleTypeInference.ml" 261 10530 10553 "plugins/xml/doubleTypeInference.ml" 261 10530 10558
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/doubleTypeInference.ml" 261 10530 10559 "plugins/xml/doubleTypeInference.ml" 265 10670 10690
+)
+"plugins/xml/doubleTypeInference.ml" 261 10530 10559 "plugins/xml/doubleTypeInference.ml" 261 10530 10560
+type(
+  Term.types array
+)
+ident(
+  def v "plugins/xml/doubleTypeInference.ml" 261 10530 10561 "plugins/xml/doubleTypeInference.ml" 265 10670 10690
+)
+"plugins/xml/doubleTypeInference.ml" 261 10530 10561 "plugins/xml/doubleTypeInference.ml" 261 10530 10574
+type(
+  Term.types option array
+)
+ident(
+  def expectedtypes "plugins/xml/doubleTypeInference.ml" 262 10577 10580 "plugins/xml/doubleTypeInference.ml" 265 10670 10690
+)
+"plugins/xml/doubleTypeInference.ml" 262 10577 10584 "plugins/xml/doubleTypeInference.ml" 262 10577 10586
+type(
+  Environ.unsafe_judgment list
+)
+"plugins/xml/doubleTypeInference.ml" 263 10589 10593 "plugins/xml/doubleTypeInference.ml" 263 10589 10605
+type(
+  Environ.env ->
+  Evd.evar_map ->
+  Term.types list -> Term.types option list -> Environ.unsafe_judgment list
+)
+ident(
+  int_ref execute_list "plugins/xml/doubleTypeInference.ml" 267 10692 10697 "plugins/xml/doubleTypeInference.ml" 267 10692 10709
+)
+"plugins/xml/doubleTypeInference.ml" 263 10589 10606 "plugins/xml/doubleTypeInference.ml" 263 10589 10609
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 261 10530 10549 "plugins/xml/doubleTypeInference.ml" 261 10530 10552
+)
+"plugins/xml/doubleTypeInference.ml" 263 10589 10610 "plugins/xml/doubleTypeInference.ml" 263 10589 10615
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 261 10530 10553 "plugins/xml/doubleTypeInference.ml" 261 10530 10558
+)
+"plugins/xml/doubleTypeInference.ml" 263 10589 10617 "plugins/xml/doubleTypeInference.ml" 263 10589 10630
+type(
+  Term.types array -> Term.types list
+)
+ident(
+  ext_ref Array.to_list
+)
+"plugins/xml/doubleTypeInference.ml" 263 10589 10631 "plugins/xml/doubleTypeInference.ml" 263 10589 10632
+type(
+  Term.types array
+)
+ident(
+  int_ref v "plugins/xml/doubleTypeInference.ml" 261 10530 10559 "plugins/xml/doubleTypeInference.ml" 261 10530 10560
+)
+"plugins/xml/doubleTypeInference.ml" 263 10589 10616 "plugins/xml/doubleTypeInference.ml" 263 10589 10633
+call(
+  stack
+)
+type(
+  Term.types list
+)
+"plugins/xml/doubleTypeInference.ml" 263 10589 10635 "plugins/xml/doubleTypeInference.ml" 263 10589 10648
+type(
+  Term.types option array -> Term.types option list
+)
+ident(
+  ext_ref Array.to_list
+)
+"plugins/xml/doubleTypeInference.ml" 263 10589 10649 "plugins/xml/doubleTypeInference.ml" 263 10589 10662
+type(
+  Term.types option array
+)
+ident(
+  int_ref expectedtypes "plugins/xml/doubleTypeInference.ml" 261 10530 10561 "plugins/xml/doubleTypeInference.ml" 261 10530 10574
+)
+"plugins/xml/doubleTypeInference.ml" 263 10589 10634 "plugins/xml/doubleTypeInference.ml" 263 10589 10663
+call(
+  stack
+)
+type(
+  Term.types option list
+)
+"plugins/xml/doubleTypeInference.ml" 263 10589 10593 "plugins/xml/doubleTypeInference.ml" 263 10589 10663
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment list
+)
+"plugins/xml/doubleTypeInference.ml" 265 10670 10674 "plugins/xml/doubleTypeInference.ml" 265 10670 10687
+type(
+  Environ.unsafe_judgment list -> Environ.unsafe_judgment array
+)
+ident(
+  ext_ref Array.of_list
+)
+"plugins/xml/doubleTypeInference.ml" 265 10670 10688 "plugins/xml/doubleTypeInference.ml" 265 10670 10690
+type(
+  Environ.unsafe_judgment list
+)
+ident(
+  int_ref jl "plugins/xml/doubleTypeInference.ml" 262 10577 10584 "plugins/xml/doubleTypeInference.ml" 262 10577 10586
+)
+"plugins/xml/doubleTypeInference.ml" 265 10670 10674 "plugins/xml/doubleTypeInference.ml" 265 10670 10690
+call(
+  tail
+)
+type(
+  Environ.unsafe_judgment array
+)
+"plugins/xml/doubleTypeInference.ml" 262 10577 10580 "plugins/xml/doubleTypeInference.ml" 265 10670 10690
+type(
+  Environ.unsafe_judgment array
+)
+"plugins/xml/doubleTypeInference.ml" 267 10692 10697 "plugins/xml/doubleTypeInference.ml" 267 10692 10709
+type(
+  Environ.env ->
+  Evd.evar_map ->
+  Term.types list -> Term.types option list -> Environ.unsafe_judgment list
+)
+"plugins/xml/doubleTypeInference.ml" 267 10692 10710 "plugins/xml/doubleTypeInference.ml" 267 10692 10713
+type(
+  Environ.env
+)
+ident(
+  def env "plugins/xml/doubleTypeInference.ml" 267 10692 10714 "plugins/xml/doubleTypeInference.ml" 268 10722 10753
+)
+"plugins/xml/doubleTypeInference.ml" 267 10692 10714 "plugins/xml/doubleTypeInference.ml" 267 10692 10719
+type(
+  Evd.evar_map
+)
+ident(
+  def sigma "plugins/xml/doubleTypeInference.ml" 268 10722 10724 "plugins/xml/doubleTypeInference.ml" 268 10722 10753
+)
+"plugins/xml/doubleTypeInference.ml" 268 10722 10724 "plugins/xml/doubleTypeInference.ml" 268 10722 10733
+type(
+  (Term.types -> Term.types option -> Environ.unsafe_judgment) ->
+  Term.types list -> Term.types option list -> Environ.unsafe_judgment list
+)
+ident(
+  ext_ref List.map2
+)
+"plugins/xml/doubleTypeInference.ml" 268 10722 10735 "plugins/xml/doubleTypeInference.ml" 268 10722 10742
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 268 10722 10743 "plugins/xml/doubleTypeInference.ml" 268 10722 10746
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 267 10692 10710 "plugins/xml/doubleTypeInference.ml" 267 10692 10713
+)
+"plugins/xml/doubleTypeInference.ml" 268 10722 10747 "plugins/xml/doubleTypeInference.ml" 268 10722 10752
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 267 10692 10714 "plugins/xml/doubleTypeInference.ml" 267 10692 10719
+)
+"plugins/xml/doubleTypeInference.ml" 268 10722 10734 "plugins/xml/doubleTypeInference.ml" 268 10722 10753
+call(
+  stack
+)
+type(
+  Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 268 10722 10724 "plugins/xml/doubleTypeInference.ml" 268 10722 10753
+call(
+  tail
+)
+type(
+  Term.types list -> Term.types option list -> Environ.unsafe_judgment list
+)
+"plugins/xml/doubleTypeInference.ml" 271 10758 10759 "plugins/xml/doubleTypeInference.ml" 271 10758 10765
+type(
+  Environ.unsafe_judgment -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"plugins/xml/doubleTypeInference.ml" 271 10758 10767 "plugins/xml/doubleTypeInference.ml" 271 10758 10774
+type(
+  Environ.env ->
+  Evd.evar_map -> Term.types -> Term.types option -> Environ.unsafe_judgment
+)
+ident(
+  int_ref execute "plugins/xml/doubleTypeInference.ml" 63 2673 2682 "plugins/xml/doubleTypeInference.ml" 63 2673 2689
+)
+"plugins/xml/doubleTypeInference.ml" 271 10758 10775 "plugins/xml/doubleTypeInference.ml" 271 10758 10778
+type(
+  Environ.env
+)
+ident(
+  int_ref env "plugins/xml/doubleTypeInference.ml" 59 2374 2393 "plugins/xml/doubleTypeInference.ml" 59 2374 2396
+)
+"plugins/xml/doubleTypeInference.ml" 271 10758 10779 "plugins/xml/doubleTypeInference.ml" 271 10758 10784
+type(
+  Evd.evar_map
+)
+ident(
+  int_ref sigma "plugins/xml/doubleTypeInference.ml" 59 2374 2397 "plugins/xml/doubleTypeInference.ml" 59 2374 2402
+)
+"plugins/xml/doubleTypeInference.ml" 271 10758 10785 "plugins/xml/doubleTypeInference.ml" 271 10758 10789
+type(
+  Term.types
+)
+ident(
+  int_ref cstr "plugins/xml/doubleTypeInference.ml" 59 2374 2403 "plugins/xml/doubleTypeInference.ml" 59 2374 2407
+)
+"plugins/xml/doubleTypeInference.ml" 271 10758 10790 "plugins/xml/doubleTypeInference.ml" 271 10758 10800
+type(
+  Term.types option
+)
+ident(
+  int_ref expectedty "plugins/xml/doubleTypeInference.ml" 59 2374 2408 "plugins/xml/doubleTypeInference.ml" 59 2374 2418
+)
+"plugins/xml/doubleTypeInference.ml" 271 10758 10766 "plugins/xml/doubleTypeInference.ml" 271 10758 10801
+call(
+  stack
+)
+type(
+  Environ.unsafe_judgment
+)
+"plugins/xml/doubleTypeInference.ml" 271 10758 10759 "plugins/xml/doubleTypeInference.ml" 271 10758 10801
+type(
+  unit
+)
+"plugins/xml/doubleTypeInference.ml" 63 2673 2674 "plugins/xml/doubleTypeInference.ml" 271 10758 10801
+type(
+  unit
+)

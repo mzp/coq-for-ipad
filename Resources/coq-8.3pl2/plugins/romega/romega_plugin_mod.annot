@@ -1,0 +1,90 @@
+"plugins/romega/romega_plugin_mod.ml" 1 0 6 "plugins/romega/romega_plugin_mod.ml" 1 0 28
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/romega/romega_plugin_mod.ml" 1 0 28 "plugins/romega/romega_plugin_mod.ml" 1 0 41
+type(
+  string
+)
+"plugins/romega/romega_plugin_mod.ml" 1 0 6 "plugins/romega/romega_plugin_mod.ml" 1 0 41
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/romega/romega_plugin_mod.ml" 2 43 49 "plugins/romega/romega_plugin_mod.ml" 2 43 71
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/romega/romega_plugin_mod.ml" 2 43 71 "plugins/romega/romega_plugin_mod.ml" 2 43 83
+type(
+  string
+)
+"plugins/romega/romega_plugin_mod.ml" 2 43 49 "plugins/romega/romega_plugin_mod.ml" 2 43 83
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/romega/romega_plugin_mod.ml" 3 85 91 "plugins/romega/romega_plugin_mod.ml" 3 85 113
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/romega/romega_plugin_mod.ml" 3 85 113 "plugins/romega/romega_plugin_mod.ml" 3 85 123
+type(
+  string
+)
+"plugins/romega/romega_plugin_mod.ml" 3 85 91 "plugins/romega/romega_plugin_mod.ml" 3 85 123
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/romega/romega_plugin_mod.ml" 4 125 131 "plugins/romega/romega_plugin_mod.ml" 4 125 153
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/romega/romega_plugin_mod.ml" 4 125 153 "plugins/romega/romega_plugin_mod.ml" 4 125 172
+type(
+  string
+)
+"plugins/romega/romega_plugin_mod.ml" 4 125 131 "plugins/romega/romega_plugin_mod.ml" 4 125 172
+call(
+  stack
+)
+type(
+  unit
+)
+"plugins/romega/romega_plugin_mod.ml" 5 174 180 "plugins/romega/romega_plugin_mod.ml" 5 174 202
+type(
+  string -> unit
+)
+ident(
+  ext_ref Mltop.add_known_module
+)
+"plugins/romega/romega_plugin_mod.ml" 5 174 202 "plugins/romega/romega_plugin_mod.ml" 5 174 217
+type(
+  string
+)
+"plugins/romega/romega_plugin_mod.ml" 5 174 180 "plugins/romega/romega_plugin_mod.ml" 5 174 217
+call(
+  stack
+)
+type(
+  unit
+)
